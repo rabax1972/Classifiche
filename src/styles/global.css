@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+/* Dark mode con classe .dark su <html>, impostata da script (preferenza salvata o di sistema). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+:root.dark {
+  color-scheme: dark;
+}
+
+/* Focus sempre visibile per la navigazione da tastiera. */
+:focus-visible {
+  outline: 3px solid var(--color-indigo-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

@@ -1,0 +1,74 @@
+name: Aggiorna classifiche
+
+on:
+  schedule:
+    # Ogni giorno alle 04:15 UTC = 06:15 ora legale italiana (05:15 ora solare).
+    - cron: '15 4 * * *'
+  workflow_dispatch:
+    inputs:
+      seed:
+        description: 'Prima run: recupera anche lo storico (Netflix 2 anni, FIMI 5 anni)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-classifiche
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Cache HTTP tra una run e l'altra (es. il file Netflix da 30 MB non viene riscaricato nello stesso giorno).
+      - uses: actions/cache@v6
+        with:
+          path: .cache
+          key: http-${{ github.run_id }}
+          restore-keys: http-
+
+      - name: Ingestion e aggregazione
+        run: npm run ${{ inputs.seed && 'seed' || 'update' }}
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          CLASSIFICHE_CONTACT: ${{ github.server_url }}/${{ github.repository }}
+
+      - name: Test
+        run: npm test
+
+      - name: Commit dei dati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica ai dati"
+            exit 0
+          fi
+          git commit -m "Dati: aggiornamento del $(TZ=Europe/Rome date +%F)"
+          git push
+
+  # I push fatti con GITHUB_TOKEN non avviano altri workflow: il deploy su GitHub Pages va richiamato qui.
+  # Vercel e Netlify invece ricostruiscono il sito da soli a ogni push.
+  deploy:
+    needs: update
+    if: vars.DEPLOY_GITHUB_PAGES == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

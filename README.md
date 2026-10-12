@@ -1,0 +1,159 @@
+# Classifiche Italia
+
+Sito statico che raccoglie le classifiche italiane più popolari in 5 categorie: **Canzoni, Libri, Cinema, Film, Serie TV**.
+Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti gratuite e il cron di GitHub Actions: niente backend, niente costi.
+
+- **Stack**: Astro + TypeScript + Tailwind CSS, output completamente statico.
+- **Dati**: file JSON in [`data/`](data/), generati ogni giorno dagli script in [`scripts/`](scripts/) e committati nel repository.
+- **Uso**: solo non commerciale. È una condizione dei termini d'uso di TMDB e Last.fm, quindi niente pubblicità né abbonamenti.
+
+## Fonti
+
+| Categoria | Oggi / Settimana / Mese | Ufficiale | Chiave |
+|---|---|---|---|
+| Canzoni | Apple Music "Top brani" Italia (RSS). Riserva: Last.fm `geo.getTopTracks` | Anno: Top Singoli FIMI, da Wikipedia | Last.fm (facoltativa) |
+| Libri | Apple Books, ebook a pagamento più venduti in Italia (RSS) | — | — |
+| Cinema | TMDB `movie/now_playing` (region IT), ordinati per popolarità | — | TMDB |
+| Film | TMDB `discover/movie` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
+| Serie TV | TMDB `discover/tv` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
+
+**Fonti valutate e scartate** (verifica di ottobre 2026):
+- **IBS e Libraccio**: le condizioni d'uso (art. 3.2) vietano qualsiasi estrazione automatica.
+- **Mondadori Store**: escluso per prudenza.
+- **Box Office Mojo**: il robots.txt vieta lo scraping.
+- **Cinetel**: nessuna API pubblica.
+- **Deezer**: le classifiche via API sono geolocalizzate; dai server di GitHub restituirebbero dati non italiani.
+- **Sito FIMI**: nessuna condizione d'uso pubblicata; usiamo i dati FIMI riportati da Wikipedia.
+
+### Limiti da conoscere
+
+- **Libri**: non esistono classifiche librarie italiane gratuite e riutilizzabili. La classifica riflette solo gli ebook di Apple Books.
+- **Cinema**: è la popolarità su TMDB dei film in sala, **non** gli incassi.
+- **TMDB**: i termini consentono di conservare i dati per massimo 6 mesi. Le conseguenze:
+  - gli snapshot TMDB più vecchi di 180 giorni vengono cancellati automaticamente;
+  - l'"Anno" calcolato per Cinema, Film e Serie TV copre quindi gli ultimi 180 giorni;
+  - anche le cache di registi e copertine scadono dopo 150 giorni.
+- **Netflix**: il robots.txt di netflix.com blocca i crawler generici. Il file TSV della Top 10 è però pubblicato da Netflix appositamente per il download. Lo scarichiamo al massimo una volta al giorno, e solo quando manca la settimana più recente.
+
+## Setup
+
+Requisiti: Node.js ≥ 22.12.
+
+```bash
+npm install
+cp .env.example .env       # poi inserisci le chiavi (vedi sotto)
+npm run seed               # prima raccolta + storico + generazione classifiche
+npm run dev                # http://localhost:4321
+```
+
+| Comando | Cosa fa |
+|---|---|
+| `npm run ingest` | Raccoglie le classifiche di oggi da tutte le fonti |
+| `npm run aggregate` | Ricalcola `data/charts/` dagli snapshot e dalle classifiche ufficiali |
+| `npm run update` | `ingest` + `aggregate` (quello che fa il cron) |
+| `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
+| `npm test` | Test di aggregazione, adapter e conservazione dati |
+| `npm run build` | Sito statico in `dist/` |
+
+Senza chiavi il sito funziona lo stesso: Canzoni, Libri e Netflix non le richiedono. Le fonti senza chiave vengono saltate e la loro categoria mostra lo stato vuoto.
+
+### Ottenere le chiavi gratuite
+
+- **TMDB** (necessaria per Cinema, Film, Serie TV e per le copertine Netflix):
+  1. Crea un account su [themoviedb.org](https://www.themoviedb.org/signup).
+  2. Vai in *Impostazioni → API* ([link](https://www.themoviedb.org/settings/api)) e richiedi una chiave di tipo *Developer*, indicando un uso personale/non commerciale.
+  3. Copia l'**API Read Access Token** in `TMDB_READ_TOKEN`, oppure l'**API Key** in `TMDB_API_KEY`.
+- **Last.fm** (facoltativa, fonte di riserva per le Canzoni): crea un'applicazione su [last.fm/api/account/create](https://www.last.fm/api/account/create) e copia la *API key* in `LASTFM_API_KEY`.
+- **`CLASSIFICHE_CONTACT`**: l'URL del repository o un'email. Viene inserito nello User-Agent, come richiede la policy delle API di Wikipedia. In GitHub Actions è impostato automaticamente.
+
+Le chiavi non vanno mai committate: `.env` è in `.gitignore`. In GitHub vanno messe nei *secrets*.
+
+## Come funziona
+
+```
+scripts/adapters/*  ──fetch──▶  data/snapshots/{categoria}/{YYYY-MM-DD}.json   (una lista per fonte, ogni giorno)
+                    ──fetch──▶  data/official/{categoria}/{week|year}/{chiave}.json
+                                data/cache/*.json   (registi, copertine: metadati con scadenza)
+                                data/status.json    (esito dell'ultima raccolta per fonte)
+
+scripts/aggregate.ts ─────────▶  data/charts/{categoria}/{oggi|settimana|mese|anno}.json  ──▶  pagine Astro
+```
+
+Ogni riga di classifica ha lo stesso schema ([`src/lib/types.ts`](src/lib/types.ts)):
+`{ rank, title, subtitle, cover, source, sourceUrl, externalId }`.
+
+### Le classifiche per periodo
+
+Le funzioni sono pure e testate, in [`src/lib/aggregate.ts`](src/lib/aggregate.ts) e [`src/lib/build.ts`](src/lib/build.ts).
+
+- **Oggi**: l'ultimo snapshot disponibile, con la variazione rispetto allo snapshot precedente.
+- **Settimana / Mese / Anno** ("Calcolata da snapshot"): finestre mobili di 7, 30 e 365 giorni che terminano all'ultimo snapshot.
+  - **Punteggio Borda**: ogni giorno il 1° posto vale 100 punti, il 2° 99, … il 100° 1.
+  - **Ordinamento**: punti totali, poi posizione migliore, poi giorni in classifica.
+  - **Variazione**: confronto con la finestra precedente della stessa durata.
+  - **Giorni mancanti**: vengono saltati. La pagina indica su quanti giorni di dati è calcolata la classifica.
+- **Ufficiale**: se la categoria ha una classifica ufficiale per il periodo (Netflix settimanale, FIMI annuale), viene mostrata per prima, con l'etichetta "Ufficiale" e una scheda per passare a quella calcolata.
+- **Identità degli elementi**: titolo e primo artista/autore normalizzati (minuscole, senza accenti, senza "feat."). Così lo stesso brano viene riconosciuto tra giorni e fonti diverse.
+- **Fallback**: ogni categoria ha un elenco di fonti in ordine di priorità.
+  - Se la fonte principale fallisce, nello snapshot del giorno vale la successiva.
+  - Se falliscono tutte, non viene scritto nessuno snapshot: il sito continua a mostrare l'ultimo valido, con un avviso e la data.
+
+### Il cron (GitHub Actions)
+
+[`.github/workflows/update.yml`](.github/workflows/update.yml) parte ogni giorno alle 04:15 UTC (06:15 in Italia con l'ora legale). Esegue:
+1. `npm run update`
+2. `npm test`
+3. il commit di `data/`, se qualcosa è cambiato
+
+Lo si può anche avviare a mano da *Actions → Aggiorna classifiche → Run workflow*. Spuntando **seed**, la prima volta recupera anche lo storico.
+
+Configurazione del repository:
+1. *Settings → Secrets and variables → Actions → Secrets*: aggiungi `TMDB_READ_TOKEN` (o `TMDB_API_KEY`) e, se vuoi, `LASTFM_API_KEY`.
+2. *Settings → Actions → General → Workflow permissions*: seleziona **Read and write**, così il workflow può fare il commit dei dati.
+
+## Deploy
+
+- **Vercel / Netlify**: importa il repository. Astro viene rilevato da solo, e per Netlify c'è già [`netlify.toml`](netlify.toml). Il sito si ricostruisce a ogni commit dei dati.
+- **GitHub Pages**:
+  1. *Settings → Pages → Source: GitHub Actions*.
+  2. Aggiungi la variabile di repository `DEPLOY_GITHUB_PAGES = true`.
+  3. [`deploy.yml`](.github/workflows/deploy.yml) imposta da solo `SITE_URL` e `BASE_PATH`. Il cron lo richiama dopo ogni aggiornamento.
+
+## Aggiungere una nuova fonte
+
+1. Verifica che sia gratuita e lecita: termini d'uso, robots.txt, limiti di richieste.
+2. Registra la fonte in [`src/lib/sources.ts`](src/lib/sources.ts), dentro `SOURCES`, con:
+   - `id`, `name`, `homepage`;
+   - `attribution`, il testo che i termini chiedono di mostrare;
+   - `retentionDays`, se i termini limitano la conservazione dei dati.
+3. Crea l'adapter in `scripts/adapters/` implementando `SourceAdapter` ([`scripts/adapters/types.ts`](scripts/adapters/types.ts)):
+
+   ```ts
+   export const miaFonte: SourceAdapter = {
+     id: 'mia-fonte',
+     requiredEnv: [['MIA_FONTE_KEY']],            // facoltativo
+     dailyCategories: ['libri'],
+     async fetchDaily(category, ctx) {
+       const json = await fetchJson<MiaRisposta>('https://…');   // retry, timeout e rate limit inclusi
+       return cleanEntries(json.items.map((x, i) => ({
+         rank: i + 1, title: x.title, subtitle: x.author, cover: x.image,
+         source: 'mia-fonte', sourceUrl: x.url, externalId: x.id,
+       })));
+     },
+     // oppure/inoltre: async fetchOfficial(ctx) { return [/* OfficialChart */]; }
+   };
+   ```
+
+   L'adapter deve **lanciare un errore** se la fonte non risponde o se i dati non sono validi. `cleanEntries` lo fa già per le liste vuote. L'errore viene registrato in `data/status.json` e le altre fonti proseguono.
+4. Aggiungi l'adapter a `ADAPTERS` in [`scripts/adapters/index.ts`](scripts/adapters/index.ts).
+5. In `CATEGORIES` aggiungi l'id a `snapshotSources` della categoria, nell'ordine di priorità voluto. Se è una classifica ufficiale, aggiungilo invece a `officialFor`.
+6. Se serve un limite di richieste specifico, aggiungi l'host a `HOST_INTERVAL` in [`scripts/lib/http.ts`](scripts/lib/http.ts).
+7. Scrivi un test del parser con una risposta d'esempio, come in [`tests/adapters.test.ts`](tests/adapters.test.ts). Infine aggiungi l'attribuzione nel footer, se i termini la richiedono.
+
+## Attribuzioni
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Netflix Top 10. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
+
+Il sito mostra solo titoli, autori, posizioni e le copertine fornite dalle fonti. Non riproduce testi né sinossi.

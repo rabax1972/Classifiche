@@ -1,0 +1,42 @@
+[
+  {
+    "source": "apple-music",
+    "category": "canzoni",
+    "ok": true,
+    "lastAttempt": "2026-10-11T21:25:40.226Z",
+    "lastSuccess": "2026-10-11T21:25:40.226Z",
+    "entries": 50
+  },
+  {
+    "source": "wikipedia-fimi",
+    "category": "canzoni",
+    "ok": true,
+    "lastAttempt": "2026-10-11T21:25:40.226Z",
+    "lastSuccess": "2026-10-11T21:25:40.226Z",
+    "entries": 5
+  },
+  {
+    "source": "netflix",
+    "category": "film",
+    "ok": true,
+    "lastAttempt": "2026-10-11T21:25:40.226Z",
+    "lastSuccess": "2026-10-11T21:25:40.226Z",
+    "entries": 104
+  },
+  {
+    "source": "apple-books",
+    "category": "libri",
+    "ok": true,
+    "lastAttempt": "2026-10-11T21:25:40.226Z",
+    "lastSuccess": "2026-10-11T21:25:40.226Z",
+    "entries": 50
+  },
+  {
+    "source": "netflix",
+    "category": "serie-tv",
+    "ok": true,
+    "lastAttempt": "2026-10-11T21:25:40.226Z",
+    "lastSuccess": "2026-10-11T21:25:40.226Z",
+    "entries": 104
+  }
+]

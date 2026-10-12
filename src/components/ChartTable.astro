@@ -1,0 +1,148 @@
+---
+import { normalizeText } from '../lib/aggregate';
+import { sourceName } from '../lib/sources';
+import type { CategoryId, ChartView } from '../lib/types';
+import ChangeBadge from './ChangeBadge.astro';
+import Cover from './Cover.astro';
+
+interface Props {
+  view: ChartView;
+  category: CategoryId;
+  caption: string;
+}
+const { view, category, caption } = Astro.props;
+const poster = ['cinema', 'film', 'serie-tv'].includes(category);
+const computed = view.kind === 'computed';
+const INITIAL = 20;
+---
+
+<div class="chart" data-initial={INITIAL}>
+  <div class="mb-3 flex flex-wrap items-center gap-3">
+    <label class="relative min-w-0 flex-1 sm:max-w-xs">
+      <span class="sr-only">Cerca nella classifica</span>
+      <svg class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <input
+        type="search"
+        class="chart-search w-full rounded-lg border border-gray-300 bg-white py-2 pr-3 pl-9 text-sm placeholder:text-gray-500 dark:border-gray-700 dark:bg-gray-900"
+        placeholder="Cerca nella classifica…"
+        autocomplete="off"
+      />
+    </label>
+    <p class="chart-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+  </div>
+
+  <div class="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+    <table class="w-full text-left text-sm">
+      <caption class="sr-only">{caption}</caption>
+      <thead class="bg-gray-50 text-xs tracking-wide text-gray-600 uppercase dark:bg-gray-800/60 dark:text-gray-400">
+        <tr>
+          <th scope="col" class="w-10 px-2 py-2 text-right sm:w-12 sm:px-3">Pos.</th>
+          <th scope="col" class="w-12 px-1 py-2 text-center sm:w-16 sm:px-2">Var.</th>
+          <th scope="col" class="px-3 py-2">Titolo</th>
+          {computed && <th scope="col" class="hidden px-3 py-2 text-right md:table-cell">Punti</th>}
+          {computed && <th scope="col" class="hidden px-3 py-2 text-right md:table-cell">Giorni</th>}
+          {computed && <th scope="col" class="hidden px-3 py-2 text-right md:table-cell">Migliore</th>}
+          <th scope="col" class="w-12 px-2 py-2 text-center sm:w-16 sm:px-3">Fonte</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100 dark:divide-gray-800">
+        {
+          view.entries.map((e, i) => (
+            <tr class="chart-row hover:bg-gray-50 dark:hover:bg-gray-800/50" data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)} data-extra={i >= INITIAL ? '' : undefined}>
+              <td class="px-2 py-2 text-right text-base font-bold tabular-nums sm:px-3">{e.rank}</td>
+              <td class="px-1 py-2 text-center text-xs sm:px-2">
+                <ChangeBadge change={e.change} />
+              </td>
+              <td class="px-3 py-2">
+                <div class="flex items-center gap-3">
+                  <Cover src={e.cover} title={e.title} poster={poster} size={poster ? 36 : 44} />
+                  <div class="min-w-0">
+                    <p class="font-semibold break-words">{e.title}</p>
+                    {e.subtitle && <p class="text-gray-600 break-words dark:text-gray-400">{e.subtitle}</p>}
+                    {computed && (
+                      <p class="text-xs text-gray-500 md:hidden dark:text-gray-400">
+                        {e.points} punti · {e.daysInChart} {e.daysInChart === 1 ? 'giorno' : 'giorni'} · migliore {e.bestRank}°
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </td>
+              {computed && <td class="hidden px-3 py-2 text-right tabular-nums md:table-cell">{e.points}</td>}
+              {computed && <td class="hidden px-3 py-2 text-right tabular-nums md:table-cell">{e.daysInChart}</td>}
+              {computed && <td class="hidden px-3 py-2 text-right tabular-nums md:table-cell">{e.bestRank}°</td>}
+              <td class="px-3 py-2 text-center">
+                {e.sourceUrl ? (
+                  <a
+                    href={e.sourceUrl}
+                    class="inline-flex rounded p-1.5 text-indigo-700 hover:bg-indigo-50 dark:text-indigo-300 dark:hover:bg-indigo-950"
+                    rel="noopener"
+                    target="_blank"
+                    aria-label={`${e.title} su ${sourceName(e.source)} (si apre in una nuova scheda)`}
+                    title={sourceName(e.source)}
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"></path></svg>
+                  </a>
+                ) : (
+                  <span class="text-xs text-gray-500">{sourceName(e.source)}</span>
+                )}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+    <p class="chart-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun risultato per questa ricerca.</p>
+  </div>
+
+  {
+    view.entries.length > INITIAL && (
+      <div class="mt-3 text-center">
+        <button
+          type="button"
+          class="chart-more hidden rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"
+          aria-expanded="false"
+        >
+          Mostra tutta la classifica ({view.entries.length})
+        </button>
+      </div>
+    )
+  }
+</div>
+
+<script>
+  // Ricerca e "mostra tutto": miglioramento progressivo, senza JS la tabella è completa.
+  const normalize = (s: string) =>
+    s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+  for (const root of document.querySelectorAll<HTMLElement>('.chart')) {
+    const rows = [...root.querySelectorAll<HTMLTableRowElement>('.chart-row')];
+    const input = root.querySelector<HTMLInputElement>('.chart-search')!;
+    const count = root.querySelector<HTMLElement>('.chart-count')!;
+    const empty = root.querySelector<HTMLElement>('.chart-empty')!;
+    const more = root.querySelector<HTMLButtonElement>('.chart-more');
+    let expanded = false;
+
+    const update = () => {
+      const q = normalize(input.value);
+      let visible = 0;
+      for (const row of rows) {
+        const match = !q || row.dataset.q!.includes(q);
+        const show = match && (q !== '' || expanded || !('extra' in row.dataset));
+        row.hidden = !show;
+        if (show) visible++;
+      }
+      empty.classList.toggle('hidden', visible > 0);
+      if (more) more.classList.toggle('hidden', expanded || q !== '');
+      count.textContent = q ? `${visible} ${visible === 1 ? 'risultato' : 'risultati'}` : '';
+    };
+
+    input.addEventListener('input', update);
+    more?.addEventListener('click', () => {
+      expanded = true;
+      more.setAttribute('aria-expanded', 'true');
+      update();
+      rows[Number(root.dataset.initial)]?.querySelector<HTMLElement>('a')?.focus();
+    });
+    update();
+  }
+</script>

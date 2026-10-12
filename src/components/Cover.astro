@@ -1,0 +1,33 @@
+---
+interface Props {
+  src: string | null;
+  title: string;
+  /** Lato in px; le locandine (film/serie) sono più alte che larghe. */
+  size?: number;
+  poster?: boolean;
+}
+const { src, title, size = 48, poster = false } = Astro.props;
+const w = size;
+const h = poster ? Math.round(size * 1.5) : size;
+const initials = title
+  .split(/\s+/)
+  .filter(Boolean)
+  .slice(0, 2)
+  .map((w) => w[0]!.toUpperCase())
+  .join('');
+---
+
+<div
+  class="relative shrink-0 overflow-hidden rounded bg-gray-200 dark:bg-gray-800"
+  style={`width:${w}px;height:${h}px`}
+>
+  {
+    src ? (
+      <img src={src} alt="" width={w} height={h} loading="lazy" decoding="async" referrerpolicy="no-referrer" class="h-full w-full object-cover" />
+    ) : (
+      <span class="flex h-full w-full items-center justify-center text-xs font-semibold text-gray-500 dark:text-gray-400" aria-hidden="true">
+        {initials}
+      </span>
+    )
+  }
+</div>

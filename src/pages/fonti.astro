@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatDateTime, getStatus } from '../lib/data';
+import { CATEGORIES, SOURCES } from '../lib/sources';
+import { CATEGORY_IDS } from '../lib/types';
+
+const status = getStatus();
+const used = (sourceId: string) =>
+  CATEGORY_IDS.filter(
+    (c) => CATEGORIES[c].snapshotSources.includes(sourceId) || Object.values(CATEGORIES[c].officialFor).some((o) => o.source === sourceId),
+  ).map((c) => CATEGORIES[c].label);
+---
+
+<Base title="Fonti e metodo" current="fonti">
+  <article class="max-w-3xl space-y-10">
+    <header>
+      <h1 class="text-3xl font-bold tracking-tight">Fonti e metodo</h1>
+      <p class="mt-3 text-gray-700 dark:text-gray-300">
+        Tutti i dati provengono da fonti pubbliche e gratuite, usate nel rispetto dei loro termini d'uso. Il sito mostra solo
+        titoli, autori, posizioni e copertine fornite dalle fonti stesse.
+      </p>
+    </header>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-bold">Come sono calcolate le classifiche</h2>
+      <ul class="list-disc space-y-2 pl-5 text-gray-700 dark:text-gray-300">
+        <li><strong>Oggi</strong>: l'ultima classifica raccolta (ogni mattina) dalla fonte principale della categoria.</li>
+        <li>
+          <strong>Settimana, Mese, Anno</strong> <em>(Calcolata da snapshot)</em>: ogni giorno il 1° posto riceve 100 punti, il 2° 99 e così via
+          (metodo Borda). I punti vengono sommati sugli ultimi 7, 30 o 365 giorni. A parità di punti conta la posizione migliore raggiunta, poi il
+          numero di giorni in classifica.
+        </li>
+        <li>
+          <strong>Ufficiale</strong>: quando la fonte pubblica una propria classifica per il periodo (Netflix Top 10 settimanale, Top Singoli annuale
+          FIMI) la mostriamo come classifica principale, accanto a quella calcolata.
+        </li>
+        <li>
+          <strong>Variazione</strong> (▲ ▼ nuovo): confronto con il periodo precedente della stessa durata (ieri, i 7 giorni prima, …) o con la classifica
+          ufficiale precedente.
+        </li>
+        <li>Se una fonte non risponde, resta visibile l'ultimo snapshot valido, con la sua data.</li>
+        <li>
+          I dati TMDB possono essere conservati al massimo 6 mesi: per Cinema, Film e Serie TV la classifica annuale calcolata copre quindi gli
+          ultimi 180 giorni.
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold">Fonti</h2>
+      <dl class="space-y-4">
+        {
+          Object.values(SOURCES).map((s) => (
+            <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-gray-900">
+              <dt class="font-semibold">
+                <a href={s.homepage} class="text-indigo-700 underline dark:text-indigo-300" rel="noopener" target="_blank">{s.name}</a>
+                <span class="ml-2 text-sm font-normal text-gray-600 dark:text-gray-400">{used(s.id).join(', ')}</span>
+              </dt>
+              <dd class="mt-1 text-sm text-gray-700 dark:text-gray-300">{s.attribution}</dd>
+            </div>
+          ))
+        }
+      </dl>
+      <p class="flex items-center gap-3 text-sm text-gray-700 dark:text-gray-300">
+        <img
+          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+          alt="TMDB"
+          width="90"
+          height="12"
+          class="h-3 w-auto"
+        />
+        This product uses the TMDB API but is not endorsed or certified by TMDB.
+      </p>
+      <p class="text-sm text-gray-700 dark:text-gray-300">
+        Le classifiche FIMI sono ricavate da Wikipedia in italiano; il testo di Wikipedia è disponibile con licenza
+        <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
+      </p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-xl font-bold">Stato delle fonti</h2>
+      {
+        status.length === 0 ? (
+          <p class="text-gray-600 dark:text-gray-400">Nessuna raccolta dati ancora eseguita.</p>
+        ) : (
+          <div class="overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-800">
+            <table class="w-full text-left text-sm">
+              <caption class="sr-only">Esito dell'ultima raccolta dati per fonte</caption>
+              <thead class="bg-gray-50 text-xs text-gray-600 uppercase dark:bg-gray-800/60 dark:text-gray-400">
+                <tr>
+                  <th scope="col" class="px-3 py-2">Categoria</th>
+                  <th scope="col" class="px-3 py-2">Fonte</th>
+                  <th scope="col" class="px-3 py-2">Esito</th>
+                  <th scope="col" class="px-3 py-2">Ultimo successo</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100 bg-white dark:divide-gray-800 dark:bg-gray-900">
+                {status.map((s) => (
+                  <tr>
+                    <td class="px-3 py-2">{CATEGORIES[s.category]?.label ?? s.category}</td>
+                    <td class="px-3 py-2">{SOURCES[s.source]?.name ?? s.source}</td>
+                    <td class="px-3 py-2">
+                      {s.ok ? (
+                        <span class="text-emerald-700 dark:text-emerald-400">OK</span>
+                      ) : (
+                        <span class="text-rose-700 dark:text-rose-400" title={s.error}>Non raggiungibile</span>
+                      )}
+                    </td>
+                    <td class="px-3 py-2">{formatDateTime(s.lastSuccess)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )
+      }
+    </section>
+  </article>
+</Base>

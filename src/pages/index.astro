@@ -1,0 +1,74 @@
+---
+import ChangeBadge from '../components/ChangeBadge.astro';
+import Cover from '../components/Cover.astro';
+import Base from '../layouts/Base.astro';
+import { formatDay, getChart, href } from '../lib/data';
+import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
+import { CATEGORY_IDS, type PeriodId } from '../lib/types';
+
+// Per ogni categoria la classifica di oggi; se manca (es. fonte non configurata) la settimanale.
+const cards = CATEGORY_IDS.map((id) => {
+  for (const period of ['oggi', 'settimana'] as PeriodId[]) {
+    const chart = getChart(id, period);
+    const view = chart?.views[0];
+    if (chart && view) return { id, period, chart, view };
+  }
+  return { id, period: 'oggi' as PeriodId, chart: null, view: null };
+});
+---
+
+<Base title="Classifiche Italia">
+  <div class="mb-8 max-w-2xl">
+    <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">Le classifiche italiane, in un posto solo</h1>
+    <p class="mt-3 text-lg text-gray-700 dark:text-gray-300">
+      Canzoni, libri, cinema, film e serie TV: aggiornate ogni giorno da fonti pubbliche e gratuite, con classifiche per giorno, settimana, mese e anno.
+    </p>
+  </div>
+
+  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {
+      cards.map(({ id, period, chart, view }) => {
+        const poster = ['cinema', 'film', 'serie-tv'].includes(id);
+        return (
+          <section class="flex flex-col rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900" aria-labelledby={`h-${id}`}>
+            <div class="mb-1 flex items-baseline justify-between gap-2">
+              <h2 id={`h-${id}`} class="text-xl font-bold">
+                <a href={href(`${id}/${period}`)} class="hover:underline">{CATEGORIES[id].label}</a>
+              </h2>
+              {view && <span class="text-xs font-medium text-gray-500 dark:text-gray-400">{view.kind === 'official' ? view.periodLabel : PERIODS[period].label}</span>}
+            </div>
+            {view ? (
+              <>
+                <p class="mb-4 text-xs text-gray-600 dark:text-gray-400">
+                  {view.sources.map((s) => SOURCES[s]?.name ?? s).join(', ')}
+                  {view.kind !== 'official' && ` · ${formatDay(view.to)}`}
+                  {chart?.stale && ' · dati non aggiornati'}
+                </p>
+                <ol class="mb-4 flex-1 space-y-3">
+                  {view.entries.slice(0, 5).map((e) => (
+                    <li class="flex items-center gap-3">
+                      <span class="w-5 text-right text-lg font-bold tabular-nums">{e.rank}</span>
+                      <Cover src={e.cover} title={e.title} size={poster ? 32 : 40} poster={poster} />
+                      <div class="min-w-0 flex-1">
+                        <p class="truncate font-semibold" title={e.title}>{e.title}</p>
+                        {e.subtitle && <p class="truncate text-sm text-gray-600 dark:text-gray-400">{e.subtitle}</p>}
+                      </div>
+                      <span class="text-xs">
+                        <ChangeBadge change={e.change} />
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              </>
+            ) : (
+              <p class="mb-4 flex-1 py-8 text-center text-gray-600 dark:text-gray-400">Nessun dato disponibile al momento.</p>
+            )}
+            <a href={href(`${id}/${period}`)} class="mt-auto text-sm font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
+              Classifica completa<span class="sr-only"> {CATEGORIES[id].label}</span> →
+            </a>
+          </section>
+        );
+      })
+    }
+  </div>
+</Base>

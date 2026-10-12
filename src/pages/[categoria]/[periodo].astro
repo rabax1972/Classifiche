@@ -1,0 +1,12 @@
+---
+import ChartPage from '../../components/ChartPage.astro';
+import { CATEGORY_IDS, PERIOD_IDS, type CategoryId, type PeriodId } from '../../lib/types';
+
+export function getStaticPaths() {
+  return CATEGORY_IDS.flatMap((categoria) => PERIOD_IDS.map((periodo) => ({ params: { categoria, periodo } })));
+}
+
+const { categoria, periodo } = Astro.params as { categoria: CategoryId; periodo: PeriodId };
+---
+
+<ChartPage category={categoria} period={periodo} />
