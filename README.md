@@ -113,11 +113,12 @@ Configurazione del repository:
 
 ## Deploy
 
-- **Vercel / Netlify**: importa il repository. Astro viene rilevato da solo, e per Netlify c'è già [`netlify.toml`](netlify.toml). Il sito si ricostruisce a ogni commit dei dati.
-- **GitHub Pages**:
-  1. *Settings → Pages → Source: GitHub Actions*.
-  2. Aggiungi la variabile di repository `DEPLOY_GITHUB_PAGES = true`.
-  3. [`deploy.yml`](.github/workflows/deploy.yml) imposta da solo `SITE_URL` e `BASE_PATH`. Il cron lo richiama dopo ogni aggiornamento.
+Il sito è pubblicato su GitHub Pages: **https://rabax1972.github.io/Classifiche/**
+
+1. *Settings → Pages → Source*: seleziona **GitHub Actions** (una volta sola).
+2. [`deploy.yml`](.github/workflows/deploy.yml) pubblica a ogni push su `main` e dopo ogni aggiornamento giornaliero dei dati, impostando da solo `SITE_URL` e `BASE_PATH`.
+
+In alternativa il sito funziona anche su Vercel o Netlify (c'è già [`netlify.toml`](netlify.toml)): basta importare il repository.
 
 ## Aggiungere una nuova fonte
 

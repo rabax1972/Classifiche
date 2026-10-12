@@ -1,7 +1,6 @@
 name: Deploy su GitHub Pages
 
-# Attivo solo se la variabile di repository DEPLOY_GITHUB_PAGES vale "true"
-# (Settings → Secrets and variables → Actions → Variables).
+# Richiede Settings → Pages → Source: "GitHub Actions".
 
 on:
   push:
@@ -20,7 +19,6 @@ concurrency:
 
 jobs:
   build:
-    if: vars.DEPLOY_GITHUB_PAGES == 'true'
     runs-on: ubuntu-latest
     steps:
       # github.ref (non lo sha dell'evento): include il commit dei dati appena fatto da update.yml.

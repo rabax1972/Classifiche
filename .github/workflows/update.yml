@@ -63,10 +63,8 @@ jobs:
           git push
 
   # I push fatti con GITHUB_TOKEN non avviano altri workflow: il deploy su GitHub Pages va richiamato qui.
-  # Vercel e Netlify invece ricostruiscono il sito da soli a ogni push.
   deploy:
     needs: update
-    if: vars.DEPLOY_GITHUB_PAGES == 'true'
     uses: ./.github/workflows/deploy.yml
     permissions:
       contents: read
