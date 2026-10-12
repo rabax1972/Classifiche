@@ -1,0 +1,527 @@
+{
+  "movie:72 hours": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+      "url": "https://www.themoviedb.org/movie/949838"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.448Z"
+  },
+  "movie:anacondas trail of blood": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/swGX2UR8s4HFqoo5giOTuLHk0nV.jpg",
+      "url": "https://www.themoviedb.org/movie/19543"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.543Z"
+  },
+  "movie:bare hands": {
+    "value": {
+      "cover": null,
+      "url": "https://www.themoviedb.org/movie/1390992"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.298Z"
+  },
+  "movie:best of the best": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9soOjsZ91vtMzypK2F3MC378JI5.jpg",
+      "url": "https://www.themoviedb.org/movie/1514863"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.902Z"
+  },
+  "movie:black adam": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/aYuIxai1Th4pil9uudkAfK7R10C.jpg",
+      "url": "https://www.themoviedb.org/movie/436270"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.435Z"
+  },
+  "movie:buen camino": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gYvlK73gKsJAaGjndyyiaZerEFb.jpg",
+      "url": "https://www.themoviedb.org/movie/1472638"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.718Z"
+  },
+  "movie:che dio perdona a tutti": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/tj7kgHJsIQIu9Ly4tsLLBER76BX.jpg",
+      "url": "https://www.themoviedb.org/movie/1508701"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.733Z"
+  },
+  "movie:daddy s in trouble": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/7dBVGQGV3H4mgMxN0He8Ry2MycZ.jpg",
+      "url": "https://www.themoviedb.org/movie/1315843"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.400Z"
+  },
+  "movie:daredevil": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/mtZuruaJssrLleI53VogSve44D9.jpg",
+      "url": "https://www.themoviedb.org/movie/9480"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.594Z"
+  },
+  "movie:demon slayer kimetsu no yaiba infinity castle i": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/8uYxx23KyDnbDkA3eQSNECVeOiS.jpg",
+      "url": "https://www.themoviedb.org/movie/1311034"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.005Z"
+  },
+  "movie:doing life": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/5nZVjsCk5tWyyhLGt5U2TxsR85w.jpg",
+      "url": "https://www.themoviedb.org/movie/1458857"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.861Z"
+  },
+  "movie:don t say good luck": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+      "url": "https://www.themoviedb.org/movie/1504358"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.117Z"
+  },
+  "movie:due date": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/r5oxS5BeuFlaWZCOG6eTYBl9r5u.jpg",
+      "url": "https://www.themoviedb.org/movie/41733"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.291Z"
+  },
+  "movie:edge of tomorrow": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/AbzpU4ookiyWFmiq1bTZwjNl7Y1.jpg",
+      "url": "https://www.themoviedb.org/movie/137113"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.171Z"
+  },
+  "movie:elize shadows of a woman": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/984sugm7oz9SiZ12CJvYCZEVFzG.jpg",
+      "url": "https://www.themoviedb.org/movie/1487861"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.583Z"
+  },
+  "movie:extinction": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/qjnNdjrZIdi7d316SjjkgEjJRSg.jpg",
+      "url": "https://www.themoviedb.org/movie/429415"
+    },
+    "fetchedAt": "2026-10-12T07:25:04.865Z"
+  },
+  "movie:facing el chapo": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+      "url": "https://www.themoviedb.org/movie/1621552"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.978Z"
+  },
+  "movie:franco battiato the long journey": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/3090IzGzstklsl19mCqzl5q2W5G.jpg",
+      "url": "https://www.themoviedb.org/movie/1577457"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.759Z"
+  },
+  "movie:grand theft auto vi an extended look": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/5QRfMgept54uq06JtP1nBiR7s5s.jpg",
+      "url": "https://www.themoviedb.org/movie/1744462"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.698Z"
+  },
+  "movie:kraven the hunter": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/vQZ11oQtuapB6xYgBTkM8VFAu86.jpg",
+      "url": "https://www.themoviedb.org/movie/539972"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.949Z"
+  },
+  "movie:l amore sta bene su tutto": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/uGevFszuvC2yVGb3foshoPQNhgP.jpg",
+      "url": "https://www.themoviedb.org/movie/1663996"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.971Z"
+  },
+  "movie:monster in law": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/cLtaxWQGSGlSP03GgUKVXR2UD0M.jpg",
+      "url": "https://www.themoviedb.org/movie/4379"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.492Z"
+  },
+  "movie:my best friend his girlfriend and me": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/lzWx26LdtotDmRu1H4dU3jpS72x.jpg",
+      "url": "https://www.themoviedb.org/movie/1589248"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.543Z"
+  },
+  "movie:nando between two worlds a sintonia film": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/15yM06ehNaDvaOosmNbUEwgetWf.jpg",
+      "url": "https://www.themoviedb.org/movie/1487864"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.027Z"
+  },
+  "movie:novocaine": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gzHJSn8I1QxGScttymjbTifloN0.jpg",
+      "url": "https://www.themoviedb.org/movie/1195506"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.163Z"
+  },
+  "movie:practical magic": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/nQnvBhl8YMrtaKMb6juzNE4znXu.jpg",
+      "url": "https://www.themoviedb.org/movie/6435"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.085Z"
+  },
+  "movie:race for glory audi vs lancia": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/zlLPXso858vUMIIy8ISLQ0qFgct.jpg",
+      "url": "https://www.themoviedb.org/movie/972433"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.627Z"
+  },
+  "movie:robin hood": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9kJzfDEl8zVBvNtiqpXZBsS8XDk.jpg",
+      "url": "https://www.themoviedb.org/movie/375588"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.845Z"
+  },
+  "movie:stella gemella": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/bplj5wOuhfXrilWV8VCKstVubNG.jpg",
+      "url": "https://www.themoviedb.org/movie/1549128"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.265Z"
+  },
+  "movie:the beekeeper": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/ctJLZO2E4gWkSwXG06y9bE2jfTN.jpg",
+      "url": "https://www.themoviedb.org/movie/866398"
+    },
+    "fetchedAt": "2026-10-12T07:25:04.592Z"
+  },
+  "movie:the heat": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/lF53ZX8JtpFkGrSokxnnmn0pSMa.jpg",
+      "url": "https://www.themoviedb.org/movie/136795"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.405Z"
+  },
+  "movie:the last house": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+      "url": "https://www.themoviedb.org/movie/1284041"
+    },
+    "fetchedAt": "2026-10-12T07:25:04.729Z"
+  },
+  "movie:the little things": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/g9FwK6No8RCumQCFrN2rZycuz3X.jpg",
+      "url": "https://www.themoviedb.org/movie/602269"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.818Z"
+  },
+  "movie:the secret woman": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/lbmREVuIj0R3K1XOXkgXg2J6oED.jpg",
+      "url": "https://www.themoviedb.org/movie/600251"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.108Z"
+  },
+  "movie:the sixth sense": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/1Dth4Jbh7FzPguUIddmK43deTCy.jpg",
+      "url": "https://www.themoviedb.org/movie/745"
+    },
+    "fetchedAt": "2026-10-12T07:25:07.678Z"
+  },
+  "movie:the whisper man": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/yghwNwvMjoHOm4TXHDmqSynbbMv.jpg",
+      "url": "https://www.themoviedb.org/movie/860508"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.836Z"
+  },
+  "movie:the widower til death do us part": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/8MmN3JmgscGiAP3bUlrc2rLsGDq.jpg",
+      "url": "https://www.themoviedb.org/movie/1758536"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.147Z"
+  },
+  "movie:to the max": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gJo7w34ahFZi6p4UIBALjKNxIz9.jpg",
+      "url": "https://www.themoviedb.org/movie/116739"
+    },
+    "fetchedAt": "2026-10-12T07:25:06.259Z"
+  },
+  "movie:turning point generation 9 11": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+      "url": "https://www.themoviedb.org/movie/1752159"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.354Z"
+  },
+  "movie:unabomber": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "url": "https://www.themoviedb.org/movie/1492640"
+    },
+    "fetchedAt": "2026-10-12T07:25:09.029Z"
+  },
+  "movie:what a girl wants": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/g4LHQPjsp4sZwuj4VaoF2weu9q2.jpg",
+      "url": "https://www.themoviedb.org/movie/10735"
+    },
+    "fetchedAt": "2026-10-12T07:25:05.306Z"
+  },
+  "movie:white chicks": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/aHTUpo45qy9QYIOnVITGGqLoVcA.jpg",
+      "url": "https://www.themoviedb.org/movie/12153"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.449Z"
+  },
+  "movie:why did i get married again": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
+      "url": "https://www.themoviedb.org/movie/1522689"
+    },
+    "fetchedAt": "2026-10-12T07:25:08.218Z"
+  },
+  "movie:wrath of the titans": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/hD5sul1ZTE3h3AicOQQstJJfoJs.jpg",
+      "url": "https://www.themoviedb.org/movie/57165"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.605Z"
+  },
+  "tv:all the truth in my lies": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/xrXT1n7o77XOVsQKAoS7lIg2emc.jpg",
+      "url": "https://www.themoviedb.org/tv/292558"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.970Z"
+  },
+  "tv:beauty in black": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
+      "url": "https://www.themoviedb.org/tv/246246"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.383Z"
+  },
+  "tv:blood sacrifice": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/iRsIvqIIGNjFWbU1IXVH29vPRCk.jpg",
+      "url": "https://www.themoviedb.org/tv/66639"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.101Z"
+  },
+  "tv:conversations with a killer the charles manson tapes": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/8yyWUZjItJEO5dpKyCE8IghET9i.jpg",
+      "url": "https://www.themoviedb.org/tv/330320"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.560Z"
+  },
+  "tv:crew girl": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/jkPZW1iHNvlI6077NxSxwITa1tj.jpg",
+      "url": "https://www.themoviedb.org/tv/300507"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.367Z"
+  },
+  "tv:death of the pastor s wife": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/o8H6HmQNt2qx5bIfmvuI6VJn13A.jpg",
+      "url": "https://www.themoviedb.org/tv/331616"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.659Z"
+  },
+  "tv:east of eden": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/4Iqca4DNsyhG9dpHiKSejiNyJez.jpg",
+      "url": "https://www.themoviedb.org/tv/258165"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.637Z"
+  },
+  "tv:fauda": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9qcSv214P4KGp6BaMK22Kj2dMft.jpg",
+      "url": "https://www.themoviedb.org/tv/69557"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.639Z"
+  },
+  "tv:gabby s dollhouse": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/i9BtALR0NHy6nQVM9kdaGPxwTfs.jpg",
+      "url": "https://www.themoviedb.org/tv/111474"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.091Z"
+  },
+  "tv:habeas corpus": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/pMkQ9LyDJIkMjyfnJ7TNJbKSEEv.jpg",
+      "url": "https://www.themoviedb.org/tv/308963"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.905Z"
+  },
+  "tv:i will find you": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9dBe3lN3LfWyBAWGXflVEVCWrpt.jpg",
+      "url": "https://www.themoviedb.org/tv/278178"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.292Z"
+  },
+  "tv:lego one piece": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/AuhrT2YLjhcsVUhLg6SS2Ig3EBC.jpg",
+      "url": "https://www.themoviedb.org/tv/318918"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.773Z"
+  },
+  "tv:minerva academy": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/cTTXRklz5tJWX6wrN3XrjHo34H1.jpg",
+      "url": "https://www.themoviedb.org/tv/312557"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.355Z"
+  },
+  "tv:monster the lizzie borden story": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/unEtLaqVmShnmzKMDTZz569cgQm.jpg",
+      "url": "https://www.themoviedb.org/tv/299939"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.777Z"
+  },
+  "tv:mourinho": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
+      "url": "https://www.themoviedb.org/tv/329274"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.024Z"
+  },
+  "tv:my brilliant career": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/biuErDJnNoxKccF7NHGCRIyaGIo.jpg",
+      "url": "https://www.themoviedb.org/tv/309798"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.892Z"
+  },
+  "tv:my life with the walter boys": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/oJ8SVHRe9ZzZMRSJAfebGdp78Yl.jpg",
+      "url": "https://www.themoviedb.org/tv/199001"
+    },
+    "fetchedAt": "2026-10-12T07:25:10.758Z"
+  },
+  "tv:not a stranger": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/SPJNKY6EiSx11quScUqkWTXN1l.jpg",
+      "url": "https://www.themoviedb.org/tv/320760"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.903Z"
+  },
+  "tv:oasis": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/vWBtcjETIUd45OoIULEqc6qZxM7.jpg",
+      "url": "https://www.themoviedb.org/tv/296285"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.695Z"
+  },
+  "tv:our sticky love": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/ny8zYj40mWGTgKJi1a8hjNFUj9n.jpg",
+      "url": "https://www.themoviedb.org/tv/291496"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.426Z"
+  },
+  "tv:outer banks": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "url": "https://www.themoviedb.org/tv/100757"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.967Z"
+  },
+  "tv:physical 100 italy": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/6g40xT8B2Tv2tGrq7QolksoZnIa.jpg",
+      "url": "https://www.themoviedb.org/tv/324111"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.231Z"
+  },
+  "tv:salish e jordan matter": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/7OAira31G4FLCG64cIdUe9R7UIj.jpg",
+      "url": "https://www.themoviedb.org/tv/318906"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.523Z"
+  },
+  "tv:seal team": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
+      "url": "https://www.themoviedb.org/tv/71789"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.249Z"
+  },
+  "tv:the bombing of pan am 103": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/jWMG8htFNfc4eeu9UcPszql3Xa6.jpg",
+      "url": "https://www.themoviedb.org/tv/248226"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.160Z"
+  },
+  "tv:the cleaning lady": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/aoTQhDKiuKpn599yNxp03wr2ZHu.jpg",
+      "url": "https://www.themoviedb.org/tv/125282"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.107Z"
+  },
+  "tv:the doll": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/vQAEVcAWRvcn2qyA1G9TkUNM95P.jpg",
+      "url": "https://www.themoviedb.org/tv/214191"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.230Z"
+  },
+  "tv:the final problem": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/hILt9HJjwU6F8KMg8LFWgethuxF.jpg",
+      "url": "https://www.themoviedb.org/tv/290720"
+    },
+    "fetchedAt": "2026-10-12T07:25:14.512Z"
+  },
+  "tv:the gentlemen": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+      "url": "https://www.themoviedb.org/tv/236235"
+    },
+    "fetchedAt": "2026-10-12T07:25:12.831Z"
+  },
+  "tv:the perfect lie": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/lrFE7DdRXu6ofhCm9dLNzsyLg92.jpg",
+      "url": "https://www.themoviedb.org/tv/307478"
+    },
+    "fetchedAt": "2026-10-12T07:25:13.503Z"
+  },
+  "tv:wrath": {
+    "value": {
+      "cover": null,
+      "url": "https://www.themoviedb.org/tv/113125"
+    },
+    "fetchedAt": "2026-10-12T07:25:11.830Z"
+  }
+}
