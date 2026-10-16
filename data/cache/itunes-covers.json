@@ -125,6 +125,13 @@
     },
     "fetchedAt": "2026-10-11T21:26:14.509Z"
   },
+  "arai|medy": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/78/34/a6/7834a679-7dfe-5be6-d2c3-f2614e695ded/190295356194.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/pookie-feat-capo-plaza-remix/1478164393?i=1478164567&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:52.438Z"
+  },
   "baby mama|don pero": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/71/df/1671df3a-2260-253f-7207-9c3dbddf53c1/193483775180.jpg/200x200bb.jpg",
@@ -195,6 +202,13 @@
     },
     "fetchedAt": "2026-10-11T21:27:02.700Z"
   },
+  "bellissima|annalisa": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1b/86/e6/1b86e6dc-eca8-6b90-f6ac-6bc22c098380/5054197268748.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/bellissima/1641074858?i=1641074859&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:04.671Z"
+  },
   "bellissimissima|alfa": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/5a/e3/345ae3a6-ee36-78ca-6abf-a083d6ded710/8057715993600.jpg/200x200bb.jpg",
@@ -208,6 +222,13 @@
       "url": null
     },
     "fetchedAt": "2026-10-12T07:25:30.252Z"
+  },
+  "birds of a feather|billie eilish": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/birds-of-a-feather/1739659134?i=1739659142&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:31.455Z"
   },
   "black nirvana|elodie": {
     "value": {
@@ -293,6 +314,13 @@
     },
     "fetchedAt": "2026-10-15T04:43:19.899Z"
   },
+  "chiagne|geolier": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f3/fb/5a/f3fb5a38-3d91-02be-0061-5f1bf3cbd7f5/196589597939.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/chiagne-feat-lazza-takagi-ketra/1650810001?i=1650810351&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:22.425Z"
+  },
   "chiamo io chiami tu|gaia": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/cd/da/8ccdda0a-c102-97b7-8c3c-7c8c374e7c87/196872830132.jpg/200x200bb.jpg",
@@ -327,6 +355,13 @@
       "url": "https://music.apple.com/it/album/come-vuoi-acoustic-version/1687517629?i=1687517632&uo=4"
     },
     "fetchedAt": "2026-10-15T04:43:13.987Z"
+  },
+  "cookies n cream|gue": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/you-should-see-me-in-a-crown/1450695723?i=1450695745&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:01.496Z"
   },
   "crudelia i nervi|marracash": {
     "value": {
@@ -433,6 +468,20 @@
     },
     "fetchedAt": "2026-10-15T04:43:16.922Z"
   },
+  "due|elodie": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/db/91/d2/db91d2b9-d7f8-c9df-f6c3-6ca92a1eb99c/23UMGIM22165.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/due-acoustic-apple-music-home-session/1675548537?i=1675548540&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:28.392Z"
+  },
+  "duemilaminuti|mara sattei": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4c/12/a0/4c12a078-2c4d-7cf2-cfee-c337d109e6a7/196589814067.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/duemilaminuti/1669057674?i=1669057675&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:55.422Z"
+  },
   "el pibe de oro|geolier": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/4f/7c/cf4f7c6b-21cc-fd24-3327-7f6d20a90c65/8033116202428.jpg/200x200bb.jpg",
@@ -482,12 +531,26 @@
     },
     "fetchedAt": "2026-10-13T04:35:10.937Z"
   },
+  "flowers|miley cyrus": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/67/ff/8c67ff91-31c3-3fef-1884-ce3ec89f3af4/196589946874.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/flowers/1674691585?i=1674691586&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:49.387Z"
+  },
   "fragili|il tre": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/78/f8/51/78f85161-fe5b-6cfa-27ca-56320985a50e/5054197949944.jpg/200x200bb.jpg",
       "url": "https://music.apple.com/it/album/fragili/1728036243?i=1728036246&uo=4"
     },
     "fetchedAt": "2026-10-15T04:43:31.933Z"
+  },
+  "fragole|achille lauro": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/db/54/73db543f-863d-4141-9eff-7572b3040e22/5054197680564.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/fragole/1686487307?i=1686487326&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:16.473Z"
   },
   "fuorilegge|rose villain": {
     "value": {
@@ -502,6 +565,13 @@
       "url": "https://music.apple.com/it/album/gata-only-italian-remix/1747025622?i=1747025625&uo=4"
     },
     "fetchedAt": "2026-10-12T07:25:18.227Z"
+  },
+  "gelosa|finesse": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/0d/f3/ea0df368-8e03-8643-45f3-c562f5c617ce/196589908476.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/gelosa-feat-shiva-sfera-ebbasta-gu%C3%A8/1671825583?i=1671825584&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:40.408Z"
   },
   "ginevra|luche": {
     "value": {
@@ -552,6 +622,13 @@
     },
     "fetchedAt": "2026-10-15T04:43:37.930Z"
   },
+  "hoe|tedua": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6e/c0/34/6ec03465-2132-e76c-9bf8-4adae5403da5/196871136129.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/hoe-feat-sfera-ebbasta/1689797901?i=1689797905&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:46.412Z"
+  },
   "i like the way you kiss me|artemas": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/1e/ac/b61eaceb-b493-0909-abfe-0930b7e53d9f/810129998306.jpg/200x200bb.jpg",
@@ -580,12 +657,26 @@
     },
     "fetchedAt": "2026-10-15T04:44:19.926Z"
   },
+  "il bene nel male|madame": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/97/b2/9b97b227-5ead-8ea7-d8d8-09e5ddd8a6f0/MM19096.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/il-bene-nel-male-originally-performed-by-madame/1673904893?i=1673905025&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:52.427Z"
+  },
   "il filo rosso|alfa": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/b7/15/22b7150b-aaac-90a9-a210-76a6ab80f07c/8057715114746.jpg/200x200bb.jpg",
       "url": "https://music.apple.com/it/album/il-filo-rosso/1882549720?i=1882549723&uo=4"
     },
     "fetchedAt": "2026-10-11T21:19:16.157Z"
+  },
+  "il male che mi fai|geolier": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/e2/e2/91e2e2ce-c9e0-cd73-eb0a-f0c1c346947b/196871019330.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/il-male-che-mi-fai-feat-marracash/1679958676?i=1679958681&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:07.429Z"
   },
   "il ritmo delle cose|rkomi": {
     "value": {
@@ -642,6 +733,13 @@
       "url": "https://music.apple.com/it/album/lalbero-delle-noci/1794146926?i=1794147170&uo=4"
     },
     "fetchedAt": "2026-10-12T07:26:21.389Z"
+  },
+  "l isola delle rose|blanco": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/43/6c/f3436cf9-c361-a8e4-f17d-e3f14fff8620/8720923358126.png/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/lisola-delle-rose-originally-performed-by-blanco-karaoke/1670186014?i=1670186017&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:43.438Z"
   },
   "l ultima poesia|geolier": {
     "value": {
@@ -741,6 +839,13 @@
     },
     "fetchedAt": "2026-10-14T04:46:16.888Z"
   },
+  "made in italy|rosa chemical": {
+    "value": {
+      "cover": null,
+      "url": null
+    },
+    "fetchedAt": "2026-10-16T04:45:46.404Z"
+  },
   "malavita|coma cose": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/c4/02/9fc402bf-31cf-8d7a-4de4-21cedd971eb6/5021732281432.jpg/200x200bb.jpg",
@@ -783,6 +888,13 @@
     },
     "fetchedAt": "2026-10-13T04:36:16.883Z"
   },
+  "mirage|aribeatz": {
+    "value": {
+      "cover": null,
+      "url": null
+    },
+    "fetchedAt": "2026-10-16T04:45:34.393Z"
+  },
   "miu miu|tony effe": {
     "value": {
       "cover": null,
@@ -811,6 +923,13 @@
     },
     "fetchedAt": "2026-10-12T07:26:27.394Z"
   },
+  "mwaki|zerb": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/ca/db/62cadb01-67d6-fa51-264a-64bad1b74879/8720996908372.png/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/mwaki/1708588822?i=1708588826&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:34.387Z"
+  },
   "nato per questo|club dogo": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f3/73/11/f3731167-17e5-fdfa-2388-a227128a275e/00094639464555.jpg/200x200bb.jpg",
@@ -838,6 +957,20 @@
       "url": "https://music.apple.com/it/album/nightmares/1708246048?i=1708246049&uo=4"
     },
     "fetchedAt": "2026-10-15T04:43:49.874Z"
+  },
+  "non litighiamo piu|rocco hunt": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/ea/dc/f7eadc9d-52d1-076f-34e0-b86bb013bd94/196589981950.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/non-litighiamo-pi%C3%B9/1678098881?i=1678098883&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:10.547Z"
+  },
+  "non lo sai|shiva": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cd/c2/c7/cdc2c7b9-36ce-1a4f-218d-772800111912/196589625250.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/non-lo-sai/1654187943?i=1654188256&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:25.431Z"
   },
   "non metterci becco|sfera ebbasta": {
     "value": {
@@ -888,6 +1021,20 @@
     },
     "fetchedAt": "2026-10-11T21:19:40.161Z"
   },
+  "origami all alba|clara": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/ed/e0/d8ede0d4-b372-423f-996b-0950bded5b10/5054197952821.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/origami-allalba-clara/1729631842?i=1729632106&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:55.389Z"
+  },
+  "panico|lazza": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9f/5d/e99f5d24-4323-2443-e028-a59b5024622a/8057715073739.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/panico/1857815238?i=1857816539&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:19.417Z"
+  },
   "paprika|ghali": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/9f/35/bf9f35d1-df9a-4a86-535f-586c2197b393/5021732365774.jpg/200x200bb.jpg",
@@ -902,6 +1049,13 @@
     },
     "fetchedAt": "2026-10-15T04:43:22.916Z"
   },
+  "parafulmini|ernia": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/b5/59/bcb55983-b482-d1c1-e5a3-ee17a3ad4962/23UMGIM58676.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/parafulmini/1688989773?i=1688989775&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:49.453Z"
+  },
   "pastello bianco|pinguini tattici nucleari": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/48/19/ce48195d-cd65-dc67-2d09-4f59a1ebb144/886448890591.jpg/200x200bb.jpg",
@@ -909,12 +1063,26 @@
     },
     "fetchedAt": "2026-10-12T07:26:39.359Z"
   },
+  "pazza musica|marco mengoni": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/a2/7e/3aa27ed2-3a8c-ef64-054e-4e05fc8f2717/196589873088.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/pazza-musica/1688162102?i=1688162112&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:37.456Z"
+  },
   "pazza|loredana berte": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d2/e1/e0/d2e1e0bd-6768-f890-c6ac-3bbe7d36ccb9/5054197961564.jpg/200x200bb.jpg",
       "url": "https://music.apple.com/it/album/pazza/1728036356?i=1728036362&uo=4"
     },
     "fetchedAt": "2026-10-14T04:47:13.873Z"
+  },
+  "pele|rhove": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3b/62/77/3b6277b6-ab7e-3d68-9d2b-74fb515b29a8/792264664110.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/pel%C3%A9/1650652865?i=1650653113&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:40.492Z"
   },
   "per due come noi|olly": {
     "value": {
@@ -985,6 +1153,13 @@
       "url": "https://music.apple.com/it/album/ra-ta-ta/1751234596?i=1751234597&uo=4"
     },
     "fetchedAt": "2026-10-14T04:46:13.874Z"
+  },
+  "ricordi|pinguini tattici nucleari": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ea/1a/84/ea1a84ce-b15e-73ee-9747-f3621b201af0/196589459435.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/ricordi/1645129291?i=1645129462&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:31.456Z"
   },
   "romantico ma muori|pinguini tattici nucleari": {
     "value": {
@@ -1063,6 +1238,13 @@
     },
     "fetchedAt": "2026-10-13T04:36:04.878Z"
   },
+  "shakira bzrp music sessions vol 53|bizarrap": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/0e/5e/550e5ecc-3fe4-50df-c5a3-a019b67008c3/196871854894.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/shakira-bzrp-music-sessions-vol-53/1731059947?i=1731060236&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:13.423Z"
+  },
   "show me love|wizthemc": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/ae/6b/3cae6b95-6f33-f6e0-d476-cf5d6d365def/62921.jpg/200x200bb.jpg",
@@ -1084,6 +1266,13 @@
     },
     "fetchedAt": "2026-10-13T04:35:28.928Z"
   },
+  "snap|rosa linn": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/b6/5b/dbb65bfe-d7ba-fa7a-2939-8efe303f06c1/196589359971.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/snap/1746247819?i=1746247823&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:45:58.385Z"
+  },
   "sogno americano|artie 5ive": {
     "value": {
       "cover": null,
@@ -1104,6 +1293,13 @@
       "url": "https://music.apple.com/it/album/storie-brevi/1749008105?i=1749008106&uo=4"
     },
     "fetchedAt": "2026-10-12T07:26:09.335Z"
+  },
+  "supereroi|mr rain": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/4b/de/4a4bdedb-8686-4c2b-6f86-881d470c95bf/5054197538360.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/supereroi/1669250375?i=1669250376&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:37.425Z"
   },
   "tango|tananai": {
     "value": {
@@ -1189,6 +1385,13 @@
     },
     "fetchedAt": "2026-10-13T04:34:50.048Z"
   },
+  "un briciolo di allegria|blanco": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/48/01/7848017f-6757-4b80-1134-6ff1086b7956/23UMGIM33754.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/un-briciolo-di-allegria/1680679136?i=1680679150&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:43.426Z"
+  },
   "un mondo a parte|jovanotti": {
     "value": {
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/e5/1e/bae51e65-7978-6e70-2969-f9f98b52bd16/24UM1IM42317.rgb.jpg/200x200bb.jpg",
@@ -1251,6 +1454,13 @@
       "url": "https://music.apple.com/it/album/gelosa-feat-shiva-sfera-ebbasta-gu%C3%A8/1671825583?i=1671825584&uo=4"
     },
     "fetchedAt": "2026-10-12T07:25:57.322Z"
+  },
+  "x caso|geolier": {
+    "value": {
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bc/1b/ca/bc1bcae5-83cf-02e5-7ed0-bccefb6d9c00/20UMGIM46493.rgb.jpg/200x200bb.jpg",
+      "url": "https://music.apple.com/it/album/m-manc/1516776427?i=1516776432&uo=4"
+    },
+    "fetchedAt": "2026-10-16T04:44:58.523Z"
   },
   "yakuza|elodie": {
     "value": {
