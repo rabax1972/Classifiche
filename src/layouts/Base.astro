@@ -2,14 +2,18 @@
 import '../styles/global.css';
 import { href } from '../lib/data';
 import { CATEGORIES } from '../lib/sources';
-import { CATEGORY_IDS, type CategoryId } from '../lib/types';
+import { CATEGORY_IDS, type CategoryId, type CuratedId } from '../lib/types';
 
 interface Props {
   title: string;
   description?: string;
-  current?: CategoryId | 'fonti';
+  current?: CategoryId | CuratedId | 'fonti';
 }
 const { title, description = 'Le classifiche italiane di canzoni, libri, cinema, film e serie TV, aggiornate ogni giorno.', current } = Astro.props;
+const CURATED_NAV: { id: CuratedId; label: string }[] = [
+  { id: 'album-da-avere', label: 'Album da avere' },
+  { id: 'libri-da-avere', label: 'Libri da avere' },
+];
 const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifiche Italia`;
 ---
 
@@ -58,6 +62,19 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
                 </li>
               ))
             }
+            {
+              CURATED_NAV.map(({ id, label }) => (
+                <li>
+                  <a
+                    href={href(id)}
+                    aria-current={current === id ? 'page' : undefined}
+                    class="block whitespace-nowrap rounded-md px-3 py-1.5 text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300"
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))
+            }
           </ul>
         </nav>
         <button
@@ -80,7 +97,7 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 sm:flex-row sm:items-start sm:justify-between">
         <div class="space-y-2">
           <p>
-            Dati da Apple Music, Apple Books, Netflix Top 10, FIMI (via Wikipedia, CC BY-SA), Last.fm e TMDB.{' '}
+            Dati da Apple Music, Apple Books, Netflix Top 10, FIMI (via Wikipedia, CC BY-SA), Last.fm, TMDB, Cover Art Archive e Open Library.{' '}
             <a href={href('fonti')} class="font-medium text-indigo-700 underline dark:text-indigo-300">Fonti e metodo</a>.
           </p>
           <p class="flex items-center gap-2">

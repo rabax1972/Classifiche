@@ -1,8 +1,9 @@
 // Accesso ai JSON generati, a build time.
 
-import type { CategoryId, PeriodChart, PeriodId, SourceStatus } from './types';
+import type { CategoryId, CuratedId, CuratedList, PeriodChart, PeriodId, SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
+const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
@@ -11,6 +12,12 @@ export function getChart(category: CategoryId, period: PeriodId): PeriodChart | 
 
 export function getStatus(): SourceStatus[] {
   return Object.values(statusFiles)[0] ?? [];
+}
+
+export function getCuratedList(id: CuratedId): CuratedList {
+  const list = curated[`/data/curated/${id}.json`];
+  if (!list) throw new Error(`Lista mancante: data/curated/${id}.json`);
+  return list;
 }
 
 /** Percorso interno rispettando il `base` configurato (es. GitHub Pages). */

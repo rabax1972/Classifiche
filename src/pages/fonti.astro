@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { formatDateTime, getStatus } from '../lib/data';
+import { formatDateTime, getStatus, href } from '../lib/data';
 import { CATEGORIES, SOURCES } from '../lib/sources';
 import { CATEGORY_IDS } from '../lib/types';
 
@@ -74,6 +74,20 @@ const used = (sourceId: string) =>
       <p class="text-sm text-gray-700 dark:text-gray-300">
         Le classifiche FIMI sono ricavate da Wikipedia in italiano; il testo di Wikipedia è disponibile con licenza
         <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener" target="_blank">CC BY-SA 4.0</a>.
+      </p>
+      <p class="text-sm text-gray-700 dark:text-gray-300">
+        <a class="underline" href={href('album-da-avere')}>I 100 dischi da avere assolutamente</a> è una lista statica: i titoli sono la top 100
+        dei 500 migliori album di Rolling Stone (2003), come riportata da
+        <a class="underline" href="https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html" rel="noopener" target="_blank">Il Rocker</a>;
+        le descrizioni sono scritte da noi. Le copertine vengono dall'API di ricerca di Apple Music e, per gli album che non vi sono presenti, da
+        <a class="underline" href="https://coverartarchive.org/" rel="noopener" target="_blank">Cover Art Archive</a> (MusicBrainz).
+      </p>
+      <p class="text-sm text-gray-700 dark:text-gray-300">
+        <a class="underline" href={href('libri-da-avere')}>I 100 libri da avere assolutamente</a> è la lista che circola in rete come «i cento libri
+        da leggere secondo la BBC», nella versione italiana pubblicata da
+        <a class="underline" href="https://www.lalettricecontrocorrente.it/pensieri-in-liberta/i-cento-libri-da-leggere-secondo-la-bbc/" rel="noopener" target="_blank">La lettrice controcorrente</a>
+        (non coincide con il sondaggio The Big Read della BBC del 2003); le descrizioni sono scritte da noi. Le copertine vengono dall'API di ricerca di
+        Apple Books e, in mancanza, da <a class="underline" href="https://openlibrary.org/" rel="noopener" target="_blank">Open Library</a>.
       </p>
     </section>
 

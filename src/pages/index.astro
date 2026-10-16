@@ -2,7 +2,7 @@
 import ChangeBadge from '../components/ChangeBadge.astro';
 import Cover from '../components/Cover.astro';
 import Base from '../layouts/Base.astro';
-import { formatDay, getChart, href } from '../lib/data';
+import { formatDay, getChart, getCuratedList, href } from '../lib/data';
 import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
 import { CATEGORY_IDS, type PeriodId } from '../lib/types';
 
@@ -15,6 +15,11 @@ const cards = CATEGORY_IDS.map((id) => {
   }
   return { id, period: 'oggi' as PeriodId, chart: null, view: null };
 });
+
+const curated = [
+  { list: getCuratedList('album-da-avere'), poster: false, label: 'album' },
+  { list: getCuratedList('libri-da-avere'), poster: true, label: 'libri' },
+];
 ---
 
 <Base title="Classifiche Italia">
@@ -71,4 +76,42 @@ const cards = CATEGORY_IDS.map((id) => {
       })
     }
   </div>
+
+  {
+    curated.map(({ list, poster, label }) => (
+      <section class="mt-10 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900" aria-labelledby={`h-${list.id}`}>
+        <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+          <h2 id={`h-${list.id}`} class="text-xl font-bold">
+            <a href={href(list.id)} class="hover:underline">{list.title}</a>
+          </h2>
+          <span class="text-xs font-medium text-gray-500 dark:text-gray-400">{list.listSource}</span>
+        </div>
+        <ol class="mb-4 grid grid-cols-3 gap-3 sm:grid-cols-6">
+          {list.entries.slice(0, 6).map((e) => (
+            <li>
+              <a href={href(`${list.id}#n${e.rank}`)} class="group block">
+                <img
+                  src={e.cover}
+                  alt=""
+                  width="160"
+                  height={poster ? 240 : 160}
+                  loading="lazy"
+                  decoding="async"
+                  referrerpolicy="no-referrer"
+                  class:list={['w-full rounded bg-gray-200 object-cover ring-1 ring-black/10 dark:bg-gray-800 dark:ring-white/10', poster ? 'aspect-[2/3]' : 'aspect-square']}
+                />
+                <p class="mt-1 truncate text-sm font-semibold group-hover:underline" title={e.title}>
+                  <span class="tabular-nums">{e.rank}.</span> {e.title}
+                </p>
+                <p class="truncate text-xs text-gray-600 dark:text-gray-400">{e.creator}</p>
+              </a>
+            </li>
+          ))}
+        </ol>
+        <a href={href(list.id)} class="text-sm font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
+          Tutti i 100 {label} →
+        </a>
+      </section>
+    ))
+  }
 </Base>

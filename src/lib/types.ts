@@ -100,3 +100,37 @@ export interface SourceStatus {
   error?: string;
   entries?: number;
 }
+
+export const CURATED_IDS = ['album-da-avere', 'libri-da-avere'] as const;
+export type CuratedId = (typeof CURATED_IDS)[number];
+
+/** Lista statica curata a mano (data/curated/{id}.json). */
+export interface CuratedEntry {
+  rank: number;
+  title: string;
+  /** Artista o autore. */
+  creator: string;
+  /** Anno di uscita; testo per opere senza un anno preciso (es. "VIII secolo a.C."). */
+  year: number | string;
+  description: string;
+  cover?: string | null;
+  /** Pagina dell'opera (Apple Music, Apple Books, Open Library). */
+  url?: string | null;
+  /** Titolo originale, per cercare la copertina (scripts/*-covers.ts). */
+  original?: string;
+  /** Autore come compare nei cataloghi internazionali, per la ricerca della copertina. */
+  searchAuthor?: string;
+  /** Termini di ricerca alternativi per la copertina. */
+  coverSearch?: string;
+}
+
+export interface CuratedList {
+  id: CuratedId;
+  title: string;
+  intro: string;
+  listSource: string;
+  listUrl: string;
+  /** Nota sulle copertine mostrata sotto l'introduzione. */
+  coversNote: string;
+  entries: CuratedEntry[];
+}

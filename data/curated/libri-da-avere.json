@@ -1,0 +1,993 @@
+{
+  "id": "libri-da-avere",
+  "title": "I 100 libri da avere assolutamente",
+  "intro": "La lista che circola in rete come «i cento libri da leggere secondo la BBC», nella versione italiana pubblicata da La lettrice controcorrente: un gioco più che un canone, tra grandi classici, letteratura italiana e bestseller recenti.",
+  "listSource": "La lettrice controcorrente",
+  "listUrl": "https://www.lalettricecontrocorrente.it/pensieri-in-liberta/i-cento-libri-da-leggere-secondo-la-bbc/",
+  "coversNote": "Copertine da Apple Books e Open Library.",
+  "entries": [
+    {
+      "rank": 1,
+      "title": "Orgoglio e pregiudizio",
+      "creator": "Jane Austen",
+      "year": 1813,
+      "original": "Pride and Prejudice",
+      "description": "Elizabeth Bennet e il superbo signor Darcy: una commedia di equivoci, orgoglio e convenzioni sociali che è il modello di ogni romanzo sentimentale.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cd/be/18/cdbe1846-3629-20fb-2e35-4566abcec254/9788858837221.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/orgoglio-e-pregiudizio/id1466369381"
+    },
+    {
+      "rank": 2,
+      "title": "Il Signore degli Anelli",
+      "creator": "J.R.R. Tolkien",
+      "year": "1954-1955",
+      "original": "The Lord of the Rings",
+      "description": "Frodo e la Compagnia partono per distruggere l'Anello del Potere: l'epopea che ha fondato il fantasy moderno.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/96/6d/3d/966d3d6d-e36c-d731-6060-badcd35a806d/66267_il-signore-dei-anelli.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-signore-degli-anelli/id6445389082"
+    },
+    {
+      "rank": 3,
+      "title": "Il profeta",
+      "creator": "Kahlil Gibran",
+      "year": 1923,
+      "original": "The Prophet",
+      "description": "Ventisei brevi sermoni poetici su amore, lavoro, libertà e morte, pronunciati dal saggio Almustafa prima di lasciare la città.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/80/04/da/8004da07-8323-bde7-3294-4fb78b730172/profeta1400.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-profeta/id1174297101"
+    },
+    {
+      "rank": 4,
+      "title": "Harry Potter (la saga)",
+      "creator": "J.K. Rowling",
+      "year": "1997-2007",
+      "original": "Harry Potter and the Philosopher's Stone",
+      "coverSearch": "Harry Potter e la pietra filosofale",
+      "description": "Sette romanzi che seguono il giovane mago dalla scoperta di Hogwarts allo scontro finale con Voldemort: il fenomeno editoriale di una generazione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f3/48/6e/f3486e84-5c64-67e6-f52d-b47dc3670cfb/9781781106198.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/harry-potter-e-la-pietra-filosofale-enhanced-edition/id1051121768"
+    },
+    {
+      "rank": 5,
+      "title": "Se questo è un uomo",
+      "creator": "Primo Levi",
+      "year": 1947,
+      "description": "La testimonianza lucida e sobria della prigionia ad Auschwitz: un libro necessario per capire il Novecento.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f3/44/32/f34432b2-0632-9819-5ac8-d578e9af6248/9788858420430.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/se-questo-%C3%A8-un-uomo/id1043437386"
+    },
+    {
+      "rank": 6,
+      "title": "La Bibbia",
+      "creator": "Autori vari",
+      "year": "I millennio a.C. - I secolo d.C.",
+      "original": "Holy Bible",
+      "coverSearch": "La Bibbia",
+      "description": "La raccolta dei testi sacri di ebraismo e cristianesimo, dalla Genesi all'Apocalisse: il libro che più ha plasmato la cultura occidentale.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/3d/2f/26/3d2f26c9-6edf-aaa6-8629-991de7276821/9788821581380.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-bibbia/id853729810"
+    },
+    {
+      "rank": 7,
+      "title": "Cime tempestose",
+      "creator": "Emily Brontë",
+      "year": 1847,
+      "original": "Wuthering Heights",
+      "description": "Sulle brughiere dello Yorkshire, l'amore ossessivo e distruttivo tra Heathcliff e Catherine travolge due generazioni.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/bd/5c/4f/bd5c4fd6-e854-0345-52f0-3deea78c1601/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/cime-tempestose/id400879596"
+    },
+    {
+      "rank": 8,
+      "title": "1984",
+      "creator": "George Orwell",
+      "year": 1949,
+      "original": "Nineteen Eighty-Four",
+      "description": "Winston Smith sotto lo sguardo del Grande Fratello: la distopia che ha dato al mondo le parole per descrivere il controllo totalitario.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/4a/9c/b4/4a9cb453-f569-3a04-78bf-00d6291f22f9/1984_Cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/1984/id1590880925"
+    },
+    {
+      "rank": 9,
+      "title": "I promessi sposi",
+      "creator": "Alessandro Manzoni",
+      "year": 1827,
+      "description": "Renzo e Lucia separati dai soprusi di don Rodrigo nella Lombardia del Seicento, tra peste e Provvidenza: il romanzo su cui si è formato l'italiano moderno.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/ee/b1/ac/eeb1ac57-e033-3979-10f6-a0727f31a1d1/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-promessi-sposi/id475346693"
+    },
+    {
+      "rank": 10,
+      "title": "La Divina Commedia",
+      "creator": "Dante Alighieri",
+      "year": "1304-1321",
+      "description": "Il viaggio di Dante attraverso Inferno, Purgatorio e Paradiso, guidato da Virgilio e Beatrice: il poema che ha fondato la lingua letteraria italiana.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/b4/58/69/b4586927-48d3-83d1-fff0-9ac2d1a09129/PD_La_Divina_Commedia-ITA-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-divina-commedia/id499188192"
+    },
+    {
+      "rank": 11,
+      "title": "Piccole donne",
+      "creator": "Louisa May Alcott",
+      "year": 1868,
+      "original": "Little Women",
+      "description": "Meg, Jo, Beth e Amy crescono nel Massachusetts durante la guerra civile: un classico sull'amicizia tra sorelle e sul desiderio di indipendenza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/26/1d/87/261d87a9-95e1-7beb-4269-6e8447f4c19d/9788841869741.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/piccole-donne/id493278388"
+    },
+    {
+      "rank": 12,
+      "title": "Lessico famigliare",
+      "creator": "Natalia Ginzburg",
+      "year": 1963,
+      "description": "La famiglia Levi a Torino raccontata attraverso le sue frasi ricorrenti, dal fascismo al dopoguerra; vinse il Premio Strega.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication42/v4/12/6b/be/126bbe16-429b-6816-af1c-e18f1ab97d03/mzm.kohvbiwc.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lessico-famigliare/id534865146"
+    },
+    {
+      "rank": 13,
+      "title": "Comma 22",
+      "creator": "Joseph Heller",
+      "year": 1961,
+      "original": "Catch-22",
+      "description": "Il capitano Yossarian cerca di salvarsi la pelle in una base aerea della Seconda guerra mondiale: una satira feroce sull'assurdità della guerra e della burocrazia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/c7/0b/1a/c70b1a96-e635-4dcc-8f88-56890864239a/f54385a2-ee8b-4545-96e2-52cccdcbcab3_cover_image.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/comma-22-catch-22/id6770480782"
+    },
+    {
+      "rank": 14,
+      "title": "Tutte le opere",
+      "creator": "William Shakespeare",
+      "year": "1623 (First Folio)",
+      "original": "The Complete Works of William Shakespeare",
+      "coverSearch": "Shakespeare tutte le opere",
+      "description": "Tragedie, commedie, drammi storici e sonetti del drammaturgo più rappresentato al mondo, da Romeo e Giulietta a La tempesta.",
+      "cover": "https://covers.openlibrary.org/b/id/10965199-M.jpg",
+      "url": "https://openlibrary.org/works/OL24418304W"
+    },
+    {
+      "rank": 15,
+      "title": "Il giardino dei Finzi-Contini",
+      "creator": "Giorgio Bassani",
+      "year": 1962,
+      "description": "Ferrara, negli anni delle leggi razziali: l'amore impossibile del narratore per Micòl, figlia di una ricca famiglia ebrea, sotto un'ombra di malinconia e presagio.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/a8/46/a1/a846a1a6-8a7f-285b-05d9-52f994b9aba5/9788858810590.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-giardino-dei-finzi-contini/id595510266"
+    },
+    {
+      "rank": 16,
+      "title": "Lo Hobbit",
+      "creator": "J.R.R. Tolkien",
+      "year": 1937,
+      "original": "The Hobbit",
+      "description": "Bilbo Baggins lascia la sua tana per un'avventura con tredici nani e uno stregone: il preludio, più leggero e fiabesco, del Signore degli Anelli.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/68/5d/7f/685d7f9f-667f-9020-3d86-f5782c973c63/9788858757437.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lo-hobbit/id1182389754"
+    },
+    {
+      "rank": 17,
+      "title": "Il nome della rosa",
+      "creator": "Umberto Eco",
+      "year": 1980,
+      "description": "Un'abbazia benedettina nel 1327, una serie di morti misteriose e un frate francescano investigatore: giallo, romanzo storico e gioco erudito insieme.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b0/b4/a9/b0b4a94a-5c5b-e640-2027-c1d5c0ed7c97/9788834603284.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-nome-della-rosa/id1504040796"
+    },
+    {
+      "rank": 18,
+      "title": "Il Gattopardo",
+      "creator": "Giuseppe Tomasi di Lampedusa",
+      "year": 1958,
+      "description": "Il principe di Salina assiste al tramonto dell'aristocrazia siciliana durante l'unità d'Italia, mentre il nipote Tancredi capisce che «bisogna che tutto cambi».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/00/91/4d/00914df5-65d6-e626-fa03-72d797a90b49/9788858823590.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-gattopardo/id1040142786"
+    },
+    {
+      "rank": 19,
+      "title": "Il processo",
+      "creator": "Franz Kafka",
+      "year": 1925,
+      "original": "The Trial",
+      "searchAuthor": "Franz Kafka",
+      "description": "Josef K. viene arrestato una mattina senza sapere di quale colpa: un incubo burocratico diventato simbolo dell'angoscia moderna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/7a/bf/47/7abf4797-339f-b28f-ddb7-4da8888999ac/7872dac6-f360-4b92-b4ed-56d980d60653_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-processo/id6777148446"
+    },
+    {
+      "rank": 20,
+      "title": "Le affinità elettive",
+      "creator": "Johann Wolfgang von Goethe",
+      "year": 1809,
+      "original": "Elective Affinities",
+      "description": "Due coppie e una legge della chimica applicata ai sentimenti: un romanzo sulla passione che scardina l'ordine del matrimonio.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/f2/b8/ea/f2b8ea71-cac4-8dc4-4b81-f7610eaba6e0/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-affinit%C3%A0-elettive/id400880327"
+    },
+    {
+      "rank": 21,
+      "title": "Via col vento",
+      "creator": "Margaret Mitchell",
+      "year": 1936,
+      "original": "Gone with the Wind",
+      "description": "Rossella O'Hara attraversa la guerra di secessione e la ricostruzione del Sud: un'eroina testarda in un romanzo-fiume premiato con il Pulitzer.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/41/ba/1c/41ba1c92-f0bc-98f4-bd1b-2c4f54885133/9788852047572.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/via-col-vento/id963027937"
+    },
+    {
+      "rank": 22,
+      "title": "Il grande Gatsby",
+      "creator": "F. Scott Fitzgerald",
+      "year": 1925,
+      "original": "The Great Gatsby",
+      "description": "Le feste sfarzose di Jay Gatsby a Long Island nascondono un sogno d'amore impossibile: il ritratto dell'età del jazz e del sogno americano.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication127/v4/91/7f/b9/917fb9d1-e239-fa5d-3c2f-9b46f56c97d6/9788854129047.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-grande-gatsby/id469930604"
+    },
+    {
+      "rank": 23,
+      "title": "Casa desolata",
+      "creator": "Charles Dickens",
+      "year": 1853,
+      "original": "Bleak House",
+      "description": "Una causa ereditaria interminabile, Jarndyce contro Jarndyce, travolge decine di vite: Dickens contro la lentezza e la crudeltà della giustizia inglese.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/05/d9/15/05d91523-7532-65b4-fe34-322c4e6b8a42/9788858417430.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/casa-desolata/id944133292"
+    },
+    {
+      "rank": 24,
+      "title": "Guerra e pace",
+      "creator": "Lev Tolstoj",
+      "year": 1869,
+      "original": "War and Peace",
+      "searchAuthor": "Leo Tolstoy",
+      "description": "Le famiglie Rostov, Bolkonskij e Bezuchov durante le guerre napoleoniche: un affresco immenso che intreccia la grande storia e le vite private.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/6a/c6/a9/6ac6a97a-3c1c-fdc0-c2c2-574ae52695e0/9788858430019.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/guerra-e-pace/id1445112089"
+    },
+    {
+      "rank": 25,
+      "title": "Guida galattica per gli autostoppisti",
+      "creator": "Douglas Adams",
+      "year": 1979,
+      "original": "The Hitchhiker's Guide to the Galaxy",
+      "description": "Arthur Dent sopravvive alla demolizione della Terra e vaga per l'universo con un asciugamano: fantascienza comica e surreale, dove la risposta è 42.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/d6/60/49/d6604919-7837-227f-60af-17183c3bd1f9/9788852022562.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/guida-galattica-per-gli-autostoppisti/id504755490"
+    },
+    {
+      "rank": 26,
+      "title": "Ritorno a Brideshead",
+      "creator": "Evelyn Waugh",
+      "year": 1945,
+      "original": "Brideshead Revisited",
+      "description": "Charles Ryder ricorda la sua amicizia con l'aristocratica e cattolicissima famiglia Flyte: nostalgia per un'Inghilterra che scompare.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/c1/57/52/c15752d8-1b01-d6a6-9227-7eac01174ecf/9788858858141.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/ritorno-a-brideshead/id6447757464"
+    },
+    {
+      "rank": 27,
+      "title": "Delitto e castigo",
+      "creator": "Fëdor Dostoevskij",
+      "year": 1866,
+      "original": "Crime and Punishment",
+      "searchAuthor": "Fyodor Dostoevsky",
+      "description": "Lo studente Raskol'nikov uccide una vecchia usuraia convinto di essere al di sopra della morale, poi viene divorato dal senso di colpa.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/ba/f1/f9/baf1f991-509d-4eda-318b-5d77785c46c7/344c3a22-840c-4ea0-aba4-179ef8defb67_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/delitto-e-castigo/id1529257765"
+    },
+    {
+      "rank": 28,
+      "title": "Odissea",
+      "creator": "Omero",
+      "year": "VIII secolo a.C.",
+      "original": "The Odyssey",
+      "searchAuthor": "Homer",
+      "description": "Il lungo ritorno di Ulisse a Itaca dopo la guerra di Troia, tra Polifemo, Circe e le sirene: il modello di ogni viaggio d'avventura.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/87/65/07/87650789-6774-12aa-ac8d-b703bd009c62/9788831730983.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/odissea/id1185946145"
+    },
+    {
+      "rank": 29,
+      "title": "Alice nel Paese delle Meraviglie",
+      "creator": "Lewis Carroll",
+      "year": 1865,
+      "original": "Alice's Adventures in Wonderland",
+      "description": "Inseguendo un coniglio bianco, Alice precipita in un mondo di nonsense e giochi di logica, popolato da personaggi come il Cappellaio Matto.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/09/79/53/09795383-db2d-0a1a-fe90-d6ac29ca8242/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/alice-nel-paese-delle-meraviglie/id400878730"
+    },
+    {
+      "rank": 30,
+      "title": "L'insostenibile leggerezza dell'essere",
+      "creator": "Milan Kundera",
+      "year": 1984,
+      "original": "The Unbearable Lightness of Being",
+      "description": "Tomáš, Tereza, Sabina e Franz divisi tra amore e libertà nella Praga dell'invasione sovietica del 1968: un romanzo che è anche una riflessione filosofica.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/5b/f0/2a/5bf02a0f-cd39-5128-8572-b48b2bdc4679/9788845985461.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/linsostenibile-leggerezza-dellessere/id1623347250"
+    },
+    {
+      "rank": 31,
+      "title": "Anna Karenina",
+      "creator": "Lev Tolstoj",
+      "year": 1877,
+      "original": "Anna Karenina",
+      "searchAuthor": "Leo Tolstoy",
+      "description": "La passione di Anna per il conte Vronskij sfida la società russa, mentre Levin cerca un senso nella vita di campagna. «Tutte le famiglie felici si somigliano…»",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/da/eb/11/daeb1105-5326-f6fb-d021-c1e305f247de/9788866611400.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/anna-karenina/id616340667"
+    },
+    {
+      "rank": 32,
+      "title": "David Copperfield",
+      "creator": "Charles Dickens",
+      "year": 1850,
+      "description": "Il romanzo più autobiografico di Dickens: un'infanzia difficile, il lavoro minorile e personaggi indimenticabili come Micawber e Uriah Heep.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/b3/2d/8f/b32d8f63-62bb-7d7f-d6a2-b871b516ec8d/etext766.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/david-copperfield/id395546333"
+    },
+    {
+      "rank": 33,
+      "title": "Le cronache di Narnia",
+      "creator": "C.S. Lewis",
+      "year": "1950-1956",
+      "original": "The Chronicles of Narnia",
+      "description": "Sette romanzi fantastici: attraverso un armadio, alcuni ragazzi scoprono un regno magico protetto dal leone Aslan.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/a9/e6/1c/a9e61cdd-2764-7b09-738f-f72108c4a3bf/9788835701859.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-cronache-di-narnia/id1507942211"
+    },
+    {
+      "rank": 34,
+      "title": "Emma",
+      "creator": "Jane Austen",
+      "year": 1815,
+      "description": "Emma Woodhouse, ricca e sicura di sé, si diverte a combinare i matrimoni altrui finché non sbaglia tutto: la commedia più ironica di Austen.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/d2/fb/ee/d2fbee5c-b4d6-4710-fb1a-51ee7ca27d52/BKS-WW-ABC-Emma-Jane_Austen.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/emma/id395536171"
+    },
+    {
+      "rank": 35,
+      "title": "Cuore",
+      "creator": "Edmondo De Amicis",
+      "year": 1886,
+      "description": "Il diario di un anno scolastico del piccolo Enrico a Torino, con i racconti mensili come «Dagli Appennini alle Ande»: educazione civile per l'Italia appena unita.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/72/4f/b7/724fb796-aaee-174f-60dd-a978446af3f0/9788826494838.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/cuore/id1326821040"
+    },
+    {
+      "rank": 36,
+      "title": "La coscienza di Zeno",
+      "creator": "Italo Svevo",
+      "year": 1923,
+      "description": "Zeno Cosini racconta la propria vita su consiglio dello psicoanalista, tra l'eterna «ultima sigaretta» e un matrimonio sbagliato: l'inetto per eccellenza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/10/cf/f2/10cff246-c320-5050-62c7-f195e8f97a59/PD_La_coscienza_di_zeno-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-coscienza-di-zeno/id1521737576"
+    },
+    {
+      "rank": 37,
+      "title": "Il cacciatore di aquiloni",
+      "creator": "Khaled Hosseini",
+      "year": 2003,
+      "original": "The Kite Runner",
+      "description": "Amir e Hassan, amicizia e tradimento nell'Afghanistan prima e dopo i talebani: un romanzo sul senso di colpa e sul riscatto.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/a0/0c/83/a00c83fd-51a8-1de7-06c9-bd7e77d5e257/9788858858288.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-cacciatore-di-aquiloni/id6447770336"
+    },
+    {
+      "rank": 38,
+      "title": "Il mandolino del capitano Corelli",
+      "creator": "Louis de Bernières",
+      "year": 1994,
+      "original": "Captain Corelli's Mandolin",
+      "description": "Sull'isola greca di Cefalonia occupata dagli italiani, l'amore tra un ufficiale musicista e la figlia del medico, fino all'eccidio del 1943.",
+      "cover": "https://covers.openlibrary.org/b/id/6480627-M.jpg",
+      "url": "https://openlibrary.org/works/OL7920331W"
+    },
+    {
+      "rank": 39,
+      "title": "Memorie di una geisha",
+      "creator": "Arthur Golden",
+      "year": 1997,
+      "original": "Memoirs of a Geisha",
+      "description": "Una bambina venduta a una casa di geishe di Kyoto diventa la celebre Sayuri: la vita segreta di un mondo scomparso.",
+      "cover": "https://covers.openlibrary.org/b/id/8231782-M.jpg",
+      "url": "https://openlibrary.org/works/OL1856675W"
+    },
+    {
+      "rank": 40,
+      "title": "Winnie the Pooh",
+      "creator": "A.A. Milne",
+      "year": 1926,
+      "original": "Winnie-the-Pooh",
+      "description": "L'orsetto goloso di miele e i suoi amici del Bosco dei Cento Acri: racconti teneri e pieni di umorismo, nati per il figlio dell'autore.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/5e/ce/45/5ece459e-81d9-536b-e7c3-e4f71f990ef1/9781088001547.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/winnie-the-pooh/id1603152876"
+    },
+    {
+      "rank": 41,
+      "title": "La fattoria degli animali",
+      "creator": "George Orwell",
+      "year": 1945,
+      "original": "Animal Farm",
+      "description": "Gli animali cacciano il padrone, ma i maiali diventano i nuovi tiranni: «tutti gli animali sono uguali, ma alcuni sono più uguali degli altri».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/ab/7f/c3/ab7fc342-db7f-ebb4-65d2-9cba046659d0/4a377e78-a80e-4060-b34d-e4f1f777254f_cover_image.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-fattoria-degli-animali/id6444840763"
+    },
+    {
+      "rank": 42,
+      "title": "Il codice da Vinci",
+      "creator": "Dan Brown",
+      "year": 2003,
+      "original": "The Da Vinci Code",
+      "description": "Il simbologo Robert Langdon insegue un segreto nascosto nelle opere di Leonardo: il thriller da decine di milioni di copie.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/92/7a/97/927a979b-89c8-935d-bc96-089ec9db5497/9788831818698.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-codice-da-vinci/id6743198453"
+    },
+    {
+      "rank": 43,
+      "title": "Cent'anni di solitudine",
+      "creator": "Gabriel García Márquez",
+      "year": 1967,
+      "original": "One Hundred Years of Solitude",
+      "description": "Sette generazioni della famiglia Buendía nel villaggio immaginario di Macondo: il capolavoro del realismo magico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/d8/d0/cb/d8d0cb24-4e1a-ede2-94b1-8c207fdc6831/9788852011498.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/centanni-di-solitudine/id529714170"
+    },
+    {
+      "rank": 44,
+      "title": "Il barone rampante",
+      "creator": "Italo Calvino",
+      "year": 1957,
+      "description": "A dodici anni Cosimo Piovasco di Rondò sale su un albero e decide di non scendere mai più: una favola illuminista sulla libertà e sulla coerenza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/6d/47/78/6d477813-73db-a1ea-7c69-b33100f69918/9788852016974.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-barone-rampante/id467683198"
+    },
+    {
+      "rank": 45,
+      "title": "Gli indifferenti",
+      "creator": "Alberto Moravia",
+      "year": 1929,
+      "description": "Una famiglia borghese romana in decadenza, incapace di reagire alla propria corruzione: l'esordio giovanissimo che anticipò l'esistenzialismo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/5c/73/f2/5c73f2ba-67d9-27a1-4809-b942c385dd93/1051929378.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/gli-indifferenti/id6741112742"
+    },
+    {
+      "rank": 46,
+      "title": "Memorie di Adriano",
+      "creator": "Marguerite Yourcenar",
+      "year": 1951,
+      "original": "Memoirs of Hadrian",
+      "description": "L'imperatore Adriano, vicino alla morte, scrive una lunga lettera al giovane Marco Aurelio: un'autobiografia immaginaria di straordinaria profondità.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/e6/aa/8d/e6aa8d41-400c-0f16-93fa-ceb9d7ec56ea/9788858437872.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/memorie-di-adriano/id1588025071"
+    },
+    {
+      "rank": 47,
+      "title": "I Malavoglia",
+      "creator": "Giovanni Verga",
+      "year": 1881,
+      "description": "Una famiglia di pescatori di Aci Trezza perseguitata dalla sventura dopo il naufragio della barca Provvidenza: il capolavoro del verismo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/e2/15/dd/e215ddb3-7ec4-2dea-6477-c6fc90f91d28/9788883378768.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-malavoglia/id1562421574"
+    },
+    {
+      "rank": 48,
+      "title": "Il fu Mattia Pascal",
+      "creator": "Luigi Pirandello",
+      "year": 1904,
+      "description": "Creduto morto, Mattia Pascal coglie l'occasione per rifarsi una vita sotto falso nome, ma scopre che senza identità non si può vivere.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/ed/73/ea/ed73ea96-2116-62f2-77a1-2077186637b5/PD_Il_fu_mattia_pascal-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-fu-mattia-pascal/id1521732429"
+    },
+    {
+      "rank": 49,
+      "title": "Il signore delle mosche",
+      "creator": "William Golding",
+      "year": 1954,
+      "original": "Lord of the Flies",
+      "description": "Un gruppo di ragazzi naufraghi su un'isola deserta scivola dalla civiltà alla barbarie: una parabola cupa sulla natura umana.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/e2/00/95/e20095c3-779c-bc5b-cc72-a04bda5a78f2/9788852031779.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-signore-delle-mosche/id1573695770"
+    },
+    {
+      "rank": 50,
+      "title": "Cristo si è fermato a Eboli",
+      "creator": "Carlo Levi",
+      "year": 1945,
+      "description": "Il medico e pittore torinese racconta il confino in Lucania sotto il fascismo e una civiltà contadina dimenticata dallo Stato.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6f/db/61/6fdb61dd-def5-c461-19cc-24b8026c0c79/9788858414996.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/cristo-si-%C3%A8-fermato-a-eboli/id900400007"
+    },
+    {
+      "rank": 51,
+      "title": "Vita di Pi",
+      "creator": "Yann Martel",
+      "year": 2001,
+      "original": "Life of Pi",
+      "description": "Dopo un naufragio, un ragazzo indiano sopravvive 227 giorni su una scialuppa in compagnia di una tigre del Bengala.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/31/f7/24/31f7246e-25ea-6e8d-c8fe-922bfa9c7c99/9788858503331.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/vita-di-pi/id501917550"
+    },
+    {
+      "rank": 52,
+      "title": "Il vecchio e il mare",
+      "creator": "Ernest Hemingway",
+      "year": 1952,
+      "original": "The Old Man and the Sea",
+      "description": "Il vecchio pescatore Santiago lotta per giorni con un enorme marlin al largo di Cuba: un racconto essenziale sulla dignità nella sconfitta.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/76/c0/c0/76c0c006-8e05-88b3-6d0a-7d7baf5facd3/9788852019937.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-vecchio-e-il-mare/id467349067"
+    },
+    {
+      "rank": 53,
+      "title": "Don Chisciotte della Mancia",
+      "creator": "Miguel de Cervantes",
+      "year": "1605-1615",
+      "original": "Don Quixote",
+      "description": "Un hidalgo impazzito per i romanzi cavallereschi parte con Sancho Panza a combattere i mulini a vento: considerato il primo romanzo moderno.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication4/v4/9b/53/ec/9b53ecba-cf72-ee98-d148-850487da44f8/copertinaMiguel.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/don-chisciotte-della-mancia/id791978032"
+    },
+    {
+      "rank": 54,
+      "title": "I dolori del giovane Werther",
+      "creator": "Johann Wolfgang von Goethe",
+      "year": 1774,
+      "original": "The Sorrows of Young Werther",
+      "description": "Il romanzo epistolare dell'amore disperato di Werther per Lotte: un caso letterario che infiammò l'Europa e segnò lo Sturm und Drang.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication18/v4/ff/1c/a1/ff1ca1e9-8895-c719-6051-d06e449be0b0/dolori.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-dolori-del-giovane-werther/id1125890757"
+    },
+    {
+      "rank": 55,
+      "title": "Le avventure di Pinocchio",
+      "creator": "Carlo Collodi",
+      "year": 1883,
+      "description": "Il burattino di legno che vuole diventare un bambino vero: una fiaba tradotta in centinaia di lingue.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/30/83/94/30839444-1a22-37c1-b22c-d0b84fe8cb3e/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-avventure-di-pinocchio/id398567407"
+    },
+    {
+      "rank": 56,
+      "title": "L'ombra del vento",
+      "creator": "Carlos Ruiz Zafón",
+      "year": 2001,
+      "original": "The Shadow of the Wind",
+      "description": "Nella Barcellona del dopoguerra, il giovane Daniel trova nel Cimitero dei Libri Dimenticati un romanzo il cui autore sembra svanito nel nulla.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/48/a8/bc/48a8bc8a-b440-bb62-630d-90ce6b856292/9788852037856.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lombra-del-vento/id635863357"
+    },
+    {
+      "rank": 57,
+      "title": "Siddharta",
+      "creator": "Hermann Hesse",
+      "year": 1922,
+      "original": "Siddhartha",
+      "description": "Il cammino spirituale di un giovane indiano ai tempi del Buddha, tra ascetismo, piaceri mondani e la saggezza del fiume.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/9b/3a/43/9b3a4369-7e67-34dd-7bc4-3e74d615b95b/104483.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/siddh%C3%A1rta/id762204914"
+    },
+    {
+      "rank": 58,
+      "title": "Il mondo nuovo",
+      "creator": "Aldous Huxley",
+      "year": 1932,
+      "original": "Brave New World",
+      "description": "Una società futura in cui la felicità è prodotta in laboratorio e garantita da una droga: la distopia del controllo attraverso il piacere.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/76/d9/e3/76d9e33b-7472-6fe7-6780-1d8caad3202a/9edb8e73-7b85-4a8f-a6d2-1681f7aab678_cover_image.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-mondo-nuovo/id6748802925"
+    },
+    {
+      "rank": 59,
+      "title": "Lo strano caso del cane ucciso a mezzanotte",
+      "creator": "Mark Haddon",
+      "year": 2003,
+      "original": "The Curious Incident of the Dog in the Night-Time",
+      "description": "Christopher, quindicenne autistico e geniale in matematica, indaga sulla morte del cane della vicina e scopre i segreti della sua famiglia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/4a/b1/b8/4ab1b8fb-51e2-48e6-6fd8-26edec1f19f7/9788858409268.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lo-strano-caso-del-cane-ucciso-a-mezzanotte/id655968128"
+    },
+    {
+      "rank": 60,
+      "title": "L'amore ai tempi del colera",
+      "creator": "Gabriel García Márquez",
+      "year": 1985,
+      "original": "Love in the Time of Cholera",
+      "description": "Florentino Ariza aspetta più di cinquant'anni per dichiarare di nuovo il suo amore a Fermina Daza: un romanzo sulla fedeltà e sulla vecchiaia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication60/v4/31/1e/a9/311ea97c-a3b7-6c44-8cca-21c39134046b/9788852015977.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lamore-ai-tempi-del-colera/id467638119"
+    },
+    {
+      "rank": 61,
+      "title": "Uomini e topi",
+      "creator": "John Steinbeck",
+      "year": 1937,
+      "original": "Of Mice and Men",
+      "description": "George e Lennie, braccianti nella California della Grande Depressione, sognano un pezzo di terra tutto loro: breve e struggente.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/6a/f2/a3/6af2a331-6166-c4af-8368-aeb2e85f1367/1052798202.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/uomini-e-topi/id6743082868"
+    },
+    {
+      "rank": 62,
+      "title": "Lolita",
+      "creator": "Vladimir Nabokov",
+      "year": 1955,
+      "description": "Humbert Humbert racconta la sua ossessione per una dodicenne: un romanzo scandaloso e virtuosistico, affidato alla voce di un narratore mostruoso.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/24/e9/c0/24e9c0a5-ee9e-0eae-dbcf-8fb2faf745d3/7869e30f-3599-475d-99f3-a65490b0e7fe_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lolita/id6758705962"
+    },
+    {
+      "rank": 63,
+      "title": "Il commissario Maigret (la serie)",
+      "creator": "Georges Simenon",
+      "year": "1931-1972",
+      "original": "Pietr the Latvian",
+      "coverSearch": "Pietr il Lettone",
+      "description": "Oltre settanta romanzi con il commissario parigino che risolve i casi comprendendo le persone più che inseguendo gli indizi.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/2d/8f/94/2d8f94e6-0246-1a82-874e-415ddc0b8cd8/9788845971167.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/pietr-il-lettone/id1195646979"
+    },
+    {
+      "rank": 64,
+      "title": "Amabili resti",
+      "creator": "Alice Sebold",
+      "year": 2002,
+      "original": "The Lovely Bones",
+      "description": "Susie Salmon, uccisa a quattordici anni, osserva dal suo paradiso la famiglia che cerca faticosamente di andare avanti.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication69/v4/b1/3b/74/b13b7499-47ab-a4f1-d0bc-92cf9453b8f6/9788866321491.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/amabili-resti/id539502555"
+    },
+    {
+      "rank": 65,
+      "title": "Il conte di Montecristo",
+      "creator": "Alexandre Dumas",
+      "year": 1844,
+      "original": "The Count of Monte Cristo",
+      "description": "Imprigionato ingiustamente per quattordici anni, Edmond Dantès evade, trova un tesoro e prepara una vendetta implacabile.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/20/8b/4f/208b4f3b-8c62-8149-8274-c76e585b5ec1/cover.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-conte-di-montecristo/id6450040811"
+    },
+    {
+      "rank": 66,
+      "title": "Sulla strada",
+      "creator": "Jack Kerouac",
+      "year": 1957,
+      "original": "On the Road",
+      "description": "Sal Paradise e Dean Moriarty attraversano l'America in auto tra jazz, alcol e libertà: il manifesto della Beat Generation.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/f0/ae/45/f0ae45f2-dade-166f-3293-da7fda533278/9788852014000.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sulla-strada/id467578913"
+    },
+    {
+      "rank": 67,
+      "title": "La luna e i falò",
+      "creator": "Cesare Pavese",
+      "year": 1950,
+      "description": "Anguilla torna dall'America nelle Langhe della sua infanzia e trova un paese segnato dalla guerra partigiana: l'ultimo romanzo di Pavese.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/f1/03/78/f1037860-d3ec-2f50-0265-c580abaa4a9f/9788858409596.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-luna-e-i-fal%C3%B2/id662466359"
+    },
+    {
+      "rank": 68,
+      "title": "Il diario di Bridget Jones",
+      "creator": "Helen Fielding",
+      "year": 1996,
+      "original": "Bridget Jones's Diary",
+      "description": "Calorie, sigarette e uomini sbagliati: il diario ironico di una trentenne londinese, liberamente ispirato a Orgoglio e pregiudizio.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/5c/71/80/5c7180fd-a007-60ba-098f-8463e60ea2dd/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-diario-di-bridget-jones/id1003723775"
+    },
+    {
+      "rank": 69,
+      "title": "I figli della mezzanotte",
+      "creator": "Salman Rushdie",
+      "year": 1981,
+      "original": "Midnight's Children",
+      "description": "Saleem Sinai nasce allo scoccare dell'indipendenza indiana, dotato di poteri telepatici: la storia dell'India nel segno del realismo magico, premiata con il Booker Prize.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/1c/cc/cf/1ccccf69-25fb-3190-37ce-194052c3c7be/9788852036682.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-figli-della-mezzanotte/id635862836"
+    },
+    {
+      "rank": 70,
+      "title": "Moby Dick",
+      "creator": "Herman Melville",
+      "year": 1851,
+      "original": "Moby-Dick",
+      "description": "Il capitano Achab insegue la balena bianca che gli ha strappato una gamba: avventura, enciclopedia della caccia alla balena e meditazione sul male.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/d9/38/f9/d938f95e-8d8d-39bb-07fd-fa2af4a99f46/PD_Moby_Dick-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/moby-dick/id395539950"
+    },
+    {
+      "rank": 71,
+      "title": "Oliver Twist",
+      "creator": "Charles Dickens",
+      "year": 1838,
+      "description": "Un orfano fugge dall'ospizio e finisce tra i giovani borseggiatori di Fagin, nella Londra più miserabile.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/72/9c/03/729c03e4-f3db-fb9f-cfdf-9adb66a2d1e1/etext730.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/oliver-twist/id395546027"
+    },
+    {
+      "rank": 72,
+      "title": "Dracula",
+      "creator": "Bram Stoker",
+      "year": 1897,
+      "description": "Tra diari e lettere, il conte vampiro lascia la Transilvania per Londra: il romanzo che ha creato il mito moderno del vampiro.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/c9/0a/13/c90a1346-c64c-c73e-1b5a-9b5e2ea6584e/PD_Dracula-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/dracula/id395541616"
+    },
+    {
+      "rank": 73,
+      "title": "Tre uomini in barca",
+      "creator": "Jerome K. Jerome",
+      "year": 1889,
+      "original": "Three Men in a Boat",
+      "description": "Tre amici e un cane in vacanza sul Tamigi: un classico dell'umorismo inglese fatto di disavventure e digressioni.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/dc/9f/55/dc9f55ea-60aa-78f2-a3bc-aa6f16097272/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/tre-uomini-in-barca/id400219031"
+    },
+    {
+      "rank": 74,
+      "title": "Notes from a Small Island",
+      "creator": "Bill Bryson",
+      "year": 1995,
+      "description": "Prima di tornare negli Stati Uniti, l'americano Bryson attraversa la Gran Bretagna da un capo all'altro e la racconta con affetto e ironia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/27/d9/20/27d9203d-f47a-a338-ab9c-ab21b1edbd76/9781409095750.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/notes-from-a-small-island/id436114511"
+    },
+    {
+      "rank": 75,
+      "title": "Ulisse",
+      "creator": "James Joyce",
+      "year": 1922,
+      "original": "Ulysses",
+      "description": "Un solo giorno, il 16 giugno 1904, nella Dublino di Leopold Bloom: il romanzo che ha rivoluzionato la narrativa con il flusso di coscienza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/72/c6/fc/72c6fc0b-625d-6046-2703-9831309838cc/9788858843673.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/ulisse/id1557904506"
+    },
+    {
+      "rank": 76,
+      "title": "I Buddenbrook",
+      "creator": "Thomas Mann",
+      "year": 1901,
+      "original": "Buddenbrooks",
+      "description": "Ascesa e declino di quattro generazioni di una famiglia di mercanti di Lubecca: il romanzo citato nella motivazione del Nobel a Mann.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6f/f1/28/6ff12895-c11d-148e-37b2-d5e8f082ff36/cover.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-buddenbrook/id6560117304"
+    },
+    {
+      "rank": 77,
+      "title": "Il buio oltre la siepe",
+      "creator": "Harper Lee",
+      "year": 1960,
+      "original": "To Kill a Mockingbird",
+      "description": "Nell'Alabama degli anni '30 l'avvocato Atticus Finch difende un uomo nero accusato ingiustamente, visto con gli occhi della figlia Scout.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cc/8a/0d/cc8a0db7-9bc8-d88a-f18c-979e883d9c30/9788858837641.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-buio-oltre-la-siepe/id1470475832"
+    },
+    {
+      "rank": 78,
+      "title": "Germinale",
+      "creator": "Émile Zola",
+      "year": 1885,
+      "original": "Germinal",
+      "description": "Lo sciopero dei minatori di carbone nel nord della Francia: il grande romanzo sul lavoro e sulla lotta operaia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication22/v4/c5/48/fc/c548fc45-e6f1-b2e9-5dc6-11655978a721/mzm.qchndpkx.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/germinale/id538015578"
+    },
+    {
+      "rank": 79,
+      "title": "La fiera delle vanità",
+      "creator": "William Makepeace Thackeray",
+      "year": 1848,
+      "original": "Vanity Fair",
+      "description": "L'ambiziosa e spregiudicata Becky Sharp scala la società inglese dell'epoca napoleonica: un «romanzo senza eroe».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/05/51/a0/0551a077-8adf-9f3a-4948-2b113e8b9f28/9783689314880.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-fiera-delle-vanit%C3%A0/id6787915581"
+    },
+    {
+      "rank": 80,
+      "title": "Possessione",
+      "creator": "A.S. Byatt",
+      "year": 1990,
+      "original": "Possession",
+      "description": "Due studiosi moderni scoprono la relazione segreta tra due poeti vittoriani: romanzo d'amore e caccia letteraria, vincitore del Booker Prize.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/2c/78/a1/2c78a1f1-f21e-2398-b457-cee7aba9cf7b/9788858416716.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/possessione/id928795904"
+    },
+    {
+      "rank": 81,
+      "title": "Canto di Natale",
+      "creator": "Charles Dickens",
+      "year": 1843,
+      "original": "A Christmas Carol",
+      "description": "L'avaro Scrooge, visitato da tre spiriti la vigilia di Natale, riscopre la generosità: la fiaba che ha inventato il Natale moderno.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/5b/50/18/5b5018a3-e70e-3f1e-09c0-f296817523ce/9788811137368.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/canto-di-natale/id575144197"
+    },
+    {
+      "rank": 82,
+      "title": "Il ritratto di Dorian Gray",
+      "creator": "Oscar Wilde",
+      "year": 1890,
+      "original": "The Picture of Dorian Gray",
+      "description": "Un giovane bellissimo resta immutato mentre il suo ritratto invecchia e si corrompe: estetismo, vizio e colpa.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/4c/7d/a7/4c7da7a6-3b13-ab63-f67c-89fa1eba9211/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-ritratto-di-dorian-gray/id400881578"
+    },
+    {
+      "rank": 83,
+      "title": "Il colore viola",
+      "creator": "Alice Walker",
+      "year": 1982,
+      "original": "The Color Purple",
+      "description": "Celie, giovane afroamericana del Sud, racconta in lettere a Dio la propria emancipazione da abusi e povertà; premio Pulitzer.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/1f/75/88/1f7588ef-1940-b3fe-9d70-4f462995c758/51368_il-colore-viola.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-colore-viola/id1483065008"
+    },
+    {
+      "rank": 84,
+      "title": "Quel che resta del giorno",
+      "creator": "Kazuo Ishiguro",
+      "year": 1989,
+      "original": "The Remains of the Day",
+      "description": "Il maggiordomo Stevens, in viaggio nell'Inghilterra del 1956, ripensa a una vita di servizio impeccabile e a un amore mai confessato.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/ef/0a/ab/ef0aab2a-0089-fe14-4330-80132e215aee/9788858427576.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/quel-che-resta-del-giorno/id1298402687"
+    },
+    {
+      "rank": 85,
+      "title": "Madame Bovary",
+      "creator": "Gustave Flaubert",
+      "year": 1857,
+      "description": "Emma, moglie di un medico di provincia, cerca nella passione e nel lusso i sogni dei romanzi che legge, fino alla rovina.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/f3/45/26/f34526d3-e0dd-0b54-f369-9cf8329fb030/PD_Madame_bovary-Adj.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/madame-bovary/id492176352"
+    },
+    {
+      "rank": 86,
+      "title": "A Fine Balance",
+      "creator": "Rohinton Mistry",
+      "year": 1995,
+      "description": "Quattro sconosciuti condividono un appartamento nell'India dello stato d'emergenza degli anni '70: un affresco di povertà, dignità e amicizia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/7c/50/ff/7c50ff74-47b1-9eb3-d4fe-db0e14c0de5a/1040017095.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/a-fine-balance/id443730280"
+    },
+    {
+      "rank": 87,
+      "title": "La tela di Carlotta",
+      "creator": "E.B. White",
+      "year": 1952,
+      "original": "Charlotte's Web",
+      "description": "Il maialino Wilbur viene salvato dal macello dalla ragnetta Carlotta, che tesse parole nella sua tela: un classico per ragazzi sull'amicizia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/ce/e2/ad/cee2adc1-1540-d072-d5a8-42d42bbd9c54/9788852018244.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-tela-di-carlotta/id467365576"
+    },
+    {
+      "rank": 88,
+      "title": "Il rosso e il nero",
+      "creator": "Stendhal",
+      "year": 1830,
+      "original": "The Red and the Black",
+      "description": "L'ambizioso Julien Sorel, figlio di un falegname, cerca di farsi strada nella Francia della Restaurazione tra seduzione e ipocrisia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/25/36/22/2536225d-8374-3038-5d77-5b775e21570e/9788852016882.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-rosso-e-il-nero/id467675387"
+    },
+    {
+      "rank": 89,
+      "title": "Le avventure di Sherlock Holmes",
+      "creator": "Arthur Conan Doyle",
+      "year": 1892,
+      "original": "The Adventures of Sherlock Holmes",
+      "description": "Dodici racconti con il detective di Baker Street e il dottor Watson, tra cui «Uno scandalo in Boemia».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/d7/3b/47/d73b4779-9fbe-089f-47b0-606b67620ad6/9788854122796.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-avventure-di-sherlock-holmes/id391491928"
+    },
+    {
+      "rank": 90,
+      "title": "The Faraway Tree",
+      "creator": "Enid Blyton",
+      "year": "1939-1951",
+      "original": "The Enchanted Wood",
+      "description": "Tre fratelli scoprono nel bosco incantato un albero magico: in cima, ogni volta, arriva un mondo diverso.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/22/00/1e/22001ef8-ab1c-5931-ab29-75249d04ebec/5f0b2c82-6f1c-4a94-84e2-62856fad14e0_cover_image.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/the-faraway-tree-series/id6483362905"
+    },
+    {
+      "rank": 91,
+      "title": "Cuore di tenebra",
+      "creator": "Joseph Conrad",
+      "year": 1899,
+      "original": "Heart of Darkness",
+      "description": "Marlow risale il fiume Congo in cerca del misterioso Kurtz: un viaggio nell'orrore del colonialismo e dell'animo umano.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/09/f3/f4/09f3f4e7-1b97-f898-a940-a7af7833af4f/9788874171606.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/cuore-di-tenebra/id560806312"
+    },
+    {
+      "rank": 92,
+      "title": "Il piccolo principe",
+      "creator": "Antoine de Saint-Exupéry",
+      "year": 1943,
+      "original": "The Little Prince",
+      "description": "Un aviatore precipitato nel deserto incontra un bambino venuto da un asteroide: una favola poetica per adulti. «L'essenziale è invisibile agli occhi».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/fd/d5/9d/fdd59de0-5db7-4578-9057-722acca6b38d/9788826483689.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-piccolo-principe/id1261512703"
+    },
+    {
+      "rank": 93,
+      "title": "The Wasp Factory",
+      "creator": "Iain Banks",
+      "year": 1984,
+      "description": "Frank, sedicenne inquietante, vive su un'isola scozzese tra rituali macabri e segreti di famiglia: un esordio disturbante diventato un cult.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/d8/c1/5f/d8c15fcd-107a-b5bf-7608-ce4998cc1cd1/9780748109951.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/the-wasp-factory/id401056797"
+    },
+    {
+      "rank": 94,
+      "title": "Niente di nuovo sul fronte occidentale",
+      "creator": "Erich Maria Remarque",
+      "year": 1929,
+      "original": "All Quiet on the Western Front",
+      "description": "Un giovane soldato tedesco nelle trincee della Prima guerra mondiale: il romanzo antimilitarista per eccellenza, bruciato dai nazisti.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/fd/28/9c/fd289c36-ce3a-a803-9ef0-ee2f94edf8d0/9788854512979.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/niente-di-nuovo-sul-fronte-occidentale/id1100214352"
+    },
+    {
+      "rank": 95,
+      "title": "Un uomo",
+      "creator": "Oriana Fallaci",
+      "year": 1979,
+      "description": "La storia di Alekos Panagulis, poeta e oppositore della dittatura dei colonnelli in Grecia, raccontata dalla donna che gli fu compagna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/3f/42/56/3f42569e-d69b-d282-7337-029bcabe39d2/9788858673966.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/un-uomo/id924486454"
+    },
+    {
+      "rank": 96,
+      "title": "Il giovane Holden",
+      "creator": "J.D. Salinger",
+      "year": 1951,
+      "original": "The Catcher in the Rye",
+      "description": "Espulso dal college, Holden Caulfield vaga per New York per tre giorni: la voce ribelle e ferita dell'adolescenza.",
+      "cover": "https://covers.openlibrary.org/b/id/9273490-M.jpg",
+      "url": "https://openlibrary.org/works/OL3335245W"
+    },
+    {
+      "rank": 97,
+      "title": "I tre moschettieri",
+      "creator": "Alexandre Dumas",
+      "year": 1844,
+      "original": "The Three Musketeers",
+      "description": "Il giovane d'Artagnan arriva a Parigi e si unisce ad Athos, Porthos e Aramis contro gli intrighi del cardinale Richelieu: tutti per uno, uno per tutti.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/1c/69/90/1c69907d-39d1-18e5-260a-8947dd5b30fe/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-tre-moschettieri/id399789809"
+    },
+    {
+      "rank": 98,
+      "title": "Amleto",
+      "creator": "William Shakespeare",
+      "year": "1600 circa",
+      "original": "Hamlet",
+      "description": "Il principe di Danimarca finge la follia per vendicare il padre ucciso dallo zio: la tragedia del dubbio, dell'«essere o non essere».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/db/3d/bd/db3dbddd-145e-4a1b-b698-c37a10ad116d/9788897313663.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/amleto/id932211887"
+    },
+    {
+      "rank": 99,
+      "title": "La fabbrica di cioccolato",
+      "creator": "Roald Dahl",
+      "year": 1964,
+      "original": "Charlie and the Chocolate Factory",
+      "description": "Il povero Charlie trova il biglietto d'oro per visitare la fabbrica magica di Willy Wonka: una fiaba golosa e piena di ironia cattiva.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/01/74/29/0174293b-d6e8-85e9-6c8f-a76c4d727c7c/9788867151882.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-fabbrica-di-cioccolato/id579299269"
+    },
+    {
+      "rank": 100,
+      "title": "I miserabili",
+      "creator": "Victor Hugo",
+      "year": 1862,
+      "original": "Les Misérables",
+      "description": "L'ex galeotto Jean Valjean, braccato dall'ispettore Javert, cerca la redenzione nella Francia dell'Ottocento fino alle barricate del 1832.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/4a/7b/f4/4a7bf491-7230-7b31-fc29-b4d6fb795c72/cop_miserabili.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-miserabili/id601307370"
+    }
+  ]
+}

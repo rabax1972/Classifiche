@@ -17,6 +17,10 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
 | Film | TMDB `discover/movie` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
 | Serie TV | TMDB `discover/tv` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
 
+**I 100 dischi da avere assolutamente** (pagina `/album-da-avere/`): lista statica in [`data/curated/album-da-avere.json`](data/curated/album-da-avere.json), con la top 100 dei 500 migliori album di Rolling Stone (2003) ripresa da [Il Rocker](https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html). Le descrizioni sono originali. Le copertine si completano a mano con `npm run covers:album`: prima l'API di ricerca iTunes (discografia dell'artista, poi ricerca testuale), in mancanza Cover Art Archive (MusicBrainz).
+
+**I 100 libri da avere assolutamente** (pagina `/libri-da-avere/`): lista statica in [`data/curated/libri-da-avere.json`](data/curated/libri-da-avere.json), la versione italiana della lista virale «i cento libri secondo la BBC» pubblicata da [La lettrice controcorrente](https://www.lalettricecontrocorrente.it/pensieri-in-liberta/i-cento-libri-da-leggere-secondo-la-bbc/). Non è il sondaggio The Big Read della BBC. Le descrizioni sono originali. Le copertine si completano con `npm run covers:libri`: prima Apple Books Italia (edizione italiana), poi Open Library.
+
 **Fonti valutate e scartate** (verifica di ottobre 2026):
 - **IBS e Libraccio**: le condizioni d'uso (art. 3.2) vietano qualsiasi estrazione automatica.
 - **Mondadori Store**: escluso per prudenza.
@@ -52,6 +56,8 @@ npm run dev                # http://localhost:4321
 | `npm run aggregate` | Ricalcola `data/charts/` dagli snapshot e dalle classifiche ufficiali |
 | `npm run update` | `ingest` + `aggregate` (quello che fa il cron) |
 | `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
+| `npm run covers:album` | Completa le copertine mancanti della lista "Album da avere" (`-- --force` per rifarle tutte) |
+| `npm run covers:libri` | Completa le copertine mancanti della lista "Libri da avere" (`-- --force` per rifarle tutte) |
 | `npm test` | Test di aggregazione, adapter e conservazione dati |
 | `npm run build` | Sito statico in `dist/` |
 

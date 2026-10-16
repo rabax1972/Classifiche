@@ -15,6 +15,8 @@ const HOST_INTERVAL: Record<string, number> = {
   'ws.audioscrobbler.com': 250,
   'rss.marketingtools.apple.com': 1000,
   'itunes.apple.com': 3000,
+  'musicbrainz.org': 1500,
+  'openlibrary.org': 1000,
 };
 const DEFAULT_INTERVAL = 1000;
 const lastRequestAt = new Map<string, number>();

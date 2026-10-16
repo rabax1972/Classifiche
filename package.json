@@ -10,6 +10,8 @@
     "ingest": "tsx scripts/ingest.ts",
     "aggregate": "tsx scripts/aggregate.ts",
     "seed": "tsx scripts/seed.ts",
+    "covers:album": "tsx scripts/album-covers.ts",
+    "covers:libri": "tsx scripts/book-covers.ts",
     "update": "npm run ingest && npm run aggregate",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"

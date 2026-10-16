@@ -1,0 +1,910 @@
+{
+  "id": "album-da-avere",
+  "title": "I 100 dischi da avere assolutamente",
+  "intro": "I primi 100 titoli della classifica dei 500 migliori album di sempre pubblicata da Rolling Stone nel novembre 2003, nella selezione proposta da Il Rocker.",
+  "listSource": "Rolling Stone (2003), via Il Rocker",
+  "listUrl": "https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html",
+  "coversNote": "Copertine da Apple Music e Cover Art Archive.",
+  "entries": [
+    {
+      "rank": 1,
+      "title": "Sgt. Pepper's Lonely Hearts Club Band",
+      "creator": "The Beatles",
+      "year": 1967,
+      "description": "Il concept album che trasformò lo studio di registrazione in uno strumento: orchestre, nastri al contrario e psichedelia al servizio della canzone pop.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6f/79/8d/6f798d84-7475-8525-fc91-f7b51b2b5a9b/00602567725428.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/sgt-peppers-lonely-hearts-club-band/1441164604"
+    },
+    {
+      "rank": 2,
+      "title": "Pet Sounds",
+      "creator": "The Beach Boys",
+      "year": 1966,
+      "description": "Brian Wilson costruisce sinfonie tascabili fatte di armonie vocali e arrangiamenti inauditi; da qui nasce \"God Only Knows\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/bb/c4/35bbc4eb-9387-97b0-b138-64b7a949ea43/13UABIM03512.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/pet-sounds/1440841241"
+    },
+    {
+      "rank": 3,
+      "title": "Revolver",
+      "creator": "The Beatles",
+      "year": 1966,
+      "description": "Il salto nel moderno: dagli archi di \"Eleanor Rigby\" ai loop di \"Tomorrow Never Knows\", i Beatles smettono di essere una band da palco.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/4a/10/584a1058-de0a-6a6b-d0bd-da09a028b8bc/00602567705499.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/revolver/1441164670"
+    },
+    {
+      "rank": 4,
+      "title": "Highway 61 Revisited",
+      "creator": "Bob Dylan",
+      "year": 1965,
+      "description": "Dylan elettrico e visionario: \"Like a Rolling Stone\" apre un disco che fonde blues, poesia e rabbia rock.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/ff/c0/f8ffc056-55b4-2033-657d-32492d1eea25/827969239926.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/highway-61-revisited/201281514"
+    },
+    {
+      "rank": 5,
+      "title": "Rubber Soul",
+      "creator": "The Beatles",
+      "year": 1965,
+      "description": "Il primo album pensato come opera unitaria: testi più adulti, sitar e influenze folk in brani come \"Norwegian Wood\" e \"In My Life\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/20/aa/af20aa89-4002-11fb-25d8-ff544af67eb4/00602567725404.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/rubber-soul/1441164359"
+    },
+    {
+      "rank": 6,
+      "title": "What's Going On",
+      "creator": "Marvin Gaye",
+      "year": 1971,
+      "description": "Un ciclo di canzoni sulla guerra, la povertà e l'ambiente che portò la coscienza sociale nel cuore della Motown.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/76/36/2d/76362d74-cb7a-8ef9-104e-cde1d858e9a9/20UMGIM95279.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/whats-going-on/1538081586"
+    },
+    {
+      "rank": 7,
+      "title": "Exile on Main St.",
+      "creator": "The Rolling Stones",
+      "year": 1972,
+      "description": "Doppio album registrato in una villa in Costa Azzurra: un groviglio sporco e glorioso di rock, blues, country e gospel.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/47/bb/c1/47bbc1ac-b6d0-ed36-6fe9-dab08065540a/10UMGIM10406.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/exile-on-main-st-deluxe-edition-2010-remaster/1440856575"
+    },
+    {
+      "rank": 8,
+      "title": "London Calling",
+      "creator": "The Clash",
+      "year": 1979,
+      "description": "Il punk si allarga a reggae, rockabilly, ska e jazz in un doppio album urgente e pieno di idee.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/93/cb/20/93cb201b-154b-7b74-a10b-48fbef9b3281/888880348937.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/london-calling-expanded-edition/267986379"
+    },
+    {
+      "rank": 9,
+      "title": "Blonde on Blonde",
+      "creator": "Bob Dylan",
+      "year": 1966,
+      "description": "Registrato tra New York e Nashville, è il suono \"sottile e selvaggio\" di Dylan al suo apice, con \"Visions of Johanna\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/9d/bf/209dbf58-f698-7181-33de-0c29480beba0/074640084126.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/blonde-on-blonde/178049863"
+    },
+    {
+      "rank": 10,
+      "title": "The Beatles (White Album)",
+      "creator": "The Beatles",
+      "year": 1968,
+      "description": "Trenta brani in un doppio album dalla copertina bianca: ogni membro segue la propria strada, dal folk all'hard rock.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/f5/f9/09f5f938-53d1-6b1e-7ec0-c4d8ecae552d/13UABIM56313.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-beatles-remastered/6818178636"
+    },
+    {
+      "rank": 11,
+      "title": "The Sun Sessions",
+      "creator": "Elvis Presley",
+      "year": 1976,
+      "description": "Le registrazioni del 1954-55 per la Sun di Memphis: il momento in cui country e rhythm and blues diventano rock and roll.",
+      "cover": "https://coverartarchive.org/release-group/2ac479cc-0126-3709-bb55-7028e4c559ef/front-250",
+      "url": null
+    },
+    {
+      "rank": 12,
+      "title": "Kind of Blue",
+      "creator": "Miles Davis",
+      "year": 1959,
+      "description": "Il disco jazz più venduto di sempre: improvvisazione modale con Coltrane, Evans e Adderley, registrata quasi senza prove.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/9f/d6/mzi.vtnaewef.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/kind-of-blue/268443092"
+    },
+    {
+      "rank": 13,
+      "title": "The Velvet Underground & Nico",
+      "creator": "The Velvet Underground",
+      "year": 1967,
+      "description": "La banana di Warhol in copertina e dentro droga, rumore e poesia urbana: vendette poco, ma ispirò generazioni di band.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/93/39/9293397f-a707-237e-ec7e-0ca613a67e3c/06UMGIM04143.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-velvet-underground-nico-45th-anniversary-edition/1440851613"
+    },
+    {
+      "rank": 14,
+      "title": "Abbey Road",
+      "creator": "The Beatles",
+      "year": 1969,
+      "description": "L'ultimo album registrato dai Beatles, chiuso dal lungo medley del lato B; la copertina sulle strisce pedonali è leggenda.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/db/61/dfdb615d-47f8-06e9-9533-b96daccc029f/18UMGIM31076.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/abbey-road-remastered/1441164426"
+    },
+    {
+      "rank": 15,
+      "title": "Are You Experienced",
+      "creator": "The Jimi Hendrix Experience",
+      "year": 1967,
+      "description": "L'esordio che ridefinì la chitarra elettrica: feedback, distorsione e blues spaziale in \"Purple Haze\" e \"Foxy Lady\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/aa/cd/60/mzi.uhnpzqav.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/are-you-experienced/357864586"
+    },
+    {
+      "rank": 16,
+      "title": "Blood on the Tracks",
+      "creator": "Bob Dylan",
+      "year": 1975,
+      "description": "Canzoni di amore e separazione tra le più intense di Dylan, da \"Tangled Up in Blue\" a \"Simple Twist of Fate\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/34/6e/4d/346e4d1c-c9ef-cf7f-96d9-aad97286febb/074643323529.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/blood-on-the-tracks/158320766"
+    },
+    {
+      "rank": 17,
+      "title": "Nevermind",
+      "creator": "Nirvana",
+      "year": 1991,
+      "description": "\"Smells Like Teen Spirit\" porta il grunge di Seattle in vetta alle classifiche e chiude l'era del rock patinato degli anni '80.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/nevermind/1440783617"
+    },
+    {
+      "rank": 18,
+      "title": "Born to Run",
+      "creator": "Bruce Springsteen",
+      "year": 1975,
+      "description": "Il muro di suono applicato al sogno americano: fughe in auto, notti di periferia e la consacrazione del Boss.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/02/f7/0a02f7a1-ca2a-c0d7-7192-50314971721f/884977157031.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/born-to-run/310730204"
+    },
+    {
+      "rank": 19,
+      "title": "Astral Weeks",
+      "creator": "Van Morrison",
+      "year": 1968,
+      "description": "Folk, jazz e soul fluttuanti, registrati in pochi giorni con musicisti jazz: un disco ipnotico e fuori dal tempo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/91/1b/88911b7b-a63f-4624-3fb1-2976b628c59a/603497886340.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/astral-weeks/1031002336"
+    },
+    {
+      "rank": 20,
+      "title": "Thriller",
+      "creator": "Michael Jackson",
+      "year": 1982,
+      "description": "L'album più venduto della storia: con Quincy Jones, Jackson fonde pop, funk e rock e trasforma il videoclip in un evento.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/thriller/269572838"
+    },
+    {
+      "rank": 21,
+      "title": "The Great Twenty-Eight",
+      "creator": "Chuck Berry",
+      "year": 1982,
+      "description": "Raccolta dei singoli Chess degli anni '50: \"Johnny B. Goode\" e \"Maybellene\" sono il vocabolario del rock and roll.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/0c/da/200cdaef-faf4-aaca-96d6-b3d394751321/24UMGIM34828.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-great-twenty-eight/1738561694"
+    },
+    {
+      "rank": 22,
+      "title": "John Lennon/Plastic Ono Band",
+      "creator": "John Lennon",
+      "year": 1970,
+      "description": "Il primo vero album solista di Lennon dopo i Beatles: scarno, crudo e autobiografico, nato dalla terapia dell'urlo primale.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f1/ba/ad/f1baadd5-df47-406e-f4be-603eff9d9e3c/13UABIM11969.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/john-lennon-plastic-ono-band/1440858209"
+    },
+    {
+      "rank": 23,
+      "title": "Innervisions",
+      "creator": "Stevie Wonder",
+      "year": 1973,
+      "description": "Wonder suona quasi tutto da solo tra sintetizzatori e funk, raccontando il ghetto in \"Living for the City\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c2/5f/ffc25f04-cb3b-b56e-dd28-8b77ae63e613/00602537070824.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/innervisions/1440806790"
+    },
+    {
+      "rank": 24,
+      "title": "Live at the Apollo",
+      "creator": "James Brown",
+      "year": 1963,
+      "description": "Registrato all'Apollo di Harlem nel 1962, a spese dello stesso Brown: l'energia pura del soul dal vivo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e7/41/db/e741dbd4-3795-8eef-969c-546ff7c5b1a8/00602537429806.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/live-at-the-apollo-1962/1445669062"
+    },
+    {
+      "rank": 25,
+      "title": "Rumours",
+      "creator": "Fleetwood Mac",
+      "year": 1977,
+      "description": "Nato mentre le coppie della band si separavano: tensioni trasformate in pop rock perfetto come \"Go Your Own Way\" e \"Dreams\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/rumours/594061854"
+    },
+    {
+      "rank": 26,
+      "title": "The Joshua Tree",
+      "creator": "U2",
+      "year": 1987,
+      "description": "Gli U2 esplorano il mito e le contraddizioni dell'America con \"With or Without You\" e \"Where the Streets Have No Name\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8f/e2/c3/8fe2c384-f6cb-9af7-371d-2b6a9b204e59/17UMGIM79292.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-joshua-tree/1443155637"
+    },
+    {
+      "rank": 27,
+      "title": "King of the Delta Blues Singers",
+      "creator": "Robert Johnson",
+      "year": 1961,
+      "description": "Le registrazioni del 1936-37 del bluesman leggendario, riscoperte da Clapton, dai Rolling Stones e da tutto il rock britannico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/74/0d/3c740deb-0293-4184-a66d-5176b9e872a4/mzi.scyemciw.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/king-of-the-delta-blues-singers/157432232"
+    },
+    {
+      "rank": 28,
+      "title": "Who's Next",
+      "creator": "The Who",
+      "year": 1971,
+      "description": "Nato dalle ceneri di un'opera rock abbandonata: sintetizzatori pionieristici e potenza in \"Baba O'Riley\" e \"Won't Get Fooled Again\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1c/e8/a4/1ce8a442-eef1-0af2-cf09-30ef0e734731/00602547269683.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/whos-next-deluxe-edition/1440850317"
+    },
+    {
+      "rank": 29,
+      "title": "Led Zeppelin",
+      "creator": "Led Zeppelin",
+      "year": 1969,
+      "description": "L'esordio registrato in circa 36 ore che porta il blues a un volume e a una pesantezza mai sentiti prima.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/7b/80/4c7b80b4-ed35-4e06-ec80-2f7aaaabb5c5/dj.pjjmtwdc.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/led-zeppelin-remastered/580708520"
+    },
+    {
+      "rank": 30,
+      "title": "Blue",
+      "creator": "Joni Mitchell",
+      "year": 1971,
+      "description": "Confessioni in musica per voce, chitarra, piano e dulcimer: uno dei dischi cantautorali più intimi di sempre.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/a2/43/00a24363-cf69-bfd2-a26a-a042d57ab141/075992719926.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/blue/1492263092"
+    },
+    {
+      "rank": 31,
+      "title": "Bringing It All Back Home",
+      "creator": "Bob Dylan",
+      "year": 1965,
+      "description": "Metà elettrico e metà acustico: il disco della svolta, con \"Subterranean Homesick Blues\" e \"Mr. Tambourine Man\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/ad/46/61ad469e-1e2d-da3c-6847-b939c07924f9/074640912825.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/bringing-it-all-back-home/177964575"
+    },
+    {
+      "rank": 32,
+      "title": "Let It Bleed",
+      "creator": "The Rolling Stones",
+      "year": 1969,
+      "description": "La fine degli anni '60 raccontata con cupezza: da \"Gimme Shelter\" a \"You Can't Always Get What You Want\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/64/67/696467fe-9ed1-b65e-1016-a10d07e6464d/20UMGIM14087.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/let-it-bleed-remastered-2019/1500642838"
+    },
+    {
+      "rank": 33,
+      "title": "Ramones",
+      "creator": "Ramones",
+      "year": 1976,
+      "description": "Quattordici brani in mezz'ora, tre accordi e nessun assolo: il manifesto del punk newyorkese.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/eb/c0/ab/ebc0ab80-e4df-08fd-64fd-e3c464e6c607/603497909629.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/ramones/847972873"
+    },
+    {
+      "rank": 34,
+      "title": "Music from Big Pink",
+      "creator": "The Band",
+      "year": 1968,
+      "description": "Nato nella casa rosa di Woodstock dopo le session con Dylan: rock con radici country, folk e gospel, lontano dagli eccessi psichedelici.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/44/eb/9f/44eb9ffc-8e77-9a3d-8be7-8ca579de93cc/13UACIM30926.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/music-from-big-pink-remastered-2000/1440814725"
+    },
+    {
+      "rank": 35,
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "creator": "David Bowie",
+      "year": 1972,
+      "description": "Bowie diventa Ziggy, rockstar aliena destinata all'autodistruzione: il glam rock trova il suo capolavoro.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/fa/56/5ffa56c2-ea1f-7a17-6bad-192ff9b6476d/825646124206.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877"
+    },
+    {
+      "rank": 36,
+      "title": "Tapestry",
+      "creator": "Carole King",
+      "year": 1971,
+      "description": "Dopo anni di successi scritti per altri, King canta i suoi brani: \"It's Too Late\" e \"You've Got a Friend\" definiscono il cantautorato femminile.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/b6/0e/68b60e89-9d41-e8a1-bba2-05c750f0832b/dj.hwpyamqm.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/tapestry/747087657"
+    },
+    {
+      "rank": 37,
+      "title": "Hotel California",
+      "creator": "Eagles",
+      "year": 1976,
+      "description": "Un ritratto disilluso del sogno californiano; la title track e il suo doppio assolo di chitarra sono diventati un classico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/16/2c/88162c3d-46db-8321-61f3-3a47404cfe76/075596050920.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/hotel-california/635770200"
+    },
+    {
+      "rank": 38,
+      "title": "The Anthology: 1947-1972",
+      "creator": "Muddy Waters",
+      "year": 2001,
+      "description": "Venticinque anni di blues elettrico di Chicago dal suo padre fondatore: \"Hoochie Coochie Man\", \"Mannish Boy\", \"Rollin' Stone\".",
+      "cover": "https://coverartarchive.org/release-group/43c8d4a1-0e92-3600-ba93-d75359480498/front-250",
+      "url": null
+    },
+    {
+      "rank": 39,
+      "title": "Please Please Me",
+      "creator": "The Beatles",
+      "year": 1963,
+      "description": "L'esordio registrato quasi tutto in un solo giorno, chiuso da una \"Twist and Shout\" cantata da Lennon con la voce ormai rotta.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ff/b5/9cffb5a6-a37f-c84a-7240-0333a071bc92/00602567725275.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/please-please-me/1441164816"
+    },
+    {
+      "rank": 40,
+      "title": "Forever Changes",
+      "creator": "Love",
+      "year": 1967,
+      "description": "Folk rock barocco con archi e fiati: dietro la bellezza degli arrangiamenti, Arthur Lee racconta l'ansia di Los Angeles.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/ee/47/5aee470b-8df3-2b3d-f24e-5f79f24350a9/603497886968.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/forever-changes-remastered/1125521386"
+    },
+    {
+      "rank": 41,
+      "title": "Never Mind the Bollocks, Here's the Sex Pistols",
+      "creator": "Sex Pistols",
+      "year": 1977,
+      "description": "L'unico album in studio dei Pistols: \"Anarchy in the U.K.\" e \"God Save the Queen\" scandalizzano la Gran Bretagna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b5/de/3a/b5de3acd-3008-fe1d-8f40-f4a497cfb16c/00602527965031.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/never-mind-the-bollocks-heres-the-sex-pistols/1440810369"
+    },
+    {
+      "rank": 42,
+      "title": "The Doors",
+      "creator": "The Doors",
+      "year": 1967,
+      "description": "L'organo di Manzarek e la voce di Jim Morrison: dal successo di \"Light My Fire\" agli undici minuti di \"The End\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/e2/ce/97e2ce16-02e1-54f6-3896-dcc55249ff7d/603497838738.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-doors/1622368510"
+    },
+    {
+      "rank": 43,
+      "title": "The Dark Side of the Moon",
+      "creator": "Pink Floyd",
+      "year": 1973,
+      "description": "Un viaggio sonoro su tempo, denaro e follia, rimasto per oltre 900 settimane nella classifica americana Billboard 200.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/76/b0/3e76b0e3-762b-2286-a019-8afb19cee541/886445635829.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-dark-side-of-the-moon/1065973699"
+    },
+    {
+      "rank": 44,
+      "title": "Horses",
+      "creator": "Patti Smith",
+      "year": 1975,
+      "description": "Poesia beat e rock garage prodotti da John Cale: l'esordio che anticipò il punk newyorkese.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/cd/a8/0bcda80a-0046-aa13-1416-71d844dfb711/886445500394.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/horses/1038568061"
+    },
+    {
+      "rank": 45,
+      "title": "The Band",
+      "creator": "The Band",
+      "year": 1969,
+      "description": "Detto il \"brown album\": canzoni che evocano un'America rurale e antica, come \"The Night They Drove Old Dixie Down\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ca/b2/06/cab20688-46b7-e7be-c64a-dbbeeb2fc864/15UMGIM06558.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-band-remastered/1440846597"
+    },
+    {
+      "rank": 46,
+      "title": "Legend",
+      "creator": "Bob Marley & The Wailers",
+      "year": 1984,
+      "description": "La raccolta postuma dei successi di Marley, da \"No Woman, No Cry\" a \"Redemption Song\": il disco reggae più venduto di sempre.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/c2/0d/3cc20dcc-8f4e-f060-36dd-7de52a7ec8fe/12UMGIM14712.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/legend-the-best-of-bob-marley-the-wailers/1469575763"
+    },
+    {
+      "rank": 47,
+      "title": "A Love Supreme",
+      "creator": "John Coltrane",
+      "year": 1965,
+      "description": "Una suite in quattro parti concepita come preghiera: il jazz spirituale di Coltrane con il suo quartetto classico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/24/aa/e524aacd-467b-66f3-8931-0fcd6750a4b9/08UMGIM07914.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/a-love-supreme/1440713018"
+    },
+    {
+      "rank": 48,
+      "title": "It Takes a Nation of Millions to Hold Us Back",
+      "creator": "Public Enemy",
+      "year": 1988,
+      "description": "Campionamenti densissimi della Bomb Squad e rime politiche di Chuck D: l'hip hop come atto di ribellione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/it-takes-a-nation-of-millions-to-hold-us-back/1440837788"
+    },
+    {
+      "rank": 49,
+      "title": "At Fillmore East",
+      "creator": "The Allman Brothers Band",
+      "year": 1971,
+      "description": "Lunghe jam blues dal vivo a New York, guidate dalla slide di Duane Allman: un modello per tutto il rock da concerto.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/da/e0/c9/dae0c9cf-2977-19f8-06fa-8adcf7ca86f0/00602547880314.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/at-fillmore-east-live/1440833569"
+    },
+    {
+      "rank": 50,
+      "title": "Here's Little Richard",
+      "creator": "Little Richard",
+      "year": 1957,
+      "description": "Urla, piano martellante e \"Tutti Frutti\": il rock and roll nella sua forma più selvaggia ed esuberante.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6a/59/ba/6a59ba83-b62c-0aba-afdf-70112572352d/00888072025745.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/heres-little-richard-deluxe-edition/1440936634"
+    },
+    {
+      "rank": 51,
+      "title": "Bridge Over Troubled Water",
+      "creator": "Simon & Garfunkel",
+      "year": 1970,
+      "description": "L'ultimo album del duo, con l'inno gospel della title track, \"The Boxer\" e \"Cecilia\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a3/84/0a/a3840a6d-44e8-0afe-fc3e-316c517dddfe/5099749521421.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/bridge-over-troubled-water/324127933"
+    },
+    {
+      "rank": 52,
+      "title": "Greatest Hits",
+      "creator": "Al Green",
+      "year": 1975,
+      "description": "La voce sensuale del soul di Memphis: \"Let's Stay Together\" e \"Tired of Being Alone\" in una raccolta impeccabile.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/90/63/c0906357-b17c-bfcc-30c8-0532c52d8d0d/886446283692.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/greatest-hits/1203896404"
+    },
+    {
+      "rank": 53,
+      "title": "The Birth of Soul",
+      "creator": "Ray Charles",
+      "year": 1991,
+      "description": "Le registrazioni Atlantic del 1952-59 in cui Ray Charles fonde gospel e rhythm and blues, inventando la soul music.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/7b/ae/f1/7baef164-5d80-e2bc-0333-7eef1e0e5027/dj.rysmdnjf.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-birth-of-soul-the-complete-atlantic/275968936"
+    },
+    {
+      "rank": 54,
+      "title": "Electric Ladyland",
+      "creator": "The Jimi Hendrix Experience",
+      "year": 1968,
+      "description": "Doppio album ambizioso e sperimentale, contiene la versione definitiva di \"All Along the Watchtower\" di Dylan.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/3a/4f/4e3a4fbb-7824-2cb6-9cc7-5ff3490140fc/mzi.yzsqzxhe.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/electric-ladyland/359528125"
+    },
+    {
+      "rank": 55,
+      "title": "Elvis Presley",
+      "creator": "Elvis Presley",
+      "year": 1956,
+      "description": "Il primo album di Elvis per la RCA e il primo disco rock and roll arrivato in vetta alla classifica americana degli album.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/83/f0/c583f039-b1b2-cad8-c3e6-1c40026bb4d8/886444095242.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/elvis-presley/671019373"
+    },
+    {
+      "rank": 56,
+      "title": "Songs in the Key of Life",
+      "creator": "Stevie Wonder",
+      "year": 1976,
+      "description": "Doppio album sterminato tra soul, jazz e funk, con \"Sir Duke\", \"I Wish\" e \"Isn't She Lovely\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/1f/12/eb1f12ec-474c-63aa-43af-09282f423b9d/00602537004737.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/songs-in-the-key-of-life/1440788438"
+    },
+    {
+      "rank": 57,
+      "title": "Beggars Banquet",
+      "creator": "The Rolling Stones",
+      "year": 1968,
+      "description": "Il ritorno alle radici blues dopo la parentesi psichedelica, aperto da \"Sympathy for the Devil\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a3/d1/78/a3d178a8-f1c2-c1c3-1c5d-d78ab3af9768/20UMGIM13726.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/beggars-banquet-2018-remaster/1500643395"
+    },
+    {
+      "rank": 58,
+      "title": "Trout Mask Replica",
+      "creator": "Captain Beefheart & His Magic Band",
+      "year": 1969,
+      "description": "Prodotto da Frank Zappa: blues, free jazz e dadaismo in 28 brani spigolosi, una pietra miliare dell'avanguardia rock.",
+      "cover": "https://coverartarchive.org/release-group/e6a580bd-5d29-3acd-a959-0bfab002ee6f/front-250",
+      "url": null
+    },
+    {
+      "rank": 59,
+      "title": "Meet the Beatles!",
+      "creator": "The Beatles",
+      "year": 1964,
+      "description": "L'edizione americana che scatenò la Beatlemania negli Stati Uniti, aperta da \"I Want to Hold Your Hand\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/02/d2/0302d204-77c1-0c87-e03a-698bd31cf038/00602567725619.rgb.jpg/400x400bb.jpg",
+      "url": null
+    },
+    {
+      "rank": 60,
+      "title": "Greatest Hits",
+      "creator": "Sly & The Family Stone",
+      "year": 1970,
+      "description": "Una band multirazziale che mescola funk, soul e rock: \"Everyday People\" e \"Dance to the Music\" in una raccolta esplosiva.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/da/10/25/da102506-5da5-2b7e-c4a2-7d54155c9455/828767591025.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/greatest-hits/212579326"
+    },
+    {
+      "rank": 61,
+      "title": "Appetite for Destruction",
+      "creator": "Guns N' Roses",
+      "year": 1987,
+      "description": "Il debutto più venduto della storia americana: hard rock sporco e pericoloso con \"Sweet Child o' Mine\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/appetite-for-destruction/1377813284"
+    },
+    {
+      "rank": 62,
+      "title": "Achtung Baby",
+      "creator": "U2",
+      "year": 1991,
+      "description": "Registrato in parte a Berlino, è la reinvenzione degli U2 tra elettronica e ironia; contiene \"One\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/5e/4f/fe5e4f79-c74f-c39e-39dc-4c8a952b9665/17UMGIM98829.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/achtung-baby/1443063058"
+    },
+    {
+      "rank": 63,
+      "title": "Sticky Fingers",
+      "creator": "The Rolling Stones",
+      "year": 1971,
+      "description": "La copertina con la zip ideata da Warhol e dentro \"Brown Sugar\" e \"Wild Horses\": gli Stones al massimo della forma.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7f/e0/b4/7fe0b4da-36cd-a1d0-0f19-ef3fec18e3cd/08UMGIM15742.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/sticky-fingers-2015-remaster/1440812661"
+    },
+    {
+      "rank": 64,
+      "title": "Back to Mono (1958-1969)",
+      "creator": "Phil Spector (artisti vari)",
+      "year": 1991,
+      "description": "Il cofanetto del \"muro di suono\" di Phil Spector: Ronettes, Crystals e Righteous Brothers in produzioni monumentali.",
+      "cover": "https://coverartarchive.org/release-group/683391cb-533a-3b66-a072-c62e735f167d/front-250",
+      "url": null
+    },
+    {
+      "rank": 65,
+      "title": "Moondance",
+      "creator": "Van Morrison",
+      "year": 1970,
+      "description": "Più solare e accessibile di \"Astral Weeks\": soul, jazz e R&B nella title track e in \"Into the Mystic\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/c7/e2/9ac7e266-1f0d-997a-fe43-6741bc96eda6/081227963637.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/moondance/712727450"
+    },
+    {
+      "rank": 66,
+      "title": "Led Zeppelin IV",
+      "creator": "Led Zeppelin",
+      "year": 1971,
+      "description": "Senza titolo in copertina ma noto a tutti per \"Stairway to Heaven\", \"Black Dog\" e \"When the Levee Breaks\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5c/15/9b/5c159b27-95ca-b9a7-84e3-28e795fffd39/dj.kvkrpptq.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/led-zeppelin-iv-remastered/580708175"
+    },
+    {
+      "rank": 67,
+      "title": "The Stranger",
+      "creator": "Billy Joel",
+      "year": 1977,
+      "description": "Il disco della svolta per il \"Piano Man\": \"Just the Way You Are\" e \"Scenes from an Italian Restaurant\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/37/68/4c/37684c52-dbdf-9bfe-0d87-07492f43dc4c/dj.gmcbwich.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-stranger/158617952"
+    },
+    {
+      "rank": 68,
+      "title": "Off the Wall",
+      "creator": "Michael Jackson",
+      "year": 1979,
+      "description": "Il primo incontro con Quincy Jones: disco e funk scintillanti con \"Don't Stop 'Til You Get Enough\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/fe/a3/0cfea324-57c1-d530-5248-9bb591bbd7bf/074643574525.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/off-the-wall/186166282"
+    },
+    {
+      "rank": 69,
+      "title": "Superfly",
+      "creator": "Curtis Mayfield",
+      "year": 1972,
+      "description": "Colonna sonora che superò il film per successo: funk orchestrale e testi che denunciano la droga nei ghetti.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/34/f0/c434f094-4c7e-3c62-8f15-cd02028e1ce7/603497885978.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/superfly-soundtrack-from-the-motion-picture/1048472205"
+    },
+    {
+      "rank": 70,
+      "title": "Physical Graffiti",
+      "creator": "Led Zeppelin",
+      "year": 1975,
+      "description": "Doppio album che spazia dall'epica orientale di \"Kashmir\" all'hard blues: il catalogo completo dei Led Zeppelin.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/82/6c/5d/826c5d66-67b7-62f2-4d78-dd3c7b415e08/dj.pifhrvpa.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/physical-graffiti-remastered/580707980"
+    },
+    {
+      "rank": 71,
+      "title": "After the Gold Rush",
+      "creator": "Neil Young",
+      "year": 1970,
+      "description": "Folk e country rock malinconici, con l'attacco al razzismo del Sud in \"Southern Man\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/9f/0a/889f0afc-ca89-5968-ef83-ab07f7184eb6/093624924753.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/after-the-gold-rush/1015783330"
+    },
+    {
+      "rank": 72,
+      "title": "Purple Rain",
+      "creator": "Prince and The Revolution",
+      "year": 1984,
+      "description": "Colonna sonora dell'omonimo film: rock, funk e pop fusi da Prince in \"When Doves Cry\" e nella title track.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/purple-rain/1746833068"
+    },
+    {
+      "rank": 73,
+      "title": "Back in Black",
+      "creator": "AC/DC",
+      "year": 1980,
+      "description": "Il ritorno dopo la morte di Bon Scott, con Brian Johnson alla voce: uno degli album più venduti di sempre.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1e/14/58/1e145814-281a-58e0-3ab1-145f5d1af421/886443673441.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/back-in-black/574050396"
+    },
+    {
+      "rank": 74,
+      "title": "Otis Blue: Otis Redding Sings Soul",
+      "creator": "Otis Redding",
+      "year": 1965,
+      "description": "Soul di Memphis viscerale, con l'originale di \"Respect\" e una cover di \"Satisfaction\" degli Stones.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/b4/cf/1fb4cf66-d3cf-9a25-bf58-103bb91e615c/603497890279.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/otis-blue-otis-redding-sings-soul/995157199"
+    },
+    {
+      "rank": 75,
+      "title": "Led Zeppelin II",
+      "creator": "Led Zeppelin",
+      "year": 1969,
+      "description": "Registrato in tour, è il disco che codifica l'hard rock con il riff di \"Whole Lotta Love\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/3d/bb/1a3dbb86-c1f8-737e-571f-d6b647a230be/dj.rhubuvkd.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/led-zeppelin-ii-remastered/580708374"
+    },
+    {
+      "rank": 76,
+      "title": "Imagine",
+      "creator": "John Lennon",
+      "year": 1971,
+      "description": "Più melodico di Plastic Ono Band: la title track è diventata un inno pacifista universale.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/e3/b0/21e3b048-c917-92c4-bd7d-ace44797b388/13UABIM52808.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/imagine/1440853752"
+    },
+    {
+      "rank": 77,
+      "title": "The Clash",
+      "creator": "The Clash",
+      "year": 1977,
+      "description": "L'esordio rabbioso e politico dei Clash, con \"White Riot\" e \"London's Burning\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/8d/7f/538d7f34-71e3-df2d-5221-4df922ab9510/886443520738.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-clash-2013-remastered/684737755"
+    },
+    {
+      "rank": 78,
+      "title": "Harvest",
+      "creator": "Neil Young",
+      "year": 1972,
+      "description": "Il disco più venduto del 1972 negli Stati Uniti: country rock acustico con \"Heart of Gold\" e \"Old Man\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/4b/c4/e04bc4e6-9d3a-0bab-c953-f139c72fd337/093624924722.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/harvest/1015739190"
+    },
+    {
+      "rank": 79,
+      "title": "Star Time",
+      "creator": "James Brown",
+      "year": 1991,
+      "description": "Il cofanetto antologico del Padrino del soul: dagli esordi al funk di \"Papa's Got a Brand New Bag\" e \"Sex Machine\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/5b/1c/145b1cc1-3c63-7385-500e-c6ed8b190c3b/06UMGIM18886.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/star-time/1793518788"
+    },
+    {
+      "rank": 80,
+      "title": "Odessey and Oracle",
+      "creator": "The Zombies",
+      "year": 1968,
+      "description": "Pop barocco e psichedelico registrato ad Abbey Road; la band si sciolse prima del successo di \"Time of the Season\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/5a/a5/215aa554-bc35-193a-9d80-08247cac571c/810183320198.png/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/odessey-and-oracle-mono-remastered/1810776077"
+    },
+    {
+      "rank": 81,
+      "title": "Graceland",
+      "creator": "Paul Simon",
+      "year": 1986,
+      "description": "Paul Simon incontra i musicisti sudafricani: ritmi mbaqanga e pop in un disco tanto amato quanto discusso.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a7/73/c1/a773c1f0-281c-324c-204f-540444080ea8/886443445697.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/graceland/529574560"
+    },
+    {
+      "rank": 82,
+      "title": "Axis: Bold as Love",
+      "creator": "The Jimi Hendrix Experience",
+      "year": 1967,
+      "description": "Il secondo album di Hendrix, più introspettivo e melodico, con \"Little Wing\" e \"Castles Made of Sand\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e6/14/97/e614976f-c5cf-837c-2b64-c4ed08c304c3/mzm.asghqict.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/axis-bold-as-love/344562307"
+    },
+    {
+      "rank": 83,
+      "title": "I Never Loved a Man the Way I Love You",
+      "creator": "Aretha Franklin",
+      "year": 1967,
+      "description": "Il debutto per la Atlantic che fece di Aretha la regina del soul, con la sua versione di \"Respect\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d1/31/ee/d131eec4-614c-d661-b580-3dc32b8547e8/603497896622.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/i-never-loved-a-man-the-way-i-love-you/937107826"
+    },
+    {
+      "rank": 84,
+      "title": "Lady Soul",
+      "creator": "Aretha Franklin",
+      "year": 1968,
+      "description": "Aretha all'apice: \"(You Make Me Feel Like) A Natural Woman\" e \"Chain of Fools\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/a7/ac/e3a7aca0-48e1-0882-8e25-3d68f7ba3a72/603497896646.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/lady-soul/933585548"
+    },
+    {
+      "rank": 85,
+      "title": "Born in the U.S.A.",
+      "creator": "Bruce Springsteen",
+      "year": 1984,
+      "description": "Sette singoli nella top 10 americana: sotto i sintetizzatori da stadio, storie amare di operai e reduci.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/72/68/327268ba-b9dd-b322-2a16-bdd0212df48c/074643865326.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/born-in-the-u-s-a/203708420"
+    },
+    {
+      "rank": 86,
+      "title": "Let It Be",
+      "creator": "The Beatles",
+      "year": 1970,
+      "description": "Pubblicato dopo lo scioglimento e prodotto da Phil Spector, contiene \"Get Back\" e \"The Long and Winding Road\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ae/98/4c/ae984c7a-cd06-a7cd-e8bf-32cb15ba698d/00602567705475.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/let-it-be/1441164495"
+    },
+    {
+      "rank": 87,
+      "title": "The Wall",
+      "creator": "Pink Floyd",
+      "year": 1979,
+      "description": "Opera rock di Roger Waters sull'alienazione di una rockstar, con \"Another Brick in the Wall, Part 2\" e \"Comfortably Numb\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/17/ec/3e17ec6d-f980-c64f-19e0-a6fd8bbf0c10/886445635850.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-wall/1065975633"
+    },
+    {
+      "rank": 88,
+      "title": "At Folsom Prison",
+      "creator": "Johnny Cash",
+      "year": 1968,
+      "description": "Concerto registrato davanti ai detenuti della prigione di Folsom: country ruvido e autentico che rilanciò la carriera di Cash.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f3/75/c1/f375c1d8-9666-0119-c54b-f06e9759da5b/886444492690.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/at-folsom-prison-live/825516828"
+    },
+    {
+      "rank": 89,
+      "title": "Dusty in Memphis",
+      "creator": "Dusty Springfield",
+      "year": 1969,
+      "description": "La cantante inglese incontra il soul americano; ne nasce \"Son of a Preacher Man\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4d/8b/6e/4d8b6e4e-4424-693b-a1d5-6d1d53d944d0/00044006329727.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/dusty-in-memphis-remastered-deluxe-edition/1440717710"
+    },
+    {
+      "rank": 90,
+      "title": "Talking Book",
+      "creator": "Stevie Wonder",
+      "year": 1972,
+      "description": "L'inizio del periodo d'oro di Wonder: il clavinet di \"Superstition\" e la dolcezza di \"You Are the Sunshine of My Life\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/61/61/626161c0-f4d7-e6ff-8586-768340ef278f/00602537002382.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/talking-book/1440808973"
+    },
+    {
+      "rank": 91,
+      "title": "Goodbye Yellow Brick Road",
+      "creator": "Elton John",
+      "year": 1973,
+      "description": "Doppio album con i testi di Bernie Taupin: \"Candle in the Wind\", \"Bennie and the Jets\" e la title track.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a2/e6/d6/a2e6d692-4166-1b2d-b935-34cf60a4a70f/13UAEIM26828.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/goodbye-yellow-brick-road-deluxe/1440883261"
+    },
+    {
+      "rank": 92,
+      "title": "20 Golden Greats",
+      "creator": "Buddy Holly",
+      "year": 1978,
+      "description": "I successi di un pioniere scomparso a 22 anni: \"Peggy Sue\" e \"That'll Be the Day\" ispirarono i Beatles.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/70/ee/e8/70eee867-fbec-35fd-d231-a97fcb595020/00602567833178.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/20-golden-greats-buddy-holly-lives/1425246912"
+    },
+    {
+      "rank": 93,
+      "title": "Sign o' the Times",
+      "creator": "Prince",
+      "year": 1987,
+      "description": "Doppio album eclettico tra funk, rock, soul e pop psichedelico; per molti il capolavoro di Prince.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a3/b8/f0/a3b8f034-e5cb-336a-4a79-1c782aca4224/075992557726.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/sign-o-the-times/212852926"
+    },
+    {
+      "rank": 94,
+      "title": "Bitches Brew",
+      "creator": "Miles Davis",
+      "year": 1970,
+      "description": "Miles Davis elettrifica il jazz e apre la strada alla fusion con lunghe improvvisazioni collettive.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/e1/63/9be1630c-486d-760c-76cf-04282174700a/074646577424.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/bitches-brew/168376392"
+    },
+    {
+      "rank": 95,
+      "title": "Green River",
+      "creator": "Creedence Clearwater Revival",
+      "year": 1969,
+      "description": "Il rock delle paludi dei Creedence, essenziale e trascinante, con \"Bad Moon Rising\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/16/20/881620df-9161-61e8-2295-99c6740871b8/00888072355972.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/green-river/1440952818"
+    },
+    {
+      "rank": 96,
+      "title": "Tommy",
+      "creator": "The Who",
+      "year": 1969,
+      "description": "L'opera rock per antonomasia: la storia di un ragazzo sordo, muto e cieco che diventa campione di flipper e messia.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/22/7f/f3227fd3-758e-2728-7db2-25b29373c8ae/18UMGIM35635.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/tommy/1461210985"
+    },
+    {
+      "rank": 97,
+      "title": "The Freewheelin' Bob Dylan",
+      "creator": "Bob Dylan",
+      "year": 1963,
+      "description": "Il Dylan folk e di protesta di \"Blowin' in the Wind\" e \"A Hard Rain's a-Gonna Fall\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/3c/98/633c98ab-b4f3-3f40-798b-bdb49d923468/074640878626.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/the-freewheelin-bob-dylan/190758914"
+    },
+    {
+      "rank": 98,
+      "title": "This Year's Model",
+      "creator": "Elvis Costello & The Attractions",
+      "year": 1978,
+      "description": "New wave nervosa e sarcastica, il primo album con gli Attractions: \"Pump It Up\" e \"Radio Radio\".",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/58/ea/35/58ea3514-dc1d-527d-c407-7141e1b34448/21UMGIM48777.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/this-years-model-2021-remaster/1582735247"
+    },
+    {
+      "rank": 99,
+      "title": "There's a Riot Goin' On",
+      "creator": "Sly & The Family Stone",
+      "year": 1971,
+      "description": "Funk cupo, rallentato e paranoico: la risposta di Sly alla fine dell'ottimismo degli anni '60.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e1/54/d7/e154d7bf-7eb9-b674-1a97-cfe192952b5b/886445314007.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/theres-a-riot-goin-on/1501778712"
+    },
+    {
+      "rank": 100,
+      "title": "In the Wee Small Hours",
+      "creator": "Frank Sinatra",
+      "year": 1955,
+      "description": "Uno dei primi concept album: ballate notturne sulla solitudine, con gli arrangiamenti di Nelson Riddle.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/a7/42/97a7424f-8161-052f-ce3c-93730c2d30de/14UMGIM32540.rgb.jpg/400x400bb.jpg",
+      "url": "https://music.apple.com/it/album/in-the-wee-small-hours/1440815019"
+    }
+  ]
+}
