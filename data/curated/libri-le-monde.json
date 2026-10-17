@@ -1,0 +1,1006 @@
+{
+  "id": "libri-le-monde",
+  "group": "libri-da-avere",
+  "path": "libri-da-avere/le-monde",
+  "tabLabel": "Le Monde, 100 libri del secolo",
+  "title": "I 100 libri del secolo secondo Le Monde",
+  "intro": "La classifica dei cento libri del Novecento stilata nel 1999 da Le Monde e Fnac con un sondaggio tra 17.000 lettori francesi: romanzi, poesia, teatro, saggi e fumetti, con un'impronta molto francese.",
+  "listSource": "Wikipedia, «I 100 libri del secolo di Le Monde» (CC BY-SA 4.0)",
+  "listUrl": "https://it.wikipedia.org/wiki/I_100_libri_del_secolo_di_le_Monde",
+  "coversNote": "Copertine da Apple Books e Open Library.",
+  "entries": [
+    {
+      "rank": 1,
+      "title": "Lo straniero",
+      "creator": "Albert Camus",
+      "year": 1942,
+      "original": "L'Étranger",
+      "description": "Meursault, impiegato ad Algeri, uccide un uomo sulla spiaggia quasi senza motivo e affronta il processo con totale indifferenza: il romanzo dell'assurdo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f4/5c/55/f45c559a-bf24-593c-cf1e-0934babf5cec/58426930-0a57-40df-8c9a-87faac56052a_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lo-straniero/id6547836829"
+    },
+    {
+      "rank": 2,
+      "title": "Alla ricerca del tempo perduto",
+      "creator": "Marcel Proust",
+      "year": "1913-1927",
+      "original": "In Search of Lost Time",
+      "description": "Sette volumi in cui il narratore ricostruisce la propria vita e la società parigina della Belle Époque, a partire dal sapore di una madeleine: il grande romanzo della memoria.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/73/95/2b/mzi.jeofntez.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/alla-ricerca-del-tempo-perduto/id453438287"
+    },
+    {
+      "rank": 3,
+      "title": "Il processo",
+      "creator": "Franz Kafka",
+      "year": 1925,
+      "original": "The Trial",
+      "description": "Josef K. viene arrestato una mattina senza sapere di quale colpa: un incubo burocratico diventato simbolo dell'angoscia moderna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/7a/bf/47/7abf4797-339f-b28f-ddb7-4da8888999ac/7872dac6-f360-4b92-b4ed-56d980d60653_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-processo/id6777148446"
+    },
+    {
+      "rank": 4,
+      "title": "Il piccolo principe",
+      "creator": "Antoine de Saint-Exupéry",
+      "year": 1943,
+      "original": "The Little Prince",
+      "description": "Un aviatore precipitato nel deserto incontra un bambino venuto da un asteroide: una favola poetica per adulti. «L'essenziale è invisibile agli occhi».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/fd/d5/9d/fdd59de0-5db7-4578-9057-722acca6b38d/9788826483689.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-piccolo-principe/id1261512703"
+    },
+    {
+      "rank": 5,
+      "title": "La condizione umana",
+      "creator": "André Malraux",
+      "year": 1933,
+      "original": "Man's Fate",
+      "description": "Shanghai, 1927: un gruppo di rivoluzionari comunisti prepara l'insurrezione e va incontro alla repressione. Vinse il Premio Goncourt.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/45/fc/8a/45fc8aa9-db3b-b6f2-8f3e-7fa6938bb689/44142_la-condizione-umana.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-condizione-umana/id1182406015"
+    },
+    {
+      "rank": 6,
+      "title": "Viaggio al termine della notte",
+      "creator": "Louis-Ferdinand Céline",
+      "year": 1932,
+      "original": "Journey to the End of the Night",
+      "description": "Ferdinand Bardamu attraversa la Grande guerra, l'Africa coloniale, le fabbriche di Detroit e le periferie parigine: un romanzo nero scritto in una lingua parlata e rabbiosa.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/6b/83/71/6b837106-d7ab-ce4a-100e-ed4b290e66a3/9788863802757.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/viaggio-al-termine-della-notte/id510301494"
+    },
+    {
+      "rank": 7,
+      "title": "Furore",
+      "creator": "John Steinbeck",
+      "year": 1939,
+      "original": "The Grapes of Wrath",
+      "description": "La famiglia Joad abbandona l'Oklahoma devastato dalla siccità per cercare lavoro in California: l'epopea dei braccianti della Grande Depressione, premio Pulitzer.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/30/76/9f/30769fcb-dbb8-cd42-8e26-fce85c619594/e33f62ef-771d-4517-bc7a-685837c59bac_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/furore/id6575360659"
+    },
+    {
+      "rank": 8,
+      "title": "Per chi suona la campana",
+      "creator": "Ernest Hemingway",
+      "year": 1940,
+      "original": "For Whom the Bell Tolls",
+      "description": "Robert Jordan, volontario americano nella guerra civile spagnola, deve far saltare un ponte dietro le linee franchiste: tre giorni d'amore e di guerra.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/90/b6/df/90b6dfa3-33f9-77ad-405f-58c570c776dc/9788852020490.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/per-chi-suona-la-campana/id467350639"
+    },
+    {
+      "rank": 9,
+      "title": "Il grande Meaulnes",
+      "creator": "Alain-Fournier",
+      "year": 1913,
+      "original": "Le Grand Meaulnes",
+      "description": "Nella campagna francese, il giovane Augustin Meaulnes capita per caso a una festa misteriosa in un castello e passa il resto della vita a cercarne la strada.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/be/bd/62/bebd6285-06f5-d6b3-beb4-e010da510502/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-grande-meaulnes/id960822537"
+    },
+    {
+      "rank": 10,
+      "title": "La schiuma dei giorni",
+      "creator": "Boris Vian",
+      "year": 1947,
+      "original": "Froth on the Daydream",
+      "description": "Colin si innamora di Chloé, ma una ninfea le cresce nel polmone: una storia d'amore surreale e malinconica, tra jazz e invenzioni linguistiche.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/4f/88/e8/4f88e802-6ee0-1407-e913-1575b4cf4f3b/9788892940895.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-schiuma-dei-giorni/id6740243042"
+    },
+    {
+      "rank": 11,
+      "title": "Il secondo sesso",
+      "creator": "Simone de Beauvoir",
+      "year": 1949,
+      "original": "The Second Sex",
+      "description": "«Donna non si nasce, lo si diventa»: il saggio che ha fondato il femminismo moderno analizzando la condizione femminile tra storia, biologia e cultura.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/fd/98/78/fd9878b8-ccf6-0168-8275-55950f944930/9788865763261.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-secondo-sesso/id797655488"
+    },
+    {
+      "rank": 12,
+      "title": "Aspettando Godot",
+      "creator": "Samuel Beckett",
+      "year": 1952,
+      "original": "En attendant Godot",
+      "description": "Due vagabondi, Vladimiro ed Estragone, aspettano sotto un albero un certo Godot che non arriva mai: il capolavoro del teatro dell'assurdo.",
+      "cover": "https://covers.openlibrary.org/b/id/376471-M.jpg",
+      "url": "https://openlibrary.org/works/OL15164672W"
+    },
+    {
+      "rank": 13,
+      "title": "L'essere e il nulla",
+      "creator": "Jean-Paul Sartre",
+      "year": 1943,
+      "original": "L'Être et le néant",
+      "description": "Il trattato dell'esistenzialismo francese: l'uomo è «condannato a essere libero» e responsabile di ciò che sceglie di diventare.",
+      "coverCountry": "fr",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/d5/ff/dd/d5ffdd51-26e9-07de-5687-27616a13394e/9782072101861.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/fr/book/l%C3%AAtre-et-le-n%C3%A9ant-essai-dontologie-ph%C3%A9nom%C3%A9nologique/id1322514584"
+    },
+    {
+      "rank": 14,
+      "title": "Il nome della rosa",
+      "creator": "Umberto Eco",
+      "year": 1980,
+      "description": "Un'abbazia benedettina nel 1327, una serie di morti misteriose e un frate francescano investigatore: giallo, romanzo storico e gioco erudito insieme.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b0/b4/a9/b0b4a94a-5c5b-e640-2027-c1d5c0ed7c97/9788834603284.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-nome-della-rosa/id1504040796"
+    },
+    {
+      "rank": 15,
+      "title": "Arcipelago Gulag",
+      "creator": "Aleksandr Solženicyn",
+      "year": 1973,
+      "original": "The Gulag Archipelago",
+      "searchAuthor": "Aleksandr Solzhenitsyn",
+      "description": "L'inchiesta monumentale sui campi di lavoro forzato sovietici, costruita sulle testimonianze di centinaia di prigionieri e sull'esperienza dell'autore.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/38/ed/71/38ed7141-2dc2-4c34-31b1-937044938d3d/9788852049910.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/arcipelago-gulag/id6744362147"
+    },
+    {
+      "rank": 16,
+      "title": "Paroles",
+      "creator": "Jacques Prévert",
+      "year": 1946,
+      "description": "La raccolta di poesie più popolare del Novecento francese: versi semplici e ironici su amore, guerra e vita quotidiana, come «Barbara» e «Déjeuner du matin».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/b7/48/47/b748474e-d0c2-7fd4-108f-c1a1a8529a21/9782072446955.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/paroles/id1192396677"
+    },
+    {
+      "rank": 17,
+      "title": "Alcools",
+      "creator": "Guillaume Apollinaire",
+      "year": 1913,
+      "description": "Poesie senza punteggiatura che uniscono tradizione e modernità, dal «Ponte Mirabeau» a «Zona»: la raccolta che apre la poesia del Novecento.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/a2/cf/ee/a2cfee07-c7e9-25a3-35d7-5663181a5416/b0080d1d-5529-4118-8ab0-ca996d40e68c_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/alcools/id1535630563"
+    },
+    {
+      "rank": 18,
+      "title": "Il loto blu",
+      "creator": "Hergé",
+      "year": 1936,
+      "original": "Le Lotus bleu",
+      "description": "Tintin in Cina durante l'invasione giapponese: l'avventura a fumetti che segnò la svolta di Hergé verso la documentazione e il realismo.",
+      "coverSearch": "Tintin Il loto blu",
+      "cover": "https://covers.openlibrary.org/b/id/755245-M.jpg",
+      "url": "https://openlibrary.org/works/OL151051W"
+    },
+    {
+      "rank": 19,
+      "title": "Diario di Anna Frank",
+      "creator": "Anna Frank",
+      "year": 1947,
+      "original": "The Diary of a Young Girl",
+      "searchAuthor": "Anne Frank",
+      "coverSearch": "Diario Anne Frank",
+      "description": "Il diario della ragazza ebrea nascosta con la famiglia in un alloggio segreto di Amsterdam dal 1942 al 1944: una voce viva e luminosa dentro la Shoah.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/64/f1/91/64f191a4-7e63-dda2-3baa-29ec55b3a53d/66240_anne-frank-diario.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/anne-frank-diario/id6445340415"
+    },
+    {
+      "rank": 20,
+      "title": "Tristi tropici",
+      "creator": "Claude Lévi-Strauss",
+      "year": 1955,
+      "original": "Tristes Tropiques",
+      "description": "Memorie di viaggio e riflessione antropologica tra le popolazioni indigene del Brasile: un classico che unisce etnologia, filosofia e letteratura.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/47/e0/27/47e027d3-ec27-964f-8c9a-eec0742ee347/9788865763407.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/tristi-tropici/id787317789"
+    },
+    {
+      "rank": 21,
+      "title": "Il mondo nuovo",
+      "creator": "Aldous Huxley",
+      "year": 1932,
+      "original": "Brave New World",
+      "description": "Una società futura in cui la felicità è prodotta in laboratorio e garantita da una droga: la distopia del controllo attraverso il piacere.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/76/d9/e3/76d9e33b-7472-6fe7-6780-1d8caad3202a/9edb8e73-7b85-4a8f-a6d2-1681f7aab678_cover_image.png/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-mondo-nuovo/id6748802925"
+    },
+    {
+      "rank": 22,
+      "title": "1984",
+      "creator": "George Orwell",
+      "year": 1949,
+      "original": "Nineteen Eighty-Four",
+      "description": "Winston Smith sotto lo sguardo del Grande Fratello: la distopia che ha dato al mondo le parole per descrivere il controllo totalitario.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/4a/9c/b4/4a9cb453-f569-3a04-78bf-00d6291f22f9/1984_Cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/1984/id1590880925"
+    },
+    {
+      "rank": 23,
+      "title": "Asterix il gallico",
+      "creator": "René Goscinny e Albert Uderzo",
+      "year": 1959,
+      "original": "Asterix the Gaul",
+      "searchAuthor": "René Goscinny",
+      "description": "La prima avventura dell'irriducibile villaggio gallico che resiste ai romani grazie alla pozione magica: nasce il fumetto francese più amato.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/96/f7/d2/96f7d269-0dfb-eeb7-2fcc-0e0f8b16d848/9788891214775.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/asterix-il-gallico/id1041638125"
+    },
+    {
+      "rank": 24,
+      "title": "La cantatrice calva",
+      "creator": "Eugène Ionesco",
+      "year": 1950,
+      "original": "The Bald Soprano",
+      "description": "Due coppie borghesi si scambiano frasi fatte sempre più insensate, ispirate a un manuale di inglese: l'atto di nascita del teatro di Ionesco.",
+      "cover": "https://covers.openlibrary.org/b/id/12401665-M.jpg",
+      "url": "https://openlibrary.org/works/OL674713W"
+    },
+    {
+      "rank": 25,
+      "title": "Tre saggi sulla teoria sessuale",
+      "creator": "Sigmund Freud",
+      "year": 1905,
+      "original": "Three Essays on the Theory of Sexuality",
+      "description": "Freud descrive lo sviluppo della sessualità fin dall'infanzia: un testo che scandalizzò l'epoca e cambiò il modo di pensare la mente umana.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/5f/bb/1d/5fbb1d79-b936-0228-bbb2-d58cc69ceee8/front_cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/tre-saggi-sulla-teoria-sessuale/id458357374"
+    },
+    {
+      "rank": 26,
+      "title": "L'opera al nero",
+      "creator": "Marguerite Yourcenar",
+      "year": 1968,
+      "original": "The Abyss",
+      "description": "La vita di Zenone, medico, alchimista e filosofo immaginario del Cinquecento, in lotta con l'Inquisizione per la libertà di pensiero.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/a5/01/f6/a501f6ad-80cf-3d32-14dd-24233112c98c/9788858823651.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lopera-al-nero/id1041667884"
+    },
+    {
+      "rank": 27,
+      "title": "Lolita",
+      "creator": "Vladimir Nabokov",
+      "year": 1955,
+      "description": "Humbert Humbert racconta la sua ossessione per una dodicenne: un romanzo scandaloso e virtuosistico, affidato alla voce di un narratore mostruoso.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/24/e9/c0/24e9c0a5-ee9e-0eae-dbcf-8fb2faf745d3/7869e30f-3599-475d-99f3-a65490b0e7fe_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lolita/id6758705962"
+    },
+    {
+      "rank": 28,
+      "title": "Ulisse",
+      "creator": "James Joyce",
+      "year": 1922,
+      "original": "Ulysses",
+      "description": "Un solo giorno, il 16 giugno 1904, nella Dublino di Leopold Bloom: il romanzo che ha rivoluzionato la narrativa con il flusso di coscienza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/72/c6/fc/72c6fc0b-625d-6046-2703-9831309838cc/9788858843673.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/ulisse/id1557904506"
+    },
+    {
+      "rank": 29,
+      "title": "Il deserto dei Tartari",
+      "creator": "Dino Buzzati",
+      "year": 1940,
+      "description": "Il tenente Drogo passa la vita in una fortezza di confine aspettando un nemico che non arriva mai: una parabola sull'attesa e sul tempo che fugge.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/65/a6/93/65a69357-74f9-035b-f922-003585dab81a/9788852031458.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-deserto-dei-tartari/id588099524"
+    },
+    {
+      "rank": 30,
+      "title": "I falsari",
+      "creator": "André Gide",
+      "year": 1925,
+      "original": "The Counterfeiters",
+      "description": "Giovani parigini, famiglie in crisi e un romanziere che scrive un libro intitolato come quello che leggiamo: un romanzo sperimentale su sincerità e finzione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/1c/18/6b/1c186b8d-1150-a3b9-9ea3-ff2ef03cef2e/1068942208.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-falsari/id6817470033"
+    },
+    {
+      "rank": 31,
+      "title": "L'ussaro sul tetto",
+      "creator": "Jean Giono",
+      "year": 1951,
+      "original": "The Horseman on the Roof",
+      "description": "Un giovane colonnello piemontese in fuga attraversa la Provenza devastata dal colera del 1832, spesso camminando sui tetti: avventura e coraggio.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/63/e9/9f/63e99fed-bd03-a35b-75c3-f00f8a9a61eb/9788860882424.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lussaro-sul-tetto/id507111464"
+    },
+    {
+      "rank": 32,
+      "title": "Bella del Signore",
+      "creator": "Albert Cohen",
+      "year": 1968,
+      "original": "Belle du Seigneur",
+      "description": "La passione travolgente tra Solal, alto funzionario della Società delle Nazioni, e la bella Ariane nella Ginevra degli anni '30: un'immensa storia d'amore, comica e tragica.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/5c/79/26/5c792650-dff5-fc42-f40e-5f632dcff7ac/9788858645338.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/bella-del-signore/id659326004"
+    },
+    {
+      "rank": 33,
+      "title": "Cent'anni di solitudine",
+      "creator": "Gabriel García Márquez",
+      "year": 1967,
+      "original": "One Hundred Years of Solitude",
+      "description": "Sette generazioni della famiglia Buendía nel villaggio immaginario di Macondo: il capolavoro del realismo magico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/d8/d0/cb/d8d0cb24-4e1a-ede2-94b1-8c207fdc6831/9788852011498.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/centanni-di-solitudine/id529714170"
+    },
+    {
+      "rank": 34,
+      "title": "L'urlo e il furore",
+      "creator": "William Faulkner",
+      "year": 1929,
+      "original": "The Sound and the Fury",
+      "description": "Il declino della famiglia Compson nel Mississippi, raccontato da voci diverse tra cui quella di un fratello con disabilità mentale: un capolavoro del flusso di coscienza.",
+      "cover": "https://covers.openlibrary.org/b/id/8292212-M.jpg",
+      "url": "https://openlibrary.org/works/OL82870W"
+    },
+    {
+      "rank": 35,
+      "title": "Thérèse Desqueyroux",
+      "creator": "François Mauriac",
+      "year": 1927,
+      "description": "Nelle Lande francesi, una donna soffocata da un matrimonio borghese tenta di avvelenare il marito: un ritratto intenso di solitudine e ribellione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/a3/0e/30/a30e30d3-dbb1-a33a-943d-c42f98ddc019/9782246145097-X.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/th%C3%A9r%C3%A8se-desqueyroux/id375178339"
+    },
+    {
+      "rank": 36,
+      "title": "Zazie nel metró",
+      "creator": "Raymond Queneau",
+      "year": 1959,
+      "original": "Zazie dans le métro",
+      "description": "Una ragazzina sboccata arriva a Parigi con un solo desiderio, prendere la metropolitana, ma c'è sciopero: una commedia linguistica scatenata.",
+      "cover": "https://covers.openlibrary.org/b/id/4667336-M.jpg",
+      "url": "https://openlibrary.org/works/OL1364490W"
+    },
+    {
+      "rank": 37,
+      "title": "Sovvertimento dei sensi",
+      "creator": "Stefan Zweig",
+      "year": 1927,
+      "original": "Confusion",
+      "description": "Un anziano professore ricorda la passione intellettuale e il turbamento provati da studente per il suo maestro: un racconto lungo su desiderio e segreti.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/03/84/58/03845813-91e3-2be5-6125-4023d614ce86/9788811142300.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sovvertimento-dei-sensi/id951817996"
+    },
+    {
+      "rank": 38,
+      "title": "Via col vento",
+      "creator": "Margaret Mitchell",
+      "year": 1936,
+      "original": "Gone with the Wind",
+      "description": "Rossella O'Hara attraversa la guerra di secessione e la ricostruzione del Sud: un'eroina testarda in un romanzo-fiume premiato con il Pulitzer.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/41/ba/1c/41ba1c92-f0bc-98f4-bd1b-2c4f54885133/9788852047572.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/via-col-vento/id963027937"
+    },
+    {
+      "rank": 39,
+      "title": "L'amante di Lady Chatterley",
+      "creator": "D.H. Lawrence",
+      "year": 1928,
+      "original": "Lady Chatterley's Lover",
+      "description": "L'aristocratica Constance, sposata a un marito paralizzato, si innamora del guardacaccia: un romanzo sul desiderio e sulle classi sociali, a lungo censurato.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/1e/99/38/1e993846-aaab-2315-4e98-124d91abcd93/9788874173068.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lamante-di-lady-chatterley/id761575165"
+    },
+    {
+      "rank": 40,
+      "title": "La montagna incantata",
+      "creator": "Thomas Mann",
+      "year": 1924,
+      "original": "The Magic Mountain",
+      "description": "Hans Castorp va a trovare il cugino in un sanatorio svizzero e ci resta sette anni, tra malattia, amore e dispute filosofiche alla vigilia della Grande guerra.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/0b/5b/b1/0b5bb1fd-a259-f777-3b06-bb7c455e385b/9788863801583.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-montagna-incantata/id510127229"
+    },
+    {
+      "rank": 41,
+      "title": "Bonjour tristesse",
+      "creator": "Françoise Sagan",
+      "year": 1954,
+      "description": "Un'estate in Costa Azzurra: la diciassettenne Cécile manovra per separare il padre dalla nuova compagna, con esiti tragici. Sagan lo scrisse a diciotto anni.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/db/ed/29/dbed29f3-4116-8354-ccb3-aa2abb02b0dd/9782234075979-001-x.jpeg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/bonjour-tristesse/id872978204"
+    },
+    {
+      "rank": 42,
+      "title": "Il silenzio del mare",
+      "creator": "Vercors",
+      "year": 1942,
+      "original": "The Silence of the Sea",
+      "description": "Un ufficiale tedesco ospitato in una casa francese parla ogni sera di cultura e fratellanza, ma i padroni di casa gli oppongono il silenzio: un simbolo della Resistenza, pubblicato in clandestinità.",
+      "cover": "https://covers.openlibrary.org/b/id/1605176-M.jpg",
+      "url": "https://openlibrary.org/works/OL1198310W"
+    },
+    {
+      "rank": 43,
+      "title": "La vita, istruzioni per l'uso",
+      "creator": "Georges Perec",
+      "year": 1978,
+      "original": "Life: A User's Manual",
+      "description": "Le vite degli abitanti di un palazzo parigino, stanza per stanza, costruite come un enorme puzzle di storie e di regole matematiche.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/ec/7f/c9/ec7fc9f2-5b3a-30ea-970c-b3c6f48ef9e5/9788858640326.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-vita-istruzioni-per-luso/id679565112"
+    },
+    {
+      "rank": 44,
+      "title": "Il mastino dei Baskerville",
+      "creator": "Arthur Conan Doyle",
+      "year": "1901-1902",
+      "original": "The Hound of the Baskervilles",
+      "description": "Una maledizione di famiglia e un cane infernale nella brughiera del Devon: il caso più celebre di Sherlock Holmes.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/06/d6/e4/06d6e4d0-c4bf-0444-be94-4b31328659a0/front_cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-mastino-dei-baskerville/id595306263"
+    },
+    {
+      "rank": 45,
+      "title": "Sotto il sole di Satana",
+      "creator": "Georges Bernanos",
+      "year": 1926,
+      "original": "Under the Sun of Satan",
+      "description": "Un giovane prete di campagna lotta contro il male e la tentazione, fino a incontrare il demonio: un romanzo cattolico tormentato e visionario.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/86/4e/2e/864e2e3c-ee8d-0272-3c89-ab8ae1c6bee9/9788854983250.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sotto-il-sole-di-satana/id6450662338"
+    },
+    {
+      "rank": 46,
+      "title": "Il grande Gatsby",
+      "creator": "F. Scott Fitzgerald",
+      "year": 1925,
+      "original": "The Great Gatsby",
+      "description": "Le feste sfarzose di Jay Gatsby a Long Island nascondono un sogno d'amore impossibile: il ritratto dell'età del jazz e del sogno americano.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication127/v4/91/7f/b9/917fb9d1-e239-fa5d-3c2f-9b46f56c97d6/9788854129047.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-grande-gatsby/id469930604"
+    },
+    {
+      "rank": 47,
+      "title": "Lo scherzo",
+      "creator": "Milan Kundera",
+      "year": 1967,
+      "original": "The Joke",
+      "description": "Una cartolina ironica costa a Ludvík l'espulsione dal partito e anni di lavori forzati; tempo dopo prepara la sua vendetta. Il primo romanzo di Kundera.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/c9/5c/8c/c95c8cb3-02f3-bc23-81b5-6bd9045e048f/9788845985492.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lo-scherzo/id1623447580"
+    },
+    {
+      "rank": 48,
+      "title": "Il disprezzo",
+      "creator": "Alberto Moravia",
+      "year": 1954,
+      "description": "Uno sceneggiatore al lavoro su un film tratto dall'Odissea sente crescere il disprezzo della moglie senza capirne il motivo; Godard ne trasse un film celebre.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/36/17/1a/36171a19-172a-41be-1c9a-3c11a20f42e2/9788858704325.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-disprezzo/id1182380503"
+    },
+    {
+      "rank": 49,
+      "title": "L'assassinio di Roger Ackroyd",
+      "creator": "Agatha Christie",
+      "year": 1926,
+      "original": "The Murder of Roger Ackroyd",
+      "description": "Hercule Poirot indaga sull'omicidio di un ricco signore di campagna: un giallo rimasto famoso per un colpo di scena finale che fece discutere.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/58/44/da/5844da9a-a71b-cb9c-ee0a-98fbcad49761/9788852014772.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lassassinio-di-roger-ackroyd/id467584942"
+    },
+    {
+      "rank": 50,
+      "title": "Nadja",
+      "creator": "André Breton",
+      "year": 1928,
+      "description": "L'incontro con una giovane donna enigmatica per le strade di Parigi, raccontato con l'aiuto di fotografie: il libro chiave del surrealismo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication117/v4/c2/0a/82/c20a82a7-cd9d-c334-c720-216c683092a4/9782072446870.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/nadja/id1232165459"
+    },
+    {
+      "rank": 51,
+      "title": "Aurélien",
+      "creator": "Louis Aragon",
+      "year": 1944,
+      "description": "Nella Parigi degli anni '20, un reduce della Grande guerra senza uno scopo si innamora di Bérénice: un romanzo sulla generazione perduta del dopoguerra.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/9e/73/69/9e73693c-e7e1-384a-b0fb-5a1f3eb2c8e5/9782072442797.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/aur%C3%A9lien/id975474570"
+    },
+    {
+      "rank": 52,
+      "title": "Le Soulier de satin",
+      "creator": "Paul Claudel",
+      "year": 1929,
+      "original": "The Satin Slipper",
+      "description": "Un dramma monumentale ambientato nel Siglo de Oro spagnolo: l'amore impossibile tra Rodrigo e Prouhèze, diviso tra fede e desiderio.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/b2/1c/d0/b21cd0fc-d6f0-d2d8-c6e0-0be691c33c59/9782080479815.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-soulier-de-satin/id6757488370"
+    },
+    {
+      "rank": 53,
+      "title": "Sei personaggi in cerca d'autore",
+      "creator": "Luigi Pirandello",
+      "year": 1921,
+      "description": "Durante una prova teatrale irrompono sei personaggi abbandonati dal loro autore, che pretendono di recitare il proprio dramma: il teatro che riflette su se stesso.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/c3/31/31/c331318a-03cf-04e8-97d5-a97fada3223b/coverArt.8b7fb1.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sei-personaggi-in-cerca-dautore/id492181687"
+    },
+    {
+      "rank": 54,
+      "title": "La resistibile ascesa di Arturo Ui",
+      "creator": "Bertolt Brecht",
+      "year": 1941,
+      "original": "The Resistible Rise of Arturo Ui",
+      "description": "L'ascesa di Hitler trasposta nella Chicago dei gangster e del racket dei cavolfiori: una parabola satirica scritta in esilio.",
+      "cover": "https://covers.openlibrary.org/b/id/10801662-M.jpg",
+      "url": "https://openlibrary.org/works/OL23119995W"
+    },
+    {
+      "rank": 55,
+      "title": "Venerdì o il limbo del Pacifico",
+      "creator": "Michel Tournier",
+      "year": 1967,
+      "original": "Vendredi ou les limbes du Pacifique",
+      "description": "Robinson Crusoe riscritto al contrario: è il selvaggio Venerdì a insegnare a Robinson un altro modo di vivere, libero dalla civiltà.",
+      "coverCountry": "fr",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/f4/55/96/f4559608-04b5-0dac-0ceb-0cff7e95c32e/9782072533730.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/fr/book/vendredi-ou-les-limbes-du-pacifique/id787303955"
+    },
+    {
+      "rank": 56,
+      "title": "La guerra dei mondi",
+      "creator": "H.G. Wells",
+      "year": 1898,
+      "original": "The War of the Worlds",
+      "description": "I marziani invadono l'Inghilterra con tripodi e raggi mortali: il prototipo di ogni storia di invasione aliena.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/49/7b/a6/497ba654-0864-2235-17cb-94b709ed3140/9788834733226.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-guerra-dei-mondi/id1195898870"
+    },
+    {
+      "rank": 57,
+      "title": "Se questo è un uomo",
+      "creator": "Primo Levi",
+      "year": 1947,
+      "description": "La testimonianza lucida e sobria della prigionia ad Auschwitz: un libro necessario per capire il Novecento.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f3/44/32/f34432b2-0632-9819-5ac8-d578e9af6248/9788858420430.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/se-questo-%C3%A8-un-uomo/id1043437386"
+    },
+    {
+      "rank": 58,
+      "title": "Il Signore degli Anelli",
+      "creator": "J.R.R. Tolkien",
+      "year": "1954-1955",
+      "original": "The Lord of the Rings",
+      "description": "Frodo e la Compagnia partono per distruggere l'Anello del Potere: l'epopea che ha fondato il fantasy moderno.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/96/6d/3d/966d3d6d-e36c-d731-6060-badcd35a806d/66267_il-signore-dei-anelli.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-signore-degli-anelli/id6445389082"
+    },
+    {
+      "rank": 59,
+      "title": "Viticci",
+      "creator": "Colette",
+      "year": 1908,
+      "original": "Les Vrilles de la vigne",
+      "description": "Racconti brevi e prose liriche sulla natura, gli animali, l'amore e la vita del music-hall: la scrittura sensuale e libera di Colette.",
+      "coverCountry": "fr",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication5/v4/eb/67/8e/eb678e90-b223-ea77-df7b-07a0118ac424/9782213688985-X.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/fr/book/les-vrilles-de-la-vigne/id991720746"
+    },
+    {
+      "rank": 60,
+      "title": "Capitale de la douleur",
+      "creator": "Paul Éluard",
+      "year": 1926,
+      "description": "Poesie d'amore e di sogno del periodo surrealista, in una lingua limpida e visionaria che ha segnato la poesia francese.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/a2/ce/c8/a2cec837-5666-7b81-050d-b5eac1a73497/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/capitale-de-la-douleur/id6445627371"
+    },
+    {
+      "rank": 61,
+      "title": "Martin Eden",
+      "creator": "Jack London",
+      "year": 1909,
+      "description": "Un marinaio di Oakland si istruisce da solo per conquistare una ragazza borghese e diventare scrittore, ma il successo lo lascia vuoto: un romanzo in parte autobiografico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication18/v4/38/2b/cf/382bcffb-d9e9-1bd0-0d3d-3b8bad2ecbf2/9788854138643.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/martin-eden/id491639763"
+    },
+    {
+      "rank": 62,
+      "title": "Una ballata del mare salato",
+      "creator": "Hugo Pratt",
+      "year": 1967,
+      "description": "La prima avventura di Corto Maltese, tra pirati e isole del Pacifico alla vigilia della Grande guerra: il romanzo a fumetti per eccellenza.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/e5/b2/35/e5b2356a-8882-df48-c54c-17cdd45f1e62/9788858633007.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/corto-maltese-5-una-ballata-del-mare-salato/id540379086"
+    },
+    {
+      "rank": 63,
+      "title": "Il grado zero della scrittura",
+      "creator": "Roland Barthes",
+      "year": 1953,
+      "original": "Writing Degree Zero",
+      "description": "Il primo saggio di Barthes: la scrittura letteraria come scelta storica e morale, e il sogno di una scrittura «neutra».",
+      "cover": "https://covers.openlibrary.org/b/id/6577057-M.jpg",
+      "url": "https://openlibrary.org/works/OL15156891W"
+    },
+    {
+      "rank": 64,
+      "title": "L'onore perduto di Katharina Blum",
+      "creator": "Heinrich Böll",
+      "year": 1974,
+      "original": "The Lost Honour of Katharina Blum",
+      "description": "Una giovane donna passa una notte con un ricercato e viene distrutta da un giornale scandalistico: un atto d'accusa contro la stampa sensazionalista.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/1d/c2/3a/1dc23a19-8ecf-c52d-4e53-dd77db2685ea/9788858417232.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lonore-perduto-di-katharina-blum/id942851718"
+    },
+    {
+      "rank": 65,
+      "title": "La riva delle Sirti",
+      "creator": "Julien Gracq",
+      "year": 1951,
+      "original": "The Opposing Shore",
+      "description": "In un paese immaginario, fermo da secoli in una guerra senza combattimenti, un giovane ufficiale è attratto dalla riva nemica. Gracq rifiutò il Premio Goncourt.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/13/cf/48/13cf48af-6504-84e3-ba29-539952bc5bd5/9788899793524.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-riva-delle-sirti/id1342426332"
+    },
+    {
+      "rank": 66,
+      "title": "Le parole e le cose",
+      "creator": "Michel Foucault",
+      "year": 1966,
+      "original": "The Order of Things",
+      "description": "Un'archeologia delle scienze umane che mostra come cambiano, epoca per epoca, i modi di ordinare il sapere; si chiude con la celebre «morte dell'uomo».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/12/7d/65/127d652e-bc5f-7bf0-ff64-45bfbdbf50f1/9788858676035.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-parole-e-le-cose/id1150362412"
+    },
+    {
+      "rank": 67,
+      "title": "Sulla strada",
+      "creator": "Jack Kerouac",
+      "year": 1957,
+      "original": "On the Road",
+      "description": "Sal Paradise e Dean Moriarty attraversano l'America in auto tra jazz, alcol e libertà: il manifesto della Beat Generation.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/f0/ae/45/f0ae45f2-dade-166f-3293-da7fda533278/9788852014000.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sulla-strada/id467578913"
+    },
+    {
+      "rank": 68,
+      "title": "Il viaggio meraviglioso di Nils Holgersson",
+      "creator": "Selma Lagerlöf",
+      "year": "1906-1907",
+      "original": "The Wonderful Adventures of Nils",
+      "description": "Un ragazzino rimpicciolito da un folletto attraversa la Svezia in groppa a un'oca: nato come libro di geografia per le scuole, è diventato un classico per ragazzi.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/e0/74/0b/e0740b01-22fd-c874-0b19-3d1e41a130ff/9788870912470.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-meraviglioso-viaggio-di-nils-holgersson/id1324134952"
+    },
+    {
+      "rank": 69,
+      "title": "Una stanza tutta per sé",
+      "creator": "Virginia Woolf",
+      "year": 1929,
+      "original": "A Room of One's Own",
+      "description": "Per scrivere, una donna ha bisogno di denaro e di una stanza tutta per sé: il saggio che ha fondato la critica letteraria femminista.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication5/v4/80/1a/2f/801a2fa9-9501-f869-6292-db489a707797/cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/una-stanza-tutta-per-s%C3%A9/id966394165"
+    },
+    {
+      "rank": 70,
+      "title": "Cronache marziane",
+      "creator": "Ray Bradbury",
+      "year": 1950,
+      "original": "The Martian Chronicles",
+      "description": "Racconti collegati sulla colonizzazione di Marte da parte degli esseri umani: fantascienza poetica e malinconica su conquista e distruzione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/62/62/4e/62624ef7-60d6-b711-c301-74ba8bbf2333/9788852074080.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/cronache-marziane-nuova-edizione/id1119067491"
+    },
+    {
+      "rank": 71,
+      "title": "Il rapimento di Lol V. Stein",
+      "creator": "Marguerite Duras",
+      "year": 1964,
+      "original": "The Ravishing of Lol Stein",
+      "description": "Durante un ballo Lol perde il fidanzato, che se ne va con un'altra donna; anni dopo rivive in modo ossessivo quella scena. Un romanzo rarefatto e ipnotico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/58/07/02/580702c4-3417-4353-4af9-eb89890beb85/9788858846872.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-rapimento-di-lol-v-stein/id1606198815"
+    },
+    {
+      "rank": 72,
+      "title": "Il verbale",
+      "creator": "J.M.G. Le Clézio",
+      "year": 1963,
+      "original": "The Interrogation",
+      "description": "Adam Pollo vive isolato in una casa abbandonata sul mare e si allontana a poco a poco dalla società: l'esordio del futuro premio Nobel.",
+      "cover": "https://covers.openlibrary.org/b/id/14988927-M.jpg",
+      "url": "https://openlibrary.org/works/OL37774985W"
+    },
+    {
+      "rank": 73,
+      "title": "Tropismi",
+      "creator": "Nathalie Sarraute",
+      "year": 1939,
+      "original": "Tropisms",
+      "description": "Brevi testi che catturano i movimenti impercettibili della coscienza dietro i gesti quotidiani: il seme del Nouveau Roman.",
+      "cover": "https://covers.openlibrary.org/b/id/10302631-M.jpg",
+      "url": "https://openlibrary.org/works/OL19669613W"
+    },
+    {
+      "rank": 74,
+      "title": "Diario",
+      "creator": "Jules Renard",
+      "year": 1925,
+      "original": "Journal",
+      "description": "Il diario tenuto dal 1887 al 1910 dall'autore di Pel di carota: osservazioni ironiche e aforismi sulla vita letteraria e di campagna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/0e/0d/04/0e0d0427-9865-ed52-2f2b-40d64bc9bf23/1063324022.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/diario-1887-1910/id6756441533"
+    },
+    {
+      "rank": 75,
+      "title": "Lord Jim",
+      "creator": "Joseph Conrad",
+      "year": 1900,
+      "description": "Un giovane ufficiale abbandona la nave che crede stia affondando e passa la vita a cercare di riscattare quell'istante di viltà.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/17/24/21/172421ba-4176-b2f8-90b7-b3c93a92c343/1068944774.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/lord-jim/id6817139231"
+    },
+    {
+      "rank": 76,
+      "title": "Scritti",
+      "creator": "Jacques Lacan",
+      "year": 1966,
+      "original": "Écrits",
+      "description": "La raccolta dei saggi in cui Lacan rilegge Freud alla luce della linguistica: «l'inconscio è strutturato come un linguaggio».",
+      "cover": "https://covers.openlibrary.org/b/id/247654-M.jpg",
+      "url": "https://openlibrary.org/works/OL2127250W"
+    },
+    {
+      "rank": 77,
+      "title": "Il teatro e il suo doppio",
+      "creator": "Antonin Artaud",
+      "year": 1938,
+      "original": "The Theater and Its Double",
+      "description": "Il manifesto del «teatro della crudeltà»: un teatro che deve colpire lo spettatore come la peste, superando il primato della parola.",
+      "cover": "https://covers.openlibrary.org/b/id/569546-M.jpg",
+      "url": "https://openlibrary.org/works/OL794769W"
+    },
+    {
+      "rank": 78,
+      "title": "Manhattan Transfer",
+      "creator": "John Dos Passos",
+      "year": 1925,
+      "description": "Decine di vite intrecciate nella New York dei primi decenni del Novecento, raccontate con tecniche di montaggio cinematografico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/db/2f/31/db2f318b-ebd0-fd1c-ba20-bb6d965362ec/9788868651404.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/manhattan-transfer/id1015971497"
+    },
+    {
+      "rank": 79,
+      "title": "Finzioni",
+      "creator": "Jorge Luis Borges",
+      "year": 1944,
+      "original": "Ficciones",
+      "description": "Racconti di biblioteche infinite, labirinti e libri immaginari, come «La biblioteca di Babele»: la letteratura come gioco metafisico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication91/v4/a5/36/da/a536da25-7e16-7ae6-fee1-b7a2bd629a36/9788845973277.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/finzioni/id1195656771"
+    },
+    {
+      "rank": 80,
+      "title": "Moravagine",
+      "creator": "Blaise Cendrars",
+      "year": 1926,
+      "description": "Un medico fa evadere da un manicomio svizzero il folle Moravagine e lo segue in una fuga criminale attraverso il mondo: un romanzo d'avventura delirante.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication4/v4/3b/d1/0b/3bd10b96-3089-85c3-9c7c-c3b5d4a2ccc4/9782246108894-X.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/moravagine/id375149504"
+    },
+    {
+      "rank": 81,
+      "title": "Il generale dell'armata morta",
+      "creator": "Ismail Kadare",
+      "year": 1963,
+      "original": "The General of the Dead Army",
+      "description": "Vent'anni dopo la guerra, un generale italiano torna in Albania per recuperare le salme dei soldati caduti: un viaggio cupo nella memoria.",
+      "cover": "https://covers.openlibrary.org/b/id/792156-M.jpg",
+      "url": "https://openlibrary.org/works/OL963872W"
+    },
+    {
+      "rank": 82,
+      "title": "La scelta di Sophie",
+      "creator": "William Styron",
+      "year": 1979,
+      "original": "Sophie's Choice",
+      "description": "A Brooklyn nel 1947, un giovane scrittore conosce Sophie, sopravvissuta polacca ad Auschwitz, e ne scopre a poco a poco il terribile segreto.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/1f/62/d1/1f62d176-59bd-403c-d723-7ae1caa7edc6/9788852045202.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/la-scelta-di-sophie-nuova-edizione/id933102985"
+    },
+    {
+      "rank": 83,
+      "title": "Romancero gitano",
+      "creator": "Federico García Lorca",
+      "year": 1928,
+      "original": "Gypsy Ballads",
+      "description": "Romanze in versi che trasfigurano il mondo dei gitani andalusi in miti di luna, sangue e passione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/a7/1a/47/a71a4745-1a2d-5953-a467-18f4397a9db4/PDES003423.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/romancero-gitano/id668340387"
+    },
+    {
+      "rank": 84,
+      "title": "Pietr il Lettone",
+      "creator": "Georges Simenon",
+      "year": 1931,
+      "original": "Pietr the Latvian",
+      "description": "La prima inchiesta ufficiale del commissario Maigret, sulle tracce di un truffatore internazionale tra Parigi e la costa normanna.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/2d/8f/94/2d8f94e6-0246-1a82-874e-415ddc0b8cd8/9788845971167.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/pietr-il-lettone/id1195646979"
+    },
+    {
+      "rank": 85,
+      "title": "Notre-Dame-des-Fleurs",
+      "creator": "Jean Genet",
+      "year": 1944,
+      "original": "Our Lady of the Flowers",
+      "description": "Scritto in prigione, celebra con una lingua lirica il mondo dei travestiti e dei criminali di Montmartre: un romanzo scandaloso e poetico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/ba/de/c2/badec26b-1b46-0d60-51ae-6d4c494dcee1/9788865764114.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/notre-dame-des-fleurs/id966611404"
+    },
+    {
+      "rank": 86,
+      "title": "L'uomo senza qualità",
+      "creator": "Robert Musil",
+      "year": "1930-1932",
+      "original": "The Man Without Qualities",
+      "description": "Ulrich, matematico viennese, si prende «un anno di vacanza dalla vita» alla vigilia della Grande guerra: un romanzo-saggio immenso e incompiuto sulla crisi della modernità.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/b2/ee/53/b2ee53f0-5d2b-a10a-5874-5454ab43347d/EC418_-_l_uomo_senza_qualita_-_robert_musil.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/luomo-senza-qualit%C3%A0/id589453440"
+    },
+    {
+      "rank": 87,
+      "title": "Fureur et mystère",
+      "creator": "René Char",
+      "year": 1948,
+      "description": "La raccolta che comprende i «Fogli d'Ipnos», note scritte da Char durante la Resistenza: una poesia densa e frammentaria.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication117/v4/fa/ea/1e/faea1ea8-85f6-cd3c-1c16-217d9c4d08d4/9782072445620.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/fureur-et-myst%C3%A8re/id1252571730"
+    },
+    {
+      "rank": 88,
+      "title": "Il giovane Holden",
+      "creator": "J.D. Salinger",
+      "year": 1951,
+      "original": "The Catcher in the Rye",
+      "description": "Espulso dal college, Holden Caulfield vaga per New York per tre giorni: la voce ribelle e ferita dell'adolescenza.",
+      "cover": "https://covers.openlibrary.org/b/id/9273490-M.jpg",
+      "url": "https://openlibrary.org/works/OL3335245W"
+    },
+    {
+      "rank": 89,
+      "title": "Niente orchidee per Miss Blandish",
+      "creator": "James Hadley Chase",
+      "year": 1939,
+      "original": "No Orchids for Miss Blandish",
+      "description": "La figlia di un milionario viene rapita da una banda di gangster: un noir brutale che fece scandalo e diventò un bestseller.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/11/79/e5/1179e5e2-31ab-7532-4d1a-6562548ac4b8/9788866884569.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/niente-orchidee-per-miss-blandish/id1576338799"
+    },
+    {
+      "rank": 90,
+      "title": "Blake e Mortimer",
+      "creator": "Edgar P. Jacobs",
+      "year": 1950,
+      "original": "The Secret of the Swordfish",
+      "coverSearch": "Blake e Mortimer",
+      "description": "Il capitano Blake e il professor Mortimer affrontano complotti e misteri scientifici: un classico del fumetto franco-belga in «linea chiara».",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/9a/ba/bd/9ababdb4-4c70-91e9-5257-f93838d62637/9781849189378.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/blake-mortimer-volume-1-the-yellow-m/id6470660069"
+    },
+    {
+      "rank": 91,
+      "title": "I quaderni di Malte Laurids Brigge",
+      "creator": "Rainer Maria Rilke",
+      "year": 1910,
+      "original": "The Notebooks of Malte Laurids Brigge",
+      "description": "Un giovane poeta danese a Parigi annota paure, ricordi d'infanzia e riflessioni sulla morte: l'unico romanzo di Rilke.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/8b/7e/7b/8b7e7bfa-a809-3b8b-c9f4-4a80aba93ac1/9788811139027.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-quaderni-di-malte-laurids-brigge/id719062278"
+    },
+    {
+      "rank": 92,
+      "title": "La modificazione",
+      "creator": "Michel Butor",
+      "year": 1957,
+      "original": "La Modification",
+      "description": "In viaggio in treno da Parigi a Roma, un uomo decide di lasciare la moglie per l'amante, poi cambia idea: un romanzo scritto interamente in seconda persona.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication69/v4/93/f1/21/93f12148-2f54-1c6b-4f0b-94c09c85e213/9782707331588.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/fr/book/la-modification/id1072093250"
+    },
+    {
+      "rank": 93,
+      "title": "Le origini del totalitarismo",
+      "creator": "Hannah Arendt",
+      "year": 1951,
+      "original": "The Origins of Totalitarianism",
+      "description": "Antisemitismo, imperialismo e terrore: l'analisi delle radici del nazismo e dello stalinismo come forma di potere radicalmente nuova.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/a7/64/3c/a7643c61-cd94-e406-69af-57a8c12b87d5/9788858426647.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/le-origini-del-totalitarismo/id1306587076"
+    },
+    {
+      "rank": 94,
+      "title": "Il maestro e Margherita",
+      "creator": "Michail Bulgakov",
+      "year": 1967,
+      "original": "The Master and Margarita",
+      "searchAuthor": "Mikhail Bulgakov",
+      "description": "Il diavolo arriva nella Mosca sovietica con un seguito che comprende un gatto parlante, mentre Margherita cerca di salvare lo scrittore che ama: satira e fantasia, pubblicato postumo.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/74/dc/fd/74dcfd2a-7187-2b7c-c583-b93f64a90565/front_cover.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-maestro-e-margherita/id838159146"
+    },
+    {
+      "rank": 95,
+      "title": "Crocifissione in rosa",
+      "creator": "Henry Miller",
+      "year": "1949-1960",
+      "original": "Sexus",
+      "coverSearch": "Sexus Henry Miller",
+      "description": "La trilogia Sexus, Plexus e Nexus: la vita di Miller nella New York degli anni '20, tra sesso, amicizie e la scoperta della vocazione di scrittore.",
+      "cover": "https://covers.openlibrary.org/b/id/13106915-M.jpg",
+      "url": "https://openlibrary.org/works/OL261865W"
+    },
+    {
+      "rank": 96,
+      "title": "Il grande sonno",
+      "creator": "Raymond Chandler",
+      "year": 1939,
+      "original": "The Big Sleep",
+      "description": "Il primo caso dell'investigatore Philip Marlowe, tra ricatti e una ricca famiglia di Los Angeles: il modello del romanzo hard-boiled.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6e/85/86/6e8586c6-c587-b15d-14a8-d9feaf945d5e/04fdd3ac-0c02-4d91-9cf1-c018bf20f577_cover_image.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/il-grande-sonno/id6642646867"
+    },
+    {
+      "rank": 97,
+      "title": "Amers",
+      "creator": "Saint-John Perse",
+      "year": 1957,
+      "original": "Seamarks",
+      "description": "Un lungo poema in lode del mare e dell'avventura umana, nella lingua solenne del poeta premio Nobel.",
+      "cover": "https://covers.openlibrary.org/b/id/966325-M.jpg",
+      "url": "https://openlibrary.org/works/OL8386425W"
+    },
+    {
+      "rank": 98,
+      "title": "Gaston",
+      "creator": "André Franquin",
+      "year": 1957,
+      "original": "Gaston Lagaffe",
+      "coverSearch": "Gaston Lagaffe",
+      "description": "Gaston Lagaffe, il fattorino più pigro e pasticcione della redazione di Spirou: gag a fumetti diventate un classico.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/6b/79/3b/6b793bca-5cb8-406b-ca1f-dba192939e67/9791034732913.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/gaston-tome-13-lagaffe-se-d%C3%A9coince/id6447342087"
+    },
+    {
+      "rank": 99,
+      "title": "Sotto il vulcano",
+      "creator": "Malcolm Lowry",
+      "year": 1947,
+      "original": "Under the Volcano",
+      "description": "L'ultimo giorno di vita di un console britannico alcolizzato in Messico, nel Giorno dei Morti del 1938: un capolavoro sull'autodistruzione.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/05/81/ea/0581eac1-ca91-a61a-dc34-3671aca72c5c/9788858838563.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/sotto-il-vulcano/id1495093905"
+    },
+    {
+      "rank": 100,
+      "title": "I figli della mezzanotte",
+      "creator": "Salman Rushdie",
+      "year": 1981,
+      "original": "Midnight's Children",
+      "description": "Saleem Sinai nasce allo scoccare dell'indipendenza indiana, dotato di poteri telepatici: la storia dell'India nel segno del realismo magico, premiata con il Booker Prize.",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/1c/cc/cf/1ccccf69-25fb-3190-37ce-194052c3c7be/9788852036682.jpg/400x400bb.jpg",
+      "url": "https://books.apple.com/it/book/i-figli-della-mezzanotte/id635862836"
+    }
+  ]
+}

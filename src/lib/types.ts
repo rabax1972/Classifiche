@@ -101,7 +101,7 @@ export interface SourceStatus {
   entries?: number;
 }
 
-export const CURATED_IDS = ['album-da-avere', 'libri-da-avere'] as const;
+export const CURATED_IDS = ['album-da-avere', 'libri-da-avere', 'libri-le-monde'] as const;
 export type CuratedId = (typeof CURATED_IDS)[number];
 
 /** Lista statica curata a mano (data/curated/{id}.json). */
@@ -122,10 +122,21 @@ export interface CuratedEntry {
   searchAuthor?: string;
   /** Termini di ricerca alternativi per la copertina. */
   coverSearch?: string;
+  /** Catalogo Apple Books da provare per primo, con il titolo originale (es. "fr"). */
+  coverCountry?: string;
 }
 
 export interface CuratedList {
   id: CuratedId;
+  /** Percorso della pagina (es. "libri-da-avere/le-monde"). */
+  path: string;
+  /**
+   * Liste alternative sullo stesso tema (es. due classifiche di libri): stessa voce di menu,
+   * selettore per passare dall'una all'altra e spunte "Ce l'ho" condivise.
+   */
+  group?: CuratedId;
+  /** Etichetta nel selettore delle liste del gruppo. */
+  tabLabel?: string;
   title: string;
   intro: string;
   listSource: string;

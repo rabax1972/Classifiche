@@ -19,7 +19,7 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
 
 **I 100 dischi da avere assolutamente** (pagina `/album-da-avere/`): lista statica in [`data/curated/album-da-avere.json`](data/curated/album-da-avere.json), con la top 100 dei 500 migliori album di Rolling Stone (2003) ripresa da [Il Rocker](https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html). Le descrizioni sono originali. Le copertine si completano a mano con `npm run covers:album`: prima l'API di ricerca iTunes (discografia dell'artista, poi ricerca testuale), in mancanza Cover Art Archive (MusicBrainz).
 
-**I 100 libri da avere assolutamente** (pagina `/libri-da-avere/`): lista statica in [`data/curated/libri-da-avere.json`](data/curated/libri-da-avere.json), la versione italiana della lista virale «i cento libri secondo la BBC» pubblicata da [La lettrice controcorrente](https://www.lalettricecontrocorrente.it/pensieri-in-liberta/i-cento-libri-da-leggere-secondo-la-bbc/). Non è il sondaggio The Big Read della BBC. Le descrizioni sono originali. Le copertine si completano con `npm run covers:libri`: prima Apple Books Italia (edizione italiana), poi Open Library.
+**I 100 libri da avere assolutamente** (pagina `/libri-da-avere/`): lista statica in [`data/curated/libri-da-avere.json`](data/curated/libri-da-avere.json), la versione italiana della lista virale «i cento libri secondo la BBC» pubblicata da [La lettrice controcorrente](https://www.lalettricecontrocorrente.it/pensieri-in-liberta/i-cento-libri-da-leggere-secondo-la-bbc/). Non è il sondaggio The Big Read della BBC. Le descrizioni sono originali. Nella stessa pagina si può passare alla seconda lista, **I 100 libri del secolo secondo Le Monde** (`/libri-da-avere/le-monde/`, dati da [Wikipedia](https://it.wikipedia.org/wiki/I_100_libri_del_secolo_di_le_Monde), CC BY-SA). Le due liste formano un gruppo (campo `group` nel JSON): stessa voce di menu, selettore in alto e spunte "Ce l'ho" condivise. Le copertine di entrambe si completano con `npm run covers:libri`: prima Apple Books Italia (edizione italiana), poi Open Library, infine Apple Books Francia e USA con il titolo originale; con `coverCountry` si può far partire la ricerca da un altro catalogo.
 
 **Fonti valutate e scartate** (verifica di ottobre 2026):
 - **IBS e Libraccio**: le condizioni d'uso (art. 3.2) vietano qualsiasi estrazione automatica.
@@ -57,7 +57,7 @@ npm run dev                # http://localhost:4321
 | `npm run update` | `ingest` + `aggregate` (quello che fa il cron) |
 | `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
 | `npm run covers:album` | Completa le copertine mancanti della lista "Album da avere" (`-- --force` per rifarle tutte) |
-| `npm run covers:libri` | Completa le copertine mancanti della lista "Libri da avere" (`-- --force` per rifarle tutte) |
+| `npm run covers:libri` | Completa le copertine mancanti delle liste di libri (`-- --force` per rifarle tutte) |
 | `npm test` | Test di aggregazione, adapter e conservazione dati |
 | `npm run build` | Sito statico in `dist/` |
 

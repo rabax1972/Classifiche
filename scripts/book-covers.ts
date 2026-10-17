@@ -1,6 +1,7 @@
-// Completa le copertine della lista "Libri da avere".
+// Completa le copertine delle liste di libri ("Libri da avere" e Le Monde).
 // Da lanciare a mano (la lista è statica): `npm run covers:libri` (aggiungi `-- --force` per rifarle tutte).
-// Prima cerca l'edizione italiana su Apple Books (titolo italiano), poi su Open Library (titolo originale).
+// Prima cerca l'edizione italiana su Apple Books (titolo italiano), poi su Open Library (titolo originale),
+// infine su Apple Books Francia e USA (titolo originale).
 // Per un libro trovato male si può aggiungere nel JSON `"coverSearch": "termini di ricerca"` (vale per Apple Books).
 
 import { readFile, writeFile } from 'node:fs/promises';
@@ -11,7 +12,7 @@ import { biggerArtwork } from './adapters/apple';
 import { fetchJson } from './lib/http';
 import { nameMatch, overlap, stripParens, tokens } from './lib/match';
 
-const FILE = path.resolve('data/curated/libri-da-avere.json');
+const LISTS = ['libri-da-avere', 'libri-le-monde'].map((id) => path.resolve(`data/curated/${id}.json`));
 const force = process.argv.includes('--force');
 const CACHE = { retries: 2, cacheTtlMs: 7 * 86_400_000 };
 
@@ -38,11 +39,12 @@ interface AppleBook {
   trackViewUrl?: string;
 }
 
-async function appleBooks(e: CuratedEntry) {
-  const want = e.coverSearch ?? stripParens(e.title);
+async function appleBooks(e: CuratedEntry, country = 'it') {
+  // Fuori dall'Italia si cerca con il titolo originale.
+  const want = country === 'it' ? (e.coverSearch ?? stripParens(e.title)) : stripParens(e.original ?? e.title);
   const surname = authorless(e) ? '' : ` ${e.creator.split(' ').at(-1)}`;
   const { results } = await fetchJson<{ results: AppleBook[] }>(
-    `https://itunes.apple.com/search?term=${encodeURIComponent(want + surname)}&country=it&media=ebook&entity=ebook&limit=25`,
+    `https://itunes.apple.com/search?term=${encodeURIComponent(want + surname)}&country=${country}&media=ebook&entity=ebook&limit=25`,
     CACHE,
   );
   let best: { hit: AppleBook; score: number } | null = null;
@@ -85,23 +87,41 @@ async function openLibrary(e: CuratedEntry) {
   };
 }
 
+
+const key = (e: CuratedEntry) => `${normalizeText(e.creator)}|${normalizeText(e.title)}`;
+
 async function main() {
-  const list = JSON.parse(await readFile(FILE, 'utf8')) as CuratedList;
-  const missing: string[] = [];
-  for (const e of list.entries) {
-    if (e.cover !== undefined && !force) continue;
-    const found = (await appleBooks(e)) ?? (await openLibrary(e));
-    if (found) {
-      e.cover = found.cover;
-      e.url = found.url;
-      console.log(`${e.rank}. ${e.creator} – ${e.title}  →  ${found.label}`);
-    } else {
-      e.cover = null;
-      missing.push(`${e.rank}. ${e.creator} – ${e.title}`);
+  const lists = await Promise.all(LISTS.map(async (file) => ({ file, list: JSON.parse(await readFile(file, 'utf8')) as CuratedList })));
+  // Copertine già trovate in una delle liste: un libro presente in entrambe usa la stessa.
+  const known = new Map<string, CuratedEntry>();
+  for (const { list } of lists) for (const e of list.entries) if (e.cover && !force) known.set(key(e), e);
+
+  for (const { file, list } of lists) {
+    const missing: string[] = [];
+    console.log(`\n== ${list.title}`);
+    for (const e of list.entries) {
+      if (e.cover !== undefined && !force) continue;
+      const same = known.get(key(e));
+      const found = same?.cover
+        ? { cover: same.cover, url: same.url ?? null, label: "stessa copertina dell'altra lista" }
+        : ((e.coverCountry ? await appleBooks(e, e.coverCountry) : null) ??
+          (await appleBooks(e)) ??
+          (await openLibrary(e)) ??
+          (await appleBooks(e, 'fr')) ??
+          (await appleBooks(e, 'us')));
+      if (found) {
+        e.cover = found.cover;
+        e.url = found.url;
+        known.set(key(e), e);
+        console.log(`${e.rank}. ${e.creator} – ${e.title}  →  ${found.label}`);
+      } else {
+        e.cover = null;
+        missing.push(`${e.rank}. ${e.creator} – ${e.title}`);
+      }
     }
+    await writeFile(file, JSON.stringify(list, null, 2) + '\n');
+    if (missing.length) console.log(`\nSenza copertina (${missing.length}):\n${missing.join('\n')}`);
   }
-  await writeFile(FILE, JSON.stringify(list, null, 2) + '\n');
-  if (missing.length) console.log(`\nSenza copertina (${missing.length}):\n${missing.join('\n')}`);
 }
 
 main().catch((err) => {

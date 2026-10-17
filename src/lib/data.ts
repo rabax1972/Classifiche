@@ -1,6 +1,6 @@
 // Accesso ai JSON generati, a build time.
 
-import type { CategoryId, CuratedId, CuratedList, PeriodChart, PeriodId, SourceStatus } from './types';
+import { CURATED_IDS, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
@@ -18,6 +18,11 @@ export function getCuratedList(id: CuratedId): CuratedList {
   const list = curated[`/data/curated/${id}.json`];
   if (!list) throw new Error(`Lista mancante: data/curated/${id}.json`);
   return list;
+}
+
+/** Le liste dello stesso gruppo, nell'ordine di CURATED_IDS. */
+export function getCuratedGroup(group: CuratedId): CuratedList[] {
+  return CURATED_IDS.map(getCuratedList).filter((l) => l.group === group);
 }
 
 /** Percorso interno rispettando il `base` configurato (es. GitHub Pages). */
