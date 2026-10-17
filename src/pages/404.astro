@@ -1,0 +1,27 @@
+---
+// Pagina "non trovata": su Aruba la serve Apache (ErrorDocument in public/.htaccess), su GitHub Pages e Netlify è automatica.
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+import { CATEGORIES } from '../lib/sources';
+import { CATEGORY_IDS } from '../lib/types';
+---
+
+<Base title="Pagina non trovata">
+  <div class="mx-auto max-w-xl py-16 text-center">
+    <p class="text-5xl font-bold text-gray-300 dark:text-gray-700">404</p>
+    <h1 class="mt-4 text-2xl font-bold">Pagina non trovata</h1>
+    <p class="mt-2 text-gray-600 dark:text-gray-400">L'indirizzo non esiste o la pagina è stata spostata. Scegli una classifica:</p>
+    <ul class="mt-6 flex flex-wrap justify-center gap-2 text-sm font-medium">
+      {
+        CATEGORY_IDS.map((c) => (
+          <li>
+            <a href={href(c)} class="block rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+              {CATEGORIES[c].label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="mt-6"><a href={href()} class="text-indigo-700 underline dark:text-indigo-300">Torna alla home</a></p>
+  </div>
+</Base>

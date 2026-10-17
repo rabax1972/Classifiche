@@ -18,6 +18,7 @@
     "info:film": "tsx scripts/movie-info.ts",
     "info:serie": "tsx scripts/series-info.ts",
     "update": "npm run ingest && npm run aggregate && npm run info:canzoni && npm run info:libri && npm run info:film && npm run info:serie",
+    "dist:aruba": "tsx scripts/dist-aruba.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

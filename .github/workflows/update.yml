@@ -61,12 +61,3 @@ jobs:
           fi
           git commit -m "Dati: aggiornamento del $(TZ=Europe/Rome date +%F)"
           git push
-
-  # I push fatti con GITHUB_TOKEN non avviano altri workflow: il deploy su GitHub Pages va richiamato qui.
-  deploy:
-    needs: update
-    uses: ./.github/workflows/deploy.yml
-    permissions:
-      contents: read
-      pages: write
-      id-token: write

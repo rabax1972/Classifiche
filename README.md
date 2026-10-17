@@ -143,12 +143,21 @@ Configurazione del repository:
 
 ## Deploy
 
-Il sito è pubblicato su GitHub Pages: **https://rabax1972.github.io/Classifiche/**
+Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**. Il caricamento si fa a mano con FileZilla.
 
-1. *Settings → Pages → Source*: seleziona **GitHub Actions** (una volta sola).
-2. [`deploy.yml`](.github/workflows/deploy.yml) pubblica a ogni push su `main` e dopo ogni aggiornamento giornaliero dei dati, impostando da solo `SITE_URL` e `BASE_PATH`.
+1. Lancia [`distribuzione-aruba.cmd`](distribuzione-aruba.cmd) (doppio clic). Lo script:
+   - scarica da GitHub i dati aggiornati dal cron giornaliero (`git pull`);
+   - fa la build per l'indirizzo pubblico (`npm run dist:aruba`, [`scripts/dist-aruba.ts`](scripts/dist-aruba.ts));
+   - mette il risultato in `aruba/classifiche/` (cartella esclusa da git) e la apre.
 
-In alternativa il sito funziona anche su Vercel o Netlify (c'è già [`netlify.toml`](netlify.toml)): basta importare il repository.
+   Con `distribuzione-aruba.cmd --update` aggiorna prima anche i dati in locale, come il cron (servono le chiavi nel `.env`).
+2. Con FileZilla carica tutto il contenuto di `aruba/classifiche/` nella cartella `/classifiche` del dominio, sovrascrivendo i file esistenti.
+   Includi il file nascosto `.htaccess` (in FileZilla: *Server → Forza la visualizzazione dei file nascosti*).
+
+[`public/.htaccess`](public/.htaccess) configura Apache per la cartella `/classifiche`: pagina 404, redirect su HTTPS, barra finale sulle cartelle, compressione e cache.
+Se il sito cambia cartella, vanno aggiornati `BASE_PATH` in `scripts/dist-aruba.ts` e i percorsi in `.htaccess`.
+
+I file CSS e JS hanno l'hash nel nome: quelli vecchi rimasti sul server non danno fastidio, ma ogni tanto si può svuotare `/classifiche/_astro/` prima del caricamento.
 
 ## Aggiungere una nuova fonte
 

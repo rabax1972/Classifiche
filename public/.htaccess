@@ -1,0 +1,41 @@
+# Configurazione Apache per l'hosting Aruba: il sito sta nella cartella /classifiche del dominio
+# (https://www.giacomorabaglia.com/classifiche/, BASE_PATH in scripts/dist-aruba.ts). Se cambia la cartella, cambia anche qui.
+# Il sito è statico: ogni pagina è una cartella con index.html (trailingSlash: 'always' in astro.config.mjs).
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /classifiche/404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /classifiche/
+
+  # Tutto su HTTPS.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Barra finale sulle cartelle (/classifiche/film → /classifiche/film/), come i link interni del sito.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Le pagine cambiano a ogni distribuzione: niente cache lunga.
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType image/svg+xml "access plus 7 days"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # CSS e JS in _astro/ hanno l'hash nel nome: si possono tenere in cache per un anno.
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

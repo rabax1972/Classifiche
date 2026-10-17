@@ -13,6 +13,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm test` — vitest; un solo file: `npx vitest run tests/aggregate.test.ts`; un solo test: `npx vitest run -t "nome del test"`
 - `npm run update` — quello che fa il cron giornaliero: `ingest` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `info:serie`
 - `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
+- `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
+  da caricare a mano con FileZilla (niente deploy automatico)
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
 
 Gli script girano con `tsx`; le chiavi (`TMDB_READ_TOKEN` o `TMDB_API_KEY`, `LASTFM_API_KEY`, `CLASSIFICHE_CONTACT`) stanno in `.env`
