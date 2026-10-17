@@ -1,5 +1,5 @@
-// Modali delle schede (brani e artisti), lato client: una sola aperta alla volta, link diretto nell'URL
-// (#brano=… / #artista=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
+// Modali delle schede (brani e artisti, libri e autori), lato client: una sola aperta alla volta, link diretto
+// nell'URL (#brano=… / #artista=… / #libro=… / #autore=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
 
 import { artistKey, splitArtists } from './aggregate';
 
@@ -8,7 +8,7 @@ let opener: HTMLElement | null = null;
 interface DialogOptions {
   dialog: HTMLDialogElement;
   /** Nome del parametro nell'URL e dell'attributo data-* dei pulsanti che aprono la modale. */
-  name: 'brano' | 'artista';
+  name: 'brano' | 'artista' | 'libro' | 'autore';
   /** Classe dei pulsanti che aprono la modale. */
   trigger: string;
   /** Riempie la modale; false se la chiave non è nota. */
@@ -61,16 +61,21 @@ export function setParagraphs(el: HTMLElement, text: string, className = '') {
   );
 }
 
-/** I nomi degli artisti come pulsanti che aprono la loro scheda (stessa divisione della classifica). */
-export function setArtistButtons(el: HTMLElement, subtitle: string | null, known: (key: string) => boolean) {
+/** I nomi degli artisti (o degli autori) come pulsanti che aprono la loro scheda (stessa divisione della classifica). */
+export function setArtistButtons(
+  el: HTMLElement,
+  subtitle: string | null,
+  known: (key: string) => boolean,
+  { trigger, name }: { trigger: string; name: 'artista' | 'autore' } = { trigger: 'artist-open', name: 'artista' },
+) {
   el.replaceChildren(
     ...splitArtists(subtitle ?? '', (n) => known(artistKey(n))).map((part, i) => {
       const key = artistKey(part);
       if (i % 2 === 1 || !known(key)) return document.createTextNode(part);
       const b = document.createElement('button');
       b.type = 'button';
-      b.className = 'artist-open cursor-pointer underline decoration-gray-400 decoration-dotted underline-offset-4 hover:text-indigo-700 hover:decoration-solid dark:hover:text-indigo-300';
-      b.dataset.artista = key;
+      b.className = `${trigger} cursor-pointer underline decoration-gray-400 decoration-dotted underline-offset-4 hover:text-indigo-700 hover:decoration-solid dark:hover:text-indigo-300`;
+      b.dataset[name] = key;
       b.setAttribute('aria-haspopup', 'dialog');
       b.textContent = part;
       return b;

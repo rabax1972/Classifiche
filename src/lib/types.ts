@@ -185,9 +185,17 @@ export interface WikiIntro {
 /** Scheda di un artista per la modale delle Canzoni (data/cache/artist-info.json, scripts/artist-info.ts). */
 export interface ArtistInfo {
   wiki: WikiIntro | null;
-  /** Foto con licenza libera da Wikimedia Commons, con i crediti richiesti dalla licenza. */
-  photo: { src: string; page: string; author: string; license: string; licenseUrl: string | null } | null;
+  photo: PersonPhoto | null;
   appleUrl: string | null;
+}
+
+/** Foto con licenza libera da Wikimedia Commons, con i crediti richiesti dalla licenza. */
+export interface PersonPhoto {
+  src: string;
+  page: string;
+  author: string;
+  license: string;
+  licenseUrl: string | null;
 }
 
 /** Dati di un artista incorporati nella pagina per la modale (src/components/ArtistDialog.astro). */
@@ -205,4 +213,54 @@ export interface SongCard {
   cover: string | null;
   sourceUrl: string | null;
   info: SongInfo | null;
+}
+
+/** Scheda di un libro per la modale dei Libri (data/cache/book-info.json, scripts/book-info.ts). */
+export interface BookInfo {
+  /** Presentazione dell'editore su Apple Books (testo semplice, paragrafi separati da righe vuote). */
+  blurb: string | null;
+  /** Introduzione della voce di Wikipedia sul libro (CC BY-SA), solo se manca la presentazione dell'editore. */
+  wiki: WikiIntro | null;
+  /** Data di uscita dell'edizione (YYYY-MM-DD). */
+  released: string | null;
+  genre: string | null;
+  /** Copertina grande (600x600). */
+  cover: string | null;
+  appleUrl: string | null;
+  /** Pagina dell'autore (o del primo autore) su Apple Books. */
+  authorUrl: string | null;
+}
+
+/** Scheda di un autore per la modale dei Libri (data/cache/author-info.json, scripts/author-info.ts). */
+export interface AuthorInfo {
+  wiki: WikiIntro | null;
+  photo: PersonPhoto | null;
+  appleUrl: string | null;
+}
+
+/** Dati di un libro incorporati nella pagina per la modale (src/components/BookDialog.astro). */
+export interface BookCard {
+  title: string;
+  author: string | null;
+  cover: string | null;
+  sourceUrl: string | null;
+  /** Anno della prima edizione (liste curate): più significativo della data dell'edizione in vendita. */
+  year?: number | string;
+  /** Descrizione scritta per la lista curata, se manca una presentazione del libro. */
+  description?: string;
+  info: BookInfo | null;
+}
+
+/** Un libro della pagina da cui si aprono le modali di libro e autore (classifica o lista curata). */
+export interface BookItem extends Omit<BookCard, 'info'> {
+  /** Chiave della scheda in data/cache/book-info.json. */
+  key: string;
+}
+
+/** Dati di un autore incorporati nella pagina per la modale (src/components/AuthorDialog.astro). */
+export interface AuthorCard {
+  name: string;
+  info: AuthorInfo | null;
+  /** Libri dell'autore presenti nella pagina (chiave e titolo), per aprirne la scheda. */
+  books: { key: string; title: string }[];
 }

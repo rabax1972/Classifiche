@@ -1,11 +1,13 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type ArtistInfo, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
 const songInfoFiles = import.meta.glob<Record<string, { value: SongInfo }>>('/data/cache/song-info.json', { eager: true, import: 'default' });
 const artistInfoFiles = import.meta.glob<Record<string, { value: ArtistInfo }>>('/data/cache/artist-info.json', { eager: true, import: 'default' });
+const bookInfoFiles = import.meta.glob<Record<string, { value: BookInfo }>>('/data/cache/book-info.json', { eager: true, import: 'default' });
+const authorInfoFiles = import.meta.glob<Record<string, { value: AuthorInfo }>>('/data/cache/author-info.json', { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
@@ -20,6 +22,16 @@ export function getSongInfo(key: string): SongInfo | null {
 /** Scheda di un artista (chiave: artistKey), se già raccolta da scripts/artist-info.ts. */
 export function getArtistInfo(key: string): ArtistInfo | null {
   return Object.values(artistInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un libro (chiave: entryKey), se già raccolta da scripts/book-info.ts. */
+export function getBookInfo(key: string): BookInfo | null {
+  return Object.values(bookInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un autore (chiave: artistKey), se già raccolta da scripts/author-info.ts. */
+export function getAuthorInfo(key: string): AuthorInfo | null {
+  return Object.values(authorInfoFiles)[0]?.[key]?.value ?? null;
 }
 
 export function getStatus(): SourceStatus[] {

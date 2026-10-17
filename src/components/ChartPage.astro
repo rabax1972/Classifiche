@@ -2,9 +2,11 @@
 import Base from '../layouts/Base.astro';
 import { formatDateTime, formatDay, getChart, href } from '../lib/data';
 import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
-import { PERIOD_IDS, type CategoryId, type ChartView, type PeriodId } from '../lib/types';
+import { PERIOD_IDS, type BookItem, type CategoryId, type ChartView, type PeriodId } from '../lib/types';
 import ChartTable from './ChartTable.astro';
 import ArtistDialog from './ArtistDialog.astro';
+import AuthorDialog from './AuthorDialog.astro';
+import BookDialog from './BookDialog.astro';
 import SongDialog from './SongDialog.astro';
 
 interface Props {
@@ -15,6 +17,9 @@ const { category, period } = Astro.props;
 const cfg = CATEGORIES[category];
 const chart = getChart(category, period);
 const views = chart?.views ?? [];
+const books: BookItem[] = views.flatMap((v) =>
+  v.entries.map((e) => ({ key: e.key, title: e.title, author: e.subtitle, cover: e.cover, sourceUrl: e.sourceUrl })),
+);
 
 const badge: Record<ChartView['kind'], string> = {
   official: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300',
@@ -119,6 +124,14 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
       <>
         <SongDialog views={views} />
         <ArtistDialog views={views} />
+      </>
+    )
+  }
+  {
+    category === 'libri' && views.length > 0 && (
+      <>
+        <BookDialog books={books} />
+        <AuthorDialog books={books} />
       </>
     )
   }

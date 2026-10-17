@@ -14,7 +14,8 @@
     "covers:libri": "tsx scripts/book-covers.ts",
     "tracks:album": "tsx scripts/album-tracks.ts",
     "info:canzoni": "tsx scripts/song-info.ts",
-    "update": "npm run ingest && npm run aggregate && npm run info:canzoni",
+    "info:libri": "tsx scripts/book-info.ts",
+    "update": "npm run ingest && npm run aggregate && npm run info:canzoni && npm run info:libri",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

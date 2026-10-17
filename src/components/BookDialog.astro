@@ -1,0 +1,145 @@
+---
+// Modale con la scheda di un libro: si apre dai titoli della classifica Libri e delle liste di libri curate
+// (pulsanti .book-open[data-libro]). I dati dei libri della pagina sono incorporati come JSON; il contenuto è
+// costruito con textContent.
+import { getBookInfo } from '../lib/data';
+import type { BookCard, BookItem } from '../lib/types';
+
+interface Props {
+  books: BookItem[];
+}
+const { books: items } = Astro.props;
+
+const books: Record<string, BookCard> = {};
+for (const { key, ...b } of items) books[key] ??= { ...b, info: getBookInfo(key) };
+---
+
+<script type="application/json" id="book-data" set:html={JSON.stringify(books).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="book-dialog"
+  aria-labelledby="book-title"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <div class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-6 dark:sm:bg-gray-800">
+      <img id="book-cover" alt="" referrerpolicy="no-referrer" class="mx-auto h-auto w-36 rounded-md shadow-lg sm:sticky sm:top-6 sm:w-full" />
+      <div id="book-cover-empty" class="mx-auto flex aspect-[2/3] w-36 items-center justify-center rounded-md bg-gray-100 text-4xl font-bold text-gray-400 sm:w-full dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+    </div>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <div class="pr-8">
+        <h2 id="book-title" class="text-2xl leading-tight font-bold break-words"></h2>
+        <p id="book-author" class="mt-1 text-lg text-gray-700 dark:text-gray-300"></p>
+        <p id="book-meta" class="mt-2 text-sm text-gray-600 dark:text-gray-400"></p>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Trama</h3>
+        <div id="book-desc" class="mt-1 space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="book-blurb-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Presentazione dell'editore, da <a id="book-blurb-link" class="underline" rel="noopener" target="_blank">Apple Books</a>.
+        </p>
+        <p id="book-wiki-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Da <a id="book-wiki" class="underline" rel="noopener" target="_blank"></a>, testo disponibile con licenza{' '}
+          <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+        <p id="book-own-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Descrizione a cura di Classifiche Italia.</p>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="book-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su Apple Books</a>
+        <a id="book-search" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Cerca su Google Libri</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { BookCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#book-dialog');
+  const dataEl = document.querySelector('#book-data');
+  if (dialog && dataEl) {
+    const books = JSON.parse(dataEl.textContent || '{}') as Record<string, BookCard>;
+    const authors = JSON.parse(document.querySelector('#author-data')?.textContent || '{}') as Record<string, unknown>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const dateFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const bigCover = (url: string | null) => url?.replace(/\/\d+x\d+bb\./, '/600x600bb.') ?? null;
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+
+    const render = (key: string) => {
+      const b = books[key];
+      if (!b) return false;
+      const info = b.info;
+
+      $('book-title').textContent = b.title;
+      setArtistButtons($('book-author'), b.author, (k) => k in authors, { trigger: 'author-open', name: 'autore' });
+
+      const cover = info?.cover ?? bigCover(b.cover);
+      const img = $<HTMLImageElement>('book-cover');
+      img.hidden = !cover;
+      img.src = cover ?? '';
+      img.alt = cover ? `Copertina di ${b.title}` : '';
+      const empty = $('book-cover-empty');
+      empty.hidden = Boolean(cover);
+      empty.textContent = b.title.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const meta = [
+        info?.genre,
+        b.year ? `Prima edizione: ${b.year}` : info?.released ? `Uscita: ${dateFmt.format(new Date(`${info.released}T00:00:00Z`))}` : null,
+      ].filter(Boolean);
+      $('book-meta').textContent = meta.join(' · ');
+      $('book-meta').hidden = !meta.length;
+
+      const appleUrl = info?.appleUrl ?? (b.sourceUrl?.includes('books.apple.com') ? b.sourceUrl : null);
+      const desc = $('book-desc');
+      const wiki = info?.wiki;
+      desc.removeAttribute('lang');
+      if (info?.blurb) {
+        setParagraphs(desc, info.blurb);
+        if (appleUrl) $<HTMLAnchorElement>('book-blurb-link').href = appleUrl;
+      } else if (wiki) {
+        setParagraphs(desc, wiki.extract);
+        if (wiki.lang === 'en') desc.lang = 'en';
+        const link = $<HTMLAnchorElement>('book-wiki');
+        link.href = wiki.url;
+        link.textContent = `Wikipedia${wiki.lang === 'en' ? ' in inglese' : ''}, voce «${wiki.title}»`;
+      } else if (b.description) {
+        setParagraphs(desc, b.description);
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una presentazione di questo libro.' : 'La scheda di questo libro non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+      }
+      $('book-blurb-source').hidden = !info?.blurb;
+      $('book-wiki-source').hidden = Boolean(info?.blurb) || !wiki;
+      $('book-own-source').hidden = Boolean(info?.blurb || wiki) || !b.description;
+
+      const query = `${b.title} ${b.author ?? ''}`.trim();
+      const apple = $<HTMLAnchorElement>('book-apple');
+      apple.hidden = !appleUrl;
+      if (appleUrl) setLink(apple, appleUrl, `${b.title} su Apple Books`);
+      setLink($<HTMLAnchorElement>('book-search'), `https://www.google.com/search?tbm=bks&q=${encodeURIComponent(query)}`, `Cerca ${b.title} su Google Libri`);
+      return true;
+    };
+
+    // Link diretto a un libro: /libri/#libro=<chiave>
+    setupDialog({ dialog, name: 'libro', trigger: 'book-open', render });
+  }
+</script>

@@ -1,6 +1,6 @@
 ---
 import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
-import { getArtistInfo } from '../lib/data';
+import { getArtistInfo, getAuthorInfo } from '../lib/data';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -15,9 +15,15 @@ const { view, category, caption } = Astro.props;
 const poster = ['cinema', 'film', 'serie-tv'].includes(category);
 const computed = view.kind === 'computed';
 // Canzoni: il titolo apre la scheda del brano (SongDialog), ogni artista la propria (ArtistDialog).
-const songs = category === 'canzoni';
+// Libri: il titolo apre la scheda del libro (BookDialog), ogni autore la propria (AuthorDialog).
+const cards =
+  category === 'canzoni'
+    ? { title: 'song-open', titleData: 'data-brano', person: 'artist-open', personData: 'data-artista', info: getArtistInfo }
+    : category === 'libri'
+      ? { title: 'book-open', titleData: 'data-libro', person: 'author-open', personData: 'data-autore', info: getAuthorInfo }
+      : null;
 /** "A e B" resta intero solo se è un unico artista con una voce su Wikipedia (es. un duo). */
-const oneArtist = (name: string) => Boolean(getArtistInfo(artistKey(name))?.wiki);
+const oneArtist = (name: string) => Boolean(cards?.info(artistKey(name))?.wiki);
 const INITIAL = 20;
 ---
 
@@ -62,11 +68,11 @@ const INITIAL = 20;
                 <div class="flex items-center gap-3">
                   <Cover src={e.cover} title={e.title} poster={poster} size={poster ? 36 : 44} />
                   <div class="min-w-0">
-                    {songs ? (
+                    {cards ? (
                       <button
                         type="button"
-                        class="song-open cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
-                        data-brano={e.key}
+                        class={`${cards.title} cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300`}
+                        {...{ [cards.titleData]: e.key }}
                         aria-haspopup="dialog"
                       >
                         {e.title}
@@ -76,15 +82,15 @@ const INITIAL = 20;
                     )}
                     {e.subtitle && (
                       <p class="text-gray-600 break-words dark:text-gray-400">
-                        {songs
+                        {cards
                           ? splitArtists(e.subtitle, oneArtist).map((part, j) =>
                               j % 2 === 1 || !part.trim() ? (
                                 part
                               ) : (
                                 <button
                                   type="button"
-                                  class="artist-open cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
-                                  data-artista={artistKey(part)}
+                                  class={`${cards.person} cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300`}
+                                  {...{ [cards.personData]: artistKey(part) }}
                                   aria-haspopup="dialog"
                                 >
                                   {part}

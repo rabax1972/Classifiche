@@ -1,8 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-import { normalizeText } from '../lib/aggregate';
-import { getCuratedGroup, getCuratedList, href } from '../lib/data';
-import type { CuratedId, CuratedTrack } from '../lib/types';
+import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
+import { getAuthorInfo, getCuratedGroup, getCuratedList, href } from '../lib/data';
+import type { BookItem, CuratedId, CuratedTrack } from '../lib/types';
+import AuthorDialog from './AuthorDialog.astro';
+import BookDialog from './BookDialog.astro';
 import Cover from './Cover.astro';
 
 interface Props {
@@ -11,10 +13,21 @@ interface Props {
   poster?: boolean;
 }
 const { id, poster = false } = Astro.props;
+// Chiave stabile per le spunte salvate nel browser: non cambia se la lista viene riordinata.
+// È anche la chiave delle schede dei libri (scripts/book-info.ts, curatedKey).
+const itemKey = (e: { creator: string; title: string }) => `${normalizeText(e.creator)}|${normalizeText(e.title)}`;
 const list = getCuratedList(id);
 const siblings = list.group ? getCuratedGroup(list.group) : [];
 // Le liste di un gruppo condividono le spunte: un libro presente in entrambe risulta posseduto in tutte e due.
 const storeId = list.group ?? id;
+// Liste di libri: il titolo apre la scheda del libro (BookDialog), ogni autore la propria (AuthorDialog).
+const books = id.startsWith('libri-');
+const bookItems: BookItem[] = books
+  ? list.entries.map((e) => ({ key: itemKey(e), title: e.title, author: e.creator, cover: e.cover ?? null, sourceUrl: e.url ?? null, year: e.year, description: e.description }))
+  : [];
+/** "A e B" resta intero solo se è un unico autore con una voce su Wikipedia. */
+const oneAuthor = (name: string) => Boolean(getAuthorInfo(artistKey(name))?.wiki);
+const hasAuthorCard = (name: string) => Boolean(name.trim()) && !/^autori vari$/i.test(name.trim());
 
 function linkLabel(url: string): string {
   const host = new URL(url).host;
@@ -50,8 +63,6 @@ function discs(tracks: CuratedTrack[]): { disc: number | null; tracks: CuratedTr
   return [...groups].map(([disc, tracks]) => ({ disc, tracks }));
 }
 
-// Chiave stabile per le spunte salvate nel browser: non cambia se la lista viene riordinata.
-const itemKey = (e: { creator: string; title: string }) => `${normalizeText(e.creator)}|${normalizeText(e.title)}`;
 
 const FILTERS = [
   { id: 'tutti', label: 'Tutti' },
@@ -136,9 +147,38 @@ const FILTERS = [
               </span>
             </div>
             <div class="min-w-0 flex-1">
-              <h2 class="font-bold leading-snug">{e.title}</h2>
+              <h2 class="font-bold leading-snug">
+                {books ? (
+                  <button
+                    type="button"
+                    class="book-open cursor-pointer text-left decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
+                    data-libro={itemKey(e)}
+                    aria-haspopup="dialog"
+                  >
+                    {e.title}
+                  </button>
+                ) : (
+                  e.title
+                )}
+              </h2>
               <p class="text-sm text-gray-600 dark:text-gray-400">
-                {e.creator} · {e.year}
+                {books
+                  ? splitArtists(e.creator, oneAuthor).map((part, j) =>
+                      j % 2 === 1 || !hasAuthorCard(part) ? (
+                        part
+                      ) : (
+                        <button
+                          type="button"
+                          class="author-open cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
+                          data-autore={artistKey(part)}
+                          aria-haspopup="dialog"
+                        >
+                          {part}
+                        </button>
+                      ),
+                    )
+                  : e.creator}{' '}
+                · {e.year}
               </p>
               <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">{e.description}</p>
               <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
@@ -197,6 +237,15 @@ const FILTERS = [
       }
     </ol>
   </div>
+
+  {
+    books && (
+      <>
+        <BookDialog books={bookItems} />
+        <AuthorDialog books={bookItems} booksLabel="In questa lista" />
+      </>
+    )
+  }
 </Base>
 
 <style is:global>
