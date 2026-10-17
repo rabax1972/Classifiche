@@ -4,6 +4,8 @@ import { formatDateTime, formatDay, getChart, href } from '../lib/data';
 import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
 import { PERIOD_IDS, type CategoryId, type ChartView, type PeriodId } from '../lib/types';
 import ChartTable from './ChartTable.astro';
+import ArtistDialog from './ArtistDialog.astro';
+import SongDialog from './SongDialog.astro';
 
 interface Props {
   category: CategoryId;
@@ -109,6 +111,15 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
           </section>
         ))}
       </div>
+    )
+  }
+
+  {
+    category === 'canzoni' && views.length > 0 && (
+      <>
+        <SongDialog views={views} />
+        <ArtistDialog views={views} />
+      </>
     )
   }
 

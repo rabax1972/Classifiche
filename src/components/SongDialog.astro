@@ -1,0 +1,143 @@
+---
+// Modale con la scheda di un brano: si apre dai titoli della classifica Canzoni (pulsanti .song-open[data-song]).
+// I dati dei brani della pagina sono incorporati come JSON; il contenuto è costruito con textContent.
+import { getSongInfo } from '../lib/data';
+import type { ChartView, SongCard } from '../lib/types';
+
+interface Props {
+  views: ChartView[];
+}
+const { views } = Astro.props;
+
+const songs: Record<string, SongCard> = {};
+for (const v of views)
+  for (const e of v.entries)
+    songs[e.key] ??= { title: e.title, artist: e.subtitle, cover: e.cover, sourceUrl: e.sourceUrl, info: getSongInfo(e.key) };
+---
+
+<script type="application/json" id="song-data" set:html={JSON.stringify(songs).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="song-dialog"
+  aria-labelledby="song-title"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <div class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-0 dark:sm:bg-gray-800">
+      <img id="song-cover" alt="" width="600" height="600" referrerpolicy="no-referrer" class="mx-auto aspect-square w-44 rounded-lg object-cover shadow-md sm:w-full sm:rounded-none sm:shadow-none" />
+      <div id="song-cover-empty" class="mx-auto flex aspect-square w-44 items-center justify-center rounded-lg bg-gray-100 text-5xl font-bold text-gray-400 sm:w-full sm:rounded-none dark:bg-gray-800" aria-hidden="true"></div>
+    </div>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <div class="pr-8">
+        <h2 id="song-title" class="text-2xl leading-tight font-bold break-words"></h2>
+        <p id="song-artist" class="mt-1 text-lg text-gray-700 dark:text-gray-300"></p>
+        <p id="song-meta" class="mt-2 text-sm text-gray-600 dark:text-gray-400"></p>
+      </div>
+
+      <div>
+        <div id="song-desc" class="space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="song-desc-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Da <a id="song-wiki" class="underline" rel="noopener" target="_blank"></a>, testo disponibile con licenza{' '}
+          <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="song-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Ascolta su Apple Music</a>
+        <a id="song-spotify" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Cerca su Spotify</a>
+        <a id="song-lyrics" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Leggi il testo su Genius</a>
+      </div>
+      <p class="text-xs text-gray-500 dark:text-gray-400">I testi delle canzoni sono protetti da diritto d'autore: li trovi sui siti che hanno la licenza per pubblicarli.</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { SongCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#song-dialog');
+  const dataEl = document.querySelector('#song-data');
+  if (dialog && dataEl) {
+    const songs = JSON.parse(dataEl.textContent || '{}') as Record<string, SongCard>;
+    const artists = JSON.parse(document.querySelector('#artist-data')?.textContent || '{}') as Record<string, unknown>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const dateFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const bigCover = (url: string | null) => url?.replace(/\/\d+x\d+bb\./, '/600x600bb.') ?? null;
+    const bare = (t: string) => t.replace(/\s*[([](feat|ft|with)\.?[^)\]]*[)\]]/gi, '').replace(/ - (single|ep)$/i, '').trim().toLowerCase();
+    const minSec = (ms: number) => {
+      const s = Math.round(ms / 1000);
+      return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+    };
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+
+    const render = (key: string) => {
+      const s = songs[key];
+      if (!s) return false;
+      const info = s.info;
+      const query = `${bare(s.title)} ${s.artist ?? ''}`.trim();
+
+      $('song-title').textContent = s.title;
+      setArtistButtons($('song-artist'), s.artist, (k) => k in artists);
+
+      const cover = info?.cover ?? bigCover(s.cover);
+      const img = $<HTMLImageElement>('song-cover');
+      img.hidden = !cover;
+      img.src = cover ?? '';
+      img.alt = cover ? `Copertina di ${info?.album ?? s.title}` : '';
+      const empty = $('song-cover-empty');
+      empty.hidden = Boolean(cover);
+      empty.textContent = s.title.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const meta = [
+        info?.album && bare(info.album) !== bare(s.title) ? `Album: ${info.album}` : null,
+        info?.released ? `Uscita: ${dateFmt.format(new Date(`${info.released}T00:00:00Z`))}` : null,
+        info?.genre,
+        info?.durationMs ? minSec(info.durationMs) : null,
+      ].filter(Boolean);
+      $('song-meta').textContent = meta.join(' · ');
+      $('song-meta').hidden = !meta.length;
+
+      const desc = $('song-desc');
+      const wiki = info?.wiki;
+      if (wiki) {
+        setParagraphs(desc, wiki.extract);
+        if (wiki.lang === 'en') desc.lang = 'en';
+        else desc.removeAttribute('lang');
+        const link = $<HTMLAnchorElement>('song-wiki');
+        link.href = wiki.url;
+        link.textContent = `Wikipedia${wiki.lang === 'en' ? ' in inglese' : ''}, voce «${wiki.title}»`;
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una descrizione di questo brano.' : 'La scheda di questo brano non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+        desc.removeAttribute('lang');
+      }
+      $('song-desc-source').hidden = !wiki;
+
+      const appleUrl = info?.appleUrl ?? (s.sourceUrl?.includes('music.apple.com') ? s.sourceUrl : null);
+      setLink($<HTMLAnchorElement>('song-apple'), appleUrl ?? `https://music.apple.com/it/search?term=${encodeURIComponent(query)}`, `Ascolta ${s.title} su Apple Music`);
+      setLink($<HTMLAnchorElement>('song-spotify'), `https://open.spotify.com/search/${encodeURIComponent(query)}`, `Cerca ${s.title} su Spotify`);
+      setLink($<HTMLAnchorElement>('song-lyrics'), `https://genius.com/search?q=${encodeURIComponent(query)}`, `Leggi il testo di ${s.title} su Genius`);
+      return true;
+    };
+
+    // Link diretto a un brano: /canzoni/#brano=<chiave>
+    setupDialog({ dialog, name: 'brano', trigger: 'song-open', render });
+  }
+</script>

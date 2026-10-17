@@ -3,6 +3,7 @@ import {
   addDays,
   aggregateBorda,
   bordaPoints,
+  splitArtists,
   computeChange,
   entryKey,
   periodChart,
@@ -253,5 +254,23 @@ describe('todayChart', () => {
 
   it('senza snapshot restituisce null', () => {
     expect(todayChart([])).toBeNull();
+  });
+});
+
+describe('splitArtists', () => {
+  it('divide su virgola, & e feat. conservando i separatori', () => {
+    expect(splitArtists('KAROL G, Judeline & rusowsky')).toEqual(['KAROL G', ', ', 'Judeline', ' & ', 'rusowsky']);
+    expect(splitArtists('Sfera Ebbasta feat. Shiva')).toEqual(['Sfera Ebbasta', ' feat. ', 'Shiva']);
+  });
+
+  it('divide su " e " solo se il nome intero non è un unico artista', () => {
+    expect(splitArtists('Sfera Ebbasta e Shiva')).toEqual(['Sfera Ebbasta', ' e ', 'Shiva']);
+    expect(splitArtists('Colapesce e Dimartino', (n) => n === 'Colapesce e Dimartino')).toEqual(['Colapesce e Dimartino']);
+    expect(splitArtists('Fabri Fibra e Tredici Pietro, Joshua')).toEqual(['Fabri Fibra', ' e ', 'Tredici Pietro', ', ', 'Joshua']);
+  });
+
+  it('non divide su "x" né dentro le parole', () => {
+    expect(splitArtists('Pinguini Tattici Nucleari')).toEqual(['Pinguini Tattici Nucleari']);
+    expect(splitArtists('Myss Keta x Elodie')).toEqual(['Myss Keta x Elodie']);
   });
 });

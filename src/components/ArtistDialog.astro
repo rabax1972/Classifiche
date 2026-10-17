@@ -1,0 +1,160 @@
+---
+// Modale con la scheda di un artista: si apre dai nomi nella classifica Canzoni e nella scheda del brano
+// (pulsanti .artist-open[data-artista]). I dati degli artisti della pagina sono incorporati come JSON.
+import { artistKey, splitArtists } from '../lib/aggregate';
+import { getArtistInfo } from '../lib/data';
+import type { ArtistCard, ChartView } from '../lib/types';
+
+interface Props {
+  views: ChartView[];
+}
+const { views } = Astro.props;
+
+const artists: Record<string, ArtistCard> = {};
+for (const v of views)
+  for (const e of v.entries)
+    splitArtists(e.subtitle ?? '', (n) => Boolean(getArtistInfo(artistKey(n))?.wiki)).forEach((name, i) => {
+      if (i % 2 === 1 || !name.trim()) return;
+      const key = artistKey(name);
+      const a = (artists[key] ??= { name: name.trim(), info: getArtistInfo(key), songs: [] });
+      if (!a.songs.some((s) => s.key === e.key)) a.songs.push({ key: e.key, title: e.title });
+    });
+---
+
+<script type="application/json" id="artist-data" set:html={JSON.stringify(artists).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="artist-dialog"
+  aria-labelledby="artist-name"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <figure class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-0 dark:sm:bg-gray-800">
+      <img
+        id="artist-photo"
+        alt=""
+        referrerpolicy="no-referrer"
+        class="mx-auto aspect-[4/5] w-40 rounded-lg object-cover object-top shadow-md sm:w-full sm:rounded-none sm:shadow-none"
+      />
+      <div id="artist-photo-empty" class="mx-auto flex aspect-square w-32 items-center justify-center rounded-full bg-gray-100 text-4xl font-bold text-gray-400 sm:mt-8 sm:w-40 dark:bg-gray-800" aria-hidden="true"></div>
+      <figcaption id="artist-photo-credit" class="mt-1 text-center text-[11px] leading-snug text-gray-500 sm:px-3 sm:pb-3 sm:text-left dark:text-gray-400">
+        Foto: <span id="artist-photo-author"></span>,{' '}
+        <a id="artist-photo-license" class="underline" rel="noopener license" target="_blank"></a>,{' '}
+        via <a id="artist-photo-page" class="underline" rel="noopener" target="_blank">Wikimedia Commons</a>
+      </figcaption>
+    </figure>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <h2 id="artist-name" class="pr-8 text-2xl leading-tight font-bold break-words"></h2>
+
+      <div>
+        <div id="artist-desc" class="space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="artist-desc-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Da <a id="artist-wiki" class="underline" rel="noopener" target="_blank"></a>, testo disponibile con licenza{' '}
+          <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">In questa classifica</h3>
+        <ul id="artist-songs" class="mt-1 flex flex-wrap gap-1.5 text-sm"></ul>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="artist-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su Apple Music</a>
+        <a id="artist-spotify" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Cerca su Spotify</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { ArtistCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#artist-dialog');
+  const dataEl = document.querySelector('#artist-data');
+  if (dialog && dataEl) {
+    const artists = JSON.parse(dataEl.textContent || '{}') as Record<string, ArtistCard>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+
+    const render = (key: string) => {
+      const a = artists[key];
+      if (!a) return false;
+      const info = a.info;
+      $('artist-name').textContent = a.name;
+
+      const photo = info?.photo;
+      const img = $<HTMLImageElement>('artist-photo');
+      img.hidden = !photo;
+      img.src = photo?.src ?? '';
+      img.alt = photo ? `Foto di ${a.name}` : '';
+      $('artist-photo-credit').hidden = !photo;
+      if (photo) {
+        $('artist-photo-author').textContent = photo.author;
+        const lic = $<HTMLAnchorElement>('artist-photo-license');
+        lic.textContent = photo.license;
+        if (photo.licenseUrl) lic.href = photo.licenseUrl;
+        else lic.removeAttribute('href');
+        $<HTMLAnchorElement>('artist-photo-page').href = photo.page;
+      }
+      const empty = $('artist-photo-empty');
+      empty.hidden = Boolean(photo);
+      empty.textContent = a.name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const desc = $('artist-desc');
+      const wiki = info?.wiki;
+      if (wiki) {
+        setParagraphs(desc, wiki.extract);
+        if (wiki.lang === 'en') desc.lang = 'en';
+        else desc.removeAttribute('lang');
+        const link = $<HTMLAnchorElement>('artist-wiki');
+        link.href = wiki.url;
+        link.textContent = `Wikipedia${wiki.lang === 'en' ? ' in inglese' : ''}, voce «${wiki.title}»`;
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una biografia di questo artista.' : 'La scheda di questo artista non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+        desc.removeAttribute('lang');
+      }
+      $('artist-desc-source').hidden = !wiki;
+
+      $('artist-songs').replaceChildren(
+        ...a.songs.map((s) => {
+          const li = document.createElement('li');
+          const b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'song-open cursor-pointer rounded-full bg-gray-100 px-3 py-1 hover:bg-indigo-50 hover:text-indigo-700 dark:bg-gray-800 dark:hover:bg-indigo-950 dark:hover:text-indigo-300';
+          b.dataset.brano = s.key;
+          b.setAttribute('aria-haspopup', 'dialog');
+          b.textContent = s.title;
+          li.append(b);
+          return li;
+        }),
+      );
+
+      const query = encodeURIComponent(a.name);
+      setLink($<HTMLAnchorElement>('artist-apple'), info?.appleUrl ?? `https://music.apple.com/it/search?term=${query}`, `${a.name} su Apple Music`);
+      setLink($<HTMLAnchorElement>('artist-spotify'), `https://open.spotify.com/search/${query}`, `Cerca ${a.name} su Spotify`);
+      return true;
+    };
+
+    // Link diretto a un artista: /canzoni/#artista=<chiave>
+    setupDialog({ dialog, name: 'artista', trigger: 'artist-open', render });
+  }
+</script>

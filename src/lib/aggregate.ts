@@ -58,6 +58,20 @@ export function normalizeText(s: string | null | undefined): string {
     .trim();
 }
 
+/**
+ * Divide il sottotitolo di un brano nei singoli artisti, conservando i separatori:
+ * "Shiva & Geolier" → ["Shiva", " & ", "Geolier"] (gli indici pari sono artisti).
+ * Virgola, "&" e "feat." dividono sempre; " e " (frequente nelle classifiche FIMI) solo se `keepWhole`
+ * non riconosce il nome intero come un unico artista (es. "Colapesce e Dimartino"). "x" non divide mai.
+ */
+export function splitArtists(subtitle: string, keepWhole: (name: string) => boolean = () => false): string[] {
+  return subtitle
+    .split(/(\s*,\s*|\s+&\s+|\s+(?:feat|ft)\.?\s+)/i)
+    .flatMap((part, i) => (i % 2 === 0 && / e /i.test(part) && !keepWhole(part) ? part.split(/(\s+e\s+)/i) : [part]));
+}
+
+export const artistKey = (name: string) => normalizeText(name);
+
 export function entryKey(e: Pick<ChartEntry, 'title' | 'subtitle'>): string {
   // Del sottotitolo conta solo il primo nome (es. il primo artista).
   const firstSub = normalizeText((e.subtitle ?? '').split(/,| e | & | x /i)[0]);

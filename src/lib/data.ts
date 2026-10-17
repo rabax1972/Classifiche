@@ -1,13 +1,25 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
+const songInfoFiles = import.meta.glob<Record<string, { value: SongInfo }>>('/data/cache/song-info.json', { eager: true, import: 'default' });
+const artistInfoFiles = import.meta.glob<Record<string, { value: ArtistInfo }>>('/data/cache/artist-info.json', { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
   return charts[`/data/charts/${category}/${period}.json`] ?? null;
+}
+
+/** Scheda di un brano (chiave: entryKey), se già raccolta da scripts/song-info.ts. */
+export function getSongInfo(key: string): SongInfo | null {
+  return Object.values(songInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un artista (chiave: artistKey), se già raccolta da scripts/artist-info.ts. */
+export function getArtistInfo(key: string): ArtistInfo | null {
+  return Object.values(artistInfoFiles)[0]?.[key]?.value ?? null;
 }
 
 export function getStatus(): SourceStatus[] {

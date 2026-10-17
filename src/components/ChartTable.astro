@@ -1,5 +1,6 @@
 ---
-import { normalizeText } from '../lib/aggregate';
+import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
+import { getArtistInfo } from '../lib/data';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -13,6 +14,10 @@ interface Props {
 const { view, category, caption } = Astro.props;
 const poster = ['cinema', 'film', 'serie-tv'].includes(category);
 const computed = view.kind === 'computed';
+// Canzoni: il titolo apre la scheda del brano (SongDialog), ogni artista la propria (ArtistDialog).
+const songs = category === 'canzoni';
+/** "A e B" resta intero solo se è un unico artista con una voce su Wikipedia (es. un duo). */
+const oneArtist = (name: string) => Boolean(getArtistInfo(artistKey(name))?.wiki);
 const INITIAL = 20;
 ---
 
@@ -57,8 +62,38 @@ const INITIAL = 20;
                 <div class="flex items-center gap-3">
                   <Cover src={e.cover} title={e.title} poster={poster} size={poster ? 36 : 44} />
                   <div class="min-w-0">
-                    <p class="font-semibold break-words">{e.title}</p>
-                    {e.subtitle && <p class="text-gray-600 break-words dark:text-gray-400">{e.subtitle}</p>}
+                    {songs ? (
+                      <button
+                        type="button"
+                        class="song-open cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
+                        data-brano={e.key}
+                        aria-haspopup="dialog"
+                      >
+                        {e.title}
+                      </button>
+                    ) : (
+                      <p class="font-semibold break-words">{e.title}</p>
+                    )}
+                    {e.subtitle && (
+                      <p class="text-gray-600 break-words dark:text-gray-400">
+                        {songs
+                          ? splitArtists(e.subtitle, oneArtist).map((part, j) =>
+                              j % 2 === 1 || !part.trim() ? (
+                                part
+                              ) : (
+                                <button
+                                  type="button"
+                                  class="artist-open cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
+                                  data-artista={artistKey(part)}
+                                  aria-haspopup="dialog"
+                                >
+                                  {part}
+                                </button>
+                              ),
+                            )
+                          : e.subtitle}
+                      </p>
+                    )}
                     {computed && (
                       <p class="text-xs text-gray-500 md:hidden dark:text-gray-400">
                         {e.points} punti · {e.daysInChart} {e.daysInChart === 1 ? 'giorno' : 'giorni'} · migliore {e.bestRank}°

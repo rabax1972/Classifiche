@@ -159,3 +159,50 @@ export interface CuratedList {
   coversNote: string;
   entries: CuratedEntry[];
 }
+
+/** Scheda di un brano per la modale delle Canzoni (data/cache/song-info.json, scripts/song-info.ts). */
+export interface SongInfo {
+  album: string | null;
+  /** Data di uscita (YYYY-MM-DD). */
+  released: string | null;
+  genre: string | null;
+  durationMs: number | null;
+  /** Copertina grande (600x600). */
+  cover: string | null;
+  appleUrl: string | null;
+  /** Introduzione della voce di Wikipedia sul brano (CC BY-SA), se esiste. */
+  wiki: WikiIntro | null;
+}
+
+/** Introduzione di una voce di Wikipedia (CC BY-SA 4.0). */
+export interface WikiIntro {
+  lang: 'it' | 'en';
+  title: string;
+  url: string;
+  extract: string;
+}
+
+/** Scheda di un artista per la modale delle Canzoni (data/cache/artist-info.json, scripts/artist-info.ts). */
+export interface ArtistInfo {
+  wiki: WikiIntro | null;
+  /** Foto con licenza libera da Wikimedia Commons, con i crediti richiesti dalla licenza. */
+  photo: { src: string; page: string; author: string; license: string; licenseUrl: string | null } | null;
+  appleUrl: string | null;
+}
+
+/** Dati di un artista incorporati nella pagina per la modale (src/components/ArtistDialog.astro). */
+export interface ArtistCard {
+  name: string;
+  info: ArtistInfo | null;
+  /** Brani dell'artista presenti nella pagina (chiave e titolo), per aprirne la scheda. */
+  songs: { key: string; title: string }[];
+}
+
+/** Dati di un brano incorporati nella pagina per la modale (src/components/SongDialog.astro). */
+export interface SongCard {
+  title: string;
+  artist: string | null;
+  cover: string | null;
+  sourceUrl: string | null;
+  info: SongInfo | null;
+}

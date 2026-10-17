@@ -125,6 +125,10 @@ export async function saveChart(chart: PeriodChart) {
   await writeJson(p.chart(chart.category, chart.period), chart);
 }
 
+export async function readChart(c: CategoryId, period: PeriodId): Promise<PeriodChart | null> {
+  return readJson<PeriodChart>(p.chart(c, period));
+}
+
 export async function readStatus(): Promise<SourceStatus[]> {
   return (await readJson<SourceStatus[]>(p.status())) ?? [];
 }
