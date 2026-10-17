@@ -280,3 +280,72 @@ export interface AuthorCard {
   /** Libri dell'autore presenti nella pagina (chiave e titolo), per aprirne la scheda. */
   books: { key: string; title: string }[];
 }
+
+/** Scheda di un film per le modali di Cinema e Film (data/cache/movie-info.json, scripts/movie-info.ts; dati TMDB). */
+export interface MovieInfo {
+  tmdbId: number;
+  /** Trama da TMDB, in italiano o, se manca, in inglese. */
+  overview: string | null;
+  overviewLang: 'it' | 'en' | null;
+  tagline: string | null;
+  originalTitle: string | null;
+  genres: string[];
+  runtime: number | null;
+  /** Uscita nelle sale italiane (YYYY-MM-DD), o la data di uscita generale. */
+  released: string | null;
+  /** Voto medio TMDB (0-10) e numero di voti. */
+  vote: number | null;
+  votes: number;
+  /** Locandina grande (w500). */
+  poster: string | null;
+  directors: { id: number; name: string }[];
+  /** Attori principali, con il personaggio. */
+  cast: { name: string; character: string | null }[];
+  /** Chiave del trailer su YouTube. */
+  trailer: string | null;
+  /** Dove vederlo in Italia (dati JustWatch via TMDB): link alla pagina TMDB e servizi in abbonamento, noleggio e acquisto. */
+  watch: { link: string; flatrate: WatchProvider[]; rent: WatchProvider[]; buy: WatchProvider[] } | null;
+}
+
+export interface WatchProvider {
+  name: string;
+  logo: string | null;
+}
+
+/** Scheda di un regista per le modali di Cinema e Film (data/cache/director-info.json, scripts/director-info.ts). */
+export interface DirectorInfo {
+  tmdbId: number | null;
+  /** Introduzione della voce di Wikipedia (CC BY-SA); se manca, la biografia di TMDB in `bio`. */
+  wiki: WikiIntro | null;
+  bio: { text: string; lang: 'it' | 'en' } | null;
+  /** Foto da Wikimedia Commons con i crediti; altrimenti la foto del profilo TMDB in `tmdbPhoto`. */
+  photo: PersonPhoto | null;
+  tmdbPhoto: string | null;
+  /** Film diretti, dal più recente (al massimo 12). */
+  films: { id: number; title: string; year: string | null }[];
+}
+
+/** Dati di un film incorporati nella pagina per la modale (src/components/MovieDialog.astro). */
+export interface MovieCard {
+  title: string;
+  /** Registi come nella classifica ("A, B"), senza l'anno. */
+  directors: string | null;
+  year: string | null;
+  cover: string | null;
+  sourceUrl: string | null;
+  info: MovieInfo | null;
+}
+
+/** Un film della pagina da cui si aprono le modali di film e regista. */
+export interface MovieItem extends Omit<MovieCard, 'info'> {
+  /** Chiave della scheda in data/cache/movie-info.json (entryKey). */
+  key: string;
+}
+
+/** Dati di un regista incorporati nella pagina per la modale (src/components/DirectorDialog.astro). */
+export interface DirectorCard {
+  name: string;
+  info: DirectorInfo | null;
+  /** Film del regista presenti nella pagina (chiave e titolo), per aprirne la scheda. */
+  movies: { key: string; title: string }[];
+}

@@ -1,0 +1,200 @@
+---
+// Modale con la scheda di un regista: si apre dai nomi nelle classifiche Cinema e Film e nella scheda del film
+// (pulsanti .director-open[data-regista]). I dati dei registi della pagina sono incorporati come JSON.
+import { artistKey, splitArtists } from '../lib/aggregate';
+import { getDirectorInfo, getMovieInfo } from '../lib/data';
+import type { DirectorCard, MovieItem } from '../lib/types';
+
+interface Props {
+  movies: MovieItem[];
+}
+const { movies } = Astro.props;
+
+const directors: Record<string, DirectorCard> = {};
+for (const m of movies) {
+  const names = m.directors ?? (getMovieInfo(m.key)?.directors.map((d) => d.name).join(', ') || '');
+  splitArtists(names).forEach((name, i) => {
+    if (i % 2 === 1 || !name.trim()) return;
+    const key = artistKey(name);
+    const d = (directors[key] ??= { name: name.trim(), info: getDirectorInfo(key), movies: [] });
+    if (!d.movies.some((x) => x.key === m.key)) d.movies.push({ key: m.key, title: m.title });
+  });
+}
+---
+
+<script type="application/json" id="director-data" set:html={JSON.stringify(directors).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="director-dialog"
+  aria-labelledby="director-name"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <figure class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-0 dark:sm:bg-gray-800">
+      <img
+        id="director-photo"
+        alt=""
+        referrerpolicy="no-referrer"
+        class="mx-auto aspect-[4/5] w-40 rounded-lg object-cover object-top shadow-md sm:w-full sm:rounded-none sm:shadow-none"
+      />
+      <div id="director-photo-empty" class="mx-auto flex aspect-square w-32 items-center justify-center rounded-full bg-gray-100 text-4xl font-bold text-gray-400 sm:mt-8 sm:w-40 dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+      <figcaption id="director-photo-caption" class="mt-1 text-center text-[11px] leading-snug text-gray-500 sm:px-3 sm:pb-3 sm:text-left dark:text-gray-400">
+        <span id="director-photo-credit">
+          Foto: <span id="director-photo-author"></span>,{' '}
+          <a id="director-photo-license" class="underline" rel="noopener license" target="_blank"></a>,{' '}
+          via <a id="director-photo-page" class="underline" rel="noopener" target="_blank">Wikimedia Commons</a>
+        </span>
+        <span id="director-photo-tmdb">Foto: TMDB</span>
+      </figcaption>
+    </figure>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <h2 id="director-name" class="pr-8 text-2xl leading-tight font-bold break-words"></h2>
+
+      <div>
+        <div id="director-desc" class="space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="director-wiki-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Da <a id="director-wiki" class="underline" rel="noopener" target="_blank"></a>, testo disponibile con licenza{' '}
+          <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+        <p id="director-tmdb-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Biografia da <a id="director-tmdb-bio" class="underline" rel="noopener" target="_blank">TMDB</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">In questa classifica</h3>
+        <ul id="director-movies" class="mt-1 flex flex-wrap gap-1.5 text-sm"></ul>
+      </div>
+
+      <div id="director-films-box">
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Film diretti</h3>
+        <ul id="director-films" class="mt-1 grid grid-cols-1 gap-x-4 gap-y-0.5 text-sm sm:grid-cols-2"></ul>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="director-tmdb" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su TMDB</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { DirectorCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#director-dialog');
+  const dataEl = document.querySelector('#director-data');
+  if (dialog && dataEl) {
+    const directors = JSON.parse(dataEl.textContent || '{}') as Record<string, DirectorCard>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+
+    const render = (key: string) => {
+      const d = directors[key];
+      if (!d) return false;
+      const info = d.info;
+      const tmdbUrl = info?.tmdbId ? `https://www.themoviedb.org/person/${info.tmdbId}` : null;
+      $('director-name').textContent = d.name;
+
+      const photo = info?.photo;
+      const src = photo?.src ?? info?.tmdbPhoto ?? null;
+      const img = $<HTMLImageElement>('director-photo');
+      img.hidden = !src;
+      img.src = src ?? '';
+      img.alt = src ? `Foto di ${d.name}` : '';
+      $('director-photo-caption').hidden = !src;
+      $('director-photo-credit').hidden = !photo;
+      $('director-photo-tmdb').hidden = Boolean(photo);
+      if (photo) {
+        $('director-photo-author').textContent = photo.author;
+        const lic = $<HTMLAnchorElement>('director-photo-license');
+        lic.textContent = photo.license;
+        if (photo.licenseUrl) lic.href = photo.licenseUrl;
+        else lic.removeAttribute('href');
+        $<HTMLAnchorElement>('director-photo-page').href = photo.page;
+      }
+      const empty = $('director-photo-empty');
+      empty.hidden = Boolean(src);
+      empty.textContent = d.name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const desc = $('director-desc');
+      const wiki = info?.wiki;
+      const bio = info?.bio;
+      desc.removeAttribute('lang');
+      if (wiki) {
+        setParagraphs(desc, wiki.extract);
+        if (wiki.lang === 'en') desc.lang = 'en';
+        const link = $<HTMLAnchorElement>('director-wiki');
+        link.href = wiki.url;
+        link.textContent = `Wikipedia${wiki.lang === 'en' ? ' in inglese' : ''}, voce «${wiki.title}»`;
+      } else if (bio) {
+        setParagraphs(desc, bio.text);
+        if (bio.lang === 'en') desc.lang = 'en';
+        if (tmdbUrl) $<HTMLAnchorElement>('director-tmdb-bio').href = tmdbUrl;
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una biografia di questo regista.' : 'La scheda di questo regista non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+      }
+      $('director-wiki-source').hidden = !wiki;
+      $('director-tmdb-source').hidden = Boolean(wiki) || !bio;
+
+      $('director-movies').replaceChildren(
+        ...d.movies.map((m) => {
+          const li = document.createElement('li');
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'movie-open cursor-pointer rounded-full bg-gray-100 px-3 py-1 hover:bg-indigo-50 hover:text-indigo-700 dark:bg-gray-800 dark:hover:bg-indigo-950 dark:hover:text-indigo-300';
+          btn.dataset.film = m.key;
+          btn.setAttribute('aria-haspopup', 'dialog');
+          btn.textContent = m.title;
+          li.append(btn);
+          return li;
+        }),
+      );
+
+      const films = info?.films ?? [];
+      $('director-films-box').hidden = !films.length;
+      $('director-films').replaceChildren(
+        ...films.map((f) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.className = 'hover:text-indigo-700 hover:underline dark:hover:text-indigo-300';
+          a.rel = 'noopener';
+          a.target = '_blank';
+          a.textContent = f.title;
+          setLink(a, `https://www.themoviedb.org/movie/${f.id}`, `${f.title} su TMDB`);
+          li.append(a);
+          const year = document.createElement('span');
+          year.className = 'text-gray-500 dark:text-gray-400';
+          year.textContent = ` · ${f.year ?? 'in arrivo'}`;
+          li.append(year);
+          return li;
+        }),
+      );
+
+      const tmdb = $<HTMLAnchorElement>('director-tmdb');
+      tmdb.hidden = !tmdbUrl;
+      if (tmdbUrl) setLink(tmdb, tmdbUrl, `${d.name} su TMDB`);
+      return true;
+    };
+
+    // Link diretto a un regista: /cinema/#regista=<chiave>
+    setupDialog({ dialog, name: 'regista', trigger: 'director-open', render });
+  }
+</script>

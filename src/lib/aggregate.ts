@@ -72,6 +72,12 @@ export function splitArtists(subtitle: string, keepWhole: (name: string) => bool
 
 export const artistKey = (name: string) => normalizeText(name);
 
+/** Sottotitolo dei film ("Joe Russo, Anthony Russo (2026)") diviso in registi e anno. */
+export function movieSubtitle(subtitle: string | null): { directors: string | null; year: string | null } {
+  const m = (subtitle ?? '').match(/^(.*?)\s*(?:\((\d{4})\))?$/);
+  return { directors: m?.[1]?.trim() || null, year: m?.[2] ?? null };
+}
+
 export function entryKey(e: Pick<ChartEntry, 'title' | 'subtitle'>): string {
   // Del sottotitolo conta solo il primo nome (es. il primo artista).
   const firstSub = normalizeText((e.subtitle ?? '').split(/,| e | & | x /i)[0]);

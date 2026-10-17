@@ -1,6 +1,6 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type CuratedId, type CuratedList, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
@@ -9,6 +9,8 @@ const artistInfoFiles = import.meta.glob<Record<string, { value: ArtistInfo }>>(
 const bookInfoFiles = import.meta.glob<Record<string, { value: BookInfo }>>('/data/cache/book-info.json', { eager: true, import: 'default' });
 const authorInfoFiles = import.meta.glob<Record<string, { value: AuthorInfo }>>('/data/cache/author-info.json', { eager: true, import: 'default' });
 const freeBookFiles = import.meta.glob<Record<string, { value: FreeEdition }>>('/data/cache/free-books.json', { eager: true, import: 'default' });
+const movieInfoFiles = import.meta.glob<Record<string, { value: MovieInfo }>>('/data/cache/movie-info.json', { eager: true, import: 'default' });
+const directorInfoFiles = import.meta.glob<Record<string, { value: DirectorInfo }>>('/data/cache/director-info.json', { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
@@ -38,6 +40,16 @@ export function getAuthorInfo(key: string): AuthorInfo | null {
 /** Edizioni gratuite di un libro di pubblico dominio (chiave come getBookInfo), da scripts/free-books.ts. */
 export function getFreeEdition(key: string): FreeEdition | null {
   return Object.values(freeBookFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un film (chiave: entryKey), se già raccolta da scripts/movie-info.ts. */
+export function getMovieInfo(key: string): MovieInfo | null {
+  return Object.values(movieInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un regista (chiave: artistKey), se già raccolta da scripts/director-info.ts. */
+export function getDirectorInfo(key: string): DirectorInfo | null {
+  return Object.values(directorInfoFiles)[0]?.[key]?.value ?? null;
 }
 
 export function getStatus(): SourceStatus[] {

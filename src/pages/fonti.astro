@@ -84,6 +84,13 @@ const used = (sourceId: string) =>
         I testi delle canzoni non vengono riprodotti perché protetti da diritto d'autore: la scheda rimanda a Genius, che ha le licenze per pubblicarli.
       </p>
       <p class="text-sm text-gray-700 dark:text-gray-300">
+        Le schede dei film (clic sul titolo nelle classifiche Cinema e Film) riportano trama, generi, durata, uscita in Italia, voto, interpreti e
+        trailer dall'API di TMDB; la disponibilità in streaming, noleggio e acquisto è fornita da
+        <a class="underline" href="https://www.justwatch.com/it" rel="noopener" target="_blank">JustWatch</a> tramite TMDB.
+        Le schede dei registi (clic sul nome) usano l'introduzione della voce di Wikipedia, citata con licenza CC BY-SA 4.0, e una foto con licenza
+        libera da Wikimedia Commons; quando mancano, la biografia e la foto del profilo di TMDB. Anche questi dati TMDB sono rinnovati entro 6 mesi.
+      </p>
+      <p class="text-sm text-gray-700 dark:text-gray-300">
         <a class="underline" href={href('album-da-avere')}>I 100 dischi da avere assolutamente</a> è una lista statica: i titoli sono la top 100
         dei 500 migliori album di Rolling Stone (2003), come riportata da
         <a class="underline" href="https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html" rel="noopener" target="_blank">Il Rocker</a>;

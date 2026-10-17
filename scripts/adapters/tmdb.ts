@@ -4,14 +4,15 @@
 
 import { normalizeText } from '../../src/lib/aggregate';
 import type { CategoryId, ChartEntry, OfficialChart } from '../../src/lib/types';
-import { fetchJson } from '../lib/http';
+import { fetchJson, type FetchOptions } from '../lib/http';
 import { MetaCache } from '../lib/store';
 import { cleanEntries, type SourceAdapter } from './types';
 
 const API = 'https://api.themoviedb.org/3';
 const IMG = 'https://image.tmdb.org/t/p/w185';
+export const TMDB_IMG = 'https://image.tmdb.org/t/p';
 /** Rinnovo dei metadati prima del limite di 180 giorni imposto dai termini TMDB. */
-const META_MAX_AGE_DAYS = 150;
+export const META_MAX_AGE_DAYS = 150;
 const PAGES = 3; // 20 risultati per pagina → top 50
 
 type Media = 'movie' | 'tv';
@@ -47,10 +48,10 @@ export function hasTmdbKey() {
   return Boolean(process.env.TMDB_READ_TOKEN || process.env.TMDB_API_KEY);
 }
 
-async function tmdb<T>(pathAndQuery: string): Promise<T> {
+export async function tmdb<T>(pathAndQuery: string, opts: Omit<FetchOptions, 'headers'> = {}): Promise<T> {
   const { headers, query } = auth();
   const sep = pathAndQuery.includes('?') ? '&' : '?';
-  return fetchJson<T>(`${API}${pathAndQuery}${query ? sep + query : ''}`, { headers });
+  return fetchJson<T>(`${API}${pathAndQuery}${query ? sep + query : ''}`, { ...opts, headers });
 }
 
 async function pages(pathAndQuery: string): Promise<TmdbItem[]> {

@@ -1,0 +1,233 @@
+---
+// Modale con la scheda di un film: si apre dai titoli delle classifiche Cinema e Film (pulsanti .movie-open[data-film]).
+// I dati dei film della pagina sono incorporati come JSON; il contenuto è costruito con textContent.
+import { getMovieInfo } from '../lib/data';
+import type { MovieCard, MovieItem } from '../lib/types';
+
+interface Props {
+  movies: MovieItem[];
+}
+const { movies: items } = Astro.props;
+
+const movies: Record<string, MovieCard> = {};
+for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(key) };
+---
+
+<script type="application/json" id="movie-data" set:html={JSON.stringify(movies).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="movie-dialog"
+  aria-labelledby="movie-title"
+  class="m-auto w-[calc(100%-2rem)] max-w-3xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <div class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-6 dark:sm:bg-gray-800">
+      <img id="movie-poster" alt="" referrerpolicy="no-referrer" class="mx-auto h-auto w-36 rounded-md shadow-lg sm:sticky sm:top-6 sm:w-full" />
+      <div id="movie-poster-empty" class="mx-auto flex aspect-[2/3] w-36 items-center justify-center rounded-md bg-gray-100 text-4xl font-bold text-gray-400 sm:w-full dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+    </div>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <div class="pr-8">
+        <h2 id="movie-title" class="text-2xl leading-tight font-bold break-words"></h2>
+        <p id="movie-original" class="mt-0.5 text-sm text-gray-600 italic dark:text-gray-400"></p>
+        <p id="movie-directors-row" class="mt-1 text-lg text-gray-700 dark:text-gray-300">Regia di <span id="movie-directors"></span></p>
+        <p id="movie-meta" class="mt-2 text-sm text-gray-600 dark:text-gray-400"></p>
+      </div>
+
+      <p id="movie-tagline" class="border-l-4 border-indigo-300 pl-3 text-sm text-gray-700 italic dark:border-indigo-700 dark:text-gray-300"></p>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Trama</h3>
+        <div id="movie-desc" class="mt-1 space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+      </div>
+
+      <div id="movie-cast-box">
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Interpreti</h3>
+        <ul id="movie-cast" class="mt-1 grid grid-cols-1 gap-x-4 gap-y-0.5 text-sm sm:grid-cols-2"></ul>
+      </div>
+
+      <div id="movie-watch-box">
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Dove vederlo in Italia</h3>
+        <div id="movie-watch" class="mt-1 space-y-2 text-sm"></div>
+        <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Disponibilità in streaming fornita da <a class="underline" href="https://www.justwatch.com/it" rel="noopener" target="_blank">JustWatch</a>.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="movie-trailer" class="inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+          Guarda il trailer
+        </a>
+        <a id="movie-tmdb" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Su TMDB</a>
+        <a id="movie-source" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Top 10 Netflix</a>
+      </div>
+
+      <p class="text-xs text-gray-500 dark:text-gray-400">
+        Dati da <a class="underline" href="https://www.themoviedb.org/" rel="noopener" target="_blank">TMDB</a>.
+        This product uses the TMDB API but is not endorsed or certified by TMDB.
+      </p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { MovieCard, WatchProvider } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#movie-dialog');
+  const dataEl = document.querySelector('#movie-data');
+  if (dialog && dataEl) {
+    const movies = JSON.parse(dataEl.textContent || '{}') as Record<string, MovieCard>;
+    const directors = JSON.parse(document.querySelector('#director-data')?.textContent || '{}') as Record<string, unknown>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const dateFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const numFmt = new Intl.NumberFormat('it-IT');
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+    const duration = (min: number) => (min < 60 ? `${min} min` : `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, '0')} min`);
+
+    const providerRow = (label: string, list: WatchProvider[]) => {
+      const row = document.createElement('div');
+      row.className = 'flex flex-wrap items-center gap-2';
+      const name = document.createElement('span');
+      name.className = 'w-24 shrink-0 text-gray-600 dark:text-gray-400';
+      name.textContent = label;
+      const ul = document.createElement('ul');
+      ul.className = 'flex flex-wrap gap-1.5';
+      ul.append(
+        ...list.map((p) => {
+          const li = document.createElement('li');
+          li.className = 'inline-flex items-center gap-1.5 rounded-full bg-gray-100 py-0.5 pr-2.5 pl-0.5 dark:bg-gray-800';
+          if (p.logo) {
+            const img = document.createElement('img');
+            img.src = p.logo;
+            img.alt = '';
+            img.width = 22;
+            img.height = 22;
+            img.referrerPolicy = 'no-referrer';
+            img.className = 'h-[22px] w-[22px] rounded-full';
+            li.append(img);
+          } else li.classList.replace('pl-0.5', 'pl-2.5');
+          li.append(p.name);
+          return li;
+        }),
+      );
+      row.append(name, ul);
+      return row;
+    };
+
+    const render = (key: string) => {
+      const m = movies[key];
+      if (!m) return false;
+      const info = m.info;
+
+      $('movie-title').textContent = m.title;
+      $('movie-original').textContent = info?.originalTitle ? `Titolo originale: ${info.originalTitle}` : '';
+      $('movie-original').hidden = !info?.originalTitle;
+
+      const who = m.directors ?? (info?.directors.map((d) => d.name).join(', ') || null);
+      $('movie-directors-row').hidden = !who;
+      setArtistButtons($('movie-directors'), who, (k) => k in directors, { trigger: 'director-open', name: 'regista' });
+
+      const poster = info?.poster ?? m.cover?.replace('/w185/', '/w500/') ?? null;
+      const img = $<HTMLImageElement>('movie-poster');
+      img.hidden = !poster;
+      img.src = poster ?? '';
+      img.alt = poster ? `Locandina di ${m.title}` : '';
+      const empty = $('movie-poster-empty');
+      empty.hidden = Boolean(poster);
+      empty.textContent = m.title.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const meta = [
+        info?.genres.slice(0, 3).join(', ') || null,
+        info?.runtime ? duration(info.runtime) : null,
+        info?.released ? `Uscita: ${dateFmt.format(new Date(`${info.released}T00:00:00Z`))}` : m.year,
+        info?.vote && info.votes >= 10 ? `Voto TMDB ${info.vote.toLocaleString('it-IT')}/10 (${numFmt.format(info.votes)} voti)` : null,
+      ].filter(Boolean);
+      $('movie-meta').textContent = meta.join(' · ');
+      $('movie-meta').hidden = !meta.length;
+
+      $('movie-tagline').textContent = info?.tagline ?? '';
+      $('movie-tagline').hidden = !info?.tagline;
+
+      const desc = $('movie-desc');
+      desc.removeAttribute('lang');
+      if (info?.overview) {
+        setParagraphs(desc, info.overview);
+        if (info.overviewLang === 'en') desc.lang = 'en';
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una trama di questo film.' : 'La scheda di questo film non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+      }
+
+      const cast = info?.cast ?? [];
+      $('movie-cast-box').hidden = !cast.length;
+      $('movie-cast').replaceChildren(
+        ...cast.map((c) => {
+          const li = document.createElement('li');
+          li.textContent = c.name;
+          if (c.character) {
+            const role = document.createElement('span');
+            role.className = 'text-gray-500 dark:text-gray-400';
+            role.textContent = ` · ${c.character}`;
+            li.append(role);
+          }
+          return li;
+        }),
+      );
+
+      const watch = info?.watch;
+      $('movie-watch-box').hidden = !watch;
+      if (watch) {
+        const rows = (
+          [
+            ['Abbonamento', watch.flatrate],
+            ['Noleggio', watch.rent],
+            ['Acquisto', watch.buy],
+          ] as const
+        )
+          .filter(([, list]) => list.length)
+          .map(([label, list]) => providerRow(label, list));
+        const more = document.createElement('a');
+        more.className = 'inline-block text-indigo-700 underline dark:text-indigo-300';
+        more.rel = 'noopener';
+        more.target = '_blank';
+        more.textContent = 'Tutte le offerte';
+        setLink(more, watch.link, `Dove vedere ${m.title}: tutte le offerte su TMDB`);
+        $('movie-watch').replaceChildren(...rows, more);
+      }
+
+      const trailer = $<HTMLAnchorElement>('movie-trailer');
+      trailer.hidden = !info?.trailer;
+      if (info?.trailer) setLink(trailer, `https://www.youtube.com/watch?v=${encodeURIComponent(info.trailer)}`, `Trailer di ${m.title} su YouTube`);
+
+      const tmdbUrl = info ? `https://www.themoviedb.org/movie/${info.tmdbId}` : m.sourceUrl?.includes('themoviedb.org') ? m.sourceUrl : null;
+      const tmdb = $<HTMLAnchorElement>('movie-tmdb');
+      tmdb.hidden = !tmdbUrl;
+      if (tmdbUrl) setLink(tmdb, tmdbUrl, `${m.title} su TMDB`);
+      const netflix = m.sourceUrl?.includes('netflix.com') ? m.sourceUrl : null;
+      const source = $<HTMLAnchorElement>('movie-source');
+      source.hidden = !netflix;
+      if (netflix) setLink(source, netflix, `Classifica Netflix con ${m.title}`);
+      return true;
+    };
+
+    // Link diretto a un film: /cinema/#film=<chiave>
+    setupDialog({ dialog, name: 'film', trigger: 'movie-open', render });
+  }
+</script>

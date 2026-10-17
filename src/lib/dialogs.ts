@@ -1,5 +1,5 @@
-// Modali delle schede (brani e artisti, libri e autori), lato client: una sola aperta alla volta, link diretto
-// nell'URL (#brano=… / #artista=… / #libro=… / #autore=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
+// Modali delle schede (brani e artisti, libri e autori, film e registi), lato client: una sola aperta alla volta, link diretto
+// nell'URL (#brano=… / #artista=… / #libro=… / #autore=… / #film=… / #regista=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
 
 import { artistKey, splitArtists } from './aggregate';
 
@@ -8,7 +8,7 @@ let opener: HTMLElement | null = null;
 interface DialogOptions {
   dialog: HTMLDialogElement;
   /** Nome del parametro nell'URL e dell'attributo data-* dei pulsanti che aprono la modale. */
-  name: 'brano' | 'artista' | 'libro' | 'autore';
+  name: 'brano' | 'artista' | 'libro' | 'autore' | 'film' | 'regista';
   /** Classe dei pulsanti che aprono la modale. */
   trigger: string;
   /** Riempie la modale; false se la chiave non è nota. */
@@ -66,7 +66,7 @@ export function setArtistButtons(
   el: HTMLElement,
   subtitle: string | null,
   known: (key: string) => boolean,
-  { trigger, name }: { trigger: string; name: 'artista' | 'autore' } = { trigger: 'artist-open', name: 'artista' },
+  { trigger, name }: { trigger: string; name: 'artista' | 'autore' | 'regista' } = { trigger: 'artist-open', name: 'artista' },
 ) {
   el.replaceChildren(
     ...splitArtists(subtitle ?? '', (n) => known(artistKey(n))).map((part, i) => {

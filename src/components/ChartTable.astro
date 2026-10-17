@@ -1,6 +1,6 @@
 ---
-import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
-import { getArtistInfo, getAuthorInfo } from '../lib/data';
+import { artistKey, movieSubtitle, normalizeText, splitArtists } from '../lib/aggregate';
+import { getArtistInfo, getAuthorInfo, getDirectorInfo } from '../lib/data';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -16,12 +16,22 @@ const poster = ['cinema', 'film', 'serie-tv'].includes(category);
 const computed = view.kind === 'computed';
 // Canzoni: il titolo apre la scheda del brano (SongDialog), ogni artista la propria (ArtistDialog).
 // Libri: il titolo apre la scheda del libro (BookDialog), ogni autore la propria (AuthorDialog).
+// Cinema e Film: il titolo apre la scheda del film (MovieDialog), ogni regista la propria (DirectorDialog).
+const movies = category === 'cinema' || category === 'film';
 const cards =
   category === 'canzoni'
     ? { title: 'song-open', titleData: 'data-brano', person: 'artist-open', personData: 'data-artista', info: getArtistInfo }
     : category === 'libri'
       ? { title: 'book-open', titleData: 'data-libro', person: 'author-open', personData: 'data-autore', info: getAuthorInfo }
-      : null;
+      : movies
+        ? { title: 'movie-open', titleData: 'data-film', person: 'director-open', personData: 'data-regista', info: getDirectorInfo }
+        : null;
+/** Nomi cliccabili del sottotitolo e quello che segue (l'anno dei film). */
+const people = (subtitle: string) => {
+  if (!movies) return { names: subtitle, after: '' };
+  const { directors, year } = movieSubtitle(subtitle);
+  return { names: directors ?? '', after: year ? `${directors ? ' ' : ''}(${year})` : '' };
+};
 /** "A e B" resta intero solo se è un unico artista con una voce su Wikipedia (es. un duo). */
 const oneArtist = (name: string) => Boolean(cards?.info(artistKey(name))?.wiki);
 const INITIAL = 20;
@@ -83,20 +93,23 @@ const INITIAL = 20;
                     {e.subtitle && (
                       <p class="text-gray-600 break-words dark:text-gray-400">
                         {cards
-                          ? splitArtists(e.subtitle, oneArtist).map((part, j) =>
-                              j % 2 === 1 || !part.trim() ? (
-                                part
-                              ) : (
-                                <button
-                                  type="button"
-                                  class={`${cards.person} cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300`}
-                                  {...{ [cards.personData]: artistKey(part) }}
-                                  aria-haspopup="dialog"
-                                >
-                                  {part}
-                                </button>
+                          ? [
+                              ...splitArtists(people(e.subtitle).names, oneArtist).map((part, j) =>
+                                j % 2 === 1 || !part.trim() ? (
+                                  part
+                                ) : (
+                                  <button
+                                    type="button"
+                                    class={`${cards.person} cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300`}
+                                    {...{ [cards.personData]: artistKey(part) }}
+                                    aria-haspopup="dialog"
+                                  >
+                                    {part}
+                                  </button>
+                                ),
                               ),
-                            )
+                              people(e.subtitle).after,
+                            ]
                           : e.subtitle}
                       </p>
                     )}
