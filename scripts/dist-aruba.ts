@@ -23,8 +23,10 @@ run('npm run build', { SITE_URL, BASE_PATH });
 rmSync(OUT, { recursive: true, force: true });
 cpSync('dist', OUT, { recursive: true });
 if (!existsSync(path.join(OUT, '.htaccess'))) throw new Error('.htaccess mancante nella build');
+if (!existsSync(path.join(OUT, 'api', 'index.php'))) throw new Error('API degli account (api/index.php) mancante nella build');
 
 const count = (dir: string): number =>
   readdirSync(dir, { withFileTypes: true }).reduce((n, f) => n + (f.isDirectory() ? count(path.join(dir, f.name)) : 1), 0);
 console.log(`\nDistribuzione pronta in ${OUT} (${count(OUT)} file).`);
 console.log(`Con FileZilla carica tutto il contenuto, compreso il file nascosto .htaccess, nella cartella /classifiche del dominio.`);
+console.log(`Il database degli account (mdb-database/classifiche.sqlite nella radice del dominio) non fa parte della distribuzione: non toccarlo.`);

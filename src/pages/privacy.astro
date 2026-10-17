@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+
+// Informativa sul trattamento dei dati (GDPR, art. 13). Va aggiornata se cambia quello che fa l'API in public/api/.
+const AGGIORNATA = '17 ottobre 2026';
+const CONTATTO = 'info@giacomorabaglia.com';
+---
+
+<Base title="Privacy" description="Informativa sul trattamento dei dati personali di Classifiche Italia.">
+  <article class="max-w-3xl space-y-8 text-gray-700 dark:text-gray-300">
+    <header>
+      <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Privacy</h1>
+      <p class="mt-3">Informativa sul trattamento dei dati personali (art. 13 del Regolamento UE 2016/679, GDPR). Ultimo aggiornamento: {AGGIORNATA}.</p>
+    </header>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Titolare del trattamento</h2>
+      <p>
+        Giacomo Rabaglia, che gestisce Classifiche Italia come progetto personale e non commerciale. Per qualsiasi richiesta:
+        <a href={`mailto:${CONTATTO}`} class="underline">{CONTATTO}</a>.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Senza account</h2>
+      <p>
+        Puoi usare tutto il sito senza registrarti. Le spunte (film visti, serie viste, album e libri che hai), il tema chiaro o scuro e i filtri
+        scelti restano nella memoria del tuo browser (localStorage) e non vengono inviati a noi.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Con l'account</h2>
+      <p>Se crei un account, per salvare le tue spunte e ritrovarle su tutti i dispositivi trattiamo:</p>
+      <ul class="list-disc space-y-1 pl-5">
+        <li>il tuo <strong>indirizzo email</strong>, per l'accesso e per le email di servizio (conferma dell'indirizzo, nuova password);</li>
+        <li>la <strong>password</strong>, conservata solo in forma cifrata non reversibile (hash Argon2id): nessuno può leggerla;</li>
+        <li>le <strong>spunte</strong> che metti sul sito, con la data in cui le hai aggiunte;</li>
+        <li>i dati delle <strong>sessioni</strong> aperte (un codice casuale e la sua scadenza), per riconoscerti tra una visita e l'altra.</li>
+      </ul>
+      <p>
+        La base giuridica è l'esecuzione del servizio che chiedi creando l'account (art. 6.1.b GDPR). Non mandiamo newsletter né pubblicità, non
+        profiliamo gli utenti e non cediamo i dati a nessuno.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Sicurezza</h2>
+      <p>
+        Per proteggere gli account da tentativi di accesso ripetuti registriamo per 24 ore l'indirizzo IP e l'email usati nei tentativi di accesso,
+        registrazione e recupero della password (legittimo interesse alla sicurezza del servizio, art. 6.1.f GDPR). Come ogni sito, anche il
+        server del fornitore di hosting può registrare nei propri log tecnici gli indirizzi IP delle richieste.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Per quanto tempo</h2>
+      <ul class="list-disc space-y-1 pl-5">
+        <li>email, password e spunte: finché l'account esiste;</li>
+        <li>account mai confermati: cancellati dopo 7 giorni;</li>
+        <li>sessioni: scadono dopo 60 giorni senza visite; i link nelle email dopo 48 ore (conferma) o un'ora (nuova password);</li>
+        <li>tentativi di accesso: 24 ore;</li>
+        <li>
+          le copie di sicurezza del database (le ultime cinque sul server, più quelle che il titolare scarica per conservarle) contengono gli
+          stessi dati e vengono sostituite via via dalle più recenti.
+        </li>
+      </ul>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Dove</h2>
+      <p>
+        I dati sono conservati sul server del servizio di hosting di Aruba S.p.A., che agisce come responsabile del trattamento. Le email di
+        servizio partono dallo stesso server.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Cookie e contenuti esterni</h2>
+      <p>
+        Il sito usa un solo cookie, <code>cl_sessione</code>, e solo dopo l'accesso: è un cookie tecnico necessario per riconoscerti, per cui non
+        serve il consenso. Non usiamo cookie di statistica, di profilazione o di terze parti.
+      </p>
+      <p>
+        Le copertine e alcuni loghi vengono caricati direttamente dai server delle fonti (vedi <a href={href('fonti')} class="underline">Fonti e
+        metodo</a>), che ricevono il tuo indirizzo IP come avviene per qualsiasi immagine sul web.
+      </p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">I tuoi diritti</h2>
+      <p>
+        Puoi chiedere in ogni momento l'accesso ai tuoi dati, la rettifica, la cancellazione, la limitazione del trattamento, la portabilità e
+        opporti al trattamento (artt. 15–21 GDPR). Dalla pagina <a href={href('account')} class="underline">Account</a> puoi da solo scaricare
+        le tue spunte in un file, cambiare la password ed eliminare l'account con tutti i dati collegati. Per il resto scrivi a
+        <a href={`mailto:${CONTATTO}`} class="underline">{CONTATTO}</a>. Hai anche il diritto di presentare reclamo al
+        <a href="https://www.garanteprivacy.it/" class="underline" rel="noopener" target="_blank">Garante per la protezione dei dati personali</a>.
+      </p>
+    </section>
+  </article>
+</Base>

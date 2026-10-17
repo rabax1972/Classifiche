@@ -8,5 +8,12 @@ export default defineConfig({
   site: process.env.SITE_URL || undefined,
   base: process.env.BASE_PATH || '/',
   trailingSlash: 'always',
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    // In locale l'API degli account (public/api/index.php) la esegue il server PHP di `npm run api:dev`.
+    // L'host originale deve restare (changeOrigin: false): l'API lo confronta con l'Origin e lo usa per i link nelle email.
+    server: {
+      proxy: { [`${(process.env.BASE_PATH || '').replace(/\/$/, '')}/api/`]: { target: 'http://127.0.0.1:8787', changeOrigin: false } },
+    },
+  },
 });

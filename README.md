@@ -124,11 +124,37 @@ Le schede delle persone usano l'introduzione della voce di Wikipedia (in italian
 
 Con gli stessi dati, le classifiche Cinema e Film si possono filtrare per servizi in abbonamento (con i loghi; il filtro compare solo se almeno 5 film ne hanno uno) e generi, anche più di uno alla volta (basta che il film ne abbia uno), e per durata e voto TMDB minimo. Serie TV ha gli stessi filtri, con numero di stagioni e stato (in corso o conclusa) al posto della durata. Il filtro è lato client: senza JavaScript la tabella resta completa.
 
-Come le spunte "Ce l'ho" delle liste curate, ogni film di Cinema e Film si può segnare come "Visto", dalla classifica o dalla scheda del film (`src/lib/seen.ts`): la spunta resta salvata solo nel browser (localStorage, chiave `entryKey`), vale per entrambe le classifiche e per tutti i periodi, e un filtro mostra solo i film da vedere o quelli già visti. Allo stesso modo ogni serie si può segnare come "Vista", con una lista separata: la chiave è l'ID TMDB, così la spunta vale per tutte le stagioni della Top 10 Netflix e per le classifiche TMDB.
+Come le spunte "Ce l'ho" delle liste curate, ogni film di Cinema e Film si può segnare come "Visto", dalla classifica o dalla scheda del film (`src/lib/seen.ts`): la spunta resta salvata nel browser (localStorage, chiave `entryKey`) e, con un account, sul server (vedi sotto), vale per entrambe le classifiche e per tutti i periodi, e un filtro mostra solo i film da vedere o quelli già visti. Allo stesso modo ogni serie si può segnare come "Vista", con una lista separata: la chiave è l'ID TMDB, così la spunta vale per tutte le stagioni della Top 10 Netflix e per le classifiche TMDB.
 
 Gli episodi delle serie stanno in `data/cache/episodes/{id TMDB}.json` (`scripts/episode-info.ts`): troppi per incorporarli nella pagina, il sito li pubblica come un file JSON per stagione (`/serie-tv/episodi/{id}/{stagione}.json`), scaricato dalla scheda quando si sceglie la stagione. L'ultima stagione delle serie in corso si rinnova ogni settimana.
 
 I dati sono raccolti dagli script `scripts/*-info.ts` in `data/cache/*-info.json`. Ogni run completa un numero limitato di schede. Le schede con dati TMDB scadono dopo 150 giorni e vengono rifatte.
+
+### Account e spunte sincronizzate
+
+Le spunte ("Visto", "Vista", "Ce l'ho") funzionano anche senza account, nel localStorage del browser. Con un account
+(pagina `/account/`) si ritrovano su tutti i dispositivi:
+
+- [`public/api/index.php`](public/api/index.php) è una piccola API PHP (funzioni comuni in `public/api/_inc/app.php`), copiata così com'è
+  nella build in `/classifiche/api/`: registrazione con conferma dell'email, accesso, recupero e cambio password, eliminazione dell'account,
+  lettura e scrittura delle spunte. I dati stanno in SQLite, nel file `mdb-database/classifiche.sqlite` nella radice del dominio: la cartella
+  `mdb-database` dell'hosting Windows di Aruba è scrivibile da PHP e non raggiungibile dal web. Lo schema si crea e si aggiorna da solo
+  (`migrate()`, versioni con `PRAGMA user_version`).
+- Sicurezza: password con hash Argon2id, sessione in un cookie `HttpOnly`/`SameSite=Lax` (token casuale, nel database solo l'hash), richieste
+  POST solo JSON e con Origin uguale all'host (contro il CSRF), limiti ai tentativi per IP ed email, risposte che non rivelano quali email sono
+  registrate.
+- Lato client, [`src/lib/ticks.ts`](src/lib/ticks.ts) gestisce tutte le liste di spunte: con l'account ogni cambio va in una coda inviata
+  all'API, e a ogni pagina le liste locali vengono riallineate a quelle del server. Al primo accesso le spunte del browser si uniscono a
+  quelle dell'account; all'uscita vengono tolte dal browser. `src/lib/seen.ts` (film e serie) e `CuratedPage.astro` usano `ticks.ts`.
+- Le spunte si possono scaricare e importare come file JSON, anche senza account. L'informativa è in [`src/pages/privacy.astro`](src/pages/privacy.astro):
+  va aggiornata se l'API comincia a trattare altri dati.
+
+Impostazioni facoltative in `mdb-database/classifiche-config.php` sul server (fuori dal repository), un file che restituisce un array:
+`mittente` (predefinito `info@giacomorabaglia.com`), `chiave_backup` (attiva `api/index.php?a=backup&k=…`, che salva una copia coerente
+del database in `mdb-database/`, tenendo le ultime 5, da scaricare con FileZilla).
+
+In locale: `npm run api:dev` (server PHP su 127.0.0.1:8787, serve PHP 8.3 con `pdo_sqlite`) insieme a `npm run dev`, che gli inoltra
+`/api/`. Il database locale è in `mdb-database/` del progetto (escluso da git) e le email, invece di partire, finiscono in `mdb-database/mail.log`.
 
 ### Il cron (GitHub Actions)
 
@@ -158,6 +184,10 @@ Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**
 
 [`public/.htaccess`](public/.htaccess) configura Apache per la cartella `/classifiche`: pagina 404, redirect su HTTPS, barra finale sulle cartelle, compressione e cache.
 Se il sito cambia cartella, vanno aggiornati `BASE_PATH` in `scripts/dist-aruba.ts` e i percorsi in `.htaccess`.
+
+L'API degli account viaggia con il resto (`/classifiche/api/`); il database `mdb-database/classifiche.sqlite` nella radice del dominio
+non fa parte della distribuzione e non va toccato. Per una copia di sicurezza: `api/index.php?a=backup&k=…` (vedi sopra), poi scarica il file
+`backup-….sqlite` da `mdb-database/`.
 
 I file CSS e JS hanno l'hash nel nome: quelli vecchi rimasti sul server non danno fastidio, ma ogni tanto si può svuotare `/classifiche/_astro/` prima del caricamento.
 

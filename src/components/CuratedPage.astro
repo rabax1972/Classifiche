@@ -102,7 +102,7 @@ const FILTERS = [
   </header>
 
   <div data-curated={id} data-store={storeId}>
-    <!-- Visibile solo con JavaScript attivo: le spunte vivono nel localStorage del browser. -->
+    <!-- Visibile solo con JavaScript attivo: le spunte vivono nel localStorage del browser e nell'account (src/lib/ticks.ts). -->
     <div data-toolbar hidden class="sticky top-0 z-10 -mx-4 mb-4 border-b border-gray-200 bg-gray-50/95 px-4 py-3 backdrop-blur dark:border-gray-800 dark:bg-gray-950/95">
       <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
         <div role="group" aria-label="Filtra la lista" class="inline-flex rounded-lg border border-gray-300 bg-white p-0.5 text-sm font-medium dark:border-gray-700 dark:bg-gray-900">
@@ -127,7 +127,8 @@ const FILTERS = [
         </div>
       </div>
       <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-        Le spunte restano salvate solo in questo browser{siblings.length > 1 && ' e valgono per tutte le liste: un titolo presente in più liste risulta spuntato ovunque'}.
+        Le spunte restano salvate in questo browser{siblings.length > 1 && ' e valgono per tutte le liste: un titolo presente in più liste risulta spuntato ovunque'}.
+        <a href={href('account')} class="underline">Con un account</a> le ritrovi su tutti i tuoi dispositivi.
       </p>
     </div>
 
@@ -328,6 +329,8 @@ const FILTERS = [
 </style>
 
 <script>
+  import { TICK_EVENT, getTicks, setTick, type TickChange } from '../lib/ticks';
+
   // I link dei brani si aprono in una nuova scheda (attributi aggiunti qui per non ripeterli su ogni riga).
   for (const a of document.querySelectorAll<HTMLAnchorElement>('.trk a')) {
     a.target = '_blank';
@@ -348,7 +351,7 @@ const FILTERS = [
     try {
       localStorage.setItem(key, JSON.stringify(value));
     } catch {
-      // Storage non disponibile (es. navigazione privata): le spunte valgono solo per questa visita.
+      // Storage non disponibile (es. navigazione privata): il filtro scelto vale solo per questa visita.
     }
   }
 
@@ -356,7 +359,7 @@ const FILTERS = [
     const id = root.dataset.curated!;
     const ownedKey = `posseduti:${root.dataset.store!}`;
     const viewKey = `vista:${id}`;
-    const owned = new Set(read<string[]>(ownedKey, []));
+    const owned = getTicks(ownedKey);
     const items = [...root.querySelectorAll<HTMLLIElement>('li[data-key]')];
     const total = items.length;
     const empty = root.querySelector<HTMLElement>('[data-empty]')!;
@@ -379,14 +382,21 @@ const FILTERS = [
       label.hidden = false;
       box.checked = owned.has(key);
       li.toggleAttribute('data-owned', box.checked);
-      box.addEventListener('change', () => {
-        if (box.checked) owned.add(key);
-        else owned.delete(key);
-        li.toggleAttribute('data-owned', box.checked);
-        write(ownedKey, [...owned]);
-        render();
-      });
+      box.addEventListener('change', () => setTick(ownedKey, key, box.checked));
     }
+    // Spunta cambiata qui o arrivata dall'account (src/lib/ticks.ts).
+    document.addEventListener(TICK_EVENT, (ev) => {
+      const { store, key, on } = (ev as CustomEvent<TickChange>).detail;
+      if (store !== ownedKey) return;
+      if (on) owned.add(key);
+      else owned.delete(key);
+      for (const li of items) {
+        if (li.dataset.key !== key) continue;
+        li.toggleAttribute('data-owned', on);
+        li.querySelector<HTMLInputElement>('[data-owned-toggle] input')!.checked = on;
+      }
+      render();
+    });
 
     const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-filter]')];
     const setView = (view: View) => {

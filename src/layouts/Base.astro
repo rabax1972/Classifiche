@@ -7,7 +7,7 @@ import { CATEGORY_IDS, type CategoryId, type CuratedId } from '../lib/types';
 interface Props {
   title: string;
   description?: string;
-  current?: CategoryId | CuratedId | 'fonti';
+  current?: CategoryId | CuratedId | 'fonti' | 'account';
 }
 const { title, description = 'Le classifiche italiane di canzoni, libri, cinema, film e serie TV, aggiornate ogni giorno.', current } = Astro.props;
 const CURATED_NAV: { id: CuratedId; label: string }[] = [
@@ -77,10 +77,19 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
             }
           </ul>
         </nav>
+        <a
+          id="account-link"
+          href={href('account')}
+          aria-current={current === 'account' ? 'page' : undefined}
+          class="ml-auto flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300"
+        >
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg>
+          <span data-account-label>Accedi</span>
+        </a>
         <button
           id="tema"
           type="button"
-          class="ml-auto rounded-md p-2 text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+          class="rounded-md p-2 text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
           aria-label="Attiva tema scuro"
         >
           <svg class="h-5 w-5 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
@@ -113,11 +122,27 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
             <span>This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
           </p>
         </div>
-        <p class="sm:text-right">Progetto non commerciale.<br />Marchi e copertine appartengono ai rispettivi titolari.</p>
+        <p class="sm:text-right">
+          Progetto non commerciale.<br />Marchi e copertine appartengono ai rispettivi titolari.<br />
+          <a href={href('privacy')} class="font-medium text-indigo-700 underline dark:text-indigo-300">Privacy</a>
+        </p>
       </div>
     </footer>
 
     <script>
+      import { ACCOUNT_EVENT, cachedAccount, type Account } from '../lib/account';
+      import { startSync } from '../lib/ticks';
+
+      // Intestazione: "Accedi" oppure "Account" (con l'indirizzo nel suggerimento) se l'utente è collegato.
+      const accountLink = document.getElementById('account-link')!;
+      const showAccount = (account: Account | null) => {
+        accountLink.querySelector('[data-account-label]')!.textContent = account ? 'Account' : 'Accedi';
+        accountLink.title = account ? `Account: ${account.email}` : 'Accedi o crea un account per salvare le spunte';
+      };
+      showAccount(cachedAccount());
+      document.addEventListener(ACCOUNT_EVENT, (ev) => showAccount((ev as CustomEvent<Account | null>).detail));
+      startSync();
+
       const btn = document.getElementById('tema')!;
       const sync = () => {
         const dark = document.documentElement.classList.contains('dark');

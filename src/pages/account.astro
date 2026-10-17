@@ -1,0 +1,395 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+
+// Pagina statica: tutto il contenuto si costruisce lato client con l'API in public/api/index.php (src/lib/account.ts).
+// I link delle email arrivano qui: ?conferma=… (conferma dell'indirizzo) e ?password=… (nuova password).
+const card = 'rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900';
+const label = 'block text-sm font-medium text-gray-800 dark:text-gray-200';
+const input =
+  'mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-900 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/30 focus:outline-none dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100';
+const primary =
+  'rounded-md bg-indigo-700 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-800 disabled:opacity-60 dark:bg-indigo-600 dark:hover:bg-indigo-500';
+const secondary =
+  'rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-800 hover:bg-gray-100 disabled:opacity-60 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800';
+const danger =
+  'rounded-md bg-rose-700 px-4 py-2 text-sm font-semibold text-white hover:bg-rose-800 disabled:opacity-60 dark:bg-rose-600 dark:hover:bg-rose-500';
+const linkBtn = 'text-sm font-medium text-indigo-700 underline dark:text-indigo-300';
+const tab =
+  'rounded-md px-3 py-1.5 text-gray-700 hover:bg-gray-100 aria-pressed:bg-indigo-700 aria-pressed:text-white dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-pressed:bg-indigo-600';
+const summary = 'cursor-pointer font-semibold';
+---
+
+<Base title="Account" current="account" description="Accedi o crea un account per ritrovare film visti, serie viste e titoli posseduti su tutti i tuoi dispositivi.">
+  <article class="max-w-xl space-y-6">
+    <header>
+      <h1 class="text-3xl font-bold tracking-tight">Il tuo account</h1>
+      <p class="mt-3 text-gray-700 dark:text-gray-300">
+        Senza account le spunte (film visti, serie viste, album e libri che hai) restano solo nel browser che stai usando. Con un account
+        gratuito le ritrovi su tutti i tuoi dispositivi.
+      </p>
+    </header>
+
+    <noscript><p class={card}>Per usare l'account serve JavaScript.</p></noscript>
+
+    <p id="messaggio" role="status" aria-live="polite" hidden class="rounded-lg border px-4 py-3 text-sm"></p>
+
+    <!-- Utente non collegato: accesso, registrazione, recupero password. -->
+    <section data-view="ospite" hidden class={card}>
+      <div role="group" aria-label="Scegli" class="mb-5 inline-flex rounded-lg border border-gray-300 p-0.5 text-sm font-medium dark:border-gray-700">
+        <button type="button" data-tab="accesso" aria-pressed="true" class={tab}>Accedi</button>
+        <button type="button" data-tab="registrazione" aria-pressed="false" class={tab}>Crea un account</button>
+      </div>
+
+      <form data-form="accesso" class="space-y-4">
+        <h2 class="sr-only">Accedi</h2>
+        <div>
+          <label for="accesso-email" class={label}>Email</label>
+          <input id="accesso-email" name="email" type="email" autocomplete="username" required class={input} />
+        </div>
+        <div>
+          <label for="accesso-password" class={label}>Password</label>
+          <input id="accesso-password" name="password" type="password" autocomplete="current-password" required class={input} />
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <button type="submit" class={primary}>Accedi</button>
+          <button type="button" data-tab="recupero" class={linkBtn}>Password dimenticata?</button>
+        </div>
+        <p data-resend hidden>
+          <button type="button" class={secondary}>Mandami di nuovo l'email di conferma</button>
+        </p>
+      </form>
+
+      <form data-form="registrazione" hidden class="space-y-4">
+        <h2 class="sr-only">Crea un account</h2>
+        <div>
+          <label for="reg-email" class={label}>Email</label>
+          <input id="reg-email" name="email" type="email" autocomplete="email" required class={input} />
+        </div>
+        <div>
+          <label for="reg-password" class={label}>Password <span class="font-normal text-gray-600 dark:text-gray-400">(almeno 8 caratteri)</span></label>
+          <input id="reg-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="200" required class={input} />
+        </div>
+        <div>
+          <label for="reg-password2" class={label}>Ripeti la password</label>
+          <input id="reg-password2" name="password2" type="password" autocomplete="new-password" minlength="8" maxlength="200" required class={input} />
+        </div>
+        <label class="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+          <input name="privacy" type="checkbox" required class="mt-0.5 size-4 accent-indigo-700" />
+          <span>Ho letto l'<a href={href('privacy')} class="underline" target="_blank">informativa sulla privacy</a>.</span>
+        </label>
+        <button type="submit" class={primary}>Crea l'account</button>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Ti manderemo un'email per confermare l'indirizzo.</p>
+      </form>
+
+      <form data-form="recupero" hidden class="space-y-4">
+        <h2 class="text-lg font-semibold">Nuova password</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300">Scrivi l'email dell'account: ti manderemo un link per sceglierne una nuova.</p>
+        <div>
+          <label for="rec-email" class={label}>Email</label>
+          <input id="rec-email" name="email" type="email" autocomplete="email" required class={input} />
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <button type="submit" class={primary}>Mandami il link</button>
+          <button type="button" data-tab="accesso" class={linkBtn}>Torna all'accesso</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Arrivo dal link dell'email di recupero. -->
+    <section data-view="nuova-password" hidden class={card}>
+      <form data-form="nuova-password" class="space-y-4">
+        <h2 class="text-lg font-semibold">Scegli una nuova password</h2>
+        <div>
+          <label for="np-password" class={label}>Nuova password <span class="font-normal text-gray-600 dark:text-gray-400">(almeno 8 caratteri)</span></label>
+          <input id="np-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="200" required class={input} />
+        </div>
+        <div>
+          <label for="np-password2" class={label}>Ripeti la password</label>
+          <input id="np-password2" name="password2" type="password" autocomplete="new-password" minlength="8" maxlength="200" required class={input} />
+        </div>
+        <button type="submit" class={primary}>Salva la password</button>
+      </form>
+    </section>
+
+    <!-- Utente collegato. -->
+    <section data-view="utente" hidden class={`${card} space-y-5`}>
+      <div>
+        <p>Hai eseguito l'accesso come <strong data-email></strong>.</p>
+        <p data-totali class="mt-1 text-sm text-gray-700 dark:text-gray-300"></p>
+      </div>
+      <button type="button" data-esci class={secondary}>Esci</button>
+
+      <details class="border-t border-gray-200 pt-4 dark:border-gray-800">
+        <summary class={summary}>Cambia password</summary>
+        <form data-form="cambio-password" class="mt-4 space-y-4">
+          <input type="email" name="username" autocomplete="username" hidden data-email-field />
+          <div>
+            <label for="cp-attuale" class={label}>Password attuale</label>
+            <input id="cp-attuale" name="attuale" type="password" autocomplete="current-password" required class={input} />
+          </div>
+          <div>
+            <label for="cp-nuova" class={label}>Nuova password <span class="font-normal text-gray-600 dark:text-gray-400">(almeno 8 caratteri)</span></label>
+            <input id="cp-nuova" name="nuova" type="password" autocomplete="new-password" minlength="8" maxlength="200" required class={input} />
+          </div>
+          <button type="submit" class={primary}>Cambia password</button>
+        </form>
+      </details>
+
+      <details class="border-t border-gray-200 pt-4 dark:border-gray-800">
+        <summary class={summary}>Elimina l'account</summary>
+        <form data-form="elimina" class="mt-4 space-y-4">
+          <p class="text-sm text-gray-700 dark:text-gray-300">
+            L'account e tutte le spunte salvate sul server vengono cancellati subito e per sempre. In questo browser le spunte restano finché non
+            le togli tu.
+          </p>
+          <div>
+            <label for="el-password" class={label}>Password, per conferma</label>
+            <input id="el-password" name="password" type="password" autocomplete="current-password" required class={input} />
+          </div>
+          <button type="submit" class={danger}>Elimina l'account</button>
+        </form>
+      </details>
+    </section>
+
+    <!-- Copia delle spunte su file: con o senza account. -->
+    <section data-view="file" hidden class={`${card} space-y-3`}>
+      <h2 class="text-lg font-semibold">Copia delle spunte</h2>
+      <p class="text-sm text-gray-700 dark:text-gray-300">
+        Scarica le spunte in un file, o recupera quelle di un file salvato prima. Le spunte importate si aggiungono a quelle che hai già.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <button type="button" data-esporta class={secondary}>Scarica il file</button>
+        <label class={`${secondary} cursor-pointer`}>
+          Importa da file
+          <input type="file" accept="application/json,.json" data-importa class="sr-only" />
+        </label>
+      </div>
+    </section>
+  </article>
+</Base>
+
+<script>
+  import { ApiError, api, cachedAccount, setCachedAccount, type Account } from '../lib/account';
+  import { clearTicks, dropQueue, flushTicks, localTicks, mergeTicks, type TickLists } from '../lib/ticks';
+
+  const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
+  const views = [...document.querySelectorAll<HTMLElement>('[data-view]')];
+  const message = $('#messaggio');
+  const forms = (name: string) => $<HTMLFormElement>(`[data-form="${name}"]`);
+
+  function show(view: 'ospite' | 'nuova-password' | 'utente') {
+    for (const v of views) v.hidden = v.dataset.view !== view && v.dataset.view !== 'file';
+  }
+
+  function say(text: string, kind: 'ok' | 'errore' = 'ok') {
+    message.textContent = text;
+    message.hidden = false;
+    message.className =
+      'rounded-lg border px-4 py-3 text-sm ' +
+      (kind === 'ok'
+        ? 'border-emerald-300 bg-emerald-50 text-emerald-900 dark:border-emerald-800 dark:bg-emerald-950 dark:text-emerald-100'
+        : 'border-rose-300 bg-rose-50 text-rose-900 dark:border-rose-800 dark:bg-rose-950 dark:text-rose-100');
+  }
+  const quiet = () => (message.hidden = true);
+  const errorText = (err: unknown) => (err instanceof Error ? err.message : 'Qualcosa è andato storto: riprova.');
+
+  /** Esegue l'invio di un modulo con il pulsante disattivato e gli errori mostrati nel messaggio. */
+  function onSubmit(name: string, handler: (data: Record<string, string>, form: HTMLFormElement) => Promise<void>) {
+    const form = forms(name);
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const button = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      button.disabled = true;
+      quiet();
+      try {
+        await handler(Object.fromEntries(new FormData(form)) as Record<string, string>, form);
+      } catch (err) {
+        say(errorText(err), 'errore');
+      } finally {
+        button.disabled = false;
+      }
+    });
+  }
+
+  // --- Riepilogo per l'utente collegato --------------------------------------------------------------------------
+
+  function totals(lists: TickLists): string {
+    let film = 0;
+    let serie = 0;
+    let owned = 0;
+    for (const [store, keys] of Object.entries(lists)) {
+      if (store === 'visti') film += keys.length;
+      else if (store === 'serie-viste') serie += keys.length;
+      else owned += keys.length;
+    }
+    const n = (count: number, one: string, many: string) => `${count} ${count === 1 ? one : many}`;
+    return `Spunte salvate: ${n(film, 'film visto', 'film visti')}, ${n(serie, 'serie vista', 'serie viste')}, ${n(owned, 'titolo posseduto', 'titoli posseduti')}.`;
+  }
+
+  function render(account: Account | null) {
+    if (!account) {
+      show('ospite');
+      return;
+    }
+    show('utente');
+    $('[data-email]').textContent = account.email;
+    $<HTMLInputElement>('[data-email-field]').value = account.email;
+    $('[data-totali]').textContent = totals(localTicks());
+  }
+
+  /** Accesso riuscito: le spunte di questo browser si uniscono a quelle dell'account. */
+  async function signedIn(account: Account, text: string) {
+    setCachedAccount(account);
+    try {
+      await mergeTicks(localTicks());
+    } catch {
+      // Le spunte verranno riallineate alla prossima pagina.
+    }
+    render(account);
+    say(text);
+  }
+
+  // --- Schede e moduli dell'ospite -------------------------------------------------------------------------------
+
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('[role=group] [data-tab]')];
+  for (const b of document.querySelectorAll<HTMLButtonElement>('[data-tab]')) {
+    b.addEventListener('click', () => {
+      const name = b.dataset.tab!;
+      for (const f of ['accesso', 'registrazione', 'recupero']) forms(f).hidden = f !== name;
+      for (const t of tabs) t.setAttribute('aria-pressed', String(t.dataset.tab === name));
+      quiet();
+      forms(name).querySelector<HTMLInputElement>('input')?.focus();
+    });
+  }
+
+  const resend = $('[data-resend]');
+  resend.querySelector('button')!.addEventListener('click', async () => {
+    const email = $<HTMLInputElement>('#accesso-email').value;
+    try {
+      const { messaggio } = await api<{ messaggio: string }>('reinvio', { email });
+      resend.hidden = true;
+      say(messaggio);
+    } catch (err) {
+      say(errorText(err), 'errore');
+    }
+  });
+
+  onSubmit('accesso', async ({ email, password }) => {
+    resend.hidden = true;
+    try {
+      const { utente } = await api<{ utente: Account }>('accesso', { email, password });
+      forms('accesso').reset();
+      await signedIn(utente, 'Accesso eseguito: le spunte di questo browser sono state aggiunte al tuo account.');
+    } catch (err) {
+      if (err instanceof ApiError && err.code === 'non_confermato') resend.hidden = false;
+      throw err;
+    }
+  });
+
+  onSubmit('registrazione', async ({ email, password, password2 }, form) => {
+    if (password !== password2) throw new Error('Le due password non coincidono.');
+    const { messaggio } = await api<{ messaggio: string }>('registrazione', { email, password });
+    form.reset();
+    say(`${messaggio} Apri il link che trovi nell'email per attivare l'account.`);
+  });
+
+  onSubmit('recupero', async ({ email }, form) => {
+    const { messaggio } = await api<{ messaggio: string }>('recupero', { email });
+    form.reset();
+    say(messaggio);
+  });
+
+  // --- Utente collegato ------------------------------------------------------------------------------------------
+
+  $('[data-esci]').addEventListener('click', async () => {
+    await flushTicks();
+    try {
+      await api('uscita', {});
+    } catch {
+      // Anche se il server non risponde, in questo browser l'uscita vale lo stesso.
+    }
+    setCachedAccount(null);
+    clearTicks();
+    render(null);
+    say("Uscita eseguita. Le spunte restano salvate nell'account: accedi di nuovo per ritrovarle.");
+  });
+
+  onSubmit('cambio-password', async ({ attuale, nuova }, form) => {
+    const { messaggio } = await api<{ messaggio: string }>('cambio-password', { attuale, nuova });
+    form.reset();
+    form.closest('details')!.open = false;
+    say(messaggio);
+  });
+
+  onSubmit('elimina', async ({ password }) => {
+    if (!confirm("Eliminare l'account e tutte le spunte salvate sul server? Non si può annullare.")) return;
+    await api('elimina', { password });
+    setCachedAccount(null);
+    dropQueue();
+    render(null);
+    say("Account eliminato. Le spunte restano in questo browser.");
+  });
+
+  // --- File delle spunte -----------------------------------------------------------------------------------------
+
+  $('[data-esporta]').addEventListener('click', () => {
+    const day = new Date().toISOString().slice(0, 10);
+    const data = { sito: 'Classifiche Italia', versione: 1, data: day, liste: localTicks() };
+    const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
+    const a = Object.assign(document.createElement('a'), { href: url, download: `classifiche-spunte-${day}.json` });
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  const importInput = $<HTMLInputElement>('[data-importa]');
+  importInput.addEventListener('change', async () => {
+    const file = importInput.files?.[0];
+    importInput.value = '';
+    if (!file) return;
+    quiet();
+    try {
+      const data = JSON.parse(await file.text()) as { liste?: unknown };
+      if (!data.liste || typeof data.liste !== 'object' || Array.isArray(data.liste)) throw new Error('Il file non contiene spunte di Classifiche Italia.');
+      const before = Object.values(localTicks()).reduce((n, keys) => n + keys.length, 0);
+      await mergeTicks(data.liste as TickLists);
+      const after = Object.values(localTicks()).reduce((n, keys) => n + keys.length, 0);
+      render(cachedAccount());
+      say(`Importazione completata: ${after - before} spunte nuove.`);
+    } catch (err) {
+      say(err instanceof SyntaxError ? 'Il file non è un JSON valido.' : errorText(err), 'errore');
+    }
+  });
+
+  // --- Avvio: link delle email o stato dell'account --------------------------------------------------------------
+
+  const params = new URLSearchParams(location.search);
+  const confirmToken = params.get('conferma');
+  const passwordToken = params.get('password');
+  // Il token non deve restare nella barra degli indirizzi né nella cronologia.
+  if (confirmToken || passwordToken) history.replaceState(null, '', location.pathname);
+
+  if (confirmToken) {
+    show('ospite');
+    api<{ utente: Account }>('conferma', { token: confirmToken })
+      .then(({ utente }) => signedIn(utente, 'Indirizzo confermato: da ora le tue spunte sono salvate nell\'account.'))
+      .catch((err) => say(errorText(err), 'errore'));
+  } else if (passwordToken) {
+    show('nuova-password');
+    onSubmit('nuova-password', async ({ password, password2 }) => {
+      if (password !== password2) throw new Error('Le due password non coincidono.');
+      const { utente } = await api<{ utente: Account }>('nuova-password', { token: passwordToken, password });
+      await signedIn(utente, "Password salvata: hai eseguito l'accesso al tuo account.");
+    });
+  } else {
+    render(cachedAccount());
+    api<{ utente: Account | null }>('stato')
+      .then(({ utente }) => {
+        setCachedAccount(utente);
+        render(utente);
+      })
+      .catch(() => {
+        // Server non raggiungibile: resta quello che sappiamo dal browser.
+      });
+  }
+</script>

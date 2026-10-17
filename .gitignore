@@ -7,3 +7,5 @@ dist/
 !.env.example
 *.log
 aruba/
+# Database SQLite degli account in locale (npm run api:dev)
+mdb-database/

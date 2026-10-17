@@ -54,6 +54,16 @@ Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Lo schema
 Eccezione: gli episodi delle serie (`scripts/episode-info.ts`, un file per serie in `data/cache/episodes/`) sono troppi per la pagina;
 `src/pages/serie-tv/episodi/[id]/[stagione].json.ts` li pubblica come JSON statici che `SeriesDialog` scarica alla scelta della stagione.
 
+### Account e spunte
+
+Unica parte con un backend: `public/api/index.php` (+ `_inc/app.php`), PHP 8.3 su hosting Windows/IIS di Aruba (niente `pdo_sqlsrv`, quindi
+SQLite in `mdb-database/classifiche.sqlite` nella radice del dominio; `.htaccess` lì non vale). Registrazione con conferma email, sessioni
+in un cookie con token il cui hash sta nel DB, limiti ai tentativi, schema versionato con `PRAGMA user_version` in `migrate()`.
+Lato client tutte le spunte passano da `src/lib/ticks.ts` (localStorage + coda verso l'API + riallineamento a ogni pagina, evento
+`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `serie-viste`, `posseduti:…`) sono definite in due
+posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.php`. Pagine `/account/` e `/privacy/`.
+In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
+
 ## Vincoli da rispettare
 
 - Uso solo non commerciale (termini TMDB e Last.fm).
@@ -65,3 +75,4 @@ Eccezione: gli episodi delle serie (`scripts/episode-info.ts`, un file per serie
 - Le richieste HTTP passano da `fetchJson`/`fetchText` di `scripts/lib/http.ts` (User-Agent con contatto, retry, limiti per host
   in `HOST_INTERVAL`, cache su disco opzionale con `cacheTtlMs`).
 - Le pagine nuove o modificate che citano fonti vanno riportate anche in `src/pages/fonti.astro`.
+- Se l'API degli account comincia a trattare dati personali nuovi, va aggiornata l'informativa in `src/pages/privacy.astro`.
