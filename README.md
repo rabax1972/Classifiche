@@ -59,7 +59,7 @@ npm run dev                # http://localhost:4321
 | `npm run info:canzoni` | Completa le schede di brani e artisti (`-- --all` senza limite di richieste) |
 | `npm run info:libri` | Completa le schede di libri e autori e le edizioni gratuite dei libri di pubblico dominio (`-- --all` senza limite) |
 | `npm run info:film` | Completa le schede di film e registi di Cinema e Film (`-- --all` senza limite; richiede la chiave TMDB) |
-| `npm run info:serie` | Completa le schede di serie e creatori di Serie TV (`-- --all` senza limite; richiede la chiave TMDB) |
+| `npm run info:serie` | Completa le schede di serie e creatori di Serie TV e gli episodi di ogni stagione (`-- --all` senza limite; richiede la chiave TMDB) |
 | `npm run covers:album` | Completa le copertine mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run tracks:album` | Completa le tracklist mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run covers:libri` | Completa le copertine mancanti delle liste di libri (`-- --force` per rifarle tutte) |
@@ -118,13 +118,15 @@ Cliccando su un titolo o su un nome si apre una scheda. Le schede si possono lin
 | Canzoni | Brano: album, uscita, genere, durata (Apple Music), introduzione di Wikipedia; per il testo, link a Genius | Artista |
 | Libri e liste di libri | Libro: genere, uscita, presentazione dell'editore (Apple Books) o introduzione di Wikipedia; link per scaricare i libri di pubblico dominio (Liber Liber, Wikisource) | Autore |
 | Cinema e Film | Film: trama, generi, durata, uscita in Italia, voto, interpreti, trailer (TMDB); dove vederlo in Italia (JustWatch via TMDB) | Regista, con i film diretti (TMDB) |
-| Serie TV | Serie: trama, generi, stagioni ed episodi, anni, stato, reti, prossimo episodio, voto, interpreti, trailer (TMDB); dove vederla in Italia (JustWatch via TMDB) | Creatore, con le serie create (TMDB) |
+| Serie TV | Serie: trama, generi, stagioni ed episodi, anni, stato, reti, prossimo episodio, voto, interpreti, trailer (TMDB); dove vederla in Italia (JustWatch via TMDB). Per ogni stagione, la scheda di ogni episodio: data, durata, voto, trama, fotogramma, regia e sceneggiatura (TMDB) | Creatore, con le serie create (TMDB) |
 
 Le schede delle persone usano l'introduzione della voce di Wikipedia (in italiano o in inglese, CC BY-SA 4.0) e, se c'è, una foto con licenza libera da Wikimedia Commons, con autore e licenza indicati. Per registi e creatori senza voce o senza foto si usano la biografia e la foto di TMDB.
 
 Con gli stessi dati, le classifiche Cinema e Film si possono filtrare per servizi in abbonamento (con i loghi; il filtro compare solo se almeno 5 film ne hanno uno) e generi, anche più di uno alla volta (basta che il film ne abbia uno), e per durata e voto TMDB minimo. Serie TV ha gli stessi filtri, con numero di stagioni e stato (in corso o conclusa) al posto della durata. Il filtro è lato client: senza JavaScript la tabella resta completa.
 
 Come le spunte "Ce l'ho" delle liste curate, ogni film di Cinema e Film si può segnare come "Visto", dalla classifica o dalla scheda del film (`src/lib/seen.ts`): la spunta resta salvata solo nel browser (localStorage, chiave `entryKey`), vale per entrambe le classifiche e per tutti i periodi, e un filtro mostra solo i film da vedere o quelli già visti. Allo stesso modo ogni serie si può segnare come "Vista", con una lista separata: la chiave è l'ID TMDB, così la spunta vale per tutte le stagioni della Top 10 Netflix e per le classifiche TMDB.
+
+Gli episodi delle serie stanno in `data/cache/episodes/{id TMDB}.json` (`scripts/episode-info.ts`): troppi per incorporarli nella pagina, il sito li pubblica come un file JSON per stagione (`/serie-tv/episodi/{id}/{stagione}.json`), scaricato dalla scheda quando si sceglie la stagione. L'ultima stagione delle serie in corso si rinnova ogni settimana.
 
 I dati sono raccolti dagli script `scripts/*-info.ts` in `data/cache/*-info.json`. Ogni run completa un numero limitato di schede. Le schede con dati TMDB scadono dopo 150 giorni e vengono rifatte.
 

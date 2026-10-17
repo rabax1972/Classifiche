@@ -31,11 +31,18 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
     </button>
 
     <div class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-6 dark:sm:bg-gray-800">
-      <img id="series-poster" alt="" referrerpolicy="no-referrer" class="mx-auto h-auto w-36 rounded-md shadow-lg sm:sticky sm:top-6 sm:w-full" />
+      <img id="series-poster" alt="" referrerpolicy="no-referrer" class="mx-auto h-auto w-36 rounded-md shadow-lg sm:w-full" />
       <div id="series-poster-empty" class="mx-auto flex aspect-[2/3] w-36 items-center justify-center rounded-md bg-gray-100 text-4xl font-bold text-gray-400 sm:w-full dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+
+      <!-- Stagioni: il clic apre gli episodi nella colonna di destra. -->
+      <nav id="series-seasons-box" aria-labelledby="series-seasons-heading" class="mt-5">
+        <h3 id="series-seasons-heading" class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Stagioni</h3>
+        <ul id="series-seasons" class="mt-2 flex flex-wrap gap-1.5 sm:flex-col sm:gap-0.5"></ul>
+      </nav>
     </div>
 
     <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <div id="series-main" class="space-y-4">
       <div class="pr-8">
         <h2 id="series-title" class="text-2xl leading-tight font-bold break-words"></h2>
         <p id="series-original" class="mt-0.5 text-sm text-gray-600 italic dark:text-gray-400"></p>
@@ -77,6 +84,21 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
         <a id="series-tmdb" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Su TMDB</a>
         <a id="series-source" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Top 10 Netflix</a>
       </div>
+      </div>
+
+      <div id="series-episodes-view" class="space-y-3" hidden>
+        <button id="series-back" type="button" class="inline-flex cursor-pointer items-center gap-1 rounded-lg py-1 pr-2 text-sm font-medium text-indigo-700 hover:underline dark:text-indigo-300">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+          Scheda della serie
+        </button>
+        <div class="pr-8">
+          <p id="series-ep-show" class="text-sm text-gray-600 dark:text-gray-400"></p>
+          <h3 id="series-ep-title" tabindex="-1" class="text-xl leading-tight font-bold outline-none"></h3>
+          <p id="series-ep-meta" class="mt-0.5 text-sm text-gray-600 dark:text-gray-400"></p>
+        </div>
+        <!-- Episodi scaricati alla scelta della stagione (src/pages/serie-tv/episodi/[id]/[stagione].json.ts). -->
+        <div id="series-episodes" aria-live="polite"></div>
+      </div>
 
       <p class="text-xs text-gray-500 dark:text-gray-400">
         Dati da <a class="underline" href="https://www.themoviedb.org/" rel="noopener" target="_blank">TMDB</a>.
@@ -89,7 +111,7 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
 <script>
   import { providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
   import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
-  import { SERIES_STATUS, type SeriesCard } from '../lib/types';
+  import { SERIES_STATUS, type EpisodeInfo, type SeasonEpisodes, type SeasonSummary, type SeriesCard } from '../lib/types';
 
   const dialog = document.querySelector<HTMLDialogElement>('#series-dialog');
   const dataEl = document.querySelector('#series-data');
@@ -105,6 +127,147 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
       el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
     };
     const plural = (n: number, one: string, many: string) => `${numFmt.format(n)} ${n === 1 ? one : many}`;
+    const shortFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+    const today = new Date().toISOString().slice(0, 10);
+    const el = <K extends keyof HTMLElementTagNameMap>(tag: K, className = '', text = '') => {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text) node.textContent = text;
+      return node;
+    };
+
+    // ---- Stagioni ed episodi: un file JSON per stagione, scaricato una volta sola.
+    const BASE = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+    const seasonFiles = new Map<string, Promise<SeasonEpisodes | null>>();
+    const loadSeason = (id: number, n: number) => {
+      const url = `${BASE}serie-tv/episodi/${id}/${n}.json`;
+      if (!seasonFiles.has(url))
+        seasonFiles.set(
+          url,
+          fetch(url)
+            .then((r) => (r.ok ? (r.json() as Promise<SeasonEpisodes>) : null))
+            .catch(() => null),
+        );
+      return seasonFiles.get(url)!;
+    };
+
+    /** Scheda di un episodio: riga con numero, titolo e data; aperta, fotogramma, dati, trama, regia e sceneggiatura. */
+    const episodeCard = (e: EpisodeInfo, seasonN: number) => {
+      const details = el('details', 'group rounded-lg border border-gray-200 open:bg-gray-50 dark:border-gray-800 dark:open:bg-gray-800/40');
+      const summary = el('summary', 'flex cursor-pointer list-none items-baseline gap-2 px-3 py-2 text-sm [&::-webkit-details-marker]:hidden');
+      const upcoming = !e.date || e.date > today;
+      summary.append(
+        el('span', 'w-12 shrink-0 text-xs text-gray-500 tabular-nums dark:text-gray-400', seasonN ? `${seasonN}×${String(e.n).padStart(2, '0')}` : `Sp. ${e.n}`),
+        el('span', 'min-w-0 flex-1 font-medium break-words', e.title),
+        el('span', `shrink-0 text-xs ${upcoming ? 'font-medium text-indigo-700 dark:text-indigo-300' : 'text-gray-500 dark:text-gray-400'}`, e.date ? (upcoming ? `in arrivo, ${shortFmt.format(new Date(`${e.date}T00:00:00Z`))}` : shortFmt.format(new Date(`${e.date}T00:00:00Z`))) : 'data da annunciare'),
+      );
+      const chevron = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      chevron.setAttribute('viewBox', '0 0 24 24');
+      chevron.setAttribute('fill', 'none');
+      chevron.setAttribute('stroke', 'currentColor');
+      chevron.setAttribute('stroke-width', '2');
+      chevron.setAttribute('aria-hidden', 'true');
+      chevron.setAttribute('class', 'h-4 w-4 shrink-0 self-center text-gray-400 transition-transform group-open:rotate-180');
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', 'm6 9 6 6 6-6');
+      chevron.append(path);
+      summary.append(chevron);
+      details.append(summary);
+
+      // Il contenuto si costruisce alla prima apertura (le stagioni lunghe hanno decine di episodi).
+      details.addEventListener(
+        'toggle',
+        () => {
+          const body = el('div', 'flex flex-col gap-3 px-3 pb-3 sm:flex-row');
+          if (e.still) {
+            const img = el('img', 'aspect-video w-full rounded-md bg-gray-200 object-cover sm:w-48 sm:shrink-0 sm:self-start dark:bg-gray-700');
+            img.src = e.still;
+            img.alt = `Fotogramma di ${e.title}`;
+            img.loading = 'lazy';
+            img.referrerPolicy = 'no-referrer';
+            body.append(img);
+          }
+          const text = el('div', 'min-w-0 flex-1 space-y-1.5 text-sm');
+          const meta = [
+            e.date ? dateFmt.format(new Date(`${e.date}T00:00:00Z`)) : null,
+            e.runtime ? `${e.runtime} min` : null,
+            e.vote && e.votes >= 5 ? `Voto TMDB ${e.vote.toLocaleString('it-IT')}/10 (${numFmt.format(e.votes)} voti)` : null,
+          ].filter(Boolean);
+          if (meta.length) text.append(el('p', 'text-xs text-gray-600 dark:text-gray-400', meta.join(' · ')));
+          const plot = el('div', 'space-y-1.5 leading-relaxed text-gray-800 dark:text-gray-200');
+          if (e.overview) {
+            setParagraphs(plot, e.overview);
+            if (e.overviewLang === 'en') plot.lang = 'en';
+          } else setParagraphs(plot, 'Trama non disponibile.', 'text-gray-600 dark:text-gray-400');
+          text.append(plot);
+          for (const [label, list] of [
+            ['Regia', e.directors],
+            ['Sceneggiatura', e.writers],
+          ] as const)
+            if (list.length) {
+              const p = el('p', 'text-xs text-gray-600 dark:text-gray-400');
+              p.append(el('span', 'font-medium', `${label}: `), list.join(', '));
+              text.append(p);
+            }
+          body.append(text);
+          details.append(body);
+        },
+        { once: true },
+      );
+      const li = el('li');
+      li.append(details);
+      return li;
+    };
+
+    const mainView = $('series-main');
+    const episodesView = $('series-episodes-view');
+    const seasonsList = $('series-seasons');
+    const episodesBox = $('series-episodes');
+    /** Serie e stagione richieste per ultime: una risposta arrivata in ritardo non sovrascrive quella giusta. */
+    let wanted = '';
+    const markSeason = (n: number | null) => {
+      for (const b of seasonsList.querySelectorAll<HTMLButtonElement>('button')) {
+        if (b.dataset.season === String(n)) b.setAttribute('aria-current', 'true');
+        else b.removeAttribute('aria-current');
+      }
+    };
+    const showMain = () => {
+      wanted = '';
+      markSeason(null);
+      mainView.hidden = false;
+      episodesView.hidden = true;
+    };
+    $('series-back').addEventListener('click', () => {
+      const selected = seasonsList.querySelector<HTMLButtonElement>('[aria-current]');
+      showMain();
+      dialog.querySelector('[data-scroll]')?.scrollTo(0, 0);
+      selected?.focus();
+    });
+
+    const showSeason = async (id: number, title: string, season: SeasonSummary) => {
+      const token = (wanted = `${id}/${season.n}`);
+      markSeason(season.n);
+      mainView.hidden = true;
+      episodesView.hidden = false;
+      $('series-ep-show').textContent = title;
+      $('series-ep-title').textContent = season.name;
+      $('series-ep-meta').textContent = [season.date ? day(season.date) : null, plural(season.episodes, 'episodio', 'episodi')].filter(Boolean).join(' · ');
+      // In alto la stagione scelta (su schermi stretti la colonna di destra sta sotto l'elenco delle stagioni).
+      episodesView.scrollIntoView({ block: 'start' });
+      $('series-ep-title').focus({ preventScroll: true });
+
+      episodesBox.replaceChildren(el('p', 'text-sm text-gray-600 dark:text-gray-400', 'Caricamento degli episodi…'));
+      const data = await loadSeason(id, season.n);
+      if (token !== wanted) return;
+      if (!data?.episodes.length) {
+        episodesBox.replaceChildren(el('p', 'text-sm text-gray-600 dark:text-gray-400', 'Gli episodi di questa stagione non sono ancora disponibili: saranno completati nei prossimi aggiornamenti.'));
+        return;
+      }
+      const list = el('ol', 'space-y-1.5');
+      list.setAttribute('aria-label', `Episodi: ${season.name}`);
+      list.append(...data.episodes.map((e) => episodeCard(e, season.n)));
+      episodesBox.replaceChildren(list);
+    };
 
     // Serie mostrata nella modale, per la spunta "L'ho vista" (chiave comune a tutte le stagioni).
     let current: string | null = null;
@@ -119,6 +282,7 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
       const s = series[key];
       if (!s) return false;
       const info = s.info;
+      showMain();
       current = s.seenKey;
       seenBox.checked = seenKeys('serie').has(s.seenKey);
 
@@ -163,6 +327,28 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
       ].filter(Boolean);
       $('series-run').textContent = run.join(' · ');
       $('series-run').hidden = !run.length;
+
+      const seasons = info?.seasonList ?? [];
+      $('series-seasons-box').hidden = !seasons.length;
+      seasonsList.replaceChildren(
+        ...seasons.map((x) => {
+          const li = el('li');
+          const b = el(
+            'button',
+            'group flex cursor-pointer items-baseline justify-between gap-2 rounded-full bg-gray-100 px-3 py-1 text-left text-sm hover:bg-indigo-50 hover:text-indigo-700 aria-[current=true]:bg-indigo-600 aria-[current=true]:text-white sm:w-full sm:rounded-lg sm:bg-transparent sm:py-1.5 dark:bg-gray-800 dark:hover:bg-indigo-950 dark:hover:text-indigo-300 sm:dark:bg-transparent dark:aria-[current=true]:bg-indigo-500 dark:aria-[current=true]:text-white',
+          );
+          b.type = 'button';
+          b.dataset.season = String(x.n);
+          b.append(
+            el('span', 'font-medium', x.name),
+            el('span', 'hidden shrink-0 text-xs text-gray-500 tabular-nums group-aria-[current=true]:text-indigo-100 sm:inline dark:text-gray-400', [x.date?.slice(0, 4), `${x.episodes} ep.`].filter(Boolean).join(' · ')),
+          );
+          b.setAttribute('aria-label', `${x.name}: ${plural(x.episodes, 'episodio', 'episodi')}${x.date ? `, dal ${x.date.slice(0, 4)}` : ''}`);
+          b.addEventListener('click', () => info && showSeason(info.tmdbId, s.title, x));
+          li.append(b);
+          return li;
+        }),
+      );
 
       $('series-tagline').textContent = info?.tagline ?? '';
       $('series-tagline').hidden = !info?.tagline;

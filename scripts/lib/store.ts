@@ -26,7 +26,7 @@ const p = {
   cache: (name: string) => path.join(DATA_DIR, 'cache', `${name}.json`),
 };
 
-async function readJson<T>(file: string): Promise<T | null> {
+export async function readJson<T>(file: string): Promise<T | null> {
   try {
     return JSON.parse(await readFile(file, 'utf8')) as T;
   } catch (e) {
@@ -35,7 +35,7 @@ async function readJson<T>(file: string): Promise<T | null> {
   }
 }
 
-async function writeJson(file: string, data: unknown, pretty = false) {
+export async function writeJson(file: string, data: unknown, pretty = false) {
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, JSON.stringify(data, null, pretty ? 2 : undefined) + '\n');
 }

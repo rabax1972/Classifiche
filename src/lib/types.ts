@@ -368,6 +368,8 @@ export interface SeriesInfo {
   status: string | null;
   seasons: number | null;
   episodes: number | null;
+  /** Stagioni (gli speciali, numero 0, in fondo), con gli episodi in data/cache/episodes/{tmdbId}.json. */
+  seasonList: SeasonSummary[];
   /** Prossimo episodio annunciato. */
   nextEpisode: { date: string; season: number; episode: number } | null;
   /** Reti o piattaforme che la producono. */
@@ -384,6 +386,42 @@ export interface SeriesInfo {
   trailer: string | null;
   /** Dove vederla in Italia (dati JustWatch via TMDB). */
   watch: MovieInfo['watch'];
+}
+
+export interface SeasonSummary {
+  /** Numero della stagione su TMDB (0 = speciali). */
+  n: number;
+  name: string;
+  /** Prima messa in onda (YYYY-MM-DD). */
+  date: string | null;
+  episodes: number;
+}
+
+/** Un episodio, per le schede nella modale della serie (dati TMDB). */
+export interface EpisodeInfo {
+  n: number;
+  title: string;
+  date: string | null;
+  runtime: number | null;
+  /** Trama in italiano o, se manca, in inglese. */
+  overview: string | null;
+  overviewLang: 'it' | 'en' | null;
+  /** Fotogramma (w300). */
+  still: string | null;
+  vote: number | null;
+  votes: number;
+  directors: string[];
+  writers: string[];
+}
+
+/** Gli episodi di una stagione: file statico /serie-tv/episodi/{tmdbId}/{stagione}.json, letto dalla modale. */
+export interface SeasonEpisodes {
+  episodes: EpisodeInfo[];
+}
+
+/** File data/cache/episodes/{tmdbId}.json (scripts/episode-info.ts): stagioni con la data di raccolta, per la scadenza TMDB. */
+export interface EpisodeCacheFile {
+  seasons: Record<string, SeasonEpisodes & { fetchedAt: string }>;
 }
 
 /** Stato delle serie su TMDB, in italiano. */

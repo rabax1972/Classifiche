@@ -51,6 +51,9 @@ Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Lo schema
   `textContent`; `src/lib/dialogs.ts` gestisce apertura, link diretto nell'hash (`#libro=…`, `#regista=…`, `#serie=…`) e ritorno del focus;
 - in `ChartTable.astro` i titoli e i nomi diventano pulsanti con classe trigger e attributo `data-*` della modale.
 
+Eccezione: gli episodi delle serie (`scripts/episode-info.ts`, un file per serie in `data/cache/episodes/`) sono troppi per la pagina;
+`src/pages/serie-tv/episodi/[id]/[stagione].json.ts` li pubblica come JSON statici che `SeriesDialog` scarica alla scelta della stagione.
+
 ## Vincoli da rispettare
 
 - Uso solo non commerciale (termini TMDB e Last.fm).

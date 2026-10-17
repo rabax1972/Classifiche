@@ -16,6 +16,20 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 826,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-07-11",
+          "episodes": 826
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2022-03-20",
+          "episodes": 3
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-18",
         "season": 1,
@@ -108,7 +122,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:06.413Z"
+    "fetchedAt": "2026-10-17T14:26:28.204Z"
   },
   "|brijendrapal singh 1998": {
     "value": {
@@ -129,6 +143,20 @@
       "status": "Returning Series",
       "seasons": 2,
       "episodes": 1651,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1998-01-21",
+          "episodes": 1547
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2024-12-21",
+          "episodes": 104
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix",
@@ -191,7 +219,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:08.078Z"
+    "fetchedAt": "2026-10-17T14:26:28.288Z"
   },
   "american dad|matt weitzman": {
     "value": {
@@ -210,6 +238,146 @@
       "status": "Returning Series",
       "seasons": 22,
       "episodes": 401,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-02-06",
+          "episodes": 7
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-09-11",
+          "episodes": 16
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2006-09-10",
+          "episodes": 19
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-09-30",
+          "episodes": 16
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-09-28",
+          "episodes": 20
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2009-09-27",
+          "episodes": 18
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2010-10-03",
+          "episodes": 19
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-09-25",
+          "episodes": 18
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2012-09-30",
+          "episodes": 19
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2013-09-29",
+          "episodes": 20
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2014-09-14",
+          "episodes": 3
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2014-10-20",
+          "episodes": 15
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2016-01-25",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2016-11-07",
+          "episodes": 22
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2017-12-25",
+          "episodes": 22
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2019-04-14",
+          "episodes": 20
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2020-04-12",
+          "episodes": 24
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2021-04-18",
+          "episodes": 22
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2022-01-23",
+          "episodes": 22
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2023-03-26",
+          "episodes": 22
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2024-10-27",
+          "episodes": 22
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2026-02-20",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 9
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "FOX",
@@ -279,7 +447,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:11.323Z"
+    "fetchedAt": "2026-10-17T14:26:28.389Z"
   },
   "american horror story|ryan murphy": {
     "value": {
@@ -299,6 +467,92 @@
       "status": "Returning Series",
       "seasons": 13,
       "episodes": 145,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Murder House",
+          "date": "2011-10-05",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Asylum",
+          "date": "2012-10-17",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Coven",
+          "date": "2013-10-09",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Freak Show",
+          "date": "2014-10-08",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Hotel",
+          "date": "2015-10-07",
+          "episodes": 12
+        },
+        {
+          "n": 6,
+          "name": "Roanoke",
+          "date": "2016-09-14",
+          "episodes": 10
+        },
+        {
+          "n": 7,
+          "name": "Cult",
+          "date": "2017-09-05",
+          "episodes": 11
+        },
+        {
+          "n": 8,
+          "name": "Apocalypse",
+          "date": "2018-09-12",
+          "episodes": 10
+        },
+        {
+          "n": 9,
+          "name": "1984",
+          "date": "2019-09-18",
+          "episodes": 9
+        },
+        {
+          "n": 10,
+          "name": "Double Feature",
+          "date": "2021-08-25",
+          "episodes": 10
+        },
+        {
+          "n": 11,
+          "name": "NYC",
+          "date": "2022-10-19",
+          "episodes": 10
+        },
+        {
+          "n": 12,
+          "name": "Delicate",
+          "date": "2023-09-20",
+          "episodes": 9
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2026-09-24",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2012-09-25",
+          "episodes": 24
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-22",
         "season": 13,
@@ -367,7 +621,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:11.516Z"
+    "fetchedAt": "2026-10-17T14:26:28.397Z"
   },
   "bleach|2004": {
     "value": {
@@ -387,6 +641,26 @@
       "status": "Returning Series",
       "seasons": 2,
       "episodes": 416,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Bleach",
+          "date": "2004-10-05",
+          "episodes": 366
+        },
+        {
+          "n": 2,
+          "name": "Thousand Year Blood War",
+          "date": "2022-10-11",
+          "episodes": 50
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2004-12-18",
+          "episodes": 4
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-20",
         "season": 2,
@@ -457,7 +731,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:15.056Z"
+    "fetchedAt": "2026-10-17T14:26:28.487Z"
   },
   "bones|hart hanson 2005": {
     "value": {
@@ -476,6 +750,86 @@
       "status": "Ended",
       "seasons": 12,
       "episodes": 246,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-09-13",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2006-08-30",
+          "episodes": 21
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2007-09-25",
+          "episodes": 15
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2008-09-03",
+          "episodes": 26
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2009-09-17",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2010-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2011-11-03",
+          "episodes": 13
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2012-09-17",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2013-09-16",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2014-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2015-10-01",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2017-01-03",
+          "episodes": 12
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 47
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "FOX"
@@ -540,7 +894,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:11.839Z"
+    "fetchedAt": "2026-10-17T14:26:28.412Z"
   },
   "breaking bad|vince gilligan 2008": {
     "value": {
@@ -559,6 +913,44 @@
       "status": "Ended",
       "seasons": 5,
       "episodes": 62,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2008-01-20",
+          "episodes": 7
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2009-03-08",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2010-03-21",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2011-07-17",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2012-07-15",
+          "episodes": 16
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2009-02-17",
+          "episodes": 9
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "AMC"
@@ -624,7 +1016,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:09.937Z"
+    "fetchedAt": "2026-10-17T14:26:28.337Z"
   },
   "carrie|mike flanagan 2026": {
     "value": {
@@ -644,6 +1036,14 @@
       "status": "Ended",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-07",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Prime Video"
@@ -708,7 +1108,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:07.719Z"
+    "fetchedAt": "2026-10-17T14:26:28.283Z"
   },
   "castle detective tra le righe|andrew w marlowe 2009": {
     "value": {
@@ -727,6 +1127,56 @@
       "status": "Canceled",
       "seasons": 8,
       "episodes": 173,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-03-09",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2009-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2010-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2011-09-19",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2012-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2013-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2014-09-29",
+          "episodes": 23
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2015-09-21",
+          "episodes": 22
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "ABC"
@@ -787,7 +1237,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:18.544Z"
+    "fetchedAt": "2026-10-17T14:26:28.563Z"
   },
   "chicago fire|derek haas": {
     "value": {
@@ -805,6 +1255,104 @@
       "status": "Returning Series",
       "seasons": 15,
       "episodes": 300,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2012-10-10",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2013-09-24",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2014-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2015-10-13",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2016-10-11",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2017-09-28",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2018-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2019-09-25",
+          "episodes": 20
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2020-11-11",
+          "episodes": 16
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2021-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2022-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2024-01-17",
+          "episodes": 13
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2024-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2025-10-01",
+          "episodes": 21
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2026-10-07",
+          "episodes": 5
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2014-02-11",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-21",
         "season": 15,
@@ -890,7 +1438,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:11.079Z"
+    "fetchedAt": "2026-10-17T14:26:28.384Z"
   },
   "chicago p d|dick wolf": {
     "value": {
@@ -909,6 +1457,92 @@
       "status": "Returning Series",
       "seasons": 14,
       "episodes": 268,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2014-01-08",
+          "episodes": 15
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2015-09-30",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2016-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2017-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2018-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2019-09-25",
+          "episodes": 20
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2020-11-11",
+          "episodes": 16
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2021-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2022-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2024-01-17",
+          "episodes": 13
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2024-09-24",
+          "episodes": 22
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2025-10-01",
+          "episodes": 21
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2026-10-07",
+          "episodes": 4
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-21",
         "season": 14,
@@ -998,7 +1632,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:13.964Z"
+    "fetchedAt": "2026-10-17T14:26:28.465Z"
   },
   "crew girl|stagione 1": {
     "value": {
@@ -1016,6 +1650,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-10",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -1076,7 +1718,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:18.053Z"
+    "fetchedAt": "2026-10-17T14:26:28.549Z"
   },
   "criminal minds|jeff davis 2005": {
     "value": {
@@ -1096,6 +1738,128 @@
       "status": "Returning Series",
       "seasons": 19,
       "episodes": 364,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2006-09-20",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2007-09-26",
+          "episodes": 20
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2008-09-24",
+          "episodes": 26
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2009-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2010-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2011-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2012-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2013-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2014-10-01",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2015-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2016-09-28",
+          "episodes": 22
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2017-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2018-10-03",
+          "episodes": 15
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2020-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2022-11-24",
+          "episodes": 10
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2024-06-06",
+          "episodes": 10
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2025-05-08",
+          "episodes": 10
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2026-05-28",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 1
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "CBS",
@@ -1169,7 +1933,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:09.779Z"
+    "fetchedAt": "2026-10-17T14:26:28.334Z"
   },
   "csi scena del crimine|ann donahue": {
     "value": {
@@ -1189,6 +1953,104 @@
       "status": "Ended",
       "seasons": 15,
       "episodes": 335,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2000-10-06",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2001-09-27",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2002-09-25",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2003-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2004-09-23",
+          "episodes": 25
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2005-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2006-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2007-09-27",
+          "episodes": 17
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2008-10-09",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2009-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2010-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2011-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2012-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2013-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2014-09-28",
+          "episodes": 18
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2015-09-27",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "CBS"
@@ -1261,7 +2123,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:10.308Z"
+    "fetchedAt": "2026-10-17T14:26:28.351Z"
   },
   "dr house medical division|david shore 2004": {
     "value": {
@@ -1279,6 +2141,62 @@
       "status": "Ended",
       "seasons": 8,
       "episodes": 176,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2004-11-16",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-09-13",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2006-09-05",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-09-25",
+          "episodes": 16
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-09-16",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2009-09-21",
+          "episodes": 21
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2010-09-20",
+          "episodes": 23
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-10-03",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2011-02-10",
+          "episodes": 46
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "FOX"
@@ -1360,7 +2278,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:12.279Z"
+    "fetchedAt": "2026-10-17T14:26:28.419Z"
   },
   "due uomini e mezzo|lee aronsohn": {
     "value": {
@@ -1378,6 +2296,86 @@
       "status": "Ended",
       "seasons": 12,
       "episodes": 262,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2003-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2004-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2005-09-19",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2006-09-18",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2007-09-24",
+          "episodes": 19
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2008-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2009-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2010-09-20",
+          "episodes": 16
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2011-09-19",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2012-09-27",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2013-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2014-10-30",
+          "episodes": 16
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 41
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "CBS"
@@ -1459,7 +2457,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.439Z"
+    "fetchedAt": "2026-10-17T14:26:28.522Z"
   },
   "east of eden|miniserie": {
     "value": {
@@ -1477,6 +2475,14 @@
       "status": "Ended",
       "seasons": 1,
       "episodes": 7,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Miniserie",
+          "date": "2026-10-01",
+          "episodes": 7
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -1537,7 +2543,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.468Z"
+    "fetchedAt": "2026-10-17T14:26:28.540Z"
   },
   "fbi|dick wolf": {
     "value": {
@@ -1557,6 +2563,62 @@
       "status": "Returning Series",
       "seasons": 9,
       "episodes": 159,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-09-24",
+          "episodes": 19
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2020-11-17",
+          "episodes": 15
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2021-09-21",
+          "episodes": 21
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2022-09-20",
+          "episodes": 23
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2024-02-13",
+          "episodes": 13
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2024-10-15",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2025-10-13",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2026-10-05",
+          "episodes": 4
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-19",
         "season": 9,
@@ -1629,7 +2691,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:18.833Z"
+    "fetchedAt": "2026-10-17T14:26:28.572Z"
   },
   "good mythical morning|rhett mclaughlin": {
     "value": {
@@ -1647,6 +2709,200 @@
       "status": "Returning Series",
       "seasons": 31,
       "episodes": 3485,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2012-01-09",
+          "episodes": 129
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-08-06",
+          "episodes": 85
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-01-14",
+          "episodes": 60
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2013-09-03",
+          "episodes": 79
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2014-01-08",
+          "episodes": 124
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2014-07-14",
+          "episodes": 115
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2015-01-12",
+          "episodes": 135
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2015-08-10",
+          "episodes": 100
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2016-01-11",
+          "episodes": 115
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2016-08-01",
+          "episodes": 105
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2017-01-16",
+          "episodes": 109
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2017-08-21",
+          "episodes": 191
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2018-01-08",
+          "episodes": 214
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2018-08-20",
+          "episodes": 95
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2019-01-07",
+          "episodes": 125
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2019-08-26",
+          "episodes": 90
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2020-01-13",
+          "episodes": 144
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2020-09-14",
+          "episodes": 74
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2021-01-11",
+          "episodes": 139
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2021-09-14",
+          "episodes": 76
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2022-01-10",
+          "episodes": 143
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2022-09-12",
+          "episodes": 76
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2023-01-09",
+          "episodes": 153
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2023-09-11",
+          "episodes": 76
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2024-01-08",
+          "episodes": 161
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2024-09-09",
+          "episodes": 84
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2025-01-06",
+          "episodes": 159
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2025-07-07",
+          "episodes": 35
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "2025-09-08",
+          "episodes": 96
+        },
+        {
+          "n": 30,
+          "name": "Stagione 30",
+          "date": "2026-01-05",
+          "episodes": 153
+        },
+        {
+          "n": 31,
+          "name": "Stagione 31",
+          "date": "2026-09-07",
+          "episodes": 45
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2014-01-08",
+          "episodes": 829
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-19",
         "season": 31,
@@ -1721,7 +2977,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:13.276Z"
+    "fetchedAt": "2026-10-17T14:26:28.455Z"
   },
   "grey s anatomy|shonda rhimes 2005": {
     "value": {
@@ -1739,6 +2995,152 @@
       "status": "Returning Series",
       "seasons": 23,
       "episodes": 466,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-03-27",
+          "episodes": 9
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-09-25",
+          "episodes": 27
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2006-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-09-27",
+          "episodes": 16
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2009-09-24",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2010-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-09-22",
+          "episodes": 23
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2012-09-27",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2013-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2014-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2015-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2016-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2017-09-28",
+          "episodes": 24
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2018-09-27",
+          "episodes": 25
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2019-09-26",
+          "episodes": 21
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2020-11-12",
+          "episodes": 17
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2021-09-30",
+          "episodes": 20
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2022-10-06",
+          "episodes": 20
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2024-03-14",
+          "episodes": 10
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2024-09-26",
+          "episodes": 18
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2025-10-09",
+          "episodes": 18
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2026-10-15",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2006-02-14",
+          "episodes": 68
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-22",
         "season": 23,
@@ -1803,7 +3205,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:07.575Z"
+    "fetchedAt": "2026-10-17T14:26:28.253Z"
   },
   "habeas corpus|stagione 1": {
     "value": {
@@ -1822,6 +3224,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-23",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -1882,7 +3292,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.908Z"
+    "fetchedAt": "2026-10-17T14:26:28.547Z"
   },
   "i griffin|seth macfarlane 1999": {
     "value": {
@@ -1901,6 +3311,158 @@
       "status": "Returning Series",
       "seasons": 24,
       "episodes": 456,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1999-01-31",
+          "episodes": 7
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1999-09-23",
+          "episodes": 21
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2001-07-11",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2005-05-01",
+          "episodes": 30
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2006-09-10",
+          "episodes": 18
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2007-09-23",
+          "episodes": 12
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2008-09-28",
+          "episodes": 16
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2009-09-26",
+          "episodes": 20
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2010-09-26",
+          "episodes": 18
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2011-09-25",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2012-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2013-09-29",
+          "episodes": 21
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2014-09-28",
+          "episodes": 18
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2015-09-27",
+          "episodes": 20
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2016-09-25",
+          "episodes": 20
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2017-10-01",
+          "episodes": 20
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2018-09-30",
+          "episodes": 20
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2019-09-29",
+          "episodes": 20
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2020-09-27",
+          "episodes": 20
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2021-09-26",
+          "episodes": 20
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2022-09-25",
+          "episodes": 20
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2023-10-01",
+          "episodes": 15
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2025-02-16",
+          "episodes": 18
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2026-02-15",
+          "episodes": 15
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1995-01-01",
+          "episodes": 27
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "FOX"
@@ -1961,7 +3523,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:09.145Z"
+    "fetchedAt": "2026-10-17T14:26:28.319Z"
   },
   "i simpson|matt groening 1989": {
     "value": {
@@ -1980,6 +3542,242 @@
       "status": "Returning Series",
       "seasons": 38,
       "episodes": 807,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1989-12-17",
+          "episodes": 13
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1990-10-11",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1991-09-19",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1992-09-24",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1993-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1994-09-04",
+          "episodes": 25
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1995-09-17",
+          "episodes": 25
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1996-10-27",
+          "episodes": 25
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1997-09-21",
+          "episodes": 25
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1998-08-23",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "1999-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2000-11-01",
+          "episodes": 21
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2001-11-06",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2002-11-03",
+          "episodes": 22
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2003-11-02",
+          "episodes": 22
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2004-11-07",
+          "episodes": 21
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2005-09-11",
+          "episodes": 22
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2006-09-10",
+          "episodes": 22
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2007-09-23",
+          "episodes": 20
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2008-09-28",
+          "episodes": 21
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2009-09-27",
+          "episodes": 23
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2010-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2011-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2012-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2013-09-29",
+          "episodes": 22
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2014-09-28",
+          "episodes": 22
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2015-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2016-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "2017-10-01",
+          "episodes": 21
+        },
+        {
+          "n": 30,
+          "name": "Stagione 30",
+          "date": "2018-09-30",
+          "episodes": 23
+        },
+        {
+          "n": 31,
+          "name": "Stagione 31",
+          "date": "2019-09-29",
+          "episodes": 22
+        },
+        {
+          "n": 32,
+          "name": "Stagione 32",
+          "date": "2020-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 33,
+          "name": "Stagione 33",
+          "date": "2021-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 34,
+          "name": "Stagione 34",
+          "date": "2022-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 35,
+          "name": "Stagione 35",
+          "date": "2023-10-01",
+          "episodes": 18
+        },
+        {
+          "n": 36,
+          "name": "Stagione 36",
+          "date": "2024-09-29",
+          "episodes": 18
+        },
+        {
+          "n": 37,
+          "name": "Stagione 37",
+          "date": "2025-09-28",
+          "episodes": 15
+        },
+        {
+          "n": 38,
+          "name": "Stagione 38",
+          "date": "2026-09-27",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1987-04-19",
+          "episodes": 82
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-18",
         "season": 38,
@@ -2048,7 +3846,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:05.458Z"
+    "fetchedAt": "2026-10-17T14:26:28.174Z"
   },
   "il trono di spade|david benioff": {
     "value": {
@@ -2068,6 +3866,62 @@
       "status": "Ended",
       "seasons": 8,
       "episodes": 73,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-04-17",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-04-01",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-03-31",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2014-04-06",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2015-04-12",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2016-04-24",
+          "episodes": 10
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2017-07-16",
+          "episodes": 7
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2019-04-14",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-12-05",
+          "episodes": 300
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "HBO"
@@ -2137,7 +3991,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:11.664Z"
+    "fetchedAt": "2026-10-17T14:26:28.401Z"
   },
   "kamen rider|1971": {
     "value": {
@@ -2157,6 +4011,236 @@
       "status": "Returning Series",
       "seasons": 37,
       "episodes": 1760,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1971-04-03",
+          "episodes": 98
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1973-02-17",
+          "episodes": 52
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1974-02-16",
+          "episodes": 35
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1974-10-19",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1975-04-05",
+          "episodes": 39
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1979-10-05",
+          "episodes": 54
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1980-10-17",
+          "episodes": 48
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1987-10-04",
+          "episodes": 51
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1988-10-23",
+          "episodes": 47
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2000-01-30",
+          "episodes": 49
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2001-01-28",
+          "episodes": 51
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2002-02-03",
+          "episodes": 50
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2003-01-26",
+          "episodes": 50
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2004-01-25",
+          "episodes": 49
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2005-01-30",
+          "episodes": 48
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2006-01-29",
+          "episodes": 49
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2007-01-28",
+          "episodes": 49
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2008-01-27",
+          "episodes": 48
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2009-01-25",
+          "episodes": 31
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2009-09-06",
+          "episodes": 49
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2010-09-05",
+          "episodes": 48
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2011-09-04",
+          "episodes": 48
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2012-09-02",
+          "episodes": 53
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2013-10-06",
+          "episodes": 47
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2014-10-05",
+          "episodes": 48
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2015-10-04",
+          "episodes": 50
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2016-10-02",
+          "episodes": 45
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2017-09-03",
+          "episodes": 49
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "2018-09-02",
+          "episodes": 49
+        },
+        {
+          "n": 30,
+          "name": "Stagione 30",
+          "date": "2019-09-01",
+          "episodes": 45
+        },
+        {
+          "n": 31,
+          "name": "Stagione 31",
+          "date": "2020-09-06",
+          "episodes": 48
+        },
+        {
+          "n": 32,
+          "name": "Stagione 32",
+          "date": "2021-09-05",
+          "episodes": 50
+        },
+        {
+          "n": 33,
+          "name": "Stagione 33",
+          "date": "2022-09-04",
+          "episodes": 49
+        },
+        {
+          "n": 34,
+          "name": "Stagione 34",
+          "date": "2023-09-03",
+          "episodes": 50
+        },
+        {
+          "n": 35,
+          "name": "Stagione 35",
+          "date": "2024-09-01",
+          "episodes": 50
+        },
+        {
+          "n": 36,
+          "name": "Stagione 36",
+          "date": "2025-09-07",
+          "episodes": 50
+        },
+        {
+          "n": 37,
+          "name": "Stagione 37",
+          "date": "2026-09-06",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2016-10-03",
+          "episodes": 27
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-18",
         "season": 37,
@@ -2218,7 +4302,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:08.701Z"
+    "fetchedAt": "2026-10-17T14:26:28.304Z"
   },
   "l ispettore barnaby|anthony horowitz": {
     "value": {
@@ -2238,6 +4322,164 @@
       "status": "Returning Series",
       "seasons": 25,
       "episodes": 144,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1997-03-23",
+          "episodes": 5
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1999-01-20",
+          "episodes": 4
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1999-12-31",
+          "episodes": 4
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2000-09-10",
+          "episodes": 6
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2002-06-16",
+          "episodes": 4
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2003-01-03",
+          "episodes": 5
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2003-11-02",
+          "episodes": 6
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2004-10-10",
+          "episodes": 9
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2005-10-09",
+          "episodes": 8
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2006-11-12",
+          "episodes": 8
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2008-01-01",
+          "episodes": 7
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2009-07-22",
+          "episodes": 7
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2010-02-10",
+          "episodes": 8
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2011-03-23",
+          "episodes": 8
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2012-02-01",
+          "episodes": 6
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2013-12-24",
+          "episodes": 5
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2015-01-28",
+          "episodes": 4
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2016-01-06",
+          "episodes": 6
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2016-12-18",
+          "episodes": 6
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2019-03-10",
+          "episodes": 6
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2020-01-21",
+          "episodes": 4
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2021-04-04",
+          "episodes": 6
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2024-04-14",
+          "episodes": 4
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2025-12-29",
+          "episodes": 4
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": null,
+          "episodes": 4
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2019-06-15",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "ITV1"
@@ -2306,7 +4548,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:13.013Z"
+    "fetchedAt": "2026-10-17T14:26:28.451Z"
   },
   "la vita segreta delle mogli mormoni|2024": {
     "value": {
@@ -2325,6 +4567,38 @@
       "status": "Returning Series",
       "seasons": 5,
       "episodes": 45,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2024-09-05",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2025-05-15",
+          "episodes": 11
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-11-13",
+          "episodes": 11
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-03-12",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2026-09-10",
+          "episodes": 5
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Hulu"
@@ -2380,7 +4654,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.253Z"
+    "fetchedAt": "2026-10-17T14:26:28.519Z"
   },
   "lanterns|damon lindelof": {
     "value": {
@@ -2400,6 +4674,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-08-16",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "HBO"
@@ -2477,7 +4759,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:18.190Z"
+    "fetchedAt": "2026-10-17T14:26:28.551Z"
   },
   "law e order i due volti della giustizia|dick wolf 1990": {
     "value": {
@@ -2496,6 +4778,170 @@
       "status": "Returning Series",
       "seasons": 26,
       "episodes": 549,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1990-09-13",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1991-09-17",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1992-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1993-09-15",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1994-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1995-09-20",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1996-09-18",
+          "episodes": 23
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1997-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1998-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1999-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2000-10-18",
+          "episodes": 24
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2001-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2002-10-02",
+          "episodes": 24
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2003-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2004-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2005-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2006-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2008-01-02",
+          "episodes": 18
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2008-11-05",
+          "episodes": 22
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2009-09-25",
+          "episodes": 23
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2022-02-24",
+          "episodes": 10
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2022-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2024-01-18",
+          "episodes": 13
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2024-10-03",
+          "episodes": 22
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2025-09-25",
+          "episodes": 21
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2026-10-08",
+          "episodes": 5
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 7
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-22",
         "season": 26,
@@ -2577,7 +5023,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:06.099Z"
+    "fetchedAt": "2026-10-17T14:26:28.198Z"
   },
   "law e order unita vittime speciali|dick wolf 1999": {
     "value": {
@@ -2597,6 +5043,182 @@
       "status": "Returning Series",
       "seasons": 28,
       "episodes": 598,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1999-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2000-10-20",
+          "episodes": 21
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2001-09-28",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2002-09-27",
+          "episodes": 25
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2003-09-23",
+          "episodes": 25
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2004-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2005-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2006-09-19",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2007-09-25",
+          "episodes": 19
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2008-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2009-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2010-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2011-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2012-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2013-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2014-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2015-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2016-09-21",
+          "episodes": 21
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2017-09-27",
+          "episodes": 24
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2018-09-27",
+          "episodes": 24
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2019-09-26",
+          "episodes": 20
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2020-11-12",
+          "episodes": 16
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2021-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2022-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2024-01-18",
+          "episodes": 13
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2024-10-03",
+          "episodes": 22
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2025-09-25",
+          "episodes": 21
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2026-10-08",
+          "episodes": 7
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 6
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-22",
         "season": 28,
@@ -2686,7 +5308,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:05.292Z"
+    "fetchedAt": "2026-10-17T14:26:28.162Z"
   },
   "lego one piece|stagione 1": {
     "value": {
@@ -2708,6 +5330,14 @@
       "status": "Ended",
       "seasons": 1,
       "episodes": 2,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-29",
+          "episodes": 2
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -2763,7 +5393,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.607Z"
+    "fetchedAt": "2026-10-17T14:26:28.544Z"
   },
   "minerva academy|stagione 1": {
     "value": {
@@ -2782,6 +5412,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Season 1",
+          "date": "2026-09-22",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -2837,7 +5475,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.731Z"
+    "fetchedAt": "2026-10-17T14:26:28.528Z"
   },
   "miraculous le storie di ladybug e chat noir|thomas astruc": {
     "value": {
@@ -2857,6 +5495,56 @@
       "status": "Returning Series",
       "seasons": 7,
       "episodes": 161,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2015-10-19",
+          "episodes": 26
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2017-10-26",
+          "episodes": 25
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2019-04-14",
+          "episodes": 26
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2021-04-11",
+          "episodes": 26
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2022-10-24",
+          "episodes": 26
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2025-03-23",
+          "episodes": 26
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2026-11-01",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2016-12-11",
+          "episodes": 2
+        }
+      ],
       "nextEpisode": {
         "date": "2026-11-01",
         "season": 7,
@@ -2933,7 +5621,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.119Z"
+    "fetchedAt": "2026-10-17T14:26:28.518Z"
   },
   "mobland|ronan bennett 2025": {
     "value": {
@@ -2952,6 +5640,20 @@
       "status": "Returning Series",
       "seasons": 2,
       "episodes": 20,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2025-03-30",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-09-18",
+          "episodes": 10
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-23",
         "season": 2,
@@ -3030,7 +5732,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:08.233Z"
+    "fetchedAt": "2026-10-17T14:26:28.292Z"
   },
   "modern family|steven levitan": {
     "value": {
@@ -3048,6 +5750,80 @@
       "status": "Ended",
       "seasons": 11,
       "episodes": 250,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2012-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2013-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2014-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2015-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2016-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2017-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2018-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2019-09-25",
+          "episodes": 18
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 32
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "ABC"
@@ -3112,7 +5888,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:12.467Z"
+    "fetchedAt": "2026-10-17T14:26:28.435Z"
   },
   "monster the lizzie borden story|stagione 1": {
     "value": {
@@ -3131,6 +5907,14 @@
       "status": "Ended",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-17",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -3191,7 +5975,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.154Z"
+    "fetchedAt": "2026-10-17T14:26:28.537Z"
   },
   "naruto|2002": {
     "value": {
@@ -3211,6 +5995,38 @@
       "status": "Ended",
       "seasons": 4,
       "episodes": 220,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2002-10-02",
+          "episodes": 52
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": null,
+          "episodes": 52
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": null,
+          "episodes": 54
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": null,
+          "episodes": 62
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2002-12-21",
+          "episodes": 2
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "TV Tokyo"
@@ -3282,7 +6098,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:18.982Z"
+    "fetchedAt": "2026-10-17T14:26:28.578Z"
   },
   "ncis los angeles|shane brennan 2009": {
     "value": {
@@ -3303,6 +6119,98 @@
       "status": "Ended",
       "seasons": 14,
       "episodes": 323,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2012-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2013-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2014-09-29",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2015-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2016-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2017-10-01",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2018-09-30",
+          "episodes": 24
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2019-09-29",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2020-11-08",
+          "episodes": 18
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2021-10-10",
+          "episodes": 22
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2022-10-09",
+          "episodes": 21
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2023-05-21",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "CBS"
@@ -3383,7 +6291,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:15.320Z"
+    "fetchedAt": "2026-10-17T14:26:28.500Z"
   },
   "ncis unita anticrimine|don mcgill": {
     "value": {
@@ -3403,6 +6311,158 @@
       "status": "Returning Series",
       "seasons": 24,
       "episodes": 513,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2003-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2004-09-28",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2005-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2006-09-19",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2007-09-25",
+          "episodes": 19
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2008-09-23",
+          "episodes": 25
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2009-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2010-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2011-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2012-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2013-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2014-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2015-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2016-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2017-09-26",
+          "episodes": 24
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2018-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2019-09-24",
+          "episodes": 20
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2020-11-17",
+          "episodes": 16
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2021-09-20",
+          "episodes": 21
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2022-09-19",
+          "episodes": 22
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2024-02-12",
+          "episodes": 10
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2024-10-14",
+          "episodes": 20
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2025-10-14",
+          "episodes": 20
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2026-10-06",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2003-04-22",
+          "episodes": 123
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-20",
         "season": 24,
@@ -3499,7 +6559,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:06.976Z"
+    "fetchedAt": "2026-10-17T14:26:28.235Z"
   },
   "not a stranger|stagione 1": {
     "value": {
@@ -3517,6 +6577,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-17",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -3577,7 +6645,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.015Z"
+    "fetchedAt": "2026-10-17T14:26:28.535Z"
   },
   "operazione speciale lioness|taylor sheridan 2023": {
     "value": {
@@ -3596,6 +6664,26 @@
       "status": "Returning Series",
       "seasons": 3,
       "episodes": 24,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2023-07-23",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2024-10-27",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-08-02",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Paramount+"
@@ -3660,7 +6748,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:12.743Z"
+    "fetchedAt": "2026-10-17T14:26:28.445Z"
   },
   "physical 100 italy|stagione 1": {
     "value": {
@@ -3678,6 +6766,14 @@
       "status": "Returning Series",
       "seasons": 1,
       "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-11",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -3700,7 +6796,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.871Z"
+    "fetchedAt": "2026-10-17T14:26:28.533Z"
   },
   "pokemon|1997": {
     "value": {
@@ -3720,6 +6816,164 @@
       "status": "Ended",
       "seasons": 25,
       "episodes": 1235,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Indigo League",
+          "date": "1997-04-01",
+          "episodes": 82
+        },
+        {
+          "n": 2,
+          "name": "Oltre i Cieli dell'Avventura",
+          "date": "1999-01-28",
+          "episodes": 36
+        },
+        {
+          "n": 3,
+          "name": "The Johto Journeys",
+          "date": "1999-10-14",
+          "episodes": 41
+        },
+        {
+          "n": 4,
+          "name": "Johto League Champions",
+          "date": "2000-08-03",
+          "episodes": 52
+        },
+        {
+          "n": 5,
+          "name": "Master Quest",
+          "date": "2001-08-09",
+          "episodes": 65
+        },
+        {
+          "n": 6,
+          "name": "Advanced",
+          "date": "2002-11-21",
+          "episodes": 40
+        },
+        {
+          "n": 7,
+          "name": "Advanced Challenge",
+          "date": "2003-09-04",
+          "episodes": 52
+        },
+        {
+          "n": 8,
+          "name": "Advanced Battle",
+          "date": "2004-09-09",
+          "episodes": 53
+        },
+        {
+          "n": 9,
+          "name": "Battle Frontier",
+          "date": "2005-10-06",
+          "episodes": 46
+        },
+        {
+          "n": 10,
+          "name": "Diamante e Perla",
+          "date": "2006-09-28",
+          "episodes": 52
+        },
+        {
+          "n": 11,
+          "name": "Diamante e Perla - Battle Dimension",
+          "date": "2007-11-08",
+          "episodes": 52
+        },
+        {
+          "n": 12,
+          "name": "Diamante e Perla - Lotte Galattiche",
+          "date": "2008-12-04",
+          "episodes": 53
+        },
+        {
+          "n": 13,
+          "name": "Diamante e Perla - I Vincitori della Lega di Sinnoh",
+          "date": "2010-01-07",
+          "episodes": 34
+        },
+        {
+          "n": 14,
+          "name": "Nero e Bianco",
+          "date": "2010-09-23",
+          "episodes": 48
+        },
+        {
+          "n": 15,
+          "name": "Nero e Bianco - Destini Rivali",
+          "date": "2011-09-22",
+          "episodes": 49
+        },
+        {
+          "n": 16,
+          "name": "Nero e Bianco - Avventure a Unima e altrove",
+          "date": "2012-10-11",
+          "episodes": 45
+        },
+        {
+          "n": 17,
+          "name": "XY",
+          "date": "2013-10-17",
+          "episodes": 48
+        },
+        {
+          "n": 18,
+          "name": "XY - Esplorazioni a Kalos",
+          "date": "2014-11-13",
+          "episodes": 45
+        },
+        {
+          "n": 19,
+          "name": "XYZ",
+          "date": "2015-10-29",
+          "episodes": 49
+        },
+        {
+          "n": 20,
+          "name": "Sole e Luna",
+          "date": "2016-11-17",
+          "episodes": 43
+        },
+        {
+          "n": 21,
+          "name": "Sole e Luna - Ultravventure",
+          "date": "2017-10-05",
+          "episodes": 49
+        },
+        {
+          "n": 22,
+          "name": "Sole e Luna - Ultraleggende",
+          "date": "2018-10-21",
+          "episodes": 54
+        },
+        {
+          "n": 23,
+          "name": "Esplorazioni Pokémon",
+          "date": "2019-11-17",
+          "episodes": 48
+        },
+        {
+          "n": 24,
+          "name": "Esplorazioni Pokémon Master",
+          "date": "2020-12-11",
+          "episodes": 42
+        },
+        {
+          "n": 25,
+          "name": "Esplorazioni Pokémon Super",
+          "date": "2021-12-17",
+          "episodes": 57
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1997-10-07",
+          "episodes": 56
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "TV Tokyo",
@@ -3777,7 +7031,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:15.809Z"
+    "fetchedAt": "2026-10-17T14:26:28.510Z"
   },
   "prison break|paul t scheuring 2005": {
     "value": {
@@ -3797,6 +7051,44 @@
       "status": "Ended",
       "seasons": 5,
       "episodes": 88,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Season 1",
+          "date": "2005-08-29",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Season 2",
+          "date": "2006-08-21",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Season 3",
+          "date": "2007-09-17",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Season 4",
+          "date": "2008-09-01",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2017-04-04",
+          "episodes": 9
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2005-10-11",
+          "episodes": 10
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "FOX"
@@ -3857,7 +7149,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:16.580Z"
+    "fetchedAt": "2026-10-17T14:26:28.526Z"
   },
   "raw|vince mcmahon 1993": {
     "value": {
@@ -3875,6 +7167,218 @@
       "status": "Returning Series",
       "seasons": 34,
       "episodes": 1747,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1993-01-11",
+          "episodes": 45
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1994-01-03",
+          "episodes": 47
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1995-01-02",
+          "episodes": 48
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1996-01-01",
+          "episodes": 51
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1997-01-06",
+          "episodes": 52
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1998-01-05",
+          "episodes": 52
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1999-01-04",
+          "episodes": 52
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2000-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2001-01-01",
+          "episodes": 53
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2002-01-07",
+          "episodes": 52
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2003-01-06",
+          "episodes": 52
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2004-01-05",
+          "episodes": 52
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2005-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2006-01-02",
+          "episodes": 52
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2007-01-01",
+          "episodes": 53
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2008-01-07",
+          "episodes": 52
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2009-01-05",
+          "episodes": 52
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2010-01-04",
+          "episodes": 52
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2011-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2012-01-02",
+          "episodes": 53
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2013-01-07",
+          "episodes": 52
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2014-01-05",
+          "episodes": 52
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2015-01-04",
+          "episodes": 52
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2016-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2017-01-01",
+          "episodes": 52
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2017-12-31",
+          "episodes": 53
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2019-01-06",
+          "episodes": 52
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2020-01-05",
+          "episodes": 52
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "2021-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 30,
+          "name": "Stagione 30",
+          "date": "2022-01-02",
+          "episodes": 52
+        },
+        {
+          "n": 31,
+          "name": "Stagione 31",
+          "date": "2023-01-01",
+          "episodes": 52
+        },
+        {
+          "n": 32,
+          "name": "Stagione 32",
+          "date": "2023-12-29",
+          "episodes": 53
+        },
+        {
+          "n": 33,
+          "name": "Stagione 33",
+          "date": "2024-12-31",
+          "episodes": 52
+        },
+        {
+          "n": 34,
+          "name": "Stagione 34",
+          "date": "2026-01-05",
+          "episodes": 43
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-12-18",
+          "episodes": 2
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-19",
         "season": 34,
@@ -3941,7 +7445,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:10.770Z"
+    "fetchedAt": "2026-10-17T14:26:28.371Z"
   },
   "reacher|nick santora 2022": {
     "value": {
@@ -3960,6 +7464,32 @@
       "status": "Returning Series",
       "seasons": 4,
       "episodes": 32,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-02-03",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-12-14",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-02-20",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-08-12",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Prime Video"
@@ -4024,7 +7554,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:05.601Z"
+    "fetchedAt": "2026-10-17T14:26:28.178Z"
   },
   "rick and morty|dan harmon": {
     "value": {
@@ -4045,6 +7575,68 @@
       "status": "Returning Series",
       "seasons": 9,
       "episodes": 91,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2013-12-02",
+          "episodes": 11
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2015-07-26",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2017-04-01",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2019-11-10",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2021-06-20",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2022-09-04",
+          "episodes": 10
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2023-10-15",
+          "episodes": 10
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2025-05-25",
+          "episodes": 10
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2026-05-24",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2016-10-22",
+          "episodes": 37
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Adult Swim"
@@ -4122,7 +7714,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:10.613Z"
+    "fetchedAt": "2026-10-17T14:26:28.367Z"
   },
   "sesamo apriti|lloyd morrisett": {
     "value": {
@@ -4141,6 +7733,350 @@
       "status": "Returning Series",
       "seasons": 56,
       "episodes": 3669,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1969-11-10",
+          "episodes": 130
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1970-11-09",
+          "episodes": 145
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1971-11-08",
+          "episodes": 130
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1972-11-27",
+          "episodes": 130
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1973-11-19",
+          "episodes": 130
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1974-11-04",
+          "episodes": 130
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1975-12-01",
+          "episodes": 130
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1976-11-29",
+          "episodes": 130
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1977-11-28",
+          "episodes": 84
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1978-11-27",
+          "episodes": 130
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "1979-11-26",
+          "episodes": 130
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "1980-11-24",
+          "episodes": 130
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "1981-11-23",
+          "episodes": 31
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "1982-11-22",
+          "episodes": 130
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "1983-11-21",
+          "episodes": 130
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "1984-11-19",
+          "episodes": 130
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "1985-11-18",
+          "episodes": 130
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "1986-11-17",
+          "episodes": 31
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "1987-11-16",
+          "episodes": 33
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "1988-11-21",
+          "episodes": 33
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "1989-11-13",
+          "episodes": 36
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "1990-11-12",
+          "episodes": 130
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "1991-11-11",
+          "episodes": 44
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "1992-11-09",
+          "episodes": 71
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "1993-11-22",
+          "episodes": 31
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "1994-11-21",
+          "episodes": 33
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "1995-11-20",
+          "episodes": 32
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "1996-11-18",
+          "episodes": 56
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "1997-11-17",
+          "episodes": 130
+        },
+        {
+          "n": 30,
+          "name": "Stagione 30",
+          "date": "1998-11-16",
+          "episodes": 65
+        },
+        {
+          "n": 31,
+          "name": "Stagione 31",
+          "date": "2000-01-03",
+          "episodes": 65
+        },
+        {
+          "n": 32,
+          "name": "Stagione 32",
+          "date": "2001-01-01",
+          "episodes": 65
+        },
+        {
+          "n": 33,
+          "name": "Stagione 33",
+          "date": "2002-02-04",
+          "episodes": 50
+        },
+        {
+          "n": 34,
+          "name": "Stagione 34",
+          "date": "2003-04-07",
+          "episodes": 33
+        },
+        {
+          "n": 35,
+          "name": "Stagione 35",
+          "date": "2004-02-15",
+          "episodes": 26
+        },
+        {
+          "n": 36,
+          "name": "Stagione 36",
+          "date": "2005-04-04",
+          "episodes": 26
+        },
+        {
+          "n": 37,
+          "name": "Stagione 37",
+          "date": "2006-08-14",
+          "episodes": 26
+        },
+        {
+          "n": 38,
+          "name": "Stagione 38",
+          "date": "2007-08-13",
+          "episodes": 26
+        },
+        {
+          "n": 39,
+          "name": "Stagione 39",
+          "date": "2008-08-11",
+          "episodes": 26
+        },
+        {
+          "n": 40,
+          "name": "Stagione 40",
+          "date": "2009-11-10",
+          "episodes": 26
+        },
+        {
+          "n": 41,
+          "name": "Stagione 41",
+          "date": "2010-09-27",
+          "episodes": 26
+        },
+        {
+          "n": 42,
+          "name": "Stagione 42",
+          "date": "2011-09-26",
+          "episodes": 26
+        },
+        {
+          "n": 43,
+          "name": "Stagione 43",
+          "date": "2012-09-24",
+          "episodes": 27
+        },
+        {
+          "n": 44,
+          "name": "Stagione 44",
+          "date": "2013-09-16",
+          "episodes": 26
+        },
+        {
+          "n": 45,
+          "name": "Stagione 45",
+          "date": "2014-09-14",
+          "episodes": 27
+        },
+        {
+          "n": 46,
+          "name": "Stagione 46",
+          "date": "2016-01-15",
+          "episodes": 35
+        },
+        {
+          "n": 47,
+          "name": "Stagione 47",
+          "date": "2017-01-06",
+          "episodes": 35
+        },
+        {
+          "n": 48,
+          "name": "Stagione 48",
+          "date": "2017-11-17",
+          "episodes": 35
+        },
+        {
+          "n": 49,
+          "name": "Stagione 49",
+          "date": "2018-11-16",
+          "episodes": 35
+        },
+        {
+          "n": 50,
+          "name": "Stagione 50",
+          "date": "2019-11-15",
+          "episodes": 35
+        },
+        {
+          "n": 51,
+          "name": "Stagione 51",
+          "date": "2020-11-11",
+          "episodes": 35
+        },
+        {
+          "n": 52,
+          "name": "Stagione 52",
+          "date": "2021-11-10",
+          "episodes": 35
+        },
+        {
+          "n": 53,
+          "name": "Stagione 53",
+          "date": "2022-11-01",
+          "episodes": 35
+        },
+        {
+          "n": 54,
+          "name": "Stagione 54",
+          "date": "2023-11-07",
+          "episodes": 35
+        },
+        {
+          "n": 55,
+          "name": "Stagione 55",
+          "date": "2025-01-14",
+          "episodes": 35
+        },
+        {
+          "n": 56,
+          "name": "Stagione 56",
+          "date": "2025-11-09",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 126
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "PBS",
@@ -4211,7 +8147,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:13.510Z"
+    "fetchedAt": "2026-10-17T14:26:28.459Z"
   },
   "shameless|paul abbott": {
     "value": {
@@ -4230,6 +8166,80 @@
       "status": "Ended",
       "seasons": 11,
       "episodes": 134,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-01-09",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-01-08",
+          "episodes": 12
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-01-13",
+          "episodes": 12
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2014-01-12",
+          "episodes": 12
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2015-01-11",
+          "episodes": 12
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2016-01-10",
+          "episodes": 12
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2016-10-02",
+          "episodes": 12
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2017-11-05",
+          "episodes": 12
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2018-09-09",
+          "episodes": 14
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2019-11-10",
+          "episodes": 12
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2020-12-06",
+          "episodes": 12
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-12-12",
+          "episodes": 39
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Showtime"
@@ -4315,7 +8325,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:15.983Z"
+    "fetchedAt": "2026-10-17T14:26:28.516Z"
   },
   "slow horses|2022": {
     "value": {
@@ -4335,6 +8345,44 @@
       "status": "Returning Series",
       "seasons": 6,
       "episodes": 36,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-04-01",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2022-12-02",
+          "episodes": 6
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2023-11-29",
+          "episodes": 6
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2024-09-04",
+          "episodes": 6
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2025-09-24",
+          "episodes": 6
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2026-09-16",
+          "episodes": 6
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-21",
         "season": 6,
@@ -4398,7 +8446,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:10.464Z"
+    "fetchedAt": "2026-10-17T14:26:28.358Z"
   },
   "smallville|alfred gough": {
     "value": {
@@ -4418,6 +8466,74 @@
       "status": "Ended",
       "seasons": 10,
       "episodes": 216,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2001-10-16",
+          "episodes": 21
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2002-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2003-10-01",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2004-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2005-09-29",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2006-09-28",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2007-09-27",
+          "episodes": 20
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2008-09-18",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2009-09-25",
+          "episodes": 21
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2010-09-24",
+          "episodes": 21
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 38
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "The WB",
@@ -4491,7 +8607,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:15.666Z"
+    "fetchedAt": "2026-10-17T14:26:28.505Z"
   },
   "south park|trey parker": {
     "value": {
@@ -4510,6 +8626,188 @@
       "status": "Returning Series",
       "seasons": 29,
       "episodes": 337,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1997-08-13",
+          "episodes": 13
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1998-04-01",
+          "episodes": 18
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1999-04-07",
+          "episodes": 17
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2000-04-05",
+          "episodes": 17
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2001-06-20",
+          "episodes": 14
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2002-03-06",
+          "episodes": 17
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2003-03-19",
+          "episodes": 15
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2004-03-17",
+          "episodes": 14
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2005-03-09",
+          "episodes": 14
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2006-03-22",
+          "episodes": 14
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2007-03-07",
+          "episodes": 14
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2008-03-12",
+          "episodes": 14
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2009-03-11",
+          "episodes": 14
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2010-03-17",
+          "episodes": 14
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2011-04-27",
+          "episodes": 14
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2012-03-14",
+          "episodes": 14
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2013-09-25",
+          "episodes": 10
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2014-09-24",
+          "episodes": 10
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2015-09-16",
+          "episodes": 10
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2016-09-14",
+          "episodes": 10
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2017-09-13",
+          "episodes": 10
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2018-09-26",
+          "episodes": 10
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2019-09-25",
+          "episodes": 10
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2020-09-30",
+          "episodes": 2
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2022-02-02",
+          "episodes": 6
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2023-02-08",
+          "episodes": 6
+        },
+        {
+          "n": 27,
+          "name": "Stagione 27",
+          "date": "2025-07-23",
+          "episodes": 5
+        },
+        {
+          "n": 28,
+          "name": "Stagione 28",
+          "date": "2025-10-15",
+          "episodes": 5
+        },
+        {
+          "n": 29,
+          "name": "Stagione 29",
+          "date": "2026-09-16",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1992-12-08",
+          "episodes": 33
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-28",
         "season": 29,
@@ -4590,7 +8888,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:12.606Z"
+    "fetchedAt": "2026-10-17T14:26:28.439Z"
   },
   "supernatural|eric kripke 2005": {
     "value": {
@@ -4610,6 +8908,104 @@
       "status": "Ended",
       "seasons": 15,
       "episodes": 327,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-09-12",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2006-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2007-10-03",
+          "episodes": 16
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2008-09-18",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2009-09-08",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2010-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2011-09-22",
+          "episodes": 23
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2012-10-02",
+          "episodes": 23
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2013-10-07",
+          "episodes": 23
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2014-10-07",
+          "episodes": 23
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2015-10-06",
+          "episodes": 23
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2016-10-12",
+          "episodes": 23
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2017-10-11",
+          "episodes": 23
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2018-10-10",
+          "episodes": 20
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2019-10-10",
+          "episodes": 20
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 106
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "The WB",
@@ -4688,7 +9084,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:08.903Z"
+    "fetchedAt": "2026-10-17T14:26:28.315Z"
   },
   "ted lasso|bill lawrence": {
     "value": {
@@ -4707,6 +9103,38 @@
       "status": "Returning Series",
       "seasons": 4,
       "episodes": 44,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2020-08-14",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2021-07-23",
+          "episodes": 12
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2023-03-14",
+          "episodes": 12
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-08-04",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2021-12-15",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Apple TV"
@@ -4783,7 +9211,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:10.908Z"
+    "fetchedAt": "2026-10-17T14:26:28.376Z"
   },
   "the blacklist|jon bokenkamp 2013": {
     "value": {
@@ -4803,6 +9231,74 @@
       "status": "Ended",
       "seasons": 10,
       "episodes": 218,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2013-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2015-10-01",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2016-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2017-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2019-01-03",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2019-10-04",
+          "episodes": 19
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2020-11-13",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2021-10-21",
+          "episodes": 22
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2023-02-26",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2013-09-10",
+          "episodes": 11
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "NBC"
@@ -4875,7 +9371,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:14.412Z"
+    "fetchedAt": "2026-10-17T14:26:28.472Z"
   },
   "the final problem|miniserie": {
     "value": {
@@ -4894,6 +9390,14 @@
       "status": "Ended",
       "seasons": 1,
       "episodes": 4,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-09-25",
+          "episodes": 4
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -4949,7 +9453,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.289Z"
+    "fetchedAt": "2026-10-17T14:26:28.538Z"
   },
   "the flash|geoff johns": {
     "value": {
@@ -4968,6 +9472,68 @@
       "status": "Ended",
       "seasons": 9,
       "episodes": 184,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2014-10-06",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2015-10-05",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2016-10-03",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2017-10-10",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2018-10-09",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2019-10-08",
+          "episodes": 19
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2021-03-02",
+          "episodes": 18
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2021-11-16",
+          "episodes": 20
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2023-02-08",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2016-04-19",
+          "episodes": 72
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "The CW"
@@ -5045,7 +9611,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:14.564Z"
+    "fetchedAt": "2026-10-17T14:26:28.477Z"
   },
   "the gentlemen|stagione 2": {
     "value": {
@@ -5065,6 +9631,20 @@
       "status": "Returning Series",
       "seasons": 3,
       "episodes": 16,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2024-03-07",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-09-03",
+          "episodes": 8
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "Netflix"
@@ -5125,7 +9705,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:17.770Z"
+    "fetchedAt": "2026-10-17T14:26:28.546Z"
   },
   "the mentalist|bruno heller 2008": {
     "value": {
@@ -5145,6 +9725,56 @@
       "status": "Ended",
       "seasons": 7,
       "episodes": 151,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2008-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2009-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2010-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2011-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2012-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2013-09-29",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2014-11-30",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2009-08-20",
+          "episodes": 2
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "CBS"
@@ -5221,7 +9851,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:07.316Z"
+    "fetchedAt": "2026-10-17T14:26:28.241Z"
   },
   "the office us|greg daniels 2005": {
     "value": {
@@ -5239,6 +9869,68 @@
       "status": "Ended",
       "seasons": 9,
       "episodes": 186,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-03-24",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2006-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-09-27",
+          "episodes": 14
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-09-25",
+          "episodes": 26
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2009-09-17",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2010-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2012-09-20",
+          "episodes": 23
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2006-07-13",
+          "episodes": 106
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "NBC"
@@ -5324,7 +10016,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:06.561Z"
+    "fetchedAt": "2026-10-17T14:26:28.211Z"
   },
   "the rookie|alexi hawley 2018": {
     "value": {
@@ -5344,6 +10036,62 @@
       "status": "Returning Series",
       "seasons": 9,
       "episodes": 145,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-10-16",
+          "episodes": 20
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-09-29",
+          "episodes": 20
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2021-01-03",
+          "episodes": 14
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2021-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2022-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2024-02-20",
+          "episodes": 10
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2025-01-07",
+          "episodes": 18
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2026-01-06",
+          "episodes": 18
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2027-01-06",
+          "episodes": 1
+        }
+      ],
       "nextEpisode": {
         "date": "2027-01-06",
         "season": 9,
@@ -5421,7 +10169,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T12:47:09.388Z"
+    "fetchedAt": "2026-10-17T14:26:28.327Z"
   },
   "the walking dead|frank darabont 2010": {
     "value": {
@@ -5441,6 +10189,80 @@
       "status": "Ended",
       "seasons": 11,
       "episodes": 177,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-10-31",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2011-10-16",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2012-10-14",
+          "episodes": 16
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2013-10-13",
+          "episodes": 16
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2014-10-12",
+          "episodes": 16
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2015-10-11",
+          "episodes": 16
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2016-10-23",
+          "episodes": 16
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2017-10-22",
+          "episodes": 16
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2018-10-07",
+          "episodes": 16
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2019-10-06",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2021-08-22",
+          "episodes": 24
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-10-11",
+          "episodes": 87
+        }
+      ],
       "nextEpisode": null,
       "networks": [
         "AMC"
@@ -5517,7 +10339,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:14.802Z"
+    "fetchedAt": "2026-10-17T14:26:28.481Z"
   },
   "watch what happens live with andy cohen|andy cohen 2009": {
     "value": {
@@ -5536,6 +10358,152 @@
       "status": "Returning Series",
       "seasons": 23,
       "episodes": 3226,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-07-16",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-01-14",
+          "episodes": 29
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2010-09-09",
+          "episodes": 44
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2011-01-06",
+          "episodes": 57
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2011-09-25",
+          "episodes": 26
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2012-01-08",
+          "episodes": 91
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2012-06-17",
+          "episodes": 35
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2012-09-09",
+          "episodes": 64
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2013-01-06",
+          "episodes": 91
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2013-06-16",
+          "episodes": 111
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2014-01-05",
+          "episodes": 210
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2015-01-04",
+          "episodes": 206
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2016-01-03",
+          "episodes": 208
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2017-01-03",
+          "episodes": 208
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2018-01-07",
+          "episodes": 209
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2019-01-06",
+          "episodes": 208
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2020-01-05",
+          "episodes": 208
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2021-01-03",
+          "episodes": 208
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2022-01-05",
+          "episodes": 209
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2023-01-02",
+          "episodes": 203
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2024-01-07",
+          "episodes": 208
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2025-01-06",
+          "episodes": 203
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2026-01-05",
+          "episodes": 169
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2012-08-26",
+          "episodes": 6
+        }
+      ],
       "nextEpisode": {
         "date": "2026-10-18",
         "season": 23,
@@ -5600,6 +10568,6 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T12:47:04.236Z"
+    "fetchedAt": "2026-10-17T14:26:28.123Z"
   }
 }

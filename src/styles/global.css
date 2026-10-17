@@ -20,3 +20,7 @@
   outline-offset: 2px;
   border-radius: 4px;
 }
+/* Titoli che ricevono il focus da script (es. la stagione aperta nella scheda della serie): non sono controlli. */
+:is(h1, h2, h3)[tabindex='-1']:focus-visible {
+  outline: none;
+}
