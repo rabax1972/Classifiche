@@ -55,6 +55,10 @@ for (const v of views)
       <div class="flex flex-wrap gap-2 text-sm font-medium">
         <a id="song-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Ascolta su Apple Music</a>
         <a id="song-spotify" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Cerca su Spotify</a>
+        <a id="song-youtube" class="inline-flex items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">
+          <svg class="h-4 w-4 text-red-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+          Guarda il video su YouTube
+        </a>
         <a id="song-lyrics" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Leggi il testo su Genius</a>
       </div>
       <p class="text-xs text-gray-500 dark:text-gray-400">I testi delle canzoni sono protetti da diritto d'autore: li trovi sui siti che hanno la licenza per pubblicarli.</p>
@@ -133,6 +137,8 @@ for (const v of views)
       const appleUrl = info?.appleUrl ?? (s.sourceUrl?.includes('music.apple.com') ? s.sourceUrl : null);
       setLink($<HTMLAnchorElement>('song-apple'), appleUrl ?? `https://music.apple.com/it/search?term=${encodeURIComponent(query)}`, `Ascolta ${s.title} su Apple Music`);
       setLink($<HTMLAnchorElement>('song-spotify'), `https://open.spotify.com/search/${encodeURIComponent(query)}`, `Cerca ${s.title} su Spotify`);
+      // Ricerca su YouTube (titolo e artista): di solito il primo risultato è il video ufficiale.
+      setLink($<HTMLAnchorElement>('song-youtube'), `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`, `Guarda il video di ${s.title} su YouTube`);
       setLink($<HTMLAnchorElement>('song-lyrics'), `https://genius.com/search?q=${encodeURIComponent(query)}`, `Leggi il testo di ${s.title} su Genius`);
       return true;
     };
