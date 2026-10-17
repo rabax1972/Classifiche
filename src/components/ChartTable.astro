@@ -1,6 +1,6 @@
 ---
 import { artistKey, movieSubtitle, normalizeText, splitArtists } from '../lib/aggregate';
-import { getArtistInfo, getAuthorInfo, getDirectorInfo } from '../lib/data';
+import { getArtistInfo, getAuthorInfo, getDirectorInfo, getMovieInfo } from '../lib/data';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -35,6 +35,45 @@ const people = (subtitle: string) => {
 /** "A e B" resta intero solo se è un unico artista con una voce su Wikipedia (es. un duo). */
 const oneArtist = (name: string) => Boolean(cards?.info(artistKey(name))?.wiki);
 const INITIAL = 20;
+
+// Filtri dei film (servizio in abbonamento, durata, genere, voto) dalle schede TMDB: solo lato client, senza JS la tabella è completa.
+/** "HBO Max Amazon Channel" e "Amazon Prime Video with Ads" contano come HBO Max e Amazon Prime Video. */
+const providerName = (name: string) =>
+  name.replace(/\s+Amazon Channel$/i, '').replace(/\s+(Standard\s+)?with Ads$/i, '').replace(/^Paramount\+$/, 'Paramount Plus').trim();
+const filters = movies
+  ? view.entries.map((e) => {
+      const info = getMovieInfo(e.key);
+      return {
+        genres: info?.genres ?? [],
+        providers: [...new Set((info?.watch?.flatrate ?? []).map((p) => providerName(p.name)))],
+        runtime: info?.runtime ?? null,
+        vote: info?.vote && info.votes >= 10 ? info.vote : null,
+      };
+    })
+  : [];
+/** Valori presenti nella classifica, dal più frequente. */
+const options = (values: string[]) => {
+  const count = new Map<string, number>();
+  for (const v of values) count.set(v, (count.get(v) ?? 0) + 1);
+  return [...count].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'it')).map(([v]) => v);
+};
+// Il filtro per servizio compare solo se almeno 5 film sono in abbonamento (al cinema quasi nessuno lo è).
+const providerOptions = options(filters.flatMap((f) => f.providers));
+/** Logo di ogni servizio: quello del servizio stesso, se c'è, altrimenti quello di un suo canale. */
+const providerLogos = new Map<string, string | null>();
+if (movies)
+  for (const e of view.entries)
+    for (const p of getMovieInfo(e.key)?.watch?.flatrate ?? []) {
+      const name = providerName(p.name);
+      if (!providerLogos.get(name) || p.name === name) providerLogos.set(name, p.logo ?? providerLogos.get(name) ?? null);
+    }
+const genreOptions = options(filters.flatMap((f) => f.genres));
+const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
+const multiFilters = [
+  { key: 'provider', label: 'Servizi', all: 'Tutti i servizi', values: providerOptions, show: filters.filter((f) => f.providers.length).length >= 5 },
+  { key: 'genre', label: 'Generi', all: 'Tutti i generi', values: genreOptions, show: genreOptions.length > 0 },
+].filter((m) => m.show);
+const hasInfo = filters.some((f) => f.runtime || f.genres.length);
 ---
 
 <div class="chart" data-initial={INITIAL}>
@@ -51,6 +90,79 @@ const INITIAL = 20;
     </label>
     <p class="chart-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
   </div>
+
+  {
+    movies && (
+      <div class="chart-filters relative mb-3 hidden flex-wrap items-center gap-2" role="group" aria-label="Filtra i film">
+        <label>
+          <span class="sr-only">Film visti</span>
+          <select class={filterSelect} data-filter="seen">
+            <option value="" data-label="Visti e da vedere">Visti e da vedere</option>
+            <option value="da-vedere" data-label="Da vedere">Da vedere</option>
+            <option value="visti" data-label="Già visti">Già visti</option>
+          </select>
+        </label>
+        {multiFilters.map((m) => (
+          <details class="chart-multi sm:relative" data-multi={m.key} data-all={m.all}>
+            <summary class={`${filterSelect} flex cursor-pointer list-none items-center gap-2 pr-3 [&::-webkit-details-marker]:hidden`}>
+              <span class="chart-multi-label">{m.all}</span>
+              <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+            </summary>
+            <div
+              class="absolute top-full right-0 left-0 z-20 mt-1 rounded-xl sm:right-auto sm:w-[22rem] border border-gray-200 bg-white p-3 shadow-lg dark:border-gray-700 dark:bg-gray-900"
+              role="group"
+              aria-label={`${m.label}: scegline uno o più`}
+            >
+              <p class="mb-2 text-xs text-gray-600 dark:text-gray-400">{m.key === 'provider' ? 'Film in abbonamento su almeno uno dei servizi scelti.' : 'Film di almeno uno dei generi scelti.'}</p>
+              <ul class="flex flex-wrap gap-1.5">
+                {m.values.map((v) => {
+                  const logo = m.key === 'provider' ? providerLogos.get(v) : null;
+                  return (
+                    <li>
+                      <button
+                        type="button"
+                        aria-pressed="false"
+                        data-value={v}
+                        class={`inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 py-1 text-sm hover:bg-gray-50 aria-pressed:border-indigo-600 aria-pressed:bg-indigo-600 aria-pressed:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:aria-pressed:border-indigo-500 dark:aria-pressed:bg-indigo-500 ${logo ? 'pr-3 pl-1' : 'px-3'}`}
+                      >
+                        {logo && <img src={logo} alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" class="h-[22px] w-[22px] rounded-full" />}
+                        {v}
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </details>
+        ))}
+        {hasInfo && (
+          <>
+            <label>
+              <span class="sr-only">Durata</span>
+              <select class={filterSelect} data-filter="runtime">
+                <option value="">Qualsiasi durata</option>
+                <option value="0-90">Fino a 90 min</option>
+                <option value="91-120">Da 90 min a 2 ore</option>
+                <option value="121-999">Oltre 2 ore</option>
+              </select>
+            </label>
+            <label>
+              <span class="sr-only">Voto TMDB minimo</span>
+              <select class={filterSelect} data-filter="vote">
+                <option value="">Qualsiasi voto</option>
+                <option value="6">Voto 6 o più</option>
+                <option value="7">Voto 7 o più</option>
+                <option value="8">Voto 8 o più</option>
+              </select>
+            </label>
+          </>
+        )}
+        <button type="button" class="chart-reset hidden rounded-lg px-3 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 dark:text-indigo-300 dark:hover:bg-indigo-950">
+          Azzera filtri
+        </button>
+      </div>
+    )
+  }
 
   <div class="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
     <table class="w-full text-left text-sm">
@@ -69,7 +181,16 @@ const INITIAL = 20;
       <tbody class="divide-y divide-gray-100 dark:divide-gray-800">
         {
           view.entries.map((e, i) => (
-            <tr class="chart-row hover:bg-gray-50 dark:hover:bg-gray-800/50" data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)} data-extra={i >= INITIAL ? '' : undefined}>
+            <tr
+              class="chart-row hover:bg-gray-50 data-seen:bg-emerald-50/60 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/30"
+              data-key={movies ? e.key : undefined}
+              data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
+              data-extra={i >= INITIAL ? '' : undefined}
+              data-genres={filters[i] && `|${filters[i].genres.join('|')}|`}
+              data-providers={filters[i] && `|${filters[i].providers.join('|')}|`}
+              data-runtime={filters[i]?.runtime ?? undefined}
+              data-vote={filters[i]?.vote ?? undefined}
+            >
               <td class="px-2 py-2 text-right text-base font-bold tabular-nums sm:px-3">{e.rank}</td>
               <td class="px-1 py-2 text-center text-xs sm:px-2">
                 <ChangeBadge change={e.change} />
@@ -118,6 +239,12 @@ const INITIAL = 20;
                         {e.points} punti · {e.daysInChart} {e.daysInChart === 1 ? 'giorno' : 'giorni'} · migliore {e.bestRank}°
                       </p>
                     )}
+                    {movies && (
+                      <label class="chart-seen mt-1 hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
+                        <input type="checkbox" class="size-3.5 cursor-pointer accent-emerald-600" />
+                        Visto<span class="sr-only">: {e.title}</span>
+                      </label>
+                    )}
                   </div>
                 </div>
               </td>
@@ -145,7 +272,7 @@ const INITIAL = 20;
         }
       </tbody>
     </table>
-    <p class="chart-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun risultato per questa ricerca.</p>
+    <p class="chart-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun risultato per questa ricerca o per questi filtri.</p>
   </div>
 
   {
@@ -164,9 +291,28 @@ const INITIAL = 20;
 </div>
 
 <script>
+  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+
   // Ricerca e "mostra tutto": miglioramento progressivo, senza JS la tabella è completa.
   const normalize = (s: string) =>
     s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+  // Scelta del filtro sui film visti, ricordata tra una visita e l'altra.
+  const SEEN_VIEW_KEY = 'vista:visti';
+  const readView = () => {
+    try {
+      return localStorage.getItem(SEEN_VIEW_KEY) ?? '';
+    } catch {
+      return '';
+    }
+  };
+  const writeView = (value: string) => {
+    try {
+      localStorage.setItem(SEEN_VIEW_KEY, value);
+    } catch {
+      // Storage non disponibile (es. navigazione privata).
+    }
+  };
 
   for (const root of document.querySelectorAll<HTMLElement>('.chart')) {
     const rows = [...root.querySelectorAll<HTMLTableRowElement>('.chart-row')];
@@ -174,23 +320,132 @@ const INITIAL = 20;
     const count = root.querySelector<HTMLElement>('.chart-count')!;
     const empty = root.querySelector<HTMLElement>('.chart-empty')!;
     const more = root.querySelector<HTMLButtonElement>('.chart-more');
+    const filterBox = root.querySelector<HTMLElement>('.chart-filters');
+    const selects = [...root.querySelectorAll<HTMLSelectElement>('[data-filter]')];
+    const multis = [...root.querySelectorAll<HTMLDetailsElement>('[data-multi]')];
+    /** Valori scelti in un menu a scelta multipla. */
+    const chosen = (m: HTMLDetailsElement) =>
+      [...m.querySelectorAll<HTMLButtonElement>('[aria-pressed=true]')].map((b) => b.dataset.value!);
+    const reset = root.querySelector<HTMLButtonElement>('.chart-reset');
+    filterBox?.classList.replace('hidden', 'flex');
     let expanded = false;
+
+    const seenSelect = root.querySelector<HTMLSelectElement>('[data-filter=seen]');
+    const seen = seenKeys();
+    /** Conteggi accanto alle voci del filtro: "Già visti (3)". */
+    const countSeen = () => {
+      if (!seenSelect) return;
+      const have = rows.filter((row) => 'seen' in row.dataset).length;
+      const counts: Record<string, number> = { '': rows.length, 'da-vedere': rows.length - have, visti: have };
+      for (const opt of seenSelect.options) opt.textContent = `${opt.dataset.label} (${counts[opt.value]})`;
+    };
+    for (const row of rows) {
+      const label = row.querySelector<HTMLElement>('.chart-seen');
+      if (!label) continue;
+      const key = row.dataset.key!;
+      const box = label.querySelector('input')!;
+      label.classList.replace('hidden', 'inline-flex');
+      box.checked = seen.has(key);
+      row.toggleAttribute('data-seen', box.checked);
+      box.addEventListener('change', () => setSeen(key, box.checked));
+    }
+    // Spunta cambiata qui o nella scheda del film: aggiorna la riga (anche un eventuale doppione) e i filtri.
+    document.addEventListener(SEEN_EVENT, (ev) => {
+      const { key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      for (const row of rows) {
+        if (row.dataset.key !== key) continue;
+        row.toggleAttribute('data-seen', seen);
+        const box = row.querySelector<HTMLInputElement>('.chart-seen input');
+        if (box) box.checked = seen;
+      }
+      update();
+    });
+    if (seenSelect) {
+      const saved = readView();
+      if ([...seenSelect.options].some((o) => o.value === saved)) seenSelect.value = saved;
+    }
+
+    /** Il film passa i filtri scelti; senza il dato (es. durata sconosciuta) è escluso. */
+    const passes = (row: HTMLTableRowElement) =>
+      multis.every((m) => {
+        const values = chosen(m);
+        const have = (m.dataset.multi === 'provider' ? row.dataset.providers : row.dataset.genres) ?? '';
+        return !values.length || values.some((v) => have.includes(`|${v}|`));
+      }) &&
+      selects.every((sel) => {
+        const v = sel.value;
+        if (!v) return true;
+        const d = row.dataset;
+        switch (sel.dataset.filter) {
+          case 'runtime': {
+            const [min, max] = v.split('-').map(Number);
+            const r = Number(d.runtime);
+            return Boolean(d.runtime) && r >= min! && r <= max!;
+          }
+          case 'vote':
+            return Boolean(d.vote) && Number(d.vote) >= Number(v);
+          case 'seen':
+            return v === 'visti' ? 'seen' in d : !('seen' in d);
+          default:
+            return true;
+        }
+      });
 
     const update = () => {
       const q = normalize(input.value);
+      const filtered = selects.some((sel) => sel.value) || multis.some((m) => chosen(m).length);
+      for (const m of multis) {
+        const values = chosen(m);
+        m.querySelector('.chart-multi-label')!.textContent =
+          values.length === 0 ? m.dataset.all! : values.length === 1 ? values[0]! : `${values[0]} +${values.length - 1}`;
+      }
+      countSeen();
+      if (seenSelect) writeView(seenSelect.value);
+      const narrowing = q !== '' || filtered;
       let visible = 0;
       for (const row of rows) {
-        const match = !q || row.dataset.q!.includes(q);
-        const show = match && (q !== '' || expanded || !('extra' in row.dataset));
+        const match = (!q || row.dataset.q!.includes(q)) && (!filtered || passes(row));
+        const show = match && (narrowing || expanded || !('extra' in row.dataset));
         row.hidden = !show;
         if (show) visible++;
       }
       empty.classList.toggle('hidden', visible > 0);
-      if (more) more.classList.toggle('hidden', expanded || q !== '');
-      count.textContent = q ? `${visible} ${visible === 1 ? 'risultato' : 'risultati'}` : '';
+      if (more) more.classList.toggle('hidden', expanded || narrowing);
+      reset?.classList.toggle('hidden', !filtered);
+      count.textContent = narrowing ? `${visible} ${visible === 1 ? 'risultato' : 'risultati'}` : '';
     };
 
     input.addEventListener('input', update);
+    for (const sel of selects) sel.addEventListener('change', update);
+    for (const m of multis) {
+      m.addEventListener('click', (ev) => {
+        const btn = (ev.target as Element).closest<HTMLButtonElement>('button[data-value]');
+        if (!btn) return;
+        btn.setAttribute('aria-pressed', String(btn.getAttribute('aria-pressed') !== 'true'));
+        update();
+      });
+      // Un solo menu aperto alla volta; si chiude con un clic fuori o con Esc.
+      m.addEventListener('toggle', () => {
+        if (m.open) for (const other of multis) if (other !== m) other.open = false;
+      });
+      m.addEventListener('keydown', (ev) => {
+        if (ev.key !== 'Escape' || !m.open) return;
+        m.open = false;
+        m.querySelector('summary')!.focus();
+      });
+    }
+    document.addEventListener('click', (ev) => {
+      for (const m of multis) if (m.open && !m.contains(ev.target as Node)) m.open = false;
+    });
+    reset?.addEventListener('click', () => {
+      for (const sel of selects) sel.value = '';
+      for (const m of multis) {
+        m.open = false;
+        for (const b of m.querySelectorAll('[aria-pressed]')) b.setAttribute('aria-pressed', 'false');
+      }
+      update();
+      (multis[0]?.querySelector('summary') ?? selects[0])?.focus();
+    });
     more?.addEventListener('click', () => {
       expanded = true;
       more.setAttribute('aria-expanded', 'true');

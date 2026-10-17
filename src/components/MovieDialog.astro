@@ -41,6 +41,11 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
         <p id="movie-original" class="mt-0.5 text-sm text-gray-600 italic dark:text-gray-400"></p>
         <p id="movie-directors-row" class="mt-1 text-lg text-gray-700 dark:text-gray-300">Regia di <span id="movie-directors"></span></p>
         <p id="movie-meta" class="mt-2 text-sm text-gray-600 dark:text-gray-400"></p>
+        <!-- Spunta condivisa con la classifica (src/lib/seen.ts). -->
+        <label class="mt-3 inline-flex cursor-pointer items-center gap-2 rounded-lg border border-gray-300 px-3 py-1.5 text-sm font-medium select-none has-checked:border-emerald-600 has-checked:bg-emerald-50 has-checked:text-emerald-800 dark:border-gray-700 dark:has-checked:border-emerald-600 dark:has-checked:bg-emerald-950/40 dark:has-checked:text-emerald-200">
+          <input id="movie-seen" type="checkbox" class="size-4 cursor-pointer accent-emerald-600" />
+          L'ho visto
+        </label>
       </div>
 
       <p id="movie-tagline" class="border-l-4 border-indigo-300 pl-3 text-sm text-gray-700 italic dark:border-indigo-700 dark:text-gray-300"></p>
@@ -82,6 +87,7 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
 
 <script>
   import { setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
   import type { MovieCard, WatchProvider } from '../lib/types';
 
   const dialog = document.querySelector<HTMLDialogElement>('#movie-dialog');
@@ -128,10 +134,21 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
       return row;
     };
 
+    // Film mostrato nella modale, per la spunta "L'ho visto".
+    let current: string | null = null;
+    const seenBox = $<HTMLInputElement>('movie-seen');
+    seenBox.addEventListener('change', () => current && setSeen(current, seenBox.checked));
+    document.addEventListener(SEEN_EVENT, (ev) => {
+      const { key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      if (key === current) seenBox.checked = seen;
+    });
+
     const render = (key: string) => {
       const m = movies[key];
       if (!m) return false;
       const info = m.info;
+      current = key;
+      seenBox.checked = seenKeys().has(key);
 
       $('movie-title').textContent = m.title;
       $('movie-original').textContent = info?.originalTitle ? `Titolo originale: ${info.originalTitle}` : '';
