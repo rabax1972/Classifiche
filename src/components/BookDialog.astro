@@ -2,7 +2,7 @@
 // Modale con la scheda di un libro: si apre dai titoli della classifica Libri e delle liste di libri curate
 // (pulsanti .book-open[data-libro]). I dati dei libri della pagina sono incorporati come JSON; il contenuto è
 // costruito con textContent.
-import { getBookInfo } from '../lib/data';
+import { getBookInfo, getFreeEdition } from '../lib/data';
 import type { BookCard, BookItem } from '../lib/types';
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 const { books: items } = Astro.props;
 
 const books: Record<string, BookCard> = {};
-for (const { key, ...b } of items) books[key] ??= { ...b, info: getBookInfo(key) };
+for (const { key, ...b } of items) books[key] ??= { ...b, info: getBookInfo(key), free: getFreeEdition(key) };
 ---
 
 <script type="application/json" id="book-data" set:html={JSON.stringify(books).replace(/</g, '\\u003c')} />
@@ -55,6 +55,15 @@ for (const { key, ...b } of items) books[key] ??= { ...b, info: getBookInfo(key)
         </p>
         <p id="book-own-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Descrizione a cura di Classifiche Italia.</p>
       </div>
+
+      <section id="book-free" aria-labelledby="book-free-title" class="rounded-xl border border-emerald-300 bg-emerald-50 p-4 dark:border-emerald-800 dark:bg-emerald-950/40">
+        <h3 id="book-free-title" class="font-semibold text-emerald-900 dark:text-emerald-200">Scaricalo gratis: è di pubblico dominio</h3>
+        <p id="book-free-why" class="mt-1 text-sm text-emerald-900/80 dark:text-emerald-200/80"></p>
+        <div id="book-free-links" class="mt-3 flex flex-wrap gap-2 text-sm font-medium"></div>
+        <p class="mt-2 text-xs text-emerald-900/70 dark:text-emerald-200/70">
+          Liber Liber e Wikisource pubblicano solo testi liberi da diritti, traduzioni comprese.
+        </p>
+      </section>
 
       <div class="flex flex-wrap gap-2 text-sm font-medium">
         <a id="book-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su Apple Books</a>
@@ -130,6 +139,39 @@ for (const { key, ...b } of items) books[key] ??= { ...b, info: getBookInfo(key)
       $('book-blurb-source').hidden = !info?.blurb;
       $('book-wiki-source').hidden = Boolean(info?.blurb) || !wiki;
       $('book-own-source').hidden = Boolean(info?.blurb || wiki) || !b.description;
+
+      const free = b.free;
+      $('book-free').hidden = !free;
+      if (free) {
+        const year = (y: number) => (y < 0 ? `${-y} a.C.` : String(y));
+        const several = (b.author ?? '').split(/,| & | e /).length > 1;
+        $('book-free-why').textContent =
+          free.authorDied === null
+            ? "È un'opera antica, non protetta dal diritto d'autore."
+            : `Anno di morte ${several ? "dell'ultimo autore" : "dell'autore"}: ${year(free.authorDied)}. In Italia i diritti d'autore scadono 70 anni dopo.`;
+        const title = b.title.replace(/\s*\(.*?\)/g, '');
+        const links: [url: string, label: string, primary: boolean][] = [];
+        if (free.liberLiber) links.push([free.liberLiber, 'Scarica da Liber Liber', true]);
+        if (free.wikisource) links.push([free.wikisource.epub, 'Scarica EPUB da Wikisource', !free.liberLiber], [free.wikisource.url, 'Leggi su Wikisource', false]);
+        if (!links.length)
+          links.push(
+            [`https://liberliber.it/?s=${encodeURIComponent(title)}`, 'Cerca su Liber Liber', true],
+            [`https://it.wikisource.org/w/index.php?search=${encodeURIComponent(title)}`, 'Cerca su Wikisource', false],
+          );
+        $('book-free-links').replaceChildren(
+          ...links.map(([url, label, primary]) => {
+            const a = document.createElement('a');
+            a.className = primary
+              ? 'rounded-lg bg-emerald-700 px-3 py-2 text-white hover:bg-emerald-800'
+              : 'rounded-lg border border-emerald-400 px-3 py-2 text-emerald-900 hover:bg-emerald-100 dark:border-emerald-700 dark:text-emerald-200 dark:hover:bg-emerald-900/50';
+            a.rel = 'noopener';
+            a.target = '_blank';
+            a.textContent = label;
+            setLink(a, url, `${label}: ${b.title}`);
+            return a;
+          }),
+        );
+      }
 
       const query = `${b.title} ${b.author ?? ''}`.trim();
       const apple = $<HTMLAnchorElement>('book-apple');

@@ -1,4 +1,5 @@
-// Schede dei libri (e poi degli autori, scripts/author-info.ts) per le modali dei Libri: la trama è la presentazione
+// Schede dei libri (e poi degli autori, scripts/author-info.ts, e delle edizioni gratuite, scripts/free-books.ts)
+// per le modali dei Libri: la trama è la presentazione
 // dell'editore su Apple Books (API di lookup di iTunes), citata in pagina con il link al libro; genere, uscita e
 // copertina grande dalla stessa scheda. Senza presentazione, l'introduzione della voce di Wikipedia (CC BY-SA).
 //
@@ -18,6 +19,7 @@ import { curatedKey, nameMatch, overlap, stripParens } from './lib/match';
 import { DATA_DIR, MetaCache, readChart } from './lib/store';
 import { trimExtract, wikiUrl } from './lib/wiki';
 import { lookupAuthorInfo } from './author-info';
+import { lookupFreeBooks } from './free-books';
 
 export const BOOK_INFO_CACHE = 'book-info';
 const CACHE = { retries: 1, cacheTtlMs: 7 * 86_400_000 };
@@ -40,7 +42,10 @@ const firstAuthor = (s: string | null) => (s ?? '').split(/,| & | e /i)[0]!.trim
 const cleanUrl = (url: string | undefined) => url?.replace(/[?&]uo=\d+/, '') ?? null;
 
 /** Un libro di cui serve la scheda: dalla classifica Libri o da una lista curata. */
-export type BookTarget = Pick<RankedEntry, 'title' | 'subtitle' | 'cover' | 'sourceUrl' | 'externalId'>;
+export type BookTarget = Pick<RankedEntry, 'title' | 'subtitle' | 'cover' | 'sourceUrl' | 'externalId'> & {
+  /** Anno di prima edizione (solo liste curate). */
+  year?: number | string;
+};
 
 const CURATED_BOOKS = ['libri-da-avere', 'libri-le-monde'];
 
@@ -55,7 +60,7 @@ export async function bookTargets(): Promise<Map<string, BookTarget>> {
     const list = JSON.parse(await readFile(path.join(DATA_DIR, 'curated', `${id}.json`), 'utf8')) as CuratedList;
     for (const e of list.entries) {
       const appleId = e.url?.match(/books\.apple\.com\/.*\/id(\d+)/)?.[1];
-      out.set(curatedKey(e), { title: e.title, subtitle: e.creator, cover: e.cover ?? null, sourceUrl: e.url ?? null, externalId: appleId ? `apple:${appleId}` : null });
+      out.set(curatedKey(e), { title: e.title, subtitle: e.creator, cover: e.cover ?? null, sourceUrl: e.url ?? null, externalId: appleId ? `apple:${appleId}` : null, year: e.year });
     }
   }
   return out;
@@ -172,6 +177,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]!).href) {
   Promise.resolve()
     .then(() => lookupBookInfo({ budget }))
     .then(() => lookupAuthorInfo({ budget }))
+    .then(() => lookupFreeBooks())
     .catch((e) => {
       console.error(e);
       process.exit(1);

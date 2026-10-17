@@ -1,0 +1,710 @@
+{
+  "alain fournier|il grande meaulnes": {
+    "value": {
+      "authorDied": 1914,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.050Z"
+  },
+  "alessandro manzoni|i promessi sposi": {
+    "value": {
+      "authorDied": 1873,
+      "liberLiber": "https://liberliber.it/autori/autori-m/alessandro-francesco-tommaso-manzoni/i-promessi-sposi-edizione-a-mondadori-1985/",
+      "wikisource": {
+        "title": "I promessi sposi (1840)",
+        "url": "https://it.wikisource.org/wiki/I_promessi_sposi_(1840)",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=I_promessi_sposi_(1840)"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:07:46.933Z"
+  },
+  "alexandre dumas|i tre moschettieri": {
+    "value": {
+      "authorDied": 1806,
+      "liberLiber": "https://liberliber.it/autori/autori-d/alexandre-dumas-pere/i-tre-moschettieri/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:10.840Z"
+  },
+  "alexandre dumas|il conte di montecristo": {
+    "value": {
+      "authorDied": 1806,
+      "liberLiber": "https://liberliber.it/autori/autori-d/alexandre-dumas-pere/il-conte-di-montecristo/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:25.667Z"
+  },
+  "andre gide|i falsari": {
+    "value": {
+      "authorDied": 1951,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.074Z"
+  },
+  "anna frank|diario di anna frank": {
+    "value": {
+      "authorDied": 1945,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.062Z"
+  },
+  "antoine de saint exupery|il piccolo principe": {
+    "value": {
+      "authorDied": 1944,
+      "liberLiber": "https://liberliber.it/autori/autori-s/antoine-de-saint-exupery/il-piccolo-principe/",
+      "wikisource": {
+        "title": "Il piccolo principe",
+        "url": "https://it.wikisource.org/wiki/Il_piccolo_principe",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Il_piccolo_principe"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:05:09.527Z"
+  },
+  "antonin artaud|il teatro e il suo doppio": {
+    "value": {
+      "authorDied": 1948,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.151Z"
+  },
+  "arthur conan doyle|il mastino dei baskerville": {
+    "value": {
+      "authorDied": 1930,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.094Z"
+  },
+  "arthur conan doyle|le avventure di sherlock holmes": {
+    "value": {
+      "authorDied": 1930,
+      "liberLiber": "https://liberliber.it/autori/autori-d/arthur-conan-doyle/le-avventure-di-sherlock-holmes/",
+      "wikisource": {
+        "title": "Le avventure di Sherlock Holmes",
+        "url": "https://it.wikisource.org/wiki/Le_avventure_di_Sherlock_Holmes",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Le_avventure_di_Sherlock_Holmes"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:05:07.470Z"
+  },
+  "autori vari|la bibbia": {
+    "value": {
+      "authorDied": null,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.917Z"
+  },
+  "bram stoker|dracula": {
+    "value": {
+      "authorDied": 1912,
+      "liberLiber": "https://liberliber.it/autori/autori-s/bram-stoker/dracula-luomo-della-notte/",
+      "wikisource": {
+        "title": "Dracula",
+        "url": "https://it.wikisource.org/wiki/Dracula",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Dracula"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:29.918Z"
+  },
+  "carlo collodi|le avventure di pinocchio": {
+    "value": {
+      "authorDied": 1890,
+      "liberLiber": "https://liberliber.it/autori/autori-c/carlo-collodi-alias-carlo-lorenzini/pinocchio/",
+      "wikisource": {
+        "title": "Le avventure di Pinocchio",
+        "url": "https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Le_avventure_di_Pinocchio"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:07:46.997Z"
+  },
+  "cesare pavese|la luna e i falo": {
+    "value": {
+      "authorDied": 1950,
+      "liberLiber": "https://liberliber.it/autori/autori-p/cesare-pavese/la-luna-e-i-falo/",
+      "wikisource": {
+        "title": "La luna e i falò",
+        "url": "https://it.wikisource.org/wiki/La_luna_e_i_fal%C3%B2",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=La_luna_e_i_fal%C3%B2"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:26.705Z"
+  },
+  "charles dickens|canto di natale": {
+    "value": {
+      "authorDied": 1870,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.031Z"
+  },
+  "charles dickens|casa desolata": {
+    "value": {
+      "authorDied": 1870,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.969Z"
+  },
+  "charles dickens|david copperfield": {
+    "value": {
+      "authorDied": 1870,
+      "liberLiber": "https://liberliber.it/autori/autori-d/charles-dickens/david-copperfield/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:16.010Z"
+  },
+  "charles dickens|oliver twist": {
+    "value": {
+      "authorDied": 1870,
+      "liberLiber": "https://liberliber.it/autori/autori-d/charles-dickens/oliver-twist/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:28.933Z"
+  },
+  "colette|viticci": {
+    "value": {
+      "authorDied": 1954,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.116Z"
+  },
+  "d h lawrence|l amante di lady chatterley": {
+    "value": {
+      "authorDied": 1930,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.084Z"
+  },
+  "dante alighieri|la divina commedia": {
+    "value": {
+      "authorDied": 1321,
+      "liberLiber": "https://liberliber.it/autori/autori-a/dante-alighieri/la-divina-commedia-edizione-scartazzini-e-vandelli/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:03.622Z"
+  },
+  "delitto e castigo|fedor dostoevskij": {
+    "value": {
+      "authorDied": 1881,
+      "liberLiber": "https://liberliber.it/autori/autori-d/fedor-mihajlovic-dostoevskij/delitto-e-castigo/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:03:34.934Z"
+  },
+  "edmondo de amicis|cuore": {
+    "value": {
+      "authorDied": 1908,
+      "liberLiber": "https://liberliber.it/autori/autori-d/edmondo-de-amicis/cuore/",
+      "wikisource": {
+        "title": "Cuore (1889)",
+        "url": "https://it.wikisource.org/wiki/Cuore_(1889)",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Cuore_(1889)"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:18.117Z"
+  },
+  "emile zola|germinale": {
+    "value": {
+      "authorDied": 1902,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.024Z"
+  },
+  "emily bronte|cime tempestose": {
+    "value": {
+      "authorDied": 1848,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.924Z"
+  },
+  "f scott fitzgerald|il grande gatsby": {
+    "value": {
+      "authorDied": 1940,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.966Z"
+  },
+  "federico garcia lorca|romancero gitano": {
+    "value": {
+      "authorDied": 1936,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.156Z"
+  },
+  "fedor dostoevskij|delitto e castigo": {
+    "value": {
+      "authorDied": 1881,
+      "liberLiber": "https://liberliber.it/autori/autori-d/fedor-mihajlovic-dostoevskij/delitto-e-castigo/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:11.995Z"
+  },
+  "franz kafka|il processo": {
+    "value": {
+      "authorDied": 1924,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.957Z"
+  },
+  "george orwell|1984": {
+    "value": {
+      "authorDied": 1950,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.928Z"
+  },
+  "george orwell|la fattoria degli animali": {
+    "value": {
+      "authorDied": 1950,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.990Z"
+  },
+  "georges bernanos|sotto il sole di satana": {
+    "value": {
+      "authorDied": 1948,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.097Z"
+  },
+  "giovanni verga|i malavoglia": {
+    "value": {
+      "authorDied": 1922,
+      "liberLiber": "https://liberliber.it/autori/autori-v/giovanni-verga/i-malavoglia/",
+      "wikisource": {
+        "title": "I Malavoglia",
+        "url": "https://it.wikisource.org/wiki/I_Malavoglia",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=I_Malavoglia"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:20.151Z"
+  },
+  "guillaume apollinaire|alcools": {
+    "value": {
+      "authorDied": 1918,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.056Z"
+  },
+  "gustave flaubert|madame bovary": {
+    "value": {
+      "authorDied": 1880,
+      "liberLiber": "https://liberliber.it/autori/autori-f/gustave-flaubert/madame-bovary/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:05.392Z"
+  },
+  "h g wells|la guerra dei mondi": {
+    "value": {
+      "authorDied": 1946,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.113Z"
+  },
+  "herman melville|moby dick": {
+    "value": {
+      "authorDied": 1891,
+      "liberLiber": "https://liberliber.it/autori/autori-m/herman-melville/moby-dick/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:27.635Z"
+  },
+  "i fratelli karamazov|fedor dostoevskij": {
+    "value": {
+      "authorDied": 1881,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.901Z"
+  },
+  "italo svevo|la coscienza di zeno": {
+    "value": {
+      "authorDied": 1928,
+      "liberLiber": "https://liberliber.it/autori/autori-s/italo-alias-ettore-schmitz-svevo/la-coscienza-di-zeno/",
+      "wikisource": {
+        "title": "La coscienza di Zeno",
+        "url": "https://it.wikisource.org/wiki/La_coscienza_di_Zeno",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=La_coscienza_di_Zeno"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:19.139Z"
+  },
+  "jack london|martin eden": {
+    "value": {
+      "authorDied": 1916,
+      "liberLiber": "https://liberliber.it/autori/autori-l/jack-london/martin-eden/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:32.222Z"
+  },
+  "james joyce|ulisse": {
+    "value": {
+      "authorDied": 1941,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.012Z"
+  },
+  "jane austen|emma": {
+    "value": {
+      "authorDied": 1817,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.983Z"
+  },
+  "jane austen|orgoglio e pregiudizio": {
+    "value": {
+      "authorDied": 1817,
+      "liberLiber": null,
+      "wikisource": {
+        "title": "Orgoglio e pregiudizio (1945)",
+        "url": "https://it.wikisource.org/wiki/Orgoglio_e_pregiudizio_(1945)",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Orgoglio_e_pregiudizio_(1945)"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:07:46.907Z"
+  },
+  "jerome k jerome|tre uomini in barca": {
+    "value": {
+      "authorDied": 1927,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.006Z"
+  },
+  "johann wolfgang von goethe|i dolori del giovane werther": {
+    "value": {
+      "authorDied": 1832,
+      "liberLiber": "https://liberliber.it/autori/autori-g/johann-wolfgang-von-goethe/i-dolori-del-giovane-werther/",
+      "wikisource": {
+        "title": "I dolori del giovane Werther",
+        "url": "https://it.wikisource.org/wiki/I_dolori_del_giovane_Werther",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=I_dolori_del_giovane_Werther"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:23.580Z"
+  },
+  "johann wolfgang von goethe|le affinita elettive": {
+    "value": {
+      "authorDied": 1832,
+      "liberLiber": "https://liberliber.it/autori/autori-g/johann-wolfgang-von-goethe/le-affinita-elettive/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:07.794Z"
+  },
+  "joseph conrad|cuore di tenebra": {
+    "value": {
+      "authorDied": 1924,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.037Z"
+  },
+  "joseph conrad|lord jim": {
+    "value": {
+      "authorDied": 1924,
+      "liberLiber": "https://liberliber.it/autori/autori-c/joseph-conrad/lord-jim/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:36.693Z"
+  },
+  "jules renard|diario": {
+    "value": {
+      "authorDied": 1910,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.146Z"
+  },
+  "kahlil gibran|il profeta": {
+    "value": {
+      "authorDied": 1931,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.911Z"
+  },
+  "la fattoria degli animali|george orwell": {
+    "value": {
+      "authorDied": 1950,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.878Z"
+  },
+  "la metamorfosi|franz kafka": {
+    "value": {
+      "authorDied": 1924,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.895Z"
+  },
+  "le notti bianche|fedor dostoevskij": {
+    "value": {
+      "authorDied": 1881,
+      "liberLiber": "https://liberliber.it/autori/autori-d/fedor-mihajlovic-dostoevskij/le-notti-bianche/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:03:33.018Z"
+  },
+  "lev tolstoj|anna karenina": {
+    "value": {
+      "authorDied": 1910,
+      "liberLiber": "https://liberliber.it/autori/autori-t/lev-nikolaevic-tolstoj/anna-karenina/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:14.988Z"
+  },
+  "lev tolstoj|guerra e pace": {
+    "value": {
+      "authorDied": 1910,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.975Z"
+  },
+  "lewis carroll|alice nel paese delle meraviglie": {
+    "value": {
+      "authorDied": 1898,
+      "liberLiber": "https://liberliber.it/autori/autori-c/lewis-carroll-alias-charles-lutwidge-dodgson/alice-nel-paese-delle-meraviglie-istituto-editoriale-italiano/",
+      "wikisource": {
+        "title": "Alice nel Paese delle meraviglie",
+        "url": "https://it.wikisource.org/wiki/Alice_nel_Paese_delle_meraviglie",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Alice_nel_Paese_delle_meraviglie"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:14.038Z"
+  },
+  "louisa may alcott|piccole donne": {
+    "value": {
+      "authorDied": 1888,
+      "liberLiber": "https://liberliber.it/autori/autori-a/louisa-may-alcott/piccole-donne/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:04:04.588Z"
+  },
+  "luigi pirandello|il fu mattia pascal": {
+    "value": {
+      "authorDied": 1936,
+      "liberLiber": "https://liberliber.it/autori/autori-p/luigi-pirandello/il-fu-mattia-pascal/",
+      "wikisource": {
+        "title": "Il fu Mattia Pascal",
+        "url": "https://it.wikisource.org/wiki/Il_fu_Mattia_Pascal",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Il_fu_Mattia_Pascal"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:21.526Z"
+  },
+  "luigi pirandello|sei personaggi in cerca d autore": {
+    "value": {
+      "authorDied": 1936,
+      "liberLiber": "https://liberliber.it/autori/autori-p/luigi-pirandello/sei-personaggi-in-cerca-dautore/",
+      "wikisource": {
+        "title": "Sei personaggi in cerca d'autore",
+        "url": "https://it.wikisource.org/wiki/Sei_personaggi_in_cerca_d'autore",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Sei_personaggi_in_cerca_d'autore"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:05:27.895Z"
+  },
+  "marcel proust|alla ricerca del tempo perduto": {
+    "value": {
+      "authorDied": 1922,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.045Z"
+  },
+  "margaret mitchell|via col vento": {
+    "value": {
+      "authorDied": 1949,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.963Z"
+  },
+  "michail bulgakov|il maestro e margherita": {
+    "value": {
+      "authorDied": 1940,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.165Z"
+  },
+  "miguel de cervantes|don chisciotte della mancia": {
+    "value": {
+      "authorDied": 1616,
+      "liberLiber": "https://liberliber.it/autori/autori-c/miguel-de-cervantes-saavedra/don-chisciotte-della-mancia/",
+      "wikisource": {
+        "title": "Don Chisciotte della Mancia",
+        "url": "https://it.wikisource.org/wiki/Don_Chisciotte_della_Mancia",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Don_Chisciotte_della_Mancia"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:22.538Z"
+  },
+  "omero|odissea": {
+    "value": {
+      "authorDied": -800,
+      "liberLiber": "https://liberliber.it/autori/autori-h/homerus-omero/odissea-salvini/",
+      "wikisource": {
+        "title": "Odissea (Pindemonte)",
+        "url": "https://it.wikisource.org/wiki/Odissea_(Pindemonte)",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Odissea_(Pindemonte)"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:04:12.861Z"
+  },
+  "oscar wilde|il ritratto di dorian gray": {
+    "value": {
+      "authorDied": 1900,
+      "liberLiber": "https://liberliber.it/autori/autori-w/oscar-wilde/il-ritratto-di-dorian-gray/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:04.371Z"
+  },
+  "paul claudel|le soulier de satin": {
+    "value": {
+      "authorDied": 1955,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.108Z"
+  },
+  "paul eluard|capitale de la douleur": {
+    "value": {
+      "authorDied": 1952,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.124Z"
+  },
+  "rainer maria rilke|i quaderni di malte laurids brigge": {
+    "value": {
+      "authorDied": 1926,
+      "liberLiber": "https://liberliber.it/autori/autori-r/rainer-maria-rilke/malte-laurids-brigge/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.161Z"
+  },
+  "robert musil|l uomo senza qualita": {
+    "value": {
+      "authorDied": 1942,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.160Z"
+  },
+  "selma lagerlof|il viaggio meraviglioso di nils holgersson": {
+    "value": {
+      "authorDied": 1940,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.136Z"
+  },
+  "sigmund freud|tre saggi sulla teoria sessuale": {
+    "value": {
+      "authorDied": 1939,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.066Z"
+  },
+  "stefan zweig|sovvertimento dei sensi": {
+    "value": {
+      "authorDied": 1942,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.079Z"
+  },
+  "stendhal|il rosso e il nero": {
+    "value": {
+      "authorDied": 1842,
+      "liberLiber": "https://liberliber.it/autori/autori-s/stendhal-alias-marie-henri-beyle/il-rosso-e-il-nero/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:06.540Z"
+  },
+  "thomas mann|i buddenbrook": {
+    "value": {
+      "authorDied": 1955,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.018Z"
+  },
+  "thomas mann|la montagna incantata": {
+    "value": {
+      "authorDied": 1955,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.088Z"
+  },
+  "victor hugo|i miserabili": {
+    "value": {
+      "authorDied": 1885,
+      "liberLiber": "https://liberliber.it/autori/autori-h/victor-hugo/i-miserabili/",
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:05:13.539Z"
+  },
+  "virginia woolf|una stanza tutta per se": {
+    "value": {
+      "authorDied": 1941,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.144Z"
+  },
+  "william makepeace thackeray|la fiera delle vanita": {
+    "value": {
+      "authorDied": 1863,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:47.027Z"
+  },
+  "william shakespeare|amleto": {
+    "value": {
+      "authorDied": 1616,
+      "liberLiber": "https://liberliber.it/autori/autori-s/william-shakespeare/amleto/",
+      "wikisource": {
+        "title": "Amleto",
+        "url": "https://it.wikisource.org/wiki/Amleto",
+        "epub": "https://ws-export.wmcloud.org/?format=epub&lang=it&page=Amleto"
+      }
+    },
+    "fetchedAt": "2026-10-17T09:05:11.880Z"
+  },
+  "william shakespeare|tutte le opere": {
+    "value": {
+      "authorDied": 1616,
+      "liberLiber": null,
+      "wikisource": null
+    },
+    "fetchedAt": "2026-10-17T09:07:46.940Z"
+  }
+}

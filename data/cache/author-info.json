@@ -14,9 +14,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/a-a-milne/409046876"
+      "appleUrl": "https://books.apple.com/it/artist/a-a-milne/409046876",
+      "died": 1956
     },
-    "fetchedAt": "2026-10-17T08:35:09.744Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "a s byatt": {
     "value": {
@@ -33,9 +34,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/a-s-byatt/436375010"
+      "appleUrl": "https://books.apple.com/it/artist/a-s-byatt/436375010",
+      "died": 2023
     },
-    "fetchedAt": "2026-10-17T08:38:10.937Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "agatha christie": {
     "value": {
@@ -52,17 +54,19 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/agatha-christie/2035795"
+      "appleUrl": "https://books.apple.com/it/artist/agatha-christie/2035795",
+      "died": 1976
     },
-    "fetchedAt": "2026-10-17T08:41:15.598Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "agnese messina": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/agnese-messina/1708919569"
+      "appleUrl": "https://books.apple.com/it/artist/agnese-messina/1708919569",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:24.639Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "alain fournier": {
     "value": {
@@ -79,9 +83,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/alain-fournier/373569417"
+      "appleUrl": "https://books.apple.com/it/artist/alain-fournier/373569417",
+      "died": 1914
     },
-    "fetchedAt": "2026-10-17T08:39:14.077Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "alan friedman": {
     "value": {
@@ -98,9 +103,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/alan-friedman/14471286"
+      "appleUrl": "https://books.apple.com/it/artist/alan-friedman/14471286",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:24.195Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "albert camus": {
     "value": {
@@ -117,9 +123,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/albert-camus/57528162"
+      "appleUrl": "https://books.apple.com/it/artist/albert-camus/57528162",
+      "died": 1960
     },
-    "fetchedAt": "2026-10-17T08:39:09.961Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "albert cohen": {
     "value": {
@@ -136,9 +143,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/albert-cohen/198726873"
+      "appleUrl": "https://books.apple.com/it/artist/albert-cohen/198726873",
+      "died": 1981
     },
-    "fetchedAt": "2026-10-17T08:41:02.157Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "albert uderzo": {
     "value": {
@@ -155,9 +163,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 2020
     },
-    "fetchedAt": "2026-10-17T08:47:15.930Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "alberto moravia": {
     "value": {
@@ -174,9 +183,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760"
+      "appleUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760",
+      "died": 1990
     },
-    "fetchedAt": "2026-10-17T08:35:13.798Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "aldo cazzullo": {
     "value": {
@@ -193,9 +203,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/aldo-cazzullo/467367482"
+      "appleUrl": "https://books.apple.com/it/artist/aldo-cazzullo/467367482",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:23.537Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "aldous huxley": {
     "value": {
@@ -212,9 +223,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/aldous-huxley/2064186"
+      "appleUrl": "https://books.apple.com/it/artist/aldous-huxley/2064186",
+      "died": 1963
     },
-    "fetchedAt": "2026-10-17T08:36:13.759Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "aleksandr solzenicyn": {
     "value": {
@@ -231,17 +243,19 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/aleksandr-solzenicyn/505762174"
+      "appleUrl": "https://books.apple.com/it/artist/aleksandr-solzenicyn/505762174",
+      "died": 2008
     },
-    "fetchedAt": "2026-10-17T08:47:13.958Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "alessandra carnevali": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/alessandra-carnevali/866105181"
+      "appleUrl": "https://books.apple.com/it/artist/alessandra-carnevali/866105181",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:19.596Z"
+    "fetchedAt": "2026-10-17T09:03:31.745Z"
   },
   "alessandro manzoni": {
     "value": {
@@ -258,9 +272,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/alessandro-manzoni/265526905"
+      "appleUrl": "https://books.apple.com/it/artist/alessandro-manzoni/265526905",
+      "died": 1873
     },
-    "fetchedAt": "2026-10-17T08:33:22.151Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "alexandre dumas": {
     "value": {
@@ -277,9 +292,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292"
+      "appleUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292",
+      "died": 1806
     },
-    "fetchedAt": "2026-10-17T08:37:09.658Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "ali hazelwood": {
     "value": {
@@ -296,9 +312,10 @@
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/ali-hazelwood/1549344169"
+      "appleUrl": "https://books.apple.com/it/artist/ali-hazelwood/1549344169",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:26.245Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "alice sebold": {
     "value": {
@@ -315,9 +332,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": "https://books.apple.com/it/artist/alice-sebold/2073172"
+      "appleUrl": "https://books.apple.com/it/artist/alice-sebold/2073172",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:37:07.222Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "alice walker": {
     "value": {
@@ -334,9 +352,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/alice-walker/6930652"
+      "appleUrl": "https://books.apple.com/it/artist/alice-walker/6930652",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:38:13.988Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "alicia gimenez bartlett": {
     "value": {
@@ -353,9 +372,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/alicia-gim%C3%A9nez-bartlett/538558074"
+      "appleUrl": "https://books.apple.com/it/artist/alicia-gim%C3%A9nez-bartlett/538558074",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:08.563Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "ana huang": {
     "value": {
@@ -372,9 +392,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/ana-huang/1001710589"
+      "appleUrl": "https://books.apple.com/it/artist/ana-huang/1001710589",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:22.344Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "andre breton": {
     "value": {
@@ -391,9 +412,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-breton/217682616"
+      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-breton/217682616",
+      "died": 1966
     },
-    "fetchedAt": "2026-10-17T08:41:17.440Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "andre franquin": {
     "value": {
@@ -410,9 +432,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-franquin/669981468"
+      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-franquin/669981468",
+      "died": 1997
     },
-    "fetchedAt": "2026-10-17T08:48:02.216Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "andre gide": {
     "value": {
@@ -429,9 +452,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-gide/366210502"
+      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-gide/366210502",
+      "died": 1951
     },
-    "fetchedAt": "2026-10-17T08:40:14.820Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "andre malraux": {
     "value": {
@@ -448,9 +472,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-malraux/274789581"
+      "appleUrl": "https://books.apple.com/it/artist/andr%C3%A9-malraux/274789581",
+      "died": 1976
     },
-    "fetchedAt": "2026-10-17T08:39:11.969Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "anna frank": {
     "value": {
@@ -467,9 +492,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/anne-frank-franco-paris/31091649"
+      "appleUrl": "https://books.apple.com/it/artist/anne-frank-franco-paris/31091649",
+      "died": 1945
     },
-    "fetchedAt": "2026-10-17T08:40:07.640Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "anna premoli": {
     "value": {
@@ -480,9 +506,10 @@
         "extract": "Anna Premoli (6 luglio 1980) è una scrittrice croata con cittadinanza italiana.\n\nÈ nata in Croazia, ma nel 1987 si è trasferita in Italia. Si è laureata in Economia dei mercati finanziari presso l'Università Bocconi, e ha intrapreso la carriera professionale lavorando prima alla JPMorgan Chase occupandosi di asset management e risk management, poi presso una banca d'affari, e attualmente si occupa di investimenti finanziari per una holding di partecipazioni privata.\n\nIl 21 luglio 2013 ha vinto la 61ª edizione del Premio Bancarella, con il romanzo Ti prego lasciati odiare, avendo la meglio su Maurizio De Giovanni, Vanna De Angelis, Ugo Moriano, Bruno Morchio, M.J. Heron."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/anna-premoli/521154492"
+      "appleUrl": "https://books.apple.com/it/artist/anna-premoli/521154492",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:07.736Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "anne carson": {
     "value": {
@@ -499,9 +526,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/anne-carson/320085371"
+      "appleUrl": "https://books.apple.com/it/artist/anne-carson/320085371",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:21.538Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "antoine de saint exupery": {
     "value": {
@@ -518,9 +546,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/antoine-de-saint-exup%C3%A9ry/469689766"
+      "appleUrl": "https://books.apple.com/it/artist/antoine-de-saint-exup%C3%A9ry/469689766",
+      "died": 1944
     },
-    "fetchedAt": "2026-10-17T08:39:01.690Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "antonin artaud": {
     "value": {
@@ -537,9 +566,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1948
     },
-    "fetchedAt": "2026-10-17T08:42:16.978Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "arthur conan doyle": {
     "value": {
@@ -556,9 +586,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824"
+      "appleUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824",
+      "died": 1930
     },
-    "fetchedAt": "2026-10-17T08:38:21.325Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "arthur golden": {
     "value": {
@@ -569,17 +600,19 @@
         "extract": "Arthur Golden (Chattanooga, 6 dicembre 1956) è uno scrittore e saggista statunitense."
       },
       "photo": null,
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:35:07.620Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "becka mack": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/becka-mack/1619921355"
+      "appleUrl": "https://books.apple.com/it/artist/becka-mack/1619921355",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:01.958Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "bertolt brecht": {
     "value": {
@@ -596,17 +629,19 @@
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/bertolt-brecht/322158"
+      "appleUrl": "https://books.apple.com/it/artist/bertolt-brecht/322158",
+      "died": 1956
     },
-    "fetchedAt": "2026-10-17T08:41:21.587Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "bianca marconero": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/bianca-marconero/1055297983"
+      "appleUrl": "https://books.apple.com/it/artist/bianca-marconero/1055297983",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:20.593Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "bill bryson": {
     "value": {
@@ -623,9 +658,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": "https://books.apple.com/it/artist/bill-bryson/2024192"
+      "appleUrl": "https://books.apple.com/it/artist/bill-bryson/2024192",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:38:04.829Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "blaise cendrars": {
     "value": {
@@ -642,9 +678,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/blaise-cendrars/126319009"
+      "appleUrl": "https://books.apple.com/it/artist/blaise-cendrars/126319009",
+      "died": 1961
     },
-    "fetchedAt": "2026-10-17T08:42:21.177Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "boris vian": {
     "value": {
@@ -661,9 +698,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/boris-vian/1436713990"
+      "appleUrl": "https://books.apple.com/it/artist/boris-vian/1436713990",
+      "died": 1959
     },
-    "fetchedAt": "2026-10-17T08:39:14.991Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "bram stoker": {
     "value": {
@@ -680,9 +718,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/bram-stoker/2683478"
+      "appleUrl": "https://books.apple.com/it/artist/bram-stoker/2683478",
+      "died": 1912
     },
-    "fetchedAt": "2026-10-17T08:37:17.488Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "c s lewis": {
     "value": {
@@ -699,9 +738,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/c-s-lewis/2129151"
+      "appleUrl": "https://books.apple.com/it/artist/c-s-lewis/2129151",
+      "died": 1963
     },
-    "fetchedAt": "2026-10-17T08:35:02.552Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "carlo collodi": {
     "value": {
@@ -718,9 +758,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/carlo-collodi/2705618"
+      "appleUrl": "https://books.apple.com/it/artist/carlo-collodi/2705618",
+      "died": 1890
     },
-    "fetchedAt": "2026-10-17T08:36:10.199Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "carlo levi": {
     "value": {
@@ -737,9 +778,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/carlo-levi/427985961"
+      "appleUrl": "https://books.apple.com/it/artist/carlo-levi/427985961",
+      "died": 1975
     },
-    "fetchedAt": "2026-10-17T08:36:03.806Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "carlos ruiz zafon": {
     "value": {
@@ -756,9 +798,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/carlos-ruiz-zaf%C3%B3n/66423302"
+      "appleUrl": "https://books.apple.com/it/artist/carlos-ruiz-zaf%C3%B3n/66423302",
+      "died": 2020
     },
-    "fetchedAt": "2026-10-17T08:36:11.799Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "cesare pavese": {
     "value": {
@@ -775,9 +818,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/cesare-pavese/27755905"
+      "appleUrl": "https://books.apple.com/it/artist/cesare-pavese/27755905",
+      "died": 1950
     },
-    "fetchedAt": "2026-10-17T08:37:11.688Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "charles dickens": {
     "value": {
@@ -794,17 +838,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/charles-dickens/2671774"
+      "appleUrl": "https://books.apple.com/it/artist/charles-dickens/2671774",
+      "died": 1870
     },
-    "fetchedAt": "2026-10-17T08:34:09.937Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "cheryl": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/cheryl/495863350"
+      "appleUrl": "https://books.apple.com/it/artist/cheryl/495863350",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:10.988Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "chiara gamberale": {
     "value": {
@@ -821,17 +867,19 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/chiara-gamberale/467687507"
+      "appleUrl": "https://books.apple.com/it/artist/chiara-gamberale/467687507",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:22.588Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "chiara polita": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/chiara-polita/1062574295"
+      "appleUrl": "https://books.apple.com/it/artist/chiara-polita/1062574295",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:11.964Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "claude levi strauss": {
     "value": {
@@ -848,9 +896,10 @@
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/claude-l%C3%A9vi-strauss/451366664"
+      "appleUrl": "https://books.apple.com/it/artist/claude-l%C3%A9vi-strauss/451366664",
+      "died": 2009
     },
-    "fetchedAt": "2026-10-17T08:40:08.809Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "colette": {
     "value": {
@@ -867,9 +916,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/colette/878558098"
+      "appleUrl": "https://books.apple.com/it/artist/colette/878558098",
+      "died": 1954
     },
-    "fetchedAt": "2026-10-17T08:41:25.525Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "concita de gregorio": {
     "value": {
@@ -886,9 +936,10 @@
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/concita-de-gregorio/467576452"
+      "appleUrl": "https://books.apple.com/it/artist/concita-de-gregorio/467576452",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:08.520Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "cristina caboni": {
     "value": {
@@ -899,9 +950,10 @@
         "extract": "Cristina Caboni (Cagliari, 1968) è una scrittrice italiana."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/cristina-caboni/865388410"
+      "appleUrl": "https://books.apple.com/it/artist/cristina-caboni/865388410",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:24.360Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "d h lawrence": {
     "value": {
@@ -918,9 +970,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/d-h-lawrence/164678419"
+      "appleUrl": "https://books.apple.com/it/artist/d-h-lawrence/164678419",
+      "died": 1930
     },
-    "fetchedAt": "2026-10-17T08:41:08.205Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "dan brown": {
     "value": {
@@ -937,9 +990,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/dan-brown/2079716"
+      "appleUrl": "https://books.apple.com/it/artist/dan-brown/2079716",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:35:10.830Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "dante alighieri": {
     "value": {
@@ -956,9 +1010,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/dante-alighieri/274584661"
+      "appleUrl": "https://books.apple.com/it/artist/dante-alighieri/274584661",
+      "died": 1321
     },
-    "fetchedAt": "2026-10-17T08:33:23.077Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "david baldacci": {
     "value": {
@@ -975,9 +1030,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/david-baldacci/2091351"
+      "appleUrl": "https://books.apple.com/it/artist/david-baldacci/2091351",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:05.106Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "dino buzzati": {
     "value": {
@@ -988,9 +1044,10 @@
         "extract": "Dino Buzzati Traverso (San Pellegrino di Belluno, 16 ottobre 1906 – Milano, 28 gennaio 1972) è stato uno scrittore, giornalista, pittore, drammaturgo, librettista, scenografo, costumista e poeta italiano.\n\nFin da studente collaborò al Corriere della Sera come cronista, redattore e inviato speciale.\n\nAutore di un grande numero di romanzi e racconti surreali e fantastici, tanto da esser stato a più riprese definito il \"Kafka italiano\", viene considerato, insieme a Italo Calvino, Tommaso Landolfi e Juan Rodolfo Wilcock, uno dei più grandi scrittori fantastici del Novecento italiano: il suo libro più noto è Il deserto dei Tartari, romanzo del 1940."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/dino-buzzati/483294371"
+      "appleUrl": "https://books.apple.com/it/artist/dino-buzzati/483294371",
+      "died": 1972
     },
-    "fetchedAt": "2026-10-17T08:40:13.730Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "douglas adams": {
     "value": {
@@ -1007,9 +1064,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/douglas-adams/2080713"
+      "appleUrl": "https://books.apple.com/it/artist/douglas-adams/2080713",
+      "died": 2001
     },
-    "fetchedAt": "2026-10-17T08:34:11.988Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "e b white": {
     "value": {
@@ -1026,9 +1084,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/e-b-white/2024857"
+      "appleUrl": "https://books.apple.com/it/artist/e-b-white/2024857",
+      "died": 1985
     },
-    "fetchedAt": "2026-10-17T08:38:19.302Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "edgar p jacobs": {
     "value": {
@@ -1039,9 +1098,10 @@
         "extract": "Edgar P. Jacobs, pseudonimo di Edgard Félix Pierre Jacobs (Bruxelles, 30 marzo 1904 – Lasne, 20 febbraio 1987), è stato un fumettista belga, creatore della serie Blake e Mortimer.\n\nCollaboratore di Hergé, a sua volta creatore di Tintin, è, nell'ambito della letteratura disegnata, tra gli autori legati allo stile detto ligne claire (linea chiara)."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/edgar-p-jacobs/1837247249"
+      "appleUrl": "https://books.apple.com/it/artist/edgar-p-jacobs/1837247249",
+      "died": 1987
     },
-    "fetchedAt": "2026-10-17T08:42:30.279Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "edmondo de amicis": {
     "value": {
@@ -1058,9 +1118,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/edmondo-de-amicis/366156031"
+      "appleUrl": "https://books.apple.com/it/artist/edmondo-de-amicis/366156031",
+      "died": 1908
     },
-    "fetchedAt": "2026-10-17T08:35:03.590Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "edmund crispin": {
     "value": {
@@ -1071,17 +1132,19 @@
         "extract": "Edmund Crispin, pseudonimo di Robert Bruce Montgomery (Chesham Bois, 2 ottobre 1921 – Londra, 15 settembre 1978), è stato uno scrittore e compositore britannico."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/edmund-crispin/276579168"
+      "appleUrl": "https://books.apple.com/it/artist/edmund-crispin/276579168",
+      "died": 1978
     },
-    "fetchedAt": "2026-10-17T08:18:17.963Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "elena armas": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/elena-armas/1582660360"
+      "appleUrl": "https://books.apple.com/it/artist/elena-armas/1582660360",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:12.953Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "elle kennedy": {
     "value": {
@@ -1092,9 +1155,10 @@
         "extract": "Elle Kennedy (born 19 January 1982) is a Canadian author of contemporary romance and romantic suspense. She is a Romance Writers of America RITA Award winner."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "appleUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:12.061Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "emile zola": {
     "value": {
@@ -1111,9 +1175,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/%C3%A9mile-zola/40772803"
+      "appleUrl": "https://books.apple.com/it/artist/%C3%A9mile-zola/40772803",
+      "died": 1902
     },
-    "fetchedAt": "2026-10-17T08:38:08.881Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "emily bronte": {
     "value": {
@@ -1130,9 +1195,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/emily-bront%C3%AB/2066344"
+      "appleUrl": "https://books.apple.com/it/artist/emily-bront%C3%AB/2066344",
+      "died": 1848
     },
-    "fetchedAt": "2026-10-17T08:33:21.124Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "enid blyton": {
     "value": {
@@ -1149,9 +1215,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/enid-blyton/251823897"
+      "appleUrl": "https://books.apple.com/it/artist/enid-blyton/251823897",
+      "died": 1968
     },
-    "fetchedAt": "2026-10-17T08:38:22.360Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "erich maria remarque": {
     "value": {
@@ -1168,9 +1235,10 @@
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/erich-maria-remarque/40712696"
+      "appleUrl": "https://books.apple.com/it/artist/erich-maria-remarque/40712696",
+      "died": 1970
     },
-    "fetchedAt": "2026-10-17T08:39:04.965Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "ernest hemingway": {
     "value": {
@@ -1187,9 +1255,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513"
+      "appleUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513",
+      "died": 1961
     },
-    "fetchedAt": "2026-10-17T08:36:07.146Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "eugene ionesco": {
     "value": {
@@ -1206,9 +1275,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1994
     },
-    "fetchedAt": "2026-10-17T08:40:11.725Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "evelyn waugh": {
     "value": {
@@ -1225,9 +1295,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/evelyn-waugh/152354111"
+      "appleUrl": "https://books.apple.com/it/artist/evelyn-waugh/152354111",
+      "died": 1966
     },
-    "fetchedAt": "2026-10-17T08:34:13.156Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "f scott fitzgerald": {
     "value": {
@@ -1244,17 +1315,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/f-scott-fitzgerald/2037135"
+      "appleUrl": "https://books.apple.com/it/artist/f-scott-fitzgerald/2037135",
+      "died": 1940
     },
-    "fetchedAt": "2026-10-17T08:34:08.911Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "fabrizio costantini": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:05.954Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "federica bosco": {
     "value": {
@@ -1265,9 +1338,10 @@
         "extract": "Federica Bosco (Milano, 25 settembre 1971) è una scrittrice e sceneggiatrice italiana."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/federica-bosco/329423777"
+      "appleUrl": "https://books.apple.com/it/artist/federica-bosco/329423777",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:13.294Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "federico garcia lorca": {
     "value": {
@@ -1284,9 +1358,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/federico-garc%C3%ADa-lorca/26381126"
+      "appleUrl": "https://books.apple.com/it/artist/federico-garc%C3%ADa-lorca/26381126",
+      "died": 1936
     },
-    "fetchedAt": "2026-10-17T08:42:24.822Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "fedor dostoevskij": {
     "value": {
@@ -1303,9 +1378,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629"
+      "appleUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629",
+      "died": 1881
     },
-    "fetchedAt": "2026-10-17T08:18:03.462Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "felicia kingsley": {
     "value": {
@@ -1316,9 +1392,10 @@
         "extract": "Felicia Kingsley, pseudonimo di Serena Artioli (Carpi, 13 ottobre 1987), è una scrittrice italiana."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/felicia-kingsley/879564835"
+      "appleUrl": "https://books.apple.com/it/artist/felicia-kingsley/879564835",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:19.241Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "francois mauriac": {
     "value": {
@@ -1335,9 +1412,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/fran%C3%A7ois-mauriac/275862545"
+      "appleUrl": "https://books.apple.com/it/artist/fran%C3%A7ois-mauriac/275862545",
+      "died": 1970
     },
-    "fetchedAt": "2026-10-17T08:41:04.099Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "francoise sagan": {
     "value": {
@@ -1354,9 +1432,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/fran%C3%A7oise-sagan/137673360"
+      "appleUrl": "https://books.apple.com/it/artist/fran%C3%A7oise-sagan/137673360",
+      "died": 2004
     },
-    "fetchedAt": "2026-10-17T08:41:09.805Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "franz kafka": {
     "value": {
@@ -1373,9 +1452,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/franz-kafka/17268605"
+      "appleUrl": "https://books.apple.com/it/artist/franz-kafka/17268605",
+      "died": 1924
     },
-    "fetchedAt": "2026-10-17T08:20:17.915Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "freida mcfadden": {
     "value": {
@@ -1386,9 +1466,10 @@
         "extract": "Freida McFadden (1º maggio 1980) è una scrittrice statunitense nota per i suoi romanzi thriller.\n\nFreida McFadden è uno pseudonimo, il suo vero nome è Sara Cohen. È anche una dottoressa specializzata in lesioni cerebrali traumatiche. Il suo romanzo di maggior successo, Una di famiglia (romanzo), è stato adattato in un film con lo stesso titolo nel 2025."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/freida-mcfadden/1101564107"
+      "appleUrl": "https://books.apple.com/it/artist/freida-mcfadden/1101564107",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:17.440Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "gabriel garcia marquez": {
     "value": {
@@ -1405,9 +1486,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920"
+      "appleUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920",
+      "died": 2014
     },
-    "fetchedAt": "2026-10-17T08:35:11.976Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "george orwell": {
     "value": {
@@ -1424,9 +1506,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/george-orwell/2632114"
+      "appleUrl": "https://books.apple.com/it/artist/george-orwell/2632114",
+      "died": 1950
     },
-    "fetchedAt": "2026-10-17T08:18:15.278Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "georges bernanos": {
     "value": {
@@ -1443,9 +1526,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/georges-bernanos/283291201"
+      "appleUrl": "https://books.apple.com/it/artist/georges-bernanos/283291201",
+      "died": 1948
     },
-    "fetchedAt": "2026-10-17T08:41:14.694Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "georges perec": {
     "value": {
@@ -1456,9 +1540,10 @@
         "extract": "Georges Perec (Parigi, 7 marzo 1936 – Ivry-sur-Seine, 3 marzo 1982) è stato uno scrittore francese, membro dell'OuLiPo, le cui opere sono basate sull'utilizzo di limitazioni formali, letterarie o matematiche."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/georges-perec/437202814"
+      "appleUrl": "https://books.apple.com/it/artist/georges-perec/437202814",
+      "died": 1982
     },
-    "fetchedAt": "2026-10-17T08:41:13.265Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "georges simenon": {
     "value": {
@@ -1475,17 +1560,19 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/georges-simenon/217793312"
+      "appleUrl": "https://books.apple.com/it/artist/georges-simenon/217793312",
+      "died": 1989
     },
-    "fetchedAt": "2026-10-17T08:37:06.211Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "gian andrea cerone": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/gian-andrea-cerone/1615990330"
+      "appleUrl": "https://books.apple.com/it/artist/gian-andrea-cerone/1615990330",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:26.607Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "giorgio bassani": {
     "value": {
@@ -1502,9 +1589,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/giorgio-bassani/468039924"
+      "appleUrl": "https://books.apple.com/it/artist/giorgio-bassani/468039924",
+      "died": 2000
     },
-    "fetchedAt": "2026-10-17T08:34:03.419Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "giovanni verga": {
     "value": {
@@ -1521,17 +1609,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/giovanni-verga/281176920"
+      "appleUrl": "https://books.apple.com/it/artist/giovanni-verga/281176920",
+      "died": 1922
     },
-    "fetchedAt": "2026-10-17T08:35:15.812Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "giulia marziali": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/giulia-marziali/6776513837"
+      "appleUrl": "https://books.apple.com/it/artist/giulia-marziali/6776513837",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:22.610Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "giuseppe tomasi di lampedusa": {
     "value": {
@@ -1548,9 +1638,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/giuseppe-tomasi-di-lampedusa/340991546"
+      "appleUrl": "https://books.apple.com/it/artist/giuseppe-tomasi-di-lampedusa/340991546",
+      "died": 1957
     },
-    "fetchedAt": "2026-10-17T08:34:05.601Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "glenn cooper": {
     "value": {
@@ -1567,9 +1658,10 @@
         "license": "CC BY-SA 1.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/glenn-cooper/347574596"
+      "appleUrl": "https://books.apple.com/it/artist/glenn-cooper/347574596",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:08.924Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "guillaume apollinaire": {
     "value": {
@@ -1586,9 +1678,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/guillaume-apollinaire/221528"
+      "appleUrl": "https://books.apple.com/it/artist/guillaume-apollinaire/221528",
+      "died": 1918
     },
-    "fetchedAt": "2026-10-17T08:40:05.495Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "gustave flaubert": {
     "value": {
@@ -1605,9 +1698,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/gustave-flaubert/274945157"
+      "appleUrl": "https://books.apple.com/it/artist/gustave-flaubert/274945157",
+      "died": 1880
     },
-    "fetchedAt": "2026-10-17T08:38:16.603Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "h g wells": {
     "value": {
@@ -1624,9 +1718,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/h-g-wells/2124237"
+      "appleUrl": "https://books.apple.com/it/artist/h-g-wells/2124237",
+      "died": 1946
     },
-    "fetchedAt": "2026-10-17T08:41:23.458Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "hannah arendt": {
     "value": {
@@ -1643,9 +1738,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/hannah-arendt/219840136"
+      "appleUrl": "https://books.apple.com/it/artist/hannah-arendt/219840136",
+      "died": 1975
     },
-    "fetchedAt": "2026-10-17T08:43:06.487Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "harper lee": {
     "value": {
@@ -1662,9 +1758,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/harper-lee/164883469"
+      "appleUrl": "https://books.apple.com/it/artist/harper-lee/164883469",
+      "died": 2016
     },
-    "fetchedAt": "2026-10-17T08:38:07.907Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "heinrich boll": {
     "value": {
@@ -1681,9 +1778,10 @@
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/heinrich-b%C3%B6ll/390327180"
+      "appleUrl": "https://books.apple.com/it/artist/heinrich-b%C3%B6ll/390327180",
+      "died": 1985
     },
-    "fetchedAt": "2026-10-17T08:42:04.612Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "helen fielding": {
     "value": {
@@ -1700,9 +1798,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/helen-fielding/2082069"
+      "appleUrl": "https://books.apple.com/it/artist/helen-fielding/2082069",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:37:12.727Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "henry miller": {
     "value": {
@@ -1719,9 +1818,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1980
     },
-    "fetchedAt": "2026-10-17T08:43:07.927Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "herge": {
     "value": {
@@ -1738,9 +1838,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1983
     },
-    "fetchedAt": "2026-10-17T08:47:14.909Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "herman melville": {
     "value": {
@@ -1757,9 +1858,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/herman-melville/2036749"
+      "appleUrl": "https://books.apple.com/it/artist/herman-melville/2036749",
+      "died": 1891
     },
-    "fetchedAt": "2026-10-17T08:37:16.392Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "hermann hesse": {
     "value": {
@@ -1776,9 +1878,10 @@
         "license": "CC BY-SA 3.0 nl",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/hermann-hesse/2129358"
+      "appleUrl": "https://books.apple.com/it/artist/hermann-hesse/2129358",
+      "died": 1962
     },
-    "fetchedAt": "2026-10-17T08:36:12.778Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "hugo pratt": {
     "value": {
@@ -1795,9 +1898,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/hugo-pratt/500421922"
+      "appleUrl": "https://books.apple.com/it/artist/hugo-pratt/500421922",
+      "died": 1995
     },
-    "fetchedAt": "2026-10-17T08:41:28.788Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "iain banks": {
     "value": {
@@ -1814,9 +1918,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/iain-banks/14631755"
+      "appleUrl": "https://books.apple.com/it/artist/iain-banks/14631755",
+      "died": 2013
     },
-    "fetchedAt": "2026-10-17T08:39:03.782Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "ismail kadare": {
     "value": {
@@ -1833,9 +1938,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 2024
     },
-    "fetchedAt": "2026-10-17T08:42:22.282Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "italo calvino": {
     "value": {
@@ -1852,9 +1958,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/italo-calvino/281178080"
+      "appleUrl": "https://books.apple.com/it/artist/italo-calvino/281178080",
+      "died": 1985
     },
-    "fetchedAt": "2026-10-17T08:35:12.857Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "italo svevo": {
     "value": {
@@ -1865,9 +1972,10 @@
         "extract": "Italo Svevo, pseudonimo di Aron Hector Schmitz (Trieste, 19 dicembre 1861 – Motta di Livenza, 13 settembre 1928), è stato uno scrittore e drammaturgo italiano.\n\nCresciuto in un contesto mitteleuropeo, ha tratto il suo pseudonimo dalle due culture, italiana e austriaca, che formarono la sua educazione."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/italo-svevo/133081233"
+      "appleUrl": "https://books.apple.com/it/artist/italo-svevo/133081233",
+      "died": 1928
     },
-    "fetchedAt": "2026-10-17T08:35:04.477Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "j d salinger": {
     "value": {
@@ -1884,9 +1992,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 2010
     },
-    "fetchedAt": "2026-10-17T08:39:07.494Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "j k rowling": {
     "value": {
@@ -1903,9 +2012,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/j-k-rowling-marina-astrologo/79595314"
+      "appleUrl": "https://books.apple.com/it/artist/j-k-rowling-marina-astrologo/79595314",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:33:19.008Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "j m g le clezio": {
     "value": {
@@ -1922,9 +2032,10 @@
         "license": "GFDL 1.2",
         "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:42:13.287Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "j r r tolkien": {
     "value": {
@@ -1941,9 +2052,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613"
+      "appleUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613",
+      "died": 1973
     },
-    "fetchedAt": "2026-10-17T08:33:14.639Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jack kerouac": {
     "value": {
@@ -1960,9 +2072,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jack-kerouac/130670"
+      "appleUrl": "https://books.apple.com/it/artist/jack-kerouac/130670",
+      "died": 1969
     },
-    "fetchedAt": "2026-10-17T08:37:10.645Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jack london": {
     "value": {
@@ -1979,9 +2092,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jack-london/2789674"
+      "appleUrl": "https://books.apple.com/it/artist/jack-london/2789674",
+      "died": 1916
     },
-    "fetchedAt": "2026-10-17T08:41:27.582Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "jacob tierney": {
     "value": {
@@ -1998,9 +2112,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:21:02.458Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jacques lacan": {
     "value": {
@@ -2017,9 +2132,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1981
     },
-    "fetchedAt": "2026-10-17T08:47:16.934Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "jacques prevert": {
     "value": {
@@ -2036,9 +2152,10 @@
         "license": "CC BY-SA 1.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jacques-pr%C3%A9vert/298396"
+      "appleUrl": "https://books.apple.com/it/artist/jacques-pr%C3%A9vert/298396",
+      "died": 1977
     },
-    "fetchedAt": "2026-10-17T08:40:04.496Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "james hadley chase": {
     "value": {
@@ -2049,9 +2166,10 @@
         "extract": "James Hadley Chase, pseudonimo di René Lodge Brabazon Raymond (Londra, 24 dicembre 1906 – Corsier-sur-Vevey, 6 febbraio 1985), è stato uno scrittore britannico.\n\nHa scritto anche con vari pseudonimi tra cui James L. Docherty, Ambrose Grant e Raymond Marshall.\n\nÈ stato uno dei più noti scrittori di thriller: la sua produzione come Chase, che comprende 90 titoli, gli guadagnò la reputazione di re degli scrittori di thriller in Europa. Fu anche uno degli scrittori di best seller più noti a livello internazionale e una cinquantina dei suoi libri sono stati trasposti in film."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/james-hadley-chase/440910362"
+      "appleUrl": "https://books.apple.com/it/artist/james-hadley-chase/440910362",
+      "died": 1985
     },
-    "fetchedAt": "2026-10-17T08:42:29.458Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "james joyce": {
     "value": {
@@ -2068,9 +2186,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/james-joyce/2038317"
+      "appleUrl": "https://books.apple.com/it/artist/james-joyce/2038317",
+      "died": 1941
     },
-    "fetchedAt": "2026-10-17T08:38:05.840Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "james patterson": {
     "value": {
@@ -2087,9 +2206,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:27.289Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jane austen": {
     "value": {
@@ -2106,9 +2226,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jane-austen/2038186"
+      "appleUrl": "https://books.apple.com/it/artist/jane-austen/2038186",
+      "died": 1817
     },
-    "fetchedAt": "2026-10-17T08:33:13.529Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jean genet": {
     "value": {
@@ -2125,9 +2246,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jean-genet/287659847"
+      "appleUrl": "https://books.apple.com/it/artist/jean-genet/287659847",
+      "died": 1986
     },
-    "fetchedAt": "2026-10-17T08:42:26.379Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "jean giono": {
     "value": {
@@ -2144,9 +2266,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jean-giono/137629132"
+      "appleUrl": "https://books.apple.com/it/artist/jean-giono/137629132",
+      "died": 1970
     },
-    "fetchedAt": "2026-10-17T08:40:15.785Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "jean paul sartre": {
     "value": {
@@ -2163,9 +2286,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jean-paul-sartre/193502928"
+      "appleUrl": "https://books.apple.com/it/artist/jean-paul-sartre/193502928",
+      "died": 1980
     },
-    "fetchedAt": "2026-10-17T08:40:02.611Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "jeffery deaver": {
     "value": {
@@ -2182,9 +2306,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jeffery-deaver/2071726"
+      "appleUrl": "https://books.apple.com/it/artist/jeffery-deaver/2071726",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:14.089Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jerome k jerome": {
     "value": {
@@ -2201,9 +2326,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jerome-k-jerome/5584382"
+      "appleUrl": "https://books.apple.com/it/artist/jerome-k-jerome/5584382",
+      "died": 1927
     },
-    "fetchedAt": "2026-10-17T08:38:01.943Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jo nesb": {
     "value": {
@@ -2220,9 +2346,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/jo-nesb%C3%B8/30689916"
+      "appleUrl": "https://books.apple.com/it/artist/jo-nesb%C3%B8/30689916",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:20.730Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "johann wolfgang von goethe": {
     "value": {
@@ -2239,9 +2366,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/goethe/21224079"
+      "appleUrl": "https://books.apple.com/it/artist/goethe/21224079",
+      "died": 1832
     },
-    "fetchedAt": "2026-10-17T08:34:06.344Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "john dos passos": {
     "value": {
@@ -2258,9 +2386,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": "https://books.apple.com/it/artist/john-dos-passos/348651128"
+      "appleUrl": "https://books.apple.com/it/artist/john-dos-passos/348651128",
+      "died": 1970
     },
-    "fetchedAt": "2026-10-17T08:42:18.675Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "john grisham": {
     "value": {
@@ -2277,9 +2406,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/john-grisham/2023891"
+      "appleUrl": "https://books.apple.com/it/artist/john-grisham/2023891",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:05.903Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "john steinbeck": {
     "value": {
@@ -2296,9 +2426,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305"
+      "appleUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305",
+      "died": 1968
     },
-    "fetchedAt": "2026-10-17T08:37:03.015Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jorge luis borges": {
     "value": {
@@ -2315,9 +2446,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jorge-luis-borges/154203886"
+      "appleUrl": "https://books.apple.com/it/artist/jorge-luis-borges/154203886",
+      "died": 1986
     },
-    "fetchedAt": "2026-10-17T08:42:19.756Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "joseph conrad": {
     "value": {
@@ -2334,9 +2466,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633"
+      "appleUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633",
+      "died": 1924
     },
-    "fetchedAt": "2026-10-17T08:38:23.337Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "joseph heller": {
     "value": {
@@ -2353,9 +2486,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": "https://books.apple.com/it/artist/joseph-heller/213993092"
+      "appleUrl": "https://books.apple.com/it/artist/joseph-heller/213993092",
+      "died": 1999
     },
-    "fetchedAt": "2026-10-17T08:34:01.437Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "jules renard": {
     "value": {
@@ -2372,9 +2506,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/jules-renard/29561990"
+      "appleUrl": "https://books.apple.com/it/artist/jules-renard/29561990",
+      "died": 1910
     },
-    "fetchedAt": "2026-10-17T08:42:15.473Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "julien gracq": {
     "value": {
@@ -2391,9 +2526,10 @@
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/julien-gracq/645483110"
+      "appleUrl": "https://books.apple.com/it/artist/julien-gracq/645483110",
+      "died": 2007
     },
-    "fetchedAt": "2026-10-17T08:42:06.157Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "kahlil gibran": {
     "value": {
@@ -2410,9 +2546,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/kahlil-gibran/1045947346"
+      "appleUrl": "https://books.apple.com/it/artist/kahlil-gibran/1045947346",
+      "died": 1931
     },
-    "fetchedAt": "2026-10-17T08:33:18.019Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "karin slaughter": {
     "value": {
@@ -2429,17 +2566,19 @@
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/karin-slaughter/20078016"
+      "appleUrl": "https://books.apple.com/it/artist/karin-slaughter/20078016",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:20.526Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "kate aster": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/kate-aster/1025116412"
+      "appleUrl": "https://books.apple.com/it/artist/kate-aster/1025116412",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:04.934Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "kazuo ishiguro": {
     "value": {
@@ -2456,9 +2595,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/kazuo-ishiguro/441754964"
+      "appleUrl": "https://books.apple.com/it/artist/kazuo-ishiguro/441754964",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:38:15.560Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "khaled hosseini": {
     "value": {
@@ -2475,33 +2615,37 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/khaled-hosseini/2093102"
+      "appleUrl": "https://books.apple.com/it/artist/khaled-hosseini/2093102",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:35:06.054Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "l j shen": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/l-j-shen/1126158048"
+      "appleUrl": "https://books.apple.com/it/artist/l-j-shen/1126158048",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:21.620Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "l steele": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/l-steele/193503827"
+      "appleUrl": "https://books.apple.com/it/artist/l-steele/193503827",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:07.985Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "lara celasio": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/lara-celasio/1888078553"
+      "appleUrl": "https://books.apple.com/it/artist/lara-celasio/1888078553",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:23.671Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "lev tolstoj": {
     "value": {
@@ -2518,9 +2662,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/lev-tolst%C3%B2j/400220101"
+      "appleUrl": "https://books.apple.com/it/artist/lev-tolst%C3%B2j/400220101",
+      "died": 1910
     },
-    "fetchedAt": "2026-10-17T08:34:10.934Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "lewis carroll": {
     "value": {
@@ -2537,17 +2682,19 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/lewis-carroll/2683818"
+      "appleUrl": "https://books.apple.com/it/artist/lewis-carroll/2683818",
+      "died": 1898
     },
-    "fetchedAt": "2026-10-17T08:34:15.222Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "licia tumminello": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/licia-tumminello/1716630036"
+      "appleUrl": "https://books.apple.com/it/artist/licia-tumminello/1716630036",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:28.638Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "louis aragon": {
     "value": {
@@ -2564,9 +2711,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/louis-aragon/27277042"
+      "appleUrl": "https://books.apple.com/it/artist/louis-aragon/27277042",
+      "died": 1982
     },
-    "fetchedAt": "2026-10-17T08:41:19.405Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "louis de bernieres": {
     "value": {
@@ -2583,9 +2731,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:35:07.288Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "louis ferdinand celine": {
     "value": {
@@ -2602,9 +2751,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/louis-ferdinand-c%C3%A9line/325617673"
+      "appleUrl": "https://books.apple.com/it/artist/louis-ferdinand-c%C3%A9line/325617673",
+      "died": 1961
     },
-    "fetchedAt": "2026-10-17T08:39:12.978Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "louisa may alcott": {
     "value": {
@@ -2621,17 +2771,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/louisa-may-alcott/2683489"
+      "appleUrl": "https://books.apple.com/it/artist/louisa-may-alcott/2683489",
+      "died": 1888
     },
-    "fetchedAt": "2026-10-17T08:33:24.172Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "lucy score": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/lucy-score/735477211"
+      "appleUrl": "https://books.apple.com/it/artist/lucy-score/735477211",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:02.906Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "luigi pirandello": {
     "value": {
@@ -2648,9 +2800,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142"
+      "appleUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142",
+      "died": 1936
     },
-    "fetchedAt": "2026-10-17T08:35:16.852Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "malcolm lowry": {
     "value": {
@@ -2661,9 +2814,10 @@
         "extract": "Malcolm Lowry (Birkenhead, 28 luglio 1909 – Ripe, 27 giugno 1957) è stato uno scrittore britannico, noto per il romanzo Sotto il vulcano (1947)."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/malcolm-lowry/312440554"
+      "appleUrl": "https://books.apple.com/it/artist/malcolm-lowry/312440554",
+      "died": 1957
     },
-    "fetchedAt": "2026-10-17T08:43:11.845Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "marcel proust": {
     "value": {
@@ -2680,9 +2834,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/marcel-proust/49943975"
+      "appleUrl": "https://books.apple.com/it/artist/marcel-proust/49943975",
+      "died": 1922
     },
-    "fetchedAt": "2026-10-17T08:39:10.947Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "margaret mitchell": {
     "value": {
@@ -2699,9 +2854,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/margaret-mitchell/191897731"
+      "appleUrl": "https://books.apple.com/it/artist/margaret-mitchell/191897731",
+      "died": 1949
     },
-    "fetchedAt": "2026-10-17T08:34:07.901Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "marguerite duras": {
     "value": {
@@ -2718,9 +2874,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/marguerite-duras/160059329"
+      "appleUrl": "https://books.apple.com/it/artist/marguerite-duras/160059329",
+      "died": 1996
     },
-    "fetchedAt": "2026-10-17T08:42:12.131Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "marguerite yourcenar": {
     "value": {
@@ -2737,9 +2894,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179"
+      "appleUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179",
+      "died": 1987
     },
-    "fetchedAt": "2026-10-17T08:35:14.941Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "mark haddon": {
     "value": {
@@ -2756,9 +2914,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/mark-haddon/14898312"
+      "appleUrl": "https://books.apple.com/it/artist/mark-haddon/14898312",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:36:15.087Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "massimo gramellini": {
     "value": {
@@ -2775,9 +2934,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/massimo-gramellini/432160227"
+      "appleUrl": "https://books.apple.com/it/artist/massimo-gramellini/432160227",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:16.149Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "maxine paetro": {
     "value": {
@@ -2788,9 +2948,10 @@
         "extract": "Maxine Paetro (Miami, 19 aprile 1946) è una scrittrice e dirigente d'azienda statunitense, che ha pubblicato fin dal 1979. La Paetro ha collaborato con l'autore James Patterson alla serie di romanzi Le donne del club omicidi e ai romanzi indipendenti."
       },
       "photo": null,
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:27.939Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "michael connelly": {
     "value": {
@@ -2807,9 +2968,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/michael-connelly/2087642"
+      "appleUrl": "https://books.apple.com/it/artist/michael-connelly/2087642",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:03.892Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "michail bulgakov": {
     "value": {
@@ -2826,9 +2988,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/michail-bulgakov/508554498"
+      "appleUrl": "https://books.apple.com/it/artist/michail-bulgakov/508554498",
+      "died": 1940
     },
-    "fetchedAt": "2026-10-17T08:47:17.900Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "michel butor": {
     "value": {
@@ -2845,9 +3008,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/michel-butor/382129586"
+      "appleUrl": "https://books.apple.com/it/artist/michel-butor/382129586",
+      "died": 2016
     },
-    "fetchedAt": "2026-10-17T08:43:05.504Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "michel foucault": {
     "value": {
@@ -2864,9 +3028,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/michel-foucault/281206213"
+      "appleUrl": "https://books.apple.com/it/artist/michel-foucault/281206213",
+      "died": 1984
     },
-    "fetchedAt": "2026-10-17T08:42:07.160Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "michel tournier": {
     "value": {
@@ -2883,9 +3048,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/michel-tournier/330715817"
+      "appleUrl": "https://books.apple.com/it/artist/michel-tournier/330715817",
+      "died": 2016
     },
-    "fetchedAt": "2026-10-17T08:41:22.455Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "miguel de cervantes": {
     "value": {
@@ -2902,9 +3068,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/miguel-de-cervantes-saavedra/166014900"
+      "appleUrl": "https://books.apple.com/it/artist/miguel-de-cervantes-saavedra/166014900",
+      "died": 1616
     },
-    "fetchedAt": "2026-10-17T08:36:09.736Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "milan kundera": {
     "value": {
@@ -2921,17 +3088,19 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/milan-kundera/17357146"
+      "appleUrl": "https://books.apple.com/it/artist/milan-kundera/17357146",
+      "died": 2023
     },
-    "fetchedAt": "2026-10-17T08:34:16.197Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "milena palminteri": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/milena-palminteri/1751253573"
+      "appleUrl": "https://books.apple.com/it/artist/milena-palminteri/1751253573",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:10.029Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "natalia ginzburg": {
     "value": {
@@ -2948,9 +3117,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/natalia-ginzburg/329423655"
+      "appleUrl": "https://books.apple.com/it/artist/natalia-ginzburg/329423655",
+      "died": 1991
     },
-    "fetchedAt": "2026-10-17T08:33:25.190Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "nathalie sarraute": {
     "value": {
@@ -2967,9 +3137,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1999
     },
-    "fetchedAt": "2026-10-17T08:42:14.192Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "nicola lagioia": {
     "value": {
@@ -2986,9 +3157,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/nicola-lagioia/468039735"
+      "appleUrl": "https://books.apple.com/it/artist/nicola-lagioia/468039735",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:04.281Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "omero": {
     "value": {
@@ -3005,9 +3177,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/omero/28019262"
+      "appleUrl": "https://books.apple.com/it/artist/omero/28019262",
+      "died": -800
     },
-    "fetchedAt": "2026-10-17T08:34:14.258Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "oriana fallaci": {
     "value": {
@@ -3018,9 +3191,10 @@
         "extract": "Oriana Fallaci (Firenze, 29 giugno 1929 – Firenze, 15 settembre 2006) è stata una giornalista e scrittrice italiana.\n\nPartecipò giovanissima alla Resistenza italiana e fu la prima donna italiana ad andare al fronte in qualità di inviata speciale. Fu una grande sostenitrice della rinascita culturale ellenica e ne conobbe le più importanti personalità, tra cui Alexandros Panagulis, del quale fu la compagna dal 1973 fino alla morte di lui nel 1976. Durante gli ultimi anni di vita fecero discutere le sue dure prese di posizione contro l'Islam, in seguito agli attentati dell'11 settembre 2001 a New York, città dove viveva. Come scrittrice, con i suoi dodici libri, ha venduto circa venti milioni di copie in tutto il mondo."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/oriana-fallaci/429882515"
+      "appleUrl": "https://books.apple.com/it/artist/oriana-fallaci/429882515",
+      "died": 2006
     },
-    "fetchedAt": "2026-10-17T08:39:06.069Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "oscar wilde": {
     "value": {
@@ -3037,9 +3211,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/oscar-wilde/2765844"
+      "appleUrl": "https://books.apple.com/it/artist/oscar-wilde/2765844",
+      "died": 1900
     },
-    "fetchedAt": "2026-10-17T08:38:11.973Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "patricia gibney": {
     "value": {
@@ -3050,9 +3225,10 @@
         "extract": "Patricia Gibney (Mullingar, 27 gennaio 1962) è una scrittrice irlandese di romanzi polizieschi."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/patricia-gibney/1189334849"
+      "appleUrl": "https://books.apple.com/it/artist/patricia-gibney/1189334849",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:19:16.591Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "paul claudel": {
     "value": {
@@ -3069,9 +3245,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/paul-claudel/79688914"
+      "appleUrl": "https://books.apple.com/it/artist/paul-claudel/79688914",
+      "died": 1955
     },
-    "fetchedAt": "2026-10-17T08:41:20.474Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "paul eluard": {
     "value": {
@@ -3088,9 +3265,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/paul-eluard/221440"
+      "appleUrl": "https://books.apple.com/it/artist/paul-eluard/221440",
+      "died": 1952
     },
-    "fetchedAt": "2026-10-17T08:41:26.666Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "piergiorgio pulixi": {
     "value": {
@@ -3107,9 +3285,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522"
+      "appleUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:10.953Z"
+    "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
   "primo levi": {
     "value": {
@@ -3120,9 +3299,10 @@
         "extract": "Primo Levi (Torino, 31 luglio 1919 – Torino, 11 aprile 1987) è stato uno scrittore, chimico e partigiano italiano, superstite dell'Olocausto, autore di racconti, di un romanzo, di memorie, saggi e poesie.\n\nPartigiano antifascista, il 13 dicembre 1943 fu arrestato dai fascisti in Valle d'Aosta, inviato in un campo di raccolta a Fossoli e, nel febbraio 1944, deportato nel campo di concentramento di Auschwitz in quanto ebreo. Scampato alla morte nel lager, tornò in Italia e si impegnò a raccontare le atrocità viste e subite dai prigionieri."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/primo-levi/254119723"
+      "appleUrl": "https://books.apple.com/it/artist/primo-levi/254119723",
+      "died": 1987
     },
-    "fetchedAt": "2026-10-17T08:33:20.045Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "rachel reid": {
     "value": {
@@ -3139,9 +3319,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:21:03.437Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "rainer maria rilke": {
     "value": {
@@ -3158,9 +3339,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/rainer-maria-rilke/13611875"
+      "appleUrl": "https://books.apple.com/it/artist/rainer-maria-rilke/13611875",
+      "died": 1926
     },
-    "fetchedAt": "2026-10-17T08:43:04.518Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "ray bradbury": {
     "value": {
@@ -3177,9 +3359,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/ray-bradbury/2068890"
+      "appleUrl": "https://books.apple.com/it/artist/ray-bradbury/2068890",
+      "died": 2012
     },
-    "fetchedAt": "2026-10-17T08:42:11.025Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "raymond chandler": {
     "value": {
@@ -3196,9 +3379,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/raymond-chandler/46147351"
+      "appleUrl": "https://books.apple.com/it/artist/raymond-chandler/46147351",
+      "died": 1959
     },
-    "fetchedAt": "2026-10-17T08:43:08.962Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "raymond queneau": {
     "value": {
@@ -3215,9 +3399,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1976
     },
-    "fetchedAt": "2026-10-17T08:41:05.093Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "rebecca yarros": {
     "value": {
@@ -3234,9 +3419,10 @@
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747"
+      "appleUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:05.975Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "rene char": {
     "value": {
@@ -3253,9 +3439,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/rene-char/42282427"
+      "appleUrl": "https://books.apple.com/it/artist/rene-char/42282427",
+      "died": 1988
     },
-    "fetchedAt": "2026-10-17T08:42:28.385Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "rene goscinny": {
     "value": {
@@ -3272,17 +3459,19 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1977
     },
-    "fetchedAt": "2026-10-17T08:40:09.895Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "rina kent": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/rina-kent/1472501789"
+      "appleUrl": "https://books.apple.com/it/artist/rina-kent/1472501789",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:03.895Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "roald dahl": {
     "value": {
@@ -3299,9 +3488,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/roald-dahl/5367371"
+      "appleUrl": "https://books.apple.com/it/artist/roald-dahl/5367371",
+      "died": 1990
     },
-    "fetchedAt": "2026-10-17T08:39:07.987Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "robert crais": {
     "value": {
@@ -3318,9 +3508,10 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/robert-crais/2025078"
+      "appleUrl": "https://books.apple.com/it/artist/robert-crais/2025078",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:15.504Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "robert musil": {
     "value": {
@@ -3337,9 +3528,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/robert-musil/262116692"
+      "appleUrl": "https://books.apple.com/it/artist/robert-musil/262116692",
+      "died": 1942
     },
-    "fetchedAt": "2026-10-17T08:42:27.385Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "roberto costantini": {
     "value": {
@@ -3350,9 +3542,10 @@
         "extract": "Roberto Costantini (Tripoli, 12 settembre 1952) è uno scrittore italiano."
       },
       "photo": null,
-      "appleUrl": null
+      "appleUrl": null,
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:20:02.224Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "rohinton mistry": {
     "value": {
@@ -3363,17 +3556,19 @@
         "extract": "Rohinton Mistry (Mumbai, 3 luglio 1952) è uno scrittore canadese di origini indiane.\n\nÈ stato finalista del Booker Prize con tre dei suoi romanzi, Un lungo viaggio, Un perfetto equilibrio e Questioni di famiglia, quest'ultimo considerato anche nella selezione finale del James Tait Black Memorial Prize.\n\nLa raccolta di racconti Firozsha Baag in Italia è stata tradotta nel 2016 da Chiara Vatteroni col titolo Lezioni di nuoto."
       },
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/rohinton-mistry/2063759"
+      "appleUrl": "https://books.apple.com/it/artist/rohinton-mistry/2063759",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:38:18.454Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "rokia": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/rokia/1165449758"
+      "appleUrl": "https://books.apple.com/it/artist/rokia/1165449758",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:25.597Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "roland barthes": {
     "value": {
@@ -3390,9 +3585,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1980
     },
-    "fetchedAt": "2026-10-17T08:42:02.611Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "saint john perse": {
     "value": {
@@ -3409,9 +3605,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1975
     },
-    "fetchedAt": "2026-10-17T08:43:10.126Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "salman rushdie": {
     "value": {
@@ -3428,9 +3625,10 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/salman-rushdie/30925951"
+      "appleUrl": "https://books.apple.com/it/artist/salman-rushdie/30925951",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:37:13.712Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "samuel beckett": {
     "value": {
@@ -3447,17 +3645,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/samuel-beckett/44693294"
+      "appleUrl": "https://books.apple.com/it/artist/samuel-beckett/44693294",
+      "died": 1989
     },
-    "fetchedAt": "2026-10-17T08:40:01.817Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "sean black": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/sean-black/301988268"
+      "appleUrl": "https://books.apple.com/it/artist/sean-black/301988268",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:06.904Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "seicho matsumoto": {
     "value": {
@@ -3474,9 +3674,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/seicho-matsumoto/486495738"
+      "appleUrl": "https://books.apple.com/it/artist/seicho-matsumoto/486495738",
+      "died": 1992
     },
-    "fetchedAt": "2026-10-17T08:18:19.327Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "selma lagerlof": {
     "value": {
@@ -3493,9 +3694,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/selma-lagerl%C3%B6f/276089341"
+      "appleUrl": "https://books.apple.com/it/artist/selma-lagerl%C3%B6f/276089341",
+      "died": 1940
     },
-    "fetchedAt": "2026-10-17T08:42:08.747Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "sigmund freud": {
     "value": {
@@ -3512,9 +3714,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/sigmund-freud/122049187"
+      "appleUrl": "https://books.apple.com/it/artist/sigmund-freud/122049187",
+      "died": 1939
     },
-    "fetchedAt": "2026-10-17T08:40:12.714Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "silvia salis": {
     "value": {
@@ -3531,9 +3734,10 @@
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       },
-      "appleUrl": "https://books.apple.com/it/artist/silvia-salis/1601858611"
+      "appleUrl": "https://books.apple.com/it/artist/silvia-salis/1601858611",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:18:24.246Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "simone de beauvoir": {
     "value": {
@@ -3550,9 +3754,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/simone-de-beauvoir/464552242"
+      "appleUrl": "https://books.apple.com/it/artist/simone-de-beauvoir/464552242",
+      "died": 1986
     },
-    "fetchedAt": "2026-10-17T08:39:17.474Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "stefan zweig": {
     "value": {
@@ -3569,9 +3774,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/stefan-zweig/17465679"
+      "appleUrl": "https://books.apple.com/it/artist/stefan-zweig/17465679",
+      "died": 1942
     },
-    "fetchedAt": "2026-10-17T08:41:06.068Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "stendhal": {
     "value": {
@@ -3588,17 +3794,19 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/stendhal/83837698"
+      "appleUrl": "https://books.apple.com/it/artist/stendhal/83837698",
+      "died": 1842
     },
-    "fetchedAt": "2026-10-17T08:38:20.331Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "suzanne wright": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/suzanne-wright/616208806"
+      "appleUrl": "https://books.apple.com/it/artist/suzanne-wright/616208806",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:46:27.671Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "thomas mann": {
     "value": {
@@ -3615,9 +3823,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/thomas-mann/17357088"
+      "appleUrl": "https://books.apple.com/it/artist/thomas-mann/17357088",
+      "died": 1955
     },
-    "fetchedAt": "2026-10-17T08:38:06.888Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "umberto eco": {
     "value": {
@@ -3634,17 +3843,19 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
       },
-      "appleUrl": "https://books.apple.com/it/artist/umberto-eco/74450157"
+      "appleUrl": "https://books.apple.com/it/artist/umberto-eco/74450157",
+      "died": 2016
     },
-    "fetchedAt": "2026-10-17T08:34:04.369Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "valentina ferraro": {
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": "https://books.apple.com/it/artist/valentina-ferraro/1216337744"
+      "appleUrl": "https://books.apple.com/it/artist/valentina-ferraro/1216337744",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:47:08.944Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "vercors": {
     "value": {
@@ -3655,9 +3866,10 @@
         "extract": "Vercors, pseudonimo di Jean Marcel Adolphe Bruller (Parigi, 26 febbraio 1902 – Parigi, 10 giugno 1991), è stato uno scrittore e illustratore francese.\n\nDivenne celebre in campo letterario con Il silenzio del mare (Le Silence de la mer, 1942), un'opera di grande successo. Dopo di esso pubblicò Il cammino verso la stella (La Marche à l'étoile, 1943) e, nel 1946, un altro breve romanzo, Le armi della notte, che si richiamava a un episodio della seconda guerra mondiale. Nel 1952 scrisse Animali snaturati (Les Animaux dénaturés) e successivamente altri testi di narrativa, saggistica e teatro, sempre animati dall'interesse per problemi morali ed esistenziali."
       },
       "photo": null,
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1991
     },
-    "fetchedAt": "2026-10-17T08:41:10.014Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "victor hugo": {
     "value": {
@@ -3674,9 +3886,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/victor-hugo/2684161"
+      "appleUrl": "https://books.apple.com/it/artist/victor-hugo/2684161",
+      "died": 1885
     },
-    "fetchedAt": "2026-10-17T08:39:09.033Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "virginia woolf": {
     "value": {
@@ -3693,9 +3906,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/virginia-woolf/2776443"
+      "appleUrl": "https://books.apple.com/it/artist/virginia-woolf/2776443",
+      "died": 1941
     },
-    "fetchedAt": "2026-10-17T08:42:09.743Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "vladimir nabokov": {
     "value": {
@@ -3712,9 +3926,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/vladimir-nabokov/57533786"
+      "appleUrl": "https://books.apple.com/it/artist/vladimir-nabokov/57533786",
+      "died": 1977
     },
-    "fetchedAt": "2026-10-17T08:37:05.145Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "william faulkner": {
     "value": {
@@ -3731,9 +3946,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": null
+      "appleUrl": null,
+      "died": 1962
     },
-    "fetchedAt": "2026-10-17T08:41:03.113Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "william golding": {
     "value": {
@@ -3750,9 +3966,10 @@
         "license": "CC BY-SA 3.0 nl",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/william-golding/3046975"
+      "appleUrl": "https://books.apple.com/it/artist/william-golding/3046975",
+      "died": 1993
     },
-    "fetchedAt": "2026-10-17T08:36:03.016Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "william makepeace thackeray": {
     "value": {
@@ -3769,9 +3986,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/william-thackeray/72969586"
+      "appleUrl": "https://books.apple.com/it/artist/william-thackeray/72969586",
+      "died": 1863
     },
-    "fetchedAt": "2026-10-17T08:38:09.944Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "william shakespeare": {
     "value": {
@@ -3788,9 +4006,10 @@
         "license": "CC0",
         "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
       },
-      "appleUrl": "https://books.apple.com/it/artist/william-shakespeare/2765976"
+      "appleUrl": "https://books.apple.com/it/artist/william-shakespeare/2765976",
+      "died": 1616
     },
-    "fetchedAt": "2026-10-17T08:34:02.399Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
   "william styron": {
     "value": {
@@ -3807,9 +4026,10 @@
         "license": "Public domain",
         "licenseUrl": null
       },
-      "appleUrl": "https://books.apple.com/it/artist/william-styron/219913255"
+      "appleUrl": "https://books.apple.com/it/artist/william-styron/219913255",
+      "died": 2006
     },
-    "fetchedAt": "2026-10-17T08:42:23.761Z"
+    "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
   "yann martel": {
     "value": {
@@ -3826,8 +4046,9 @@
         "license": "CC BY-SA 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       },
-      "appleUrl": "https://books.apple.com/it/artist/yann-martel/2724812"
+      "appleUrl": "https://books.apple.com/it/artist/yann-martel/2724812",
+      "died": null
     },
-    "fetchedAt": "2026-10-17T08:36:05.856Z"
+    "fetchedAt": "2026-10-17T09:03:31.748Z"
   }
 }

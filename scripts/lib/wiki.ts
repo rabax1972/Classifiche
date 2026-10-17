@@ -123,3 +123,38 @@ export async function commonsCredit(image: { file: string; src: string }): Promi
     licenseUrl: meta.LicenseUrl?.value ?? null,
   };
 }
+
+interface PageProps {
+  query?: { pages?: { title: string; pageprops?: { wikibase_item?: string } }[] };
+}
+
+interface WikidataClaims {
+  claims?: Record<string, { mainsnak?: { datavalue?: { value?: { time?: string } } } }[]>;
+}
+
+/**
+ * Anno di morte (P570 su Wikidata) delle persone di cui abbiamo la voce di Wikipedia; null se vivente o senza data.
+ * Gli anni avanti Cristo sono negativi.
+ */
+export async function deathYears(intros: WikiIntro[]): Promise<Map<string, number | null>> {
+  const out = new Map<string, number | null>();
+  for (const lang of ['it', 'en'] as const) {
+    const titles = intros.filter((w) => w.lang === lang).map((w) => w.title);
+    for (let i = 0; i < titles.length; i += 50) {
+      const batch = titles.slice(i, i + 50);
+      const res = await fetchJson<PageProps>(
+        `https://${lang}.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops&ppprop=wikibase_item&titles=${encodeURIComponent(batch.join('|'))}`,
+        CACHE,
+      );
+      for (const p of res.query?.pages ?? []) {
+        const id = p.pageprops?.wikibase_item;
+        if (!id) continue;
+        const { claims } = await fetchJson<WikidataClaims>(`https://www.wikidata.org/w/api.php?action=wbgetclaims&format=json&entity=${id}&property=P570`, CACHE);
+        const time = claims?.P570?.find((c) => c.mainsnak?.datavalue?.value?.time)?.mainsnak?.datavalue?.value?.time;
+        const year = time?.match(/^([+-])0*(\d+)-/);
+        out.set(`${lang}:${p.title}`, year ? (year[1] === '-' ? -1 : 1) * Number(year[2]) : null);
+      }
+    }
+  }
+  return out;
+}

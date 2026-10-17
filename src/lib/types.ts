@@ -236,6 +236,20 @@ export interface AuthorInfo {
   wiki: WikiIntro | null;
   photo: PersonPhoto | null;
   appleUrl: string | null;
+  /** Anno di morte da Wikidata (negativo se a.C.); null se vivente o sconosciuto, assente se non ancora cercato. */
+  died?: number | null;
+}
+
+/**
+ * Edizioni gratuite di un libro di pubblico dominio (data/cache/free-books.json, scripts/free-books.ts):
+ * solo da siti che pubblicano testi liberi da diritti, traduzioni comprese.
+ */
+export interface FreeEdition {
+  /** Anno di morte dell'ultimo autore; null per le opere antiche senza autore o senza data. */
+  authorDied: number | null;
+  /** Pagina dell'opera su Liber Liber (EPUB, PDF e altri formati gratuiti). */
+  liberLiber: string | null;
+  wikisource: { title: string; url: string; epub: string } | null;
 }
 
 /** Dati di un libro incorporati nella pagina per la modale (src/components/BookDialog.astro). */
@@ -249,10 +263,12 @@ export interface BookCard {
   /** Descrizione scritta per la lista curata, se manca una presentazione del libro. */
   description?: string;
   info: BookInfo | null;
+  /** Presente solo se il libro è di pubblico dominio. */
+  free: FreeEdition | null;
 }
 
 /** Un libro della pagina da cui si aprono le modali di libro e autore (classifica o lista curata). */
-export interface BookItem extends Omit<BookCard, 'info'> {
+export interface BookItem extends Omit<BookCard, 'info' | 'free'> {
   /** Chiave della scheda in data/cache/book-info.json. */
   key: string;
 }

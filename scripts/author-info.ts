@@ -6,7 +6,7 @@
 import { artistKey, splitArtists } from '../src/lib/aggregate';
 import type { AuthorInfo, BookInfo } from '../src/lib/types';
 import { MetaCache } from './lib/store';
-import { commonsCredit, wikiPerson, type PersonKind } from './lib/wiki';
+import { commonsCredit, deathYears, wikiPerson, type PersonKind } from './lib/wiki';
 import { BOOK_INFO_CACHE, bookTargets } from './book-info';
 
 export const AUTHOR_INFO_CACHE = 'author-info';
@@ -54,6 +54,17 @@ export async function lookupAuthorInfo({ budget = 60, log = console.log } = {}) 
   for (const [key, url] of appleUrls) {
     const info = cache.get(key);
     if (info && !info.appleUrl) cache.set(key, { ...info, appleUrl: url });
+  }
+  // Anno di morte da Wikidata, per sapere se i diritti sui libri sono scaduti (scripts/free-books.ts).
+  const noDeath = [...names.keys()].filter((k) => cache.has(k) && cache.get(k)!.died === undefined);
+  try {
+    const years = await deathYears(noDeath.map((k) => cache.get(k)!.wiki).filter((w) => w !== null));
+    for (const key of noDeath) {
+      const info = cache.get(key)!;
+      if (!info.wiki || years.has(`${info.wiki.lang}:${info.wiki.title}`)) cache.set(key, { ...info, died: info.wiki ? years.get(`${info.wiki.lang}:${info.wiki.title}`)! : null });
+    }
+  } catch (err) {
+    log(`! anni di morte degli autori: ${(err as Error).message}`);
   }
   await cache.save();
   const missing = [...names.keys()].filter((k) => !cache.has(k)).length;
