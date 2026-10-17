@@ -89,7 +89,7 @@ const curated = [
         <ol class="mb-4 grid grid-cols-3 gap-3 sm:grid-cols-6">
           {list.entries.slice(0, 6).map((e) => (
             <li>
-              <a href={href(`${list.path}#n${e.rank}`)} class="group block">
+              <a href={`${href(list.path)}#n${e.rank}`} class="group block">
                 <img
                   src={e.cover}
                   alt=""
