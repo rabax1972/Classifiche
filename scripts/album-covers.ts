@@ -1,4 +1,4 @@
-// Completa le copertine della lista "Album da avere" con l'API di ricerca iTunes.
+// Completa le copertine delle liste di album (Rolling Stone e Consequence) con l'API di ricerca iTunes.
 // Da lanciare a mano (la lista è statica): `npm run covers:album` (aggiungi `-- --force` per rifarle tutte).
 // Se iTunes non ha l'album, prova Cover Art Archive (MusicBrainz).
 // Per un album trovato male si può aggiungere nel JSON `"coverSearch": "termini di ricerca"`.
@@ -6,12 +6,12 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { normalizeText } from '../src/lib/aggregate';
-import type { CuratedList } from '../src/lib/types';
+import type { CuratedEntry, CuratedList } from '../src/lib/types';
 import { biggerArtwork } from './adapters/apple';
 import { fetchJson, USER_AGENT } from './lib/http';
-import { nameMatch, overlap, tokens } from './lib/match';
+import { curatedKey as entryKey, nameMatch, overlap, tokens } from './lib/match';
 
-const FILE = path.resolve('data/curated/album-da-avere.json');
+const LISTS = ['album-da-avere', 'album-consequence'].map((id) => path.resolve(`data/curated/${id}.json`));
 const force = process.argv.includes('--force');
 
 interface ItunesAlbum {
@@ -21,7 +21,7 @@ interface ItunesAlbum {
   collectionViewUrl?: string;
 }
 
-const JUNK = /karaoke|tribute|cover|made famous|in the style of|lullaby|instrumental versions?/i;
+const JUNK = /karaoke|tribute|cover|made famous|in the style of|lullaby|instrumental versions?|outtakes|acoustic|demos/i;
 
 function scoreAlbum(entry: { creator: string; title: string }, hit: ItunesAlbum): number {
   if (!hit.collectionName || !hit.artistName || JUNK.test(hit.collectionName) || JUNK.test(hit.artistName)) return 0;
@@ -82,40 +82,57 @@ async function coverArtArchive(e: { creator: string; title: string }): Promise<{
   return null;
 }
 
-async function main() {
-  const list = JSON.parse(await readFile(FILE, 'utf8')) as CuratedList;
-  const missing: string[] = [];
-  for (const e of list.entries) {
-    if (e.cover !== undefined && !force) continue;
-    const term = e.coverSearch ?? `${e.creator.replace(/\(.*?\)/g, '')} ${e.title.replace(/\(.*?\)/g, '')}`;
-    let best: { hit: ItunesAlbum; score: number } | null = null;
-    let caa: Awaited<ReturnType<typeof coverArtArchive>> = null;
-    const attempts = [
-      ...(e.coverSearch ? [] : ['it', 'us'].map((c) => () => artistAlbums(e.creator, c))),
-      ...['it', 'us'].map((c) => () => textSearch(term, c)),
-    ];
-    for (const attempt of attempts) {
-      for (const hit of await attempt()) {
-        const score = scoreAlbum(e, hit);
-        if (!best || score > best.score) best = { hit, score };
-      }
-      if (best && best.score >= 2.2) break;
+async function findCover(e: CuratedEntry): Promise<{ cover: string | null; url: string | null; label: string } | null> {
+  const term = e.coverSearch ?? `${e.creator.replace(/\(.*?\)/g, '')} ${e.title.replace(/\(.*?\)/g, '')}`;
+  let best: { hit: ItunesAlbum; score: number } | null = null;
+  const attempts = [
+    ...(e.coverSearch ? [] : ['it', 'us'].map((c) => () => artistAlbums(e.creator, c))),
+    ...['it', 'us'].map((c) => () => textSearch(term, c)),
+  ];
+  for (const attempt of attempts) {
+    for (const hit of await attempt()) {
+      const score = scoreAlbum(e, hit);
+      if (!best || score > best.score) best = { hit, score };
     }
-    if (best && best.score >= 1.6) {
-      e.cover = biggerArtwork(best.hit.artworkUrl100, 400);
-      e.url = best.hit.collectionViewUrl?.replace(/[?&]uo=\d+/, '') ?? null;
-      console.log(`${e.rank}. ${e.creator} – ${e.title}  →  ${best.hit.artistName} – ${best.hit.collectionName} (${best.score.toFixed(2)})`);
-    } else if (!e.coverSearch && (caa = await coverArtArchive(e))) {
-      e.cover = caa.cover;
-      e.url = null;
-      console.log(`${e.rank}. ${e.creator} – ${e.title}  →  Cover Art Archive ${caa.mbid}`);
-    } else {
-      e.cover = null;
-      missing.push(`${e.rank}. ${e.creator} – ${e.title}`);
-    }
-    await writeFile(FILE, JSON.stringify(list, null, 2) + '\n');
+    if (best && best.score >= 2.2) break;
   }
-  if (missing.length) console.log(`\nSenza copertina (${missing.length}):\n${missing.join('\n')}`);
+  if (best && best.score >= 1.6) {
+    return {
+      cover: biggerArtwork(best.hit.artworkUrl100, 400),
+      url: best.hit.collectionViewUrl?.replace(/[?&]uo=\d+/, '') ?? null,
+      label: `${best.hit.artistName} – ${best.hit.collectionName} (${best.score.toFixed(2)})`,
+    };
+  }
+  const caa = e.coverSearch ? null : await coverArtArchive(e);
+  return caa ? { cover: caa.cover, url: null, label: `Cover Art Archive ${caa.mbid}` } : null;
+}
+
+async function main() {
+  const lists = await Promise.all(LISTS.map(async (file) => ({ file, list: JSON.parse(await readFile(file, 'utf8')) as CuratedList })));
+  // Copertine già trovate in una delle liste: un album presente in entrambe usa la stessa.
+  const known = new Map<string, CuratedEntry>();
+  for (const { list } of lists) for (const e of list.entries) if (e.cover && !force) known.set(entryKey(e), e);
+
+  for (const { file, list } of lists) {
+    const missing: string[] = [];
+    console.log(`\n== ${list.title}`);
+    for (const e of list.entries) {
+      if (e.cover !== undefined && !force) continue;
+      const same = known.get(entryKey(e));
+      const found = same?.cover ? { cover: same.cover, url: same.url ?? null, label: "stessa copertina dell'altra lista" } : await findCover(e);
+      if (found) {
+        e.cover = found.cover;
+        e.url = found.url;
+        known.set(entryKey(e), e);
+        console.log(`${e.rank}. ${e.creator} – ${e.title}  →  ${found.label}`);
+      } else {
+        e.cover = null;
+        missing.push(`${e.rank}. ${e.creator} – ${e.title}`);
+      }
+    }
+    await writeFile(file, JSON.stringify(list, null, 2) + '\n');
+    if (missing.length) console.log(`\nSenza copertina (${missing.length}):\n${missing.join('\n')}`);
+  }
 }
 
 main().catch((err) => {

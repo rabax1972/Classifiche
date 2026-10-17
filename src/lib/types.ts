@@ -101,8 +101,20 @@ export interface SourceStatus {
   entries?: number;
 }
 
-export const CURATED_IDS = ['album-da-avere', 'libri-da-avere', 'libri-le-monde'] as const;
+export const CURATED_IDS = ['album-da-avere', 'album-consequence', 'libri-da-avere', 'libri-le-monde'] as const;
 export type CuratedId = (typeof CURATED_IDS)[number];
+
+/** Un brano della tracklist di un album (scripts/album-tracks.ts). */
+export interface CuratedTrack {
+  /** Numero del disco, solo per gli album con più dischi. */
+  disc?: number;
+  n: number;
+  title: string;
+  /** Durata in millisecondi. */
+  ms?: number;
+  /** Link diretto al brano su Apple Music. */
+  url?: string;
+}
 
 /** Lista statica curata a mano (data/curated/{id}.json). */
 export interface CuratedEntry {
@@ -124,6 +136,8 @@ export interface CuratedEntry {
   coverSearch?: string;
   /** Catalogo Apple Books da provare per primo, con il titolo originale (es. "fr"). */
   coverCountry?: string;
+  /** Tracklist (solo album). */
+  tracks?: CuratedTrack[];
 }
 
 export interface CuratedList {

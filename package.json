@@ -12,6 +12,7 @@
     "seed": "tsx scripts/seed.ts",
     "covers:album": "tsx scripts/album-covers.ts",
     "covers:libri": "tsx scripts/book-covers.ts",
+    "tracks:album": "tsx scripts/album-tracks.ts",
     "update": "npm run ingest && npm run aggregate",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"

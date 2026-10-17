@@ -19,3 +19,6 @@ export const nameMatch = (a: string, b: string) => Math.max(overlap(a, b), overl
 
 /** Toglie le parti tra parentesi, es. "Harry Potter (la saga)" → "Harry Potter". */
 export const stripParens = (s: string) => s.replace(/\(.*?\)|\[.*?\]/g, '').trim();
+
+/** Identità di un titolo tra liste diverse (stessa formula delle spunte "Ce l'ho" nella pagina). */
+export const curatedKey = (e: { creator: string; title: string }) => `${normalizeText(e.creator)}|${normalizeText(e.title)}`;

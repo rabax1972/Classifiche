@@ -10,7 +10,7 @@ import { normalizeText } from '../src/lib/aggregate';
 import type { CuratedEntry, CuratedList } from '../src/lib/types';
 import { biggerArtwork } from './adapters/apple';
 import { fetchJson } from './lib/http';
-import { nameMatch, overlap, stripParens, tokens } from './lib/match';
+import { curatedKey as key, nameMatch, overlap, stripParens, tokens } from './lib/match';
 
 const LISTS = ['libri-da-avere', 'libri-le-monde'].map((id) => path.resolve(`data/curated/${id}.json`));
 const force = process.argv.includes('--force');
@@ -87,8 +87,6 @@ async function openLibrary(e: CuratedEntry) {
   };
 }
 
-
-const key = (e: CuratedEntry) => `${normalizeText(e.creator)}|${normalizeText(e.title)}`;
 
 async function main() {
   const lists = await Promise.all(LISTS.map(async (file) => ({ file, list: JSON.parse(await readFile(file, 'utf8')) as CuratedList })));
