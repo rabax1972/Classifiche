@@ -1,6 +1,6 @@
 ---
-import { artistKey, movieSubtitle, normalizeText, splitArtists } from '../lib/aggregate';
-import { getArtistInfo, getAuthorInfo, getDirectorInfo, getMovieInfo } from '../lib/data';
+import { artistKey, movieSubtitle, normalizeText, seriesSubtitle, splitArtists } from '../lib/aggregate';
+import { getArtistInfo, getAuthorInfo, getCreatorInfo, getDirectorInfo, getMovieInfo, getSeriesInfo, seriesSeenKey } from '../lib/data';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -17,7 +17,11 @@ const computed = view.kind === 'computed';
 // Canzoni: il titolo apre la scheda del brano (SongDialog), ogni artista la propria (ArtistDialog).
 // Libri: il titolo apre la scheda del libro (BookDialog), ogni autore la propria (AuthorDialog).
 // Cinema e Film: il titolo apre la scheda del film (MovieDialog), ogni regista la propria (DirectorDialog).
+// Serie TV: il titolo apre la scheda della serie (SeriesDialog), ogni creatore la propria (CreatorDialog).
 const movies = category === 'cinema' || category === 'film';
+const series = category === 'serie-tv';
+/** Classifiche con i filtri dalle schede TMDB e la spunta "Visto" / "Vista". */
+const screen = movies || series;
 const cards =
   category === 'canzoni'
     ? { title: 'song-open', titleData: 'data-brano', person: 'artist-open', personData: 'data-artista', info: getArtistInfo }
@@ -25,28 +29,42 @@ const cards =
       ? { title: 'book-open', titleData: 'data-libro', person: 'author-open', personData: 'data-autore', info: getAuthorInfo }
       : movies
         ? { title: 'movie-open', titleData: 'data-film', person: 'director-open', personData: 'data-regista', info: getDirectorInfo }
-        : null;
-/** Nomi cliccabili del sottotitolo e quello che segue (l'anno dei film). */
+        : series
+          ? { title: 'series-open', titleData: 'data-serie', person: 'creator-open', personData: 'data-creatore', info: getCreatorInfo }
+          : null;
+/** Nomi cliccabili del sottotitolo e quello che segue (l'anno dei film e delle serie, la stagione della Top 10 Netflix). */
 const people = (subtitle: string) => {
-  if (!movies) return { names: subtitle, after: '' };
-  const { directors, year } = movieSubtitle(subtitle);
-  return { names: directors ?? '', after: year ? `${directors ? ' ' : ''}(${year})` : '' };
+  if (!screen) return { names: subtitle, after: '' };
+  let names: string | null, year: string | null;
+  if (movies) ({ directors: names, year } = movieSubtitle(subtitle));
+  else {
+    const s = seriesSubtitle(subtitle);
+    if (s.label) return { names: '', after: s.label };
+    ({ creators: names, year } = s);
+  }
+  return { names: names ?? '', after: year ? `${names ? ' ' : ''}(${year})` : '' };
 };
 /** "A e B" resta intero solo se è un unico artista con una voce su Wikipedia (es. un duo). */
 const oneArtist = (name: string) => Boolean(cards?.info(artistKey(name))?.wiki);
 const INITIAL = 20;
 
-// Filtri dei film (servizio in abbonamento, durata, genere, voto) dalle schede TMDB: solo lato client, senza JS la tabella è completa.
+// Filtri di film e serie (servizio in abbonamento, genere, voto; durata dei film; stagioni e stato delle serie) dalle schede TMDB:
+// solo lato client, senza JS la tabella è completa.
 /** "HBO Max Amazon Channel" e "Amazon Prime Video with Ads" contano come HBO Max e Amazon Prime Video. */
 const providerName = (name: string) =>
   name.replace(/\s+Amazon Channel$/i, '').replace(/\s+(Standard\s+)?with Ads$/i, '').replace(/^Paramount\+$/, 'Paramount Plus').trim();
-const filters = movies
+const infoOf = (key: string) => (movies ? getMovieInfo(key) : series ? getSeriesInfo(key) : null);
+const filters = screen
   ? view.entries.map((e) => {
-      const info = getMovieInfo(e.key);
+      const movie = movies ? getMovieInfo(e.key) : null;
+      const show = series ? getSeriesInfo(e.key) : null;
+      const info = movie ?? show;
       return {
         genres: info?.genres ?? [],
         providers: [...new Set((info?.watch?.flatrate ?? []).map((p) => providerName(p.name)))],
-        runtime: info?.runtime ?? null,
+        runtime: movie?.runtime ?? null,
+        seasons: show?.seasons ?? null,
+        status: show?.status ? (show.status === 'Ended' || show.status === 'Canceled' ? 'conclusa' : 'in-corso') : null,
         vote: info?.vote && info.votes >= 10 ? info.vote : null,
       };
     })
@@ -57,26 +75,30 @@ const options = (values: string[]) => {
   for (const v of values) count.set(v, (count.get(v) ?? 0) + 1);
   return [...count].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'it')).map(([v]) => v);
 };
-// Il filtro per servizio compare solo se almeno 5 film sono in abbonamento (al cinema quasi nessuno lo è).
+// Il filtro per servizio compare solo se almeno 5 titoli sono in abbonamento (al cinema quasi nessuno lo è).
 const providerOptions = options(filters.flatMap((f) => f.providers));
 /** Logo di ogni servizio: quello del servizio stesso, se c'è, altrimenti quello di un suo canale. */
 const providerLogos = new Map<string, string | null>();
-if (movies)
+if (screen)
   for (const e of view.entries)
-    for (const p of getMovieInfo(e.key)?.watch?.flatrate ?? []) {
+    for (const p of infoOf(e.key)?.watch?.flatrate ?? []) {
       const name = providerName(p.name);
       if (!providerLogos.get(name) || p.name === name) providerLogos.set(name, p.logo ?? providerLogos.get(name) ?? null);
     }
 const genreOptions = options(filters.flatMap((f) => f.genres));
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
+/** Testi dei filtri e della spunta: film (maschile) o serie (femminile). */
+const words = series
+  ? { group: 'Filtra le serie', seen: 'Vista', seenSr: 'Serie viste', both: 'Viste e da vedere', done: 'Già viste', provider: 'Serie in abbonamento', genre: 'Serie' }
+  : { group: 'Filtra i film', seen: 'Visto', seenSr: 'Film visti', both: 'Visti e da vedere', done: 'Già visti', provider: 'Film in abbonamento', genre: 'Film' };
 const multiFilters = [
   { key: 'provider', label: 'Servizi', all: 'Tutti i servizi', values: providerOptions, show: filters.filter((f) => f.providers.length).length >= 5 },
   { key: 'genre', label: 'Generi', all: 'Tutti i generi', values: genreOptions, show: genreOptions.length > 0 },
 ].filter((m) => m.show);
-const hasInfo = filters.some((f) => f.runtime || f.genres.length);
+const hasInfo = filters.some((f) => f.runtime || f.seasons || f.genres.length);
 ---
 
-<div class="chart" data-initial={INITIAL}>
+<div class="chart" data-initial={INITIAL} data-seen-list={movies ? 'film' : series ? 'serie' : undefined}>
   <div class="mb-3 flex flex-wrap items-center gap-3">
     <label class="relative min-w-0 flex-1 sm:max-w-xs">
       <span class="sr-only">Cerca nella classifica</span>
@@ -92,14 +114,14 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
   </div>
 
   {
-    movies && (
-      <div class="chart-filters relative mb-3 hidden flex-wrap items-center gap-2" role="group" aria-label="Filtra i film">
+    screen && (
+      <div class="chart-filters relative mb-3 hidden flex-wrap items-center gap-2" role="group" aria-label={words.group}>
         <label>
-          <span class="sr-only">Film visti</span>
+          <span class="sr-only">{words.seenSr}</span>
           <select class={filterSelect} data-filter="seen">
-            <option value="" data-label="Visti e da vedere">Visti e da vedere</option>
+            <option value="" data-label={words.both}>{words.both}</option>
             <option value="da-vedere" data-label="Da vedere">Da vedere</option>
-            <option value="visti" data-label="Già visti">Già visti</option>
+            <option value="visti" data-label={words.done}>{words.done}</option>
           </select>
         </label>
         {multiFilters.map((m) => (
@@ -113,7 +135,7 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
               role="group"
               aria-label={`${m.label}: scegline uno o più`}
             >
-              <p class="mb-2 text-xs text-gray-600 dark:text-gray-400">{m.key === 'provider' ? 'Film in abbonamento su almeno uno dei servizi scelti.' : 'Film di almeno uno dei generi scelti.'}</p>
+              <p class="mb-2 text-xs text-gray-600 dark:text-gray-400">{m.key === 'provider' ? `${words.provider} su almeno uno dei servizi scelti.` : `${words.genre} di almeno uno dei generi scelti.`}</p>
               <ul class="flex flex-wrap gap-1.5">
                 {m.values.map((v) => {
                   const logo = m.key === 'provider' ? providerLogos.get(v) : null;
@@ -135,7 +157,7 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
             </div>
           </details>
         ))}
-        {hasInfo && (
+        {hasInfo && movies && (
           <>
             <label>
               <span class="sr-only">Durata</span>
@@ -144,6 +166,36 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
                 <option value="0-90">Fino a 90 min</option>
                 <option value="91-120">Da 90 min a 2 ore</option>
                 <option value="121-999">Oltre 2 ore</option>
+              </select>
+            </label>
+            <label>
+              <span class="sr-only">Voto TMDB minimo</span>
+              <select class={filterSelect} data-filter="vote">
+                <option value="">Qualsiasi voto</option>
+                <option value="6">Voto 6 o più</option>
+                <option value="7">Voto 7 o più</option>
+                <option value="8">Voto 8 o più</option>
+              </select>
+            </label>
+          </>
+        )}
+        {hasInfo && series && (
+          <>
+            <label>
+              <span class="sr-only">Numero di stagioni</span>
+              <select class={filterSelect} data-filter="seasons">
+                <option value="">Qualsiasi numero di stagioni</option>
+                <option value="1-1">Una stagione</option>
+                <option value="2-4">Da 2 a 4 stagioni</option>
+                <option value="5-999">5 stagioni o più</option>
+              </select>
+            </label>
+            <label>
+              <span class="sr-only">Stato della serie</span>
+              <select class={filterSelect} data-filter="status">
+                <option value="">In corso e concluse</option>
+                <option value="in-corso">Ancora in corso</option>
+                <option value="conclusa">Concluse</option>
               </select>
             </label>
             <label>
@@ -183,12 +235,14 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
           view.entries.map((e, i) => (
             <tr
               class="chart-row hover:bg-gray-50 data-seen:bg-emerald-50/60 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/30"
-              data-key={movies ? e.key : undefined}
+              data-key={movies ? e.key : series ? seriesSeenKey(e) : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
               data-genres={filters[i] && `|${filters[i].genres.join('|')}|`}
               data-providers={filters[i] && `|${filters[i].providers.join('|')}|`}
               data-runtime={filters[i]?.runtime ?? undefined}
+              data-seasons={filters[i]?.seasons ?? undefined}
+              data-status={filters[i]?.status ?? undefined}
               data-vote={filters[i]?.vote ?? undefined}
             >
               <td class="px-2 py-2 text-right text-base font-bold tabular-nums sm:px-3">{e.rank}</td>
@@ -239,10 +293,10 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
                         {e.points} punti · {e.daysInChart} {e.daysInChart === 1 ? 'giorno' : 'giorni'} · migliore {e.bestRank}°
                       </p>
                     )}
-                    {movies && (
+                    {screen && (
                       <label class="chart-seen mt-1 hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
                         <input type="checkbox" class="size-3.5 cursor-pointer accent-emerald-600" />
-                        Visto<span class="sr-only">: {e.title}</span>
+                        {words.seen}<span class="sr-only">: {e.title}</span>
                       </label>
                     )}
                   </div>
@@ -291,24 +345,24 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
 </div>
 
 <script>
-  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange, type SeenList } from '../lib/seen';
 
   // Ricerca e "mostra tutto": miglioramento progressivo, senza JS la tabella è completa.
   const normalize = (s: string) =>
     s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
-  // Scelta del filtro sui film visti, ricordata tra una visita e l'altra.
-  const SEEN_VIEW_KEY = 'vista:visti';
-  const readView = () => {
+  // Scelta del filtro sui film visti (o sulle serie viste), ricordata tra una visita e l'altra.
+  const SEEN_VIEW_KEY: Record<SeenList, string> = { film: 'vista:visti', serie: 'vista:serie-viste' };
+  const readView = (list: SeenList) => {
     try {
-      return localStorage.getItem(SEEN_VIEW_KEY) ?? '';
+      return localStorage.getItem(SEEN_VIEW_KEY[list]) ?? '';
     } catch {
       return '';
     }
   };
-  const writeView = (value: string) => {
+  const writeView = (list: SeenList, value: string) => {
     try {
-      localStorage.setItem(SEEN_VIEW_KEY, value);
+      localStorage.setItem(SEEN_VIEW_KEY[list], value);
     } catch {
       // Storage non disponibile (es. navigazione privata).
     }
@@ -331,7 +385,8 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
     let expanded = false;
 
     const seenSelect = root.querySelector<HTMLSelectElement>('[data-filter=seen]');
-    const seen = seenKeys();
+    const list = (root.dataset.seenList as SeenList | undefined) ?? 'film';
+    const seen = seenKeys(list);
     /** Conteggi accanto alle voci del filtro: "Già visti (3)". */
     const countSeen = () => {
       if (!seenSelect) return;
@@ -347,11 +402,12 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
       label.classList.replace('hidden', 'inline-flex');
       box.checked = seen.has(key);
       row.toggleAttribute('data-seen', box.checked);
-      box.addEventListener('change', () => setSeen(key, box.checked));
+      box.addEventListener('change', () => setSeen(list, key, box.checked));
     }
-    // Spunta cambiata qui o nella scheda del film: aggiorna la riga (anche un eventuale doppione) e i filtri.
+    // Spunta cambiata qui o nella scheda: aggiorna la riga (anche un eventuale doppione, es. due stagioni) e i filtri.
     document.addEventListener(SEEN_EVENT, (ev) => {
-      const { key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      const { list: changed, key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      if (changed !== list) return;
       for (const row of rows) {
         if (row.dataset.key !== key) continue;
         row.toggleAttribute('data-seen', seen);
@@ -361,11 +417,11 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
       update();
     });
     if (seenSelect) {
-      const saved = readView();
+      const saved = readView(list);
       if ([...seenSelect.options].some((o) => o.value === saved)) seenSelect.value = saved;
     }
 
-    /** Il film passa i filtri scelti; senza il dato (es. durata sconosciuta) è escluso. */
+    /** Il titolo passa i filtri scelti; senza il dato (es. durata sconosciuta) è escluso. */
     const passes = (row: HTMLTableRowElement) =>
       multis.every((m) => {
         const values = chosen(m);
@@ -377,11 +433,14 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
         if (!v) return true;
         const d = row.dataset;
         switch (sel.dataset.filter) {
-          case 'runtime': {
+          case 'runtime':
+          case 'seasons': {
             const [min, max] = v.split('-').map(Number);
-            const r = Number(d.runtime);
-            return Boolean(d.runtime) && r >= min! && r <= max!;
+            const have = d[sel.dataset.filter];
+            return Boolean(have) && Number(have) >= min! && Number(have) <= max!;
           }
+          case 'status':
+            return d.status === v;
           case 'vote':
             return Boolean(d.vote) && Number(d.vote) >= Number(v);
           case 'seen':
@@ -400,7 +459,7 @@ const hasInfo = filters.some((f) => f.runtime || f.genres.length);
           values.length === 0 ? m.dataset.all! : values.length === 1 ? values[0]! : `${values[0]} +${values.length - 1}`;
       }
       countSeen();
-      if (seenSelect) writeView(seenSelect.value);
+      if (seenSelect) writeView(list, seenSelect.value);
       const narrowing = q !== '' || filtered;
       let visible = 0;
       for (const row of rows) {

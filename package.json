@@ -16,7 +16,8 @@
     "info:canzoni": "tsx scripts/song-info.ts",
     "info:libri": "tsx scripts/book-info.ts",
     "info:film": "tsx scripts/movie-info.ts",
-    "update": "npm run ingest && npm run aggregate && npm run info:canzoni && npm run info:libri && npm run info:film",
+    "info:serie": "tsx scripts/series-info.ts",
+    "update": "npm run ingest && npm run aggregate && npm run info:canzoni && npm run info:libri && npm run info:film && npm run info:serie",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

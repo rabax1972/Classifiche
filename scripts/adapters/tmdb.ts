@@ -175,6 +175,20 @@ export function coverKey(media: Media, title: string) {
   return `${media}:${normalizeText(title)}`;
 }
 
+/** ID TMDB di un titolo: dalla classifica TMDB o, per Netflix, dalla ricerca delle copertine. */
+export function tmdbIdOf(
+  e: Pick<ChartEntry, 'title' | 'externalId' | 'sourceUrl'>,
+  media: Media,
+  covers?: MetaCache<CoverLookup>,
+): number | null {
+  const url = new RegExp(`themoviedb\\.org/${media}/(\\d+)`);
+  const id =
+    e.externalId?.match(new RegExp(`^tmdb:${media}:(\\d+)$`))?.[1] ??
+    e.sourceUrl?.match(url)?.[1] ??
+    covers?.get(coverKey(media, e.title))?.url?.match(url)?.[1];
+  return id ? Number(id) : null;
+}
+
 /**
  * Cerca su TMDB le copertine dei titoli delle classifiche ufficiali (Netflix non le fornisce).
  * Il risultato è salvato in data/cache/tmdb-covers.json (scadenza 150 giorni) e applicato

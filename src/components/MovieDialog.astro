@@ -86,9 +86,9 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
 </dialog>
 
 <script>
-  import { setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import { providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
   import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
-  import type { MovieCard, WatchProvider } from '../lib/types';
+  import type { MovieCard } from '../lib/types';
 
   const dialog = document.querySelector<HTMLDialogElement>('#movie-dialog');
   const dataEl = document.querySelector('#movie-data');
@@ -104,43 +104,13 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
     };
     const duration = (min: number) => (min < 60 ? `${min} min` : `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, '0')} min`);
 
-    const providerRow = (label: string, list: WatchProvider[]) => {
-      const row = document.createElement('div');
-      row.className = 'flex flex-wrap items-center gap-2';
-      const name = document.createElement('span');
-      name.className = 'w-24 shrink-0 text-gray-600 dark:text-gray-400';
-      name.textContent = label;
-      const ul = document.createElement('ul');
-      ul.className = 'flex flex-wrap gap-1.5';
-      ul.append(
-        ...list.map((p) => {
-          const li = document.createElement('li');
-          li.className = 'inline-flex items-center gap-1.5 rounded-full bg-gray-100 py-0.5 pr-2.5 pl-0.5 dark:bg-gray-800';
-          if (p.logo) {
-            const img = document.createElement('img');
-            img.src = p.logo;
-            img.alt = '';
-            img.width = 22;
-            img.height = 22;
-            img.referrerPolicy = 'no-referrer';
-            img.className = 'h-[22px] w-[22px] rounded-full';
-            li.append(img);
-          } else li.classList.replace('pl-0.5', 'pl-2.5');
-          li.append(p.name);
-          return li;
-        }),
-      );
-      row.append(name, ul);
-      return row;
-    };
-
     // Film mostrato nella modale, per la spunta "L'ho visto".
     let current: string | null = null;
     const seenBox = $<HTMLInputElement>('movie-seen');
-    seenBox.addEventListener('change', () => current && setSeen(current, seenBox.checked));
+    seenBox.addEventListener('change', () => current && setSeen('film', current, seenBox.checked));
     document.addEventListener(SEEN_EVENT, (ev) => {
-      const { key, seen } = (ev as CustomEvent<SeenChange>).detail;
-      if (key === current) seenBox.checked = seen;
+      const { list, key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      if (list === 'film' && key === current) seenBox.checked = seen;
     });
 
     const render = (key: string) => {
@@ -148,7 +118,7 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
       if (!m) return false;
       const info = m.info;
       current = key;
-      seenBox.checked = seenKeys().has(key);
+      seenBox.checked = seenKeys('film').has(key);
 
       $('movie-title').textContent = m.title;
       $('movie-original').textContent = info?.originalTitle ? `Titolo originale: ${info.originalTitle}` : '';

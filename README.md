@@ -54,11 +54,12 @@ npm run dev                # http://localhost:4321
 |---|---|
 | `npm run ingest` | Raccoglie le classifiche di oggi da tutte le fonti |
 | `npm run aggregate` | Ricalcola `data/charts/` dagli snapshot e dalle classifiche ufficiali |
-| `npm run update` | `ingest` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`): quello che fa il cron |
+| `npm run update` | `ingest` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`, `info:serie`): quello che fa il cron |
 | `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
 | `npm run info:canzoni` | Completa le schede di brani e artisti (`-- --all` senza limite di richieste) |
 | `npm run info:libri` | Completa le schede di libri e autori e le edizioni gratuite dei libri di pubblico dominio (`-- --all` senza limite) |
 | `npm run info:film` | Completa le schede di film e registi di Cinema e Film (`-- --all` senza limite; richiede la chiave TMDB) |
+| `npm run info:serie` | Completa le schede di serie e creatori di Serie TV (`-- --all` senza limite; richiede la chiave TMDB) |
 | `npm run covers:album` | Completa le copertine mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run tracks:album` | Completa le tracklist mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run covers:libri` | Completa le copertine mancanti delle liste di libri (`-- --force` per rifarle tutte) |
@@ -110,19 +111,20 @@ Le funzioni sono pure e testate, in [`src/lib/aggregate.ts`](src/lib/aggregate.t
 
 ### Schede in modale
 
-Cliccando su un titolo o su un nome si apre una scheda. Le schede si possono linkare direttamente con l'ancora (`#brano=…`, `#artista=…`, `#libro=…`, `#autore=…`, `#film=…`, `#regista=…`).
+Cliccando su un titolo o su un nome si apre una scheda. Le schede si possono linkare direttamente con l'ancora (`#brano=…`, `#artista=…`, `#libro=…`, `#autore=…`, `#film=…`, `#regista=…`, `#serie=…`, `#creatore=…`).
 
 | Pagine | Clic sul titolo | Clic sul nome |
 |---|---|---|
 | Canzoni | Brano: album, uscita, genere, durata (Apple Music), introduzione di Wikipedia; per il testo, link a Genius | Artista |
 | Libri e liste di libri | Libro: genere, uscita, presentazione dell'editore (Apple Books) o introduzione di Wikipedia; link per scaricare i libri di pubblico dominio (Liber Liber, Wikisource) | Autore |
 | Cinema e Film | Film: trama, generi, durata, uscita in Italia, voto, interpreti, trailer (TMDB); dove vederlo in Italia (JustWatch via TMDB) | Regista, con i film diretti (TMDB) |
+| Serie TV | Serie: trama, generi, stagioni ed episodi, anni, stato, reti, prossimo episodio, voto, interpreti, trailer (TMDB); dove vederla in Italia (JustWatch via TMDB) | Creatore, con le serie create (TMDB) |
 
-Le schede delle persone usano l'introduzione della voce di Wikipedia (in italiano o in inglese, CC BY-SA 4.0) e, se c'è, una foto con licenza libera da Wikimedia Commons, con autore e licenza indicati. Per i registi senza voce o senza foto si usano la biografia e la foto di TMDB.
+Le schede delle persone usano l'introduzione della voce di Wikipedia (in italiano o in inglese, CC BY-SA 4.0) e, se c'è, una foto con licenza libera da Wikimedia Commons, con autore e licenza indicati. Per registi e creatori senza voce o senza foto si usano la biografia e la foto di TMDB.
 
-Con gli stessi dati, le classifiche Cinema e Film si possono filtrare per servizi in abbonamento (con i loghi; il filtro compare solo se almeno 5 film ne hanno uno) e generi, anche più di uno alla volta (basta che il film ne abbia uno), e per durata e voto TMDB minimo. Il filtro è lato client: senza JavaScript la tabella resta completa.
+Con gli stessi dati, le classifiche Cinema e Film si possono filtrare per servizi in abbonamento (con i loghi; il filtro compare solo se almeno 5 film ne hanno uno) e generi, anche più di uno alla volta (basta che il film ne abbia uno), e per durata e voto TMDB minimo. Serie TV ha gli stessi filtri, con numero di stagioni e stato (in corso o conclusa) al posto della durata. Il filtro è lato client: senza JavaScript la tabella resta completa.
 
-Come le spunte "Ce l'ho" delle liste curate, ogni film di Cinema e Film si può segnare come "Visto", dalla classifica o dalla scheda del film (`src/lib/seen.ts`): la spunta resta salvata solo nel browser (localStorage, chiave `entryKey`), vale per entrambe le classifiche e per tutti i periodi, e un filtro mostra solo i film da vedere o quelli già visti.
+Come le spunte "Ce l'ho" delle liste curate, ogni film di Cinema e Film si può segnare come "Visto", dalla classifica o dalla scheda del film (`src/lib/seen.ts`): la spunta resta salvata solo nel browser (localStorage, chiave `entryKey`), vale per entrambe le classifiche e per tutti i periodi, e un filtro mostra solo i film da vedere o quelli già visti. Allo stesso modo ogni serie si può segnare come "Vista", con una lista separata: la chiave è l'ID TMDB, così la spunta vale per tutte le stagioni della Top 10 Netflix e per le classifiche TMDB.
 
 I dati sono raccolti dagli script `scripts/*-info.ts` in `data/cache/*-info.json`. Ogni run completa un numero limitato di schede. Le schede con dati TMDB scadono dopo 150 giorni e vengono rifatte.
 
@@ -185,6 +187,6 @@ This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Netflix Top 10. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
 
-Schede: introduzioni e biografie da Wikipedia (CC BY-SA 4.0), foto da Wikimedia Commons con autore e licenza, presentazioni degli editori da Apple Books, trame e dati dei film da TMDB, disponibilità in streaming da JustWatch.
+Schede: introduzioni e biografie da Wikipedia (CC BY-SA 4.0), foto da Wikimedia Commons con autore e licenza, presentazioni degli editori da Apple Books, trame e dati di film e serie da TMDB, disponibilità in streaming da JustWatch.
 
 I testi delle canzoni non vengono riprodotti: la scheda del brano rimanda a Genius.

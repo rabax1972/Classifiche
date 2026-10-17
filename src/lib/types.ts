@@ -349,3 +349,92 @@ export interface DirectorCard {
   /** Film del regista presenti nella pagina (chiave e titolo), per aprirne la scheda. */
   movies: { key: string; title: string }[];
 }
+
+/** Scheda di una serie per le modali di Serie TV (data/cache/series-info.json, scripts/series-info.ts; dati TMDB). */
+export interface SeriesInfo {
+  tmdbId: number;
+  /** Trama da TMDB, in italiano o, se manca, in inglese. */
+  overview: string | null;
+  overviewLang: 'it' | 'en' | null;
+  tagline: string | null;
+  originalTitle: string | null;
+  genres: string[];
+  /** Durata tipica di un episodio, in minuti. */
+  episodeRuntime: number | null;
+  /** Prima e ultima messa in onda (YYYY-MM-DD). */
+  firstAired: string | null;
+  lastAired: string | null;
+  /** Stato su TMDB: "Returning Series", "Ended", "Canceled", "In Production", "Planned", "Pilot". */
+  status: string | null;
+  seasons: number | null;
+  episodes: number | null;
+  /** Prossimo episodio annunciato. */
+  nextEpisode: { date: string; season: number; episode: number } | null;
+  /** Reti o piattaforme che la producono. */
+  networks: string[];
+  /** Voto medio TMDB (0-10) e numero di voti. */
+  vote: number | null;
+  votes: number;
+  /** Locandina grande (w500). */
+  poster: string | null;
+  creators: { id: number; name: string }[];
+  /** Interpreti principali di tutte le stagioni, con il personaggio. */
+  cast: { name: string; character: string | null }[];
+  /** Chiave del trailer su YouTube. */
+  trailer: string | null;
+  /** Dove vederla in Italia (dati JustWatch via TMDB). */
+  watch: MovieInfo['watch'];
+}
+
+/** Stato delle serie su TMDB, in italiano. */
+export const SERIES_STATUS: Record<string, string> = {
+  'Returning Series': 'In corso',
+  'In Production': 'In produzione',
+  Planned: 'Annunciata',
+  Pilot: 'Episodio pilota',
+  Ended: 'Conclusa',
+  Canceled: 'Cancellata',
+};
+
+/** Scheda di un creatore di serie per le modali di Serie TV (data/cache/creator-info.json, scripts/creator-info.ts). */
+export interface CreatorInfo {
+  tmdbId: number | null;
+  /** Introduzione della voce di Wikipedia (CC BY-SA); se manca, la biografia di TMDB in `bio`. */
+  wiki: WikiIntro | null;
+  bio: { text: string; lang: 'it' | 'en' } | null;
+  /** Foto da Wikimedia Commons con i crediti; altrimenti la foto del profilo TMDB in `tmdbPhoto`. */
+  photo: PersonPhoto | null;
+  tmdbPhoto: string | null;
+  /** Serie create, dalla più recente (al massimo 12). */
+  series: { id: number; title: string; year: string | null }[];
+}
+
+/** Dati di una serie incorporati nella pagina per la modale (src/components/SeriesDialog.astro). */
+export interface SeriesCard {
+  title: string;
+  /** Creatori come nella classifica ("A, B"), senza l'anno; null per le righe Netflix. */
+  creators: string | null;
+  year: string | null;
+  /** Stagione indicata dalla Top 10 Netflix ("Stagione 2"). */
+  label: string | null;
+  cover: string | null;
+  sourceUrl: string | null;
+  /** Chiave della spunta "Vista" (src/lib/seen.ts): la stessa per tutte le stagioni e le fonti, se l'ID TMDB è noto. */
+  seenKey: string;
+  info: SeriesInfo | null;
+}
+
+/** Una serie della pagina da cui si aprono le modali di serie e creatore. */
+export interface SeriesItem extends Omit<SeriesCard, 'info' | 'seenKey'> {
+  /** Chiave della scheda in data/cache/series-info.json (entryKey). */
+  key: string;
+  externalId: string | null;
+}
+
+/** Dati di un creatore incorporati nella pagina per la modale (src/components/CreatorDialog.astro). */
+export interface CreatorCard {
+  name: string;
+  info: CreatorInfo | null;
+  /** Serie del creatore presenti nella pagina (chiave e titolo), per aprirne la scheda. */
+  series: { key: string; title: string }[];
+}

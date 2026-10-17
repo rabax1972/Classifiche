@@ -1,0 +1,3386 @@
+{
+  "": {
+    "value": {
+      "tmdbId": 6048467,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 33238,
+          "title": "런닝맨",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:25.398Z"
+  },
+  "alexi hawley": {
+    "value": {
+      "tmdbId": 67855,
+      "wiki": null,
+      "bio": {
+        "text": "Alexi Hawley is a writer and producer working in television and films.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/eIyGbyHTfsIxEOPlD5lByW9A80y.jpg",
+      "series": [
+        {
+          "id": 210916,
+          "title": "The Recruit",
+          "year": "2022"
+        },
+        {
+          "id": 201992,
+          "title": "The Rookie: Feds",
+          "year": "2022"
+        },
+        {
+          "id": 79744,
+          "title": "The Rookie",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:36.486Z"
+  },
+  "alfred gough": {
+    "value": {
+      "tmdbId": 18924,
+      "wiki": {
+        "lang": "it",
+        "title": "Alfred Gough",
+        "url": "https://it.wikipedia.org/wiki/Alfred_Gough",
+        "extract": "Alfred Fabian Gough III, noto con il nome di Alfred Gough (Leonardtown, 22 agosto 1967), è uno sceneggiatore e produttore cinematografico statunitense.\n\nHa raggiunto il successo, in coppia con lo sceneggiatore Miles Millar, per aver creato la serie televisiva Smallville."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/wZV1hProzjw9oR9HtjILDMn2K6A.jpg",
+      "series": [
+        {
+          "id": 306086,
+          "title": "Grim",
+          "year": "2025"
+        },
+        {
+          "id": 119051,
+          "title": "Mercoledì",
+          "year": "2022"
+        },
+        {
+          "id": 64122,
+          "title": "The Shannara Chronicles",
+          "year": "2016"
+        },
+        {
+          "id": 47450,
+          "title": "Into the Badlands",
+          "year": "2015"
+        },
+        {
+          "id": 4604,
+          "title": "Smallville",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:12.531Z"
+  },
+  "andrew w marlowe": {
+    "value": {
+      "tmdbId": 57532,
+      "wiki": {
+        "lang": "en",
+        "title": "Andrew W. Marlowe",
+        "url": "https://en.wikipedia.org/wiki/Andrew_W._Marlowe",
+        "extract": "Andrew W. Marlowe is an American screenwriter, producer, and showrunner. He is best known as the creator, showrunner, and executive producer of Castle, a crime mystery dramedy that ran on ABC from 2009 to 2016 and starred Nathan Fillion in the eponymous role. He is also known as the writer of the 1997 action-thriller Air Force One starring Harrison Ford."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Andrew_Marlowe_%28Screenwriter%29.jpg/500px-Andrew_Marlowe_%28Screenwriter%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Andrew_Marlowe_(Screenwriter).jpg",
+        "author": "Marta Evry",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 95205,
+          "title": "The Equalizer",
+          "year": "2021"
+        },
+        {
+          "id": 79928,
+          "title": "Take Two",
+          "year": "2018"
+        },
+        {
+          "id": 1419,
+          "title": "Castle - Detective tra le righe",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:29.864Z"
+  },
+  "andy cohen": {
+    "value": {
+      "tmdbId": 54772,
+      "wiki": {
+        "lang": "it",
+        "title": "Andy Cohen",
+        "url": "https://it.wikipedia.org/wiki/Andy_Cohen",
+        "extract": "Andrew Joseph Cohen, detto Andy (Saint Louis, 2 giugno 1968), è un conduttore televisivo, imprenditore e blogger statunitense.\n\nÈ l'attuale vice presidente esecutivo responsabile della programmazione e dello sviluppo del canale televisivo via cavo Bravo, filiale di NBC Universal. Inoltre Cohen conduce alcuni show televisivi fra cui la trasmissione settimanale di attualità Watch What Happens Live."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Andy_Cohen_After_The_Hunt-54_%28cropped%29.jpg/500px-Andy_Cohen_After_The_Hunt-54_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Andy_Cohen_After_The_Hunt-54_(cropped).jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 22980,
+          "title": "Watch What Happens Live with Andy Cohen",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:21.262Z"
+  },
+  "ann donahue": {
+    "value": {
+      "tmdbId": 1214544,
+      "wiki": {
+        "lang": "en",
+        "title": "Ann Donahue",
+        "url": "https://en.wikipedia.org/wiki/Ann_Donahue",
+        "extract": "Ann Donahue is a prominent television writer.  She along with Carol Mendelsohn and Anthony E. Zuiker created the successful CSI franchise which includes CSI: Crime Scene Investigation, CSI: Miami, CSI: NY, and CSI: Cyber."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/loRNThhBJCx3FJi2RQvX519WD1j.jpg",
+      "series": [
+        {
+          "id": 122194,
+          "title": "CSI: Vegas",
+          "year": "2021"
+        },
+        {
+          "id": 61811,
+          "title": "CSI: Cyber",
+          "year": "2015"
+        },
+        {
+          "id": 2458,
+          "title": "CSI: New York",
+          "year": "2004"
+        },
+        {
+          "id": 1620,
+          "title": "CSI: Miami",
+          "year": "2002"
+        },
+        {
+          "id": 1431,
+          "title": "CSI: Scena del crimine",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:39.470Z"
+  },
+  "anthony e zuiker": {
+    "value": {
+      "tmdbId": 1039314,
+      "wiki": {
+        "lang": "it",
+        "title": "Anthony E. Zuiker",
+        "url": "https://it.wikipedia.org/wiki/Anthony_E._Zuiker",
+        "extract": "Anthony E. Zuiker (Blue Island, 17 agosto 1968) è un produttore cinematografico, sceneggiatore e regista statunitense, famoso per aver ideato la serie televisiva CSI - Scena del crimine.\n\nHa ideato e co-prodotto tutte e quattro le serie del telefilm: CSI - Scena del crimine (CSI: Crime Scene Investigation), CSI: Miami, CSI: NY e CSI: Cyber.\n\nZuiker si laureò nell'University of Nevada, Las Vegas.\n\nA lui è intitolato un teatro nella Chaparral High School, in Nevada."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Anthony_E_Zuiker_FOSE.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Anthony_E_Zuiker_FOSE.jpg",
+        "author": "gkrew at flickr (https://www.flickr.com/people/gkrew/)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 257631,
+          "title": "The Real CSI: Miami",
+          "year": "2024"
+        },
+        {
+          "id": 122194,
+          "title": "CSI: Vegas",
+          "year": "2021"
+        },
+        {
+          "id": 61811,
+          "title": "CSI: Cyber",
+          "year": "2015"
+        },
+        {
+          "id": 46934,
+          "title": "Whodunnit?",
+          "year": "2013"
+        },
+        {
+          "id": 183,
+          "title": "Britney and Kevin: Chaotic",
+          "year": "2005"
+        },
+        {
+          "id": 2458,
+          "title": "CSI: New York",
+          "year": "2004"
+        },
+        {
+          "id": 1620,
+          "title": "CSI: Miami",
+          "year": "2002"
+        },
+        {
+          "id": 1431,
+          "title": "CSI: Scena del crimine",
+          "year": "2000"
+        },
+        {
+          "id": 14252,
+          "title": "Heart of the City",
+          "year": "1986"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:40.250Z"
+  },
+  "anthony horowitz": {
+    "value": {
+      "tmdbId": 61354,
+      "wiki": {
+        "lang": "it",
+        "title": "Anthony Horowitz",
+        "url": "https://it.wikipedia.org/wiki/Anthony_Horowitz",
+        "extract": "Anthony Horowitz (Stanmore, 5 aprile 1958) è uno scrittore e sceneggiatore inglese.\n\nHa scritto diversi romanzi per bambini e giovani adulti, tra cui la serie della giovane spia Alex Rider. È il creatore e lo scrittore della serie televisiva Foyle's War, delle prime stagioni di L'ispettore Barnaby, ed è stato chiamato a dare una continuità letteraria ai personaggi di Sherlock Holmes e James Bond."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/vaMCduuCGEz1ws3LyM6XTgrZdAM.jpg",
+      "series": [
+        {
+          "id": 248330,
+          "title": "Nove ombre nella giungla messicana",
+          "year": "2025"
+        },
+        {
+          "id": 241548,
+          "title": "I delitti della bella di notte",
+          "year": "2024"
+        },
+        {
+          "id": 130766,
+          "title": "I delitti della gazza ladra",
+          "year": "2022"
+        },
+        {
+          "id": 66604,
+          "title": "New Blood",
+          "year": "2016"
+        },
+        {
+          "id": 39604,
+          "title": "Injustice",
+          "year": "2011"
+        },
+        {
+          "id": 8344,
+          "title": "Collision",
+          "year": "2009"
+        },
+        {
+          "id": 3163,
+          "title": "Foyle's War",
+          "year": "2002"
+        },
+        {
+          "id": 287,
+          "title": "Murder in Mind",
+          "year": "2001"
+        },
+        {
+          "id": 25642,
+          "title": "The Vanishing Man",
+          "year": "1997"
+        },
+        {
+          "id": 764,
+          "title": "L'ispettore Barnaby",
+          "year": "1997"
+        },
+        {
+          "id": 2482,
+          "title": "Crime Traveller",
+          "year": "1997"
+        },
+        {
+          "id": 24044,
+          "title": "The Diamond Brothers",
+          "year": "1991"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:00.433Z"
+  },
+  "bill lawrence": {
+    "value": {
+      "tmdbId": 1216859,
+      "wiki": {
+        "lang": "it",
+        "title": "Bill Lawrence",
+        "url": "https://it.wikipedia.org/wiki/Bill_Lawrence",
+        "extract": "William Van Duzer Lawrence IV, detto Bill (Ridgefield, 26 dicembre 1968), è uno sceneggiatore, regista e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bill_Lawrence_2015.jpg/500px-Bill_Lawrence_2015.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bill_Lawrence_2015.jpg",
+        "author": "Nan Palmero",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 479,
+          "title": "Nobody's Watching",
+          "year": null
+        },
+        {
+          "id": 254953,
+          "title": "Rooster",
+          "year": "2026"
+        },
+        {
+          "id": 295778,
+          "title": "Scrubs",
+          "year": "2026"
+        },
+        {
+          "id": 130853,
+          "title": "Carl Hiaasen’s Bad Monkey",
+          "year": "2024"
+        },
+        {
+          "id": 118546,
+          "title": "Clone High",
+          "year": "2023"
+        },
+        {
+          "id": 136311,
+          "title": "Shrinking",
+          "year": "2023"
+        },
+        {
+          "id": 97546,
+          "title": "Ted Lasso",
+          "year": "2020"
+        },
+        {
+          "id": 65367,
+          "title": "Rush Hour",
+          "year": "2016"
+        },
+        {
+          "id": 57815,
+          "title": "Ground Floor",
+          "year": "2013"
+        },
+        {
+          "id": 337004,
+          "title": "Scrubs: Med School",
+          "year": "2009"
+        },
+        {
+          "id": 18202,
+          "title": "Cougar Town",
+          "year": "2009"
+        },
+        {
+          "id": 17486,
+          "title": "Scrubs: Interns",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:44.293Z"
+  },
+  "brad falchuk": {
+    "value": {
+      "tmdbId": 1224030,
+      "wiki": {
+        "lang": "it",
+        "title": "Brad Falchuk",
+        "url": "https://it.wikipedia.org/wiki/Brad_Falchuk",
+        "extract": "Bradley Douglas Falchuk (Massachusetts, 1º marzo 1971) è uno sceneggiatore, produttore televisivo e regista statunitense conosciuto per aver prodotto le serie televisive Glee, American Horror Story e Scream Queens."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Brad_Falchuk_by_Gage_Skidmore.jpg/500px-Brad_Falchuk_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Brad_Falchuk_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 6860,
+          "title": "Pretty/Handsome",
+          "year": null
+        },
+        {
+          "id": 302942,
+          "title": "Magic 8 Ball",
+          "year": null
+        },
+        {
+          "id": 227004,
+          "title": "The Brothers Sun",
+          "year": "2024"
+        },
+        {
+          "id": 113036,
+          "title": "American Horror Stories",
+          "year": "2021"
+        },
+        {
+          "id": 89393,
+          "title": "9-1-1: Lone Star",
+          "year": "2020"
+        },
+        {
+          "id": 83127,
+          "title": "The Politician",
+          "year": "2019"
+        },
+        {
+          "id": 79084,
+          "title": "POSE",
+          "year": "2018"
+        },
+        {
+          "id": 75219,
+          "title": "9-1-1",
+          "year": "2018"
+        },
+        {
+          "id": 62046,
+          "title": "Scream Queens",
+          "year": "2015"
+        },
+        {
+          "id": 1413,
+          "title": "American Horror Story",
+          "year": "2011"
+        },
+        {
+          "id": 1417,
+          "title": "Glee",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:50.335Z"
+  },
+  "brijendrapal singh": {
+    "value": {
+      "tmdbId": 2329550,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/lcdA4X5PkBC9DNQjxj3c9WIARvv.jpg",
+      "series": [
+        {
+          "id": 283745,
+          "title": "C.I.D. Kolkata Bureau",
+          "year": null
+        },
+        {
+          "id": 94403,
+          "title": "C.I.F",
+          "year": "2019"
+        },
+        {
+          "id": 86978,
+          "title": "Divya Drishti",
+          "year": "2019"
+        },
+        {
+          "id": 241366,
+          "title": "Raat Hone Ko Hai",
+          "year": "2004"
+        },
+        {
+          "id": 155962,
+          "title": "Achanak 37 Saal Baad",
+          "year": "2002"
+        },
+        {
+          "id": 15226,
+          "title": "सीआईडी",
+          "year": "1998"
+        },
+        {
+          "id": 14307,
+          "title": "आहट",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:32.422Z"
+  },
+  "bruno heller": {
+    "value": {
+      "tmdbId": 1211883,
+      "wiki": {
+        "lang": "it",
+        "title": "Bruno Heller",
+        "url": "https://it.wikipedia.org/wiki/Bruno_Heller",
+        "extract": "Bruno Heller (Londra, 13 gennaio 1960) è uno sceneggiatore, produttore televisivo e regista televisivo britannico, noto principalmente per aver lavorato e ideato le serie TV Roma, The Mentalist e Gotham."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/BrunoHellerHWOFFeb2013.jpg/500px-BrunoHellerHWOFFeb2013.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:BrunoHellerHWOFFeb2013.jpg",
+        "author": "Angela George",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 79588,
+          "title": "Pennyworth",
+          "year": "2019"
+        },
+        {
+          "id": 60708,
+          "title": "Gotham",
+          "year": "2014"
+        },
+        {
+          "id": 5920,
+          "title": "The Mentalist",
+          "year": "2008"
+        },
+        {
+          "id": 1891,
+          "title": "Roma",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:29.190Z"
+  },
+  "caroline graham": {
+    "value": {
+      "tmdbId": 1428479,
+      "wiki": {
+        "lang": "it",
+        "title": "Caroline Graham",
+        "url": "https://it.wikipedia.org/wiki/Caroline_Graham",
+        "extract": "Caroline Graham (Nuneaton, 17 luglio 1931) è una scrittrice, sceneggiatrice, attrice, agente teatrale e produttrice radiofonica inglese, autrice di numerosi romanzi e sceneggiature."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 764,
+          "title": "L'ispettore Barnaby",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:01.396Z"
+  },
+  "chris mundy": {
+    "value": {
+      "tmdbId": 1258079,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/aEWK5Qo1U896iMsUMd2oY8yso1I.jpg",
+      "series": [
+        {
+          "id": 95350,
+          "title": "Lanterns",
+          "year": "2026"
+        },
+        {
+          "id": 47323,
+          "title": "Low Winter Sun",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:28.853Z"
+  },
+  "christopher lloyd": {
+    "value": {
+      "tmdbId": 1205496,
+      "wiki": {
+        "lang": "it",
+        "title": "Christopher Lloyd (sceneggiatore)",
+        "url": "https://it.wikipedia.org/wiki/Christopher_Lloyd_(sceneggiatore)",
+        "extract": "Christopher Lloyd (Waterbury, 18 giugno 1960) è uno sceneggiatore e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/jqdMLOeJvxp9cvJ3jZDtsoCK9fq.jpg",
+      "series": [
+        {
+          "id": 333875,
+          "title": "Mammoth",
+          "year": null
+        },
+        {
+          "id": 1421,
+          "title": "Modern Family",
+          "year": "2009"
+        },
+        {
+          "id": 5540,
+          "title": "Back to You",
+          "year": "2007"
+        },
+        {
+          "id": 4474,
+          "title": "Out of Practice",
+          "year": "2005"
+        },
+        {
+          "id": 16596,
+          "title": "Bram & Alice",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:56.412Z"
+  },
+  "chuck lorre": {
+    "value": {
+      "tmdbId": 160172,
+      "wiki": {
+        "lang": "it",
+        "title": "Chuck Lorre",
+        "url": "https://it.wikipedia.org/wiki/Chuck_Lorre",
+        "extract": "Chuck Lorre, pseudonimo di Charles Michael Levine (New York, 18 ottobre 1952), è un regista, sceneggiatore, produttore televisivo e compositore statunitense noto per aver ideato, scritto e prodotto numerose sitcom e serie televisive statunitensi di successo, tra cui Pappa e ciccia, Dharma & Greg, Due uomini e mezzo, The Big Bang Theory, Mom, Il metodo Kominsky e Young Sheldon."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Chuck_Lorre_at_San_Diego_Comic_Con_2026.jpg/500px-Chuck_Lorre_at_San_Diego_Comic_Con_2026.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Chuck_Lorre_at_San_Diego_Comic_Con_2026.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 287620,
+          "title": "Stuart Fails to Save the Universe",
+          "year": "2026"
+        },
+        {
+          "id": 252751,
+          "title": "Leanne",
+          "year": "2025"
+        },
+        {
+          "id": 243875,
+          "title": "Georgie & Mandy's First Marriage",
+          "year": "2024"
+        },
+        {
+          "id": 221486,
+          "title": "Bookie",
+          "year": "2023"
+        },
+        {
+          "id": 92461,
+          "title": "Bob Hearts Abishola",
+          "year": "2019"
+        },
+        {
+          "id": 81290,
+          "title": "Il metodo Kominsky",
+          "year": "2018"
+        },
+        {
+          "id": 71728,
+          "title": "Young Sheldon",
+          "year": "2017"
+        },
+        {
+          "id": 71308,
+          "title": "Disjointed",
+          "year": "2017"
+        },
+        {
+          "id": 49011,
+          "title": "Mom",
+          "year": "2013"
+        },
+        {
+          "id": 1418,
+          "title": "The Big Bang Theory",
+          "year": "2007"
+        },
+        {
+          "id": 2691,
+          "title": "Due uomini e mezzo",
+          "year": "2003"
+        },
+        {
+          "id": 3461,
+          "title": "Dharma & Greg",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:19.596Z"
+  },
+  "craig turk": {
+    "value": {
+      "tmdbId": 1631017,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 86136,
+          "title": "The Code",
+          "year": "2019"
+        },
+        {
+          "id": 80748,
+          "title": "FBI",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:30.857Z"
+  },
+  "d b weiss": {
+    "value": {
+      "tmdbId": 228068,
+      "wiki": {
+        "lang": "it",
+        "title": "D. B. Weiss",
+        "url": "https://it.wikipedia.org/wiki/D._B._Weiss",
+        "extract": "Daniel Brett Weiss (Chicago, 23 aprile 1971) è uno sceneggiatore e scrittore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/D._B._Weiss_by_Gage_Skidmore_2.jpg/500px-D._B._Weiss_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:D._B._Weiss_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 108545,
+          "title": "Il problema dei 3 corpi",
+          "year": "2024"
+        },
+        {
+          "id": 1399,
+          "title": "Il Trono di Spade",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:52.313Z"
+  },
+  "damon lindelof": {
+    "value": {
+      "tmdbId": 28974,
+      "wiki": {
+        "lang": "it",
+        "title": "Damon Lindelof",
+        "url": "https://it.wikipedia.org/wiki/Damon_Lindelof",
+        "extract": "Damon Laurence Lindelof (Teaneck, 24 aprile 1973) è uno sceneggiatore, produttore televisivo e fumettista statunitense, noto soprattutto come co-creatore, produttore e sceneggiatore principale di Lost."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Damon_Lindelof_by_Gage_Skidmore_3_%28cropped%29.jpg/500px-Damon_Lindelof_by_Gage_Skidmore_3_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Damon_Lindelof_by_Gage_Skidmore_3_(cropped).jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 312704,
+          "title": "The Chain",
+          "year": null
+        },
+        {
+          "id": 95350,
+          "title": "Lanterns",
+          "year": "2026"
+        },
+        {
+          "id": 197548,
+          "title": "Mrs. Davis",
+          "year": "2023"
+        },
+        {
+          "id": 79788,
+          "title": "Watchmen",
+          "year": "2019"
+        },
+        {
+          "id": 54344,
+          "title": "The Leftovers - Svaniti nel nulla",
+          "year": "2014"
+        },
+        {
+          "id": 4607,
+          "title": "Lost",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:27.716Z"
+  },
+  "dan harmon": {
+    "value": {
+      "tmdbId": 57194,
+      "wiki": {
+        "lang": "it",
+        "title": "Dan Harmon",
+        "url": "https://it.wikipedia.org/wiki/Dan_Harmon",
+        "extract": "Daniel James Harmon, detto Dan (Milwaukee, 3 gennaio 1973), è uno sceneggiatore, attore e regista statunitense.\n\nÈ noto soprattutto come ideatore della serie televisiva Community trasmessa da NBC e come co-ideatore della serie animata Rick and Morty. Ha anche co-sceneggiato il film d'animazione Monster House."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dan_Harmon_%2814790686643%29.jpg/500px-Dan_Harmon_%2814790686643%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Dan_Harmon_(14790686643).jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 296756,
+          "title": "President Curtis",
+          "year": "2026"
+        },
+        {
+          "id": 239528,
+          "title": "Seduced to Slay",
+          "year": "2023"
+        },
+        {
+          "id": 131033,
+          "title": "Krapopolis",
+          "year": "2023"
+        },
+        {
+          "id": 204358,
+          "title": "Strange Planet - Uno strano mondo",
+          "year": "2023"
+        },
+        {
+          "id": 67111,
+          "title": "HarmonQuest",
+          "year": "2016"
+        },
+        {
+          "id": 60625,
+          "title": "Rick and Morty",
+          "year": "2013"
+        },
+        {
+          "id": 18347,
+          "title": "Community",
+          "year": "2009"
+        },
+        {
+          "id": 280248,
+          "title": "Daryl",
+          "year": "2009"
+        },
+        {
+          "id": 212245,
+          "title": "Water and Power",
+          "year": "2008"
+        },
+        {
+          "id": 280129,
+          "title": "ChooseYourOwnSelectAVision.TV",
+          "year": "2007"
+        },
+        {
+          "id": 3395,
+          "title": "Acceptable.tv",
+          "year": "2007"
+        },
+        {
+          "id": 901,
+          "title": "The Sarah Silverman Program",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:41.267Z"
+  },
+  "david benioff": {
+    "value": {
+      "tmdbId": 9813,
+      "wiki": {
+        "lang": "it",
+        "title": "David Benioff",
+        "url": "https://it.wikipedia.org/wiki/David_Benioff",
+        "extract": "David Benioff, pseudonimo di David Friedman (New York, 25 settembre 1970), è uno scrittore e sceneggiatore statunitense.\n\nÈ noto soprattutto per aver realizzato l'adattamento cinematografico di best seller come Il cacciatore di aquiloni e la serie di romanzi Cronache del ghiaccio e del fuoco."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/David_Benioff_by_Gage_Skidmore_2.jpg/500px-David_Benioff_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Benioff_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 108545,
+          "title": "Il problema dei 3 corpi",
+          "year": "2024"
+        },
+        {
+          "id": 1399,
+          "title": "Il Trono di Spade",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:51.300Z"
+  },
+  "david shore": {
+    "value": {
+      "tmdbId": 169061,
+      "wiki": {
+        "lang": "it",
+        "title": "David Shore",
+        "url": "https://it.wikipedia.org/wiki/David_Shore",
+        "extract": "David Ian Shore (London, 3 luglio 1959) è uno sceneggiatore e produttore televisivo canadese, noto soprattutto per essere l'ideatore delle serie televisive Dr. House - Medical Division e The Good Doctor."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/David_Shore_by_Gage_Skidmore.jpg/500px-David_Shore_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Shore_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 14090,
+          "title": "Winters",
+          "year": null
+        },
+        {
+          "id": 329777,
+          "title": "I'm Not Here to Hurt You",
+          "year": null
+        },
+        {
+          "id": 71712,
+          "title": "The Good Doctor",
+          "year": "2017"
+        },
+        {
+          "id": 64199,
+          "title": "Sneaky Pete",
+          "year": "2015"
+        },
+        {
+          "id": 61676,
+          "title": "Battle Creek",
+          "year": "2015"
+        },
+        {
+          "id": 1408,
+          "title": "Dr. House - Medical Division",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:54.369Z"
+  },
+  "derek haas": {
+    "value": {
+      "tmdbId": 8161,
+      "wiki": {
+        "lang": "it",
+        "title": "Derek Haas",
+        "url": "https://it.wikipedia.org/wiki/Derek_Haas",
+        "extract": "Derek Haas (Dallas, 30 giugno 1970) è uno sceneggiatore, produttore cinematografico, produttore televisivo e scrittore statunitense. Lavora in coppia con Michael Brandt, compagno di banco presso la Baylor University, ove entrambi si sono laureati.\n\nAl contrario di Brandt, Derek ha debuttato nel cinema agli inizi degli anni 2000 scrivendo insieme a lui Invincible, un film per la televisione di scarso successo.\n\nSi replica alcuni anni dopo lavorando al sequel del lucroso Fast and Furious, 2 Fast 2 Furious, anch'esso però non riscuote il successo sperato.\n\nLa fama arriva nel 2007, quando sempre accoppiato con Brandt lavora a Quel treno per Yuma, film che gli apre la strada per le grandi produzioni. L'anno successivo viene infatti contattato per scrivere Wanted, un film d'azione con Angelina Jolie che replica il successo di 3:10 to Yuma."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Derek_Haas_-_Countdown.jpg/500px-Derek_Haas_-_Countdown.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Derek_Haas_-_Countdown.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 256317,
+          "title": "Countdown",
+          "year": "2025"
+        },
+        {
+          "id": 121658,
+          "title": "FBI: International",
+          "year": "2021"
+        },
+        {
+          "id": 44006,
+          "title": "Chicago Fire",
+          "year": "2012"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:46.366Z"
+  },
+  "dick wolf": {
+    "value": {
+      "tmdbId": 117443,
+      "wiki": {
+        "lang": "it",
+        "title": "Dick Wolf",
+        "url": "https://it.wikipedia.org/wiki/Dick_Wolf",
+        "extract": "Dick Wolf, all'anagrafe Richard Anthony Wolf (New York, 20 dicembre 1946), è un produttore televisivo statunitense.\n\nVincitore di un Emmy Award, è specializzato nella produzione di serie televisive del genere police procedural tra le quali Miami Vice e i franchise Law & Order e One Chicago."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/DickWolfJan10.jpg/500px-DickWolfJan10.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:DickWolfJan10.jpg",
+        "author": "Angela George at https://www.flickr.com/photos/sharongraphics/",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 289560,
+          "title": "CIA",
+          "year": "2026"
+        },
+        {
+          "id": 298756,
+          "title": "Death Row Confidential: Secrets of a Serial Killer",
+          "year": "2025"
+        },
+        {
+          "id": 239961,
+          "title": "Prosecuting Evil with Kelly Siegler",
+          "year": "2023"
+        },
+        {
+          "id": 220939,
+          "title": "Blood & Money",
+          "year": "2023"
+        },
+        {
+          "id": 121658,
+          "title": "FBI: International",
+          "year": "2021"
+        },
+        {
+          "id": 106158,
+          "title": "Law & Order: Organized Crime",
+          "year": "2021"
+        },
+        {
+          "id": 90154,
+          "title": "First Responders Live",
+          "year": "2019"
+        },
+        {
+          "id": 90014,
+          "title": "Murder for Hire",
+          "year": "2019"
+        },
+        {
+          "id": 80748,
+          "title": "FBI",
+          "year": "2018"
+        },
+        {
+          "id": 74261,
+          "title": "Criminal Confessions",
+          "year": "2017"
+        },
+        {
+          "id": 67993,
+          "title": "Chicago Justice",
+          "year": "2017"
+        },
+        {
+          "id": 62650,
+          "title": "Chicago Med",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:22.114Z"
+  },
+  "don mcgill": {
+    "value": {
+      "tmdbId": 1218788,
+      "wiki": {
+        "lang": "it",
+        "title": "Don McGill",
+        "url": "https://it.wikipedia.org/wiki/Don_McGill",
+        "extract": "Don McGill (New York, 18 aprile 1963) è un produttore televisivo statunitense, conosciuto per aver creato la serie NCIS - Unità anticrimine."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/9QMLJDoA3hYlWdOhQyTVqimPok9.jpg",
+      "series": [
+        {
+          "id": 4614,
+          "title": "NCIS - Unità anticrimine",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:27.190Z"
+  },
+  "donald p bellisario": {
+    "value": {
+      "tmdbId": 160145,
+      "wiki": {
+        "lang": "it",
+        "title": "Donald P. Bellisario",
+        "url": "https://it.wikipedia.org/wiki/Donald_P._Bellisario",
+        "extract": "Donald Paul Bellisario (Cokeburg, 8 agosto 1935) è un autore televisivo e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Donald-bellisario-1993.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Donald-bellisario-1993.png",
+        "author": "Andwhatsnext, aka Nancy J Price - http://andwhatsnext.com/",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 202102,
+          "title": "Quantum Leap",
+          "year": "2022"
+        },
+        {
+          "id": 4614,
+          "title": "NCIS - Unità anticrimine",
+          "year": "2003"
+        },
+        {
+          "id": 4391,
+          "title": "First Monday",
+          "year": "2002"
+        },
+        {
+          "id": 4376,
+          "title": "JAG - Avvocati in divisa",
+          "year": "1995"
+        },
+        {
+          "id": 1626,
+          "title": "Tequila e Bonetti",
+          "year": "1992"
+        },
+        {
+          "id": 284018,
+          "title": "飞狼国语公映版",
+          "year": "1991"
+        },
+        {
+          "id": 4018,
+          "title": "In viaggio nel tempo",
+          "year": "1989"
+        },
+        {
+          "id": 2119,
+          "title": "Airwolf",
+          "year": "1984"
+        },
+        {
+          "id": 2999,
+          "title": "I predatori dell'idolo d'oro",
+          "year": "1982"
+        },
+        {
+          "id": 734,
+          "title": "Magnum, P.I.",
+          "year": "1980"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:28.144Z"
+  },
+  "eric kripke": {
+    "value": {
+      "tmdbId": 58321,
+      "wiki": {
+        "lang": "it",
+        "title": "Eric Kripke",
+        "url": "https://it.wikipedia.org/wiki/Eric_Kripke",
+        "extract": "Eric Kripke (Toledo, 24 aprile 1974) è uno sceneggiatore, regista e produttore televisivo statunitense, noto per essere il creatore delle serie televisive Supernatural e The Boys."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Eric_Kripke_2010_%28cropped%29.png/500px-Eric_Kripke_2010_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eric_Kripke_2010_(cropped).png",
+        "author": "vagueonthehow (original) Supernino (derivative work)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 205715,
+          "title": "Gen V",
+          "year": "2023"
+        },
+        {
+          "id": 76479,
+          "title": "The Boys",
+          "year": "2019"
+        },
+        {
+          "id": 66786,
+          "title": "Timeless",
+          "year": "2016"
+        },
+        {
+          "id": 1410,
+          "title": "Revolution",
+          "year": "2012"
+        },
+        {
+          "id": 32871,
+          "title": "Supernatural The Animation",
+          "year": "2011"
+        },
+        {
+          "id": 128896,
+          "title": "Ghostfacers",
+          "year": "2010"
+        },
+        {
+          "id": 1622,
+          "title": "Supernatural",
+          "year": "2005"
+        },
+        {
+          "id": 2210,
+          "title": "Tarzan",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:34.262Z"
+  },
+  "frank darabont": {
+    "value": {
+      "tmdbId": 4027,
+      "wiki": {
+        "lang": "it",
+        "title": "Frank Darabont",
+        "url": "https://it.wikipedia.org/wiki/Frank_Darabont",
+        "extract": "Ferenc Árpád Darabont, detto Frank (Montbéliard, 28 gennaio 1959), è un regista, sceneggiatore, produttore cinematografico e produttore televisivo ungherese naturalizzato statunitense.\n\nHa diretto le trasposizioni cinematografiche di tre opere scritte da Stephen King ossia Le ali della libertà, Il miglio verde e The Mist. È anche noto per essere stato il primo showrunner della popolare serie tv The Walking Dead."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frank_Darabont_at_the_PaleyFest_2011_-_The_Walking_Dead_panel.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Frank_Darabont_at_the_PaleyFest_2011_-_The_Walking_Dead_panel.jpg",
+        "author": "PopCultureGeek.com",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 44840,
+          "title": "Mob City",
+          "year": "2013"
+        },
+        {
+          "id": 1402,
+          "title": "The Walking Dead",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:10.490Z"
+  },
+  "geoff johns": {
+    "value": {
+      "tmdbId": 211962,
+      "wiki": {
+        "lang": "it",
+        "title": "Geoff Johns",
+        "url": "https://it.wikipedia.org/wiki/Geoff_Johns",
+        "extract": "Geoff Johns (Detroit, 25 gennaio 1973) è un fumettista, sceneggiatore, produttore cinematografico e televisivo statunitense.\n\nDopo aver esordito nel mondo dell'entertainment come collaboratore di Richard Donner, Geoff vuole perseguire il suo obbiettivo di lavorare nel mondo dei comics dove ha modo di esordire con la DC in seguito all'approvazione di lavorare su un progetto sul personaggio di Courtney Whitemore con l'albo Stars and Stripe e facendosi poi notare con un rilancio di successo per la storica serie JSA.\n\nCon l'insediamento del presidente Diane Nelson (2009) ottiene ruoli sempre più importanti anche a livello manageriale, che lo portano ad essere co-presidente e direttore creativo responsabile della DC Comics. È noto per i suoi lavori su personaggi come Lanterna Verde, Aquaman, Flash e Superman, e per il suo lavoro sulle serie televisive Smallville, Arrow e Flash."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/8.31.11GeoffJohnsNew52ByLuigiNovi1.jpg/500px-8.31.11GeoffJohnsNew52ByLuigiNovi1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:8.31.11GeoffJohnsNew52ByLuigiNovi1.jpg",
+        "author": "Luigi Novi",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 80986,
+          "title": "Stargirl",
+          "year": "2020"
+        },
+        {
+          "id": 75450,
+          "title": "Titans",
+          "year": "2018"
+        },
+        {
+          "id": 60735,
+          "title": "The Flash",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:08.502Z"
+  },
+  "greg berlanti": {
+    "value": {
+      "tmdbId": 88967,
+      "wiki": {
+        "lang": "it",
+        "title": "Greg Berlanti",
+        "url": "https://it.wikipedia.org/wiki/Greg_Berlanti",
+        "extract": "Greg Berlanti (Rye, 24 maggio 1972) è uno sceneggiatore, regista e produttore televisivo statunitense, che lavora in campo cinematografico e televisivo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Greg_Berlanti_at_Paley_Center%2C_on_September_8%2C_2012.jpg/500px-Greg_Berlanti_at_Paley_Center%2C_on_September_8%2C_2012.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Greg_Berlanti_at_Paley_Center,_on_September_8,_2012.jpg",
+        "author": "Genevieve",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 290164,
+          "title": "Stillwater",
+          "year": null
+        },
+        {
+          "id": 95057,
+          "title": "Superman & Lois",
+          "year": "2021"
+        },
+        {
+          "id": 75450,
+          "title": "Titans",
+          "year": "2018"
+        },
+        {
+          "id": 78191,
+          "title": "You",
+          "year": "2018"
+        },
+        {
+          "id": 62643,
+          "title": "DC's Legends of Tomorrow",
+          "year": "2016"
+        },
+        {
+          "id": 62688,
+          "title": "Supergirl",
+          "year": "2015"
+        },
+        {
+          "id": 60735,
+          "title": "The Flash",
+          "year": "2014"
+        },
+        {
+          "id": 48860,
+          "title": "The Tomorrow People",
+          "year": "2013"
+        },
+        {
+          "id": 1412,
+          "title": "Arrow",
+          "year": "2012"
+        },
+        {
+          "id": 43121,
+          "title": "Political Animals",
+          "year": "2012"
+        },
+        {
+          "id": 32729,
+          "title": "No Ordinary Family",
+          "year": "2010"
+        },
+        {
+          "id": 1365,
+          "title": "Eli Stone",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:09.473Z"
+  },
+  "greg daniels": {
+    "value": {
+      "tmdbId": 1216630,
+      "wiki": {
+        "lang": "it",
+        "title": "Greg Daniels",
+        "url": "https://it.wikipedia.org/wiki/Greg_Daniels",
+        "extract": "Gregory Martin Daniels, detto Greg (New York, 13 giugno 1963), è uno scrittore, regista e produttore televisivo statunitense.\n\nÈ noto per il suo lavoro in diverse serie televisive, tra cui The Office, Saturday Night Live, I Simpson, Parks and Recreation e King of the Hill, quattro delle quali sono apparse tra i migliori 100 show televisivi secondo la lista del giornalista di Time James Poniewozik \"All Time 100 TV Shows\". Daniels ha frequentato l'Università di Harvard dove divenne amico di Conan O'Brien. Il loro primo testo accreditato è stato per Not Necessarily the News, prima che venissero licenziati a causa di tagli al budget. Alla fine è diventato uno scrittore per due serie di lunga durata: Saturday Night Live e I Simpson."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Greg_Daniels_2022_%28cropped%29.png/500px-Greg_Daniels_2022_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Greg_Daniels_2022_(cropped).png",
+        "author": "Criticologos",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 253941,
+          "title": "The Paper",
+          "year": "2025"
+        },
+        {
+          "id": 155097,
+          "title": "My Mom, Your Dad",
+          "year": "2022"
+        },
+        {
+          "id": 85922,
+          "title": "Space Force",
+          "year": "2020"
+        },
+        {
+          "id": 86248,
+          "title": "Upload",
+          "year": "2020"
+        },
+        {
+          "id": 8592,
+          "title": "Parks and Recreation",
+          "year": "2009"
+        },
+        {
+          "id": 2316,
+          "title": "The Office (US)",
+          "year": "2005"
+        },
+        {
+          "id": 2122,
+          "title": "King of the Hill",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:26.120Z"
+  },
+  "guy ritchie": {
+    "value": {
+      "tmdbId": 956,
+      "wiki": {
+        "lang": "it",
+        "title": "Guy Ritchie",
+        "url": "https://it.wikipedia.org/wiki/Guy_Ritchie",
+        "extract": "Guy Stuart Ritchie (Hatfield, 10 settembre 1968) è un regista, sceneggiatore e produttore cinematografico britannico.\n\nHa girato commedie action come Lock & Stock - Pazzi scatenati (1998), Snatch - Lo strappo (2000) e The Gentlemen (2019), ma anche blockbuster come Sherlock Holmes (2009), Sherlock Holmes - Gioco di ombre (2011) e Aladdin (2019)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/GuyRitchiebyKathyHutchins.jpg/500px-GuyRitchiebyKathyHutchins.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:GuyRitchiebyKathyHutchins.jpg",
+        "author": "Kathy Hutchins",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 328089,
+          "title": "Capital",
+          "year": null
+        },
+        {
+          "id": 236235,
+          "title": "The Gentlemen",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:24.617Z"
+  },
+  "hart hanson": {
+    "value": {
+      "tmdbId": 1212569,
+      "wiki": {
+        "lang": "it",
+        "title": "Hart Hanson",
+        "url": "https://it.wikipedia.org/wiki/Hart_Hanson",
+        "extract": "Hart Hanson (Burlingame, 26 luglio 1957) è uno sceneggiatore e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Hart_Hanson_at_Televerse_2025.jpg/500px-Hart_Hanson_at_Televerse_2025.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Hart_Hanson_at_Televerse_2025.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 50971,
+          "title": "Backstrom",
+          "year": "2015"
+        },
+        {
+          "id": 39360,
+          "title": "Il risolutore",
+          "year": "2012"
+        },
+        {
+          "id": 1911,
+          "title": "Bones",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:53.338Z"
+  },
+  "ian brennan": {
+    "value": {
+      "tmdbId": 59595,
+      "wiki": {
+        "lang": "it",
+        "title": "Ian Brennan",
+        "url": "https://it.wikipedia.org/wiki/Ian_Brennan",
+        "extract": "Ian Brennan (Mount Prospect, 23 aprile 1978) è un produttore televisivo e attore statunitense.\n\nÈ noto soprattutto per aver co-ideato le serie televisive Glee e Scream Queens."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ian_Brennan_by_Gage_Skidmore.jpg/500px-Ian_Brennan_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ian_Brennan_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 299939,
+          "title": "Monster: La storia di Lizzie Borden",
+          "year": "2026"
+        },
+        {
+          "id": 286801,
+          "title": "Monster: La storia di Ed Gein",
+          "year": "2025"
+        },
+        {
+          "id": 225634,
+          "title": "MONSTERS: La storia di Lyle ed Erik Menendez",
+          "year": "2024"
+        },
+        {
+          "id": 210232,
+          "title": "The Watcher",
+          "year": "2022"
+        },
+        {
+          "id": 113988,
+          "title": "DAHMER - Mostro: la storia di Jeffrey Dahmer",
+          "year": "2022"
+        },
+        {
+          "id": 87050,
+          "title": "Hollywood",
+          "year": "2020"
+        },
+        {
+          "id": 83127,
+          "title": "The Politician",
+          "year": "2019"
+        },
+        {
+          "id": 62046,
+          "title": "Scream Queens",
+          "year": "2015"
+        },
+        {
+          "id": 1417,
+          "title": "Glee",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:22.700Z"
+  },
+  "jason sudeikis": {
+    "value": {
+      "tmdbId": 58224,
+      "wiki": {
+        "lang": "it",
+        "title": "Jason Sudeikis",
+        "url": "https://it.wikipedia.org/wiki/Jason_Sudeikis",
+        "extract": "Daniel Jason Sudeikis (Fairfax, 18 settembre 1975) è un attore, comico, sceneggiatore e doppiatore statunitense.\n\nÈ vincitore di due Golden Globe, due Screen Actors Guild Award, un Critics' Choice Television Award e quattro Premi Emmy per la serie televisiva Ted Lasso."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jason_Sudeikis_on_March_20%2C_2023_in_the_Oval_Office_of_the_White_House_-_P20230320AS-2571_%28cropped%29.jpg/500px-Jason_Sudeikis_on_March_20%2C_2023_in_the_Oval_Office_of_the_White_House_-_P20230320AS-2571_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jason_Sudeikis_on_March_20,_2023_in_the_Oval_Office_of_the_White_House_-_P20230320AS-2571_(cropped).jpg",
+        "author": "The White House",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 97546,
+          "title": "Ted Lasso",
+          "year": "2020"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:45.285Z"
+  },
+  "jeff davis": {
+    "value": {
+      "tmdbId": 1235310,
+      "wiki": {
+        "lang": "it",
+        "title": "Jeff Davis",
+        "url": "https://it.wikipedia.org/wiki/Jeff_Davis",
+        "extract": "Jeff Davis (Milford, 13 giugno 1975) è uno sceneggiatore e produttore televisivo statunitense.\n\nLaureato in Film al Vassar College, ottiene un master universitario in Sceneggiatura alla University of Southern California. Lavora come editor e autore su manuali relativi a software informatici, fino a che non riesce a vendere una sua sceneggiatura alla CBS Television.\n\nDa questa sceneggiatura nasce la serie televisiva statunitense Criminal Minds, della quale è creatore e co-produttore esecutivo per la prima stagione.\n\nDavis è anche lo sceneggiatore e produttore esecutivo della serie televisiva per MTV Teen Wolf."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Jeff_Davis_by_Gage_Skidmore_2.jpg/500px-Jeff_Davis_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeff_Davis_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 134865,
+          "title": "Wolf Pack",
+          "year": "2023"
+        },
+        {
+          "id": 34524,
+          "title": "Teen Wolf",
+          "year": "2011"
+        },
+        {
+          "id": 4057,
+          "title": "Criminal Minds",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:37.449Z"
+  },
+  "jeremy zag": {
+    "value": {
+      "tmdbId": 1762584,
+      "wiki": {
+        "lang": "it",
+        "title": "Jeremy Zag",
+        "url": "https://it.wikipedia.org/wiki/Jeremy_Zag",
+        "extract": "Jérémy Zag (24 marzo 1985) è un produttore cinematografico, imprenditore e compositore francese.\n\nZag è fondatore e CEO della ZAG Entertainment, uno studio specializzato nell'intrattenimento per tutta la famiglia. Le sue divisioni includono compagnie di produzione e studi di animazione, locati in Europa, Stati Uniti e Asia, che sviluppano serie tv, film e giochi.\n\nZag è anche il presidente della Federazione mondiale internazionale Karate-Do Shotokan-Ryu Kase Ha nella sezione di Los Angeles, California."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/JeremyZag2015.jpg/500px-JeremyZag2015.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:JeremyZag2015.jpg",
+        "author": "Jeremy Zag",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 133470,
+          "title": "GhostForce",
+          "year": "2021"
+        },
+        {
+          "id": 103659,
+          "title": "Power Players",
+          "year": "2019"
+        },
+        {
+          "id": 135531,
+          "title": "Miraculous Chibi",
+          "year": "2018"
+        },
+        {
+          "id": 65334,
+          "title": "Miraculous - Le storie di Ladybug e Chat Noir",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:17.608Z"
+  },
+  "joan ganz cooney": {
+    "value": {
+      "tmdbId": 1103687,
+      "wiki": {
+        "lang": "it",
+        "title": "Joan Ganz Cooney",
+        "url": "https://it.wikipedia.org/wiki/Joan_Ganz_Cooney",
+        "extract": "Joan Ganz Cooney, nata Joan Ganz (Phoenix, 30 novembre 1929) è una produttrice televisiva statunitense.\n\nÈ una delle fondatrici di Sesame Workshop (originariamente Children's Television Workshop o CTW), l'organizzazione nota per la creazione dello spettacolo televisivo per bambini Sesamo apriti."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Joan_Ganz_Cooney.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Joan_Ganz_Cooney.JPG",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 11633,
+          "title": "Plaza Sésamo",
+          "year": null
+        },
+        {
+          "id": 3955,
+          "title": "Takalani Sesame",
+          "year": null
+        },
+        {
+          "id": 2113,
+          "title": "5, Rue Sésame",
+          "year": "2005"
+        },
+        {
+          "id": 12405,
+          "title": "1, rue Sésame",
+          "year": "1978"
+        },
+        {
+          "id": 227215,
+          "title": "Vila Sésamo",
+          "year": "1972"
+        },
+        {
+          "id": 502,
+          "title": "Sesamo apriti!",
+          "year": "1969"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:05.441Z"
+  },
+  "john wells": {
+    "value": {
+      "tmdbId": 47333,
+      "wiki": {
+        "lang": "it",
+        "title": "John Wells (produttore televisivo)",
+        "url": "https://it.wikipedia.org/wiki/John_Wells_(produttore_televisivo)",
+        "extract": "John Marcum Wells (Alexandria, 28 maggio 1956) è un produttore televisivo, sceneggiatore e regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/JohnWellsHWoFJan2012_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:JohnWellsHWoFJan2012_(cropped).jpg",
+        "author": "Angela George",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 208736,
+          "title": "Shameless Hall of Shame",
+          "year": "2020"
+        },
+        {
+          "id": 34307,
+          "title": "Shameless",
+          "year": "2011"
+        },
+        {
+          "id": 1814,
+          "title": "Smith",
+          "year": "2006"
+        },
+        {
+          "id": 24,
+          "title": "Presidio Med",
+          "year": "2002"
+        },
+        {
+          "id": 512,
+          "title": "Squadra Emergenza",
+          "year": "1999"
+        },
+        {
+          "id": 28727,
+          "title": "Angel Street",
+          "year": "1992"
+        },
+        {
+          "id": 2294,
+          "title": "China Beach",
+          "year": "1988"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:15.595Z"
+  },
+  "jon bokenkamp": {
+    "value": {
+      "tmdbId": 52001,
+      "wiki": {
+        "lang": "en",
+        "title": "Jon Bokenkamp",
+        "url": "https://en.wikipedia.org/wiki/Jon_Bokenkamp",
+        "extract": "Jon Bokenkamp (born June 30, 1973 in Kearney, Nebraska) is an American writer and producer best known for his role in writing the screenplays for Taking Lives and The Call, and creating the NBC series The Blacklist along with The Blacklist: Redemption.\n\nHe was involved in theater and music as a student at Kearney High School, attended the University of Nebraska at Kearney, then went to the School of Cinematic Arts at the University of Southern California.\n\nBokenkamp was encouraged to enter a script writing competition by friend and fellow Nebraskan, Todd Nelson, creator of the Nebraska Coast Connection. After winning the competition, Jon landed an agent and his first paid assignment, rewriting a horror film for Exorcist director William Friedkin."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Jon_Bokenkamp_2013_%28cropped%29.jpg/500px-Jon_Bokenkamp_2013_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jon_Bokenkamp_2013_(cropped).jpg",
+        "author": "Thibault from Paris, France",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 221079,
+          "title": "The Last Frontier",
+          "year": "2025"
+        },
+        {
+          "id": 68018,
+          "title": "The Blacklist: Redemption",
+          "year": "2017"
+        },
+        {
+          "id": 46952,
+          "title": "The Blacklist",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:07.725Z"
+  },
+  "justin roiland": {
+    "value": {
+      "tmdbId": 1245733,
+      "wiki": {
+        "lang": "it",
+        "title": "Justin Roiland",
+        "url": "https://it.wikipedia.org/wiki/Justin_Roiland",
+        "extract": "Mark Justin Roiland (Manteca, 21 febbraio 1980) è un animatore, doppiatore, sceneggiatore, produttore televisivo e regista statunitense. È conosciuto per essere stato il co-creatore e produttore esecutivo delle serie animate Rick and Morty, prodotta per Adult Swim nella quale prestava la voce ai personaggi eponimi dello show, e Solar Opposites, nella quale doppiava il co-protagonista Korvo. Ha anche doppiato Oscar della serie animata Fish Hooks in onda su Disney Channel, il Conte Limoncello di Adventure Time e Blendin Blandin di Gravity Falls."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Justin_Roiland_%2836434635662%29.jpg/500px-Justin_Roiland_%2836434635662%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Justin_Roiland_(36434635662).jpg",
+        "author": "Super Festivals from Ft. Lauderdale, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 201600,
+          "title": "The Paloni Family Comedy Show!",
+          "year": null
+        },
+        {
+          "id": 97645,
+          "title": "Solar Opposites",
+          "year": "2020"
+        },
+        {
+          "id": 60625,
+          "title": "Rick and Morty",
+          "year": "2013"
+        },
+        {
+          "id": 197844,
+          "title": "The Mountain",
+          "year": "2008"
+        },
+        {
+          "id": 197859,
+          "title": "Reporters",
+          "year": "2007"
+        },
+        {
+          "id": 201622,
+          "title": "Relative insanity",
+          "year": "2007"
+        },
+        {
+          "id": 198033,
+          "title": "The Real Animated Adventures of Doc and Mharti",
+          "year": "2006"
+        },
+        {
+          "id": 198035,
+          "title": "Christmas World 2050",
+          "year": "2006"
+        },
+        {
+          "id": 198034,
+          "title": "Magic Fantastic Animatic",
+          "year": "2006"
+        },
+        {
+          "id": 198115,
+          "title": "Puzzles",
+          "year": "2006"
+        },
+        {
+          "id": 198037,
+          "title": "Unbelievable Tales",
+          "year": "2006"
+        },
+        {
+          "id": 197862,
+          "title": "The Most Extraordinary Space Investigations",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:42.353Z"
+  },
+  "lee aronsohn": {
+    "value": {
+      "tmdbId": 1218744,
+      "wiki": {
+        "lang": "en",
+        "title": "Lee Aronsohn",
+        "url": "https://en.wikipedia.org/wiki/Lee_Aronsohn",
+        "extract": "Lee Aronsohn (born December 15, 1952) is an American television writer, composer and producer.\n\nHe is the co-creator of the successful TV series Two and a Half Men. He has written for many sitcoms, such as The Love Boat, Who's the Boss?, Murphy Brown, Grace Under Fire, The Big Bang Theory, and Cybill."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Lee_Aronsohn_in_September_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Lee_Aronsohn_in_September_2011.jpg",
+        "author": "Angela George",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 2691,
+          "title": "Due uomini e mezzo",
+          "year": "2003"
+        },
+        {
+          "id": 28005,
+          "title": "Life... and Stuff",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:18.878Z"
+  },
+  "link neal": {
+    "value": {
+      "tmdbId": 1176586,
+      "wiki": null,
+      "bio": {
+        "text": "Link Neal is a writer and actor, known for Good Mythical Morning (2012), The Mythical Show (2013) and Looking for Ms. Locklear (2008). He has been married to Christy since 2000. They have three children.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/kRGfDZxFM1TLoovPY0gTrMWw6Tc.jpg",
+      "series": [
+        {
+          "id": 328634,
+          "title": "Rhett & Link Go To NYC",
+          "year": "2025"
+        },
+        {
+          "id": 275230,
+          "title": "Roll For Mythicality",
+          "year": "2024"
+        },
+        {
+          "id": 262481,
+          "title": "Rhett & Link's Wonderhole",
+          "year": "2024"
+        },
+        {
+          "id": 328628,
+          "title": "Behind the Mythicality",
+          "year": "2019"
+        },
+        {
+          "id": 68546,
+          "title": "Rhett & Link's Buddy System",
+          "year": "2016"
+        },
+        {
+          "id": 68705,
+          "title": "Good Mythical Crew",
+          "year": "2016"
+        },
+        {
+          "id": 126677,
+          "title": "Good Mythical MORE",
+          "year": "2014"
+        },
+        {
+          "id": 65701,
+          "title": "Good Mythical Morning",
+          "year": "2012"
+        },
+        {
+          "id": 39458,
+          "title": "Rhett & Link: Commercial Kings",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:03.703Z"
+  },
+  "lloyd morrisett": {
+    "value": {
+      "tmdbId": 1217334,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 10732,
+          "title": "Sesamstraße",
+          "year": "1975"
+        },
+        {
+          "id": 502,
+          "title": "Sesamo apriti!",
+          "year": "1969"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:04.665Z"
+  },
+  "luiz villaca": {
+    "value": {
+      "tmdbId": 394873,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/uWSHFPAtGjoIvNm3YUu40LBK7UE.jpg",
+      "series": [
+        {
+          "id": 338312,
+          "title": "Habeas Corpus: o passado como sentença",
+          "year": null
+        },
+        {
+          "id": 308963,
+          "title": "Habeas Corpus",
+          "year": "2026"
+        },
+        {
+          "id": 136192,
+          "title": "Vizinhos",
+          "year": "2015"
+        },
+        {
+          "id": 218797,
+          "title": "3 Teresas",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:25.794Z"
+  },
+  "matt groening": {
+    "value": {
+      "tmdbId": 5741,
+      "wiki": {
+        "lang": "it",
+        "title": "Matt Groening",
+        "url": "https://it.wikipedia.org/wiki/Matt_Groening",
+        "extract": "Matthew Abram Groening, detto Matt (AFI: /ˈɡreɪnɪŋ/; Portland, 15 febbraio 1954), è un fumettista, disegnatore e produttore televisivo statunitense, creatore delle serie animate umoristiche I Simpson, Futurama e Disincanto."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/MattGroening-byPhilipRomano.jpg/500px-MattGroening-byPhilipRomano.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MattGroening-byPhilipRomano.jpg",
+        "author": "PhilipRomanoPhoto",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 73021,
+          "title": "Disincanto",
+          "year": "2018"
+        },
+        {
+          "id": 615,
+          "title": "Futurama",
+          "year": "1999"
+        },
+        {
+          "id": 456,
+          "title": "I Simpson",
+          "year": "1989"
+        },
+        {
+          "id": 336714,
+          "title": "The Simpsons: Tracey Ullman Shorts",
+          "year": "1987"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:23.103Z"
+  },
+  "matt olmstead": {
+    "value": {
+      "tmdbId": 1214477,
+      "wiki": {
+        "lang": "en",
+        "title": "Matt Olmstead",
+        "url": "https://en.wikipedia.org/wiki/Matt_Olmstead",
+        "extract": "Matt Olmstead is an American writer and producer for television shows."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/3tK3c9pZlGFBJaOxwH00svHtu8U.jpg",
+      "series": [
+        {
+          "id": 106158,
+          "title": "Law & Order: Organized Crime",
+          "year": "2021"
+        },
+        {
+          "id": 62650,
+          "title": "Chicago Med",
+          "year": "2015"
+        },
+        {
+          "id": 58841,
+          "title": "Chicago P.D.",
+          "year": "2014"
+        },
+        {
+          "id": 32861,
+          "title": "I signori della fuga",
+          "year": "2011"
+        },
+        {
+          "id": 9875,
+          "title": "Blind Justice",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:06.682Z"
+  },
+  "matt stone": {
+    "value": {
+      "tmdbId": 34518,
+      "wiki": {
+        "lang": "it",
+        "title": "Matt Stone",
+        "url": "https://it.wikipedia.org/wiki/Matt_Stone",
+        "extract": "Matthew Richard Stone, detto Matt (Houston, 26 maggio 1971), è un regista, sceneggiatore, attore e produttore cinematografico  statunitense.\n\nHa creato insieme a Trey Parker la celebre e criticata serie televisiva animata South Park. Lui e Parker sono conosciuti anche per i DVDA, una band creata da loro in cui le canzoni fanno parte delle colonne sonore dei loro lavori."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Matt_Stone_by_Gage_Skidmore_3.jpg/500px-Matt_Stone_by_Gage_Skidmore_3.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matt_Stone_by_Gage_Skidmore_3.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 58042,
+          "title": "Princess",
+          "year": null
+        },
+        {
+          "id": 555,
+          "title": "That's My Bush!",
+          "year": "2001"
+        },
+        {
+          "id": 2190,
+          "title": "South Park",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:58.411Z"
+  },
+  "matt weitzman": {
+    "value": {
+      "tmdbId": 1224452,
+      "wiki": {
+        "lang": "en",
+        "title": "Matt Weitzman",
+        "url": "https://en.wikipedia.org/wiki/Matt_Weitzman",
+        "extract": "Matthew E. Weitzman (born November 13, 1967) is an American producer and writer. He was one of the creators of American Dad! along with Seth MacFarlane and Mike Barker; he serves as the sole showrunner for American Dad. Barker and Weitzman were originally writers for Family Guy.\n\nWeitzman has written on ten television shows, including Daddy Dearest, Off Centre and Damon."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Matt_Weitzman_by_Gage_Skidmore_2.jpg/500px-Matt_Weitzman_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matt_Weitzman_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 1433,
+          "title": "American Dad!",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:48.598Z"
+  },
+  "michael brandt": {
+    "value": {
+      "tmdbId": 7865,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Brandt",
+        "url": "https://it.wikipedia.org/wiki/Michael_Brandt",
+        "extract": "Michael Brandt (Madison, 1º ottobre 1968) è uno sceneggiatore, regista e montatore statunitense. Autore di film come Quel treno per Yuma con Russell Crowe e Wanted con Angelina Jolie, prima di diventare sceneggiatore si è dedicato ad alcune produzioni direct-to-video partecipando come montatore e/o collaboratore durante il montaggio."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/13p3xvGWhCbSNgv9S2DiBcPnoWQ.jpg",
+      "series": [
+        {
+          "id": 44006,
+          "title": "Chicago Fire",
+          "year": "2012"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:47.413Z"
+  },
+  "mike flanagan": {
+    "value": {
+      "tmdbId": 551463,
+      "wiki": {
+        "lang": "it",
+        "title": "Mike Flanagan (regista)",
+        "url": "https://it.wikipedia.org/wiki/Mike_Flanagan_(regista)",
+        "extract": "Mike Flanagan (Salem, 20 maggio 1978) è un regista, sceneggiatore, montatore e  produttore cinematografico statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Mike_Flanagan_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Mike_Flanagan_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mike_Flanagan_at_the_2024_Toronto_International_Film_Festival_(cropped).jpg",
+        "author": "Kevin Payravi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 327207,
+          "title": "The Dark Tower",
+          "year": null
+        },
+        {
+          "id": 288673,
+          "title": "Carrie",
+          "year": "2026"
+        },
+        {
+          "id": 157065,
+          "title": "La caduta della casa degli Usher",
+          "year": "2023"
+        },
+        {
+          "id": 126254,
+          "title": "The Midnight Club",
+          "year": "2022"
+        },
+        {
+          "id": 97400,
+          "title": "Midnight Mass",
+          "year": "2021"
+        },
+        {
+          "id": 109958,
+          "title": "The Haunting of Bly Manor",
+          "year": "2020"
+        },
+        {
+          "id": 72844,
+          "title": "The Haunting of Hill House",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:31.286Z"
+  },
+  "miles millar": {
+    "value": {
+      "tmdbId": 18923,
+      "wiki": {
+        "lang": "it",
+        "title": "Miles Millar",
+        "url": "https://it.wikipedia.org/wiki/Miles_Millar",
+        "extract": "Miles Millar (1967) è uno sceneggiatore e produttore cinematografico inglese.\n\nHa lavorato a grandi successi di pubblico insieme al suo amico Alfred Gough, in particolare nel mondo della televisione, a Smallville."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Miles_Millar.jpg/500px-Miles_Millar.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Miles_Millar.jpg",
+        "author": "Jerome DUVAL from Paris, France",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 306086,
+          "title": "Grim",
+          "year": "2025"
+        },
+        {
+          "id": 119051,
+          "title": "Mercoledì",
+          "year": "2022"
+        },
+        {
+          "id": 64122,
+          "title": "The Shannara Chronicles",
+          "year": "2016"
+        },
+        {
+          "id": 47450,
+          "title": "Into the Badlands",
+          "year": "2015"
+        },
+        {
+          "id": 4604,
+          "title": "Smallville",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:13.539Z"
+  },
+  "nick santora": {
+    "value": {
+      "tmdbId": 78417,
+      "wiki": {
+        "lang": "it",
+        "title": "Nick Santora",
+        "url": "https://it.wikipedia.org/wiki/Nick_Santora",
+        "extract": "Nick Santora (New York, 10 aprile 1967) è uno scrittore, sceneggiatore e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nick_Santora_SDCC_2014.jpg/500px-Nick_Santora_SDCC_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Nick_Santora_SDCC_2014.jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 273207,
+          "title": "Neagley",
+          "year": "2026"
+        },
+        {
+          "id": 221300,
+          "title": "FUBAR",
+          "year": "2023"
+        },
+        {
+          "id": 108978,
+          "title": "Reacher",
+          "year": "2022"
+        },
+        {
+          "id": 98950,
+          "title": "The Fugitive",
+          "year": "2020"
+        },
+        {
+          "id": 90795,
+          "title": "Most Dangerous Game",
+          "year": "2020"
+        },
+        {
+          "id": 60797,
+          "title": "Scorpion",
+          "year": "2014"
+        },
+        {
+          "id": 32861,
+          "title": "I signori della fuga",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:24.102Z"
+  },
+  "paul abbott": {
+    "value": {
+      "tmdbId": 1212184,
+      "wiki": {
+        "lang": "it",
+        "title": "Paul Abbott",
+        "url": "https://it.wikipedia.org/wiki/Paul_Abbott",
+        "extract": "Paul Abbott (Burnley, 22 febbraio 1960) è uno sceneggiatore e produttore televisivo britannico.\n\nÈ noto soprattutto per essere l'ideatore delle serie televisive Touching Evil, Linda Green, Clocking Off, Shameless e delle miniserie State of Play e Exile.\n\nSia di Touching Evil che di Shameless sono state riproposte due omonime serie remake di produzione statunitense, rispettivamente nel 2004 e nel 2011, mentre dalla miniserie State of Play è stato tratto nel 2009 un omonimo film, diretto da Kevin Macdonald ed interpretato da Russell Crowe e Ben Affleck."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Paul_Abbott_cropped.jpg/500px-Paul_Abbott_cropped.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Paul_Abbott_cropped.jpg",
+        "author": "Paul_Abbott.jpg: University of Salford Press Office derivative work: Off2riorob…",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 133255,
+          "title": "Professor Wolfe",
+          "year": "2021"
+        },
+        {
+          "id": 62620,
+          "title": "No Offence",
+          "year": "2015"
+        },
+        {
+          "id": 43603,
+          "title": "Hit & Miss",
+          "year": "2012"
+        },
+        {
+          "id": 37760,
+          "title": "Exile",
+          "year": "2011"
+        },
+        {
+          "id": 34307,
+          "title": "Shameless",
+          "year": "2011"
+        },
+        {
+          "id": 62864,
+          "title": "Touching Evil",
+          "year": "2004"
+        },
+        {
+          "id": 1906,
+          "title": "Shameless (UK)",
+          "year": "2004"
+        },
+        {
+          "id": 4043,
+          "title": "State of Play",
+          "year": "2003"
+        },
+        {
+          "id": 13695,
+          "title": "Linda Green",
+          "year": "2001"
+        },
+        {
+          "id": 12334,
+          "title": "Clocking Off",
+          "year": "2000"
+        },
+        {
+          "id": 132299,
+          "title": "Butterfly Collectors",
+          "year": "1999"
+        },
+        {
+          "id": 10622,
+          "title": "Touching Evil",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:14.572Z"
+  },
+  "paul t scheuring": {
+    "value": {
+      "tmdbId": 54869,
+      "wiki": {
+        "lang": "it",
+        "title": "Paul Scheuring",
+        "url": "https://it.wikipedia.org/wiki/Paul_Scheuring",
+        "extract": "Paul T. Scheuring (Aurora, 20 novembre 1968) è uno sceneggiatore, regista e produttore televisivo statunitense.\n\nÈ conosciuto per aver scritto la sceneggiatura del film del 2003 Il risolutore, ma soprattutto come creatore della serie televisiva Prison Break, di cui è stato anche produttore esecutivo e sceneggiatore."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/2hNYumD0sMCDezKvTtDwginHP4L.jpg",
+      "series": [
+        {
+          "id": 61634,
+          "title": "Halo: Nightfall",
+          "year": "2014"
+        },
+        {
+          "id": 57389,
+          "title": "Klondike",
+          "year": "2014"
+        },
+        {
+          "id": 43964,
+          "title": "Zero Hour",
+          "year": "2013"
+        },
+        {
+          "id": 2288,
+          "title": "Prison Break",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:20.605Z"
+  },
+  "rhett mclaughlin": {
+    "value": {
+      "tmdbId": 1176585,
+      "wiki": null,
+      "bio": {
+        "text": "Rhett McLaughlin (born October 11, 1977) is an American writer and actor, known for Good Mythical Morning (2012), The Mythical Show (2013) and Looking for Ms. Locklear (2008).",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/kbo15Tdm0nxLSdgoXL30dBsNSiG.jpg",
+      "series": [
+        {
+          "id": 328634,
+          "title": "Rhett & Link Go To NYC",
+          "year": "2025"
+        },
+        {
+          "id": 275230,
+          "title": "Roll For Mythicality",
+          "year": "2024"
+        },
+        {
+          "id": 262481,
+          "title": "Rhett & Link's Wonderhole",
+          "year": "2024"
+        },
+        {
+          "id": 328628,
+          "title": "Behind the Mythicality",
+          "year": "2019"
+        },
+        {
+          "id": 68546,
+          "title": "Rhett & Link's Buddy System",
+          "year": "2016"
+        },
+        {
+          "id": 68705,
+          "title": "Good Mythical Crew",
+          "year": "2016"
+        },
+        {
+          "id": 126677,
+          "title": "Good Mythical MORE",
+          "year": "2014"
+        },
+        {
+          "id": 65701,
+          "title": "Good Mythical Morning",
+          "year": "2012"
+        },
+        {
+          "id": 39458,
+          "title": "Rhett & Link: Commercial Kings",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:02.719Z"
+  },
+  "ronan bennett": {
+    "value": {
+      "tmdbId": 84665,
+      "wiki": {
+        "lang": "it",
+        "title": "Ronan Bennett",
+        "url": "https://it.wikipedia.org/wiki/Ronan_Bennett",
+        "extract": "Ronan Bennett (Belfast, 14 gennaio 1956) è uno scrittore, sceneggiatore ed ex militante dell'IRA britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ronan_Bennett_%2849126247338%29.jpg/500px-Ronan_Bennett_%2849126247338%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ronan_Bennett_(49126247338).jpg",
+        "author": "Jeremy Corbyn",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 329113,
+          "title": "Army of Shadows",
+          "year": null
+        },
+        {
+          "id": 247718,
+          "title": "MobLand",
+          "year": "2025"
+        },
+        {
+          "id": 222766,
+          "title": "The Day of the Jackal",
+          "year": "2024"
+        },
+        {
+          "id": 93544,
+          "title": "Top Boy",
+          "year": "2019"
+        },
+        {
+          "id": 73550,
+          "title": "Gunpowder",
+          "year": "2017"
+        },
+        {
+          "id": 41889,
+          "title": "Top Boy",
+          "year": "2011"
+        },
+        {
+          "id": 41481,
+          "title": "Hidden",
+          "year": "2011"
+        },
+        {
+          "id": 16534,
+          "title": "Rebel Heart",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:33.253Z"
+  },
+  "ryan murphy": {
+    "value": {
+      "tmdbId": 52779,
+      "wiki": {
+        "lang": "it",
+        "title": "Ryan Murphy",
+        "url": "https://it.wikipedia.org/wiki/Ryan_Murphy",
+        "extract": "Ryan Patrick Murphy (Indianapolis, 9 novembre 1965) è uno sceneggiatore, regista, produttore televisivo e produttore cinematografico statunitense.\n\nProlifico autore, è noto inoltre per aver creato serie televisive di grande successo, come Nip/Tuck (2003), Glee (2009), American Horror Story (2011), 9-1-1  (2018) e Monster (2022)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ryan_Murphy_at_PaleyFest_2013_iDominick.jpg/500px-Ryan_Murphy_at_PaleyFest_2013_iDominick.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ryan_Murphy_at_PaleyFest_2013_iDominick.jpg",
+        "author": "iDominick",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 6860,
+          "title": "Pretty/Handsome",
+          "year": null
+        },
+        {
+          "id": 338574,
+          "title": "Brides of Blood",
+          "year": "2027"
+        },
+        {
+          "id": 298168,
+          "title": "The Shards",
+          "year": "2026"
+        },
+        {
+          "id": 273160,
+          "title": "The Beauty",
+          "year": "2026"
+        },
+        {
+          "id": 258742,
+          "title": "All's Fair",
+          "year": "2025"
+        },
+        {
+          "id": 284838,
+          "title": "9-1-1: Nashville",
+          "year": "2025"
+        },
+        {
+          "id": 249695,
+          "title": "Doctor Odyssey",
+          "year": "2024"
+        },
+        {
+          "id": 247518,
+          "title": "Grotesquerie",
+          "year": "2024"
+        },
+        {
+          "id": 225634,
+          "title": "MONSTERS: La storia di Lyle ed Erik Menendez",
+          "year": "2024"
+        },
+        {
+          "id": 210232,
+          "title": "The Watcher",
+          "year": "2022"
+        },
+        {
+          "id": 113988,
+          "title": "DAHMER - Mostro: la storia di Jeffrey Dahmer",
+          "year": "2022"
+        },
+        {
+          "id": 113036,
+          "title": "American Horror Stories",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:49.294Z"
+  },
+  "seth macfarlane": {
+    "value": {
+      "tmdbId": 52139,
+      "wiki": {
+        "lang": "it",
+        "title": "Seth MacFarlane",
+        "url": "https://it.wikipedia.org/wiki/Seth_MacFarlane",
+        "extract": "Seth Woodbury MacFarlane (Kent, 26 ottobre 1973) è un attore, doppiatore, sceneggiatore, animatore, produttore televisivo, regista, comico, showman, cantante e\n\ncompositore statunitense, noto per essere il creatore (e doppiatore di molti personaggi) delle serie animate I Griffin, il suo spin-off The Cleveland Show, American Dad!, per avere scritto, prodotto e interpretato la serie fantascientifica The Orville e per essere il fondatore della Fuzzy Door Productions.\n\nÈ stato candidato al Premio Oscar nella categoria migliore canzone nel 2013 per Everybody Needs a Best Friend, presente nel film Ted."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Seth_MacFarlane_-_NBTVF_2026-3.jpg/500px-Seth_MacFarlane_-_NBTVF_2026-3.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Seth_MacFarlane_-_NBTVF_2026-3.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 316442,
+          "title": "Stewie",
+          "year": null
+        },
+        {
+          "id": 291074,
+          "title": "TED: The Animated Series",
+          "year": "2026"
+        },
+        {
+          "id": 201834,
+          "title": "ted",
+          "year": "2024"
+        },
+        {
+          "id": 206763,
+          "title": "The End Is Nye",
+          "year": "2022"
+        },
+        {
+          "id": 71738,
+          "title": "The Orville",
+          "year": "2017"
+        },
+        {
+          "id": 15632,
+          "title": "The Cleveland Show",
+          "year": "2009"
+        },
+        {
+          "id": 7985,
+          "title": "Seth MacFarlane's Cavalcade of Cartoon Comedy",
+          "year": "2008"
+        },
+        {
+          "id": 1433,
+          "title": "American Dad!",
+          "year": "2005"
+        },
+        {
+          "id": 1434,
+          "title": "I Griffin",
+          "year": "1999"
+        },
+        {
+          "id": 1498,
+          "title": "Oh Yeah! Cartoons",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:35.226Z"
+  },
+  "shane brennan": {
+    "value": {
+      "tmdbId": 1221018,
+      "wiki": {
+        "lang": "en",
+        "title": "Shane Brennan",
+        "url": "https://en.wikipedia.org/wiki/Shane_Brennan",
+        "extract": "Shane Brennan (born January 20, 1957, in Bendigo, Victoria, Australia) is an Australian television writer and producer, best known as the executive producer of the CBS drama NCIS, as well as the creator of the NCIS spin-off series, NCIS: Los Angeles.\n\nBrennan's other television credits include Special Squad, The Flying Doctors, All Together Now, King & Maxwell, State Coroner, Stingers, Flipper, CSI: Miami, and Summerland. Beginning as a journalist for the Australian Broadcasting Corporation (ABC), by 1981, he had abandoned journalism for television scriptwriting."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Shane_Brennan_manipulates_a_radio-controlled_robot_used_by_Explosive_Ordnance_Disposal_technicians_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Shane_Brennan_manipulates_a_radio-controlled_robot_used_by_Explosive_Ordnance_Disposal_technicians_(cropped).jpg",
+        "author": "Christopher Okula",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 56401,
+          "title": "King & Maxwell",
+          "year": "2013"
+        },
+        {
+          "id": 17610,
+          "title": "NCIS: Los Angeles",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:11.686Z"
+  },
+  "shonda rhimes": {
+    "value": {
+      "tmdbId": 25539,
+      "wiki": {
+        "lang": "it",
+        "title": "Shonda Rhimes",
+        "url": "https://it.wikipedia.org/wiki/Shonda_Rhimes",
+        "extract": "Shonda Lynn Rhimes (Chicago, 13 gennaio 1970) è una sceneggiatrice e produttrice televisiva statunitense.\n\nDivenuta famosa per essere l'ideatrice, sceneggiatrice e produttrice esecutiva della serie televisiva Grey's Anatomy (2005 - in corso), del suo spin-off Private Practice (2007-2013) e della serie thriller Scandal (2012-2018), è la prima donna ad aver realizzato tre serie televisive che hanno raggiunto il traguardo dei 100 episodi.\n\nÈ stata produttrice esecutiva della serie Le regole del delitto perfetto (2014-2020) e dal 2020 delle serie Netflix Bridgerton e ideatrice dello spin-off La regina Carlotta: Una storia di Bridgerton. Grazie al suo lavoro è stata candidata cinque volte ai Primetime Emmy Award, ha vinto un Golden Globe Award e ha ricevuto riconoscimenti speciali ai British Academy Television Awards e agli International Emmy Awards."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/ShondaRhimes-byPhilipRomano.jpg/500px-ShondaRhimes-byPhilipRomano.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:ShondaRhimes-byPhilipRomano.jpg",
+        "author": "PhilipRomanoPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 337819,
+          "title": "Bridgerton spin-off based on the story of young Violet Ledger and Viscount Edmund Bridgerton",
+          "year": null
+        },
+        {
+          "id": 196454,
+          "title": "La regina Carlotta: Una storia di Bridgerton",
+          "year": "2023"
+        },
+        {
+          "id": 95665,
+          "title": "Inventing Anna",
+          "year": "2022"
+        },
+        {
+          "id": 79897,
+          "title": "Grey's Anatomy: B-Team",
+          "year": "2018"
+        },
+        {
+          "id": 39269,
+          "title": "Scandal",
+          "year": "2012"
+        },
+        {
+          "id": 313211,
+          "title": "A corazón abierto",
+          "year": "2011"
+        },
+        {
+          "id": 32702,
+          "title": "A Corazón Abierto",
+          "year": "2010"
+        },
+        {
+          "id": 3172,
+          "title": "Private Practice",
+          "year": "2007"
+        },
+        {
+          "id": 1416,
+          "title": "Grey's Anatomy",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:30.189Z"
+  },
+  "steven levitan": {
+    "value": {
+      "tmdbId": 1215785,
+      "wiki": {
+        "lang": "it",
+        "title": "Steven Levitan",
+        "url": "https://it.wikipedia.org/wiki/Steven_Levitan",
+        "extract": "Steven Levitan (Chicago, 6 aprile 1962) è uno sceneggiatore, regista e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Steven_Levitan.jpg/500px-Steven_Levitan.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Steven_Levitan.jpg",
+        "author": "The Peabody Awards",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 155427,
+          "title": "Reboot",
+          "year": "2022"
+        },
+        {
+          "id": 73109,
+          "title": "Les Grandes Gueules s'animent",
+          "year": "2015"
+        },
+        {
+          "id": 1421,
+          "title": "Modern Family",
+          "year": "2009"
+        },
+        {
+          "id": 5540,
+          "title": "Back to You",
+          "year": "2007"
+        },
+        {
+          "id": 4311,
+          "title": "Stacked - Una pupa in libreria",
+          "year": "2005"
+        },
+        {
+          "id": 846,
+          "title": "Greg the Bunny",
+          "year": "2002"
+        },
+        {
+          "id": 353,
+          "title": "Stark Raving Mad",
+          "year": "1999"
+        },
+        {
+          "id": 4576,
+          "title": "Just Shoot Me!",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:55.378Z"
+  },
+  "taylor sheridan": {
+    "value": {
+      "tmdbId": 1215399,
+      "wiki": {
+        "lang": "it",
+        "title": "Taylor Sheridan",
+        "url": "https://it.wikipedia.org/wiki/Taylor_Sheridan",
+        "extract": "Taylor Sheridan (Cranfills Gap, 21 maggio 1970) è un attore, sceneggiatore e regista statunitense.\n\nÈ noto per aver scritto numerosi film ambientati nel moderno West, tra cui la cosiddetta trilogia della frontiera americana, composta dai film Sicario, Hell or High Water e I segreti di Wind River, a cui si aggiunge il sequel Soldado. Inoltre ha creato serie tv popolari e di successo come Mayor of Kingstown, Tulsa King, Lioness e Yellowstone, interpretata da Kevin Costner.\n\nPer Hell or High Water è stato candidato all'Oscar alla miglior sceneggiatura originale nel 2017."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+      "series": [
+        {
+          "id": 296244,
+          "title": "Frisco King",
+          "year": "2026"
+        },
+        {
+          "id": 225891,
+          "title": "The Madison",
+          "year": "2026"
+        },
+        {
+          "id": 297802,
+          "title": "The Road",
+          "year": "2025"
+        },
+        {
+          "id": 157741,
+          "title": "Landman",
+          "year": "2024"
+        },
+        {
+          "id": 113962,
+          "title": "Operazione speciale: Lioness",
+          "year": "2023"
+        },
+        {
+          "id": 157744,
+          "title": "1923",
+          "year": "2022"
+        },
+        {
+          "id": 153312,
+          "title": "Tulsa King",
+          "year": "2022"
+        },
+        {
+          "id": 118357,
+          "title": "1883",
+          "year": "2021"
+        },
+        {
+          "id": 97951,
+          "title": "Mayor of Kingstown",
+          "year": "2021"
+        },
+        {
+          "id": 92301,
+          "title": "The Last Cowboy",
+          "year": "2019"
+        },
+        {
+          "id": 73586,
+          "title": "Yellowstone",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:59.402Z"
+  },
+  "thomas astruc": {
+    "value": {
+      "tmdbId": 1565301,
+      "wiki": {
+        "lang": "it",
+        "title": "Thomas Astruc",
+        "url": "https://it.wikipedia.org/wiki/Thomas_Astruc",
+        "extract": "Thomas Astruc (Parigi, 18 gennaio 1975) è un regista e sceneggiatore francese."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/uIb3EHr8VeQuXxSG0oVjaTZXwD3.jpg",
+      "series": [
+        {
+          "id": 293357,
+          "title": "Miraculous Stellar Force",
+          "year": null
+        },
+        {
+          "id": 65334,
+          "title": "Miraculous - Le storie di Ladybug e Chat Noir",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:16.633Z"
+  },
+  "trey parker": {
+    "value": {
+      "tmdbId": 34517,
+      "wiki": {
+        "lang": "it",
+        "title": "Trey Parker",
+        "url": "https://it.wikipedia.org/wiki/Trey_Parker",
+        "extract": "Randolph Severn Parker III, detto Trey, noto anche con lo pseudonimo di Juan Schwartz (Conifer, 19 ottobre 1969), è un regista, sceneggiatore, attore e produttore cinematografico e televisivo statunitense, noto ai più per essere, assieme a Matt Stone, il creatore della celebre serie animata South Park. Sempre insieme a Matt Stone, è membro dei DVDA."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Trey_Parker_by_Gage_Skidmore_2025_%283x4_cropped%29.jpg/500px-Trey_Parker_by_Gage_Skidmore_2025_%283x4_cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Trey_Parker_by_Gage_Skidmore_2025_(3x4_cropped).jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 58042,
+          "title": "Princess",
+          "year": null
+        },
+        {
+          "id": 555,
+          "title": "That's My Bush!",
+          "year": "2001"
+        },
+        {
+          "id": 2190,
+          "title": "South Park",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:57.436Z"
+  },
+  "tugba dogan": {
+    "value": {
+      "tmdbId": 6462490,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 320760,
+          "title": "So chi sei",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:21.777Z"
+  },
+  "vince gilligan": {
+    "value": {
+      "tmdbId": 66633,
+      "wiki": {
+        "lang": "it",
+        "title": "Vince Gilligan",
+        "url": "https://it.wikipedia.org/wiki/Vince_Gilligan",
+        "extract": "George Vincent Gilligan Jr., detto Vince (Richmond, 10 febbraio 1967), è uno sceneggiatore, produttore televisivo e regista statunitense.\n\nÈ noto per essere il creatore dell serie televisiva Breaking Bad e del suo spin-off Better Call Saul, oltre ad aver lavorato come regista e sceneggiatore di alcuni episodi di X-Files. Nel 2025 è inoltre il creatore della serie televisiva di fantascienza Pluribus."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Vince_Gilligan_at_53rd_Saturn_Awards_2026-03.jpg/500px-Vince_Gilligan_at_53rd_Saturn_Awards_2026-03.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Vince_Gilligan_at_53rd_Saturn_Awards_2026-03.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 225171,
+          "title": "Pluribus",
+          "year": "2025"
+        },
+        {
+          "id": 61676,
+          "title": "Battle Creek",
+          "year": "2015"
+        },
+        {
+          "id": 60059,
+          "title": "Better Call Saul",
+          "year": "2015"
+        },
+        {
+          "id": 1396,
+          "title": "Breaking Bad",
+          "year": "2008"
+        },
+        {
+          "id": 5715,
+          "title": "The Lone Gunmen",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:38.194Z"
+  },
+  "vince mcmahon": {
+    "value": {
+      "tmdbId": 57342,
+      "wiki": null,
+      "bio": {
+        "text": "Vincent Kennedy \"Vince\" McMahon is an American professional wrestling promoter, announcer, commentator, film producer, actor and former occasional professional wrestler, and is often referred to as the archetypal wrestling magnate. McMahon currently serves as the Chairman, CEO and Chairman of the Executive Committee of the professional wrestling promotion WWE and is the majority shareholder of the company, holding approximately 88% of the total voting power and 59% of the outstanding shares within WWE. Upon acquiring World Championship Wrestling (WCW) and Extreme Championship Wrestling (ECW), McMahon's WWE became the sole remaining major American professional wrestling promotion until the national expansion of Total Nonstop Action Wrestling and Ring of Honor.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/3m4Z7YwnTqgLlQWP7A7TgYOJrj7.jpg",
+      "series": [
+        {
+          "id": 2298,
+          "title": "WWE Byte This!",
+          "year": null
+        },
+        {
+          "id": 11893,
+          "title": "WWF Mania",
+          "year": null
+        },
+        {
+          "id": 17447,
+          "title": "This Week in WWE",
+          "year": null
+        },
+        {
+          "id": 46706,
+          "title": "WWE Saturday Morning Slam",
+          "year": null
+        },
+        {
+          "id": 204381,
+          "title": "WWE Rivals",
+          "year": "2022"
+        },
+        {
+          "id": 157756,
+          "title": "WWE NXT: Level Up",
+          "year": "2022"
+        },
+        {
+          "id": 128124,
+          "title": "WWE The 50 Greatest Tag Teams",
+          "year": "2021"
+        },
+        {
+          "id": 103026,
+          "title": "Undertaker: The Last Ride",
+          "year": "2020"
+        },
+        {
+          "id": 104288,
+          "title": "The Best of WWE",
+          "year": "2020"
+        },
+        {
+          "id": 83217,
+          "title": "WWE NXT UK",
+          "year": "2018"
+        },
+        {
+          "id": 68921,
+          "title": "WWE 205 Live",
+          "year": "2016"
+        },
+        {
+          "id": 64084,
+          "title": "WWE 24",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:49:43.827Z"
+  },
+  "vivian lin": {
+    "value": {
+      "tmdbId": 1525597,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/nJZcWNpTI2Po4Q7u65Ao7DINudS.jpg",
+      "series": [
+        {
+          "id": 300507,
+          "title": "Crew Girl",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:26.847Z"
+  },
+  "zoe kazan": {
+    "value": {
+      "tmdbId": 35028,
+      "wiki": {
+        "lang": "it",
+        "title": "Zoe Kazan",
+        "url": "https://it.wikipedia.org/wiki/Zoe_Kazan",
+        "extract": "Zoe Swicord Kazan (Los Angeles, 9 settembre 1983) è un'attrice e sceneggiatrice statunitense.\n\nNipote del celebre regista Elia Kazan, è apparsa nei film Il caso Thomas Crawford (2007), Nella valle di Elah (2007), Revolutionary Road (2008), Me and Orson Welles (2009), È complicato (2009), Ruby Sparks (2012), The Pretty One (2013), What if (2013) e The Big Sick - Il matrimonio si può evitare... l'amore no (2017). Nel 2014 è nel cast dell'acclamata miniserie TV Olive Kitteridge, grazie alla quale ottiene la candidatura al Premio Emmy."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/MJK_331393_Zoe_Kazan_%28The_Kindness_of_Strangers%2C_Berlinale_2019%29_%28cropped%29.jpg/500px-MJK_331393_Zoe_Kazan_%28The_Kindness_of_Strangers%2C_Berlinale_2019%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MJK_331393_Zoe_Kazan_(The_Kindness_of_Strangers,_Berlinale_2019)_(cropped).jpg",
+        "author": "Martin Kraft",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 334544,
+          "title": "Lonesome Dove",
+          "year": null
+        },
+        {
+          "id": 258165,
+          "title": "La valle dell'Eden",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-17T12:50:23.613Z"
+  }
+}

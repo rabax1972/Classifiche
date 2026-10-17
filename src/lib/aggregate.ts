@@ -78,6 +78,17 @@ export function movieSubtitle(subtitle: string | null): { directors: string | nu
   return { directors: m?.[1]?.trim() || null, year: m?.[2] ?? null };
 }
 
+/**
+ * Sottotitolo delle serie: dalle fonti TMDB creatori e anno ("David Benioff, D. B. Weiss (2011)"), dalla Top 10 Netflix
+ * la stagione ("Stagione 2", "Miniserie"), che resta in `label`.
+ */
+export function seriesSubtitle(subtitle: string | null): { creators: string | null; year: string | null; label: string | null } {
+  if (/^(stagione|parte|volume|vol\.|miniserie|serie limitata|season|part|limited series)\b/i.test(subtitle ?? ''))
+    return { creators: null, year: null, label: subtitle };
+  const { directors, year } = movieSubtitle(subtitle);
+  return { creators: directors, year, label: null };
+}
+
 export function entryKey(e: Pick<ChartEntry, 'title' | 'subtitle'>): string {
   // Del sottotitolo conta solo il primo nome (es. il primo artista).
   const firstSub = normalizeText((e.subtitle ?? '').split(/,| e | & | x /i)[0]);

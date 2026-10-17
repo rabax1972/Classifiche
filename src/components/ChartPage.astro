@@ -2,14 +2,16 @@
 import Base from '../layouts/Base.astro';
 import { formatDateTime, formatDay, getChart, href } from '../lib/data';
 import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
-import { movieSubtitle } from '../lib/aggregate';
-import { PERIOD_IDS, type BookItem, type CategoryId, type ChartView, type MovieItem, type PeriodId } from '../lib/types';
+import { movieSubtitle, seriesSubtitle } from '../lib/aggregate';
+import { PERIOD_IDS, type BookItem, type CategoryId, type ChartView, type MovieItem, type PeriodId, type SeriesItem } from '../lib/types';
 import ChartTable from './ChartTable.astro';
 import ArtistDialog from './ArtistDialog.astro';
 import AuthorDialog from './AuthorDialog.astro';
 import BookDialog from './BookDialog.astro';
+import CreatorDialog from './CreatorDialog.astro';
 import DirectorDialog from './DirectorDialog.astro';
 import MovieDialog from './MovieDialog.astro';
+import SeriesDialog from './SeriesDialog.astro';
 import SongDialog from './SongDialog.astro';
 
 interface Props {
@@ -26,6 +28,10 @@ const books: BookItem[] = views.flatMap((v) =>
 
 const movies: MovieItem[] = views.flatMap((v) =>
   v.entries.map((e) => ({ key: e.key, title: e.title, ...movieSubtitle(e.subtitle), cover: e.cover, sourceUrl: e.sourceUrl })),
+);
+
+const series: SeriesItem[] = views.flatMap((v) =>
+  v.entries.map((e) => ({ key: e.key, title: e.title, ...seriesSubtitle(e.subtitle), cover: e.cover, sourceUrl: e.sourceUrl, externalId: e.externalId })),
 );
 
 const badge: Record<ChartView['kind'], string> = {
@@ -147,6 +153,14 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
       <>
         <MovieDialog movies={movies} />
         <DirectorDialog movies={movies} />
+      </>
+    )
+  }
+  {
+    category === 'serie-tv' && views.length > 0 && (
+      <>
+        <SeriesDialog series={series} />
+        <CreatorDialog series={series} />
       </>
     )
   }

@@ -1,0 +1,200 @@
+---
+// Modale con la scheda di un creatore di serie: si apre dai nomi nella classifica Serie TV e nella scheda della serie
+// (pulsanti .creator-open[data-creatore]). I dati dei creatori della pagina sono incorporati come JSON.
+import { artistKey, splitArtists } from '../lib/aggregate';
+import { getCreatorInfo, getSeriesInfo } from '../lib/data';
+import type { CreatorCard, SeriesItem } from '../lib/types';
+
+interface Props {
+  series: SeriesItem[];
+}
+const { series } = Astro.props;
+
+const creators: Record<string, CreatorCard> = {};
+for (const m of series) {
+  const names = m.creators ?? (getSeriesInfo(m.key)?.creators.map((c) => c.name).join(', ') || '');
+  splitArtists(names).forEach((name, i) => {
+    if (i % 2 === 1 || !name.trim()) return;
+    const key = artistKey(name);
+    const d = (creators[key] ??= { name: name.trim(), info: getCreatorInfo(key), series: [] });
+    if (!d.series.some((x) => x.key === m.key || x.title === m.title)) d.series.push({ key: m.key, title: m.title });
+  });
+}
+---
+
+<script type="application/json" id="creator-data" set:html={JSON.stringify(creators).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="creator-dialog"
+  aria-labelledby="creator-name"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <figure class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-0 dark:sm:bg-gray-800">
+      <img
+        id="creator-photo"
+        alt=""
+        referrerpolicy="no-referrer"
+        class="mx-auto aspect-[4/5] w-40 rounded-lg object-cover object-top shadow-md sm:w-full sm:rounded-none sm:shadow-none"
+      />
+      <div id="creator-photo-empty" class="mx-auto flex aspect-square w-32 items-center justify-center rounded-full bg-gray-100 text-4xl font-bold text-gray-400 sm:mt-8 sm:w-40 dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+      <figcaption id="creator-photo-caption" class="mt-1 text-center text-[11px] leading-snug text-gray-500 sm:px-3 sm:pb-3 sm:text-left dark:text-gray-400">
+        <span id="creator-photo-credit">
+          Foto: <span id="creator-photo-author"></span>,{' '}
+          <a id="creator-photo-license" class="underline" rel="noopener license" target="_blank"></a>,{' '}
+          via <a id="creator-photo-page" class="underline" rel="noopener" target="_blank">Wikimedia Commons</a>
+        </span>
+        <span id="creator-photo-tmdb">Foto: TMDB</span>
+      </figcaption>
+    </figure>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <h2 id="creator-name" class="pr-8 text-2xl leading-tight font-bold break-words"></h2>
+
+      <div>
+        <div id="creator-desc" class="space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="creator-wiki-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Da <a id="creator-wiki" class="underline" rel="noopener" target="_blank"></a>, testo disponibile con licenza{' '}
+          <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+        </p>
+        <p id="creator-tmdb-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+          Biografia da <a id="creator-tmdb-bio" class="underline" rel="noopener" target="_blank">TMDB</a>.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">In questa classifica</h3>
+        <ul id="creator-shows" class="mt-1 flex flex-wrap gap-1.5 text-sm"></ul>
+      </div>
+
+      <div id="creator-series-box">
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Serie create</h3>
+        <ul id="creator-series" class="mt-1 grid grid-cols-1 gap-x-4 gap-y-0.5 text-sm sm:grid-cols-2"></ul>
+      </div>
+
+      <div class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="creator-tmdb" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su TMDB</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setParagraphs, setupDialog } from '../lib/dialogs';
+  import type { CreatorCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#creator-dialog');
+  const dataEl = document.querySelector('#creator-data');
+  if (dialog && dataEl) {
+    const creators = JSON.parse(dataEl.textContent || '{}') as Record<string, CreatorCard>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const setLink = (el: HTMLAnchorElement, url: string, label: string) => {
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+
+    const render = (key: string) => {
+      const d = creators[key];
+      if (!d) return false;
+      const info = d.info;
+      const tmdbUrl = info?.tmdbId ? `https://www.themoviedb.org/person/${info.tmdbId}` : null;
+      $('creator-name').textContent = d.name;
+
+      const photo = info?.photo;
+      const src = photo?.src ?? info?.tmdbPhoto ?? null;
+      const img = $<HTMLImageElement>('creator-photo');
+      img.hidden = !src;
+      img.src = src ?? '';
+      img.alt = src ? `Foto di ${d.name}` : '';
+      $('creator-photo-caption').hidden = !src;
+      $('creator-photo-credit').hidden = !photo;
+      $('creator-photo-tmdb').hidden = Boolean(photo);
+      if (photo) {
+        $('creator-photo-author').textContent = photo.author;
+        const lic = $<HTMLAnchorElement>('creator-photo-license');
+        lic.textContent = photo.license;
+        if (photo.licenseUrl) lic.href = photo.licenseUrl;
+        else lic.removeAttribute('href');
+        $<HTMLAnchorElement>('creator-photo-page').href = photo.page;
+      }
+      const empty = $('creator-photo-empty');
+      empty.hidden = Boolean(src);
+      empty.textContent = d.name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const desc = $('creator-desc');
+      const wiki = info?.wiki;
+      const bio = info?.bio;
+      desc.removeAttribute('lang');
+      if (wiki) {
+        setParagraphs(desc, wiki.extract);
+        if (wiki.lang === 'en') desc.lang = 'en';
+        const link = $<HTMLAnchorElement>('creator-wiki');
+        link.href = wiki.url;
+        link.textContent = `Wikipedia${wiki.lang === 'en' ? ' in inglese' : ''}, voce «${wiki.title}»`;
+      } else if (bio) {
+        setParagraphs(desc, bio.text);
+        if (bio.lang === 'en') desc.lang = 'en';
+        if (tmdbUrl) $<HTMLAnchorElement>('creator-tmdb-bio').href = tmdbUrl;
+      } else {
+        setParagraphs(
+          desc,
+          info ? 'Non abbiamo trovato una biografia di questa persona.' : 'La scheda di questa persona non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+      }
+      $('creator-wiki-source').hidden = !wiki;
+      $('creator-tmdb-source').hidden = Boolean(wiki) || !bio;
+
+      $('creator-shows').replaceChildren(
+        ...d.series.map((m) => {
+          const li = document.createElement('li');
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'series-open cursor-pointer rounded-full bg-gray-100 px-3 py-1 hover:bg-indigo-50 hover:text-indigo-700 dark:bg-gray-800 dark:hover:bg-indigo-950 dark:hover:text-indigo-300';
+          btn.dataset.serie = m.key;
+          btn.setAttribute('aria-haspopup', 'dialog');
+          btn.textContent = m.title;
+          li.append(btn);
+          return li;
+        }),
+      );
+
+      const shows = info?.series ?? [];
+      $('creator-series-box').hidden = !shows.length;
+      $('creator-series').replaceChildren(
+        ...shows.map((f) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.className = 'hover:text-indigo-700 hover:underline dark:hover:text-indigo-300';
+          a.rel = 'noopener';
+          a.target = '_blank';
+          a.textContent = f.title;
+          setLink(a, `https://www.themoviedb.org/tv/${f.id}`, `${f.title} su TMDB`);
+          li.append(a);
+          const year = document.createElement('span');
+          year.className = 'text-gray-500 dark:text-gray-400';
+          year.textContent = ` · ${f.year ?? 'in arrivo'}`;
+          li.append(year);
+          return li;
+        }),
+      );
+
+      const tmdb = $<HTMLAnchorElement>('creator-tmdb');
+      tmdb.hidden = !tmdbUrl;
+      if (tmdbUrl) setLink(tmdb, tmdbUrl, `${d.name} su TMDB`);
+      return true;
+    };
+
+    // Link diretto a un creatore: /serie-tv/#creatore=<chiave>
+    setupDialog({ dialog, name: 'creatore', trigger: 'creator-open', render });
+  }
+</script>

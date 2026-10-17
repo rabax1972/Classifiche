@@ -1,14 +1,15 @@
-// Modali delle schede (brani e artisti, libri e autori, film e registi), lato client: una sola aperta alla volta, link diretto
-// nell'URL (#brano=… / #artista=… / #libro=… / #autore=… / #film=… / #regista=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
+// Modali delle schede (brani e artisti, libri e autori, film e registi, serie e creatori), lato client: una sola aperta alla volta,
+// link diretto nell'URL (#brano=… / #artista=… / #libro=… / #autore=… / #film=… / #regista=… / #serie=… / #creatore=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
 
 import { artistKey, splitArtists } from './aggregate';
+import type { WatchProvider } from './types';
 
 let opener: HTMLElement | null = null;
 
 interface DialogOptions {
   dialog: HTMLDialogElement;
   /** Nome del parametro nell'URL e dell'attributo data-* dei pulsanti che aprono la modale. */
-  name: 'brano' | 'artista' | 'libro' | 'autore' | 'film' | 'regista';
+  name: 'brano' | 'artista' | 'libro' | 'autore' | 'film' | 'regista' | 'serie' | 'creatore';
   /** Classe dei pulsanti che aprono la modale. */
   trigger: string;
   /** Riempie la modale; false se la chiave non è nota. */
@@ -66,7 +67,7 @@ export function setArtistButtons(
   el: HTMLElement,
   subtitle: string | null,
   known: (key: string) => boolean,
-  { trigger, name }: { trigger: string; name: 'artista' | 'autore' | 'regista' } = { trigger: 'artist-open', name: 'artista' },
+  { trigger, name }: { trigger: string; name: 'artista' | 'autore' | 'regista' | 'creatore' } = { trigger: 'artist-open', name: 'artista' },
 ) {
   el.replaceChildren(
     ...splitArtists(subtitle ?? '', (n) => known(artistKey(n))).map((part, i) => {
@@ -81,4 +82,35 @@ export function setArtistButtons(
       return b;
     }),
   );
+}
+
+/** Una riga di "Dove vederlo": etichetta (Abbonamento, Noleggio, Acquisto) e servizi con il logo. */
+export function providerRow(label: string, list: WatchProvider[]) {
+  const row = document.createElement('div');
+  row.className = 'flex flex-wrap items-center gap-2';
+  const name = document.createElement('span');
+  name.className = 'w-24 shrink-0 text-gray-600 dark:text-gray-400';
+  name.textContent = label;
+  const ul = document.createElement('ul');
+  ul.className = 'flex flex-wrap gap-1.5';
+  ul.append(
+    ...list.map((p) => {
+      const li = document.createElement('li');
+      li.className = 'inline-flex items-center gap-1.5 rounded-full bg-gray-100 py-0.5 pr-2.5 pl-0.5 dark:bg-gray-800';
+      if (p.logo) {
+        const img = document.createElement('img');
+        img.src = p.logo;
+        img.alt = '';
+        img.width = 22;
+        img.height = 22;
+        img.referrerPolicy = 'no-referrer';
+        img.className = 'h-[22px] w-[22px] rounded-full';
+        li.append(img);
+      } else li.classList.replace('pl-0.5', 'pl-2.5');
+      li.append(p.name);
+      return li;
+    }),
+  );
+  row.append(name, ul);
+  return row;
 }

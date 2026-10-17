@@ -10,7 +10,7 @@
 import { pathToFileURL } from 'node:url';
 import { entryKey } from '../src/lib/aggregate';
 import { PERIOD_IDS, type MovieInfo, type RankedEntry, type WatchProvider } from '../src/lib/types';
-import { COVER_CACHE, coverKey, META_MAX_AGE_DAYS, TMDB_IMG, hasTmdbKey, tmdb, type CoverLookup } from './adapters/tmdb';
+import { COVER_CACHE, META_MAX_AGE_DAYS, TMDB_IMG, hasTmdbKey, tmdb, tmdbIdOf, type CoverLookup } from './adapters/tmdb';
 import { loadEnv } from './lib/env';
 import { MetaCache, readChart } from './lib/store';
 import { trimExtract } from './lib/wiki';
@@ -22,11 +22,7 @@ const MOVIE_CATEGORIES = ['cinema', 'film'] as const;
 
 /** ID TMDB del film: dalla classifica TMDB o, per Netflix, dalla ricerca delle copertine. */
 export function movieId(e: Pick<RankedEntry, 'title' | 'externalId' | 'sourceUrl'>, covers?: MetaCache<CoverLookup>): number | null {
-  const id =
-    e.externalId?.match(/^tmdb:movie:(\d+)$/)?.[1] ??
-    e.sourceUrl?.match(/themoviedb\.org\/movie\/(\d+)/)?.[1] ??
-    covers?.get(coverKey('movie', e.title))?.url?.match(/themoviedb\.org\/movie\/(\d+)/)?.[1];
-  return id ? Number(id) : null;
+  return tmdbIdOf(e, 'movie', covers);
 }
 
 /** Tutti i film delle pagine Cinema e Film, per chiave (entryKey), con l'ID TMDB. */
@@ -59,14 +55,14 @@ interface TmdbMovie {
   'watch/providers'?: { results: Record<string, TmdbWatch | undefined> };
 }
 
-interface TmdbWatch {
+export interface TmdbWatch {
   link: string;
   flatrate?: TmdbProvider[];
   rent?: TmdbProvider[];
   buy?: TmdbProvider[];
 }
 
-interface TmdbProvider {
+export interface TmdbProvider {
   provider_name: string;
   logo_path?: string | null;
   display_priority?: number;
@@ -89,7 +85,7 @@ function italianRelease(m: TmdbMovie): string | null {
   return theatrical[0] ?? (m.release_date || null);
 }
 
-const providers = (list: TmdbProvider[] | undefined): WatchProvider[] =>
+export const providers = (list: TmdbProvider[] | undefined): WatchProvider[] =>
   [...(list ?? [])]
     .sort((a, b) => (a.display_priority ?? 99) - (b.display_priority ?? 99))
     .slice(0, 8)

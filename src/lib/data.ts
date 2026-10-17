@@ -1,6 +1,6 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SongInfo, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SeriesInfo, type CreatorInfo, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
@@ -11,6 +11,8 @@ const authorInfoFiles = import.meta.glob<Record<string, { value: AuthorInfo }>>(
 const freeBookFiles = import.meta.glob<Record<string, { value: FreeEdition }>>('/data/cache/free-books.json', { eager: true, import: 'default' });
 const movieInfoFiles = import.meta.glob<Record<string, { value: MovieInfo }>>('/data/cache/movie-info.json', { eager: true, import: 'default' });
 const directorInfoFiles = import.meta.glob<Record<string, { value: DirectorInfo }>>('/data/cache/director-info.json', { eager: true, import: 'default' });
+const seriesInfoFiles = import.meta.glob<Record<string, { value: SeriesInfo }>>('/data/cache/series-info.json', { eager: true, import: 'default' });
+const creatorInfoFiles = import.meta.glob<Record<string, { value: CreatorInfo }>>('/data/cache/creator-info.json', { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
@@ -50,6 +52,25 @@ export function getMovieInfo(key: string): MovieInfo | null {
 /** Scheda di un regista (chiave: artistKey), se già raccolta da scripts/director-info.ts. */
 export function getDirectorInfo(key: string): DirectorInfo | null {
   return Object.values(directorInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di una serie (chiave: entryKey), se già raccolta da scripts/series-info.ts. */
+export function getSeriesInfo(key: string): SeriesInfo | null {
+  return Object.values(seriesInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un creatore di serie (chiave: artistKey), se già raccolta da scripts/creator-info.ts. */
+export function getCreatorInfo(key: string): CreatorInfo | null {
+  return Object.values(creatorInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/**
+ * Chiave della spunta "Vista" di una serie: l'ID TMDB, così la spunta vale per tutte le stagioni della Top 10 Netflix e per
+ * le classifiche TMDB; senza ID, la chiave della riga.
+ */
+export function seriesSeenKey(e: { key: string; externalId: string | null }): string {
+  const id = getSeriesInfo(e.key)?.tmdbId ?? e.externalId?.match(/^tmdb:tv:(\d+)$/)?.[1];
+  return id ? `tv:${id}` : e.key;
 }
 
 export function getStatus(): SourceStatus[] {

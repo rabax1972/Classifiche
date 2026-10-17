@@ -11,8 +11,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run dev` — sito in locale (http://localhost:4321)
 - `npm run build` — sito statico in `dist/`; `npm run typecheck` (`tsc --noEmit`, non controlla i `.astro`)
 - `npm test` — vitest; un solo file: `npx vitest run tests/aggregate.test.ts`; un solo test: `npx vitest run -t "nome del test"`
-- `npm run update` — quello che fa il cron giornaliero: `ingest` → `aggregate` → `info:canzoni` → `info:libri` → `info:film`
-- `npm run info:<canzoni|libri|film> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
+- `npm run update` — quello che fa il cron giornaliero: `ingest` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `info:serie`
+- `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
 
 Gli script girano con `tsx`; le chiavi (`TMDB_READ_TOKEN` o `TMDB_API_KEY`, `LASTFM_API_KEY`, `CLASSIFICHE_CONTACT`) stanno in `.env`
@@ -39,14 +39,14 @@ si dividono con `splitArtists()`. Per i film il sottotitolo è `"Regista, Regist
 ### Schede in modale
 
 Ogni categoria con schede ha una coppia di modali opera/persona: Canzoni (Song/ArtistDialog), Libri e liste di libri (Book/AuthorDialog),
-Cinema e Film (Movie/DirectorDialog). Lo schema è sempre lo stesso:
+Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Lo schema è sempre lo stesso:
 
 - uno script `scripts/*-info.ts` raccoglie i dati in `data/cache/*-info.json` con `MetaCache` (`scripts/lib/store.ts`, cache committata
   con scadenza), chiave `entryKey` per le opere e `artistKey` per le persone; lo script dell'opera lancia poi quello della persona;
 - le persone usano `wikiPerson()` + `commonsCredit()` di `scripts/lib/wiki.ts` (intro Wikipedia it→en, foto Commons solo con autore
   e licenza), con un `PersonKind` (qualificatori dei titoli e parole del mestiere) per evitare omonimi;
 - il componente incorpora i dati della pagina come JSON (`<script type="application/json">`) e costruisce il contenuto lato client con
-  `textContent`; `src/lib/dialogs.ts` gestisce apertura, link diretto nell'hash (`#libro=…`, `#regista=…`) e ritorno del focus;
+  `textContent`; `src/lib/dialogs.ts` gestisce apertura, link diretto nell'hash (`#libro=…`, `#regista=…`, `#serie=…`) e ritorno del focus;
 - in `ChartTable.astro` i titoli e i nomi diventano pulsanti con classe trigger e attributo `data-*` della modale.
 
 ## Vincoli da rispettare
