@@ -35,6 +35,10 @@
     "value": "Ryan Adriandhy",
     "fetchedAt": "2026-10-14T04:45:58.026Z"
   },
+  "movie:105": {
+    "value": "Robert Zemeckis",
+    "fetchedAt": "2026-10-17T04:42:33.184Z"
+  },
   "movie:1058424": {
     "value": "나홍진",
     "fetchedAt": "2026-10-12T07:24:54.499Z"
@@ -243,6 +247,10 @@
     "value": "Peter Farrelly",
     "fetchedAt": "2026-10-16T04:44:16.674Z"
   },
+  "movie:1288059": {
+    "value": "Gregg Araki",
+    "fetchedAt": "2026-10-17T04:42:34.787Z"
+  },
   "movie:1288069": {
     "value": "Jennifer Peedom",
     "fetchedAt": "2026-10-16T04:44:16.083Z"
@@ -319,6 +327,10 @@
     "value": "Curry Barker",
     "fetchedAt": "2026-10-12T07:24:53.067Z"
   },
+  "movie:1341138": {
+    "value": "Jon Lucas, Scott Moore",
+    "fetchedAt": "2026-10-17T04:42:35.188Z"
+  },
   "movie:1368166": {
     "value": "Paul Feig",
     "fetchedAt": "2026-10-12T07:24:41.668Z"
@@ -338,6 +350,10 @@
   "movie:1375646": {
     "value": "Yeon Sang-ho",
     "fetchedAt": "2026-10-12T07:24:55.155Z"
+  },
+  "movie:1376400": {
+    "value": "Ángel Gómez Hernández",
+    "fetchedAt": "2026-10-17T04:42:34.288Z"
   },
   "movie:1377237": {
     "value": "Scott Waugh",
@@ -371,6 +387,10 @@
     "value": "Dhruv Tripathi",
     "fetchedAt": "2026-10-12T07:24:53.324Z"
   },
+  "movie:1393929": {
+    "value": "Ben Sottak",
+    "fetchedAt": "2026-10-17T04:42:34.193Z"
+  },
   "movie:1398486": {
     "value": "Pascal Bonitzer",
     "fetchedAt": "2026-10-12T07:24:31.604Z"
@@ -394,6 +414,10 @@
   "movie:1404604": {
     "value": "Yann Samuell",
     "fetchedAt": "2026-10-12T07:24:31.983Z"
+  },
+  "movie:1406253": {
+    "value": "Scott B. Hansen",
+    "fetchedAt": "2026-10-17T04:42:34.493Z"
   },
   "movie:1412795": {
     "value": "Paolo Strippoli",
@@ -435,6 +459,10 @@
     "value": "Paweł Pawlikowski",
     "fetchedAt": "2026-10-14T04:45:57.623Z"
   },
+  "movie:1438966": {
+    "value": "Nicola Prosatore",
+    "fetchedAt": "2026-10-17T04:42:32.680Z"
+  },
   "movie:1440098": {
     "value": "Óscar Pedraza",
     "fetchedAt": "2026-10-13T04:34:36.155Z"
@@ -446,6 +474,10 @@
   "movie:1447853": {
     "value": "Dylan Southern, Will Lovelace",
     "fetchedAt": "2026-10-12T07:24:28.996Z"
+  },
+  "movie:1452110": {
+    "value": "Jake Allyn",
+    "fetchedAt": "2026-10-17T04:42:34.088Z"
   },
   "movie:1458857": {
     "value": "Tyler Perry",
@@ -475,6 +507,10 @@
     "value": "Lisa Azuelos",
     "fetchedAt": "2026-10-14T04:45:57.921Z"
   },
+  "movie:1487317": {
+    "value": "Hernán Goldfrid",
+    "fetchedAt": "2026-10-17T04:42:33.886Z"
+  },
   "movie:1489932": {
     "value": "Sue Kim",
     "fetchedAt": "2026-10-12T07:24:31.732Z"
@@ -491,6 +527,10 @@
     "value": "Janus Metz",
     "fetchedAt": "2026-10-12T07:24:38.516Z"
   },
+  "movie:1498036": {
+    "value": "Mar Olid",
+    "fetchedAt": "2026-10-17T04:42:35.089Z"
+  },
   "movie:1503762": {
     "value": "Georgia Oakley",
     "fetchedAt": "2026-10-15T04:42:54.127Z"
@@ -498,6 +538,10 @@
   "movie:150540": {
     "value": "Pete Docter",
     "fetchedAt": "2026-10-12T07:24:39.721Z"
+  },
+  "movie:1513475": {
+    "value": "Safar Sanal",
+    "fetchedAt": "2026-10-17T04:42:34.391Z"
   },
   "movie:1514026": {
     "value": "Casper Kelly",
@@ -583,6 +627,10 @@
     "value": "Gianni Amelio",
     "fetchedAt": "2026-10-12T07:24:32.138Z"
   },
+  "movie:1596285": {
+    "value": "Joanna Natasegara",
+    "fetchedAt": "2026-10-17T04:42:34.707Z"
+  },
   "movie:1597196": {
     "value": "Anna Foglietta",
     "fetchedAt": "2026-10-12T07:24:34.116Z"
@@ -594,6 +642,10 @@
   "movie:1620080": {
     "value": "Kristoffer Rus",
     "fetchedAt": "2026-10-12T07:24:55.546Z"
+  },
+  "movie:1620918": {
+    "value": "Judd Apatow",
+    "fetchedAt": "2026-10-17T04:42:34.589Z"
   },
   "movie:1621552": {
     "value": "Chava Cartas",
@@ -631,9 +683,17 @@
     "value": "Jake Morgan-Scharhon, Danielle Morgan-Scharhon",
     "fetchedAt": "2026-10-15T04:42:50.924Z"
   },
+  "movie:1654581": {
+    "value": "Balaji Mohan",
+    "fetchedAt": "2026-10-17T04:42:34.990Z"
+  },
   "movie:1659389": {
     "value": "鎌谷悠",
     "fetchedAt": "2026-10-15T04:42:54.323Z"
+  },
+  "movie:1713935": {
+    "value": "Marco Bonini",
+    "fetchedAt": "2026-10-17T04:42:32.783Z"
   },
   "movie:1723662": {
     "value": "Niccolò Gentili",
@@ -659,6 +719,10 @@
     "value": "Yuval Abraham, Rachel Szor",
     "fetchedAt": "2026-10-12T07:24:29.639Z"
   },
+  "movie:1759875": {
+    "value": "Dylan King Welter",
+    "fetchedAt": "2026-10-17T04:42:34.888Z"
+  },
   "movie:1765072": {
     "value": "Nathan Fielder, Lance Oppenheim",
     "fetchedAt": "2026-10-12T07:24:55.974Z"
@@ -674,6 +738,10 @@
   "movie:1772626": {
     "value": "Gustavo Bonafé",
     "fetchedAt": "2026-10-13T04:34:39.220Z"
+  },
+  "movie:1773759": {
+    "value": "Katleho Ramaphakela, Rethabile Ramaphakela",
+    "fetchedAt": "2026-10-17T04:42:33.984Z"
   },
   "movie:1777819": {
     "value": "Lucas Rosas, Manu Pons",
@@ -995,6 +1063,10 @@
     "value": "Joss Whedon",
     "fetchedAt": "2026-10-13T04:34:36.560Z"
   },
+  "tv:105009": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:35.987Z"
+  },
   "tv:105248": {
     "value": "Rafał Jaki",
     "fetchedAt": "2026-10-14T04:46:02.180Z"
@@ -1255,6 +1327,10 @@
     "value": "정지우",
     "fetchedAt": "2026-10-12T07:24:50.604Z"
   },
+  "tv:279923": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:35.792Z"
+  },
   "tv:280042": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:03.286Z"
@@ -1283,9 +1359,17 @@
     "value": "Conor Keane",
     "fetchedAt": "2026-10-12T07:25:03.038Z"
   },
+  "tv:284580": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:36.393Z"
+  },
   "tv:284833": {
     "value": "Michael Dante DiMartino, Bryan Konietzko",
     "fetchedAt": "2026-10-12T07:24:59.468Z"
+  },
+  "tv:284838": {
+    "value": "Ryan Murphy, Tim Minear",
+    "fetchedAt": "2026-10-17T04:42:35.891Z"
   },
   "tv:285322": {
     "value": "Jesse McKeown",
@@ -1335,6 +1419,10 @@
     "value": "Spencer Hudnut",
     "fetchedAt": "2026-10-12T07:25:01.686Z"
   },
+  "tv:291": {
+    "value": "Tony Warren",
+    "fetchedAt": "2026-10-17T04:42:36.192Z"
+  },
   "tv:293607": {
     "value": "류보리, 유인식",
     "fetchedAt": "2026-10-12T07:24:58.332Z"
@@ -1358,6 +1446,10 @@
   "tv:298505": {
     "value": "Tim Federle",
     "fetchedAt": "2026-10-12T07:25:02.911Z"
+  },
+  "tv:298550": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:35.592Z"
   },
   "tv:298852": {
     "value": "George Kay",
@@ -1398,6 +1490,10 @@
   "tv:307176": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.496Z"
+  },
+  "tv:30983": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:36.092Z"
   },
   "tv:30984": {
     "value": null,
@@ -1446,6 +1542,10 @@
   "tv:320513": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:55.922Z"
+  },
+  "tv:320754": {
+    "value": "Yılmaz Erdoğan",
+    "fetchedAt": "2026-10-17T04:42:35.712Z"
   },
   "tv:320909": {
     "value": null,
@@ -1634,6 +1734,10 @@
   "tv:80748": {
     "value": "Dick Wolf, Craig Turk",
     "fetchedAt": "2026-10-12T07:24:50.352Z"
+  },
+  "tv:82684": {
+    "value": null,
+    "fetchedAt": "2026-10-17T04:42:36.297Z"
   },
   "tv:90": {
     "value": "Bernard Vaillot, André Barro",
