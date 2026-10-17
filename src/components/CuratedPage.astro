@@ -41,6 +41,7 @@ const spotifySearch = (q: string) => `https://open.spotify.com/search/${encodeUR
 /** music.apple.com/it/album/titolo/123?i=456 → music.apple.com/it/album/123?i=456 (Apple reindirizza). */
 const shortApple = (url: string) => url.replace(/\/album\/[^/]+\/(\d+)/, '/album/$1');
 const appleSearch = (q: string) => `https://music.apple.com/it/search?term=${encodeURIComponent(q)}`;
+const geniusSearch = (q: string) => `https://genius.com/search?q=${encodeURIComponent(q)}`;
 /** "Come Together - 2019 Mix" → "Come Together": le note sulle riedizioni non servono nella tracklist. */
 const trackTitle = (t: string) =>
   t
@@ -222,6 +223,9 @@ const FILTERS = [
                                 <a class="sp" href={spotifySearch(`${name} ${e.creator}`)} aria-label={`Spotify: ${name}`}>
                                   Spotify
                                 </a>
+                                <a class="gn" href={geniusSearch(`${name} ${e.creator}`)} aria-label={`Testo su Genius: ${name}`}>
+                                  Testo
+                                </a>
                               </li>
                             );
                           })}
@@ -293,6 +297,9 @@ const FILTERS = [
   .trk .sp {
     color: var(--color-emerald-700);
   }
+  .trk .gn {
+    color: var(--color-amber-700);
+  }
   .dark .trk li {
     color: var(--color-gray-200);
   }
@@ -307,6 +314,9 @@ const FILTERS = [
   }
   .dark .trk .sp {
     color: var(--color-emerald-400);
+  }
+  .dark .trk .gn {
+    color: var(--color-amber-400);
   }
 </style>
 
