@@ -36,6 +36,8 @@ interface ItunesBook {
   releaseDate?: string;
   artworkUrl100?: string;
   trackViewUrl?: string;
+  averageUserRating?: number;
+  userRatingCount?: number;
 }
 
 const firstAuthor = (s: string | null) => (s ?? '').split(/,| & | e /i)[0]!.trim();
@@ -141,11 +143,17 @@ export async function lookupBookInfo({ budget = 60, log = console.log } = {}) {
 
   let done = 0;
   for (const [key, e] of entries) {
-    if (cache.has(key)) continue;
+    const known = cache.get(key);
+    if (known && known.rating !== undefined) continue;
     if (done >= budget) break;
     done++;
     try {
       const b = await itunesBook(e);
+      if (known) {
+        // Scheda raccolta prima che ci fosse il voto: si aggiunge solo quello.
+        cache.set(key, { ...known, rating: b?.averageUserRating ?? null, ratings: b?.userRatingCount ?? 0 });
+        continue;
+      }
       const text = b?.description ? trimExtract(blurbText(b.description), 1400) || null : null;
       // Una presentazione breve è spesso solo una nota sull'edizione ("A cura di…", "Edizione integrale"):
       // in quel caso, se c'è, è meglio la voce di Wikipedia.
@@ -159,6 +167,8 @@ export async function lookupBookInfo({ budget = 60, log = console.log } = {}) {
         cover: biggerArtwork(b?.artworkUrl100, 600) ?? biggerArtwork(e.cover ?? undefined, 600),
         appleUrl: cleanUrl(b?.trackViewUrl) ?? e.sourceUrl,
         authorUrl: cleanUrl(b?.artistViewUrl),
+        rating: b?.averageUserRating ?? null,
+        ratings: b?.userRatingCount ?? 0,
       });
       log(`- ${e.subtitle} – ${e.title}: ${b ? 'Apple Books ✓' : 'Apple Books ✗'}, trama ${blurb ? '✓' : wiki ? `Wikipedia ${wiki.lang}` : '✗'}`);
     } catch (err) {

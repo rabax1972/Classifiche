@@ -7,9 +7,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/5e/ce/45/5ece459e-81d9-536b-e7c3-e4f71f990ef1/9781088001547.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/winnie-the-pooh/id1603152876",
-      "authorUrl": "https://books.apple.com/it/artist/a-a-milne/409046876"
+      "authorUrl": "https://books.apple.com/it/artist/a-a-milne/409046876",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:24:05.411Z"
+    "fetchedAt": "2026-10-18T11:28:27.523Z"
   },
   "a s byatt|possessione": {
     "value": {
@@ -19,9 +21,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/2c/78/a1/2c78a1f1-f21e-2398-b457-cee7aba9cf7b/9788858416716.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/possessione/id928795904",
-      "authorUrl": "https://books.apple.com/it/artist/a-s-byatt/436375010"
+      "authorUrl": "https://books.apple.com/it/artist/a-s-byatt/436375010",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:26:04.023Z"
+    "fetchedAt": "2026-10-18T11:28:27.633Z"
   },
   "agatha christie|l assassinio di roger ackroyd": {
     "value": {
@@ -31,9 +35,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/58/44/da/5844da9a-a71b-cb9c-ee0a-98fbcad49761/9788852014772.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lassassinio-di-roger-ackroyd/id467584942",
-      "authorUrl": "https://books.apple.com/it/artist/agatha-christie/2035795"
+      "authorUrl": "https://books.apple.com/it/artist/agatha-christie/2035795",
+      "rating": 4.5,
+      "ratings": 115
     },
-    "fetchedAt": "2026-10-17T08:29:47.505Z"
+    "fetchedAt": "2026-10-18T11:28:27.719Z"
   },
   "alain fournier|il grande meaulnes": {
     "value": {
@@ -43,9 +49,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/be/bd/62/bebd6285-06f5-d6b3-beb4-e010da510502/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-grande-meaulnes/id960822537",
-      "authorUrl": "https://books.apple.com/it/artist/alain-fournier/373569417"
+      "authorUrl": "https://books.apple.com/it/artist/alain-fournier/373569417",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:34.119Z"
+    "fetchedAt": "2026-10-18T11:28:27.673Z"
   },
   "albert camus|lo straniero": {
     "value": {
@@ -55,9 +63,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f4/5c/55/f45c559a-bf24-593c-cf1e-0934babf5cec/58426930-0a57-40df-8c9a-87faac56052a_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-straniero/id6547836829",
-      "authorUrl": "https://books.apple.com/it/artist/albert-camus/57528162"
+      "authorUrl": "https://books.apple.com/it/artist/albert-camus/57528162",
+      "rating": 4.5,
+      "ratings": 40
     },
-    "fetchedAt": "2026-10-17T08:27:15.498Z"
+    "fetchedAt": "2026-10-18T11:28:27.666Z"
   },
   "albert cohen|bella del signore": {
     "value": {
@@ -67,9 +77,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/5c/79/26/5c792650-dff5-fc42-f40e-5f632dcff7ac/9788858645338.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/bella-del-signore/id659326004",
-      "authorUrl": "https://books.apple.com/it/artist/albert-cohen/198726873"
+      "authorUrl": "https://books.apple.com/it/artist/albert-cohen/198726873",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:34.927Z"
+    "fetchedAt": "2026-10-18T11:28:27.699Z"
   },
   "alberto moravia|gli indifferenti": {
     "value": {
@@ -79,9 +91,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/5c/73/f2/5c73f2ba-67d9-27a1-4809-b942c385dd93/1051929378.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/gli-indifferenti/id6741112742",
-      "authorUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760"
+      "authorUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760",
+      "rating": 3,
+      "ratings": 5
     },
-    "fetchedAt": "2026-10-17T08:24:17.610Z"
+    "fetchedAt": "2026-10-18T11:28:27.538Z"
   },
   "alberto moravia|il disprezzo": {
     "value": {
@@ -91,9 +105,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/36/17/1a/36171a19-172a-41be-1c9a-3c11a20f42e2/9788858704325.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-disprezzo/id1182380503",
-      "authorUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760"
+      "authorUrl": "https://books.apple.com/it/artist/alberto-moravia/287510760",
+      "rating": 4,
+      "ratings": 8
     },
-    "fetchedAt": "2026-10-17T08:29:44.383Z"
+    "fetchedAt": "2026-10-18T11:28:27.718Z"
   },
   "aldous huxley|il mondo nuovo": {
     "value": {
@@ -103,9 +119,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/76/d9/e3/76d9e33b-7472-6fe7-6780-1d8caad3202a/9edb8e73-7b85-4a8f-a6d2-1681f7aab678_cover_image.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-mondo-nuovo/id6748802925",
-      "authorUrl": "https://books.apple.com/it/artist/aldous-huxley/2064186"
+      "authorUrl": "https://books.apple.com/it/artist/aldous-huxley/2064186",
+      "rating": 4.5,
+      "ratings": 8
     },
-    "fetchedAt": "2026-10-17T08:24:57.383Z"
+    "fetchedAt": "2026-10-18T11:28:27.575Z"
   },
   "aleksandr solzenicyn|arcipelago gulag": {
     "value": {
@@ -115,9 +133,11 @@
       "genre": "Storia",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/38/ed/71/38ed7141-2dc2-4c34-31b1-937044938d3d/9788852049910.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/arcipelago-gulag/id6744362147",
-      "authorUrl": "https://books.apple.com/it/artist/aleksandr-solzenicyn/505762174"
+      "authorUrl": "https://books.apple.com/it/artist/aleksandr-solzenicyn/505762174",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:49.095Z"
+    "fetchedAt": "2026-10-18T11:28:27.683Z"
   },
   "alessandro manzoni|i promessi sposi": {
     "value": {
@@ -127,9 +147,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/ee/b1/ac/eeb1ac57-e033-3979-10f6-a0727f31a1d1/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-promessi-sposi/id475346693",
-      "authorUrl": "https://books.apple.com/it/artist/alessandro-manzoni/265526905"
+      "authorUrl": "https://books.apple.com/it/artist/alessandro-manzoni/265526905",
+      "rating": 2.5,
+      "ratings": 28
     },
-    "fetchedAt": "2026-10-17T08:22:06.510Z"
+    "fetchedAt": "2026-10-18T11:28:27.388Z"
   },
   "alexandre dumas|i tre moschettieri": {
     "value": {
@@ -139,9 +161,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/1c/69/90/1c69907d-39d1-18e5-260a-8947dd5b30fe/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-tre-moschettieri/id399789809",
-      "authorUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292"
+      "authorUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292",
+      "rating": 4,
+      "ratings": 40
     },
-    "fetchedAt": "2026-10-17T08:27:03.355Z"
+    "fetchedAt": "2026-10-18T11:28:27.658Z"
   },
   "alexandre dumas|il conte di montecristo": {
     "value": {
@@ -151,9 +175,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/20/8b/4f/208b4f3b-8c62-8149-8274-c76e585b5ec1/cover.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-conte-di-montecristo/id6450040811",
-      "authorUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292"
+      "authorUrl": "https://books.apple.com/it/artist/alexandre-dumas/2037292",
+      "rating": 5,
+      "ratings": 8
     },
-    "fetchedAt": "2026-10-17T08:25:19.502Z"
+    "fetchedAt": "2026-10-18T11:28:27.602Z"
   },
   "alice sebold|amabili resti": {
     "value": {
@@ -163,9 +189,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication69/v4/b1/3b/74/b13b7499-47ab-a4f1-d0bc-92cf9453b8f6/9788866321491.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/amabili-resti/id539502555",
-      "authorUrl": "https://books.apple.com/it/artist/alice-sebold/2073172"
+      "authorUrl": "https://books.apple.com/it/artist/alice-sebold/2073172",
+      "rating": 4,
+      "ratings": 58
     },
-    "fetchedAt": "2026-10-17T08:25:15.797Z"
+    "fetchedAt": "2026-10-18T11:28:27.599Z"
   },
   "alice walker|il colore viola": {
     "value": {
@@ -175,9 +203,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/1f/75/88/1f7588ef-1940-b3fe-9d70-4f462995c758/51368_il-colore-viola.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-colore-viola/id1483065008",
-      "authorUrl": "https://books.apple.com/it/artist/alice-walker/6930652"
+      "authorUrl": "https://books.apple.com/it/artist/alice-walker/6930652",
+      "rating": 4.5,
+      "ratings": 10
     },
-    "fetchedAt": "2026-10-17T08:26:15.691Z"
+    "fetchedAt": "2026-10-18T11:28:27.637Z"
   },
   "andre breton|nadja": {
     "value": {
@@ -187,9 +217,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication117/v4/c2/0a/82/c20a82a7-cd9d-c334-c720-216c683092a4/9782072446870.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/nadja/id1232165459",
-      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-breton/217682616"
+      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-breton/217682616",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:52.068Z"
+    "fetchedAt": "2026-10-18T11:28:27.721Z"
   },
   "andre franquin|gaston": {
     "value": {
@@ -199,9 +231,11 @@
       "genre": "Narrativa a fumetti",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/6b/79/3b/6b793bca-5cb8-406b-ca1f-dba192939e67/9791034732913.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/gaston-tome-13-lagaffe-se-d%C3%A9coince/id6447342087",
-      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-franquin/669981468"
+      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-franquin/669981468",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:33:09.716Z"
+    "fetchedAt": "2026-10-18T11:28:27.788Z"
   },
   "andre gide|i falsari": {
     "value": {
@@ -211,9 +245,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/1c/18/6b/1c186b8d-1150-a3b9-9ea3-ff2ef03cef2e/1068942208.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-falsari/id6817470033",
-      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-gide/366210502"
+      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-gide/366210502",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:29.421Z"
+    "fetchedAt": "2026-10-18T11:28:27.697Z"
   },
   "andre malraux|la condizione umana": {
     "value": {
@@ -223,9 +259,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/45/fc/8a/45fc8aa9-db3b-b6f2-8f3e-7fa6938bb689/44142_la-condizione-umana.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-condizione-umana/id1182406015",
-      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-malraux/274789581"
+      "authorUrl": "https://books.apple.com/it/artist/andr%C3%A9-malraux/274789581",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:22.508Z"
+    "fetchedAt": "2026-10-18T11:28:27.669Z"
   },
   "anna frank|diario di anna frank": {
     "value": {
@@ -235,9 +273,11 @@
       "genre": "Infanzia: narrativa classica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/64/f1/91/64f191a4-7e63-dda2-3baa-29ec55b3a53d/66240_anne-frank-diario.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/anne-frank-diario/id6445340415",
-      "authorUrl": "https://books.apple.com/it/artist/anne-frank-franco-paris/31091649"
+      "authorUrl": "https://books.apple.com/it/artist/anne-frank-franco-paris/31091649",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:05.456Z"
+    "fetchedAt": "2026-10-18T11:28:27.687Z"
   },
   "antoine de saint exupery|il piccolo principe": {
     "value": {
@@ -247,9 +287,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/fd/d5/9d/fdd59de0-5db7-4578-9057-722acca6b38d/9788826483689.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-piccolo-principe/id1261512703",
-      "authorUrl": "https://books.apple.com/it/artist/antoine-de-saint-exup%C3%A9ry/469689766"
+      "authorUrl": "https://books.apple.com/it/artist/antoine-de-saint-exup%C3%A9ry/469689766",
+      "rating": 4.5,
+      "ratings": 263
     },
-    "fetchedAt": "2026-10-17T08:26:40.393Z"
+    "fetchedAt": "2026-10-18T11:28:27.651Z"
   },
   "antonin artaud|il teatro e il suo doppio": {
     "value": {
@@ -264,9 +306,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/569546-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL794769W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:31:23.708Z"
+    "fetchedAt": "2026-10-18T11:28:27.758Z"
   },
   "arthur conan doyle|il mastino dei baskerville": {
     "value": {
@@ -281,9 +325,11 @@
       "genre": "Ragazzi",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/06/d6/e4/06d6e4d0-c4bf-0444-be94-4b31328659a0/front_cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-mastino-dei-baskerville/id595306263",
-      "authorUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824"
+      "authorUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824",
+      "rating": 4,
+      "ratings": 30
     },
-    "fetchedAt": "2026-10-17T08:46:15.721Z"
+    "fetchedAt": "2026-10-18T11:28:27.715Z"
   },
   "arthur conan doyle|le avventure di sherlock holmes": {
     "value": {
@@ -293,9 +339,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/d7/3b/47/d73b4779-9fbe-089f-47b0-606b67620ad6/9788854122796.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-avventure-di-sherlock-holmes/id391491928",
-      "authorUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824"
+      "authorUrl": "https://books.apple.com/it/artist/arthur-conan-doyle/2023824",
+      "rating": 4,
+      "ratings": 77
     },
-    "fetchedAt": "2026-10-17T08:26:32.647Z"
+    "fetchedAt": "2026-10-18T11:28:27.647Z"
   },
   "arthur golden|memorie di una geisha": {
     "value": {
@@ -310,9 +358,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/8231782-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL1856675W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:24:05.078Z"
+    "fetchedAt": "2026-10-18T11:28:27.520Z"
   },
   "attrazione senza regole the brit|jodi ellen malpas": {
     "value": {
@@ -322,9 +372,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/3e/52/f8/3e52f82b-5ea9-b30f-911e-d28637e2c254/9788822776495.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/attrazione-senza-regole-the-brit/id6469243562",
-      "authorUrl": "https://books.apple.com/it/artist/jodi-ellen-malpas/633597700"
+      "authorUrl": "https://books.apple.com/it/artist/jodi-ellen-malpas/633597700",
+      "rating": 4,
+      "ratings": 57
     },
-    "fetchedAt": "2026-10-18T04:45:08.036Z"
+    "fetchedAt": "2026-10-18T11:28:06.011Z"
   },
   "autori vari|la bibbia": {
     "value": {
@@ -334,9 +386,11 @@
       "genre": "Religione e spiritualità",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/3d/2f/26/3d2f26c9-6edf-aaa6-8629-991de7276821/9788821581380.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-bibbia/id853729810",
-      "authorUrl": "https://books.apple.com/it/artist/autori-vari/72615842"
+      "authorUrl": "https://books.apple.com/it/artist/autori-vari/72615842",
+      "rating": 2,
+      "ratings": 22
     },
-    "fetchedAt": "2026-10-17T08:21:57.529Z"
+    "fetchedAt": "2026-10-18T11:28:27.374Z"
   },
   "beato il popolo che ha bisogno di eroi|massimo gramellini": {
     "value": {
@@ -346,9 +400,11 @@
       "genre": "Biografie e memorie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/b6/4c/b4/b64cb4e0-4164-6657-be01-20efeaaaf253/9788828220787.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/beato-il-popolo-che-ha-bisogno-di-eroi/id6807885075",
-      "authorUrl": "https://books.apple.com/it/artist/massimo-gramellini/432160227"
+      "authorUrl": "https://books.apple.com/it/artist/massimo-gramellini/432160227",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:57.797Z"
+    "fetchedAt": "2026-10-18T11:27:45.067Z"
   },
   "beautiful venom|rina kent": {
     "value": {
@@ -358,9 +414,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/13/c4/79/13c479d2-218e-4205-d555-90f435860edc/9788892749092.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/beautiful-venom/id6758427129",
-      "authorUrl": "https://books.apple.com/it/artist/rina-kent/1472501789"
+      "authorUrl": "https://books.apple.com/it/artist/rina-kent/1472501789",
+      "rating": 4.5,
+      "ratings": 19
     },
-    "fetchedAt": "2026-10-17T08:16:37.066Z"
+    "fetchedAt": "2026-10-18T11:28:27.189Z"
   },
   "bertolt brecht|la resistibile ascesa di arturo ui": {
     "value": {
@@ -370,9 +428,11 @@
       "genre": "Professionali e tecnici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/69/da/ac/69daac6f-5115-6586-2a0c-3dce2124cae4/9782759308866.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/scheda-libro-la-resistibile-ascesa-di-arturo-ui-analisi/id1533268366",
-      "authorUrl": "https://books.apple.com/it/artist/bertolt-brecht/322158"
+      "authorUrl": "https://books.apple.com/it/artist/bertolt-brecht/322158",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:02.251Z"
+    "fetchedAt": "2026-10-18T11:28:27.724Z"
   },
   "bill bryson|notes from a small island": {
     "value": {
@@ -382,9 +442,11 @@
       "genre": "Viaggi e avventura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/27/d9/20/27d9203d-f47a-a338-ab9c-ab21b1edbd76/9781409095750.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/notes-from-a-small-island/id436114511",
-      "authorUrl": "https://books.apple.com/it/artist/bill-bryson/2024192"
+      "authorUrl": "https://books.apple.com/it/artist/bill-bryson/2024192",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:46.007Z"
+    "fetchedAt": "2026-10-18T11:28:27.624Z"
   },
   "blaise cendrars|moravagine": {
     "value": {
@@ -399,9 +461,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication4/v4/3b/d1/0b/3bd10b96-3089-85c3-9c7c-c3b5d4a2ccc4/9782246108894-X.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/moravagine/id375149504",
-      "authorUrl": "https://books.apple.com/it/artist/blaise-cendrars/126319009"
+      "authorUrl": "https://books.apple.com/it/artist/blaise-cendrars/126319009",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:16.017Z"
+    "fetchedAt": "2026-10-18T11:28:27.765Z"
   },
   "bloodless|lara celasio": {
     "value": {
@@ -411,9 +475,11 @@
       "genre": "New adult: romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/fe/e2/a4/fee2a409-17f8-f716-2431-8cc1d8fea5f3/9788892749139.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/bloodless/id6761162002",
-      "authorUrl": "https://books.apple.com/it/artist/lara-celasio/1888078553"
+      "authorUrl": "https://books.apple.com/it/artist/lara-celasio/1888078553",
+      "rating": 4,
+      "ratings": 16
     },
-    "fetchedAt": "2026-10-17T08:14:45.763Z"
+    "fetchedAt": "2026-10-18T11:28:27.331Z"
   },
   "boris vian|la schiuma dei giorni": {
     "value": {
@@ -423,9 +489,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/4f/88/e8/4f88e802-6ee0-1407-e913-1575b4cf4f3b/9788892940895.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-schiuma-dei-giorni/id6740243042",
-      "authorUrl": "https://books.apple.com/it/artist/boris-vian/1436713990"
+      "authorUrl": "https://books.apple.com/it/artist/boris-vian/1436713990",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:37.436Z"
+    "fetchedAt": "2026-10-18T11:28:27.675Z"
   },
   "bram stoker|dracula": {
     "value": {
@@ -435,9 +503,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/c9/0a/13/c90a1346-c64c-c73e-1b5a-9b5e2ea6584e/PD_Dracula-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/dracula/id395541616",
-      "authorUrl": "https://books.apple.com/it/artist/bram-stoker/2683478"
+      "authorUrl": "https://books.apple.com/it/artist/bram-stoker/2683478",
+      "rating": 3.5,
+      "ratings": 724
     },
-    "fetchedAt": "2026-10-17T08:25:40.063Z"
+    "fetchedAt": "2026-10-18T11:28:27.621Z"
   },
   "c s lewis|le cronache di narnia": {
     "value": {
@@ -447,9 +517,11 @@
       "genre": "Fantasy epico",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/a9/e6/1c/a9e61cdd-2764-7b09-738f-f72108c4a3bf/9788835701859.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-cronache-di-narnia/id1507942211",
-      "authorUrl": "https://books.apple.com/it/artist/c-s-lewis/2129151"
+      "authorUrl": "https://books.apple.com/it/artist/c-s-lewis/2129151",
+      "rating": 3.5,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:23:18.301Z"
+    "fetchedAt": "2026-10-18T11:28:27.494Z"
   },
   "cara debbie|freida mcfadden": {
     "value": {
@@ -459,9 +531,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/5a/3a/11/5a3a1142-0730-305a-8616-f4e64e642806/9791224205081.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cara-debbie/id6793313529",
-      "authorUrl": "https://books.apple.com/it/artist/freida-mcfadden/1101564107"
+      "authorUrl": "https://books.apple.com/it/artist/freida-mcfadden/1101564107",
+      "rating": 3.5,
+      "ratings": 17
     },
-    "fetchedAt": "2026-10-17T08:17:10.209Z"
+    "fetchedAt": "2026-10-18T11:28:27.220Z"
   },
   "carlo collodi|le avventure di pinocchio": {
     "value": {
@@ -471,9 +545,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/30/83/94/30839444-1a22-37c1-b22c-d0b84fe8cb3e/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-avventure-di-pinocchio/id398567407",
-      "authorUrl": "https://books.apple.com/it/artist/carlo-collodi/2705618"
+      "authorUrl": "https://books.apple.com/it/artist/carlo-collodi/2705618",
+      "rating": 2.5,
+      "ratings": 23
     },
-    "fetchedAt": "2026-10-17T08:24:48.381Z"
+    "fetchedAt": "2026-10-18T11:28:27.566Z"
   },
   "carlo levi|cristo si e fermato a eboli": {
     "value": {
@@ -483,9 +559,11 @@
       "genre": "Biografie e memorie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6f/db/61/6fdb61dd-def5-c461-19cc-24b8026c0c79/9788858414996.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cristo-si-%C3%A8-fermato-a-eboli/id900400007",
-      "authorUrl": "https://books.apple.com/it/artist/carlo-levi/427985961"
+      "authorUrl": "https://books.apple.com/it/artist/carlo-levi/427985961",
+      "rating": 4,
+      "ratings": 23
     },
-    "fetchedAt": "2026-10-17T08:24:35.366Z"
+    "fetchedAt": "2026-10-18T11:28:27.550Z"
   },
   "carlos ruiz zafon|l ombra del vento": {
     "value": {
@@ -495,9 +573,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/48/a8/bc/48a8bc8a-b440-bb62-630d-90ce6b856292/9788852037856.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lombra-del-vento/id635863357",
-      "authorUrl": "https://books.apple.com/it/artist/carlos-ruiz-zaf%C3%B3n/66423302"
+      "authorUrl": "https://books.apple.com/it/artist/carlos-ruiz-zaf%C3%B3n/66423302",
+      "rating": 4.5,
+      "ratings": 345
     },
-    "fetchedAt": "2026-10-17T08:24:51.324Z"
+    "fetchedAt": "2026-10-18T11:28:27.570Z"
   },
   "cesare pavese|la luna e i falo": {
     "value": {
@@ -507,9 +587,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/f1/03/78/f1037860-d3ec-2f50-0265-c580abaa4a9f/9788858409596.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-luna-e-i-fal%C3%B2/id662466359",
-      "authorUrl": "https://books.apple.com/it/artist/cesare-pavese/27755905"
+      "authorUrl": "https://books.apple.com/it/artist/cesare-pavese/27755905",
+      "rating": 3.5,
+      "ratings": 36
     },
-    "fetchedAt": "2026-10-17T08:25:24.956Z"
+    "fetchedAt": "2026-10-18T11:28:27.607Z"
   },
   "charles dickens|canto di natale": {
     "value": {
@@ -519,9 +601,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/5b/50/18/5b5018a3-e70e-3f1e-09c0-f296817523ce/9788811137368.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/canto-di-natale/id575144197",
-      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774"
+      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774",
+      "rating": 4,
+      "ratings": 17
     },
-    "fetchedAt": "2026-10-17T08:26:07.020Z"
+    "fetchedAt": "2026-10-18T11:28:27.634Z"
   },
   "charles dickens|casa desolata": {
     "value": {
@@ -531,9 +615,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/05/d9/15/05d91523-7532-65b4-fe34-322c4e6b8a42/9788858417430.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/casa-desolata/id944133292",
-      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774"
+      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774",
+      "rating": 4.5,
+      "ratings": 5
     },
-    "fetchedAt": "2026-10-17T08:22:50.540Z"
+    "fetchedAt": "2026-10-18T11:28:27.469Z"
   },
   "charles dickens|david copperfield": {
     "value": {
@@ -543,9 +629,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/b3/2d/8f/b32d8f63-62bb-7d7f-d6a2-b871b516ec8d/etext766.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/david-copperfield/id395546333",
-      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774"
+      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774",
+      "rating": 3.5,
+      "ratings": 47
     },
-    "fetchedAt": "2026-10-17T08:23:14.705Z"
+    "fetchedAt": "2026-10-18T11:28:27.491Z"
   },
   "charles dickens|oliver twist": {
     "value": {
@@ -555,9 +643,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/72/9c/03/729c03e4-f3db-fb9f-cfdf-9adb66a2d1e1/etext730.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/oliver-twist/id395546027",
-      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774"
+      "authorUrl": "https://books.apple.com/it/artist/charles-dickens/2671774",
+      "rating": 3.5,
+      "ratings": 146
     },
-    "fetchedAt": "2026-10-17T08:25:36.973Z"
+    "fetchedAt": "2026-10-18T11:28:27.619Z"
   },
   "ci bastera mangiare il vento|gianluca gotto": {
     "value": {
@@ -567,9 +657,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/4c/3b/a3/4c3ba3dd-a46c-34dd-ec9a-ff8b068a613a/9788835752028.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/ci-baster%C3%A0-mangiare-il-vento/id6780838435",
-      "authorUrl": "https://books.apple.com/it/artist/gianluca-gotto/1469193363"
+      "authorUrl": "https://books.apple.com/it/artist/gianluca-gotto/1469193363",
+      "rating": 4,
+      "ratings": 41
     },
-    "fetchedAt": "2026-10-18T04:45:02.073Z"
+    "fetchedAt": "2026-10-18T11:28:00.034Z"
   },
   "claude levi strauss|tristi tropici": {
     "value": {
@@ -579,9 +671,11 @@
       "genre": "Scienze sociali",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/47/e0/27/47e027d3-ec27-964f-8c9a-eec0742ee347/9788865763407.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/tristi-tropici/id787317789",
-      "authorUrl": "https://books.apple.com/it/artist/claude-l%C3%A9vi-strauss/451366664"
+      "authorUrl": "https://books.apple.com/it/artist/claude-l%C3%A9vi-strauss/451366664",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:08.215Z"
+    "fetchedAt": "2026-10-18T11:28:27.688Z"
   },
   "colette|viticci": {
     "value": {
@@ -591,9 +685,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication5/v4/eb/67/8e/eb678e90-b223-ea77-df7b-07a0118ac424/9782213688985-X.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/les-vrilles-de-la-vigne/id991720746",
-      "authorUrl": "https://books.apple.com/it/artist/colette/878558098"
+      "authorUrl": "https://books.apple.com/it/artist/colette/878558098",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:10.659Z"
+    "fetchedAt": "2026-10-18T11:28:27.734Z"
   },
   "consider me solo una possibilita|becka mack": {
     "value": {
@@ -615,9 +711,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/35/0c/91/350c9197-0371-ec58-5019-a747fcc45ac5/9791257990459.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cuori-rivali-vol-1/id6815307744",
-      "authorUrl": "https://books.apple.com/it/artist/morena-d-f/6815307954"
+      "authorUrl": "https://books.apple.com/it/artist/morena-d-f/6815307954",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:44:47.056Z"
+    "fetchedAt": "2026-10-18T11:27:45.057Z"
   },
   "d h lawrence|l amante di lady chatterley": {
     "value": {
@@ -627,9 +725,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/1e/99/38/1e993846-aaab-2315-4e98-124d91abcd93/9788874173068.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lamante-di-lady-chatterley/id761575165",
-      "authorUrl": "https://books.apple.com/it/artist/d-h-lawrence/164678419"
+      "authorUrl": "https://books.apple.com/it/artist/d-h-lawrence/164678419",
+      "rating": 3.5,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:29:16.966Z"
+    "fetchedAt": "2026-10-18T11:28:27.705Z"
   },
   "dan brown|il codice da vinci": {
     "value": {
@@ -639,9 +739,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/92/7a/97/927a979b-89c8-935d-bc96-089ec9db5497/9788831818698.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-codice-da-vinci/id6743198453",
-      "authorUrl": "https://books.apple.com/it/artist/dan-brown/2079716"
+      "authorUrl": "https://books.apple.com/it/artist/dan-brown/2079716",
+      "rating": 4,
+      "ratings": 12
     },
-    "fetchedAt": "2026-10-17T08:24:08.475Z"
+    "fetchedAt": "2026-10-18T11:28:27.526Z"
   },
   "dangerous love|rokia": {
     "value": {
@@ -651,9 +753,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/16/e4/c1/16e4c120-cbd2-6ddd-e059-f6e8a0d17fb7/9791259578815.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/dangerous-love/id6761422155",
-      "authorUrl": "https://books.apple.com/it/artist/rokia/1165449758"
+      "authorUrl": "https://books.apple.com/it/artist/rokia/1165449758",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:15:27.796Z"
+    "fetchedAt": "2026-10-18T11:28:27.203Z"
   },
   "dante alighieri|la divina commedia": {
     "value": {
@@ -663,9 +767,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/b4/58/69/b4586927-48d3-83d1-fff0-9ac2d1a09129/PD_La_Divina_Commedia-ITA-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-divina-commedia/id499188192",
-      "authorUrl": "https://books.apple.com/it/artist/dante-alighieri/274584661"
+      "authorUrl": "https://books.apple.com/it/artist/dante-alighieri/274584661",
+      "rating": 3.5,
+      "ratings": 136
     },
-    "fetchedAt": "2026-10-17T08:22:09.570Z"
+    "fetchedAt": "2026-10-18T11:28:27.392Z"
   },
   "delitti allo specchio|paolo pinna parpaglia": {
     "value": {
@@ -675,9 +781,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/ea/b8/eb/eab8eb35-8de0-9443-ec90-7977c81276c1/9788822781062.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/delitti-allo-specchio/id6746952086",
-      "authorUrl": "https://books.apple.com/it/artist/paolo-pinna-parpaglia/1063918930"
+      "authorUrl": "https://books.apple.com/it/artist/paolo-pinna-parpaglia/1063918930",
+      "rating": 4,
+      "ratings": 30
     },
-    "fetchedAt": "2026-10-18T04:44:41.090Z"
+    "fetchedAt": "2026-10-18T11:27:38.988Z"
   },
   "delitto al concerto di mezz estate|antonio lanzetta": {
     "value": {
@@ -687,9 +795,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/b0/23/fa/b023fa04-eeb2-2232-c649-73331e83e68d/9791224204879.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/delitto-al-concerto-di-mezzestate/id6781467366",
-      "authorUrl": "https://books.apple.com/it/artist/antonio-lanzetta/631756005"
+      "authorUrl": "https://books.apple.com/it/artist/antonio-lanzetta/631756005",
+      "rating": 3.5,
+      "ratings": 26
     },
-    "fetchedAt": "2026-10-18T04:44:53.075Z"
+    "fetchedAt": "2026-10-18T11:27:50.982Z"
   },
   "delitto e castigo|fedor dostoevskij": {
     "value": {
@@ -699,9 +809,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/ba/f1/f9/baf1f991-509d-4eda-318b-5d77785c46c7/344c3a22-840c-4ea0-aba4-179ef8defb67_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/delitto-e-castigo/id1529257765",
-      "authorUrl": "https://books.apple.com/it/artist/fedor-dostoevskij/1399369927"
+      "authorUrl": "https://books.apple.com/it/artist/fedor-dostoevskij/1399369927",
+      "rating": 4.5,
+      "ratings": 53
     },
-    "fetchedAt": "2026-10-17T08:17:04.154Z"
+    "fetchedAt": "2026-10-18T11:28:27.254Z"
   },
   "di fulmini e tempesta|chiara polita": {
     "value": {
@@ -711,9 +823,11 @@
       "genre": "Storia d’Europa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/72/4c/20/724c2006-940a-1d30-60de-338e209263d1/9788829793976.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/di-fulmini-e-tempesta/id6744618807",
-      "authorUrl": "https://books.apple.com/it/artist/chiara-polita/1062574295"
+      "authorUrl": "https://books.apple.com/it/artist/chiara-polita/1062574295",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:07.143Z"
+    "fetchedAt": "2026-10-18T11:28:27.297Z"
   },
   "dino buzzati|il deserto dei tartari": {
     "value": {
@@ -723,9 +837,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/65/a6/93/65a69357-74f9-035b-f922-003585dab81a/9788852031458.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-deserto-dei-tartari/id588099524",
-      "authorUrl": "https://books.apple.com/it/artist/dino-buzzati/483294371"
+      "authorUrl": "https://books.apple.com/it/artist/dino-buzzati/483294371",
+      "rating": 4,
+      "ratings": 84
     },
-    "fetchedAt": "2026-10-17T08:28:25.761Z"
+    "fetchedAt": "2026-10-18T11:28:27.695Z"
   },
   "douglas adams|guida galattica per gli autostoppisti": {
     "value": {
@@ -735,9 +851,11 @@
       "genre": "Fantascienza",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/d6/60/49/d6604919-7837-227f-60af-17183c3bd1f9/9788852022562.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/guida-galattica-per-gli-autostoppisti/id504755490",
-      "authorUrl": "https://books.apple.com/it/artist/douglas-adams/2080713"
+      "authorUrl": "https://books.apple.com/it/artist/douglas-adams/2080713",
+      "rating": 4,
+      "ratings": 300
     },
-    "fetchedAt": "2026-10-17T08:22:56.494Z"
+    "fetchedAt": "2026-10-18T11:28:27.473Z"
   },
   "e b white|la tela di carlotta": {
     "value": {
@@ -747,9 +865,11 @@
       "genre": "Infanzia",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/ce/e2/ad/cee2adc1-1540-d072-d5a8-42d42bbd9c54/9788852018244.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-tela-di-carlotta/id467365576",
-      "authorUrl": "https://books.apple.com/it/artist/e-b-white/2024857"
+      "authorUrl": "https://books.apple.com/it/artist/e-b-white/2024857",
+      "rating": 4.5,
+      "ratings": 6
     },
-    "fetchedAt": "2026-10-17T08:26:25.375Z"
+    "fetchedAt": "2026-10-18T11:28:27.643Z"
   },
   "e gia domani|silvia salis": {
     "value": {
@@ -759,9 +879,11 @@
       "genre": "Biografie e memorie storiche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/30/b4/dc/30b4dcd6-5f94-75ae-3e11-dd5f31824905/9788858866870.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/%C3%A8-gi%C3%A0-domani/id6820051623",
-      "authorUrl": "https://books.apple.com/it/artist/silvia-salis/1601858611"
+      "authorUrl": "https://books.apple.com/it/artist/silvia-salis/1601858611",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:15:15.785Z"
+    "fetchedAt": "2026-10-18T11:27:32.947Z"
   },
   "edgar p jacobs|blake e mortimer": {
     "value": {
@@ -771,9 +893,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/9a/ba/bd/9ababdb4-4c70-91e9-5257-f93838d62637/9781849189378.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/blake-mortimer-volume-1-the-yellow-m/id6470660069",
-      "authorUrl": "https://books.apple.com/it/artist/edgar-p-jacobs/1837247249"
+      "authorUrl": "https://books.apple.com/it/artist/edgar-p-jacobs/1837247249",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:23.251Z"
+    "fetchedAt": "2026-10-18T11:28:27.777Z"
   },
   "edmondo de amicis|cuore": {
     "value": {
@@ -783,9 +907,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/72/4f/b7/724fb796-aaee-174f-60dd-a978446af3f0/9788826494838.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cuore/id1326821040",
-      "authorUrl": "https://books.apple.com/it/artist/edmondo-de-amicis/366156031"
+      "authorUrl": "https://books.apple.com/it/artist/edmondo-de-amicis/366156031",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:23:23.769Z"
+    "fetchedAt": "2026-10-18T11:28:27.499Z"
   },
   "elysium effetto farfalla|nemy lane": {
     "value": {
@@ -795,9 +921,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/06/d9/f6/06d9f6c1-8bec-036b-899a-c3f4de13f512/9791224208198.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/elysium-effetto-farfalla/id6789700339",
-      "authorUrl": "https://books.apple.com/it/artist/nemy-lane/1825731834"
+      "authorUrl": "https://books.apple.com/it/artist/nemy-lane/1825731834",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:44:59.053Z"
+    "fetchedAt": "2026-10-18T11:27:56.997Z"
   },
   "emile zola|germinale": {
     "value": {
@@ -807,9 +935,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication22/v4/c5/48/fc/c548fc45-e6f1-b2e9-5dc6-11655978a721/mzm.qchndpkx.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/germinale/id538015578",
-      "authorUrl": "https://books.apple.com/it/artist/%C3%A9mile-zola/40772803"
+      "authorUrl": "https://books.apple.com/it/artist/%C3%A9mile-zola/40772803",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:58.052Z"
+    "fetchedAt": "2026-10-18T11:28:27.630Z"
   },
   "emily bronte|cime tempestose": {
     "value": {
@@ -819,9 +949,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/bd/5c/4f/bd5c4fd6-e854-0345-52f0-3deea78c1601/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cime-tempestose/id400879596",
-      "authorUrl": "https://books.apple.com/it/artist/emily-bront%C3%AB/2066344"
+      "authorUrl": "https://books.apple.com/it/artist/emily-bront%C3%AB/2066344",
+      "rating": 4.5,
+      "ratings": 189
     },
-    "fetchedAt": "2026-10-17T08:22:00.614Z"
+    "fetchedAt": "2026-10-18T11:28:27.380Z"
   },
   "enid blyton|the faraway tree": {
     "value": {
@@ -831,9 +963,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/22/00/1e/22001ef8-ab1c-5931-ab29-75249d04ebec/5f0b2c82-6f1c-4a94-84e2-62856fad14e0_cover_image.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/the-faraway-tree-series/id6483362905",
-      "authorUrl": "https://books.apple.com/it/artist/enid-blyton/251823897"
+      "authorUrl": "https://books.apple.com/it/artist/enid-blyton/251823897",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:26:34.285Z"
+    "fetchedAt": "2026-10-18T11:28:27.648Z"
   },
   "eppure noi due|giulia marziali": {
     "value": {
@@ -843,9 +977,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/e4/18/9e/e4189ec1-34d5-e555-e771-9acf660276b0/9788858451618.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/eppure-noi-due/id6776513463",
-      "authorUrl": "https://books.apple.com/it/artist/giulia-marziali/6776513837"
+      "authorUrl": "https://books.apple.com/it/artist/giulia-marziali/6776513837",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:36.930Z"
+    "fetchedAt": "2026-10-18T11:27:26.650Z"
   },
   "eravamo comunisti|massimo d alema": {
     "value": {
@@ -855,9 +991,11 @@
       "genre": "Scienze politiche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/00/09/52/000952d2-cb31-fbc8-8029-60a7d043eff9/9788858866993.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/eravamo-comunisti/id6808149115",
-      "authorUrl": "https://books.apple.com/it/artist/massimo-dalema/833348016"
+      "authorUrl": "https://books.apple.com/it/artist/massimo-dalema/833348016",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:45:11.081Z"
+    "fetchedAt": "2026-10-18T11:28:09.035Z"
   },
   "erich maria remarque|niente di nuovo sul fronte occidentale": {
     "value": {
@@ -867,9 +1005,11 @@
       "genre": "Azione e avventura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/fd/28/9c/fd289c36-ce3a-a803-9ef0-ee2f94edf8d0/9788854512979.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/niente-di-nuovo-sul-fronte-occidentale/id1100214352",
-      "authorUrl": "https://books.apple.com/it/artist/erich-maria-remarque/40712696"
+      "authorUrl": "https://books.apple.com/it/artist/erich-maria-remarque/40712696",
+      "rating": 4.5,
+      "ratings": 60
     },
-    "fetchedAt": "2026-10-17T08:26:47.384Z"
+    "fetchedAt": "2026-10-18T11:28:27.654Z"
   },
   "ernest hemingway|il vecchio e il mare": {
     "value": {
@@ -879,9 +1019,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/76/c0/c0/76c0c006-8e05-88b3-6d0a-7d7baf5facd3/9788852019937.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-vecchio-e-il-mare/id467349067",
-      "authorUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513"
+      "authorUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513",
+      "rating": 4,
+      "ratings": 311
     },
-    "fetchedAt": "2026-10-17T08:24:39.802Z"
+    "fetchedAt": "2026-10-18T11:28:27.555Z"
   },
   "ernest hemingway|per chi suona la campana": {
     "value": {
@@ -891,9 +1033,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/90/b6/df/90b6dfa3-33f9-77ad-405f-58c570c776dc/9788852020490.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/per-chi-suona-la-campana/id467350639",
-      "authorUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513"
+      "authorUrl": "https://books.apple.com/it/artist/ernest-hemingway/2122513",
+      "rating": 4,
+      "ratings": 27
     },
-    "fetchedAt": "2026-10-17T08:27:31.176Z"
+    "fetchedAt": "2026-10-18T11:28:27.672Z"
   },
   "eros il dolceamaro|anne carson": {
     "value": {
@@ -903,9 +1047,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/e5/79/80/e5798033-2f87-94d3-b70e-709db430d5aa/61119_eros-il-dolceamaro.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/eros-il-dolceamaro/id1613721219",
-      "authorUrl": "https://books.apple.com/it/artist/anne-carson/320085371"
+      "authorUrl": "https://books.apple.com/it/artist/anne-carson/320085371",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:25.336Z"
+    "fetchedAt": "2026-10-18T11:28:27.343Z"
   },
   "eugene ionesco|la cantatrice calva": {
     "value": {
@@ -915,9 +1061,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/12401665-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL674713W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:12.288Z"
+    "fetchedAt": "2026-10-18T11:28:27.690Z"
   },
   "evelyn waugh|ritorno a brideshead": {
     "value": {
@@ -927,9 +1075,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/c1/57/52/c15752d8-1b01-d6a6-9227-7eac01174ecf/9788858858141.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/ritorno-a-brideshead/id6447757464",
-      "authorUrl": "https://books.apple.com/it/artist/evelyn-waugh/152354111"
+      "authorUrl": "https://books.apple.com/it/artist/evelyn-waugh/152354111",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:22:59.607Z"
+    "fetchedAt": "2026-10-18T11:28:27.477Z"
   },
   "f scott fitzgerald|il grande gatsby": {
     "value": {
@@ -939,9 +1089,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication127/v4/91/7f/b9/917fb9d1-e239-fa5d-3c2f-9b46f56c97d6/9788854129047.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-grande-gatsby/id469930604",
-      "authorUrl": "https://books.apple.com/it/artist/f-scott-fitzgerald/2037135"
+      "authorUrl": "https://books.apple.com/it/artist/f-scott-fitzgerald/2037135",
+      "rating": 3.5,
+      "ratings": 102
     },
-    "fetchedAt": "2026-10-17T08:22:47.991Z"
+    "fetchedAt": "2026-10-18T11:28:27.466Z"
   },
   "facciamo finta che non finira|elena armas": {
     "value": {
@@ -951,9 +1103,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/65/58/6d/65586dd0-aa07-d04c-229d-8e90ee9155fc/9788822773494.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/facciamo-finta-che-non-finir%C3%A0/id6445640178",
-      "authorUrl": "https://books.apple.com/it/artist/elena-armas/1582660360"
+      "authorUrl": "https://books.apple.com/it/artist/elena-armas/1582660360",
+      "rating": 4,
+      "ratings": 172
     },
-    "fetchedAt": "2026-10-17T08:17:16.350Z"
+    "fetchedAt": "2026-10-18T11:28:27.334Z"
   },
   "falling|valentina ferraro": {
     "value": {
@@ -963,9 +1117,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/4e/18/f3/4e18f306-aec6-5376-e1ea-7aca1a6f209a/9791259579355.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/falling/id6811920449",
-      "authorUrl": "https://books.apple.com/it/artist/valentina-ferraro/1216337744"
+      "authorUrl": "https://books.apple.com/it/artist/valentina-ferraro/1216337744",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:16:49.176Z"
+    "fetchedAt": "2026-10-18T11:28:27.208Z"
   },
   "falsa pista|michael connelly": {
     "value": {
@@ -975,9 +1131,11 @@
       "genre": "Procedure poliziesche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/2e/62/b3/2e62b3d4-8d67-cf7b-06e8-0c479ec1859d/9788858538494.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/falsa-pista/id6813765965",
-      "authorUrl": "https://books.apple.com/it/artist/michael-connelly/2087642"
+      "authorUrl": "https://books.apple.com/it/artist/michael-connelly/2087642",
+      "rating": 4,
+      "ratings": 20
     },
-    "fetchedAt": "2026-10-17T08:14:18.626Z"
+    "fetchedAt": "2026-10-18T11:27:26.656Z"
   },
   "federico garcia lorca|romancero gitano": {
     "value": {
@@ -987,9 +1145,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/a7/1a/47/a71a4745-1a2d-5953-a467-18f4397a9db4/PDES003423.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/romancero-gitano/id668340387",
-      "authorUrl": "https://books.apple.com/it/artist/federico-garc%C3%ADa-lorca/26381126"
+      "authorUrl": "https://books.apple.com/it/artist/federico-garc%C3%ADa-lorca/26381126",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:08.031Z"
+    "fetchedAt": "2026-10-18T11:28:27.770Z"
   },
   "fedor dostoevskij|delitto e castigo": {
     "value": {
@@ -999,9 +1159,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/ba/f1/f9/baf1f991-509d-4eda-318b-5d77785c46c7/344c3a22-840c-4ea0-aba4-179ef8defb67_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/delitto-e-castigo/id1529257765",
-      "authorUrl": "https://books.apple.com/it/artist/fedor-dostoevskij/1399369927"
+      "authorUrl": "https://books.apple.com/it/artist/fedor-dostoevskij/1399369927",
+      "rating": 4.5,
+      "ratings": 53
     },
-    "fetchedAt": "2026-10-17T08:22:59.610Z"
+    "fetchedAt": "2026-10-18T11:28:27.478Z"
   },
   "fino alle stelle|suzanne wright": {
     "value": {
@@ -1023,9 +1185,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/28/85/42/28854243-d0d6-7bba-9745-ef67bea0d287/9791224209911.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/first-lady-per-caso/id6795713909",
-      "authorUrl": "https://books.apple.com/it/artist/felicia-kingsley/879564835"
+      "authorUrl": "https://books.apple.com/it/artist/felicia-kingsley/879564835",
+      "rating": 4.5,
+      "ratings": 86
     },
-    "fetchedAt": "2026-10-17T08:15:54.951Z"
+    "fetchedAt": "2026-10-18T11:27:26.665Z"
   },
   "fourth wing edizione speciale|rebecca yarros": {
     "value": {
@@ -1035,9 +1199,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/1f/c4/67/1fc4679e-79a1-54a2-6302-c3cd986422f9/9788892745216.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/fourth-wing-edizione-speciale/id6469286181",
-      "authorUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747"
+      "authorUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747",
+      "rating": 4.5,
+      "ratings": 514
     },
-    "fetchedAt": "2026-10-18T04:44:56.068Z"
+    "fetchedAt": "2026-10-18T11:27:54.007Z"
   },
   "francois mauriac|therese desqueyroux": {
     "value": {
@@ -1047,9 +1213,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/a3/0e/30/a30e30d3-dbb1-a33a-943d-c42f98ddc019/9782246145097-X.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/th%C3%A9r%C3%A8se-desqueyroux/id375178339",
-      "authorUrl": "https://books.apple.com/it/artist/fran%C3%A7ois-mauriac/275862545"
+      "authorUrl": "https://books.apple.com/it/artist/fran%C3%A7ois-mauriac/275862545",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:07.270Z"
+    "fetchedAt": "2026-10-18T11:28:27.701Z"
   },
   "francoise sagan|bonjour tristesse": {
     "value": {
@@ -1064,9 +1232,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/db/ed/29/dbed29f3-4116-8354-ccb3-aa2abb02b0dd/9782234075979-001-x.jpeg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/bonjour-tristesse/id872978204",
-      "authorUrl": "https://books.apple.com/it/artist/fran%C3%A7oise-sagan/137673360"
+      "authorUrl": "https://books.apple.com/it/artist/fran%C3%A7oise-sagan/137673360",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:14.184Z"
+    "fetchedAt": "2026-10-18T11:28:27.707Z"
   },
   "franz kafka|il processo": {
     "value": {
@@ -1076,9 +1246,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/7a/bf/47/7abf4797-339f-b28f-ddb7-4da8888999ac/7872dac6-f360-4b92-b4ed-56d980d60653_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-processo/id6777148446",
-      "authorUrl": "https://books.apple.com/it/artist/franz-kafka/17268605"
+      "authorUrl": "https://books.apple.com/it/artist/franz-kafka/17268605",
+      "rating": 4,
+      "ratings": 13
     },
-    "fetchedAt": "2026-10-17T08:22:37.923Z"
+    "fetchedAt": "2026-10-18T11:28:27.455Z"
   },
   "full disclosure|kate aster": {
     "value": {
@@ -1088,9 +1260,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/86/d1/f6/86d1f6e9-0b76-d311-9749-ab446f506e68/9791220714235.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/full-disclosure/id6783835288",
-      "authorUrl": "https://books.apple.com/it/artist/kate-aster/1025116412"
+      "authorUrl": "https://books.apple.com/it/artist/kate-aster/1025116412",
+      "rating": 4,
+      "ratings": 5
     },
-    "fetchedAt": "2026-10-17T08:16:07.152Z"
+    "fetchedAt": "2026-10-18T11:28:27.224Z"
   },
   "gabriel garcia marquez|cent anni di solitudine": {
     "value": {
@@ -1100,9 +1274,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/d8/d0/cb/d8d0cb24-4e1a-ede2-94b1-8c207fdc6831/9788852011498.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/centanni-di-solitudine/id529714170",
-      "authorUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920"
+      "authorUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920",
+      "rating": 4,
+      "ratings": 138
     },
-    "fetchedAt": "2026-10-17T08:24:11.503Z"
+    "fetchedAt": "2026-10-18T11:28:27.532Z"
   },
   "gabriel garcia marquez|l amore ai tempi del colera": {
     "value": {
@@ -1112,9 +1288,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication60/v4/31/1e/a9/311ea97c-a3b7-6c44-8cca-21c39134046b/9788852015977.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lamore-ai-tempi-del-colera/id467638119",
-      "authorUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920"
+      "authorUrl": "https://books.apple.com/it/artist/gabriel-garc%C3%ADa-m%C3%A1rquez/88920",
+      "rating": 4.5,
+      "ratings": 112
     },
-    "fetchedAt": "2026-10-17T08:25:03.399Z"
+    "fetchedAt": "2026-10-18T11:28:27.586Z"
   },
   "george orwell|1984": {
     "value": {
@@ -1124,9 +1302,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/4a/9c/b4/4a9cb453-f569-3a04-78bf-00d6291f22f9/1984_Cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/1984/id1590880925",
-      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114"
+      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114",
+      "rating": 4.5,
+      "ratings": 2039
     },
-    "fetchedAt": "2026-10-17T08:22:03.540Z"
+    "fetchedAt": "2026-10-18T11:28:27.384Z"
   },
   "george orwell|la fattoria degli animali": {
     "value": {
@@ -1136,9 +1316,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/ab/7f/c3/ab7fc342-db7f-ebb4-65d2-9cba046659d0/4a377e78-a80e-4060-b34d-e4f1f777254f_cover_image.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-fattoria-degli-animali/id6444840763",
-      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114"
+      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114",
+      "rating": 4.5,
+      "ratings": 266
     },
-    "fetchedAt": "2026-10-17T08:24:05.443Z"
+    "fetchedAt": "2026-10-18T11:28:27.523Z"
   },
   "georges bernanos|sotto il sole di satana": {
     "value": {
@@ -1148,9 +1330,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/86/4e/2e/864e2e3c-ee8d-0272-3c89-ab8ae1c6bee9/9788854983250.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sotto-il-sole-di-satana/id6450662338",
-      "authorUrl": "https://books.apple.com/it/artist/georges-bernanos/283291201"
+      "authorUrl": "https://books.apple.com/it/artist/georges-bernanos/283291201",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:36.369Z"
+    "fetchedAt": "2026-10-18T11:28:27.716Z"
   },
   "georges perec|la vita istruzioni per l uso": {
     "value": {
@@ -1160,9 +1344,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/ec/7f/c9/ec7fc9f2-5b3a-30ea-970c-b3c6f48ef9e5/9788858640326.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-vita-istruzioni-per-luso/id679565112",
-      "authorUrl": "https://books.apple.com/it/artist/georges-perec/437202814"
+      "authorUrl": "https://books.apple.com/it/artist/georges-perec/437202814",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:29.990Z"
+    "fetchedAt": "2026-10-18T11:28:27.713Z"
   },
   "georges simenon|il commissario maigret la serie": {
     "value": {
@@ -1172,9 +1358,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/2d/8f/94/2d8f94e6-0246-1a82-874e-415ddc0b8cd8/9788845971167.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/pietr-il-lettone/id1195646979",
-      "authorUrl": "https://books.apple.com/it/artist/georges-simenon/217793312"
+      "authorUrl": "https://books.apple.com/it/artist/georges-simenon/217793312",
+      "rating": 4,
+      "ratings": 11
     },
-    "fetchedAt": "2026-10-17T08:25:12.732Z"
+    "fetchedAt": "2026-10-18T11:28:27.597Z"
   },
   "georges simenon|pietr il lettone": {
     "value": {
@@ -1184,9 +1372,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/2d/8f/94/2d8f94e6-0246-1a82-874e-415ddc0b8cd8/9788845971167.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/pietr-il-lettone/id1195646979",
-      "authorUrl": "https://books.apple.com/it/artist/georges-simenon/217793312"
+      "authorUrl": "https://books.apple.com/it/artist/georges-simenon/217793312",
+      "rating": 4,
+      "ratings": 11
     },
-    "fetchedAt": "2026-10-17T08:32:08.110Z"
+    "fetchedAt": "2026-10-18T11:28:27.770Z"
   },
   "giorgio bassani|il giardino dei finzi contini": {
     "value": {
@@ -1196,9 +1386,11 @@
       "genre": "Narrativa storica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/a8/46/a1/a846a1a6-8a7f-285b-05d9-52f994b9aba5/9788858810590.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-giardino-dei-finzi-contini/id595510266",
-      "authorUrl": "https://books.apple.com/it/artist/giorgio-bassani/468039924"
+      "authorUrl": "https://books.apple.com/it/artist/giorgio-bassani/468039924",
+      "rating": 4,
+      "ratings": 75
     },
-    "fetchedAt": "2026-10-17T08:22:25.690Z"
+    "fetchedAt": "2026-10-18T11:28:27.430Z"
   },
   "giovanni verga|i malavoglia": {
     "value": {
@@ -1208,9 +1400,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/e2/15/dd/e215ddb3-7ec4-2dea-6477-c6fc90f91d28/9788883378768.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-malavoglia/id1562421574",
-      "authorUrl": "https://books.apple.com/it/artist/giovanni-verga/281176920"
+      "authorUrl": "https://books.apple.com/it/artist/giovanni-verga/281176920",
+      "rating": 3,
+      "ratings": 17
     },
-    "fetchedAt": "2026-10-17T08:24:23.718Z"
+    "fetchedAt": "2026-10-18T11:28:27.541Z"
   },
   "giuseppe tomasi di lampedusa|il gattopardo": {
     "value": {
@@ -1220,9 +1414,11 @@
       "genre": "Narrativa storica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/00/91/4d/00914df5-65d6-e626-fa03-72d797a90b49/9788858823590.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-gattopardo/id1040142786",
-      "authorUrl": "https://books.apple.com/it/artist/giuseppe-tomasi-di-lampedusa/340991546"
+      "authorUrl": "https://books.apple.com/it/artist/giuseppe-tomasi-di-lampedusa/340991546",
+      "rating": 4,
+      "ratings": 92
     },
-    "fetchedAt": "2026-10-17T08:22:34.756Z"
+    "fetchedAt": "2026-10-18T11:28:27.452Z"
   },
   "god of fury|rina kent": {
     "value": {
@@ -1232,9 +1428,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/66/0b/7d/660b7ddf-6e5f-2163-9b15-fe1a178c3468/9788855319669.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/god-of-fury/id6773184476",
-      "authorUrl": "https://books.apple.com/it/artist/rina-kent/1472501789"
+      "authorUrl": "https://books.apple.com/it/artist/rina-kent/1472501789",
+      "rating": 4.5,
+      "ratings": 27
     },
-    "fetchedAt": "2026-10-17T08:17:31.339Z"
+    "fetchedAt": "2026-10-18T11:28:27.351Z"
   },
   "god of malice|rina kent": {
     "value": {
@@ -1256,9 +1454,11 @@
       "genre": "Istruzione",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/a2/cf/ee/a2cfee07-c7e9-25a3-35d7-5663181a5416/b0080d1d-5529-4118-8ab0-ca996d40e68c_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/alcools/id1535630563",
-      "authorUrl": "https://books.apple.com/it/artist/guillaume-apollinaire/221528"
+      "authorUrl": "https://books.apple.com/it/artist/guillaume-apollinaire/221528",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:55.644Z"
+    "fetchedAt": "2026-10-18T11:28:27.685Z"
   },
   "gustave flaubert|madame bovary": {
     "value": {
@@ -1268,9 +1468,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/f3/45/26/f34526d3-e0dd-0b54-f369-9cf8329fb030/PD_Madame_bovary-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/madame-bovary/id492176352",
-      "authorUrl": "https://books.apple.com/it/artist/gustave-flaubert/274945157"
+      "authorUrl": "https://books.apple.com/it/artist/gustave-flaubert/274945157",
+      "rating": 4,
+      "ratings": 26
     },
-    "fetchedAt": "2026-10-17T08:26:20.561Z"
+    "fetchedAt": "2026-10-18T11:28:27.639Z"
   },
   "h g wells|la guerra dei mondi": {
     "value": {
@@ -1280,9 +1482,11 @@
       "genre": "Fantascienza",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/49/7b/a6/497ba654-0864-2235-17cb-94b709ed3140/9788834733226.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-guerra-dei-mondi/id1195898870",
-      "authorUrl": "https://books.apple.com/it/artist/h-g-wells/2124237"
+      "authorUrl": "https://books.apple.com/it/artist/h-g-wells/2124237",
+      "rating": 4.5,
+      "ratings": 14
     },
-    "fetchedAt": "2026-10-17T08:30:07.945Z"
+    "fetchedAt": "2026-10-18T11:28:27.733Z"
   },
   "hannah arendt|le origini del totalitarismo": {
     "value": {
@@ -1297,9 +1501,11 @@
       "genre": "Scienze politiche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/a7/64/3c/a7643c61-cd94-e406-69af-57a8c12b87d5/9788858426647.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-origini-del-totalitarismo/id1306587076",
-      "authorUrl": "https://books.apple.com/it/artist/hannah-arendt/219840136"
+      "authorUrl": "https://books.apple.com/it/artist/hannah-arendt/219840136",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:18.963Z"
+    "fetchedAt": "2026-10-18T11:28:27.782Z"
   },
   "harper lee|il buio oltre la siepe": {
     "value": {
@@ -1309,9 +1515,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cc/8a/0d/cc8a0db7-9bc8-d88a-f18c-979e883d9c30/9788858837641.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-buio-oltre-la-siepe/id1470475832",
-      "authorUrl": "https://books.apple.com/it/artist/harper-lee/164883469"
+      "authorUrl": "https://books.apple.com/it/artist/harper-lee/164883469",
+      "rating": 4,
+      "ratings": 115
     },
-    "fetchedAt": "2026-10-17T08:25:55.021Z"
+    "fetchedAt": "2026-10-18T11:28:27.629Z"
   },
   "heinrich boll|l onore perduto di katharina blum": {
     "value": {
@@ -1321,9 +1529,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/1d/c2/3a/1dc23a19-8ecf-c52d-4e53-dd77db2685ea/9788858417232.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lonore-perduto-di-katharina-blum/id942851718",
-      "authorUrl": "https://books.apple.com/it/artist/heinrich-b%C3%B6ll/390327180"
+      "authorUrl": "https://books.apple.com/it/artist/heinrich-b%C3%B6ll/390327180",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:26.394Z"
+    "fetchedAt": "2026-10-18T11:28:27.741Z"
   },
   "helen fielding|il diario di bridget jones": {
     "value": {
@@ -1333,9 +1543,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/5c/71/80/5c7180fd-a007-60ba-098f-8463e60ea2dd/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-diario-di-bridget-jones/id1003723775",
-      "authorUrl": "https://books.apple.com/it/artist/helen-fielding/2082069"
+      "authorUrl": "https://books.apple.com/it/artist/helen-fielding/2082069",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:28.032Z"
+    "fetchedAt": "2026-10-18T11:28:27.610Z"
   },
   "henry miller|crocifissione in rosa": {
     "value": {
@@ -1345,9 +1557,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/13106915-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL261865W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:18.975Z"
+    "fetchedAt": "2026-10-18T11:28:27.784Z"
   },
   "herge|il loto blu": {
     "value": {
@@ -1357,9 +1571,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/755245-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL151051W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:12.274Z"
+    "fetchedAt": "2026-10-18T11:28:27.686Z"
   },
   "herman melville|moby dick": {
     "value": {
@@ -1369,9 +1585,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/d9/38/f9/d938f95e-8d8d-39bb-07fd-fa2af4a99f46/PD_Moby_Dick-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/moby-dick/id395539950",
-      "authorUrl": "https://books.apple.com/it/artist/herman-melville/2036749"
+      "authorUrl": "https://books.apple.com/it/artist/herman-melville/2036749",
+      "rating": 3.5,
+      "ratings": 42
     },
-    "fetchedAt": "2026-10-17T08:25:34.023Z"
+    "fetchedAt": "2026-10-18T11:28:27.616Z"
   },
   "hermann hesse|siddharta": {
     "value": {
@@ -1381,9 +1599,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/9b/3a/43/9b3a4369-7e67-34dd-7bc4-3e74d615b95b/104483.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/siddh%C3%A1rta/id762204914",
-      "authorUrl": "https://books.apple.com/it/artist/hermann-hesse/2129358"
+      "authorUrl": "https://books.apple.com/it/artist/hermann-hesse/2129358",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:24:54.417Z"
+    "fetchedAt": "2026-10-18T11:28:27.573Z"
   },
   "hugo pratt|una ballata del mare salato": {
     "value": {
@@ -1393,9 +1613,11 @@
       "genre": "Narrativa a fumetti",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/e5/b2/35/e5b2356a-8882-df48-c54c-17cdd45f1e62/9788858633007.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/corto-maltese-5-una-ballata-del-mare-salato/id540379086",
-      "authorUrl": "https://books.apple.com/it/artist/hugo-pratt/500421922"
+      "authorUrl": "https://books.apple.com/it/artist/hugo-pratt/500421922",
+      "rating": 4,
+      "ratings": 32
     },
-    "fetchedAt": "2026-10-17T08:30:19.832Z"
+    "fetchedAt": "2026-10-18T11:28:27.738Z"
   },
   "i fratelli karamazov|fedor dostoevskij": {
     "value": {
@@ -1405,9 +1627,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/e8/03/44/e803441e-6721-dc6e-cb9c-687c95ab15e6/9788858818183.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-fratelli-karamazov/id893975609",
-      "authorUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629"
+      "authorUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629",
+      "rating": 4.5,
+      "ratings": 82
     },
-    "fetchedAt": "2026-10-17T08:17:22.280Z"
+    "fetchedAt": "2026-10-18T11:28:27.259Z"
   },
   "i ll believe in anything|jacob tierney": {
     "value": {
@@ -1417,9 +1641,11 @@
       "genre": "Romanzi rosa LGBTQIA+",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f6/4b/f2/f64bf2ac-8c36-eb6e-c115-97c6f3673db7/9781398730854.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/ill-believe-in-anything/id6762174043",
-      "authorUrl": "https://books.apple.com/it/artist/jacob-tierney-rachel-reid/299224366"
+      "authorUrl": "https://books.apple.com/it/artist/jacob-tierney-rachel-reid/299224366",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:40.212Z"
+    "fetchedAt": "2026-10-18T11:28:27.323Z"
   },
   "i segreti che nascondiamo|karin slaughter": {
     "value": {
@@ -1429,9 +1655,11 @@
       "genre": "Procedure poliziesche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/f9/ba/f5/f9baf5d9-03a6-357a-6890-855a990e5b56/9788830597464.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-segreti-che-nascondiamo/id6810716838",
-      "authorUrl": "https://books.apple.com/it/artist/karin-slaughter/20078016"
+      "authorUrl": "https://books.apple.com/it/artist/karin-slaughter/20078016",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:19.266Z"
+    "fetchedAt": "2026-10-18T11:28:27.338Z"
   },
   "iain banks|the wasp factory": {
     "value": {
@@ -1441,9 +1669,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/d8/c1/5f/d8c15fcd-107a-b5bf-7608-ce4998cc1cd1/9780748109951.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/the-wasp-factory/id401056797",
-      "authorUrl": "https://books.apple.com/it/artist/iain-banks/14631755"
+      "authorUrl": "https://books.apple.com/it/artist/iain-banks/14631755",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:26:43.461Z"
+    "fetchedAt": "2026-10-18T11:28:27.653Z"
   },
   "il contratto the deal|elle kennedy": {
     "value": {
@@ -1453,9 +1683,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/eb/0c/84/eb0c846f-909c-e55c-31ab-41418cd302db/9788854196902.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-contratto-the-deal/id1131082099",
-      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "rating": 4.5,
+      "ratings": 1170
     },
-    "fetchedAt": "2026-10-17T08:15:57.972Z"
+    "fetchedAt": "2026-10-18T11:27:41.985Z"
   },
   "il cuore e un arma|jeffery deaver": {
     "value": {
@@ -1465,9 +1697,11 @@
       "genre": "Donne detective",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/c4/b4/d5/c4b4d5f0-325c-1b57-75b0-7c2986c73b54/9788831823623.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-cuore-%C3%A8-unarma/id6789007078",
-      "authorUrl": "https://books.apple.com/it/artist/jeffery-deaver/2071726"
+      "authorUrl": "https://books.apple.com/it/artist/jeffery-deaver/2071726",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:48.818Z"
+    "fetchedAt": "2026-10-18T11:27:26.672Z"
   },
   "il fattore gatto|piergiorgio pulixi": {
     "value": {
@@ -1477,9 +1711,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/45/43/db/4543dbc2-1768-ecb7-62e0-64429a6bd1b9/9788829797332.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-fattore-gatto/id6795089638",
-      "authorUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522"
+      "authorUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522",
+      "rating": 4,
+      "ratings": 29
     },
-    "fetchedAt": "2026-10-17T08:14:39.671Z"
+    "fetchedAt": "2026-10-18T11:27:26.644Z"
   },
   "il grande vuoto|robert crais": {
     "value": {
@@ -1489,9 +1725,11 @@
       "genre": "Gialli hard-boiled",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/8f/20/46/8f2046f7-c5aa-ea22-e429-b948dab6e6b4/9788835749400.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-grande-vuoto/id6760342962",
-      "authorUrl": "https://books.apple.com/it/artist/robert-crais/2025078"
+      "authorUrl": "https://books.apple.com/it/artist/robert-crais/2025078",
+      "rating": 4,
+      "ratings": 11
     },
-    "fetchedAt": "2026-10-17T08:17:01.109Z"
+    "fetchedAt": "2026-10-18T11:28:27.290Z"
   },
   "il negozio fantasma|edmund crispin": {
     "value": {
@@ -1501,9 +1739,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/2f/67/03/2f67034b-2e1f-d348-6665-2cdf78cc8797/9791281631588.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-negozio-fantasma/id6749446214",
-      "authorUrl": "https://books.apple.com/it/artist/edmund-crispin/276579168"
+      "authorUrl": "https://books.apple.com/it/artist/edmund-crispin/276579168",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:15:00.717Z"
+    "fetchedAt": "2026-10-18T11:27:26.676Z"
   },
   "il patto|suzanne wright": {
     "value": {
@@ -1513,9 +1753,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/29/b7/1a/29b71ad6-fe33-9b66-db3f-170ef693cfea/9788855319928.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-patto/id6761110079",
-      "authorUrl": "https://books.apple.com/it/artist/suzanne-wright/616208806"
+      "authorUrl": "https://books.apple.com/it/artist/suzanne-wright/616208806",
+      "rating": 4,
+      "ratings": 14
     },
-    "fetchedAt": "2026-10-17T08:16:03.962Z"
+    "fetchedAt": "2026-10-18T11:28:27.319Z"
   },
   "il principe bugiardo|l j shen": {
     "value": {
@@ -1525,9 +1767,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/03/ad/b2/03adb2f2-f2bc-2a32-003f-10adbd1c48de/9791255172642.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-principe-bugiardo/id6819355845",
-      "authorUrl": "https://books.apple.com/it/artist/l-j-shen/1126158048"
+      "authorUrl": "https://books.apple.com/it/artist/l-j-shen/1126158048",
+      "rating": 4,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:14:27.470Z"
+    "fetchedAt": "2026-10-18T11:27:26.647Z"
   },
   "il sussurro della morte|patricia gibney": {
     "value": {
@@ -1549,9 +1793,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/e1/9d/75/e19d7547-929f-2a56-4151-292e5c7f23d2/9788822707499.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-tradimento-the-score/id1227949986",
-      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "rating": 4.5,
+      "ratings": 547
     },
-    "fetchedAt": "2026-10-17T08:14:42.722Z"
+    "fetchedAt": "2026-10-18T11:28:21.133Z"
   },
   "il trattamento del silenzio|gian andrea cerone": {
     "value": {
@@ -1573,9 +1819,11 @@
       "genre": "Psicologia",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/b1/11/34/b111347e-de93-0f38-86d7-3acef553b95e/9791222204260.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-trauma-non-%C3%A8-un-destino/id6760898437",
-      "authorUrl": "https://books.apple.com/it/artist/sandra-sassaroli/901837214"
+      "authorUrl": "https://books.apple.com/it/artist/sandra-sassaroli/901837214",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:44:44.063Z"
+    "fetchedAt": "2026-10-18T11:27:41.981Z"
   },
   "indagine a tre|alessandra carnevali": {
     "value": {
@@ -1585,9 +1833,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cd/0c/dd/cd0cdde3-ef1d-0cb8-f74c-dd1daef64aa5/9791224209010.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/indagine-a-tre/id6808823731",
-      "authorUrl": "https://books.apple.com/it/artist/alessandra-carnevali/866105181"
+      "authorUrl": "https://books.apple.com/it/artist/alessandra-carnevali/866105181",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:13.440Z"
+    "fetchedAt": "2026-10-18T11:27:26.616Z"
   },
   "ismail kadare|il generale dell armata morta": {
     "value": {
@@ -1602,9 +1852,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/792156-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL963872W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:04.743Z"
+    "fetchedAt": "2026-10-18T11:28:27.767Z"
   },
   "italo calvino|il barone rampante": {
     "value": {
@@ -1614,9 +1866,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/6d/47/78/6d477813-73db-a1ea-7c69-b33100f69918/9788852016974.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-barone-rampante/id467683198",
-      "authorUrl": "https://books.apple.com/it/artist/italo-calvino/281178080"
+      "authorUrl": "https://books.apple.com/it/artist/italo-calvino/281178080",
+      "rating": 3.5,
+      "ratings": 193
     },
-    "fetchedAt": "2026-10-17T08:24:15.206Z"
+    "fetchedAt": "2026-10-18T11:28:27.536Z"
   },
   "italo svevo|la coscienza di zeno": {
     "value": {
@@ -1626,9 +1880,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/10/cf/f2/10cff246-c320-5050-62c7-f195e8f97a59/PD_La_coscienza_di_zeno-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-coscienza-di-zeno/id1521737576",
-      "authorUrl": "https://books.apple.com/it/artist/italo-svevo/133081233"
+      "authorUrl": "https://books.apple.com/it/artist/italo-svevo/133081233",
+      "rating": 4,
+      "ratings": 113
     },
-    "fetchedAt": "2026-10-17T08:23:27.117Z"
+    "fetchedAt": "2026-10-18T11:28:27.500Z"
   },
   "j d salinger|il giovane holden": {
     "value": {
@@ -1643,9 +1899,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/9273490-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL3335245W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:03.044Z"
+    "fetchedAt": "2026-10-18T11:28:27.656Z"
   },
   "j k rowling|harry potter la saga": {
     "value": {
@@ -1655,9 +1913,11 @@
       "genre": "Infanzia: narrativa su famiglie e relazioni",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f3/48/6e/f3486e84-5c64-67e6-f52d-b47dc3670cfb/9781781106198.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/harry-potter-e-la-pietra-filosofale-enhanced-edition/id1051121768",
-      "authorUrl": "https://books.apple.com/it/artist/j-k-rowling-marina-astrologo/79595314"
+      "authorUrl": "https://books.apple.com/it/artist/j-k-rowling-marina-astrologo/79595314",
+      "rating": 4.5,
+      "ratings": 486
     },
-    "fetchedAt": "2026-10-17T08:21:51.576Z"
+    "fetchedAt": "2026-10-18T11:28:27.367Z"
   },
   "j m g le clezio|il verbale": {
     "value": {
@@ -1672,9 +1932,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/14988927-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL37774985W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:31:10.406Z"
+    "fetchedAt": "2026-10-18T11:28:27.750Z"
   },
   "j r r tolkien|il signore degli anelli": {
     "value": {
@@ -1684,9 +1946,11 @@
       "genre": "Fantasy epico",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/96/6d/3d/966d3d6d-e36c-d731-6060-badcd35a806d/66267_il-signore-dei-anelli.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-signore-degli-anelli/id6445389082",
-      "authorUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613"
+      "authorUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613",
+      "rating": 4.5,
+      "ratings": 12
     },
-    "fetchedAt": "2026-10-17T08:21:45.509Z"
+    "fetchedAt": "2026-10-18T11:28:27.359Z"
   },
   "j r r tolkien|lo hobbit": {
     "value": {
@@ -1696,9 +1960,11 @@
       "genre": "Fantasy epico",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/68/5d/7f/685d7f9f-667f-9020-3d86-f5782c973c63/9788858757437.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-hobbit/id1182389754",
-      "authorUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613"
+      "authorUrl": "https://books.apple.com/it/artist/j-r-r-tolkien/2078613",
+      "rating": 4.5,
+      "ratings": 98
     },
-    "fetchedAt": "2026-10-17T08:22:28.736Z"
+    "fetchedAt": "2026-10-18T11:28:27.445Z"
   },
   "jack kerouac|sulla strada": {
     "value": {
@@ -1708,9 +1974,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/f0/ae/45/f0ae45f2-dade-166f-3293-da7fda533278/9788852014000.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sulla-strada/id467578913",
-      "authorUrl": "https://books.apple.com/it/artist/jack-kerouac/130670"
+      "authorUrl": "https://books.apple.com/it/artist/jack-kerouac/130670",
+      "rating": 4,
+      "ratings": 85
     },
-    "fetchedAt": "2026-10-17T08:25:22.096Z"
+    "fetchedAt": "2026-10-18T11:28:27.605Z"
   },
   "jack london|martin eden": {
     "value": {
@@ -1720,9 +1988,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication18/v4/38/2b/cf/382bcffb-d9e9-1bd0-0d3d-3b8bad2ecbf2/9788854138643.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/martin-eden/id491639763",
-      "authorUrl": "https://books.apple.com/it/artist/jack-london/2789674"
+      "authorUrl": "https://books.apple.com/it/artist/jack-london/2789674",
+      "rating": 4.5,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:30:17.744Z"
+    "fetchedAt": "2026-10-18T11:28:27.737Z"
   },
   "jacques lacan|scritti": {
     "value": {
@@ -1732,9 +2002,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/247654-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL2127250W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:15.741Z"
+    "fetchedAt": "2026-10-18T11:28:27.756Z"
   },
   "jacques prevert|paroles": {
     "value": {
@@ -1744,9 +2016,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/b7/48/47/b748474e-d0c2-7fd4-108f-c1a1a8529a21/9782072446955.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/paroles/id1192396677",
-      "authorUrl": "https://books.apple.com/it/artist/jacques-pr%C3%A9vert/298396"
+      "authorUrl": "https://books.apple.com/it/artist/jacques-pr%C3%A9vert/298396",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:52.637Z"
+    "fetchedAt": "2026-10-18T11:28:27.684Z"
   },
   "james hadley chase|niente orchidee per miss blandish": {
     "value": {
@@ -1756,9 +2030,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/11/79/e5/1179e5e2-31ab-7532-4d1a-6562548ac4b8/9788866884569.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/niente-orchidee-per-miss-blandish/id1576338799",
-      "authorUrl": "https://books.apple.com/it/artist/james-hadley-chase/440910362"
+      "authorUrl": "https://books.apple.com/it/artist/james-hadley-chase/440910362",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:20.100Z"
+    "fetchedAt": "2026-10-18T11:28:27.774Z"
   },
   "james joyce|ulisse": {
     "value": {
@@ -1768,9 +2044,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/72/c6/fc/72c6fc0b-625d-6046-2703-9831309838cc/9788858843673.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/ulisse/id1557904506",
-      "authorUrl": "https://books.apple.com/it/artist/james-joyce/2038317"
+      "authorUrl": "https://books.apple.com/it/artist/james-joyce/2038317",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:49.004Z"
+    "fetchedAt": "2026-10-18T11:28:27.625Z"
   },
   "jane austen|emma": {
     "value": {
@@ -1780,9 +2058,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/d2/fb/ee/d2fbee5c-b4d6-4710-fb1a-51ee7ca27d52/BKS-WW-ABC-Emma-Jane_Austen.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/emma/id395536171",
-      "authorUrl": "https://books.apple.com/it/artist/jane-austen/2038186"
+      "authorUrl": "https://books.apple.com/it/artist/jane-austen/2038186",
+      "rating": 3.5,
+      "ratings": 94
     },
-    "fetchedAt": "2026-10-17T08:23:20.712Z"
+    "fetchedAt": "2026-10-18T11:28:27.497Z"
   },
   "jane austen|orgoglio e pregiudizio": {
     "value": {
@@ -1792,9 +2072,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cd/be/18/cdbe1846-3629-20fb-2e35-4566abcec254/9788858837221.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/orgoglio-e-pregiudizio/id1466369381",
-      "authorUrl": "https://books.apple.com/it/artist/jane-austen/2038186"
+      "authorUrl": "https://books.apple.com/it/artist/jane-austen/2038186",
+      "rating": 4.5,
+      "ratings": 307
     },
-    "fetchedAt": "2026-10-17T08:21:42.739Z"
+    "fetchedAt": "2026-10-18T11:28:27.355Z"
   },
   "jean genet|notre dame des fleurs": {
     "value": {
@@ -1804,9 +2086,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/ba/de/c2/badec26b-1b46-0d60-51ae-6d4c494dcee1/9788865764114.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/notre-dame-des-fleurs/id966611404",
-      "authorUrl": "https://books.apple.com/it/artist/jean-genet/287659847"
+      "authorUrl": "https://books.apple.com/it/artist/jean-genet/287659847",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:11.033Z"
+    "fetchedAt": "2026-10-18T11:28:27.771Z"
   },
   "jean giono|l ussaro sul tetto": {
     "value": {
@@ -1816,9 +2100,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/63/e9/9f/63e99fed-bd03-a35b-75c3-f00f8a9a61eb/9788860882424.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lussaro-sul-tetto/id507111464",
-      "authorUrl": "https://books.apple.com/it/artist/jean-giono/137629132"
+      "authorUrl": "https://books.apple.com/it/artist/jean-giono/137629132",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:32.036Z"
+    "fetchedAt": "2026-10-18T11:28:27.698Z"
   },
   "jean paul sartre|l essere e il nulla": {
     "value": {
@@ -1828,9 +2114,11 @@
       "genre": "Saggistica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/d5/ff/dd/d5ffdd51-26e9-07de-5687-27616a13394e/9782072101861.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/l%C3%AAtre-et-le-n%C3%A9ant-essai-dontologie-ph%C3%A9nom%C3%A9nologique/id1322514584",
-      "authorUrl": "https://books.apple.com/it/artist/jean-paul-sartre/193502928"
+      "authorUrl": "https://books.apple.com/it/artist/jean-paul-sartre/193502928",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:46.540Z"
+    "fetchedAt": "2026-10-18T11:28:27.682Z"
   },
   "jerome k jerome|tre uomini in barca": {
     "value": {
@@ -1840,9 +2128,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/dc/9f/55/dc9f55ea-60aa-78f2-a3bc-aa6f16097272/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/tre-uomini-in-barca/id400219031",
-      "authorUrl": "https://books.apple.com/it/artist/jerome-k-jerome/5584382"
+      "authorUrl": "https://books.apple.com/it/artist/jerome-k-jerome/5584382",
+      "rating": 3,
+      "ratings": 26
     },
-    "fetchedAt": "2026-10-17T08:25:43.055Z"
+    "fetchedAt": "2026-10-18T11:28:27.622Z"
   },
   "johann wolfgang von goethe|i dolori del giovane werther": {
     "value": {
@@ -1852,9 +2142,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication18/v4/ff/1c/a1/ff1ca1e9-8895-c719-6051-d06e449be0b0/dolori.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-dolori-del-giovane-werther/id1125890757",
-      "authorUrl": "https://books.apple.com/it/artist/goethe/21224079"
+      "authorUrl": "https://books.apple.com/it/artist/goethe/21224079",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:24:45.336Z"
+    "fetchedAt": "2026-10-18T11:28:27.562Z"
   },
   "johann wolfgang von goethe|le affinita elettive": {
     "value": {
@@ -1869,9 +2161,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/f2/b8/ea/f2b8ea71-cac4-8dc4-4b81-f7610eaba6e0/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-affinit%C3%A0-elettive/id400880327",
-      "authorUrl": "https://books.apple.com/it/artist/johann-wolfgang-von-goethe/14236141"
+      "authorUrl": "https://books.apple.com/it/artist/johann-wolfgang-von-goethe/14236141",
+      "rating": 3.5,
+      "ratings": 12
     },
-    "fetchedAt": "2026-10-17T08:46:11.232Z"
+    "fetchedAt": "2026-10-18T11:28:27.457Z"
   },
   "john dos passos|manhattan transfer": {
     "value": {
@@ -1881,9 +2175,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/db/2f/31/db2f318b-ebd0-fd1c-ba20-bb6d965362ec/9788868651404.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/manhattan-transfer/id1015971497",
-      "authorUrl": "https://books.apple.com/it/artist/john-dos-passos/348651128"
+      "authorUrl": "https://books.apple.com/it/artist/john-dos-passos/348651128",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:31:26.134Z"
+    "fetchedAt": "2026-10-18T11:28:27.762Z"
   },
   "john steinbeck|furore": {
     "value": {
@@ -1893,9 +2189,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/30/76/9f/30769fcb-dbb8-cd42-8e26-fce85c619594/e33f62ef-771d-4517-bc7a-685837c59bac_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/furore/id6575360659",
-      "authorUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305"
+      "authorUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305",
+      "rating": 4,
+      "ratings": 19
     },
-    "fetchedAt": "2026-10-17T08:27:27.675Z"
+    "fetchedAt": "2026-10-18T11:28:27.671Z"
   },
   "john steinbeck|uomini e topi": {
     "value": {
@@ -1905,9 +2203,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/6a/f2/a3/6af2a331-6166-c4af-8368-aeb2e85f1367/1052798202.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/uomini-e-topi/id6743082868",
-      "authorUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305"
+      "authorUrl": "https://books.apple.com/it/artist/john-steinbeck/299088305",
+      "rating": 4.5,
+      "ratings": 7
     },
-    "fetchedAt": "2026-10-17T08:25:06.610Z"
+    "fetchedAt": "2026-10-18T11:28:27.590Z"
   },
   "jorge luis borges|finzioni": {
     "value": {
@@ -1917,9 +2217,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication91/v4/a5/36/da/a536da25-7e16-7ae6-fee1-b7a2bd629a36/9788845973277.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/finzioni/id1195656771",
-      "authorUrl": "https://books.apple.com/it/artist/jorge-luis-borges/154203886"
+      "authorUrl": "https://books.apple.com/it/artist/jorge-luis-borges/154203886",
+      "rating": 4.5,
+      "ratings": 12
     },
-    "fetchedAt": "2026-10-17T08:31:29.183Z"
+    "fetchedAt": "2026-10-18T11:28:27.764Z"
   },
   "joseph conrad|cuore di tenebra": {
     "value": {
@@ -1929,9 +2231,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/09/f3/f4/09f3f4e7-1b97-f898-a940-a7af7833af4f/9788874171606.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cuore-di-tenebra/id560806312",
-      "authorUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633"
+      "authorUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633",
+      "rating": 3.5,
+      "ratings": 20
     },
-    "fetchedAt": "2026-10-17T08:26:37.463Z"
+    "fetchedAt": "2026-10-18T11:28:27.650Z"
   },
   "joseph conrad|lord jim": {
     "value": {
@@ -1941,9 +2245,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/17/24/21/172421ba-4176-b2f8-90b7-b3c93a92c343/1068944774.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lord-jim/id6817139231",
-      "authorUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633"
+      "authorUrl": "https://books.apple.com/it/artist/joseph-conrad/2653633",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:31:17.100Z"
+    "fetchedAt": "2026-10-18T11:28:27.755Z"
   },
   "joseph heller|comma 22": {
     "value": {
@@ -1953,9 +2259,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/c7/0b/1a/c70b1a96-e635-4dcc-8f88-56890864239a/f54385a2-ee8b-4545-96e2-52cccdcbcab3_cover_image.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/comma-22-catch-22/id6770480782",
-      "authorUrl": "https://books.apple.com/it/artist/joseph-heller/213993092"
+      "authorUrl": "https://books.apple.com/it/artist/joseph-heller/213993092",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:22:18.613Z"
+    "fetchedAt": "2026-10-18T11:28:27.418Z"
   },
   "jules renard|diario": {
     "value": {
@@ -1965,9 +2273,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/0e/0d/04/0e0d0427-9865-ed52-2f2b-40d64bc9bf23/1063324022.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/diario-1887-1910/id6756441533",
-      "authorUrl": "https://books.apple.com/it/artist/jules-renard/29561990"
+      "authorUrl": "https://books.apple.com/it/artist/jules-renard/29561990",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:31:14.200Z"
+    "fetchedAt": "2026-10-18T11:28:27.754Z"
   },
   "julien gracq|la riva delle sirti": {
     "value": {
@@ -1977,9 +2287,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/13/cf/48/13cf48af-6504-84e3-ba29-539952bc5bd5/9788899793524.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-riva-delle-sirti/id1342426332",
-      "authorUrl": "https://books.apple.com/it/artist/julien-gracq/645483110"
+      "authorUrl": "https://books.apple.com/it/artist/julien-gracq/645483110",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:29.414Z"
+    "fetchedAt": "2026-10-18T11:28:27.743Z"
   },
   "kahlil gibran|il profeta": {
     "value": {
@@ -1989,9 +2301,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/80/04/da/8004da07-8323-bde7-3294-4fb78b730172/profeta1400.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-profeta/id1174297101",
-      "authorUrl": "https://books.apple.com/it/artist/kahlil-gibran/1045947346"
+      "authorUrl": "https://books.apple.com/it/artist/kahlil-gibran/1045947346",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:21:48.522Z"
+    "fetchedAt": "2026-10-18T11:28:27.363Z"
   },
   "kazuo ishiguro|quel che resta del giorno": {
     "value": {
@@ -2001,9 +2315,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/ef/0a/ab/ef0aab2a-0089-fe14-4330-80132e215aee/9788858427576.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/quel-che-resta-del-giorno/id1298402687",
-      "authorUrl": "https://books.apple.com/it/artist/kazuo-ishiguro/441754964"
+      "authorUrl": "https://books.apple.com/it/artist/kazuo-ishiguro/441754964",
+      "rating": 4.5,
+      "ratings": 29
     },
-    "fetchedAt": "2026-10-17T08:26:16.047Z"
+    "fetchedAt": "2026-10-18T11:28:27.638Z"
   },
   "khaled hosseini|il cacciatore di aquiloni": {
     "value": {
@@ -2013,9 +2329,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/a0/0c/83/a00c83fd-51a8-1de7-06c9-bd7e77d5e257/9788858858288.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-cacciatore-di-aquiloni/id6447770336",
-      "authorUrl": "https://books.apple.com/it/artist/khaled-hosseini/2093102"
+      "authorUrl": "https://books.apple.com/it/artist/khaled-hosseini/2093102",
+      "rating": 4,
+      "ratings": 34
     },
-    "fetchedAt": "2026-10-17T08:23:29.784Z"
+    "fetchedAt": "2026-10-18T11:28:27.502Z"
   },
   "kiss the candidate|bianca marconero": {
     "value": {
@@ -2025,9 +2343,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/06/d0/82/06d08245-e536-845d-36d5-20a64e39ce33/9791255172635.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/kiss-the-candidate/id6821273926",
-      "authorUrl": "https://books.apple.com/it/artist/bianca-marconero/1055297983"
+      "authorUrl": "https://books.apple.com/it/artist/bianca-marconero/1055297983",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:21.652Z"
+    "fetchedAt": "2026-10-18T11:27:26.667Z"
   },
   "l eredita the legacy|elle kennedy": {
     "value": {
@@ -2037,9 +2357,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/d0/8e/d0/d08ed079-a6da-a336-bfe4-38c02e318372/9788822765901.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/leredit%C3%A0-the-legacy/id1623704397",
-      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "rating": 4,
+      "ratings": 233
     },
-    "fetchedAt": "2026-10-17T08:15:18.841Z"
+    "fetchedAt": "2026-10-18T11:28:27.304Z"
   },
   "l eremo dei folli|agnese messina": {
     "value": {
@@ -2049,9 +2371,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/33/79/d6/3379d669-d2ab-0178-bc53-b3dd47580a9d/9788811024378.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/leremo-dei-folli/id6785825568",
-      "authorUrl": "https://books.apple.com/it/artist/agnese-messina/1708919569"
+      "authorUrl": "https://books.apple.com/it/artist/agnese-messina/1708919569",
+      "rating": 4,
+      "ratings": 38
     },
-    "fetchedAt": "2026-10-17T08:15:21.885Z"
+    "fetchedAt": "2026-10-18T11:27:27.206Z"
   },
   "l imprevisto|elle kennedy": {
     "value": {
@@ -2061,9 +2385,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/4c/6c/00/4c6c003b-af48-48b7-0838-257a56e2091f/9788822708694.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/limprevisto/id1235308099",
-      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "rating": 4,
+      "ratings": 301
     },
-    "fetchedAt": "2026-10-17T08:15:12.864Z"
+    "fetchedAt": "2026-10-18T11:28:27.271Z"
   },
   "l impronta del lupo|jo nesb": {
     "value": {
@@ -2073,9 +2399,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/ed/5e/a0/ed5ea0b2-44ad-f02c-ebff-7e36b74c62d6/9788858450253.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/limpronta-del-lupo/id6756642800",
-      "authorUrl": "https://books.apple.com/it/artist/jo-nesb%C3%B8/30689916"
+      "authorUrl": "https://books.apple.com/it/artist/jo-nesb%C3%B8/30689916",
+      "rating": 4,
+      "ratings": 42
     },
-    "fetchedAt": "2026-10-17T08:15:06.788Z"
+    "fetchedAt": "2026-10-18T11:27:50.985Z"
   },
   "l inganno francese|john grisham": {
     "value": {
@@ -2085,9 +2413,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/2e/1c/a3/2e1ca3a6-48ae-ded0-4f77-1d024e6d99dc/9788835753452.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/linganno-francese/id6810071857",
-      "authorUrl": "https://books.apple.com/it/artist/john-grisham/2023891"
+      "authorUrl": "https://books.apple.com/it/artist/john-grisham/2023891",
+      "rating": 4,
+      "ratings": 21
     },
-    "fetchedAt": "2026-10-17T08:14:24.780Z"
+    "fetchedAt": "2026-10-18T11:27:26.681Z"
   },
   "l isola delle anime|piergiorgio pulixi": {
     "value": {
@@ -2109,9 +2439,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/1d/92/e7/1d92e7aa-33b2-7ee3-871f-933769e08941/9788834624258.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-bambina-del-miracolo/id6793458017",
-      "authorUrl": "https://books.apple.com/it/artist/myrta-merlino/525209240"
+      "authorUrl": "https://books.apple.com/it/artist/myrta-merlino/525209240",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:45:05.051Z"
+    "fetchedAt": "2026-10-18T11:28:03.240Z"
   },
   "la cura|concita de gregorio": {
     "value": {
@@ -2121,9 +2453,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cb/ee/e6/cbeee678-c636-5a97-fba5-73e69b68f42d/9788858451113.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-cura/id6761806700",
-      "authorUrl": "https://books.apple.com/it/artist/concita-de-gregorio/467576452"
+      "authorUrl": "https://books.apple.com/it/artist/concita-de-gregorio/467576452",
+      "rating": 4.5,
+      "ratings": 13
     },
-    "fetchedAt": "2026-10-17T08:16:46.055Z"
+    "fetchedAt": "2026-10-18T11:28:27.184Z"
   },
   "la fattoria degli animali|george orwell": {
     "value": {
@@ -2133,9 +2467,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/ab/7f/c3/ab7fc342-db7f-ebb4-65d2-9cba046659d0/4a377e78-a80e-4060-b34d-e4f1f777254f_cover_image.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-fattoria-degli-animali/id6444840763",
-      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114"
+      "authorUrl": "https://books.apple.com/it/artist/george-orwell/2632114",
+      "rating": 4.5,
+      "ratings": 266
     },
-    "fetchedAt": "2026-10-17T08:14:51.819Z"
+    "fetchedAt": "2026-10-18T11:27:45.064Z"
   },
   "la libreria dei gatti neri|piergiorgio pulixi": {
     "value": {
@@ -2145,9 +2481,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/31/11/38/311138fb-7d9e-a174-7a6e-ffce3e7e429c/9788829718498.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-libreria-dei-gatti-neri/id6445154225",
-      "authorUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522"
+      "authorUrl": "https://books.apple.com/it/artist/piergiorgio-pulixi/539503522",
+      "rating": 4,
+      "ratings": 223
     },
-    "fetchedAt": "2026-10-18T04:44:29.143Z"
+    "fetchedAt": "2026-10-18T11:27:27.202Z"
   },
   "la lunga estate dei gelsomini|licia tumminello": {
     "value": {
@@ -2157,9 +2495,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/a7/66/3c/a7663c93-9d9c-21ec-ef2a-ea463afeade9/9788842938958.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-lunga-estate-dei-gelsomini/id6789525379",
-      "authorUrl": "https://books.apple.com/it/artist/licia-tumminello/1716630036"
+      "authorUrl": "https://books.apple.com/it/artist/licia-tumminello/1716630036",
+      "rating": 4,
+      "ratings": 5
     },
-    "fetchedAt": "2026-10-17T08:15:42.899Z"
+    "fetchedAt": "2026-10-18T11:27:32.954Z"
   },
   "la mano di orfeo|alan friedman": {
     "value": {
@@ -2169,9 +2509,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/94/a6/dc/94a6dc5b-178c-7c82-50da-45715e091be3/9791254948064.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-mano-di-orfeo/id6793850520",
-      "authorUrl": "https://books.apple.com/it/artist/alan-friedman/14471286"
+      "authorUrl": "https://books.apple.com/it/artist/alan-friedman/14471286",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:16:10.018Z"
+    "fetchedAt": "2026-10-18T11:28:27.214Z"
   },
   "la metamorfosi|franz kafka": {
     "value": {
@@ -2181,9 +2523,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/29/80/cf/2980cf38-8c76-48d8-4a67-196e8515dcb6/6d5eeae9-12c7-4ab0-aad1-42abc3e33adc_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-metamorfosi/id6775898631",
-      "authorUrl": "https://books.apple.com/it/artist/franz-kafka/17268605"
+      "authorUrl": "https://books.apple.com/it/artist/franz-kafka/17268605",
+      "rating": 4,
+      "ratings": 92
     },
-    "fetchedAt": "2026-10-17T08:17:13.254Z"
+    "fetchedAt": "2026-10-18T11:28:27.242Z"
   },
   "la porta dei destini|glenn cooper": {
     "value": {
@@ -2193,9 +2537,11 @@
       "genre": "Gialli storici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/db/2c/e0/db2ce069-ca7e-9398-11b8-551752c23c28/9788842939061.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-porta-dei-destini/id6814539740",
-      "authorUrl": "https://books.apple.com/it/artist/glenn-cooper/347574596"
+      "authorUrl": "https://books.apple.com/it/artist/glenn-cooper/347574596",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:33.675Z"
+    "fetchedAt": "2026-10-18T11:27:26.637Z"
   },
   "la portalettere|francesca giannone": {
     "value": {
@@ -2205,9 +2551,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/91/99/c1/9199c168-4364-bebe-5f36-5d6581fbe582/9788842935421.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-portalettere/id6444455590",
-      "authorUrl": "https://books.apple.com/it/artist/francesca-giannone/1459700892"
+      "authorUrl": "https://books.apple.com/it/artist/francesca-giannone/1459700892",
+      "rating": 4.5,
+      "ratings": 617
     },
-    "fetchedAt": "2026-10-18T04:45:17.058Z"
+    "fetchedAt": "2026-10-18T11:28:15.091Z"
   },
   "la ragazza dei colori|cristina caboni": {
     "value": {
@@ -2217,9 +2565,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/8e/7c/ea/8e7cea25-600e-d404-6caa-d221ee2ba31b/9788811003915.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-ragazza-dei-colori/id1584827553",
-      "authorUrl": "https://books.apple.com/it/artist/cristina-caboni/865388410"
+      "authorUrl": "https://books.apple.com/it/artist/cristina-caboni/865388410",
+      "rating": 4.5,
+      "ratings": 21
     },
-    "fetchedAt": "2026-10-17T08:46:07.350Z"
+    "fetchedAt": "2026-10-18T11:28:21.112Z"
   },
   "la ragazza del kyushu|seicho matsumoto": {
     "value": {
@@ -2253,9 +2603,11 @@
       "genre": "Donne detective",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/1e/a4/de/1ea4de1d-060d-9382-0f7a-72e5183c9cc3/9788838950360.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-scala-di-seta/id6807753739",
-      "authorUrl": "https://books.apple.com/it/artist/marco-malvaldi-samantha-bruzzone/439657231"
+      "authorUrl": "https://books.apple.com/it/artist/marco-malvaldi-samantha-bruzzone/439657231",
+      "rating": 3.5,
+      "ratings": 22
     },
-    "fetchedAt": "2026-10-18T04:45:26.036Z"
+    "fetchedAt": "2026-10-18T11:28:24.024Z"
   },
   "la scomparsa di mercy|david baldacci": {
     "value": {
@@ -2265,9 +2617,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/2c/7d/d6/2c7dd6f9-8f66-f632-153c-6e0985842929/9788866887058.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-scomparsa-di-mercy/id6754037808",
-      "authorUrl": "https://books.apple.com/it/artist/david-baldacci/2091351"
+      "authorUrl": "https://books.apple.com/it/artist/david-baldacci/2091351",
+      "rating": 4,
+      "ratings": 15
     },
-    "fetchedAt": "2026-10-17T08:16:31.263Z"
+    "fetchedAt": "2026-10-18T11:28:27.313Z"
   },
   "la settima luna|piergiorgio pulixi": {
     "value": {
@@ -2289,9 +2643,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/45/5b/9a/455b9a03-e915-0134-c16b-ef0fbd56d7af/9788866887478.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-sosia/id6815640126",
-      "authorUrl": "https://books.apple.com/it/artist/dean-koontz/2086953"
+      "authorUrl": "https://books.apple.com/it/artist/dean-koontz/2086953",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:45:14.054Z"
+    "fetchedAt": "2026-10-18T11:28:12.087Z"
   },
   "le ali in una stanza|milena palminteri": {
     "value": {
@@ -2301,9 +2657,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/58/fd/30/58fd30cc-9a3c-1daa-34a4-eaa68352dbea/1067764306.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-ali-in-una-stanza/id6798210073",
-      "authorUrl": "https://books.apple.com/it/artist/milena-palminteri/1751253573"
+      "authorUrl": "https://books.apple.com/it/artist/milena-palminteri/1751253573",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:16:52.080Z"
+    "fetchedAt": "2026-10-18T11:28:27.197Z"
   },
   "le cose che non diciamo|elizabeth strout": {
     "value": {
@@ -2313,9 +2671,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/3a/a4/00/3aa4000c-afb4-63a2-3615-4a0a596882d6/9788858452394.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-cose-che-non-diciamo/id6810522815",
-      "authorUrl": "https://books.apple.com/it/artist/elizabeth-strout/160620087"
+      "authorUrl": "https://books.apple.com/it/artist/elizabeth-strout/160620087",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:44:50.060Z"
+    "fetchedAt": "2026-10-18T11:27:47.931Z"
   },
   "le notti bianche|fedor dostoevskij": {
     "value": {
@@ -2325,9 +2685,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/67/40/b5/6740b5d4-c7e0-1562-1847-bb232a3f2b64/9788874173839.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-notti-bianche/id883461199",
-      "authorUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629"
+      "authorUrl": "https://books.apple.com/it/artist/f%C3%ABdor-dostoevskij/49949629",
+      "rating": 4,
+      "ratings": 508
     },
-    "fetchedAt": "2026-10-17T08:14:15.626Z"
+    "fetchedAt": "2026-10-18T11:27:26.661Z"
   },
   "le terme dell indirizzo|cristina cassar scalia": {
     "value": {
@@ -2337,9 +2699,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/80/73/4e/80734e0c-00e0-fb63-4f02-5082a92b2611/9788858451434.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-terme-dellindirizzo/id6762724257",
-      "authorUrl": "https://books.apple.com/it/artist/cristina-cassar-scalia/883058087"
+      "authorUrl": "https://books.apple.com/it/artist/cristina-cassar-scalia/883058087",
+      "rating": 4,
+      "ratings": 163
     },
-    "fetchedAt": "2026-10-18T04:45:29.053Z"
+    "fetchedAt": "2026-10-18T11:28:27.177Z"
   },
   "lev tolstoj|anna karenina": {
     "value": {
@@ -2349,9 +2713,11 @@
       "genre": "Romanzi rosa storici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication2/v4/da/eb/11/daeb1105-5326-f6fb-d021-c1e305f247de/9788866611400.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/anna-karenina/id616340667",
-      "authorUrl": "https://books.apple.com/it/artist/lev-tolst%C3%B2j/400220101"
+      "authorUrl": "https://books.apple.com/it/artist/lev-tolst%C3%B2j/400220101",
+      "rating": 4.5,
+      "ratings": 14
     },
-    "fetchedAt": "2026-10-17T08:23:11.887Z"
+    "fetchedAt": "2026-10-18T11:28:27.489Z"
   },
   "lev tolstoj|guerra e pace": {
     "value": {
@@ -2361,9 +2727,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/6a/c6/a9/6ac6a97a-3c1c-fdc0-c2c2-574ae52695e0/9788858430019.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/guerra-e-pace/id1445112089",
-      "authorUrl": "https://books.apple.com/it/artist/lev-tolstoj/554427788"
+      "authorUrl": "https://books.apple.com/it/artist/lev-tolstoj/554427788",
+      "rating": 4.5,
+      "ratings": 23
     },
-    "fetchedAt": "2026-10-17T08:22:53.615Z"
+    "fetchedAt": "2026-10-18T11:28:27.471Z"
   },
   "lewis carroll|alice nel paese delle meraviglie": {
     "value": {
@@ -2373,9 +2741,11 @@
       "genre": "Young adult: narrativa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/09/79/53/09795383-db2d-0a1a-fe90-d6ac29ca8242/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/alice-nel-paese-delle-meraviglie/id400878730",
-      "authorUrl": "https://books.apple.com/it/artist/lewis-carroll/2683818"
+      "authorUrl": "https://books.apple.com/it/artist/lewis-carroll/2683818",
+      "rating": 3.5,
+      "ratings": 48
     },
-    "fetchedAt": "2026-10-17T08:23:05.793Z"
+    "fetchedAt": "2026-10-18T11:28:27.483Z"
   },
   "liberi tutti|chiara gamberale": {
     "value": {
@@ -2385,9 +2755,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/d7/c3/0d/d7c30dd0-3fe5-552a-b499-37f43fae4942/9788858866603.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/liberi-tutti/id6783320749",
-      "authorUrl": "https://books.apple.com/it/artist/chiara-gamberale/467687507"
+      "authorUrl": "https://books.apple.com/it/artist/chiara-gamberale/467687507",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:28.230Z"
+    "fetchedAt": "2026-10-18T11:28:27.348Z"
   },
   "lo sbaglio the mistake|elle kennedy": {
     "value": {
@@ -2397,9 +2769,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/a4/9b/5d/a49b5ddd-bff2-6c97-7c2b-57812b9784b0/9788822705150.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-sbaglio-the-mistake/id1198809425",
-      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356"
+      "authorUrl": "https://books.apple.com/it/artist/elle-kennedy/380128356",
+      "rating": 4.5,
+      "ratings": 654
     },
-    "fetchedAt": "2026-10-17T08:14:54.725Z"
+    "fetchedAt": "2026-10-18T11:28:27.265Z"
   },
   "lo studente di legge|john grisham": {
     "value": {
@@ -2409,9 +2783,11 @@
       "genre": "Procedure poliziesche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/4d/2c/1a/4d2c1ae4-cc25-e5f1-4663-24b2bf6b3220/9788835753766.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-studente-di-legge/id6812654022",
-      "authorUrl": "https://books.apple.com/it/artist/john-grisham/2023891"
+      "authorUrl": "https://books.apple.com/it/artist/john-grisham/2023891",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:16:58.178Z"
+    "fetchedAt": "2026-10-18T11:28:27.249Z"
   },
   "louis aragon|aurelien": {
     "value": {
@@ -2421,9 +2797,11 @@
       "genre": "Romanzi rosa storici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/9e/73/69/9e73693c-e7e1-384a-b0fb-5a1f3eb2c8e5/9782072442797.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/aur%C3%A9lien/id975474570",
-      "authorUrl": "https://books.apple.com/it/artist/louis-aragon/27277042"
+      "authorUrl": "https://books.apple.com/it/artist/louis-aragon/27277042",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:52.636Z"
+    "fetchedAt": "2026-10-18T11:28:27.722Z"
   },
   "louis de bernieres|il mandolino del capitano corelli": {
     "value": {
@@ -2438,9 +2816,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/6480627-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL7920331W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:23:37.773Z"
+    "fetchedAt": "2026-10-18T11:28:27.515Z"
   },
   "louis ferdinand celine|viaggio al termine della notte": {
     "value": {
@@ -2450,9 +2830,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/6b/83/71/6b837106-d7ab-ce4a-100e-ed4b290e66a3/9788863802757.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/viaggio-al-termine-della-notte/id510301494",
-      "authorUrl": "https://books.apple.com/it/artist/louis-ferdinand-c%C3%A9line/325617673"
+      "authorUrl": "https://books.apple.com/it/artist/louis-ferdinand-c%C3%A9line/325617673",
+      "rating": 4,
+      "ratings": 56
     },
-    "fetchedAt": "2026-10-17T08:27:24.711Z"
+    "fetchedAt": "2026-10-18T11:28:27.670Z"
   },
   "louisa may alcott|piccole donne": {
     "value": {
@@ -2462,9 +2844,11 @@
       "genre": "Infanzia: narrativa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/26/1d/87/261d87a9-95e1-7beb-4269-6e8447f4c19d/9788841869741.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/piccole-donne/id493278388",
-      "authorUrl": "https://books.apple.com/it/artist/louisa-may-alcott/2683489"
+      "authorUrl": "https://books.apple.com/it/artist/louisa-may-alcott/2683489",
+      "rating": 4,
+      "ratings": 19
     },
-    "fetchedAt": "2026-10-17T08:22:12.649Z"
+    "fetchedAt": "2026-10-18T11:28:27.401Z"
   },
   "luigi pirandello|il fu mattia pascal": {
     "value": {
@@ -2474,9 +2858,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication124/v4/ed/73/ea/ed73ea96-2116-62f2-77a1-2077186637b5/PD_Il_fu_mattia_pascal-Adj.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-fu-mattia-pascal/id1521732429",
-      "authorUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142"
+      "authorUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142",
+      "rating": 4,
+      "ratings": 952
     },
-    "fetchedAt": "2026-10-17T08:24:26.603Z"
+    "fetchedAt": "2026-10-18T11:28:27.544Z"
   },
   "luigi pirandello|sei personaggi in cerca d autore": {
     "value": {
@@ -2486,9 +2872,11 @@
       "genre": "Arte e intrattenimento",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication7/v4/c3/31/31/c331318a-03cf-04e8-97d5-a97fada3223b/coverArt.8b7fb1.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sei-personaggi-in-cerca-dautore/id492181687",
-      "authorUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142"
+      "authorUrl": "https://books.apple.com/it/artist/luigi-pirandello/281177142",
+      "rating": 4,
+      "ratings": 615
     },
-    "fetchedAt": "2026-10-17T08:29:58.737Z"
+    "fetchedAt": "2026-10-18T11:28:27.723Z"
   },
   "malcolm lowry|sotto il vulcano": {
     "value": {
@@ -2498,9 +2886,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/05/81/ea/0581eac1-ca91-a61a-dc34-3671aca72c5c/9788858838563.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sotto-il-vulcano/id1495093905",
-      "authorUrl": "https://books.apple.com/it/artist/malcolm-lowry/312440554"
+      "authorUrl": "https://books.apple.com/it/artist/malcolm-lowry/312440554",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:33:12.721Z"
+    "fetchedAt": "2026-10-18T11:28:27.789Z"
   },
   "marcel proust|alla ricerca del tempo perduto": {
     "value": {
@@ -2510,9 +2900,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/73/95/2b/mzi.jeofntez.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/alla-ricerca-del-tempo-perduto/id453438287",
-      "authorUrl": "https://books.apple.com/it/artist/marcel-proust/49943975"
+      "authorUrl": "https://books.apple.com/it/artist/marcel-proust/49943975",
+      "rating": 4,
+      "ratings": 102
     },
-    "fetchedAt": "2026-10-17T08:27:18.691Z"
+    "fetchedAt": "2026-10-18T11:28:27.667Z"
   },
   "margaret mitchell|via col vento": {
     "value": {
@@ -2522,9 +2914,11 @@
       "genre": "Narrativa e letteratura per famiglie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication71/v4/41/ba/1c/41ba1c92-f0bc-98f4-bd1b-2c4f54885133/9788852047572.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/via-col-vento/id963027937",
-      "authorUrl": "https://books.apple.com/it/artist/margaret-mitchell/191897731"
+      "authorUrl": "https://books.apple.com/it/artist/margaret-mitchell/191897731",
+      "rating": 5,
+      "ratings": 22
     },
-    "fetchedAt": "2026-10-17T08:22:46.085Z"
+    "fetchedAt": "2026-10-18T11:28:27.463Z"
   },
   "marguerite duras|il rapimento di lol v stein": {
     "value": {
@@ -2534,9 +2928,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/58/07/02/580702c4-3417-4353-4af9-eb89890beb85/9788858846872.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-rapimento-di-lol-v-stein/id1606198815",
-      "authorUrl": "https://books.apple.com/it/artist/marguerite-duras/160059329"
+      "authorUrl": "https://books.apple.com/it/artist/marguerite-duras/160059329",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:47.783Z"
+    "fetchedAt": "2026-10-18T11:28:27.749Z"
   },
   "marguerite yourcenar|l opera al nero": {
     "value": {
@@ -2546,9 +2942,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/a5/01/f6/a501f6ad-80cf-3d32-14dd-24233112c98c/9788858823651.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lopera-al-nero/id1041667884",
-      "authorUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179"
+      "authorUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:22.823Z"
+    "fetchedAt": "2026-10-18T11:28:27.694Z"
   },
   "marguerite yourcenar|memorie di adriano": {
     "value": {
@@ -2558,9 +2956,11 @@
       "genre": "Storia dell’antichità",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/e6/aa/8d/e6aa8d41-400c-0f16-93fa-ceb9d7ec56ea/9788858437872.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/memorie-di-adriano/id1588025071",
-      "authorUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179"
+      "authorUrl": "https://books.apple.com/it/artist/marguerite-yourcenar/133987179",
+      "rating": 4,
+      "ratings": 21
     },
-    "fetchedAt": "2026-10-17T08:24:20.537Z"
+    "fetchedAt": "2026-10-18T11:28:27.540Z"
   },
   "mark haddon|lo strano caso del cane ucciso a mezzanotte": {
     "value": {
@@ -2570,9 +2970,11 @@
       "genre": "Narrativa e letteratura per famiglie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication1/v4/4a/b1/b8/4ab1b8fb-51e2-48e6-6fd8-26edec1f19f7/9788858409268.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-strano-caso-del-cane-ucciso-a-mezzanotte/id655968128",
-      "authorUrl": "https://books.apple.com/it/artist/mark-haddon/14898312"
+      "authorUrl": "https://books.apple.com/it/artist/mark-haddon/14898312",
+      "rating": 4,
+      "ratings": 172
     },
-    "fetchedAt": "2026-10-17T08:25:00.523Z"
+    "fetchedAt": "2026-10-18T11:28:27.582Z"
   },
   "mezzanotte di morte|james patterson": {
     "value": {
@@ -2594,9 +2996,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/74/dc/fd/74dcfd2a-7187-2b7c-c583-b93f64a90565/front_cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-maestro-e-margherita/id838159146",
-      "authorUrl": "https://books.apple.com/it/artist/michail-bulgakov/508554498"
+      "authorUrl": "https://books.apple.com/it/artist/michail-bulgakov/508554498",
+      "rating": 4.5,
+      "ratings": 70
     },
-    "fetchedAt": "2026-10-17T08:32:35.610Z"
+    "fetchedAt": "2026-10-18T11:28:27.783Z"
   },
   "michel butor|la modificazione": {
     "value": {
@@ -2606,9 +3010,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication69/v4/93/f1/21/93f12148-2f54-1c6b-4f0b-94c09c85e213/9782707331588.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-modification/id1072093250",
-      "authorUrl": "https://books.apple.com/it/artist/michel-butor/382129586"
+      "authorUrl": "https://books.apple.com/it/artist/michel-butor/382129586",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:29.251Z"
+    "fetchedAt": "2026-10-18T11:28:27.781Z"
   },
   "michel foucault|le parole e le cose": {
     "value": {
@@ -2618,9 +3024,11 @@
       "genre": "Saggistica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication62/v4/12/7d/65/127d652e-bc5f-7bf0-ff64-45bfbdbf50f1/9788858676035.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-parole-e-le-cose/id1150362412",
-      "authorUrl": "https://books.apple.com/it/artist/michel-foucault/281206213"
+      "authorUrl": "https://books.apple.com/it/artist/michel-foucault/281206213",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:32.048Z"
+    "fetchedAt": "2026-10-18T11:28:27.745Z"
   },
   "michel tournier|venerdi o il limbo del pacifico": {
     "value": {
@@ -2630,9 +3038,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/f4/55/96/f4559608-04b5-0dac-0ceb-0cff7e95c32e/9782072533730.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/vendredi-ou-les-limbes-du-pacifique/id787303955",
-      "authorUrl": "https://books.apple.com/it/artist/michel-tournier/330715817"
+      "authorUrl": "https://books.apple.com/it/artist/michel-tournier/330715817",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:04.751Z"
+    "fetchedAt": "2026-10-18T11:28:27.731Z"
   },
   "miguel de cervantes|don chisciotte della mancia": {
     "value": {
@@ -2642,9 +3052,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication4/v4/9b/53/ec/9b53ecba-cf72-ee98-d148-850487da44f8/copertinaMiguel.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/don-chisciotte-della-mancia/id791978032",
-      "authorUrl": "https://books.apple.com/it/artist/miguel-de-cervantes-saavedra/166014900"
+      "authorUrl": "https://books.apple.com/it/artist/miguel-de-cervantes-saavedra/166014900",
+      "rating": 4,
+      "ratings": 100
     },
-    "fetchedAt": "2026-10-17T08:24:42.213Z"
+    "fetchedAt": "2026-10-18T11:28:27.557Z"
   },
   "milan kundera|l insostenibile leggerezza dell essere": {
     "value": {
@@ -2654,9 +3066,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/5b/f0/2a/5bf02a0f-cd39-5128-8572-b48b2bdc4679/9788845985461.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/linsostenibile-leggerezza-dellessere/id1623347250",
-      "authorUrl": "https://books.apple.com/it/artist/milan-kundera/17357146"
+      "authorUrl": "https://books.apple.com/it/artist/milan-kundera/17357146",
+      "rating": 4,
+      "ratings": 79
     },
-    "fetchedAt": "2026-10-17T08:23:08.719Z"
+    "fetchedAt": "2026-10-18T11:28:27.486Z"
   },
   "milan kundera|lo scherzo": {
     "value": {
@@ -2666,9 +3080,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication112/v4/c9/5c/8c/c95c8cb3-02f3-bc23-81b5-6bd9045e048f/9788845985492.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lo-scherzo/id1623447580",
-      "authorUrl": "https://books.apple.com/it/artist/milan-kundera/17357146"
+      "authorUrl": "https://books.apple.com/it/artist/milan-kundera/17357146",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:39.320Z"
+    "fetchedAt": "2026-10-18T11:28:27.717Z"
   },
   "mio marito per finta|l steele": {
     "value": {
@@ -2678,9 +3094,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/81/0c/d8/810cd87f-ac78-3aaa-bd7b-0705096bb594/9788892893788.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/mio-marito-per-finta/id6814797025",
-      "authorUrl": "https://books.apple.com/it/artist/l-steele/193503827"
+      "authorUrl": "https://books.apple.com/it/artist/l-steele/193503827",
+      "rating": 3,
+      "ratings": 12
     },
-    "fetchedAt": "2026-10-17T08:16:43.216Z"
+    "fetchedAt": "2026-10-18T11:27:26.653Z"
   },
   "mistero al circolo colonna|roberto costantini": {
     "value": {
@@ -2702,9 +3120,11 @@
       "genre": "Procedure poliziesche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/ee/c3/f8/eec3f841-9d7f-2971-2699-ec91fa09b9f1/9788830463196.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/morte-in-alabama/id6670204352",
-      "authorUrl": "https://books.apple.com/it/artist/james-patterson/2087446"
+      "authorUrl": "https://books.apple.com/it/artist/james-patterson/2087446",
+      "rating": 4,
+      "ratings": 42
     },
-    "fetchedAt": "2026-10-18T04:44:38.022Z"
+    "fetchedAt": "2026-10-18T11:27:36.024Z"
   },
   "natalia ginzburg|lessico famigliare": {
     "value": {
@@ -2714,9 +3134,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication42/v4/12/6b/be/126bbe16-429b-6816-af1c-e18f1ab97d03/mzm.kohvbiwc.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lessico-famigliare/id534865146",
-      "authorUrl": "https://books.apple.com/it/artist/natalia-ginzburg/329423655"
+      "authorUrl": "https://books.apple.com/it/artist/natalia-ginzburg/329423655",
+      "rating": 4,
+      "ratings": 36
     },
-    "fetchedAt": "2026-10-17T08:22:15.630Z"
+    "fetchedAt": "2026-10-18T11:28:27.414Z"
   },
   "nathalie sarraute|tropismi": {
     "value": {
@@ -2726,9 +3148,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/10302631-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL19669613W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:15.730Z"
+    "fetchedAt": "2026-10-18T11:28:27.751Z"
   },
   "ocean inside me il buio dentro|cheryl": {
     "value": {
@@ -2738,9 +3162,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f7/c6/e2/f7c6e28d-687a-e6d2-5b58-c36059d9fa94/9788822799562.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/ocean-inside-me-il-buio-dentro/id6806431999",
-      "authorUrl": "https://books.apple.com/it/artist/cheryl/495863350"
+      "authorUrl": "https://books.apple.com/it/artist/cheryl/495863350",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:09.332Z"
+    "fetchedAt": "2026-10-18T11:28:00.040Z"
   },
   "omero|odissea": {
     "value": {
@@ -2750,9 +3176,11 @@
       "genre": "Dramma",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/87/65/07/87650789-6774-12aa-ac8d-b703bd009c62/9788831730983.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/odissea/id1185946145",
-      "authorUrl": "https://books.apple.com/it/artist/omero/28019262"
+      "authorUrl": "https://books.apple.com/it/artist/omero/28019262",
+      "rating": 4.5,
+      "ratings": 18
     },
-    "fetchedAt": "2026-10-17T08:23:05.409Z"
+    "fetchedAt": "2026-10-18T11:28:27.480Z"
   },
   "oriana fallaci|un uomo": {
     "value": {
@@ -2762,9 +3190,11 @@
       "genre": "Biografie e memorie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/3f/42/56/3f42569e-d69b-d282-7337-029bcabe39d2/9788858673966.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/un-uomo/id924486454",
-      "authorUrl": "https://books.apple.com/it/artist/oriana-fallaci/429882515"
+      "authorUrl": "https://books.apple.com/it/artist/oriana-fallaci/429882515",
+      "rating": 4.5,
+      "ratings": 47
     },
-    "fetchedAt": "2026-10-17T08:26:49.524Z"
+    "fetchedAt": "2026-10-18T11:28:27.655Z"
   },
   "oscar wilde|il ritratto di dorian gray": {
     "value": {
@@ -2774,9 +3204,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/4c/7d/a7/4c7da7a6-3b13-ab63-f67c-89fa1eba9211/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-ritratto-di-dorian-gray/id400881578",
-      "authorUrl": "https://books.apple.com/it/artist/oscar-wilde/2765844"
+      "authorUrl": "https://books.apple.com/it/artist/oscar-wilde/2765844",
+      "rating": 4.5,
+      "ratings": 246
     },
-    "fetchedAt": "2026-10-17T08:26:10.154Z"
+    "fetchedAt": "2026-10-18T11:28:27.635Z"
   },
   "paul claudel|le soulier de satin": {
     "value": {
@@ -2786,9 +3218,11 @@
       "genre": "Istruzione",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/b2/1c/d0/b21cd0fc-d6f0-d2d8-c6e0-0be691c33c59/9782080479815.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/le-soulier-de-satin/id6757488370",
-      "authorUrl": "https://books.apple.com/it/artist/paul-claudel/79688914"
+      "authorUrl": "https://books.apple.com/it/artist/paul-claudel/79688914",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:55.581Z"
+    "fetchedAt": "2026-10-18T11:28:27.722Z"
   },
   "paul eluard|capitale de la douleur": {
     "value": {
@@ -2798,9 +3232,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication116/v4/a2/ce/c8/a2cec837-5666-7b81-050d-b5eac1a73497/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/capitale-de-la-douleur/id6445627371",
-      "authorUrl": "https://books.apple.com/it/artist/paul-eluard/221440"
+      "authorUrl": "https://books.apple.com/it/artist/paul-eluard/221440",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:14.708Z"
+    "fetchedAt": "2026-10-18T11:28:27.736Z"
   },
   "personal edizione italiana|lee child": {
     "value": {
@@ -2810,9 +3246,11 @@
       "genre": "Azione e avventura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/10/4a/53/104a53aa-2633-afb7-03d9-cfcec62b378c/9788830446014.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/personal-edizione-italiana/id1085752732",
-      "authorUrl": "https://books.apple.com/it/artist/lee-child/17506452"
+      "authorUrl": "https://books.apple.com/it/artist/lee-child/17506452",
+      "rating": 3.5,
+      "ratings": 184
     },
-    "fetchedAt": "2026-10-18T04:45:23.060Z"
+    "fetchedAt": "2026-10-18T11:28:21.101Z"
   },
   "primo levi|se questo e un uomo": {
     "value": {
@@ -2822,9 +3260,11 @@
       "genre": "Biografie e memorie",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/f3/44/32/f34432b2-0632-9819-5ac8-d578e9af6248/9788858420430.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/se-questo-%C3%A8-un-uomo/id1043437386",
-      "authorUrl": "https://books.apple.com/it/artist/primo-levi/254119723"
+      "authorUrl": "https://books.apple.com/it/artist/primo-levi/254119723",
+      "rating": 4,
+      "ratings": 249
     },
-    "fetchedAt": "2026-10-17T08:21:54.487Z"
+    "fetchedAt": "2026-10-18T11:28:27.371Z"
   },
   "quando l italia rinacque il nostro rinascimento|aldo cazzullo": {
     "value": {
@@ -2834,9 +3274,11 @@
       "genre": "Critica letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/7d/ba/33/7dba3387-f1c3-b975-f807-fc9e80784e6d/9788830597358.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/quando-litalia-rinacque-il-nostro-rinascimento/id6766822747",
-      "authorUrl": "https://books.apple.com/it/artist/aldo-cazzullo/467367482"
+      "authorUrl": "https://books.apple.com/it/artist/aldo-cazzullo/467367482",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:17:34.312Z"
+    "fetchedAt": "2026-10-18T11:28:27.283Z"
   },
   "rainer maria rilke|i quaderni di malte laurids brigge": {
     "value": {
@@ -2846,9 +3288,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/8b/7e/7b/8b7e7bfa-a809-3b8b-c9f4-4a80aba93ac1/9788811139027.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-quaderni-di-malte-laurids-brigge/id719062278",
-      "authorUrl": "https://books.apple.com/it/artist/rainer-maria-rilke/13611875"
+      "authorUrl": "https://books.apple.com/it/artist/rainer-maria-rilke/13611875",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:26.165Z"
+    "fetchedAt": "2026-10-18T11:28:27.779Z"
   },
   "ray bradbury|cronache marziane": {
     "value": {
@@ -2858,9 +3302,11 @@
       "genre": "Fantascienza",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/62/62/4e/62624ef7-60d6-b711-c301-74ba8bbf2333/9788852074080.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/cronache-marziane-nuova-edizione/id1119067491",
-      "authorUrl": "https://books.apple.com/it/artist/ray-bradbury/2068890"
+      "authorUrl": "https://books.apple.com/it/artist/ray-bradbury/2068890",
+      "rating": 3.5,
+      "ratings": 7
     },
-    "fetchedAt": "2026-10-17T08:30:44.811Z"
+    "fetchedAt": "2026-10-18T11:28:27.748Z"
   },
   "raymond chandler|il grande sonno": {
     "value": {
@@ -2870,9 +3316,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6e/85/86/6e8586c6-c587-b15d-14a8-d9feaf945d5e/04fdd3ac-0c02-4d91-9cf1-c018bf20f577_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-grande-sonno/id6642646867",
-      "authorUrl": "https://books.apple.com/it/artist/raymond-chandler/46147351"
+      "authorUrl": "https://books.apple.com/it/artist/raymond-chandler/46147351",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:33:03.620Z"
+    "fetchedAt": "2026-10-18T11:28:27.785Z"
   },
   "raymond queneau|zazie nel metro": {
     "value": {
@@ -2887,9 +3335,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/4667336-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL1364490W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:13.106Z"
+    "fetchedAt": "2026-10-18T11:28:27.703Z"
   },
   "rene char|fureur et mystere": {
     "value": {
@@ -2899,9 +3349,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication117/v4/fa/ea/1e/faea1ea8-85f6-cd3c-1c16-217d9c4d08d4/9782072445620.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/fureur-et-myst%C3%A8re/id1252571730",
-      "authorUrl": "https://books.apple.com/it/artist/rene-char/42282427"
+      "authorUrl": "https://books.apple.com/it/artist/rene-char/42282427",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:17.046Z"
+    "fetchedAt": "2026-10-18T11:28:27.773Z"
   },
   "rene goscinny e albert uderzo|asterix il gallico": {
     "value": {
@@ -2911,9 +3363,11 @@
       "genre": "Narrativa a fumetti",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication6/v4/96/f7/d2/96f7d269-0dfb-eeb7-2fcc-0e0f8b16d848/9788891214775.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/asterix-il-gallico/id1041638125",
-      "authorUrl": "https://books.apple.com/it/artist/ren%C3%A9-goscinny-albert-uderzo/486049165"
+      "authorUrl": "https://books.apple.com/it/artist/ren%C3%A9-goscinny-albert-uderzo/486049165",
+      "rating": 3.5,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:28:11.271Z"
+    "fetchedAt": "2026-10-18T11:28:27.689Z"
   },
   "roald dahl|la fabbrica di cioccolato": {
     "value": {
@@ -2923,9 +3377,11 @@
       "genre": "Narrativa a fumetti",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication128/v4/01/74/29/0174293b-d6e8-85e9-6c8f-a76c4d727c7c/9788867151882.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-fabbrica-di-cioccolato/id579299269",
-      "authorUrl": "https://books.apple.com/it/artist/roald-dahl/5367371"
+      "authorUrl": "https://books.apple.com/it/artist/roald-dahl/5367371",
+      "rating": 4,
+      "ratings": 103
     },
-    "fetchedAt": "2026-10-17T08:27:09.467Z"
+    "fetchedAt": "2026-10-18T11:28:27.663Z"
   },
   "robert musil|l uomo senza qualita": {
     "value": {
@@ -2940,9 +3396,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication49/v4/b2/ee/53/b2ee53f0-5d2b-a10a-5874-5454ab43347d/EC418_-_l_uomo_senza_qualita_-_robert_musil.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/luomo-senza-qualit%C3%A0/id589453440",
-      "authorUrl": "https://books.apple.com/it/artist/robert-musil/262116692"
+      "authorUrl": "https://books.apple.com/it/artist/robert-musil/262116692",
+      "rating": 4,
+      "ratings": 6
     },
-    "fetchedAt": "2026-10-17T08:46:17.903Z"
+    "fetchedAt": "2026-10-18T11:28:27.772Z"
   },
   "rohinton mistry|a fine balance": {
     "value": {
@@ -2952,9 +3410,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/7c/50/ff/7c50ff74-47b1-9eb3-d4fe-db0e14c0de5a/1040017095.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/a-fine-balance/id443730280",
-      "authorUrl": "https://books.apple.com/it/artist/rohinton-mistry/2063759"
+      "authorUrl": "https://books.apple.com/it/artist/rohinton-mistry/2063759",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:26:22.766Z"
+    "fetchedAt": "2026-10-18T11:28:27.640Z"
   },
   "roland barthes|il grado zero della scrittura": {
     "value": {
@@ -2969,9 +3429,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/6577057-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL15156891W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:24.145Z"
+    "fetchedAt": "2026-10-18T11:28:27.740Z"
   },
   "saint john perse|amers": {
     "value": {
@@ -2981,9 +3443,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/966325-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL8386425W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:18.984Z"
+    "fetchedAt": "2026-10-18T11:28:27.787Z"
   },
   "salman rushdie|i figli della mezzanotte": {
     "value": {
@@ -2993,9 +3457,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/1c/cc/cf/1ccccf69-25fb-3190-37ce-194052c3c7be/9788852036682.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-figli-della-mezzanotte/id635862836",
-      "authorUrl": "https://books.apple.com/it/artist/salman-rushdie/30925951"
+      "authorUrl": "https://books.apple.com/it/artist/salman-rushdie/30925951",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:30.890Z"
+    "fetchedAt": "2026-10-18T11:28:27.614Z"
   },
   "samuel beckett|aspettando godot": {
     "value": {
@@ -3005,9 +3471,11 @@
       "genre": "Professionali e tecnici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/d2/ec/d8/d2ecd8d7-35d1-4d79-bf1b-9bf951f61c15/9782759308859.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/scheda-libro-aspettando-godot-analisi-letteraria-di/id1533261465",
-      "authorUrl": "https://books.apple.com/it/artist/samuel-beckett/44693294"
+      "authorUrl": "https://books.apple.com/it/artist/samuel-beckett/44693294",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:43.301Z"
+    "fetchedAt": "2026-10-18T11:28:27.680Z"
   },
   "santa barbara|nicola lagioia": {
     "value": {
@@ -3017,9 +3485,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/25/d2/07/25d207ae-dd29-0510-707a-160e27ce288a/9788858452202.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/santa-barbara/id6809679149",
-      "authorUrl": "https://books.apple.com/it/artist/nicola-lagioia/468039735"
+      "authorUrl": "https://books.apple.com/it/artist/nicola-lagioia/468039735",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:15:24.910Z"
+    "fetchedAt": "2026-10-18T11:28:27.235Z"
   },
   "selma lagerlof|il viaggio meraviglioso di nils holgersson": {
     "value": {
@@ -3029,9 +3499,11 @@
       "genre": "Young adult: narrativa di azione e avventura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/e0/74/0b/e0740b01-22fd-c874-0b19-3d1e41a130ff/9788870912470.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-meraviglioso-viaggio-di-nils-holgersson/id1324134952",
-      "authorUrl": "https://books.apple.com/it/artist/selma-lagerl%C3%B6f/276089341"
+      "authorUrl": "https://books.apple.com/it/artist/selma-lagerl%C3%B6f/276089341",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:30:35.155Z"
+    "fetchedAt": "2026-10-18T11:28:27.746Z"
   },
   "sigmund freud|tre saggi sulla teoria sessuale": {
     "value": {
@@ -3041,9 +3513,11 @@
       "genre": "Salute, mente e corpo",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/5f/bb/1d/5fbb1d79-b936-0228-bbb2-d58cc69ceee8/front_cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/tre-saggi-sulla-teoria-sessuale/id458357374",
-      "authorUrl": "https://books.apple.com/it/artist/sigmund-freud/122049187"
+      "authorUrl": "https://books.apple.com/it/artist/sigmund-freud/122049187",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:28:19.097Z"
+    "fetchedAt": "2026-10-18T11:28:27.692Z"
   },
   "simone de beauvoir|il secondo sesso": {
     "value": {
@@ -3053,9 +3527,11 @@
       "genre": "Saggistica",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication118/v4/fd/98/78/fd9878b8-ccf6-0168-8275-55950f944930/9788865763261.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-secondo-sesso/id797655488",
-      "authorUrl": "https://books.apple.com/it/artist/simone-de-beauvoir/464552242"
+      "authorUrl": "https://books.apple.com/it/artist/simone-de-beauvoir/464552242",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:27:40.243Z"
+    "fetchedAt": "2026-10-18T11:28:27.679Z"
   },
   "sotto il cielo infernale|alicia gimenez bartlett": {
     "value": {
@@ -3065,9 +3541,11 @@
       "genre": "Procedure poliziesche",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6b/1e/06/6b1e06fa-0213-b9e2-6d7f-19ac82dd3fc8/9788838950339.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sotto-il-cielo-infernale/id6820901051",
-      "authorUrl": "https://books.apple.com/it/artist/alicia-gim%C3%A9nez-bartlett/538558074"
+      "authorUrl": "https://books.apple.com/it/artist/alicia-gim%C3%A9nez-bartlett/538558074",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:06.381Z"
+    "fetchedAt": "2026-10-18T11:27:57.000Z"
   },
   "stefan zweig|sovvertimento dei sensi": {
     "value": {
@@ -3077,9 +3555,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication114/v4/03/84/58/03845813-91e3-2be5-6125-4023d614ce86/9788811142300.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/sovvertimento-dei-sensi/id951817996",
-      "authorUrl": "https://books.apple.com/it/artist/stefan-zweig/17465679"
+      "authorUrl": "https://books.apple.com/it/artist/stefan-zweig/17465679",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:13.641Z"
+    "fetchedAt": "2026-10-18T11:28:27.704Z"
   },
   "stendhal|il rosso e il nero": {
     "value": {
@@ -3094,9 +3574,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/25/36/22/2536225d-8374-3038-5d77-5b775e21570e/9788852016882.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-rosso-e-il-nero/id467675387",
-      "authorUrl": "https://books.apple.com/it/artist/stendhal/83837698"
+      "authorUrl": "https://books.apple.com/it/artist/stendhal/83837698",
+      "rating": 4,
+      "ratings": 25
     },
-    "fetchedAt": "2026-10-17T08:46:12.262Z"
+    "fetchedAt": "2026-10-18T11:28:27.645Z"
   },
   "the love hypothesis|ali hazelwood": {
     "value": {
@@ -3106,9 +3588,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication122/v4/27/ab/59/27ab592f-0170-e8ab-bb7f-c34e6d116285/9788892743007.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/the-love-hypothesis/id6442894680",
-      "authorUrl": "https://books.apple.com/it/artist/ali-hazelwood/1549344169"
+      "authorUrl": "https://books.apple.com/it/artist/ali-hazelwood/1549344169",
+      "rating": 4.5,
+      "ratings": 292
     },
-    "fetchedAt": "2026-10-18T04:44:35.025Z"
+    "fetchedAt": "2026-10-18T11:27:32.942Z"
   },
   "the make out artist|sara ney": {
     "value": {
@@ -3118,9 +3602,11 @@
       "genre": "Young adult: romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/cc/8d/21/cc8d2167-3c77-a7bf-9845-045438f72c49/9788855318372.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/the-make-out-artist/id6756885126",
-      "authorUrl": "https://books.apple.com/it/artist/sara-ney/1070219805"
+      "authorUrl": "https://books.apple.com/it/artist/sara-ney/1070219805",
+      "rating": 4.5,
+      "ratings": 6
     },
-    "fetchedAt": "2026-10-18T04:44:32.019Z"
+    "fetchedAt": "2026-10-18T11:27:29.933Z"
   },
   "the striker|ana huang": {
     "value": {
@@ -3130,9 +3616,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/e4/52/fd/e452fd0b-4010-694d-5366-b79fe467f7bb/9788835751489.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/the-striker/id6769268197",
-      "authorUrl": "https://books.apple.com/it/artist/ana-huang/1001710589"
+      "authorUrl": "https://books.apple.com/it/artist/ana-huang/1001710589",
+      "rating": 4.5,
+      "ratings": 9
     },
-    "fetchedAt": "2026-10-17T08:15:09.773Z"
+    "fetchedAt": "2026-10-18T11:27:26.685Z"
   },
   "thomas mann|i buddenbrook": {
     "value": {
@@ -3142,9 +3630,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/6f/f1/28/6ff12895-c11d-148e-37b2-d5e8f082ff36/cover.png/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-buddenbrook/id6560117304",
-      "authorUrl": "https://books.apple.com/it/artist/thomas-mann/17357088"
+      "authorUrl": "https://books.apple.com/it/artist/thomas-mann/17357088",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:52.002Z"
+    "fetchedAt": "2026-10-18T11:28:27.628Z"
   },
   "thomas mann|la montagna incantata": {
     "value": {
@@ -3159,9 +3649,11 @@
       "genre": "Narrativa letteraria",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/0b/5b/b1/0b5bb1fd-a259-f777-3b06-bb7c455e385b/9788863801583.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-montagna-incantata/id510127229",
-      "authorUrl": "https://books.apple.com/it/artist/thomas-mann/17357088"
+      "authorUrl": "https://books.apple.com/it/artist/thomas-mann/17357088",
+      "rating": 4,
+      "ratings": 46
     },
-    "fetchedAt": "2026-10-17T08:46:13.312Z"
+    "fetchedAt": "2026-10-18T11:28:27.706Z"
   },
   "threshing day|rebecca yarros": {
     "value": {
@@ -3171,9 +3663,11 @@
       "genre": "Fantasy epico",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/74/19/58/74195861-3a5a-1b8f-7be7-4477e581235f/9791257990398.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/threshing-day/id6793129560",
-      "authorUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747"
+      "authorUrl": "https://books.apple.com/it/artist/rebecca-yarros/802770747",
+      "rating": 4.5,
+      "ratings": 22
     },
-    "fetchedAt": "2026-10-17T08:16:34.133Z"
+    "fetchedAt": "2026-10-18T11:28:21.124Z"
   },
   "tieni accesa la scintilla|rosanna lambertucci": {
     "value": {
@@ -3183,9 +3677,11 @@
       "genre": "Salute, mente e corpo",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/99/4b/69/994b6981-4fac-a8fe-78d7-f0a497585c36/9788835753674.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/tieni-accesa-la-scintilla/id6812971132",
-      "authorUrl": "https://books.apple.com/it/artist/rosanna-lambertucci/467574300"
+      "authorUrl": "https://books.apple.com/it/artist/rosanna-lambertucci/467574300",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-18T04:45:20.053Z"
+    "fetchedAt": "2026-10-18T11:28:18.122Z"
   },
   "tokyo express|seicho matsumoto": {
     "value": {
@@ -3207,9 +3703,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/a0/0e/0f/a00e0f4a-18b0-c117-a5ea-a801f0138cc8/9791224210177.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/tutto-pu%C3%B2-succedere-al-little-pumpkin-caf%C3%A8/id6808824051",
-      "authorUrl": "https://books.apple.com/it/artist/anna-premoli/521154492"
+      "authorUrl": "https://books.apple.com/it/artist/anna-premoli/521154492",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:14:30.651Z"
+    "fetchedAt": "2026-10-18T11:27:29.935Z"
   },
   "umberto eco|il nome della rosa": {
     "value": {
@@ -3219,9 +3717,11 @@
       "genre": "Thriller e gialli",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication123/v4/b0/b4/a9/b0b4a94a-5c5b-e640-2027-c1d5c0ed7c97/9788834603284.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-nome-della-rosa/id1504040796",
-      "authorUrl": "https://books.apple.com/it/artist/umberto-eco/74450157"
+      "authorUrl": "https://books.apple.com/it/artist/umberto-eco/74450157",
+      "rating": 4.5,
+      "ratings": 54
     },
-    "fetchedAt": "2026-10-17T08:22:31.807Z"
+    "fetchedAt": "2026-10-18T11:28:27.449Z"
   },
   "un dolce disastro d amore|lucy score": {
     "value": {
@@ -3231,9 +3731,11 @@
       "genre": "Romanzi rosa",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/16/3b/fc/163bfcf4-f33e-335b-9692-69ca077536ec/9788822794604.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/un-dolce-disastro-damore/id6764703869",
-      "authorUrl": "https://books.apple.com/it/artist/lucy-score/735477211"
+      "authorUrl": "https://books.apple.com/it/artist/lucy-score/735477211",
+      "rating": 4.5,
+      "ratings": 36
     },
-    "fetchedAt": "2026-10-17T08:15:52.022Z"
+    "fetchedAt": "2026-10-18T11:28:21.107Z"
   },
   "under one roof edizione italiana|ali hazelwood": {
     "value": {
@@ -3260,9 +3762,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/1605176-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL1198310W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:29.822Z"
+    "fetchedAt": "2026-10-18T11:28:27.710Z"
   },
   "victor hugo|i miserabili": {
     "value": {
@@ -3272,9 +3776,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/4a/7b/f4/4a7bf491-7230-7b31-fc29-b4d6fb795c72/cop_miserabili.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/i-miserabili/id601307370",
-      "authorUrl": "https://books.apple.com/it/artist/victor-hugo/2684161"
+      "authorUrl": "https://books.apple.com/it/artist/victor-hugo/2684161",
+      "rating": 4.5,
+      "ratings": 41
     },
-    "fetchedAt": "2026-10-17T08:27:12.511Z"
+    "fetchedAt": "2026-10-18T11:28:27.665Z"
   },
   "virginia woolf|una stanza tutta per se": {
     "value": {
@@ -3284,9 +3790,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication5/v4/80/1a/2f/801a2fa9-9501-f869-6292-db489a707797/cover.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/una-stanza-tutta-per-s%C3%A9/id966394165",
-      "authorUrl": "https://books.apple.com/it/artist/virginia-woolf/2776443"
+      "authorUrl": "https://books.apple.com/it/artist/virginia-woolf/2776443",
+      "rating": 4.5,
+      "ratings": 29
     },
-    "fetchedAt": "2026-10-17T08:30:38.065Z"
+    "fetchedAt": "2026-10-18T11:28:27.747Z"
   },
   "vladimir nabokov|lolita": {
     "value": {
@@ -3296,9 +3804,11 @@
       "genre": "Classici",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/24/e9/c0/24e9c0a5-ee9e-0eae-dbcf-8fb2faf745d3/7869e30f-3599-475d-99f3-a65490b0e7fe_cover_image.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/lolita/id6758705962",
-      "authorUrl": "https://books.apple.com/it/artist/vladimir-nabokov/57533786"
+      "authorUrl": "https://books.apple.com/it/artist/vladimir-nabokov/57533786",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:25:09.898Z"
+    "fetchedAt": "2026-10-18T11:28:27.593Z"
   },
   "volevamo prendere il cielo|federica bosco": {
     "value": {
@@ -3308,9 +3818,11 @@
       "genre": "Romanzi rosa contemporanei",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication126/v4/29/ea/eb/29eaebf2-c23b-8ade-b148-09601996204c/9788811012306.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/volevamo-prendere-il-cielo/id6463781031",
-      "authorUrl": "https://books.apple.com/it/artist/federica-bosco/329423777"
+      "authorUrl": "https://books.apple.com/it/artist/federica-bosco/329423777",
+      "rating": 4.5,
+      "ratings": 38
     },
-    "fetchedAt": "2026-10-17T08:15:36.880Z"
+    "fetchedAt": "2026-10-18T11:27:32.951Z"
   },
   "william faulkner|l urlo e il furore": {
     "value": {
@@ -3325,9 +3837,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/8292212-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL82870W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:29:06.936Z"
+    "fetchedAt": "2026-10-18T11:28:27.700Z"
   },
   "william golding|il signore delle mosche": {
     "value": {
@@ -3337,9 +3851,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/e2/00/95/e20095c3-779c-bc5b-cc72-a04bda5a78f2/9788852031779.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/il-signore-delle-mosche/id1573695770",
-      "authorUrl": "https://books.apple.com/it/artist/william-golding/3046975"
+      "authorUrl": "https://books.apple.com/it/artist/william-golding/3046975",
+      "rating": 3.5,
+      "ratings": 37
     },
-    "fetchedAt": "2026-10-17T08:24:31.880Z"
+    "fetchedAt": "2026-10-18T11:28:27.547Z"
   },
   "william makepeace thackeray|la fiera delle vanita": {
     "value": {
@@ -3349,9 +3865,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/05/51/a0/0551a077-8adf-9f3a-4948-2b113e8b9f28/9783689314880.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-fiera-delle-vanit%C3%A0/id6787915581",
-      "authorUrl": "https://books.apple.com/it/artist/william-thackeray/72969586"
+      "authorUrl": "https://books.apple.com/it/artist/william-thackeray/72969586",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:26:01.903Z"
+    "fetchedAt": "2026-10-18T11:28:27.632Z"
   },
   "william shakespeare|amleto": {
     "value": {
@@ -3361,9 +3879,11 @@
       "genre": "Arti dello spettacolo",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication3/v4/db/3d/bd/db3dbddd-145e-4a1b-b698-c37a10ad116d/9788897313663.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/amleto/id932211887",
-      "authorUrl": "https://books.apple.com/it/artist/william-shakespeare/2765976"
+      "authorUrl": "https://books.apple.com/it/artist/william-shakespeare/2765976",
+      "rating": 4,
+      "ratings": 11
     },
-    "fetchedAt": "2026-10-17T08:27:06.701Z"
+    "fetchedAt": "2026-10-18T11:28:27.661Z"
   },
   "william shakespeare|tutte le opere": {
     "value": {
@@ -3373,9 +3893,11 @@
       "genre": null,
       "cover": "https://covers.openlibrary.org/b/id/10965199-M.jpg",
       "appleUrl": "https://openlibrary.org/works/OL24418304W",
-      "authorUrl": null
+      "authorUrl": null,
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:46:09.343Z"
+    "fetchedAt": "2026-10-18T11:28:27.423Z"
   },
   "william styron|la scelta di sophie": {
     "value": {
@@ -3385,9 +3907,11 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication113/v4/1f/62/d1/1f62d176-59bd-403c-d723-7ae1caa7edc6/9788852045202.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/la-scelta-di-sophie-nuova-edizione/id933102985",
-      "authorUrl": "https://books.apple.com/it/artist/william-styron/219913255"
+      "authorUrl": "https://books.apple.com/it/artist/william-styron/219913255",
+      "rating": null,
+      "ratings": 0
     },
-    "fetchedAt": "2026-10-17T08:32:05.097Z"
+    "fetchedAt": "2026-10-18T11:28:27.768Z"
   },
   "yann martel|vita di pi": {
     "value": {
@@ -3397,8 +3921,10 @@
       "genre": "Narrativa e letteratura",
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Publication111/v4/31/f7/24/31f7246e-25ea-6e8d-c8fe-922bfa9c7c99/9788858503331.jpg/600x600bb.jpg",
       "appleUrl": "https://books.apple.com/it/book/vita-di-pi/id501917550",
-      "authorUrl": "https://books.apple.com/it/artist/yann-martel/2724812"
+      "authorUrl": "https://books.apple.com/it/artist/yann-martel/2724812",
+      "rating": 4.5,
+      "ratings": 107
     },
-    "fetchedAt": "2026-10-17T08:24:37.068Z"
+    "fetchedAt": "2026-10-18T11:28:27.553Z"
   }
 }

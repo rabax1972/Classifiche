@@ -229,6 +229,9 @@ export interface BookInfo {
   appleUrl: string | null;
   /** Pagina dell'autore (o del primo autore) su Apple Books. */
   authorUrl: string | null;
+  /** Voto medio dei lettori su Apple Books (da 1 a 5) e numero di voti; assente nelle schede raccolte prima di ottobre 2026. */
+  rating?: number | null;
+  ratings?: number;
 }
 
 /** Scheda di un autore per la modale dei Libri (data/cache/author-info.json, scripts/author-info.ts). */
