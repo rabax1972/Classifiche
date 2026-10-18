@@ -102,33 +102,13 @@ const multis = [
 
 <script>
   import { normalizeText } from '../lib/aggregate';
+  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, voteAndProviders } from '../lib/my-list';
   import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
   import type { SeenMovie } from '../lib/types';
 
   const SEEN = 'visti';
   const WATCH = 'da-vedere';
   const PAGE = 60;
-  const voteText = (vote: number) => vote.toLocaleString('it-IT', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-  const el = <K extends keyof HTMLElementTagNameMap>(tag: K, className = '', text = '') => {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    if (text) node.textContent = text;
-    return node;
-  };
-  const readPref = (key: string) => {
-    try {
-      return localStorage.getItem(key) ?? '';
-    } catch {
-      return '';
-    }
-  };
-  const writePref = (key: string, value: string) => {
-    try {
-      localStorage.setItem(key, value);
-    } catch {
-      // Storage non disponibile (es. navigazione privata).
-    }
-  };
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
   /**
@@ -169,7 +149,7 @@ const multis = [
     let limit = PAGE;
     let changingHere = false;
 
-    const savedSort = readPref(sortKey);
+    const savedSort = pref.get(sortKey);
     if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
 
     const has = (f: SeenMovie, keys: Set<string>) => f.keys.some((k) => keys.has(k));
@@ -182,46 +162,7 @@ const multis = [
         [...ticks].filter((k) => !known.has(k)).forEach((k, i) => mine.push(fromKey(k, -1 - i)));
       }
     };
-    const chosen = (m: HTMLDetailsElement) => [...m.querySelectorAll<HTMLButtonElement>('[aria-pressed=true]')].map((b) => b.dataset.value!);
 
-    /** Voci dei filtri a scelta multipla, dalla più frequente; le scelte già fatte restano. */
-    const buildOptions = () => {
-      for (const m of multis) {
-        const picked = new Set(chosen(m));
-        const counts = new Map<string, { n: number; logo: string | null }>();
-        for (const f of mine) {
-          const values = m.dataset.multi === 'provider' ? f.providers : f.genres.map((name) => ({ name, logo: null }));
-          for (const v of values) counts.set(v.name, { n: (counts.get(v.name)?.n ?? 0) + 1, logo: v.logo ?? counts.get(v.name)?.logo ?? null });
-        }
-        const ul = m.querySelector('[data-options]')!;
-        ul.replaceChildren(
-          ...[...counts]
-            .sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0], 'it'))
-            .map(([name, { n, logo }]) => {
-              const li = el('li');
-              const btn = el(
-                'button',
-                `inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 py-1 text-sm hover:bg-gray-50 aria-pressed:border-indigo-600 aria-pressed:bg-indigo-600 aria-pressed:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:aria-pressed:border-indigo-500 dark:aria-pressed:bg-indigo-500 ${logo ? 'pr-3 pl-1' : 'px-3'}`,
-              );
-              btn.type = 'button';
-              btn.dataset.value = name;
-              btn.setAttribute('aria-pressed', String(picked.has(name)));
-              if (logo) {
-                const img = el('img', 'h-[22px] w-[22px] rounded-full');
-                Object.assign(img, { src: logo, alt: '', width: 22, height: 22, loading: 'lazy', referrerPolicy: 'no-referrer' });
-                btn.append(img);
-              }
-              btn.append(`${name} (${n})`);
-              btn.addEventListener('click', () => {
-                btn.setAttribute('aria-pressed', String(btn.getAttribute('aria-pressed') !== 'true'));
-                changed();
-              });
-              li.append(btn);
-              return li;
-            }),
-        );
-      }
-    };
 
     const passes = (f: SeenMovie, q: string) =>
       (!q || normalizeText(`${f.title} ${f.directors.join(' ')}`).includes(q)) &&
@@ -240,8 +181,6 @@ const multis = [
       });
 
     const byTitle = (a: SeenMovie, b: SeenMovie) => a.title.localeCompare(b.title, 'it', { sensitivity: 'base', numeric: true });
-    /** Senza il dato (voto o data) in fondo. */
-    const nullsLast = (a: number | null, b: number | null, dir: 1 | -1) => (a == null ? (b == null ? 0 : 1) : b == null ? -1 : (a - b) * dir);
     /** Data di uscita come numero (20260918), per ordinare; con il solo anno vale il 1° gennaio. */
     const releaseDay = (f: SeenMovie) => Number((f.released ?? (f.year ? `${f.year}-01-01` : '')).replaceAll('-', '')) || null;
     const sorters: Record<string, (a: SeenMovie, b: SeenMovie) => number> = {
@@ -269,13 +208,6 @@ const multis = [
 
     const row = (f: SeenMovie) => {
       const li = el('li', 'flex items-start gap-3 px-3 py-3');
-      const cover = el('div', 'h-21 w-14 shrink-0 overflow-hidden rounded bg-gray-200 ring-1 ring-black/10 sm:h-30 sm:w-20 dark:bg-gray-800 dark:ring-white/10');
-      if (f.poster) {
-        const img = el('img', 'h-full w-full object-cover');
-        Object.assign(img, { src: f.poster, alt: '', width: 80, height: 120, loading: 'lazy', decoding: 'async', referrerPolicy: 'no-referrer' });
-        img.addEventListener('error', () => img.remove()); // resta il riquadro grigio
-        cover.append(img);
-      }
       const text = el('div', 'min-w-0');
       const titleClass = 'cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300';
       const pageKey = f.keys.find((k) => inPage.has(k));
@@ -298,36 +230,8 @@ const multis = [
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
       if (f.tmdbId < 0) text.append(el('p', 'text-xs text-gray-500 italic dark:text-gray-400', 'Scheda non più disponibile: il film non è più nelle classifiche.'));
 
-      if (f.vote || f.providers.length) {
-        const line = el('div', 'mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5');
-        if (f.vote) {
-          const badge = el('span', 'inline-flex items-center gap-1 rounded-md bg-amber-50 px-1.5 py-0.5 text-xs font-semibold text-amber-900 tabular-nums ring-1 ring-amber-200 dark:bg-amber-950/60 dark:text-amber-200 dark:ring-amber-900');
-          badge.title = `Voto medio su TMDB (${f.votes.toLocaleString('it-IT')} voti)`;
-          badge.innerHTML = '<svg class="h-3.5 w-3.5 text-amber-500" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2.5 2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"></path></svg><span class="sr-only">Voto TMDB</span>';
-          badge.append(voteText(f.vote));
-          line.append(badge);
-        }
-        if (f.providers.length) {
-          const names = f.providers.map((p) => p.name).join(', ');
-          const box = el('span', 'inline-flex items-center gap-1');
-          box.title = `In abbonamento su ${names}`;
-          box.append(el('span', 'sr-only', `In abbonamento su ${names}`));
-          for (const p of f.providers.slice(0, 4)) {
-            if (p.logo) {
-              const img = el('img', 'h-6 w-6 rounded-md ring-1 ring-black/10 dark:ring-white/10');
-              Object.assign(img, { src: p.logo, alt: '', width: 24, height: 24, loading: 'lazy', referrerPolicy: 'no-referrer' });
-              box.append(img);
-            } else box.append(el('span', 'rounded-md bg-gray-100 px-1.5 py-0.5 text-xs dark:bg-gray-800', p.name));
-          }
-          if (f.providers.length > 4) {
-            const extra = el('span', 'text-xs text-gray-600 dark:text-gray-400', `+${f.providers.length - 4}`);
-            extra.setAttribute('aria-hidden', 'true');
-            box.append(extra);
-          }
-          line.append(box);
-        }
-        text.append(line);
-      }
+      const extra = voteAndProviders(f.vote, f.votes, f.providers);
+      if (extra) text.append(extra);
 
       const checks = el('div', 'mt-1 flex flex-wrap gap-x-4 gap-y-1');
       const keep = (on: boolean) => {
@@ -366,7 +270,7 @@ const multis = [
       }
       text.append(checks);
 
-      li.append(cover, text);
+      li.append(coverBox(f.poster), text);
       return li;
     };
 
@@ -386,11 +290,7 @@ const multis = [
       const rest = shown.length - limit;
       more.classList.toggle('hidden', rest <= 0);
       more.textContent = `Mostra altri ${Math.min(rest, PAGE)} (${Math.max(rest, 0)} ancora)`;
-      for (const m of multis) {
-        const values = chosen(m);
-        m.querySelector('[data-multi-label]')!.textContent =
-          values.length === 0 ? m.dataset.all! : values.length === 1 ? values[0]! : `${values[0]} +${values.length - 1}`;
-      }
+      for (const m of multis) multiLabel(m);
       reset.classList.toggle('hidden', !selects.some((s) => s.value) && !multis.some((m) => chosen(m).length));
       countText();
     };
@@ -414,13 +314,14 @@ const multis = [
       status.hidden = any;
       body.hidden = !any;
       if (!any) status.textContent = emptyText();
-      buildOptions();
+      for (const m of multis)
+        fillMulti(m, mine.flatMap((f) => (m.dataset.multi === 'provider' ? f.providers : f.genres.map((name) => ({ name, logo: null })))), changed);
       render();
     };
 
     search.addEventListener('input', changed);
     sort.addEventListener('change', () => {
-      writePref(sortKey, sort.value);
+      pref.set(sortKey, sort.value);
       changed();
     });
     for (const s of selects) s.addEventListener('change', changed);
@@ -433,23 +334,14 @@ const multis = [
       limit += PAGE;
       render();
     });
-    // Menu a scelta multipla: chiusi con Esc o con un clic fuori.
-    document.addEventListener('click', (ev) => {
-      for (const m of multis) if (m.open && !m.contains(ev.target as Node)) m.open = false;
-    });
-    root.addEventListener('keydown', (ev) => {
-      if (ev.key !== 'Escape') return;
-      const open = multis.find((m) => m.open);
-      if (open) {
-        open.open = false;
-        open.querySelector('summary')!.focus();
-      }
-    });
-    // Spunte cambiate altrove (classifica, scheda del film, altro dispositivo): elenco e filtri aggiornati.
+    closeMultisOutside(root, multis);
+    // Spunte cambiate altrove (classifica, scheda del film, altro dispositivo): elenco e filtri aggiornati, una volta sola
+    // anche per le migliaia di eventi di un riallineamento con l'account.
+    const refresh = batched(showAll);
     document.addEventListener(TICK_EVENT, (ev) => {
       const changedStore = (ev as CustomEvent<TickChange>).detail.store;
       if (changingHere || !loaded || (changedStore !== store && changedStore !== SEEN)) return;
-      showAll();
+      refresh();
     });
 
     let started = false;

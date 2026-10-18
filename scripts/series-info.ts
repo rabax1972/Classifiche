@@ -73,7 +73,7 @@ export function seasonList(seasons: NonNullable<TmdbSeries['seasons']>): SeasonS
     .sort((a, b) => (a.n || Infinity) - (b.n || Infinity));
 }
 
-async function seriesInfo(id: number): Promise<SeriesInfo> {
+export async function seriesInfo(id: number): Promise<SeriesInfo> {
   const s = await tmdb<TmdbSeries>(
     `/tv/${id}?language=it-IT&append_to_response=aggregate_credits,videos,watch/providers&include_video_language=it,en,null`,
     CACHE,
@@ -89,6 +89,7 @@ async function seriesInfo(id: number): Promise<SeriesInfo> {
   const next = s.next_episode_to_air;
   return {
     tmdbId: id,
+    title: s.name,
     overview: overview ? trimExtract(overview, 1400) : null,
     overviewLang,
     tagline: s.tagline?.trim() || null,
@@ -126,7 +127,7 @@ export async function lookupSeriesInfo({ budget = 80, log = console.log } = {}) 
   let done = 0;
   for (const [key, { entry, id }] of targets) {
     // Schede raccolte prima dell'elenco delle stagioni: si rifanno.
-    if ((cache.has(key) && cache.get(key)!.seasonList) || !id) continue;
+    if ((cache.has(key) && cache.get(key)!.seasonList && cache.get(key)!.title) || !id) continue;
     if (done >= budget) break;
     done++;
     try {
@@ -140,7 +141,7 @@ export async function lookupSeriesInfo({ budget = 80, log = console.log } = {}) 
     if (done % 10 === 0) await cache.save();
   }
   await cache.save();
-  const missing = [...targets].filter(([k, t]) => t.id && !cache.get(k)?.seasonList).length;
+  const missing = [...targets].filter(([k, t]) => t.id && !(cache.get(k)?.seasonList && cache.get(k)?.title)).length;
   log(`Schede serie: ${done} nuove${missing ? `, ${missing} ancora da completare` : ''}`);
 }
 

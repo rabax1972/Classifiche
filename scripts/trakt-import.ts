@@ -10,22 +10,25 @@
 //   Serie ("serie-viste", chiave "tv:{ID TMDB}"): solo quelle con tutti gli episodi andati in onda visti.
 //   Episodi ("episodi-visti", chiave "{ID TMDB}:{stagione}:{episodio}"): tutti quelli nella cronologia.
 //
-// Scrive anche il catalogo dei film visti (privato/film-visti.json: titolo, anno, locandina, voto, generi, durata, servizi
-// da TMDB e le chiavi di ogni film), pubblicato con il sito nella scheda "I miei visti" della pagina Film
-// (src/pages/film/catalogo.json.ts). Va rigenerato entro 150 giorni (dati TMDB): poi la build lo ignora.
+// Scrive anche i cataloghi dei film visti (privato/film-visti.json: titolo, anno, locandina, voto, generi, durata, servizi
+// da TMDB e le chiavi di ogni film) e delle serie viste anche solo in parte (privato/serie-viste.json), pubblicati con il sito
+// nella scheda "I miei visti" della pagina Film e nella pagina "Le mie serie viste" (src/pages/*/catalogo.json.ts).
+// Vanno rigenerati entro 150 giorni (dati TMDB): poi la build li ignora.
 //
-//   npm run import:trakt -- --account email@esempio.it   scrive privato/spunte-trakt-{data}.json e privato/film-visti.json
+//   npm run import:trakt -- --account email@esempio.it   scrive privato/spunte-trakt-{data}.json e i due cataloghi
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { entryKey } from '../src/lib/aggregate';
+import { toSeenSeries } from '../src/lib/catalog';
 import { mergeProviders } from '../src/lib/providers';
-import type { SeenMovie, SeenMovieCatalog } from '../src/lib/types';
+import type { SeenMovie, SeenMovieCatalog, SeenSeries, SeenSeriesCatalog } from '../src/lib/types';
 import { TMDB_IMG, hasTmdbKey, tmdb } from './adapters/tmdb';
 import { loadEnv } from './lib/env';
 import { fetchJson } from './lib/http';
 import { italianRelease, movieTargets, providers, type TmdbWatch } from './movie-info';
+import { seriesInfo } from './series-info';
 
 const API = 'https://api.trakt.tv';
 const PAGE = 250; // limite massimo di Trakt per pagina
@@ -161,6 +164,19 @@ export async function importTrakt(user: string, account: string, log: (m: string
     else partial.push(`${show.title} (${seen}/${show.aired_episodes ?? '?'})`);
   }
 
+  // Catalogo delle serie viste, anche solo in parte (pagina "Le mie serie viste").
+  const seriesCatalog: SeenSeries[] = [];
+  for (const [i, { show }] of shows.entries()) {
+    if (!show.ids.tmdb) continue;
+    try {
+      const s = toSeenSeries(await seriesInfo(show.ids.tmdb));
+      if (s) seriesCatalog.push(s);
+    } catch {
+      // Serie rimossa da TMDB o errore di rete: resta fuori dal catalogo.
+    }
+    if ((i + 1) % 50 === 0) log(`  serie: ${i + 1}/${shows.length}`);
+  }
+
   // Film: prima la chiave della classifica (stesso ID TMDB), poi tutte quelle possibili (movieKeys).
   const chartKeys = new Map<number, string>();
   for (const [key, { id }] of await movieTargets()) if (id) chartKeys.set(id, key);
@@ -203,7 +219,9 @@ export async function importTrakt(user: string, account: string, log: (m: string
   if (unmatched.length) log(`  Non abbinati (${unmatched.length}): ${unmatched.join('; ')}`);
   log(`Serie: ${series.length} viste per intero; ${partial.length} iniziate, con solo le spunte degli episodi.`);
   log(`Episodi: ${episodes.size}.`);
-  log(`\nCatalogo dei film visti (pubblicato con il sito): ${catalogFile}`);
+  const seriesFile = path.join(OUT_DIR, 'serie-viste.json');
+  await writeFile(seriesFile, JSON.stringify({ date: day, series: seriesCatalog } satisfies SeenSeriesCatalog));
+  log(`\nCataloghi dei film e delle serie viste (pubblicati con il sito): ${catalogFile}, ${seriesFile}`);
   log(`\nFile: ${file}\nImportalo da /account/ ("Importa da file") dopo essere entrato come ${account}.`);
 }
 

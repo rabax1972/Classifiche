@@ -1,0 +1,23 @@
+---
+import MySeries from '../../components/MySeries.astro';
+import Base from '../../layouts/Base.astro';
+import { href } from '../../lib/data';
+
+// Serie viste: per intero (spunta "Vista" nella classifica Serie TV o nella scheda) o in parte (episodi spuntati nella scheda),
+// anche importate da Trakt (scripts/trakt-import.ts) o sincronizzate dalla pagina Account.
+---
+
+<Base title="Le mie serie viste" description="Le serie TV che hai visto per intero o che stai guardando, con voto e servizi su cui sono disponibili." current="serie-tv">
+  <div class="mb-6 space-y-2">
+    <h1 class="text-3xl font-bold tracking-tight">Le mie serie viste</h1>
+    <p class="max-w-3xl text-gray-700 dark:text-gray-300">
+      Le serie che hai segnato come <strong>Viste</strong> nella classifica{' '}
+      <a class="text-indigo-700 underline dark:text-indigo-300" href={href('serie-tv/oggi')}>Serie TV</a> e quelle di cui hai spuntato almeno un
+      episodio, anche se oggi non sono in classifica.
+    </p>
+    <p class="max-w-3xl text-sm text-gray-600 dark:text-gray-400">
+      Senza account la lista resta solo in questo browser: <a class="underline" href={href('account')}>accedi</a> per ritrovarla su tutti i tuoi dispositivi.
+    </p>
+  </div>
+  <MySeries />
+</Base>

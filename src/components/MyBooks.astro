@@ -72,6 +72,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
 
 <script>
   import { normalizeText } from '../lib/aggregate';
+  import { batched, coverBox, el, nullsLast, pref } from '../lib/my-list';
   import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
   import type { ReadBook } from '../lib/types';
 
@@ -79,28 +80,6 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
   const PAGE = 60;
   const SORT_KEY = 'vista:ordine-letti';
   const MONTHS = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
-  const el = <K extends keyof HTMLElementTagNameMap>(tag: K, className = '', text = '') => {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    if (text) node.textContent = text;
-    return node;
-  };
-  const pref = {
-    get: (key: string) => {
-      try {
-        return localStorage.getItem(key) ?? '';
-      } catch {
-        return '';
-      }
-    },
-    set: (key: string, value: string) => {
-      try {
-        localStorage.setItem(key, value);
-      } catch {
-        // Storage non disponibile (es. navigazione privata).
-      }
-    },
-  };
   /** "2019-11-23" → "il 23 novembre 2019", "1997-02" → "a febbraio 1997", "2015" → "nel 2015". */
   const finishedText = (d: string) => {
     const [y, m, day] = d.split('-').map(Number);
@@ -161,9 +140,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
     const byTitle = (a: ReadBook, b: ReadBook) => it(a.title, b.title);
     /** Cognome del primo autore, per l'ordine per autore. */
     const surname = (b: ReadBook) => b.author.split(',')[0]!.trim().split(' ').at(-1) ?? '';
-    /** Senza il dato in fondo; le date parziali ("2015", "1997-02") contano come l'inizio del periodo. */
-    const nullsLast = (a: string | number | null, b: string | number | null, dir: 1 | -1) =>
-      a == null ? (b == null ? 0 : 1) : b == null ? -1 : (a < b ? -1 : a > b ? 1 : 0) * dir;
+    // Le date di lettura parziali ("2015", "1997-02") si ordinano come l'inizio del periodo.
     const sorters: Record<string, (a: ReadBook, b: ReadBook) => number> = {
       titolo: byTitle,
       autore: (a, b) => it(surname(a), surname(b)) || it(a.author, b.author) || byTitle(a, b),
@@ -174,13 +151,6 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
 
     const row = (b: ReadBook) => {
       const li = el('li', 'flex items-start gap-3 px-3 py-3');
-      const cover = el('div', 'h-21 w-14 shrink-0 overflow-hidden rounded bg-gray-200 ring-1 ring-black/10 sm:h-30 sm:w-20 dark:bg-gray-800 dark:ring-white/10');
-      if (b.cover) {
-        const img = el('img', 'h-full w-full object-cover');
-        Object.assign(img, { src: b.cover, alt: '', width: 80, height: 120, loading: 'lazy', decoding: 'async', referrerPolicy: 'no-referrer' });
-        img.addEventListener('error', () => img.remove()); // resta il riquadro grigio
-        cover.append(img);
-      }
       const text = el('div', 'min-w-0');
       text.append(el('p', 'font-semibold break-words', b.title));
       if (b.author) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', b.author));
@@ -215,7 +185,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
       });
       label.append(box, 'Letto', el('span', 'sr-only', `: ${b.title}`));
       text.append(label);
-      li.append(cover, text);
+      li.append(coverBox(b.cover), text);
       return li;
     };
 
@@ -270,10 +240,11 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
       limit += PAGE;
       render();
     });
-    // Spunte arrivate dall'account o da un'altra scheda del browser.
+    // Spunte arrivate dall'account o da un'altra scheda del browser (un solo aggiornamento per una raffica di eventi).
+    const refresh = batched(showAll);
     document.addEventListener(TICK_EVENT, (ev) => {
       if (changingHere || !loaded || (ev as CustomEvent<TickChange>).detail.store !== STORE) return;
-      showAll();
+      refresh();
     });
 
     void (async () => {

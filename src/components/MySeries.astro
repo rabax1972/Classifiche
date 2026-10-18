@@ -1,0 +1,309 @@
+---
+// Lista "Le mie serie viste" (pagina /serie-tv/viste/): le serie viste per intero (lista "serie-viste", chiave "tv:{id}") e quelle
+// con almeno un episodio visto ("episodi-visti"), anche fuori dalle classifiche, con ricerca, filtri (visione, servizi, generi,
+// stato, voto) e ordinamento per titolo, voto o anno. Dati da /serie-tv/catalogo.json (src/pages/serie-tv/catalogo.json.ts).
+import { href } from '../lib/data';
+
+const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
+const multis = [
+  { key: 'provider', all: 'Tutti i servizi', help: 'Serie in abbonamento su almeno uno dei servizi scelti.' },
+  { key: 'genre', all: 'Tutti i generi', help: 'Serie di almeno uno dei generi scelti.' },
+];
+---
+
+<div class="my-series" data-src={href('serie-tv/catalogo.json')}>
+  <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento delle serie viste…</p>
+
+  <div class="my-body" hidden>
+    <div class="mb-3 flex flex-wrap items-center gap-3">
+      <label class="relative min-w-0 flex-1 sm:max-w-xs">
+        <span class="sr-only">Cerca tra le serie viste</span>
+        <svg class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input
+          type="search"
+          data-search
+          class="w-full rounded-lg border border-gray-300 bg-white py-2 pr-3 pl-9 text-sm placeholder:text-gray-500 dark:border-gray-700 dark:bg-gray-900"
+          placeholder="Cerca per titolo o creatore…"
+          autocomplete="off"
+        />
+      </label>
+      <label class="flex items-center gap-2 text-sm">
+        <span class="text-gray-600 dark:text-gray-400">Ordina per</span>
+        <select class={filterSelect} data-sort>
+          <option value="titolo">Titolo (A–Z)</option>
+          <option value="voto">Voto (dal più alto)</option>
+          <option value="anno-desc">Anno (dal più recente)</option>
+          <option value="anno-asc">Anno (dal meno recente)</option>
+        </select>
+      </label>
+      <p class="my-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+    </div>
+
+    <div class="relative mb-3 flex flex-wrap items-center gap-2" role="group" aria-label="Filtra le serie viste">
+      <label>
+        <span class="sr-only">Visione</span>
+        <select class={filterSelect} data-filter="visione">
+          <option value="">Viste e in corso di visione</option>
+          <option value="intere">Viste per intero</option>
+          <option value="in-corso">In corso di visione</option>
+        </select>
+      </label>
+      {
+        multis.map((m) => (
+          <details class="sm:relative" data-multi={m.key} data-all={m.all}>
+            <summary class={`${filterSelect} flex cursor-pointer list-none items-center gap-2 pr-3 [&::-webkit-details-marker]:hidden`}>
+              <span data-multi-label>{m.all}</span>
+              <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+            </summary>
+            <div class="absolute top-full right-0 left-0 z-20 mt-1 max-h-80 overflow-y-auto rounded-xl border border-gray-200 bg-white p-3 shadow-lg sm:right-auto sm:w-[22rem] dark:border-gray-700 dark:bg-gray-900" role="group" aria-label={`${m.all}: scegline uno o più`}>
+              <p class="mb-2 text-xs text-gray-600 dark:text-gray-400">{m.help}</p>
+              <ul class="flex flex-wrap gap-1.5" data-options></ul>
+            </div>
+          </details>
+        ))
+      }
+      <label>
+        <span class="sr-only">Stato della serie</span>
+        <select class={filterSelect} data-filter="stato">
+          <option value="">In produzione e concluse</option>
+          <option value="in-corso">Ancora in produzione</option>
+          <option value="conclusa">Concluse</option>
+        </select>
+      </label>
+      <label>
+        <span class="sr-only">Voto TMDB minimo</span>
+        <select class={filterSelect} data-filter="voto">
+          <option value="">Qualsiasi voto</option>
+          <option value="6">Voto 6 o più</option>
+          <option value="7">Voto 7 o più</option>
+          <option value="8">Voto 8 o più</option>
+        </select>
+      </label>
+      <button type="button" data-reset class="hidden rounded-lg px-3 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-50 dark:text-indigo-300 dark:hover:bg-indigo-950">
+        Azzera filtri
+      </button>
+    </div>
+
+    <div class="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+      <ul class="my-list divide-y divide-gray-100 dark:divide-gray-800"></ul>
+      <p class="my-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessuna serie vista per questa ricerca o per questi filtri.</p>
+    </div>
+    <div class="mt-3 text-center">
+      <button type="button" class="my-more hidden rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"></button>
+    </div>
+    <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">
+      Titoli, voti medi e locandine di <a class="underline" href="https://www.themoviedb.org/" rel="noopener" target="_blank">TMDB</a>; servizi in
+      abbonamento in Italia forniti da <a class="underline" href="https://www.justwatch.com/it" rel="noopener" target="_blank">JustWatch</a> tramite TMDB.
+    </p>
+  </div>
+</div>
+
+<script>
+  import { normalizeText } from '../lib/aggregate';
+  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, voteAndProviders } from '../lib/my-list';
+  import { TICK_EVENT, getTicks, setTick, type TickChange } from '../lib/ticks';
+  import type { SeenSeries } from '../lib/types';
+
+  const SERIES = 'serie-viste';
+  const EPISODES = 'episodi-visti';
+  const PAGE = 60;
+  const SORT_KEY = 'vista:ordine-serie-viste';
+
+  for (const root of document.querySelectorAll<HTMLElement>('.my-series')) {
+    const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
+    const status = $('.my-status');
+    const body = $('.my-body');
+    const list = $('.my-list');
+    const empty = $('.my-empty');
+    const more = $<HTMLButtonElement>('.my-more');
+    const count = $('.my-count');
+    const search = $<HTMLInputElement>('[data-search]');
+    const sort = $<HTMLSelectElement>('[data-sort]');
+    const selects = [...root.querySelectorAll<HTMLSelectElement>('[data-filter]')];
+    const multis = [...root.querySelectorAll<HTMLDetailsElement>('[data-multi]')];
+    const reset = $<HTMLButtonElement>('[data-reset]');
+
+    let all: SeenSeries[] = [];
+    /** Serie della lista con gli episodi visti (stagioni normali) e se è vista per intero. */
+    let mine: { s: SeenSeries; watched: number; full: boolean }[] = [];
+    /** Serie appena tolte da qui: restano in elenco fino al prossimo cambio di filtri. */
+    const keptHere = new Set<number>();
+    let limit = PAGE;
+    let changingHere = false;
+    let loaded = false;
+
+    const savedSort = pref.get(SORT_KEY);
+    if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
+
+    const collect = () => {
+      const full = getTicks(SERIES);
+      const episodes = new Map<number, number>();
+      for (const key of getTicks(EPISODES)) {
+        const [id, season] = key.split(':').map(Number);
+        if (id && season) episodes.set(id, (episodes.get(id) ?? 0) + 1);
+      }
+      mine = all
+        .map((s) => ({ s, watched: episodes.get(s.tmdbId) ?? 0, full: full.has(`tv:${s.tmdbId}`) }))
+        .filter((m) => m.full || m.watched > 0 || keptHere.has(m.s.tmdbId));
+    };
+
+    const passes = (m: (typeof mine)[number], q: string) =>
+      (!q || normalizeText(`${m.s.title} ${m.s.creators.join(' ')}`).includes(q)) &&
+      multis.every((d) => {
+        const values = chosen(d);
+        const have = d.dataset.multi === 'provider' ? m.s.providers.map((p) => p.name) : m.s.genres;
+        return !values.length || values.some((v) => have.includes(v));
+      }) &&
+      selects.every((sel) => {
+        if (!sel.value) return true;
+        if (sel.dataset.filter === 'visione') return sel.value === 'intere' ? m.full : !m.full;
+        if (sel.dataset.filter === 'stato') return m.s.status === sel.value;
+        return m.s.vote != null && m.s.vote >= Number(sel.value);
+      });
+
+    const byTitle = (a: SeenSeries, b: SeenSeries) => a.title.localeCompare(b.title, 'it', { sensitivity: 'base', numeric: true });
+    const sorters: Record<string, (a: SeenSeries, b: SeenSeries) => number> = {
+      titolo: byTitle,
+      voto: (a, b) => nullsLast(a.vote, b.vote, -1) || byTitle(a, b),
+      'anno-desc': (a, b) => nullsLast(a.firstAired, b.firstAired, -1) || byTitle(a, b),
+      'anno-asc': (a, b) => nullsLast(a.firstAired, b.firstAired, 1) || byTitle(a, b),
+    };
+
+    const row = ({ s, watched, full }: (typeof mine)[number]) => {
+      const li = el('li', 'flex items-start gap-3 px-3 py-3');
+      const text = el('div', 'min-w-0 flex-1');
+      const title = el('a', 'cursor-pointer font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300', s.title);
+      Object.assign(title, { href: `https://www.themoviedb.org/tv/${s.tmdbId}`, target: '_blank', rel: 'noopener' });
+      title.setAttribute('aria-label', `${s.title} su TMDB (si apre in una nuova scheda)`);
+      text.append(title);
+      const year = s.firstAired?.slice(0, 4);
+      const who = [s.creators.join(', '), year ? `(${year})` : ''].filter(Boolean).join(' ');
+      if (who) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', who));
+      const details = [
+        s.seasons ? `${s.seasons} ${s.seasons === 1 ? 'stagione' : 'stagioni'}` : '',
+        s.status === 'conclusa' ? 'conclusa' : s.status === 'in-corso' ? 'in produzione' : '',
+        s.genres.slice(0, 3).join(', '),
+      ]
+        .filter(Boolean)
+        .join(' · ');
+      if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
+      const extra = voteAndProviders(s.vote, s.votes, s.providers);
+      if (extra) text.append(extra);
+
+      // Avanzamento: vista per intero, oppure episodi visti su quelli della serie.
+      const progress = el('div', 'mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs');
+      if (full) {
+        progress.append(el('span', 'rounded-full bg-emerald-600 px-2 py-0.5 font-semibold text-white dark:bg-emerald-500 dark:text-emerald-950', '✓ Vista per intero'));
+      } else if (watched) {
+        const total = s.episodes ?? 0;
+        if (total) {
+          const bar = el('span', 'inline-block h-1.5 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-800');
+          bar.setAttribute('aria-hidden', 'true');
+          const fill = el('span', 'block h-full rounded-full bg-emerald-600');
+          fill.style.width = `${Math.min(100, (watched / total) * 100)}%`;
+          bar.append(fill);
+          progress.append(bar);
+        }
+        progress.append(el('span', 'text-gray-700 dark:text-gray-300', total ? `${watched} di ${total} episodi visti` : `${watched} episodi visti`));
+      }
+      const label = el('label', 'inline-flex cursor-pointer items-center gap-1.5 font-medium text-gray-700 select-none dark:text-gray-300');
+      const box = el('input', 'size-3.5 cursor-pointer accent-emerald-600');
+      box.type = 'checkbox';
+      box.checked = full;
+      box.addEventListener('change', () => {
+        keptHere.add(s.tmdbId);
+        changingHere = true;
+        setTick(SERIES, `tv:${s.tmdbId}`, box.checked);
+        changingHere = false;
+        li.classList.toggle('bg-emerald-50', box.checked);
+        li.classList.toggle('dark:bg-emerald-950/40', box.checked);
+      });
+      label.append(box, 'Vista', el('span', 'sr-only', `: ${s.title}`));
+      progress.append(label);
+      text.append(progress);
+      li.classList.toggle('bg-emerald-50', full);
+      li.classList.toggle('dark:bg-emerald-950/40', full);
+      li.append(coverBox(s.poster), text);
+      return li;
+    };
+
+    let shown: typeof mine = [];
+    const countText = () => {
+      const fullCount = mine.filter((m) => m.full).length;
+      count.textContent =
+        shown.length === mine.length ? `${mine.length} serie: ${fullCount} viste per intero, ${mine.length - fullCount} in corso` : `${shown.length} su ${mine.length} serie`;
+    };
+    const render = () => {
+      const q = normalizeText(search.value);
+      const by = sorters[sort.value] ?? byTitle;
+      shown = mine.filter((m) => passes(m, q)).sort((a, b) => by(a.s, b.s));
+      list.replaceChildren(...shown.slice(0, limit).map(row));
+      empty.classList.toggle('hidden', shown.length > 0);
+      const rest = shown.length - limit;
+      more.classList.toggle('hidden', rest <= 0);
+      more.textContent = `Mostra altre ${Math.min(rest, PAGE)} (${Math.max(rest, 0)} ancora)`;
+      for (const m of multis) multiLabel(m);
+      reset.classList.toggle('hidden', !selects.some((s) => s.value) && !multis.some((m) => chosen(m).length));
+      countText();
+    };
+    const changed = () => {
+      limit = PAGE;
+      if (keptHere.size) {
+        keptHere.clear();
+        collect();
+      }
+      render();
+    };
+    const showAll = () => {
+      collect();
+      const any = mine.length > 0;
+      status.hidden = any;
+      body.hidden = !any;
+      if (!any) status.textContent = 'Non hai ancora serie segnate come viste: spunta "Vista" nella classifica Serie TV o gli episodi nella scheda della serie.';
+      for (const m of multis)
+        fillMulti(
+          m,
+          mine.flatMap(({ s }) => (m.dataset.multi === 'provider' ? s.providers : s.genres.map((name) => ({ name, logo: null })))),
+          changed,
+        );
+      render();
+    };
+
+    search.addEventListener('input', changed);
+    sort.addEventListener('change', () => {
+      pref.set(SORT_KEY, sort.value);
+      changed();
+    });
+    for (const s of selects) s.addEventListener('change', changed);
+    reset.addEventListener('click', () => {
+      for (const s of selects) s.value = '';
+      for (const b of root.querySelectorAll('[aria-pressed=true]')) b.setAttribute('aria-pressed', 'false');
+      changed();
+    });
+    more.addEventListener('click', () => {
+      limit += PAGE;
+      render();
+    });
+    closeMultisOutside(root, multis);
+    // Spunte arrivate dall'account o da un'altra scheda del browser (anche migliaia di eventi insieme: un solo aggiornamento).
+    const refresh = batched(showAll);
+    document.addEventListener(TICK_EVENT, (ev) => {
+      const store = (ev as CustomEvent<TickChange>).detail.store;
+      if (changingHere || !loaded || (store !== SERIES && store !== EPISODES)) return;
+      refresh();
+    });
+
+    void (async () => {
+      try {
+        const res = await fetch(root.dataset.src!);
+        if (!res.ok) throw new Error(String(res.status));
+        all = ((await res.json()) as { series: SeenSeries[] }).series;
+      } catch {
+        status.textContent = 'Non è stato possibile caricare le serie viste: riprova più tardi.';
+        return;
+      }
+      loaded = true;
+      showAll();
+    })();
+  }
+</script>

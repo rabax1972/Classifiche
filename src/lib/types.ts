@@ -393,6 +393,36 @@ export interface ReadBook {
   keys: string[];
 }
 
+/**
+ * Una serie della pagina "Le mie serie viste" (file statico /serie-tv/catalogo.json, src/pages/serie-tv/catalogo.json.ts): dal
+ * catalogo privato/serie-viste.json di scripts/trakt-import.ts più le schede delle serie in cache. Dati TMDB, servizi di JustWatch.
+ * Vista per intero se è spuntata "tv:{tmdbId}" (lista "serie-viste"), in corso se ha episodi spuntati ("episodi-visti").
+ */
+export interface SeenSeries {
+  tmdbId: number;
+  title: string;
+  /** Prima messa in onda (YYYY-MM-DD). */
+  firstAired: string | null;
+  creators: string[];
+  /** Locandina piccola (w185). */
+  poster: string | null;
+  /** Voto medio TMDB, solo con almeno 10 voti. */
+  vote: number | null;
+  votes: number;
+  genres: string[];
+  seasons: number | null;
+  episodes: number | null;
+  /** "in-corso" (ancora prodotta) o "conclusa". */
+  status: 'in-corso' | 'conclusa' | null;
+  providers: WatchProvider[];
+}
+
+/** File privato/serie-viste.json (fuori da git), scritto da scripts/trakt-import.ts. */
+export interface SeenSeriesCatalog {
+  date: string;
+  series: SeenSeries[];
+}
+
 /** File privato/libri-letti.json (fuori da git), scritto da scripts/anobii-import.ts. */
 export interface ReadBookCatalog {
   date: string;
@@ -416,6 +446,8 @@ export interface DirectorCard {
 /** Scheda di una serie per le modali di Serie TV (data/cache/series-info.json, scripts/series-info.ts; dati TMDB). */
 export interface SeriesInfo {
   tmdbId: number;
+  /** Titolo italiano su TMDB (manca nelle schede raccolte prima di ottobre 2026). */
+  title?: string;
   /** Trama da TMDB, in italiano o, se manca, in inglese. */
   overview: string | null;
   overviewLang: 'it' | 'en' | null;

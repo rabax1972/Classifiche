@@ -56,6 +56,14 @@ const seenTab = category === 'film';
     <h1 class="text-3xl font-bold tracking-tight">{cfg.label}</h1>
     <p class="text-gray-700 dark:text-gray-300">{cfg.description}</p>
     {cfg.note && <p class="max-w-3xl text-sm text-gray-600 dark:text-gray-400">{cfg.note}</p>}
+    {category === 'serie-tv' && (
+      <p>
+        <a href={href('serie-tv/viste')} class="inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-700 hover:underline dark:text-emerald-300">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg>
+          Le mie serie viste →
+        </a>
+      </p>
+    )}
     {category === 'libri' && (
       <p>
         <a href={href('libri-letti')} class="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-700 hover:underline dark:text-sky-300">

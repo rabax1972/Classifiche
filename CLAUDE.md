@@ -14,7 +14,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run update` — quello che fa il cron giornaliero: `ingest` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `info:serie`
 - `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
-  da caricare a mano con FileZilla (niente deploy automatico)
+  da caricare a mano con FileZilla (niente deploy automatico); in `aruba/modifiche/` solo i file cambiati dall'ultima pubblicazione
+  confermata (`-- --conferma`, impronte in `aruba/pubblicato.json`; `-- --tutto` per ripartire da zero)
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
 - `npm run import:trakt` — film, serie ed episodi visti su Trakt (`TRAKT_CLIENT_ID`, `TRAKT_USERNAME`, `TRAKT_ACCOUNT` in `.env`) in un
   file di spunte in `privato/` (fuori da git), da importare a mano da `/account/` nell'account indicato
@@ -73,6 +74,9 @@ un film è nella lista se è spuntata una qualsiasi delle sue `keys` (tra cui `m
 Pulsante "Sincronizza con Trakt" in `/account/` (`src/lib/trakt-sync.ts`, solo per l'account `TRAKT_ACCOUNT`, chiavi lette a build time):
 legge Trakt dal browser (serve l'origine del sito tra le CORS origins dell'app Trakt) e aggiunge le spunte mancanti; i film nuovi
 come `movie:{idTMDB}`, che valgono per la riga in classifica tramite `aliasSeen()` di `src/lib/seen.ts`.
+Serie viste: pagina `/serie-tv/viste/` (`MySeries.astro`, `/serie-tv/catalogo.json` da `privato/serie-viste.json` di `import:trakt` più
+le schede di `series-info.json`): viste per intero (`serie-viste`) e in corso (`episodi-visti`). Le liste personali condividono
+`src/lib/my-list.ts` (riga, voto, servizi, filtri a scelta multipla).
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
 di classifica e liste.
