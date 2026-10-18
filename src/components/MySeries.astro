@@ -10,9 +10,15 @@ const multis = [
   { key: 'provider', all: 'Tutti i servizi', help: 'Serie in abbonamento su almeno uno dei servizi scelti.' },
   { key: 'genre', all: 'Tutti i generi', help: 'Serie di almeno uno dei generi scelti.' },
 ];
+
+interface Props {
+  /** Liste di un profilo pubblico (pagina /utenti/): niente caselle da spuntare. */
+  readonly?: boolean;
+}
+const { readonly = false } = Astro.props;
 ---
 
-<div class="my-series" data-src={href('serie-tv/catalogo.json')}>
+<div class="my-series" data-src={href('serie-tv/catalogo.json')} data-readonly={readonly ? '' : undefined}>
   <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento delle serie viste…</p>
 
   <div class="my-body" hidden>
@@ -103,7 +109,7 @@ const multis = [
   import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
   import { SERIES_CARDS_EVENT } from '../lib/dialogs';
   import { setSeen } from '../lib/seen';
-  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, voteAndProviders } from '../lib/my-list';
+  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, tickSource, voteAndProviders, whenVisible } from '../lib/my-list';
   import { TICK_EVENT, getTicks, type TickChange } from '../lib/ticks';
   import type { SeenSeries, SeenSeriesEntry, SeriesCard } from '../lib/types';
 
@@ -114,6 +120,7 @@ const multis = [
 
   for (const root of document.querySelectorAll<HTMLElement>('.my-series')) {
     const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
+    const src = tickSource(root, getTicks);
     const status = $('.my-status');
     const body = $('.my-body');
     const list = $('.my-list');
@@ -141,9 +148,9 @@ const multis = [
     if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
 
     const collect = () => {
-      const full = getTicks(SERIES);
+      const full = src.get(SERIES);
       const episodes = new Map<number, number>();
-      for (const key of getTicks(EPISODES)) {
+      for (const key of src.get(EPISODES)) {
         const [id, season] = key.split(':').map(Number);
         if (id && season) episodes.set(id, (episodes.get(id) ?? 0) + 1);
       }
@@ -240,7 +247,7 @@ const multis = [
         li.classList.toggle('dark:bg-emerald-950/40', box.checked);
       });
       label.append(box, 'Vista', el('span', 'sr-only', `: ${s.title}`));
-      progress.append(label);
+      if (!src.readOnly) progress.append(label);
       text.append(progress);
       li.classList.toggle('bg-emerald-50', full);
       li.classList.toggle('dark:bg-emerald-950/40', full);
@@ -280,7 +287,7 @@ const multis = [
       const any = mine.length > 0;
       status.hidden = any;
       body.hidden = !any;
-      if (!any) status.textContent = 'Non hai ancora serie segnate come viste: spunta "Vista" nella classifica Serie TV o gli episodi nella scheda della serie.';
+      if (!any) status.textContent = src.readOnly ? 'Questa lista è vuota.' : 'Non hai ancora serie segnate come viste: spunta "Vista" nella classifica Serie TV o gli episodi nella scheda della serie.';
       for (const m of multis)
         fillMulti(
           m,
@@ -310,13 +317,16 @@ const multis = [
     const refresh = batched(showAll);
     document.addEventListener(TICK_EVENT, (ev) => {
       const store = (ev as CustomEvent<TickChange>).detail.store;
-      if (changingHere || !loaded || (store !== SERIES && store !== EPISODES)) return;
+      if (src.readOnly || changingHere || !loaded || (store !== SERIES && store !== EPISODES)) return;
       refresh();
     });
 
-    void (async () => {
+    let started = false;
+    const start = async () => {
+      if (started) return;
+      started = true;
       try {
-        const res = await fetch(root.dataset.src!);
+        const [res] = await Promise.all([fetch(root.dataset.src!), src.ready]);
         if (!res.ok) throw new Error(String(res.status));
         all = ((await res.json()) as { series: SeenSeriesEntry[] }).series;
         document.dispatchEvent(new CustomEvent<Record<string, SeriesCard>>(SERIES_CARDS_EVENT, { detail: Object.fromEntries(all.map((s) => [s.key, s.card])) }));
@@ -326,6 +336,8 @@ const multis = [
       }
       loaded = true;
       showAll();
-    })();
+    };
+    // In una scheda (pagina Utenti) si scarica solo quando la scheda si apre.
+    whenVisible(root, () => void start());
   }
 </script>

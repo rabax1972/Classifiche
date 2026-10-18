@@ -46,6 +46,17 @@ const CONTATTO = 'info@giacomorabaglia.com';
     </section>
 
     <section class="space-y-2">
+      <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Profilo pubblico (facoltativo)</h2>
+      <p>
+        Solo se lo attivi dalla pagina <a href={href('account')} class="text-indigo-700 underline dark:text-indigo-300">Account</a>, nella pagina
+        <a href={href('utenti')} class="text-indigo-700 underline dark:text-indigo-300">Utenti</a> chiunque può vedere il <strong>nome pubblico</strong>
+        che scegli e le <strong>liste</strong> che decidi di mostrare (film visti, film da vedere, serie viste, libri letti). Il tuo indirizzo email
+        non compare mai. La base giuridica è il tuo consenso (art. 6.1.a GDPR): puoi togliere le liste, cambiare nome o eliminare il profilo
+        pubblico in qualsiasi momento, con effetto immediato. Scegli un nome che non ti renda riconoscibile, se preferisci restare anonimo.
+      </p>
+    </section>
+
+    <section class="space-y-2">
       <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Sicurezza</h2>
       <p>
         Per proteggere gli account da tentativi di accesso ripetuti registriamo per 24 ore l'indirizzo IP e l'email usati nei tentativi di accesso,
@@ -58,6 +69,7 @@ const CONTATTO = 'info@giacomorabaglia.com';
       <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Per quanto tempo</h2>
       <ul class="list-disc space-y-1 pl-5">
         <li>email, password e spunte: finché l'account esiste;</li>
+        <li>nome pubblico e scelta delle liste: finché non elimini il profilo pubblico o l'account;</li>
         <li>account mai confermati: cancellati dopo 7 giorni;</li>
         <li>sessioni: scadono dopo 60 giorni senza visite; i link nelle email dopo 48 ore (conferma) o un'ora (nuova password);</li>
         <li>tentativi di accesso: 24 ore;</li>

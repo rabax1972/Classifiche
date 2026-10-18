@@ -154,3 +154,44 @@ export function batched(fn: () => void, ms = 50) {
     timer = setTimeout(fn, ms);
   };
 }
+
+/** Liste di un profilo pubblico mostrate nella pagina /utenti/ (detail: { liste }), al posto delle spunte di chi guarda. */
+export const PUBLIC_LISTS_EVENT = 'liste:pubbliche';
+let publicLists: Record<string, string[]> | null = null;
+
+/** La pagina /utenti/ consegna le liste del profilo aperto ai componenti in sola lettura (anche a quelli non ancora pronti). */
+export function showPublicLists(liste: Record<string, string[]>) {
+  publicLists = liste;
+  document.dispatchEvent(new CustomEvent(PUBLIC_LISTS_EVENT, { detail: { liste } }));
+}
+
+export interface TickSource {
+  /** Spunte di una lista (es. "visti"). */
+  get(store: string): Set<string>;
+  /** Liste di un altro utente: niente caselle da spuntare. */
+  readOnly: boolean;
+  /** Pronta quando ci sono le spunte da mostrare (subito per le proprie). */
+  ready: Promise<void>;
+}
+
+/**
+ * Da dove prendere le spunte della lista: le proprie (src/lib/ticks.ts) o, se il componente ha data-readonly, quelle di un
+ * profilo pubblico che la pagina /utenti/ consegna con showPublicLists().
+ */
+export function tickSource(root: HTMLElement, own: (store: string) => Set<string>): TickSource {
+  if (!('readonly' in root.dataset)) return { get: own, readOnly: false, ready: Promise.resolve() };
+  const ready = publicLists
+    ? Promise.resolve()
+    : new Promise<void>((resolve) => document.addEventListener(PUBLIC_LISTS_EVENT, () => resolve(), { once: true }));
+  return { get: (store) => new Set(publicLists?.[store] ?? []), readOnly: true, ready };
+}
+
+/** Esegue `start` quando il componente diventa visibile: subito, o all'apertura della scheda (.views-panel) che lo contiene. */
+export function whenVisible(root: HTMLElement, start: () => void) {
+  const panel = root.closest<HTMLElement>('.views-panel');
+  if (!panel) return start();
+  new MutationObserver(() => {
+    if (!panel.hidden) start();
+  }).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
+  if (!panel.hidden) start();
+}

@@ -82,6 +82,10 @@ riceve le schede del catalogo con l'evento `SERIES_CARDS_EVENT` (`src/lib/dialog
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
 di classifica e liste.
+Profili pubblici (facoltativi, con consenso): tabella `profili` (nome pubblico unico, liste mostrate), azioni `profilo`, `pubblici`,
+`liste&u=` dell'API; sezione in `/account/` e pagina `/utenti/` che mostra le liste di un profilo con `MyMovies`/`MySeries`/`MyBooks`
+in sola lettura (`readonly`, spunte consegnate con `showPublicLists()` di `src/lib/my-list.ts`). I gruppi di liste pubblicabili sono
+in due posti da tenere uguali: `PUBLIC_GROUPS` in `app.php` e in `src/lib/profiles.ts`.
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

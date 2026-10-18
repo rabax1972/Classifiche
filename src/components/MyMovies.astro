@@ -7,8 +7,10 @@ import { href } from '../lib/data';
 
 interface Props {
   list: 'visti' | 'da-vedere';
+  /** Liste di un profilo pubblico (pagina /utenti/): niente caselle da spuntare. */
+  readonly?: boolean;
 }
-const { list } = Astro.props;
+const { list, readonly = false } = Astro.props;
 const words =
   list === 'visti'
     ? { search: 'Cerca tra i film visti', loading: 'Caricamento dei film visti…', group: 'Filtra i film visti', none: 'Nessun film visto per questa ricerca o per questi filtri.' }
@@ -20,7 +22,7 @@ const multis = [
 ];
 ---
 
-<div class="my-movies" data-src={href('film/catalogo.json')} data-list={list}>
+<div class="my-movies" data-src={href('film/catalogo.json')} data-list={list} data-readonly={readonly ? '' : undefined}>
   <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">{words.loading}</p>
 
   <div class="my-body" hidden>
@@ -102,7 +104,7 @@ const multis = [
 
 <script>
   import { normalizeText } from '../lib/aggregate';
-  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, voteAndProviders } from '../lib/my-list';
+  import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, tickSource, voteAndProviders, whenVisible } from '../lib/my-list';
   import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
   import type { SeenMovie } from '../lib/types';
 
@@ -125,9 +127,8 @@ const multis = [
   for (const root of document.querySelectorAll<HTMLElement>('.my-movies')) {
     const store = root.dataset.list === WATCH ? WATCH : SEEN;
     const sortKey = `vista:ordine-${store}`;
-    // Nella pagina Film è una scheda (si carica quando si apre), nella pagina "Da vedere" è sempre visibile.
-    const panel = root.closest<HTMLElement>('.views-panel');
     const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
+    const src = tickSource(root, getTicks);
     const status = $('.my-status');
     const body = $('.my-body');
     const list = $('.my-list');
@@ -154,7 +155,7 @@ const multis = [
 
     const has = (f: SeenMovie, keys: Set<string>) => f.keys.some((k) => keys.has(k));
     const collect = () => {
-      const ticks = getTicks(store);
+      const ticks = src.get(store);
       mine = films.filter((f) => has(f, ticks) || removedHere.has(f.tmdbId));
       if (store === WATCH) {
         // Spunte senza scheda nel catalogo: si mostrano lo stesso, con i dati della chiave.
@@ -240,20 +241,20 @@ const multis = [
       };
       if (store === SEEN) {
         checks.append(
-          checkbox('Visto', f.title, has(f, getTicks(SEEN)), (on) => {
+          checkbox('Visto', f.title, has(f, src.get(SEEN)), (on) => {
             keep(on);
             tick(f, SEEN, on);
             countText();
           }).label,
         );
       } else {
-        const watch = checkbox('Da vedere', f.title, has(f, getTicks(WATCH)), (on) => {
+        const watch = checkbox('Da vedere', f.title, has(f, src.get(WATCH)), (on) => {
           keep(on);
           tick(f, WATCH, on);
           countText();
         });
         // Visto: il film esce dalla lista "da vedere" (resta in elenco, spuntato, fino al prossimo cambio di filtri).
-        const seen = checkbox('Visto', f.title, has(f, getTicks(SEEN)), (on) => {
+        const seen = checkbox('Visto', f.title, has(f, src.get(SEEN)), (on) => {
           tick(f, SEEN, on);
           if (on && watch.box.checked) {
             watch.box.checked = false;
@@ -268,7 +269,7 @@ const multis = [
         li.classList.toggle('dark:bg-emerald-950/40', seen.box.checked);
         checks.append(watch.label, seen.label);
       }
-      text.append(checks);
+      if (!src.readOnly) text.append(checks);
 
       li.append(coverBox(f.poster), text);
       return li;
@@ -276,7 +277,7 @@ const multis = [
 
     let shown: SeenMovie[] = [];
     const countText = () => {
-      const ticks = getTicks(store);
+      const ticks = src.get(store);
       const total = mine.filter((f) => has(f, ticks)).length;
       const what = store === SEEN ? 'visti' : 'da vedere';
       count.textContent = shown.length === mine.length ? `${total} film ${what}` : `${shown.length} su ${mine.length} film`;
@@ -313,7 +314,7 @@ const multis = [
       const any = mine.length > 0;
       status.hidden = any;
       body.hidden = !any;
-      if (!any) status.textContent = emptyText();
+      if (!any) status.textContent = src.readOnly ? 'Questa lista è vuota.' : emptyText();
       for (const m of multis)
         fillMulti(m, mine.flatMap((f) => (m.dataset.multi === 'provider' ? f.providers : f.genres.map((name) => ({ name, logo: null })))), changed);
       render();
@@ -340,7 +341,7 @@ const multis = [
     const refresh = batched(showAll);
     document.addEventListener(TICK_EVENT, (ev) => {
       const changedStore = (ev as CustomEvent<TickChange>).detail.store;
-      if (changingHere || !loaded || (changedStore !== store && changedStore !== SEEN)) return;
+      if (src.readOnly || changingHere || !loaded || (changedStore !== store && changedStore !== SEEN)) return;
       refresh();
     });
 
@@ -350,7 +351,7 @@ const multis = [
       if (started) return;
       started = true;
       try {
-        const res = await fetch(root.dataset.src!);
+        const [res] = await Promise.all([fetch(root.dataset.src!), src.ready]);
         if (!res.ok) throw new Error(String(res.status));
         films = ((await res.json()) as { films: SeenMovie[] }).films;
       } catch {
@@ -361,12 +362,7 @@ const multis = [
       loaded = true;
       showAll();
     };
-    if (panel) {
-      // Scheda della pagina Film: si scarica solo quando viene aperta.
-      new MutationObserver(() => {
-        if (!panel.hidden) void start();
-      }).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
-      if (!panel.hidden) void start();
-    } else void start();
+    // In una scheda (pagina Film, pagina Utenti) si scarica solo quando la scheda si apre.
+    whenVisible(root, () => void start());
   }
 </script>

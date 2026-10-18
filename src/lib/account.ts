@@ -19,11 +19,15 @@ export class ApiError extends Error {
   }
 }
 
-/** Chiamata all'API: GET senza corpo, POST con corpo JSON. Gli errori arrivano come ApiError con un messaggio da mostrare. */
+/**
+ * Chiamata all'API: GET senza corpo, POST con corpo JSON. Gli errori arrivano come ApiError con un messaggio da mostrare.
+ * Altri parametri dopo il nome dell'azione: "liste?u=nome" (valori già codificati con encodeURIComponent).
+ */
 export async function api<T>(action: string, body?: unknown, init: RequestInit = {}): Promise<T> {
+  const [name, query] = action.split('?');
   let res: Response;
   try {
-    res = await fetch(`${API}?a=${encodeURIComponent(action)}`, {
+    res = await fetch(`${API}?a=${encodeURIComponent(name!)}${query ? `&${query}` : ''}`, {
       method: body === undefined ? 'GET' : 'POST',
       headers: body === undefined ? {} : { 'Content-Type': 'application/json' },
       body: body === undefined ? undefined : JSON.stringify(body),

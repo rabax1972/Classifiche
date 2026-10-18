@@ -14,6 +14,10 @@
 //   POST ?a=elimina                    {password}              cancella l'account e tutte le spunte
 //   GET  ?a=spunte                     tutte le spunte dell'utente
 //   POST ?a=spunte                     {modifiche?: [{lista, chiave, on}], unisci?: {lista: [chiavi]}}
+//   GET  ?a=profilo                    profilo pubblico dell'utente (nome e liste pubbliche)
+//   POST ?a=profilo                    {nome, liste: [gruppi]}  o  {elimina: true}
+//   GET  ?a=pubblici                   profili pubblici, con le liste che mostrano
+//   GET  ?a=liste&u=nome               liste pubbliche di un profilo
 //   GET  ?a=backup&k=…                 copia coerente del database in mdb-database (chiave in classifiche-config.php)
 
 define('CLASSIFICHE_API', true);
@@ -211,6 +215,62 @@ switch ("$method $action") {
         respond(['liste' => ticks($user['id'])]);
     }
 
+    case 'GET profilo': {
+        $user = require_user();
+        $st = db()->prepare('SELECT nome, liste FROM profili WHERE utente = ?');
+        $st->execute([$user['id']]);
+        $row = $st->fetch();
+        respond(['nome' => $row ? $row['nome'] : null, 'liste' => $row ? public_groups($row['liste']) : []]);
+    }
+
+    case 'POST profilo': {
+        $data = body();
+        $user = require_user();
+        rate_limit('profilo:' . $user['id'], 20, 900);
+        $pdo = db();
+        if (!empty($data['elimina'])) {
+            $pdo->prepare('DELETE FROM profili WHERE utente = ?')->execute([$user['id']]);
+            respond(['nome' => null, 'liste' => []]);
+        }
+        $name = str_field($data, 'nome', 60);
+        if (preg_match(PUBLIC_NAME_PATTERN, $name) !== 1) {
+            fail(400, 'Il nome pubblico deve avere da 3 a 30 caratteri: lettere, cifre, punto, trattino o trattino basso, e iniziare con una lettera o una cifra.');
+        }
+        $groups = $data['liste'] ?? [];
+        if (!is_array($groups)) fail(400, 'Richiesta non valida.');
+        $groups = array_values(array_intersect(array_keys(PUBLIC_GROUPS), $groups));
+        $st = $pdo->prepare('SELECT utente FROM profili WHERE nome = ?');
+        $st->execute([$name]);
+        $owner = $st->fetchColumn();
+        if ($owner !== false && (int)$owner !== $user['id']) fail(409, 'Questo nome pubblico è già usato da un altro utente: scegline un altro.');
+        $pdo->prepare('INSERT INTO profili (utente, nome, liste, aggiornato) VALUES (?, ?, ?, ?)
+            ON CONFLICT(utente) DO UPDATE SET nome = excluded.nome, liste = excluded.liste, aggiornato = excluded.aggiornato')
+            ->execute([$user['id'], $name, implode(',', $groups), time()]);
+        respond(['nome' => $name, 'liste' => $groups]);
+    }
+
+    case 'GET pubblici': {
+        rate_limit('pubblici:ip:' . client_ip(), 60, 60);
+        // Senza numeri: le spunte non sono i titoli (un film importato può averne più d'una, una per variante della chiave).
+        $profiles = db()->query("SELECT nome, liste FROM profili WHERE liste != '' ORDER BY nome COLLATE NOCASE LIMIT 1000")->fetchAll();
+        respond(['profili' => array_map(fn($p) => ['nome' => $p['nome'], 'liste' => public_groups($p['liste'])], $profiles)]);
+    }
+
+    case 'GET liste': {
+        rate_limit('liste:ip:' . client_ip(), 120, 60);
+        $name = is_string($_GET['u'] ?? null) ? trim($_GET['u']) : '';
+        $st = db()->prepare("SELECT utente, nome, liste FROM profili WHERE nome = ? AND liste != ''");
+        $st->execute([$name]);
+        $p = $st->fetch();
+        if (!$p) fail(404, 'Questo profilo non esiste o non è pubblico.');
+        $groups = public_groups($p['liste']);
+        $stores = array_merge(...array_map(fn($g) => PUBLIC_GROUPS[$g], $groups));
+        $all = ticks((int)$p['utente']);
+        $lists = [];
+        foreach ($stores as $s) $lists[$s] = is_array($all) ? ($all[$s] ?? []) : [];
+        respond(['nome' => $p['nome'], 'gruppi' => $groups, 'liste' => $lists]);
+    }
+
     case 'GET backup': {
         $key = config()['chiave_backup'];
         if ($key === '' || !is_string($_GET['k'] ?? null) || !hash_equals($key, $_GET['k'])) fail(404, 'Non trovato.');
@@ -252,6 +312,11 @@ function check_password(int $userId, string $password): void {
 function valid_tick(mixed $list, mixed $key): bool {
     return is_string($list) && preg_match(LIST_PATTERN, $list) === 1
         && is_string($key) && $key !== '' && strlen($key) <= MAX_KEY_LENGTH && mb_check_encoding($key, 'UTF-8');
+}
+
+/** Gruppi pubblici validi da una colonna "liste" di profili ("film-visti,libri-letti"). */
+function public_groups(string $value): array {
+    return array_values(array_intersect(array_keys(PUBLIC_GROUPS), explode(',', $value)));
 }
 
 /** Spunte dell'utente raggruppate per lista: {"visti": ["…", …], …}. */

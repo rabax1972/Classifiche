@@ -17,6 +17,18 @@ const UNVERIFIED_DAYS = 7;
 /** Liste di spunte accettate: film visti e da vedere, serie viste, episodi visti, libri letti, titoli posseduti delle liste curate (src/lib/ticks.ts). */
 const LIST_PATTERN = '/^(visti|da-vedere|serie-viste|episodi-visti|letti|posseduti:[a-z0-9-]{1,60})$/';
 const MAX_KEY_LENGTH = 300;
+/**
+ * Liste che un utente può rendere pubbliche nel suo profilo (pagina /utenti/), con le liste di spunte che comprendono.
+ * Le stesse voci sono in src/pages/account.astro e src/pages/utenti.astro.
+ */
+const PUBLIC_GROUPS = [
+    'film-visti' => ['visti'],
+    'da-vedere' => ['da-vedere'],
+    'serie-viste' => ['serie-viste', 'episodi-visti'],
+    'libri-letti' => ['letti'],
+];
+/** Nome pubblico: lettere, cifre, punto, trattino e trattino basso, da 3 a 30 caratteri. */
+const PUBLIC_NAME_PATTERN = '/^[\p{L}\p{N}][\p{L}\p{N}._-]{2,29}$/u';
 const MAX_TICKS_PER_USER = 50000;
 
 /**
@@ -94,6 +106,15 @@ function migrate(PDO $pdo): void {
                 quando INTEGER NOT NULL
             );
             CREATE INDEX tentativi_chiave ON tentativi(chiave, quando);
+            SQL,
+        // Profili pubblici: nome scelto dall'utente e liste visibili a tutti (separate da virgola; vuoto = profilo privato).
+        2 => <<<SQL
+            CREATE TABLE profili (
+                utente INTEGER PRIMARY KEY REFERENCES utenti(id) ON DELETE CASCADE,
+                nome TEXT NOT NULL UNIQUE COLLATE NOCASE,
+                liste TEXT NOT NULL DEFAULT '',
+                aggiornato INTEGER NOT NULL
+            );
             SQL,
     ];
     $version = (int)$pdo->query('PRAGMA user_version')->fetchColumn();

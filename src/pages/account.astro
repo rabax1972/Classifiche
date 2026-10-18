@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { href } from '../lib/data';
+import { PUBLIC_GROUPS } from '../lib/profiles';
 
 // Pagina statica: tutto il contenuto si costruisce lato client con l'API in public/api/index.php (src/lib/account.ts).
 // I link delle email arrivano qui: ?conferma=… (conferma dell'indirizzo) e ?password=… (nuova password).
@@ -152,6 +153,40 @@ const summary = 'cursor-pointer font-semibold';
         )
       }
 
+      <!-- Profilo pubblico (pagina /utenti/): nome scelto e liste visibili a tutti, solo se l'utente lo attiva. -->
+      <div class="space-y-3 border-t border-gray-200 pt-4 dark:border-gray-800">
+        <h2 class="font-semibold">Profilo pubblico</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300">
+          Se vuoi, chiunque può vedere alcune delle tue liste nella pagina <a class="underline" href={href('utenti')}>Utenti</a>, con un nome
+          pubblico scelto da te. Il tuo indirizzo email non compare mai e puoi tornare privato quando vuoi.
+        </p>
+        <form data-form="profilo" class="space-y-3">
+          <div>
+            <label for="pr-nome" class={label}>Nome pubblico <span class="font-normal text-gray-600 dark:text-gray-400">(da 3 a 30 caratteri: lettere, cifre, . _ -)</span></label>
+            <input id="pr-nome" name="nome" type="text" autocomplete="nickname" maxlength="30" required class={input} />
+          </div>
+          <fieldset>
+            <legend class={label}>Liste visibili a tutti</legend>
+            <div class="mt-2 grid gap-2 sm:grid-cols-2">
+              {
+                PUBLIC_GROUPS.map((g) => (
+                  <label class="inline-flex cursor-pointer items-center gap-2 text-sm text-gray-800 dark:text-gray-200">
+                    <input type="checkbox" name="liste" value={g.id} class="size-4 cursor-pointer accent-indigo-600" />
+                    {g.label}
+                  </label>
+                ))
+              }
+            </div>
+            <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">Senza nessuna lista scelta il profilo resta privato.</p>
+          </fieldset>
+          <div class="flex flex-wrap gap-2">
+            <button type="submit" class={primary}>Salva il profilo</button>
+            <button type="button" data-profilo-elimina hidden class={secondary}>Elimina il profilo pubblico</button>
+          </div>
+          <p data-profilo-stato class="text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+        </form>
+      </div>
+
       <details class="border-t border-gray-200 pt-4 dark:border-gray-800">
         <summary class={summary}>Cambia password</summary>
         <form data-form="cambio-password" class="mt-4 space-y-4">
@@ -204,6 +239,7 @@ const summary = 'cursor-pointer font-semibold';
 <script>
   import { ApiError, api, cachedAccount, setCachedAccount, type Account } from '../lib/account';
   import { clearTicks, dropQueue, flushTicks, localTicks, mergeTicks, type TickLists } from '../lib/ticks';
+  import { PUBLIC_NAME } from '../lib/profiles';
   import { syncTrakt } from '../lib/trakt-sync';
 
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
@@ -270,6 +306,7 @@ const summary = 'cursor-pointer font-semibold';
     $('[data-totali]').textContent = totals(localTicks());
     const traktBox = document.querySelector<HTMLElement>('[data-trakt]');
     if (traktBox) traktBox.hidden = account.email.toLowerCase() !== traktBox.dataset.account;
+    void loadProfile();
   }
 
   /** Accesso riuscito: le spunte di questo browser si uniscono a quelle dell'account. */
@@ -363,6 +400,57 @@ const summary = 'cursor-pointer font-semibold';
     dropQueue();
     render(null);
     say("Account eliminato. Le spunte restano in questo browser.");
+  });
+
+  // --- Profilo pubblico (pagina /utenti/) --------------------------------------------------------------------------
+
+  const profileForm = forms('profilo');
+  const profileState = profileForm.querySelector<HTMLElement>('[data-profilo-stato]')!;
+  const profileDelete = profileForm.querySelector<HTMLButtonElement>('[data-profilo-elimina]')!;
+  const groupBoxes = [...profileForm.querySelectorAll<HTMLInputElement>('input[name=liste]')];
+  const showProfile = (p: { nome: string | null; liste: string[] }) => {
+    profileForm.querySelector<HTMLInputElement>('[name=nome]')!.value = p.nome ?? '';
+    for (const b of groupBoxes) b.checked = p.liste.includes(b.value);
+    profileDelete.hidden = !p.nome;
+    profileState.textContent = !p.nome
+      ? 'Non hai ancora un profilo pubblico.'
+      : p.liste.length
+        ? `Il tuo profilo "${p.nome}" è pubblico.`
+        : `Il tuo profilo "${p.nome}" è privato: nessuna lista è visibile.`;
+  };
+  async function loadProfile() {
+    try {
+      showProfile(await api<{ nome: string | null; liste: string[] }>('profilo'));
+    } catch {
+      profileState.textContent = '';
+    }
+  }
+  profileForm.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const button = profileForm.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    button.disabled = true;
+    quiet();
+    try {
+      const nome = profileForm.querySelector<HTMLInputElement>('[name=nome]')!.value.trim();
+      if (!PUBLIC_NAME.test(nome)) throw new Error('Il nome pubblico deve avere da 3 a 30 caratteri: lettere, cifre, punto, trattino o trattino basso.');
+      const liste = groupBoxes.filter((b) => b.checked).map((b) => b.value);
+      const p = await api<{ nome: string; liste: string[] }>('profilo', { nome, liste });
+      showProfile(p);
+      say(p.liste.length ? `Profilo pubblico salvato: le liste scelte sono visibili nella pagina Utenti come "${p.nome}".` : 'Profilo salvato: è privato, nessuna lista è visibile.');
+    } catch (err) {
+      say(errorText(err), 'errore');
+    } finally {
+      button.disabled = false;
+    }
+  });
+  profileDelete.addEventListener('click', async () => {
+    quiet();
+    try {
+      showProfile(await api<{ nome: null; liste: string[] }>('profilo', { elimina: true }));
+      say('Profilo pubblico eliminato: le tue liste non sono più visibili ad altri.');
+    } catch (err) {
+      say(errorText(err), 'errore');
+    }
   });
 
   // --- Sincronizzazione con Trakt (solo per l'account configurato) ------------------------------------------------

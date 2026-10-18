@@ -5,9 +5,15 @@
 import { href } from '../lib/data';
 
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
+
+interface Props {
+  /** Liste di un profilo pubblico (pagina /utenti/): niente caselle da spuntare. */
+  readonly?: boolean;
+}
+const { readonly = false } = Astro.props;
 ---
 
-<div class="my-books" data-src={href('libri/catalogo.json')}>
+<div class="my-books" data-src={href('libri/catalogo.json')} data-readonly={readonly ? '' : undefined}>
   <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento dei libri letti…</p>
 
   <div class="my-body" hidden>
@@ -72,7 +78,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
 
 <script>
   import { normalizeText } from '../lib/aggregate';
-  import { batched, coverBox, el, nullsLast, pref } from '../lib/my-list';
+  import { batched, coverBox, el, nullsLast, pref, tickSource, whenVisible } from '../lib/my-list';
   import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
   import type { ReadBook } from '../lib/types';
 
@@ -91,6 +97,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
 
   for (const root of document.querySelectorAll<HTMLElement>('.my-books')) {
     const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
+    const src = tickSource(root, getTicks);
     const status = $('.my-status');
     const body = $('.my-body');
     const list = $('.my-list');
@@ -116,7 +123,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
 
     const isRead = (b: ReadBook, ticks: Set<string>) => b.keys.some((k) => ticks.has(k));
     const collect = () => {
-      const ticks = getTicks(STORE);
+      const ticks = src.get(STORE);
       mine = books.filter((b) => isRead(b, ticks) || removedHere.has(b));
     };
     /** Anni di lettura presenti, dal più recente. */
@@ -173,7 +180,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
       const label = el('label', 'mt-1 inline-flex cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300');
       const box = el('input', 'size-3.5 cursor-pointer accent-sky-600');
       box.type = 'checkbox';
-      box.checked = isRead(b, getTicks(STORE));
+      box.checked = isRead(b, src.get(STORE));
       box.addEventListener('change', () => {
         if (box.checked) removedHere.delete(b);
         else removedHere.add(b);
@@ -184,14 +191,14 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
         countText();
       });
       label.append(box, 'Letto', el('span', 'sr-only', `: ${b.title}`));
-      text.append(label);
+      if (!src.readOnly) text.append(label);
       li.append(coverBox(b.cover), text);
       return li;
     };
 
     let shown: ReadBook[] = [];
     const countText = () => {
-      const ticks = getTicks(STORE);
+      const ticks = src.get(STORE);
       const total = mine.filter((b) => isRead(b, ticks)).length;
       count.textContent = shown.length === mine.length ? `${total} libri letti` : `${shown.length} su ${mine.length} libri`;
     };
@@ -219,7 +226,7 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
       const any = mine.length > 0;
       status.hidden = any;
       body.hidden = !any;
-      if (!any) status.textContent = 'Non hai ancora libri segnati come letti: spunta "Letto" nella classifica Libri o nelle liste "Libri da avere".';
+      if (!any) status.textContent = src.readOnly ? 'Questa lista è vuota.' : 'Non hai ancora libri segnati come letti: spunta "Letto" nella classifica Libri o nelle liste "Libri da avere".';
       buildYears();
       render();
     };
@@ -243,13 +250,16 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
     // Spunte arrivate dall'account o da un'altra scheda del browser (un solo aggiornamento per una raffica di eventi).
     const refresh = batched(showAll);
     document.addEventListener(TICK_EVENT, (ev) => {
-      if (changingHere || !loaded || (ev as CustomEvent<TickChange>).detail.store !== STORE) return;
+      if (src.readOnly || changingHere || !loaded || (ev as CustomEvent<TickChange>).detail.store !== STORE) return;
       refresh();
     });
 
-    void (async () => {
+    let started = false;
+    const start = async () => {
+      if (started) return;
+      started = true;
       try {
-        const res = await fetch(root.dataset.src!);
+        const [res] = await Promise.all([fetch(root.dataset.src!), src.ready]);
         if (!res.ok) throw new Error(String(res.status));
         books = ((await res.json()) as { books: ReadBook[] }).books;
       } catch {
@@ -258,6 +268,8 @@ const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 
       }
       loaded = true;
       showAll();
-    })();
+    };
+    // In una scheda (pagina Utenti) si scarica solo quando la scheda si apre.
+    whenVisible(root, () => void start());
   }
 </script>

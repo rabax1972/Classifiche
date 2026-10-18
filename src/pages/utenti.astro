@@ -1,0 +1,133 @@
+---
+import CreatorDialog from '../components/CreatorDialog.astro';
+import MyBooks from '../components/MyBooks.astro';
+import MyMovies from '../components/MyMovies.astro';
+import MySeries from '../components/MySeries.astro';
+import SeriesDialog from '../components/SeriesDialog.astro';
+import Base from '../layouts/Base.astro';
+import { allSeriesInfo, href } from '../lib/data';
+import { PUBLIC_GROUPS } from '../lib/profiles';
+import type { SeriesItem } from '../lib/types';
+
+// Profili pubblici (API: ?a=pubblici e ?a=liste&u=…): senza parametri l'elenco degli utenti che hanno reso pubbliche alcune
+// liste; con ?u=nome le liste di quell'utente, mostrate con gli stessi componenti delle proprie ma in sola lettura.
+// I titoli che il sito non conosce (fuori dai cataloghi) non compaiono.
+const withCreators: SeriesItem[] = allSeriesInfo()
+  .filter(([, info]) => info.title && info.creators.length)
+  .map(([key, info]) => ({
+    key,
+    title: info.title!,
+    creators: info.creators.map((c) => c.name).join(', '),
+    year: info.firstAired?.slice(0, 4) ?? null,
+    label: null,
+    cover: info.poster,
+    sourceUrl: `https://www.themoviedb.org/tv/${info.tmdbId}`,
+    externalId: `tmdb:tv:${info.tmdbId}`,
+  }));
+const tab =
+  '-mb-px border-b-2 border-transparent px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 aria-selected:border-indigo-600 aria-selected:text-indigo-700 dark:text-gray-400 dark:hover:text-white dark:aria-selected:border-indigo-400 dark:aria-selected:text-indigo-300';
+---
+
+<Base title="Utenti" description="Le liste di film, serie e libri che gli utenti di Classifiche Italia hanno scelto di rendere pubbliche." current="utenti">
+  <!-- Elenco dei profili pubblici. -->
+  <section data-elenco hidden>
+    <div class="mb-6 space-y-2">
+      <h1 class="text-3xl font-bold tracking-tight">Utenti</h1>
+      <p class="max-w-3xl text-gray-700 dark:text-gray-300">
+        Le liste di film, serie e libri che gli utenti hanno scelto di rendere pubbliche. Vuoi comparire anche tu? Scegli un nome pubblico e le
+        liste da mostrare nella pagina <a class="text-indigo-700 underline dark:text-indigo-300" href={href('account')}>Account</a>.
+      </p>
+    </div>
+    <p data-elenco-stato class="py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento dei profili…</p>
+    <ul data-profili class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3"></ul>
+  </section>
+
+  <!-- Liste di un profilo (?u=nome). -->
+  <section data-profilo hidden>
+    <p class="mb-2 text-sm"><a class="text-indigo-700 underline dark:text-indigo-300" href={href('utenti')}>← Tutti gli utenti</a></p>
+    <h1 class="mb-6 text-3xl font-bold tracking-tight">Le liste di <span data-nome></span></h1>
+    <p data-profilo-stato class="py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento delle liste…</p>
+    <div data-schede hidden role="tablist" aria-label="Liste" class="mb-4 flex flex-wrap gap-2 border-b border-gray-200 dark:border-gray-800">
+      {PUBLIC_GROUPS.map((g) => <button type="button" role="tab" id={`tab-${g.id}`} aria-controls={`lista-${g.id}`} aria-selected="false" tabindex="-1" data-gruppo={g.id} hidden class={tab}>{g.label}</button>)}
+    </div>
+    <section id="lista-film-visti" role="tabpanel" aria-labelledby="tab-film-visti" class="views-panel" hidden><MyMovies list="visti" readonly /></section>
+    <section id="lista-da-vedere" role="tabpanel" aria-labelledby="tab-da-vedere" class="views-panel" hidden><MyMovies list="da-vedere" readonly /></section>
+    <section id="lista-serie-viste" role="tabpanel" aria-labelledby="tab-serie-viste" class="views-panel" hidden><MySeries readonly /></section>
+    <section id="lista-libri-letti" role="tabpanel" aria-labelledby="tab-libri-letti" class="views-panel" hidden><MyBooks readonly /></section>
+    <SeriesDialog series={[]} />
+    <CreatorDialog series={withCreators} />
+  </section>
+</Base>
+
+<script>
+  import { api } from '../lib/account';
+  import { el, showPublicLists } from '../lib/my-list';
+  import { PUBLIC_GROUPS } from '../lib/profiles';
+
+  const label = Object.fromEntries(PUBLIC_GROUPS.map((g) => [g.id, g.label])) as Record<string, string>;
+  const name = new URLSearchParams(location.search).get('u')?.trim() ?? '';
+  const $ = <T extends HTMLElement = HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
+  const errorText = (err: unknown) => (err instanceof Error ? err.message : 'Qualcosa è andato storto: riprova.');
+
+  if (!name) {
+    // Elenco dei profili pubblici.
+    $('[data-elenco]').hidden = false;
+    const state = $('[data-elenco-stato]');
+    try {
+      const { profili } = await api<{ profili: { nome: string; liste: string[] }[] }>('pubblici');
+      state.hidden = profili.length > 0;
+      state.textContent = 'Nessun utente ha ancora reso pubbliche le proprie liste.';
+      $('[data-profili]').replaceChildren(
+        ...profili.map((p) => {
+          const li = el('li');
+          const a = el('a', 'block h-full rounded-xl border border-gray-200 bg-white p-4 hover:border-indigo-400 hover:shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:hover:border-indigo-500');
+          a.href = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/utenti/?u=${encodeURIComponent(p.nome)}`;
+          a.append(el('p', 'font-semibold text-indigo-700 dark:text-indigo-300', p.nome));
+          const chips = el('p', 'mt-2 flex flex-wrap gap-1.5 text-xs');
+          for (const g of p.liste) chips.append(el('span', 'rounded-full bg-gray-100 px-2 py-0.5 text-gray-700 dark:bg-gray-800 dark:text-gray-300', label[g] ?? g));
+          a.append(chips);
+          li.append(a);
+          return li;
+        }),
+      );
+    } catch (err) {
+      state.textContent = errorText(err);
+    }
+  } else {
+    // Liste di un profilo, in sola lettura.
+    $('[data-profilo]').hidden = false;
+    $('[data-nome]').textContent = name;
+    document.title = `Le liste di ${name} · Classifiche Italia`;
+    const state = $('[data-profilo-stato]');
+    try {
+      const p = await api<{ nome: string; gruppi: string[]; liste: Record<string, string[]> }>(`liste?u=${encodeURIComponent(name)}`);
+      $('[data-nome]').textContent = p.nome;
+      document.title = `Le liste di ${p.nome} · Classifiche Italia`;
+      state.hidden = true;
+      showPublicLists(p.liste);
+      const tabs = [...document.querySelectorAll<HTMLButtonElement>('[data-gruppo]')].filter((t) => p.gruppi.includes(t.dataset.gruppo!));
+      const select = (i: number, focus = false) =>
+        tabs.forEach((t, j) => {
+          t.setAttribute('aria-selected', String(i === j));
+          t.tabIndex = i === j ? 0 : -1;
+          $(`#lista-${t.dataset.gruppo}`).hidden = i !== j;
+          if (focus && i === j) t.focus();
+        });
+      tabs.forEach((t, i) => {
+        t.hidden = false;
+        t.addEventListener('click', () => select(i));
+        t.addEventListener('keydown', (e) => {
+          const n = tabs.length;
+          if (e.key === 'ArrowRight') select((i + 1) % n, true);
+          else if (e.key === 'ArrowLeft') select((i - 1 + n) % n, true);
+          else return;
+          e.preventDefault();
+        });
+      });
+      $('[data-schede]').hidden = false;
+      select(0);
+    } catch (err) {
+      state.textContent = errorText(err);
+    }
+  }
+</script>
