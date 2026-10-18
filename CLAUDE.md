@@ -60,7 +60,7 @@ Unica parte con un backend: `public/api/index.php` (+ `_inc/app.php`), PHP 8.3 s
 SQLite in `mdb-database/classifiche.sqlite` nella radice del dominio; `.htaccess` lì non vale). Registrazione con conferma email, sessioni
 in un cookie con token il cui hash sta nel DB, limiti ai tentativi, schema versionato con `PRAGMA user_version` in `migrate()`.
 Lato client tutte le spunte passano da `src/lib/ticks.ts` (localStorage + coda verso l'API + riallineamento a ogni pagina, evento
-`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `serie-viste`, `posseduti:…`) sono definite in due
+`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `posseduti:…`) sono definite in due
 posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.php`. Pagine `/account/` e `/privacy/`.
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 

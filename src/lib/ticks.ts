@@ -1,5 +1,5 @@
-// Spunte dell'utente (film visti, serie viste, titoli posseduti delle liste curate), lato client.
-// Ogni lista vive nel localStorage con il proprio nome ("visti", "serie-viste", "posseduti:…"), così il sito funziona anche
+// Spunte dell'utente (film visti, serie viste, episodi visti, titoli posseduti delle liste curate), lato client.
+// Ogni lista vive nel localStorage con il proprio nome ("visti", "serie-viste", "episodi-visti", "posseduti:…"), così il sito funziona anche
 // senza account. Con l'account collegato ogni cambio va anche in una coda inviata all'API, e a ogni pagina le liste locali
 // vengono riallineate a quelle del server (più i cambi ancora in coda). Ogni cambio è annunciato con TICK_EVENT.
 
@@ -7,7 +7,7 @@ import { ApiError, api, cachedAccount, setCachedAccount } from './account';
 
 export const TICK_EVENT = 'spunte:cambio';
 /** Stesso schema di LIST_PATTERN in public/api/_inc/app.php. */
-const STORE_PATTERN = /^(visti|serie-viste|posseduti:[a-z0-9-]{1,60})$/;
+const STORE_PATTERN = /^(visti|serie-viste|episodi-visti|posseduti:[a-z0-9-]{1,60})$/;
 const QUEUE = 'spunte:coda';
 
 export interface TickChange {
@@ -140,13 +140,22 @@ export function flushTicks(): Promise<boolean> {
 }
 
 export function setTick(store: string, key: string, on: boolean) {
-  const keys = getTicks(store);
-  if (on) keys.add(key);
-  else keys.delete(key);
-  saveTicks(store, keys);
-  announce([{ store, key, on }]);
+  setTicks(store, [key], on);
+}
+
+/** Più spunte della stessa lista in una volta (es. tutti gli episodi di una stagione): una sola scrittura e un solo invio. */
+export function setTicks(store: string, keys: readonly string[], on: boolean) {
+  const current = getTicks(store);
+  const changed = keys.filter((key) => current.has(key) !== on);
+  if (!changed.length) return;
+  for (const key of changed) {
+    if (on) current.add(key);
+    else current.delete(key);
+  }
+  saveTicks(store, current);
+  announce(changed.map((key) => ({ store, key, on })));
   if (cachedAccount()) {
-    writeJson(QUEUE, [...readQueue(), { lista: store, chiave: key, on }]);
+    writeJson(QUEUE, [...readQueue(), ...changed.map((key) => ({ lista: store, chiave: key, on }))]);
     clearTimeout(flushTimer);
     flushTimer = setTimeout(flushTicks, 400);
   }

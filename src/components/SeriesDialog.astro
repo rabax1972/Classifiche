@@ -95,6 +95,11 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
           <p id="series-ep-show" class="text-sm text-gray-600 dark:text-gray-400"></p>
           <h3 id="series-ep-title" tabindex="-1" class="text-xl leading-tight font-bold outline-none"></h3>
           <p id="series-ep-meta" class="mt-0.5 text-sm text-gray-600 dark:text-gray-400"></p>
+          <!-- Episodi visti della stagione (spunte in src/lib/ticks.ts, lista "episodi-visti"). -->
+          <div id="series-ep-progress" class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm" hidden>
+            <span id="series-ep-count" class="font-medium text-emerald-800 tabular-nums dark:text-emerald-300" aria-live="polite"></span>
+            <button id="series-ep-all" type="button" class="cursor-pointer rounded-lg border border-gray-300 px-2.5 py-1 text-xs font-medium hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800"></button>
+          </div>
         </div>
         <!-- Episodi scaricati alla scelta della stagione (src/pages/serie-tv/episodi/[id]/[stagione].json.ts). -->
         <div id="series-episodes" aria-live="polite"></div>
@@ -108,9 +113,29 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
   </div>
 </dialog>
 
+<!-- Dopo "Vista" su una serie (dalla classifica o dalla scheda): proposta di segnare come visti anche tutti gli episodi già usciti. -->
+<dialog
+  id="series-all-episodes"
+  aria-labelledby="series-all-episodes-title"
+  aria-describedby="series-all-episodes-text"
+  class="m-auto w-[calc(100%-2rem)] max-w-md rounded-2xl bg-white p-6 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <h2 id="series-all-episodes-title" class="text-lg leading-tight font-bold">Segnare come visti anche gli episodi?</h2>
+  <p id="series-all-episodes-text" class="mt-2 text-sm text-gray-700 dark:text-gray-300"></p>
+  <form method="dialog" class="mt-5 flex flex-wrap justify-end gap-2">
+    <button value="no" class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800">
+      Solo la serie
+    </button>
+    <button value="si" autofocus class="cursor-pointer rounded-lg bg-emerald-700 px-3 py-2 text-sm font-semibold text-white hover:bg-emerald-800 dark:bg-emerald-600 dark:hover:bg-emerald-500">
+      Sì, tutti gli episodi
+    </button>
+  </form>
+</dialog>
+
 <script>
   import { providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
-  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+  import { SEEN_CHOICE_EVENT, SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+  import { TICK_EVENT, getTicks, setTick, setTicks, type TickChange } from '../lib/ticks';
   import { SERIES_STATUS, type EpisodeInfo, type SeasonEpisodes, type SeasonSummary, type SeriesCard } from '../lib/types';
 
   const dialog = document.querySelector<HTMLDialogElement>('#series-dialog');
@@ -151,13 +176,25 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
       return seasonFiles.get(url)!;
     };
 
-    /** Scheda di un episodio: riga con numero, titolo e data; aperta, fotogramma, dati, trama, regia e sceneggiatura. */
-    const episodeCard = (e: EpisodeInfo, seasonN: number) => {
-      const details = el('details', 'group rounded-lg border border-gray-200 open:bg-gray-50 dark:border-gray-800 dark:open:bg-gray-800/40');
+    // ---- Episodi visti: chiave "idTMDB:stagione:episodio", comune a tutte le pagine (e all'account).
+    const EPISODES_STORE = 'episodi-visti';
+    const episodeKey = (id: number, season: number, n: number) => `${id}:${season}:${n}`;
+    const aired = (e: EpisodeInfo) => Boolean(e.date && e.date <= today);
+    const SEEN_CARD = ['border-emerald-300', 'bg-emerald-50/60', 'dark:border-emerald-900', 'dark:bg-emerald-950/30'];
+    const showEpisodeSeen = (box: HTMLInputElement, seen: boolean) => {
+      box.checked = seen;
+      const details = box.closest('li')!.querySelector('details')!;
+      for (const c of SEEN_CARD) details.classList.toggle(c, seen);
+    };
+
+    /** Scheda di un episodio: casella "Visto" e riga con numero, titolo e data; aperta, fotogramma, dati, trama, regia e sceneggiatura. */
+    const episodeCard = (e: EpisodeInfo, seasonN: number, id: number, seen: Set<string>) => {
+      const details = el('details', 'group min-w-0 flex-1 rounded-lg border border-gray-200 open:bg-gray-50 dark:border-gray-800 dark:open:bg-gray-800/40');
       const summary = el('summary', 'flex cursor-pointer list-none items-baseline gap-2 px-3 py-2 text-sm [&::-webkit-details-marker]:hidden');
-      const upcoming = !e.date || e.date > today;
+      const upcoming = !aired(e);
+      const code = seasonN ? `${seasonN}×${String(e.n).padStart(2, '0')}` : `Sp. ${e.n}`;
       summary.append(
-        el('span', 'w-12 shrink-0 text-xs text-gray-500 tabular-nums dark:text-gray-400', seasonN ? `${seasonN}×${String(e.n).padStart(2, '0')}` : `Sp. ${e.n}`),
+        el('span', 'w-12 shrink-0 text-xs text-gray-500 tabular-nums dark:text-gray-400', code),
         el('span', 'min-w-0 flex-1 font-medium break-words', e.title),
         el('span', `shrink-0 text-xs ${upcoming ? 'font-medium text-indigo-700 dark:text-indigo-300' : 'text-gray-500 dark:text-gray-400'}`, e.date ? (upcoming ? `in arrivo, ${shortFmt.format(new Date(`${e.date}T00:00:00Z`))}` : shortFmt.format(new Date(`${e.date}T00:00:00Z`))) : 'data da annunciare'),
       );
@@ -214,8 +251,19 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
         },
         { once: true },
       );
-      const li = el('li');
-      li.append(details);
+      // Fuori dal <summary>, così il clic sulla casella non apre la scheda. Gli episodi non ancora usciti non si possono spuntare.
+      const label = el('label', `flex shrink-0 items-center px-1 py-2.5 ${upcoming ? 'cursor-not-allowed opacity-40' : 'cursor-pointer'}`);
+      const box = el('input', 'size-4 cursor-[inherit] accent-emerald-600');
+      box.type = 'checkbox';
+      box.dataset.episode = episodeKey(id, seasonN, e.n);
+      box.disabled = upcoming;
+      box.title = upcoming ? 'Non ancora uscito' : 'Visto';
+      box.setAttribute('aria-label', `Visto: ${code} ${e.title}`);
+      box.addEventListener('change', () => setTick(EPISODES_STORE, box.dataset.episode!, box.checked));
+      label.append(box);
+      const li = el('li', 'flex items-start gap-1');
+      li.append(label, details);
+      showEpisodeSeen(box, seen.has(box.dataset.episode));
       return li;
     };
 
@@ -256,6 +304,8 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
       episodesView.scrollIntoView({ block: 'start' });
       $('series-ep-title').focus({ preventScroll: true });
 
+      shown = null;
+      $('series-ep-progress').hidden = true;
       episodesBox.replaceChildren(el('p', 'text-sm text-gray-600 dark:text-gray-400', 'Caricamento degli episodi…'));
       const data = await loadSeason(id, season.n);
       if (token !== wanted) return;
@@ -263,11 +313,85 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
         episodesBox.replaceChildren(el('p', 'text-sm text-gray-600 dark:text-gray-400', 'Gli episodi di questa stagione non sono ancora disponibili: saranno completati nei prossimi aggiornamenti.'));
         return;
       }
+      const seen = getTicks(EPISODES_STORE);
       const list = el('ol', 'space-y-1.5');
       list.setAttribute('aria-label', `Episodi: ${season.name}`);
-      list.append(...data.episodes.map((e) => episodeCard(e, season.n)));
+      list.append(...data.episodes.map((e) => episodeCard(e, season.n, id, seen)));
       episodesBox.replaceChildren(list);
+      shown = { id, season: season.n, keys: data.episodes.filter(aired).map((e) => episodeKey(id, season.n, e.n)) };
+      updateProgress();
     };
+
+    /** Stagione mostrata: chiavi degli episodi già usciti, per il conteggio e "Segna tutti come visti". */
+    let shown: { id: number; season: number; keys: string[] } | null = null;
+    const allButton = $<HTMLButtonElement>('series-ep-all');
+    const updateProgress = () => {
+      const box = $('series-ep-progress');
+      box.hidden = !shown?.keys.length;
+      if (!shown?.keys.length) return;
+      const seen = getTicks(EPISODES_STORE);
+      const have = shown.keys.filter((k) => seen.has(k)).length;
+      const total = shown.keys.length;
+      $('series-ep-count').textContent = have === total ? `Tutti visti (${total})` : `${have} di ${total} ${total === 1 ? 'visto' : 'visti'}`;
+      allButton.textContent = have === total ? 'Togli tutte le spunte' : 'Segna tutti come visti';
+      allButton.dataset.mark = String(have !== total);
+    };
+    allButton.addEventListener('click', () => {
+      if (shown) setTicks(EPISODES_STORE, shown.keys, allButton.dataset.mark === 'true');
+    });
+
+    // Serie segnata come vista: se ha episodi già usciti non ancora spuntati, si propone di segnarli tutti (speciali esclusi).
+    const bySeenKey = new Map(Object.values(series).map((s) => [s.seenKey, s]));
+    const confirmAll = document.querySelector<HTMLDialogElement>('#series-all-episodes')!;
+    document.addEventListener(SEEN_CHOICE_EVENT, async (ev) => {
+      const { list, key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      const s = list === 'serie' && seen ? bySeenKey.get(key) : undefined;
+      const info = s?.info;
+      if (!s || !info) return;
+      const seasons = info.seasonList.filter((x) => x.n > 0 && x.episodes > 0);
+      const files = await Promise.all(seasons.map((x) => loadSeason(info.tmdbId, x.n)));
+      const done = getTicks(EPISODES_STORE);
+      const missing = files.flatMap((f, i) =>
+        (f?.episodes ?? []).filter(aired).map((e) => episodeKey(info.tmdbId, seasons[i]!.n, e.n)).filter((k) => !done.has(k)),
+      );
+      // Niente da proporre, o spunta già tolta mentre si scaricavano le stagioni.
+      if (!missing.length || !seenKeys('serie').has(key) || confirmAll.open) return;
+      const inSeasons = new Set(missing.map((k) => k.split(':')[1])).size;
+      confirmAll.querySelector('#series-all-episodes-text')!.textContent =
+        `Hai segnato «${s.title}» come vista. Vuoi segnare come ` +
+        (missing.length === 1 ? "visto anche l'unico episodio già uscito che non hai ancora spuntato" : `visti anche i ${numFmt.format(missing.length)} episodi già usciti che non hai ancora spuntato`) +
+        (inSeasons > 1 ? `, in ${plural(inSeasons, 'stagione', 'stagioni')}?` : '?');
+      confirmAll.querySelector('button[value=si]')!.textContent = missing.length === 1 ? "Sì, anche l'episodio" : 'Sì, tutti gli episodi';
+      confirmAll.returnValue = '';
+      confirmAll.showModal();
+      confirmAll.addEventListener('close', () => confirmAll.returnValue === 'si' && setTicks(EPISODES_STORE, missing, true), { once: true });
+    });
+
+    /** Episodi visti di una stagione, accanto al nome nell'elenco delle stagioni. */
+    const seasonSeen = (id: number, n: number, seen = getTicks(EPISODES_STORE)) => {
+      const prefix = `${id}:${n}:`;
+      let count = 0;
+      for (const k of seen) if (k.startsWith(prefix)) count++;
+      return count;
+    };
+    const updateSeasonCounts = () => {
+      const seen = getTicks(EPISODES_STORE);
+      for (const span of seasonsList.querySelectorAll<HTMLElement>('[data-seen-count]')) {
+        const n = seasonSeen(Number(span.dataset.id), Number(span.dataset.season), seen);
+        span.textContent = n ? `✓ ${n}` : '';
+        span.hidden = !n;
+      }
+    };
+
+    // Spunta cambiata qui, da "Segna tutti" o arrivata dall'account (src/lib/ticks.ts).
+    document.addEventListener(TICK_EVENT, (ev) => {
+      const { store, key, on } = (ev as CustomEvent<TickChange>).detail;
+      if (store !== EPISODES_STORE) return;
+      const box = episodesBox.querySelector<HTMLInputElement>(`input[data-episode="${CSS.escape(key)}"]`);
+      if (box) showEpisodeSeen(box, on);
+      updateProgress();
+      updateSeasonCounts();
+    });
 
     // Serie mostrata nella modale, per la spunta "L'ho vista" (chiave comune a tutte le stagioni).
     let current: string | null = null;
@@ -339,8 +463,15 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
           );
           b.type = 'button';
           b.dataset.season = String(x.n);
+          const seenCount = el('span', 'ml-auto shrink-0 text-xs font-medium text-emerald-700 tabular-nums group-aria-[current=true]:text-white dark:text-emerald-400');
+          if (info) Object.assign(seenCount.dataset, { seenCount: '', id: String(info.tmdbId), season: String(x.n) });
+          seenCount.setAttribute('aria-hidden', 'true');
+          const seen = info ? seasonSeen(info.tmdbId, x.n) : 0;
+          seenCount.textContent = seen ? `✓ ${seen}` : '';
+          seenCount.hidden = !seen;
           b.append(
             el('span', 'font-medium', x.name),
+            seenCount,
             el('span', 'hidden shrink-0 text-xs text-gray-500 tabular-nums group-aria-[current=true]:text-indigo-100 sm:inline dark:text-gray-400', [x.date?.slice(0, 4), `${x.episodes} ep.`].filter(Boolean).join(' · ')),
           );
           b.setAttribute('aria-label', `${x.name}: ${plural(x.episodes, 'episodio', 'episodi')}${x.date ? `, dal ${x.date.slice(0, 4)}` : ''}`);

@@ -217,14 +217,16 @@ const summary = 'cursor-pointer font-semibold';
   function totals(lists: TickLists): string {
     let film = 0;
     let serie = 0;
+    let episodes = 0;
     let owned = 0;
     for (const [store, keys] of Object.entries(lists)) {
       if (store === 'visti') film += keys.length;
       else if (store === 'serie-viste') serie += keys.length;
+      else if (store === 'episodi-visti') episodes += keys.length;
       else owned += keys.length;
     }
     const n = (count: number, one: string, many: string) => `${count} ${count === 1 ? one : many}`;
-    return `Spunte salvate: ${n(film, 'film visto', 'film visti')}, ${n(serie, 'serie vista', 'serie viste')}, ${n(owned, 'titolo posseduto', 'titoli posseduti')}.`;
+    return `Spunte salvate: ${n(film, 'film visto', 'film visti')}, ${n(serie, 'serie vista', 'serie viste')}, ${n(episodes, 'episodio visto', 'episodi visti')}, ${n(owned, 'titolo posseduto', 'titoli posseduti')}.`;
   }
 
   function render(account: Account | null) {

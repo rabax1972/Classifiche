@@ -8,6 +8,8 @@ import { TICK_EVENT, getTicks, setTick, type TickChange } from './ticks';
 export type SeenList = 'film' | 'serie';
 const STORE: Record<SeenList, string> = { film: 'visti', serie: 'serie-viste' };
 export const SEEN_EVENT = 'visti:cambio';
+/** Solo le spunte messe dall'utente (non quelle arrivate dall'account): es. per proporre di segnare anche gli episodi. */
+export const SEEN_CHOICE_EVENT = 'visti:scelta';
 
 export interface SeenChange {
   list: SeenList;
@@ -26,6 +28,8 @@ export function seenKeys(list: SeenList): Set<string> {
   return getTicks(STORE[list]);
 }
 
+/** Spunta messa o tolta dall'utente (dalla classifica o dalla scheda). */
 export function setSeen(list: SeenList, key: string, seen: boolean) {
   setTick(STORE[list], key, seen);
+  document.dispatchEvent(new CustomEvent<SeenChange>(SEEN_CHOICE_EVENT, { detail: { list, key, seen } }));
 }

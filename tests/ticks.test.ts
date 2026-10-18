@@ -23,6 +23,7 @@ describe('isTickStore', () => {
   it('accetta solo le liste note (come LIST_PATTERN nell\'API PHP)', () => {
     expect(isTickStore('visti')).toBe(true);
     expect(isTickStore('serie-viste')).toBe(true);
+    expect(isTickStore('episodi-visti')).toBe(true);
     expect(isTickStore('posseduti:album-da-avere')).toBe(true);
     expect(isTickStore('vista:visti')).toBe(false);
     expect(isTickStore('tema')).toBe(false);
