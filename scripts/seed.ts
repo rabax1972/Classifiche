@@ -3,7 +3,9 @@
 // poi genera le classifiche. Si può rilanciare senza problemi.
 
 import { buildCharts } from './aggregate';
+import { buildImdbTop } from './imdb-top';
 import { ingest } from './ingest';
 
 await ingest({ seed: true });
+await buildImdbTop();
 await buildCharts();

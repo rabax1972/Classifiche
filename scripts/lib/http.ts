@@ -58,6 +58,15 @@ function isRetryable(status: number) {
 }
 
 export async function fetchText(url: string, opts: FetchOptions = {}): Promise<string> {
+  return (await fetchBody(url, opts)).toString('utf8');
+}
+
+/** Come fetchText, ma restituisce i byte (es. archivi .gz). */
+export async function fetchBuffer(url: string, opts: FetchOptions = {}): Promise<Buffer> {
+  return fetchBody(url, opts);
+}
+
+async function fetchBody(url: string, opts: FetchOptions): Promise<Buffer> {
   const { headers = {}, retries = 3, timeoutMs = 30_000, cacheTtlMs } = opts;
 
   const cacheFile = cacheTtlMs
@@ -65,7 +74,7 @@ export async function fetchText(url: string, opts: FetchOptions = {}): Promise<s
     : null;
   if (cacheFile) {
     const s = await stat(cacheFile).catch(() => null);
-    if (s && Date.now() - s.mtimeMs < cacheTtlMs!) return readFile(cacheFile, 'utf8');
+    if (s && Date.now() - s.mtimeMs < cacheTtlMs!) return readFile(cacheFile);
   }
 
   const host = new URL(url).host;
@@ -78,9 +87,9 @@ export async function fetchText(url: string, opts: FetchOptions = {}): Promise<s
         headers: { 'User-Agent': USER_AGENT, Accept: '*/*', ...headers },
         signal: AbortSignal.timeout(timeoutMs),
       });
-      const body = await res.text();
+      const body = Buffer.from(await res.arrayBuffer());
       if (!res.ok) {
-        const err = new HttpError(res.status, url, body);
+        const err = new HttpError(res.status, url, body.toString('utf8'));
         if (!isRetryable(res.status)) throw err;
         const retryAfter = Number(res.headers.get('retry-after'));
         if (retryAfter > 0) await sleep(Math.min(60, retryAfter) * 1000);

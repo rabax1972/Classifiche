@@ -63,6 +63,12 @@ export const SOURCES: Record<string, SourceInfo> = {
     homepage: 'https://www.netflix.com/tudum/top10',
     attribution: 'Classifica settimanale ufficiale Netflix Top 10 per l\'Italia.',
   },
+  imdb: {
+    id: 'imdb',
+    name: 'IMDb',
+    homepage: 'https://www.imdb.com/chart/top/',
+    attribution: 'Information courtesy of IMDb (https://www.imdb.com). Used with permission. Dataset non commerciali di IMDb, uso personale e non commerciale.',
+  },
 };
 
 export interface CategoryConfig {

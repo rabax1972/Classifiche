@@ -2,12 +2,13 @@
 
 import { pathToFileURL } from 'node:url';
 import { entryKey, toDailyLists } from '../src/lib/aggregate';
-import { buildPeriodChart, type CoverResolver } from '../src/lib/build';
+import { buildPeriodChart, rankingView, type CoverResolver } from '../src/lib/build';
 import { CATEGORIES } from '../src/lib/sources';
 import { CATEGORY_IDS, PERIOD_IDS, type OfficialChart } from '../src/lib/types';
 import { ITUNES_COVER_CACHE, type ItunesCover } from './adapters/apple';
 import { COVER_CACHE, coverKey, mediaFor, type CoverLookup } from './adapters/tmdb';
-import { MetaCache, readOfficial, readSnapshots, saveChart, todayInItaly } from './lib/store';
+import { IMDB_TOP_FILE, IMDB_TOP_NOTE } from './imdb-top';
+import { MetaCache, readJson, readOfficial, readSnapshots, saveChart, todayInItaly } from './lib/store';
 
 export async function buildCharts() {
   const today = todayInItaly();
@@ -21,6 +22,10 @@ export async function buildCharts() {
     return undefined;
   };
 
+  // IMDb Top 100 (scripts/imdb-top.ts): scheda in più della pagina Film, uguale per tutti i periodi.
+  const imdbTop = await readJson<OfficialChart>(IMDB_TOP_FILE);
+  const imdbView = imdbTop ? rankingView(imdbTop, 'IMDb Top 100', IMDB_TOP_NOTE) : null;
+
   console.log(`Aggregazione ${today}`);
   for (const category of CATEGORY_IDS) {
     const cfg = CATEGORIES[category];
@@ -31,6 +36,7 @@ export async function buildCharts() {
         ? (await readOfficial(category, o.periodType)).filter((c) => c.source === o.source)
         : [];
       const chart = buildPeriodChart({ category, period, lists, official, resolveCover, today, generatedAt });
+      if (category === 'film' && imdbView) chart.views.push(imdbView);
       await saveChart(chart);
       const summary = chart.views.map((v) => `${v.label}: ${v.entries.length}`).join(', ') || 'vuota';
       console.log(`- ${category}/${period}: ${summary}`);

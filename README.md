@@ -37,6 +37,7 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
   - gli snapshot TMDB più vecchi di 180 giorni vengono cancellati automaticamente;
   - l'"Anno" calcolato per Cinema, Film e Serie TV copre quindi gli ultimi 180 giorni;
   - anche le cache di registi e copertine scadono dopo 150 giorni.
+- **IMDb**: il robots.txt e le Conditions of Use di imdb.com vietano lo scraping, quindi le sue pagine non vengono lette. La scheda "IMDb Top 100" della pagina Film usa i [dataset non commerciali](https://developer.imdb.com/non-commercial-datasets/) (`title.ratings.tsv.gz`, uso personale e non commerciale, con attribuzione), scaricati al massimo una volta a settimana da `npm run imdb:top`: media bayesiana della Top 250 storica (almeno 25.000 voti), film riconosciuti con `/find` di TMDB (scartati quelli con meno di 1.000 voti TMDB e i film per la TV), primi 100 ordinati per voto. Risultato in `data/official/film/imdb-top.json`, aggiunto da `aggregate` a tutti i periodi di Film.
 - **Netflix**: il robots.txt di netflix.com blocca i crawler generici. Il file TSV della Top 10 è però pubblicato da Netflix appositamente per il download. Lo scarichiamo al massimo una volta al giorno, e solo quando manca la settimana più recente.
 
 ## Setup
@@ -54,11 +55,12 @@ npm run dev                # http://localhost:4321
 |---|---|
 | `npm run ingest` | Raccoglie le classifiche di oggi da tutte le fonti |
 | `npm run aggregate` | Ricalcola `data/charts/` dagli snapshot e dalle classifiche ufficiali |
-| `npm run update` | `ingest` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`, `info:serie`): quello che fa il cron |
+| `npm run update` | `ingest` + `imdb:top` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`, `info:serie`): quello che fa il cron |
 | `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
 | `npm run info:canzoni` | Completa le schede di brani e artisti (`-- --all` senza limite di richieste) |
 | `npm run info:libri` | Completa le schede di libri e autori e le edizioni gratuite dei libri di pubblico dominio (`-- --all` senza limite) |
 | `npm run info:film` | Completa le schede di film e registi di Cinema e Film (`-- --all` senza limite; richiede la chiave TMDB) |
+| `npm run imdb:top` | Scheda "IMDb Top 100" della pagina Film dai dataset IMDb, se ha più di una settimana (`-- --force` per rifarla; richiede la chiave TMDB) |
 | `npm run info:serie` | Completa le schede di serie e creatori di Serie TV e gli episodi di ogni stagione (`-- --all` senza limite; richiede la chiave TMDB) |
 | `npm run covers:album` | Completa le copertine mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run tracks:album` | Completa le tracklist mancanti delle liste di album (`-- --force` per rifarle tutte) |
@@ -226,7 +228,7 @@ I file CSS e JS hanno l'hash nel nome: quelli vecchi rimasti sul server non dann
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Netflix Top 10. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
+Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Netflix Top 10. Voti IMDb: Information courtesy of IMDb (https://www.imdb.com). Used with permission. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
 
 Schede: introduzioni e biografie da Wikipedia (CC BY-SA 4.0), foto da Wikimedia Commons con autore e licenza, presentazioni degli editori da Apple Books, trame e dati di film e serie da TMDB, disponibilità in streaming da JustWatch.
 

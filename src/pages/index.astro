@@ -2,7 +2,8 @@
 import ChangeBadge from '../components/ChangeBadge.astro';
 import Cover from '../components/Cover.astro';
 import Base from '../layouts/Base.astro';
-import { formatDay, getChart, getCuratedList, href } from '../lib/data';
+import { movieSubtitle } from '../lib/aggregate';
+import { formatDay, getChart, getCuratedList, getMovieInfo, href } from '../lib/data';
 import { CATEGORIES, PERIODS, SOURCES } from '../lib/sources';
 import { CATEGORY_IDS, type PeriodId } from '../lib/types';
 
@@ -16,9 +17,42 @@ const cards = CATEGORY_IDS.map((id) => {
   return { id, period: 'oggi' as PeriodId, chart: null, view: null };
 });
 
-const curated = [
-  { list: getCuratedList('album-da-avere'), poster: false, label: 'album' },
-  { list: getCuratedList('libri-da-avere'), poster: true, label: 'libri' },
+// Le liste da avere, precedute dai film della scheda "IMDb Top 100" della pagina Film (uguale per tutti i periodi).
+const imdb = getChart('film', 'oggi')?.views.find((v) => v.sources[0] === 'imdb');
+const filmPage = href('film/oggi');
+const blocks = [
+  ...(imdb
+    ? [
+        {
+          id: 'film-imdb',
+          title: 'I 100 film che devi aver visto',
+          source: 'IMDb Top 100',
+          path: `${filmPage}#imdb`,
+          poster: true,
+          label: 'film',
+          entries: imdb.entries.slice(0, 6).map((e) => ({
+            rank: e.rank,
+            title: e.title,
+            creator: movieSubtitle(e.subtitle).directors ?? '',
+            cover: getMovieInfo(e.key)?.poster ?? e.cover,
+            // Apre la scheda del film nella pagina Film (src/lib/dialogs.ts).
+            href: `${filmPage}#film=${encodeURIComponent(e.key)}`,
+          })),
+        },
+      ]
+    : []),
+  ...[
+    { list: getCuratedList('album-da-avere'), poster: false, label: 'album' },
+    { list: getCuratedList('libri-da-avere'), poster: true, label: 'libri' },
+  ].map(({ list, poster, label }) => ({
+    id: list.id,
+    title: list.title,
+    source: list.listSource,
+    path: href(list.path),
+    poster,
+    label,
+    entries: list.entries.slice(0, 6).map((e) => ({ rank: e.rank, title: e.title, creator: e.creator, cover: e.cover, href: `${href(list.path)}#n${e.rank}` })),
+  })),
 ];
 ---
 
@@ -78,18 +112,18 @@ const curated = [
   </div>
 
   {
-    curated.map(({ list, poster, label }) => (
-      <section class="mt-10 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900" aria-labelledby={`h-${list.id}`}>
+    blocks.map(({ id, title, source, path, poster, label, entries }) => (
+      <section class="mt-10 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900" aria-labelledby={`h-${id}`}>
         <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-          <h2 id={`h-${list.id}`} class="text-xl font-bold">
-            <a href={href(list.path)} class="hover:underline">{list.title}</a>
+          <h2 id={`h-${id}`} class="text-xl font-bold">
+            <a href={path} class="hover:underline">{title}</a>
           </h2>
-          <span class="text-xs font-medium text-gray-500 dark:text-gray-400">{list.listSource}</span>
+          <span class="text-xs font-medium text-gray-500 dark:text-gray-400">{source}</span>
         </div>
         <ol class="mb-4 grid grid-cols-3 gap-3 sm:grid-cols-6">
-          {list.entries.slice(0, 6).map((e) => (
+          {entries.map((e) => (
             <li>
-              <a href={`${href(list.path)}#n${e.rank}`} class="group block">
+              <a href={e.href} class="group block">
                 <img
                   src={e.cover}
                   alt=""
@@ -108,7 +142,7 @@ const curated = [
             </li>
           ))}
         </ol>
-        <a href={href(list.path)} class="text-sm font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
+        <a href={path} class="text-sm font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
           Tutti i 100 {label} →
         </a>
       </section>

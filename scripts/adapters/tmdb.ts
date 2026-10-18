@@ -26,6 +26,8 @@ export interface TmdbItem {
   poster_path?: string | null;
   popularity?: number;
   media_type?: string;
+  vote_count?: number;
+  genre_ids?: number[];
 }
 
 interface TmdbPage {
@@ -106,7 +108,7 @@ async function people(media: Media, id: number, cache: MetaCache<string | null>)
   return value;
 }
 
-async function withPeople(items: TmdbItem[], media: Media, source: string): Promise<ChartEntry[]> {
+export async function withPeople(items: TmdbItem[], media: Media, source: string, limit = 50): Promise<ChartEntry[]> {
   const cache = await new MetaCache<string | null>('tmdb-people', META_MAX_AGE_DAYS).load();
   const entries: ChartEntry[] = [];
   for (const [i, item] of items.entries()) {
@@ -117,7 +119,7 @@ async function withPeople(items: TmdbItem[], media: Media, source: string): Prom
     entries.push(e);
   }
   await cache.save();
-  return cleanEntries(entries);
+  return cleanEntries(entries, limit);
 }
 
 function dedupe(items: TmdbItem[]): TmdbItem[] {

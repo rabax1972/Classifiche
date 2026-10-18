@@ -338,8 +338,17 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                           : e.subtitle}
                       </p>
                     )}
-                    {Boolean(rowInfo[i]?.vote || rowInfo[i]?.providers.length) && (
+                    {Boolean(e.rating || rowInfo[i]?.vote || rowInfo[i]?.providers.length) && (
                       <div class="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                        {e.rating && (
+                          <span
+                            class="inline-flex items-center gap-1 rounded-md bg-yellow-300 px-1.5 py-0.5 text-xs font-semibold text-black tabular-nums"
+                            title={`Voto medio su ${sourceName(e.source)} (${e.rating.votes.toLocaleString('it-IT')} voti)`}
+                          >
+                            <span class="font-extrabold tracking-tight">{sourceName(e.source)}</span>
+                            {voteText(e.rating.value)}
+                          </span>
+                        )}
                         {rowInfo[i]!.vote && (
                           <span
                             class="inline-flex items-center gap-1 rounded-md bg-amber-50 px-1.5 py-0.5 text-xs font-semibold text-amber-900 tabular-nums ring-1 ring-amber-200 dark:bg-amber-950/60 dark:text-amber-200 dark:ring-amber-900"

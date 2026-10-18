@@ -41,6 +41,23 @@ export function officialView(charts: OfficialChart[], resolveCover?: CoverResolv
 }
 
 /**
+ * Classifica fissa, uguale per tutti i periodi (es. IMDb Top 100 nella pagina Film), mostrata come scheda in più.
+ * Le righe restano nell'ordine e nel numero del file, senza variazioni.
+ */
+export function rankingView(chart: OfficialChart, label: string, note?: string): ChartView {
+  return {
+    kind: 'official',
+    label,
+    sources: [chart.source],
+    periodLabel: chart.periodLabel,
+    from: chart.periodKey,
+    to: chart.periodKey,
+    note,
+    entries: rankList(chart.entries, chart.entries.length),
+  };
+}
+
+/**
  * Giorni massimi utilizzabili per una categoria, in base ai limiti di conservazione delle sue fonti.
  * Es. TMDB: 180 giorni, quindi l'"Anno" calcolato copre gli ultimi 180 giorni.
  */

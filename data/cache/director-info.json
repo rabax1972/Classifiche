@@ -150,6 +150,89 @@
     },
     "fetchedAt": "2026-10-17T09:31:06.002Z"
   },
+  "akira kurosawa": {
+    "value": {
+      "tmdbId": 5026,
+      "wiki": {
+        "lang": "it",
+        "title": "Akira Kurosawa",
+        "url": "https://it.wikipedia.org/wiki/Akira_Kurosawa",
+        "extract": "Akira Kurosawa (黒澤明?, 黒沢明?, Kurosawa Akira; Tokyo, 23 marzo 1910 – Tokyo, 6 settembre 1998) è stato un regista, sceneggiatore, montatore, produttore cinematografico e scrittore giapponese, considerato tra i maggiori cineasti della storia del cinema.\n\nHa ottenuto tra i vari premi ricevuti il Leone d'oro alla Mostra del Cinema di Venezia nel 1951, la Palma d'oro al Festival di Cannes nel 1980, il Leone d'oro alla carriera alla Mostra del cinema di Venezia nel 1982 e l'Oscar alla carriera nel 1990."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Akirakurosawa-onthesetof7samurai-1953-page88.jpg/500px-Akirakurosawa-onthesetof7samurai-1953-page88.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+        "author": "映画の友 (Eiga no tomo)",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 13889,
+          "title": "Madadayo - Il compleanno",
+          "year": "1993"
+        },
+        {
+          "id": 20645,
+          "title": "Rapsodia in agosto",
+          "year": "1991"
+        },
+        {
+          "id": 12516,
+          "title": "Sogni",
+          "year": "1990"
+        },
+        {
+          "id": 11645,
+          "title": "Ran",
+          "year": "1985"
+        },
+        {
+          "id": 11953,
+          "title": "Kagemusha - L'ombra del guerriero",
+          "year": "1980"
+        },
+        {
+          "id": 9764,
+          "title": "Dersu Uzala - Il piccolo uomo delle grandi pianure",
+          "year": "1975"
+        },
+        {
+          "id": 33205,
+          "title": "Dodes'ka-den",
+          "year": "1970"
+        },
+        {
+          "id": 365536,
+          "title": "馬の歌",
+          "year": "1970"
+        },
+        {
+          "id": 3780,
+          "title": "Barbarossa",
+          "year": "1965"
+        },
+        {
+          "id": 12493,
+          "title": "Anatomia di un rapimento",
+          "year": "1963"
+        },
+        {
+          "id": 11712,
+          "title": "Sanjuro",
+          "year": "1962"
+        },
+        {
+          "id": 11878,
+          "title": "La sfida del samurai",
+          "year": "1961"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:16.705Z"
+  },
   "alejandro g inarritu": {
     "value": {
       "tmdbId": 223,
@@ -232,6 +315,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:07.289Z"
+  },
+  "alfred hitchcock": {
+    "value": {
+      "tmdbId": 2636,
+      "wiki": {
+        "lang": "it",
+        "title": "Alfred Hitchcock",
+        "url": "https://it.wikipedia.org/wiki/Alfred_Hitchcock",
+        "extract": "Sir Alfred Joseph Hitchcock (Londra, 13 agosto 1899 – Los Angeles, 29 aprile 1980) è stato un regista e produttore cinematografico britannico naturalizzato statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hitchcock%2C_Alfred_02.jpg/500px-Hitchcock%2C_Alfred_02.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Hitchcock,_Alfred_02.jpg",
+        "author": "Ante Brkan",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1719961,
+          "title": "Alfred Hitchcock: The Unseen Home Movies",
+          "year": "2026"
+        },
+        {
+          "id": 5854,
+          "title": "Complotto di famiglia",
+          "year": "1976"
+        },
+        {
+          "id": 573,
+          "title": "Frenzy",
+          "year": "1972"
+        },
+        {
+          "id": 2370,
+          "title": "Topaz",
+          "year": "1969"
+        },
+        {
+          "id": 5780,
+          "title": "Il sipario strappato",
+          "year": "1966"
+        },
+        {
+          "id": 506,
+          "title": "Marnie",
+          "year": "1964"
+        },
+        {
+          "id": 571,
+          "title": "Gli uccelli",
+          "year": "1963"
+        },
+        {
+          "id": 539,
+          "title": "Psyco",
+          "year": "1960"
+        },
+        {
+          "id": 213,
+          "title": "Intrigo internazionale",
+          "year": "1959"
+        },
+        {
+          "id": 426,
+          "title": "La donna che visse due volte",
+          "year": "1958"
+        },
+        {
+          "id": 22527,
+          "title": "Il ladro",
+          "year": "1956"
+        },
+        {
+          "id": 574,
+          "title": "L'uomo che sapeva troppo",
+          "year": "1956"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:28.696Z"
   },
   "ali asgari": {
     "value": {
@@ -873,6 +1039,122 @@
     },
     "fetchedAt": "2026-10-17T09:31:21.847Z"
   },
+  "billy wilder": {
+    "value": {
+      "tmdbId": 3146,
+      "wiki": {
+        "lang": "it",
+        "title": "Billy Wilder",
+        "url": "https://it.wikipedia.org/wiki/Billy_Wilder",
+        "extract": "Samuel Wilder, detto Billy (pronuncia inglese americana: [ˈwaɪldər], pronuncia tedesca: [ˈvɪldɐ]; Sucha, 22 giugno 1906 – Beverly Hills, 27 marzo 2002), è stato un regista, sceneggiatore e produttore cinematografico austriaco naturalizzato statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Gloria_Swanson_%26_Billy_Wilder_-_ca._1950.JPG/500px-Gloria_Swanson_%26_Billy_Wilder_-_ca._1950.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gloria_Swanson_%26_Billy_Wilder_-_ca._1950.JPG",
+        "author": "Studio",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 36133,
+          "title": "Buddy Buddy",
+          "year": "1981"
+        },
+        {
+          "id": 54000,
+          "title": "Fedora",
+          "year": "1978"
+        },
+        {
+          "id": 987,
+          "title": "Prima pagina",
+          "year": "1974"
+        },
+        {
+          "id": 12530,
+          "title": "Che cosa è successo tra mio padre e tua madre?",
+          "year": "1972"
+        },
+        {
+          "id": 5185,
+          "title": "Vita privata di Sherlock Holmes",
+          "year": "1970"
+        },
+        {
+          "id": 1888,
+          "title": "Non per soldi... ma per denaro",
+          "year": "1966"
+        },
+        {
+          "id": 53021,
+          "title": "Baciami stupido",
+          "year": "1964"
+        },
+        {
+          "id": 2690,
+          "title": "Irma la dolce",
+          "year": "1963"
+        },
+        {
+          "id": 430,
+          "title": "Uno, due, tre!",
+          "year": "1961"
+        },
+        {
+          "id": 284,
+          "title": "L'appartamento",
+          "year": "1960"
+        },
+        {
+          "id": 239,
+          "title": "A qualcuno piace caldo",
+          "year": "1959"
+        },
+        {
+          "id": 37257,
+          "title": "Testimone d'accusa",
+          "year": "1957"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:11.458Z"
+  },
+  "bob persichetti": {
+    "value": {
+      "tmdbId": 936670,
+      "wiki": {
+        "lang": "it",
+        "title": "Bob Persichetti",
+        "url": "https://it.wikipedia.org/wiki/Bob_Persichetti",
+        "extract": "Robert Persichetti Jr. (San Diego, 28 settembre 1970) è un regista, sceneggiatore, animatore e storyboard artist statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Bob_Persichetti_by_Gage_Skidmore.jpg/500px-Bob_Persichetti_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bob_Persichetti_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 911916,
+          "title": "Spider-Man: Beyond the Spider-Verse",
+          "year": "2027"
+        },
+        {
+          "id": 324857,
+          "title": "Spider-Man: Un nuovo universo",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:07.074Z"
+  },
   "bobby moresco": {
     "value": {
       "tmdbId": 137064,
@@ -1009,6 +1291,89 @@
     },
     "fetchedAt": "2026-10-17T09:36:04.819Z"
   },
+  "brian de palma": {
+    "value": {
+      "tmdbId": 1150,
+      "wiki": {
+        "lang": "it",
+        "title": "Brian De Palma",
+        "url": "https://it.wikipedia.org/wiki/Brian_De_Palma",
+        "extract": "Brian Russell De Palma (Newark, 11 settembre 1940) è un regista, sceneggiatore e produttore cinematografico statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Brian_De_Palma_Deauville_2011.jpg/500px-Brian_De_Palma_Deauville_2011.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Brian_De_Palma_Deauville_2011.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1033935,
+          "title": "Sweet Vengeance",
+          "year": null
+        },
+        {
+          "id": 1362190,
+          "title": "Catch and Kill",
+          "year": null
+        },
+        {
+          "id": 1477928,
+          "title": "Stalkings",
+          "year": null
+        },
+        {
+          "id": 455957,
+          "title": "Domino",
+          "year": "2019"
+        },
+        {
+          "id": 109099,
+          "title": "Passion",
+          "year": "2013"
+        },
+        {
+          "id": 11600,
+          "title": "Redacted",
+          "year": "2007"
+        },
+        {
+          "id": 9676,
+          "title": "Black Dahlia",
+          "year": "2006"
+        },
+        {
+          "id": 9280,
+          "title": "Femme Fatale",
+          "year": "2002"
+        },
+        {
+          "id": 115186,
+          "title": "Bruce Springsteen: The Complete Video Anthology 1978-2000",
+          "year": "2001"
+        },
+        {
+          "id": 2067,
+          "title": "Mission to Mars",
+          "year": "2000"
+        },
+        {
+          "id": 8688,
+          "title": "Omicidio in diretta",
+          "year": "1998"
+        },
+        {
+          "id": 954,
+          "title": "Mission: Impossible",
+          "year": "1996"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:16.258Z"
+  },
   "brian duffield": {
     "value": {
       "tmdbId": 1295292,
@@ -1082,6 +1447,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:10.893Z"
+  },
+  "bryan singer": {
+    "value": {
+      "tmdbId": 9032,
+      "wiki": {
+        "lang": "it",
+        "title": "Bryan Singer",
+        "url": "https://it.wikipedia.org/wiki/Bryan_Singer",
+        "extract": "Bryan Jay Singer (New York, 17 settembre 1965) è un regista, sceneggiatore, produttore cinematografico e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Brian_Singer_%22International_Competition_Jury%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822427114066%29_%28cropped%29.jpg/500px-Brian_Singer_%22International_Competition_Jury%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822427114066%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Brian_Singer_%22International_Competition_Jury%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_(22427114066)_(cropped).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1536845,
+          "title": "Monument",
+          "year": "2026"
+        },
+        {
+          "id": 424694,
+          "title": "Bohemian Rhapsody",
+          "year": "2018"
+        },
+        {
+          "id": 246655,
+          "title": "X-Men - Apocalisse",
+          "year": "2016"
+        },
+        {
+          "id": 127585,
+          "title": "X-Men - Giorni di un futuro passato",
+          "year": "2014"
+        },
+        {
+          "id": 81005,
+          "title": "Il cacciatore di giganti",
+          "year": "2013"
+        },
+        {
+          "id": 467629,
+          "title": "Mockingbird Lane",
+          "year": "2012"
+        },
+        {
+          "id": 2253,
+          "title": "Operazione Valchiria",
+          "year": "2008"
+        },
+        {
+          "id": 1452,
+          "title": "Superman Returns",
+          "year": "2006"
+        },
+        {
+          "id": 36658,
+          "title": "X-Men 2",
+          "year": "2003"
+        },
+        {
+          "id": 36657,
+          "title": "X-Men",
+          "year": "2000"
+        },
+        {
+          "id": 9445,
+          "title": "L'allievo",
+          "year": "1998"
+        },
+        {
+          "id": 629,
+          "title": "I soliti sospetti",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:23.769Z"
   },
   "byron howard": {
     "value": {
@@ -1260,6 +1708,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:36:10.172Z"
+  },
+  "charlie chaplin": {
+    "value": {
+      "tmdbId": 13848,
+      "wiki": {
+        "lang": "it",
+        "title": "Charlie Chaplin",
+        "url": "https://it.wikipedia.org/wiki/Charlie_Chaplin",
+        "extract": "Sir Charles Spencer Chaplin Jr., detto Charlie (Londra, 16 aprile 1889 – Corsier-sur-Vevey, 25 dicembre 1977), è stato un attore, comico, regista, sceneggiatore, compositore e produttore cinematografico britannico, autore di oltre novanta film e tra i più importanti e influenti cineasti del XX secolo.\n\nIl personaggio attorno al quale Chaplin costruì larga parte delle sue sceneggiature - e che gli diede fama universale - fu quello del \"vagabondo\", noto al pubblico italiano come Charlot (in realtà il personaggio non ha nome, e in inglese è chiamato semplicemente The Tramp). La rivolta umanistica, talora nostalgica e sentimentale, talora comica e beffarda, contro le ingiustizie della società capitalistica moderna fece della maschera di Charlot l'emblema dell'alienazione umana (in particolare delle classi sociali più emarginate) nell'era del progresso economico e industriale."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/500px-Charlie_Chaplin_portrait_Getty_1739411952.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+        "author": "Strauss-Peyton Studio",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1556336,
+          "title": "Chaplin's Mutual Comedies 1916-1917",
+          "year": "2014"
+        },
+        {
+          "id": 851541,
+          "title": "Charlie Chaplin - Frühe Meisterwerke 2",
+          "year": "2010"
+        },
+        {
+          "id": 718009,
+          "title": "Charlie Chaplin at Mutual Studios I",
+          "year": "1984"
+        },
+        {
+          "id": 2984,
+          "title": "La contessa di Hong Kong",
+          "year": "1967"
+        },
+        {
+          "id": 554678,
+          "title": "The Chaplin Revue",
+          "year": "1959"
+        },
+        {
+          "id": 28973,
+          "title": "Un re a New York",
+          "year": "1957"
+        },
+        {
+          "id": 28971,
+          "title": "Luci della ribalta",
+          "year": "1952"
+        },
+        {
+          "id": 30588,
+          "title": "Monsieur Verdoux",
+          "year": "1947"
+        },
+        {
+          "id": 648515,
+          "title": "The Chaplin Cavalcade",
+          "year": "1941"
+        },
+        {
+          "id": 593804,
+          "title": "The Charlie Chaplin Festival",
+          "year": "1941"
+        },
+        {
+          "id": 914,
+          "title": "Il grande dittatore",
+          "year": "1940"
+        },
+        {
+          "id": 374631,
+          "title": "Chaplin Carnival",
+          "year": "1938"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:04.002Z"
   },
   "chris columbus": {
     "value": {
@@ -1821,6 +2352,69 @@
     },
     "fetchedAt": "2026-10-17T09:35:09.040Z"
   },
+  "damien chazelle": {
+    "value": {
+      "tmdbId": 136495,
+      "wiki": {
+        "lang": "it",
+        "title": "Damien Chazelle",
+        "url": "https://it.wikipedia.org/wiki/Damien_Chazelle",
+        "extract": "Damien Sayre Chazelle (Providence, 19 gennaio 1985) è un regista, sceneggiatore e produttore cinematografico statunitense.\n\nÈ principalmente noto per aver diretto i film Whiplash (2014), La La Land (2016), First Man - Il primo uomo (2018) e Babylon (2022). Nel 2016 ottiene il plauso di pubblico e critica per la pellicola musicale La La Land, con il quale si aggiudica due Golden Globe, un British Academy Film Awards e il Premio Oscar al miglior regista, diventando a 32 anni il più giovane regista nella storia degli Oscar a vincere la statuetta."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Damien_Chazelle_%28cropped%29.jpg/500px-Damien_Chazelle_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Damien_Chazelle_(cropped).jpg",
+        "author": "isabelle VERONESE from ELBEUF, France",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1405339,
+          "title": "Evel Knievel on Tour",
+          "year": null
+        },
+        {
+          "id": 1484467,
+          "title": "Sacrifice",
+          "year": null
+        },
+        {
+          "id": 615777,
+          "title": "Babylon",
+          "year": "2022"
+        },
+        {
+          "id": 369972,
+          "title": "First Man - Il primo uomo",
+          "year": "2018"
+        },
+        {
+          "id": 313369,
+          "title": "La La Land",
+          "year": "2016"
+        },
+        {
+          "id": 244786,
+          "title": "Whiplash",
+          "year": "2014"
+        },
+        {
+          "id": 367412,
+          "title": "Whiplash",
+          "year": "2013"
+        },
+        {
+          "id": 46504,
+          "title": "Guy and Madeline on a Park Bench",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:24.732Z"
+  },
   "dan berk": {
     "value": {
       "tmdbId": 1361389,
@@ -1892,6 +2486,89 @@
       ]
     },
     "fetchedAt": "2026-10-18T04:46:03.605Z"
+  },
+  "darren aronofsky": {
+    "value": {
+      "tmdbId": 6431,
+      "wiki": {
+        "lang": "it",
+        "title": "Darren Aronofsky",
+        "url": "https://it.wikipedia.org/wiki/Darren_Aronofsky",
+        "extract": "Darren Aronofsky (New York, 12 febbraio 1969) è un regista, sceneggiatore e produttore cinematografico statunitense.\n\nGran parte della sua filmografia propone tematiche che si focalizzano su toni surreali, psicologici, melodrammatici e talvolta inquietanti.\n\nNel corso della sua carriera si è aggiudicato il Leone d'oro al miglior film con The Wrestler, e ha ricevuto una candidatura al Premio Oscar, ai Golden Globe e ai British Academy Film Awards come miglior regista per Il cigno nero."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Darren_Aronofsky_at_the_Locarno_FilmFestival_2026-1.jpg/500px-Darren_Aronofsky_at_the_Locarno_FilmFestival_2026-1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Darren_Aronofsky_at_the_Locarno_FilmFestival_2026-1.jpg",
+        "author": "LucaFazPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1203116,
+          "title": "Untitled Elon Musk Biopic",
+          "year": null
+        },
+        {
+          "id": 1202022,
+          "title": "Emperor",
+          "year": null
+        },
+        {
+          "id": 1485094,
+          "title": "Breakthrough",
+          "year": null
+        },
+        {
+          "id": 1593161,
+          "title": "Untitled Darren Aronofsky Erotic Thriller",
+          "year": null
+        },
+        {
+          "id": 1245993,
+          "title": "Una scomoda circostanza - Caught Stealing",
+          "year": "2025"
+        },
+        {
+          "id": 785084,
+          "title": "The Whale",
+          "year": "2022"
+        },
+        {
+          "id": 381283,
+          "title": "Madre!",
+          "year": "2017"
+        },
+        {
+          "id": 86834,
+          "title": "Noah",
+          "year": "2014"
+        },
+        {
+          "id": 44214,
+          "title": "Il cigno nero",
+          "year": "2010"
+        },
+        {
+          "id": 12163,
+          "title": "The Wrestler",
+          "year": "2008"
+        },
+        {
+          "id": 1381,
+          "title": "L'albero della vita - The Fountain",
+          "year": "2006"
+        },
+        {
+          "id": 641,
+          "title": "Requiem for a Dream",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:17.057Z"
   },
   "dave green": {
     "value": {
@@ -2039,6 +2716,89 @@
     },
     "fetchedAt": "2026-10-17T09:31:08.296Z"
   },
+  "david fincher": {
+    "value": {
+      "tmdbId": 7467,
+      "wiki": {
+        "lang": "it",
+        "title": "David Fincher",
+        "url": "https://it.wikipedia.org/wiki/David_Fincher",
+        "extract": "David Andrew Leo Fincher (Denver, 28 agosto 1962) è un regista, produttore cinematografico, produttore televisivo ed effettista statunitense.\n\nRitenuto uno dei più capaci e poliedrici cineasti della sua generazione, nella sua produzione spiccano varie pellicole di successo, tra cui Seven, Fight Club, Zodiac, Mank e i pluripremiati The Social Network e Il curioso caso di Benjamin Button. Nel 2011 è stato premiato con il Golden Globe al miglior regista per la direzione nel film The Social Network, ed è stato candidato tre volte all'Oscar al miglior regista per Il curioso caso di Benjamin Button, per The Social Network e Mank. È altresì famoso per alcuni suoi lavori trasmessi sulla piattaforma Netflix, in particolare le serie TV House of Cards - Gli intrighi del potere e Mindhunter."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/TheKillerBFILFF051023_%288_of_22%29_%2853255176376%29_%28cropped2%29.jpg/500px-TheKillerBFILFF051023_%288_of_22%29_%2853255176376%29_%28cropped2%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:TheKillerBFILFF051023_(8_of_22)_(53255176376)_(cropped2).jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1351706,
+          "title": "Bitterroot",
+          "year": null
+        },
+        {
+          "id": 1457866,
+          "title": "Le avventure di Cliff Booth",
+          "year": "2026"
+        },
+        {
+          "id": 800158,
+          "title": "The Killer",
+          "year": "2023"
+        },
+        {
+          "id": 614560,
+          "title": "Mank",
+          "year": "2020"
+        },
+        {
+          "id": 210577,
+          "title": "L'amore bugiardo - Gone Girl",
+          "year": "2014"
+        },
+        {
+          "id": 65754,
+          "title": "Millennium - Uomini che odiano le donne",
+          "year": "2011"
+        },
+        {
+          "id": 37799,
+          "title": "The Social Network",
+          "year": "2010"
+        },
+        {
+          "id": 4922,
+          "title": "Il curioso caso di Benjamin Button",
+          "year": "2008"
+        },
+        {
+          "id": 1949,
+          "title": "Zodiac",
+          "year": "2007"
+        },
+        {
+          "id": 4547,
+          "title": "Panic Room",
+          "year": "2002"
+        },
+        {
+          "id": 286396,
+          "title": "Madonna: The Video Collection 93:99",
+          "year": "1999"
+        },
+        {
+          "id": 550,
+          "title": "Fight Club",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:04.721Z"
+  },
   "david frankel": {
     "value": {
       "tmdbId": 5065,
@@ -2116,6 +2876,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:36:07.207Z"
+  },
+  "david lean": {
+    "value": {
+      "tmdbId": 12238,
+      "wiki": {
+        "lang": "it",
+        "title": "David Lean",
+        "url": "https://it.wikipedia.org/wiki/David_Lean",
+        "extract": "Sir David Lean (Croydon, 25 marzo 1908 – Londra, 16 aprile 1991) è stato un regista, sceneggiatore, attore, montatore e produttore cinematografico britannico.\n\nÈ considerato uno dei migliori registi della storia del cinema. Ha diretto film cult e colossal come Breve incontro, Grandi Speranze, Le avventure di Oliver Twist, Il ponte sul fiume Kwai, Lawrence d'Arabia, Il dottor Zivago e Passaggio in India."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Lean-in-Joensuu-1965_CROPPED.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Lean-in-Joensuu-1965_CROPPED.jpg",
+        "author": "Anonymous / Kar-Air Oy",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 15927,
+          "title": "Passaggio in India",
+          "year": "1984"
+        },
+        {
+          "id": 292451,
+          "title": "Lost and Found: The Story of Cook's Anchor",
+          "year": "1979"
+        },
+        {
+          "id": 38953,
+          "title": "La figlia di Ryan",
+          "year": "1970"
+        },
+        {
+          "id": 907,
+          "title": "Il dottor Zivago",
+          "year": "1965"
+        },
+        {
+          "id": 947,
+          "title": "Lawrence d'Arabia",
+          "year": "1962"
+        },
+        {
+          "id": 826,
+          "title": "Il ponte sul fiume Kwai",
+          "year": "1957"
+        },
+        {
+          "id": 50363,
+          "title": "Tempo d'estate",
+          "year": "1955"
+        },
+        {
+          "id": 16410,
+          "title": "Hobson il tiranno",
+          "year": "1954"
+        },
+        {
+          "id": 51619,
+          "title": "Ali del futuro",
+          "year": "1952"
+        },
+        {
+          "id": 46995,
+          "title": "L'amore segreto di Madeleine",
+          "year": "1950"
+        },
+        {
+          "id": 51618,
+          "title": "Sogno d'amanti",
+          "year": "1949"
+        },
+        {
+          "id": 10949,
+          "title": "Le avventure di Oliver Twist",
+          "year": "1948"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:21.234Z"
   },
   "david oliver pfeil": {
     "value": {
@@ -2394,6 +3237,230 @@
     },
     "fetchedAt": "2026-10-17T09:33:13.702Z"
   },
+  "eric toledano": {
+    "value": {
+      "tmdbId": 84425,
+      "wiki": {
+        "lang": "it",
+        "title": "Olivier Nakache e Éric Toledano",
+        "url": "https://it.wikipedia.org/wiki/Olivier_Nakache_e_%C3%89ric_Toledano",
+        "extract": "Olivier Nakache (Suresnes, 14 aprile 1973) e\n\nÉric Toledano (Parigi, 3 luglio 1971) sono due registi e sceneggiatori francesi, noti per aver scritto e diretto il film del 2011 Quasi amici - Intouchables."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg/500px-Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1404684,
+          "title": "Just an Illusion - La mia famiglia quasi perfetta",
+          "year": "2026"
+        },
+        {
+          "id": 965791,
+          "title": "Un anno difficile",
+          "year": "2023"
+        },
+        {
+          "id": 579245,
+          "title": "The Specials - Fuori dal comune",
+          "year": "2019"
+        },
+        {
+          "id": 432068,
+          "title": "C'est la vie - Prendila come viene",
+          "year": "2017"
+        },
+        {
+          "id": 1457744,
+          "title": "On devrait en faire un film",
+          "year": "2015"
+        },
+        {
+          "id": 653079,
+          "title": "Le Bon vivant",
+          "year": "2015"
+        },
+        {
+          "id": 269148,
+          "title": "Samba",
+          "year": "2014"
+        },
+        {
+          "id": 77338,
+          "title": "Quasi amici - Intouchables",
+          "year": "2011"
+        },
+        {
+          "id": 19268,
+          "title": "Troppo amici",
+          "year": "2009"
+        },
+        {
+          "id": 19100,
+          "title": "Primi amori, primi vizi, primi baci",
+          "year": "2006"
+        },
+        {
+          "id": 40192,
+          "title": "Je préfère qu'on reste amis…",
+          "year": "2005"
+        },
+        {
+          "id": 625652,
+          "title": "Ces jours heureux",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:26.610Z"
+  },
+  "fernando meirelles": {
+    "value": {
+      "tmdbId": 8557,
+      "wiki": {
+        "lang": "it",
+        "title": "Fernando Meirelles",
+        "url": "https://it.wikipedia.org/wiki/Fernando_Meirelles",
+        "extract": "Fernando Ferreira Meirelles (San Paolo, 9 novembre 1955) è un regista e sceneggiatore brasiliano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Fernando_Meirelles_2012_%28cropped%29.JPG/500px-Fernando_Meirelles_2012_%28cropped%29.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Fernando_Meirelles_2012_(cropped).JPG",
+        "author": "File:Fernando Meirelles - Österreichpremiere 360 Wiener Volkstheater 01.jpg: Ma…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 701244,
+          "title": "Here Comes the Flood",
+          "year": null
+        },
+        {
+          "id": 1686901,
+          "title": "Art",
+          "year": null
+        },
+        {
+          "id": 1263532,
+          "title": "CORRIDA DOS BICHOS La legge del branco",
+          "year": "2026"
+        },
+        {
+          "id": 551332,
+          "title": "I due papi",
+          "year": "2019"
+        },
+        {
+          "id": 410232,
+          "title": "Rio 2016 Olympic Opening Ceremony: A New World",
+          "year": "2016"
+        },
+        {
+          "id": 1022418,
+          "title": "Cosmos",
+          "year": "2015"
+        },
+        {
+          "id": 211166,
+          "title": "Rio, Eu Te Amo",
+          "year": "2014"
+        },
+        {
+          "id": 89455,
+          "title": "Passioni e desideri",
+          "year": "2012"
+        },
+        {
+          "id": 1299567,
+          "title": "Som & Fúria: O Filme",
+          "year": "2010"
+        },
+        {
+          "id": 468368,
+          "title": "Amanhecer",
+          "year": "2010"
+        },
+        {
+          "id": 8338,
+          "title": "Blindness - Cecità",
+          "year": "2008"
+        },
+        {
+          "id": 1985,
+          "title": "The Constant Gardener - La cospirazione",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:13.632Z"
+  },
+  "florian henckel von donnersmarck": {
+    "value": {
+      "tmdbId": 8193,
+      "wiki": {
+        "lang": "it",
+        "title": "Florian Henckel von Donnersmarck",
+        "url": "https://it.wikipedia.org/wiki/Florian_Henckel_von_Donnersmarck",
+        "extract": "Florian Maria Georg Christian Graf Henckel von Donnersmarck (Colonia, 2 maggio 1973) è un regista, sceneggiatore, produttore cinematografico e montatore tedesco con cittadinanza austriaca, principalmente noto per aver scritto e diretto Le vite degli altri, Oscar al miglior film straniero 2007, David di Donatello per il miglior film dell'Unione europea 2007 e nel 2010 The Tourist, candidato tre volte al Golden Globe."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Florian_Henckel_von_Donnersmarck.jpg/500px-Florian_Henckel_von_Donnersmarck.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Florian_Henckel_von_Donnersmarck.jpg",
+        "author": "Deutsches Filmmuseum",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 958984,
+          "title": "Vent",
+          "year": null
+        },
+        {
+          "id": 423612,
+          "title": "Opera senza autore",
+          "year": "2018"
+        },
+        {
+          "id": 37710,
+          "title": "The Tourist",
+          "year": "2010"
+        },
+        {
+          "id": 582,
+          "title": "Le vite degli altri",
+          "year": "2006"
+        },
+        {
+          "id": 1372590,
+          "title": "Shocking Shorts 2003",
+          "year": "2003"
+        },
+        {
+          "id": 511898,
+          "title": "Der Templer",
+          "year": "2002"
+        },
+        {
+          "id": 511895,
+          "title": "Dobermann",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:10.390Z"
+  },
   "francesco piras": {
     "value": {
       "tmdbId": 4402928,
@@ -2593,6 +3660,89 @@
     },
     "fetchedAt": "2026-10-17T09:35:11.333Z"
   },
+  "frank capra": {
+    "value": {
+      "tmdbId": 2662,
+      "wiki": {
+        "lang": "it",
+        "title": "Frank Capra",
+        "url": "https://it.wikipedia.org/wiki/Frank_Capra",
+        "extract": "Frank Russell Capra, nato Francesco Rosario Capra (Bisacquino, 18 maggio 1897 – La Quinta, 3 settembre 1991), è stato un regista, sceneggiatore e produttore cinematografico italiano naturalizzato statunitense.\n\nÈ stato uno dei registi più importanti dell'epoca d'oro di Hollywood, fra gli anni trenta e gli anni quaranta, autore di alcuni film memorabili, commedie e apologhi morali, caratterizzati da tanto ottimismo, capaci di divertire e insieme commuovere il pubblico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Frank_Capra.jpg/500px-Frank_Capra.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frank_Capra.jpg",
+        "author": "Columbia Pictures",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 312001,
+          "title": "Why We Fight: World War II: The Battle of China / War Comes to America",
+          "year": "2000"
+        },
+        {
+          "id": 652635,
+          "title": "Rendezvous in Space",
+          "year": "1964"
+        },
+        {
+          "id": 248,
+          "title": "Angeli con la pistola",
+          "year": "1961"
+        },
+        {
+          "id": 33725,
+          "title": "Un uomo da vendere",
+          "year": "1959"
+        },
+        {
+          "id": 255757,
+          "title": "The Strange Case of the Cosmic Rays",
+          "year": "1957"
+        },
+        {
+          "id": 89606,
+          "title": "Hemo the Magnificent",
+          "year": "1957"
+        },
+        {
+          "id": 255733,
+          "title": "Our Mr. Sun",
+          "year": "1956"
+        },
+        {
+          "id": 831152,
+          "title": "The Fallbrook Story",
+          "year": "1952"
+        },
+        {
+          "id": 27629,
+          "title": "È arrivato lo sposo",
+          "year": "1951"
+        },
+        {
+          "id": 111019,
+          "title": "La gioia della vita",
+          "year": "1950"
+        },
+        {
+          "id": 33792,
+          "title": "Lo stato dell'unione",
+          "year": "1948"
+        },
+        {
+          "id": 1585,
+          "title": "La vita è meravigliosa",
+          "year": "1946"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:15.670Z"
+  },
   "frank darabont": {
     "value": {
       "tmdbId": 4027,
@@ -2650,6 +3800,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:37:18.904Z"
+  },
+  "gene kelly": {
+    "value": {
+      "tmdbId": 13294,
+      "wiki": {
+        "lang": "it",
+        "title": "Gene Kelly",
+        "url": "https://it.wikipedia.org/wiki/Gene_Kelly",
+        "extract": "Gene Kelly, nome completo Eugene Curran Kelly (Pittsburgh, 23 agosto 1912 – Beverly Hills, 2 febbraio 1996), è stato un ballerino, attore, cantante, regista, produttore cinematografico, sceneggiatore, comico e coreografo statunitense.\n\nInterprete di personaggi scanzonati e affabili, eclettico nel ballo e innovativo nella coreografia, Kelly portò uno stile di danza energico e atletico in alcuni tra i maggiori musical statunitensi, come Un americano a Parigi (1951) e Cantando sotto la pioggia (1952).\n\nL'American Film Institute ha inserito Kelly al quindicesimo posto tra le più grandi star della storia del cinema."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Committee_for_Free_Spain._Portrait_of_M._Woolf_and_Jack_%28possibly_Captain_Jack_White%29_Taken_for_the_Committee._%28Includes_photo_of_film_star_Gene_Kelly%29._Sep_1946_Slide_2_Trim_Edit.png/500px-thumbnail.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Committee_for_Free_Spain._Portrait_of_M._Woolf_and_Jack_(possibly_Captain_Jack_White)_Taken_for_the_Committee._(Includes_photo_of_film_star_Gene_Kelly)._Sep_1946_Slide_2_Trim_Edit.png",
+        "author": "Metro-Goldwyn-Mayer",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 74719,
+          "title": "Hollywood Hollywood",
+          "year": "1976"
+        },
+        {
+          "id": 28303,
+          "title": "Non stuzzicate i cowboys che dormono",
+          "year": "1970"
+        },
+        {
+          "id": 14030,
+          "title": "Hello, Dolly!",
+          "year": "1969"
+        },
+        {
+          "id": 4932,
+          "title": "Una guida per l'uomo sposato",
+          "year": "1967"
+        },
+        {
+          "id": 72762,
+          "title": "Jack and the Beanstalk",
+          "year": "1967"
+        },
+        {
+          "id": 839805,
+          "title": "American in Paris",
+          "year": "1964"
+        },
+        {
+          "id": 48003,
+          "title": "Gigot",
+          "year": "1962"
+        },
+        {
+          "id": 1259640,
+          "title": "Dancing, a Man's Game - Gene Kelly",
+          "year": "1958"
+        },
+        {
+          "id": 45599,
+          "title": "Il tunnel dell'amore",
+          "year": "1958"
+        },
+        {
+          "id": 134355,
+          "title": "Destinazione Parigi",
+          "year": "1957"
+        },
+        {
+          "id": 47310,
+          "title": "Trittico d'amore",
+          "year": "1956"
+        },
+        {
+          "id": 17640,
+          "title": "È sempre bel tempo",
+          "year": "1955"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:24.096Z"
   },
   "george lucas": {
     "value": {
@@ -2900,6 +4133,89 @@
     },
     "fetchedAt": "2026-10-17T09:33:06.140Z"
   },
+  "giuseppe tornatore": {
+    "value": {
+      "tmdbId": 65314,
+      "wiki": {
+        "lang": "it",
+        "title": "Giuseppe Tornatore",
+        "url": "https://it.wikipedia.org/wiki/Giuseppe_Tornatore",
+        "extract": "Giuseppe Tornatore (Bagheria, 27 maggio 1956) è un regista, sceneggiatore, produttore cinematografico e montatore italiano.\n\nDiventato noto a livello internazionale con il film del 1988 Nuovo Cinema Paradiso,  diverse sue pellicole hanno riscosso un notevole successo di pubblico in Italia e all'estero; ha diretto ad oggi undici film di finzione e dieci documentari, molti dei quali fortemente autobiografici, ed ha vinto vari premi, tra cui figurano un  Oscar, un Golden Globe, un Grand Prix Speciale della Giuria (al Festival di Cannes del 1989), due premi BAFTA, undici David di Donatello."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Giuseppe_Tornatore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Tornatore.jpg",
+        "author": "Giuseppe Tornatore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1183228,
+          "title": "Il sognatore indiscreto",
+          "year": null
+        },
+        {
+          "id": 1614579,
+          "title": "The First Dollar",
+          "year": null
+        },
+        {
+          "id": 1498729,
+          "title": "Brunello - Il visionario garbato",
+          "year": "2025"
+        },
+        {
+          "id": 396194,
+          "title": "Ennio",
+          "year": "2022"
+        },
+        {
+          "id": 1544449,
+          "title": "Devotion",
+          "year": "2020"
+        },
+        {
+          "id": 315880,
+          "title": "La corrispondenza",
+          "year": "2016"
+        },
+        {
+          "id": 152742,
+          "title": "La migliore offerta",
+          "year": "2013"
+        },
+        {
+          "id": 656132,
+          "title": "Il Mago di Esselunga",
+          "year": "2011"
+        },
+        {
+          "id": 618862,
+          "title": "L'ultimo gattopardo - Ritratto di Goffredo Lombardo",
+          "year": "2010"
+        },
+        {
+          "id": 25846,
+          "title": "Baarìa",
+          "year": "2009"
+        },
+        {
+          "id": 10886,
+          "title": "La sconosciuta",
+          "year": "2006"
+        },
+        {
+          "id": 10867,
+          "title": "Malèna",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:03.118Z"
+  },
   "gore verbinski": {
     "value": {
       "tmdbId": 1704,
@@ -2982,6 +4298,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:36:02.735Z"
+  },
+  "gus van sant": {
+    "value": {
+      "tmdbId": 5216,
+      "wiki": {
+        "lang": "it",
+        "title": "Gus Van Sant",
+        "url": "https://it.wikipedia.org/wiki/Gus_Van_Sant",
+        "extract": "Gus Green Van Sant Jr. (Louisville, 24 luglio 1952) è un regista, sceneggiatore, montatore, pittore, fotografo e musicista statunitense.\n\nNato come artista visivo e cineasta indipendente, grazie al suo peculiare modo di raccontare i disagi dell'adolescenza ha saputo in seguito affermarsi anche a Hollywood. È stato candidato due volte come miglior regista all'Oscar, la prima per Will Hunting - Genio ribelle nel 1998 e la seconda per Milk nel 2009. Ha vinto la Palma d'oro e il premio per la miglior regia al Festival di Cannes 2003 per Elephant e il Premio del 60º anniversario al Festival di Cannes 2007 per Paranoid Park."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Gus_Van_Sant_at_82nd_Venice_International_Film_Festival-2_%28cropped%29.jpg/500px-Gus_Van_Sant_at_82nd_Venice_International_Film_Festival-2_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gus_Van_Sant_at_82nd_Venice_International_Film_Festival-2_(cropped).jpg",
+        "author": "LucaFazPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1324835,
+          "title": "Killing Gawker",
+          "year": null
+        },
+        {
+          "id": 1437500,
+          "title": "My Friend",
+          "year": null
+        },
+        {
+          "id": 1536745,
+          "title": "Explain it Like I’m Five",
+          "year": null
+        },
+        {
+          "id": 1567906,
+          "title": "Nightmare Typhoon",
+          "year": null
+        },
+        {
+          "id": 1711685,
+          "title": "Untitled Hoyt Richards Film",
+          "year": null
+        },
+        {
+          "id": 1263012,
+          "title": "Il filo del ricatto -  Dead Man's Wire",
+          "year": "2026"
+        },
+        {
+          "id": 1511567,
+          "title": "Ouverture of Something That Never Ended",
+          "year": "2020"
+        },
+        {
+          "id": 443009,
+          "title": "Don't Worry",
+          "year": "2018"
+        },
+        {
+          "id": 291351,
+          "title": "La foresta dei sogni",
+          "year": "2016"
+        },
+        {
+          "id": 133694,
+          "title": "Promised Land",
+          "year": "2012"
+        },
+        {
+          "id": 164183,
+          "title": "My Own Private River",
+          "year": "2012"
+        },
+        {
+          "id": 47760,
+          "title": "L'amore che resta",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:06.100Z"
   },
   "hayao miyazaki": {
     "value": {
@@ -3143,6 +4542,83 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:18.630Z"
+  },
+  "irvin kershner": {
+    "value": {
+      "tmdbId": 10930,
+      "wiki": {
+        "lang": "it",
+        "title": "Irvin Kershner",
+        "url": "https://it.wikipedia.org/wiki/Irvin_Kershner",
+        "extract": "Irvin Kershner, talvolta accreditato come Irv Kershner (Filadelfia, 29 aprile 1923 – Los Angeles, 27 novembre 2010), è stato un regista, direttore della fotografia, produttore cinematografico e occasionalmente attore statunitense, noto soprattutto per aver diretto il secondo film della serie di Guerre stellari, L'Impero colpisce ancora.\n\nAlcune delle altre opere per le quali è noto sono Occhi di Laura Mars, Robocop 2 e Mai dire mai (uno dei pochi film non ufficiali della serie di James Bond)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/imtFUtcASoh2e1Emtt62UuFkIWA.jpg",
+      "films": [
+        {
+          "id": 1664699,
+          "title": "SeaQuest DSV",
+          "year": "1993"
+        },
+        {
+          "id": 5549,
+          "title": "RoboCop 2",
+          "year": "1990"
+        },
+        {
+          "id": 419563,
+          "title": "Agente sì... ma di commercio!",
+          "year": "1989"
+        },
+        {
+          "id": 36670,
+          "title": "Mai dire mai",
+          "year": "1983"
+        },
+        {
+          "id": 1891,
+          "title": "L'Impero colpisce ancora",
+          "year": "1980"
+        },
+        {
+          "id": 29143,
+          "title": "Occhi di Laura Mars",
+          "year": "1978"
+        },
+        {
+          "id": 31690,
+          "title": "I leoni della guerra",
+          "year": "1976"
+        },
+        {
+          "id": 35200,
+          "title": "La vendetta dell'uomo chiamato cavallo",
+          "year": "1976"
+        },
+        {
+          "id": 35405,
+          "title": "S*P*Y*S",
+          "year": "1974"
+        },
+        {
+          "id": 42492,
+          "title": "Voglio la libertà",
+          "year": "1972"
+        },
+        {
+          "id": 92269,
+          "title": "Loving - Gioco crudele",
+          "year": "1970"
+        },
+        {
+          "id": 42407,
+          "title": "Carta che vince, carta che perde",
+          "year": "1967"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:09.396Z"
   },
   "james ashcroft": {
     "value": {
@@ -4320,6 +5796,89 @@
     },
     "fetchedAt": "2026-10-17T09:32:04.578Z"
   },
+  "jonathan demme": {
+    "value": {
+      "tmdbId": 16294,
+      "wiki": {
+        "lang": "it",
+        "title": "Jonathan Demme",
+        "url": "https://it.wikipedia.org/wiki/Jonathan_Demme",
+        "extract": "Robert Jonathan Demme (Baldwin, 22 febbraio 1944 – New York, 26 aprile 2017) è stato un regista, produttore cinematografico, produttore televisivo, sceneggiatore e documentarista statunitense.\n\nNel 1991 ottiene il plauso di pubblico e critica per aver diretto il film Il silenzio degli innocenti, con il quale si aggiudica il Premio Oscar come miglior regista e l'Orso d'argento per il miglior regista al Festival internazionale del cinema di Berlino."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Jonathan_Demme_%28May_2015%29_%28cropped2%29.JPG/500px-Jonathan_Demme_%28May_2015%29_%28cropped2%29.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Demme_(May_2015)_(cropped2).JPG",
+        "author": "Photo by “Dan D'Errico / Montclair Film Festival”",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 525389,
+          "title": "The Power of Rock",
+          "year": "2017"
+        },
+        {
+          "id": 525390,
+          "title": "Protection Not Protest: The People of Standing Rock",
+          "year": "2016"
+        },
+        {
+          "id": 408619,
+          "title": "Justin Timberlake + The Tennessee Kids",
+          "year": "2016"
+        },
+        {
+          "id": 275601,
+          "title": "Dove eravamo rimasti",
+          "year": "2015"
+        },
+        {
+          "id": 344765,
+          "title": "Another Telepathic Thing",
+          "year": "2015"
+        },
+        {
+          "id": 525392,
+          "title": "What's Motivating Hayes",
+          "year": "2015"
+        },
+        {
+          "id": 268536,
+          "title": "A Master Builder",
+          "year": "2014"
+        },
+        {
+          "id": 212641,
+          "title": "Enzo Avitabile Music Life",
+          "year": "2013"
+        },
+        {
+          "id": 105978,
+          "title": "Neil Young Journeys",
+          "year": "2012"
+        },
+        {
+          "id": 120822,
+          "title": "I'm Carolyn Parker",
+          "year": "2011"
+        },
+        {
+          "id": 1011748,
+          "title": "Joe and Linda Flooded Out of Holy Cross",
+          "year": "2010"
+        },
+        {
+          "id": 124267,
+          "title": "Neil Young Trunk Show",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:11.602Z"
+  },
   "jonathan liebesman": {
     "value": {
       "tmdbId": 66739,
@@ -4875,6 +6434,74 @@
     },
     "fetchedAt": "2026-10-17T09:30:46.580Z"
   },
+  "lana wachowski": {
+    "value": {
+      "tmdbId": 9340,
+      "wiki": {
+        "lang": "en",
+        "title": "The Wachowskis",
+        "url": "https://en.wikipedia.org/wiki/The_Wachowskis",
+        "extract": "Lana Wachowski (; formerly Larry Wachowski, born June 21, 1965) and Lilly Wachowski (formerly Andy Wachowski, born December 29, 1967) are American film and television directors, writers and producers. Together known as the Wachowskis, the sisters are both trans women and have worked as a writing and directing team throughout most of their careers. They made their directing debut with Bound (1996), and achieved fame with The Matrix (1999), a major box-office success for which they won the Saturn Award for Best Director. They wrote and directed two sequels, The Matrix Reloaded and The Matrix Revolutions (both in 2003), and were involved in the writing and production of other works in the Matrix franchise."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lana_Wachowski-2787_%283x4_cropped%29.jpg/500px-Lana_Wachowski-2787_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lana_Wachowski-2787_(3x4_cropped).jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1598414,
+          "title": "Happy F*cking New Year.",
+          "year": null
+        },
+        {
+          "id": 624860,
+          "title": "Matrix Resurrections",
+          "year": "2021"
+        },
+        {
+          "id": 76757,
+          "title": "Jupiter - Il destino dell'universo",
+          "year": "2015"
+        },
+        {
+          "id": 83542,
+          "title": "Cloud Atlas",
+          "year": "2012"
+        },
+        {
+          "id": 7459,
+          "title": "Speed Racer",
+          "year": "2008"
+        },
+        {
+          "id": 605,
+          "title": "Matrix Revolutions",
+          "year": "2003"
+        },
+        {
+          "id": 604,
+          "title": "Matrix Reloaded",
+          "year": "2003"
+        },
+        {
+          "id": 603,
+          "title": "Matrix",
+          "year": "1999"
+        },
+        {
+          "id": 9303,
+          "title": "Bound - Torbido inganno",
+          "year": "1996"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:07.921Z"
+  },
   "lance oppenheim": {
     "value": {
       "tmdbId": 1405665,
@@ -5093,6 +6720,74 @@
     },
     "fetchedAt": "2026-10-17T09:36:06.167Z"
   },
+  "lilly wachowski": {
+    "value": {
+      "tmdbId": 9339,
+      "wiki": {
+        "lang": "en",
+        "title": "The Wachowskis",
+        "url": "https://en.wikipedia.org/wiki/The_Wachowskis",
+        "extract": "Lana Wachowski (; formerly Larry Wachowski, born June 21, 1965) and Lilly Wachowski (formerly Andy Wachowski, born December 29, 1967) are American film and television directors, writers and producers. Together known as the Wachowskis, the sisters are both trans women and have worked as a writing and directing team throughout most of their careers. They made their directing debut with Bound (1996), and achieved fame with The Matrix (1999), a major box-office success for which they won the Saturn Award for Best Director. They wrote and directed two sequels, The Matrix Reloaded and The Matrix Revolutions (both in 2003), and were involved in the writing and production of other works in the Matrix franchise."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Lana_Wachowski-2787_%283x4_cropped%29.jpg/500px-Lana_Wachowski-2787_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lana_Wachowski-2787_(3x4_cropped).jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1571590,
+          "title": "Manhunt",
+          "year": null
+        },
+        {
+          "id": 1571604,
+          "title": "Confessions of the Fox",
+          "year": null
+        },
+        {
+          "id": 76757,
+          "title": "Jupiter - Il destino dell'universo",
+          "year": "2015"
+        },
+        {
+          "id": 83542,
+          "title": "Cloud Atlas",
+          "year": "2012"
+        },
+        {
+          "id": 7459,
+          "title": "Speed Racer",
+          "year": "2008"
+        },
+        {
+          "id": 605,
+          "title": "Matrix Revolutions",
+          "year": "2003"
+        },
+        {
+          "id": 604,
+          "title": "Matrix Reloaded",
+          "year": "2003"
+        },
+        {
+          "id": 603,
+          "title": "Matrix",
+          "year": "1999"
+        },
+        {
+          "id": 9303,
+          "title": "Bound - Torbido inganno",
+          "year": "1996"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:08.632Z"
+  },
   "lisa azuelos": {
     "value": {
       "tmdbId": 229568,
@@ -5175,6 +6870,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:14.932Z"
+  },
+  "luc besson": {
+    "value": {
+      "tmdbId": 59,
+      "wiki": {
+        "lang": "it",
+        "title": "Luc Besson",
+        "url": "https://it.wikipedia.org/wiki/Luc_Besson",
+        "extract": "Luc Paul Maurice Besson (Parigi, 18 marzo 1959) è un regista, sceneggiatore e produttore cinematografico francese."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Luc_Besson-3767.jpg/500px-Luc_Besson-3767.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Luc_Besson-3767.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1381348,
+          "title": "The Last Man",
+          "year": null
+        },
+        {
+          "id": 1246049,
+          "title": "Dracula - L’amore perduto",
+          "year": "2025"
+        },
+        {
+          "id": 1216571,
+          "title": "June and John",
+          "year": "2025"
+        },
+        {
+          "id": 944401,
+          "title": "Dogman",
+          "year": "2023"
+        },
+        {
+          "id": 484641,
+          "title": "Anna",
+          "year": "2019"
+        },
+        {
+          "id": 339964,
+          "title": "Valerian e la città dei mille pianeti",
+          "year": "2017"
+        },
+        {
+          "id": 240832,
+          "title": "Lucy",
+          "year": "2014"
+        },
+        {
+          "id": 112205,
+          "title": "Cose nostre - Malavita",
+          "year": "2013"
+        },
+        {
+          "id": 77878,
+          "title": "The Lady - L'amore per la libertà",
+          "year": "2011"
+        },
+        {
+          "id": 42949,
+          "title": "Arthur e la guerra dei due mondi",
+          "year": "2010"
+        },
+        {
+          "id": 35552,
+          "title": "Adèle e l'enigma del faraone",
+          "year": "2010"
+        },
+        {
+          "id": 1225622,
+          "title": "Arthur, l'Aventure 4D",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:19.863Z"
   },
   "luca salmaso": {
     "value": {
@@ -5309,6 +7087,172 @@
     },
     "fetchedAt": "2026-10-17T09:32:24.977Z"
   },
+  "martin scorsese": {
+    "value": {
+      "tmdbId": 1032,
+      "wiki": {
+        "lang": "it",
+        "title": "Martin Scorsese",
+        "url": "https://it.wikipedia.org/wiki/Martin_Scorsese",
+        "extract": "Martin Charles Scorsese (New York, 17 novembre 1942) è un regista, produttore cinematografico, sceneggiatore e attore statunitense con cittadinanza italiana.\n\nImportante regista della New Hollywood, è considerato uno dei più influenti cineasti della storia del cinema; temi centrali dei suoi film sono la violenza istintiva dell'uomo e il suo rapporto con la criminalità organizzata, il peccato e la religione, tutto ciò analizzato con uno stile che, spesso caratterizzato da sequenze virtuosistiche e violenza iperrealista, trae ispirazione dalla Nouvelle Vague francese, dal Neorealismo italiano e dal cinema indipendente di John Cassavetes."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-9_%28cropped%29.jpg/500px-Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-9_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-9_(cropped).jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 899851,
+          "title": "Untitled Grateful Dead Film",
+          "year": null
+        },
+        {
+          "id": 1369516,
+          "title": "Shipwrecks of Sicily",
+          "year": null
+        },
+        {
+          "id": 1372294,
+          "title": "Life Is a Carnival: A Musical Celebration of Robbie Robertson",
+          "year": null
+        },
+        {
+          "id": 1388442,
+          "title": "Home",
+          "year": null
+        },
+        {
+          "id": 1422077,
+          "title": "The Devil in the White City",
+          "year": null
+        },
+        {
+          "id": 1437372,
+          "title": "Untitled Hawaiian Gangster Project",
+          "year": null
+        },
+        {
+          "id": 1531071,
+          "title": "A Life of Jesus",
+          "year": null
+        },
+        {
+          "id": 1117319,
+          "title": "What Happens at Night",
+          "year": null
+        },
+        {
+          "id": 1624742,
+          "title": "Midnight Vendetta",
+          "year": null
+        },
+        {
+          "id": 1473496,
+          "title": "Aldeas, the Final Dream of Pope Francis",
+          "year": "2026"
+        },
+        {
+          "id": 466420,
+          "title": "Killers of the Flower Moon",
+          "year": "2023"
+        },
+        {
+          "id": 1013574,
+          "title": "Personality Crisis: One Night Only",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:10.528Z"
+  },
+  "masaki kobayashi": {
+    "value": {
+      "tmdbId": 76978,
+      "wiki": {
+        "lang": "it",
+        "title": "Masaki Kobayashi",
+        "url": "https://it.wikipedia.org/wiki/Masaki_Kobayashi",
+        "extract": "Kobayashi Masaki (小林 正樹?; Otaru, 14 febbraio 1916 – Tokyo, 4 ottobre 1996) è stato un regista e sceneggiatore giapponese.\n\nContraddistinto dagli altri cineasti dell'epoca da uno stile estremamente ricercato, da un'epicità dell'immagine e un'eleganza registica uniche, è oggi considerato da alcuni, malgrado la scarsa notorietà in occidente rispetto a quella di altri registi orientali, uno dei più grandi registi giapponesi di tutti i tempi, insieme ad Akira Kurosawa, Yasujirō Ozu e Kenji Mizoguchi.\n\nNel corso della carriera ha saputo spaziare dal cinema di samurai, con Harakiri e L'ultimo samurai, a quello dell'orrore, con Kwaidan, fino al cinema sociale, con La condizione umana."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Masaki_Kobayashi.jpg/500px-Masaki_Kobayashi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Masaki_Kobayashi.jpg",
+        "author": "新潮社 撮影者不明",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 250045,
+          "title": "食卓のない家",
+          "year": "1985"
+        },
+        {
+          "id": 155596,
+          "title": "東京裁判",
+          "year": "1983"
+        },
+        {
+          "id": 365190,
+          "title": "燃える秋",
+          "year": "1978"
+        },
+        {
+          "id": 277261,
+          "title": "化石",
+          "year": "1975"
+        },
+        {
+          "id": 101740,
+          "title": "いのちぼうにふろう",
+          "year": "1971"
+        },
+        {
+          "id": 198668,
+          "title": "日本の青春",
+          "year": "1968"
+        },
+        {
+          "id": 27031,
+          "title": "L'ultimo samurai",
+          "year": "1967"
+        },
+        {
+          "id": 30959,
+          "title": "Kwaidan - Storie di fantasmi",
+          "year": "1965"
+        },
+        {
+          "id": 14537,
+          "title": "Harakiri",
+          "year": "1962"
+        },
+        {
+          "id": 159414,
+          "title": "The Inheritance",
+          "year": "1962"
+        },
+        {
+          "id": 34530,
+          "title": "La Condizione Umana: Parte III – La preghiera del soldato",
+          "year": "1961"
+        },
+        {
+          "id": 34528,
+          "title": "La Condizione Umana: Parte II – Cammino verso l'eternità",
+          "year": "1959"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:17.692Z"
+  },
   "matt reeves": {
     "value": {
       "tmdbId": 32278,
@@ -5386,6 +7330,250 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:14.597Z"
+  },
+  "mel gibson": {
+    "value": {
+      "tmdbId": 2461,
+      "wiki": {
+        "lang": "it",
+        "title": "Mel Gibson",
+        "url": "https://it.wikipedia.org/wiki/Mel_Gibson",
+        "extract": "Mel Columcille Gerard Gibson (Peekskill, 3 gennaio 1956) è un attore, regista, produttore cinematografico e sceneggiatore statunitense.\n\nTra i volti più noti di Hollywood, Gibson ha ottenuto ampio successo commerciale e di critica sia come attore che come regista. Salito alla ribalta grazie alle serie cinematografiche d'azione Mad Max e Arma letale, nel corso del tempo ha coperto ruoli più drammatici e introspettivi in pellicole come L'uomo senza volto e Il patriota."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mel_Gibson_Cannes_2016.jpg/500px-Mel_Gibson_Cannes_2016.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mel_Gibson_Cannes_2016.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1528550,
+          "title": "Lethal Weapon 5",
+          "year": null
+        },
+        {
+          "id": 1212489,
+          "title": "The Resurrection of the Christ: Part Two",
+          "year": "2028"
+        },
+        {
+          "id": 532652,
+          "title": "The Resurrection of the Christ: Part One",
+          "year": "2027"
+        },
+        {
+          "id": 1126166,
+          "title": "Flight Risk - Trappola ad alta quota",
+          "year": "2025"
+        },
+        {
+          "id": 324786,
+          "title": "La battaglia di Hacksaw Ridge",
+          "year": "2016"
+        },
+        {
+          "id": 1579,
+          "title": "Apocalypto",
+          "year": "2006"
+        },
+        {
+          "id": 615,
+          "title": "La passione di Cristo",
+          "year": "2004"
+        },
+        {
+          "id": 197,
+          "title": "Braveheart - Cuore impavido",
+          "year": "1995"
+        },
+        {
+          "id": 10502,
+          "title": "L'uomo senza volto",
+          "year": "1993"
+        },
+        {
+          "id": 975131,
+          "title": "Mel Gibson Goes Back to School",
+          "year": "1991"
+        },
+        {
+          "id": 1671313,
+          "title": "Mel Gibson's Unauthorized Video Diary",
+          "year": "1989"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:15.153Z"
+  },
+  "michael curtiz": {
+    "value": {
+      "tmdbId": 4109,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Curtiz",
+        "url": "https://it.wikipedia.org/wiki/Michael_Curtiz",
+        "extract": "Michael Curtiz, nato Manó Kaminer e dal 1905 Mihály Kertész e soprannominato anche Miska (Budapest, 24 dicembre 1886 – Los Angeles, 10 aprile 1962), è stato un regista, produttore cinematografico e attore ungherese naturalizzato statunitense.\n\nUngherese di nascita, emigrò negli Stati Uniti nel 1926 diventando uno dei più grandi registi di Hollywood, conosciuto principalmente per La leggenda di Robin Hood e Gli angeli con la faccia sporca (1938), Casablanca (1942) e Bianco Natale (1954)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Curtiz_1928_portrait.jpg/500px-Curtiz_1928_portrait.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Curtiz_1928_portrait.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1549357,
+          "title": "Az éjszaka rabja",
+          "year": null
+        },
+        {
+          "id": 1549592,
+          "title": "Liliom",
+          "year": null
+        },
+        {
+          "id": 1549597,
+          "title": "Ein Spiel ums Leben",
+          "year": null
+        },
+        {
+          "id": 1549598,
+          "title": "General Babka",
+          "year": null
+        },
+        {
+          "id": 30462,
+          "title": "I Comanceros",
+          "year": "1961"
+        },
+        {
+          "id": 98010,
+          "title": "Francesco d'Assisi",
+          "year": "1961"
+        },
+        {
+          "id": 43041,
+          "title": "Le avventure di Huck Finn",
+          "year": "1960"
+        },
+        {
+          "id": 52003,
+          "title": "Olympia",
+          "year": "1960"
+        },
+        {
+          "id": 48409,
+          "title": "Il boia",
+          "year": "1959"
+        },
+        {
+          "id": 46434,
+          "title": "Imputazione omicidio",
+          "year": "1959"
+        },
+        {
+          "id": 18644,
+          "title": "La via del male",
+          "year": "1958"
+        },
+        {
+          "id": 88431,
+          "title": "L'orgoglio ribelle",
+          "year": "1958"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:29.808Z"
+  },
+  "michael mann": {
+    "value": {
+      "tmdbId": 638,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Mann",
+        "url": "https://it.wikipedia.org/wiki/Michael_Mann",
+        "extract": "Michael Kenneth Mann (Chicago, 5 febbraio 1943) è un regista, sceneggiatore, produttore cinematografico e produttore televisivo statunitense.\n\nCineasta eclettico e innovativo, è considerato uno dei maestri del cinema d'azione. Nel corso della sua esperienza da produttore esecutivo, ha contribuito a rivoluzionare il linguaggio delle serie televisive, sfruttando tecniche fin lì prettamente cinematografiche nella fotografia, nel montaggio e nella colonna sonora. È noto per spingere gli attori a duri allenamenti e mesi di prove affinché entrino completamente nel corpo e nella mente del personaggio che interpretano. Nei primi anni 2000, è stato fondamentale nello sviluppo e nella diffusione della tecnologia e delle riprese in digitale nel cinema delle grandi produzioni, in particolare con il film Collateral."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Michael_Mann_SDCC_2014.jpg/500px-Michael_Mann_SDCC_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Michael_Mann_SDCC_2014.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1199190,
+          "title": "Veteran",
+          "year": null
+        },
+        {
+          "id": 1047807,
+          "title": "Heat 2",
+          "year": null
+        },
+        {
+          "id": 365620,
+          "title": "Ferrari",
+          "year": "2023"
+        },
+        {
+          "id": 201088,
+          "title": "Blackhat",
+          "year": "2015"
+        },
+        {
+          "id": 11322,
+          "title": "Nemico pubblico",
+          "year": "2009"
+        },
+        {
+          "id": 82,
+          "title": "Miami Vice",
+          "year": "2006"
+        },
+        {
+          "id": 1538,
+          "title": "Collateral",
+          "year": "2004"
+        },
+        {
+          "id": 8489,
+          "title": "Alì",
+          "year": "2001"
+        },
+        {
+          "id": 9008,
+          "title": "Insider - Dietro la verità",
+          "year": "1999"
+        },
+        {
+          "id": 949,
+          "title": "Heat - La sfida",
+          "year": "1995"
+        },
+        {
+          "id": 9361,
+          "title": "L'ultimo dei Mohicani",
+          "year": "1992"
+        },
+        {
+          "id": 25964,
+          "title": "Sei solo, agente Vincent",
+          "year": "1989"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:18.172Z"
   },
   "michael showalter": {
     "value": {
@@ -5469,6 +7657,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:10.779Z"
+  },
+  "michel gondry": {
+    "value": {
+      "tmdbId": 201,
+      "wiki": {
+        "lang": "it",
+        "title": "Michel Gondry",
+        "url": "https://it.wikipedia.org/wiki/Michel_Gondry",
+        "extract": "Michel Gondry (Versailles, 8 maggio 1963) è un regista, sceneggiatore, produttore cinematografico e attore francese, noto per il suo stile visuale innovativo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Michel_Gondry_Deauville_2012.jpg/500px-Michel_Gondry_Deauville_2012.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Michel_Gondry_Deauville_2012.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1451153,
+          "title": "Golden",
+          "year": null
+        },
+        {
+          "id": 1503949,
+          "title": "Les petites peurs",
+          "year": null
+        },
+        {
+          "id": 1444665,
+          "title": "Maya, donne-moi un autre titre",
+          "year": "2025"
+        },
+        {
+          "id": 1259477,
+          "title": "Maya, donne-moi un titre",
+          "year": "2024"
+        },
+        {
+          "id": 888003,
+          "title": "Il libro delle soluzioni",
+          "year": "2023"
+        },
+        {
+          "id": 770969,
+          "title": "Une petite visite à mon collège",
+          "year": "2020"
+        },
+        {
+          "id": 754098,
+          "title": "Boris Vian m'a ouvert les yeux et cassé le dos",
+          "year": "2020"
+        },
+        {
+          "id": 764355,
+          "title": "Our Infinity",
+          "year": "2018"
+        },
+        {
+          "id": 464016,
+          "title": "Détour",
+          "year": "2017"
+        },
+        {
+          "id": 337677,
+          "title": "Microbo & Gasolina",
+          "year": "2015"
+        },
+        {
+          "id": 167502,
+          "title": "Is the Man Who Is Tall Happy?",
+          "year": "2013"
+        },
+        {
+          "id": 157820,
+          "title": "Mood Indigo - La schiuma dei giorni",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:14.146Z"
   },
   "mike johnson": {
     "value": {
@@ -5579,6 +7850,89 @@
       ]
     },
     "fetchedAt": "2026-10-18T04:46:01.876Z"
+  },
+  "milos forman": {
+    "value": {
+      "tmdbId": 3974,
+      "wiki": {
+        "lang": "it",
+        "title": "Miloš Forman",
+        "url": "https://it.wikipedia.org/wiki/Milo%C5%A1_Forman",
+        "extract": "Miloš Forman (IPA: [ˈmɪloʃ ˈforman]), pseudonimo di Jan Tomáš Forman (IPA: [ˈjan ˈtomaːʃ ˈforman]) (Čáslav, 18 febbraio 1932 – Danbury, 13 aprile 2018) è stato un regista, sceneggiatore e attore cecoslovacco naturalizzato statunitense.\n\nVinse due Oscar al miglior regista e due Golden Globe per il miglior regista per il suo lavoro in Qualcuno volò sul nido del cuculo (1975) e per Amadeus (1984), vincendo un terzo Golden Globe per Larry Flynt - Oltre lo scandalo (1996).\n\nNei principali festival europei vinse il Grand Prix Speciale della Giuria al Festival di Cannes per Taking Off (1971), e l'Orso d'oro e l'Orso d'argento per il miglior regista al Festival di Berlino rispettivamente per Larry Flynt - Oltre lo scandalo (1996) e per Man on the Moon (1999)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Milos_Forman.jpg/500px-Milos_Forman.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Milos_Forman.jpg",
+        "author": "che (Please credit as \"Petr Novák, Wikipedia\" in case you use this outside Wiki…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 309240,
+          "title": "Dobře placená procházka",
+          "year": "2009"
+        },
+        {
+          "id": 11515,
+          "title": "L'ultimo inquisitore",
+          "year": "2006"
+        },
+        {
+          "id": 1850,
+          "title": "Man on the Moon",
+          "year": "1999"
+        },
+        {
+          "id": 1630,
+          "title": "Larry Flynt - Oltre lo scandalo",
+          "year": "1996"
+        },
+        {
+          "id": 37606,
+          "title": "Valmont",
+          "year": "1989"
+        },
+        {
+          "id": 279,
+          "title": "Amadeus",
+          "year": "1984"
+        },
+        {
+          "id": 25566,
+          "title": "Ragtime",
+          "year": "1981"
+        },
+        {
+          "id": 10654,
+          "title": "Hair",
+          "year": "1979"
+        },
+        {
+          "id": 510,
+          "title": "Qualcuno volò sul nido del cuculo",
+          "year": "1975"
+        },
+        {
+          "id": 73319,
+          "title": "Visions of Eight",
+          "year": "1973"
+        },
+        {
+          "id": 59881,
+          "title": "Taking Off",
+          "year": "1971"
+        },
+        {
+          "id": 48860,
+          "title": "Nedostaje mi Sonja Henie",
+          "year": "1971"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:12.570Z"
   },
   "morten tyldum": {
     "value": {
@@ -5945,6 +8299,89 @@
     },
     "fetchedAt": "2026-10-17T09:31:18.607Z"
   },
+  "olivier nakache": {
+    "value": {
+      "tmdbId": 84426,
+      "wiki": {
+        "lang": "it",
+        "title": "Olivier Nakache e Éric Toledano",
+        "url": "https://it.wikipedia.org/wiki/Olivier_Nakache_e_%C3%89ric_Toledano",
+        "extract": "Olivier Nakache (Suresnes, 14 aprile 1973) e\n\nÉric Toledano (Parigi, 3 luglio 1971) sono due registi e sceneggiatori francesi, noti per aver scritto e diretto il film del 2011 Quasi amici - Intouchables."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg/500px-Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eric_Toledano_Olivier_Nakache_D%C3%A9jeuner_C%C3%A9sar_2018.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1404684,
+          "title": "Just an Illusion - La mia famiglia quasi perfetta",
+          "year": "2026"
+        },
+        {
+          "id": 965791,
+          "title": "Un anno difficile",
+          "year": "2023"
+        },
+        {
+          "id": 579245,
+          "title": "The Specials - Fuori dal comune",
+          "year": "2019"
+        },
+        {
+          "id": 432068,
+          "title": "C'est la vie - Prendila come viene",
+          "year": "2017"
+        },
+        {
+          "id": 1457744,
+          "title": "On devrait en faire un film",
+          "year": "2015"
+        },
+        {
+          "id": 653079,
+          "title": "Le Bon vivant",
+          "year": "2015"
+        },
+        {
+          "id": 269148,
+          "title": "Samba",
+          "year": "2014"
+        },
+        {
+          "id": 77338,
+          "title": "Quasi amici - Intouchables",
+          "year": "2011"
+        },
+        {
+          "id": 19268,
+          "title": "Troppo amici",
+          "year": "2009"
+        },
+        {
+          "id": 19100,
+          "title": "Primi amori, primi vizi, primi baci",
+          "year": "2006"
+        },
+        {
+          "id": 40192,
+          "title": "Je préfère qu'on reste amis…",
+          "year": "2005"
+        },
+        {
+          "id": 625652,
+          "title": "Ces jours heureux",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:25.841Z"
+  },
   "oscar pedraza": {
     "value": {
       "tmdbId": 2410810,
@@ -6039,6 +8476,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:30.173Z"
+  },
+  "park chan wook": {
+    "value": {
+      "tmdbId": 10099,
+      "wiki": {
+        "lang": "it",
+        "title": "Park Chan-wook",
+        "url": "https://it.wikipedia.org/wiki/Park_Chan-wook",
+        "extract": "Park Chan-wook (in coreano: 박찬욱, romaja: Bak Chan-uk, [pak̚t͡ɕʰanuk̚]; Seul, 23 agosto 1963) è un regista, sceneggiatore e produttore cinematografico sudcoreano.\n\nAnnoverato tra i cineasti più importanti e influenti del cinema coreano, dal caratteristico stile eclettico e personale, ha ottenuto il successo internazionale con la trilogia della vendetta, composta da Mr. Vendetta (2002), Old Boy (2003) e Lady Vendetta (2005).\n\nCon Old Boy ha vinto il Grand Prix Speciale della Giuria al Festival di Cannes 2004, dove ricevette anche il plauso del regista statunitense Quentin Tarantino che definì la pellicola come «il film che avrei voluto fare io». Nel 2022 ha ottenuto il Prix de la mise en scène all'annuale Festival di Cannes per il film Decision to Leave."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%EB%B0%95%EC%B0%AC%EC%9A%B1_-_%EC%96%B4%EC%A9%94%EC%88%98%EA%B0%80%EC%97%86%EB%8B%A4.jpg/500px-%EB%B0%95%EC%B0%AC%EC%9A%B1_-_%EC%96%B4%EC%A9%94%EC%88%98%EA%B0%80%EC%97%86%EB%8B%A4.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:%EB%B0%95%EC%B0%AC%EC%9A%B1_-_%EC%96%B4%EC%A9%94%EC%88%98%EA%B0%80%EC%97%86%EB%8B%A4.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1058879,
+          "title": "더 제일브레이커",
+          "year": null
+        },
+        {
+          "id": 1538086,
+          "title": "학살기관",
+          "year": null
+        },
+        {
+          "id": 1581417,
+          "title": "The Brigands of Rattlecreek",
+          "year": null
+        },
+        {
+          "id": 639988,
+          "title": "No Other Choice - Non c'è altra scelta",
+          "year": "2025"
+        },
+        {
+          "id": 705996,
+          "title": "Decision to Leave",
+          "year": "2022"
+        },
+        {
+          "id": 547302,
+          "title": "격세지감",
+          "year": "2017"
+        },
+        {
+          "id": 290098,
+          "title": "Mademoiselle",
+          "year": "2016"
+        },
+        {
+          "id": 300599,
+          "title": "A Rose Reborn",
+          "year": "2014"
+        },
+        {
+          "id": 270017,
+          "title": "Bitter, Sweet, Seoul",
+          "year": "2014"
+        },
+        {
+          "id": 1512747,
+          "title": "이정현 (Lee Jung Hyun) - V",
+          "year": "2013"
+        },
+        {
+          "id": 940976,
+          "title": "Lee Jung Hyun: V",
+          "year": "2013"
+        },
+        {
+          "id": 86825,
+          "title": "Stoker",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:19.058Z"
   },
   "pascal bonitzer": {
     "value": {
@@ -6377,6 +8897,59 @@
     },
     "fetchedAt": "2026-10-17T09:34:17.581Z"
   },
+  "peter ramsey": {
+    "value": {
+      "tmdbId": 151007,
+      "wiki": {
+        "lang": "it",
+        "title": "Peter Ramsey",
+        "url": "https://it.wikipedia.org/wiki/Peter_Ramsey",
+        "extract": "Peter Ramsey (Los Angeles, 23 dicembre 1962) è un regista, illustratore e sceneggiatore statunitense, dedito soprattutto all'animazione."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Peter_Ramsey_by_Gage_Skidmore.jpg/500px-Peter_Ramsey_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Ramsey_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 714677,
+          "title": "Love in Vain",
+          "year": null
+        },
+        {
+          "id": 1266069,
+          "title": "Spider-Man & the Spider-Verse Revolution (To Be Continued)",
+          "year": "2024"
+        },
+        {
+          "id": 324857,
+          "title": "Spider-Man: Un nuovo universo",
+          "year": "2018"
+        },
+        {
+          "id": 486327,
+          "title": "Monsters vs Aliens Stories",
+          "year": "2013"
+        },
+        {
+          "id": 81188,
+          "title": "Le 5 leggende",
+          "year": "2012"
+        },
+        {
+          "id": 53985,
+          "title": "Mostri contro alieni - Zucche mutanti venute dallo spazio",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:08.087Z"
+  },
   "phil lord": {
     "value": {
       "tmdbId": 107446,
@@ -6563,6 +9136,89 @@
     },
     "fetchedAt": "2026-10-17T09:37:02.387Z"
   },
+  "quentin tarantino": {
+    "value": {
+      "tmdbId": 138,
+      "wiki": {
+        "lang": "it",
+        "title": "Quentin Tarantino",
+        "url": "https://it.wikipedia.org/wiki/Quentin_Tarantino",
+        "extract": "Quentin Jerome Tarantino (Knoxville, 27 marzo 1963) è un regista, sceneggiatore, attore, produttore cinematografico e scrittore statunitense.\n\nDefinito un «regista DJ» per la sua capacità di riuscire a combinare stili diversi fondendoli insieme in una nuova opera, il regista e storico del cinema Peter Bogdanovich lo ha definito «il regista più influente della sua generazione»."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Quentin_Tarantino_by_Gage_Skidmore.jpg/500px-Quentin_Tarantino_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1588237,
+          "title": "Il capitolo perduto: La vendetta di Yuki",
+          "year": "2025"
+        },
+        {
+          "id": 466272,
+          "title": "C'era una volta a… Hollywood",
+          "year": "2019"
+        },
+        {
+          "id": 273248,
+          "title": "The Hateful Eight",
+          "year": "2015"
+        },
+        {
+          "id": 68718,
+          "title": "Django Unchained",
+          "year": "2012"
+        },
+        {
+          "id": 414419,
+          "title": "Kill Bill: The Whole Bloody Affair",
+          "year": "2011"
+        },
+        {
+          "id": 16869,
+          "title": "Bastardi senza gloria",
+          "year": "2009"
+        },
+        {
+          "id": 1991,
+          "title": "Grindhouse - A prova di morte",
+          "year": "2007"
+        },
+        {
+          "id": 285923,
+          "title": "Grindhouse",
+          "year": "2007"
+        },
+        {
+          "id": 393,
+          "title": "Kill Bill: Volume 2",
+          "year": "2004"
+        },
+        {
+          "id": 24,
+          "title": "Kill Bill: Volume 1",
+          "year": "2003"
+        },
+        {
+          "id": 184,
+          "title": "Jackie Brown",
+          "year": "1997"
+        },
+        {
+          "id": 5,
+          "title": "Four Rooms",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:05.819Z"
+  },
   "rachel morrison": {
     "value": {
       "tmdbId": 984113,
@@ -6629,6 +9285,69 @@
     },
     "fetchedAt": "2026-10-17T09:31:25.057Z"
   },
+  "rajkumar hirani": {
+    "value": {
+      "tmdbId": 85675,
+      "wiki": {
+        "lang": "it",
+        "title": "Rajkumar Hirani",
+        "url": "https://it.wikipedia.org/wiki/Rajkumar_Hirani",
+        "extract": "Rajkumar Hirani (Nagpur, 20 novembre 1962) è un regista, sceneggiatore, montatore  e produttore cinematografico indiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rajkumar_Hirani_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Rajkumar_Hirani_2014.jpg",
+        "author": "Bollywood Hungama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1405475,
+          "title": "4 Idiots",
+          "year": null
+        },
+        {
+          "id": 1608972,
+          "title": "Untitled Dadasaheb Phalke Biopic",
+          "year": null
+        },
+        {
+          "id": 960876,
+          "title": "Dunki",
+          "year": "2023"
+        },
+        {
+          "id": 496328,
+          "title": "Sanju",
+          "year": "2018"
+        },
+        {
+          "id": 297222,
+          "title": "पीके",
+          "year": "2014"
+        },
+        {
+          "id": 20453,
+          "title": "3 Idiots",
+          "year": "2009"
+        },
+        {
+          "id": 21461,
+          "title": "लगे रहो मुन्ना भाई",
+          "year": "2006"
+        },
+        {
+          "id": 19625,
+          "title": "मुन्ना भाई एम बी बी एस",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:09.408Z"
+  },
   "rich lee": {
     "value": {
       "tmdbId": 1634181,
@@ -6665,6 +9384,249 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:20.449Z"
+  },
+  "richard marquand": {
+    "value": {
+      "tmdbId": 19800,
+      "wiki": {
+        "lang": "it",
+        "title": "Richard Marquand",
+        "url": "https://it.wikipedia.org/wiki/Richard_Marquand",
+        "extract": "Richard Marquand (Cardiff, 22 settembre 1937 – Tunbridge Wells, 4 settembre 1987) è stato un regista britannico, noto soprattutto per aver diretto il terzo film della saga di Guerre stellari (sesto secondo la cronologia interna all'opera), Il ritorno dello Jedi."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/eEalDQpLsXJqejPDQ3MWGe95UHT.jpg",
+      "films": [
+        {
+          "id": 126836,
+          "title": "Hearts of Fire",
+          "year": "1987"
+        },
+        {
+          "id": 12235,
+          "title": "Doppio taglio",
+          "year": "1985"
+        },
+        {
+          "id": 52778,
+          "title": "Until September",
+          "year": "1984"
+        },
+        {
+          "id": 1892,
+          "title": "Il ritorno dello Jedi",
+          "year": "1983"
+        },
+        {
+          "id": 10863,
+          "title": "La cruna dell'ago",
+          "year": "1981"
+        },
+        {
+          "id": 75184,
+          "title": "La nascita dei Beatles",
+          "year": "1979"
+        },
+        {
+          "id": 42215,
+          "title": "Il testamento",
+          "year": "1978"
+        },
+        {
+          "id": 1225129,
+          "title": "Street of Joy",
+          "year": "1976"
+        },
+        {
+          "id": 1225128,
+          "title": "Pyramid Lake Is Dying",
+          "year": "1976"
+        },
+        {
+          "id": 1225125,
+          "title": "Zap!! The Weapon Is Food",
+          "year": "1976"
+        },
+        {
+          "id": 1225122,
+          "title": "To Know Us Is To Love Us",
+          "year": "1975"
+        },
+        {
+          "id": 1225116,
+          "title": "Mr Nixon's Secret Legacy",
+          "year": "1975"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:12.922Z"
+  },
+  "ridley scott": {
+    "value": {
+      "tmdbId": 578,
+      "wiki": {
+        "lang": "it",
+        "title": "Ridley Scott",
+        "url": "https://it.wikipedia.org/wiki/Ridley_Scott",
+        "extract": "Sir Ridley Scott (South Shields, 30 novembre 1937) è un regista, produttore cinematografico e produttore televisivo britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ridley_Scott_At_BFI_-_BFI_Southbank_-_Saturday_4th_October_2025.jpg/500px-Ridley_Scott_At_BFI_-_BFI_Southbank_-_Saturday_4th_October_2025.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ridley_Scott_At_BFI_-_BFI_Southbank_-_Saturday_4th_October_2025.jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1495231,
+          "title": "You Should Be Dancing",
+          "year": null
+        },
+        {
+          "id": 1580279,
+          "title": "Battle of Britain",
+          "year": null
+        },
+        {
+          "id": 1710881,
+          "title": "Treasure Island",
+          "year": "2027"
+        },
+        {
+          "id": 1384216,
+          "title": "The Dog Stars - Le stelle dopo la fine",
+          "year": "2026"
+        },
+        {
+          "id": 558449,
+          "title": "Il gladiatore II",
+          "year": "2024"
+        },
+        {
+          "id": 753342,
+          "title": "Napoleon",
+          "year": "2023"
+        },
+        {
+          "id": 644495,
+          "title": "House of Gucci",
+          "year": "2021"
+        },
+        {
+          "id": 617653,
+          "title": "The Last Duel",
+          "year": "2021"
+        },
+        {
+          "id": 446791,
+          "title": "Tutti i soldi del mondo",
+          "year": "2017"
+        },
+        {
+          "id": 126889,
+          "title": "Alien: Covenant",
+          "year": "2017"
+        },
+        {
+          "id": 286217,
+          "title": "Sopravvissuto - The Martian",
+          "year": "2015"
+        },
+        {
+          "id": 147441,
+          "title": "Exodus - Dei e Re",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:18.632Z"
+  },
+  "rob minkoff": {
+    "value": {
+      "tmdbId": 18898,
+      "wiki": {
+        "lang": "it",
+        "title": "Rob Minkoff",
+        "url": "https://it.wikipedia.org/wiki/Rob_Minkoff",
+        "extract": "Robert R. Minkoff, detto Rob (Palo Alto, 11 agosto 1962), è un regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Rob_Minkoff.jpg/500px-Rob_Minkoff.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rob_Minkoff.jpg",
+        "author": "Michael Schoenholtz",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 417613,
+          "title": "Wolf Totem",
+          "year": null
+        },
+        {
+          "id": 464874,
+          "title": "Chinese Odyssey",
+          "year": null
+        },
+        {
+          "id": 1320113,
+          "title": "Tenor By Night",
+          "year": null
+        },
+        {
+          "id": 1779914,
+          "title": "Storm Dogs",
+          "year": null
+        },
+        {
+          "id": 366672,
+          "title": "Paws of Fury - La leggenda di Hank",
+          "year": "2022"
+        },
+        {
+          "id": 82703,
+          "title": "Mr. Peabody & Sherman",
+          "year": "2014"
+        },
+        {
+          "id": 62046,
+          "title": "Le regole della truffa",
+          "year": "2011"
+        },
+        {
+          "id": 1729,
+          "title": "L'impero proibito",
+          "year": "2008"
+        },
+        {
+          "id": 10756,
+          "title": "La casa dei fantasmi",
+          "year": "2003"
+        },
+        {
+          "id": 10996,
+          "title": "Stuart Little 2",
+          "year": "2002"
+        },
+        {
+          "id": 10137,
+          "title": "Stuart Little - Un topolino in gamba",
+          "year": "1999"
+        },
+        {
+          "id": 8587,
+          "title": "Il re leone",
+          "year": "1994"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:22.756Z"
   },
   "rob savage": {
     "value": {
@@ -6877,6 +9839,79 @@
     },
     "fetchedAt": "2026-10-18T04:46:00.759Z"
   },
+  "roberto benigni": {
+    "value": {
+      "tmdbId": 4818,
+      "wiki": {
+        "lang": "it",
+        "title": "Roberto Benigni",
+        "url": "https://it.wikipedia.org/wiki/Roberto_Benigni",
+        "extract": "Roberto Remigio Benigni (Castiglion Fiorentino, 27 ottobre 1952) è un attore, comico, cabarettista, regista, sceneggiatore e cantautore italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Roberto_Benigni-5274.jpg/500px-Roberto_Benigni-5274.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Roberto_Benigni-5274.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 10846,
+          "title": "La tigre e la neve",
+          "year": "2005"
+        },
+        {
+          "id": 10599,
+          "title": "Pinocchio",
+          "year": "2002"
+        },
+        {
+          "id": 637,
+          "title": "La vita è bella",
+          "year": "1997"
+        },
+        {
+          "id": 454010,
+          "title": "Tuttobenigni 95/96",
+          "year": "1996"
+        },
+        {
+          "id": 22826,
+          "title": "Il mostro",
+          "year": "1994"
+        },
+        {
+          "id": 12776,
+          "title": "Johnny Stecchino",
+          "year": "1991"
+        },
+        {
+          "id": 43645,
+          "title": "Il piccolo diavolo",
+          "year": "1988"
+        },
+        {
+          "id": 27670,
+          "title": "Non ci resta che piangere",
+          "year": "1984"
+        },
+        {
+          "id": 336878,
+          "title": "L'addio a Enrico Berlinguer",
+          "year": "1984"
+        },
+        {
+          "id": 70088,
+          "title": "Tu mi turbi",
+          "year": "1983"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:14.540Z"
+  },
   "roberto de paolis": {
     "value": {
       "tmdbId": 1800445,
@@ -6913,6 +9948,142 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:18.930Z"
+  },
+  "roger allers": {
+    "value": {
+      "tmdbId": 15812,
+      "wiki": {
+        "lang": "it",
+        "title": "Roger Allers",
+        "url": "https://it.wikipedia.org/wiki/Roger_Allers",
+        "extract": "Roger Allers (Rye, 29 giugno 1949 – Santa Monica, 17 gennaio 2026) è stato un regista, sceneggiatore e animatore statunitense, attivo nel campo dell'animazione e conosciuto soprattutto come coregista del film Il re leone, ritenuto esponente massimo del rinascimento disneyano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Roger_Allers%2C_34th_Annie_Awards%2C_2007.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Roger_Allers,_34th_Annie_Awards,_2007.jpg",
+        "author": "John Mueller",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 348666,
+          "title": "Walt Disney Animation Studios Short Films Collection",
+          "year": "2015"
+        },
+        {
+          "id": 283161,
+          "title": "Kahlil Gibran's The Prophet",
+          "year": "2014"
+        },
+        {
+          "id": 7484,
+          "title": "Boog & Elliot a caccia di amici",
+          "year": "2006"
+        },
+        {
+          "id": 38580,
+          "title": "La piccola fiammiferaia",
+          "year": "2006"
+        },
+        {
+          "id": 69799,
+          "title": "La Petite Fille aux allumettes",
+          "year": "2005"
+        },
+        {
+          "id": 8587,
+          "title": "Il re leone",
+          "year": "1994"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:21.757Z"
+  },
+  "roman polanski": {
+    "value": {
+      "tmdbId": 3556,
+      "wiki": {
+        "lang": "it",
+        "title": "Roman Polański",
+        "url": "https://it.wikipedia.org/wiki/Roman_Pola%C5%84ski",
+        "extract": "Rajmund Roman Thierry Polański, detto Roman (Parigi, 18 agosto 1933), è un regista, sceneggiatore, attore e produttore cinematografico polacco naturalizzato francese."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023.11.13._Roman_Polanski_Photo_Mariusz_Kubik_06.JPG/500px-2023.11.13._Roman_Polanski_Photo_Mariusz_Kubik_06.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:2023.11.13._Roman_Polanski_Photo_Mariusz_Kubik_06.JPG",
+        "author": "Mariusz Kubik",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 824016,
+          "title": "The Palace",
+          "year": "2023"
+        },
+        {
+          "id": 399121,
+          "title": "L'ufficiale e la spia",
+          "year": "2019"
+        },
+        {
+          "id": 1465037,
+          "title": "Sharon Tate Home Movies",
+          "year": "2019"
+        },
+        {
+          "id": 416051,
+          "title": "Quello che non so di lei",
+          "year": "2017"
+        },
+        {
+          "id": 695352,
+          "title": "Henri Langlois vu par...",
+          "year": "2014"
+        },
+        {
+          "id": 197082,
+          "title": "Venere in pelliccia",
+          "year": "2013"
+        },
+        {
+          "id": 72113,
+          "title": "Carnage",
+          "year": "2011"
+        },
+        {
+          "id": 11439,
+          "title": "L'uomo nell'ombra",
+          "year": "2010"
+        },
+        {
+          "id": 465043,
+          "title": "Rower",
+          "year": "2008"
+        },
+        {
+          "id": 36108,
+          "title": "A ciascuno il suo cinema",
+          "year": "2007"
+        },
+        {
+          "id": 318017,
+          "title": "Le court des grands",
+          "year": "2005"
+        },
+        {
+          "id": 257,
+          "title": "Oliver Twist",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:27.647Z"
   },
   "ryan adriandhy": {
     "value": {
@@ -7029,6 +10200,89 @@
     },
     "fetchedAt": "2026-10-17T09:33:17.575Z"
   },
+  "sam mendes": {
+    "value": {
+      "tmdbId": 39,
+      "wiki": {
+        "lang": "it",
+        "title": "Sam Mendes",
+        "url": "https://it.wikipedia.org/wiki/Sam_Mendes",
+        "extract": "Sir Samuel Alexander Mendes, detto Sam (Reading, 1º agosto 1965), è un regista, sceneggiatore e produttore cinematografico britannico.\n\nDopo gli esordi a teatro e la direzione artistica della Donmar Warehouse di Londra, Mendes ha fatto il suo debutto alla regia cinematografica con il film American Beauty (1999), per cui ha vinto il Premio Oscar come miglior regista. Nel 2020 gli è stato conferito il cavalierato per i suoi servizi all'arte drammatica."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Sam_Mendes_in_2022-2.jpg/500px-Sam_Mendes_in_2022-2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sam_Mendes_in_2022-2.jpg",
+        "author": "Frankie Fouganthin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1247601,
+          "title": "The Beatles: John",
+          "year": "2028"
+        },
+        {
+          "id": 1247603,
+          "title": "The Beatles: George",
+          "year": "2028"
+        },
+        {
+          "id": 1247605,
+          "title": "The Beatles: Paul",
+          "year": "2028"
+        },
+        {
+          "id": 1247606,
+          "title": "The Beatles: Ringo",
+          "year": "2028"
+        },
+        {
+          "id": 1433499,
+          "title": "What They Found",
+          "year": "2025"
+        },
+        {
+          "id": 1237527,
+          "title": "National Theatre Live: The Motive and the Cue",
+          "year": "2024"
+        },
+        {
+          "id": 814757,
+          "title": "Empire of Light",
+          "year": "2022"
+        },
+        {
+          "id": 530915,
+          "title": "1917",
+          "year": "2019"
+        },
+        {
+          "id": 593837,
+          "title": "National Theatre Live: The Lehman Trilogy",
+          "year": "2019"
+        },
+        {
+          "id": 206647,
+          "title": "Spectre",
+          "year": "2015"
+        },
+        {
+          "id": 267821,
+          "title": "National Theatre Live: King Lear",
+          "year": "2014"
+        },
+        {
+          "id": 37724,
+          "title": "Skyfall",
+          "year": "2012"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:12.384Z"
+  },
   "scott waugh": {
     "value": {
       "tmdbId": 293911,
@@ -7085,6 +10339,63 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:20.015Z"
+  },
+  "sergio leone": {
+    "value": {
+      "tmdbId": 4385,
+      "wiki": {
+        "lang": "it",
+        "title": "Sergio Leone",
+        "url": "https://it.wikipedia.org/wiki/Sergio_Leone",
+        "extract": "Sergio Leone (Roma, 3 gennaio 1929 – Roma, 30 aprile 1989) è stato un regista, sceneggiatore e produttore cinematografico italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/2576qoW8l9Z1nKGM10ar60aIwUu.jpg",
+      "films": [
+        {
+          "id": 522822,
+          "title": "The King of Ads",
+          "year": "1991"
+        },
+        {
+          "id": 311,
+          "title": "C'era una volta in America",
+          "year": "1984"
+        },
+        {
+          "id": 336,
+          "title": "Giù la testa",
+          "year": "1971"
+        },
+        {
+          "id": 335,
+          "title": "C'era una volta il West",
+          "year": "1968"
+        },
+        {
+          "id": 429,
+          "title": "Il buono, il brutto, il cattivo",
+          "year": "1966"
+        },
+        {
+          "id": 938,
+          "title": "Per qualche dollaro in più",
+          "year": "1965"
+        },
+        {
+          "id": 391,
+          "title": "Per un pugno di dollari",
+          "year": "1964"
+        },
+        {
+          "id": 43020,
+          "title": "Il colosso di Rodi",
+          "year": "1961"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:06.651Z"
   },
   "shawn levy": {
     "value": {
@@ -7169,6 +10480,89 @@
     },
     "fetchedAt": "2026-10-17T09:35:15.479Z"
   },
+  "sidney lumet": {
+    "value": {
+      "tmdbId": 39996,
+      "wiki": {
+        "lang": "it",
+        "title": "Sidney Lumet",
+        "url": "https://it.wikipedia.org/wiki/Sidney_Lumet",
+        "extract": "Sidney Arthur Lumet (AFI: [luːˈmɛt]; Filadelfia, 25 giugno 1924 – New York, 9 aprile 2011) è stato un regista, produttore cinematografico, sceneggiatore e attore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sidney_Lumet_1970.jpg/500px-Sidney_Lumet_1970.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sidney_Lumet_1970.jpg",
+        "author": "Photographer unknown. Published and distributed by Maron Films.",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 7972,
+          "title": "Onora il padre e la madre",
+          "year": "2007"
+        },
+        {
+          "id": 9950,
+          "title": "Prova a incastrarmi",
+          "year": "2006"
+        },
+        {
+          "id": 1168332,
+          "title": "Rachel, quand du seigneur",
+          "year": "2004"
+        },
+        {
+          "id": 41847,
+          "title": "Strip Search",
+          "year": "2004"
+        },
+        {
+          "id": 45712,
+          "title": "Gloria",
+          "year": "1999"
+        },
+        {
+          "id": 61337,
+          "title": "Se mi amate",
+          "year": "1997"
+        },
+        {
+          "id": 46027,
+          "title": "Prove apparenti",
+          "year": "1997"
+        },
+        {
+          "id": 4916,
+          "title": "Per legittima accusa",
+          "year": "1993"
+        },
+        {
+          "id": 41670,
+          "title": "Una estranea fra noi",
+          "year": "1992"
+        },
+        {
+          "id": 31598,
+          "title": "Terzo grado",
+          "year": "1990"
+        },
+        {
+          "id": 10551,
+          "title": "Sono affari di famiglia",
+          "year": "1989"
+        },
+        {
+          "id": 18197,
+          "title": "Vivere in fuga",
+          "year": "1988"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:03.743Z"
+  },
   "sophie beaulieu": {
     "value": {
       "tmdbId": 2210868,
@@ -7195,6 +10589,172 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:12.364Z"
+  },
+  "stanley donen": {
+    "value": {
+      "tmdbId": 13284,
+      "wiki": {
+        "lang": "it",
+        "title": "Stanley Donen",
+        "url": "https://it.wikipedia.org/wiki/Stanley_Donen",
+        "extract": "Stanley Donen (Columbia, 13 aprile 1924 – New York, 21 febbraio 2019) è stato un regista e coreografo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Stanley_Donen.jpg/500px-Stanley_Donen.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Stanley_Donen.jpg",
+        "author": "Adam Schartoff",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 269516,
+          "title": "Love Letters",
+          "year": "1999"
+        },
+        {
+          "id": 14347,
+          "title": "Quel giorno a Rio",
+          "year": "1984"
+        },
+        {
+          "id": 19761,
+          "title": "Saturn 3",
+          "year": "1980"
+        },
+        {
+          "id": 85420,
+          "title": "Il boxeur e la ballerina",
+          "year": "1978"
+        },
+        {
+          "id": 78353,
+          "title": "In 3 sul Lucky Lady",
+          "year": "1975"
+        },
+        {
+          "id": 37627,
+          "title": "Il piccolo principe",
+          "year": "1974"
+        },
+        {
+          "id": 77937,
+          "title": "Quei due",
+          "year": "1969"
+        },
+        {
+          "id": 18209,
+          "title": "Il mio amico il diavolo",
+          "year": "1967"
+        },
+        {
+          "id": 5767,
+          "title": "Due per la strada",
+          "year": "1967"
+        },
+        {
+          "id": 23030,
+          "title": "Arabesque",
+          "year": "1966"
+        },
+        {
+          "id": 4808,
+          "title": "Sciarada",
+          "year": "1963"
+        },
+        {
+          "id": 25767,
+          "title": "L'erba del vicino è sempre più verde",
+          "year": "1960"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:23.340Z"
+  },
+  "stanley kubrick": {
+    "value": {
+      "tmdbId": 240,
+      "wiki": {
+        "lang": "it",
+        "title": "Stanley Kubrick",
+        "url": "https://it.wikipedia.org/wiki/Stanley_Kubrick",
+        "extract": "Stanley Kubrick (New York, 26 luglio 1928 – St Albans, 7 marzo 1999) è stato un regista, sceneggiatore e produttore cinematografico statunitense naturalizzato britannico.\n\nConsiderato uno dei maggiori cineasti della storia del cinema, è stato anche direttore della fotografia, montatore, scenografo, creatore di effetti speciali, scrittore e fotografo. I suoi film sono considerati dal critico cinematografico Michel Ciment i più importanti contributi alla cinematografia mondiale del ventesimo secolo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Stanley_Kubrick_%281949_portrait_by_Phillip_Harrington_-_cropped%29.jpg/500px-Stanley_Kubrick_%281949_portrait_by_Phillip_Harrington_-_cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Stanley_Kubrick_(1949_portrait_by_Phillip_Harrington_-_cropped).jpg",
+        "author": "Phillip A. Harrington, an American photographer and staffer for Look magazine b…",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 345,
+          "title": "Eyes Wide Shut",
+          "year": "1999"
+        },
+        {
+          "id": 600,
+          "title": "Full Metal Jacket",
+          "year": "1987"
+        },
+        {
+          "id": 694,
+          "title": "Shining",
+          "year": "1980"
+        },
+        {
+          "id": 3175,
+          "title": "Barry Lyndon",
+          "year": "1975"
+        },
+        {
+          "id": 185,
+          "title": "Arancia meccanica",
+          "year": "1971"
+        },
+        {
+          "id": 62,
+          "title": "2001: Odissea nello spazio",
+          "year": "1968"
+        },
+        {
+          "id": 935,
+          "title": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+          "year": "1964"
+        },
+        {
+          "id": 802,
+          "title": "Lolita",
+          "year": "1962"
+        },
+        {
+          "id": 967,
+          "title": "Spartacus",
+          "year": "1960"
+        },
+        {
+          "id": 975,
+          "title": "Orizzonti di gloria",
+          "year": "1957"
+        },
+        {
+          "id": 247,
+          "title": "Rapina a mano armata",
+          "year": "1956"
+        },
+        {
+          "id": 10056,
+          "title": "Il bacio dell'assassino",
+          "year": "1955"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:04.938Z"
   },
   "steve hudson": {
     "value": {
@@ -7479,6 +11039,89 @@
     },
     "fetchedAt": "2026-10-18T04:45:58.874Z"
   },
+  "thomas vinterberg": {
+    "value": {
+      "tmdbId": 4453,
+      "wiki": {
+        "lang": "it",
+        "title": "Thomas Vinterberg",
+        "url": "https://it.wikipedia.org/wiki/Thomas_Vinterberg",
+        "extract": "Thomas Vinterberg (Copenaghen, 19 maggio 1969) è un regista e sceneggiatore danese.\n\nTra i fondatori di Dogma 95, nel 1998 il suo film Festen - Festa in famiglia ha ricevuto il Premio della Giuria al Festival di Cannes. Nel 2020 riceve il plauso della critica e del pubblico per il suo film Un altro giro, che ottiene numerosi premi tra cui l'European Film Awards per il miglior film e il BAFTA per il miglior film non in lingua inglese."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Thomas_Vinterberg_Berlinale_2010.jpg/500px-Thomas_Vinterberg_Berlinale_2010.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Thomas_Vinterberg_Berlinale_2010.jpg",
+        "author": "Siebbi",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 580175,
+          "title": "Un altro giro",
+          "year": "2020"
+        },
+        {
+          "id": 401200,
+          "title": "Kursk",
+          "year": "2018"
+        },
+        {
+          "id": 308409,
+          "title": "La comune",
+          "year": "2016"
+        },
+        {
+          "id": 250734,
+          "title": "Via dalla pazza folla",
+          "year": "2015"
+        },
+        {
+          "id": 103663,
+          "title": "Il sospetto",
+          "year": "2012"
+        },
+        {
+          "id": 46789,
+          "title": "Submarino",
+          "year": "2010"
+        },
+        {
+          "id": 15844,
+          "title": "Riunione di famiglia",
+          "year": "2007"
+        },
+        {
+          "id": 10913,
+          "title": "Dear Wendy",
+          "year": "2005"
+        },
+        {
+          "id": 12777,
+          "title": "Le forze del destino",
+          "year": "2003"
+        },
+        {
+          "id": 314082,
+          "title": "blur | The Best Of",
+          "year": "2000"
+        },
+        {
+          "id": 55178,
+          "title": "D-Dag",
+          "year": "2000"
+        },
+        {
+          "id": 309,
+          "title": "Festen - Festa in famiglia",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:20.266Z"
+  },
   "tim burton": {
     "value": {
       "tmdbId": 510,
@@ -7645,6 +11288,69 @@
     },
     "fetchedAt": "2026-10-17T09:37:11.408Z"
   },
+  "tony kaye": {
+    "value": {
+      "tmdbId": 814,
+      "wiki": {
+        "lang": "it",
+        "title": "Tony Kaye (regista)",
+        "url": "https://it.wikipedia.org/wiki/Tony_Kaye_(regista)",
+        "extract": "Tony Kaye (Londra, 8 luglio 1952) è un regista e direttore della fotografia britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Tony_Kaye_2026.jpg/500px-Tony_Kaye_2026.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Tony_Kaye_2026.jpg",
+        "author": "Colleen Sturtevant",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1236280,
+          "title": "Josie Ho & The Hong Kong Sound",
+          "year": null
+        },
+        {
+          "id": 747468,
+          "title": "African History Y",
+          "year": null
+        },
+        {
+          "id": 1698494,
+          "title": "Humpty Dumpty X",
+          "year": "2026"
+        },
+        {
+          "id": 956057,
+          "title": "The Trainer",
+          "year": "2024"
+        },
+        {
+          "id": 74308,
+          "title": "Detachment - Il distacco",
+          "year": "2011"
+        },
+        {
+          "id": 664285,
+          "title": "This Is Not Sex",
+          "year": "2008"
+        },
+        {
+          "id": 44260,
+          "title": "Lake of Fire",
+          "year": "2006"
+        },
+        {
+          "id": 73,
+          "title": "American History X",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:57:20.702Z"
+  },
   "tyler atkins": {
     "value": {
       "tmdbId": 1895348,
@@ -7804,6 +11510,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:17.756Z"
+  },
+  "wolfgang petersen": {
+    "value": {
+      "tmdbId": 5231,
+      "wiki": {
+        "lang": "it",
+        "title": "Wolfgang Petersen",
+        "url": "https://it.wikipedia.org/wiki/Wolfgang_Petersen",
+        "extract": "Wolfgang Petersen (Emden, 14 marzo 1941 – Los Angeles, 12 agosto 2022) è stato un regista e sceneggiatore tedesco.\n\nNegli anni ottanta divenne noto per i suoi film U-Boot 96 e La storia infinita. In seguito girò numerosi blockbuster hollywoodiani come Nel centro del mirino, Virus letale, Air Force One, La tempesta perfetta e Troy."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Wolfgang_Petersen_-_Poseidon_Premiere_%28cropped%29.jpg/500px-Wolfgang_Petersen_-_Poseidon_Premiere_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Petersen_-_Poseidon_Premiere_(cropped).jpg",
+        "author": "S Pakhrin from DC, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 366568,
+          "title": "Four Against the Bank",
+          "year": "2016"
+        },
+        {
+          "id": 503,
+          "title": "Poseidon",
+          "year": "2006"
+        },
+        {
+          "id": 652,
+          "title": "Troy",
+          "year": "2004"
+        },
+        {
+          "id": 2133,
+          "title": "La tempesta perfetta",
+          "year": "2000"
+        },
+        {
+          "id": 9772,
+          "title": "Air Force One",
+          "year": "1997"
+        },
+        {
+          "id": 6950,
+          "title": "Virus letale",
+          "year": "1995"
+        },
+        {
+          "id": 9386,
+          "title": "Nel centro del mirino",
+          "year": "1993"
+        },
+        {
+          "id": 2071,
+          "title": "Prova schiacciante",
+          "year": "1991"
+        },
+        {
+          "id": 11864,
+          "title": "Il mio nemico",
+          "year": "1985"
+        },
+        {
+          "id": 34584,
+          "title": "La storia infinita",
+          "year": "1984"
+        },
+        {
+          "id": 387,
+          "title": "U-Boot 96",
+          "year": "1981"
+        },
+        {
+          "id": 147227,
+          "title": "Schwarz und weiß wie Tage und Nächte",
+          "year": "1978"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T17:58:22.215Z"
   },
   "yann samuell": {
     "value": {

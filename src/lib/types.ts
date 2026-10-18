@@ -16,6 +16,8 @@ export interface ChartEntry {
   source: string;
   sourceUrl: string | null;
   externalId: string | null;
+  /** Voto medio sulla fonte (es. IMDb, su 10), per le classifiche ordinate per voto. */
+  rating?: { value: number; votes: number };
 }
 
 /** Classifica raccolta da una singola fonte in un giorno. */
