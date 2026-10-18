@@ -1,6 +1,7 @@
 ---
 import { artistKey, movieSubtitle, normalizeText, seriesSubtitle, splitArtists } from '../lib/aggregate';
 import { getArtistInfo, getAuthorInfo, getCreatorInfo, getDirectorInfo, getMovieInfo, getSeriesInfo, seriesSeenKey } from '../lib/data';
+import { providerName } from '../lib/providers';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
 import ChangeBadge from './ChangeBadge.astro';
@@ -50,9 +51,6 @@ const INITIAL = 20;
 
 // Filtri di film e serie (servizio in abbonamento, genere, voto; durata dei film; stagioni e stato delle serie) dalle schede TMDB:
 // solo lato client, senza JS la tabella è completa.
-/** "HBO Max Amazon Channel" e "Amazon Prime Video with Ads" contano come HBO Max e Amazon Prime Video. */
-const providerName = (name: string) =>
-  name.replace(/\s+Amazon Channel$/i, '').replace(/\s+(Standard\s+)?with Ads$/i, '').replace(/^Paramount\+$/, 'Paramount Plus').trim();
 const infoOf = (key: string) => (movies ? getMovieInfo(key) : series ? getSeriesInfo(key) : null);
 const filters = screen
   ? view.entries.map((e) => {
@@ -243,7 +241,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
         {
           view.entries.map((e, i) => (
             <tr
-              class="chart-row hover:bg-gray-50 data-seen:bg-emerald-50/60 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/30"
+              class="chart-row group hover:bg-gray-50 data-seen:bg-emerald-50 data-seen:shadow-[inset_4px_0_0_var(--color-emerald-500)] data-seen:hover:bg-emerald-100/70 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/40 dark:data-seen:hover:bg-emerald-950/60"
               data-key={movies ? e.key : series ? seriesSeenKey(e) : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
@@ -277,6 +275,15 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                       </button>
                     ) : (
                       <p class="font-semibold break-words">{e.title}</p>
+                    )}
+                    {screen && (
+                      <span
+                        class="ml-2 hidden items-center gap-1 rounded-full bg-emerald-600 px-2 py-0.5 align-[0.1em] text-xs font-semibold text-white group-data-seen:inline-flex dark:bg-emerald-500 dark:text-emerald-950"
+                        aria-hidden="true"
+                      >
+                        <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5 9-10"></path></svg>
+                        {words.seen}
+                      </span>
                     )}
                     {e.subtitle && (
                       <p class="text-gray-600 break-words dark:text-gray-400">

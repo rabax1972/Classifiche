@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { movieKeys } from '../scripts/trakt-import';
+import { movieKeys, seenMovie } from '../scripts/trakt-import';
 
 const crew = (...names: string[]) => ({ crew: names.map((name) => ({ job: 'Director', name })) });
 
@@ -30,5 +30,39 @@ describe('movieKeys', () => {
       '1917|',
       '1917|sam mendes 2019',
     ]);
+  });
+});
+
+describe('seenMovie', () => {
+  it('scheda del catalogo: locandina piccola, voto solo con almeno 10 voti, servizi unificati', () => {
+    const f = seenMovie(
+      {
+        title: 'Matchbox: Il film',
+        release_date: '2026-09-19',
+        poster_path: '/abc.jpg',
+        vote_average: 7.85,
+        vote_count: 120,
+        genres: [{ name: 'Avventura' }],
+        runtime: 112,
+        credits: crew('Sam Hargrave'),
+        'watch/providers': {
+          results: {
+            IT: {
+              link: 'https://www.themoviedb.org/movie/1/watch?locale=IT',
+              flatrate: [
+                { provider_name: 'HBO Max Amazon Channel', logo_path: '/canale.png', display_priority: 2 },
+                { provider_name: 'HBO Max', logo_path: '/hbo.png', display_priority: 1 },
+              ],
+            },
+          },
+        },
+      },
+      1,
+      ['matchbox il film|sam hargrave 2026'],
+    );
+    expect(f).toMatchObject({ year: 2026, vote: 7.9, runtime: 112, directors: ['Sam Hargrave'], genres: ['Avventura'] });
+    expect(f.poster).toBe('https://image.tmdb.org/t/p/w185/abc.jpg');
+    expect(f.providers).toEqual([{ name: 'HBO Max', logo: 'https://image.tmdb.org/t/p/w92/hbo.png' }]);
+    expect(seenMovie({ title: 'X', vote_average: 9, vote_count: 3 }, 2, []).vote).toBeNull();
   });
 });

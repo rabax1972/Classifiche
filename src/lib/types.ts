@@ -336,6 +336,35 @@ export interface MovieCard {
   info: MovieInfo | null;
 }
 
+/**
+ * Un film della scheda "I miei visti" della pagina Film (file statico /film/visti.json, src/pages/film/visti.json.ts): dal catalogo
+ * privato/film-visti.json di scripts/trakt-import.ts più i film delle classifiche Cinema e Film. Dati TMDB, servizi di JustWatch.
+ */
+export interface SeenMovie {
+  tmdbId: number;
+  title: string;
+  year: number | null;
+  directors: string[];
+  /** Locandina piccola (w185). */
+  poster: string | null;
+  /** Voto medio TMDB, solo con almeno 10 voti. */
+  vote: number | null;
+  votes: number;
+  genres: string[];
+  runtime: number | null;
+  /** Servizi in abbonamento in Italia, con il nome unificato (src/lib/providers.ts). */
+  providers: WatchProvider[];
+  /** Chiavi della lista "visti" (entryKey) con cui il film può comparire: è visto se ne è spuntata una. */
+  keys: string[];
+}
+
+/** File privato/film-visti.json (fuori da git), scritto da scripts/trakt-import.ts. */
+export interface SeenMovieCatalog {
+  /** Giorno di raccolta dei dati TMDB (YYYY-MM-DD): oltre i 150 giorni il catalogo non viene pubblicato. */
+  date: string;
+  films: SeenMovie[];
+}
+
 /** Un film della pagina da cui si aprono le modali di film e regista. */
 export interface MovieItem extends Omit<MovieCard, 'info'> {
   /** Chiave della scheda in data/cache/movie-info.json (entryKey). */

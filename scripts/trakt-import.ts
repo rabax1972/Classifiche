@@ -10,22 +10,28 @@
 //   Serie ("serie-viste", chiave "tv:{ID TMDB}"): solo quelle con tutti gli episodi andati in onda visti.
 //   Episodi ("episodi-visti", chiave "{ID TMDB}:{stagione}:{episodio}"): tutti quelli nella cronologia.
 //
-//   npm run import:trakt -- --account email@esempio.it   scrive privato/spunte-trakt-{data}.json (fuori da git)
+// Scrive anche il catalogo dei film visti (privato/film-visti.json: titolo, anno, locandina, voto, generi, durata, servizi
+// da TMDB e le chiavi di ogni film), pubblicato con il sito nella scheda "I miei visti" della pagina Film
+// (src/pages/film/visti.json.ts). Va rigenerato entro 150 giorni (dati TMDB): poi la build lo ignora.
+//
+//   npm run import:trakt -- --account email@esempio.it   scrive privato/spunte-trakt-{data}.json e privato/film-visti.json
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { entryKey } from '../src/lib/aggregate';
-import { hasTmdbKey, tmdb } from './adapters/tmdb';
+import { mergeProviders } from '../src/lib/providers';
+import type { SeenMovie, SeenMovieCatalog } from '../src/lib/types';
+import { TMDB_IMG, hasTmdbKey, tmdb } from './adapters/tmdb';
 import { loadEnv } from './lib/env';
 import { fetchJson } from './lib/http';
-import { movieTargets } from './movie-info';
+import { movieTargets, providers, type TmdbWatch } from './movie-info';
 
 const API = 'https://api.trakt.tv';
 const PAGE = 250; // limite massimo di Trakt per pagina
 const OUT_DIR = path.resolve('privato');
 /** Risposte TMDB riusate tra un'importazione e l'altra (.cache/http, fuori da git). */
-const TMDB_CACHE = { retries: 1, cacheTtlMs: 30 * 86_400_000 };
+const TMDB_CACHE = { retries: 1, cacheTtlMs: 7 * 86_400_000 };
 
 interface TraktIds {
   tmdb: number | null;
@@ -73,6 +79,15 @@ interface TmdbMovie {
   release_dates?: { results: { iso_3166_1: string; release_dates: { release_date: string }[] }[] };
 }
 
+interface TmdbMovieFull extends TmdbMovie {
+  poster_path?: string | null;
+  vote_average?: number;
+  vote_count?: number;
+  genres?: { name: string }[];
+  runtime?: number | null;
+  'watch/providers'?: { results: Record<string, TmdbWatch | undefined> };
+}
+
 /**
  * Le chiavi che il film può avere in classifica (entryKey), tutte: la spunta vale per quella che comparirà.
  * Fonti TMDB: titolo italiano + "Regista, Regista (anno)", dove l'anno è quello dell'uscita italiana per il Cinema e i
@@ -92,12 +107,29 @@ export function movieKeys(m: TmdbMovie, traktTitle: string): string[] {
   return [...keys];
 }
 
-async function lookupMovieKeys(id: number, traktTitle: string): Promise<string[]> {
+/** Scheda del film per il catalogo, con le chiavi che può avere in classifica. */
+export function seenMovie(m: TmdbMovieFull, id: number, keys: string[]): SeenMovie {
+  const votes = m.vote_count ?? 0;
+  return {
+    tmdbId: id,
+    title: m.title,
+    year: Number(m.release_date?.slice(0, 4)) || null,
+    directors: (m.credits?.crew ?? []).filter((p) => p.job === 'Director').map((p) => p.name).slice(0, 2),
+    poster: m.poster_path ? `${TMDB_IMG}/w185${m.poster_path}` : null,
+    vote: m.vote_average && votes >= 10 ? Math.round(m.vote_average * 10) / 10 : null,
+    votes,
+    genres: (m.genres ?? []).map((g) => g.name),
+    runtime: m.runtime || null,
+    providers: mergeProviders(providers(m['watch/providers']?.results.IT?.flatrate)),
+    keys,
+  };
+}
+
+async function lookupMovie(id: number): Promise<TmdbMovieFull | null> {
   try {
-    const m = await tmdb<TmdbMovie>(`/movie/${id}?language=it-IT&append_to_response=credits,release_dates`, TMDB_CACHE);
-    return movieKeys(m, traktTitle);
+    return await tmdb<TmdbMovieFull>(`/movie/${id}?language=it-IT&append_to_response=credits,release_dates,watch/providers`, TMDB_CACHE);
   } catch {
-    return []; // film rimosso da TMDB o errore di rete: finisce tra quelli non abbinati
+    return null; // film rimosso da TMDB o errore di rete: finisce tra quelli non abbinati
   }
 }
 
@@ -132,15 +164,22 @@ export async function importTrakt(user: string, account: string, log: (m: string
   const chartKeys = new Map<number, string>();
   for (const [key, { id }] of await movieTargets()) if (id) chartKeys.set(id, key);
   const films = new Set<string>();
+  const catalog: SeenMovie[] = [];
   const unmatched: string[] = [];
   let fromCharts = 0;
   for (const [i, { movie }] of movies.entries()) {
     const id = movie.ids.tmdb;
-    const chartKey = id ? chartKeys.get(id) : undefined;
-    const keys = chartKey ? [chartKey] : id ? await lookupMovieKeys(id, movie.title) : [];
+    const m = id ? await lookupMovie(id) : null;
+    if (!id || !m) {
+      unmatched.push(`${movie.title} (${movie.year ?? '?'})`);
+      continue;
+    }
+    const chartKey = chartKeys.get(id);
+    const keys = movieKeys(m, movie.title);
     if (chartKey) fromCharts++;
-    for (const key of keys) films.add(key);
-    if (!keys.length) unmatched.push(`${movie.title} (${movie.year ?? '?'})`);
+    // Spunte: la chiave della classifica se il film c'è già, altrimenti tutte quelle possibili. Catalogo: tutte.
+    for (const key of chartKey ? [chartKey] : keys) films.add(key);
+    catalog.push(seenMovie(m, id, [...new Set([...(chartKey ? [chartKey] : []), ...keys])]));
     if ((i + 1) % 100 === 0) log(`  film abbinati: ${i + 1}/${movies.length}`);
   }
 
@@ -156,11 +195,14 @@ export async function importTrakt(user: string, account: string, log: (m: string
   await mkdir(OUT_DIR, { recursive: true });
   const file = path.join(OUT_DIR, `spunte-trakt-${day}.json`);
   await writeFile(file, JSON.stringify(data, null, 2));
+  const catalogFile = path.join(OUT_DIR, 'film-visti.json');
+  await writeFile(catalogFile, JSON.stringify({ date: day, films: catalog } satisfies SeenMovieCatalog));
 
   log(`\nFilm: ${movies.length - unmatched.length} abbinati su ${movies.length} visti (${fromCharts} già nelle classifiche), ${films.size} chiavi.`);
   if (unmatched.length) log(`  Non abbinati (${unmatched.length}): ${unmatched.join('; ')}`);
   log(`Serie: ${series.length} viste per intero; ${partial.length} iniziate, con solo le spunte degli episodi.`);
   log(`Episodi: ${episodes.size}.`);
+  log(`\nCatalogo dei film visti (pubblicato con il sito): ${catalogFile}`);
   log(`\nFile: ${file}\nImportalo da /account/ ("Importa da file") dopo essere entrato come ${account}.`);
 }
 

@@ -11,6 +11,7 @@ import BookDialog from './BookDialog.astro';
 import CreatorDialog from './CreatorDialog.astro';
 import DirectorDialog from './DirectorDialog.astro';
 import MovieDialog from './MovieDialog.astro';
+import SeenMovies from './SeenMovies.astro';
 import SeriesDialog from './SeriesDialog.astro';
 import SongDialog from './SongDialog.astro';
 
@@ -46,6 +47,8 @@ function range(v: ChartView) {
   return `${v.periodLabel} · dal ${formatDay(v.from)} al ${formatDay(v.to)}`;
 }
 const title = `${cfg.label} – ${PERIODS[period].label}`;
+/** Scheda "I miei visti" (SeenMovies): solo nella pagina Film, mostrata a chi ha l'account. */
+const seenTab = category === 'film';
 ---
 
 <Base title={title} description={`Classifica ${cfg.label.toLowerCase()} in Italia: ${PERIODS[period].label.toLowerCase()}. ${cfg.description}`} current={category}>
@@ -92,7 +95,7 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
       </div>
     ) : (
       <div class="views" data-views={views.length}>
-        {views.length > 1 && (
+        {(views.length > 1 || seenTab) && (
           <div role="tablist" aria-label="Tipo di classifica" class="views-tabs mb-4 hidden gap-2 border-b border-gray-200 dark:border-gray-800">
             {views.map((v, i) => (
               <button
@@ -107,10 +110,25 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
                 {v.label}
               </button>
             ))}
+            {seenTab && (
+              <button
+                type="button"
+                role="tab"
+                id="tab-visti"
+                aria-controls="panel-visti"
+                aria-selected="false"
+                tabindex={-1}
+                data-account-only
+                hidden
+                class="-mb-px border-b-2 border-transparent px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 aria-selected:border-indigo-600 aria-selected:text-indigo-700 dark:text-gray-400 dark:hover:text-white dark:aria-selected:border-indigo-400 dark:aria-selected:text-indigo-300"
+              >
+                I miei visti
+              </button>
+            )}
           </div>
         )}
         {views.map((v, i) => (
-          <section id={`panel-${i}`} role={views.length > 1 ? 'tabpanel' : undefined} aria-labelledby={views.length > 1 ? `tab-${i}` : undefined} class="views-panel mb-10">
+          <section id={`panel-${i}`} role={views.length > 1 || seenTab ? 'tabpanel' : undefined} aria-labelledby={views.length > 1 || seenTab ? `tab-${i}` : undefined} class="views-panel mb-10">
             <div class="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
               <span class={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${badge[v.kind]}`}>{v.label}</span>
               <span class="font-medium">{range(v)}</span>
@@ -128,6 +146,11 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
             <ChartTable view={v} category={category} caption={`${cfg.label}: ${v.label}, ${range(v)}`} />
           </section>
         ))}
+        {seenTab && (
+          <section id="panel-visti" role="tabpanel" aria-labelledby="tab-visti" class="views-panel mb-10" data-account-only hidden>
+            <SeenMovies />
+          </section>
+        )}
       </div>
     )
   }
@@ -169,12 +192,18 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
 </Base>
 
 <script>
-  // Schede "Ufficiale" / "Calcolata": senza JS le classifiche sono mostrate una sotto l'altra.
+  import { cachedAccount } from '../lib/account';
+
+  // Schede "Ufficiale" / "Calcolata" (e "I miei visti" per chi ha l'account): senza JS le classifiche sono mostrate una sotto l'altra.
+  const TAB_KEY = 'vista:scheda-classifica';
   for (const root of document.querySelectorAll<HTMLElement>('.views')) {
     const tablist = root.querySelector<HTMLElement>('.views-tabs');
     if (!tablist) continue;
-    const tabs = [...tablist.querySelectorAll<HTMLButtonElement>('[role=tab]')];
-    const panels = [...root.querySelectorAll<HTMLElement>('.views-panel')];
+    const account = Boolean(cachedAccount());
+    const tabs = [...tablist.querySelectorAll<HTMLButtonElement>('[role=tab]')].filter((t) => account || !('accountOnly' in t.dataset));
+    const panels = [...root.querySelectorAll<HTMLElement>('.views-panel')].filter((p) => account || !('accountOnly' in p.dataset));
+    for (const t of tabs) t.hidden = false;
+    if (tabs.length < 2) continue;
     tablist.classList.remove('hidden');
     tablist.classList.add('flex');
     const select = (i: number, focus = false) => {
@@ -184,6 +213,12 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
       });
       panels.forEach((p, j) => (p.hidden = i !== j));
       if (focus) tabs[i]!.focus();
+      // "I miei visti" resta aperta passando da un periodo all'altro.
+      try {
+        sessionStorage.setItem(TAB_KEY, tabs[i]!.id === 'tab-visti' ? 'visti' : '');
+      } catch {
+        // Storage non disponibile.
+      }
     };
     tabs.forEach((t, i) => {
       t.addEventListener('click', () => select(i));
@@ -197,6 +232,12 @@ const title = `${cfg.label} – ${PERIODS[period].label}`;
         e.preventDefault();
       });
     });
-    select(0);
+    let start = 0;
+    try {
+      if (sessionStorage.getItem(TAB_KEY) === 'visti') start = Math.max(0, tabs.findIndex((t) => t.id === 'tab-visti'));
+    } catch {
+      // Storage non disponibile.
+    }
+    select(start);
   }
 </script>

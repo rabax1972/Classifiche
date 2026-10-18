@@ -64,6 +64,9 @@ in un cookie con token il cui hash sta nel DB, limiti ai tentativi, schema versi
 Lato client tutte le spunte passano da `src/lib/ticks.ts` (localStorage + coda verso l'API + riallineamento a ogni pagina, evento
 `TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `posseduti:…`) sono definite in due
 posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.php`. Pagine `/account/` e `/privacy/`.
+La scheda "I miei visti" della pagina Film (`SeenMovies.astro`, solo con l'account) legge `/film/visti.json`
+(`src/pages/film/visti.json.ts`): catalogo `privato/film-visti.json` di `import:trakt` (fuori da git, ignorato oltre 150 giorni) più i film
+delle classifiche; un film è visto se è spuntata una qualsiasi delle sue `keys`.
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

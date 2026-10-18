@@ -81,10 +81,17 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
           id="account-link"
           href={href('account')}
           aria-current={current === 'account' ? 'page' : undefined}
-          class="ml-auto flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300"
+          class="group ml-auto flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 data-logged:rounded-full data-logged:bg-emerald-50 data-logged:py-1 data-logged:pr-3 data-logged:pl-1 data-logged:text-emerald-900 data-logged:ring-1 data-logged:ring-emerald-300 data-logged:hover:bg-emerald-100 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300 dark:data-logged:bg-emerald-950/60 dark:data-logged:text-emerald-200 dark:data-logged:ring-emerald-800 dark:data-logged:hover:bg-emerald-950"
         >
-          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg>
-          <span data-account-label>Accedi</span>
+          <svg class="h-5 w-5 group-data-logged:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg>
+          <!-- Con l'account: avatar con l'iniziale e il nome dell'indirizzo (src/lib/account.ts). -->
+          <span
+            data-account-avatar
+            class="relative hidden h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-xs font-bold text-white uppercase group-data-logged:flex dark:bg-emerald-500 dark:text-emerald-950"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only" data-account-sr></span>
+          <span data-account-label class="max-w-[9rem] truncate">Accedi</span>
         </a>
         <button
           id="tema"
@@ -133,11 +140,15 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
       import { ACCOUNT_EVENT, cachedAccount, type Account } from '../lib/account';
       import { startSync } from '../lib/ticks';
 
-      // Intestazione: "Accedi" oppure "Account" (con l'indirizzo nel suggerimento) se l'utente è collegato.
+      // Intestazione: "Accedi" oppure, con l'account, un avatar con l'iniziale e il nome dell'indirizzo (l'indirizzo intero nel suggerimento).
       const accountLink = document.getElementById('account-link')!;
       const showAccount = (account: Account | null) => {
-        accountLink.querySelector('[data-account-label]')!.textContent = account ? 'Account' : 'Accedi';
-        accountLink.title = account ? `Account: ${account.email}` : 'Accedi o crea un account per salvare le spunte';
+        const name = account?.email.split('@')[0] ?? '';
+        accountLink.toggleAttribute('data-logged', Boolean(account));
+        accountLink.querySelector('[data-account-avatar]')!.textContent = name.charAt(0);
+        accountLink.querySelector('[data-account-sr]')!.textContent = account ? 'Account collegato: ' : '';
+        accountLink.querySelector('[data-account-label]')!.textContent = account ? name : 'Accedi';
+        accountLink.title = account ? `Collegato come ${account.email}` : 'Accedi o crea un account per salvare le spunte';
       };
       showAccount(cachedAccount());
       document.addEventListener(ACCOUNT_EVENT, (ev) => showAccount((ev as CustomEvent<Account | null>).detail));
