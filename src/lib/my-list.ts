@@ -1,7 +1,7 @@
 // Pezzi comuni delle liste personali costruite lato client (src/components/MyMovies.astro, MySeries.astro, MyBooks.astro):
 // elementi della riga (copertina, voto, servizi) e filtri a scelta multipla.
 
-import type { WatchProvider } from './types';
+import type { ImdbRating, RottenRating, WatchProvider } from './types';
 
 export const el = <K extends keyof HTMLElementTagNameMap>(tag: K, className = '', text = '') => {
   const node = document.createElement(tag);
@@ -80,10 +80,53 @@ export function providerBox(providers: readonly WatchProvider[]) {
   return box;
 }
 
-/** Riga con voto e servizi, se c'è almeno uno dei due. */
-export function voteAndProviders(vote: number | null, votes: number, providers: readonly WatchProvider[]) {
-  if (!vote && !providers.length) return null;
+/** Voti IMDb e Rotten Tomatoes di un film (scripts/movie-ratings.ts). */
+export interface ExtraRatings {
+  imdbId?: string | null;
+  imdb?: ImdbRating | null;
+  rt?: RottenRating | null;
+}
+
+const dayFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+
+/** Collegamento a forma di etichetta (voto IMDb o Rotten Tomatoes), o etichetta semplice senza indirizzo. */
+function ratingLink(url: string | null | undefined, className: string, title: string) {
+  const badge = el(url ? 'a' : 'span', className);
+  badge.title = title;
+  if (url && badge instanceof HTMLAnchorElement) Object.assign(badge, { href: url, rel: 'noopener', target: '_blank' });
+  return badge;
+}
+
+/** Voto IMDb (giallo) e Tomatometer di Rotten Tomatoes (rosso se almeno 60%, verde sotto), come nelle righe delle classifiche. */
+export function ratingBadges({ imdbId, imdb, rt }: ExtraRatings): HTMLElement[] {
+  const out: HTMLElement[] = [];
+  if (imdb) {
+    const b = ratingLink(
+      imdbId ? `https://www.imdb.com/it/title/${imdbId}/` : null,
+      'inline-flex items-center gap-1 rounded-md bg-yellow-300 px-1.5 py-0.5 text-xs font-semibold text-black tabular-nums hover:bg-yellow-200',
+      `Voto medio su IMDb (${imdb.votes.toLocaleString('it-IT')} voti)`,
+    );
+    b.append(el('span', 'font-extrabold tracking-tight', 'IMDb'), imdb.value.toLocaleString('it-IT', { minimumFractionDigits: 1, maximumFractionDigits: 1 }));
+    out.push(b);
+  }
+  if (rt) {
+    const b = ratingLink(
+      rt.url,
+      `inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-xs font-semibold text-white tabular-nums hover:opacity-85 ${rt.score >= 60 ? 'bg-red-600' : 'bg-lime-700'}`,
+      `Tomatometer di Rotten Tomatoes: ${rt.score}% di recensioni positive${rt.date ? ` (dato Wikidata del ${dayFmt.format(new Date(`${rt.date}T00:00:00Z`))})` : ''}`,
+    );
+    b.append(el('span', 'sr-only', 'Rotten Tomatoes '), `${rt.score}%`);
+    out.push(b);
+  }
+  return out;
+}
+
+/** Riga con voti e servizi, se c'è almeno uno dei due. */
+export function voteAndProviders(vote: number | null, votes: number, providers: readonly WatchProvider[], extra: ExtraRatings = {}) {
+  const badges = ratingBadges(extra);
+  if (!vote && !providers.length && !badges.length) return null;
   const line = el('div', 'mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5');
+  line.append(...badges);
   if (vote) line.append(voteBadge(vote, votes));
   if (providers.length) line.append(providerBox(providers));
   return line;

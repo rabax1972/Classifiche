@@ -1,6 +1,6 @@
 ---
 import { artistKey, movieSubtitle, normalizeText, seriesSubtitle, splitArtists } from '../lib/aggregate';
-import { getArtistInfo, getAuthorInfo, getBookInfo, getCreatorInfo, getDirectorInfo, getMovieInfo, getSeriesInfo, seriesSeenKey } from '../lib/data';
+import { formatDay, getArtistInfo, getAuthorInfo, getBookInfo, getCreatorInfo, getDirectorInfo, getMovieInfo, getMovieRatings, getSeriesInfo, seriesSeenKey } from '../lib/data';
 import { providerName } from '../lib/providers';
 import { sourceName } from '../lib/sources';
 import type { CategoryId, ChartView } from '../lib/types';
@@ -118,6 +118,16 @@ const rowInfo = view.entries.map((e, i) => {
   return info ? { vote: filters[i]!.vote, votes: info.votes, providers: filters[i]!.providers, link: info.watch?.link ?? null } : null;
 });
 const showVotes = rowInfo.some((r) => r?.vote);
+// Film: voto IMDb (dai dataset IMDb; nella scheda IMDb Top 100 è già nella riga) e Tomatometer di Rotten Tomatoes (da Wikidata).
+const ratings = view.entries.map((e) => {
+  if (!movies) return null;
+  const r = getMovieRatings(getMovieInfo(e.key)?.tmdbId ?? Number(e.externalId?.match(/^tmdb:movie:(\d+)$/)?.[1]));
+  const imdbId = r?.imdbId ?? e.sourceUrl?.match(/imdb\.com\/(?:it\/)?title\/(tt\d+)/)?.[1] ?? null;
+  const imdb = e.rating ?? r?.imdb ?? null;
+  return imdb || r?.rt ? { imdb, imdbUrl: imdbId ? `https://www.imdb.com/it/title/${imdbId}/` : null, rt: r?.rt ?? null } : null;
+});
+const showImdb = ratings.some((r) => r?.imdb);
+const showRt = ratings.some((r) => r?.rt);
 const showProviders = rowInfo.some((r) => r?.providers.length);
 ---
 
@@ -338,16 +348,36 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                           : e.subtitle}
                       </p>
                     )}
-                    {Boolean(e.rating || rowInfo[i]?.vote || rowInfo[i]?.providers.length) && (
+                    {Boolean(ratings[i] || rowInfo[i]?.vote || rowInfo[i]?.providers.length) && (
                       <div class="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5">
-                        {e.rating && (
-                          <span
-                            class="inline-flex items-center gap-1 rounded-md bg-yellow-300 px-1.5 py-0.5 text-xs font-semibold text-black tabular-nums"
-                            title={`Voto medio su ${sourceName(e.source)} (${e.rating.votes.toLocaleString('it-IT')} voti)`}
+                        {ratings[i]?.imdb && (
+                          <a
+                            href={ratings[i]!.imdbUrl ?? undefined}
+                            class="inline-flex items-center gap-1 rounded-md bg-yellow-300 px-1.5 py-0.5 text-xs font-semibold text-black tabular-nums hover:bg-yellow-200"
+                            rel="noopener"
+                            target="_blank"
+                            title={`Voto medio su IMDb (${ratings[i]!.imdb!.votes.toLocaleString('it-IT')} voti)`}
                           >
-                            <span class="font-extrabold tracking-tight">{sourceName(e.source)}</span>
-                            {voteText(e.rating.value)}
-                          </span>
+                            <span class="font-extrabold tracking-tight">IMDb</span>
+                            {voteText(ratings[i]!.imdb!.value)}
+                            <span class="sr-only"> (si apre in una nuova scheda)</span>
+                          </a>
+                        )}
+                        {ratings[i]?.rt && (
+                          <a
+                            href={ratings[i]!.rt!.url ?? undefined}
+                            class:list={[
+                              'inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-xs font-semibold text-white tabular-nums hover:opacity-85',
+                              ratings[i]!.rt!.score >= 60 ? 'bg-red-600' : 'bg-lime-700',
+                            ]}
+                            rel="noopener"
+                            target="_blank"
+                            title={`Tomatometer di Rotten Tomatoes: ${ratings[i]!.rt!.score}% di recensioni positive${ratings[i]!.rt!.date ? ` (dato Wikidata del ${formatDay(ratings[i]!.rt!.date)})` : ''}`}
+                          >
+                            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="13.5" r="8"></circle><path d="M12 5.5c-1-2-3-2.5-4.5-2 1 .6 1.8 1.5 2 2.5M12 5.5c1.2-1.6 3-2 4.5-1.4-1 .5-1.8 1.2-2.2 2.1" stroke="currentColor" stroke-width="1.5" fill="none"></path></svg>
+                            <span class="sr-only">Rotten Tomatoes</span>
+                            {ratings[i]!.rt!.score}%
+                          </a>
                         )}
                         {rowInfo[i]!.vote && (
                           <span
@@ -432,6 +462,20 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
     </table>
     <p class="chart-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun risultato per questa ricerca o per questi filtri.</p>
   </div>
+  {
+    (showImdb || showRt) && (
+      <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">
+        {showImdb && 'Voti IMDb dai dataset di IMDb: information courtesy of IMDb (https://www.imdb.com). Used with permission.'}
+        {showImdb && showRt && ' '}
+        {showRt && (
+          <>
+            Tomatometer di Rotten Tomatoes come riportato da <a class="underline" href="https://www.wikidata.org/" rel="noopener" target="_blank">Wikidata</a>
+            (la data del dato è nel suggerimento).
+          </>
+        )}
+      </p>
+    )
+  }
   {
     (showVotes || showProviders) && (
       <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">

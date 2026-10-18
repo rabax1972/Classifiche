@@ -98,6 +98,8 @@ const multis = [
     <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">
       Titoli, voti medi e locandine di <a class="underline" href="https://www.themoviedb.org/" rel="noopener" target="_blank">TMDB</a>; servizi in
       abbonamento in Italia forniti da <a class="underline" href="https://www.justwatch.com/it" rel="noopener" target="_blank">JustWatch</a> tramite TMDB.
+      Voti IMDb dai dataset di IMDb: information courtesy of IMDb (https://www.imdb.com). Used with permission. Tomatometer di Rotten Tomatoes
+      come riportato da <a class="underline" href="https://www.wikidata.org/" rel="noopener" target="_blank">Wikidata</a>.
     </p>
   </div>
 </div>
@@ -231,7 +233,7 @@ const multis = [
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
       if (f.tmdbId < 0) text.append(el('p', 'text-xs text-gray-500 italic dark:text-gray-400', 'Scheda non più disponibile: il film non è più nelle classifiche.'));
 
-      const extra = voteAndProviders(f.vote, f.votes, f.providers);
+      const extra = voteAndProviders(f.vote, f.votes, f.providers, f);
       if (extra) text.append(extra);
 
       const checks = el('div', 'mt-1 flex flex-wrap gap-x-4 gap-y-1');

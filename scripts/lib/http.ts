@@ -12,6 +12,7 @@ const CACHE_DIR = path.resolve('.cache/http');
 const HOST_INTERVAL: Record<string, number> = {
   'api.themoviedb.org': 100,
   'it.wikipedia.org': 1000,
+  'query.wikidata.org': 1000,
   'ws.audioscrobbler.com': 250,
   'rss.marketingtools.apple.com': 1000,
   'itunes.apple.com': 3000,

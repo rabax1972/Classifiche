@@ -11,7 +11,7 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run dev` — sito in locale (http://localhost:4321)
 - `npm run build` — sito statico in `dist/`; `npm run typecheck` (`tsc --noEmit`, non controlla i `.astro`)
 - `npm test` — vitest; un solo file: `npx vitest run tests/aggregate.test.ts`; un solo test: `npx vitest run -t "nome del test"`
-- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `info:serie`
+- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `ratings:film` → `info:serie`
 - `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
   da caricare a mano con FileZilla (niente deploy automatico); in `aruba/modifiche/` solo i file cambiati dall'ultima pubblicazione
@@ -56,6 +56,10 @@ Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Lo schema
 - il componente incorpora i dati della pagina come JSON (`<script type="application/json">`) e costruisce il contenuto lato client con
   `textContent`; `src/lib/dialogs.ts` gestisce apertura, link diretto nell'hash (`#libro=…`, `#regista=…`, `#serie=…`) e ritorno del focus;
 - in `ChartTable.astro` i titoli e i nomi diventano pulsanti con classe trigger e attributo `data-*` della modale.
+
+Voti IMDb e Rotten Tomatoes dei film (`scripts/movie-ratings.ts`, `getMovieRatings()` per ID TMDB): IMDb dai dataset non commerciali,
+Tomatometer da Wikidata; `data/cache/movie-ratings.json` per i film delle classifiche, `privato/film-voti.json` per quelli solo del catalogo
+privato. Badge in `ChartTable.astro` e `ratingBadges()` di `src/lib/my-list.ts` (MovieDialog, MyMovies).
 
 Eccezione: gli episodi delle serie (`scripts/episode-info.ts`, un file per serie in `data/cache/episodes/`) sono troppi per la pagina;
 `src/pages/serie-tv/episodi/[id]/[stagione].json.ts` li pubblica come JSON statici che `SeriesDialog` scarica alla scelta della stagione.

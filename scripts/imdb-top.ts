@@ -44,6 +44,11 @@ interface Rating {
   weighted: number;
 }
 
+/** File TSV dei voti di tutti i titoli di IMDb (ID, voto medio, numero di voti), aggiornato ogni giorno da IMDb. */
+export async function downloadImdbRatings(): Promise<string> {
+  return gunzipSync(await fetchBuffer(RATINGS_URL, { timeoutMs: 120_000, cacheTtlMs: 20 * 3_600_000 })).toString('utf8');
+}
+
 /** Titoli con almeno MIN_VOTES voti, dal punteggio bayesiano più alto. */
 export function rankRatings(tsv: string): Rating[] {
   const out: Rating[] = [];
@@ -67,7 +72,7 @@ export async function buildImdbTop({ force = false, log = console.log } = {}): P
     log('Chiave TMDB mancante: IMDb Top 100 saltata.');
     return null;
   }
-  const ranked = rankRatings(gunzipSync(await fetchBuffer(RATINGS_URL, { timeoutMs: 120_000, cacheTtlMs: 20 * 3_600_000 })).toString('utf8'));
+  const ranked = rankRatings(await downloadImdbRatings());
   // ID IMDb → film TMDB (null: serie, episodio o titolo assente su TMDB).
   const found = await new MetaCache<TmdbItem | null>('imdb-tmdb', META_MAX_AGE_DAYS).load();
   const films: { item: TmdbItem; r: Rating }[] = [];

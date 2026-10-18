@@ -314,6 +314,37 @@ export interface MovieInfo {
   watch: { link: string; flatrate: WatchProvider[]; rent: WatchProvider[]; buy: WatchProvider[] } | null;
 }
 
+/** Voto medio su IMDb (su 10) e numero di voti, dai dataset non commerciali di IMDb. */
+export interface ImdbRating {
+  value: number;
+  votes: number;
+}
+
+/** Tomatometer di Rotten Tomatoes (percentuale di recensioni positive dei critici), come riportato da Wikidata. */
+export interface RottenRating {
+  score: number;
+  /** Giorno in cui Wikidata ha registrato il dato (YYYY-MM-DD). */
+  date: string | null;
+  url: string | null;
+}
+
+/** Voti di un film su IMDb e Rotten Tomatoes (scripts/movie-ratings.ts). */
+export interface MovieRatings {
+  imdbId: string | null;
+  imdb: ImdbRating | null;
+  rt: RottenRating | null;
+}
+
+/**
+ * File data/cache/movie-ratings.json (film delle classifiche) e privato/film-voti.json (solo film del catalogo privato,
+ * fuori da git): voti per ID TMDB.
+ */
+export interface MovieRatingsFile {
+  /** Ultimo aggiornamento completo (YYYY-MM-DD). */
+  date: string;
+  films: Record<string, MovieRatings>;
+}
+
 export interface WatchProvider {
   name: string;
   logo: string | null;
@@ -341,6 +372,7 @@ export interface MovieCard {
   cover: string | null;
   sourceUrl: string | null;
   info: MovieInfo | null;
+  ratings?: MovieRatings | null;
 }
 
 /**
@@ -364,6 +396,10 @@ export interface SeenMovie {
   runtime: number | null;
   /** Servizi in abbonamento in Italia, con il nome unificato (src/lib/providers.ts). */
   providers: WatchProvider[];
+  /** Voti IMDb e Rotten Tomatoes (scripts/movie-ratings.ts). */
+  imdbId?: string | null;
+  imdb?: ImdbRating | null;
+  rt?: RottenRating | null;
   /** Chiavi della lista "visti" (entryKey) con cui il film può comparire: è visto se ne è spuntata una. */
   keys: string[];
 }

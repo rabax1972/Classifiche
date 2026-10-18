@@ -1,6 +1,6 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SeriesInfo, type CreatorInfo, type SongInfo, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type MovieRatings, type MovieRatingsFile, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SeriesInfo, type CreatorInfo, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
@@ -13,6 +13,8 @@ const movieInfoFiles = import.meta.glob<Record<string, { value: MovieInfo }>>('/
 const directorInfoFiles = import.meta.glob<Record<string, { value: DirectorInfo }>>('/data/cache/director-info.json', { eager: true, import: 'default' });
 const seriesInfoFiles = import.meta.glob<Record<string, { value: SeriesInfo }>>('/data/cache/series-info.json', { eager: true, import: 'default' });
 const creatorInfoFiles = import.meta.glob<Record<string, { value: CreatorInfo }>>('/data/cache/creator-info.json', { eager: true, import: 'default' });
+// Voti IMDb e Rotten Tomatoes (scripts/movie-ratings.ts): film delle classifiche e, fuori da git, del catalogo privato.
+const ratingFiles = import.meta.glob<MovieRatingsFile>(['/data/cache/movie-ratings.json', '/privato/film-voti.json'], { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
 
 export function getChart(category: CategoryId, period: PeriodId): PeriodChart | null {
@@ -47,6 +49,13 @@ export function getFreeEdition(key: string): FreeEdition | null {
 /** Scheda di un film (chiave: entryKey), se già raccolta da scripts/movie-info.ts. */
 export function getMovieInfo(key: string): MovieInfo | null {
   return Object.values(movieInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Voti IMDb e Rotten Tomatoes di un film (chiave: ID TMDB), se già raccolti. */
+export function getMovieRatings(tmdbId: number | null | undefined): MovieRatings | null {
+  if (!tmdbId) return null;
+  for (const f of Object.values(ratingFiles)) if (f.films[tmdbId]) return f.films[tmdbId];
+  return null;
 }
 
 /** Tutte le schede dei film in cache, con la chiave (anche di film non più in classifica, finché non scadono). */

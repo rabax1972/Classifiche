@@ -10,7 +10,7 @@ const used = (sourceId: string) =>
     (c) => CATEGORIES[c].snapshotSources.includes(sourceId) || Object.values(CATEGORIES[c].officialFor).some((o) => o.source === sourceId),
   )
     .map((c) => CATEGORIES[c].label)
-    .concat(sourceId === 'imdb' ? ['Film'] : []);
+    .concat(sourceId === 'imdb' || sourceId === 'wikidata' ? ['Cinema', 'Film'] : []);
 ---
 
 <Base title="Fonti e metodo" current="fonti">
@@ -101,6 +101,10 @@ const used = (sourceId: string) =>
       </p>
       <p class="text-sm text-gray-700 dark:text-gray-300">
         Nelle classifiche Cinema, Film e Serie TV ogni titolo mostra il voto medio di TMDB e i servizi in abbonamento in Italia (JustWatch tramite TMDB);
+        i film anche il voto IMDb, dai <a class="underline" href="https://developer.imdb.com/non-commercial-datasets/" rel="noopener" target="_blank">dataset
+        non commerciali di IMDb</a> (con l'ID IMDb fornito da TMDB), e il Tomatometer di Rotten Tomatoes come riportato da
+        <a class="underline" href="https://www.wikidata.org/" rel="noopener" target="_blank">Wikidata</a> (dati CC0, registrati con una data e non sempre
+        aggiornati: il sito di Rotten Tomatoes non viene letto), rinnovati ogni settimana, anche nella scheda del film e nelle liste personali;
         nella classifica Libri il voto medio dei lettori su Apple Books (API di ricerca di iTunes), quando ha almeno 5 voti.
         La scheda "I miei visti" della pagina Film, per chi ha un account, la pagina "Da vedere" e la pagina "Le mie serie viste" elencano i titoli
         segnati con gli stessi dati TMDB e JustWatch, rinnovati entro 6 mesi.

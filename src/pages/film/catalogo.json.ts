@@ -4,7 +4,7 @@
 // scadono). Quali film mostrare lo decide la pagina, con le spunte dell'utente (liste "visti" e "da-vedere").
 import type { APIRoute } from 'astro';
 import { movieSubtitle } from '../../lib/aggregate';
-import { allMovieInfo, getChart } from '../../lib/data';
+import { allMovieInfo, getChart, getMovieRatings } from '../../lib/data';
 import { mergeProviders } from '../../lib/providers';
 import { PERIOD_IDS, type RankedEntry, type SeenMovie, type SeenMovieCatalog } from '../../lib/types';
 
@@ -45,7 +45,11 @@ function catalog(): SeenMovie[] {
       keys: [...new Set([key, ...(known?.keys ?? []), `movie:${info.tmdbId}`])],
     });
   }
-  return [...films.values()];
+  // Voti IMDb e Rotten Tomatoes (data/cache/movie-ratings.json e privato/film-voti.json).
+  return [...films.values()].map((f) => {
+    const r = getMovieRatings(f.tmdbId);
+    return r ? { ...f, imdbId: r.imdbId, imdb: r.imdb, rt: r.rt } : f;
+  });
 }
 
 export const GET: APIRoute = () =>

@@ -63,6 +63,12 @@ export const SOURCES: Record<string, SourceInfo> = {
     homepage: 'https://www.netflix.com/tudum/top10',
     attribution: 'Classifica settimanale ufficiale Netflix Top 10 per l\'Italia.',
   },
+  wikidata: {
+    id: 'wikidata',
+    name: 'Wikidata',
+    homepage: 'https://www.wikidata.org/',
+    attribution: 'Tomatometer di Rotten Tomatoes dei film, come riportato da Wikidata (dati CC0).',
+  },
   imdb: {
     id: 'imdb',
     name: 'IMDb',
