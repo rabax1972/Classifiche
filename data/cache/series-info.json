@@ -1935,6 +1935,97 @@
     },
     "fetchedAt": "2026-10-17T14:26:28.334Z"
   },
+  "crystal lake|brad caleb kane 2026": {
+    "value": {
+      "tmdbId": 213562,
+      "overview": "Crystal Lake racconta la storia di Pamela Voorhees, una madre single che non riesce a superare il dolore per la tragica morte del figlio Jason, annegato nel lago della cittadina quasi un anno prima. Quando due sconosciuti  iniziano  a  indagare  sul suo passato, una serie di eventi inquietanti sconvolge Crystal Lake,  portando gli abitanti a interrogarsi sulla vera identità di Pamela.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Mistero",
+        "Dramma"
+      ],
+      "episodeRuntime": 43,
+      "firstAired": "2026-10-15",
+      "lastAired": "2026-10-15",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-15",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Peacock"
+      ],
+      "vote": 8.2,
+      "votes": 59,
+      "poster": "https://image.tmdb.org/t/p/w500/iFZd7n9ARPxLLg0BJ5jXGKk0lQG.jpg",
+      "creators": [
+        {
+          "id": 228428,
+          "name": "Brad Caleb Kane"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Linda Cardellini",
+          "character": "Pamela Voorhees"
+        },
+        {
+          "name": "William Catlett",
+          "character": "Levon Brooks"
+        },
+        {
+          "name": "Gwendolyn Sundstrom",
+          "character": "Grace Snell"
+        },
+        {
+          "name": "Cameron Scoggins",
+          "character": "Dorf"
+        },
+        {
+          "name": "Devin Kessler",
+          "character": "Briana Brooks"
+        },
+        {
+          "name": "Callum Vinson",
+          "character": "Jason Voorhees"
+        },
+        {
+          "name": "Joy Suprano",
+          "character": "Rita"
+        },
+        {
+          "name": "Nick Cordileone",
+          "character": "Ralph"
+        }
+      ],
+      "trailer": "jMYVsNR4eko",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/213562-crystal-lake/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-18T04:46:04.159Z"
+  },
   "csi scena del crimine|ann donahue": {
     "value": {
       "tmdbId": 1431,
@@ -8890,6 +8981,175 @@
     },
     "fetchedAt": "2026-10-17T14:26:28.439Z"
   },
+  "stargate sg 1|brad wright": {
+    "value": {
+      "tmdbId": 4629,
+      "overview": "Stargate SG-1  è una serie fantascientifica  televisiva canadese-americana creata da  Brad Wright e Jonathan Glassner, derivata dal film, del 1994, Stargate.\n\nLa storia inizia un anno dopo gli eventi del film, nel quale il goverso USA scopre un antico dispositivo alieno, lo Stargate, che permette di viaggiare tra una moltitudine di pianeti collegati con analoghi portali.\n\nSG-1 è la squadra speciale delle forze d'elite dell'aviazione, composta da due dozzine di squadre analoghe, che esplorano la galassia e difendono la Terra dalle forze aliene ostili dei Goa'uld, e poi dei replicanti e degli Ori.\n\nLa prima puntata fu trasmessa in USA sul canale Showtime nel 1997, l'ultimo episodio, il 214-esimo, nel 2007, alla fine della decima stagione, facendone una delle più lunghe serie televisive nord-americane.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "1997-07-27",
+      "lastAired": "2007-06-22",
+      "status": "Ended",
+      "seasons": 10,
+      "episodes": 214,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1997-07-27",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1998-06-26",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1999-06-25",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2000-06-30",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2001-06-29",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2002-06-07",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2003-06-13",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2004-07-09",
+          "episodes": 20
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2005-07-15",
+          "episodes": 20
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2006-07-14",
+          "episodes": 20
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2004-07-05",
+          "episodes": 7
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Showtime",
+        "Syfy"
+      ],
+      "vote": 8.3,
+      "votes": 1921,
+      "poster": "https://image.tmdb.org/t/p/w500/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+      "creators": [
+        {
+          "id": 72082,
+          "name": "Brad Wright"
+        },
+        {
+          "id": 1224904,
+          "name": "Jonathan Glassner"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ben Browder",
+          "character": "Cameron Mitchell"
+        },
+        {
+          "name": "Richard Dean Anderson",
+          "character": "Jack O'Neill"
+        },
+        {
+          "name": "Amanda Tapping",
+          "character": "Samantha Carter"
+        },
+        {
+          "name": "Christopher Judge",
+          "character": "Teal'c"
+        },
+        {
+          "name": "Don S. Davis",
+          "character": "George Hammond"
+        },
+        {
+          "name": "Claudia Black",
+          "character": "Vala Mal Doran"
+        },
+        {
+          "name": "Beau Bridges",
+          "character": "Hank Landry"
+        },
+        {
+          "name": "Tony Amendola",
+          "character": "Bra'tac"
+        }
+      ],
+      "trailer": "wSRS7c_UqaM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/4629-stargate-sg-1/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "MGM Plus Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/gk7O3l9qHttE9F3hgDNnhbhlOs7.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:46:04.007Z"
+  },
   "supernatural|eric kripke 2005": {
     "value": {
       "tmdbId": 1622,
@@ -10340,6 +10600,135 @@
       }
     },
     "fetchedAt": "2026-10-17T14:26:28.481Z"
+  },
+  "tulsa king|taylor sheridan 2022": {
+    "value": {
+      "tmdbId": 153312,
+      "overview": "Tulsa King segue il capo della mafia newyorkese Dwight \"Il Generale\" Manfredi, appena uscito di prigione dopo 25 anni ed esiliato a Tulsa, in Oklahoma. Rendendosi conto che la sua famiglia mafiosa potrebbe non avere in mente i suoi interessi, Dwight costruisce lentamente una \"banda\" composta da un gruppo di personaggi improbabili, per aiutarlo a stabilire un nuovo impero criminale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 45,
+      "firstAired": "2022-11-13",
+      "lastAired": "2026-10-16",
+      "status": "Returning Series",
+      "seasons": 4,
+      "episodes": 39,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-11-13",
+          "episodes": 9
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2024-09-15",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-09-21",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-10-16",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2022-11-11",
+          "episodes": 1
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-10-23",
+        "season": 4,
+        "episode": 2
+      },
+      "networks": [
+        "Paramount+"
+      ],
+      "vote": 8.3,
+      "votes": 2835,
+      "poster": "https://image.tmdb.org/t/p/w500/bbhGWT5ln5dTFKP2DBCELOwK3jA.jpg",
+      "creators": [
+        {
+          "id": 1215399,
+          "name": "Taylor Sheridan"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sylvester Stallone",
+          "character": "Dwight 'The General' Manfredi"
+        },
+        {
+          "name": "Martin Starr",
+          "character": "Lawrence 'Bodhi' Geigerman"
+        },
+        {
+          "name": "Jay Will",
+          "character": "Tyson Mitchell"
+        },
+        {
+          "name": "Vincent Piazza",
+          "character": "Vince Antonacci"
+        },
+        {
+          "name": "Max Casella",
+          "character": "Armand Truisi"
+        },
+        {
+          "name": "Annabella Sciorra",
+          "character": "Joanne"
+        },
+        {
+          "name": "Chris Caldovino",
+          "character": "Goodie Carangi"
+        },
+        {
+          "name": "McKenna Quigley Harrington",
+          "character": "Grace"
+        }
+      ],
+      "trailer": "iBxIN2SpsNU",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:46:04.063Z"
   },
   "watch what happens live with andy cohen|andy cohen 2009": {
     "value": {

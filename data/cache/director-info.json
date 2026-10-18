@@ -1866,6 +1866,33 @@
     },
     "fetchedAt": "2026-10-17T09:37:03.146Z"
   },
+  "daniel chong": {
+    "value": {
+      "tmdbId": 1491592,
+      "wiki": {
+        "lang": "it",
+        "title": "Daniel Chong",
+        "url": "https://it.wikipedia.org/wiki/Daniel_Chong",
+        "extract": "Daniel Chong (Fargo, 19 novembre 1978) è un regista, sceneggiatore, animatore e produttore cinematografico statunitense, noto principalmente per aver creato per Cartoon Network la serie animata We Bare Bears - Siamo solo orsi (We Bare Bears) e aver diretto Siamo solo orsi - Il film (We Bare Bears: The Movie). Al D23 Expo 2024 viene annunciato come regista del nuovo film Pixar Animation Studios intitolato Jumpers - Un salto tra gli animali ."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/gMYqVwLdoaPhIFyWUAQrRlGGjkE.jpg",
+      "films": [
+        {
+          "id": 1327819,
+          "title": "Jumpers - Un salto tra gli animali",
+          "year": "2026"
+        },
+        {
+          "id": 677638,
+          "title": "Siamo solo orsi - Il film",
+          "year": "2020"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:03.605Z"
+  },
   "dave green": {
     "value": {
       "tmdbId": 1101410,
@@ -3585,6 +3612,74 @@
     },
     "fetchedAt": "2026-10-17T09:31:05.292Z"
   },
+  "jennifer peedom": {
+    "value": {
+      "tmdbId": 114335,
+      "wiki": {
+        "lang": "en",
+        "title": "Jennifer Peedom",
+        "url": "https://en.wikipedia.org/wiki/Jennifer_Peedom",
+        "extract": "Jennifer Peedom is an Australian filmmaker. She has written, directed, and produced feature-length documentary films, including Sherpa (2015) and Mountain (2017), as well as a number of TV series. She co-directed the 2021 feature documentary River, and her feature documentary about cave diving, Deeper, was released in 2025. Peedom's narrative feature film Tenzing, featuring Tom Hiddleston, was released in Australian cinemas on 9 October 2026 ahead of its 16 October release on Apple TV+."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jen_Headshot.jpg/500px-Jen_Headshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jen_Headshot.jpg",
+        "author": "Jenpeedom",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1288069,
+          "title": "Tenzing",
+          "year": "2026"
+        },
+        {
+          "id": 1422638,
+          "title": "Deeper",
+          "year": "2025"
+        },
+        {
+          "id": 1460075,
+          "title": "Inner Portrait",
+          "year": "2025"
+        },
+        {
+          "id": 845769,
+          "title": "River",
+          "year": "2021"
+        },
+        {
+          "id": 462145,
+          "title": "Mountain",
+          "year": "2017"
+        },
+        {
+          "id": 341366,
+          "title": "Sherpa",
+          "year": "2015"
+        },
+        {
+          "id": 582605,
+          "title": "As You Dreamt It",
+          "year": "2015"
+        },
+        {
+          "id": 35471,
+          "title": "Solo",
+          "year": "2008"
+        },
+        {
+          "id": 440381,
+          "title": "Miracle on Everest",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:45:59.844Z"
+  },
   "jeremiah kipp": {
     "value": {
       "tmdbId": 88552,
@@ -4360,6 +4455,79 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:21.453Z"
+  },
+  "josh cooley": {
+    "value": {
+      "tmdbId": 84496,
+      "wiki": {
+        "lang": "it",
+        "title": "Josh Cooley",
+        "url": "https://it.wikipedia.org/wiki/Josh_Cooley",
+        "extract": "Joshua Cooley, detto Josh (Los Angeles, 23 maggio 1979), è un regista, sceneggiatore e animatore statunitense, noto principalmente per aver diretto Toy Story 4, ventunesimo lungometraggio d'animazione Pixar."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Festival_Annecy_2019%2C_screening_event_Toy_Story_4_-_Josh_Cooley_%28crop%29.jpg/500px-Festival_Annecy_2019%2C_screening_event_Toy_Story_4_-_Josh_Cooley_%28crop%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Festival_Annecy_2019,_screening_event_Toy_Story_4_-_Josh_Cooley_(crop).jpg",
+        "author": "Festival Annecy/K. Pauli",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 706196,
+          "title": "Malamander",
+          "year": null
+        },
+        {
+          "id": 723416,
+          "title": "Little Monsters",
+          "year": null
+        },
+        {
+          "id": 1497544,
+          "title": "I Eat Poop: A Dung Beetle Story",
+          "year": null
+        },
+        {
+          "id": 1504704,
+          "title": "Untitled Live-Action Transformers Film",
+          "year": null
+        },
+        {
+          "id": 1563459,
+          "title": "London Ghost Tour",
+          "year": null
+        },
+        {
+          "id": 1719308,
+          "title": "Untitled Josh Cooley Lego Film",
+          "year": null
+        },
+        {
+          "id": 698687,
+          "title": "Transformers One",
+          "year": "2024"
+        },
+        {
+          "id": 301528,
+          "title": "Toy Story 4",
+          "year": "2019"
+        },
+        {
+          "id": 355338,
+          "title": "Il primo appuntamento di Riley",
+          "year": "2015"
+        },
+        {
+          "id": 72962,
+          "title": "George & A.J.",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:02.814Z"
   },
   "joss whedon": {
     "value": {
@@ -5328,6 +5496,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:31.601Z"
+  },
+  "mike mitchell": {
+    "value": {
+      "tmdbId": 64151,
+      "wiki": {
+        "lang": "it",
+        "title": "Mike Mitchell (regista)",
+        "url": "https://it.wikipedia.org/wiki/Mike_Mitchell_(regista)",
+        "extract": "Mike Mitchell (Oklahoma City, 18 ottobre 1970) è un regista e animatore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Mike_Mitchell_by_Gage_Skidmore.jpg/500px-Mike_Mitchell_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mike_Mitchell_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 866061,
+          "title": "I.F.",
+          "year": null
+        },
+        {
+          "id": 1011985,
+          "title": "Kung Fu Panda 4",
+          "year": "2024"
+        },
+        {
+          "id": 280217,
+          "title": "The Lego Movie 2:  Una nuova avventura",
+          "year": "2019"
+        },
+        {
+          "id": 136799,
+          "title": "Trolls",
+          "year": "2016"
+        },
+        {
+          "id": 228165,
+          "title": "SpongeBob - Fuori dall'acqua",
+          "year": "2015"
+        },
+        {
+          "id": 55301,
+          "title": "Alvin Superstar 3 - Si salvi chi può!",
+          "year": "2011"
+        },
+        {
+          "id": 10192,
+          "title": "Shrek e vissero felici e contenti",
+          "year": "2010"
+        },
+        {
+          "id": 11459,
+          "title": "Sky High - Scuola di superpoteri",
+          "year": "2005"
+        },
+        {
+          "id": 15566,
+          "title": "Natale in affitto",
+          "year": "2004"
+        },
+        {
+          "id": 10402,
+          "title": "Gigolò per sbaglio",
+          "year": "1999"
+        },
+        {
+          "id": 538613,
+          "title": "Herd",
+          "year": "1999"
+        },
+        {
+          "id": 489583,
+          "title": "Frannie's Christmas",
+          "year": "1993"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:01.876Z"
   },
   "morten tyldum": {
     "value": {
@@ -6543,6 +6794,89 @@
     },
     "fetchedAt": "2026-10-17T09:37:05.177Z"
   },
+  "robert zemeckis": {
+    "value": {
+      "tmdbId": 24,
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Zemeckis",
+        "url": "https://it.wikipedia.org/wiki/Robert_Zemeckis",
+        "extract": "Robert Lee Zemeckis (Chicago, 14 maggio 1952) è un regista, sceneggiatore e produttore cinematografico statunitense.\n\nIl suo primo successo al botteghino fu All'inseguimento della pietra verde (1984). In seguito diresse la trilogia di Ritorno al futuro (1985-1990) e Chi ha incastrato Roger Rabbit (1988), divenuti dei cult.\n\nNel 1994 ha diretto Forrest Gump, ispirato all'omonimo romanzo di Winston Groom del 1986, grazie al quale ha vinto l'Oscar al miglior regista, instaurando un sodalizio artistico di grande successo con l'attore protagonista Tom Hanks. Altri suoi film noti sono La morte ti fa bella (1992), Contact (1997), Le verità nascoste (2000), Cast Away (2000), Flight (2012), e The Walk (2015)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Robert_Zemeckis_%22The_Walk%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2821835891403%29_%28cropped%29.jpg/500px-Robert_Zemeckis_%22The_Walk%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2821835891403%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Robert_Zemeckis_%22The_Walk%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_(21835891403)_(cropped).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1466158,
+          "title": "The Last Mrs. Parrish",
+          "year": null
+        },
+        {
+          "id": 940139,
+          "title": "Here",
+          "year": "2024"
+        },
+        {
+          "id": 532639,
+          "title": "Pinocchio",
+          "year": "2022"
+        },
+        {
+          "id": 531219,
+          "title": "Le streghe",
+          "year": "2020"
+        },
+        {
+          "id": 351044,
+          "title": "Benvenuti a Marwen",
+          "year": "2018"
+        },
+        {
+          "id": 369885,
+          "title": "Allied - Un'ombra nascosta",
+          "year": "2016"
+        },
+        {
+          "id": 362000,
+          "title": "Doc Brown salva il mondo!",
+          "year": "2015"
+        },
+        {
+          "id": 285783,
+          "title": "The Walk",
+          "year": "2015"
+        },
+        {
+          "id": 87502,
+          "title": "Flight",
+          "year": "2012"
+        },
+        {
+          "id": 17979,
+          "title": "A Christmas Carol",
+          "year": "2009"
+        },
+        {
+          "id": 2310,
+          "title": "La leggenda di Beowulf",
+          "year": "2007"
+        },
+        {
+          "id": 318017,
+          "title": "Le court des grands",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:00.759Z"
+  },
   "roberto de paolis": {
     "value": {
       "tmdbId": 1800445,
@@ -7081,6 +7415,69 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:02.995Z"
+  },
+  "thomas vincent": {
+    "value": {
+      "tmdbId": 565121,
+      "wiki": {
+        "lang": "en",
+        "title": "Thomas Vincent (director)",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Vincent_(director)",
+        "extract": "Thomas Vincent (born 1964) is a French film director, screenwriter and actor. His 1999 film Karnaval was entered into the 49th Berlin International Film Festival where it won the Alfred Bauer Prize. He is the son of Hélène Vincent."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Thomas-Vincent-Protocole.JPG/500px-Thomas-Vincent-Protocole.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Thomas-Vincent-Protocole.JPG",
+        "author": "Thierry Caro",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1561726,
+          "title": "Masterplan",
+          "year": "2026"
+        },
+        {
+          "id": 848187,
+          "title": "Gioco di ruolo",
+          "year": "2023"
+        },
+        {
+          "id": 395449,
+          "title": "La Nouvelle Vie de Paul Sneijder",
+          "year": "2016"
+        },
+        {
+          "id": 76351,
+          "title": "Mister Bob",
+          "year": "2011"
+        },
+        {
+          "id": 31340,
+          "title": "Le Nouveau protocole",
+          "year": "2008"
+        },
+        {
+          "id": 355337,
+          "title": "S.A.C. : Des hommes dans l'ombre",
+          "year": "2005"
+        },
+        {
+          "id": 14656,
+          "title": "Je suis un assassin",
+          "year": "2004"
+        },
+        {
+          "id": 114407,
+          "title": "Karnaval",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:45:58.874Z"
   },
   "tim burton": {
     "value": {

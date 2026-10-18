@@ -424,6 +424,34 @@
     },
     "fetchedAt": "2026-10-17T12:49:44.293Z"
   },
+  "brad caleb kane": {
+    "value": {
+      "tmdbId": 228428,
+      "wiki": {
+        "lang": "it",
+        "title": "Brad Kane",
+        "url": "https://it.wikipedia.org/wiki/Brad_Kane",
+        "extract": "Brad Caleb Kane (New Rochelle, 29 settembre 1973) è un attore, cantante, sceneggiatore produttore televisivo statunitense.\n\nHa recitato anche in diversi musical a Broadway, tra cui She Loves Me e Grease."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Brad_Kane_on_Dulce_Osuna.jpg/500px-Brad_Kane_on_Dulce_Osuna.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Brad_Kane_on_Dulce_Osuna.jpg",
+        "author": "Dulce Osuna",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 213562,
+          "title": "Crystal Lake",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:09.391Z"
+  },
   "brad falchuk": {
     "value": {
       "tmdbId": 1224030,
@@ -501,6 +529,49 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:50.335Z"
+  },
+  "brad wright": {
+    "value": {
+      "tmdbId": 72082,
+      "wiki": {
+        "lang": "it",
+        "title": "Brad Wright (produttore)",
+        "url": "https://it.wikipedia.org/wiki/Brad_Wright_(produttore)",
+        "extract": "Brad Wright (Toronto, 2 maggio 1961) è un produttore cinematografico e sceneggiatore canadese.\n\nÈ famoso per essere il co-creatore della serie televisiva Stargate SG1, assieme al collega Jonathan Glassner, e per essere anche il co-creatore della serie televisiva Stargate Atlantis assieme al collega Robert C. Cooper.\n\nPrima di lavorare alla serie di Stargate, Wright ha lavorato ad altre serie di fantascienza come Oltre i Limiti.\n\nÈ comparso nel 200º episodio di Stargate SG1, nella parte del personaggio di Star Trek Scotty."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BradWrightAug10.jpg/500px-BradWrightAug10.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:BradWrightAug10.jpg",
+        "author": "Vancouver Film School at https://www.flickr.com/photos/vancouverfilmschool/",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 67683,
+          "title": "Travelers",
+          "year": "2016"
+        },
+        {
+          "id": 5148,
+          "title": "Stargate Universe",
+          "year": "2009"
+        },
+        {
+          "id": 2290,
+          "title": "Stargate Atlantis",
+          "year": "2004"
+        },
+        {
+          "id": 4629,
+          "title": "Stargate SG-1",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:07.440Z"
   },
   "brijendrapal singh": {
     "value": {
@@ -1925,6 +1996,39 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:07.725Z"
+  },
+  "jonathan glassner": {
+    "value": {
+      "tmdbId": 1224904,
+      "wiki": {
+        "lang": "it",
+        "title": "Jonathan Glassner",
+        "url": "https://it.wikipedia.org/wiki/Jonathan_Glassner",
+        "extract": "Jonathan Glassner (...) è un autore televisivo, regista e produttore televisivo statunitense.\n\nÈ conosciuto per il suo coinvolgimento con Stargate SG-1 (dove è stato produttore esecutivo per le prime tre stagioni) e Oltre i limiti. Glassner è stato inizialmente notato come scrittore per il suo lavoro su Alfred Hitchcock presenta. Dopo aver scritto per diverse serie televisive, tra cui 21 Jump Street, Glassner passa a The Outer Limits, e successivamente viene coinvolto in Stargate SG-1 come scrittore e produttore esecutivo. Il suo lavoro più recente come scrittore e regista in CSI: Miami, CSI: NY. È stato anche co-produttore esecutivo nella serie televisiva della NBC Heist, in quella della FOX Standoff e in quella di Sci-Fi Channel Invisible Man."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jonathan_Glassner_by_Gage_Skidmore.jpg/500px-Jonathan_Glassner_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Glassner_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 4783,
+          "title": "Island City",
+          "year": null
+        },
+        {
+          "id": 4629,
+          "title": "Stargate SG-1",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-18T04:46:08.394Z"
   },
   "justin roiland": {
     "value": {

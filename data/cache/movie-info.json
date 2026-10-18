@@ -536,6 +536,108 @@
     },
     "fetchedAt": "2026-10-17T09:30:34.794Z"
   },
+  "avengers age of ultron|joss whedon 2015": {
+    "value": {
+      "tmdbId": 99861,
+      "overview": "Quando Tony Stark riprende un programma di mantenimento della pace in disuso, qualcosa va storto e la squadra degli eroi più potenti della Terra composta da Iron Man, Captain America, Thor, l’Incredibile Hulk, Vedova Nera e Occhio di Falco, sarà messa a dura prova per salvare il mondo da un destino inesorabile. Toccherà agli Avengers far fronte al malvagio Ultron e impedirgli di portare a compimento i suoi terribili piani. Nuove e scomode alleanze ed eventi imprevisti daranno vita a una straordinaria ed epica avventura",
+      "overviewLang": "it",
+      "tagline": "Una nuova era è giunta.",
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Avventura",
+        "Fantascienza"
+      ],
+      "runtime": 141,
+      "released": "2015-04-22",
+      "vote": 7.3,
+      "votes": 25183,
+      "poster": "https://image.tmdb.org/t/p/w500/pYEHarIwyYSM1bXs5FtpL2GZELy.jpg",
+      "directors": [
+        {
+          "id": 12891,
+          "name": "Joss Whedon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Robert Downey Jr.",
+          "character": "Tony Stark / Iron Man"
+        },
+        {
+          "name": "Chris Hemsworth",
+          "character": "Thor"
+        },
+        {
+          "name": "Mark Ruffalo",
+          "character": "Bruce Banner / Hulk"
+        },
+        {
+          "name": "Chris Evans",
+          "character": "Steve Rogers / Captain America"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "character": "Natasha Romanoff / Black Widow"
+        },
+        {
+          "name": "Jeremy Renner",
+          "character": "Clint Barton / Hawkeye"
+        },
+        {
+          "name": "James Spader",
+          "character": "Ultron (voice)"
+        },
+        {
+          "name": "Samuel L. Jackson",
+          "character": "Nick Fury"
+        }
+      ],
+      "trailer": "5xIdeeTKXcI",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/99861-avengers-age-of-ultron/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:58.195Z"
+  },
   "avengers endgame|anthony russo": {
     "value": {
       "tmdbId": 299534,
@@ -4506,6 +4608,114 @@
     },
     "fetchedAt": "2026-10-17T09:30:31.262Z"
   },
+  "jumpers un salto tra gli animali|daniel chong 2026": {
+    "value": {
+      "tmdbId": 1327819,
+      "overview": "Gli scienziati hanno scoperto come far “saltare” la coscienza umana in animali robotici realistici, permettendo alle persone di comunicare con gli animali, come animali! L'amante degli animali Mabel coglie l'opportunità per usare la tecnologia, svelando misteri nel mondo animale oltre qualsiasi cosa potesse immaginare.",
+      "overviewLang": "it",
+      "tagline": "Sii naturale.",
+      "originalTitle": "Hoppers",
+      "genres": [
+        "Avventura",
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Fantascienza"
+      ],
+      "runtime": 105,
+      "released": "2026-03-05",
+      "vote": 8.1,
+      "votes": 2442,
+      "poster": "https://image.tmdb.org/t/p/w500/k6gJLmAVZlEkFTv40YcPIaSBGkn.jpg",
+      "directors": [
+        {
+          "id": 1491592,
+          "name": "Daniel Chong"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Piper Curda",
+          "character": "Mabel (voice)"
+        },
+        {
+          "name": "Bobby Moynihan",
+          "character": "King George (voice)"
+        },
+        {
+          "name": "Jon Hamm",
+          "character": "Mayor Jerry Generazzo (voice)"
+        },
+        {
+          "name": "Kathy Najimy",
+          "character": "Dr. Sam (voice)"
+        },
+        {
+          "name": "Dave Franco",
+          "character": "Insect King (voice)"
+        },
+        {
+          "name": "Eduardo Franco",
+          "character": "Loaf (voice)"
+        },
+        {
+          "name": "Aparna Nancherla",
+          "character": "Nisha (voice)"
+        },
+        {
+          "name": "Tom Law",
+          "character": "Tom Lizard (voice)"
+        }
+      ],
+      "trailer": "2uY7k1iStq4",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1327819-hoppers/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:58.352Z"
+  },
   "l albero di molto lontano|ben gregor 2026": {
     "value": {
       "tmdbId": 1140521,
@@ -6317,6 +6527,81 @@
     },
     "fetchedAt": "2026-10-17T09:30:32.205Z"
   },
+  "masterplan|thomas vincent 2026": {
+    "value": {
+      "tmdbId": 1561726,
+      "overview": "Quando un famoso ladro punta alla Gioconda, recluta due giovani sconosciuti che lo aiutino: Chiara, un'italiana esperta di crimini informatici, e Jay, uno specialista francese in esplosivi, ai quali rivela poi di essere loro padre. Dopo questa caotica riunione, la nuova famiglia deve imparare a collaborare e a cercare di non uccidersi a vicenda e riuscire a compiere il colpo del secolo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Thriller"
+      ],
+      "runtime": 110,
+      "released": "2026-10-16",
+      "vote": 7.2,
+      "votes": 49,
+      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+      "directors": [
+        {
+          "id": 565121,
+          "name": "Thomas Vincent"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Stanley Tucci",
+          "character": "Roger"
+        },
+        {
+          "name": "Simona Tabasco",
+          "character": "Chiara"
+        },
+        {
+          "name": "Victor Belmondo",
+          "character": "Jay"
+        },
+        {
+          "name": "Eliott Margueron",
+          "character": null
+        },
+        {
+          "name": "Bruno Bilotta",
+          "character": "Scary Big Roman"
+        },
+        {
+          "name": "Barbara Lo Gaglio",
+          "character": "Professor"
+        },
+        {
+          "name": "Etienne Guillou-Kervern",
+          "character": "French Spook Officer"
+        },
+        {
+          "name": "Srbo Markovic",
+          "character": "Bruno's Bodyguard"
+        }
+      ],
+      "trailer": "gc0t8AfMP6k",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1561726-masterplan/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:57.762Z"
+  },
   "matchbox il film|sam hargrave 2026": {
     "value": {
       "tmdbId": 1148365,
@@ -7466,6 +7751,120 @@
     },
     "fetchedAt": "2026-10-17T09:30:24.389Z"
   },
+  "ritorno al futuro|robert zemeckis 1985": {
+    "value": {
+      "tmdbId": 105,
+      "overview": "Marty McFly è stato catapultato per errore nel 1955, grazie alla macchina del tempo ideata dal suo amico scienziato Doc. Non avendo più \"carburante\" per poter tornare nel futuro si rivolge alla versione più giovane di Doc, che nonostante l'incredulità iniziale si farà in quattro per aiutarlo. Ma nel 1955 non è solo Doc ad essere più giovane, Marty infatti si imbatte casualmente nei suoi genitori, all'epoca teenager, ma l'incontro aggiungerà altri problemi.",
+      "overviewLang": "it",
+      "tagline": "Non arriva mai in tempo a scuola... Non arriva mai in tempo a cena... Ma un giorno... si trovò completamente fuori dal tempo.",
+      "originalTitle": "Back to the Future",
+      "genres": [
+        "Avventura",
+        "Commedia",
+        "Fantascienza"
+      ],
+      "runtime": 116,
+      "released": "1985-10-18",
+      "vote": 8.3,
+      "votes": 22590,
+      "poster": "https://image.tmdb.org/t/p/w500/isqoi7kuUsR5Drlqdh4ZfMULgox.jpg",
+      "directors": [
+        {
+          "id": 24,
+          "name": "Robert Zemeckis"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Michael J. Fox",
+          "character": "Marty McFly"
+        },
+        {
+          "name": "Christopher Lloyd",
+          "character": "Emmett Brown"
+        },
+        {
+          "name": "Crispin Glover",
+          "character": "George McFly"
+        },
+        {
+          "name": "Lea Thompson",
+          "character": "Lorraine Baines"
+        },
+        {
+          "name": "Claudia Wells",
+          "character": "Jennifer Parker"
+        },
+        {
+          "name": "Thomas F. Wilson",
+          "character": "Biff Tannen"
+        },
+        {
+          "name": "Marc McClure",
+          "character": "Dave McFly"
+        },
+        {
+          "name": "Wendie Jo Sperber",
+          "character": "Linda McFly"
+        }
+      ],
+      "trailer": "jzGeadfDwB4",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/105-back-to-the-future/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:57.915Z"
+  },
   "santiago un cammino per ricominciare|yann samuell 2026": {
     "value": {
       "tmdbId": 1404604,
@@ -7635,6 +8034,130 @@
       "watch": null
     },
     "fetchedAt": "2026-10-17T09:30:31.104Z"
+  },
+  "shrek e vissero felici e contenti|mike mitchell 2010": {
+    "value": {
+      "tmdbId": 10192,
+      "overview": "Shrek è ormai felicemente sposato con Fiona, padre amorevole ed impegnato e le sue giornate si ripetono tutte uguali a se stesse. Insoddisfatto ed incastrato in una routine che sente tarpargli le ali, l'orco desidera unicamente poter tornare alla sua vecchia vita, quella in cui era temuto e lasciato in pace. Pane per i denti di Tremotino, che gli propone uno dei suoi terribili accordi: rivivere la sua vecchia vita in cambio di un giorno a caso (ma non tanto) del suo passato. La scelta lo catapulterà in una realtà in cui non è mai nato, dunque non ha mai salvato Fiona e gli orchi sono cacciati proprio da Tremotino il quale, grazie a quei cambiamenti, ha preso il potere del regno.",
+      "overviewLang": "it",
+      "tagline": "L'ultimo capitolo",
+      "originalTitle": "Shrek Forever After",
+      "genres": [
+        "Commedia",
+        "Avventura",
+        "Fantasy",
+        "Animazione",
+        "Famiglia"
+      ],
+      "runtime": 93,
+      "released": "2010-08-25",
+      "vote": 6.4,
+      "votes": 8181,
+      "poster": "https://image.tmdb.org/t/p/w500/1UFnfVv2KQob8Da9mqK0lgrXD86.jpg",
+      "directors": [
+        {
+          "id": 64151,
+          "name": "Mike Mitchell"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Mike Myers",
+          "character": "Shrek (voice)"
+        },
+        {
+          "name": "Eddie Murphy",
+          "character": "Donkey (voice)"
+        },
+        {
+          "name": "Cameron Diaz",
+          "character": "Princess Fiona (voice)"
+        },
+        {
+          "name": "Antonio Banderas",
+          "character": "Puss in Boots (voice)"
+        },
+        {
+          "name": "Walt Dohrn",
+          "character": "Rumpelstiltskin / Priest / Krekraw Ogre (voice)"
+        },
+        {
+          "name": "Julie Andrews",
+          "character": "Queen Lillian (voice)"
+        },
+        {
+          "name": "John Cleese",
+          "character": "King Harold (voice)"
+        },
+        {
+          "name": "Jon Hamm",
+          "character": "Brogan (voice)"
+        }
+      ],
+      "trailer": "j3CA-YgHQYQ",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/10192-shrek-forever-after/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:58.015Z"
   },
   "spezie e bugie la piccola cucina di mehdi|amine adjina 2026": {
     "value": {
@@ -8190,6 +8713,81 @@
       }
     },
     "fetchedAt": "2026-10-17T09:30:39.136Z"
+  },
+  "tenzing|jennifer peedom 2026": {
+    "value": {
+      "tmdbId": 1288069,
+      "overview": "Un uomo molto determinato intraprende un’impresa ad alto rischio, sfidando ostacoli apparentemente insormontabili, per realizzare il suo sogno: essere il primo a raggiungere la vetta del Monte Everest.",
+      "overviewLang": "it",
+      "tagline": "La storia della prima conquista dell’Everest.",
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Storia"
+      ],
+      "runtime": 126,
+      "released": "2026-10-09",
+      "vote": 8.3,
+      "votes": 43,
+      "poster": "https://image.tmdb.org/t/p/w500/rvYJksPOdfk0TDym3bLKJ7JeZfv.jpg",
+      "directors": [
+        {
+          "id": 114335,
+          "name": "Jennifer Peedom"
+        }
+      ],
+      "cast": [
+        {
+          "name": "更登彭措",
+          "character": "Tenzing Norgay"
+        },
+        {
+          "name": "Tom Hiddleston",
+          "character": "Ed Hillary"
+        },
+        {
+          "name": "Willem Dafoe",
+          "character": "John Hunt"
+        },
+        {
+          "name": "Samdrup Dorje Lama",
+          "character": "Boy Tenzing (9 Yrs)"
+        },
+        {
+          "name": "Bhuchung Kata",
+          "character": "Sherpa"
+        },
+        {
+          "name": "Johnny Flynn",
+          "character": "George Mallory"
+        },
+        {
+          "name": "Lhakpa Tsamchoe",
+          "character": "Kinzom"
+        },
+        {
+          "name": "Jampa Kalsang Tamang",
+          "character": "Mingma"
+        }
+      ],
+      "trailer": "KkYCY5YR12U",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1288069-tenzing/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Apple TV",
+            "logo": "https://image.tmdb.org/t/p/w92/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+          },
+          {
+            "name": "Apple TV Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/rerVCu9auZrgxTTiZu1criqrQzg.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:57.809Z"
   },
   "terminator|james cameron 1984": {
     "value": {
@@ -9589,6 +10187,105 @@
       }
     },
     "fetchedAt": "2026-10-17T09:30:33.400Z"
+  },
+  "transformers one|josh cooley 2024": {
+    "value": {
+      "tmdbId": 698687,
+      "overview": "La storia inedita delle origini di Optimus Prime e Megatron, meglio conosciuti come nemici giurati, ma un tempo amici legati come fratelli che hanno cambiato per sempre il destino di Cybertron.",
+      "overviewLang": "it",
+      "tagline": "Scopri l'origine di ogni trasformazione",
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Fantascienza",
+        "Avventura",
+        "Famiglia"
+      ],
+      "runtime": 104,
+      "released": "2024-09-26",
+      "vote": 8,
+      "votes": 1819,
+      "poster": "https://image.tmdb.org/t/p/w500/41caGYMJKZMjlwFXwsIxL1UtUN.jpg",
+      "directors": [
+        {
+          "id": 84496,
+          "name": "Josh Cooley"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Hemsworth",
+          "character": "Orion Pax / Optimus Prime (voice)"
+        },
+        {
+          "name": "Brian Tyree Henry",
+          "character": "D-16 / Megatron (voice)"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "character": "Elita-1 (voice)"
+        },
+        {
+          "name": "Keegan-Michael Key",
+          "character": "B-127 (voice)"
+        },
+        {
+          "name": "Jon Hamm",
+          "character": "Sentinel Prime (voice)"
+        },
+        {
+          "name": "Steve Buscemi",
+          "character": "Starscream (voice)"
+        },
+        {
+          "name": "Laurence Fishburne",
+          "character": "Alpha Trion (voice)"
+        },
+        {
+          "name": "Vanessa Liguori",
+          "character": "Airachnid (voice)"
+        }
+      ],
+      "trailer": "W08PhwQHMio",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/698687-transformers-one/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Infinity Selection Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/7bLI3pIxIlURo1tYrfChgtJSZQF.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-18T04:45:58.252Z"
   },
   "un po di luce|ali asgari 2026": {
     "value": {

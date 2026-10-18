@@ -539,6 +539,10 @@
     "value": "Pete Docter",
     "fetchedAt": "2026-10-12T07:24:39.721Z"
   },
+  "movie:1512493": {
+    "value": "Paul Becker",
+    "fetchedAt": "2026-10-18T04:42:49.000Z"
+  },
   "movie:1513475": {
     "value": "Safar Sanal",
     "fetchedAt": "2026-10-17T04:42:34.391Z"
@@ -751,9 +755,21 @@
     "value": "Luca Zambianchi",
     "fetchedAt": "2026-10-12T07:24:33.858Z"
   },
+  "movie:1789738": {
+    "value": "Alessio Hong, Sun Lingyi",
+    "fetchedAt": "2026-10-18T04:42:47.598Z"
+  },
+  "movie:1790666": {
+    "value": "Gabriele Panetta",
+    "fetchedAt": "2026-10-18T04:42:47.698Z"
+  },
   "movie:1790935": {
     "value": null,
     "fetchedAt": "2026-10-13T04:34:38.808Z"
+  },
+  "movie:1791064": {
+    "value": "Andrea D'Eredità",
+    "fetchedAt": "2026-10-18T04:42:47.797Z"
   },
   "movie:192139": {
     "value": "Michael Russell Gunn",
@@ -995,6 +1011,10 @@
     "value": "Steven Spielberg",
     "fetchedAt": "2026-10-16T04:44:12.777Z"
   },
+  "movie:858035": {
+    "value": "Taika Waititi",
+    "fetchedAt": "2026-10-18T04:42:49.099Z"
+  },
   "movie:863": {
     "value": "John Lasseter",
     "fetchedAt": "2026-10-12T07:24:41.932Z"
@@ -1070,6 +1090,10 @@
   "tv:105248": {
     "value": "Rafał Jaki",
     "fetchedAt": "2026-10-14T04:46:02.180Z"
+  },
+  "tv:106449": {
+    "value": null,
+    "fetchedAt": "2026-10-18T04:42:49.895Z"
   },
   "tv:108978": {
     "value": "Nick Santora",
@@ -1255,6 +1279,10 @@
     "value": "Howard Overman",
     "fetchedAt": "2026-10-13T04:34:40.261Z"
   },
+  "tv:236534": {
+    "value": "Zhai Zhu",
+    "fetchedAt": "2026-10-18T04:42:49.801Z"
+  },
   "tv:237150": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:59.344Z"
@@ -1278,6 +1306,10 @@
   "tv:255752": {
     "value": "Matt Roller",
     "fetchedAt": "2026-10-12T07:25:01.019Z"
+  },
+  "tv:256711": {
+    "value": "Michael Seitzman, Jason Richman",
+    "fetchedAt": "2026-10-18T04:42:49.696Z"
   },
   "tv:258165": {
     "value": "Zoe Kazan",
@@ -1559,6 +1591,10 @@
     "value": "Roberto Orci, Alex Kurtzman",
     "fetchedAt": "2026-10-12T07:24:49.850Z"
   },
+  "tv:329490": {
+    "value": null,
+    "fetchedAt": "2026-10-18T04:42:49.600Z"
+  },
   "tv:331693": {
     "value": "Aytaç Çiçek",
     "fetchedAt": "2026-10-13T04:34:40.400Z"
@@ -1603,6 +1639,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:24:58.963Z"
   },
+  "tv:387": {
+    "value": "Stephen Hillenburg",
+    "fetchedAt": "2026-10-18T04:42:49.496Z"
+  },
   "tv:4057": {
     "value": "Jeff Davis",
     "fetchedAt": "2026-10-12T07:24:46.545Z"
@@ -1634,6 +1674,10 @@
   "tv:46260": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:49.201Z"
+  },
+  "tv:4629": {
+    "value": "Brad Wright, Jonathan Glassner",
+    "fetchedAt": "2026-10-18T04:42:48.499Z"
   },
   "tv:4656": {
     "value": "Vince McMahon",
@@ -1718,6 +1762,10 @@
   "tv:73223": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:58.582Z"
+  },
+  "tv:75219": {
+    "value": "Ryan Murphy, Brad Falchuk",
+    "fetchedAt": "2026-10-18T04:42:48.595Z"
   },
   "tv:764": {
     "value": "Anthony Horowitz, Caroline Graham",
