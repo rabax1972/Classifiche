@@ -81,12 +81,19 @@ export async function lookupEpisodes({ budget = 150, log = console.log } = {}) {
     const info = shows.get(key);
     if (info?.seasonList) series.set(info.tmdbId, info);
   }
+  await updateEpisodes(series, EPISODE_DIR, { budget, log });
+}
 
-  await mkdir(EPISODE_DIR, { recursive: true });
+/**
+ * Episodi delle serie date, un file per serie in `dir` ({tmdbId}.json): scarica le stagioni mancanti o scadute e cancella i
+ * file delle serie non più elencate. Usata anche da scripts/trakt-import.ts per le serie viste (privato/episodi).
+ */
+export async function updateEpisodes(series: Map<number, SeriesInfo>, dir: string, { budget = 150, log = console.log } = {}) {
+  await mkdir(dir, { recursive: true });
   let removed = 0;
-  for (const f of await readdir(EPISODE_DIR))
+  for (const f of await readdir(dir))
     if (f.endsWith('.json') && !series.has(Number(f.replace(/\.json$/, '')))) {
-      await rm(path.join(EPISODE_DIR, f));
+      await rm(path.join(dir, f));
       removed++;
     }
 
@@ -95,7 +102,7 @@ export async function lookupEpisodes({ budget = 150, log = console.log } = {}) {
   let stop = false;
   for (const [id, info] of series) {
     if (stop) break;
-    const file = path.join(EPISODE_DIR, `${id}.json`);
+    const file = path.join(dir, `${id}.json`);
     const data = (await readJson<EpisodeCacheFile>(file)) ?? { seasons: {} };
     let changed = false;
     // Via le stagioni scadute o non più elencate.

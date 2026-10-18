@@ -417,10 +417,17 @@ export interface SeenSeries {
   providers: WatchProvider[];
 }
 
-/** File privato/serie-viste.json (fuori da git), scritto da scripts/trakt-import.ts. */
+/** Serie del file /serie-tv/catalogo.json: dati della lista più la scheda per la modale (src/components/SeriesDialog.astro). */
+export interface SeenSeriesEntry extends SeenSeries {
+  /** Chiave della scheda nella modale: entryKey per le serie delle classifiche, "tv:{tmdbId}" per le altre. */
+  key: string;
+  card: SeriesCard;
+}
+
+/** File privato/serie-viste.json (fuori da git), scritto da scripts/trakt-import.ts: le schede TMDB delle serie viste. */
 export interface SeenSeriesCatalog {
   date: string;
-  series: SeenSeries[];
+  series: SeriesInfo[];
 }
 
 /** File privato/libri-letti.json (fuori da git), scritto da scripts/anobii-import.ts. */

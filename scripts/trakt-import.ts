@@ -21,18 +21,20 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { entryKey } from '../src/lib/aggregate';
-import { toSeenSeries } from '../src/lib/catalog';
 import { mergeProviders } from '../src/lib/providers';
-import type { SeenMovie, SeenMovieCatalog, SeenSeries, SeenSeriesCatalog } from '../src/lib/types';
+import type { SeenMovie, SeenMovieCatalog, SeenSeriesCatalog, SeriesInfo } from '../src/lib/types';
 import { TMDB_IMG, hasTmdbKey, tmdb } from './adapters/tmdb';
 import { loadEnv } from './lib/env';
 import { fetchJson } from './lib/http';
 import { italianRelease, movieTargets, providers, type TmdbWatch } from './movie-info';
+import { updateEpisodes } from './episode-info';
 import { seriesInfo } from './series-info';
 
 const API = 'https://api.trakt.tv';
 const PAGE = 250; // limite massimo di Trakt per pagina
 const OUT_DIR = path.resolve('privato');
+/** Episodi delle serie viste, pubblicati come quelli delle classifiche (src/pages/serie-tv/episodi/[id]/[stagione].json.ts). */
+const EPISODE_DIR = path.join(OUT_DIR, 'episodi');
 /** Risposte TMDB riusate tra un'importazione e l'altra (.cache/http, fuori da git). */
 const TMDB_CACHE = { retries: 1, cacheTtlMs: 7 * 86_400_000 };
 
@@ -164,18 +166,18 @@ export async function importTrakt(user: string, account: string, log: (m: string
     else partial.push(`${show.title} (${seen}/${show.aired_episodes ?? '?'})`);
   }
 
-  // Catalogo delle serie viste, anche solo in parte (pagina "Le mie serie viste").
-  const seriesCatalog: SeenSeries[] = [];
+  // Catalogo delle serie viste, anche solo in parte (pagina "Le mie serie viste"), con gli episodi per la loro scheda.
+  const seriesCatalog: SeriesInfo[] = [];
   for (const [i, { show }] of shows.entries()) {
     if (!show.ids.tmdb) continue;
     try {
-      const s = toSeenSeries(await seriesInfo(show.ids.tmdb));
-      if (s) seriesCatalog.push(s);
+      seriesCatalog.push(await seriesInfo(show.ids.tmdb));
     } catch {
       // Serie rimossa da TMDB o errore di rete: resta fuori dal catalogo.
     }
     if ((i + 1) % 50 === 0) log(`  serie: ${i + 1}/${shows.length}`);
   }
+  await updateEpisodes(new Map(seriesCatalog.map((s) => [s.tmdbId, s])), EPISODE_DIR, { budget: Infinity, log });
 
   // Film: prima la chiave della classifica (stesso ID TMDB), poi tutte quelle possibili (movieKeys).
   const chartKeys = new Map<number, string>();

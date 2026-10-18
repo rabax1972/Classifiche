@@ -1,7 +1,8 @@
 ---
 // Lista "Le mie serie viste" (pagina /serie-tv/viste/): le serie viste per intero (lista "serie-viste", chiave "tv:{id}") e quelle
 // con almeno un episodio visto ("episodi-visti"), anche fuori dalle classifiche, con ricerca, filtri (visione, servizi, generi,
-// stato, voto) e ordinamento per titolo, voto o anno. Dati da /serie-tv/catalogo.json (src/pages/serie-tv/catalogo.json.ts).
+// stato, voto) e ordinamento per titolo, voto o anno. Dati da /serie-tv/catalogo.json (src/pages/serie-tv/catalogo.json.ts):
+// il titolo apre la scheda della serie (SeriesDialog, con stagioni ed episodi da spuntare) e i creatori la loro (CreatorDialog).
 import { href } from '../lib/data';
 
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
@@ -99,10 +100,12 @@ const multis = [
 </div>
 
 <script>
-  import { normalizeText } from '../lib/aggregate';
+  import { artistKey, normalizeText, splitArtists } from '../lib/aggregate';
+  import { SERIES_CARDS_EVENT } from '../lib/dialogs';
+  import { setSeen } from '../lib/seen';
   import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, voteAndProviders } from '../lib/my-list';
-  import { TICK_EVENT, getTicks, setTick, type TickChange } from '../lib/ticks';
-  import type { SeenSeries } from '../lib/types';
+  import { TICK_EVENT, getTicks, type TickChange } from '../lib/ticks';
+  import type { SeenSeries, SeenSeriesEntry, SeriesCard } from '../lib/types';
 
   const SERIES = 'serie-viste';
   const EPISODES = 'episodi-visti';
@@ -123,9 +126,11 @@ const multis = [
     const multis = [...root.querySelectorAll<HTMLDetailsElement>('[data-multi]')];
     const reset = $<HTMLButtonElement>('[data-reset]');
 
-    let all: SeenSeries[] = [];
+    let all: SeenSeriesEntry[] = [];
     /** Serie della lista con gli episodi visti (stagioni normali) e se è vista per intero. */
-    let mine: { s: SeenSeries; watched: number; full: boolean }[] = [];
+    let mine: { s: SeenSeriesEntry; watched: number; full: boolean }[] = [];
+    /** Creatori con una scheda nella pagina (CreatorDialog). */
+    const creatorCards = JSON.parse(document.querySelector('#creator-data')?.textContent || '{}') as Record<string, unknown>;
     /** Serie appena tolte da qui: restano in elenco fino al prossimo cambio di filtri. */
     const keptHere = new Set<number>();
     let limit = PAGE;
@@ -172,13 +177,28 @@ const multis = [
     const row = ({ s, watched, full }: (typeof mine)[number]) => {
       const li = el('li', 'flex items-start gap-3 px-3 py-3');
       const text = el('div', 'min-w-0 flex-1');
-      const title = el('a', 'cursor-pointer font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300', s.title);
-      Object.assign(title, { href: `https://www.themoviedb.org/tv/${s.tmdbId}`, target: '_blank', rel: 'noopener' });
-      title.setAttribute('aria-label', `${s.title} su TMDB (si apre in una nuova scheda)`);
+      // Titolo: apre la scheda della serie, come nella classifica.
+      const title = el('button', 'series-open cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300', s.title);
+      title.type = 'button';
+      title.dataset.serie = s.key;
+      title.setAttribute('aria-haspopup', 'dialog');
       text.append(title);
+      // Creatori: quelli con una scheda nella pagina sono pulsanti.
       const year = s.firstAired?.slice(0, 4);
-      const who = [s.creators.join(', '), year ? `(${year})` : ''].filter(Boolean).join(' ');
-      if (who) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', who));
+      if (s.creators.length || year) {
+        const who = el('p', 'text-gray-600 break-words dark:text-gray-400');
+        splitArtists(s.creators.join(', ')).forEach((part, i) => {
+          const key = artistKey(part);
+          if (i % 2 === 1 || !part.trim() || !(key in creatorCards)) return who.append(part);
+          const btn = el('button', 'creator-open cursor-pointer text-left underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300', part);
+          btn.type = 'button';
+          btn.dataset.creatore = key;
+          btn.setAttribute('aria-haspopup', 'dialog');
+          who.append(btn);
+        });
+        if (year) who.append(`${s.creators.length ? ' ' : ''}(${year})`);
+        text.append(who);
+      }
       const details = [
         s.seasons ? `${s.seasons} ${s.seasons === 1 ? 'stagione' : 'stagioni'}` : '',
         s.status === 'conclusa' ? 'conclusa' : s.status === 'in-corso' ? 'in produzione' : '',
@@ -213,7 +233,8 @@ const multis = [
       box.addEventListener('change', () => {
         keptHere.add(s.tmdbId);
         changingHere = true;
-        setTick(SERIES, `tv:${s.tmdbId}`, box.checked);
+        // Come nella classifica: segnandola vista, la scheda propone di spuntare anche gli episodi.
+        setSeen('serie', s.card.seenKey, box.checked);
         changingHere = false;
         li.classList.toggle('bg-emerald-50', box.checked);
         li.classList.toggle('dark:bg-emerald-950/40', box.checked);
@@ -297,7 +318,8 @@ const multis = [
       try {
         const res = await fetch(root.dataset.src!);
         if (!res.ok) throw new Error(String(res.status));
-        all = ((await res.json()) as { series: SeenSeries[] }).series;
+        all = ((await res.json()) as { series: SeenSeriesEntry[] }).series;
+        document.dispatchEvent(new CustomEvent<Record<string, SeriesCard>>(SERIES_CARDS_EVENT, { detail: Object.fromEntries(all.map((s) => [s.key, s.card])) }));
       } catch {
         status.textContent = 'Non è stato possibile caricare le serie viste: riprova più tardi.';
         return;

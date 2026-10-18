@@ -4,6 +4,9 @@
 import { artistKey, splitArtists } from './aggregate';
 import type { WatchProvider } from './types';
 
+/** Schede di serie aggiunte alla modale dopo il caricamento (detail: Record<chiave, SeriesCard>), src/components/SeriesDialog.astro. */
+export const SERIES_CARDS_EVENT = 'serie:schede';
+
 let opener: HTMLElement | null = null;
 
 interface DialogOptions {
@@ -42,12 +45,16 @@ export function setupDialog({ dialog, name, trigger, render }: DialogOptions) {
     opener?.focus();
   });
 
-  const linked = location.hash.match(new RegExp(`^#${name}=(.+)$`))?.[1];
-  if (linked) {
+  /** Apre la scheda indicata nell'URL, se c'è (anche più tardi, quando i dati arrivano dopo il caricamento). */
+  const openLinked = () => {
+    const linked = location.hash.match(new RegExp(`^#${name}=(.+)$`))?.[1];
+    if (!linked || dialog.open) return;
     const key = decodeURIComponent(linked);
     const btn = [...document.querySelectorAll<HTMLElement>(`.${trigger}`)].find((b) => b.dataset[name] === key) ?? null;
     show(key, btn);
-  }
+  };
+  openLinked();
+  return { openLinked };
 }
 
 /** Testo semplice in un elemento, diviso in paragrafi. */

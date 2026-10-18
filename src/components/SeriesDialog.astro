@@ -1,6 +1,7 @@
 ---
 // Modale con la scheda di una serie: si apre dai titoli della classifica Serie TV (pulsanti .series-open[data-serie]).
 // I dati delle serie della pagina sono incorporati come JSON; il contenuto è costruito con textContent.
+// Altre schede si aggiungono con l'evento SERIES_CARDS_EVENT (src/lib/dialogs.ts), es. dalla pagina "Le mie serie viste".
 import { getSeriesInfo, seriesSeenKey } from '../lib/data';
 import type { SeriesCard, SeriesItem } from '../lib/types';
 
@@ -133,7 +134,7 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
 </dialog>
 
 <script>
-  import { providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
+  import { SERIES_CARDS_EVENT, providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
   import { SEEN_CHOICE_EVENT, SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
   import { TICK_EVENT, getTicks, setTick, setTicks, type TickChange } from '../lib/ticks';
   import { SERIES_STATUS, type EpisodeInfo, type SeasonEpisodes, type SeasonSummary, type SeriesCard } from '../lib/types';
@@ -342,6 +343,13 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
 
     // Serie segnata come vista: se ha episodi già usciti non ancora spuntati, si propone di segnarli tutti (speciali esclusi).
     const bySeenKey = new Map(Object.values(series).map((s) => [s.seenKey, s]));
+    // Schede arrivate dopo il caricamento della pagina (es. il catalogo delle serie viste).
+    document.addEventListener(SERIES_CARDS_EVENT, (ev) => {
+      const cards = (ev as CustomEvent<Record<string, SeriesCard>>).detail;
+      Object.assign(series, cards);
+      for (const s of Object.values(cards)) if (!bySeenKey.has(s.seenKey)) bySeenKey.set(s.seenKey, s);
+      linked.openLinked();
+    });
     const confirmAll = document.querySelector<HTMLDialogElement>('#series-all-episodes')!;
     document.addEventListener(SEEN_CHOICE_EVENT, async (ev) => {
       const { list, key, seen } = (ev as CustomEvent<SeenChange>).detail;
@@ -550,6 +558,6 @@ for (const { key, externalId, ...s } of items) series[key] ??= { ...s, seenKey: 
     };
 
     // Link diretto a una serie: /serie-tv/#serie=<chiave>
-    setupDialog({ dialog, name: 'serie', trigger: 'series-open', render });
+    const linked = setupDialog({ dialog, name: 'serie', trigger: 'series-open', render });
   }
 </script>

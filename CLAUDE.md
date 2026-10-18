@@ -75,7 +75,9 @@ Pulsante "Sincronizza con Trakt" in `/account/` (`src/lib/trakt-sync.ts`, solo p
 legge Trakt dal browser (serve l'origine del sito tra le CORS origins dell'app Trakt) e aggiunge le spunte mancanti; i film nuovi
 come `movie:{idTMDB}`, che valgono per la riga in classifica tramite `aliasSeen()` di `src/lib/seen.ts`.
 Serie viste: pagina `/serie-tv/viste/` (`MySeries.astro`, `/serie-tv/catalogo.json` da `privato/serie-viste.json` di `import:trakt` più
-le schede di `series-info.json`): viste per intero (`serie-viste`) e in corso (`episodi-visti`). Le liste personali condividono
+le schede di `series-info.json`): viste per intero (`serie-viste`) e in corso (`episodi-visti`); il titolo apre `SeriesDialog`, che
+riceve le schede del catalogo con l'evento `SERIES_CARDS_EVENT` (`src/lib/dialogs.ts`); gli episodi di queste serie stanno in
+`privato/episodi/` (scritti da `import:trakt` con `updateEpisodes()`) e sono pubblicati insieme a quelli di `data/cache/episodes/`. Le liste personali condividono
 `src/lib/my-list.ts` (riga, voto, servizi, filtri a scelta multipla).
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
