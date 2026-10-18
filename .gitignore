@@ -9,3 +9,5 @@ dist/
 aruba/
 # Database SQLite degli account in locale (npm run api:dev)
 mdb-database/
+# Spunte personali importate da Trakt (npm run import:trakt)
+privato/

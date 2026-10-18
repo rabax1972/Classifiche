@@ -351,8 +351,11 @@ const summary = 'cursor-pointer font-semibold';
     if (!file) return;
     quiet();
     try {
-      const data = JSON.parse(await file.text()) as { liste?: unknown };
+      const data = JSON.parse(await file.text()) as { liste?: unknown; account?: unknown };
       if (!data.liste || typeof data.liste !== 'object' || Array.isArray(data.liste)) throw new Error('Il file non contiene spunte di Classifiche Italia.');
+      // File destinato a un account preciso (es. npm run import:trakt): solo quello può importarlo.
+      if (typeof data.account === 'string' && data.account.toLowerCase() !== cachedAccount()?.email.toLowerCase())
+        throw new Error(`Questo file è destinato all'account ${data.account}: entra con quell'account per importarlo.`);
       const before = Object.values(localTicks()).reduce((n, keys) => n + keys.length, 0);
       await mergeTicks(data.liste as TickLists);
       const after = Object.values(localTicks()).reduce((n, keys) => n + keys.length, 0);

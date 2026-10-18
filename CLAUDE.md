@@ -16,6 +16,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
   da caricare a mano con FileZilla (niente deploy automatico)
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
+- `npm run import:trakt` — film, serie ed episodi visti su Trakt (`TRAKT_CLIENT_ID`, `TRAKT_USERNAME`, `TRAKT_ACCOUNT` in `.env`) in un
+  file di spunte in `privato/` (fuori da git), da importare a mano da `/account/` nell'account indicato
 
 Gli script girano con `tsx`; le chiavi (`TMDB_READ_TOKEN` o `TMDB_API_KEY`, `LASTFM_API_KEY`, `CLASSIFICHE_CONTACT`) stanno in `.env`
 (vedi `.env.example`). Senza chiave le fonti relative vengono saltate. CI (`.github/workflows/ci.yml`): typecheck, test, build.
