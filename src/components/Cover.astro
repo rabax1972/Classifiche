@@ -5,8 +5,10 @@ interface Props {
   /** Lato in px; le locandine (film/serie) sono più alte che larghe. */
   size?: number;
   poster?: boolean;
+  /** Classi di larghezza e altezza al posto della misura fissa (es. locandine che crescono sugli schermi larghi). */
+  sizeClass?: string;
 }
-const { src, title, size = 48, poster = false } = Astro.props;
+const { src, title, size = 48, poster = false, sizeClass } = Astro.props;
 const w = size;
 const h = poster ? Math.round(size * 1.5) : size;
 const initials = title
@@ -18,8 +20,8 @@ const initials = title
 ---
 
 <div
-  class="relative shrink-0 overflow-hidden rounded bg-gray-200 ring-1 ring-black/10 dark:bg-gray-800 dark:ring-white/10"
-  style={`width:${w}px;height:${h}px`}
+  class={`relative shrink-0 overflow-hidden rounded bg-gray-200 ring-1 ring-black/10 dark:bg-gray-800 dark:ring-white/10 ${sizeClass ?? ''}`}
+  style={sizeClass ? undefined : `width:${w}px;height:${h}px`}
 >
   {
     src ? (
