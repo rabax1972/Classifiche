@@ -370,6 +370,32 @@ export interface SeenMovieCatalog {
   films: SeenMovie[];
 }
 
+/**
+ * Un libro della pagina "I miei libri letti" (file statico /libri/catalogo.json, src/pages/libri/catalogo.json.ts): dal catalogo
+ * privato/libri-letti.json di scripts/anobii-import.ts più i libri della classifica e delle liste "Libri da avere".
+ */
+export interface ReadBook {
+  title: string;
+  author: string;
+  cover: string | null;
+  /** Anno di pubblicazione (dell'edizione letta, per i libri di aNobii). */
+  year: number | null;
+  pages: number | null;
+  publisher: string | null;
+  /** Fine della lettura (YYYY, YYYY-MM o YYYY-MM-DD), dall'esportazione di aNobii. */
+  finished: string | null;
+  /** Voto dato su aNobii (da 0,5 a 5). */
+  rating: number | null;
+  /** Chiavi della lista "letti" (entryKey di titolo e autore) con cui il libro può comparire: è letto se ne è spuntata una. */
+  keys: string[];
+}
+
+/** File privato/libri-letti.json (fuori da git), scritto da scripts/anobii-import.ts. */
+export interface ReadBookCatalog {
+  date: string;
+  books: (ReadBook & { isbn: string | null })[];
+}
+
 /** Un film della pagina da cui si aprono le modali di film e regista. */
 export interface MovieItem extends Omit<MovieCard, 'info'> {
   /** Chiave della scheda in data/cache/movie-info.json (entryKey). */

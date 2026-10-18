@@ -1,6 +1,6 @@
 <?php
 // API degli account di Classifiche Italia: registrazione con conferma email, accesso, recupero password e spunte
-// (film visti e da vedere, serie viste, titoli posseduti) salvate in SQLite. Il sito statico la chiama da src/lib/account.ts.
+// (film visti e da vedere, serie viste, libri letti, titoli posseduti) salvate in SQLite. Il sito statico la chiama da src/lib/account.ts.
 //
 //   GET  ?a=stato                      utente collegato (o null)
 //   POST ?a=registrazione              {email, password}       manda l'email di conferma

@@ -56,6 +56,14 @@ const seenTab = category === 'film';
     <h1 class="text-3xl font-bold tracking-tight">{cfg.label}</h1>
     <p class="text-gray-700 dark:text-gray-300">{cfg.description}</p>
     {cfg.note && <p class="max-w-3xl text-sm text-gray-600 dark:text-gray-400">{cfg.note}</p>}
+    {category === 'libri' && (
+      <p>
+        <a href={href('libri-letti')} class="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-700 hover:underline dark:text-sky-300">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v16H6.5A2.5 2.5 0 0 0 4 21.5zM20 19v3H6.5"></path></svg>
+          I miei libri letti →
+        </a>
+      </p>
+    )}
   </div>
 
   <nav aria-label="Periodo" class="mb-6">

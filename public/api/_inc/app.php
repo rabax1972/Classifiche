@@ -14,8 +14,8 @@ const SESSION_DAYS = 60;
 const VERIFY_HOURS = 48;
 const RESET_HOURS = 1;
 const UNVERIFIED_DAYS = 7;
-/** Liste di spunte accettate: film visti e da vedere, serie viste, episodi visti, titoli posseduti delle liste curate (src/lib/ticks.ts). */
-const LIST_PATTERN = '/^(visti|da-vedere|serie-viste|episodi-visti|posseduti:[a-z0-9-]{1,60})$/';
+/** Liste di spunte accettate: film visti e da vedere, serie viste, episodi visti, libri letti, titoli posseduti delle liste curate (src/lib/ticks.ts). */
+const LIST_PATTERN = '/^(visti|da-vedere|serie-viste|episodi-visti|letti|posseduti:[a-z0-9-]{1,60})$/';
 const MAX_KEY_LENGTH = 300;
 const MAX_TICKS_PER_USER = 50000;
 

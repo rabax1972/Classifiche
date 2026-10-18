@@ -1,0 +1,24 @@
+---
+import MyBooks from '../components/MyBooks.astro';
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+
+// Lista dei libri letti: quelli con la spunta "Letto" nella classifica Libri e nelle liste "Libri da avere" (lista "letti" di
+// src/lib/ticks.ts, salvata nell'account se collegato), anche importati da aNobii (scripts/anobii-import.ts).
+---
+
+<Base title="I miei libri letti" description="I libri che hai segnato come letti, con data di lettura e voto." current="libri-letti">
+  <div class="mb-6 space-y-2">
+    <h1 class="text-3xl font-bold tracking-tight">I miei libri letti</h1>
+    <p class="max-w-3xl text-gray-700 dark:text-gray-300">
+      I libri che hai segnato con <strong>Letto</strong> nella classifica{' '}
+      <a class="text-indigo-700 underline dark:text-indigo-300" href={href('libri/oggi')}>Libri</a> e nelle liste{' '}
+      <a class="text-indigo-700 underline dark:text-indigo-300" href={href('libri-da-avere')}>Libri da avere</a>, o importato dalla pagina{' '}
+      <a class="text-indigo-700 underline dark:text-indigo-300" href={href('account')}>Account</a>.
+    </p>
+    <p class="max-w-3xl text-sm text-gray-600 dark:text-gray-400">
+      Senza account la lista resta solo in questo browser: <a class="underline" href={href('account')}>accedi</a> per ritrovarla su tutti i tuoi dispositivi.
+    </p>
+  </div>
+  <MyBooks />
+</Base>

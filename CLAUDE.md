@@ -18,6 +18,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
 - `npm run import:trakt` — film, serie ed episodi visti su Trakt (`TRAKT_CLIENT_ID`, `TRAKT_USERNAME`, `TRAKT_ACCOUNT` in `.env`) in un
   file di spunte in `privato/` (fuori da git), da importare a mano da `/account/` nell'account indicato
+- `npm run import:anobii` — libri letti dall'esportazione CSV di aNobii (il file più recente in `privato/`; aNobii non ha API e il suo
+  robots.txt esclude i bot) in un file di spunte e nel catalogo `privato/libri-letti.json`
 
 Gli script girano con `tsx`; le chiavi (`TMDB_READ_TOKEN` o `TMDB_API_KEY`, `LASTFM_API_KEY`, `CLASSIFICHE_CONTACT`) stanno in `.env`
 (vedi `.env.example`). Senza chiave le fonti relative vengono saltate. CI (`.github/workflows/ci.yml`): typecheck, test, build.
@@ -62,12 +64,15 @@ Unica parte con un backend: `public/api/index.php` (+ `_inc/app.php`), PHP 8.3 s
 SQLite in `mdb-database/classifiche.sqlite` nella radice del dominio; `.htaccess` lì non vale). Registrazione con conferma email, sessioni
 in un cookie con token il cui hash sta nel DB, limiti ai tentativi, schema versionato con `PRAGMA user_version` in `migrate()`.
 Lato client tutte le spunte passano da `src/lib/ticks.ts` (localStorage + coda verso l'API + riallineamento a ogni pagina, evento
-`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `da-vedere`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `posseduti:…`) sono definite in due
+`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `da-vedere`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `letti`, `posseduti:…`) sono definite in due
 posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.php`. Pagine `/account/` e `/privacy/`.
 Liste personali di film (`MyMovies.astro`): la scheda "I miei visti" della pagina Film (solo con l'account) e la pagina `/da-vedere/`
 (lista `da-vedere`, spunta "Da vedere" nelle righe di Cinema e Film). Leggono `/film/catalogo.json` (`src/pages/film/catalogo.json.ts`):
 catalogo `privato/film-visti.json` di `import:trakt` (fuori da git, ignorato oltre 150 giorni) più tutte le schede di `movie-info.json`;
 un film è nella lista se è spuntata una qualsiasi delle sue `keys`.
+Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
+pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
+di classifica e liste.
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

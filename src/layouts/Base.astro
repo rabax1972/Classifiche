@@ -7,7 +7,7 @@ import { CATEGORY_IDS, type CategoryId, type CuratedId } from '../lib/types';
 interface Props {
   title: string;
   description?: string;
-  current?: CategoryId | CuratedId | 'fonti' | 'account' | 'da-vedere';
+  current?: CategoryId | CuratedId | 'fonti' | 'account' | 'da-vedere' | 'libri-letti';
 }
 const { title, description = 'Le classifiche italiane di canzoni, libri, cinema, film e serie TV, aggiornate ogni giorno.', current } = Astro.props;
 const CURATED_NAV: { id: CuratedId; label: string }[] = [

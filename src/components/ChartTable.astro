@@ -23,6 +23,9 @@ const movies = category === 'cinema' || category === 'film';
 const series = category === 'serie-tv';
 /** Classifiche con i filtri dalle schede TMDB e la spunta "Visto" / "Vista". */
 const screen = movies || series;
+const books = category === 'libri';
+/** Classifiche con la spunta "Visto" / "Vista" / "Letto" (e il filtro relativo). */
+const tickable = screen || books;
 const cards =
   category === 'canzoni'
     ? { title: 'song-open', titleData: 'data-brano', person: 'artist-open', personData: 'data-artista', info: getArtistInfo }
@@ -86,7 +89,9 @@ if (screen)
 const genreOptions = options(filters.flatMap((f) => f.genres));
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
 /** Testi dei filtri e della spunta: film (maschile) o serie (femminile). */
-const words = series
+const words = books
+  ? { group: 'Filtra i libri', seen: 'Letto', seenSr: 'Libri letti', both: 'Letti e non', notYet: 'Non ancora letti', done: 'Già letti', provider: '', genre: '' }
+  : series
   ? { group: 'Filtra le serie', seen: 'Vista', seenSr: 'Serie viste', both: 'Viste e non', notYet: 'Non ancora viste', done: 'Già viste', provider: 'Serie in abbonamento', genre: 'Serie' }
   : { group: 'Filtra i film', seen: 'Visto', seenSr: 'Film visti', both: 'Visti e non', notYet: 'Non ancora visti', done: 'Già visti', provider: 'Film in abbonamento', genre: 'Film' };
 const multiFilters = [
@@ -105,7 +110,7 @@ const showVotes = rowInfo.some((r) => r?.vote);
 const showProviders = rowInfo.some((r) => r?.providers.length);
 ---
 
-<div class="chart" data-initial={INITIAL} data-seen-list={movies ? 'film' : series ? 'serie' : undefined}>
+<div class="chart" data-initial={INITIAL} data-seen-list={movies ? 'film' : series ? 'serie' : books ? 'libri' : undefined}>
   <div class="mb-3 flex flex-wrap items-center gap-3">
     <label class="relative min-w-0 flex-1 sm:max-w-xs">
       <span class="sr-only">Cerca nella classifica</span>
@@ -121,7 +126,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
   </div>
 
   {
-    screen && (
+    tickable && (
       <div class="chart-filters relative mb-3 hidden flex-wrap items-center gap-2" role="group" aria-label={words.group}>
         <label>
           <span class="sr-only">{words.seenSr}</span>
@@ -243,7 +248,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
           view.entries.map((e, i) => (
             <tr
               class="chart-row group hover:bg-gray-50 data-seen:bg-emerald-50 data-seen:shadow-[inset_4px_0_0_var(--color-emerald-500)] data-seen:hover:bg-emerald-100/70 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/40 dark:data-seen:hover:bg-emerald-950/60"
-              data-key={movies ? e.key : series ? seriesSeenKey(e) : undefined}
+              data-key={movies || books ? e.key : series ? seriesSeenKey(e) : undefined}
               data-watchable={movies ? '' : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
@@ -278,7 +283,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                     ) : (
                       <p class="font-semibold break-words">{e.title}</p>
                     )}
-                    {screen && (
+                    {tickable && (
                       <span
                         class="ml-2 hidden items-center gap-1 rounded-full bg-emerald-600 px-2 py-0.5 align-[0.1em] text-xs font-semibold text-white group-data-seen:inline-flex dark:bg-emerald-500 dark:text-emerald-950"
                         aria-hidden="true"
@@ -360,7 +365,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                         {e.points} punti · {e.daysInChart} {e.daysInChart === 1 ? 'giorno' : 'giorni'} · migliore {e.bestRank}°
                       </p>
                     )}
-                    {screen && (
+                    {tickable && (
                       <div class="mt-1 flex flex-wrap gap-x-4 gap-y-1">
                         <label class="chart-seen hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
                           <input type="checkbox" class="size-3.5 cursor-pointer accent-emerald-600" />
@@ -443,7 +448,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
     s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
   // Scelta del filtro sui film visti (o sulle serie viste), ricordata tra una visita e l'altra.
-  const SEEN_VIEW_KEY: Record<SeenList, string> = { film: 'vista:visti', serie: 'vista:serie-viste' };
+  const SEEN_VIEW_KEY: Record<SeenList, string> = { film: 'vista:visti', serie: 'vista:serie-viste', libri: 'vista:letti' };
   const readView = (list: SeenList) => {
     try {
       return localStorage.getItem(SEEN_VIEW_KEY[list]) ?? '';
