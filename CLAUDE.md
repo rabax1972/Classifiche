@@ -69,7 +69,10 @@ posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.p
 Liste personali di film (`MyMovies.astro`): la scheda "I miei visti" della pagina Film (solo con l'account) e la pagina `/da-vedere/`
 (lista `da-vedere`, spunta "Da vedere" nelle righe di Cinema e Film). Leggono `/film/catalogo.json` (`src/pages/film/catalogo.json.ts`):
 catalogo `privato/film-visti.json` di `import:trakt` (fuori da git, ignorato oltre 150 giorni) più tutte le schede di `movie-info.json`;
-un film è nella lista se è spuntata una qualsiasi delle sue `keys`.
+un film è nella lista se è spuntata una qualsiasi delle sue `keys` (tra cui `movie:{idTMDB}`).
+Pulsante "Sincronizza con Trakt" in `/account/` (`src/lib/trakt-sync.ts`, solo per l'account `TRAKT_ACCOUNT`, chiavi lette a build time):
+legge Trakt dal browser (serve l'origine del sito tra le CORS origins dell'app Trakt) e aggiunge le spunte mancanti; i film nuovi
+come `movie:{idTMDB}`, che valgono per la riga in classifica tramite `aliasSeen()` di `src/lib/seen.ts`.
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
 di classifica e liste.

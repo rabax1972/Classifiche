@@ -5,6 +5,15 @@ import { href } from '../lib/data';
 // Pagina statica: tutto il contenuto si costruisce lato client con l'API in public/api/index.php (src/lib/account.ts).
 // I link delle email arrivano qui: ?conferma=… (conferma dell'indirizzo) e ?password=… (nuova password).
 const card = 'rounded-lg border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900';
+/**
+ * Sincronizzazione con Trakt (src/lib/trakt-sync.ts): solo se la build ha le chiavi in .env (TRAKT_CLIENT_ID, TRAKT_USERNAME,
+ * TRAKT_ACCOUNT) e il pulsante si vede solo con l'account TRAKT_ACCOUNT.
+ */
+const env = (name: string) => String(import.meta.env[name] ?? process.env[name] ?? '').trim();
+const trakt =
+  env('TRAKT_CLIENT_ID') && env('TRAKT_USERNAME') && env('TRAKT_ACCOUNT')
+    ? { clientId: env('TRAKT_CLIENT_ID'), user: env('TRAKT_USERNAME').replace(/^@/, ''), account: env('TRAKT_ACCOUNT').toLowerCase() }
+    : null;
 const label = 'block text-sm font-medium text-gray-800 dark:text-gray-200';
 const input =
   'mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-gray-900 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/30 focus:outline-none dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100';
@@ -25,7 +34,7 @@ const summary = 'cursor-pointer font-semibold';
     <header>
       <h1 class="text-3xl font-bold tracking-tight">Il tuo account</h1>
       <p class="mt-3 text-gray-700 dark:text-gray-300">
-        Senza account le spunte (film visti, serie viste, album e libri che hai) restano solo nel browser che stai usando. Con un account
+        Senza account le spunte (film visti e da vedere, serie viste, libri letti, album e libri che hai) restano solo nel browser che stai usando. Con un account
         gratuito le ritrovi su tutti i tuoi dispositivi.
       </p>
     </header>
@@ -120,6 +129,29 @@ const summary = 'cursor-pointer font-semibold';
       </div>
       <button type="button" data-esci class={secondary}>Esci</button>
 
+      {
+        trakt && (
+          <div
+            data-trakt
+            hidden
+            data-account={trakt.account}
+            data-user={trakt.user}
+            data-client-id={trakt.clientId}
+            data-catalog={href('film/catalogo.json')}
+            class="space-y-2 border-t border-gray-200 pt-4 dark:border-gray-800"
+          >
+            <h2 class="font-semibold">Trakt</h2>
+            <p class="text-sm text-gray-700 dark:text-gray-300">
+              Aggiunge le spunte di film, serie ed episodi visti sul profilo{' '}
+              <a class="underline" href={`https://trakt.tv/users/${trakt.user}`} rel="noopener" target="_blank">@{trakt.user}</a> che qui mancano.
+              Non toglie nessuna spunta.
+            </p>
+            <button type="button" data-trakt-sync class={primary}>Sincronizza con Trakt</button>
+            <p data-trakt-status class="text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+          </div>
+        )
+      }
+
       <details class="border-t border-gray-200 pt-4 dark:border-gray-800">
         <summary class={summary}>Cambia password</summary>
         <form data-form="cambio-password" class="mt-4 space-y-4">
@@ -172,6 +204,7 @@ const summary = 'cursor-pointer font-semibold';
 <script>
   import { ApiError, api, cachedAccount, setCachedAccount, type Account } from '../lib/account';
   import { clearTicks, dropQueue, flushTicks, localTicks, mergeTicks, type TickLists } from '../lib/ticks';
+  import { syncTrakt } from '../lib/trakt-sync';
 
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
   const views = [...document.querySelectorAll<HTMLElement>('[data-view]')];
@@ -215,18 +248,15 @@ const summary = 'cursor-pointer font-semibold';
   // --- Riepilogo per l'utente collegato --------------------------------------------------------------------------
 
   function totals(lists: TickLists): string {
-    let film = 0;
-    let serie = 0;
-    let episodes = 0;
     let owned = 0;
-    for (const [store, keys] of Object.entries(lists)) {
-      if (store === 'visti') film += keys.length;
-      else if (store === 'serie-viste') serie += keys.length;
-      else if (store === 'episodi-visti') episodes += keys.length;
-      else owned += keys.length;
-    }
+    for (const [store, keys] of Object.entries(lists)) if (store.startsWith('posseduti:')) owned += keys.length;
+    const size = (store: string) => lists[store]?.length ?? 0;
     const n = (count: number, one: string, many: string) => `${count} ${count === 1 ? one : many}`;
-    return `Spunte salvate: ${n(film, 'film visto', 'film visti')}, ${n(serie, 'serie vista', 'serie viste')}, ${n(episodes, 'episodio visto', 'episodi visti')}, ${n(owned, 'titolo posseduto', 'titoli posseduti')}.`;
+    return (
+      `Spunte salvate: ${n(size('visti'), 'film visto', 'film visti')}, ${n(size('da-vedere'), 'film da vedere', 'film da vedere')}, ` +
+      `${n(size('serie-viste'), 'serie vista', 'serie viste')}, ${n(size('episodi-visti'), 'episodio visto', 'episodi visti')}, ` +
+      `${n(size('letti'), 'libro letto', 'libri letti')}, ${n(owned, 'titolo posseduto', 'titoli posseduti')}.`
+    );
   }
 
   function render(account: Account | null) {
@@ -238,6 +268,8 @@ const summary = 'cursor-pointer font-semibold';
     $('[data-email]').textContent = account.email;
     $<HTMLInputElement>('[data-email-field]').value = account.email;
     $('[data-totali]').textContent = totals(localTicks());
+    const traktBox = document.querySelector<HTMLElement>('[data-trakt]');
+    if (traktBox) traktBox.hidden = account.email.toLowerCase() !== traktBox.dataset.account;
   }
 
   /** Accesso riuscito: le spunte di questo browser si uniscono a quelle dell'account. */
@@ -332,6 +364,52 @@ const summary = 'cursor-pointer font-semibold';
     render(null);
     say("Account eliminato. Le spunte restano in questo browser.");
   });
+
+  // --- Sincronizzazione con Trakt (solo per l'account configurato) ------------------------------------------------
+
+  const traktBox = document.querySelector<HTMLElement>('[data-trakt]');
+  if (traktBox) {
+    const LAST = 'trakt:ultima-sincronizzazione';
+    const button = traktBox.querySelector<HTMLButtonElement>('[data-trakt-sync]')!;
+    const status = traktBox.querySelector<HTMLElement>('[data-trakt-status]')!;
+    const fmt = new Intl.DateTimeFormat('it-IT', { dateStyle: 'long', timeStyle: 'short' });
+    const showLast = () => {
+      try {
+        const last = localStorage.getItem(LAST);
+        status.textContent = last ? `Ultima sincronizzazione da questo browser: ${fmt.format(new Date(last))}.` : '';
+      } catch {
+        // Storage non disponibile.
+      }
+    };
+    showLast();
+    button.addEventListener('click', async () => {
+      button.disabled = true;
+      quiet();
+      try {
+        const { films, series, episodes } = await syncTrakt(
+          { clientId: traktBox.dataset.clientId!, user: traktBox.dataset.user!, catalog: traktBox.dataset.catalog! },
+          (m) => (status.textContent = m),
+        );
+        try {
+          localStorage.setItem(LAST, new Date().toISOString());
+        } catch {
+          // Storage non disponibile.
+        }
+        showLast();
+        render(cachedAccount());
+        say(
+          films || series || episodes
+            ? `Sincronizzazione con Trakt completata: ${films} film, ${series} serie e ${episodes} episodi aggiunti.`
+            : 'Sincronizzazione con Trakt completata: nessuna novità.',
+        );
+      } catch (err) {
+        showLast();
+        say(err instanceof TypeError ? "Trakt non è raggiungibile da questa pagina: controlla le origini CORS dell'app Trakt." : errorText(err), 'errore');
+      } finally {
+        button.disabled = false;
+      }
+    });
+  }
 
   // --- File delle spunte -----------------------------------------------------------------------------------------
 

@@ -54,6 +54,11 @@ const INITIAL = 20;
 
 // Filtri di film e serie (servizio in abbonamento, genere, voto; durata dei film; stagioni e stato delle serie) dalle schede TMDB:
 // solo lato client, senza JS la tabella è completa.
+/** Film: chiave alternativa con l'ID TMDB ("movie:{id}"), usata dalla sincronizzazione con Trakt (src/lib/seen.ts, aliasSeen). */
+const movieAltKey = (e: { key: string; externalId: string | null }) => {
+  const id = getMovieInfo(e.key)?.tmdbId ?? e.externalId?.match(/^tmdb:movie:(\d+)$/)?.[1];
+  return id ? `movie:${id}` : undefined;
+};
 const infoOf = (key: string) => (movies ? getMovieInfo(key) : series ? getSeriesInfo(key) : null);
 const filters = screen
   ? view.entries.map((e) => {
@@ -256,6 +261,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
               class="chart-row group hover:bg-gray-50 data-seen:bg-emerald-50 data-seen:shadow-[inset_4px_0_0_var(--color-emerald-500)] data-seen:hover:bg-emerald-100/70 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/40 dark:data-seen:hover:bg-emerald-950/60"
               data-key={movies || books ? e.key : series ? seriesSeenKey(e) : undefined}
               data-watchable={movies ? '' : undefined}
+              data-alt-key={movies ? movieAltKey(e) : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
               data-genres={filters[i] && `|${filters[i].genres.join('|')}|`}
@@ -446,7 +452,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
 </div>
 
 <script>
-  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange, type SeenList } from '../lib/seen';
+  import { SEEN_EVENT, aliasSeen, seenKeys, setSeen, type SeenChange, type SeenList } from '../lib/seen';
   import { TICK_EVENT, getTicks, setTick, type TickChange } from '../lib/ticks';
 
   /** Lista dei film da vedere (pagina /da-vedere/), con la stessa chiave della lista "visti". */
@@ -491,6 +497,8 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
 
     const seenSelect = root.querySelector<HTMLSelectElement>('[data-filter=seen]');
     const list = (root.dataset.seenList as SeenList | undefined) ?? 'film';
+    // Film spuntati con l'ID TMDB (sincronizzazione con Trakt): valgono per la riga del titolo.
+    for (const row of rows) if (row.dataset.altKey) aliasSeen(row.dataset.key!, row.dataset.altKey);
     const seen = seenKeys(list);
     /** Conteggi accanto alle voci del filtro: "Già visti (3)". */
     const countSeen = () => {

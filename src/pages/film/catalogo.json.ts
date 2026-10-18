@@ -17,7 +17,7 @@ function catalog(): SeenMovie[] {
   const films = new Map<number, SeenMovie>();
   for (const c of Object.values(catalogs)) {
     if (Date.now() - Date.parse(c.date) > MAX_AGE_DAYS * 86_400_000) continue;
-    for (const f of c.films) films.set(f.tmdbId, f);
+    for (const f of c.films) films.set(f.tmdbId, { ...f, keys: [...f.keys, `movie:${f.tmdbId}`] });
   }
   // Titolo e locandina delle classifiche attuali, per le schede raccolte prima che avessero il titolo.
   const inCharts = new Map<string, RankedEntry>();
@@ -42,7 +42,7 @@ function catalog(): SeenMovie[] {
       genres: info.genres,
       runtime: info.runtime,
       providers: mergeProviders(info.watch?.flatrate ?? []),
-      keys: [...new Set([key, ...(known?.keys ?? [])])],
+      keys: [...new Set([key, ...(known?.keys ?? []), `movie:${info.tmdbId}`])],
     });
   }
   return [...films.values()];

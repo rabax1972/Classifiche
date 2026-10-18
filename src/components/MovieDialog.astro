@@ -87,13 +87,15 @@ for (const { key, ...m } of items) movies[key] ??= { ...m, info: getMovieInfo(ke
 
 <script>
   import { providerRow, setArtistButtons, setParagraphs, setupDialog } from '../lib/dialogs';
-  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+  import { SEEN_EVENT, aliasSeen, movieIdKey, seenKeys, setSeen, type SeenChange } from '../lib/seen';
   import type { MovieCard } from '../lib/types';
 
   const dialog = document.querySelector<HTMLDialogElement>('#movie-dialog');
   const dataEl = document.querySelector('#movie-data');
   if (dialog && dataEl) {
     const movies = JSON.parse(dataEl.textContent || '{}') as Record<string, MovieCard>;
+    // Spunte salvate con l'ID TMDB (sincronizzazione con Trakt): valgono per il film della pagina.
+    for (const [key, m] of Object.entries(movies)) if (m.info) aliasSeen(key, movieIdKey(m.info.tmdbId));
     const directors = JSON.parse(document.querySelector('#director-data')?.textContent || '{}') as Record<string, unknown>;
     const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
     const dateFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
