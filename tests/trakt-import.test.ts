@@ -11,7 +11,7 @@ describe('movieKeys', () => {
         original_title: 'Novocaine',
         release_date: '2025-03-12',
         credits: crew('Dan Berk'),
-        release_dates: { results: [{ iso_3166_1: 'IT', release_dates: [{ release_date: '2026-01-08T00:00:00.000Z' }] }] },
+        release_dates: { results: [{ iso_3166_1: 'IT', release_dates: [{ type: 3, release_date: '2026-01-08T00:00:00.000Z' }] }] },
       },
       'Novocaine',
     );
@@ -60,7 +60,7 @@ describe('seenMovie', () => {
       1,
       ['matchbox il film|sam hargrave 2026'],
     );
-    expect(f).toMatchObject({ year: 2026, vote: 7.9, runtime: 112, directors: ['Sam Hargrave'], genres: ['Avventura'] });
+    expect(f).toMatchObject({ year: 2026, released: '2026-09-19', vote: 7.9, runtime: 112, directors: ['Sam Hargrave'], genres: ['Avventura'] });
     expect(f.poster).toBe('https://image.tmdb.org/t/p/w185/abc.jpg');
     expect(f.providers).toEqual([{ name: 'HBO Max', logo: 'https://image.tmdb.org/t/p/w92/hbo.png' }]);
     expect(seenMovie({ title: 'X', vote_average: 9, vote_count: 3 }, 2, []).vote).toBeNull();

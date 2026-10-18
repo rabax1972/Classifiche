@@ -34,6 +34,7 @@ function catalog(): SeenMovie[] {
       tmdbId: info.tmdbId,
       title,
       year: Number(info.released?.slice(0, 4) || movieSubtitle(entry?.subtitle ?? null).year) || known?.year || null,
+      released: info.released ?? known?.released ?? null,
       directors: info.directors.map((d) => d.name),
       poster: info.poster?.replace('/w500/', '/w185/') ?? entry?.cover ?? null,
       vote: info.vote && info.votes >= 10 ? info.vote : null,

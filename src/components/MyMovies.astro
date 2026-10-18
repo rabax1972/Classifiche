@@ -41,8 +41,8 @@ const multis = [
         <select class={filterSelect} data-sort>
           <option value="titolo">Titolo (A–Z)</option>
           <option value="voto">Voto (dal più alto)</option>
-          <option value="anno-desc">Anno (dal più recente)</option>
-          <option value="anno-asc">Anno (dal meno recente)</option>
+          <option value="anno-desc" title="Per data di uscita nelle sale italiane">Anno (dal più recente)</option>
+          <option value="anno-asc" title="Per data di uscita nelle sale italiane">Anno (dal meno recente)</option>
         </select>
       </label>
       <p class="my-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
@@ -139,7 +139,7 @@ const multis = [
     const [title = '', sub = ''] = key.split('|');
     const year = sub.match(/\b(\d{4})$/)?.[1];
     const director = sub.replace(/\s*\d{4}$/, '').split(' ').filter(Boolean).map(capitalize).join(' ');
-    return { tmdbId: id, title: capitalize(title), year: year ? Number(year) : null, directors: director ? [director] : [], poster: null, vote: null, votes: 0, genres: [], runtime: null, providers: [], keys: [key] };
+    return { tmdbId: id, title: capitalize(title), year: year ? Number(year) : null, released: null, directors: director ? [director] : [], poster: null, vote: null, votes: 0, genres: [], runtime: null, providers: [], keys: [key] };
   }
 
   for (const root of document.querySelectorAll<HTMLElement>('.my-movies')) {
@@ -240,13 +240,15 @@ const multis = [
       });
 
     const byTitle = (a: SeenMovie, b: SeenMovie) => a.title.localeCompare(b.title, 'it', { sensitivity: 'base', numeric: true });
-    /** Senza il dato (voto o anno) in fondo. */
+    /** Senza il dato (voto o data) in fondo. */
     const nullsLast = (a: number | null, b: number | null, dir: 1 | -1) => (a == null ? (b == null ? 0 : 1) : b == null ? -1 : (a - b) * dir);
+    /** Data di uscita come numero (20260918), per ordinare; con il solo anno vale il 1° gennaio. */
+    const releaseDay = (f: SeenMovie) => Number((f.released ?? (f.year ? `${f.year}-01-01` : '')).replaceAll('-', '')) || null;
     const sorters: Record<string, (a: SeenMovie, b: SeenMovie) => number> = {
       titolo: byTitle,
       voto: (a, b) => nullsLast(a.vote, b.vote, -1) || byTitle(a, b),
-      'anno-desc': (a, b) => nullsLast(a.year, b.year, -1) || byTitle(a, b),
-      'anno-asc': (a, b) => nullsLast(a.year, b.year, 1) || byTitle(a, b),
+      'anno-desc': (a, b) => nullsLast(releaseDay(a), releaseDay(b), -1) || byTitle(a, b),
+      'anno-asc': (a, b) => nullsLast(releaseDay(a), releaseDay(b), 1) || byTitle(a, b),
     };
 
     /** Spunta di una lista per il film: tolta da tutte le sue chiavi (basta una per contarlo), messa sulla prima. */

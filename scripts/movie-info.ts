@@ -78,8 +78,8 @@ export function pickTrailer(videos: NonNullable<TmdbMovie['videos']>['results'])
   );
 }
 
-/** Prima uscita nelle sale italiane (tipi 2 e 3 di TMDB: limitata e cinematografica). */
-function italianRelease(m: TmdbMovie): string | null {
+/** Prima uscita nelle sale italiane (tipi 2 e 3 di TMDB: limitata e cinematografica), altrimenti la data di uscita originale. */
+export function italianRelease(m: Pick<TmdbMovie, 'release_date' | 'release_dates'>): string | null {
   const it = m.release_dates?.results.find((r) => r.iso_3166_1 === 'IT')?.release_dates ?? [];
   const theatrical = it.filter((d) => d.type === 2 || d.type === 3).map((d) => d.release_date.slice(0, 10)).sort();
   return theatrical[0] ?? (m.release_date || null);

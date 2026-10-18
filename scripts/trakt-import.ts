@@ -25,7 +25,7 @@ import type { SeenMovie, SeenMovieCatalog } from '../src/lib/types';
 import { TMDB_IMG, hasTmdbKey, tmdb } from './adapters/tmdb';
 import { loadEnv } from './lib/env';
 import { fetchJson } from './lib/http';
-import { movieTargets, providers, type TmdbWatch } from './movie-info';
+import { italianRelease, movieTargets, providers, type TmdbWatch } from './movie-info';
 
 const API = 'https://api.trakt.tv';
 const PAGE = 250; // limite massimo di Trakt per pagina
@@ -76,7 +76,7 @@ interface TmdbMovie {
   original_title?: string;
   release_date?: string;
   credits?: { crew: { job: string; name: string }[] };
-  release_dates?: { results: { iso_3166_1: string; release_dates: { release_date: string }[] }[] };
+  release_dates?: { results: { iso_3166_1: string; release_dates: { type: number; release_date: string }[] }[] };
 }
 
 interface TmdbMovieFull extends TmdbMovie {
@@ -114,6 +114,7 @@ export function seenMovie(m: TmdbMovieFull, id: number, keys: string[]): SeenMov
     tmdbId: id,
     title: m.title,
     year: Number(m.release_date?.slice(0, 4)) || null,
+    released: italianRelease(m),
     directors: (m.credits?.crew ?? []).filter((p) => p.job === 'Director').map((p) => p.name).slice(0, 2),
     poster: m.poster_path ? `${TMDB_IMG}/w185${m.poster_path}` : null,
     vote: m.vote_average && votes >= 10 ? Math.round(m.vote_average * 10) / 10 : null,

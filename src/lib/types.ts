@@ -347,6 +347,8 @@ export interface SeenMovie {
   tmdbId: number;
   title: string;
   year: number | null;
+  /** Uscita nelle sale italiane (YYYY-MM-DD) o, se manca, la data di uscita originale: per l'ordinamento. */
+  released: string | null;
   directors: string[];
   /** Locandina piccola (w185). */
   poster: string | null;
