@@ -12,7 +12,7 @@
 //
 // Scrive anche il catalogo dei film visti (privato/film-visti.json: titolo, anno, locandina, voto, generi, durata, servizi
 // da TMDB e le chiavi di ogni film), pubblicato con il sito nella scheda "I miei visti" della pagina Film
-// (src/pages/film/visti.json.ts). Va rigenerato entro 150 giorni (dati TMDB): poi la build lo ignora.
+// (src/pages/film/catalogo.json.ts). Va rigenerato entro 150 giorni (dati TMDB): poi la build lo ignora.
 //
 //   npm run import:trakt -- --account email@esempio.it   scrive privato/spunte-trakt-{data}.json e privato/film-visti.json
 

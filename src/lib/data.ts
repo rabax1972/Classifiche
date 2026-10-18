@@ -49,6 +49,11 @@ export function getMovieInfo(key: string): MovieInfo | null {
   return Object.values(movieInfoFiles)[0]?.[key]?.value ?? null;
 }
 
+/** Tutte le schede dei film in cache, con la chiave (anche di film non più in classifica, finché non scadono). */
+export function allMovieInfo(): [string, MovieInfo][] {
+  return Object.entries(Object.values(movieInfoFiles)[0] ?? {}).map(([key, e]) => [key, e.value]);
+}
+
 /** Scheda di un regista (chiave: artistKey), se già raccolta da scripts/director-info.ts. */
 export function getDirectorInfo(key: string): DirectorInfo | null {
   return Object.values(directorInfoFiles)[0]?.[key]?.value ?? null;

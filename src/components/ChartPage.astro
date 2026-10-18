@@ -11,7 +11,7 @@ import BookDialog from './BookDialog.astro';
 import CreatorDialog from './CreatorDialog.astro';
 import DirectorDialog from './DirectorDialog.astro';
 import MovieDialog from './MovieDialog.astro';
-import SeenMovies from './SeenMovies.astro';
+import MyMovies from './MyMovies.astro';
 import SeriesDialog from './SeriesDialog.astro';
 import SongDialog from './SongDialog.astro';
 
@@ -47,7 +47,7 @@ function range(v: ChartView) {
   return `${v.periodLabel} · dal ${formatDay(v.from)} al ${formatDay(v.to)}`;
 }
 const title = `${cfg.label} – ${PERIODS[period].label}`;
-/** Scheda "I miei visti" (SeenMovies): solo nella pagina Film, mostrata a chi ha l'account. */
+/** Scheda "I miei visti" (MyMovies): solo nella pagina Film, mostrata a chi ha l'account. */
 const seenTab = category === 'film';
 ---
 
@@ -148,7 +148,7 @@ const seenTab = category === 'film';
         ))}
         {seenTab && (
           <section id="panel-visti" role="tabpanel" aria-labelledby="tab-visti" class="views-panel mb-10" data-account-only hidden>
-            <SeenMovies />
+            <MyMovies list="visti" />
           </section>
         )}
       </div>

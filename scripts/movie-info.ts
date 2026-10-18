@@ -106,6 +106,7 @@ async function movieInfo(id: number): Promise<MovieInfo> {
   const watch = m['watch/providers']?.results.IT;
   return {
     tmdbId: id,
+    title: m.title,
     overview: overview ? trimExtract(overview, 1400) : null,
     overviewLang,
     tagline: m.tagline?.trim() || null,
@@ -135,7 +136,8 @@ export async function lookupMovieInfo({ budget = 80, log = console.log } = {}) {
 
   let done = 0;
   for (const [key, { entry, id }] of targets) {
-    if (cache.has(key) || !id) continue;
+    // Anche le schede senza titolo (raccolte prima che ci fosse): serve alle pagine dei film visti e da vedere.
+    if ((cache.has(key) && cache.get(key)!.title) || !id) continue;
     if (done >= budget) break;
     done++;
     try {
@@ -149,7 +151,7 @@ export async function lookupMovieInfo({ budget = 80, log = console.log } = {}) {
     if (done % 10 === 0) await cache.save();
   }
   await cache.save();
-  const missing = [...targets].filter(([k, t]) => t.id && !cache.has(k)).length;
+  const missing = [...targets].filter(([k, t]) => t.id && !cache.get(k)?.title).length;
   log(`Schede film: ${done} nuove${missing ? `, ${missing} ancora da completare` : ''}`);
 }
 

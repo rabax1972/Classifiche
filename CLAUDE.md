@@ -62,11 +62,12 @@ Unica parte con un backend: `public/api/index.php` (+ `_inc/app.php`), PHP 8.3 s
 SQLite in `mdb-database/classifiche.sqlite` nella radice del dominio; `.htaccess` lì non vale). Registrazione con conferma email, sessioni
 in un cookie con token il cui hash sta nel DB, limiti ai tentativi, schema versionato con `PRAGMA user_version` in `migrate()`.
 Lato client tutte le spunte passano da `src/lib/ticks.ts` (localStorage + coda verso l'API + riallineamento a ogni pagina, evento
-`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `posseduti:…`) sono definite in due
+`TICK_EVENT`); `seen.ts` e `CuratedPage.astro` lo usano. Le liste ammesse (`visti`, `da-vedere`, `serie-viste`, `episodi-visti` con chiave `idTMDB:stagione:episodio`, `posseduti:…`) sono definite in due
 posti da tenere uguali: `STORE_PATTERN` in `ticks.ts` e `LIST_PATTERN` in `app.php`. Pagine `/account/` e `/privacy/`.
-La scheda "I miei visti" della pagina Film (`SeenMovies.astro`, solo con l'account) legge `/film/visti.json`
-(`src/pages/film/visti.json.ts`): catalogo `privato/film-visti.json` di `import:trakt` (fuori da git, ignorato oltre 150 giorni) più i film
-delle classifiche; un film è visto se è spuntata una qualsiasi delle sue `keys`.
+Liste personali di film (`MyMovies.astro`): la scheda "I miei visti" della pagina Film (solo con l'account) e la pagina `/da-vedere/`
+(lista `da-vedere`, spunta "Da vedere" nelle righe di Cinema e Film). Leggono `/film/catalogo.json` (`src/pages/film/catalogo.json.ts`):
+catalogo `privato/film-visti.json` di `import:trakt` (fuori da git, ignorato oltre 150 giorni) più tutte le schede di `movie-info.json`;
+un film è nella lista se è spuntata una qualsiasi delle sue `keys`.
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

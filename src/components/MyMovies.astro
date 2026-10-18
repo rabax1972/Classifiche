@@ -1,9 +1,18 @@
 ---
-// Scheda "I miei visti" della pagina Film: tutti i film spuntati come visti, anche fuori dalle classifiche, con ricerca, filtri
-// (servizi, generi, durata, voto) e ordinamento per titolo, voto o anno. I dati arrivano da /film/visti.json
-// (src/pages/film/visti.json.ts), scaricato solo quando la scheda si apre; la scheda compare solo con l'account (ChartPage).
+// Liste personali di film: "I miei visti" (scheda della pagina Film, lista "visti") e "Da vedere" (pagina /da-vedere/, lista
+// "da-vedere"). Tutti i film spuntati, anche fuori dalle classifiche, con ricerca, filtri (servizi, generi, durata, voto) e
+// ordinamento per titolo, voto o anno. I dati arrivano da /film/catalogo.json (src/pages/film/catalogo.json.ts), scaricato solo
+// quando la lista si mostra.
 import { href } from '../lib/data';
 
+interface Props {
+  list: 'visti' | 'da-vedere';
+}
+const { list } = Astro.props;
+const words =
+  list === 'visti'
+    ? { search: 'Cerca tra i film visti', loading: 'Caricamento dei film visti…', group: 'Filtra i film visti', none: 'Nessun film visto per questa ricerca o per questi filtri.' }
+    : { search: 'Cerca nella lista', loading: 'Caricamento della lista…', group: 'Filtra i film da vedere', none: 'Nessun film da vedere per questa ricerca o per questi filtri.' };
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
 const multis = [
   { key: 'provider', all: 'Tutti i servizi', help: 'Film in abbonamento su almeno uno dei servizi scelti.' },
@@ -11,13 +20,13 @@ const multis = [
 ];
 ---
 
-<div class="seen-movies" data-src={href('film/visti.json')}>
-  <p class="seen-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento dei film visti…</p>
+<div class="my-movies" data-src={href('film/catalogo.json')} data-list={list}>
+  <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">{words.loading}</p>
 
-  <div class="seen-body" hidden>
+  <div class="my-body" hidden>
     <div class="mb-3 flex flex-wrap items-center gap-3">
       <label class="relative min-w-0 flex-1 sm:max-w-xs">
-        <span class="sr-only">Cerca tra i film visti</span>
+        <span class="sr-only">{words.search}</span>
         <svg class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
         <input
           type="search"
@@ -36,10 +45,10 @@ const multis = [
           <option value="anno-asc">Anno (dal meno recente)</option>
         </select>
       </label>
-      <p class="seen-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+      <p class="my-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
     </div>
 
-    <div class="relative mb-3 flex flex-wrap items-center gap-2" role="group" aria-label="Filtra i film visti">
+    <div class="relative mb-3 flex flex-wrap items-center gap-2" role="group" aria-label={words.group}>
       {
         multis.map((m) => (
           <details class="sm:relative" data-multi={m.key} data-all={m.all}>
@@ -78,11 +87,11 @@ const multis = [
     </div>
 
     <div class="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
-      <ul class="seen-list divide-y divide-gray-100 dark:divide-gray-800"></ul>
-      <p class="seen-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun film visto per questa ricerca o per questi filtri.</p>
+      <ul class="my-list divide-y divide-gray-100 dark:divide-gray-800"></ul>
+      <p class="my-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">{words.none}</p>
     </div>
     <div class="mt-3 text-center">
-      <button type="button" class="seen-more hidden rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"></button>
+      <button type="button" class="my-more hidden rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"></button>
     </div>
     <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">
       Titoli, voti medi e locandine di <a class="underline" href="https://www.themoviedb.org/" rel="noopener" target="_blank">TMDB</a>; servizi in
@@ -96,9 +105,9 @@ const multis = [
   import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
   import type { SeenMovie } from '../lib/types';
 
-  const STORE = 'visti';
+  const SEEN = 'visti';
+  const WATCH = 'da-vedere';
   const PAGE = 60;
-  const SORT_KEY = 'vista:ordine-visti';
   const voteText = (vote: number) => vote.toLocaleString('it-IT', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   const el = <K extends keyof HTMLElementTagNameMap>(tag: K, className = '', text = '') => {
     const node = document.createElement(tag);
@@ -120,17 +129,31 @@ const multis = [
       // Storage non disponibile (es. navigazione privata).
     }
   };
+  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-  const root = document.querySelector<HTMLElement>('.seen-movies');
-  const panel = root?.closest<HTMLElement>('.views-panel');
-  if (root && panel) {
+  /**
+   * Film senza scheda nel catalogo (es. uscito dalle classifiche da tempo): titolo, regista e anno ricavati dalla chiave
+   * ("titolo|regista anno", normalizzati), così resta in lista e si può togliere.
+   */
+  function fromKey(key: string, id: number): SeenMovie {
+    const [title = '', sub = ''] = key.split('|');
+    const year = sub.match(/\b(\d{4})$/)?.[1];
+    const director = sub.replace(/\s*\d{4}$/, '').split(' ').filter(Boolean).map(capitalize).join(' ');
+    return { tmdbId: id, title: capitalize(title), year: year ? Number(year) : null, directors: director ? [director] : [], poster: null, vote: null, votes: 0, genres: [], runtime: null, providers: [], keys: [key] };
+  }
+
+  for (const root of document.querySelectorAll<HTMLElement>('.my-movies')) {
+    const store = root.dataset.list === WATCH ? WATCH : SEEN;
+    const sortKey = `vista:ordine-${store}`;
+    // Nella pagina Film è una scheda (si carica quando si apre), nella pagina "Da vedere" è sempre visibile.
+    const panel = root.closest<HTMLElement>('.views-panel');
     const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
-    const status = $('.seen-status');
-    const body = $('.seen-body');
-    const list = $('.seen-list');
-    const empty = $('.seen-empty');
-    const more = $<HTMLButtonElement>('.seen-more');
-    const count = $('.seen-count');
+    const status = $('.my-status');
+    const body = $('.my-body');
+    const list = $('.my-list');
+    const empty = $('.my-empty');
+    const more = $<HTMLButtonElement>('.my-more');
+    const count = $('.my-count');
     const search = $<HTMLInputElement>('[data-search]');
     const sort = $<HTMLSelectElement>('[data-sort]');
     const selects = [...root.querySelectorAll<HTMLSelectElement>('[data-filter]')];
@@ -140,19 +163,24 @@ const multis = [
     const inPage = new Set([...document.querySelectorAll<HTMLElement>('.movie-open[data-film]')].map((b) => b.dataset.film!));
 
     let films: SeenMovie[] = [];
-    /** Film visti (più quelli appena tolti da qui, che restano in elenco fino al prossimo cambio di filtri). */
-    let seenFilms: SeenMovie[] = [];
+    /** Film della lista (più quelli appena tolti da qui, che restano in elenco fino al prossimo cambio di filtri). */
+    let mine: SeenMovie[] = [];
     const removedHere = new Set<number>();
     let limit = PAGE;
     let changingHere = false;
 
-    const savedSort = readPref(SORT_KEY);
+    const savedSort = readPref(sortKey);
     if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
 
-    const isSeen = (f: SeenMovie, seen: Set<string>) => f.keys.some((k) => seen.has(k));
+    const has = (f: SeenMovie, keys: Set<string>) => f.keys.some((k) => keys.has(k));
     const collect = () => {
-      const seen = getTicks(STORE);
-      seenFilms = films.filter((f) => isSeen(f, seen) || removedHere.has(f.tmdbId));
+      const ticks = getTicks(store);
+      mine = films.filter((f) => has(f, ticks) || removedHere.has(f.tmdbId));
+      if (store === WATCH) {
+        // Spunte senza scheda nel catalogo: si mostrano lo stesso, con i dati della chiave.
+        const known = new Set(films.flatMap((f) => f.keys));
+        [...ticks].filter((k) => !known.has(k)).forEach((k, i) => mine.push(fromKey(k, -1 - i)));
+      }
     };
     const chosen = (m: HTMLDetailsElement) => [...m.querySelectorAll<HTMLButtonElement>('[aria-pressed=true]')].map((b) => b.dataset.value!);
 
@@ -161,7 +189,7 @@ const multis = [
       for (const m of multis) {
         const picked = new Set(chosen(m));
         const counts = new Map<string, { n: number; logo: string | null }>();
-        for (const f of seenFilms) {
+        for (const f of mine) {
           const values = m.dataset.multi === 'provider' ? f.providers : f.genres.map((name) => ({ name, logo: null }));
           for (const v of values) counts.set(v.name, { n: (counts.get(v.name)?.n ?? 0) + 1, logo: v.logo ?? counts.get(v.name)?.logo ?? null });
         }
@@ -221,7 +249,23 @@ const multis = [
       'anno-asc': (a, b) => nullsLast(a.year, b.year, 1) || byTitle(a, b),
     };
 
-    const row = (f: SeenMovie, seen: Set<string>) => {
+    /** Spunta di una lista per il film: tolta da tutte le sue chiavi (basta una per contarlo), messa sulla prima. */
+    const tick = (f: SeenMovie, target: string, on: boolean) => {
+      changingHere = true;
+      setTicks(target, on ? [f.keys[0]!] : f.keys, on);
+      changingHere = false;
+    };
+    const checkbox = (text: string, title: string, checked: boolean, onChange: (on: boolean) => void) => {
+      const label = el('label', 'inline-flex cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300');
+      const box = el('input', 'size-3.5 cursor-pointer accent-emerald-600');
+      box.type = 'checkbox';
+      box.checked = checked;
+      box.addEventListener('change', () => onChange(box.checked));
+      label.append(box, text, el('span', 'sr-only', `: ${title}`));
+      return { label, box };
+    };
+
+    const row = (f: SeenMovie) => {
       const li = el('li', 'flex items-start gap-3 px-3 py-3');
       const cover = el('div', 'h-21 w-14 shrink-0 overflow-hidden rounded bg-gray-200 ring-1 ring-black/10 sm:h-30 sm:w-20 dark:bg-gray-800 dark:ring-white/10');
       if (f.poster) {
@@ -234,22 +278,23 @@ const multis = [
       const titleClass = 'cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300';
       const pageKey = f.keys.find((k) => inPage.has(k));
       if (pageKey) {
-        // Film anche nelle classifiche: si apre la stessa scheda.
+        // Film anche nelle classifiche della pagina: si apre la stessa scheda.
         const btn = el('button', `movie-open ${titleClass}`, f.title);
         btn.type = 'button';
         btn.dataset.film = pageKey;
         btn.setAttribute('aria-haspopup', 'dialog');
         text.append(btn);
-      } else {
+      } else if (f.tmdbId > 0) {
         const a = el('a', titleClass, f.title);
         Object.assign(a, { href: `https://www.themoviedb.org/movie/${f.tmdbId}`, target: '_blank', rel: 'noopener' });
         a.setAttribute('aria-label', `${f.title} su TMDB (si apre in una nuova scheda)`);
         text.append(a);
-      }
+      } else text.append(el('p', 'font-semibold break-words', f.title));
       const who = [f.directors.join(', '), f.year ? `(${f.year})` : ''].filter(Boolean).join(' ');
       if (who) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', who));
       const details = [f.runtime ? `${f.runtime} min` : '', f.genres.slice(0, 3).join(', ')].filter(Boolean).join(' · ');
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
+      if (f.tmdbId < 0) text.append(el('p', 'text-xs text-gray-500 italic dark:text-gray-400', 'Scheda non più disponibile: il film non è più nelle classifiche.'));
 
       if (f.vote || f.providers.length) {
         const line = el('div', 'mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5');
@@ -282,21 +327,42 @@ const multis = [
         text.append(line);
       }
 
-      const label = el('label', 'mt-1 inline-flex cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300');
-      const check = el('input', 'size-3.5 cursor-pointer accent-emerald-600');
-      check.type = 'checkbox';
-      check.checked = isSeen(f, seen);
-      check.addEventListener('change', () => {
-        if (check.checked) removedHere.delete(f.tmdbId);
+      const checks = el('div', 'mt-1 flex flex-wrap gap-x-4 gap-y-1');
+      const keep = (on: boolean) => {
+        if (on) removedHere.delete(f.tmdbId);
         else removedHere.add(f.tmdbId);
-        changingHere = true;
-        // Tutte le chiavi del film: è visto se ne è spuntata una sola.
-        setTicks(STORE, check.checked ? [f.keys[0]!] : f.keys, check.checked);
-        changingHere = false;
-        countText();
-      });
-      label.append(check, 'Visto', el('span', 'sr-only', `: ${f.title}`));
-      text.append(label);
+      };
+      if (store === SEEN) {
+        checks.append(
+          checkbox('Visto', f.title, has(f, getTicks(SEEN)), (on) => {
+            keep(on);
+            tick(f, SEEN, on);
+            countText();
+          }).label,
+        );
+      } else {
+        const watch = checkbox('Da vedere', f.title, has(f, getTicks(WATCH)), (on) => {
+          keep(on);
+          tick(f, WATCH, on);
+          countText();
+        });
+        // Visto: il film esce dalla lista "da vedere" (resta in elenco, spuntato, fino al prossimo cambio di filtri).
+        const seen = checkbox('Visto', f.title, has(f, getTicks(SEEN)), (on) => {
+          tick(f, SEEN, on);
+          if (on && watch.box.checked) {
+            watch.box.checked = false;
+            keep(false);
+            tick(f, WATCH, false);
+          }
+          li.classList.toggle('bg-emerald-50', on);
+          li.classList.toggle('dark:bg-emerald-950/40', on);
+          countText();
+        });
+        li.classList.toggle('bg-emerald-50', seen.box.checked);
+        li.classList.toggle('dark:bg-emerald-950/40', seen.box.checked);
+        checks.append(watch.label, seen.label);
+      }
+      text.append(checks);
 
       li.append(cover, text);
       return li;
@@ -304,20 +370,20 @@ const multis = [
 
     let shown: SeenMovie[] = [];
     const countText = () => {
-      const seen = getTicks(STORE);
-      const total = seenFilms.filter((f) => isSeen(f, seen)).length;
-      count.textContent = shown.length === seenFilms.length ? `${total} film visti` : `${shown.length} su ${seenFilms.length} film`;
+      const ticks = getTicks(store);
+      const total = mine.filter((f) => has(f, ticks)).length;
+      const what = store === SEEN ? 'visti' : 'da vedere';
+      count.textContent = shown.length === mine.length ? `${total} film ${what}` : `${shown.length} su ${mine.length} film`;
     };
 
     const render = () => {
       const q = normalizeText(search.value);
-      shown = seenFilms.filter((f) => passes(f, q)).sort(sorters[sort.value] ?? byTitle);
-      const seen = getTicks(STORE);
-      list.replaceChildren(...shown.slice(0, limit).map((f) => row(f, seen)));
+      shown = mine.filter((f) => passes(f, q)).sort(sorters[sort.value] ?? byTitle);
+      list.replaceChildren(...shown.slice(0, limit).map(row));
       empty.classList.toggle('hidden', shown.length > 0);
       const rest = shown.length - limit;
       more.classList.toggle('hidden', rest <= 0);
-      more.textContent = `Mostra altri ${Math.min(rest, PAGE)} (${shown.length - Math.min(limit, shown.length)} ancora)`;
+      more.textContent = `Mostra altri ${Math.min(rest, PAGE)} (${Math.max(rest, 0)} ancora)`;
       for (const m of multis) {
         const values = chosen(m);
         m.querySelector('[data-multi-label]')!.textContent =
@@ -336,9 +402,23 @@ const multis = [
       render();
     };
 
+    const emptyText = () =>
+      store === SEEN
+        ? 'Non hai ancora film segnati come visti: spunta "Visto" nelle classifiche o importa le tue spunte dalla pagina Account.'
+        : 'La tua lista è vuota: spunta "Da vedere" accanto ai film delle classifiche Cinema e Film.';
+    const showAll = () => {
+      collect();
+      const any = mine.length > 0;
+      status.hidden = any;
+      body.hidden = !any;
+      if (!any) status.textContent = emptyText();
+      buildOptions();
+      render();
+    };
+
     search.addEventListener('input', changed);
     sort.addEventListener('change', () => {
-      writePref(SORT_KEY, sort.value);
+      writePref(sortKey, sort.value);
       changed();
     });
     for (const s of selects) s.addEventListener('change', changed);
@@ -365,13 +445,13 @@ const multis = [
     });
     // Spunte cambiate altrove (classifica, scheda del film, altro dispositivo): elenco e filtri aggiornati.
     document.addEventListener(TICK_EVENT, (ev) => {
-      if (changingHere || (ev as CustomEvent<TickChange>).detail.store !== STORE || !films.length) return;
-      collect();
-      buildOptions();
-      render();
+      const changedStore = (ev as CustomEvent<TickChange>).detail.store;
+      if (changingHere || !loaded || (changedStore !== store && changedStore !== SEEN)) return;
+      showAll();
     });
 
     let started = false;
+    let loaded = false;
     const start = async () => {
       if (started) return;
       started = true;
@@ -380,24 +460,19 @@ const multis = [
         if (!res.ok) throw new Error(String(res.status));
         films = ((await res.json()) as { films: SeenMovie[] }).films;
       } catch {
-        status.textContent = 'Non è stato possibile caricare i film visti: riprova più tardi.';
+        status.textContent = 'Non è stato possibile caricare la lista: riprova più tardi.';
         started = false;
         return;
       }
-      collect();
-      if (!seenFilms.length) {
-        status.textContent = 'Non hai ancora film segnati come visti: spunta "Visto" nelle classifiche o importa le tue spunte dalla pagina Account.';
-        return;
-      }
-      status.hidden = true;
-      body.hidden = false;
-      buildOptions();
-      render();
+      loaded = true;
+      showAll();
     };
-    // Si scarica solo quando la scheda viene aperta.
-    new MutationObserver(() => {
+    if (panel) {
+      // Scheda della pagina Film: si scarica solo quando viene aperta.
+      new MutationObserver(() => {
+        if (!panel.hidden) void start();
+      }).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
       if (!panel.hidden) void start();
-    }).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
-    if (!panel.hidden) void start();
+    } else void start();
   }
 </script>

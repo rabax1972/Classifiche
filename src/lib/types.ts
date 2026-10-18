@@ -284,6 +284,8 @@ export interface AuthorCard {
 /** Scheda di un film per le modali di Cinema e Film (data/cache/movie-info.json, scripts/movie-info.ts; dati TMDB). */
 export interface MovieInfo {
   tmdbId: number;
+  /** Titolo italiano su TMDB (manca nelle schede raccolte prima di ottobre 2026). */
+  title?: string;
   /** Trama da TMDB, in italiano o, se manca, in inglese. */
   overview: string | null;
   overviewLang: 'it' | 'en' | null;
@@ -337,8 +339,9 @@ export interface MovieCard {
 }
 
 /**
- * Un film della scheda "I miei visti" della pagina Film (file statico /film/visti.json, src/pages/film/visti.json.ts): dal catalogo
- * privato/film-visti.json di scripts/trakt-import.ts più i film delle classifiche Cinema e Film. Dati TMDB, servizi di JustWatch.
+ * Un film delle liste personali ("I miei visti" della pagina Film, pagina "Da vedere"; file statico /film/catalogo.json,
+ * src/pages/film/catalogo.json.ts): dal catalogo privato/film-visti.json di scripts/trakt-import.ts più le schede dei film in
+ * cache. Dati TMDB, servizi di JustWatch.
  */
 export interface SeenMovie {
   tmdbId: number;

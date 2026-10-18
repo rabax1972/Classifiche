@@ -7,7 +7,7 @@ import { CATEGORY_IDS, type CategoryId, type CuratedId } from '../lib/types';
 interface Props {
   title: string;
   description?: string;
-  current?: CategoryId | CuratedId | 'fonti' | 'account';
+  current?: CategoryId | CuratedId | 'fonti' | 'account' | 'da-vedere';
 }
 const { title, description = 'Le classifiche italiane di canzoni, libri, cinema, film e serie TV, aggiornate ogni giorno.', current } = Astro.props;
 const CURATED_NAV: { id: CuratedId; label: string }[] = [
@@ -78,10 +78,22 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
           </ul>
         </nav>
         <a
+          id="watch-link"
+          href={href('da-vedere')}
+          aria-current={current === 'da-vedere' ? 'page' : undefined}
+          title="I film che hai segnato da vedere"
+          class="ml-auto flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300"
+        >
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"></path></svg>
+          <span class="sr-only sm:not-sr-only">Da vedere</span>
+          <!-- Numero di film nella lista (src/lib/ticks.ts), aggiornato a ogni spunta. -->
+          <span data-watch-count hidden class="rounded-full bg-indigo-600 px-1.5 text-xs leading-5 font-semibold text-white tabular-nums dark:bg-indigo-400 dark:text-indigo-950"></span>
+        </a>
+        <a
           id="account-link"
           href={href('account')}
           aria-current={current === 'account' ? 'page' : undefined}
-          class="group ml-auto flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 data-logged:rounded-full data-logged:bg-emerald-50 data-logged:py-1 data-logged:pr-3 data-logged:pl-1 data-logged:text-emerald-900 data-logged:ring-1 data-logged:ring-emerald-300 data-logged:hover:bg-emerald-100 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300 dark:data-logged:bg-emerald-950/60 dark:data-logged:text-emerald-200 dark:data-logged:ring-emerald-800 dark:data-logged:hover:bg-emerald-950"
+          class="group flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-100 aria-[current=page]:bg-indigo-50 aria-[current=page]:text-indigo-700 data-logged:rounded-full data-logged:bg-emerald-50 data-logged:py-1 data-logged:pr-3 data-logged:pl-1 data-logged:text-emerald-900 data-logged:ring-1 data-logged:ring-emerald-300 data-logged:hover:bg-emerald-100 dark:text-gray-300 dark:hover:bg-gray-800 dark:aria-[current=page]:bg-indigo-950 dark:aria-[current=page]:text-indigo-300 dark:data-logged:bg-emerald-950/60 dark:data-logged:text-emerald-200 dark:data-logged:ring-emerald-800 dark:data-logged:hover:bg-emerald-950"
         >
           <svg class="h-5 w-5 group-data-logged:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg>
           <!-- Con l'account: avatar con l'iniziale e il nome dell'indirizzo (src/lib/account.ts). -->
@@ -138,7 +150,7 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
 
     <script>
       import { ACCOUNT_EVENT, cachedAccount, type Account } from '../lib/account';
-      import { startSync } from '../lib/ticks';
+      import { TICK_EVENT, getTicks, startSync } from '../lib/ticks';
 
       // Intestazione: "Accedi" oppure, con l'account, un avatar con l'iniziale e il nome dell'indirizzo (l'indirizzo intero nel suggerimento).
       const accountLink = document.getElementById('account-link')!;
@@ -152,6 +164,15 @@ const fullTitle = title === 'Classifiche Italia' ? title : `${title} · Classifi
       };
       showAccount(cachedAccount());
       document.addEventListener(ACCOUNT_EVENT, (ev) => showAccount((ev as CustomEvent<Account | null>).detail));
+      // Intestazione: quanti film ci sono nella lista "Da vedere".
+      const watchCount = document.querySelector<HTMLElement>('[data-watch-count]')!;
+      const showWatchCount = () => {
+        const n = getTicks('da-vedere').size;
+        watchCount.hidden = n === 0;
+        watchCount.textContent = String(n);
+      };
+      showWatchCount();
+      document.addEventListener(TICK_EVENT, showWatchCount);
       startSync();
 
       const btn = document.getElementById('tema')!;

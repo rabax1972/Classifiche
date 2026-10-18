@@ -87,8 +87,8 @@ const genreOptions = options(filters.flatMap((f) => f.genres));
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
 /** Testi dei filtri e della spunta: film (maschile) o serie (femminile). */
 const words = series
-  ? { group: 'Filtra le serie', seen: 'Vista', seenSr: 'Serie viste', both: 'Viste e da vedere', done: 'Già viste', provider: 'Serie in abbonamento', genre: 'Serie' }
-  : { group: 'Filtra i film', seen: 'Visto', seenSr: 'Film visti', both: 'Visti e da vedere', done: 'Già visti', provider: 'Film in abbonamento', genre: 'Film' };
+  ? { group: 'Filtra le serie', seen: 'Vista', seenSr: 'Serie viste', both: 'Viste e non', notYet: 'Non ancora viste', done: 'Già viste', provider: 'Serie in abbonamento', genre: 'Serie' }
+  : { group: 'Filtra i film', seen: 'Visto', seenSr: 'Film visti', both: 'Visti e non', notYet: 'Non ancora visti', done: 'Già visti', provider: 'Film in abbonamento', genre: 'Film' };
 const multiFilters = [
   { key: 'provider', label: 'Servizi', all: 'Tutti i servizi', values: providerOptions, show: filters.filter((f) => f.providers.length).length >= 5 },
   { key: 'genre', label: 'Generi', all: 'Tutti i generi', values: genreOptions, show: genreOptions.length > 0 },
@@ -127,8 +127,9 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
           <span class="sr-only">{words.seenSr}</span>
           <select class={filterSelect} data-filter="seen">
             <option value="" data-label={words.both}>{words.both}</option>
-            <option value="da-vedere" data-label="Da vedere">Da vedere</option>
+            <option value="non-visti" data-label={words.notYet}>{words.notYet}</option>
             <option value="visti" data-label={words.done}>{words.done}</option>
+            {movies && <option value="lista" data-label="Nella lista Da vedere">Nella lista Da vedere</option>}
           </select>
         </label>
         {multiFilters.map((m) => (
@@ -243,6 +244,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
             <tr
               class="chart-row group hover:bg-gray-50 data-seen:bg-emerald-50 data-seen:shadow-[inset_4px_0_0_var(--color-emerald-500)] data-seen:hover:bg-emerald-100/70 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/40 dark:data-seen:hover:bg-emerald-950/60"
               data-key={movies ? e.key : series ? seriesSeenKey(e) : undefined}
+              data-watchable={movies ? '' : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
               data-genres={filters[i] && `|${filters[i].genres.join('|')}|`}
@@ -283,6 +285,15 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                       >
                         <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5 9-10"></path></svg>
                         {words.seen}
+                      </span>
+                    )}
+                    {movies && (
+                      <span
+                        class="ml-2 hidden items-center gap-1 rounded-full bg-indigo-600 px-2 py-0.5 align-[0.1em] text-xs font-semibold text-white group-data-watch:inline-flex dark:bg-indigo-400 dark:text-indigo-950"
+                        aria-hidden="true"
+                      >
+                        <svg class="h-3 w-3" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"></path></svg>
+                        Da vedere
                       </span>
                     )}
                     {e.subtitle && (
@@ -350,10 +361,18 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                       </p>
                     )}
                     {screen && (
-                      <label class="chart-seen mt-1 hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
-                        <input type="checkbox" class="size-3.5 cursor-pointer accent-emerald-600" />
-                        {words.seen}<span class="sr-only">: {e.title}</span>
-                      </label>
+                      <div class="mt-1 flex flex-wrap gap-x-4 gap-y-1">
+                        <label class="chart-seen hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
+                          <input type="checkbox" class="size-3.5 cursor-pointer accent-emerald-600" />
+                          {words.seen}<span class="sr-only">: {e.title}</span>
+                        </label>
+                        {movies && (
+                          <label class="chart-watch hidden cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300">
+                            <input type="checkbox" class="size-3.5 cursor-pointer accent-indigo-600" />
+                            Da vedere<span class="sr-only">: {e.title}</span>
+                          </label>
+                        )}
+                      </div>
                     )}
                   </div>
                 </div>
@@ -414,6 +433,10 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
 
 <script>
   import { SEEN_EVENT, seenKeys, setSeen, type SeenChange, type SeenList } from '../lib/seen';
+  import { TICK_EVENT, getTicks, setTick, type TickChange } from '../lib/ticks';
+
+  /** Lista dei film da vedere (pagina /da-vedere/), con la stessa chiave della lista "visti". */
+  const WATCH = 'da-vedere';
 
   // Ricerca e "mostra tutto": miglioramento progressivo, senza JS la tabella è completa.
   const normalize = (s: string) =>
@@ -459,7 +482,8 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
     const countSeen = () => {
       if (!seenSelect) return;
       const have = rows.filter((row) => 'seen' in row.dataset).length;
-      const counts: Record<string, number> = { '': rows.length, 'da-vedere': rows.length - have, visti: have };
+      const listed = rows.filter((row) => 'watch' in row.dataset).length;
+      const counts: Record<string, number> = { '': rows.length, 'non-visti': rows.length - have, visti: have, lista: listed };
       for (const opt of seenSelect.options) opt.textContent = `${opt.dataset.label} (${counts[opt.value]})`;
     };
     for (const row of rows) {
@@ -472,6 +496,29 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
       row.toggleAttribute('data-seen', box.checked);
       box.addEventListener('change', () => setSeen(list, key, box.checked));
     }
+    // "Da vedere" (solo film): stessa chiave della spunta "Visto".
+    const watch = getTicks(WATCH);
+    for (const row of rows) {
+      const label = row.querySelector<HTMLElement>('.chart-watch');
+      if (!label || !('watchable' in row.dataset)) continue;
+      const key = row.dataset.key!;
+      const box = label.querySelector('input')!;
+      label.classList.replace('hidden', 'inline-flex');
+      box.checked = watch.has(key);
+      row.toggleAttribute('data-watch', box.checked);
+      box.addEventListener('change', () => setTick(WATCH, key, box.checked));
+    }
+    document.addEventListener(TICK_EVENT, (ev) => {
+      const { store, key, on } = (ev as CustomEvent<TickChange>).detail;
+      if (store !== WATCH) return;
+      for (const row of rows) {
+        if (row.dataset.key !== key || !('watchable' in row.dataset)) continue;
+        row.toggleAttribute('data-watch', on);
+        const box = row.querySelector<HTMLInputElement>('.chart-watch input');
+        if (box) box.checked = on;
+      }
+      update();
+    });
     // Spunta cambiata qui o nella scheda: aggiorna la riga (anche un eventuale doppione, es. due stagioni) e i filtri.
     document.addEventListener(SEEN_EVENT, (ev) => {
       const { list: changed, key, seen } = (ev as CustomEvent<SeenChange>).detail;
@@ -512,7 +559,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
           case 'vote':
             return Boolean(d.vote) && Number(d.vote) >= Number(v);
           case 'seen':
-            return v === 'visti' ? 'seen' in d : !('seen' in d);
+            return v === 'visti' ? 'seen' in d : v === 'lista' ? 'watch' in d : !('seen' in d);
           default:
             return true;
         }

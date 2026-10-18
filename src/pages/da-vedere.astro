@@ -1,0 +1,22 @@
+---
+import MyMovies from '../components/MyMovies.astro';
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+
+// Lista dei film da vedere: quelli con la spunta "Da vedere" nelle classifiche Cinema e Film (lista "da-vedere" di src/lib/ticks.ts,
+// salvata nell'account se collegato).
+---
+
+<Base title="Da vedere" description="I film che hai segnato da vedere, con voto, durata e servizi su cui sono disponibili." current="da-vedere">
+  <div class="mb-6 space-y-2">
+    <h1 class="text-3xl font-bold tracking-tight">Da vedere</h1>
+    <p class="max-w-3xl text-gray-700 dark:text-gray-300">
+      I film che hai segnato con <strong>Da vedere</strong> nelle classifiche
+      <a class="text-indigo-700 underline dark:text-indigo-300" href={href('cinema/oggi')}>Cinema</a> e <a class="text-indigo-700 underline dark:text-indigo-300" href={href('film/oggi')}>Film</a>. Quando ne vedi uno, spunta <strong>Visto</strong>: esce dalla lista.
+    </p>
+    <p class="max-w-3xl text-sm text-gray-600 dark:text-gray-400">
+      Senza account la lista resta solo in questo browser: <a class="underline" href={href('account')}>accedi</a> per ritrovarla su tutti i tuoi dispositivi.
+    </p>
+  </div>
+  <MyMovies list="da-vedere" />
+</Base>
