@@ -37,6 +37,21 @@ function fingerprints(dir: string, base = dir, out: Record<string, string> = {})
   return out;
 }
 
+/**
+ * Svuota la cartella senza eliminarla: Windows non permette di eliminare una cartella aperta in Esplora risorse o in FileZilla
+ * (che è proprio come la si usa). Quello che resta bloccato viene segnalato, non interrompe la distribuzione.
+ */
+function emptyDir(dir: string) {
+  mkdirSync(dir, { recursive: true });
+  for (const f of readdirSync(dir)) {
+    try {
+      rmSync(path.join(dir, f), { recursive: true, force: true, maxRetries: 3, retryDelay: 200 });
+    } catch {
+      console.warn(`Non riesco a eliminare ${path.join(dir, f)}: chiudi le finestre che lo usano ed eliminalo a mano.`);
+    }
+  }
+}
+
 function readManifest(): Record<string, string> {
   try {
     return JSON.parse(readFileSync(MANIFEST, 'utf8')) as Record<string, string>;
@@ -48,7 +63,7 @@ function readManifest(): Record<string, string> {
 if (process.argv.includes('--conferma')) {
   if (!existsSync(OUT)) throw new Error(`Nessuna build in ${OUT}: lancia prima npm run dist:aruba.`);
   writeFileSync(MANIFEST, JSON.stringify(fingerprints(OUT), null, 1));
-  rmSync(CHANGES, { recursive: true, force: true });
+  emptyDir(CHANGES);
   rmSync(REMOVED, { force: true });
   console.log('Pubblicazione confermata: la prossima distribuzione conterrà solo i file cambiati da adesso.');
   process.exit(0);
@@ -70,8 +85,7 @@ const now = fingerprints(OUT);
 const published = readManifest();
 const changed = Object.keys(now).filter((f) => published[f] !== now[f]);
 const removed = Object.keys(published).filter((f) => !(f in now));
-rmSync(CHANGES, { recursive: true, force: true });
-mkdirSync(CHANGES, { recursive: true });
+emptyDir(CHANGES);
 for (const f of changed) {
   const to = path.join(CHANGES, ...f.split('/'));
   mkdirSync(path.dirname(to), { recursive: true });

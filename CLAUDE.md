@@ -86,6 +86,8 @@ Profili pubblici (facoltativi, con consenso): tabella `profili` (nome pubblico u
 `liste&u=` dell'API; sezione in `/account/` e pagina `/utenti/` che mostra le liste di un profilo con `MyMovies`/`MySeries`/`MyBooks`
 in sola lettura (`readonly`, spunte consegnate con `showPublicLists()` di `src/lib/my-list.ts`). I gruppi di liste pubblicabili sono
 in due posti da tenere uguali: `PUBLIC_GROUPS` in `app.php` e in `src/lib/profiles.ts`.
+Google Analytics 4 (`GA_MEASUREMENT_ID` nel `.env`): solo nella build pubblicata (`SITE_URL`) e solo dopo il consenso nel banner di
+`Base.astro` (`src/lib/analytics.ts`, scelta nel localStorage, "Preferenze cookie" nel footer e nella pagina Privacy).
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

@@ -91,8 +91,22 @@ const CONTATTO = 'info@giacomorabaglia.com';
     <section class="space-y-2">
       <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">Cookie e contenuti esterni</h2>
       <p>
-        Il sito usa un solo cookie, <code>cl_sessione</code>, e solo dopo l'accesso: è un cookie tecnico necessario per riconoscerti, per cui non
-        serve il consenso. Non usiamo cookie di statistica, di profilazione o di terze parti.
+        Il cookie <code>cl_sessione</code> si installa solo dopo l'accesso: è un cookie tecnico necessario per riconoscerti, per cui non serve il
+        consenso. Non usiamo cookie di profilazione né pubblicità.
+      </p>
+      <p id="statistiche">
+        <strong>Statistiche (Google Analytics), solo con il tuo consenso.</strong> Se nel banner scegli "Accetta", il sito carica Google
+        Analytics 4 di Google Ireland Ltd., che installa i cookie <code>_ga</code> e <code>_ga_…</code> (durata fino a 2 anni) e raccoglie in
+        forma aggregata le pagine visitate, la provenienza della visita e dati tecnici del dispositivo (browser, sistema operativo, città
+        approssimativa ricavata dall'indirizzo IP, che Google Analytics 4 non conserva). Ci serve solo a sapere quante persone usano il sito e
+        quali pagine. La base giuridica è il consenso (art. 6.1.a GDPR); i dati possono essere trasferiti negli Stati Uniti, dove Google aderisce
+        all'EU-U.S. Data Privacy Framework. Se scegli "Rifiuta", o non scegli nulla, Google Analytics non viene caricato. Puoi cambiare idea in
+        qualsiasi momento: rifiutando dopo aver accettato, i suoi cookie vengono cancellati.
+      </p>
+      <p>
+        <button type="button" data-preferenze-cookie hidden class="cursor-pointer font-medium text-indigo-700 underline dark:text-indigo-300">
+          Cambia le preferenze sui cookie
+        </button>
       </p>
       <p>
         Le copertine e alcuni loghi vengono caricati direttamente dai server delle fonti (vedi <a href={href('fonti')} class="underline">Fonti e
