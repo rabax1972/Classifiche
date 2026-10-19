@@ -15,7 +15,9 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
   da caricare a mano con FileZilla (niente deploy automatico); in `aruba/modifiche/` solo i file cambiati dall'ultima pubblicazione
-  confermata (`-- --conferma`, impronte in `aruba/pubblicato.json`; `-- --tutto` per ripartire da zero)
+  confermata (`-- --conferma`, impronte in `aruba/pubblicato.json`, e svuota sul server i file della pubblicazione automatica;
+  `-- --tutto` per ripartire da zero)
+- `npm run pubblica:aruba` — pubblicazione automatica su Aruba senza FTP (ultimo passo del cron, vedi "Aggiornamento automatico"); serve `ARUBA_CHIAVE`
 - `covers:album`, `tracks:album`, `covers:libri` — completamento a mano delle liste curate (`-- --force` per rifare tutto)
 - `npm run import:trakt` — film, serie ed episodi visti su Trakt (`TRAKT_CLIENT_ID`, `TRAKT_USERNAME`, `TRAKT_ACCOUNT` in `.env`) in un
   file di spunte in `privato/` (fuori da git), da importare a mano da `/account/` nell'account indicato
@@ -93,6 +95,17 @@ in sola lettura (`readonly`, spunte consegnate con `showPublicLists()` di `src/l
 in due posti da tenere uguali: `PUBLIC_GROUPS` in `app.php` e in `src/lib/profiles.ts`.
 Google Analytics 4 (`GA_MEASUREMENT_ID` nel `.env`): solo nella build pubblicata (`SITE_URL`) e solo dopo il consenso nel banner di
 `Base.astro` (`src/lib/analytics.ts`, scelta nel localStorage, "Preferenze cookie" nel footer e nella pagina Privacy).
+### Aggiornamento automatico su Aruba
+
+Aruba non esegue Node, il suo PHP scrive solo in `mdb-database` (non nella cartella del sito), le regole del `.htaccess` non valgono (IIS)
+e l'FTP da GitHub si blocca. Quindi: il cron (`update.yml`) finisce con `scripts/pubblica-aruba.ts`, che confronta la build con le
+impronte servite dal server e gli manda a pezzi uno zip dei file cambiati (`scripts/lib/zip.ts`, azioni `sito-*` con intestazione
+`X-Chiave`); il server lo estrae in `mdb-database/sito/` e `public/web.config` (URL Rewrite) fa servire quei file da `api/sito.php`.
+Mai pubblicati così: `api/`, `.htaccess`, `web.config` e, senza `privato/`, i tre `catalogo.json`. `public/api/_inc/aggiornamenti.php`
+avvia il workflow con l'API di GitHub (`github_token` in `classifiche-config.php`, `cacert.pem` portato dagli zip) alla prima visita
+del giorno (`notifyDailyVisit()` in `src/lib/account.ts`, da `Base.astro`) e dal pulsante in `/account/` per l'amministratore (config
+`admin`, flag `admin` nelle risposte con l'utente). `dist:aruba -- --conferma` svuota `mdb-database/sito/`.
+
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
 ## Vincoli da rispettare

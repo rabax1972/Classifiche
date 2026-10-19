@@ -23,6 +23,7 @@
     "import:trakt": "tsx scripts/trakt-import.ts",
     "import:anobii": "tsx scripts/anobii-import.ts",
     "dist:aruba": "tsx scripts/dist-aruba.ts",
+    "pubblica:aruba": "tsx scripts/pubblica-aruba.ts",
     "api:dev": "php -S 127.0.0.1:8787 -t public",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"

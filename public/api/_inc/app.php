@@ -48,6 +48,14 @@ function config(): array {
         'posta' => PHP_SAPI === 'cli-server' ? 'log' : 'mail',
         // Chiave per api/index.php?a=backup; vuota = backup disattivato.
         'chiave_backup' => '',
+        // Aggiornamento automatico (_inc/aggiornamenti.php). Account che vede il pulsante "Aggiorna adesso" in /account/.
+        'admin' => 'rabax@hotmail.com',
+        // Chiave del workflow che pubblica i file aggiornati (secret ARUBA_CHIAVE su GitHub); vuota = pubblicazione disattivata.
+        'chiave_pubblicazione' => '',
+        // Token GitHub "fine-grained" con il solo permesso Actions (lettura e scrittura) sul repository; vuoto = niente avvii dal sito.
+        'github_token' => '',
+        'github_repo' => 'rabax1972/Classifiche',
+        'github_workflow' => 'update.yml',
     ];
     $file = $dir . DIRECTORY_SEPARATOR . 'classifiche-config.php';
     if (is_file($file)) $config = array_merge($config, (array)require $file);

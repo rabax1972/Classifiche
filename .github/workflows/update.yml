@@ -4,6 +4,7 @@ on:
   schedule:
     # Ogni giorno alle 04:15 UTC = 06:15 ora legale italiana (05:15 ora solare).
     - cron: '15 4 * * *'
+  # Anche dal sito (public/api/_inc/aggiornamenti.php): alla prima visita del giorno e dal pulsante dell'amministratore.
   workflow_dispatch:
     inputs:
       seed:
@@ -61,3 +62,15 @@ jobs:
           fi
           git commit -m "Dati: aggiornamento del $(TZ=Europe/Rome date +%F)"
           git push
+
+      # Pubblicazione su Aruba senza FTP (scripts/pubblica-aruba.ts): manda al server uno zip con i file cambiati.
+      # Anche senza dati nuovi, così arrivano le modifiche al codice. Senza il secret ARUBA_CHIAVE viene saltata.
+      - name: Pubblicazione su Aruba
+        run: npm run pubblica:aruba
+        env:
+          ARUBA_CHIAVE: ${{ secrets.ARUBA_CHIAVE }}
+          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME }}
+          TRAKT_ACCOUNT: ${{ secrets.TRAKT_ACCOUNT }}
+          CLASSIFICHE_CONTACT: ${{ github.server_url }}/${{ github.repository }}

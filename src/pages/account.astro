@@ -153,6 +153,20 @@ const summary = 'cursor-pointer font-semibold';
         )
       }
 
+      <!-- Aggiornamento delle classifiche (solo amministratore; il server controlla comunque l'account). -->
+      <div data-admin hidden class="space-y-2 border-t border-gray-200 pt-4 dark:border-gray-800">
+        <h2 class="font-semibold">Aggiornamento delle classifiche</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300">
+          Le classifiche si aggiornano ogni mattina e alla prima visita del giorno. Da qui puoi rilanciare l'aggiornamento quando vuoi: GitHub
+          raccoglie i dati, ricostruisce il sito e lo pubblica, di solito in 15-20 minuti.
+        </p>
+        <ul data-admin-stato class="space-y-0.5 text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></ul>
+        <div class="flex flex-wrap gap-2">
+          <button type="button" data-admin-aggiorna class={primary}>Aggiorna adesso</button>
+          <button type="button" data-admin-ricarica class={secondary}>Controlla lo stato</button>
+        </div>
+      </div>
+
       <!-- Profilo pubblico (pagina /utenti/): nome scelto e liste visibili a tutti, solo se l'utente lo attiva. -->
       <div class="space-y-3 border-t border-gray-200 pt-4 dark:border-gray-800">
         <h2 class="font-semibold">Profilo pubblico</h2>
@@ -306,6 +320,8 @@ const summary = 'cursor-pointer font-semibold';
     $('[data-totali]').textContent = totals(localTicks());
     const traktBox = document.querySelector<HTMLElement>('[data-trakt]');
     if (traktBox) traktBox.hidden = account.email.toLowerCase() !== traktBox.dataset.account;
+    adminBox.hidden = !account.admin;
+    if (account.admin) void loadUpdateStatus();
     void loadProfile();
   }
 
@@ -450,6 +466,77 @@ const summary = 'cursor-pointer font-semibold';
       say('Profilo pubblico eliminato: le tue liste non sono più visibili ad altri.');
     } catch (err) {
       say(errorText(err), 'errore');
+    }
+  });
+
+  // --- Aggiornamento delle classifiche (solo amministratore) -----------------------------------------------------
+
+  interface UpdateStatus {
+    configurato: boolean;
+    avviato: number | null;
+    motivo: 'visita' | 'admin' | null;
+    pubblicato: number | null;
+    file: number | null;
+    errore: string;
+    workflow: { stato: string; esito: string | null; quando: number | null; link: string } | null;
+  }
+
+  const adminBox = $('[data-admin]');
+  const adminList = $('[data-admin-stato]');
+  const updateButton = $<HTMLButtonElement>('[data-admin-aggiorna]');
+  const when = (seconds: number | null) =>
+    seconds ? new Intl.DateTimeFormat('it-IT', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(seconds * 1000)) : 'mai';
+  const RUN_STATES: Record<string, string> = { queued: 'in coda', in_progress: 'in corso', completed: 'terminato' };
+  const RUN_RESULTS: Record<string, string> = { success: 'riuscito', failure: 'non riuscito', cancelled: 'annullato' };
+
+  function showUpdateStatus(s: UpdateStatus) {
+    const item = (text: string, link?: string) => {
+      const li = document.createElement('li');
+      li.textContent = text;
+      if (link) {
+        const a = document.createElement('a');
+        a.href = link;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.className = 'underline';
+        a.textContent = 'dettagli su GitHub';
+        li.append(' (', a, ')');
+      }
+      return li;
+    };
+    const items = [
+      item(`Ultima pubblicazione: ${when(s.pubblicato)}${s.file !== null && s.pubblicato ? `, ${s.file} file aggiornati` : ''}.`),
+      item(`Ultimo avvio dal sito: ${when(s.avviato)}${s.motivo ? (s.motivo === 'admin' ? ', dal pulsante' : ', alla prima visita del giorno') : ''}.`),
+    ];
+    if (s.workflow) {
+      const result = s.workflow.stato === 'completed' ? (RUN_RESULTS[s.workflow.esito ?? ''] ?? s.workflow.esito ?? '') : (RUN_STATES[s.workflow.stato] ?? s.workflow.stato);
+      items.push(item(`Ultima esecuzione su GitHub: ${when(s.workflow.quando)}, ${result}`, s.workflow.link));
+    }
+    if (!s.configurato) items.push(item('Avvio dal sito non configurato: manca github_token in classifiche-config.php sul server.'));
+    if (s.errore) items.push(item(`Errore: ${s.errore}`));
+    adminList.replaceChildren(...items);
+    updateButton.disabled = !s.configurato;
+  }
+
+  async function loadUpdateStatus() {
+    try {
+      showUpdateStatus(await api<UpdateStatus>('aggiornamento'));
+    } catch (err) {
+      adminList.replaceChildren(Object.assign(document.createElement('li'), { textContent: errorText(err) }));
+    }
+  }
+
+  $('[data-admin-ricarica]').addEventListener('click', () => void loadUpdateStatus());
+  updateButton.addEventListener('click', async () => {
+    updateButton.disabled = true;
+    quiet();
+    try {
+      showUpdateStatus(await api<UpdateStatus>('aggiornamento', {}));
+      say("Aggiornamento avviato: le classifiche aggiornate saranno online tra 15-20 minuti. Con \"Controlla lo stato\" vedi a che punto è.");
+    } catch (err) {
+      say(errorText(err), 'errore');
+    } finally {
+      updateButton.disabled = false;
     }
   });
 

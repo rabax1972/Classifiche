@@ -189,7 +189,7 @@ const analytics = Astro.site && /^G-[A-Z0-9]+$/.test(gaId) ? { id: gaId, host: A
     }
 
     <script>
-      import { ACCOUNT_EVENT, cachedAccount, type Account } from '../lib/account';
+      import { ACCOUNT_EVENT, cachedAccount, notifyDailyVisit, type Account } from '../lib/account';
       import { setupAnalytics } from '../lib/analytics';
       import { TICK_EVENT, getTicks, startSync } from '../lib/ticks';
 
@@ -216,6 +216,7 @@ const analytics = Astro.site && /^G-[A-Z0-9]+$/.test(gaId) ? { id: gaId, host: A
       document.addEventListener(TICK_EVENT, showWatchCount);
       startSync();
       setupAnalytics();
+      notifyDailyVisit();
 
       const btn = document.getElementById('tema')!;
       const sync = () => {

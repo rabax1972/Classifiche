@@ -19,9 +19,18 @@
 //   GET  ?a=pubblici                   profili pubblici, con le liste che mostrano
 //   GET  ?a=liste&u=nome               liste pubbliche di un profilo
 //   GET  ?a=backup&k=…                 copia coerente del database in mdb-database (chiave in classifiche-config.php)
+//
+// Aggiornamento automatico del sito (_inc/aggiornamenti.php):
+//   POST ?a=visita                     prima visita del giorno da un browser: avvia l'aggiornamento se oggi non è ancora stato fatto
+//   GET  ?a=aggiornamento              stato dell'aggiornamento (solo amministratore)
+//   POST ?a=aggiornamento              {}  avvia subito l'aggiornamento (solo amministratore)
+//   GET  ?a=sito-impronte              impronte dei file pubblicati           ┐
+//   POST ?a=sito-carica&id=&parte=&parti=   un pezzo dello zip dei file nuovi  ├ workflow di pubblicazione, intestazione X-Chiave
+//   POST ?a=sito-svuota                dopo una distribuzione manuale          ┘
 
 define('CLASSIFICHE_API', true);
 require __DIR__ . '/_inc/app.php';
+require __DIR__ . '/_inc/aggiornamenti.php';
 
 set_exception_handler(function (Throwable $e) {
     error_log('Classifiche API: ' . $e->getMessage());
@@ -37,7 +46,7 @@ const SENT = "Se l'indirizzo è corretto riceverai a breve un'email: controlla a
 switch ("$method $action") {
     case 'GET stato':
         $user = current_user();
-        respond(['utente' => $user ? ['email' => $user['email']] : null]);
+        respond(['utente' => $user ? ['email' => $user['email'], 'admin' => is_admin($user)] : null]);
 
     case 'POST registrazione': {
         $data = body();
@@ -85,7 +94,8 @@ switch ("$method $action") {
         if ($userId === null) fail(400, 'Il link di conferma non è valido o è scaduto. Prova ad accedere: potrai farti mandare un nuovo link.');
         db()->prepare('UPDATE utenti SET verificato = 1 WHERE id = ?')->execute([$userId]);
         start_session($userId);
-        respond(['utente' => ['email' => user_email($userId)]]);
+        $email = user_email($userId);
+        respond(['utente' => ['email' => $email, 'admin' => is_admin(['email' => $email])]]);
     }
 
     case 'POST accesso': {
@@ -106,7 +116,7 @@ switch ("$method $action") {
             db()->prepare('UPDATE utenti SET hash = ? WHERE id = ?')->execute([password_hash($password, password_algo()), $user['id']]);
         }
         start_session((int)$user['id']);
-        respond(['utente' => ['email' => $user['email']]]);
+        respond(['utente' => ['email' => $user['email'], 'admin' => is_admin($user)]]);
     }
 
     case 'POST uscita':
@@ -145,7 +155,8 @@ switch ("$method $action") {
         $pdo->prepare('DELETE FROM sessioni WHERE utente = ?')->execute([$userId]);
         $pdo->prepare('DELETE FROM token WHERE utente = ?')->execute([$userId]);
         start_session($userId);
-        respond(['utente' => ['email' => user_email($userId)]]);
+        $email = user_email($userId);
+        respond(['utente' => ['email' => $email, 'admin' => is_admin(['email' => $email])]]);
     }
 
     case 'POST cambio-password': {
@@ -283,6 +294,38 @@ switch ("$method $action") {
         foreach (array_slice($copies, 0, -5) as $old) @unlink($old);
         respond(['ok' => true, 'file' => basename($file), 'byte' => filesize($file)]);
     }
+
+    case 'POST visita':
+        // Nessun dato del visitatore: conta solo la data dell'ultimo aggiornamento (mdb-database/aggiornamento.json).
+        respond(['avviato' => start_daily_update()]);
+
+    case 'GET aggiornamento':
+        require_admin();
+        respond(update_status());
+
+    case 'POST aggiornamento': {
+        body();
+        $user = require_admin();
+        rate_limit('aggiornamento:' . $user['id'], 3, 600);
+        try {
+            start_update('admin');
+        } catch (RuntimeException $e) {
+            fail(502, $e->getMessage());
+        }
+        respond(update_status());
+    }
+
+    case 'GET sito-impronte':
+        require_publish_key();
+        respond(['file' => site_fingerprints(), 'pezzo' => UPLOAD_PART_BYTES]);
+
+    case 'POST sito-carica':
+        require_publish_key();
+        respond(receive_upload((string)($_GET['id'] ?? ''), (int)($_GET['parte'] ?? 0), (int)($_GET['parti'] ?? 0)));
+
+    case 'POST sito-svuota':
+        require_publish_key();
+        respond(['eliminati' => clear_overlay()]);
 
     default:
         fail(404, 'Azione sconosciuta.');

@@ -8,15 +8,16 @@
 //   npm run dist:aruba                 build con i dati presenti nel repository
 //   npm run dist:aruba -- --update     prima aggiorna i dati (come il cron: richiede le chiavi nel .env)
 //   npm run dist:aruba -- --conferma   dopo il caricamento: segna come pubblicata l'ultima build (distribuzione-aruba.cmd lo chiede)
+//                                      e svuota sul server i file della pubblicazione automatica (scripts/pubblica-aruba.ts),
+//                                      che altrimenti continuerebbero a sostituire quelli appena caricati
 //   npm run dist:aruba -- --tutto      dimentica le pubblicazioni precedenti: aruba/modifiche/ conterrà tutti i file
 
 import { execSync } from 'node:child_process';
-import { createHash } from 'node:crypto';
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import { buildForAruba, fingerprints, publishApi } from './lib/aruba';
+import { loadEnv } from './lib/env';
 
-const SITE_URL = 'https://www.giacomorabaglia.com';
-const BASE_PATH = '/classifiche';
 const ARUBA = path.resolve('aruba');
 const OUT = path.join(ARUBA, 'classifiche');
 const CHANGES = path.join(ARUBA, 'modifiche');
@@ -24,18 +25,7 @@ const REMOVED = path.join(ARUBA, 'da-eliminare.txt');
 /** Impronte dei file dell'ultima pubblicazione confermata (percorso relativo → sha1). */
 const MANIFEST = path.join(ARUBA, 'pubblicato.json');
 
-const run = (cmd: string, env: Record<string, string> = {}) =>
-  execSync(cmd, { stdio: 'inherit', env: { ...process.env, ...env } });
-
-/** Impronta di ogni file della cartella, con i percorsi relativi separati da "/". */
-function fingerprints(dir: string, base = dir, out: Record<string, string> = {}): Record<string, string> {
-  for (const f of readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, f.name);
-    if (f.isDirectory()) fingerprints(full, base, out);
-    else out[path.relative(base, full).split(path.sep).join('/')] = createHash('sha1').update(readFileSync(full)).digest('hex');
-  }
-  return out;
-}
+const run = (cmd: string) => execSync(cmd, { stdio: 'inherit' });
 
 /**
  * Svuota la cartella senza eliminarla: Windows non permette di eliminare una cartella aperta in Esplora risorse o in FileZilla
@@ -66,18 +56,26 @@ if (process.argv.includes('--conferma')) {
   emptyDir(CHANGES);
   rmSync(REMOVED, { force: true });
   console.log('Pubblicazione confermata: la prossima distribuzione conterrà solo i file cambiati da adesso.');
+  loadEnv();
+  const key = process.env.ARUBA_CHIAVE?.trim();
+  if (key) {
+    const { eliminati } = await publishApi<{ eliminati: number }>('sito-svuota', key);
+    console.log(`File della pubblicazione automatica eliminati dal server: ${eliminati}.`);
+  } else {
+    console.warn('ARUBA_CHIAVE non impostata nel .env: se la pubblicazione automatica è attiva, i suoi file restano sul server e prevalgono su quelli caricati.');
+  }
   process.exit(0);
 }
 
 if (process.argv.includes('--tutto')) rmSync(MANIFEST, { force: true });
 if (process.argv.includes('--update')) run('npm run update');
 
-console.log(`\nBuild per ${SITE_URL}${BASE_PATH}/ …`);
-run('npm run build', { SITE_URL, BASE_PATH });
+buildForAruba();
 
 rmSync(OUT, { recursive: true, force: true });
 cpSync('dist', OUT, { recursive: true });
 if (!existsSync(path.join(OUT, '.htaccess'))) throw new Error('.htaccess mancante nella build');
+if (!existsSync(path.join(OUT, 'web.config'))) throw new Error('web.config mancante nella build');
 if (!existsSync(path.join(OUT, 'api', 'index.php'))) throw new Error('API degli account (api/index.php) mancante nella build');
 
 // Solo i file nuovi o cambiati rispetto all'ultima pubblicazione confermata.

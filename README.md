@@ -166,16 +166,53 @@ In locale: `npm run api:dev` (server PHP su 127.0.0.1:8787, serve PHP 8.3 con `p
 1. `npm run update`
 2. `npm test`
 3. il commit di `data/`, se qualcosa è cambiato
+4. la pubblicazione su Aruba dei file cambiati (vedi *Aggiornamento automatico* sotto)
 
-Lo si può anche avviare a mano da *Actions → Aggiorna classifiche → Run workflow*. Spuntando **seed**, la prima volta recupera anche lo storico.
+Parte anche dal sito, alla prima visita del giorno se quel giorno non c'è ancora stata una pubblicazione, e dal pulsante
+"Aggiorna adesso" in `/account/`, visibile solo all'amministratore. Lo si può anche avviare a mano da *Actions → Aggiorna classifiche → Run workflow*. Spuntando **seed**, la prima volta recupera anche lo storico.
 
 Configurazione del repository:
 1. *Settings → Secrets and variables → Actions → Secrets*: aggiungi `TMDB_READ_TOKEN` (o `TMDB_API_KEY`) e, se vuoi, `LASTFM_API_KEY`.
 2. *Settings → Actions → General → Workflow permissions*: seleziona **Read and write**, così il workflow può fare il commit dei dati.
+3. Per la pubblicazione su Aruba, altri secrets: `ARUBA_CHIAVE` e gli stessi valori del `.env` che finiscono nelle pagine
+   (`GA_MEASUREMENT_ID`, `TRAKT_CLIENT_ID`, `TRAKT_USERNAME`, `TRAKT_ACCOUNT`). Senza `ARUBA_CHIAVE` la pubblicazione viene saltata.
 
 ## Deploy
 
-Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**. Il caricamento si fa a mano con FileZilla.
+Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**. Ogni giorno si aggiorna da solo (*Aggiornamento
+automatico* qui sotto); la distribuzione manuale con FileZilla serve per l'API PHP, `web.config` e i cataloghi delle liste personali.
+
+### Aggiornamento automatico
+
+Aruba (hosting Windows, IIS) non esegue Node e il suo PHP può scrivere solo in `mdb-database`, non nella cartella del sito;
+l'FTP da GitHub si blocca dopo molti file. Per questo:
+
+- [`scripts/pubblica-aruba.ts`](scripts/pubblica-aruba.ts) (`npm run pubblica:aruba`, ultimo passo del cron) fa la build, chiede al
+  server le impronte dei file che serve (`?a=sito-impronte`) e gli manda a pezzi uno zip con quelli cambiati (`?a=sito-carica`,
+  intestazione `X-Chiave`). Il server lo estrae in `mdb-database/sito/`.
+- [`public/web.config`](public/web.config) (URL Rewrite di IIS) manda a [`api/sito.php`](public/api/sito.php) le richieste per cui
+  esiste un file in `mdb-database/sito/`; gli altri restano quelli statici.
+- Senza `privato/` (come su GitHub) i tre `catalogo.json` delle liste personali non vengono pubblicati. Dal PC, con `privato/`,
+  `npm run pubblica:aruba` pubblica anche quelli. `api/`, `.htaccess` e `web.config` non passano mai di qui.
+- Avvio dal sito ([`public/api/_inc/aggiornamenti.php`](public/api/_inc/aggiornamenti.php)): alla prima visita del giorno da un browser
+  (`?a=visita`, se quel giorno non c'è stata una pubblicazione e non c'è un avvio nelle ultime 3 ore) e dal pulsante
+  dell'amministratore in `/account/`, che mostra anche lo stato dell'ultima esecuzione. Stato in `mdb-database/aggiornamento.json`.
+- Dopo una distribuzione manuale, `npm run dist:aruba -- --conferma` svuota `mdb-database/sito/` (`?a=sito-svuota`), perché i file
+  appena caricati non restino coperti da quelli vecchi.
+
+Configurazione sul server, in `mdb-database/classifiche-config.php`:
+
+```php
+<?php return [
+    'chiave_pubblicazione' => '…',  // stessa stringa del secret ARUBA_CHIAVE su GitHub e di ARUBA_CHIAVE nel .env
+    'github_token' => 'github_pat_…', // token fine-grained: solo questo repository, permesso Actions in lettura e scrittura
+    // 'admin' => 'rabax@hotmail.com', (predefinito)
+];
+```
+
+Il PHP di Aruba non ha i certificati per l'HTTPS: ogni pubblicazione gli porta `cacert.pem` (da curl.se) in `mdb-database`.
+
+### Distribuzione manuale
 
 1. Lancia [`distribuzione-aruba.cmd`](distribuzione-aruba.cmd) (doppio clic). Lo script:
    - scarica da GitHub i dati aggiornati dal cron giornaliero (`git pull`);
@@ -186,8 +223,9 @@ Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**
 2. Con FileZilla carica tutto il contenuto di `aruba/classifiche/` nella cartella `/classifiche` del dominio, sovrascrivendo i file esistenti.
    Includi il file nascosto `.htaccess` (in FileZilla: *Server → Forza la visualizzazione dei file nascosti*).
 
-[`public/.htaccess`](public/.htaccess) configura Apache per la cartella `/classifiche`: pagina 404, redirect su HTTPS, barra finale sulle cartelle, compressione e cache.
-Se il sito cambia cartella, vanno aggiornati `BASE_PATH` in `scripts/dist-aruba.ts` e i percorsi in `.htaccess`.
+Su Aruba il server è IIS: le regole di [`public/.htaccess`](public/.htaccess) (pagina 404, barra finale, compressione e cache) non
+vengono applicate (verificato a ottobre 2026), quelle di [`public/web.config`](public/web.config) sì. Il redirect su HTTPS è attivo dal
+pannello di Aruba. Se il sito cambia cartella, vanno aggiornati `BASE_PATH` in `scripts/lib/aruba.ts` e i percorsi in `.htaccess` e `web.config`.
 
 L'API degli account viaggia con il resto (`/classifiche/api/`); il database `mdb-database/classifiche.sqlite` nella radice del dominio
 non fa parte della distribuzione e non va toccato. Per una copia di sicurezza: `api/index.php?a=backup&k=…` (vedi sopra), poi scarica il file
