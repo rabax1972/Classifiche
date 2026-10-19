@@ -1,7 +1,7 @@
 ---
 // Liste personali di film: "I miei visti" (scheda della pagina Film, lista "visti") e "Da vedere" (pagina /da-vedere/, lista
 // "da-vedere"). Tutti i film spuntati, anche fuori dalle classifiche, con ricerca, filtri (servizi, generi, durata, voto) e
-// ordinamento per titolo, voto o anno. I dati arrivano da /film/catalogo.json (src/pages/film/catalogo.json.ts), scaricato solo
+// ordinamento per titolo, voto, anno o, per i visti con l'account, data di visione (date delle spunte, da Trakt o di quando sono state messe). I dati arrivano da /film/catalogo.json (src/pages/film/catalogo.json.ts), scaricato solo
 // quando la lista si mostra.
 import { href } from '../lib/data';
 
@@ -42,6 +42,7 @@ const multis = [
         <span class="text-gray-600 dark:text-gray-400">Ordina per</span>
         <select class={filterSelect} data-sort>
           <option value="titolo">Titolo (A–Z)</option>
+          {list === 'visti' && !readonly && <option value="visione" title="Per data di visione: quella di Trakt o il giorno in cui hai spuntato il film">Ultimi visti</option>}
           <option value="voto">Voto (dal più alto)</option>
           <option value="anno-desc" title="Per data di uscita nelle sale italiane">Anno (dal più recente)</option>
           <option value="anno-asc" title="Per data di uscita nelle sale italiane">Anno (dal meno recente)</option>
@@ -107,7 +108,8 @@ const multis = [
 <script>
   import { normalizeText } from '../lib/aggregate';
   import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, tickSource, voteAndProviders, whenVisible } from '../lib/my-list';
-  import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
+  import { cachedAccount } from '../lib/account';
+  import { TICK_EVENT, getTicks, setTicks, tickDates, type TickChange } from '../lib/ticks';
   import type { SeenMovie } from '../lib/types';
 
   const SEEN = 'visti';
@@ -151,6 +153,22 @@ const multis = [
     const removedHere = new Set<number>();
     let limit = PAGE;
     let changingHere = false;
+
+    // "Ultimi visti": le date delle spunte stanno nell'account, scaricate solo quando servono.
+    if (!cachedAccount()) sort.querySelector('option[value=visione]')?.remove();
+    let dates: Map<string, number> | null = null;
+    let loadingDates = false;
+    /** Data di visione del film mostrata nella riga (solo con l'ordinamento "Ultimi visti"). */
+    let seenAt = new Map<SeenMovie, number>();
+    const dayFormat = new Intl.DateTimeFormat('it-IT', { dateStyle: 'long' });
+    const loadDates = () => {
+      if (dates || loadingDates) return;
+      loadingDates = true;
+      tickDates([SEEN])
+        .then((d) => (dates = d[SEEN]!))
+        .catch(() => (dates = new Map()))
+        .finally(() => render());
+    };
 
     const savedSort = pref.get(sortKey);
     if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
@@ -231,6 +249,8 @@ const multis = [
       if (who) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', who));
       const details = [f.runtime ? `${f.runtime} min` : '', f.genres.slice(0, 3).join(', ')].filter(Boolean).join(' · ');
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
+      const when = seenAt.get(f);
+      if (when) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Visto il ${dayFormat.format(new Date(when * 1000))}`));
       if (f.tmdbId < 0) text.append(el('p', 'text-xs text-gray-500 italic dark:text-gray-400', 'Scheda non più disponibile: il film non è più nelle classifiche.'));
 
       const extra = voteAndProviders(f.vote, f.votes, f.providers, f);
@@ -287,7 +307,18 @@ const multis = [
 
     const render = () => {
       const q = normalizeText(search.value);
-      shown = mine.filter((f) => passes(f, q)).sort(sorters[sort.value] ?? byTitle);
+      shown = mine.filter((f) => passes(f, q));
+      seenAt = new Map();
+      if (sort.value === 'visione' && dates) {
+        // Data più recente tra le chiavi spuntate del film; quelle non ancora salvate nell'account sono di adesso.
+        const ticks = src.get(store);
+        const now = Date.now() / 1000;
+        for (const f of shown) seenAt.set(f, Math.max(0, ...f.keys.filter((k) => ticks.has(k)).map((k) => dates!.get(k) ?? now)));
+        shown.sort((a, b) => seenAt.get(b)! - seenAt.get(a)! || byTitle(a, b));
+      } else {
+        if (sort.value === 'visione') loadDates();
+        shown.sort(sorters[sort.value] ?? byTitle);
+      }
       list.replaceChildren(...shown.slice(0, limit).map(row));
       empty.classList.toggle('hidden', shown.length > 0);
       const rest = shown.length - limit;

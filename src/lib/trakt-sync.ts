@@ -7,8 +7,10 @@
 //   che vale come la spunta del titolo quando il film è in classifica (src/lib/seen.ts, aliasSeen).
 //   Serie ("serie-viste", "tv:{ID TMDB}"): solo con tutti gli episodi andati in onda visti (speciali esclusi).
 //   Episodi ("episodi-visti", "{ID TMDB}:{stagione}:{episodio}"): tutti quelli della cronologia.
+//   Date: ogni sincronizzazione mette sulle spunte (anche quelle che c'erano già) la data di visione di Trakt, per l'ordinamento
+//   "Ultimi visti" delle liste personali.
 
-import { getTicks, mergeTicks, type TickLists } from './ticks';
+import { getTicks, mergeTicks, setTickDates, type TickLists } from './ticks';
 import type { SeenMovie } from './types';
 
 const API = 'https://api.trakt.tv';
@@ -35,12 +37,15 @@ interface Ids {
   tmdb: number | null;
 }
 interface WatchedMovie {
+  last_watched_at?: string;
   movie: { ids: Ids; title?: string; year?: number | null };
 }
 interface WatchedShow {
+  last_watched_at?: string;
   show: { ids: Ids; aired_episodes?: number; title?: string };
 }
 interface HistoryEpisode {
+  watched_at?: string;
   episode: { season: number; number: number; title?: string | null };
   show: { ids: Ids; title?: string };
 }
@@ -115,6 +120,35 @@ export function addedTitles(data: { movies: WatchedMovie[]; shows: WatchedShow[]
   return [...lists.visti!, ...lists['serie-viste']!, ...lists['episodi-visti']!].map((key) => labels.get(key) ?? key);
 }
 
+/**
+ * Data di visione (secondi) per le chiavi delle spunte: film (tutte le chiavi del catalogo e "movie:{id}"), serie complete,
+ * episodi (l'ultima visione, se rivisti). Funzione pura.
+ */
+export function watchDates(
+  data: { movies: WatchedMovie[]; shows: WatchedShow[]; history: HistoryEpisode[]; catalog: Map<number, string[]> },
+): Record<string, Record<string, number>> {
+  const seconds = (iso?: string) => (iso ? Math.floor(Date.parse(iso) / 1000) || 0 : 0);
+  const films: Record<string, number> = {};
+  for (const { movie, last_watched_at } of data.movies) {
+    const id = movie.ids.tmdb;
+    const when = seconds(last_watched_at);
+    if (!id || !when) continue;
+    for (const key of [...(data.catalog.get(id) ?? []), movieIdKey(id)]) films[key] = Math.max(films[key] ?? 0, when);
+  }
+  const series: Record<string, number> = {};
+  for (const { show, last_watched_at } of data.shows) {
+    const when = seconds(last_watched_at);
+    if (show.ids.tmdb && when) series[`tv:${show.ids.tmdb}`] = when;
+  }
+  const episodes: Record<string, number> = {};
+  for (const { episode, show, watched_at } of data.history) {
+    const when = seconds(watched_at);
+    const key = `${show.ids.tmdb}:${episode.season}:${episode.number}`;
+    if (show.ids.tmdb && when) episodes[key] = Math.max(episodes[key] ?? 0, when);
+  }
+  return { visti: films, 'serie-viste': series, 'episodi-visti': episodes };
+}
+
 export async function syncTrakt(cfg: TraktConfig, progress: (m: string) => void = () => {}): Promise<TraktSyncResult> {
   const movies = await traktPages<WatchedMovie>(cfg, 'watched/movies', progress, 'Film su Trakt');
   const shows = await traktPages<WatchedShow>(cfg, 'watched/shows', progress, 'Serie su Trakt');
@@ -138,5 +172,7 @@ export async function syncTrakt(cfg: TraktConfig, progress: (m: string) => void 
     progress('Salvataggio nell\'account…');
     await mergeTicks(lists);
   }
+  progress('Date di visione…');
+  await setTickDates(watchDates({ movies, shows, history, catalog }));
   return result;
 }

@@ -14,6 +14,8 @@
 //   POST ?a=elimina                    {password}              cancella l'account e tutte le spunte
 //   GET  ?a=spunte                     tutte le spunte dell'utente
 //   POST ?a=spunte                     {modifiche?: [{lista, chiave, on}], unisci?: {lista: [chiavi]}}
+//   GET  ?a=date-spunte&liste=a,b      data di ogni spunta delle liste indicate: {date: {lista: {chiave: secondi}}}
+//   POST ?a=date-spunte                {date: {lista: {chiave: secondi}}}  corregge le date (data di visione da Trakt)
 //   GET  ?a=profilo                    profilo pubblico dell'utente (nome e liste pubbliche)
 //   POST ?a=profilo                    {nome, liste: [gruppi]}  o  {elimina: true}
 //   GET  ?a=pubblici                   profili pubblici, con le liste che mostrano
@@ -224,6 +226,47 @@ switch ("$method $action") {
         }
         $pdo->commit();
         respond(['liste' => ticks($user['id'])]);
+    }
+
+    case 'GET date-spunte': {
+        // Data di ogni spunta delle liste richieste (per ordinare per data di visione): quella in cui è stata messa, o quella
+        // di visione mandata con POST date-spunte (sincronizzazione con Trakt).
+        $user = require_user();
+        $lists = array_values(array_filter(explode(',', (string)($_GET['liste'] ?? '')), fn($l) => preg_match(LIST_PATTERN, $l) === 1));
+        if (!$lists || count($lists) > 5) fail(400, 'Richiesta non valida.');
+        $st = db()->prepare('SELECT lista, chiave, quando FROM spunte WHERE utente = ? AND lista IN (' . implode(',', array_fill(0, count($lists), '?')) . ')');
+        $st->execute([$user['id'], ...$lists]);
+        $dates = [];
+        foreach ($st as $row) $dates[$row['lista']][$row['chiave']] = (int)$row['quando'];
+        respond(['date' => $dates ?: new stdClass()]);
+    }
+
+    case 'POST date-spunte': {
+        // {date: {lista: {chiave: secondi}}}: corregge la data delle spunte che esistono già (non ne aggiunge).
+        $data = body();
+        $user = require_user();
+        rate_limit('date-spunte:' . $user['id'], 20, 3600);
+        $dates = $data['date'] ?? null;
+        if (!is_array($dates)) fail(400, 'Richiesta non valida.');
+        $pdo = db();
+        $max = time() + 86400;
+        $set = $pdo->prepare('UPDATE spunte SET quando = ? WHERE utente = ? AND lista = ? AND chiave = ? AND quando != ?');
+        $seen = 0;
+        $updated = 0;
+        $pdo->beginTransaction();
+        foreach ($dates as $list => $keys) {
+            if (!is_array($keys)) continue;
+            foreach ($keys as $key => $when) {
+                if (++$seen > MAX_TICKS_PER_USER) break 2;
+                $key = (string)$key;
+                // Dal 1980 a domani: niente date assurde.
+                if (!valid_tick($list, $key) || !is_int($when) || $when < 315532800 || $when > $max) continue;
+                $set->execute([$when, $user['id'], $list, $key, $when]);
+                $updated += $set->rowCount();
+            }
+        }
+        $pdo->commit();
+        respond(['aggiornate' => $updated]);
     }
 
     case 'GET profilo': {

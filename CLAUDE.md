@@ -86,6 +86,9 @@ le schede di `series-info.json`): viste per intero (`serie-viste`) e in corso (`
 riceve le schede del catalogo con l'evento `SERIES_CARDS_EVENT` (`src/lib/dialogs.ts`); gli episodi di queste serie stanno in
 `privato/episodi/` (scritti da `import:trakt` con `updateEpisodes()`) e sono pubblicati insieme a quelli di `data/cache/episodes/`. Le liste personali condividono
 `src/lib/my-list.ts` (riga, voto, servizi, filtri a scelta multipla).
+Ordinamento "Ultimi visti" / "Ultime viste" (solo con l'account): data delle spunte (`quando` nel DB, azione `date-spunte`, `tickDates()`
+di `ticks.ts`); "Sincronizza con Trakt" ci mette la data di visione di Trakt (`watchDates()`, `setTickDates()`), le altre restano quella
+in cui sono state messe.
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
 di classifica e liste.

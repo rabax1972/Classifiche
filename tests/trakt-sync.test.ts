@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { addedTitles, missingTicks } from '../src/lib/trakt-sync';
+import { addedTitles, missingTicks, watchDates } from '../src/lib/trakt-sync';
 
 const ep = (show: number, season: number, number: number) => ({ episode: { season, number }, show: { ids: { tmdb: show } } });
 
@@ -37,5 +37,23 @@ describe('addedTitles', () => {
     );
     // Senza dati su Trakt resta la chiave.
     expect(titles).toEqual(['Dune (2021)', 'movie:99', 'Dark (serie completa)', 'Dark 1x02 – Bugie']);
+  });
+});
+
+describe('watchDates', () => {
+  it('data di visione per tutte le chiavi del film, per la serie e per ogni episodio (la più recente se rivisto)', () => {
+    const t = (iso: string) => Date.parse(iso) / 1000;
+    const dates = watchDates({
+      movies: [{ last_watched_at: '2026-10-18T19:30:00.000Z', movie: { ids: { tmdb: 398395 } } }, { movie: { ids: { tmdb: 5 } } }],
+      shows: [{ last_watched_at: '2026-09-01T20:00:00.000Z', show: { ids: { tmdb: 10 } } }],
+      history: [
+        { watched_at: '2026-08-01T20:00:00.000Z', episode: { season: 1, number: 1 }, show: { ids: { tmdb: 10 } } },
+        { watched_at: '2026-09-01T20:00:00.000Z', episode: { season: 1, number: 1 }, show: { ids: { tmdb: 10 } } },
+      ],
+      catalog: new Map([[398395, ['timecode|juanjo gimenez pena 2016']]]),
+    });
+    expect(dates.visti).toEqual({ 'timecode|juanjo gimenez pena 2016': t('2026-10-18T19:30:00Z'), 'movie:398395': t('2026-10-18T19:30:00Z') });
+    expect(dates['serie-viste']).toEqual({ 'tv:10': t('2026-09-01T20:00:00Z') });
+    expect(dates['episodi-visti']).toEqual({ '10:1:1': t('2026-09-01T20:00:00Z') });
   });
 });

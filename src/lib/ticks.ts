@@ -190,6 +190,23 @@ export async function mergeTicks(lists: TickLists): Promise<void> {
   replaceLocal(applyQueue(liste, readQueue()));
 }
 
+/**
+ * Data (in secondi) delle spunte delle liste indicate, salvate nell'account: quella in cui sono state messe, o quella di visione
+ * arrivata da Trakt. Senza account nessuna data. Le spunte ancora in coda non ci sono: chi ordina le considera di adesso.
+ */
+export async function tickDates(stores: string[]): Promise<Record<string, Map<string, number>>> {
+  const out: Record<string, Map<string, number>> = Object.fromEntries(stores.map((s) => [s, new Map<string, number>()]));
+  if (!cachedAccount()) return out;
+  const { date } = await api<{ date: Record<string, Record<string, number>> }>(`date-spunte?liste=${stores.map(encodeURIComponent).join(',')}`);
+  for (const store of stores) for (const [key, when] of Object.entries(date[store] ?? {})) out[store]!.set(key, when);
+  return out;
+}
+
+/** Corregge la data delle spunte già salvate nell'account (es. la data di visione su Trakt). */
+export async function setTickDates(dates: Record<string, Record<string, number>>): Promise<void> {
+  if (cachedAccount()) await api('date-spunte', { date: dates });
+}
+
 /** Dopo l'uscita dall'account le spunte vengono tolte da questo browser (restano salvate nell'account). */
 export function clearTicks() {
   writeJson(QUEUE, null);

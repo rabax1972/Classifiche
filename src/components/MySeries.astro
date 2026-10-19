@@ -1,7 +1,7 @@
 ---
 // Lista "Le mie serie viste" (pagina /serie-tv/viste/): le serie viste per intero (lista "serie-viste", chiave "tv:{id}") e quelle
 // con almeno un episodio visto ("episodi-visti"), anche fuori dalle classifiche, con ricerca, filtri (visione, servizi, generi,
-// stato, voto) e ordinamento per titolo, voto o anno. Dati da /serie-tv/catalogo.json (src/pages/serie-tv/catalogo.json.ts):
+// stato, voto) e ordinamento per titolo, voto, anno o, con l'account, ultima visione (date delle spunte della serie e dei suoi episodi). Dati da /serie-tv/catalogo.json (src/pages/serie-tv/catalogo.json.ts):
 // il titolo apre la scheda della serie (SeriesDialog, con stagioni ed episodi da spuntare) e i creatori la loro (CreatorDialog).
 import { href } from '../lib/data';
 
@@ -38,6 +38,7 @@ const { readonly = false } = Astro.props;
         <span class="text-gray-600 dark:text-gray-400">Ordina per</span>
         <select class={filterSelect} data-sort>
           <option value="titolo">Titolo (A–Z)</option>
+          {!readonly && <option value="visione" title="Per ultima visione: la data di Trakt o il giorno in cui hai spuntato la serie o un suo episodio">Ultime viste</option>}
           <option value="voto">Voto (dal più alto)</option>
           <option value="anno-desc">Anno (dal più recente)</option>
           <option value="anno-asc">Anno (dal meno recente)</option>
@@ -110,7 +111,8 @@ const { readonly = false } = Astro.props;
   import { SERIES_CARDS_EVENT } from '../lib/dialogs';
   import { setSeen } from '../lib/seen';
   import { batched, chosen, closeMultisOutside, coverBox, el, fillMulti, multiLabel, nullsLast, pref, tickSource, voteAndProviders, whenVisible } from '../lib/my-list';
-  import { TICK_EVENT, getTicks, type TickChange } from '../lib/ticks';
+  import { cachedAccount } from '../lib/account';
+  import { TICK_EVENT, getTicks, tickDates, type TickChange } from '../lib/ticks';
   import type { SeenSeries, SeenSeriesEntry, SeriesCard } from '../lib/types';
 
   const SERIES = 'serie-viste';
@@ -143,6 +145,31 @@ const { readonly = false } = Astro.props;
     let limit = PAGE;
     let changingHere = false;
     let loaded = false;
+
+    // "Ultime viste": le date delle spunte stanno nell'account, scaricate solo quando servono.
+    if (!cachedAccount()) sort.querySelector('option[value=visione]')?.remove();
+    let dates: Record<string, Map<string, number>> | null = null;
+    let loadingDates = false;
+    /** Ultima visione della serie mostrata nella riga (solo con l'ordinamento "Ultime viste"). */
+    let seenAt = new Map<number, number>();
+    const dayFormat = new Intl.DateTimeFormat('it-IT', { dateStyle: 'long' });
+    const loadDates = () => {
+      if (dates || loadingDates) return;
+      loadingDates = true;
+      tickDates([SERIES, EPISODES])
+        .then((d) => (dates = d))
+        .catch(() => (dates = { [SERIES]: new Map(), [EPISODES]: new Map() }))
+        .finally(() => render());
+    };
+    /** Ultima visione di ogni serie: la sua spunta o quella più recente dei suoi episodi; le spunte non ancora salvate sono di adesso. */
+    const lastSeen = () => {
+      const at = new Map<number, number>();
+      const now = Date.now() / 1000;
+      const bump = (id: number, when: number) => at.set(id, Math.max(at.get(id) ?? 0, when));
+      for (const key of src.get(SERIES)) bump(Number(key.slice(3)), dates![SERIES]!.get(key) ?? now);
+      for (const key of src.get(EPISODES)) bump(Number(key.split(':')[0]), dates![EPISODES]!.get(key) ?? now);
+      return at;
+    };
 
     const savedSort = pref.get(SORT_KEY);
     if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
@@ -214,6 +241,8 @@ const { readonly = false } = Astro.props;
         .filter(Boolean)
         .join(' · ');
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
+      const when = seenAt.get(s.tmdbId);
+      if (when) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Ultima visione: ${dayFormat.format(new Date(when * 1000))}`));
       const extra = voteAndProviders(s.vote, s.votes, s.providers);
       if (extra) text.append(extra);
 
@@ -263,8 +292,16 @@ const { readonly = false } = Astro.props;
     };
     const render = () => {
       const q = normalizeText(search.value);
-      const by = sorters[sort.value] ?? byTitle;
-      shown = mine.filter((m) => passes(m, q)).sort((a, b) => by(a.s, b.s));
+      shown = mine.filter((m) => passes(m, q));
+      seenAt = new Map();
+      if (sort.value === 'visione' && dates) {
+        seenAt = lastSeen();
+        shown.sort((a, b) => (seenAt.get(b.s.tmdbId) ?? 0) - (seenAt.get(a.s.tmdbId) ?? 0) || byTitle(a.s, b.s));
+      } else {
+        if (sort.value === 'visione') loadDates();
+        const by = sorters[sort.value] ?? byTitle;
+        shown.sort((a, b) => by(a.s, b.s));
+      }
       list.replaceChildren(...shown.slice(0, limit).map(row));
       empty.classList.toggle('hidden', shown.length > 0);
       const rest = shown.length - limit;
