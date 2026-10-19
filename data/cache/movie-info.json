@@ -163,6 +163,39 @@
     },
     "fetchedAt": "2026-10-18T17:56:53.917Z"
   },
+  "alex|gabriele panetta 2026": {
+    "value": {
+      "tmdbId": 1790666,
+      "title": "Alex",
+      "overview": null,
+      "overviewLang": null,
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 20,
+      "released": "2026-10-11",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/iLcbuNFDtkCqnuIZbQvktyH04V4.jpg",
+      "directors": [
+        {
+          "id": 6532164,
+          "name": "Gabriele Panetta"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alex Leonardi",
+          "character": "himself"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-19T04:48:44.969Z"
+  },
   "alien|ridley scott 1979": {
     "value": {
       "tmdbId": 348,
@@ -3780,6 +3813,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.768Z"
   },
+  "dubbio nel buio|andrea d eredita 2026": {
+    "value": {
+      "tmdbId": 1791064,
+      "title": "Dubbio nel buio",
+      "overview": "Un detective consumato dall'ossessione. Un killer rimasto nell'ombra per anni, e una domanda che non smette di tornare: dove finisce il mondo e dove iniziamo noi?",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 14,
+      "released": "2026-09-25",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/uiw4GqZbqQR3F7RmAlT18baCsqK.jpg",
+      "directors": [
+        {
+          "id": 4801279,
+          "name": "Andrea D'Eredità"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Mirco Faedi",
+          "character": "The Detective"
+        },
+        {
+          "name": "Paolo Gho",
+          "character": "The Suspect"
+        },
+        {
+          "name": "Matteo Gavotto",
+          "character": "The Young Detective"
+        },
+        {
+          "name": "Daniele Labanca",
+          "character": "The Innocent"
+        },
+        {
+          "name": "Anna Antonia Mastino",
+          "character": "Voice on the Phone / Wife"
+        },
+        {
+          "name": "Donatella Galvani",
+          "character": "The Neighbor"
+        },
+        {
+          "name": "Giada Burdese",
+          "character": "The Daughter"
+        },
+        {
+          "name": "Simone Burdese",
+          "character": "The Son"
+        }
+      ],
+      "trailer": "QUD7ql8taok",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-19T04:48:44.847Z"
+  },
   "due date|": {
     "value": {
       "tmdbId": 41733,
@@ -4586,6 +4681,113 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.798Z"
+  },
+  "guardiani della galassia vol 3|james gunn 2023": {
+    "value": {
+      "tmdbId": 447365,
+      "title": "Guardiani della Galassia Vol. 3",
+      "overview": "Peter Quill, ancora provato dalla perdita di Gamora, deve riunire la sua squadra per difendere l'universo e proteggere uno di loro. Una missione che, se non sarà portata a termine con successo, potrebbe portare alla fine dei Guardiani così come li conosciamo.",
+      "overviewLang": "it",
+      "tagline": "Ancora una volta con sentimento.",
+      "originalTitle": "Guardians of the Galaxy Vol. 3",
+      "genres": [
+        "Fantascienza",
+        "Avventura",
+        "Azione"
+      ],
+      "runtime": 150,
+      "released": "2023-05-03",
+      "vote": 7.9,
+      "votes": 8963,
+      "poster": "https://image.tmdb.org/t/p/w500/sLMcJW43RrNcLcyVjgueqTM2eO2.jpg",
+      "directors": [
+        {
+          "id": 15218,
+          "name": "James Gunn"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Pratt",
+          "character": "Peter Quill / Star-Lord"
+        },
+        {
+          "name": "Zoe Saldaña",
+          "character": "Gamora"
+        },
+        {
+          "name": "Dave Bautista",
+          "character": "Drax"
+        },
+        {
+          "name": "Karen Gillan",
+          "character": "Nebula"
+        },
+        {
+          "name": "Pom Klementieff",
+          "character": "Mantis"
+        },
+        {
+          "name": "Vin Diesel",
+          "character": "Groot (voice)"
+        },
+        {
+          "name": "Bradley Cooper",
+          "character": "Rocket (voice)"
+        },
+        {
+          "name": "Sean Gunn",
+          "character": "Kraglin / Young Rocket (voice)"
+        }
+      ],
+      "trailer": "yrsVzqqX4Qk",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/447365-guardians-of-the-galaxy-vol-3/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-19T04:48:45.172Z"
   },
   "guerre stellari|george lucas 1977": {
     "value": {
@@ -11387,6 +11589,7 @@
   "marfil gli opposti|oscar pedraza 2026": {
     "value": {
       "tmdbId": 1440098,
+      "title": "Marfil - gli opposti",
       "overview": "La vita a New York di Marfil, figlia di un uomo d'affari spagnolo, viene stravolta quando è rapita e liberata senza spiegazione. Suo padre assume Sebastián Moore come sua guardia del corpo. I due vengono obbligati a passare ogni minuto insieme e tra loro si accende una passione inevitabile in un mondo in cui niente è ciò che sembra. Tratto dal romanzo di Mercedes Ron, autrice della saga Culpables.",
       "overviewLang": "it",
       "tagline": null,
@@ -11397,8 +11600,8 @@
       ],
       "runtime": 104,
       "released": "2026-09-09",
-      "vote": 6.9,
-      "votes": 206,
+      "vote": 7,
+      "votes": 210,
       "poster": "https://image.tmdb.org/t/p/w500/w4g7RSF7YcH1pvSv67CgMwFVVVY.jpg",
       "directors": [
         {
@@ -11457,7 +11660,7 @@
         "buy": []
       }
     },
-    "fetchedAt": "2026-10-17T09:30:44.599Z"
+    "fetchedAt": "2026-10-19T04:48:45.271Z"
   },
   "mary anning cacciatrice di fossili|marcel barelli 2026": {
     "value": {
@@ -17431,6 +17634,112 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.656Z"
+  },
+  "the substance|coralie fargeat 2024": {
+    "value": {
+      "tmdbId": 933260,
+      "title": "The Substance",
+      "overview": "Hai mai sognato una versione migliore di te? Tu. Semplicemente, migliore, in ogni senso. Davvero. Devi provare questo nuovo prodotto. Si chiama “la sostanza”. HA CAMBIATO LA MIA VITA. Genera un altro te. Un te nuovo, più giovane, più bello, più perfetto. E c’è solo una regola: vi dovete dividere il tempo. Una settimana sta a te. Quella dopo sta al nuovo te. Sette giorni a testa. Un equilibrio perfetto. Facile, no? Se rispetti l’equilibrio… cosa può andare storto?",
+      "overviewLang": "it",
+      "tagline": "Hai mai sognato una versione migliore di te?",
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Fantascienza"
+      ],
+      "runtime": 141,
+      "released": "2024-10-18",
+      "vote": 7.1,
+      "votes": 6627,
+      "poster": "https://image.tmdb.org/t/p/w500/cWuloBih4I1Odambw67TQRuPmFl.jpg",
+      "directors": [
+        {
+          "id": 1607016,
+          "name": "Coralie Fargeat"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Demi Moore",
+          "character": "Elisabeth"
+        },
+        {
+          "name": "Margaret Qualley",
+          "character": "Sue"
+        },
+        {
+          "name": "Dennis Quaid",
+          "character": "Harvey"
+        },
+        {
+          "name": "Edward Hamilton-Clark",
+          "character": "Fred"
+        },
+        {
+          "name": "Gore Abrams",
+          "character": "Oliver"
+        },
+        {
+          "name": "Oscar Lesage",
+          "character": "Troy"
+        },
+        {
+          "name": "Christian Erickson",
+          "character": "Man at Diner"
+        },
+        {
+          "name": "Robin Greer",
+          "character": "Male Nurse"
+        }
+      ],
+      "trailer": "PJpDhs8qzYg",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/933260-the-substance/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "iWonder Full Amazon channel",
+            "logo": "https://image.tmdb.org/t/p/w92/3TWdCe1OkfKxgL2A5A7cwWflowV.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-19T04:48:45.090Z"
   },
   "the whisper man|": {
     "value": {

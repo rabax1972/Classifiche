@@ -155,6 +155,10 @@
     "value": "Denis Villeneuve",
     "fetchedAt": "2026-10-14T04:46:00.578Z"
   },
+  "movie:1176778": {
+    "value": "Olivier Boillot",
+    "fetchedAt": "2026-10-19T04:45:38.467Z"
+  },
   "movie:1181125": {
     "value": "Pamela Hogan",
     "fetchedAt": "2026-10-12T07:24:34.521Z"
@@ -230,6 +234,10 @@
   "movie:1236045": {
     "value": "Ben Affleck",
     "fetchedAt": "2026-10-12T07:24:35.923Z"
+  },
+  "movie:1240889": {
+    "value": "Jane Schoenbrun",
+    "fetchedAt": "2026-10-19T04:45:38.568Z"
   },
   "movie:1242332": {
     "value": "Ben Wheatley",
@@ -667,6 +675,10 @@
     "value": "Thomas Vincent",
     "fetchedAt": "2026-10-16T04:44:15.949Z"
   },
+  "movie:1563627": {
+    "value": "Liu Wenpu",
+    "fetchedAt": "2026-10-19T04:45:38.367Z"
+  },
   "movie:1564614": {
     "value": "Adrian Chiarella",
     "fetchedAt": "2026-10-12T07:24:57.109Z"
@@ -822,6 +834,10 @@
   "movie:1768765": {
     "value": "Susanna Kortekamp",
     "fetchedAt": "2026-10-12T07:24:34.393Z"
+  },
+  "movie:1771323": {
+    "value": "Jeff Plunkett",
+    "fetchedAt": "2026-10-19T04:45:38.268Z"
   },
   "movie:1772626": {
     "value": "Gustavo Bonafé",
@@ -1062,6 +1078,10 @@
   "movie:438631": {
     "value": "Denis Villeneuve",
     "fetchedAt": "2026-10-15T04:42:52.426Z"
+  },
+  "movie:447365": {
+    "value": "James Gunn",
+    "fetchedAt": "2026-10-19T04:45:37.466Z"
   },
   "movie:460458": {
     "value": "Johannes Roberts",
@@ -1383,6 +1403,10 @@
     "value": "Stanley Kubrick",
     "fetchedAt": "2026-10-18T17:54:34.818Z"
   },
+  "movie:936075": {
+    "value": "Antoine Fuqua",
+    "fetchedAt": "2026-10-19T04:45:38.671Z"
+  },
   "movie:947": {
     "value": "David Lean",
     "fetchedAt": "2026-10-18T17:55:09.419Z"
@@ -1555,6 +1579,14 @@
     "value": "Shane Brennan",
     "fetchedAt": "2026-10-12T07:24:51.386Z"
   },
+  "tv:18165": {
+    "value": "Julie Plec, Kevin Williamson",
+    "fetchedAt": "2026-10-19T04:45:37.865Z"
+  },
+  "tv:1877": {
+    "value": "Dan Povenmire, Jeff 'Swampy' Marsh",
+    "fetchedAt": "2026-10-19T04:45:39.571Z"
+  },
   "tv:1911": {
     "value": "Hart Hanson",
     "fetchedAt": "2026-10-12T07:24:47.813Z"
@@ -1574,6 +1606,10 @@
   "tv:203857": {
     "value": "Debora Cahn",
     "fetchedAt": "2026-10-15T04:42:55.325Z"
+  },
+  "tv:204084": {
+    "value": "Reno Lemaire",
+    "fetchedAt": "2026-10-19T04:45:39.466Z"
   },
   "tv:207347": {
     "value": null,
@@ -1602,6 +1638,10 @@
   "tv:220542": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.103Z"
+  },
+  "tv:223911": {
+    "value": "耳根",
+    "fetchedAt": "2026-10-19T04:45:39.366Z"
   },
   "tv:2288": {
     "value": "Paul T. Scheuring",
@@ -1831,6 +1871,10 @@
     "value": "Tim Federle",
     "fetchedAt": "2026-10-12T07:25:02.911Z"
   },
+  "tv:298546": {
+    "value": null,
+    "fetchedAt": "2026-10-19T04:45:39.268Z"
+  },
   "tv:298550": {
     "value": null,
     "fetchedAt": "2026-10-17T04:42:35.592Z"
@@ -1846,6 +1890,10 @@
   "tv:300146": {
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.476Z"
+  },
+  "tv:303745": {
+    "value": "문수정",
+    "fetchedAt": "2026-10-19T04:45:39.170Z"
   },
   "tv:304452": {
     "value": null,
@@ -2126,6 +2174,10 @@
   "tv:76479": {
     "value": "Eric Kripke",
     "fetchedAt": "2026-10-13T04:34:41.165Z"
+  },
+  "tv:79481": {
+    "value": null,
+    "fetchedAt": "2026-10-19T04:45:39.068Z"
   },
   "tv:79744": {
     "value": "Alexi Hawley",

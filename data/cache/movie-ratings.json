@@ -1469,6 +1469,18 @@
         "url": "https://www.rottentomatoes.com/m/the_batman"
       }
     },
+    "447365": {
+      "imdbId": "tt6791350",
+      "imdb": {
+        "value": 7.9,
+        "votes": 491136
+      },
+      "rt": {
+        "score": 82,
+        "date": "2024-08-01",
+        "url": "https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_3"
+      }
+    },
     "460458": {
       "imdbId": "tt6920084",
       "imdb": {
@@ -1635,6 +1647,18 @@
         "score": 82,
         "date": "2026-01-11",
         "url": "https://www.rottentomatoes.com/m/f1_the_movie"
+      }
+    },
+    "933260": {
+      "imdbId": "tt17526714",
+      "imdb": {
+        "value": 7.2,
+        "votes": 470236
+      },
+      "rt": {
+        "score": 89,
+        "date": "2025-06-16",
+        "url": "https://www.rottentomatoes.com/m/the_substance"
       }
     },
     "947520": {
@@ -2294,6 +2318,16 @@
       "rt": null
     },
     "1777819": {
+      "imdbId": null,
+      "imdb": null,
+      "rt": null
+    },
+    "1790666": {
+      "imdbId": null,
+      "imdb": null,
+      "rt": null
+    },
+    "1791064": {
       "imdbId": null,
       "imdb": null,
       "rt": null

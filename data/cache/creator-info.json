@@ -1848,6 +1848,23 @@
     },
     "fetchedAt": "2026-10-17T12:50:17.608Z"
   },
+  "jesse mckeown": {
+    "value": {
+      "tmdbId": 159780,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/ucSPy3cuq4RNSKds7anRJne9XH4.jpg",
+      "series": [
+        {
+          "id": 285322,
+          "title": "Below",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:51.886Z"
+  },
   "joan ganz cooney": {
     "value": {
       "tmdbId": 1103687,
@@ -2259,6 +2276,79 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:25.794Z"
+  },
+  "marc cherry": {
+    "value": {
+      "tmdbId": 1218666,
+      "wiki": {
+        "lang": "it",
+        "title": "Marc Cherry",
+        "url": "https://it.wikipedia.org/wiki/Marc_Cherry",
+        "extract": "Marc Cherry (Long Beach, 23 marzo 1962) è un produttore televisivo e scrittore statunitense, famoso per essere l'ideatore della serie televisiva Desperate Housewives."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Marc_Cherry_Republicans.gif?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Marc_Cherry_Republicans.gif",
+        "author": "No machine-readable author provided. Flo~commonswiki assumed (based on copyrigh…",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 87428,
+          "title": "Why Women Kill",
+          "year": "2019"
+        },
+        {
+          "id": 82404,
+          "title": "Red Blooded",
+          "year": "2017"
+        },
+        {
+          "id": 44242,
+          "title": "Devious Maids - Panni sporchi a Beverly Hills",
+          "year": "2013"
+        },
+        {
+          "id": 15635,
+          "title": "Amas de casa desesperadas",
+          "year": "2008"
+        },
+        {
+          "id": 223965,
+          "title": "Donas de Casa Desesperadas",
+          "year": "2007"
+        },
+        {
+          "id": 3861,
+          "title": "Amas de casa desesperadas",
+          "year": "2006"
+        },
+        {
+          "id": 693,
+          "title": "Desperate Housewives - I segreti di Wisteria Lane",
+          "year": "2004"
+        },
+        {
+          "id": 11674,
+          "title": "Some of My Best Friends",
+          "year": "2001"
+        },
+        {
+          "id": 10308,
+          "title": "The Crew",
+          "year": "1995"
+        },
+        {
+          "id": 1641,
+          "title": "The 5 Mrs. Buchanans",
+          "year": "1994"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:50.867Z"
   },
   "matt groening": {
     "value": {

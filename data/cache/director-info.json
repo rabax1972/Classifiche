@@ -521,6 +521,36 @@
     },
     "fetchedAt": "2026-10-17T09:32:21.964Z"
   },
+  "andrea d eredita": {
+    "value": {
+      "tmdbId": 4801279,
+      "wiki": null,
+      "bio": {
+        "text": "Andrea D'Eredità (born August 13, 1999, in Segrate, Italy) is an Italian director, screenwriter and editor based in Turin. He holds a master's degree in Cinema and Media Engineering from the Politecnico di Torino (2025) and is one of the founders of Frenél Studio, a non-profit film association that produces and promotes independent cinema in Turin.\n\nHe began his career as an assistant director on \"L'orgoglio di Alice\" (2022), produced by the Politecnico di Torino through its student team Studio Ireos, and on \"XVI Barre\" (2023). He made his directorial debut with \"Un ragazzo di nome Sue\", a dystopian sci-fi western short also produced by Studio Ireos, shot in 2022 and premiered in 2024 at Cinema Massimo in Turin. He has since continued to work as an assistant director and first assistant director on several short films, both within and outside Studio Ireos.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/pfDfneKbN9t6o3zYEAxsCr3DcTQ.jpg",
+      "films": [
+        {
+          "id": 1783597,
+          "title": "Eclipse",
+          "year": "2026"
+        },
+        {
+          "id": 1791064,
+          "title": "Dubbio nel buio",
+          "year": "2026"
+        },
+        {
+          "id": 1791549,
+          "title": "Un ragazzo di nome Sue",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:45.617Z"
+  },
   "andrew stanton": {
     "value": {
       "tmdbId": 7,
@@ -2269,6 +2299,54 @@
     },
     "fetchedAt": "2026-10-17T09:34:26.480Z"
   },
+  "coralie fargeat": {
+    "value": {
+      "tmdbId": 1607016,
+      "wiki": {
+        "lang": "it",
+        "title": "Coralie Fargeat",
+        "url": "https://it.wikipedia.org/wiki/Coralie_Fargeat",
+        "extract": "Coralie Fargeat (Parigi, 24 novembre 1976) è una regista e sceneggiatrice francese.\n\nHa ricevuto tre candidature ai Premi Oscar 2025 rispettivamente nella sezione miglior film, miglior regista e miglior sceneggiatura originale per il film The Substance, vincitore del Prix du scénario al Festival di Cannes 2024."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg/500px-Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg",
+        "author": "Jay Dixit",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1684813,
+          "title": "Untitled Coralie Fargeat Project",
+          "year": null
+        },
+        {
+          "id": 933260,
+          "title": "The Substance",
+          "year": "2024"
+        },
+        {
+          "id": 467938,
+          "title": "Revenge",
+          "year": "2017"
+        },
+        {
+          "id": 367181,
+          "title": "Reality+",
+          "year": "2014"
+        },
+        {
+          "id": 526655,
+          "title": "Le télégramme",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:47.567Z"
+  },
   "craig gillespie": {
     "value": {
       "tmdbId": 50767,
@@ -3801,6 +3879,23 @@
     },
     "fetchedAt": "2026-10-17T09:37:18.904Z"
   },
+  "gabriele panetta": {
+    "value": {
+      "tmdbId": 6532164,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1790666,
+          "title": "Alex",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:46.553Z"
+  },
   "gene kelly": {
     "value": {
       "tmdbId": 13294,
@@ -4754,6 +4849,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:03.946Z"
+  },
+  "james gunn": {
+    "value": {
+      "tmdbId": 15218,
+      "wiki": {
+        "lang": "it",
+        "title": "James Gunn (regista)",
+        "url": "https://it.wikipedia.org/wiki/James_Gunn_(regista)",
+        "extract": "James Francis Gunn Jr. (Saint Louis, 5 agosto 1966) è un regista, sceneggiatore e attore statunitense.\n\nDopo aver scritto e girato varie opere di genere horror, Gunn si interessa all'ambito dei supereroi, dirigendo Super - Attento crimine!!! (2010) e successivamente Guardiani della Galassia (2014) e i suoi 2 sequel Guardiani della Galassia Vol. 2 (2017) e Guardiani della Galassia Vol. 3 (2023), oltre a The Suicide Squad - Missione suicida (2021) e Superman (2025).\n\nDal 1º novembre 2022 è co-presidente, co-amministratore e direttore creativo dei DC Studios e del DC Universe (DCU)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/James_Gunn_by_Gage_Skidmore_3.jpg/500px-James_Gunn_by_Gage_Skidmore_3.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Gunn_by_Gage_Skidmore_3.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1523140,
+          "title": "Man of Tomorrow",
+          "year": "2027"
+        },
+        {
+          "id": 1061474,
+          "title": "Superman",
+          "year": "2025"
+        },
+        {
+          "id": 447365,
+          "title": "Guardiani della Galassia Vol. 3",
+          "year": "2023"
+        },
+        {
+          "id": 774752,
+          "title": "Guardiani della Galassia: Holiday Special",
+          "year": "2022"
+        },
+        {
+          "id": 436969,
+          "title": "The Suicide Squad - Missione suicida",
+          "year": "2021"
+        },
+        {
+          "id": 283995,
+          "title": "Guardiani della Galassia Vol. 2",
+          "year": "2017"
+        },
+        {
+          "id": 118340,
+          "title": "Guardiani della Galassia",
+          "year": "2014"
+        },
+        {
+          "id": 87818,
+          "title": "Comic Movie",
+          "year": "2013"
+        },
+        {
+          "id": 45132,
+          "title": "Super - Attento crimine!!!",
+          "year": "2010"
+        },
+        {
+          "id": 567065,
+          "title": "Sparky & Mikaela",
+          "year": "2008"
+        },
+        {
+          "id": 1059523,
+          "title": "Humanzee!",
+          "year": "2008"
+        },
+        {
+          "id": 9035,
+          "title": "Slither – Una fame da paura",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-19T04:48:48.629Z"
   },
   "james wan": {
     "value": {

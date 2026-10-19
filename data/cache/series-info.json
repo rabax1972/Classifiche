@@ -627,6 +627,94 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.309Z"
   },
+  "below|jesse mckeown 2026": {
+    "value": {
+      "tmdbId": 285322,
+      "title": "Below",
+      "overview": "Quando una misteriosa creatura marina semina il terrore in una cittadina di Terranova, un burbero pescatore e la sua famiglia lottano per proteggere la loro affiatata comunità.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 37,
+      "firstAired": "2026-10-08",
+      "lastAired": "2026-10-08",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 6,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Miniserie",
+          "date": "2026-10-08",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.3,
+      "votes": 174,
+      "poster": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "creators": [
+        {
+          "id": 159780,
+          "name": "Jesse McKeown"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Josh Hartnett",
+          "character": "Calvin Penney"
+        },
+        {
+          "name": "Mackenzie Davis",
+          "character": "Dr. Fonda Howander"
+        },
+        {
+          "name": "Charlie Heaton",
+          "character": "Wade Penney"
+        },
+        {
+          "name": "Ruby Stokes",
+          "character": "Mary Penney"
+        },
+        {
+          "name": "Kaleb Horn",
+          "character": "Noah Townsend"
+        },
+        {
+          "name": "Rohan Campbell",
+          "character": "Jay Penney"
+        },
+        {
+          "name": "Willow Kean",
+          "character": "Ruth Penney"
+        },
+        {
+          "name": "Mary Walsh",
+          "character": "Mayor Linda Best"
+        }
+      ],
+      "trailer": "U57CNxSgoss",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/285322-below/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-19T04:48:50.541Z"
+  },
   "bleach|2004": {
     "value": {
       "tmdbId": 30984,
@@ -2230,6 +2318,143 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.254Z"
+  },
+  "desperate housewives i segreti di wisteria lane|marc cherry 2004": {
+    "value": {
+      "tmdbId": 693,
+      "title": "Desperate Housewives - I segreti di Wisteria Lane",
+      "overview": "Desperate Housewives racconta le avventure di un gruppo di donne viste con gli occhi della vicina suicidatasi nel primo episodio.\n\nLe storie si concentrano sui problemi la vita familiare, inclusivi di crimini segreti e misteri nascosti dietro una superficie di apparente normalità e perfezione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Desperate Housewives",
+      "genres": [
+        "Mistero",
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "2004-10-03",
+      "lastAired": "2012-05-13",
+      "status": "Ended",
+      "seasons": 8,
+      "episodes": 177,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2004-10-03",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-09-25",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2006-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-09-30",
+          "episodes": 17
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-09-28",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2009-09-27",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2010-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 53
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "ABC"
+      ],
+      "vote": 7.9,
+      "votes": 2154,
+      "poster": "https://image.tmdb.org/t/p/w500/2JfeqJssYn7ONxUgOrklZ2vhtpw.jpg",
+      "creators": [
+        {
+          "id": 1218666,
+          "name": "Marc Cherry"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Teri Hatcher",
+          "character": "Susan Mayer"
+        },
+        {
+          "name": "Felicity Huffman",
+          "character": "Lynette Scavo"
+        },
+        {
+          "name": "Marcia Cross",
+          "character": "Bree Van de Kamp"
+        },
+        {
+          "name": "Eva Longoria",
+          "character": "Gabrielle Solis"
+        },
+        {
+          "name": "Ricardo Chavira",
+          "character": "Carlos Solis"
+        },
+        {
+          "name": "Doug Savant",
+          "character": "Tom Scavo"
+        },
+        {
+          "name": "Nicollette Sheridan",
+          "character": "Edie Britt"
+        },
+        {
+          "name": "Mark Moses",
+          "character": "Paul Young"
+        }
+      ],
+      "trailer": "TRQ-Oor0pOE",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/693-desperate-housewives/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-19T04:48:50.516Z"
   },
   "dr house medical division|david shore 2004": {
     "value": {
