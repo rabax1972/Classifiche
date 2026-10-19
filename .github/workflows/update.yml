@@ -22,7 +22,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7
 
@@ -43,6 +43,19 @@ jobs:
       # Commit di partenza: la pubblicazione confronta le classifiche nuove con queste (riepilogo per l'amministratore).
       - name: Commit di partenza
         run: echo "PRIMA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      # Cataloghi dei film e delle serie viste su Trakt (privato/, mai nel repository): la build li pubblica nelle liste personali.
+      # Prima dei dati, così ratings:film prende anche i voti dei film del catalogo. Se Trakt non risponde, le classifiche vanno avanti.
+      - name: Cataloghi da Trakt
+        continue-on-error: true
+        run: npm run import:trakt
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME }}
+          TRAKT_ACCOUNT: ${{ secrets.TRAKT_ACCOUNT }}
+          CLASSIFICHE_CONTACT: ${{ github.server_url }}/${{ github.repository }}
 
       - name: Ingestion e aggregazione
         run: npm run ${{ inputs.seed && 'seed' || 'update' }}

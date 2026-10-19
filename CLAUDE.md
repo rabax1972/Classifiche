@@ -101,7 +101,8 @@ Aruba non esegue Node, il suo PHP scrive solo in `mdb-database` (non nella carte
 e l'FTP da GitHub si blocca. Quindi: il cron (`update.yml`) finisce con `scripts/pubblica-aruba.ts`, che confronta la build con le
 impronte servite dal server e gli manda a pezzi uno zip dei file cambiati (`scripts/lib/zip.ts`, azioni `sito-*` con intestazione
 `X-Chiave`); il server lo estrae in `mdb-database/sito/` e `public/web.config` (URL Rewrite) fa servire quei file da `api/sito.php`.
-Mai pubblicati così: `api/`, `.htaccess`, `web.config` e, senza `privato/`, i tre `catalogo.json`. `public/api/_inc/aggiornamenti.php`
+Mai pubblicati così: `api/`, `.htaccess`, `web.config` e un `catalogo.json` senza il suo file in `privato/` (il workflow rifà quelli di
+film e serie con `import:trakt`; i libri letti di aNobii arrivano solo dal PC). `public/api/_inc/aggiornamenti.php`
 avvia il workflow con l'API di GitHub (`github_token` in `classifiche-config.php`, `cacert.pem` portato dagli zip) alla prima visita
 del giorno (`notifyDailyVisit()` in `src/lib/account.ts`, da `Base.astro`) e dal pulsante in `/account/` per l'amministratore (config
 `admin`, flag `admin` nelle risposte con l'utente), che mostra anche il riepilogo dell'ultima pubblicazione (`_riepilogo.json` nello zip,

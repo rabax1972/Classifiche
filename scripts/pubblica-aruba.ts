@@ -5,8 +5,8 @@
 //   npm run pubblica:aruba                 build e pubblicazione (serve ARUBA_CHIAVE, nel .env o nei secrets di GitHub)
 //   npm run pubblica:aruba -- --no-build   usa la build già in dist/ (fatta con l'indirizzo di Aruba)
 //
-// Senza la cartella privato/ (come su GitHub) i cataloghi delle liste personali non vengono pubblicati: quelli della build sarebbero
-// senza i titoli importati da Trakt e aNobii. I file che non esistono più non si eliminano: restano raggiungibili ma non collegati.
+// Un catalogo delle liste personali si pubblica solo se la build aveva il suo file in privato/: su GitHub il workflow rifà quelli
+// di film e serie da Trakt (npm run import:trakt), mentre i libri letti di aNobii (niente API) arrivano solo dal PC. I file che non esistono più non si eliminano: restano raggiungibili ma non collegati.
 // Non pubblica api/ né la configurazione del server: per quelli serve la distribuzione manuale (npm run dist:aruba).
 
 import { existsSync, readFileSync } from 'node:fs';
@@ -17,8 +17,12 @@ import { loadEnv } from './lib/env';
 import { buildSummary } from './lib/riepilogo';
 import { createZip, type ZipEntry } from './lib/zip';
 
-/** Pagine generate anche da privato/ (fuori da git): si pubblicano solo da una build che ce l'ha. */
-const PRIVATE_OUTPUTS = ['film/catalogo.json', 'serie-tv/catalogo.json', 'libri/catalogo.json'];
+/** Pagine generate anche da privato/ (fuori da git) → file da cui dipendono: si pubblicano solo da una build che lo aveva. */
+const PRIVATE_OUTPUTS: Record<string, string> = {
+  'film/catalogo.json': 'privato/film-visti.json',
+  'serie-tv/catalogo.json': 'privato/serie-viste.json',
+  'libri/catalogo.json': 'privato/libri-letti.json',
+};
 /** Certificati delle autorità per le richieste HTTPS del PHP di Aruba (che non li ha), dal sito di curl. */
 const CACERT_URL = 'https://curl.se/ca/cacert.pem';
 
@@ -31,9 +35,8 @@ if (!key) {
 
 if (!process.argv.includes('--no-build')) buildForAruba();
 const DIST = path.resolve('dist');
-const withPrivate = existsSync('privato');
 const publishable = (f: string) =>
-  !f.startsWith('api/') && !['.htaccess', 'web.config'].includes(f) && (withPrivate || !PRIVATE_OUTPUTS.includes(f));
+  !f.startsWith('api/') && !['.htaccess', 'web.config'].includes(f) && (!PRIVATE_OUTPUTS[f] || existsSync(PRIVATE_OUTPUTS[f]));
 
 const local = fingerprints(DIST);
 const remote = await publishApi<{ file: Record<string, string>; pezzo: number }>('sito-impronte', key);

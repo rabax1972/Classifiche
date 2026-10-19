@@ -180,7 +180,7 @@ Configurazione del repository:
 ## Deploy
 
 Il sito è pubblicato su Aruba: **https://www.giacomorabaglia.com/classifiche/**. Ogni giorno si aggiorna da solo (*Aggiornamento
-automatico* qui sotto); la distribuzione manuale con FileZilla serve per l'API PHP, `web.config` e i cataloghi delle liste personali.
+automatico* qui sotto); la distribuzione manuale con FileZilla serve per l'API PHP e `web.config`.
 
 ### Aggiornamento automatico
 
@@ -192,8 +192,10 @@ l'FTP da GitHub si blocca dopo molti file. Per questo:
   intestazione `X-Chiave`). Il server lo estrae in `mdb-database/sito/`.
 - [`public/web.config`](public/web.config) (URL Rewrite di IIS) manda a [`api/sito.php`](public/api/sito.php) le richieste per cui
   esiste un file in `mdb-database/sito/`; gli altri restano quelli statici.
-- Senza `privato/` (come su GitHub) i tre `catalogo.json` delle liste personali non vengono pubblicati. Dal PC, con `privato/`,
-  `npm run pubblica:aruba` pubblica anche quelli. `api/`, `.htaccess` e `web.config` non passano mai di qui.
+- I `catalogo.json` delle liste personali dipendono da file in `privato/` (fuori da git): ognuno si pubblica solo se la build aveva il
+  suo. Il workflow, prima dei dati, rifà quelli di film e serie da Trakt (`npm run import:trakt`, secrets `TRAKT_…` e TMDB), così i film
+  visti compaiono in "I miei visti" il giorno dopo; i libri letti (aNobii, senza API) si pubblicano solo dal PC con
+  `npm run pubblica:aruba`. `api/`, `.htaccess` e `web.config` non passano mai di qui.
 - Avvio dal sito ([`public/api/_inc/aggiornamenti.php`](public/api/_inc/aggiornamenti.php)): alla prima visita del giorno da un browser
   (`?a=visita`, se quel giorno non c'è stata una pubblicazione e non c'è un avvio nelle ultime 3 ore) e dal pulsante
   dell'amministratore in `/account/`, che mostra anche lo stato dell'ultima esecuzione. Stato in `mdb-database/aggiornamento.json`.
