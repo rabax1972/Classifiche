@@ -616,3 +616,26 @@ export interface CreatorCard {
   /** Serie del creatore presenti nella pagina (chiave e titolo), per aprirne la scheda. */
   series: { key: string; title: string }[];
 }
+
+/**
+ * Riepilogo di un aggiornamento automatico (scripts/pubblica-aruba.ts → _riepilogo.json nello zip → mdb-database/aggiornamento.json),
+ * mostrato all'amministratore in /account/.
+ */
+export interface UpdateSummary {
+  quando: string;
+  /** Fonti dell'ultima ingestion (data/status.json) e quelle non raggiunte. */
+  fonti: { totali: number; errori: { fonte: string; categoria: string; errore: string }[] };
+  /** Nuove entrate per classifica rispetto a prima dell'aggiornamento; null se il confronto non era possibile (es. lancio dal PC). */
+  classifiche: UpdateChartChange[] | null;
+  file: { pagine: number; episodi: number; altri: number };
+}
+
+export interface UpdateChartChange {
+  categoria: string;
+  periodo: string;
+  vista: string;
+  /** Primi titoli entrati ("Titolo — Sottotitolo"); "altri" quelli oltre. */
+  nuovi: string[];
+  altri: number;
+  usciti: number;
+}

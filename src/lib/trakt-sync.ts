@@ -27,20 +27,22 @@ export interface TraktSyncResult {
   films: number;
   series: number;
   episodes: number;
+  /** Titoli di quello che è stato aggiunto (film, poi serie, poi episodi), da mostrare quando sono pochi. */
+  titles: string[];
 }
 
 interface Ids {
   tmdb: number | null;
 }
 interface WatchedMovie {
-  movie: { ids: Ids };
+  movie: { ids: Ids; title?: string; year?: number | null };
 }
 interface WatchedShow {
-  show: { ids: Ids; aired_episodes?: number };
+  show: { ids: Ids; aired_episodes?: number; title?: string };
 }
 interface HistoryEpisode {
-  episode: { season: number; number: number };
-  show: { ids: Ids };
+  episode: { season: number; number: number; title?: string | null };
+  show: { ids: Ids; title?: string };
 }
 
 async function traktPages<T>(cfg: TraktConfig, path: string, progress: (m: string) => void, label: string): Promise<T[]> {
@@ -90,6 +92,29 @@ export function missingTicks(
   return { visti: [...films], 'serie-viste': [...series], 'episodi-visti': [...episodes] };
 }
 
+/** Titoli leggibili delle spunte aggiunte: "Film (anno)", "Serie (serie completa)", "Serie 1x05 – Titolo". Funzione pura. */
+export function addedTitles(data: { movies: WatchedMovie[]; shows: WatchedShow[]; history: HistoryEpisode[] }, lists: TickLists): string[] {
+  const labels = new Map<string, string>();
+  for (const { movie } of data.movies) {
+    if (movie.ids.tmdb && movie.title) labels.set(movieIdKey(movie.ids.tmdb), movie.year ? `${movie.title} (${movie.year})` : movie.title);
+  }
+  const showTitles = new Map<number, string>();
+  for (const { show } of data.shows) {
+    if (show.ids.tmdb && show.title) {
+      showTitles.set(show.ids.tmdb, show.title);
+      labels.set(`tv:${show.ids.tmdb}`, `${show.title} (serie completa)`);
+    }
+  }
+  for (const { episode, show } of data.history) {
+    const id = show.ids.tmdb;
+    if (!id) continue;
+    const name = show.title ?? showTitles.get(id) ?? `Serie ${id}`;
+    const code = `${episode.season}x${String(episode.number).padStart(2, '0')}`;
+    labels.set(`${id}:${episode.season}:${episode.number}`, `${name} ${code}${episode.title ? ` – ${episode.title}` : ''}`);
+  }
+  return [...lists.visti!, ...lists['serie-viste']!, ...lists['episodi-visti']!].map((key) => labels.get(key) ?? key);
+}
+
 export async function syncTrakt(cfg: TraktConfig, progress: (m: string) => void = () => {}): Promise<TraktSyncResult> {
   const movies = await traktPages<WatchedMovie>(cfg, 'watched/movies', progress, 'Film su Trakt');
   const shows = await traktPages<WatchedShow>(cfg, 'watched/shows', progress, 'Serie su Trakt');
@@ -103,7 +128,12 @@ export async function syncTrakt(cfg: TraktConfig, progress: (m: string) => void 
     { movies, shows, history, catalog },
     { films: getTicks('visti'), series: getTicks('serie-viste'), episodes: getTicks('episodi-visti') },
   );
-  const result = { films: lists.visti!.length, series: lists['serie-viste']!.length, episodes: lists['episodi-visti']!.length };
+  const result = {
+    films: lists.visti!.length,
+    series: lists['serie-viste']!.length,
+    episodes: lists['episodi-visti']!.length,
+    titles: addedTitles({ movies, shows, history }, lists),
+  };
   if (result.films || result.series || result.episodes) {
     progress('Salvataggio nell\'account…');
     await mergeTicks(lists);

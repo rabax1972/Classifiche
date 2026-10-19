@@ -197,6 +197,10 @@ l'FTP da GitHub si blocca dopo molti file. Per questo:
 - Avvio dal sito ([`public/api/_inc/aggiornamenti.php`](public/api/_inc/aggiornamenti.php)): alla prima visita del giorno da un browser
   (`?a=visita`, se quel giorno non c'è stata una pubblicazione e non c'è un avvio nelle ultime 3 ore) e dal pulsante
   dell'amministratore in `/account/`, che mostra anche lo stato dell'ultima esecuzione. Stato in `mdb-database/aggiornamento.json`.
+- Ogni zip porta anche un riepilogo ([`scripts/lib/riepilogo.ts`](scripts/lib/riepilogo.ts)) che il riquadro dell'amministratore mostra:
+  file pubblicati, fonti non raggiunte e nuove entrate di ogni classifica rispetto al commit di partenza del workflow (`PRIMA`).
+- L'aggiornamento non tocca le spunte: quelle di Trakt arrivano solo da "Sincronizza con Trakt" in `/account/` (che elenca i titoli
+  aggiunti quando sono meno di 20) o da `npm run import:trakt`.
 - Dopo una distribuzione manuale, `npm run dist:aruba -- --conferma` svuota `mdb-database/sito/` (`?a=sito-svuota`), perché i file
   appena caricati non restino coperti da quelli vecchi.
 

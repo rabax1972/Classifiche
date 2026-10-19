@@ -40,6 +40,10 @@ jobs:
           key: http-${{ github.run_id }}
           restore-keys: http-
 
+      # Commit di partenza: la pubblicazione confronta le classifiche nuove con queste (riepilogo per l'amministratore).
+      - name: Commit di partenza
+        run: echo "PRIMA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Ingestion e aggregazione
         run: npm run ${{ inputs.seed && 'seed' || 'update' }}
         env:

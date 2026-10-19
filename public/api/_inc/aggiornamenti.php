@@ -159,6 +159,7 @@ function update_status(): array {
         'pubblicato' => $state['pubblicato'] ?? null,
         'file' => $state['file'] ?? null,
         'errore' => $state['errore'] ?? '',
+        'riepilogo' => $state['riepilogo'] ?? null,
         'workflow' => null,
     ];
     if ($status['configurato']) {
@@ -254,6 +255,12 @@ function extract_update(string $zipFile): int {
     try {
         for ($i = 0; $i < $zip->numFiles; $i++) {
             $name = (string)$zip->getNameIndex($i);
+            if ($name === '_riepilogo.json') {
+                // Riepilogo dell'aggiornamento (scripts/lib/riepilogo.ts) per il riquadro dell'amministratore.
+                $summary = json_decode((string)$zip->getFromIndex($i, 500_000), true);
+                if (is_array($summary)) record_update(['riepilogo' => $summary]);
+                continue;
+            }
             if ($name === '_cacert.pem') {
                 $target = config()['db_dir'] . DIRECTORY_SEPARATOR . 'cacert.pem';
             } elseif (valid_site_path($name)) {

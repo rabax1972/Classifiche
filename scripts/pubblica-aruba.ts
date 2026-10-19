@@ -14,6 +14,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { buildForAruba, fingerprints, publishApi } from './lib/aruba';
 import { loadEnv } from './lib/env';
+import { buildSummary } from './lib/riepilogo';
 import { createZip, type ZipEntry } from './lib/zip';
 
 /** Pagine generate anche da privato/ (fuori da git): si pubblicano solo da una build che ce l'ha. */
@@ -40,18 +41,15 @@ const changed = Object.keys(local).filter((f) => publishable(f) && remote.file[f
 console.log(`${Object.keys(local).length} file nella build, ${changed.length} nuovi o cambiati rispetto al sito.`);
 
 const entries: ZipEntry[] = changed.map((f) => ({ name: f, data: readFileSync(path.join(DIST, ...f.split('/'))) }));
-// Lo zip parte comunque, anche senza file cambiati: aggiorna i certificati e segna sul server la data della pubblicazione.
+// Lo zip parte comunque, anche senza file cambiati: porta il riepilogo per l'amministratore (classifiche confrontate con il
+// commit PRIMA, impostato dal workflow prima dell'aggiornamento dei dati), aggiorna i certificati e segna la data della pubblicazione.
+entries.push({ name: '_riepilogo.json', data: Buffer.from(JSON.stringify(buildSummary(process.env.PRIMA, changed))) });
 try {
   const res = await fetch(CACERT_URL);
   if (res.ok) entries.push({ name: '_cacert.pem', data: Buffer.from(await res.arrayBuffer()) });
 } catch (err) {
   console.warn(`Certificati non scaricati da ${CACERT_URL}: ${(err as Error).message}`);
 }
-if (!entries.length) {
-  console.log('Niente da pubblicare.');
-  process.exit(0);
-}
-
 const zip = createZip(entries);
 const id = createHash('sha256').update(zip).digest('hex');
 const size = Math.min(remote.pezzo, 4 * 1024 * 1024);

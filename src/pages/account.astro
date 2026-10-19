@@ -149,6 +149,10 @@ const summary = 'cursor-pointer font-semibold';
             </p>
             <button type="button" data-trakt-sync class={primary}>Sincronizza con Trakt</button>
             <p data-trakt-status class="text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+            <div data-trakt-aggiunti hidden class="text-sm text-gray-700 dark:text-gray-300">
+              <p class="font-medium">Aggiunti nell'ultima sincronizzazione:</p>
+              <ul data-trakt-titoli class="mt-1 list-disc space-y-0.5 pl-5"></ul>
+            </div>
           </div>
         )
       }
@@ -161,6 +165,7 @@ const summary = 'cursor-pointer font-semibold';
           raccoglie i dati, ricostruisce il sito e lo pubblica, di solito in 15-20 minuti.
         </p>
         <ul data-admin-stato class="space-y-0.5 text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></ul>
+        <div data-admin-riepilogo hidden class="space-y-2 rounded-md bg-gray-50 p-3 text-sm text-gray-700 dark:bg-gray-950 dark:text-gray-300"></div>
         <div class="flex flex-wrap gap-2">
           <button type="button" data-admin-aggiorna class={primary}>Aggiorna adesso</button>
           <button type="button" data-admin-ricarica class={secondary}>Controlla lo stato</button>
@@ -255,6 +260,7 @@ const summary = 'cursor-pointer font-semibold';
   import { clearTicks, dropQueue, flushTicks, localTicks, mergeTicks, type TickLists } from '../lib/ticks';
   import { PUBLIC_NAME } from '../lib/profiles';
   import { syncTrakt } from '../lib/trakt-sync';
+  import type { UpdateSummary } from '../lib/types';
 
   const $ = <T extends HTMLElement = HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
   const views = [...document.querySelectorAll<HTMLElement>('[data-view]')];
@@ -473,6 +479,7 @@ const summary = 'cursor-pointer font-semibold';
 
   interface UpdateStatus {
     configurato: boolean;
+    riepilogo: UpdateSummary | null;
     avviato: number | null;
     motivo: 'visita' | 'admin' | null;
     pubblicato: number | null;
@@ -515,7 +522,52 @@ const summary = 'cursor-pointer font-semibold';
     if (!s.configurato) items.push(item('Avvio dal sito non configurato: manca github_token in classifiche-config.php sul server.'));
     if (s.errore) items.push(item(`Errore: ${s.errore}`));
     adminList.replaceChildren(...items);
+    showSummary(s.riepilogo);
     updateButton.disabled = !s.configurato;
+  }
+
+  /** Riepilogo dell'ultima pubblicazione: file, fonti non raggiunte, nuove entrate per categoria (una sezione apribile ciascuna). */
+  function showSummary(r: UpdateSummary | null) {
+    const box = $('[data-admin-riepilogo]');
+    box.hidden = !r;
+    if (!r) return;
+    const el = <K extends keyof HTMLElementTagNameMap>(tag: K, text = '', className = '') =>
+      Object.assign(document.createElement(tag), { textContent: text, className });
+    const n = (count: number, one: string, many: string) => `${count} ${count === 1 ? one : many}`;
+    const parts: HTMLElement[] = [
+      el('p', `Riepilogo dell'aggiornamento del ${new Intl.DateTimeFormat('it-IT', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(r.quando))}`, 'font-semibold'),
+      el('p', `File pubblicati: ${n(r.file.pagine, 'pagina', 'pagine')}, ${n(r.file.episodi, 'file di episodi', 'file di episodi')}, ${n(r.file.altri, 'altro file', 'altri file')}.`),
+      el('p', r.fonti.errori.length ? `Fonti: ${r.fonti.totali - r.fonti.errori.length} su ${r.fonti.totali} raggiunte. Non raggiunte:` : `Fonti: tutte raggiunte (${r.fonti.totali}).`),
+    ];
+    if (r.fonti.errori.length) {
+      const ul = el('ul', '', 'list-disc pl-5');
+      for (const e of r.fonti.errori) ul.append(el('li', `${e.fonte} (${e.categoria})${e.errore ? `: ${e.errore}` : ''}`));
+      parts.push(ul);
+    }
+    if (!r.classifiche) {
+      parts.push(el('p', 'Confronto delle classifiche non disponibile (pubblicazione lanciata dal PC).'));
+    } else if (!r.classifiche.length) {
+      parts.push(el('p', 'Classifiche: nessuna differenza rispetto a prima.'));
+    } else {
+      const byCategory = new Map<string, typeof r.classifiche>();
+      for (const c of r.classifiche) byCategory.set(c.categoria, [...(byCategory.get(c.categoria) ?? []), c]);
+      for (const [category, changes] of byCategory) {
+        const total = changes.reduce((sum, c) => sum + c.nuovi.length + c.altri, 0);
+        const details = el('details');
+        details.append(el('summary', `${category}: ${n(total, 'nuova entrata', 'nuove entrate')}`, 'cursor-pointer font-medium'));
+        for (const c of changes) {
+          details.append(
+            el('p', `${c.periodo} · ${c.vista}: ${n(c.nuovi.length + c.altri, 'entrata', 'entrate')}, ${n(c.usciti, 'uscita', 'uscite')}`, 'mt-2'),
+          );
+          const ul = el('ul', '', 'list-disc pl-5');
+          for (const t of c.nuovi) ul.append(el('li', t));
+          if (c.altri) ul.append(el('li', `e altri ${c.altri}`));
+          if (c.nuovi.length) details.append(ul);
+        }
+        parts.push(details);
+      }
+    }
+    box.replaceChildren(...parts);
   }
 
   async function loadUpdateStatus() {
@@ -561,7 +613,7 @@ const summary = 'cursor-pointer font-semibold';
       button.disabled = true;
       quiet();
       try {
-        const { films, series, episodes } = await syncTrakt(
+        const { films, series, episodes, titles } = await syncTrakt(
           { clientId: traktBox.dataset.clientId!, user: traktBox.dataset.user!, catalog: traktBox.dataset.catalog! },
           (m) => (status.textContent = m),
         );
@@ -572,6 +624,12 @@ const summary = 'cursor-pointer font-semibold';
         }
         showLast();
         render(cachedAccount());
+        // Con meno di 20 aggiunte, l'elenco dei titoli.
+        const added = traktBox.querySelector<HTMLElement>('[data-trakt-aggiunti]')!;
+        added.hidden = !titles.length || titles.length >= 20;
+        added.querySelector('[data-trakt-titoli]')!.replaceChildren(
+          ...(added.hidden ? [] : titles.map((t) => Object.assign(document.createElement('li'), { textContent: t }))),
+        );
         say(
           films || series || episodes
             ? `Sincronizzazione con Trakt completata: ${films} film, ${series} serie e ${episodes} episodi aggiunti.`

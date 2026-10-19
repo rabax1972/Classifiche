@@ -104,7 +104,9 @@ impronte servite dal server e gli manda a pezzi uno zip dei file cambiati (`scri
 Mai pubblicati così: `api/`, `.htaccess`, `web.config` e, senza `privato/`, i tre `catalogo.json`. `public/api/_inc/aggiornamenti.php`
 avvia il workflow con l'API di GitHub (`github_token` in `classifiche-config.php`, `cacert.pem` portato dagli zip) alla prima visita
 del giorno (`notifyDailyVisit()` in `src/lib/account.ts`, da `Base.astro`) e dal pulsante in `/account/` per l'amministratore (config
-`admin`, flag `admin` nelle risposte con l'utente). `dist:aruba -- --conferma` svuota `mdb-database/sito/`.
+`admin`, flag `admin` nelle risposte con l'utente), che mostra anche il riepilogo dell'ultima pubblicazione (`_riepilogo.json` nello zip,
+`scripts/lib/riepilogo.ts`: nuove entrate rispetto al commit `PRIMA` del workflow, fonti non raggiunte, file). `dist:aruba -- --conferma`
+svuota `mdb-database/sito/`.
 
 In locale: `npm run api:dev` (PHP su 127.0.0.1:8787) + `npm run dev` (proxy di `/api/`); email in `mdb-database/mail.log`.
 
