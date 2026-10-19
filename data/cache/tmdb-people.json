@@ -1083,6 +1083,10 @@
     "value": "James Gunn",
     "fetchedAt": "2026-10-19T04:45:37.466Z"
   },
+  "movie:454639": {
+    "value": "Travis Knight",
+    "fetchedAt": "2026-10-19T12:25:47.784Z"
+  },
   "movie:460458": {
     "value": "Johannes Roberts",
     "fetchedAt": "2026-10-12T07:24:36.052Z"
@@ -1739,6 +1743,10 @@
     "value": "Rob Mac",
     "fetchedAt": "2026-10-14T04:46:01.581Z"
   },
+  "tv:271051": {
+    "value": "Georges Simenon",
+    "fetchedAt": "2026-10-19T12:25:48.269Z"
+  },
   "tv:273247": {
     "value": "Sterlin Harjo",
     "fetchedAt": "2026-10-15T04:42:54.921Z"
@@ -2214,6 +2222,10 @@
   "tv:95480": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:46.673Z"
+  },
+  "tv:96677": {
+    "value": "George Kay, François Uzan",
+    "fetchedAt": "2026-10-19T12:25:48.168Z"
   },
   "tv:97546": {
     "value": "Bill Lawrence, Jason Sudeikis",
