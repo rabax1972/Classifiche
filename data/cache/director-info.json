@@ -316,6 +316,89 @@
     },
     "fetchedAt": "2026-10-17T09:31:07.289Z"
   },
+  "alfonso cuaron": {
+    "value": {
+      "tmdbId": 11218,
+      "wiki": {
+        "lang": "it",
+        "title": "Alfonso Cuarón",
+        "url": "https://it.wikipedia.org/wiki/Alfonso_Cuar%C3%B3n",
+        "extract": "Alfonso Cuarón Orozco (Città del Messico, 28 novembre 1961) è un regista, sceneggiatore, produttore cinematografico, direttore della fotografia e montatore messicano.\n\nCuarón è stato il primo regista messicano nella storia ad aggiudicarsi l'Oscar al miglior regista e il Directors Guild of America Award."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg/500px-DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:DisclaimerBFILFF101024_(88_of_113)_(54062275143)_(cropped).jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1246818,
+          "title": "Billy Please Call Home",
+          "year": null
+        },
+        {
+          "id": 1005793,
+          "title": "Jane",
+          "year": null
+        },
+        {
+          "id": 426426,
+          "title": "Roma",
+          "year": "2018"
+        },
+        {
+          "id": 49047,
+          "title": "Gravity",
+          "year": "2013"
+        },
+        {
+          "id": 231390,
+          "title": "The Possibility of Hope",
+          "year": "2007"
+        },
+        {
+          "id": 9693,
+          "title": "I figli degli uomini",
+          "year": "2006"
+        },
+        {
+          "id": 2266,
+          "title": "Paris, je t'aime",
+          "year": "2006"
+        },
+        {
+          "id": 673,
+          "title": "Harry Potter e il prigioniero di Azkaban",
+          "year": "2004"
+        },
+        {
+          "id": 1391,
+          "title": "Y tu mamá también - Anche tua madre",
+          "year": "2001"
+        },
+        {
+          "id": 9410,
+          "title": "Paradiso perduto",
+          "year": "1998"
+        },
+        {
+          "id": 19101,
+          "title": "La piccola principessa",
+          "year": "1995"
+        },
+        {
+          "id": 49971,
+          "title": "Uno per tutte",
+          "year": "1992"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-20T04:53:38.180Z"
+  },
   "alfred hitchcock": {
     "value": {
       "tmdbId": 2636,
@@ -3895,6 +3978,64 @@
       ]
     },
     "fetchedAt": "2026-10-19T04:48:46.553Z"
+  },
+  "gareth edwards": {
+    "value": {
+      "tmdbId": 129894,
+      "wiki": {
+        "lang": "it",
+        "title": "Gareth Edwards (regista)",
+        "url": "https://it.wikipedia.org/wiki/Gareth_Edwards_(regista)",
+        "extract": "Gareth James Edwards (Nuneaton, 1º giugno 1975) è un regista, sceneggiatore ed effettista britannico.\n\nNella sua carriera come regista è noto per aver diretto diversi blockbuster di successo, tra cui Godzilla (2014), primo film del franchise e universo condiviso Monsterverse, Rogue One: A Star Wars Story (2016) dell'universo di Guerre stellari. Dopo una pausa di quasi un decennio è tornato al cinema con The Creator (2023) e Jurassic World - La rinascita (2025) del franchise di Jurassic Park."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Gareth_Edwards_by_Gage_Skidmore_2.jpg/500px-Gareth_Edwards_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gareth_Edwards_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1234821,
+          "title": "Jurassic World - La rinascita",
+          "year": "2025"
+        },
+        {
+          "id": 670292,
+          "title": "The Creator",
+          "year": "2023"
+        },
+        {
+          "id": 330459,
+          "title": "Rogue One: A Star Wars Story",
+          "year": "2016"
+        },
+        {
+          "id": 124905,
+          "title": "Godzilla",
+          "year": "2014"
+        },
+        {
+          "id": 43933,
+          "title": "Monsters",
+          "year": "2010"
+        },
+        {
+          "id": 126355,
+          "title": "Factory Farmed",
+          "year": "2008"
+        },
+        {
+          "id": 96641,
+          "title": "End Day",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-20T04:53:36.110Z"
   },
   "gene kelly": {
     "value": {
@@ -8028,6 +8169,89 @@
       ]
     },
     "fetchedAt": "2026-10-18T04:46:01.876Z"
+  },
+  "mike newell": {
+    "value": {
+      "tmdbId": 10723,
+      "wiki": {
+        "lang": "it",
+        "title": "Mike Newell",
+        "url": "https://it.wikipedia.org/wiki/Mike_Newell",
+        "extract": "Michael Cormac Newell, detto Mike (St Albans, 28 marzo 1942), è un regista e produttore cinematografico britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mike_Newell_at_WonderCon_2010_2.JPG/500px-Mike_Newell_at_WonderCon_2010_2.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mike_Newell_at_WonderCon_2010_2.JPG",
+        "author": "BrokenSphere",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1440157,
+          "title": "My Duchess",
+          "year": "2026"
+        },
+        {
+          "id": 1079711,
+          "title": "The Spirit of 1926",
+          "year": "2022"
+        },
+        {
+          "id": 569571,
+          "title": "One Red Nose Day and a Wedding",
+          "year": "2019"
+        },
+        {
+          "id": 451480,
+          "title": "Il club del libro e della torta di bucce di patata di Guernsey",
+          "year": "2018"
+        },
+        {
+          "id": 121674,
+          "title": "Grandi speranze",
+          "year": "2012"
+        },
+        {
+          "id": 9543,
+          "title": "Prince of Persia - Le sabbie del tempo",
+          "year": "2010"
+        },
+        {
+          "id": 6639,
+          "title": "L'amore ai tempi del colera",
+          "year": "2007"
+        },
+        {
+          "id": 674,
+          "title": "Harry Potter e il calice di fuoco",
+          "year": "2005"
+        },
+        {
+          "id": 11820,
+          "title": "Mona Lisa Smile",
+          "year": "2003"
+        },
+        {
+          "id": 222040,
+          "title": "The Adventures of Young Indiana Jones: The Perils of Cupid",
+          "year": "2000"
+        },
+        {
+          "id": 417775,
+          "title": "The Adventures of Young Indiana Jones: Masks of Evil",
+          "year": "1999"
+        },
+        {
+          "id": 12596,
+          "title": "Falso tracciato",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-20T04:53:37.186Z"
   },
   "milos forman": {
     "value": {

@@ -2612,6 +2612,108 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.386Z"
   },
+  "dragon ball super beerus|2026": {
+    "value": {
+      "tmdbId": 312359,
+      "title": "Dragon Ball Super: Beerus",
+      "overview": "Dopo la sconfitta di Majin Buu, la Terra vive un periodo di pace. Ma nell'Universo 7 si risveglia Beerus, il temibile Dio della Distruzione, incuriosito da una profezia che parla di un guerriero Saiyan capace di tenergli testa. Seguendo queste voci, Beerus arriva sulla Terra e incontra Goku e i suoi compagni. Quello che inizia come una semplice sfida si trasforma presto in una minaccia reale: se nessuno riuscirà a soddisfare Beerus, il pianeta verrà distrutto. Per salvare la Terra, Goku e Vegeta dovranno superare i propri limiti e affrontare un potere mai visto prima, dando inizio a una nuova era di battaglie divine.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "ドラゴンボール超 ビルス",
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 24,
+      "firstAired": "2026-10-11",
+      "lastAired": "2026-10-18",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 19,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-11",
+          "episodes": 19
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-10-25",
+        "season": 1,
+        "episode": 3
+      },
+      "networks": [
+        "Fuji TV",
+        "Tokai Television Broadcasting",
+        "Kansai TV"
+      ],
+      "vote": 9.7,
+      "votes": 254,
+      "poster": "https://image.tmdb.org/t/p/w500/sGuCmIy8kEmx3FWZyMj654rF6g8.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Masako Nozawa",
+          "character": "Son Goku / Son Goten (voice)"
+        },
+        {
+          "name": "Ryou Horikawa",
+          "character": "Vegeta (voice)"
+        },
+        {
+          "name": "渡辺菜生子",
+          "character": "Chichi (voice)"
+        },
+        {
+          "name": "Unsho Ishizuka",
+          "character": "Mr. Satan (voice)"
+        },
+        {
+          "name": "Kōichi Yamadera",
+          "character": "Beerus (voice)"
+        },
+        {
+          "name": "Jōji Yanami",
+          "character": "King Kai (voice)"
+        },
+        {
+          "name": "藤本隆宏",
+          "character": "Bubbles (voice)"
+        },
+        {
+          "name": "太田真一郎",
+          "character": "Kibito Kai (voice)"
+        }
+      ],
+      "trailer": "iCD3Lf7Jf9o",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/312359/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Crunchyroll",
+            "logo": "https://image.tmdb.org/t/p/w92/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+          },
+          {
+            "name": "Anime Generation Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/yBiIEHJqOfsGdgz4mlxHln6GNup.png"
+          },
+          {
+            "name": "Crunchyroll Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/qHLLmKo7udRgiSnIASVTwP2IxfJ.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-20T04:57:32.751Z"
+  },
   "due uomini e mezzo|lee aronsohn": {
     "value": {
       "tmdbId": 2691,

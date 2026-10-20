@@ -107,6 +107,10 @@
     "value": "Brian De Palma",
     "fetchedAt": "2026-10-18T17:54:34.078Z"
   },
+  "movie:1117898": {
+    "value": "Erica Rivinoja, Alessandro Carloni",
+    "fetchedAt": "2026-10-20T04:51:06.406Z"
+  },
   "movie:11216": {
     "value": "Giuseppe Tornatore",
     "fetchedAt": "2026-10-18T17:54:30.612Z"
@@ -230,6 +234,10 @@
   "movie:1234139": {
     "value": "Nelson Dilipkumar",
     "fetchedAt": "2026-10-13T04:34:39.113Z"
+  },
+  "movie:1234821": {
+    "value": "Gareth Edwards",
+    "fetchedAt": "2026-10-20T04:51:05.171Z"
   },
   "movie:1236045": {
     "value": "Ben Affleck",
@@ -419,6 +427,10 @@
     "value": "Scott Waugh",
     "fetchedAt": "2026-10-12T07:24:35.794Z"
   },
+  "movie:1380417": {
+    "value": "Elegance Bratton",
+    "fetchedAt": "2026-10-20T04:51:06.304Z"
+  },
   "movie:1381071": {
     "value": "Takashi Yamazaki",
     "fetchedAt": "2026-10-12T07:24:54.112Z"
@@ -458,6 +470,10 @@
   "movie:14": {
     "value": "Sam Mendes",
     "fetchedAt": "2026-10-18T17:54:33.318Z"
+  },
+  "movie:1400336": {
+    "value": "John Hamburg",
+    "fetchedAt": "2026-10-20T04:51:06.508Z"
   },
   "movie:1400379": {
     "value": "Kim A. Snyder",
@@ -799,6 +815,10 @@
     "value": "Giorgio Pasotti",
     "fetchedAt": "2026-10-12T07:24:34.649Z"
   },
+  "movie:1728408": {
+    "value": "Ludovica Gibelli, Marco di Gerlando",
+    "fetchedAt": "2026-10-20T04:51:04.706Z"
+  },
   "movie:1731022": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:33.731Z"
@@ -1091,6 +1111,10 @@
     "value": "Johannes Roberts",
     "fetchedAt": "2026-10-12T07:24:36.052Z"
   },
+  "movie:466272": {
+    "value": "Quentin Tarantino",
+    "fetchedAt": "2026-10-20T04:51:05.376Z"
+  },
   "movie:466420": {
     "value": "Martin Scorsese",
     "fetchedAt": "2026-10-16T04:44:14.009Z"
@@ -1242,6 +1266,10 @@
   "movie:672": {
     "value": "Chris Columbus",
     "fetchedAt": "2026-10-12T07:24:42.694Z"
+  },
+  "movie:673": {
+    "value": "Alfonso Cuarón",
+    "fetchedAt": "2026-10-20T04:51:05.275Z"
   },
   "movie:674": {
     "value": "Mike Newell",
@@ -1578,6 +1606,10 @@
   "tv:1622": {
     "value": "Eric Kripke",
     "fetchedAt": "2026-10-12T07:24:46.124Z"
+  },
+  "tv:1668": {
+    "value": "Marta Kauffman, David Crane",
+    "fetchedAt": "2026-10-20T04:51:05.802Z"
   },
   "tv:17610": {
     "value": "Shane Brennan",
@@ -2023,6 +2055,10 @@
     "value": "조효진, 김주형",
     "fetchedAt": "2026-10-12T07:24:44.978Z"
   },
+  "tv:332713": {
+    "value": null,
+    "fetchedAt": "2026-10-20T04:51:06.914Z"
+  },
   "tv:333101": {
     "value": "Robert Murphy",
     "fetchedAt": "2026-10-12T07:24:58.079Z"
@@ -2047,6 +2083,10 @@
     "value": null,
     "fetchedAt": "2026-10-13T04:34:39.961Z"
   },
+  "tv:338848": {
+    "value": null,
+    "fetchedAt": "2026-10-20T04:51:07.014Z"
+  },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
     "fetchedAt": "2026-10-12T07:24:49.704Z"
@@ -2070,6 +2110,10 @@
   "tv:44006": {
     "value": "Derek Haas, Michael Brandt",
     "fetchedAt": "2026-10-12T07:24:48.313Z"
+  },
+  "tv:45140": {
+    "value": null,
+    "fetchedAt": "2026-10-20T04:51:05.902Z"
   },
   "tv:456": {
     "value": "Matt Groening",

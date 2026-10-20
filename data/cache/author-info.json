@@ -297,6 +297,15 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
   },
+  "alex grayson": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alex-grayson/928715379",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
   "alexandre dumas": {
     "value": {
       "wiki": {
@@ -497,6 +506,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "angela marsons": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Angela Marsons",
+        "url": "https://it.wikipedia.org/wiki/Angela_Marsons",
+        "extract": "Angela Marsons (Brierley Hill, 1968) è una scrittrice britannica, ha venduto sei milioni di copie dei suoi romanzi in poco più di tre anni dalla pubblicazione del suo primo giallo."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/angela-marsons/963856300",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
   "anna frank": {
     "value": {
       "wiki": {
@@ -644,6 +667,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "arthur schopenhauer": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Arthur Schopenhauer",
+        "url": "https://it.wikipedia.org/wiki/Arthur_Schopenhauer",
+        "extract": "Arthur Schopenhauer (AFI: [ˈaɐ̯tʊɐ̯ ˈʃoːpm̩ˌhaʊ̯ɐ]; Danzica, 22 febbraio 1788 – Francoforte sul Meno, 21 settembre 1860) è stato un filosofo, orientalista e traduttore tedesco, già cittadino  del Regno di Prussia.\n\nÈ considerato uno dei maggiori pensatori dell'epoca moderna. Il suo pensiero recupera alcuni elementi dell'illuminismo, della filosofia di Platone, del romanticismo e del kantismo, fondendoli con la suggestione esercitata dalle dottrine orientali, specialmente quella buddhista e induista, benché si dichiarasse ateo. Schopenhauer crea una sua originale concezione filosofica caratterizzata da un forte pessimismo, la quale ebbe una straordinaria influenza sui filosofi successivi, e, in generale, sulla cultura europea coeva e successiva, inserendosi nella corrente delle filosofie della vita."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859_%28cropped%29.jpg/500px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859_(cropped).jpg",
+        "author": "Schäfer, J.",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/arthur-schopenhauer/151840987",
+      "died": 1860
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
   "azzurra costance": {
     "value": {
@@ -1091,6 +1134,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "daniel g miller": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/daniel-g-miller/1574367012",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
   "dante alighieri": {
     "value": {
       "wiki": {
@@ -1329,6 +1381,26 @@
       "died": 1848
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "emmanuel carrere": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Emmanuel Carrère",
+        "url": "https://it.wikipedia.org/wiki/Emmanuel_Carr%C3%A8re",
+        "extract": "Emmanuel Carrère d'Encausse (pronuncia francese [emanɥɛl kaʁɛʁ]; Parigi, 9 dicembre 1957) è uno scrittore, sceneggiatore e regista francese."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Emmanuel_Carr%C3%A8re-7660.jpg/500px-Emmanuel_Carr%C3%A8re-7660.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Emmanuel_Carr%C3%A8re-7660.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/emmanuel-carr%C3%A8re/378319625",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
   "enid blyton": {
     "value": {
@@ -1628,6 +1700,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "friederich engels": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Friedrich Engels",
+        "url": "https://it.wikipedia.org/wiki/Friedrich_Engels",
+        "extract": "Friedrich Engels (AFI: [ˈfʁiːdʁɪç ˈʔɛŋl̩s], raramente italianizzato in Federico Engels; Barmen, 28 novembre 1820 – Londra, 5 agosto 1895) è stato un filosofo, sociologo, economista, giornalista e imprenditore tedesco, fondatore assieme al sodale Karl Marx del marxismo classico e del socialismo scientifico.\n\nFiglio di un proprietario di grandi fabbriche tessili nel Regno Unito e Prussia, fu amico e collaboratore di Marx, con cui scrisse lavori come L'ideologia tedesca (1846), rimasto inedito fino al 1933, e il Manifesto del Partito Comunista (1848), ottenendo un ruolo fondamentale per la nascita del marxismo e dei movimenti comunisti socialisti e operai. Fu un dirigente politico sia della Prima Internazionale (1864) sia della Seconda (1889). Altre opere importanti di Engels sono: l'Anti-Dühring (1878) e L'evoluzione del socialismo dall'utopia alla scienza (1880)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg/500px-Friedrich_Engels_portrait_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg",
+        "author": "William Hall (1826–ca. 1898) (cropped and sepia tone removed)",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": null,
+      "died": 1895
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
   "gabriel garcia marquez": {
     "value": {
@@ -2438,6 +2530,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "jean luc bannalec": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/jean-luc-bannalec/487139828",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
   "jean paul sartre": {
     "value": {
       "wiki": {
@@ -2766,6 +2867,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "karl marx": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Karl Marx",
+        "url": "https://it.wikipedia.org/wiki/Karl_Marx",
+        "extract": "Karl Marx (AFI: [ˈkaɐ̯l ˈmaɐ̯ks]; spesso italianizzato in Carlo Marx; Treviri, 5 maggio 1818 – Londra, 14 marzo 1883) è stato un filosofo, economista, politologo, storico, giornalista e politico tedesco."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/500px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+        "author": "John Jabez Edwin Mayall",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": null,
+      "died": 1883
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
   "kate aster": {
     "value": {
@@ -3207,6 +3328,15 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
   },
+  "marzia elisabetta polacco": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
   "massimo d alema": {
     "value": {
       "wiki": {
@@ -3581,6 +3711,20 @@
       "died": 1900
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "paolo fox": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Paolo Fox",
+        "url": "https://it.wikipedia.org/wiki/Paolo_Fox",
+        "extract": "Paolo Fox, pseudonimo di Paolo Volpi (Roma, 5 febbraio 1961) è un astrologo, giornalista e personaggio televisivo italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/paolo-fox/1194524803",
+      "died": null
+    },
+    "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
   "paolo pinna parpaglia": {
     "value": {

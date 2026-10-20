@@ -1,4 +1,21 @@
 {
+  "081|geolier": {
+    "value": {
+      "album": "081",
+      "released": "2025-12-05",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 175734,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/df/52/46df5254-a145-5b30-c3fe-fc3e88088ffd/5026854139548.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/081/1853892111?i=1853892127",
+      "wiki": {
+        "lang": "it",
+        "title": "081 (singolo)",
+        "url": "https://it.wikipedia.org/wiki/081_(singolo)",
+        "extract": "081 è un singolo del rapper italiano Geolier, pubblicato il 5 dicembre 2025 come secondo estratto dal quarto album in studio Tutto è possibile."
+      }
+    },
+    "fetchedAt": "2026-10-20T04:52:45.184Z"
+  },
   "1h|geolier": {
     "value": {
       "album": "TUTTO È POSSIBILE",
