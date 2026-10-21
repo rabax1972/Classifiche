@@ -1,5 +1,5 @@
 ---
-import { artistKey, movieSubtitle, normalizeText, seriesSubtitle, splitArtists } from '../lib/aggregate';
+import { artistKey, movieSubtitle, normalizeText, podcastKey, seriesSubtitle, splitArtists } from '../lib/aggregate';
 import { formatDay, getArtistInfo, getAuthorInfo, getBookInfo, getCreatorInfo, getDirectorInfo, getMovieInfo, getMovieRatings, getSeriesInfo, seriesSeenKey } from '../lib/data';
 import { providerName } from '../lib/providers';
 import { sourceName } from '../lib/sources';
@@ -24,8 +24,10 @@ const series = category === 'serie-tv';
 /** Classifiche con i filtri dalle schede TMDB e la spunta "Visto" / "Vista". */
 const screen = movies || series;
 const books = category === 'libri';
-/** Classifiche con la spunta "Visto" / "Vista" / "Letto" (e il filtro relativo). */
-const tickable = screen || books;
+/** Podcast: spunta "Lo seguo" (chiave del titolo, comune a Spotify e Apple; alias l'URI Spotify, src/lib/seen.ts). */
+const podcasts = category === 'podcast';
+/** Classifiche con la spunta "Visto" / "Vista" / "Letto" / "Lo seguo" (e il filtro relativo). */
+const tickable = screen || books || podcasts;
 const cards =
   category === 'canzoni'
     ? { title: 'song-open', titleData: 'data-brano', person: 'artist-open', personData: 'data-artista', info: getArtistInfo }
@@ -94,7 +96,9 @@ if (screen)
 const genreOptions = options(filters.flatMap((f) => f.genres));
 const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
 /** Testi dei filtri e della spunta: film (maschile) o serie (femminile). */
-const words = books
+const words = podcasts
+  ? { group: 'Filtra i podcast', seen: 'Lo seguo', seenSr: 'Podcast seguiti', both: 'Seguiti e non', notYet: 'Non ancora seguiti', done: 'Già seguiti', provider: '', genre: '' }
+  : books
   ? { group: 'Filtra i libri', seen: 'Letto', seenSr: 'Libri letti', both: 'Letti e non', notYet: 'Non ancora letti', done: 'Già letti', provider: '', genre: '' }
   : series
   ? { group: 'Filtra le serie', seen: 'Vista', seenSr: 'Serie viste', both: 'Viste e non', notYet: 'Non ancora viste', done: 'Già viste', provider: 'Serie in abbonamento', genre: 'Serie' }
@@ -131,7 +135,7 @@ const showRt = ratings.some((r) => r?.rt);
 const showProviders = rowInfo.some((r) => r?.providers.length);
 ---
 
-<div class="chart" data-initial={INITIAL} data-seen-list={movies ? 'film' : series ? 'serie' : books ? 'libri' : undefined}>
+<div class="chart" data-initial={INITIAL} data-seen-list={movies ? 'film' : series ? 'serie' : books ? 'libri' : podcasts ? 'podcast' : undefined}>
   <div class="mb-3 flex flex-wrap items-center gap-3">
     <label class="relative min-w-0 flex-1 sm:max-w-xs">
       <span class="sr-only">Cerca nella classifica</span>
@@ -269,9 +273,9 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
           view.entries.map((e, i) => (
             <tr
               class="chart-row group hover:bg-gray-50 data-seen:bg-emerald-50 data-seen:shadow-[inset_4px_0_0_var(--color-emerald-500)] data-seen:hover:bg-emerald-100/70 dark:hover:bg-gray-800/50 dark:data-seen:bg-emerald-950/40 dark:data-seen:hover:bg-emerald-950/60"
-              data-key={movies || books ? e.key : series ? seriesSeenKey(e) : undefined}
+              data-key={movies || books ? e.key : series ? seriesSeenKey(e) : podcasts ? podcastKey(e.title) : undefined}
               data-watchable={movies ? '' : undefined}
-              data-alt-key={movies ? movieAltKey(e) : undefined}
+              data-alt-key={movies ? movieAltKey(e) : podcasts && e.externalId?.startsWith('spotify:') ? e.externalId : undefined}
               data-q={normalizeText(`${e.title} ${e.subtitle ?? ''}`)}
               data-extra={i >= INITIAL ? '' : undefined}
               data-genres={filters[i] && `|${filters[i].genres.join('|')}|`}
@@ -289,7 +293,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                 <div class="flex items-center gap-3">
                   {screen || books ? (
                     <Cover src={e.cover} title={e.title} poster sizeClass="h-21 w-14 sm:h-30 sm:w-20" />
-                  ) : category === 'canzoni' ? (
+                  ) : category === 'canzoni' || podcasts ? (
                     <Cover src={e.cover} title={e.title} sizeClass="h-16 w-16 sm:h-24 sm:w-24" />
                   ) : (
                     <Cover src={e.cover} title={e.title} poster={poster} size={poster ? 36 : 44} />
@@ -516,7 +520,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
     s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
   // Scelta del filtro sui film visti (o sulle serie viste), ricordata tra una visita e l'altra.
-  const SEEN_VIEW_KEY: Record<SeenList, string> = { film: 'vista:visti', serie: 'vista:serie-viste', libri: 'vista:letti' };
+  const SEEN_VIEW_KEY: Record<SeenList, string> = { film: 'vista:visti', serie: 'vista:serie-viste', libri: 'vista:letti', podcast: 'vista:podcast-seguiti' };
   const readView = (list: SeenList) => {
     try {
       return localStorage.getItem(SEEN_VIEW_KEY[list]) ?? '';
@@ -550,7 +554,7 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
 
     const seenSelect = root.querySelector<HTMLSelectElement>('[data-filter=seen]');
     const list = (root.dataset.seenList as SeenList | undefined) ?? 'film';
-    // Film spuntati con l'ID TMDB (sincronizzazione con Trakt): valgono per la riga del titolo.
+    // Film spuntati con l'ID TMDB (sincronizzazione con Trakt) e podcast con l'URI Spotify: valgono per la riga del titolo.
     for (const row of rows) if (row.dataset.altKey) aliasSeen(row.dataset.key!, row.dataset.altKey);
     const seen = seenKeys(list);
     /** Conteggi accanto alle voci del filtro: "Già visti (3)". */

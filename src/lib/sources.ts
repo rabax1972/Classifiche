@@ -36,6 +36,18 @@ export const SOURCES: Record<string, SourceInfo> = {
     homepage: 'https://books.apple.com/it/',
     attribution: 'Classifica ebook a pagamento di Apple Books Italia (RSS Marketing Tools).',
   },
+  'spotify-podcasts': {
+    id: 'spotify-podcasts',
+    name: 'Spotify',
+    homepage: 'https://podcastcharts.byspotify.com/it/top-podcasts',
+    attribution: 'Classifica "Top Podcasts" Italia di Spotify Podcast Charts.',
+  },
+  'apple-podcasts': {
+    id: 'apple-podcasts',
+    name: 'Apple Podcasts',
+    homepage: 'https://podcasts.apple.com/it/charts',
+    attribution: 'Classifica "Top podcast" Italia di Apple Podcasts (RSS Marketing Tools).',
+  },
   'tmdb-streaming': {
     id: 'tmdb-streaming',
     name: 'TMDB',
@@ -83,6 +95,8 @@ export interface CategoryConfig {
   description: string;
   /** Fonti degli snapshot giornalieri, in ordine di priorità: la prima disponibile vince. */
   snapshotSources: string[];
+  /** Una scheda per ogni fonte degli snapshot (classifiche diverse, es. Spotify e Apple Podcasts) invece della prima disponibile. */
+  viewPerSource?: boolean;
   /** Fonti ufficiali usate per periodo, quando esistono. */
   officialFor: Partial<Record<PeriodId, { source: string; periodType: 'week' | 'year' }>>;
   /** Nota mostrata sotto il titolo (limiti della fonte). */
@@ -126,6 +140,15 @@ export const CATEGORIES: Record<CategoryId, CategoryConfig> = {
     description: 'Le serie più popolari in streaming.',
     snapshotSources: ['tmdb-streaming', 'tmdb-trending'],
     officialFor: { settimana: { source: 'netflix', periodType: 'week' } },
+  },
+  podcast: {
+    id: 'podcast',
+    label: 'Podcast',
+    description: 'I podcast più ascoltati in Italia.',
+    snapshotSources: ['spotify-podcasts', 'apple-podcasts'],
+    viewPerSource: true,
+    officialFor: {},
+    note: 'Non esiste una classifica italiana dei podcast che comprenda tutte le piattaforme: qui ci sono quelle di Spotify e di Apple Podcasts, una per scheda.',
   },
 };
 

@@ -6,7 +6,7 @@
 //   npm run pubblica:aruba -- --no-build   usa la build già in dist/ (fatta con l'indirizzo di Aruba)
 //
 // Un catalogo delle liste personali si pubblica solo se la build aveva il suo file in privato/: su GitHub il workflow rifà quelli
-// di film e serie da Trakt (npm run import:trakt), mentre i libri letti di aNobii (niente API) arrivano solo dal PC. I file che non esistono più non si eliminano: restano raggiungibili ma non collegati.
+// di film e serie da Trakt (npm run import:trakt), mentre i libri letti di aNobii e i podcast seguiti su Spotify (dalle esportazioni) arrivano solo dal PC. I file che non esistono più non si eliminano: restano raggiungibili ma non collegati.
 // Non pubblica api/ né la configurazione del server: per quelli serve la distribuzione manuale (npm run dist:aruba).
 
 import { existsSync, readFileSync } from 'node:fs';
@@ -22,6 +22,7 @@ const PRIVATE_OUTPUTS: Record<string, string> = {
   'film/catalogo.json': 'privato/film-visti.json',
   'serie-tv/catalogo.json': 'privato/serie-viste.json',
   'libri/catalogo.json': 'privato/libri-letti.json',
+  'podcast/catalogo.json': 'privato/podcast-seguiti.json',
 };
 /** Certificati delle autorità per le richieste HTTPS del PHP di Aruba (che non li ha), dal sito di curl. */
 const CACERT_URL = 'https://curl.se/ca/cacert.pem';

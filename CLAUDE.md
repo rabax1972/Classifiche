@@ -2,8 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Sito statico "Classifiche Italia" (Astro + TypeScript + Tailwind 4): classifiche italiane di Canzoni, Libri, Cinema, Film, Serie TV
-per Oggi/Settimana/Mese/Anno, più liste curate statiche (album e libri "da avere"). Niente backend: i dati sono JSON in `data/`,
+Sito statico "Classifiche Italia" (Astro + TypeScript + Tailwind 4): classifiche italiane di Canzoni, Libri, Cinema, Film, Serie TV,
+Podcast per Oggi/Settimana/Mese/Anno, più liste curate statiche (album e libri "da avere"). Niente backend: i dati sono JSON in `data/`,
 generati da script Node e committati. Codice, commenti, testi del sito e messaggi di commit sono in italiano.
 
 ## Comandi
@@ -23,6 +23,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
   file di spunte in `privato/` (fuori da git), da importare a mano da `/account/` nell'account indicato
 - `npm run import:anobii` — libri letti dall'esportazione CSV di aNobii (il file più recente in `privato/`; aNobii non ha API e il suo
   robots.txt esclude i bot) in un file di spunte e nel catalogo `privato/libri-letti.json`
+- `npm run import:spotify` — podcast seguiti dall'esportazione dei dati dell'account Spotify (`YourLibrary.json` più recente in `privato/`,
+  anche in sottocartella; l'API web non va con un account free) in un file di spunte e nel catalogo `privato/podcast-seguiti.json`
 
 Gli script girano con `tsx`; le chiavi (`TMDB_READ_TOKEN` o `TMDB_API_KEY`, `LASTFM_API_KEY`, `CLASSIFICHE_CONTACT`) stanno in `.env`
 (vedi `.env.example`). Senza chiave le fonti relative vengono saltate. CI (`.github/workflows/ci.yml`): typecheck, test, build.
@@ -92,6 +94,10 @@ in cui sono state messe.
 Libri letti: spunta "Letto" (lista `letti`, chiave `entryKey` di titolo e primo autore) nella classifica Libri e nelle liste di libri;
 pagina `/libri-letti/` (`MyBooks.astro`) con `/libri/catalogo.json`: catalogo `privato/libri-letti.json` di `import:anobii` più i libri
 di classifica e liste.
+Podcast seguiti: spunta "Lo seguo" (lista `podcast-seguiti`, chiave `podcastKey()` del solo titolo, comune alle schede Spotify e Apple;
+alias l'URI `spotify:show:…`) nella classifica Podcast, con la riga evidenziata; pagina `/podcast/seguiti/` (`MyPodcasts.astro`) con
+`/podcast/catalogo.json`: catalogo `privato/podcast-seguiti.json` di `import:spotify` più i podcast delle classifiche.
+La categoria Podcast ha `viewPerSource` in `CATEGORIES`: una scheda per fonte (Spotify, Apple Podcasts) invece della prima disponibile.
 Profili pubblici (facoltativi, con consenso): tabella `profili` (nome pubblico unico, liste mostrate), azioni `profilo`, `pubblici`,
 `liste&u=` dell'API; sezione in `/account/` e pagina `/utenti/` che mostra le liste di un profilo con `MyMovies`/`MySeries`/`MyBooks`
 in sola lettura (`readonly`, spunte consegnate con `showPublicLists()` di `src/lib/my-list.ts`). I gruppi di liste pubblicabili sono

@@ -1,6 +1,6 @@
 // Schema dati condiviso tra script di ingestion, aggregazione e UI.
 
-export const CATEGORY_IDS = ['canzoni', 'libri', 'cinema', 'film', 'serie-tv'] as const;
+export const CATEGORY_IDS = ['canzoni', 'libri', 'cinema', 'film', 'serie-tv', 'podcast'] as const;
 export type CategoryId = (typeof CATEGORY_IDS)[number];
 
 export const PERIOD_IDS = ['oggi', 'settimana', 'mese', 'anno'] as const;
@@ -472,6 +472,25 @@ export interface SeenSeriesCatalog {
 export interface ReadBookCatalog {
   date: string;
   books: (ReadBook & { isbn: string | null })[];
+}
+
+/** Un podcast della pagina "I miei podcast" (/podcast/catalogo.json). */
+export interface FollowedPodcast {
+  title: string;
+  publisher: string | null;
+  cover: string | null;
+  /** Pagina del podcast su Spotify o, se manca, su Apple Podcasts. */
+  url: string | null;
+  /** Posizioni nelle classifiche di oggi (nome della fonte e posizione). */
+  ranks: { source: string; rank: number }[];
+  /** Chiavi della lista "podcast-seguiti" (podcastKey del titolo, URI Spotify): è seguito se ne è spuntata una. */
+  keys: string[];
+}
+
+/** File privato/podcast-seguiti.json (fuori da git), scritto da scripts/spotify-import.ts. */
+export interface FollowedPodcastCatalog {
+  date: string;
+  podcasts: Omit<FollowedPodcast, 'ranks'>[];
 }
 
 /** Un film della pagina da cui si aprono le modali di film e regista. */

@@ -1,6 +1,6 @@
 # Classifiche Italia
 
-Sito statico che raccoglie le classifiche italiane più popolari in 5 categorie: **Canzoni, Libri, Cinema, Film, Serie TV**.
+Sito statico che raccoglie le classifiche italiane più popolari in 6 categorie: **Canzoni, Libri, Cinema, Film, Serie TV, Podcast**.
 Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti gratuite e il cron di GitHub Actions: niente backend, niente costi.
 
 - **Stack**: Astro + TypeScript + Tailwind CSS, output completamente statico.
@@ -16,6 +16,7 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
 | Cinema | TMDB `movie/now_playing` (region IT), ordinati per popolarità | — | TMDB |
 | Film | TMDB `discover/movie` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
 | Serie TV | TMDB `discover/tv` disponibili in abbonamento in Italia. Riserva: TMDB trending | Settimana: Netflix Top 10 Italia | TMDB |
+| Podcast | Due schede: Spotify Podcast Charts "Top Podcasts" Italia e Apple Podcasts "Top podcast" Italia (RSS) | — | — |
 
 **I 100 dischi da avere assolutamente** (pagina `/album-da-avere/`): lista statica in [`data/curated/album-da-avere.json`](data/curated/album-da-avere.json), con la top 100 dei 500 migliori album di Rolling Stone (2003) ripresa da [Il Rocker](https://ilrockerofficial.weebly.com/il-rocker-classifica-100-album-rock-di-sempre.html). Le descrizioni sono originali. Le copertine si completano a mano con `npm run covers:album`: prima l'API di ricerca iTunes (discografia dell'artista, poi ricerca testuale), in mancanza Cover Art Archive (MusicBrainz). Nella stessa pagina si può passare alla seconda lista, **I 100 migliori album di sempre secondo Consequence** (`/album-da-avere/consequence/`, 2024, ripresa da [OndaRock](https://www.ondarock.it/news/migliori-album-rock-sempre-consequence-magazine/)), con le spunte condivise come per i libri. Ogni album ha la tracklist, completata con `npm run tracks:album`: brani da Apple Music (edizione standard se l'album abbinato è deluxe), con il link a ogni brano; per gli album assenti da Apple Music, da MusicBrainz. I link a Spotify sono ricerche: l'API di Spotify richiede una chiave.
 
@@ -32,6 +33,8 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
 ### Limiti da conoscere
 
 - **Libri**: non esistono classifiche librarie italiane gratuite e riutilizzabili. La classifica riflette solo gli ebook di Apple Books.
+- **Podcast**: non c'è una classifica unica per tutte le piattaforme, quindi la pagina ha una scheda per Spotify e una per Apple Podcasts. La classifica Spotify viene dal JSON della pagina podcastcharts.byspotify.com (una richiesta al giorno): le linee guida di Spotify vietano crawling e scraping, la fonte è usata con l'ok esplicito del proprietario del sito.
+- **Podcast seguiti**: l'API web di Spotify da febbraio 2026 richiede che il proprietario dell'app abbia Premium, quindi i podcast seguiti si importano dall'esportazione dei dati dell'account (`npm run import:spotify`, file `YourLibrary.json` in `privato/`), come i libri di aNobii.
 - **Cinema**: è la popolarità su TMDB dei film in sala, **non** gli incassi.
 - **TMDB**: i termini consentono di conservare i dati per massimo 6 mesi. Le conseguenze:
   - gli snapshot TMDB più vecchi di 180 giorni vengono cancellati automaticamente;
@@ -194,7 +197,7 @@ l'FTP da GitHub si blocca dopo molti file. Per questo:
   esiste un file in `mdb-database/sito/`; gli altri restano quelli statici.
 - I `catalogo.json` delle liste personali dipendono da file in `privato/` (fuori da git): ognuno si pubblica solo se la build aveva il
   suo. Il workflow, prima dei dati, rifà quelli di film e serie da Trakt (`npm run import:trakt`, secrets `TRAKT_…` e TMDB), così i film
-  visti compaiono in "I miei visti" il giorno dopo; i libri letti (aNobii, senza API) si pubblicano solo dal PC con
+  visti compaiono in "I miei visti" il giorno dopo; i libri letti (aNobii, senza API) e i podcast seguiti (esportazione di Spotify) si pubblicano solo dal PC con
   `npm run pubblica:aruba`. `api/`, `.htaccess` e `web.config` non passano mai di qui.
 - Avvio dal sito ([`public/api/_inc/aggiornamenti.php`](public/api/_inc/aggiornamenti.php)): alla prima visita del giorno da un browser
   (`?a=visita`, se quel giorno non c'è stata una pubblicazione e non c'è un avvio nelle ultime 3 ore) e dal pulsante
@@ -274,7 +277,7 @@ I file CSS e JS hanno l'hash nel nome: quelli vecchi rimasti sul server non dann
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Netflix Top 10. Voti IMDb: Information courtesy of IMDb (https://www.imdb.com). Used with permission. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
+Dati di ascolto: Last.fm. Classifiche: Apple Music, Apple Books, Apple Podcasts, Spotify Podcast Charts, Netflix Top 10. Voti IMDb: Information courtesy of IMDb (https://www.imdb.com). Used with permission. Classifiche FIMI tratte da Wikipedia (CC BY-SA 4.0).
 
 Schede: introduzioni e biografie da Wikipedia (CC BY-SA 4.0), foto da Wikimedia Commons con autore e licenza, presentazioni degli editori da Apple Books, trame e dati di film e serie da TMDB, disponibilità in streaming da JustWatch.
 

@@ -1,0 +1,200 @@
+---
+// Lista "I miei podcast" (pagina /podcast/seguiti/): tutti i podcast spuntati come seguiti (lista "podcast-seguiti"), anche fuori
+// dalle classifiche, con ricerca e ordinamento per titolo, editore o posizione nelle classifiche di oggi. I dati arrivano da
+// /podcast/catalogo.json (src/pages/podcast/catalogo.json.ts), scaricato all'apertura della pagina.
+import { href } from '../lib/data';
+
+const filterSelect = 'rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm dark:border-gray-700 dark:bg-gray-900';
+
+interface Props {
+  /** Liste di un profilo pubblico (pagina /utenti/): niente caselle da spuntare. */
+  readonly?: boolean;
+}
+const { readonly = false } = Astro.props;
+---
+
+<div class="my-podcasts" data-src={href('podcast/catalogo.json')} data-readonly={readonly ? '' : undefined}>
+  <p class="my-status py-6 text-center text-gray-600 dark:text-gray-400" aria-live="polite">Caricamento dei podcast…</p>
+
+  <div class="my-body" hidden>
+    <div class="mb-3 flex flex-wrap items-center gap-3">
+      <label class="relative min-w-0 flex-1 sm:max-w-xs">
+        <span class="sr-only">Cerca tra i podcast</span>
+        <svg class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input
+          type="search"
+          data-search
+          class="w-full rounded-lg border border-gray-300 bg-white py-2 pr-3 pl-9 text-sm placeholder:text-gray-500 dark:border-gray-700 dark:bg-gray-900"
+          placeholder="Cerca per titolo o editore…"
+          autocomplete="off"
+        />
+      </label>
+      <label class="flex items-center gap-2 text-sm">
+        <span class="text-gray-600 dark:text-gray-400">Ordina per</span>
+        <select class={filterSelect} data-sort>
+          <option value="classifica">Posizione in classifica</option>
+          <option value="titolo">Titolo (A–Z)</option>
+          <option value="editore">Editore (A–Z)</option>
+        </select>
+      </label>
+      <label class="flex items-center gap-2 text-sm">
+        <input type="checkbox" data-charted class="size-4 cursor-pointer accent-emerald-600" />
+        Solo quelli in classifica oggi
+      </label>
+      <p class="my-count text-sm text-gray-600 dark:text-gray-400" aria-live="polite"></p>
+    </div>
+
+    <div class="overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+      <ul class="my-list divide-y divide-gray-100 dark:divide-gray-800"></ul>
+      <p class="my-empty hidden px-4 py-10 text-center text-gray-600 dark:text-gray-400">Nessun podcast per questa ricerca.</p>
+    </div>
+    <p class="mt-2 text-xs text-gray-600 dark:text-gray-400">Copertine da Spotify e Apple Podcasts.</p>
+  </div>
+</div>
+
+<script>
+  import { normalizeText } from '../lib/aggregate';
+  import { batched, coverBox, el, pref, tickSource, whenVisible } from '../lib/my-list';
+  import { TICK_EVENT, getTicks, setTicks, type TickChange } from '../lib/ticks';
+  import type { FollowedPodcast } from '../lib/types';
+
+  const STORE = 'podcast-seguiti';
+  const SORT_KEY = 'vista:ordine-podcast';
+
+  for (const root of document.querySelectorAll<HTMLElement>('.my-podcasts')) {
+    const $ = <T extends Element = HTMLElement>(sel: string) => root.querySelector<T>(sel)!;
+    const src = tickSource(root, getTicks);
+    const status = $('.my-status');
+    const body = $('.my-body');
+    const list = $('.my-list');
+    const empty = $('.my-empty');
+    const count = $('.my-count');
+    const search = $<HTMLInputElement>('[data-search]');
+    const sort = $<HTMLSelectElement>('[data-sort]');
+    const charted = $<HTMLInputElement>('[data-charted]');
+
+    let podcasts: FollowedPodcast[] = [];
+    let mine: FollowedPodcast[] = [];
+    /** Podcast appena tolti da qui: restano in elenco fino al prossimo cambio di ricerca o ordine. */
+    const removedHere = new Set<FollowedPodcast>();
+    let changingHere = false;
+    let loaded = false;
+
+    const savedSort = pref.get(SORT_KEY);
+    if ([...sort.options].some((o) => o.value === savedSort)) sort.value = savedSort;
+
+    const isFollowed = (p: FollowedPodcast, ticks: Set<string>) => p.keys.some((k) => ticks.has(k));
+    const collect = () => {
+      const ticks = src.get(STORE);
+      mine = podcasts.filter((p) => isFollowed(p, ticks) || removedHere.has(p));
+    };
+
+    const it = (a: string, b: string) => a.localeCompare(b, 'it', { sensitivity: 'base', numeric: true });
+    const byTitle = (a: FollowedPodcast, b: FollowedPodcast) => it(a.title, b.title);
+    /** Miglior posizione di oggi tra le classifiche (fuori classifica in fondo). */
+    const best = (p: FollowedPodcast) => Math.min(...p.ranks.map((r) => r.rank), Infinity);
+    const sorters: Record<string, (a: FollowedPodcast, b: FollowedPodcast) => number> = {
+      titolo: byTitle,
+      editore: (a, b) => it(a.publisher ?? '~', b.publisher ?? '~') || byTitle(a, b),
+      classifica: (a, b) => best(a) - best(b) || byTitle(a, b),
+    };
+
+    const row = (p: FollowedPodcast) => {
+      const li = el('li', 'flex items-start gap-3 px-3 py-3');
+      const text = el('div', 'min-w-0');
+      if (p.url) {
+        const a = el('a', 'font-semibold break-words underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300', p.title);
+        Object.assign(a, { href: p.url, rel: 'noopener', target: '_blank' });
+        a.append(el('span', 'sr-only', ' (si apre in una nuova scheda)'));
+        text.append(a);
+      } else text.append(el('p', 'font-semibold break-words', p.title));
+      if (p.publisher) text.append(el('p', 'text-gray-600 break-words dark:text-gray-400', p.publisher));
+      if (p.ranks.length) {
+        const line = el('div', 'mt-1.5 flex flex-wrap items-center gap-2 text-xs');
+        for (const r of p.ranks)
+          line.append(el('span', 'rounded-md bg-emerald-50 px-1.5 py-0.5 font-semibold text-emerald-800 ring-1 ring-emerald-200 dark:bg-emerald-950/60 dark:text-emerald-300 dark:ring-emerald-900', `${r.rank}° su ${r.source} oggi`));
+        text.append(line);
+      }
+      const label = el('label', 'mt-1 inline-flex cursor-pointer items-center gap-1.5 text-xs font-medium text-gray-700 select-none dark:text-gray-300');
+      const box = el('input', 'size-3.5 cursor-pointer accent-emerald-600');
+      box.type = 'checkbox';
+      box.checked = isFollowed(p, src.get(STORE));
+      box.addEventListener('change', () => {
+        if (box.checked) removedHere.delete(p);
+        else removedHere.add(p);
+        changingHere = true;
+        // Tolta da tutte le chiavi del podcast (basta una per contarlo seguito), messa sulla prima.
+        setTicks(STORE, box.checked ? [p.keys[0]!] : p.keys, box.checked);
+        changingHere = false;
+        countText();
+      });
+      label.append(box, 'Lo seguo', el('span', 'sr-only', `: ${p.title}`));
+      if (!src.readOnly) text.append(label);
+      li.append(coverBox(p.cover, 'h-16 w-16 sm:h-20 sm:w-20'), text);
+      return li;
+    };
+
+    let shown: FollowedPodcast[] = [];
+    const countText = () => {
+      const total = mine.filter((p) => isFollowed(p, src.get(STORE))).length;
+      count.textContent = shown.length === mine.length ? `${total} podcast` : `${shown.length} su ${mine.length} podcast`;
+    };
+    const render = () => {
+      const q = normalizeText(search.value);
+      shown = mine
+        .filter((p) => (!q || normalizeText(`${p.title} ${p.publisher ?? ''}`).includes(q)) && (!charted.checked || p.ranks.length > 0))
+        .sort(sorters[sort.value] ?? byTitle);
+      list.replaceChildren(...shown.map(row));
+      empty.classList.toggle('hidden', shown.length > 0);
+      countText();
+    };
+    const changed = () => {
+      if (removedHere.size) {
+        removedHere.clear();
+        collect();
+      }
+      render();
+    };
+    const showAll = () => {
+      collect();
+      const any = mine.length > 0;
+      status.hidden = any;
+      body.hidden = !any;
+      if (!any)
+        status.textContent = src.readOnly
+          ? 'Questa lista è vuota.'
+          : 'Non segui ancora nessun podcast: spunta "Lo seguo" nella classifica Podcast o importa i podcast che segui su Spotify dalla pagina Account.';
+      render();
+    };
+
+    search.addEventListener('input', changed);
+    charted.addEventListener('change', changed);
+    sort.addEventListener('change', () => {
+      pref.set(SORT_KEY, sort.value);
+      changed();
+    });
+    // Spunte arrivate dall'account o da un'altra scheda del browser (un solo aggiornamento per una raffica di eventi).
+    const refresh = batched(showAll);
+    document.addEventListener(TICK_EVENT, (ev) => {
+      if (src.readOnly || changingHere || !loaded || (ev as CustomEvent<TickChange>).detail.store !== STORE) return;
+      refresh();
+    });
+
+    let started = false;
+    const start = async () => {
+      if (started) return;
+      started = true;
+      try {
+        const [res] = await Promise.all([fetch(root.dataset.src!), src.ready]);
+        if (!res.ok) throw new Error(String(res.status));
+        podcasts = ((await res.json()) as { podcasts: FollowedPodcast[] }).podcasts;
+      } catch {
+        status.textContent = 'Non è stato possibile caricare i podcast: riprova più tardi.';
+        return;
+      }
+      loaded = true;
+      showAll();
+    };
+    whenVisible(root, () => void start());
+  }
+</script>

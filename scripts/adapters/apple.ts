@@ -51,6 +51,16 @@ export const appleBooks: SourceAdapter = {
   },
 };
 
+export const applePodcasts: SourceAdapter = {
+  id: 'apple-podcasts',
+  dailyCategories: ['podcast'],
+  async fetchDaily() {
+    const entries = parseAppleFeed(await fetchJson<AppleFeed>(`${RSS}/podcasts/top/50/podcasts.json`), this.id);
+    // Quando manca l'editore il feed scrive "Unknown".
+    return cleanEntries(entries.map((e) => (e.subtitle === 'Unknown' ? { ...e, subtitle: null } : e)));
+  },
+};
+
 // ---------------------------------------------------------------- copertine (iTunes Search)
 
 export interface ItunesCover {

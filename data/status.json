@@ -64,6 +64,22 @@
     "entries": 50
   },
   {
+    "source": "apple-podcasts",
+    "category": "podcast",
+    "ok": true,
+    "lastAttempt": "2026-10-21T14:40:22.292Z",
+    "lastSuccess": "2026-10-21T14:40:22.292Z",
+    "entries": 50
+  },
+  {
+    "source": "spotify-podcasts",
+    "category": "podcast",
+    "ok": true,
+    "lastAttempt": "2026-10-21T14:40:21.352Z",
+    "lastSuccess": "2026-10-21T14:40:21.352Z",
+    "entries": 50
+  },
+  {
     "source": "netflix",
     "category": "serie-tv",
     "ok": true,

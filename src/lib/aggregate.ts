@@ -95,6 +95,16 @@ export function entryKey(e: Pick<ChartEntry, 'title' | 'subtitle'>): string {
   return `${normalizeText(e.title)}|${firstSub}`;
 }
 
+/**
+ * Chiave di un podcast nella lista "podcast-seguiti": solo il titolo, perché Spotify e Apple scrivono l'editore in modo diverso
+ * (o non lo scrivono), e solo la parte prima di " - " o ": " ("SEIETRENTA - La rassegna stampa di Chora Media" su Apple è
+ * "SEIETRENTA" altrove).
+ */
+export function podcastKey(title: string): string {
+  const short = normalizeText(title.split(/\s[-–—|:]\s|:\s/)[0]);
+  return `podcast:${short.length >= 3 ? short : normalizeText(title)}`;
+}
+
 // ---------------------------------------------------------------- snapshot
 
 export interface DailyList {

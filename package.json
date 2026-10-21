@@ -22,6 +22,7 @@
     "update": "npm run ingest && npm run imdb:top && npm run aggregate && npm run info:canzoni && npm run info:libri && npm run info:film && npm run ratings:film && npm run info:serie",
     "import:trakt": "tsx scripts/trakt-import.ts",
     "import:anobii": "tsx scripts/anobii-import.ts",
+    "import:spotify": "tsx scripts/spotify-import.ts",
     "dist:aruba": "tsx scripts/dist-aruba.ts",
     "pubblica:aruba": "tsx scripts/pubblica-aruba.ts",
     "api:dev": "php -S 127.0.0.1:8787 -t public",

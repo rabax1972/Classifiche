@@ -15,7 +15,7 @@ const VERIFY_HOURS = 48;
 const RESET_HOURS = 1;
 const UNVERIFIED_DAYS = 7;
 /** Liste di spunte accettate: film visti e da vedere, serie viste, episodi visti, libri letti, titoli posseduti delle liste curate (src/lib/ticks.ts). */
-const LIST_PATTERN = '/^(visti|da-vedere|serie-viste|episodi-visti|letti|posseduti:[a-z0-9-]{1,60})$/';
+const LIST_PATTERN = '/^(visti|da-vedere|serie-viste|episodi-visti|letti|podcast-seguiti|posseduti:[a-z0-9-]{1,60})$/';
 const MAX_KEY_LENGTH = 300;
 /**
  * Liste che un utente può rendere pubbliche nel suo profilo (pagina /utenti/), con le liste di spunte che comprendono.

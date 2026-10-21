@@ -1,6 +1,7 @@
-import { appleBooks, appleMusic } from './apple';
+import { appleBooks, appleMusic, applePodcasts } from './apple';
 import { lastfm } from './lastfm';
 import { netflix } from './netflix';
+import { spotifyPodcasts } from './spotify';
 import { tmdbNowPlaying, tmdbStreaming, tmdbTrending } from './tmdb';
 import type { SourceAdapter } from './types';
 import { wikipediaFimi } from './wikipedia';
@@ -15,4 +16,6 @@ export const ADAPTERS: SourceAdapter[] = [
   tmdbStreaming,
   tmdbTrending,
   netflix,
+  spotifyPodcasts,
+  applePodcasts,
 ];

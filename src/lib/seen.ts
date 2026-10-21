@@ -2,14 +2,16 @@
 // (localStorage del browser e, con l'account collegato, sul server).
 // Film: chiave entryKey, comune a Cinema e Film. Serie: l'ID TMDB quando è noto (src/lib/data.ts, seriesSeenKey).
 // Libri: chiave entryKey (titolo e primo autore), comune alla classifica e alle liste "Libri da avere".
+// Podcast seguiti: chiave podcastKey (titolo), comune alle schede Spotify e Apple; l'URI Spotify ("spotify:show:…",
+// dall'esportazione dei dati di Spotify, scripts/spotify-import.ts) è un alias come l'ID TMDB dei film.
 // Ogni cambio (anche quelli arrivati dall'account) è annunciato con SEEN_EVENT, così tabella e modale restano allineate.
 // Un film può essere spuntato anche con l'ID TMDB ("movie:{id}", es. dalla sincronizzazione con Trakt, src/lib/trakt-sync.ts):
 // la pagina registra l'alias con aliasSeen() e quella spunta vale come quella del titolo in classifica.
 
 import { TICK_EVENT, getTicks, setTick, setTicks, type TickChange } from './ticks';
 
-export type SeenList = 'film' | 'serie' | 'libri';
-const STORE: Record<SeenList, string> = { film: 'visti', serie: 'serie-viste', libri: 'letti' };
+export type SeenList = 'film' | 'serie' | 'libri' | 'podcast';
+const STORE: Record<SeenList, string> = { film: 'visti', serie: 'serie-viste', libri: 'letti', podcast: 'podcast-seguiti' };
 export const SEEN_EVENT = 'visti:cambio';
 /** Solo le spunte messe dall'utente (non quelle arrivate dall'account): es. per proporre di segnare anche gli episodi. */
 export const SEEN_CHOICE_EVENT = 'visti:scelta';

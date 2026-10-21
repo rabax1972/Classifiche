@@ -2,8 +2,8 @@
 
 import { pathToFileURL } from 'node:url';
 import { entryKey, toDailyLists } from '../src/lib/aggregate';
-import { buildPeriodChart, rankingView, type CoverResolver } from '../src/lib/build';
-import { CATEGORIES } from '../src/lib/sources';
+import { buildPeriodChart, rankingView, snapshotView, type CoverResolver } from '../src/lib/build';
+import { CATEGORIES, sourceName } from '../src/lib/sources';
 import { CATEGORY_IDS, PERIOD_IDS, type OfficialChart } from '../src/lib/types';
 import { ITUNES_COVER_CACHE, type ItunesCover } from './adapters/apple';
 import { COVER_CACHE, coverKey, mediaFor, type CoverLookup } from './adapters/tmdb';
@@ -29,13 +29,22 @@ export async function buildCharts() {
   console.log(`Aggregazione ${today}`);
   for (const category of CATEGORY_IDS) {
     const cfg = CATEGORIES[category];
-    const lists = toDailyLists(await readSnapshots(category), cfg.snapshotSources);
+    const snapshots = await readSnapshots(category);
+    // Di solito la prima fonte disponibile del giorno; con viewPerSource (Podcast) una scheda per fonte, col suo nome.
+    const [main, ...others] = cfg.viewPerSource ? cfg.snapshotSources.map((s) => [s]) : [cfg.snapshotSources];
+    const lists = toDailyLists(snapshots, main!);
+    const otherLists = others.map((sources) => toDailyLists(snapshots, sources));
     for (const period of PERIOD_IDS) {
       const o = cfg.officialFor[period];
       const official: OfficialChart[] = o
         ? (await readOfficial(category, o.periodType)).filter((c) => c.source === o.source)
         : [];
       const chart = buildPeriodChart({ category, period, lists, official, resolveCover, today, generatedAt });
+      for (const l of otherLists) {
+        const v = snapshotView(category, period, l);
+        if (v) chart.views.push(v);
+      }
+      if (cfg.viewPerSource) for (const v of chart.views) v.label = sourceName(v.sources[0]!);
       if (category === 'film' && imdbView) chart.views.push(imdbView);
       await saveChart(chart);
       const summary = chart.views.map((v) => `${v.label}: ${v.entries.length}`).join(', ') || 'vuota';
