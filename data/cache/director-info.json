@@ -1822,6 +1822,58 @@
     },
     "fetchedAt": "2026-10-17T09:36:10.172Z"
   },
+  "cecile allegra": {
+    "value": {
+      "tmdbId": 1721435,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1222522,
+          "title": "Criature",
+          "year": "2024"
+        },
+        {
+          "id": 1422461,
+          "title": "Il mio nome è Battaglia",
+          "year": "2024"
+        },
+        {
+          "id": 817519,
+          "title": "Le Chant des Vivants",
+          "year": "2023"
+        },
+        {
+          "id": 818433,
+          "title": "Le Chant des vivants",
+          "year": "2023"
+        },
+        {
+          "id": 591850,
+          "title": "Unspeakable Crime",
+          "year": "2018"
+        },
+        {
+          "id": 1357794,
+          "title": "Mafia and Italy: A Bloody Pact",
+          "year": "2017"
+        },
+        {
+          "id": 399597,
+          "title": "Electricité, le montant de la facture",
+          "year": "2016"
+        },
+        {
+          "id": 1131030,
+          "title": "Voyage en barbarie",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:21.696Z"
+  },
   "charlie chaplin": {
     "value": {
       "tmdbId": 13848,
@@ -3398,6 +3450,89 @@
     },
     "fetchedAt": "2026-10-17T09:33:13.702Z"
   },
+  "eleanor coppola": {
+    "value": {
+      "tmdbId": 37872,
+      "wiki": {
+        "lang": "it",
+        "title": "Eleanor Coppola",
+        "url": "https://it.wikipedia.org/wiki/Eleanor_Coppola",
+        "extract": "Eleanor Jessie Coppola, nata Eleanor Jessie Neil (Los Angeles, 4 maggio 1936 – Rutherford, 12 aprile 2024) è stata una regista, sceneggiatrice e artista statunitense.\n\nMembro della famiglia Coppola, fu sposata con il regista Francis Ford Coppola dal 1963 fino alla sua morte. È ricordata soprattutto per il documentario Viaggio all'inferno (Hearts of Darkness: A Filmmaker's Apocalypse), dedicato alla complessa lavorazione del film Apocalypse Now, oltre che per altri documentari che raccontano il dietro le quinte delle opere cinematografiche realizzate dal marito e dai figli."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Eleanor_Coppola_%2815562774472%29_%28cropped%29.jpg/500px-Eleanor_Coppola_%2815562774472%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eleanor_Coppola_(15562774472)_(cropped).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1754364,
+          "title": "Making Marie Antoinette",
+          "year": "2026"
+        },
+        {
+          "id": 680590,
+          "title": "Love Is Love Is Love",
+          "year": "2021"
+        },
+        {
+          "id": 375867,
+          "title": "Parigi può attendere",
+          "year": "2016"
+        },
+        {
+          "id": 164121,
+          "title": "Coda: Thirty Years Later",
+          "year": "2007"
+        },
+        {
+          "id": 1653628,
+          "title": "Francis Ford Coppola Directs 'John Grisham's the Rainmaker'",
+          "year": "2007"
+        },
+        {
+          "id": 723125,
+          "title": "The Making of Marie Antoinette",
+          "year": "2007"
+        },
+        {
+          "id": 598278,
+          "title": "The Making of The Virgin Suicides",
+          "year": "2000"
+        },
+        {
+          "id": 1653632,
+          "title": "A Visit to China’s Miao Country",
+          "year": "1996"
+        },
+        {
+          "id": 4539,
+          "title": "Viaggio all'inferno",
+          "year": "1991"
+        },
+        {
+          "id": 1530959,
+          "title": "Peeling a Potato Is a Work of Art",
+          "year": "1976"
+        },
+        {
+          "id": 1530966,
+          "title": "Victorian House",
+          "year": "1976"
+        },
+        {
+          "id": 1531642,
+          "title": "Joyce Goldstein",
+          "year": "1976"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:08.612Z"
+  },
   "eric toledano": {
     "value": {
       "tmdbId": 84425,
@@ -3654,6 +3789,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:07.114Z"
+  },
+  "francesco scandroglio": {
+    "value": {
+      "tmdbId": 6527323,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1790279,
+          "title": "Tre passi",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:10.925Z"
   },
   "francis ford coppola": {
     "value": {
@@ -4036,6 +4188,78 @@
       ]
     },
     "fetchedAt": "2026-10-20T04:53:36.110Z"
+  },
+  "gavin o connor": {
+    "value": {
+      "tmdbId": 77003,
+      "wiki": {
+        "lang": "it",
+        "title": "Gavin O'Connor (regista)",
+        "url": "https://it.wikipedia.org/wiki/Gavin_O'Connor_(regista)",
+        "extract": "Gavin O'Connor (Huntington, 24 dicembre 1963) è un regista, sceneggiatore, produttore cinematografico, commediografo e attore statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/zf3MHvbf2uKC4UbsuFHQYLz48g.jpg",
+      "films": [
+        {
+          "id": 468021,
+          "title": "My War Gone By, I Miss It So",
+          "year": null
+        },
+        {
+          "id": 1580264,
+          "title": "Running",
+          "year": null
+        },
+        {
+          "id": 870028,
+          "title": "The Accountant 2",
+          "year": "2025"
+        },
+        {
+          "id": 529485,
+          "title": "Tornare a vincere",
+          "year": "2020"
+        },
+        {
+          "id": 302946,
+          "title": "The Accountant",
+          "year": "2016"
+        },
+        {
+          "id": 174751,
+          "title": "Jane Got a Gun",
+          "year": "2015"
+        },
+        {
+          "id": 59440,
+          "title": "Warrior",
+          "year": "2011"
+        },
+        {
+          "id": 13150,
+          "title": "Pride and Glory - Il prezzo dell'onore",
+          "year": "2008"
+        },
+        {
+          "id": 14292,
+          "title": "Miracle",
+          "year": "2004"
+        },
+        {
+          "id": 55123,
+          "title": "In cerca d'amore",
+          "year": "1999"
+        },
+        {
+          "id": 348894,
+          "title": "Comfortably Numb",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:19.291Z"
   },
   "gene kelly": {
     "value": {
@@ -4617,6 +4841,39 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:58:06.100Z"
+  },
+  "harris dickinson": {
+    "value": {
+      "tmdbId": 1716493,
+      "wiki": {
+        "lang": "it",
+        "title": "Harris Dickinson",
+        "url": "https://it.wikipedia.org/wiki/Harris_Dickinson",
+        "extract": "Harris Dickinson (Leytonstone, 24 giugno 1996) è un attore britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Harris_Dickinson_%28cropped%29.jpg/500px-Harris_Dickinson_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Harris_Dickinson_(cropped).jpg",
+        "author": "Montclair Film Festival",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1283320,
+          "title": "Urchin",
+          "year": "2025"
+        },
+        {
+          "id": 872790,
+          "title": "2003",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:06.776Z"
   },
   "hayao miyazaki": {
     "value": {
@@ -6266,6 +6523,78 @@
     },
     "fetchedAt": "2026-10-17T09:37:13.811Z"
   },
+  "jonathan lynn": {
+    "value": {
+      "tmdbId": 21217,
+      "wiki": {
+        "lang": "it",
+        "title": "Jonathan Lynn",
+        "url": "https://it.wikipedia.org/wiki/Jonathan_Lynn",
+        "extract": "Jonathan Lynn (Bath, 3 aprile 1943) è un attore, regista e sceneggiatore britannico."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/q1yanpd0HSPOENuyU267euwIdgY.jpg",
+      "films": [
+        {
+          "id": 44147,
+          "title": "Wild Target - Una valigia per tre",
+          "year": "2010"
+        },
+        {
+          "id": 22309,
+          "title": "The Fighting Temptations",
+          "year": "2003"
+        },
+        {
+          "id": 2069,
+          "title": "FBI: Protezione testimoni",
+          "year": "2000"
+        },
+        {
+          "id": 17770,
+          "title": "Ancora più scemo",
+          "year": "1997"
+        },
+        {
+          "id": 9099,
+          "title": "Sergente Bilko",
+          "year": "1996"
+        },
+        {
+          "id": 12778,
+          "title": "Caro zio Joe",
+          "year": "1994"
+        },
+        {
+          "id": 10411,
+          "title": "Il distinto gentiluomo",
+          "year": "1992"
+        },
+        {
+          "id": 10377,
+          "title": "Mio cugino Vincenzo",
+          "year": "1992"
+        },
+        {
+          "id": 11131,
+          "title": "Suore in fuga",
+          "year": "1990"
+        },
+        {
+          "id": 15196,
+          "title": "Signori, il delitto è servito",
+          "year": "1985"
+        },
+        {
+          "id": 287108,
+          "title": "Arms and the Man",
+          "year": "1983"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:12.853Z"
+  },
   "joseph kosinski": {
     "value": {
       "tmdbId": 86270,
@@ -6333,6 +6662,49 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:21.453Z"
+  },
+  "josephine bornebusch": {
+    "value": {
+      "tmdbId": 116612,
+      "wiki": {
+        "lang": "it",
+        "title": "Josephine Bornebusch",
+        "url": "https://it.wikipedia.org/wiki/Josephine_Bornebusch",
+        "extract": "Leyla Jerrie Josephine Bornebusch (Stoccolma, 12 settembre 1981) è un'attrice, regista e sceneggiatrice svedese."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Josephine_Bornebusch_-2.jpg/500px-Josephine_Bornebusch_-2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Josephine_Bornebusch_-2.jpg",
+        "author": "Frankie Fouganthin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1623256,
+          "title": "Stormen",
+          "year": "2026"
+        },
+        {
+          "id": 1214484,
+          "title": "Let Go",
+          "year": "2024"
+        },
+        {
+          "id": 760179,
+          "title": "Orca",
+          "year": "2020"
+        },
+        {
+          "id": 528489,
+          "title": "LasseMajas detektivbyrå - Det första mysteriet",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:15.334Z"
   },
   "josh cooley": {
     "value": {
@@ -6700,6 +7072,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:20.936Z"
+  },
+  "kim jin eui": {
+    "value": {
+      "tmdbId": 6548585,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1797226,
+          "title": "하이브 치어링 파티",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:09.947Z"
   },
   "kitao sakurai": {
     "value": {
@@ -7650,6 +8039,28 @@
     },
     "fetchedAt": "2026-10-17T09:34:14.597Z"
   },
+  "matthew walker": {
+    "value": {
+      "tmdbId": 5422659,
+      "wiki": {
+        "lang": "it",
+        "title": "Matthew Walker (attore)",
+        "url": "https://it.wikipedia.org/wiki/Matthew_Walker_(attore)",
+        "extract": "Matthew Walker (11 aprile 1942) è un attore canadese."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/4tPi8hWclvYBlGDESsCbKBEMzfn.jpg",
+      "films": [
+        {
+          "id": 1477104,
+          "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:06.438Z"
+  },
   "mel gibson": {
     "value": {
       "tmdbId": 2461,
@@ -7976,6 +8387,78 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:10.779Z"
+  },
+  "michael thurmeier": {
+    "value": {
+      "tmdbId": 229962,
+      "wiki": {
+        "lang": "it",
+        "title": "Mike Thurmeier",
+        "url": "https://it.wikipedia.org/wiki/Mike_Thurmeier",
+        "extract": "Michael \"Mike\" Thurmeier (Regina, 1975) è un regista e animatore canadese.\n\nLavora nei Blue Sky Studios ed è famoso per aver diretto L'era glaciale 3 - L'alba dei dinosauri nel 2009, L'era glaciale 4 - Continenti alla deriva nel 2012 e L'era glaciale - In rotta di collisione nel 2016."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/fXi2JKf428XSpJqMa57XoVVsU5F.jpg",
+      "films": [
+        {
+          "id": 364692,
+          "title": "Anubis",
+          "year": null
+        },
+        {
+          "id": 1099868,
+          "title": "Today’s Holiday Moments are Tomorrow’s Memories",
+          "year": "2022"
+        },
+        {
+          "id": 421725,
+          "title": "Scrat: Catapultato nello spazio",
+          "year": "2016"
+        },
+        {
+          "id": 278154,
+          "title": "L'era glaciale - In rotta di collisione",
+          "year": "2016"
+        },
+        {
+          "id": 367326,
+          "title": "L'era glaciale - Scrat-tastrofe cosmica",
+          "year": "2015"
+        },
+        {
+          "id": 1552964,
+          "title": "Ice Age: No Time for Nuts 4-D",
+          "year": "2015"
+        },
+        {
+          "id": 57800,
+          "title": "L'era glaciale 4 - Continenti alla deriva",
+          "year": "2012"
+        },
+        {
+          "id": 98857,
+          "title": "L'Era Glaciale - Un continente di risate - Parte 2",
+          "year": "2011"
+        },
+        {
+          "id": 55692,
+          "title": "L'Era Glaciale - Un continente di risate - Parte 1",
+          "year": "2010"
+        },
+        {
+          "id": 63516,
+          "title": "Scrat in Love",
+          "year": "2009"
+        },
+        {
+          "id": 46247,
+          "title": "L'Era Glaciale Special 2: Una ghianda è per sempre",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:20.625Z"
   },
   "michel gondry": {
     "value": {
@@ -8502,6 +8985,89 @@
     },
     "fetchedAt": "2026-10-17T09:32:16.069Z"
   },
+  "neil marshall": {
+    "value": {
+      "tmdbId": 57581,
+      "wiki": {
+        "lang": "it",
+        "title": "Neil Marshall",
+        "url": "https://it.wikipedia.org/wiki/Neil_Marshall",
+        "extract": "Neil Marshall (Newcastle upon Tyne, 25 maggio 1970) è un regista, sceneggiatore e montatore britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Neil_Marshall_2006.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Neil_Marshall_2006.JPG",
+        "author": "Lindsey8417",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 716238,
+          "title": "Eagle's Nest",
+          "year": null
+        },
+        {
+          "id": 1474108,
+          "title": "Gunn",
+          "year": null
+        },
+        {
+          "id": 1589768,
+          "title": "Skeleton Coast",
+          "year": null
+        },
+        {
+          "id": 1596922,
+          "title": "London, I Love You",
+          "year": null
+        },
+        {
+          "id": 1636276,
+          "title": "Keep Young and Beautiful",
+          "year": "2025"
+        },
+        {
+          "id": 1109406,
+          "title": "Compulsion",
+          "year": "2024"
+        },
+        {
+          "id": 1005076,
+          "title": "Duchess",
+          "year": "2024"
+        },
+        {
+          "id": 760204,
+          "title": "The Lair",
+          "year": "2022"
+        },
+        {
+          "id": 587130,
+          "title": "The Reckoning",
+          "year": "2021"
+        },
+        {
+          "id": 456740,
+          "title": "Hellboy",
+          "year": "2019"
+        },
+        {
+          "id": 306964,
+          "title": "Tales of Halloween",
+          "year": "2015"
+        },
+        {
+          "id": 322484,
+          "title": "Game of Thrones The IMAX Experience",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:19.680Z"
+  },
   "nicola prosatore": {
     "value": {
       "tmdbId": 2100384,
@@ -8962,6 +9528,28 @@
     },
     "fetchedAt": "2026-10-18T17:58:19.058Z"
   },
+  "park sang geun": {
+    "value": {
+      "tmdbId": 5361732,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1797226,
+          "title": "하이브 치어링 파티",
+          "year": "2026"
+        },
+        {
+          "id": 1493640,
+          "title": "하이브 시네마 노래방",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:08.907Z"
+  },
   "pascal bonitzer": {
     "value": {
       "tmdbId": 64750,
@@ -9351,6 +9939,43 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:58:08.087Z"
+  },
+  "phil claydon": {
+    "value": {
+      "tmdbId": 82822,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1141205,
+          "title": "Peter Pan Goes to Hell",
+          "year": null
+        },
+        {
+          "id": 1355583,
+          "title": "Helloween",
+          "year": "2025"
+        },
+        {
+          "id": 291413,
+          "title": "Within - Presenze",
+          "year": "2016"
+        },
+        {
+          "id": 18238,
+          "title": "Lesbian Vampire Killers",
+          "year": "2009"
+        },
+        {
+          "id": 41740,
+          "title": "Alone - Riesci a sentire la paura?",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:17.710Z"
   },
   "phil lord": {
     "value": {
@@ -10530,6 +11155,74 @@
     },
     "fetchedAt": "2026-10-17T09:32:20.202Z"
   },
+  "ryan coogler": {
+    "value": {
+      "tmdbId": 1056121,
+      "wiki": {
+        "lang": "it",
+        "title": "Ryan Coogler",
+        "url": "https://it.wikipedia.org/wiki/Ryan_Coogler",
+        "extract": "Ryan Kyle Coogler (Oakland, 23 maggio 1986) è un regista, sceneggiatore e produttore cinematografico statunitense.\n\nAnnoverato tra i migliori registi della sua generazione, Coogler ha vinto un premio Oscar alla migliore sceneggiatura originale per il film I peccatori , un premio BAFTA,  un Grammy Award, un Golden Globe, dieci NAACP Image Awards e quattro Black Reel Awards.\n\nHa diretto film di successo come Prossima fermata Fruitvale Station (2013), Creed - Nato per combattere (2015), Black Panther (2018), Black Panther: Wakanda Forever (2022) e I peccatori (2025)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ryan_Coogler_-_Sinners_2025_%28cropped%29.jpg/500px-Ryan_Coogler_-_Sinners_2025_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ryan_Coogler_-_Sinners_2025_(cropped).jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1386618,
+          "title": "Black Panther 3",
+          "year": "2028"
+        },
+        {
+          "id": 1233413,
+          "title": "I peccatori",
+          "year": "2025"
+        },
+        {
+          "id": 505642,
+          "title": "Black Panther: Wakanda Forever",
+          "year": "2022"
+        },
+        {
+          "id": 284054,
+          "title": "Black Panther",
+          "year": "2018"
+        },
+        {
+          "id": 312221,
+          "title": "Creed - Nato per combattere",
+          "year": "2015"
+        },
+        {
+          "id": 157354,
+          "title": "Prossima fermata: Fruitvale Station",
+          "year": "2013"
+        },
+        {
+          "id": 112990,
+          "title": "Fig",
+          "year": "2011"
+        },
+        {
+          "id": 1650636,
+          "title": "The Sculptor",
+          "year": "2011"
+        },
+        {
+          "id": 375351,
+          "title": "Locks",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:16.385Z"
+  },
   "sam hargrave": {
     "value": {
       "tmdbId": 1120883,
@@ -11158,6 +11851,36 @@
     },
     "fetchedAt": "2026-10-18T17:58:04.938Z"
   },
+  "steve cox": {
+    "value": {
+      "tmdbId": 2934273,
+      "wiki": null,
+      "bio": {
+        "text": "Steve Cox is a director and animator at Aardman Animations.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/9CW1aXdetfjAuU52LKzlbKDqNOe.jpg",
+      "films": [
+        {
+          "id": 1477104,
+          "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
+          "year": "2026"
+        },
+        {
+          "id": 1204548,
+          "title": "L'Incroyable Noël de Shaun le Mouton et de Timmy",
+          "year": "2023"
+        },
+        {
+          "id": 785545,
+          "title": "Shaun, vita da pecora - Missione Natale",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:05.219Z"
+  },
   "steve hudson": {
     "value": {
       "tmdbId": 55352,
@@ -11377,6 +12100,69 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:02.995Z"
+  },
+  "theodore melfi": {
+    "value": {
+      "tmdbId": 1141683,
+      "wiki": {
+        "lang": "it",
+        "title": "Theodore Melfi",
+        "url": "https://it.wikipedia.org/wiki/Theodore_Melfi",
+        "extract": "Theodore Melfi (New York, 27 ottobre 1970) è un regista, produttore cinematografico e sceneggiatore statunitense.\n\nItaloamericano di New York, è conosciuto soprattutto per i film St. Vincent del 2014, per il quale ha ricevuto la nomination al Golden Globe per il miglior film commedia o musicale, e Il diritto di contare del 2016. È di origine italiana."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Theodore_Melfi_%28cropped%29.jpg/500px-Theodore_Melfi_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Theodore_Melfi_(cropped).jpg",
+        "author": "Bill Ingalls",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1100785,
+          "title": "Underworld",
+          "year": null
+        },
+        {
+          "id": 616007,
+          "title": "Fruitloops",
+          "year": null
+        },
+        {
+          "id": 468225,
+          "title": "Il nido dello storno",
+          "year": "2021"
+        },
+        {
+          "id": 466696,
+          "title": "The Black Ghiandola",
+          "year": "2017"
+        },
+        {
+          "id": 381284,
+          "title": "Il diritto di contare",
+          "year": "2016"
+        },
+        {
+          "id": 239563,
+          "title": "St. Vincent",
+          "year": "2014"
+        },
+        {
+          "id": 210799,
+          "title": "The Beneficiary",
+          "year": "2008"
+        },
+        {
+          "id": 535103,
+          "title": "Winding Roads",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:17.311Z"
   },
   "thomas vincent": {
     "value": {
@@ -11753,6 +12539,59 @@
     },
     "fetchedAt": "2026-10-18T17:57:20.702Z"
   },
+  "travis knight": {
+    "value": {
+      "tmdbId": 1033661,
+      "wiki": {
+        "lang": "it",
+        "title": "Travis Knight (animatore)",
+        "url": "https://it.wikipedia.org/wiki/Travis_Knight_(animatore)",
+        "extract": "Travis Andrew Knight (Hillsboro, 13 settembre 1973) è un animatore, produttore cinematografico e regista statunitense.\n\nCon un passato da rapper con lo pseudonimo Chilly Tee, attualmente è presidente e amministratore delegato della Laika Entertainment, oltre a far parte del consiglio di amministrazione della Nike."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Travis_Knight_%2830000495292%29.jpg/500px-Travis_Knight_%2830000495292%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Travis_Knight_(30000495292).jpg",
+        "author": "Thierry Sollerot from Vernon (Eure, Hte Normandie), FRANCE",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 968308,
+          "title": "The Night Gardener",
+          "year": null
+        },
+        {
+          "id": 1307044,
+          "title": "Piranesi",
+          "year": null
+        },
+        {
+          "id": 791523,
+          "title": "Wildwood - I segreti del bosco proibito",
+          "year": "2026"
+        },
+        {
+          "id": 454639,
+          "title": "Masters of the Universe",
+          "year": "2026"
+        },
+        {
+          "id": 424783,
+          "title": "Bumblebee",
+          "year": "2018"
+        },
+        {
+          "id": 313297,
+          "title": "Kubo e la spada magica",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:00.711Z"
+  },
   "tyler atkins": {
     "value": {
       "tmdbId": 1895348,
@@ -11860,6 +12699,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:37:06.008Z"
+  },
+  "walter veltroni": {
+    "value": {
+      "tmdbId": 1048220,
+      "wiki": {
+        "lang": "it",
+        "title": "Walter Veltroni",
+        "url": "https://it.wikipedia.org/wiki/Walter_Veltroni",
+        "extract": "Walter Veltroni (Roma, 3 luglio 1955) è un politico, giornalista, scrittore e regista italiano.\n\nEletto sindaco di Roma una prima volta nel 2001, è stato poi riconfermato nel 2006 e si è dimesso da tale carica il 13 febbraio 2008 per candidarsi alle elezioni politiche dell'aprile successivo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Walter_Veltroni_2008_crop.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Walter_Veltroni_2008_crop.jpg",
+        "author": "Iaconianni family",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1713924,
+          "title": "L'assurda storia della Gialappa's Band",
+          "year": "2026"
+        },
+        {
+          "id": 1192446,
+          "title": "DallAmeriCaruso - Il concerto perduto",
+          "year": "2023"
+        },
+        {
+          "id": 614431,
+          "title": "Quando",
+          "year": "2023"
+        },
+        {
+          "id": 1248108,
+          "title": "Ora tocca a noi. Storia di Pio La Torre",
+          "year": "2022"
+        },
+        {
+          "id": 875843,
+          "title": "È stato tutto bello - Storia di Paolino e Pablito",
+          "year": "2022"
+        },
+        {
+          "id": 772901,
+          "title": "Edizione straordinaria",
+          "year": "2020"
+        },
+        {
+          "id": 656949,
+          "title": "Fabrizio De André e PFM - Il concerto ritrovato",
+          "year": "2020"
+        },
+        {
+          "id": 580023,
+          "title": "C'è tempo",
+          "year": "2019"
+        },
+        {
+          "id": 501205,
+          "title": "Tutto davanti a questi occhi",
+          "year": "2018"
+        },
+        {
+          "id": 458907,
+          "title": "Indizi di felicità",
+          "year": "2017"
+        },
+        {
+          "id": 361204,
+          "title": "Milano 2015",
+          "year": "2015"
+        },
+        {
+          "id": 337014,
+          "title": "I bambini sanno",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:49:11.827Z"
   },
   "will lovelace": {
     "value": {

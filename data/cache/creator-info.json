@@ -16,6 +16,79 @@
     },
     "fetchedAt": "2026-10-17T12:49:25.398Z"
   },
+  "alex kurtzman": {
+    "value": {
+      "tmdbId": 15345,
+      "wiki": {
+        "lang": "it",
+        "title": "Alex Kurtzman",
+        "url": "https://it.wikipedia.org/wiki/Alex_Kurtzman",
+        "extract": "Alexander Hilary Kurtzman, detto Alex (Los Angeles, 7 settembre 1973), è uno sceneggiatore, regista, produttore cinematografico e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Alex_Kurtzman_San_Diego_Comic_Con_2019.jpg/500px-Alex_Kurtzman_San_Diego_Comic_Con_2019.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Alex_Kurtzman_San_Diego_Comic_Con_2019.jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 103516,
+          "title": "Star Trek: Strange New Worlds",
+          "year": "2022"
+        },
+        {
+          "id": 118663,
+          "title": "L'uomo che cadde sulla Terra",
+          "year": "2022"
+        },
+        {
+          "id": 103302,
+          "title": "Clarice",
+          "year": "2021"
+        },
+        {
+          "id": 85949,
+          "title": "Star Trek: Picard",
+          "year": "2020"
+        },
+        {
+          "id": 82491,
+          "title": "Star Trek: Short Treks",
+          "year": "2018"
+        },
+        {
+          "id": 67198,
+          "title": "Star Trek: Discovery",
+          "year": "2017"
+        },
+        {
+          "id": 50825,
+          "title": "Sleepy Hollow",
+          "year": "2013"
+        },
+        {
+          "id": 32910,
+          "title": "Transformers: Prime",
+          "year": "2010"
+        },
+        {
+          "id": 32798,
+          "title": "Hawaii Five-0",
+          "year": "2010"
+        },
+        {
+          "id": 1705,
+          "title": "Fringe",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:46.662Z"
+  },
   "alexi hawley": {
     "value": {
       "tmdbId": 67855,
@@ -87,6 +160,31 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:12.531Z"
+  },
+  "andre barro": {
+    "value": {
+      "tmdbId": 1714518,
+      "wiki": null,
+      "bio": {
+        "text": "André Barro is a Canadian television producer.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/xD37vRbcp81TP24kpDFqqP0FeJW.jpg",
+      "series": [
+        {
+          "id": 60760,
+          "title": "Air Disasters",
+          "year": "2011"
+        },
+        {
+          "id": 90,
+          "title": "Indagini ad alta quota",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:44.683Z"
   },
   "andrew w marlowe": {
     "value": {
@@ -340,6 +438,33 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:00.433Z"
+  },
+  "bernard vaillot": {
+    "value": {
+      "tmdbId": 1706457,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 228675,
+          "title": "Situations d'urgence",
+          "year": "2017"
+        },
+        {
+          "id": 60760,
+          "title": "Air Disasters",
+          "year": "2011"
+        },
+        {
+          "id": 90,
+          "title": "Indagini ad alta quota",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:43.677Z"
   },
   "bill lawrence": {
     "value": {
@@ -685,6 +810,23 @@
     },
     "fetchedAt": "2026-10-17T12:50:01.396Z"
   },
+  "charlie mills": {
+    "value": {
+      "tmdbId": 1215806,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 357,
+          "title": "The Trap Door",
+          "year": "1986"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:50.878Z"
+  },
   "chris mundy": {
     "value": {
       "tmdbId": 1258079,
@@ -748,6 +890,28 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:56.412Z"
+  },
+  "christopher storer": {
+    "value": {
+      "tmdbId": 1057655,
+      "wiki": {
+        "lang": "it",
+        "title": "Christopher Storer",
+        "url": "https://it.wikipedia.org/wiki/Christopher_Storer",
+        "extract": "Christopher Storer (Park Ridge, 5 luglio 1981) è uno sceneggiatore, produttore televisivo e regista statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/kG6I1GlaUtENJoJzrP7uxiJovy9.jpg",
+      "series": [
+        {
+          "id": 136315,
+          "title": "The Bear",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:36.449Z"
   },
   "chuck lorre": {
     "value": {
@@ -1108,6 +1272,28 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:54.369Z"
+  },
+  "debora cahn": {
+    "value": {
+      "tmdbId": 1219520,
+      "wiki": {
+        "lang": "it",
+        "title": "Debora Cahn",
+        "url": "https://it.wikipedia.org/wiki/Debora_Cahn",
+        "extract": "Debora Cahn (...) è una sceneggiatrice, produttrice cinematografica e produttrice televisiva statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/h2kLzLBFQh5LugBl9kf3ucmD9u2.jpg",
+      "series": [
+        {
+          "id": 203857,
+          "title": "The Diplomat",
+          "year": "2023"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:52.104Z"
   },
   "derek haas": {
     "value": {
@@ -2163,6 +2349,38 @@
     },
     "fetchedAt": "2026-10-17T12:50:18.878Z"
   },
+  "linda wallem": {
+    "value": {
+      "tmdbId": 1212453,
+      "wiki": {
+        "lang": "en",
+        "title": "Linda Wallem",
+        "url": "https://en.wikipedia.org/wiki/Linda_Wallem",
+        "extract": "Linda Wallem (born May 29, 1961) is an American actress, writer, and producer, best known for creating the Showtime medical comedy-drama Nurse Jackie, and for her roles as Doctor Paula Hutchison, Virginia Wolfe, and numerous other female characters on Rocko's Modern Life and Rocko's Modern Life: Static Cling."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/qYlKcPnvmexE3ZvkVjsC2KjMKH5.jpg",
+      "series": [
+        {
+          "id": 18053,
+          "title": "Nurse Jackie - Terapia d'urto",
+          "year": "2009"
+        },
+        {
+          "id": 2689,
+          "title": "That '80s Show",
+          "year": "2002"
+        },
+        {
+          "id": 1231,
+          "title": "Days Like These",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:42.373Z"
+  },
   "link neal": {
     "value": {
       "tmdbId": 1176586,
@@ -2223,6 +2441,33 @@
     },
     "fetchedAt": "2026-10-17T12:50:03.703Z"
   },
+  "liz brixius": {
+    "value": {
+      "tmdbId": 1246799,
+      "wiki": {
+        "lang": "en",
+        "title": "Liz Brixius",
+        "url": "https://en.wikipedia.org/wiki/Liz_Brixius",
+        "extract": "Liz Brixius is an American television writer and producer.\n\nIn 2008 Brixius, Linda Wallem, and Evan Dunsky, created the series Nurse Jackie, a half-hour drama about a \"flawed\" emergency room nurse in a New York City hospital. Starring Edie Falco of The Sopranos, the series premiered on Showtime in June 2009, with Wallem and Brixius serving as showrunners for the series and sharing executive producer duties with Caryn Mandabach.\n\nBrixius left Nurse Jackie in the spring of 2012 after signing a two-year development deal with Universal TV.\n\nBrixius was engaged to producer Ali Adler. They broke up in May 2017."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 58941,
+          "title": "Girlfriend in a Coma",
+          "year": null
+        },
+        {
+          "id": 18053,
+          "title": "Nurse Jackie - Terapia d'urto",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:42.696Z"
+  },
   "lloyd morrisett": {
     "value": {
       "tmdbId": 1217334,
@@ -2276,6 +2521,59 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:25.794Z"
+  },
+  "mara brock akil": {
+    "value": {
+      "tmdbId": 183230,
+      "wiki": {
+        "lang": "it",
+        "title": "Mara Brock Akil",
+        "url": "https://it.wikipedia.org/wiki/Mara_Brock_Akil",
+        "extract": "Mara Brock Akil (Los Angeles, 27 maggio 1970) è una sceneggiatrice e produttrice televisiva statunitense.\n\nÈ stata creatrice di serie televisive di successo quali  Girlfriends, The Game e Being Mary Jane: la seconda le ha conferito un NAACP Image Award, mentre con la terza ha ricevuto il medesimo riconoscimento e un Black Reel Award."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mara_Brock_Akil.jpg/500px-Mara_Brock_Akil.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mara_Brock_Akil.jpg",
+        "author": "A Bullseye View (Target online magazine)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 248394,
+          "title": "Per sempre",
+          "year": "2025"
+        },
+        {
+          "id": 138233,
+          "title": "The Game",
+          "year": "2021"
+        },
+        {
+          "id": 54897,
+          "title": "Love Is___",
+          "year": "2018"
+        },
+        {
+          "id": 54511,
+          "title": "Being Mary Jane",
+          "year": "2013"
+        },
+        {
+          "id": 211,
+          "title": "The Game",
+          "year": "2006"
+        },
+        {
+          "id": 2398,
+          "title": "Girlfriends",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:38.298Z"
   },
   "marc cherry": {
     "value": {
@@ -2629,6 +2927,23 @@
     },
     "fetchedAt": "2026-10-17T12:50:13.539Z"
   },
+  "miranda nation": {
+    "value": {
+      "tmdbId": 75126,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 271823,
+          "title": "Playing Gracie Darling",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:53.147Z"
+  },
   "nick santora": {
     "value": {
       "tmdbId": 78417,
@@ -2866,6 +3181,102 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:02.719Z"
+  },
+  "robert thorogood": {
+    "value": {
+      "tmdbId": 1364632,
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Thorogood",
+        "url": "https://it.wikipedia.org/wiki/Robert_Thorogood",
+        "extract": "Robert Thorogood (Colchester, 1º gennaio 1972) è uno sceneggiatore e scrittore britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/RTfullsizeoutput_14fa.jpg/500px-RTfullsizeoutput_14fa.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:RTfullsizeoutput_14fa.jpg",
+        "author": "Kratchenkertatch",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 244978,
+          "title": "Ritorno in Paradiso",
+          "year": "2024"
+        },
+        {
+          "id": 228079,
+          "title": "The Marlow Murder Club",
+          "year": "2024"
+        },
+        {
+          "id": 205072,
+          "title": "Oltre il paradiso",
+          "year": "2023"
+        },
+        {
+          "id": 94923,
+          "title": "Trackers",
+          "year": "2019"
+        },
+        {
+          "id": 41956,
+          "title": "Delitti in Paradiso",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:36.173Z"
+  },
+  "roberto orci": {
+    "value": {
+      "tmdbId": 15346,
+      "wiki": {
+        "lang": "it",
+        "title": "Roberto Orci",
+        "url": "https://it.wikipedia.org/wiki/Roberto_Orci",
+        "extract": "Roberto Gaston Orcí, meglio noto come Roberto Orci (Città del Messico, 20 luglio 1973 – Los Angeles, 25 febbraio 2025), è stato uno sceneggiatore, produttore cinematografico e produttore televisivo messicano con cittadinanza statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Roberto_Orci_by_Gage_Skidmore.jpg/500px-Roberto_Orci_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Roberto_Orci_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 61225,
+          "title": "Matador",
+          "year": "2014"
+        },
+        {
+          "id": 50825,
+          "title": "Sleepy Hollow",
+          "year": "2013"
+        },
+        {
+          "id": 32910,
+          "title": "Transformers: Prime",
+          "year": "2010"
+        },
+        {
+          "id": 32798,
+          "title": "Hawaii Five-0",
+          "year": "2010"
+        },
+        {
+          "id": 1705,
+          "title": "Fringe",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:45.733Z"
   },
   "ronan bennett": {
     "value": {
@@ -3321,6 +3732,28 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:59.402Z"
+  },
+  "terry brain": {
+    "value": {
+      "tmdbId": 1215807,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 2926,
+          "title": "Bump",
+          "year": "1990"
+        },
+        {
+          "id": 357,
+          "title": "The Trap Door",
+          "year": "1986"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-21T04:53:51.162Z"
   },
   "thomas astruc": {
     "value": {

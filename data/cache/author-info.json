@@ -39,6 +39,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "abigail blackman": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "agatha christie": {
     "value": {
       "wiki": {
@@ -67,6 +76,35 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "ajani oloye": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "alafair burke": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Alafair Burke",
+        "url": "https://it.wikipedia.org/wiki/Alafair_Burke",
+        "extract": "Alafair S. Burke (Fort Lauderdale, 16 ottobre 1969) è una scrittrice e magistrato statunitense, autrice bestseller del New York Times. È figlia dello scrittore James Lee Burke."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Alafair_Burke.jpg/500px-Alafair_Burke.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Alafair_Burke.jpg",
+        "author": "Mark Coggins",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/alafair-burke/65523719",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
   "alain fournier": {
     "value": {
@@ -257,6 +295,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.745Z"
   },
+  "alessandro alciato": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandro Alciato",
+        "url": "https://it.wikipedia.org/wiki/Alessandro_Alciato",
+        "extract": "Alessandro Alciato (Biella, 21 settembre 1977) è un giornalista e scrittore italiano."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "alessandro manzoni": {
     "value": {
       "wiki": {
@@ -405,6 +457,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "amanda richardson": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/amanda-richardson/489059078",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
   "ana huang": {
     "value": {
@@ -991,6 +1052,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "chloe walsh": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/chloe-walsh/826056162",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "claude levi strauss": {
     "value": {
       "wiki": {
@@ -1565,6 +1635,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "federico rampini": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Federico Rampini",
+        "url": "https://it.wikipedia.org/wiki/Federico_Rampini",
+        "extract": "Federico Rampini (Genova, 25 marzo 1956) è un giornalista e saggista italiano naturalizzato statunitense, editorialista del Corriere della Sera da New York. In precedenza, è stato vicedirettore de Il Sole 24 Ore e, dal 1997 al 2021, corrispondente estero per la Repubblica."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Federico_Rampini_-_Festival_Economia_2015.JPG/500px-Federico_Rampini_-_Festival_Economia_2015.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Federico_Rampini_-_Festival_Economia_2015.JPG",
+        "author": "Niccolò Caranti",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/federico-rampini/467353925",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "fedor dostoevskij": {
     "value": {
       "wiki": {
@@ -1626,6 +1716,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "francesco totti": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
   "francois mauriac": {
     "value": {
@@ -2728,6 +2827,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "jordi lafebre": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Jordi Lafebre",
+        "url": "https://en.wikipedia.org/wiki/Jordi_Lafebre",
+        "extract": "Jordi Lafebre (born 1979) is a Spanish illustrator and comic book artist and writer active in the Franco-Belgian market."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Jordi_Lafebre_october_2014.jpg/500px-Jordi_Lafebre_october_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jordi_Lafebre_october_2014.jpg",
+        "author": "Selbymay",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/jordi-lafebre/650438424",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "jorge luis borges": {
     "value": {
       "wiki": {
@@ -3052,6 +3171,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "linda castillo": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Linda Castillo",
+        "url": "https://it.wikipedia.org/wiki/Linda_Castillo",
+        "extract": "Linda Castillo (Dayton, 1960) è una scrittrice statunitense, nota come autrice di libri gialli.\n\nNel corso della sua carriera ha pubblicato circa una trentina di libri, tradotti in 14 Paesi, e si è aggiudicata vari premi letterari, tra cui il Daphne du Maurier Award of Excellence. Le sue pubblicazioni più note sono rappresentate dalla serie di gialli ambientati tra gli Amish, che hanno per protagonista la detective Kate Burkholder."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/linda-castillo/318651930",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
   "liz tomforde": {
     "value": {
@@ -3391,6 +3524,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "mel robbins": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Mel Robbins",
+        "url": "https://en.wikipedia.org/wiki/Mel_Robbins",
+        "extract": "Melanie Lee Robbins (née Schneeberger; born October 6, 1968) is an American author, podcast host, and lawyer.\n\nRobbins gained recognition for her TEDx talk, How to Stop Screwing Yourself Over. Her books include Stop Saying You're Fine (2011), The 5 Second Rule (2017), The High 5 Habit (2021), and The Let Them Theory (2024). She has been hosting The Mel Robbins Podcast since 2022."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/mel-robbins/151132127",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "michael connelly": {
     "value": {
       "wiki": {
@@ -3491,6 +3638,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "michela proietti": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/michela-proietti/1530365629",
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
   "miguel de cervantes": {
     "value": {
       "wiki": {
@@ -3559,6 +3715,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "mokumokuren": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
   "morena d f": {
     "value": {

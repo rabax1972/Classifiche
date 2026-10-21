@@ -715,6 +715,94 @@
     },
     "fetchedAt": "2026-10-19T04:48:50.541Z"
   },
+  "below|miniserie": {
+    "value": {
+      "tmdbId": 285322,
+      "title": "Below",
+      "overview": "Quando una misteriosa creatura marina semina il terrore in una cittadina di Terranova, un burbero pescatore e la sua famiglia lottano per proteggere la loro affiatata comunità.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 37,
+      "firstAired": "2026-10-08",
+      "lastAired": "2026-10-08",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 6,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Miniserie",
+          "date": "2026-10-08",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.3,
+      "votes": 174,
+      "poster": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "creators": [
+        {
+          "id": 159780,
+          "name": "Jesse McKeown"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Josh Hartnett",
+          "character": "Calvin Penney"
+        },
+        {
+          "name": "Mackenzie Davis",
+          "character": "Dr. Fonda Howander"
+        },
+        {
+          "name": "Charlie Heaton",
+          "character": "Wade Penney"
+        },
+        {
+          "name": "Ruby Stokes",
+          "character": "Mary Penney"
+        },
+        {
+          "name": "Kaleb Horn",
+          "character": "Noah Townsend"
+        },
+        {
+          "name": "Rohan Campbell",
+          "character": "Jay Penney"
+        },
+        {
+          "name": "Willow Kean",
+          "character": "Ruth Penney"
+        },
+        {
+          "name": "Mary Walsh",
+          "character": "Mayor Linda Best"
+        }
+      ],
+      "trailer": "U57CNxSgoss",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/285322-below/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.987Z"
+  },
   "bleach|2004": {
     "value": {
       "tmdbId": 30984,
@@ -2319,6 +2407,203 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.254Z"
   },
+  "delitti in paradiso|robert thorogood 2011": {
+    "value": {
+      "tmdbId": 41956,
+      "title": "Delitti in Paradiso",
+      "overview": "La serie si svolge nella splendida cornice di una piccola isola caraibica, Saint-Marie, dove il poliziotto Richard Poole, britannico doc, viene inviato per risolvere un misterioso omicidio.Poole si ritrova in una fatiscente stazione di polizia a lavorare con una nuova partner, la brillante Camille Bordey, in un ambiente totalmente diverso da tutto ciò a cui lui è abituato. Lui è un tipo da giacca, cravatta e mocassini... in spiaggia. Nonostante ciò, pur essendo assolutamente un pesce fuor d'acqua in questo paradiso terrestre, si dimostrerà all’altezza di risolvere ogni caso che si presenterà di episodio in episodio.",
+      "overviewLang": "it",
+      "tagline": "Delitti in Paradiso",
+      "originalTitle": "Death in Paradise",
+      "genres": [
+        "Commedia",
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 53,
+      "firstAired": "2011-10-25",
+      "lastAired": "2026-03-27",
+      "status": "Returning Series",
+      "seasons": 15,
+      "episodes": 120,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-10-25",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2013-01-08",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2014-01-14",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2015-01-08",
+          "episodes": 8
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2016-01-07",
+          "episodes": 8
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2017-01-05",
+          "episodes": 8
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2018-01-04",
+          "episodes": 8
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2019-01-10",
+          "episodes": 8
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2020-01-09",
+          "episodes": 8
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2021-01-07",
+          "episodes": 8
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2022-01-07",
+          "episodes": 8
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2023-01-06",
+          "episodes": 8
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2024-02-04",
+          "episodes": 8
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2025-01-31",
+          "episodes": 8
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2026-01-30",
+          "episodes": 8
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2021-12-26",
+          "episodes": 7
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "BBC One"
+      ],
+      "vote": 7.5,
+      "votes": 348,
+      "poster": "https://image.tmdb.org/t/p/w500/d3lJvKFXTtCtZ4VgXJtsetym5Hh.jpg",
+      "creators": [
+        {
+          "id": 1364632,
+          "name": "Robert Thorogood"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kris Marshall",
+          "character": "Humphrey Goodman"
+        },
+        {
+          "name": "Ben Miller",
+          "character": "Richard Poole"
+        },
+        {
+          "name": "Sara Martins",
+          "character": "Camille Bordey"
+        },
+        {
+          "name": "Don Warrington",
+          "character": "Selwyn Patterson"
+        },
+        {
+          "name": "Élisabeth Bourgine",
+          "character": "Catherine Bordey"
+        },
+        {
+          "name": "Shyko Amos",
+          "character": "Ruby Patterson"
+        },
+        {
+          "name": "Gary Carr",
+          "character": "Fidel Best"
+        },
+        {
+          "name": "Aude Legastelois",
+          "character": "Madeleine Dumas"
+        }
+      ],
+      "trailer": "f9B6dljC7ag",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/41956-death-in-paradise/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.486Z"
+  },
   "desperate housewives i segreti di wisteria lane|marc cherry 2004": {
     "value": {
       "tmdbId": 693,
@@ -3129,6 +3414,137 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.582Z"
   },
+  "girlfriends|mara brock akil 2000": {
+    "value": {
+      "tmdbId": 2398,
+      "title": "Girlfriends",
+      "overview": "A friend group of black women face life's tests and triumphs together. From dating to divorce, and friends to family to relationships, Joan, Maya, Lynn and Toni support each other despite their differing backgrounds.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 30,
+      "firstAired": "2000-09-11",
+      "lastAired": "2008-02-11",
+      "status": "Ended",
+      "seasons": 8,
+      "episodes": 172,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2000-09-11",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2001-09-10",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2002-09-23",
+          "episodes": 25
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2003-09-15",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2004-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2005-09-19",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2006-10-02",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2007-10-01",
+          "episodes": 13
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "UPN",
+        "The CW"
+      ],
+      "vote": 7.3,
+      "votes": 48,
+      "poster": "https://image.tmdb.org/t/p/w500/buFnsyWEg4pPR7dco5Vbsm6HCIY.jpg",
+      "creators": [
+        {
+          "id": 183230,
+          "name": "Mara Brock Akil"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tracee Ellis Ross",
+          "character": "Joan Clayton"
+        },
+        {
+          "name": "Golden Brooks",
+          "character": "Maya Wilkes"
+        },
+        {
+          "name": "Persia White",
+          "character": "Lynn Searcy"
+        },
+        {
+          "name": "Jill Marie Jones",
+          "character": "Toni Childs-Garrett"
+        },
+        {
+          "name": "Reggie Hayes",
+          "character": "William Dent"
+        },
+        {
+          "name": "Khalil Kain",
+          "character": "Darnell Wilkes"
+        },
+        {
+          "name": "Rhonda Ross Kendrick",
+          "character": "Laurie"
+        },
+        {
+          "name": "Sinbad",
+          "character": "Sinbad"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/2398-girlfriends/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Hoichoi",
+            "logo": "https://image.tmdb.org/t/p/w92/8dgAD4EzQWMsyudVwWCFg19998L.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.692Z"
+  },
   "good mythical morning|rhett mclaughlin": {
     "value": {
       "tmdbId": 65701,
@@ -3732,6 +4148,179 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.527Z"
+  },
+  "hawaii five 0|roberto orci": {
+    "value": {
+      "tmdbId": 32798,
+      "title": "Hawaii Five-0",
+      "overview": "Crime poliziesco, remake della famosa serie anni '70 che segue le vicende di un gruppo d'élite della polizia Hawaiana che segue soltanto i crimini più sensazionali e risponde direttamente al Governatore.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Action & Adventure"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "2010-09-20",
+      "lastAired": "2020-04-03",
+      "status": "Ended",
+      "seasons": 10,
+      "episodes": 240,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2011-09-19",
+          "episodes": 23
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2012-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2013-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2014-09-26",
+          "episodes": 25
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2015-09-25",
+          "episodes": 25
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2016-09-23",
+          "episodes": 25
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2017-09-29",
+          "episodes": 25
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2018-09-28",
+          "episodes": 25
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2019-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 41
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "CBS"
+      ],
+      "vote": 7.7,
+      "votes": 1914,
+      "poster": "https://image.tmdb.org/t/p/w500/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg",
+      "creators": [
+        {
+          "id": 15346,
+          "name": "Roberto Orci"
+        },
+        {
+          "id": 15345,
+          "name": "Alex Kurtzman"
+        },
+        {
+          "id": 58839,
+          "name": "Peter M. Lenkov"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alex O'Loughlin",
+          "character": "Steve McGarrett"
+        },
+        {
+          "name": "Scott Caan",
+          "character": "Danny 'Danno' Williams"
+        },
+        {
+          "name": "Ian Anthony Dale",
+          "character": "Adam Noshimuri"
+        },
+        {
+          "name": "Grace Park",
+          "character": "Kono Kalakaua"
+        },
+        {
+          "name": "Meaghan Rath",
+          "character": "Tani Rey"
+        },
+        {
+          "name": "Daniel Dae Kim",
+          "character": "Chin Ho Kelly"
+        },
+        {
+          "name": "Beulah Koale",
+          "character": "Junior Reigns"
+        },
+        {
+          "name": "Dennis Chun",
+          "character": "Duke Lukela"
+        }
+      ],
+      "trailer": "xy30TGdaEAE",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/32798-hawaii-five-0/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.986Z"
   },
   "i griffin|seth macfarlane 1999": {
     "value": {
@@ -4434,6 +5023,255 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.271Z"
+  },
+  "indagini ad alta quota|bernard vaillot": {
+    "value": {
+      "tmdbId": 90,
+      "title": "Indagini ad alta quota",
+      "overview": "Indagini ad alta quota (Mayday in lingua originale, conosciuto anche come Air Emergency o Air Crash Investigation) è un programma televisivo documentaristico canadese prodotto dalla Cineflix. Il programma analizza incidenti, mancati incidenti (near miss), dirottamenti e attentati aerei realmente accaduti per mezzo di ricostruzioni sceneggiate e immagini generate al computer e basandosi su rapporti ufficiali e testimonianze oculari. In ogni episodio esperti di aviazione, piloti, testimoni e investigatori sono intervistati sulle cause dell'incidente analizzato e sulle modalità di investigazione. Ripercorrendo la sequenza di eventi a partire dalle prove disponibili, ciascun documentario si propone di ricostruire con precisione la dinamica degli eventi e al contempo di illustrare le raccomandazioni e le prescrizioni introdotte a seguito degli incidenti stessi, per evitare il ripetersene.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Mayday",
+      "genres": [
+        "Documentario",
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 46,
+      "firstAired": "2003-09-03",
+      "lastAired": "2026-04-06",
+      "status": "Returning Series",
+      "seasons": 26,
+      "episodes": 240,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2003-09-03",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2005-01-23",
+          "episodes": 6
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2005-09-14",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2007-04-15",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-04-09",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2007-12-16",
+          "episodes": 3
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2009-11-04",
+          "episodes": 8
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2009-06-10",
+          "episodes": 2
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2010-09-08",
+          "episodes": 8
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2011-02-28",
+          "episodes": 6
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2011-08-12",
+          "episodes": 13
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2012-08-03",
+          "episodes": 13
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2013-12-16",
+          "episodes": 10
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2015-01-05",
+          "episodes": 11
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2016-01-02",
+          "episodes": 10
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2016-06-07",
+          "episodes": 10
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2017-02-20",
+          "episodes": 10
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2018-02-13",
+          "episodes": 10
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2019-01-02",
+          "episodes": 10
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2020-01-09",
+          "episodes": 10
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2021-04-04",
+          "episodes": 10
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2022-01-10",
+          "episodes": 10
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2023-02-13",
+          "episodes": 10
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2024-02-18",
+          "episodes": 10
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2025-02-03",
+          "episodes": 11
+        },
+        {
+          "n": 26,
+          "name": "Stagione 26",
+          "date": "2026-02-02",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2004-06-26",
+          "episodes": 59
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Discovery"
+      ],
+      "vote": 8.2,
+      "votes": 296,
+      "poster": "https://image.tmdb.org/t/p/w500/6XSCyjZ8YA96owsljwwckpDqics.jpg",
+      "creators": [
+        {
+          "id": 1706457,
+          "name": "Bernard Vaillot"
+        },
+        {
+          "id": 1714518,
+          "name": "André Barro"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Stephen Bogaert",
+          "character": "Narrator"
+        },
+        {
+          "name": "Afrah Gouda",
+          "character": "Zahida Kakachi"
+        },
+        {
+          "name": "Alec McClure",
+          "character": "First Officer Hicks"
+        },
+        {
+          "name": "Andy Reid",
+          "character": "Jason Kemper"
+        },
+        {
+          "name": "Pat Mastroianni",
+          "character": "Lima Air Traffic Controller"
+        },
+        {
+          "name": "Burke Lawrence",
+          "character": "Captain Christian Hecquet"
+        },
+        {
+          "name": "Philippe Ayoub",
+          "character": "First Officer Joël Cherubin"
+        },
+        {
+          "name": "Michael Millar",
+          "character": "Captain Evans"
+        }
+      ],
+      "trailer": "D1PRxyN3qf0",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.879Z"
   },
   "kamen rider|1971": {
     "value": {
@@ -7105,6 +7943,152 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.476Z"
   },
+  "nurse jackie terapia d urto|linda wallem": {
+    "value": {
+      "tmdbId": 18053,
+      "title": "Nurse Jackie - Terapia d'urto",
+      "overview": "Jackie Peyton, infermiera del pronto soccorso del All Saints' Hospital di New York, è la protagonista della serie che racconta le sue vicende quotidiane. Cinica e farmacodipendente, Jackie è alle prese con i vari problemi familiari e lavorativi, dimostrando più volte di essere più capace dei medici dell'ospedale in cui lavora.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Nurse Jackie",
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 30,
+      "firstAired": "2009-06-08",
+      "lastAired": "2015-06-28",
+      "status": "Ended",
+      "seasons": 7,
+      "episodes": 80,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-06-08",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-03-22",
+          "episodes": 12
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-03-28",
+          "episodes": 12
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2012-04-08",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2013-04-14",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2014-04-12",
+          "episodes": 12
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2015-04-11",
+          "episodes": 12
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 30
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Showtime"
+      ],
+      "vote": 7.1,
+      "votes": 266,
+      "poster": "https://image.tmdb.org/t/p/w500/efKrmVB9Jwmh6HxFjED6FyeOUpW.jpg",
+      "creators": [
+        {
+          "id": 1212453,
+          "name": "Linda Wallem"
+        },
+        {
+          "id": 1246799,
+          "name": "Liz Brixius"
+        },
+        {
+          "id": 1043813,
+          "name": "Evan Dunsky"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Edie Falco",
+          "character": "Jackie Peyton"
+        },
+        {
+          "name": "Peter Facinelli",
+          "character": "Dr. Fitch Cooper"
+        },
+        {
+          "name": "Eve Best",
+          "character": "Dr. Eleanor O'Hara"
+        },
+        {
+          "name": "Merritt Wever",
+          "character": "Zoey Barkow"
+        },
+        {
+          "name": "Paul Schulze",
+          "character": "Eddie Walzer"
+        },
+        {
+          "name": "Haaz Sleiman",
+          "character": "Mohammed 'Mo-Mo' De La Cruz"
+        },
+        {
+          "name": "Dominic Fumusa",
+          "character": "Kevin Peyton"
+        },
+        {
+          "name": "Anna Deavere Smith",
+          "character": "Gloria Akalitus"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/18053-nurse-jackie/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.770Z"
+  },
   "operazione speciale lioness|taylor sheridan 2023": {
     "value": {
       "tmdbId": 113962,
@@ -7257,6 +8241,106 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.467Z"
+  },
+  "playing gracie darling|stagione 1": {
+    "value": {
+      "tmdbId": 271823,
+      "title": "Playing Gracie Darling",
+      "overview": "Quando Joni aveva 14 anni, la sua migliore amica Gracie Darling scomparve durante una seduta spiritica. Circa 27 anni dopo, i ragazzi di una piccola città si divertono giocando a \"Giocare a Gracie Darling\", ma il gioco apparentemente innocente si trasforma in qualcosa di sinistro quando un'altra ragazza scompare. Joni, ormai psicologa infantile, torna in città e collabora con il sergente di polizia Jay per scoprire la verità, mentre la sorella di Gracie, Ruth, affronta il peggior incubo di una madre quando la sua stessa figlia scompare in circostanze inquietanti e simili.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 45,
+      "firstAired": "2025-08-14",
+      "lastAired": "2025-08-14",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 6,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2025-08-14",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Paramount+"
+      ],
+      "vote": 6.1,
+      "votes": 49,
+      "poster": "https://image.tmdb.org/t/p/w500/7UWdkbSUd1d1GB28IyIKDbftzhM.jpg",
+      "creators": [
+        {
+          "id": 75126,
+          "name": "Miranda Nation"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kristina Bogic",
+          "character": "Gracie Darling"
+        },
+        {
+          "name": "Morgana O'Reilly",
+          "character": "Joni Grey"
+        },
+        {
+          "name": "Rudi Dharmalingam",
+          "character": "Jay Rajeswaran"
+        },
+        {
+          "name": "Chloe Brink",
+          "character": "Mina Grey"
+        },
+        {
+          "name": "Saiesha Sundaralingam",
+          "character": "Raffy Rajeswaran"
+        },
+        {
+          "name": "Ariel Donoghue",
+          "character": "Frankie Darling"
+        },
+        {
+          "name": "Celia Pacquola",
+          "character": "Ruth Darling"
+        },
+        {
+          "name": "Annie Maynard",
+          "character": "Anita Rajeswaran-Evans"
+        }
+      ],
+      "trailer": "6oEtnV7k-BU",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/271823-playing-gracie-darling/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:25.671Z"
   },
   "pokemon|1997": {
     "value": {
@@ -8018,6 +9102,134 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.022Z"
+  },
+  "real men|stagione 1": {
+    "value": {
+      "tmdbId": 25116,
+      "title": "Real Men",
+      "overview": "A detective inspector investigates a web of abuse in his community.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [],
+      "episodeRuntime": 60,
+      "firstAired": "2002-03-13",
+      "lastAired": "2002-03-14",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 2,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2002-03-13",
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [],
+      "vote": null,
+      "votes": 0,
+      "poster": null,
+      "creators": [],
+      "cast": [
+        {
+          "name": "Ben Daniels",
+          "character": null
+        },
+        {
+          "name": "Christine Tremarco",
+          "character": null
+        },
+        {
+          "name": "Caroline Catz",
+          "character": null
+        },
+        {
+          "name": "Ewan Stewart",
+          "character": null
+        },
+        {
+          "name": "Zoe Telford",
+          "character": null
+        },
+        {
+          "name": "Charles Dale",
+          "character": null
+        },
+        {
+          "name": "Harry Eden",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:53:25.555Z"
+  },
+  "real men|stagione 2": {
+    "value": {
+      "tmdbId": 25116,
+      "title": "Real Men",
+      "overview": "A detective inspector investigates a web of abuse in his community.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [],
+      "episodeRuntime": 60,
+      "firstAired": "2002-03-13",
+      "lastAired": "2002-03-14",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 2,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2002-03-13",
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [],
+      "vote": null,
+      "votes": 0,
+      "poster": null,
+      "creators": [],
+      "cast": [
+        {
+          "name": "Ben Daniels",
+          "character": null
+        },
+        {
+          "name": "Christine Tremarco",
+          "character": null
+        },
+        {
+          "name": "Caroline Catz",
+          "character": null
+        },
+        {
+          "name": "Ewan Stewart",
+          "character": null
+        },
+        {
+          "name": "Zoe Telford",
+          "character": null
+        },
+        {
+          "name": "Charles Dale",
+          "character": null
+        },
+        {
+          "name": "Harry Eden",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:53:25.152Z"
   },
   "rick and morty|dan harmon": {
     "value": {
@@ -9854,6 +11066,118 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.342Z"
   },
+  "the bear|christopher storer 2022": {
+    "value": {
+      "tmdbId": 136315,
+      "title": "The Bear",
+      "overview": "Carmy, un giovane chef di cucina raffinata, torna a casa a Chicago per gestire il negozio di sandwich di famiglia. Mentre lotta per trasformare il negozio e sé stesso, lavora insieme a un team di cucina sopra le righe che alla fine si rivela essere la sua famiglia scelta.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 62,
+      "firstAired": "2022-06-23",
+      "lastAired": "2026-06-25",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 46,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-06-23",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-06-22",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2024-06-26",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2025-06-25",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2026-06-25",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Hulu"
+      ],
+      "vote": 8.2,
+      "votes": 1981,
+      "poster": "https://image.tmdb.org/t/p/w500/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+      "creators": [
+        {
+          "id": 1057655,
+          "name": "Christopher Storer"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jeremy Allen White",
+          "character": "Carmen 'Carmy' Berzatto"
+        },
+        {
+          "name": "Ebon Moss-Bachrach",
+          "character": "Richard 'Richie' Jerimovich"
+        },
+        {
+          "name": "Ayo Edebiri",
+          "character": "Sydney Adamu"
+        },
+        {
+          "name": "Lionel Boyce",
+          "character": "Marcus Brooks"
+        },
+        {
+          "name": "Abby Elliott",
+          "character": "Natalie 'Sugar' Berzatto"
+        },
+        {
+          "name": "Matty Matheson",
+          "character": "Neil Fak"
+        },
+        {
+          "name": "Liza Colón-Zayas",
+          "character": "Bettina 'Tina' Marrero"
+        },
+        {
+          "name": "Jack Callahan",
+          "character": "Very Old Man"
+        }
+      ],
+      "trailer": "YPL6n7Khmmg",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/136315-the-bear/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:24.488Z"
+  },
   "the blacklist|jon bokenkamp 2013": {
     "value": {
       "tmdbId": 46952,
@@ -10014,6 +11338,112 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.483Z"
+  },
+  "the diplomat|stagione 4": {
+    "value": {
+      "tmdbId": 203857,
+      "title": "The Diplomat",
+      "overview": "Durante una crisi internazionale una diplomatica deve gestire il prestigioso incarico di ambasciatrice USA nel Regno Unito e un matrimonio teso con una star della politica.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "War & Politics"
+      ],
+      "episodeRuntime": 61,
+      "firstAired": "2023-04-20",
+      "lastAired": "2026-10-15",
+      "status": "Returning Series",
+      "seasons": 4,
+      "episodes": 30,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2023-04-20",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2024-10-31",
+          "episodes": 6
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-10-16",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-10-15",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.6,
+      "votes": 498,
+      "poster": "https://image.tmdb.org/t/p/w500/cUy0ZYme43lop08nOtbQLWL0dX.jpg",
+      "creators": [
+        {
+          "id": 1219520,
+          "name": "Debora Cahn"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Keri Russell",
+          "character": "Ambassador Kate Wyler"
+        },
+        {
+          "name": "Rufus Sewell",
+          "character": "Hal Wyler"
+        },
+        {
+          "name": "David Gyasi",
+          "character": "Foreign Secretary Austin Dennison"
+        },
+        {
+          "name": "Ali Ahn",
+          "character": "Eidra Park"
+        },
+        {
+          "name": "Rory Kinnear",
+          "character": "Prime Minister Nicol Trowbridge"
+        },
+        {
+          "name": "Ato Essandoh",
+          "character": "Stuart Hayford"
+        },
+        {
+          "name": "Bradley Whitford",
+          "character": "Todd Penn"
+        },
+        {
+          "name": "Nana Mensah",
+          "character": "Billie Appiah"
+        }
+      ],
+      "trailer": "lV6sJlBbhPs",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/203857-the-diplomat/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:25.555Z"
   },
   "the final problem|miniserie": {
     "value": {
@@ -10819,6 +12249,82 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.235Z"
   },
+  "the trap|miniserie": {
+    "value": {
+      "tmdbId": 357,
+      "title": "The Trap Door",
+      "overview": "The Trap Door is a claymation-style animated television series, originally shown in the United Kingdom in 1984. The plot revolves around both the daily lives and the misadventures of a group of monsters living in a castle. Although the emphasis was on humour and the show was marketed as a children's programme but also for family entertainment, the show drew much from the genres of horror and dark fantasy. The show has since become a cult favourite and remains one of the most widely recognised kids' shows of the 1980s. Digital children's channel Pop started rerunning the show in 2010.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Kids"
+      ],
+      "episodeRuntime": 5,
+      "firstAired": "1986-10-06",
+      "lastAired": "1990-07-28",
+      "status": "Ended",
+      "seasons": 2,
+      "episodes": 40,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1986-10-06",
+          "episodes": 25
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1990-04-21",
+          "episodes": 15
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "ITV1"
+      ],
+      "vote": 7.7,
+      "votes": 22,
+      "poster": "https://image.tmdb.org/t/p/w500/jFDfQo3RjG3IZ4bLZeATLXBbo9g.jpg",
+      "creators": [
+        {
+          "id": 1215806,
+          "name": "Charlie Mills"
+        },
+        {
+          "id": 1215807,
+          "name": "Terry Brain"
+        }
+      ],
+      "cast": [
+        {
+          "name": "William Rushton",
+          "character": "Berk / Boni / The Thing Upstairs / Rogg (voice)"
+        },
+        {
+          "name": "Nick Shipley",
+          "character": "Drutt (voice)"
+        },
+        {
+          "name": "Terry Brain",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:53:25.352Z"
+  },
   "the walking dead|frank darabont 2010": {
     "value": {
       "tmdbId": 1402,
@@ -11119,6 +12625,60 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.181Z"
+  },
+  "tyson|miniserie": {
+    "value": {
+      "tmdbId": 335536,
+      "title": "TYSON",
+      "overview": "Questa avvincente docuserie in quattro parti ripercorre la turbolenta vita di Mike Tyson, una delle figure più temute e affascinanti della storia dello sport.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "episodeRuntime": 73,
+      "firstAired": "2026-10-13",
+      "lastAired": "2026-10-13",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 4,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-13",
+          "episodes": 4
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8.3,
+      "votes": 7,
+      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Mike Tyson",
+          "character": "Self"
+        }
+      ],
+      "trailer": "o1S5LsYhfEg",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/335536-tyson/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:53:25.456Z"
   },
   "watch what happens live with andy cohen|andy cohen 2009": {
     "value": {

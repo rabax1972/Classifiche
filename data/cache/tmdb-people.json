@@ -295,6 +295,10 @@
     "value": "Adam Sztykiel",
     "fetchedAt": "2026-10-14T04:46:00.184Z"
   },
+  "movie:1283320": {
+    "value": "Harris Dickinson",
+    "fetchedAt": "2026-10-21T04:46:14.807Z"
+  },
   "movie:1283515": {
     "value": "Michael Showalter",
     "fetchedAt": "2026-10-12T07:24:28.059Z"
@@ -539,6 +543,10 @@
     "value": "Will Gluck",
     "fetchedAt": "2026-10-12T07:24:53.855Z"
   },
+  "movie:1433583": {
+    "value": "Padraic McKinley",
+    "fetchedAt": "2026-10-21T04:46:16.810Z"
+  },
   "movie:1437396": {
     "value": "Bassam Tariq",
     "fetchedAt": "2026-10-14T04:45:57.535Z"
@@ -595,6 +603,10 @@
     "value": "Babak Najafi",
     "fetchedAt": "2026-10-12T07:24:52.809Z"
   },
+  "movie:1477104": {
+    "value": "Steve Cox, Matthew Walker",
+    "fetchedAt": "2026-10-21T04:46:14.709Z"
+  },
   "movie:1477170": {
     "value": "Lisa Azuelos",
     "fetchedAt": "2026-10-14T04:45:57.921Z"
@@ -635,6 +647,10 @@
     "value": "Paul Becker",
     "fetchedAt": "2026-10-18T04:42:49.000Z"
   },
+  "movie:1513253": {
+    "value": "Michael Lewen",
+    "fetchedAt": "2026-10-21T04:46:16.910Z"
+  },
   "movie:1513475": {
     "value": "Safar Sanal",
     "fetchedAt": "2026-10-17T04:42:34.391Z"
@@ -654,6 +670,10 @@
   "movie:1517123": {
     "value": "David Pablos",
     "fetchedAt": "2026-10-12T07:24:30.572Z"
+  },
+  "movie:15196": {
+    "value": "Jonathan Lynn",
+    "fetchedAt": "2026-10-21T04:46:15.711Z"
   },
   "movie:152601": {
     "value": "Spike Jonze",
@@ -718,6 +738,10 @@
   "movie:1579138": {
     "value": "Alper Mestçi",
     "fetchedAt": "2026-10-16T04:44:16.371Z"
+  },
+  "movie:1579941": {
+    "value": "Giselle Bonilla",
+    "fetchedAt": "2026-10-21T04:46:17.011Z"
   },
   "movie:1585": {
     "value": "Frank Capra",
@@ -799,9 +823,21 @@
     "value": "鎌谷悠",
     "fetchedAt": "2026-10-15T04:42:54.323Z"
   },
+  "movie:1662858": {
+    "value": "Klaas de Jong",
+    "fetchedAt": "2026-10-21T04:46:17.208Z"
+  },
   "movie:16869": {
     "value": "Quentin Tarantino",
     "fetchedAt": "2026-10-18T17:54:30.980Z"
+  },
+  "movie:1688795": {
+    "value": "Taehwan Yum",
+    "fetchedAt": "2026-10-21T04:46:15.309Z"
+  },
+  "movie:1713924": {
+    "value": "Walter Veltroni",
+    "fetchedAt": "2026-10-21T04:46:15.214Z"
   },
   "movie:1713935": {
     "value": "Marco Bonini",
@@ -834,6 +870,10 @@
   "movie:1752617": {
     "value": null,
     "fetchedAt": "2026-10-18T17:54:25.507Z"
+  },
+  "movie:1754364": {
+    "value": "Eleanor Coppola",
+    "fetchedAt": "2026-10-21T04:46:14.909Z"
   },
   "movie:1755291": {
     "value": "Yuval Abraham, Rachel Szor",
@@ -879,6 +919,10 @@
     "value": "Alessio Hong, Sun Lingyi",
     "fetchedAt": "2026-10-18T04:42:47.598Z"
   },
+  "movie:1790279": {
+    "value": "Francesco Scandroglio",
+    "fetchedAt": "2026-10-21T04:46:15.111Z"
+  },
   "movie:1790666": {
     "value": "Gabriele Panetta",
     "fetchedAt": "2026-10-18T04:42:47.698Z"
@@ -890,6 +934,10 @@
   "movie:1791064": {
     "value": "Andrea D'Eredità",
     "fetchedAt": "2026-10-18T04:42:47.797Z"
+  },
+  "movie:1797226": {
+    "value": "Park Sang-geun, Kim Jin-eui",
+    "fetchedAt": "2026-10-21T04:46:15.011Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -1227,6 +1275,10 @@
     "value": "Lana Wachowski, Lilly Wachowski",
     "fetchedAt": "2026-10-12T07:24:43.222Z"
   },
+  "movie:607833": {
+    "value": "김도영",
+    "fetchedAt": "2026-10-21T04:46:17.156Z"
+  },
   "movie:617126": {
     "value": "Matt Shakman",
     "fetchedAt": "2026-10-15T04:42:51.529Z"
@@ -1503,6 +1555,10 @@
     "value": null,
     "fetchedAt": "2026-10-18T04:42:49.895Z"
   },
+  "tv:107371": {
+    "value": "耳根",
+    "fetchedAt": "2026-10-21T04:46:17.918Z"
+  },
   "tv:108978": {
     "value": "Nick Santora",
     "fetchedAt": "2026-10-12T07:24:44.474Z"
@@ -1538,6 +1594,10 @@
   "tv:134667": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:55.222Z"
+  },
+  "tv:136315": {
+    "value": "Christopher Storer",
+    "fetchedAt": "2026-10-21T04:46:16.256Z"
   },
   "tv:1396": {
     "value": "Vince Gilligan",
@@ -1614,6 +1674,10 @@
   "tv:17610": {
     "value": "Shane Brennan",
     "fetchedAt": "2026-10-12T07:24:51.386Z"
+  },
+  "tv:18053": {
+    "value": "Linda Wallem, Liz Brixius",
+    "fetchedAt": "2026-10-21T04:46:16.407Z"
   },
   "tv:18165": {
     "value": "Julie Plec, Kevin Williamson",
@@ -1715,6 +1779,10 @@
     "value": "Howard Overman",
     "fetchedAt": "2026-10-13T04:34:40.261Z"
   },
+  "tv:234310": {
+    "value": "Oliver Lansley, Zoltan Spirandelli",
+    "fetchedAt": "2026-10-21T04:46:17.712Z"
+  },
   "tv:236534": {
     "value": "Zhai Zhu",
     "fetchedAt": "2026-10-18T04:42:49.801Z"
@@ -1730,6 +1798,10 @@
   "tv:239618": {
     "value": "Shawn Ryan, Eileen Myers",
     "fetchedAt": "2026-10-12T07:25:02.784Z"
+  },
+  "tv:2398": {
+    "value": "Mara Brock Akil",
+    "fetchedAt": "2026-10-21T04:46:16.308Z"
   },
   "tv:247718": {
     "value": "Ronan Bennett",
@@ -1798,6 +1870,10 @@
   "tv:275102": {
     "value": "정지우",
     "fetchedAt": "2026-10-12T07:24:50.604Z"
+  },
+  "tv:275139": {
+    "value": "Nick Paley",
+    "fetchedAt": "2026-10-21T04:46:17.612Z"
   },
   "tv:279923": {
     "value": null,
@@ -1939,6 +2015,10 @@
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.476Z"
   },
+  "tv:302915": {
+    "value": "Alejandra Guimerà, Marc Crehuet",
+    "fetchedAt": "2026-10-21T04:46:18.014Z"
+  },
   "tv:303745": {
     "value": "문수정",
     "fetchedAt": "2026-10-19T04:45:39.170Z"
@@ -2047,6 +2127,14 @@
     "value": null,
     "fetchedAt": "2026-10-18T04:42:49.600Z"
   },
+  "tv:329665": {
+    "value": null,
+    "fetchedAt": "2026-10-21T04:46:18.115Z"
+  },
+  "tv:330370": {
+    "value": null,
+    "fetchedAt": "2026-10-21T04:46:17.813Z"
+  },
   "tv:331693": {
     "value": "Aytaç Çiçek",
     "fetchedAt": "2026-10-13T04:34:40.400Z"
@@ -2106,6 +2194,10 @@
   "tv:4057": {
     "value": "Jeff Davis",
     "fetchedAt": "2026-10-12T07:24:46.545Z"
+  },
+  "tv:41956": {
+    "value": "Robert Thorogood",
+    "fetchedAt": "2026-10-21T04:46:16.108Z"
   },
   "tv:44006": {
     "value": "Derek Haas, Michael Brandt",

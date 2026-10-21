@@ -1,4 +1,69 @@
 {
+  "|park sang geun": {
+    "value": {
+      "tmdbId": 1797226,
+      "title": "하이브 치어링 파티",
+      "overview": "The heat of cheering for HYBE artists unfolds in cinemas! Sing along with your favorite HYBE Artists in 3D! A one-of-a-kind game-like cheering screening is coming, where fans can chant fan cheers and wave their light sticks while watching the music videos of BTS, SEVENTEEN, TOMORROW X TOGETHER, ENHYPEN, LE SSERAFIM, &TEAM, BOYNEXTDOOR, TWS, ILLIT, KATSEYE, aoen, CORTIS, and SANTOS BRAVOS on the big screen. Join this unforgettable celebration filled with diverse music, passionate fan energy, and a dazzling wave of Light Sticks!",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Musica"
+      ],
+      "runtime": 60,
+      "released": "2026-10-24",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
+      "directors": [
+        {
+          "id": 5361732,
+          "name": "Park Sang-geun"
+        },
+        {
+          "id": 6548585,
+          "name": "Kim Jin-eui"
+        }
+      ],
+      "cast": [
+        {
+          "name": "알엠",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "진",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "슈가",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "제이홉",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "지민",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "뷔",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "정국",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "수빈",
+          "character": "Self (archive footage)"
+        }
+      ],
+      "trailer": "q0XKUFGn_M4",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.680Z"
+  },
   "2001 odissea nello spazio|stanley kubrick 1968": {
     "value": {
       "tmdbId": 62,
@@ -916,6 +981,78 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:07.602Z"
+  },
+  "animals|": {
+    "value": {
+      "tmdbId": 1236045,
+      "title": "Animals",
+      "overview": "Dopo il rapimento del figlio, un candidato a sindaco di Los Angeles e la moglie tentano di racimolare il riscatto affrontando scelte che rischiano di distruggere la loro vita.",
+      "overviewLang": "it",
+      "tagline": "Il potere non può proteggerti.",
+      "originalTitle": null,
+      "genres": [
+        "Thriller",
+        "Dramma"
+      ],
+      "runtime": 109,
+      "released": "2026-10-09",
+      "vote": 7,
+      "votes": 513,
+      "poster": "https://image.tmdb.org/t/p/w500/2bSbPh4m29yW4vj3zLWFGou9E9K.jpg",
+      "directors": [
+        {
+          "id": 880,
+          "name": "Ben Affleck"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ben Affleck",
+          "character": "Mark Kimball"
+        },
+        {
+          "name": "Kerry Washington",
+          "character": "Abigail Kimball"
+        },
+        {
+          "name": "Gillian Anderson",
+          "character": "Dayle Burton"
+        },
+        {
+          "name": "Steven Yeun",
+          "character": "Sam Allison"
+        },
+        {
+          "name": "Adriana Paz",
+          "character": "Cecilia Trujillo"
+        },
+        {
+          "name": "Luis Gerardo Méndez",
+          "character": "Ramon"
+        },
+        {
+          "name": "Christopher Woodley",
+          "character": "Denny Kimball"
+        },
+        {
+          "name": "Jacob Estrada",
+          "character": "Hector"
+        }
+      ],
+      "trailer": "KFS719x1B7s",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1236045-animals/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.289Z"
   },
   "animals|ben affleck 2026": {
     "value": {
@@ -3322,6 +3459,116 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.973Z"
   },
+  "criature|": {
+    "value": {
+      "tmdbId": 1222522,
+      "title": "Criature",
+      "overview": "Federico e Susy hanno tredici anni e il profumo della libertà tra i capelli, i muscoli pieni di adrenalina, sogni pieni di coraggio. Per loro la vita è una corsa folle in sella ai motorini, tra i vicoli stretti di Napoli. Vivaci e strafottenti, tra battaglie e umiliazioni reciproche, comandano due bande di ragazzi con l'intento di prendersi tutto. Sono figli dei boss più potenti della città, rivali tra loro. Così, anche per Federico e Susy il destino è già scritto: soltanto uno dei due vincerà e l'altro resterà a terra consapevole che chi perde è niente. A volte, però, succede qualcosa che non ti fa tornare indietro, che ti costringe ad accelerare fino a perdere il controllo. E improvvisamente la vita si trasforma in una corsa disperata che conduce alla vetta del vulcano, un luogo in cui è possibile ritrovarsi o perdersi per sempre. Ma anche un luogo in cui il potere della scelta è nelle tue mani.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Romance"
+      ],
+      "runtime": 101,
+      "released": "2024-12-05",
+      "vote": 5.9,
+      "votes": 16,
+      "poster": "https://image.tmdb.org/t/p/w500/7rinMnnmRdmjbwfNPXbIp0katq6.jpg",
+      "directors": [
+        {
+          "id": 1721435,
+          "name": "Cécile Allégra"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Marco D'Amore",
+          "character": "Mimmo"
+        },
+        {
+          "name": "Maria Esposito",
+          "character": "Margherita"
+        },
+        {
+          "name": "Marianna Fontana",
+          "character": "Anna"
+        },
+        {
+          "name": "Alessio Gallo",
+          "character": "Genny"
+        },
+        {
+          "name": "Giuseppe Pirozzi",
+          "character": "Salvatore"
+        },
+        {
+          "name": "Antonio Guerra",
+          "character": "Ciro"
+        },
+        {
+          "name": "Ciro Minopoli",
+          "character": "Bruno"
+        },
+        {
+          "name": "Martina Abbate",
+          "character": "Daniela"
+        }
+      ],
+      "trailer": "Ah_vBWerLuM",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1222522-criature/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Infinity Selection Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/7bLI3pIxIlURo1tYrfChgtJSZQF.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.899Z"
+  },
   "deadpool e wolverine|shawn levy 2024": {
     "value": {
       "tmdbId": 533535,
@@ -5469,6 +5716,114 @@
     },
     "fetchedAt": "2026-10-18T17:56:56.663Z"
   },
+  "hellboy|": {
+    "value": {
+      "tmdbId": 456740,
+      "title": "Hellboy",
+      "overview": "Hellboy è un semi-demone che protegge la Terra dalle creature soprannaturali che la minacciano. Evocato sul nostro pianeta nel 1944 dal malvagio stregone russo Grigorij Efimovic Rasputin per conto dei nazisti, Hellboy viene salvato dagli Alleati e affidato al Professor Trevor Bruttenholm, che lo cresce come un figlio. Una volta adulto, Hellboy inizia a dare la caccia a lupi mannari, vampiri e creature mitologiche di ogni tipo, diventando uno dei migliori detective del BPRD (Bureau of Paranormal Research and Defense). In questa nuova avventura, l'eroe demoniaco sarà impegnato in una missione a Londra per fronteggiare l'antico spirito di una strega malvagia tornato sulla Terra dal mondo dei morti.",
+      "overviewLang": "it",
+      "tagline": "Anche i demoni hanno i loro demoni.",
+      "originalTitle": null,
+      "genres": [
+        "Fantasy",
+        "Horror",
+        "Azione",
+        "Avventura"
+      ],
+      "runtime": 121,
+      "released": "2019-04-11",
+      "vote": 5.6,
+      "votes": 3831,
+      "poster": "https://image.tmdb.org/t/p/w500/v58oqIHFi5hqmKl7k722vevYITc.jpg",
+      "directors": [
+        {
+          "id": 57581,
+          "name": "Neil Marshall"
+        }
+      ],
+      "cast": [
+        {
+          "name": "David Harbour",
+          "character": "Hellboy / Anung Un Rama"
+        },
+        {
+          "name": "Milla Jovovich",
+          "character": "Vivienne Nimue, the Blood Queen"
+        },
+        {
+          "name": "Ian McShane",
+          "character": "Trevor \"Broom\" Bruttenholm"
+        },
+        {
+          "name": "Sasha Lane",
+          "character": "Alice Monaghan"
+        },
+        {
+          "name": "Daniel Dae Kim",
+          "character": "Ben Daimio"
+        },
+        {
+          "name": "Thomas Haden Church",
+          "character": "Lobster Johnson"
+        },
+        {
+          "name": "Stephen Graham",
+          "character": "Gruagach (voice)"
+        },
+        {
+          "name": "Douglas Tait",
+          "character": "Gruagach"
+        }
+      ],
+      "trailer": "fhz61klQMy8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/456740-hellboy/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.704Z"
+  },
   "her private hell|nicolas winding refn 2026": {
     "value": {
       "tmdbId": 1469342,
@@ -5531,6 +5886,112 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.730Z"
+  },
+  "hidden|": {
+    "value": {
+      "tmdbId": 381284,
+      "title": "Il diritto di contare",
+      "overview": "Katherine Johnson, Dorothy Vaughn e Mary Jackson sono tre donne afro-americane. Lavorano alla Nasa e sono le menti brillanti che hanno messo a punto il primo programma di missioni spaziali che ha portato uomini come l'astronauta John Glenn in orbita. Il loro operato, basato sull'elaborazione di importanti dati matematici, ha contribuito a ridare nuova fiducia alla nazione, ridefinire la corsa nello spazio e stupire il mondo. Da visionarie quali sono, hanno avuto la meglio sugli stereotipi di genere e razza, divenendo fonte di ispirazione per le giovani generazioni.",
+      "overviewLang": "it",
+      "tagline": "Il genio non ha razza. La forza non ha sesso. Il coraggio non ha limiti.",
+      "originalTitle": "Hidden Figures",
+      "genres": [
+        "Dramma",
+        "Storia"
+      ],
+      "runtime": 127,
+      "released": "2017-03-08",
+      "vote": 8.1,
+      "votes": 10767,
+      "poster": "https://image.tmdb.org/t/p/w500/d6JTN9J9cAwCLDS37FsXTXbl1OQ.jpg",
+      "directors": [
+        {
+          "id": 1141683,
+          "name": "Theodore Melfi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Taraji P. Henson",
+          "character": "Katherine G. Johnson"
+        },
+        {
+          "name": "Octavia Spencer",
+          "character": "Dorothy Vaughan"
+        },
+        {
+          "name": "Janelle Monáe",
+          "character": "Mary Jackson"
+        },
+        {
+          "name": "Kevin Costner",
+          "character": "Al Harrison"
+        },
+        {
+          "name": "Kirsten Dunst",
+          "character": "Vivian Mitchell"
+        },
+        {
+          "name": "Jim Parsons",
+          "character": "Paul Stafford"
+        },
+        {
+          "name": "Mahershala Ali",
+          "character": "Jim Johnson"
+        },
+        {
+          "name": "Glen Powell",
+          "character": "John Glenn"
+        }
+      ],
+      "trailer": "LrM27IHgrpI",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/381284-hidden-figures/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.387Z"
   },
   "hunger games il canto della rivolta parte 1|francis lawrence 2014": {
     "value": {
@@ -5642,6 +6103,100 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.956Z"
+  },
+  "i peccatori|ryan coogler 2025": {
+    "value": {
+      "tmdbId": 1233413,
+      "title": "I peccatori",
+      "overview": "Tornati nella regione natia con un discreto bottino e con abbondanti alcolici dalla malavita di Chicago, i gemelli Smoke e Stack trasformano una baracca in un locale di ballo e gioco clandestino per la popolazione nera. La festa notturna innesca una gioia contagiosa, ma presto si avvicinano tre bianchi che chiedono insistentemente di poter entrare. Sarà presto chiara la loro intenzione.",
+      "overviewLang": "it",
+      "tagline": "Danza con il diavolo.",
+      "originalTitle": "Sinners",
+      "genres": [
+        "Horror",
+        "Azione",
+        "Thriller"
+      ],
+      "runtime": 137,
+      "released": "2025-04-17",
+      "vote": 7.5,
+      "votes": 5380,
+      "poster": "https://image.tmdb.org/t/p/w500/gGhvLVcdWQanE1XuPkC3iE4PJN9.jpg",
+      "directors": [
+        {
+          "id": 1056121,
+          "name": "Ryan Coogler"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Michael B. Jordan",
+          "character": "Smoke / Stack"
+        },
+        {
+          "name": "Hailee Steinfeld",
+          "character": "Mary"
+        },
+        {
+          "name": "Miles Caton",
+          "character": "Sammie Moore"
+        },
+        {
+          "name": "Jack O'Connell",
+          "character": "Remmick"
+        },
+        {
+          "name": "Wunmi Mosaku",
+          "character": "Annie"
+        },
+        {
+          "name": "Jayme Lawson",
+          "character": "Pearline"
+        },
+        {
+          "name": "Omar Benson Miller",
+          "character": "Cornbread"
+        },
+        {
+          "name": "Delroy Lindo",
+          "character": "Delta Slim"
+        }
+      ],
+      "trailer": "IptoBQg6cvo",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1233413-sinners/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.194Z"
   },
   "i predatori dell arca perduta|steven spielberg 1981": {
     "value": {
@@ -5998,6 +6553,235 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:49.455Z"
+  },
+  "ice age collision course|": {
+    "value": {
+      "tmdbId": 278154,
+      "title": "L'era glaciale - In rotta di collisione",
+      "overview": "Nell’epico e perpetuo inseguimento dell’inafferrabile ghianda, Scrat si ritrova catapultato nello spazio profondo dove procede accidentalmente alla disposizione dei pianeti del sistema solare e provoca suo malgrado un’enorme minaccia alla Terra. Un asteroide gigantesco è diretto sul pianeta e niente sembra arrestare la sua corsa. Contro il pericolo cosmico e fatale, Sid, Diego e Manny cercano una soluzione e ritrovano Buck, furetto intrepido ed eccentrico che sa come evitare l’imminente apocalisse. Alle prese con problemi familiari altrettanto esplosivi, i tre storici compagni risolveranno i loro conflitti in terra come in cielo, garantendo ancora una volta una vita serena ai loro cari, a prede e a predatori.",
+      "overviewLang": "it",
+      "tagline": "Un piccolo passo. Un grande disastro.",
+      "originalTitle": "Ice Age: Collision Course",
+      "genres": [
+        "Avventura",
+        "Animazione",
+        "Famiglia",
+        "Commedia",
+        "Fantascienza"
+      ],
+      "runtime": 95,
+      "released": "2016-08-22",
+      "vote": 6.1,
+      "votes": 5019,
+      "poster": "https://image.tmdb.org/t/p/w500/b1qfI5M5CjHkLu5qQNOuxbKS6w.jpg",
+      "directors": [
+        {
+          "id": 229962,
+          "name": "Michael Thurmeier"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ray Romano",
+          "character": "Manny (voice)"
+        },
+        {
+          "name": "John Leguizamo",
+          "character": "Sid (voice)"
+        },
+        {
+          "name": "Denis Leary",
+          "character": "Diego (voice)"
+        },
+        {
+          "name": "Adam Devine",
+          "character": "Julian (voice)"
+        },
+        {
+          "name": "Jesse Tyler Ferguson",
+          "character": "Shangri Llama (voice)"
+        },
+        {
+          "name": "Max Greenfield",
+          "character": "Roger (voice)"
+        },
+        {
+          "name": "Jessie J",
+          "character": "Brooke (voice)"
+        },
+        {
+          "name": "Nick Offerman",
+          "character": "Gavin (voice)"
+        }
+      ],
+      "trailer": "aG0ru0Olw0A",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/278154-ice-age-collision-course/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.804Z"
+  },
+  "ice age dawn of the dinosaurs|": {
+    "value": {
+      "tmdbId": 8355,
+      "title": "L'era glaciale 3 - L'alba dei dinosauri",
+      "overview": "Manny e Ellie stanno per avere un bambino e la novità sembra sconvolgere qualche equilibrio. Diego sente di non avere più lo smalto di una volta mentre Sid desidera sperimentare la \"maternità\" a tutti i costi, anche se si tratta di dover badare a tre cuccioli di dinosauro nati da uova trovate per caso. Una nuova avventura al salvataggio proprio di Sid e l'incontro con un nuovo personaggio (Buck) serviranno a riunire il branco.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Ice Age: Dawn of the Dinosaurs",
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Avventura"
+      ],
+      "runtime": 94,
+      "released": "2009-08-28",
+      "vote": 6.8,
+      "votes": 9140,
+      "poster": "https://image.tmdb.org/t/p/w500/4qJWIZZi7mbCvjXqPcyWxdhcQ4c.jpg",
+      "directors": [
+        {
+          "id": 5714,
+          "name": "Carlos Saldanha"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ray Romano",
+          "character": "Manny (voice)"
+        },
+        {
+          "name": "John Leguizamo",
+          "character": "Sid (voice)"
+        },
+        {
+          "name": "Denis Leary",
+          "character": "Diego (voice)"
+        },
+        {
+          "name": "Simon Pegg",
+          "character": "Buck (voice)"
+        },
+        {
+          "name": "Seann William Scott",
+          "character": "Crash (voice)"
+        },
+        {
+          "name": "Josh Peck",
+          "character": "Eddie (voice)"
+        },
+        {
+          "name": "Queen Latifah",
+          "character": "Ellie (voice)"
+        },
+        {
+          "name": "Bill Hader",
+          "character": "Gazelle (voice)"
+        }
+      ],
+      "trailer": "FKah_ANipsw",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/8355-ice-age-dawn-of-the-dinosaurs/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.999Z"
   },
   "il buono il brutto il cattivo|sergio leone 1966": {
     "value": {
@@ -9558,6 +10342,67 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.485Z"
   },
+  "l assurda storia della gialappa s band|walter veltroni 2026": {
+    "value": {
+      "tmdbId": 1713924,
+      "title": "L'assurda storia della Gialappa's Band",
+      "overview": "Nata a metà degli anni '80 in ambito radiofonico, la Gialappa’s Band ha imposto nel panorama mediatico italiano uno stile inconfondibile, fatto di un'ironia tagliente, surreale e profondamente innovativa. Il travolgente successo televisivo ha dato vita a programmi divenuti veri e propri cult, capaci di ridefinire radicalmente i linguaggi della comicità e della narrazione in TV, oltre a fungere da prezioso trampolino di lancio per numerosi protagonisti della scena comica nazionale.  A celebrare questo percorso artistico sarà un documentario d'eccezione, affidato alla regia di Walter Veltroni. Questa prestigiosa firma autoriale garantisce al progetto un notevole spessore culturale, promettendo di restituire non solo la storia della Gialappa’s, ma anche il profondo impatto che il gruppo ha avuto sulla cultura pop italiana.",
+      "overviewLang": "it",
+      "tagline": "Il film su tre adorabili cialtroni che per anni hanno fatto ridere senza mostrarsi",
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 105,
+      "released": "2026-10-22",
+      "vote": 6.5,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/cmzJAwJZPcX6oooyP6alOx7K9sm.jpg",
+      "directors": [
+        {
+          "id": 1048220,
+          "name": "Walter Veltroni"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Marco Santin",
+          "character": "Himself"
+        },
+        {
+          "name": "Giorgio Gherarducci",
+          "character": "Himself"
+        },
+        {
+          "name": "Carlo Taranto",
+          "character": "Himself"
+        },
+        {
+          "name": "Michele Foresta",
+          "character": "Himself"
+        },
+        {
+          "name": "Walter Veltroni",
+          "character": "Himself"
+        },
+        {
+          "name": "Aldo Baglio",
+          "character": "Himself"
+        },
+        {
+          "name": "Giovanni Storti",
+          "character": "Himself"
+        },
+        {
+          "name": "Giacomo Poretti",
+          "character": "Himself"
+        }
+      ],
+      "trailer": "cTH8FgViGFo",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.885Z"
+  },
   "l era glaciale 3 l alba dei dinosauri|carlos saldanha 2009": {
     "value": {
       "tmdbId": 8355,
@@ -11974,6 +12819,67 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.853Z"
   },
+  "making marie antoinette|eleanor coppola 2026": {
+    "value": {
+      "tmdbId": 1754364,
+      "title": "Making Marie Antoinette",
+      "overview": "Nel 2005, Sofia Coppola ha girato il suo terzo lungometraggio, Marie Antoinette, con Kirsten Dunst e Jason Schwartzman, alla Reggia di Versailles, ottenendo un permesso di ripresa mai concesso prima a nessuna produzione. Sua madre, l'acclamata documentarista Eleanor Coppola, l'ha accompagnata sul set, realizzando circa ottanta ore di riprese dedicate al percorso della figlia durante la realizzazione del film. Quest'anno, in occasione del 20° anniversario dell'uscita di Marie Antoinette e per esaudire il desiderio della madre, Sofia Coppola ha montato quel materiale inedito. Making Marie Antoinette racconta l'artigianalità e la cura che hanno dato vita al film, segue la leggendaria costumista Milena Canonero al lavoro e restituisce uno spaccato di cosa significasse essere una giovane regista donna in quel periodo. Il risultato è un affascinante sguardo sul processo creativo di un film di riferimento e, al tempo stesso, un ritratto familiare sorprendentemente intimo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 86,
+      "released": "2026-10-25",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/9Jz4JCi2ZzFUi2bAzrmMzpRPYfN.jpg",
+      "directors": [
+        {
+          "id": 37872,
+          "name": "Eleanor Coppola"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Diane Lane",
+          "character": "Eleanor Coppola (voice)"
+        },
+        {
+          "name": "Sofia Coppola",
+          "character": "Self"
+        },
+        {
+          "name": "Kirsten Dunst",
+          "character": "Self"
+        },
+        {
+          "name": "Jason Schwartzman",
+          "character": "Self"
+        },
+        {
+          "name": "Rip Torn",
+          "character": "Self"
+        },
+        {
+          "name": "Eleanor Coppola",
+          "character": "Self"
+        },
+        {
+          "name": "Francis Ford Coppola",
+          "character": "Self"
+        },
+        {
+          "name": "Rose Byrne",
+          "character": "Self"
+        }
+      ],
+      "trailer": "2kilrz3kdkI",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.485Z"
+  },
   "mammina|rob savage 2026": {
     "value": {
       "tmdbId": 1400837,
@@ -13759,6 +14665,7 @@
   "pirati dei caraibi ai confini del mondo|gore verbinski 2007": {
     "value": {
       "tmdbId": 285,
+      "title": "Pirati dei Caraibi - Ai confini del mondo",
       "overview": "Will Turner, Elizabeth Swann e il capitan Barbossa si alleano per liberare il capitano Jack Sparrow imprigionato negli abissi. Nel frattempo, l'Olandese Volante del capitano Davy Jones, controllato dalla Compagnia delle Indie Orientali, semina il terrore per i Sette Mari. Dopo essersi confrontato con il pirata cinese Sao Feng, il gruppo di pirati si spingerà oltre i confini della Terra per partecipare alla gigantesca battaglia finale per il controllo dei mari.",
       "overviewLang": "it",
       "tagline": "Ai confini del mondo, l'avventura ha inizio.",
@@ -13771,7 +14678,7 @@
       "runtime": 161,
       "released": "2007-05-23",
       "vote": 7.3,
-      "votes": 15937,
+      "votes": 15956,
       "poster": "https://image.tmdb.org/t/p/w500/wGv9fox3iIA7jrZxTueQnsKqwoE.jpg",
       "directors": [
         {
@@ -13860,7 +14767,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T09:30:40.065Z"
+    "fetchedAt": "2026-10-21T04:48:57.103Z"
   },
   "primetime|lance oppenheim 2026": {
     "value": {
@@ -15622,6 +16529,73 @@
     },
     "fetchedAt": "2026-10-18T17:56:46.317Z"
   },
+  "shaun vita da pecora operazione z u c c a|steve cox": {
+    "value": {
+      "tmdbId": 1477104,
+      "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
+      "overview": "Halloween è alle porte. Shaun e tutti gli animali della fattoria si preparano per festeggiarlo al meglio coltivando un magnifico campo di zucche. Ma quando tutto sembrava ormai pronto, il contadino misteriosamente scompare e arriva dal bosco uno spaventoso mostro. Sarà compito di Shaun e i suoi amici salvare la fattoria dalla pelosa creatura e ritrovare l’amato contadino in tempo per la grande festa. Tra esperimenti impazziti e colpi di scena inaspettati, sarà un’avventura a tutta pecora per tutta la famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia"
+      ],
+      "runtime": 88,
+      "released": "2026-10-28",
+      "vote": 7.3,
+      "votes": 26,
+      "poster": "https://image.tmdb.org/t/p/w500/hIgvOtvwbNCUclH0uBvg2qn6Ye.jpg",
+      "directors": [
+        {
+          "id": 2934273,
+          "name": "Steve Cox"
+        },
+        {
+          "id": 5422659,
+          "name": "Matthew Walker"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Justin Fletcher",
+          "character": "Shaun / Timmy (voice)"
+        },
+        {
+          "name": "John Sparkes",
+          "character": "The Farmer / Bitzer (voice)"
+        },
+        {
+          "name": "Nina Sosanya",
+          "character": "The Vet (voice)"
+        },
+        {
+          "name": "Kate Harbour",
+          "character": "Timmy's Mum (voice)"
+        },
+        {
+          "name": "Rich Webber",
+          "character": "Shirley (voice)"
+        },
+        {
+          "name": "Emma Tate",
+          "character": "Hazel (voice)"
+        },
+        {
+          "name": "Simon Greenall",
+          "character": "The Twins (voice)"
+        },
+        {
+          "name": "Andy Nyman",
+          "character": "Nuts (voice)"
+        }
+      ],
+      "trailer": "coBQwR5_rLU",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.327Z"
+  },
   "shining|stanley kubrick 1980": {
     "value": {
       "tmdbId": 694,
@@ -15872,6 +16846,113 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.154Z"
+  },
+  "signori il delitto e servito|jonathan lynn 1985": {
+    "value": {
+      "tmdbId": 15196,
+      "title": "Signori, il delitto è servito",
+      "overview": "In seguito a un insolito invito, si trovano riuniti in un lussuoso castello di stile gotico-americano alcuni convitati. Sono tutti estranei tra loro, ma hanno qualcosa in comune: sono tutti ricattati dal padrone di casa, Mr. Boddy, che a un certo punto compare con bizzarri doni per ognuno dei suoi ospiti. Le cose precipitano quando Mr. Boddy viene assassinato. Da quel momento gli omicidi cominciano a fioccare. Chi sarà l'assassino? Il film propone tre soluzioni possibili...",
+      "overviewLang": "it",
+      "tagline": "Un invito a cena. Una pistola puntata alla tempia. Un cadavere in cucina e due in anticamera. Irrompe la polizia... grazie a Dio tutto è normale.",
+      "originalTitle": "Clue",
+      "genres": [
+        "Commedia",
+        "Crime",
+        "Mistero"
+      ],
+      "runtime": 94,
+      "released": "1986-04-23",
+      "vote": 7.2,
+      "votes": 2095,
+      "poster": "https://image.tmdb.org/t/p/w500/mhsICw8bI7ohm4flGn5v6KKh3BR.jpg",
+      "directors": [
+        {
+          "id": 21217,
+          "name": "Jonathan Lynn"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tim Curry",
+          "character": "Wadsworth"
+        },
+        {
+          "name": "Eileen Brennan",
+          "character": "Mrs. Peacock"
+        },
+        {
+          "name": "Madeline Kahn",
+          "character": "Mrs. White"
+        },
+        {
+          "name": "Christopher Lloyd",
+          "character": "Professor Plum"
+        },
+        {
+          "name": "Michael McKean",
+          "character": "Mr. Green"
+        },
+        {
+          "name": "Martin Mull",
+          "character": "Colonel Mustard"
+        },
+        {
+          "name": "Lesley Ann Warren",
+          "character": "Miss Scarlet"
+        },
+        {
+          "name": "Colleen Camp",
+          "character": "Yvette"
+        }
+      ],
+      "trailer": "KEXdWfsKZ1k",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/15196-clue/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:55.985Z"
   },
   "spezie e bugie la piccola cucina di mehdi|amine adjina 2026": {
     "value": {
@@ -16360,6 +17441,78 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.536Z"
+  },
+  "stormen|josephine bornebusch 2026": {
+    "value": {
+      "tmdbId": 1623256,
+      "title": "Stormen",
+      "overview": "Quando una tempesta intrappola vecchi compagni universitari in un lussuoso lodge, la loro festa di compleanno civile si trasforma in un ciclone di tradimenti, rancori e caos senza filtri.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 101,
+      "released": "2026-10-15",
+      "vote": 6.4,
+      "votes": 46,
+      "poster": "https://image.tmdb.org/t/p/w500/kjAsuaDcNsemYTQ8tUorpVE1FJb.jpg",
+      "directors": [
+        {
+          "id": 116612,
+          "name": "Josephine Bornebusch"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Gustaf Skarsgård",
+          "character": "Filip"
+        },
+        {
+          "name": "Aliette Opheim",
+          "character": "Caroline"
+        },
+        {
+          "name": "Filip Berg",
+          "character": "Ossi"
+        },
+        {
+          "name": "Josephine Bornebusch",
+          "character": "Kina"
+        },
+        {
+          "name": "Jonas Karlsson",
+          "character": "Jacob"
+        },
+        {
+          "name": "Johan Rheborg",
+          "character": "Nicholas"
+        },
+        {
+          "name": "Henrik Dorsin",
+          "character": "Stefan"
+        },
+        {
+          "name": "Christopher Wagelin",
+          "character": "Henrik Müller"
+        }
+      ],
+      "trailer": "Zfb-62tjT_Y",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1623256-stormen/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.084Z"
   },
   "street fighter|kitao sakurai 2026": {
     "value": {
@@ -17009,6 +18162,117 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:54.955Z"
+  },
+  "the accountant|": {
+    "value": {
+      "tmdbId": 870028,
+      "title": "The Accountant 2",
+      "overview": "Christian Wolff (Ben Affleck) ha un talento per risolvere problemi complessi. Quando un vecchio conoscente viene ucciso, lasciando dietro di sé il messaggio criptico “trova il contabile”, Wolff è spinto a risolvere il caso. Rendendosi conto che sono necessari metodi più estremi, Wolff recluta il suo letale fratello Brax (Jon Bernthal) per aiutarlo. In collaborazione con Marybeth Medina (Cynthia Addai-Robinson), vicedirettore del Dipartimento del Tesoro degli Stati Uniti, scoprono una letale cospirazione, diventando bersagli di una spietata rete di assassini che non si fermeranno davanti a nulla pur di mantenere sepolti i loro segreti.",
+      "overviewLang": "it",
+      "tagline": "Ti piacciono i puzzle?",
+      "originalTitle": "The Accountant²",
+      "genres": [
+        "Mistero",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 132,
+      "released": "2025-04-24",
+      "vote": 7.1,
+      "votes": 2004,
+      "poster": "https://image.tmdb.org/t/p/w500/5hvm0GeaahJfWcfvLODT3Iw3LaL.jpg",
+      "directors": [
+        {
+          "id": 77003,
+          "name": "Gavin O'Connor"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ben Affleck",
+          "character": "Christian Wolff"
+        },
+        {
+          "name": "Jon Bernthal",
+          "character": "Braxton"
+        },
+        {
+          "name": "Cynthia Addai-Robinson",
+          "character": "Marybeth Medina"
+        },
+        {
+          "name": "J.K. Simmons",
+          "character": "Ray King"
+        },
+        {
+          "name": "Allison Robertson",
+          "character": "Justine"
+        },
+        {
+          "name": "Alison Wright",
+          "character": "Justine (voice)"
+        },
+        {
+          "name": "Daniella Pineda",
+          "character": "Anaïs"
+        },
+        {
+          "name": "Robert Morgan",
+          "character": "Burke"
+        }
+      ],
+      "trailer": "et8o0eUgxfc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/870028-the-accountant/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.640Z"
   },
   "the avengers|joss whedon 2012": {
     "value": {
@@ -18919,6 +20183,47 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.502Z"
   },
+  "tre passi|francesco scandroglio 2026": {
+    "value": {
+      "tmdbId": 1790279,
+      "title": "Tre passi",
+      "overview": "cortometraggio accademico su una coppia di innamorati",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 24,
+      "released": "2026-10-11",
+      "vote": null,
+      "votes": 0,
+      "poster": null,
+      "directors": [
+        {
+          "id": 6527323,
+          "name": "Francesco Scandroglio"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Valentina Verre",
+          "character": "Vera"
+        },
+        {
+          "name": "Riccardo Urani",
+          "character": "Alessandro"
+        },
+        {
+          "name": "Toni Pandolfo",
+          "character": "inserviente"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.786Z"
+  },
   "u boot 96|wolfgang petersen 1981": {
     "value": {
       "tmdbId": 387,
@@ -19376,6 +20681,67 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:55.405Z"
+  },
+  "urchin|harris dickinson 2026": {
+    "value": {
+      "tmdbId": 1283320,
+      "title": "Urchin",
+      "overview": "Mike, piccolo criminale vagabondo, prova a restare sobrio e a lasciare la strada, collezionando tante idee per il futuro e qualche amico di baldoria altrettanto instabile. Senza casa, finisce in prigione dopo aver aggredito un passante che voleva aiutarlo. Si impegna a riparare lavorando in una cucina di cui fatica tuttavia a seguire le regole. Il recupero è l'orizzonte ma l'autodistruzione è dietro l'angolo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 99,
+      "released": "2026-10-22",
+      "vote": 6.7,
+      "votes": 67,
+      "poster": "https://image.tmdb.org/t/p/w500/zc8n3hm3S2VxFxlNH1MNN28LVMa.jpg",
+      "directors": [
+        {
+          "id": 1716493,
+          "name": "Harris Dickinson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Frank Dillane",
+          "character": "Mike"
+        },
+        {
+          "name": "Megan Northam",
+          "character": "Andrea"
+        },
+        {
+          "name": "Карина Химчук",
+          "character": "Ramona"
+        },
+        {
+          "name": "Shonagh Marie",
+          "character": "Chanelle"
+        },
+        {
+          "name": "عمرو واكد",
+          "character": "Franco"
+        },
+        {
+          "name": "Claudia Jones",
+          "character": "Religious Leader"
+        },
+        {
+          "name": "Shahzad Ali",
+          "character": "Waiter"
+        },
+        {
+          "name": "Michael Quartey",
+          "character": "Dawson"
+        }
+      ],
+      "trailer": "xK_-9WDj6sE",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.389Z"
   },
   "verity|michael showalter 2026": {
     "value": {
@@ -19891,6 +21257,69 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.873Z"
   },
+  "wildwood i segreti del bosco proibito|travis knight 2026": {
+    "value": {
+      "tmdbId": 791523,
+      "title": "Wildwood - I segreti del bosco proibito",
+      "overview": "Wildwood, nei dintorni di Portland, è un posto da cui tenersi lontani e che dovrebbe rimanere nascosto a tutti. Prue McKeel, tuttavia, è costretta a raggiungerlo dopo che il fratellino Mac è stato rapito da uno stormo di corvi e trasportato nei meandri della foresta. Insieme allo sfortunato compagno di classe Curtis, Prue corre a salvare Mac da un pericolo che sembra uscito dalle pagine di una favola.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Wildwood",
+      "genres": [
+        "Animazione",
+        "Avventura",
+        "Fantasy"
+      ],
+      "runtime": 132,
+      "released": "2026-10-22",
+      "vote": 9.5,
+      "votes": 4,
+      "poster": "https://image.tmdb.org/t/p/w500/kfczsvfehVNDwzWiPuKAuQclzl7.jpg",
+      "directors": [
+        {
+          "id": 1033661,
+          "name": "Travis Knight"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Peyton Elizabeth Lee",
+          "character": "Prue McKeel (voice)"
+        },
+        {
+          "name": "Jacob Tremblay",
+          "character": "Curtis Mehlberg (voice)"
+        },
+        {
+          "name": "Carey Mulligan",
+          "character": "Alexandra (voice)"
+        },
+        {
+          "name": "Mahershala Ali",
+          "character": "Brenden (voice)"
+        },
+        {
+          "name": "Angela Bassett",
+          "character": "The General (voice)"
+        },
+        {
+          "name": "Awkwafina",
+          "character": "Septima (voice)"
+        },
+        {
+          "name": "Jake Johnson",
+          "character": "Mr. McKeel (voice)"
+        },
+        {
+          "name": "Charlie Day",
+          "character": "Dmitri (voice)"
+        }
+      ],
+      "trailer": "7rQ_JSUt_bs",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-21T04:48:55.217Z"
+  },
   "will hunting genio ribelle|gus van sant 1997": {
     "value": {
       "tmdbId": 489,
@@ -20011,6 +21440,104 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:52.463Z"
+  },
+  "within|": {
+    "value": {
+      "tmdbId": 291413,
+      "title": "Within - Presenze",
+      "overview": "John, rimasto vedovo e con una figlia, si risposa e si trasferisce con la nuova famiglia nella loro casa dei sogni. Tutto sembra andare bene finchè alcuni strani eventi non iniziano a manifestarsi nella casa, il cui precedente proprietario è misteriosamente scomparso.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Within",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 88,
+      "released": "2016-10-18",
+      "vote": 5.4,
+      "votes": 325,
+      "poster": "https://image.tmdb.org/t/p/w500/wfOaPl9lfzRuMjbnJZ8joBHG1h2.jpg",
+      "directors": [
+        {
+          "id": 82822,
+          "name": "Phil Claydon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Michael Vartan",
+          "character": "John Alexander"
+        },
+        {
+          "name": "Erin Moriarty",
+          "character": "Hannah Alexander"
+        },
+        {
+          "name": "Nadine Velazquez",
+          "character": "Melanie Alexander"
+        },
+        {
+          "name": "Ronnie Gene Blevins",
+          "character": "Ray Walsh"
+        },
+        {
+          "name": "JoBeth Williams",
+          "character": "Rosemary Fletcher"
+        },
+        {
+          "name": "Blake Jenner",
+          "character": "Tommy"
+        },
+        {
+          "name": "Dorian Kingi",
+          "character": "David"
+        },
+        {
+          "name": "Misty Upham",
+          "character": "Tina Walsh"
+        }
+      ],
+      "trailer": "KHg90WBsrGo",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/291413-within/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-21T04:48:56.487Z"
   },
   "wrath of the titans|": {
     "value": {
