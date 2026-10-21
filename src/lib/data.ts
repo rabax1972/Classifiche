@@ -1,6 +1,6 @@
 // Accesso ai JSON generati, a build time.
 
-import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type MovieRatings, type MovieRatingsFile, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type SeriesInfo, type CreatorInfo, type SongInfo, type SourceStatus } from './types';
+import { CURATED_IDS, type ArtistInfo, type AuthorInfo, type BookInfo, type FreeEdition, type CategoryId, type MovieRatings, type MovieRatingsFile, type CuratedId, type CuratedList, type DirectorInfo, type MovieInfo, type PeriodChart, type PeriodId, type PodcastInfo, type SeriesInfo, type CreatorInfo, type SongInfo, type SourceStatus } from './types';
 
 const charts = import.meta.glob<PeriodChart>('/data/charts/*/*.json', { eager: true, import: 'default' });
 const curated = import.meta.glob<CuratedList>('/data/curated/*.json', { eager: true, import: 'default' });
@@ -13,6 +13,7 @@ const movieInfoFiles = import.meta.glob<Record<string, { value: MovieInfo }>>('/
 const directorInfoFiles = import.meta.glob<Record<string, { value: DirectorInfo }>>('/data/cache/director-info.json', { eager: true, import: 'default' });
 const seriesInfoFiles = import.meta.glob<Record<string, { value: SeriesInfo }>>('/data/cache/series-info.json', { eager: true, import: 'default' });
 const creatorInfoFiles = import.meta.glob<Record<string, { value: CreatorInfo }>>('/data/cache/creator-info.json', { eager: true, import: 'default' });
+const podcastInfoFiles = import.meta.glob<Record<string, { value: PodcastInfo }>>('/data/cache/podcast-info.json', { eager: true, import: 'default' });
 // Voti IMDb e Rotten Tomatoes (scripts/movie-ratings.ts): film delle classifiche e, fuori da git, del catalogo privato.
 const ratingFiles = import.meta.glob<MovieRatingsFile>(['/data/cache/movie-ratings.json', '/privato/film-voti.json'], { eager: true, import: 'default' });
 const statusFiles = import.meta.glob<SourceStatus[]>('/data/status.json', { eager: true, import: 'default' });
@@ -34,6 +35,11 @@ export function getArtistInfo(key: string): ArtistInfo | null {
 /** Scheda di un libro (chiave: entryKey), se già raccolta da scripts/book-info.ts. */
 export function getBookInfo(key: string): BookInfo | null {
   return Object.values(bookInfoFiles)[0]?.[key]?.value ?? null;
+}
+
+/** Scheda di un podcast (chiave: podcastKey), se già raccolta da scripts/podcast-info.ts. */
+export function getPodcastInfo(key: string): PodcastInfo | null {
+  return Object.values(podcastInfoFiles)[0]?.[key]?.value ?? null;
 }
 
 /** Scheda di un autore (chiave: artistKey), se già raccolta da scripts/author-info.ts. */

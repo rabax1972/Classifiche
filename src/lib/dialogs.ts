@@ -1,5 +1,5 @@
-// Modali delle schede (brani e artisti, libri e autori, film e registi, serie e creatori), lato client: una sola aperta alla volta,
-// link diretto nell'URL (#brano=… / #artista=… / #libro=… / #autore=… / #film=… / #regista=… / #serie=… / #creatore=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
+// Modali delle schede (brani e artisti, libri e autori, film e registi, serie e creatori, podcast), lato client: una sola aperta alla volta,
+// link diretto nell'URL (#brano=… / #artista=… / #libro=… / #autore=… / #film=… / #regista=… / #serie=… / #creatore=… / #podcast=…) e, alla chiusura, focus restituito al pulsante della classifica che l'ha aperta.
 
 import { artistKey, splitArtists } from './aggregate';
 import type { WatchProvider } from './types';
@@ -12,7 +12,7 @@ let opener: HTMLElement | null = null;
 interface DialogOptions {
   dialog: HTMLDialogElement;
   /** Nome del parametro nell'URL e dell'attributo data-* dei pulsanti che aprono la modale. */
-  name: 'brano' | 'artista' | 'libro' | 'autore' | 'film' | 'regista' | 'serie' | 'creatore';
+  name: 'brano' | 'artista' | 'libro' | 'autore' | 'film' | 'regista' | 'serie' | 'creatore' | 'podcast';
   /** Classe dei pulsanti che aprono la modale. */
   trigger: string;
   /** Riempie la modale; false se la chiave non è nota. */

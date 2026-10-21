@@ -487,6 +487,48 @@ export interface FollowedPodcast {
   keys: string[];
 }
 
+/** Un episodio recente di un podcast, dal suo feed RSS. */
+export interface PodcastEpisode {
+  title: string;
+  /** Data di pubblicazione (YYYY-MM-DD). */
+  date: string | null;
+  /** Durata in secondi. */
+  seconds: number | null;
+  /** Pagina dell'episodio indicata dal feed. */
+  url: string | null;
+}
+
+/** Scheda di un podcast per la modale (data/cache/podcast-info.json, scripts/podcast-info.ts; chiave podcastKey). */
+export interface PodcastInfo {
+  /** Scheda su Apple Podcasts (API di ricerca di iTunes). */
+  appleUrl: string | null;
+  genres: string[];
+  /** Numero di episodi pubblicati. */
+  episodes: number | null;
+  /** Copertina grande (600x600). */
+  cover: string | null;
+  /** Feed RSS pubblico del podcast. */
+  feedUrl: string | null;
+  /** Descrizione del podcast dal feed RSS (testo semplice). */
+  description: string | null;
+  /** Pagina web del podcast indicata dal feed. */
+  website: string | null;
+  /** Ultimi episodi, dal più recente. */
+  latest: PodcastEpisode[];
+}
+
+/** Un podcast della pagina da cui si apre la modale (src/components/PodcastDialog.astro). */
+export interface PodcastCard {
+  title: string;
+  publisher: string | null;
+  cover: string | null;
+  spotifyUrl: string | null;
+  appleUrl: string | null;
+  /** Posizioni nelle classifiche di oggi (nome della fonte e posizione). */
+  ranks: { source: string; rank: number }[];
+  info: PodcastInfo | null;
+}
+
 /** File privato/podcast-seguiti.json (fuori da git), scritto da scripts/spotify-import.ts. */
 export interface FollowedPodcastCatalog {
   date: string;

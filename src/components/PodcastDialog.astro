@@ -1,0 +1,213 @@
+---
+// Modale con la scheda di un podcast: si apre dai titoli della classifica Podcast (pulsanti .podcast-open[data-podcast], chiave
+// podcastKey, comune alle schede Spotify e Apple). I dati dei podcast della pagina sono incorporati come JSON; il contenuto è
+// costruito con textContent. Scheda da scripts/podcast-info.ts (Apple Podcasts e feed RSS del podcast).
+import { podcastKey } from '../lib/aggregate';
+import { getChart, getPodcastInfo } from '../lib/data';
+import { sourceName } from '../lib/sources';
+import type { ChartView, PodcastCard } from '../lib/types';
+
+interface Props {
+  views: ChartView[];
+}
+const { views } = Astro.props;
+
+// Posizioni di oggi in tutte e due le classifiche, anche nelle pagine degli altri periodi.
+const today = new Map<string, { source: string; rank: number }[]>();
+for (const v of getChart('podcast', 'oggi')?.views ?? [])
+  for (const e of v.entries) {
+    const key = podcastKey(e.title);
+    today.set(key, [...(today.get(key) ?? []), { source: sourceName(e.source), rank: e.rank }]);
+  }
+
+const podcasts: Record<string, PodcastCard> = {};
+for (const v of views)
+  for (const e of v.entries) {
+    const key = podcastKey(e.title);
+    const p = (podcasts[key] ??= {
+      title: e.title,
+      publisher: null,
+      cover: null,
+      spotifyUrl: null,
+      appleUrl: null,
+      ranks: today.get(key) ?? [],
+      info: getPodcastInfo(key),
+    });
+    // Spotify scrive l'editore anche quando Apple non lo indica.
+    p.publisher ??= e.subtitle;
+    p.cover ??= e.cover;
+    if (e.source === 'spotify-podcasts') p.spotifyUrl ??= e.sourceUrl;
+    if (e.source === 'apple-podcasts') p.appleUrl ??= e.sourceUrl;
+  }
+for (const p of Object.values(podcasts)) {
+  p.appleUrl ??= p.info?.appleUrl ?? null;
+  p.cover = p.info?.cover ?? p.cover;
+}
+---
+
+<script type="application/json" id="podcast-data" set:html={JSON.stringify(podcasts).replace(/</g, '\\u003c')} />
+
+<dialog
+  id="podcast-dialog"
+  aria-labelledby="podcast-title"
+  class="m-auto w-[calc(100%-2rem)] max-w-2xl rounded-2xl bg-white p-0 text-gray-900 shadow-2xl backdrop:bg-black/60 backdrop:backdrop-blur-sm dark:bg-gray-900 dark:text-gray-100"
+>
+  <div data-scroll class="relative flex max-h-[90dvh] flex-col overflow-y-auto sm:flex-row">
+    <button
+      type="button"
+      data-close
+      class="absolute top-2 right-2 z-10 rounded-full bg-white/80 p-2 text-gray-700 hover:bg-white dark:bg-gray-900/80 dark:text-gray-200 dark:hover:bg-gray-800"
+      aria-label="Chiudi"
+    >
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+    </button>
+
+    <div class="shrink-0 px-5 pt-5 sm:w-64 sm:bg-gray-100 sm:p-6 dark:sm:bg-gray-800">
+      <img id="podcast-cover" alt="" referrerpolicy="no-referrer" class="mx-auto aspect-square w-40 rounded-xl object-cover shadow-lg sm:sticky sm:top-6 sm:w-full" />
+      <div id="podcast-cover-empty" class="mx-auto flex aspect-square w-40 items-center justify-center rounded-xl bg-gray-100 text-4xl font-bold text-gray-400 sm:w-full dark:bg-gray-800 sm:dark:bg-gray-700" aria-hidden="true"></div>
+    </div>
+
+    <div class="min-w-0 flex-1 space-y-4 p-5 sm:p-6">
+      <div class="pr-8">
+        <h2 id="podcast-title" class="text-2xl leading-tight font-bold break-words"></h2>
+        <p id="podcast-publisher" class="mt-1 text-lg text-gray-700 dark:text-gray-300"></p>
+        <p id="podcast-meta" class="mt-2 text-sm text-gray-600 dark:text-gray-400"></p>
+        <div id="podcast-ranks" class="mt-2 flex flex-wrap gap-2 text-xs"></div>
+        <label class="mt-3 inline-flex cursor-pointer items-center gap-1.5 text-sm font-medium text-gray-700 select-none dark:text-gray-300">
+          <input type="checkbox" id="podcast-follow" class="size-4 cursor-pointer accent-emerald-600" />
+          Lo seguo
+        </label>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Di cosa parla</h3>
+        <div id="podcast-desc" class="mt-1 space-y-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200"></div>
+        <p id="podcast-desc-source" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Descrizione dal feed RSS del podcast.</p>
+      </div>
+
+      <section id="podcast-latest-box" aria-labelledby="podcast-latest-title">
+        <h3 id="podcast-latest-title" class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">Ultimi episodi</h3>
+        <ol id="podcast-latest" class="mt-2 divide-y divide-gray-100 rounded-lg border border-gray-200 text-sm dark:divide-gray-800 dark:border-gray-800"></ol>
+      </section>
+
+      <div id="podcast-links" class="flex flex-wrap gap-2 text-sm font-medium">
+        <a id="podcast-spotify" class="rounded-lg bg-emerald-600 px-3 py-2 text-white hover:bg-emerald-700" rel="noopener" target="_blank">Ascolta su Spotify</a>
+        <a id="podcast-apple" class="rounded-lg bg-indigo-600 px-3 py-2 text-white hover:bg-indigo-700" rel="noopener" target="_blank">Su Apple Podcasts</a>
+        <a id="podcast-site" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Sito del podcast</a>
+        <a id="podcast-feed" class="rounded-lg border border-gray-300 px-3 py-2 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800" rel="noopener" target="_blank">Feed RSS</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { setParagraphs, setupDialog } from '../lib/dialogs';
+  import { SEEN_EVENT, seenKeys, setSeen, type SeenChange } from '../lib/seen';
+  import type { PodcastCard } from '../lib/types';
+
+  const dialog = document.querySelector<HTMLDialogElement>('#podcast-dialog');
+  const dataEl = document.querySelector('#podcast-data');
+  if (dialog && dataEl) {
+    const podcasts = JSON.parse(dataEl.textContent || '{}') as Record<string, PodcastCard>;
+    const $ = <T extends HTMLElement>(id: string) => dialog.querySelector<T>(`#${id}`)!;
+    const dateFmt = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+    const day = (d: string) => dateFmt.format(new Date(`${d}T00:00:00Z`));
+    const duration = (s: number) => {
+      const h = Math.floor(s / 3600);
+      const m = Math.round((s % 3600) / 60);
+      return h ? `${h} h ${String(m).padStart(2, '0')} min` : `${Math.max(m, 1)} min`;
+    };
+    const setLink = (el: HTMLAnchorElement, url: string | null, label: string) => {
+      el.hidden = !url;
+      if (!url) return;
+      el.href = url;
+      el.setAttribute('aria-label', `${label} (si apre in una nuova scheda)`);
+    };
+    let current = '';
+    const follow = $<HTMLInputElement>('podcast-follow');
+    follow.addEventListener('change', () => setSeen('podcast', current, follow.checked));
+    // Spunta cambiata nella classifica (o dall'account) mentre la scheda è aperta.
+    document.addEventListener(SEEN_EVENT, (ev) => {
+      const { list, key, seen } = (ev as CustomEvent<SeenChange>).detail;
+      if (list === 'podcast' && key === current) follow.checked = seen;
+    });
+
+    const render = (key: string) => {
+      const p = podcasts[key];
+      if (!p) return false;
+      const info = p.info;
+      current = key;
+      follow.checked = seenKeys('podcast').has(key);
+
+      $('podcast-title').textContent = p.title;
+      $('podcast-publisher').textContent = p.publisher ?? '';
+      $('podcast-publisher').hidden = !p.publisher;
+
+      const img = $<HTMLImageElement>('podcast-cover');
+      img.hidden = !p.cover;
+      img.src = p.cover ?? '';
+      img.alt = p.cover ? `Copertina di ${p.title}` : '';
+      const empty = $('podcast-cover-empty');
+      empty.hidden = Boolean(p.cover);
+      empty.textContent = p.title.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]!.toUpperCase()).join('');
+
+      const latest = info?.latest ?? [];
+      const meta = [
+        info?.genres.slice(0, 3).join(', '),
+        info?.episodes ? `${info.episodes.toLocaleString('it-IT')} episodi` : null,
+        latest[0]?.date ? `ultimo il ${day(latest[0].date)}` : null,
+      ].filter(Boolean);
+      $('podcast-meta').textContent = meta.join(' · ');
+      $('podcast-meta').hidden = !meta.length;
+
+      $('podcast-ranks').replaceChildren(
+        ...p.ranks.map((r) => {
+          const s = document.createElement('span');
+          s.className = 'rounded-md bg-emerald-50 px-1.5 py-0.5 font-semibold text-emerald-800 ring-1 ring-emerald-200 dark:bg-emerald-950/60 dark:text-emerald-300 dark:ring-emerald-900';
+          s.textContent = `${r.rank}° su ${r.source} oggi`;
+          return s;
+        }),
+      );
+
+      const desc = $('podcast-desc');
+      if (info?.description) setParagraphs(desc, info.description);
+      else
+        setParagraphs(
+          desc,
+          info ? 'Il feed di questo podcast non ha una descrizione.' : 'La scheda di questo podcast non è ancora disponibile: sarà completata nei prossimi aggiornamenti.',
+          'text-gray-600 dark:text-gray-400',
+        );
+      $('podcast-desc-source').hidden = !info?.description;
+
+      $('podcast-latest-box').hidden = !latest.length;
+      $('podcast-latest').replaceChildren(
+        ...latest.map((ep) => {
+          const li = document.createElement('li');
+          li.className = 'px-3 py-2';
+          const title = document.createElement(ep.url ? 'a' : 'p');
+          title.className = 'font-medium break-words';
+          title.textContent = ep.title;
+          if (title instanceof HTMLAnchorElement && ep.url) {
+            Object.assign(title, { href: ep.url, rel: 'noopener', target: '_blank' });
+            title.classList.add('underline-offset-2', 'hover:text-indigo-700', 'hover:underline', 'dark:hover:text-indigo-300');
+          }
+          const when = document.createElement('p');
+          when.className = 'text-xs text-gray-600 dark:text-gray-400';
+          when.textContent = [ep.date ? day(ep.date) : null, ep.seconds ? duration(ep.seconds) : null].filter(Boolean).join(' · ');
+          li.append(title);
+          if (when.textContent) li.append(when);
+          return li;
+        }),
+      );
+
+      setLink($<HTMLAnchorElement>('podcast-spotify'), p.spotifyUrl, `${p.title} su Spotify`);
+      setLink($<HTMLAnchorElement>('podcast-apple'), p.appleUrl, `${p.title} su Apple Podcasts`);
+      setLink($<HTMLAnchorElement>('podcast-site'), info?.website ?? null, `Sito di ${p.title}`);
+      setLink($<HTMLAnchorElement>('podcast-feed'), info?.feedUrl ?? null, `Feed RSS di ${p.title}`);
+      return true;
+    };
+
+    // Link diretto a un podcast: /podcast/oggi/#podcast=<chiave>
+    setupDialog({ dialog, name: 'podcast', trigger: 'podcast-open', render });
+  }
+</script>

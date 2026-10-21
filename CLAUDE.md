@@ -11,8 +11,8 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run dev` — sito in locale (http://localhost:4321)
 - `npm run build` — sito statico in `dist/`; `npm run typecheck` (`tsc --noEmit`, non controlla i `.astro`)
 - `npm test` — vitest; un solo file: `npx vitest run tests/aggregate.test.ts`; un solo test: `npx vitest run -t "nome del test"`
-- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `ratings:film` → `info:serie`
-- `npm run info:<canzoni|libri|film|serie> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
+- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `ratings:film` → `info:serie` → `info:podcast`
+- `npm run info:<canzoni|libri|film|serie|podcast> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
   da caricare a mano con FileZilla (niente deploy automatico); in `aruba/modifiche/` solo i file cambiati dall'ultima pubblicazione
   confermata (`-- --conferma`, impronte in `aruba/pubblicato.json`, e svuota sul server i file della pubblicazione automatica;
@@ -51,7 +51,8 @@ si dividono con `splitArtists()`. Per i film il sottotitolo è `"Regista, Regist
 ### Schede in modale
 
 Ogni categoria con schede ha una coppia di modali opera/persona: Canzoni (Song/ArtistDialog), Libri e liste di libri (Book/AuthorDialog),
-Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Lo schema è sempre lo stesso:
+Cinema e Film (Movie/DirectorDialog), Serie TV (Series/CreatorDialog). Podcast ha solo la modale dell'opera (`PodcastDialog`, chiave
+`podcastKey`, `scripts/podcast-info.ts`: iTunes più il feed RSS del podcast per descrizione e ultimi episodi, scadenza 7 giorni). Lo schema è sempre lo stesso:
 
 - uno script `scripts/*-info.ts` raccoglie i dati in `data/cache/*-info.json` con `MetaCache` (`scripts/lib/store.ts`, cache committata
   con scadenza), chiave `entryKey` per le opere e `artistKey` per le persone; lo script dell'opera lancia poi quello della persona;

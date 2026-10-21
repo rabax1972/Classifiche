@@ -12,6 +12,7 @@ import CreatorDialog from './CreatorDialog.astro';
 import DirectorDialog from './DirectorDialog.astro';
 import MovieDialog from './MovieDialog.astro';
 import MyMovies from './MyMovies.astro';
+import PodcastDialog from './PodcastDialog.astro';
 import SeriesDialog from './SeriesDialog.astro';
 import SongDialog from './SongDialog.astro';
 
@@ -213,6 +214,8 @@ const seenTab = category === 'film';
       </>
     )
   }
+
+  {category === 'podcast' && views.length > 0 && <PodcastDialog views={views} />}
 
   {chart && <p class="text-sm text-gray-600 dark:text-gray-400">Ultimo aggiornamento: {formatDateTime(chart.generatedAt)}{chart.lastSnapshot && ` · ultimo snapshot del ${formatDay(chart.lastSnapshot)}`}.</p>}
 </Base>

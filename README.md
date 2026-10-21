@@ -67,6 +67,7 @@ npm run dev                # http://localhost:4321
 | `npm run ratings:film` | Voti IMDb e Rotten Tomatoes (Wikidata) dei film delle classifiche e del catalogo privato (`-- --force` per rinnovarli tutti) |
 | `npm run imdb:top` | Scheda "IMDb Top 100" della pagina Film dai dataset IMDb, se ha più di una settimana (`-- --force` per rifarla; richiede la chiave TMDB) |
 | `npm run info:serie` | Completa le schede di serie e creatori di Serie TV e gli episodi di ogni stagione (`-- --all` senza limite; richiede la chiave TMDB) |
+| `npm run info:podcast` | Completa le schede dei podcast: genere ed episodi da Apple Podcasts, descrizione e ultimi episodi dal feed RSS (`-- --all` senza limite; scadono dopo 7 giorni) |
 | `npm run covers:album` | Completa le copertine mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run tracks:album` | Completa le tracklist mancanti delle liste di album (`-- --force` per rifarle tutte) |
 | `npm run covers:libri` | Completa le copertine mancanti delle liste di libri (`-- --force` per rifarle tutte) |
@@ -126,6 +127,7 @@ Cliccando su un titolo o su un nome si apre una scheda. Le schede si possono lin
 | Libri e liste di libri | Libro: genere, uscita, presentazione dell'editore (Apple Books) o introduzione di Wikipedia; link per scaricare i libri di pubblico dominio (Liber Liber, Wikisource) | Autore |
 | Cinema e Film | Film: trama, generi, durata, uscita in Italia, voto, interpreti, trailer (TMDB); dove vederlo in Italia (JustWatch via TMDB) | Regista, con i film diretti (TMDB) |
 | Serie TV | Serie: trama, generi, stagioni ed episodi, anni, stato, reti, prossimo episodio, voto, interpreti, trailer (TMDB); dove vederla in Italia (JustWatch via TMDB). Per ogni stagione, la scheda di ogni episodio: data, durata, voto, trama, fotogramma, regia e sceneggiatura (TMDB) | Creatore, con le serie create (TMDB) |
+| Podcast | Podcast: genere, numero di episodi, link a Spotify e Apple Podcasts (iTunes); descrizione, sito e ultimi 5 episodi con data e durata (feed RSS del podcast); posizioni di oggi nelle due classifiche | — |
 
 Le schede delle persone usano l'introduzione della voce di Wikipedia (in italiano o in inglese, CC BY-SA 4.0) e, se c'è, una foto con licenza libera da Wikimedia Commons, con autore e licenza indicati. Per registi e creatori senza voce o senza foto si usano la biografia e la foto di TMDB.
 

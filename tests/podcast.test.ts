@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { parseSpotifyChart, spotifyShowUrl } from '../scripts/adapters/spotify';
+import { durationSeconds, feedText, parseFeed } from '../scripts/podcast-info';
 import { libraryShows } from '../scripts/spotify-import';
 import { podcastKey } from '../src/lib/aggregate';
 
@@ -32,6 +33,33 @@ describe('Spotify Podcast Charts', () => {
       externalId: 'spotify:show:5qrDv6O8ON44pXR70z4lPz',
     });
     expect(spotifyShowUrl('spotify:show:abc')).toBe('https://open.spotify.com/show/abc');
+  });
+});
+
+describe('feed RSS dei podcast', () => {
+  const xml = `<?xml version="1.0"?><rss><channel>
+    <title>Il Mondo</title><link>https://www.internazionale.it/podcast</link>
+    <image><url>x.jpg</url><link>https://img.example</link></image>
+    <description><![CDATA[<p>Il podcast quotidiano di <b>Internazionale</b>.</p><p>Ogni mattina.</p>]]></description>
+    <item><title>Episodio vecchio</title><pubDate>Mon, 19 Oct 2026 04:00:00 GMT</pubDate><itunes:duration>1:02:03</itunes:duration></item>
+    <item><title>Gaza &amp; dintorni</title><link>https://www.internazionale.it/ep/2</link><pubDate>Tue, 20 Oct 2026 04:00:00 GMT</pubDate><itunes:duration>1530</itunes:duration></item>
+  </channel></rss>`;
+
+  it('legge descrizione, sito ed episodi, dal più recente', () => {
+    expect(parseFeed(xml)).toEqual({
+      description: 'Il podcast quotidiano di Internazionale.\nOgni mattina.',
+      website: 'https://www.internazionale.it/podcast',
+      latest: [
+        { title: 'Gaza & dintorni', date: '2026-10-20', seconds: 1530, url: 'https://www.internazionale.it/ep/2' },
+        { title: 'Episodio vecchio', date: '2026-10-19', seconds: 3723, url: null },
+      ],
+    });
+  });
+
+  it('converte durate e testi', () => {
+    expect(durationSeconds('45:10')).toBe(2710);
+    expect(durationSeconds('abc')).toBeNull();
+    expect(feedText('&lt;p&gt;Uno&lt;/p&gt;&lt;p&gt;Due &amp;#39;tre&amp;#39;&lt;/p&gt;')).toBe("Uno\nDue 'tre'");
   });
 });
 

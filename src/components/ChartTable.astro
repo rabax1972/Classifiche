@@ -19,6 +19,7 @@ const computed = view.kind === 'computed';
 // Libri: il titolo apre la scheda del libro (BookDialog), ogni autore la propria (AuthorDialog).
 // Cinema e Film: il titolo apre la scheda del film (MovieDialog), ogni regista la propria (DirectorDialog).
 // Serie TV: il titolo apre la scheda della serie (SeriesDialog), ogni creatore la propria (CreatorDialog).
+// Podcast: il titolo apre la scheda del podcast (PodcastDialog), comune alle schede Spotify e Apple (chiave podcastKey).
 const movies = category === 'cinema' || category === 'film';
 const series = category === 'serie-tv';
 /** Classifiche con i filtri dalle schede TMDB e la spunta "Visto" / "Vista". */
@@ -304,6 +305,15 @@ const showProviders = rowInfo.some((r) => r?.providers.length);
                         type="button"
                         class={`${cards.title} cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300`}
                         {...{ [cards.titleData]: e.key }}
+                        aria-haspopup="dialog"
+                      >
+                        {e.title}
+                      </button>
+                    ) : podcasts ? (
+                      <button
+                        type="button"
+                        class="podcast-open cursor-pointer text-left font-semibold break-words decoration-indigo-400 underline-offset-2 hover:text-indigo-700 hover:underline dark:hover:text-indigo-300"
+                        data-podcast={podcastKey(e.title)}
                         aria-haspopup="dialog"
                       >
                         {e.title}
