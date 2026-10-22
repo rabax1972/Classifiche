@@ -67,6 +67,23 @@
     },
     "fetchedAt": "2026-10-17T07:35:33.873Z"
   },
+  "ain t in la|adela": {
+    "value": {
+      "album": "PRIMA",
+      "released": "2026-07-23",
+      "genre": "Pop",
+      "durationMs": 184928,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/aint-in-la/6792883860?i=6792884101",
+      "wiki": {
+        "lang": "it",
+        "title": "Ain't in LA",
+        "url": "https://it.wikipedia.org/wiki/Ain't_in_LA",
+        "extract": "Ain't in LA è un singolo della cantautrice slovacca Adéla, pubblicato il 22 luglio 2026 come terzo estratto dal primo album in studio Prima."
+      }
+    },
+    "fetchedAt": "2026-10-22T04:44:52.608Z"
+  },
   "amica con madame|annalisa": {
     "value": {
       "album": "Amica (con Madame)",
@@ -1118,6 +1135,23 @@
       }
     },
     "fetchedAt": "2026-10-17T07:38:26.677Z"
+  },
+  "nicole kidman|adela": {
+    "value": {
+      "album": "PRIMA",
+      "released": "2026-09-03",
+      "genre": "Pop",
+      "durationMs": 181270,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/nicole-kidman/6807192580?i=6807192825",
+      "wiki": {
+        "lang": "it",
+        "title": "Nicole Kidman (singolo)",
+        "url": "https://it.wikipedia.org/wiki/Nicole_Kidman_(singolo)",
+        "extract": "Nicole Kidman è un singolo della cantautrice slovacca Adéla, pubblicato il 4 settembre 2026 come quarto estratto dal primo album in studio Prima. La canzone fa riferimento all'attrice australiana Nicole Kidman."
+      }
+    },
+    "fetchedAt": "2026-10-22T04:44:55.442Z"
   },
   "non sei piu tu|geolier": {
     "value": {

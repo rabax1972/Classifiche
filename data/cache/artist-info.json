@@ -39,6 +39,25 @@
     },
     "fetchedAt": "2026-10-17T07:59:03.064Z"
   },
+  "adela": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Adéla (cantante)",
+        "url": "https://it.wikipedia.org/wiki/Ad%C3%A9la_(cantante)",
+        "extract": "Adéla Jergová, nota semplicemente come Adéla (Bratislava, 27 novembre 2003), è una cantautrice e ballerina slovacca."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ad%C3%A9lajergov%C3%A1performing2026.jpg/500px-Ad%C3%A9lajergov%C3%A1performing2026.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ad%C3%A9lajergov%C3%A1performing2026.jpg",
+        "author": "Desmondithink",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/ad%C3%A9la/1765924916"
+    },
+    "fetchedAt": "2026-10-22T04:44:58.418Z"
+  },
   "alessandra amoroso": {
     "value": {
       "wiki": {

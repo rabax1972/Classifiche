@@ -12909,5 +12909,129 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:22.920Z"
+  },
+  "what we do in the shadows|jemaine clement 2019": {
+    "value": {
+      "tmdbId": 83631,
+      "title": "What We Do in the Shadows",
+      "overview": "Nandor, Laszlo, Nadja e Colin sono quattro vampiri che vivono in una casa di Staten Island insieme al famiglio Guillermo, che brama di diventare a sua volta una creatura delle tenebre. Una troupe televisiva segue la loro vita quotidiana e li intervista per realizzare un documentario.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 33,
+      "firstAired": "2019-03-27",
+      "lastAired": "2024-12-16",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 61,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2019-03-27",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2020-04-15",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2021-09-02",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2022-07-12",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2023-07-13",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2024-10-21",
+          "episodes": 11
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2021-09-02",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "FX"
+      ],
+      "vote": 8,
+      "votes": 1076,
+      "poster": "https://image.tmdb.org/t/p/w500/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg",
+      "creators": [
+        {
+          "id": 55936,
+          "name": "Jemaine Clement"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kayvan Novak",
+          "character": "Nandor the Relentless"
+        },
+        {
+          "name": "Matt Berry",
+          "character": "Laszlo Cravensworth"
+        },
+        {
+          "name": "Natasia Demetriou",
+          "character": "Nadja"
+        },
+        {
+          "name": "Harvey Guillén",
+          "character": "Guillermo de la Cruz"
+        },
+        {
+          "name": "Mark Proksch",
+          "character": "Colin Robinson / Baby Colin"
+        },
+        {
+          "name": "Kristen Schaal",
+          "character": "Floating Woman / The Guide"
+        },
+        {
+          "name": "Jamison Webb",
+          "character": "Park Man"
+        },
+        {
+          "name": "Kate Comer",
+          "character": "Park Woman"
+        }
+      ],
+      "trailer": "3_jTVuExbAo",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/83631-what-we-do-in-the-shadows/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-22T04:49:41.153Z"
   }
 }

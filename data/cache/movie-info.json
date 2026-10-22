@@ -64,6 +64,56 @@
     },
     "fetchedAt": "2026-10-21T04:48:55.680Z"
   },
+  "|taehwan yum 2026": {
+    "value": {
+      "tmdbId": 1688795,
+      "title": "투모로우바이투게더 월드 투어 ‘액트 : 투모로우'",
+      "overview": "Like shining stars, TOMORROW X TOGETHER’s fourth world tour 'ACT : TOMORROW' unfolds as a dazzling journey toward the tomorrow they promised together. From its beautiful storytelling to the stunning production and powerful live performances that captivated MOA around the world, experience the immersive energy of TOMORROW X TOGETHER’s spectacular world tour on the big screen!",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Musica",
+        "Documentario"
+      ],
+      "runtime": 97,
+      "released": "2026-10-24",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/aRoPHxYzfQjCLxSp4H4sJANNmou.jpg",
+      "directors": [
+        {
+          "id": 3432927,
+          "name": "Taehwan Yum"
+        }
+      ],
+      "cast": [
+        {
+          "name": "수빈",
+          "character": "Self"
+        },
+        {
+          "name": "연준",
+          "character": "Self"
+        },
+        {
+          "name": "범규",
+          "character": "Self"
+        },
+        {
+          "name": "태현",
+          "character": "Self"
+        },
+        {
+          "name": "휴닝카이",
+          "character": "Self"
+        }
+      ],
+      "trailer": "q0XKUFGn_M4",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.938Z"
+  },
   "2001 odissea nello spazio|stanley kubrick 1968": {
     "value": {
       "tmdbId": 62,
@@ -3288,6 +3338,69 @@
     },
     "fetchedAt": "2026-10-18T17:56:47.517Z"
   },
+  "clayface|james watkins 2026": {
+    "value": {
+      "tmdbId": 1400940,
+      "title": "Clayface",
+      "overview": "La terrificante discesa di un uomo, da astro nascente di Hollywood a mostro assetato di vendetta, in una storia che esplora la perdita di identità e umanità, l’amore corrosivo e il lato oscuro dell’ambizione scientifica.",
+      "overviewLang": "it",
+      "tagline": "Guarda la paura in faccia",
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Fantascienza"
+      ],
+      "runtime": 109,
+      "released": "2026-10-22",
+      "vote": 7.5,
+      "votes": 35,
+      "poster": "https://image.tmdb.org/t/p/w500/t6snh7pOxNjqs5rwP28TZmTQ0Ul.jpg",
+      "directors": [
+        {
+          "id": 63306,
+          "name": "James Watkins"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tom Rhys Harries",
+          "character": "Matt Hagen / Clayface"
+        },
+        {
+          "name": "Naomi Ackie",
+          "character": "Caitlyn Corr"
+        },
+        {
+          "name": "Eddie Marsan",
+          "character": "Frank"
+        },
+        {
+          "name": "Max Minghella",
+          "character": "John Borrelli"
+        },
+        {
+          "name": "David Dencik",
+          "character": "Marcos Jabo"
+        },
+        {
+          "name": "Francesca Corney",
+          "character": "Rosie"
+        },
+        {
+          "name": "Ruby Sear",
+          "character": "Theresa"
+        },
+        {
+          "name": "Wil Coban",
+          "character": "Bones"
+        }
+      ],
+      "trailer": "PiqMoq2gmBs",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.447Z"
+  },
   "coco|lee unkrich 2017": {
     "value": {
       "tmdbId": 354912,
@@ -5438,6 +5551,124 @@
     },
     "fetchedAt": "2026-10-20T04:53:35.670Z"
   },
+  "harry potter e la camera dei segreti|chris columbus 2002": {
+    "value": {
+      "tmdbId": 672,
+      "title": "Harry Potter e la camera dei segreti",
+      "overview": "Harry Potter sta trascorrendo noiose vacanze estive presso gli zii, oltretutto senza aver ricevuto nemmeno un messaggio dagli amici Ron e Hermione. Colpa di Dobby, elfo domestico che ha intercettato la posta per convincere il ragazzo a lasciare la scuola di magia di Hogwarts dove lo attenderebbe un terribile pericolo. L'arrivo all'accademia coincide in effetti con una serie di strani e paurosi fenomeni: esseri pietrificati, scritte di sangue sui muri e soprattutto l'accenno a una misteriosa \"camera dei segreti\" che conterrebbe qualcosa di malefico. Quando il pericolo comincerà a riguardare i suoi amici Harry saprà risolvere la situazione.",
+      "overviewLang": "it",
+      "tagline": "Qualcosa di oscuro è tornato ad Hogwarts",
+      "originalTitle": "Harry Potter and the Chamber of Secrets",
+      "genres": [
+        "Avventura",
+        "Fantasy"
+      ],
+      "runtime": 161,
+      "released": "2002-12-06",
+      "vote": 7.7,
+      "votes": 24258,
+      "poster": "https://image.tmdb.org/t/p/w500/fuW3lmo0SNI59riA7rKaLv3HT8F.jpg",
+      "directors": [
+        {
+          "id": 10965,
+          "name": "Chris Columbus"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Daniel Radcliffe",
+          "character": "Harry Potter"
+        },
+        {
+          "name": "Rupert Grint",
+          "character": "Ron Weasley"
+        },
+        {
+          "name": "Emma Watson",
+          "character": "Hermione Granger"
+        },
+        {
+          "name": "Kenneth Branagh",
+          "character": "Gilderoy Lockhart"
+        },
+        {
+          "name": "Toby Jones",
+          "character": "Dobby (voice)"
+        },
+        {
+          "name": "Robbie Coltrane",
+          "character": "Rubeus Hagrid"
+        },
+        {
+          "name": "Richard Harris",
+          "character": "Albus Dumbledore"
+        },
+        {
+          "name": "Alan Rickman",
+          "character": "Severus Snape"
+        }
+      ],
+      "trailer": "cbhVaQv-aNU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/672-harry-potter-and-the-chamber-of-secrets/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-22T04:45:43.248Z"
+  },
   "harry potter e la pietra filosofale|chris columbus 2001": {
     "value": {
       "tmdbId": 671,
@@ -6891,6 +7122,84 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:45.422Z"
+  },
+  "il castello errante di howl|hayao miyazaki 2004": {
+    "value": {
+      "tmdbId": 4935,
+      "title": "Il castello errante di Howl",
+      "overview": "Sophie ha diciotto anni e ogni giorno lavora instancabilmente nel negozio di cappelli del suo defunto padre. Un giorno, durante una rara escursione in città, per caso incontra il Mago Howl. Howl è ardito e bello, ma come tutti i maghi un po' smidollato. La Strega della Spazzatura, equivocando la natura del loro rapporto, getta una maledizione su Sophie, trasformandola in una novantenne rugosa. Sophie va via di casa e girovaga in una distesa desolata dove per caso entra nel castello mobile di Howl. Nascondendo la sua identita', diventa la donna delle pulizie. La vecchia petulante Sophie rimette a posto la casa, con molto piů brio di quanto ne avesse in origine. Cosa farà Sophie e cosa capiterà tra lei e Howl?",
+      "overviewLang": "it",
+      "tagline": "I due vivevano lì.",
+      "originalTitle": "ハウルの動く城",
+      "genres": [
+        "Fantasy",
+        "Animazione",
+        "Avventura"
+      ],
+      "runtime": 119,
+      "released": "2004-09-09",
+      "vote": 8.4,
+      "votes": 11590,
+      "poster": "https://image.tmdb.org/t/p/w500/5Sr9s8ZesaDKQhZl2fMuvOxIaxQ.jpg",
+      "directors": [
+        {
+          "id": 608,
+          "name": "Hayao Miyazaki"
+        }
+      ],
+      "cast": [
+        {
+          "name": "倍賞千恵子",
+          "character": "Sophie (voice)"
+        },
+        {
+          "name": "Takuya Kimura",
+          "character": "Howl (voice)"
+        },
+        {
+          "name": "Akihiro Miwa",
+          "character": "Witch of the Waste (voice)"
+        },
+        {
+          "name": "我修院達也",
+          "character": "Calcifer (voice)"
+        },
+        {
+          "name": "Ryūnosuke Kamiki",
+          "character": "Markl (voice)"
+        },
+        {
+          "name": "伊崎充則",
+          "character": "Kosho (voice)"
+        },
+        {
+          "name": "大泉洋",
+          "character": "Prince Justin / Turnip Head (voice)"
+        },
+        {
+          "name": "Akio Ōtsuka",
+          "character": "King of Ingary (voice)"
+        }
+      ],
+      "trailer": "FmPUVEh686w",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/4935/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-22T04:45:43.149Z"
   },
   "il cavaliere oscuro il ritorno|christopher nolan 2012": {
     "value": {
@@ -9647,6 +9956,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.981Z"
   },
+  "it ends|alexander ullom 2026": {
+    "value": {
+      "tmdbId": 1422011,
+      "title": "It Ends",
+      "overview": "Quattro amici appena diplomati partono per un giro in auto a tarda notte, sperando di godersi un’ultima serata insieme prima che le loro vie si dividano, ma si ritrovano intrappolati in una misteriosa strada senza fine, circondati da fenomeni inspiegabili e presenze terrificanti. Mentre la realtà sembra sgretolarsi intorno a loro, dovranno decidere se accettare il proprio destino o tentare una fuga impossibile.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Mistero"
+      ],
+      "runtime": 89,
+      "released": "2026-10-28",
+      "vote": 5.5,
+      "votes": 75,
+      "poster": "https://image.tmdb.org/t/p/w500/6dfAGvZWbJnzWfSZ8gxFj63BNAH.jpg",
+      "directors": [
+        {
+          "id": 5197159,
+          "name": "Alexander Ullom"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Phinehas Yoon",
+          "character": "James"
+        },
+        {
+          "name": "Akira Jackson",
+          "character": "Day"
+        },
+        {
+          "name": "Noah Toth",
+          "character": "Fisher"
+        },
+        {
+          "name": "Mitchell Cole",
+          "character": "Tyler"
+        },
+        {
+          "name": "Jenny Doyle",
+          "character": "Fisher's Mom (voice)"
+        },
+        {
+          "name": "Jon Linstad",
+          "character": "Interrogated Man"
+        },
+        {
+          "name": "Ian Weir",
+          "character": "Lost Man"
+        },
+        {
+          "name": "Alexander Ullom",
+          "character": "Passenger"
+        }
+      ],
+      "trailer": "dDA7kHRa67U",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.750Z"
+  },
   "je so pazzo|nicola prosatore 2026": {
     "value": {
       "tmdbId": 1438966,
@@ -10202,6 +10573,68 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:46.153Z"
+  },
+  "klara e il sole|taika waititi 2026": {
+    "value": {
+      "tmdbId": 858035,
+      "title": "Klara e il sole",
+      "overview": "La storia di Klara, un'Amica Artificiale il cui unico desiderio è trovare la casa perfetta. Quando Klara incontra Josie, le due scoprono fin da subito una forte affinità e, sebbene la ragazza viva un rapporto conflittuale con la madre segnato da un grave lutto, lo stupore innocente e l'incrollabile lealtà di Klara inizieranno a sanare le ferite della famiglia, riportando la luce nel complicato mondo di Josie.",
+      "overviewLang": "it",
+      "tagline": "Il futuro dell'amicizia è qui",
+      "originalTitle": "Klara and the Sun",
+      "genres": [
+        "Fantascienza",
+        "Dramma"
+      ],
+      "runtime": 116,
+      "released": "2026-10-22",
+      "vote": 6.2,
+      "votes": 3,
+      "poster": "https://image.tmdb.org/t/p/w500/9pbXmKk4EgTkQKBdiCgiEdhI6eG.jpg",
+      "directors": [
+        {
+          "id": 55934,
+          "name": "Taika Waititi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jenna Ortega",
+          "character": "Klara"
+        },
+        {
+          "name": "Mia Tharia",
+          "character": "Josie"
+        },
+        {
+          "name": "Amy Adams",
+          "character": "Chrissie"
+        },
+        {
+          "name": "Natasha Lyonne",
+          "character": "Manager"
+        },
+        {
+          "name": "Aran Murphy",
+          "character": "Rick"
+        },
+        {
+          "name": "Rachel House",
+          "character": "Melania"
+        },
+        {
+          "name": "Steve Buscemi",
+          "character": null
+        },
+        {
+          "name": "Davida McKenzie",
+          "character": "Simone"
+        }
+      ],
+      "trailer": "Evw3_f4X-J4",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.544Z"
   },
   "l albero di molto lontano|ben gregor 2026": {
     "value": {
@@ -15442,6 +15875,68 @@
     },
     "fetchedAt": "2026-10-18T17:56:46.007Z"
   },
+  "ragione e sentimento|georgia oakley 2026": {
+    "value": {
+      "tmdbId": 1503762,
+      "title": "Ragione e sentimento",
+      "overview": "La storia segue le vicende delle sorelle Elinor e Marianne Dashwood che, insieme alla madre e alla sorella minore Margaret, si ritrovano improvvisamente in ristrettezze economiche dopo la morte del padre, la cui eredità passa interamente al fratellastro John a causa delle leggi dell’epoca. Sfrattate dalla loro casa di famiglia nel Sussex, le donne Dashwood si trasferiscono in un modesto cottage nel Devonshire. Qui le due sorelle maggiori, profondamente diverse per temperamento – Elinor è guidata dalla prudenza e dal controllo delle emozioni (sense, la ragione), Marianne dall’impulso e dalla passione romantica (sensibility, il sentimento) –, dovranno navigare tra le rigide convenzioni sociali e i dolori dei loro rispettivi e tormentati primi amori, incarnati dalle figure di Edward Ferrars, John Willoughby e del colonnello Brandon.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Sense and Sensibility",
+      "genres": [
+        "Dramma",
+        "Romance"
+      ],
+      "runtime": 132,
+      "released": "2026-10-22",
+      "vote": 7.4,
+      "votes": 45,
+      "poster": "https://image.tmdb.org/t/p/w500/bwZCHb0qCFP2QT3QylGixpsNo8D.jpg",
+      "directors": [
+        {
+          "id": 1674275,
+          "name": "Georgia Oakley"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Daisy Edgar-Jones",
+          "character": "Elinor Dashwood"
+        },
+        {
+          "name": "Esmé Creed-Miles",
+          "character": "Marianne Dashwood"
+        },
+        {
+          "name": "Bodhi Rae Breathnach",
+          "character": "Margaret Dashwood"
+        },
+        {
+          "name": "Caitríona Balfe",
+          "character": "Mrs. Dashwood"
+        },
+        {
+          "name": "Fiona Shaw",
+          "character": "Mrs. Jennings"
+        },
+        {
+          "name": "George MacKay",
+          "character": "Edward Ferrars"
+        },
+        {
+          "name": "Herbert Nordrum",
+          "character": "Colonel Brandon"
+        },
+        {
+          "name": "Frank Dillane",
+          "character": "John Willoughby"
+        }
+      ],
+      "trailer": "DKwPSComY6k",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.425Z"
+  },
   "requiem for a dream|darren aronofsky 2000": {
     "value": {
       "tmdbId": 641,
@@ -17694,6 +18189,57 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.592Z"
+  },
+  "taddeo l esploratore e la lampada magica|enrique gato 2026": {
+    "value": {
+      "tmdbId": 1187326,
+      "title": "Taddeo l’esploratore e la lampada magica",
+      "overview": "Taddeo e Sara sono diventati genitori della piccola Oli. Durante una vacanza a Londra, trovano la Lampada delle Mille e una Notte. Un desiderio inaspettato della Momia fa viaggiare il gruppo nel tempo: dovranno attraversare diverse epoche, dalla Grecia Antica al Medio Oriente, per salvare la Storia prima che venga riscritta",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Tadeo Jones y La Lámpara Maravillosa",
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia"
+      ],
+      "runtime": 94,
+      "released": "2026-10-22",
+      "vote": 7.8,
+      "votes": 57,
+      "poster": "https://image.tmdb.org/t/p/w500/h4HmEpoNoFCuOkOzY0LIGEeQTuX.jpg",
+      "directors": [
+        {
+          "id": 1074721,
+          "name": "Enrique Gato"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Óscar Barberán",
+          "character": "Tadeo Jones (voice)"
+        },
+        {
+          "name": "Michelle Jenner",
+          "character": "Sara Lavrof (voice)"
+        },
+        {
+          "name": "Luis Posada",
+          "character": "Momia (voice)"
+        },
+        {
+          "name": "Joseph Balderrama",
+          "character": "Mummy / Tupac (voice)"
+        },
+        {
+          "name": "Trevor White",
+          "character": "Tad (voice)"
+        }
+      ],
+      "trailer": "9iWIMycVMTE",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-22T04:45:42.646Z"
   },
   "tempi moderni|charlie chaplin 1936": {
     "value": {
@@ -20335,6 +20881,124 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.981Z"
+  },
+  "una di famiglia the housemaid|paul feig 2025": {
+    "value": {
+      "tmdbId": 1368166,
+      "title": "Una di famiglia - The Housemaid",
+      "overview": "La trama segue Millie, una donna che cerca un nuovo inizio e trova lavoro come domestica per una coppia benestante ed elitaria. Ma come spesso accade nei thriller, le apparenze ingannano. Millie scoprirà presto che dietro la facciata di questa ricca famiglia perfetta si nascondono segreti oscuri e pericolosi.",
+      "overviewLang": "it",
+      "tagline": "Scopri cosa si nasconde dietro una porta chiusa",
+      "originalTitle": "The Housemaid",
+      "genres": [
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 131,
+      "released": "2026-01-01",
+      "vote": 7.3,
+      "votes": 3246,
+      "poster": "https://image.tmdb.org/t/p/w500/vhcLvSkPaD7udoRqEXKBWO9ld1D.jpg",
+      "directors": [
+        {
+          "id": 116805,
+          "name": "Paul Feig"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sydney Sweeney",
+          "character": "Millie Calloway"
+        },
+        {
+          "name": "Amanda Seyfried",
+          "character": "Nina Winchester"
+        },
+        {
+          "name": "Brandon Sklenar",
+          "character": "Andrew Winchester"
+        },
+        {
+          "name": "Michele Morrone",
+          "character": "Enzo"
+        },
+        {
+          "name": "Indiana Elle",
+          "character": "Cece Winchester"
+        },
+        {
+          "name": "Sarah Cooper",
+          "character": "Pam"
+        },
+        {
+          "name": "Elizabeth Perkins",
+          "character": "Mrs. Winchester"
+        },
+        {
+          "name": "Amanda Joy Erickson",
+          "character": "Suzanne"
+        }
+      ],
+      "trailer": "5qYb4nNbccY",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1368166-the-housemaid/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-22T04:45:43.043Z"
   },
   "una separazione|2011": {
     "value": {

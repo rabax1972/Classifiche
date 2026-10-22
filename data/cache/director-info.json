@@ -316,6 +316,31 @@
     },
     "fetchedAt": "2026-10-17T09:31:07.289Z"
   },
+  "alexander ullom": {
+    "value": {
+      "tmdbId": 5197159,
+      "wiki": null,
+      "bio": {
+        "text": "Alexander Ullom is an American filmmaker, best known for directing the horror film It Ends (2025).",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/neVbiMVlEks9TkChp5qmhS65wiB.jpg",
+      "films": [
+        {
+          "id": 1587422,
+          "title": "4X4: The Event",
+          "year": null
+        },
+        {
+          "id": 1422011,
+          "title": "It Ends",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:47.491Z"
+  },
   "alfonso cuaron": {
     "value": {
       "tmdbId": 11218,
@@ -3533,6 +3558,68 @@
     },
     "fetchedAt": "2026-10-21T04:49:08.612Z"
   },
+  "enrique gato": {
+    "value": {
+      "tmdbId": 1074721,
+      "wiki": {
+        "lang": "en",
+        "title": "Enrique Gato",
+        "url": "https://en.wikipedia.org/wiki/Enrique_Gato",
+        "extract": "Enrique Gato Borregán (born 26 April 1977 in Valladolid, Castile and León) is a Spanish filmmaker and 3D/2D animation designer known as the creator of Tad Stones. With this character (including two CGI animated shorts and four animated features) he won five Goya Awards."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/7vWBeDSnsWrbVOWQWurCbxTnEs9.jpg",
+      "films": [
+        {
+          "id": 1187326,
+          "title": "Taddeo l’esploratore e la lampada magica",
+          "year": "2026"
+        },
+        {
+          "id": 676701,
+          "title": "Taddeo l'esploratore e la Tavola di smeraldo",
+          "year": "2022"
+        },
+        {
+          "id": 452773,
+          "title": "Taddeo l'esploratore e il segreto di re Mida",
+          "year": "2017"
+        },
+        {
+          "id": 300602,
+          "title": "Mike sulla luna",
+          "year": "2015"
+        },
+        {
+          "id": 121734,
+          "title": "Le avventure di Taddeo l'esploratore",
+          "year": "2012"
+        },
+        {
+          "id": 205432,
+          "title": "Tadeo Jones y El Sótano Maldito",
+          "year": "2007"
+        },
+        {
+          "id": 156910,
+          "title": "Tadeo Jones",
+          "year": "2004"
+        },
+        {
+          "id": 712151,
+          "title": "Superlópez contra el robot de bolsillo",
+          "year": "2003"
+        },
+        {
+          "id": 486948,
+          "title": "Bicho",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:46.484Z"
+  },
   "eric toledano": {
     "value": {
       "tmdbId": 84425,
@@ -4510,6 +4597,58 @@
     },
     "fetchedAt": "2026-10-17T09:37:17.958Z"
   },
+  "georgia oakley": {
+    "value": {
+      "tmdbId": 1674275,
+      "wiki": {
+        "lang": "it",
+        "title": "Georgia Oakley",
+        "url": "https://it.wikipedia.org/wiki/Georgia_Oakley",
+        "extract": "Georgia Alice Nancy Oakley (Basingstoke, 31 luglio 1988) è una regista e sceneggiatrice britannica.Il suo lungometraggio d'esordio, Blue Jean, le è valso diversi riconoscimenti, tra cui una candidatura ai British Academy Film Award e un British Independent Film Award."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/x9cx7YFnfAjdcvnhvJ99ixIGYHC.jpg",
+      "films": [
+        {
+          "id": 1503762,
+          "title": "Ragione e sentimento",
+          "year": "2026"
+        },
+        {
+          "id": 971699,
+          "title": "Blue Jean",
+          "year": "2023"
+        },
+        {
+          "id": 740376,
+          "title": "Bored",
+          "year": "2019"
+        },
+        {
+          "id": 755777,
+          "title": "We Did Not Fall from the Sky",
+          "year": "2018"
+        },
+        {
+          "id": 545889,
+          "title": "Little Bird",
+          "year": "2017"
+        },
+        {
+          "id": 414042,
+          "title": "Callow & Sons",
+          "year": "2014"
+        },
+        {
+          "id": 449626,
+          "title": "Frayed",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:43.481Z"
+  },
   "gianni amelio": {
     "value": {
       "tmdbId": 128107,
@@ -5413,6 +5552,54 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:36:09.037Z"
+  },
+  "james watkins": {
+    "value": {
+      "tmdbId": 63306,
+      "wiki": {
+        "lang": "it",
+        "title": "James Watkins",
+        "url": "https://it.wikipedia.org/wiki/James_Watkins",
+        "extract": "James Thomas Watkins (Nottingham, 20 maggio 1973) è uno sceneggiatore e regista britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/James_Watkins_in_Moscow%2C_February_2012.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Watkins_in_Moscow,_February_2012.jpg",
+        "author": "Mikhail Popov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1400940,
+          "title": "Clayface",
+          "year": "2026"
+        },
+        {
+          "id": 1114513,
+          "title": "Speak No Evil - Non parlare con gli sconosciuti",
+          "year": "2024"
+        },
+        {
+          "id": 333669,
+          "title": "Bastille Day - Il colpo del secolo",
+          "year": "2016"
+        },
+        {
+          "id": 65086,
+          "title": "The Woman in Black",
+          "year": "2012"
+        },
+        {
+          "id": 13510,
+          "title": "Eden Lake",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:44.499Z"
   },
   "januel mercado": {
     "value": {
@@ -9653,6 +9840,89 @@
     },
     "fetchedAt": "2026-10-17T09:32:23.927Z"
   },
+  "paul feig": {
+    "value": {
+      "tmdbId": 116805,
+      "wiki": {
+        "lang": "it",
+        "title": "Paul Feig",
+        "url": "https://it.wikipedia.org/wiki/Paul_Feig",
+        "extract": "Paul Samuel Feig (Mount Clemens, 17 settembre 1962) è un regista, sceneggiatore, attore, produttore televisivo e produttore cinematografico statunitense.\n\nTra i suoi lavori principali da regista vi sono i film Le amiche della sposa (2011), Corpi da reato (2013), Io sono David (2003)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Paul_Feig_by_Gage_Skidmore.jpg/500px-Paul_Feig_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Paul_Feig_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 340160,
+          "title": "The Better Woman",
+          "year": null
+        },
+        {
+          "id": 1111908,
+          "title": "Untitled Spy Comedy",
+          "year": null
+        },
+        {
+          "id": 630774,
+          "title": "Dark Army",
+          "year": null
+        },
+        {
+          "id": 1697889,
+          "title": "Persona",
+          "year": null
+        },
+        {
+          "id": 1729011,
+          "title": "Detention",
+          "year": null
+        },
+        {
+          "id": 1767159,
+          "title": "Untitled The Italian Job Sequel",
+          "year": null
+        },
+        {
+          "id": 1611116,
+          "title": "The Housemaid's Secret",
+          "year": "2027"
+        },
+        {
+          "id": 1368166,
+          "title": "Una di famiglia - The Housemaid",
+          "year": "2025"
+        },
+        {
+          "id": 974573,
+          "title": "Un altro piccolo favore",
+          "year": "2025"
+        },
+        {
+          "id": 1094138,
+          "title": "JACKPOT Se vinci ti uccido!",
+          "year": "2024"
+        },
+        {
+          "id": 779782,
+          "title": "L'accademia del bene e del male",
+          "year": "2022"
+        },
+        {
+          "id": 549053,
+          "title": "Last Christmas",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:49.494Z"
+  },
   "pawe pawlikowski": {
     "value": {
       "tmdbId": 64194,
@@ -12100,6 +12370,121 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:02.995Z"
+  },
+  "taehwan yum": {
+    "value": {
+      "tmdbId": 3432927,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1688795,
+          "title": "투모로우바이투게더 월드 투어 ‘액트 : 투모로우'",
+          "year": "2026"
+        },
+        {
+          "id": 1797200,
+          "title": "세븐틴 월드 투어 '뉴_'",
+          "year": "2026"
+        },
+        {
+          "id": 1662735,
+          "title": "SEVENTEEN WORLD TOUR [NEW_] ENCORE",
+          "year": "2026"
+        },
+        {
+          "id": 1368181,
+          "title": "SEVENTEEN: Run-Up to the Leap",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:48.495Z"
+  },
+  "taika waititi": {
+    "value": {
+      "tmdbId": 55934,
+      "wiki": {
+        "lang": "it",
+        "title": "Taika Waititi",
+        "url": "https://it.wikipedia.org/wiki/Taika_Waititi",
+        "extract": "Taika Waititi, pseudonimo di Taika David Cohen (Wellington, 16 agosto 1975), è un regista, sceneggiatore, attore, comico, produttore cinematografico e produttore televisivo neozelandese, vincitore nel 2020 dell'Oscar alla miglior sceneggiatura non originale per Jojo Rabbit, che ha anche diretto."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Taika_Waititi_at_Tribeca_Film_Festival_2026-12.jpg/500px-Taika_Waititi_at_Tribeca_Film_Festival_2026-12.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Taika_Waititi_at_Tribeca_Film_Festival_2026-12.jpg",
+        "author": "CaseyJNewell",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 844166,
+          "title": "Tower of Terror",
+          "year": null
+        },
+        {
+          "id": 1307214,
+          "title": "James",
+          "year": null
+        },
+        {
+          "id": 1514883,
+          "title": "Untitled Judge Dredd Film",
+          "year": null
+        },
+        {
+          "id": 1597473,
+          "title": "Barn 8",
+          "year": null
+        },
+        {
+          "id": 1424981,
+          "title": "Flash Gordon",
+          "year": null
+        },
+        {
+          "id": 858035,
+          "title": "Klara e il sole",
+          "year": "2026"
+        },
+        {
+          "id": 1798498,
+          "title": "Feel It Forever",
+          "year": "2026"
+        },
+        {
+          "id": 1578602,
+          "title": "Il corto di Natale Disney: Il miglior Natale di sempre",
+          "year": "2025"
+        },
+        {
+          "id": 1385485,
+          "title": "Il bambino e l'amico polpo",
+          "year": "2024"
+        },
+        {
+          "id": 621587,
+          "title": "Chi segna vince",
+          "year": "2023"
+        },
+        {
+          "id": 616037,
+          "title": "Thor: Love and Thunder",
+          "year": "2022"
+        },
+        {
+          "id": 515001,
+          "title": "Jojo Rabbit",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:45:45.496Z"
   },
   "theodore melfi": {
     "value": {

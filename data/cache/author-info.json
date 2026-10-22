@@ -567,6 +567,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "andrea scanzi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Andrea Scanzi",
+        "url": "https://it.wikipedia.org/wiki/Andrea_Scanzi",
+        "extract": "Andrea Scanzi (Arezzo, 6 maggio 1974) è un giornalista, scrittore e opinionista italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Scanzi.jpg/500px-Scanzi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Scanzi.jpg",
+        "author": "Carriero89",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/andrea-scanzi/467577741",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
   "angela marsons": {
     "value": {
       "wiki": {
@@ -580,6 +600,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
+  "angelina galiulina": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "anna frank": {
     "value": {
@@ -1280,6 +1309,26 @@
       "died": 1972
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "don winslow": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Don Winslow",
+        "url": "https://it.wikipedia.org/wiki/Don_Winslow",
+        "extract": "Don Winslow (New York, 31 ottobre 1953) è uno scrittore statunitense.\n\nConsiderato uno degli scrittori più rappresentativi del poliziesco statunitense contemporaneo, è autore, tra gli altri, dei libri L'inverno di Frankie Machine e Il potere del cane."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/El_escritor_Don_Winslow.jpg/500px-El_escritor_Don_Winslow.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:El_escritor_Don_Winslow.jpg",
+        "author": "Malarrama",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/don-winslow/205125532",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "douglas adams": {
     "value": {
@@ -3510,6 +3559,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "matteo sciaudone": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
   "maxine paetro": {
     "value": {
       "wiki": {
@@ -3646,6 +3704,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "michele mari": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Michele Mari",
+        "url": "https://it.wikipedia.org/wiki/Michele_Mari",
+        "extract": "Michele Mari (Milano, 26 dicembre 1955) è uno scrittore, traduttore e poeta italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Michele_Mari_Premio_Chiara_2022.jpg/500px-Michele_Mari_Premio_Chiara_2022.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Michele_Mari_Premio_Chiara_2022.jpg",
+        "author": "Associazione Amici di Piero Chiara",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/michele-mari/449247741",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "miguel de cervantes": {
     "value": {
@@ -3924,6 +4002,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "patrick mcgrath": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Patrick McGrath",
+        "url": "https://it.wikipedia.org/wiki/Patrick_McGrath",
+        "extract": "Patrick McGrath (Londra, 7 febbraio 1950) è uno scrittore inglese. Attualmente vive fra Londra e New York, con la moglie Maria Aitken."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Patrick_McGrath_at_the_Brooklyn_Book_Festival.jpg/500px-Patrick_McGrath_at_the_Brooklyn_Book_Festival.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Patrick_McGrath_at_the_Brooklyn_Book_Festival.jpg",
+        "author": "David Shankbone",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/patrick-mcgrath/80839432",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "paul claudel": {
     "value": {
@@ -4314,6 +4412,15 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "s j sylvis": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/s-j-sylvis/1677734999",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
   "saint john perse": {
     "value": {
       "wiki": {
@@ -4391,6 +4498,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "sara d amario": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Sara D'Amario",
+        "url": "https://it.wikipedia.org/wiki/Sara_D'Amario",
+        "extract": "Sara D'Amario (Moncalieri, 4 febbraio 1972) è un'attrice e scrittrice italiana."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/sara-damario/488685878",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "sara ney": {
     "value": {
@@ -4596,6 +4717,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "tamara lush": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tamara-lush/1040528452",
+      "died": null
+    },
+    "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
   "thomas mann": {
     "value": {

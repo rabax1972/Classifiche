@@ -1991,6 +1991,49 @@
     },
     "fetchedAt": "2026-10-17T12:49:37.449Z"
   },
+  "jemaine clement": {
+    "value": {
+      "tmdbId": 55936,
+      "wiki": {
+        "lang": "it",
+        "title": "Jemaine Clement",
+        "url": "https://it.wikipedia.org/wiki/Jemaine_Clement",
+        "extract": "Jemaine Clement (Auckland, 10 gennaio 1974) è un comico, attore e sceneggiatore neozelandese e compositore di colonne sonore cinematografiche.\n\nÈ anche conosciuto come componente del duo comico musicale Flight of the Conchords insieme a Bret McKenzie."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Jemaine_Clement_at_the_2026_Tribeca_Festival_-15_%28cropped%29.jpg/500px-Jemaine_Clement_at_the_2026_Tribeca_Festival_-15_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jemaine_Clement_at_the_2026_Tribeca_Festival_-15_(cropped).jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 114924,
+          "title": "Time Bandits",
+          "year": "2024"
+        },
+        {
+          "id": 83631,
+          "title": "What We Do in the Shadows",
+          "year": "2019"
+        },
+        {
+          "id": 80475,
+          "title": "Wellington Paranormal",
+          "year": "2018"
+        },
+        {
+          "id": 2742,
+          "title": "Flight of the Conchords",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-22T04:49:41.520Z"
+  },
   "jeremy zag": {
     "value": {
       "tmdbId": 1762584,
