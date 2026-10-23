@@ -165,7 +165,7 @@ const { readonly = false } = Astro.props;
     const lastSeen = () => {
       const at = new Map<number, number>();
       const now = Date.now() / 1000;
-      const bump = (id: number, when: number) => at.set(id, Math.max(at.get(id) ?? 0, when));
+      const bump = (id: number, when: number) => at.set(id, Math.max(at.get(id) ?? -Infinity, when));
       for (const key of src.get(SERIES)) bump(Number(key.slice(3)), dates![SERIES]!.get(key) ?? now);
       for (const key of src.get(EPISODES)) bump(Number(key.split(':')[0]), dates![EPISODES]!.get(key) ?? now);
       return at;
@@ -242,7 +242,7 @@ const { readonly = false } = Astro.props;
         .join(' · ');
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
       const when = seenAt.get(s.tmdbId);
-      if (when) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Ultima visione: ${dayFormat.format(new Date(when * 1000))}`));
+      if (when != null) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Ultima visione: ${dayFormat.format(new Date(when * 1000))}`));
       const extra = voteAndProviders(s.vote, s.votes, s.providers);
       if (extra) text.append(extra);
 
@@ -296,7 +296,8 @@ const { readonly = false } = Astro.props;
       seenAt = new Map();
       if (sort.value === 'visione' && dates) {
         seenAt = lastSeen();
-        shown.sort((a, b) => (seenAt.get(b.s.tmdbId) ?? 0) - (seenAt.get(a.s.tmdbId) ?? 0) || byTitle(a.s, b.s));
+        const at = (id: number) => seenAt.get(id) ?? -Infinity;
+        shown.sort((a, b) => { const x = at(a.s.tmdbId), y = at(b.s.tmdbId); return (x === y ? 0 : y > x ? 1 : -1) || byTitle(a.s, b.s); });
       } else {
         if (sort.value === 'visione') loadDates();
         const by = sorters[sort.value] ?? byTitle;

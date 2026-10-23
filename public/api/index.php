@@ -259,8 +259,9 @@ switch ("$method $action") {
             foreach ($keys as $key => $when) {
                 if (++$seen > MAX_TICKS_PER_USER) break 2;
                 $key = (string)$key;
-                // Dal 1980 a domani: niente date assurde.
-                if (!valid_tick($list, $key) || !is_int($when) || $when < 315532800 || $when > $max) continue;
+                // Dal 1870 a domani: niente date assurde (ma su Trakt un film può essere segnato visto alla sua uscita, anche
+                // prima del 1970: secondi negativi).
+                if (!valid_tick($list, $key) || !is_int($when) || $when < -3155673600 || $when > $max) continue;
                 $set->execute([$when, $user['id'], $list, $key, $when]);
                 $updated += $set->rowCount();
             }

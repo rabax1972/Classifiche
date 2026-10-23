@@ -133,7 +133,7 @@ export function watchDates(
     const id = movie.ids.tmdb;
     const when = seconds(last_watched_at);
     if (!id || !when) continue;
-    for (const key of [...(data.catalog.get(id) ?? []), movieIdKey(id)]) films[key] = Math.max(films[key] ?? 0, when);
+    for (const key of [...(data.catalog.get(id) ?? []), movieIdKey(id)]) films[key] = Math.max(films[key] ?? -Infinity, when);
   }
   const series: Record<string, number> = {};
   for (const { show, last_watched_at } of data.shows) {
@@ -144,7 +144,7 @@ export function watchDates(
   for (const { episode, show, watched_at } of data.history) {
     const when = seconds(watched_at);
     const key = `${show.ids.tmdb}:${episode.season}:${episode.number}`;
-    if (show.ids.tmdb && when) episodes[key] = Math.max(episodes[key] ?? 0, when);
+    if (show.ids.tmdb && when) episodes[key] = Math.max(episodes[key] ?? -Infinity, when);
   }
   return { visti: films, 'serie-viste': series, 'episodi-visti': episodes };
 }

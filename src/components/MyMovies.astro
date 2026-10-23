@@ -250,7 +250,7 @@ const multis = [
       const details = [f.runtime ? `${f.runtime} min` : '', f.genres.slice(0, 3).join(', ')].filter(Boolean).join(' · ');
       if (details) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', details));
       const when = seenAt.get(f);
-      if (when) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Visto il ${dayFormat.format(new Date(when * 1000))}`));
+      if (when != null) text.append(el('p', 'text-xs text-gray-500 dark:text-gray-400', `Visto il ${dayFormat.format(new Date(when * 1000))}`));
       if (f.tmdbId < 0) text.append(el('p', 'text-xs text-gray-500 italic dark:text-gray-400', 'Scheda non più disponibile: il film non è più nelle classifiche.'));
 
       const extra = voteAndProviders(f.vote, f.votes, f.providers, f);
@@ -313,8 +313,13 @@ const multis = [
         // Data più recente tra le chiavi spuntate del film; quelle non ancora salvate nell'account sono di adesso.
         const ticks = src.get(store);
         const now = Date.now() / 1000;
-        for (const f of shown) seenAt.set(f, Math.max(0, ...f.keys.filter((k) => ticks.has(k)).map((k) => dates!.get(k) ?? now)));
-        shown.sort((a, b) => seenAt.get(b)! - seenAt.get(a)! || byTitle(a, b));
+        // Le date possono essere prima del 1970 (negative): "nessuna data" è undefined, non 0.
+        for (const f of shown) {
+          const when = f.keys.filter((k) => ticks.has(k)).map((k) => dates!.get(k) ?? now);
+          if (when.length) seenAt.set(f, Math.max(...when));
+        }
+        const at = (f: SeenMovie) => seenAt.get(f) ?? -Infinity;
+        shown.sort((a, b) => (at(a) === at(b) ? 0 : at(b) > at(a) ? 1 : -1) || byTitle(a, b));
       } else {
         if (sort.value === 'visione') loadDates();
         shown.sort(sorters[sort.value] ?? byTitle);

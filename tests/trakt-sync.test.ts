@@ -56,4 +56,14 @@ describe('watchDates', () => {
     expect(dates['serie-viste']).toEqual({ 'tv:10': t('2026-09-01T20:00:00Z') });
     expect(dates['episodi-visti']).toEqual({ '10:1:1': t('2026-09-01T20:00:00Z') });
   });
+
+  it('tiene le date prima del 1970 (film segnati visti alla data di uscita)', () => {
+    const dates = watchDates({
+      movies: [{ last_watched_at: '1965-12-18T00:00:00.000Z', movie: { ids: { tmdb: 938 } } }],
+      shows: [],
+      history: [],
+      catalog: new Map(),
+    });
+    expect(dates.visti).toEqual({ 'movie:938': Date.parse('1965-12-18T00:00:00Z') / 1000 });
+  });
 });
