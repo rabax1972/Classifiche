@@ -247,6 +247,36 @@
     },
     "fetchedAt": "2026-10-21T18:56:58.539Z"
   },
+  "podcast:artificiale": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/artificiale/id6825456463",
+      "genres": [
+        "Tecnologia",
+        "News",
+        "Notizie di tecnologia"
+      ],
+      "episodes": 2,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/30/d4/6930d42f-3f11-98d4-87ce-79626c17a57e/mza_815377017795793243.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/7484694/episodes/feed",
+      "description": "Le intelligenze artificiali inventano le cose, ci rubano il lavoro e le idee, sono scatole nere e un giorno, forse, potrebbero anche sterminarci. Ognuna di queste paure contiene una parte di verità. Alberto Puliafito le affronta una alla volta nelle sei puntate di Artificiale.\nAl suo fianco c’è Daniela, una co-conduttrice speciale e imprescindibile che lo aiuta a mettere in fila fatti, numeri e voci. E anche a prendersi meno sul serio.\nArtificiale è un podcast a livelli, come un videogame. Ogni mese si affronta, come se fosse un mostro finale, una delle tante paure che riguardano le ia. Finché, all’ultimo livello, la prospettiva si ribalta e si apre, finalmente, una strada diversa. Per appropriarsi degli strumenti in maniera critica, senza paura e senza cieco ottimismo.\nArtificiale è un podcast di Internazionale scritto e raccontato da Alberto Puliafito.\nProduzione e sound design: Vincenzo De Simone\nMusiche originali: Roberto Ribuoli",
+      "website": "https://www.spreaker.com/podcast/artificiale--7484694",
+      "latest": [
+        {
+          "title": "1. Allucinazioni",
+          "date": "2026-10-22",
+          "seconds": 2127,
+          "url": "https://www.spreaker.com/episode/1-allucinazioni--75903557"
+        },
+        {
+          "title": "Trailer",
+          "date": "2026-10-21",
+          "seconds": 115,
+          "url": "https://www.spreaker.com/episode/trailer--75903428"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:50:49.773Z"
+  },
   "podcast:black box": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/black-box-la-scatola-nera-della-finanza/id1648334875",
@@ -576,6 +606,54 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:58:01.742Z"
+  },
+  "podcast:contorni": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/contorni/id6817775001",
+      "genres": [
+        "Gastronomia",
+        "Arte",
+        "Cultura e società"
+      ],
+      "episodes": 5,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/88/6e/ea886ecd-7e72-c6d5-d8df-8e26597ffbcc/mza_12039019381328658436.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS3409369669",
+      "description": "Il cibo è molto di più di quello che troviamo sulla tavola: rappresenta un punto di osservazione unico per raccontare la realtà che ci circonda. Agricoltura, filiere, lavoro, impatto ambientale. E poi scambi commerciali, rapporti fra stati, ma anche storia, piacere, cultura del gusto e molto altro.\n“Contorni” è il podcast che ogni settimana parla di cibo attraverso i fatti del mondo, e dei fatti del mondo attraverso il cibo. Un progetto di Chora Media realizzato con il sostegno di Breaders, scritto e condotto da Eugenio Signoroni.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Scarti pericolosi: la gestione di quello che avanza",
+          "date": "2026-10-21",
+          "seconds": 535,
+          "url": null
+        },
+        {
+          "title": "Benessere animale o CO2? Il paradosso delle uova",
+          "date": "2026-10-14",
+          "seconds": 665,
+          "url": null
+        },
+        {
+          "title": "Siero: la linea rossa che collega i formaggi e i farmaci GLP-1",
+          "date": "2026-10-07",
+          "seconds": 547,
+          "url": null
+        },
+        {
+          "title": "Ottobre, tempo di vendemmia. Una volta.",
+          "date": "2026-09-30",
+          "seconds": 642,
+          "url": null
+        },
+        {
+          "title": "Contorni | Trailer",
+          "date": "2026-09-30",
+          "seconds": 34,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:50:56.512Z"
   },
   "podcast:crime e comedy": {
     "value": {
@@ -2165,6 +2243,52 @@
     },
     "fetchedAt": "2026-10-21T18:55:59.519Z"
   },
+  "podcast:olivetti l occasione perduta": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/olivetti-loccasione-perduta/id1564087483",
+      "genres": [
+        "Storia"
+      ],
+      "episodes": 10,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/e0/cd/88e0cd4a-cfe2-6753-55ca-ecb01f66f229/mza_11423691726934132391.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.simplecast.com/0GjSIOoI",
+      "description": "“Olivetti, l'occasione perduta” è il racconto dell'avventura pionieristica dell'Olivetti nel mondo dell'elettronica: un laboratorio di giovani talenti, i primi passi dell'informatica in Italia, l'invenzione dell'Elea 9300, la straordinaria realizzazione del primo personal computer – la mitica P101 – malgrado la immaturità tecnica dei primi anni '60. Nel podcast curato dal prof. Paolo Colombo, ne emerge un affresco intrigante dell'Olivetti di Adriano, fucina di sogni, di creatività e di cultura raffinata, ma anche di robusti successi commerciali a livello internazionale. Dalla trama narrativa riaffiorano cammei di figure che, in modi diversi, hanno fatto la nostra storia, da Valletta a Visentini, da Cuccia ad Agnelli, da Moro a Segni. Accanto a loro vengono alla luce anche personaggi meno noti a livello nazionale, che tuttavia sono espressione di una vicenda prodigiosa, capace di dare un grandissimo contributo al benessere dell'intero paese. Eppure, nel '64, l'Olivetti venne costretta ad abbandonare la divisione elettronica, lasciando che i frutti del genio italiano si seccassero sulla pianta.",
+      "website": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com",
+      "latest": [
+        {
+          "title": "“La civiltà è questa”: la straordinaria voce del primo PC",
+          "date": "2025-10-29",
+          "seconds": 1535,
+          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/la-civilta-e-questa-la-straordinaria-voce-del-primo-pc-s4yC3SqK"
+        },
+        {
+          "title": "Cosa vogliamo davvero?",
+          "date": "2021-04-25",
+          "seconds": 537,
+          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/cosa-vogliamo-davvero-_4qn7bLy"
+        },
+        {
+          "title": "“Non avrei dovuto andare così al largo…”",
+          "date": "2021-04-25",
+          "seconds": 510,
+          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/non-avrei-dovuto-andare-cosi-al-largo-S7J_f_sp"
+        },
+        {
+          "title": "“L'era della meccanica è finita”",
+          "date": "2021-04-25",
+          "seconds": 669,
+          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/l-era-della-meccanica-e-finita-cF8YT30_"
+        },
+        {
+          "title": "Sliding doors",
+          "date": "2021-04-25",
+          "seconds": 696,
+          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/sliding-doors-V7baHtl1"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:50:52.822Z"
+  },
   "podcast:one more time di luca casadei": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/one-more-time-di-luca-casadei/id1537557135",
@@ -3340,5 +3464,52 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:58:26.071Z"
+  },
+  "podcast:wilson": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/wilson-le-notizie-spiegate-bene/id1814548989",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News"
+      ],
+      "episodes": 90,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7b/c1/59/7bc159ab-150f-d9bd-2f8e-be8351aabb08/mza_14014151817939624896.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/wilson",
+      "description": "Per capire meglio le notizie e poi farsi un’idea propria, un giovedì alla volta. Di Francesco Costa",
+      "website": "https://www.ilpost.it/",
+      "latest": [
+        {
+          "title": "Gli adulti possono fare gli adulti?",
+          "date": "2026-10-22",
+          "seconds": 856,
+          "url": null
+        },
+        {
+          "title": "La più grande scommessa",
+          "date": "2026-10-15",
+          "seconds": 967,
+          "url": null
+        },
+        {
+          "title": "Vietato soffrire",
+          "date": "2026-10-08",
+          "seconds": 652,
+          "url": null
+        },
+        {
+          "title": "Perché l’Egitto ci ha bullizzati",
+          "date": "2026-10-01",
+          "seconds": 530,
+          "url": null
+        },
+        {
+          "title": "Come diventare una potenza",
+          "date": "2026-09-24",
+          "seconds": 857,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:50:58.686Z"
   }
 }

@@ -125,6 +125,87 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.063Z"
   },
+  "|2026": {
+    "value": {
+      "tmdbId": 254492,
+      "title": "花ざかりの君たちへ",
+      "overview": "Mizuki Ashiya is on a mission: disguise herself as a boy and enroll in a male boarding school to meet her idol, high jump star Izumi Sano. But after successfully infiltrating the school, she discovers he’s suddenly quit the sport! Now Mizuki must dodge suspicion, protect her cover, and somehow reach the boy she came all this way for—all while surviving the chaos of an all-boys dorm!",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Commedia"
+      ],
+      "episodeRuntime": 24,
+      "firstAired": "2026-01-04",
+      "lastAired": "2026-09-24",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-01-04",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-07-02",
+          "episodes": 13
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "TOKYO MX"
+      ],
+      "vote": 7.9,
+      "votes": 32,
+      "poster": "https://image.tmdb.org/t/p/w500/4BoA0q0oh1FJiRe9PlZCxlqX26T.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Aya Yamane",
+          "character": "Ashiya Mizuki (voice)"
+        },
+        {
+          "name": "八代拓",
+          "character": "Sano Izumi (voice)"
+        },
+        {
+          "name": "Kikunosuke Toya",
+          "character": "Nakatsu Shuichi (voice)"
+        },
+        {
+          "name": "Kōki Uchiyama",
+          "character": "Taiki Kayashima (voice)"
+        },
+        {
+          "name": "梅原裕一郎",
+          "character": "Minami Nanba (voice)"
+        },
+        {
+          "name": "川島零士",
+          "character": "Senri Nakao (voice)"
+        }
+      ],
+      "trailer": "9feK5OU8LnM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/254492/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Crunchyroll",
+            "logo": "https://image.tmdb.org/t/p/w92/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-23T04:50:46.986Z"
+  },
   "|brijendrapal singh 1998": {
     "value": {
       "tmdbId": 15226,
@@ -12679,6 +12760,98 @@
       }
     },
     "fetchedAt": "2026-10-21T04:53:25.456Z"
+  },
+  "visionquest|terry matalas 2026": {
+    "value": {
+      "tmdbId": 213375,
+      "title": "VisionQuest",
+      "overview": "La Visione, rigenerato e fuggito da chi voleva farne un’arma, si nasconde. Cerca il suo senso della vita con l’aiuto delle AI incorporate nel suo codice, tra cui Friday, Edith, Jarvis e il famigerato Ultron. La sua discreta esistenza finisce quando una taglia sulla sua testa lo spinge alla fuga accanto a Thomas Shepherd, un ragazzo misterioso che potrebbe essere la reincarnazione del figlio di Visione. Durante la sua fuga dalla cattura, per sopravvivere Visione dovrà affrontare la sua natura e resistere all’influenza di Ultron, nonché sciogliere l’enigma rappresentato dal suo giovane compagno.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Dramma"
+      ],
+      "episodeRuntime": 51,
+      "firstAired": "2026-10-13",
+      "lastAired": "2026-10-20",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-13",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-10-27",
+        "season": 1,
+        "episode": 5
+      },
+      "networks": [
+        "Disney+"
+      ],
+      "vote": 8.8,
+      "votes": 160,
+      "poster": "https://image.tmdb.org/t/p/w500/tcNNmG5ZCsLW0lT0Lkbo0mK9Mf1.jpg",
+      "creators": [
+        {
+          "id": 1252001,
+          "name": "Terry Matalas"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Paul Bettany",
+          "character": "Vision"
+        },
+        {
+          "name": "James Spader",
+          "character": "Ultron"
+        },
+        {
+          "name": "Ruaridh Mollica",
+          "character": "Thomas"
+        },
+        {
+          "name": "Todd Stashwick",
+          "character": "Paladin"
+        },
+        {
+          "name": "Lauren Morais",
+          "character": "Lisa Molinari"
+        },
+        {
+          "name": "Orla Brady",
+          "character": "F.R.I.D.A.Y."
+        },
+        {
+          "name": "Diane Morgan",
+          "character": "Handler"
+        },
+        {
+          "name": "Polly Frame",
+          "character": "Fiona Guthrie"
+        }
+      ],
+      "trailer": "--BYVtRqBFI",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-23T04:50:46.862Z"
   },
   "watch what happens live with andy cohen|andy cohen 2009": {
     "value": {

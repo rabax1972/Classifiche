@@ -3798,6 +3798,39 @@
     },
     "fetchedAt": "2026-10-21T04:53:51.162Z"
   },
+  "terry matalas": {
+    "value": {
+      "tmdbId": 1252001,
+      "wiki": {
+        "lang": "it",
+        "title": "Terry Matalas",
+        "url": "https://it.wikipedia.org/wiki/Terry_Matalas",
+        "extract": "Terry Matalas (Raritan, 11 dicembre 1975) è uno sceneggiatore, produttore televisivo e regista statunitense. È noto principalmente per aver creato le serie televisive L'esercito delle 12 scimmie (12 Monkeys) È stato uno showrunner nella quarta stagione di MacGyver per la CBS e nella seconda e terza stagione di Star Trek: Picard su Paramount+. Nel 2024 viene scelto dai Marvel Studios come showrunner di VisionQuest."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Terry_Matalas_at_53rd_Saturn_Awards_2026-01.jpg/500px-Terry_Matalas_at_53rd_Saturn_Awards_2026-01.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Terry_Matalas_at_53rd_Saturn_Awards_2026-01.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 213375,
+          "title": "VisionQuest",
+          "year": "2026"
+        },
+        {
+          "id": 60948,
+          "title": "12 Monkeys",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:50:47.381Z"
+  },
   "thomas astruc": {
     "value": {
       "tmdbId": 1565301,

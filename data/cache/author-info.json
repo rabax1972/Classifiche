@@ -943,6 +943,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "camilla de falco": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/camilla-de-falco/6813594585",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
   "carlo collodi": {
     "value": {
       "wiki": {
@@ -1241,6 +1250,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
+  "daniel silva": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Daniel Silva",
+        "url": "https://it.wikipedia.org/wiki/Daniel_Silva",
+        "extract": "Daniel Silva (Detroit, 1960) è uno scrittore statunitense di romanzi di spionaggio.\n\nIl suo romanzo The Defector si è collocato al primo posto nella lista dei bestseller del New York Times.\n\nNel 2007 riceve il Premio Barry per il miglior thriller con The Messenger."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/DanielSilva01.JPG/500px-DanielSilva01.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:DanielSilva01.JPG",
+        "author": "Wes Washington",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/daniel-silva/1101681538",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.228Z"
   },
   "dante alighieri": {
     "value": {
@@ -1980,6 +2009,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "gianrico carofiglio": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Gianrico Carofiglio",
+        "url": "https://it.wikipedia.org/wiki/Gianrico_Carofiglio",
+        "extract": "Giovanni Carofiglio, detto Gianrico (Bari, 30 maggio 1961), è uno scrittore, ex magistrato ed ex politico italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Gianrico_Carofiglio_3_%28cropped%29.jpg/500px-Gianrico_Carofiglio_3_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gianrico_Carofiglio_3_(cropped).jpg",
+        "author": "Associazione Amici di Piero Chiara from Italia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/gianrico-carofiglio/284627146",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.229Z"
   },
   "giorgio bassani": {
     "value": {
@@ -3244,6 +3293,20 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
   },
+  "lori gottlieb": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Lori Gottlieb",
+        "url": "https://en.wikipedia.org/wiki/Lori_Gottlieb",
+        "extract": "Lori Gottlieb (December 1966, Los Angeles, California, USA) is an American writer and psychotherapist. She is the author of the New York Times bestsellers, Maybe You Should Talk to Someone and Marry Him: The Case for Settling for Mr. Good Enough. She also writes the weekly “Dear Therapist” advice column for The Atlantic and is the co-host of the iHeart Radio podcast \"Dear Therapists.\" Her TED Talk was one of the most-watched talks of 2019."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lori-gottlieb/353217944",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
   "louis aragon": {
     "value": {
       "wiki": {
@@ -4083,6 +4146,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
+  "pierre martin": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Pierre Martin (politician)",
+        "url": "https://en.wikipedia.org/wiki/Pierre_Martin_(politician)",
+        "extract": "Pierre Martin (27 September 1943 in Moyenneville – 11 July 2023) was a French politician. A member of the Senate of France, he represented the Somme department. Martin was a member of the Union for a Popular Movement. He had initially been elected in 1995 and later re-elected in 2004 (later standing down in 2014).\n\nMartin died on 11 July 2023, at the age of 79."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pierre_Martin%2C_Member_of_the_French_Senate_-_2010_%28cropped%29.jpg/500px-Pierre_Martin%2C_Member_of_the_French_Senate_-_2010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Pierre_Martin,_Member_of_the_French_Senate_-_2010_(cropped).jpg",
+        "author": "Benoît Bourgeois / European Union, 2010 / EC - Audiovisual Service",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/pierre-martin/570499290",
+      "died": 2023
+    },
+    "fetchedAt": "2026-10-23T04:46:52.229Z"
+  },
   "primo levi": {
     "value": {
       "wiki": {
@@ -4266,6 +4349,26 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
   },
+  "rick riordan": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Rick Riordan",
+        "url": "https://it.wikipedia.org/wiki/Rick_Riordan",
+        "extract": "Richard Russell Riordan Jr., detto Rick (San Antonio, 5 giugno 1964), è uno scrittore statunitense, conosciuto principalmente per la saga Percy Jackson e gli dei dell'Olimpo e le opere a essa correlate."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Rick_riordan_2007.jpg/500px-Rick_riordan_2007.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rick_riordan_2007.jpg",
+        "author": "Larry D. Moore",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/rick-riordan/275649968",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.229Z"
+  },
   "rina kent": {
     "value": {
       "wiki": null,
@@ -4421,6 +4524,15 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "s t abby": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/s-t-abby/1181074890",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.229Z"
+  },
   "saint john perse": {
     "value": {
       "wiki": {
@@ -4522,6 +4634,20 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "sarah j maas": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Sarah J. Maas",
+        "url": "https://it.wikipedia.org/wiki/Sarah_J._Maas",
+        "extract": "Sarah Janet Maas (New York, 5 marzo 1986) è una scrittrice statunitense."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/sarah-j-maas/535404063",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
   "sean black": {
     "value": {
       "wiki": null,
@@ -4570,6 +4696,15 @@
       "died": 1940
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "sierra simone": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/sierra-simone/1006235725",
+      "died": null
+    },
+    "fetchedAt": "2026-10-23T04:46:52.228Z"
   },
   "sigmund freud": {
     "value": {

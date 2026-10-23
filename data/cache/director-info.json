@@ -3281,6 +3281,89 @@
     },
     "fetchedAt": "2026-10-17T09:32:06.712Z"
   },
+  "david yates": {
+    "value": {
+      "tmdbId": 11343,
+      "wiki": {
+        "lang": "it",
+        "title": "David Yates",
+        "url": "https://it.wikipedia.org/wiki/David_Yates",
+        "extract": "David Yates (St Helens, 8 ottobre 1963) è un regista e produttore televisivo britannico.\n\nÈ noto soprattutto per aver diretto gli ultimi quattro film della saga di Harry Potter, a partire dal quinto Harry Potter e l'Ordine della Fenice (2007), e tre film della saga Animali Fantastici, spin-off del franchise potteriano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/David_Yates_by_Gage_Skidmore.jpg/500px-David_Yates_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Yates_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1574973,
+          "title": "Phantom Son",
+          "year": null
+        },
+        {
+          "id": 862968,
+          "title": "Pain Hustlers - Il business del dolore",
+          "year": "2023"
+        },
+        {
+          "id": 338953,
+          "title": "Animali fantastici - I segreti di Silente",
+          "year": "2022"
+        },
+        {
+          "id": 338952,
+          "title": "Animali fantastici - I crimini di Grindelwald",
+          "year": "2018"
+        },
+        {
+          "id": 259316,
+          "title": "Animali fantastici e dove trovarli",
+          "year": "2016"
+        },
+        {
+          "id": 258489,
+          "title": "The Legend of Tarzan",
+          "year": "2016"
+        },
+        {
+          "id": 12445,
+          "title": "Harry Potter e i Doni della Morte - Parte 2",
+          "year": "2011"
+        },
+        {
+          "id": 12444,
+          "title": "Harry Potter e i Doni della Morte - Parte 1",
+          "year": "2010"
+        },
+        {
+          "id": 767,
+          "title": "Harry Potter e il principe mezzosangue",
+          "year": "2009"
+        },
+        {
+          "id": 675,
+          "title": "Harry Potter e l'ordine della fenice",
+          "year": "2007"
+        },
+        {
+          "id": 28201,
+          "title": "La ragazza nel caffé",
+          "year": "2005"
+        },
+        {
+          "id": 54406,
+          "title": "The Young Visiters",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:46:56.281Z"
+  },
   "denis villeneuve": {
     "value": {
       "tmdbId": 137427,
@@ -11648,6 +11731,89 @@
     },
     "fetchedAt": "2026-10-18T17:58:12.384Z"
   },
+  "sam raimi": {
+    "value": {
+      "tmdbId": 7623,
+      "wiki": {
+        "lang": "it",
+        "title": "Sam Raimi",
+        "url": "https://it.wikipedia.org/wiki/Sam_Raimi",
+        "extract": "Samuel Marshall Raimi, detto Sam (IPA: [sæm ˈreɪmi]; Royal Oak, 23 ottobre 1959), è un regista, sceneggiatore, attore, produttore cinematografico e televisivo statunitense.\n\nÈ divenuto noto inizialmente per la trilogia horror de La casa (La casa, La casa 2 e L'armata delle tenebre), da lui scritta, diretta e prodotta e che ne lanciò il sodalizio con l'amico e attore Bruce Campbell. Altri suoi lavori di successo includono la trilogia originale di Spider-Man (Spider-Man, Spider-Man 2 e Spider-Man 3), Darkman (1990), Pronti a morire (1995), The Gift (2000), Drag Me to Hell (2009) e Doctor Strange nel Multiverso della Follia (2022).\n\nRaimi ha anche prodotto diverse serie televisive di successo, tra cui Hercules (1995-1997), il suo spin-off Xena - Principessa guerriera (1995-2001) e Ash vs Evil Dead (2015-2018)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sam_Raimi_%2853896379405%29_%28cropped%29.jpg/500px-Sam_Raimi_%2853896379405%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sam_Raimi_(53896379405)_(cropped).jpg",
+        "author": "Super Festivals from Ft. Lauderdale, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1540956,
+          "title": "Magic",
+          "year": null
+        },
+        {
+          "id": 1198994,
+          "title": "Send Help",
+          "year": "2026"
+        },
+        {
+          "id": 453395,
+          "title": "Doctor Strange nel Multiverso della Follia",
+          "year": "2022"
+        },
+        {
+          "id": 466696,
+          "title": "The Black Ghiandola",
+          "year": "2017"
+        },
+        {
+          "id": 68728,
+          "title": "Il grande e potente Oz",
+          "year": "2013"
+        },
+        {
+          "id": 16871,
+          "title": "Drag Me to Hell",
+          "year": "2009"
+        },
+        {
+          "id": 559,
+          "title": "Spider-Man 3",
+          "year": "2007"
+        },
+        {
+          "id": 558,
+          "title": "Spider-Man 2",
+          "year": "2004"
+        },
+        {
+          "id": 557,
+          "title": "Spider-Man",
+          "year": "2002"
+        },
+        {
+          "id": 2046,
+          "title": "The Gift - Il dono",
+          "year": "2000"
+        },
+        {
+          "id": 10390,
+          "title": "Gioco d'amore",
+          "year": "1999"
+        },
+        {
+          "id": 10223,
+          "title": "Soldi sporchi",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:46:57.189Z"
+  },
   "scott waugh": {
     "value": {
       "tmdbId": 293911,
@@ -12549,6 +12715,64 @@
     },
     "fetchedAt": "2026-10-21T04:49:17.311Z"
   },
+  "thomas kail": {
+    "value": {
+      "tmdbId": 1485823,
+      "wiki": {
+        "lang": "it",
+        "title": "Thomas Kail",
+        "url": "https://it.wikipedia.org/wiki/Thomas_Kail",
+        "extract": "Thomas Kail (Alexandria, 20 gennaio 1977) è un regista statunitense, attivo in campo teatrale e televisivo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/ThomasKail-byPhilipRomano.jpg/500px-ThomasKail-byPhilipRomano.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:ThomasKail-byPhilipRomano.jpg",
+        "author": "PhilipRomanoPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 709883,
+          "title": "Fiddler on the Roof",
+          "year": null
+        },
+        {
+          "id": 1108427,
+          "title": "Oceania",
+          "year": "2026"
+        },
+        {
+          "id": 556574,
+          "title": "Hamilton",
+          "year": "2025"
+        },
+        {
+          "id": 723212,
+          "title": "Hamilton: History Has Its Eyes On You",
+          "year": "2020"
+        },
+        {
+          "id": 726430,
+          "title": "The Undefeated Presents: Hamilton In-Depth",
+          "year": "2020"
+        },
+        {
+          "id": 708820,
+          "title": "Tiny Beautiful Things",
+          "year": "2020"
+        },
+        {
+          "id": 348089,
+          "title": "Grease Live!",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:46:53.283Z"
+  },
   "thomas vincent": {
     "value": {
       "tmdbId": 565121,
@@ -13084,6 +13308,84 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:37:06.008Z"
+  },
+  "walt dohrn": {
+    "value": {
+      "tmdbId": 118489,
+      "wiki": {
+        "lang": "it",
+        "title": "Walt Dohrn",
+        "url": "https://it.wikipedia.org/wiki/Walt_Dohrn",
+        "extract": "Walt Dohrn, pseudonimo di Walter Jonathan Dohrn (Contea di Orange, 5 dicembre 1970), è un attore, comico, regista, sceneggiatore e doppiatore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Walt_Dohrn_by_Gage_Skidmore.jpg/500px-Walt_Dohrn_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Walt_Dohrn_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 421892,
+          "title": "Shrek 5",
+          "year": "2027"
+        },
+        {
+          "id": 901362,
+          "title": "Trolls 3 - Tutti insieme",
+          "year": "2023"
+        },
+        {
+          "id": 446893,
+          "title": "Trolls World Tour",
+          "year": "2020"
+        },
+        {
+          "id": 151316,
+          "title": "Shrek's Yule Log",
+          "year": "2010"
+        },
+        {
+          "id": 51256,
+          "title": "La spettacolare festa di Natale di Ciuchino",
+          "year": "2010"
+        },
+        {
+          "id": 683417,
+          "title": "SpongeBob SquarePants: The Seascape Capers",
+          "year": "2004"
+        },
+        {
+          "id": 336978,
+          "title": "SpongeBob Squarepants: Christmas",
+          "year": "2003"
+        },
+        {
+          "id": 424276,
+          "title": "SpongeBob SquarePants: Tide and Seek",
+          "year": "2003"
+        },
+        {
+          "id": 385062,
+          "title": "Spongebob Squarepants: Lost at Sea",
+          "year": "2003"
+        },
+        {
+          "id": 358711,
+          "title": "SpongeBob SquarePants Halloween",
+          "year": "2002"
+        },
+        {
+          "id": 533185,
+          "title": "SpongeBob SquarePants - Nautical Nonsense and Sponge Buddies",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-23T04:46:54.253Z"
   },
   "walter veltroni": {
     "value": {

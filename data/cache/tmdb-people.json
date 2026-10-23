@@ -59,6 +59,10 @@
     "value": "Peter Sohn",
     "fetchedAt": "2026-10-15T04:42:53.029Z"
   },
+  "movie:106646": {
+    "value": "Martin Scorsese",
+    "fetchedAt": "2026-10-23T04:45:48.044Z"
+  },
   "movie:10681": {
     "value": "Andrew Stanton",
     "fetchedAt": "2026-10-18T17:54:31.228Z"
@@ -262,6 +266,10 @@
   "movie:1242332": {
     "value": "Ben Wheatley",
     "fetchedAt": "2026-10-12T07:24:29.384Z"
+  },
+  "movie:12445": {
+    "value": "David Yates",
+    "fetchedAt": "2026-10-23T04:45:47.731Z"
   },
   "movie:1244517": {
     "value": "Stephanie Laing",
@@ -615,6 +623,10 @@
     "value": "Januel Mercado, Joel Crawford",
     "fetchedAt": "2026-10-12T07:24:28.593Z"
   },
+  "movie:1469229": {
+    "value": "เกรียงไกร มณวิจิตร",
+    "fetchedAt": "2026-10-23T04:45:49.441Z"
+  },
   "movie:1469342": {
     "value": "Nicolas Winding Refn",
     "fetchedAt": "2026-10-12T07:24:30.045Z"
@@ -638,6 +650,10 @@
   "movie:1477170": {
     "value": "Lisa Azuelos",
     "fetchedAt": "2026-10-14T04:45:57.921Z"
+  },
+  "movie:1477712": {
+    "value": "Eli Roth",
+    "fetchedAt": "2026-10-23T04:45:49.029Z"
   },
   "movie:1487317": {
     "value": "Hernán Goldfrid",
@@ -759,6 +775,10 @@
     "value": "Ti West",
     "fetchedAt": "2026-10-15T04:42:54.423Z"
   },
+  "movie:1567937": {
+    "value": "韩延",
+    "fetchedAt": "2026-10-23T04:45:49.227Z"
+  },
   "movie:1569050": {
     "value": "Davide Pavanello, Roan Johnson",
     "fetchedAt": "2026-10-12T07:24:33.208Z"
@@ -782,6 +802,10 @@
   "movie:1585": {
     "value": "Frank Capra",
     "fetchedAt": "2026-10-18T17:54:28.129Z"
+  },
+  "movie:1590613": {
+    "value": "Bobby Prasetyo",
+    "fetchedAt": "2026-10-23T04:45:49.628Z"
   },
   "movie:1591675": {
     "value": "Hirokazu Kore-eda",
@@ -871,6 +895,10 @@
     "value": "Taehwan Yum",
     "fetchedAt": "2026-10-21T04:46:15.309Z"
   },
+  "movie:1712451": {
+    "value": "Ryan Ebert",
+    "fetchedAt": "2026-10-23T04:45:49.326Z"
+  },
   "movie:1713924": {
     "value": "Walter Veltroni",
     "fetchedAt": "2026-10-21T04:46:15.214Z"
@@ -878,6 +906,10 @@
   "movie:1713935": {
     "value": "Marco Bonini",
     "fetchedAt": "2026-10-17T04:42:32.783Z"
+  },
+  "movie:1714761": {
+    "value": "Arturo Rocha, Sergio Simental",
+    "fetchedAt": "2026-10-23T04:45:49.527Z"
   },
   "movie:1723662": {
     "value": "Niccolò Gentili",
@@ -971,6 +1003,10 @@
     "value": "Andrea D'Eredità",
     "fetchedAt": "2026-10-18T04:42:47.797Z"
   },
+  "movie:1793470": {
+    "value": "Francesca Zen",
+    "fetchedAt": "2026-10-23T04:45:47.230Z"
+  },
   "movie:1797226": {
     "value": "Park Sang-geun, Kim Jin-eui",
     "fetchedAt": "2026-10-21T04:46:15.011Z"
@@ -1002,6 +1038,10 @@
   "movie:19995": {
     "value": "James Cameron",
     "fetchedAt": "2026-10-14T04:45:58.737Z"
+  },
+  "movie:2034": {
+    "value": "Antoine Fuqua",
+    "fetchedAt": "2026-10-23T04:45:48.128Z"
   },
   "movie:20352": {
     "value": "Chris Renaud, Pierre Coffin",
@@ -1183,6 +1223,14 @@
     "value": "Denis Villeneuve",
     "fetchedAt": "2026-10-15T04:42:52.426Z"
   },
+  "movie:445466": {
+    "value": "Macon Blair",
+    "fetchedAt": "2026-10-23T04:45:49.128Z"
+  },
+  "movie:446893": {
+    "value": "Walt Dohrn",
+    "fetchedAt": "2026-10-23T04:45:47.630Z"
+  },
   "movie:447365": {
     "value": "James Gunn",
     "fetchedAt": "2026-10-19T04:45:37.466Z"
@@ -1258,6 +1306,10 @@
   "movie:550": {
     "value": "David Fincher",
     "fetchedAt": "2026-10-18T17:54:25.754Z"
+  },
+  "movie:557": {
+    "value": "Sam Raimi",
+    "fetchedAt": "2026-10-23T04:45:47.829Z"
   },
   "movie:558449": {
     "value": "Ridley Scott",
@@ -1430,6 +1482,10 @@
   "movie:77338": {
     "value": "Olivier Nakache, Éric Toledano",
     "fetchedAt": "2026-10-18T17:54:29.859Z"
+  },
+  "movie:78": {
+    "value": "Ridley Scott",
+    "fetchedAt": "2026-10-23T04:45:47.929Z"
   },
   "movie:791523": {
     "value": "Travis Knight",
@@ -1767,6 +1823,10 @@
     "value": "Matthew B. Roberts",
     "fetchedAt": "2026-10-19T12:51:52.103Z"
   },
+  "tv:210224": {
+    "value": "José Júnior",
+    "fetchedAt": "2026-10-23T04:45:50.731Z"
+  },
   "tv:211288": {
     "value": "Ben H. Winters",
     "fetchedAt": "2026-10-13T04:34:41.364Z"
@@ -1855,6 +1915,10 @@
     "value": "Mara Brock Akil",
     "fetchedAt": "2026-10-21T04:46:16.308Z"
   },
+  "tv:243875": {
+    "value": "Chuck Lorre, Steve Holland",
+    "fetchedAt": "2026-10-23T04:45:50.627Z"
+  },
   "tv:247718": {
     "value": "Ronan Bennett",
     "fetchedAt": "2026-10-12T07:24:45.356Z"
@@ -1863,9 +1927,17 @@
     "value": "Matthew McConaughey, Woody Harrelson",
     "fetchedAt": "2026-10-15T04:42:55.026Z"
   },
+  "tv:250923": {
+    "value": "Erin Foster",
+    "fetchedAt": "2026-10-23T04:45:50.031Z"
+  },
   "tv:252747": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:48.607Z"
+  },
+  "tv:254492": {
+    "value": null,
+    "fetchedAt": "2026-10-23T04:45:48.526Z"
   },
   "tv:255752": {
     "value": "Matt Roller",
@@ -2075,6 +2147,10 @@
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.476Z"
   },
+  "tv:300527": {
+    "value": null,
+    "fetchedAt": "2026-10-23T04:45:50.128Z"
+  },
   "tv:302915": {
     "value": "Alejandra Guimerà, Marc Crehuet",
     "fetchedAt": "2026-10-21T04:46:18.014Z"
@@ -2110,6 +2186,10 @@
   "tv:307176": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.496Z"
+  },
+  "tv:307826": {
+    "value": "ธนะมินทร์ วงษ์สกุลพัชร์",
+    "fetchedAt": "2026-10-23T04:45:50.232Z"
   },
   "tv:307831": {
     "value": "Salmon",
@@ -2187,6 +2267,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.773Z"
   },
+  "tv:32692": {
+    "value": "Robin Green, Mitchell Burgess",
+    "fetchedAt": "2026-10-23T04:45:48.632Z"
+  },
   "tv:32798": {
     "value": "Roberto Orci, Alex Kurtzman",
     "fetchedAt": "2026-10-12T07:24:49.850Z"
@@ -2247,6 +2331,14 @@
     "value": null,
     "fetchedAt": "2026-10-13T04:34:39.961Z"
   },
+  "tv:337609": {
+    "value": null,
+    "fetchedAt": "2026-10-23T04:45:50.328Z"
+  },
+  "tv:337800": {
+    "value": null,
+    "fetchedAt": "2026-10-23T04:45:50.532Z"
+  },
   "tv:338848": {
     "value": null,
     "fetchedAt": "2026-10-20T04:51:07.014Z"
@@ -2254,6 +2346,10 @@
   "tv:339342": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:49.214Z"
+  },
+  "tv:339366": {
+    "value": null,
+    "fetchedAt": "2026-10-23T04:45:50.433Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
