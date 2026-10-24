@@ -2243,6 +2243,52 @@
     },
     "fetchedAt": "2026-10-21T18:55:59.519Z"
   },
+  "podcast:now what": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/now-what/id1835378422",
+      "genres": [
+        "News"
+      ],
+      "episodes": 201,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fe/33/2a/fe332ab6-7188-1aee-8af5-d42d170c1cdd/mza_15339167274041311372.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MCR6971806545",
+      "description": "Il podcast che ti racconta le notizie che ci riguardano, anche quando non sembra, e soprattutto dove ci domandiamo: e adesso, cosa accade?",
+      "website": null,
+      "latest": [
+        {
+          "title": "Se ti rubano la voce",
+          "date": "2026-10-22",
+          "seconds": 1236,
+          "url": null
+        },
+        {
+          "title": "La scuola brucia",
+          "date": "2026-10-08",
+          "seconds": 687,
+          "url": null
+        },
+        {
+          "title": "Come fanno gli evasori?",
+          "date": "2026-09-30",
+          "seconds": 878,
+          "url": null
+        },
+        {
+          "title": "A chi fa paura l’estrema destra?",
+          "date": "2026-09-23",
+          "seconds": 799,
+          "url": null
+        },
+        {
+          "title": "La vera minaccia dell’IA",
+          "date": "2026-09-15",
+          "seconds": 840,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-24T04:48:04.571Z"
+  },
   "podcast:olivetti l occasione perduta": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/olivetti-loccasione-perduta/id1564087483",

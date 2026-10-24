@@ -408,6 +408,14 @@
     },
     "fetchedAt": "2026-10-17T07:59:04.042Z"
   },
+  "chris nolan": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/chris-nolan/274546117"
+    },
+    "fetchedAt": "2026-10-24T04:43:24.727Z"
+  },
   "coma cose": {
     "value": {
       "wiki": {
@@ -947,6 +955,25 @@
     },
     "fetchedAt": "2026-10-17T07:58:04.167Z"
   },
+  "malika ayane": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Malika Ayane",
+        "url": "https://it.wikipedia.org/wiki/Malika_Ayane",
+        "extract": "Malika Ayane (Milano, 31 gennaio 1984) è una cantautrice e attrice italiana.\n\nDopo aver cantato per diversi anni nel coro delle voci bianche del Teatro alla Scala di Milano, e aver collaborato in diversi spot pubblicitari, firma nel 2007 un contratto discografico con l'etichetta Sugar Music, pubblicando l'anno successivo il suo primo album eponimo, da cui fu estratto il singolo Feeling Better."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Malika_Ayane_al_Festival_di_Sanremo_2026_%28headshot%29.jpg/500px-Malika_Ayane_al_Festival_di_Sanremo_2026_%28headshot%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Malika_Ayane_al_Festival_di_Sanremo_2026_(headshot).jpg",
+        "author": "Ferdinando Traversa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/malika-ayane/267372564"
+    },
+    "fetchedAt": "2026-10-24T04:43:21.585Z"
+  },
   "manu chao": {
     "value": {
       "wiki": {
@@ -1263,6 +1290,25 @@
     },
     "fetchedAt": "2026-10-17T08:00:03.860Z"
   },
+  "salmo": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Salmo (rapper)",
+        "url": "https://it.wikipedia.org/wiki/Salmo_(rapper)",
+        "extract": "Salmo, pseudonimo di Maurizio Pisciottu (Olbia, 29 giugno 1984), è un rapper, cantautore e produttore discografico italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salmo_%2813267007173%29.jpg/500px-Salmo_%2813267007173%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Salmo_(13267007173).jpg",
+        "author": "Stefano",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/salmo/417198364"
+    },
+    "fetchedAt": "2026-10-24T04:43:18.575Z"
+  },
   "samurai jay": {
     "value": {
       "wiki": {
@@ -1446,6 +1492,25 @@
       "appleUrl": "https://music.apple.com/it/artist/tate-mcrae/1446365464"
     },
     "fetchedAt": "2026-10-17T07:58:12.260Z"
+  },
+  "tedua": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tedua",
+        "url": "https://it.wikipedia.org/wiki/Tedua",
+        "extract": "Tedua, pseudonimo di Mario Molinari (Genova, 21 febbraio 1994), è un rapper e cantautore italiano.\n\nConsiderato uno dei pionieri della drill e della trap in Italia, è uno dei componenti del collettivo musicale genovese Wild Bandana, di cui fanno parte anche i colleghi Izi, Vaz Tè, Guesan e Ill Rave."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tedua_2024.jpg/500px-Tedua_2024.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Tedua_2024.jpg",
+        "author": "Despechi.ro",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/tedua/1132229934"
+    },
+    "fetchedAt": "2026-10-24T04:43:27.597Z"
   },
   "the kolors": {
     "value": {

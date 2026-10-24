@@ -84,6 +84,18 @@
     },
     "fetchedAt": "2026-10-22T04:44:52.608Z"
   },
+  "amateur|cesare cremonini": {
+    "value": {
+      "album": "Amateur",
+      "released": "2026-10-22",
+      "genre": "Pop",
+      "durationMs": 265017,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/56/5b/27565b63-5eaf-a927-5729-d4f08c3b4fc5/26UM1IM15888.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/amateur/6820941380?i=6820941381",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-24T04:43:07.079Z"
+  },
   "amica con madame|annalisa": {
     "value": {
       "album": "Amica (con Madame)",
@@ -484,6 +496,18 @@
     },
     "fetchedAt": "2026-10-17T07:37:31.705Z"
   },
+  "cose molto piccole|cesare cremonini": {
+    "value": {
+      "album": "Amateur",
+      "released": "2026-10-22",
+      "genre": "Pop",
+      "durationMs": 289315,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/56/5b/27565b63-5eaf-a927-5729-d4f08c3b4fc5/26UM1IM15888.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/cose-molto-piccole/6820941380?i=6820941696",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-24T04:43:09.814Z"
+  },
   "cristalli|nerissima serpe": {
     "value": {
       "album": "Nerissima",
@@ -874,6 +898,18 @@
     },
     "fetchedAt": "2026-10-17T07:34:02.426Z"
   },
+  "la ballata del ragno|chris nolan": {
+    "value": {
+      "album": "LA TAVOLA DELL'UMORE",
+      "released": "2026-10-22",
+      "genre": "Pop",
+      "durationMs": 173396,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/19/48/fb1948f0-fca1-92c3-7aa6-847efcb68e70/196874658093.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/la-ballata-del-ragno/6814566049?i=6814566052",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-24T04:43:12.845Z"
+  },
   "la cura per me|giorgia": {
     "value": {
       "album": "LA CURA PER ME",
@@ -1152,6 +1188,18 @@
       }
     },
     "fetchedAt": "2026-10-22T04:44:55.442Z"
+  },
+  "non lo diciamo a nessuno|cesare cremonini": {
+    "value": {
+      "album": "Amateur",
+      "released": "2026-10-22",
+      "genre": "Pop",
+      "durationMs": 233018,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/56/5b/27565b63-5eaf-a927-5729-d4f08c3b4fc5/26UM1IM15888.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/non-lo-diciamo-a-nessuno/6820941380?i=6820941385",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-24T04:43:15.849Z"
   },
   "non sei piu tu|geolier": {
     "value": {

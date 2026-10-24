@@ -6763,6 +6763,142 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.507Z"
   },
+  "luther|neil cross 2010": {
+    "value": {
+      "tmdbId": 1426,
+      "title": "Luther",
+      "overview": "John Luther è un ispettore della omicidi di Londra di grande talento, la cui mente brillante non sempre riesce a proteggerlo dalla forza delle sue passioni.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 53,
+      "firstAired": "2010-05-04",
+      "lastAired": "2019-01-04",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 20,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-05-04",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2011-06-14",
+          "episodes": 4
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-07-02",
+          "episodes": 4
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2015-12-15",
+          "episodes": 2
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2019-01-01",
+          "episodes": 4
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-10-17",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "BBC One"
+      ],
+      "vote": 7.9,
+      "votes": 1270,
+      "poster": "https://image.tmdb.org/t/p/w500/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
+      "creators": [
+        {
+          "id": 510218,
+          "name": "Neil Cross"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Idris Elba",
+          "character": "John Luther"
+        },
+        {
+          "name": "Indira Varma",
+          "character": "Zoe Luther"
+        },
+        {
+          "name": "Steven Mackintosh",
+          "character": "Ian Reed"
+        },
+        {
+          "name": "Saskia Reeves",
+          "character": "Rose Teller"
+        },
+        {
+          "name": "Dermot Crowley",
+          "character": "Martin Schenk"
+        },
+        {
+          "name": "Aimee-Ffion Edwards",
+          "character": "Jenny Jones"
+        },
+        {
+          "name": "Nikki Amuka-Bird",
+          "character": "Erin Gray"
+        },
+        {
+          "name": "Sienna Guillory",
+          "character": "Mary Day"
+        }
+      ],
+      "trailer": "irPcCNXji90",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1426-luther/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-24T04:47:58.491Z"
+  },
   "minerva academy|stagione 1": {
     "value": {
       "tmdbId": 312557,
@@ -8273,6 +8409,138 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.214Z"
+  },
+  "person of interest|jonathan nolan 2011": {
+    "value": {
+      "tmdbId": 1411,
+      "title": "Person of Interest",
+      "overview": "Person of Interest è un crime ambientato a New York che vede l’ex agente della CIA e presunto cadavere John Reese stringere un’improbabile alleanza con il misterioso miliardario Mr. Finch allo scopo di prevenire crimini in autonomia, all’insaputa delle forze dell’ordine, prima che accadano. A tal proposito Finch ha inventato un software che usa un metodo matematico complicatissimo per riconoscere individui che saranno coinvolti nei più svariati crimini. Per riuscirci useranno la tecnologia di sorveglianza più avanzata, le capacità tattiche di Reese e le infinite risorse economiche di Finch.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 44,
+      "firstAired": "2011-09-22",
+      "lastAired": "2016-06-21",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 103,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-09-22",
+          "episodes": 23
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2014-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2016-05-03",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2012-09-04",
+          "episodes": 17
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "CBS"
+      ],
+      "vote": 8.1,
+      "votes": 2201,
+      "poster": "https://image.tmdb.org/t/p/w500/f8aIvYk5h7Z8EP3dinCmVgQFYow.jpg",
+      "creators": [
+        {
+          "id": 527,
+          "name": "Jonathan Nolan"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jim Caviezel",
+          "character": "John Reese"
+        },
+        {
+          "name": "Michael Emerson",
+          "character": "Harold Finch"
+        },
+        {
+          "name": "Kevin Chapman",
+          "character": "Lionel Fusco"
+        },
+        {
+          "name": "Taraji P. Henson",
+          "character": "Joss Carter"
+        },
+        {
+          "name": "Sarah Shahi",
+          "character": "Sameen Shaw"
+        },
+        {
+          "name": "Enrico Colantoni",
+          "character": "Carl Elias"
+        },
+        {
+          "name": "Elizabeth Marvel",
+          "character": "Alicia Corwin"
+        },
+        {
+          "name": "Wrenn Schmidt",
+          "character": "Iris Campbell"
+        }
+      ],
+      "trailer": "WYDWSNMTauQ",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1411-person-of-interest/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-24T04:47:58.445Z"
   },
   "physical 100 italy|stagione 1": {
     "value": {

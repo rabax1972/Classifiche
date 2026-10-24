@@ -286,6 +286,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "alessandra arachi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandra Arachi",
+        "url": "https://it.wikipedia.org/wiki/Alessandra_Arachi",
+        "extract": "Alessandra Arachi (Roma, 6 novembre 1964) è una giornalista e scrittrice italiana."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alessandra-arachi/542331980",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
+  },
   "alessandra carnevali": {
     "value": {
       "wiki": null,
@@ -1339,6 +1353,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "dolores redondo": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Dolores Redondo",
+        "url": "https://it.wikipedia.org/wiki/Dolores_Redondo",
+        "extract": "Dolores Redondo Meira (San Sebastián, 1º febbraio 1969) è una scrittrice spagnola."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Dolores_redondo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Dolores_redondo.jpg",
+        "author": "Sapristi1000",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/dolores-redondo/584029804",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
+  },
   "don winslow": {
     "value": {
       "wiki": {
@@ -1917,6 +1951,20 @@
       "died": 2014
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "gabriella genisi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Gabriella Genisi",
+        "url": "https://it.wikipedia.org/wiki/Gabriella_Genisi",
+        "extract": "Gabriella Genisi (Bari, 1965) è una scrittrice italiana."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/gabriella-genisi/533631011",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
   },
   "george orwell": {
     "value": {
@@ -2627,6 +2675,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "james hillman": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "James Hillman",
+        "url": "https://it.wikipedia.org/wiki/James_Hillman",
+        "extract": "James Hillman (Atlantic City, 12 aprile 1926 – Thompson, 27 ottobre 2011) è stato uno psicoanalista, saggista e filosofo statunitense.\n\nPsicologo analista junghiano, è stato autore di numerose opere e saggi in materia."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/James_Hillman_2004.jpg/500px-James_Hillman_2004.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Hillman_2004.jpg",
+        "author": "George Quasha",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/james-hillman/273138891",
+      "died": 2011
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
+  },
   "james joyce": {
     "value": {
       "wiki": {
@@ -3004,6 +3072,26 @@
       "died": 1999
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "josh malerman": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Josh Malerman",
+        "url": "https://en.wikipedia.org/wiki/Josh_Malerman",
+        "extract": "Josh Malerman is an American novelist, songwriter, movie director, film producer, cartoonist and rhythm guitarist for the rock band The High Strung. He is best known for writing horror and his post-apocalyptic novel, Bird Box (2014), which was the inspiration of the Netflix film of the same name. In 2020, he founded the production company Spin a Black Yarn with manager Ryan Lewis."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Josh_Malerman_at_TO_ALL_THE_BOOKS_premiere_10152026.jpg/500px-Josh_Malerman_at_TO_ALL_THE_BOOKS_premiere_10152026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Josh_Malerman_at_TO_ALL_THE_BOOKS_premiere_10152026.jpg",
+        "author": "Sowaittheresmore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/josh-malerman/718591757",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
   },
   "jules renard": {
     "value": {
@@ -3630,6 +3718,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "maurizio de giovanni": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Maurizio De Giovanni",
+        "url": "https://it.wikipedia.org/wiki/Maurizio_De_Giovanni",
+        "extract": "Maurizio de Giovanni (Napoli, 31 marzo 1958) è uno scrittore, sceneggiatore, drammaturgo e autore televisivo italiano, autore perlopiù di romanzi gialli."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MaurizioDeGiovanni.jpg/500px-MaurizioDeGiovanni.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MaurizioDeGiovanni.jpg",
+        "author": "Cpaolo79",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/maurizio-de-giovanni/469027334",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
   },
   "maxine paetro": {
     "value": {
@@ -4676,6 +4784,15 @@
       "died": 1992
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "selene calloni williams": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/selene-calloni-williams/739922921",
+      "died": null
+    },
+    "fetchedAt": "2026-10-24T04:44:07.102Z"
   },
   "selma lagerlof": {
     "value": {

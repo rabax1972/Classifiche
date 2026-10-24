@@ -16524,6 +16524,84 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.950Z"
   },
+  "rosebush pruning|karim ainouz 2026": {
+    "value": {
+      "tmdbId": 1130948,
+      "title": "Rosebush Pruning",
+      "overview": "Nei claustrofobici confini di una tenuta rurale, una famiglia lotta con la sua intricata rete di malattie ereditarie. Tra loro c’è Alessandro, un giovane con epilessia e tendenze paranoiche. La natura ossessiva di Alessandro prende una piega oscura quando si avvia una serie di terribili incidenti e omicidi.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 95,
+      "released": "2026-07-08",
+      "vote": 5.7,
+      "votes": 68,
+      "poster": "https://image.tmdb.org/t/p/w500/rsHEVjzxU8cxz1sm3vboj99daNv.jpg",
+      "directors": [
+        {
+          "id": 55018,
+          "name": "Karim Aïnouz"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Callum Turner",
+          "character": "Ed"
+        },
+        {
+          "name": "Jamie Bell",
+          "character": "Jack"
+        },
+        {
+          "name": "Riley Keough",
+          "character": "Anna"
+        },
+        {
+          "name": "Elle Fanning",
+          "character": "Martha"
+        },
+        {
+          "name": "Lukas Gage",
+          "character": "Robert"
+        },
+        {
+          "name": "Tracy Letts",
+          "character": "Father"
+        },
+        {
+          "name": "Pamela Anderson",
+          "character": "Mother"
+        },
+        {
+          "name": "Elena Anaya",
+          "character": "Emma"
+        }
+      ],
+      "trailer": "dmp6ksoN2jE",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1130948-rosebush-pruning/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "MUBI Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/w1hl8HszsPf5aAGT0mVY0O6LYP4.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-24T04:44:07.733Z"
+  },
   "salvate il soldato ryan|steven spielberg 1998": {
     "value": {
       "tmdbId": 857,
@@ -20935,6 +21013,129 @@
       }
     },
     "fetchedAt": "2026-10-17T09:30:33.400Z"
+  },
+  "training day|antoine fuqua 2001": {
+    "value": {
+      "tmdbId": 2034,
+      "title": "Training Day",
+      "overview": "Jake Hoyt è una nuova recluta della polizia di Los Angeles e per diventare ispettore deve quindi sottoporsi a 24 ore di tirocinio con il sergente Alonzo Harris, un veterano della sezione antidroga che lavora da dodici anni nei quartieri più caldi della città. Alonzo, che considera Jake un pivello ingenuo e inesperto, se lo porta appresso. Poco a poco Jake comincia così a capire di che pasta sia fatto Alonzo, con il suo cinismo che lo spinge a cacciarsi nelle situazioni più complicate.",
+      "overviewLang": "it",
+      "tagline": "Non c'è niente di più pericoloso di un poliziotto che ha oltrepassato il limite.",
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Crime",
+        "Dramma"
+      ],
+      "runtime": 123,
+      "released": "2001-11-16",
+      "vote": 7.5,
+      "votes": 6944,
+      "poster": "https://image.tmdb.org/t/p/w500/osB00LWj3RHVLRxBwOu6QDGcrII.jpg",
+      "directors": [
+        {
+          "id": 20907,
+          "name": "Antoine Fuqua"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Denzel Washington",
+          "character": "Alonzo"
+        },
+        {
+          "name": "Ethan Hawke",
+          "character": "Jake"
+        },
+        {
+          "name": "Scott Glenn",
+          "character": "Roger"
+        },
+        {
+          "name": "Tom Berenger",
+          "character": "Stan Gursky"
+        },
+        {
+          "name": "Harris Yulin",
+          "character": "Doug Rosselli"
+        },
+        {
+          "name": "Raymond J. Barry",
+          "character": "Lou Jacobs"
+        },
+        {
+          "name": "Cliff Curtis",
+          "character": "Smiley"
+        },
+        {
+          "name": "Dr. Dre",
+          "character": "Paul"
+        }
+      ],
+      "trailer": "2-tS-KkMras",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/2034-training-day/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-24T04:44:07.790Z"
   },
   "transformers one|josh cooley 2024": {
     "value": {

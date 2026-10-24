@@ -2276,6 +2276,39 @@
     },
     "fetchedAt": "2026-10-18T04:46:08.394Z"
   },
+  "jonathan nolan": {
+    "value": {
+      "tmdbId": 527,
+      "wiki": {
+        "lang": "it",
+        "title": "Jonathan Nolan",
+        "url": "https://it.wikipedia.org/wiki/Jonathan_Nolan",
+        "extract": "Jonathan Nolan (Londra, 6 giugno 1976) è uno sceneggiatore, regista e produttore televisivo britannico naturalizzato statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Jonathan_Nolan_at_SXSW_2024.jpg/500px-Jonathan_Nolan_at_SXSW_2024.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Nolan_at_SXSW_2024.jpg",
+        "author": "Vbrunophotog",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 63247,
+          "title": "Westworld - Dove tutto è concesso",
+          "year": "2016"
+        },
+        {
+          "id": 1411,
+          "title": "Person of Interest",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-24T04:47:58.912Z"
+  },
   "justin roiland": {
     "value": {
       "tmdbId": 1245733,
@@ -2986,6 +3019,58 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:53:53.147Z"
+  },
+  "neil cross": {
+    "value": {
+      "tmdbId": 510218,
+      "wiki": {
+        "lang": "en",
+        "title": "Neil Cross",
+        "url": "https://en.wikipedia.org/wiki/Neil_Cross",
+        "extract": "Neil Claude Cross (né Gadd; born 9 February 1969) is a British novelist and scriptwriter, best known as the creator of the drama series Luther and Hard Sun. He is also the showrunner for the TV adaptation of The Mosquito Coast, which began airing in 2021."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/yYZbS84qIlZ9N7Ek9QjG3evl6yw.jpg",
+      "series": [
+        {
+          "id": 253368,
+          "title": "The Iris Affair: Missione ad alto rischio",
+          "year": "2025"
+        },
+        {
+          "id": 93716,
+          "title": "The Mosquito Coast",
+          "year": "2021"
+        },
+        {
+          "id": 112159,
+          "title": "The Sister",
+          "year": "2020"
+        },
+        {
+          "id": 72749,
+          "title": "Hard Sun",
+          "year": "2018"
+        },
+        {
+          "id": 58810,
+          "title": "Crossbones",
+          "year": "2014"
+        },
+        {
+          "id": 1426,
+          "title": "Luther",
+          "year": "2010"
+        },
+        {
+          "id": 7151,
+          "title": "The Fixer",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-24T04:47:59.891Z"
   },
   "nick santora": {
     "value": {

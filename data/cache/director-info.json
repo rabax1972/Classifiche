@@ -903,6 +903,89 @@
     },
     "fetchedAt": "2026-10-17T09:33:25.817Z"
   },
+  "antoine fuqua": {
+    "value": {
+      "tmdbId": 20907,
+      "wiki": {
+        "lang": "it",
+        "title": "Antoine Fuqua",
+        "url": "https://it.wikipedia.org/wiki/Antoine_Fuqua",
+        "extract": "Antoine Fuqua (Pittsburgh, 30 maggio 1965) è un regista e produttore cinematografico statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Antoine_Fuqua_%2829682821190%29.jpg/500px-Antoine_Fuqua_%2829682821190%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Antoine_Fuqua_(29682821190).jpg",
+        "author": "Gordon Correll",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 821470,
+          "title": "Cat on a Hot Tin Roof",
+          "year": null
+        },
+        {
+          "id": 525817,
+          "title": "The Street",
+          "year": null
+        },
+        {
+          "id": 1139388,
+          "title": "Narco Sub",
+          "year": null
+        },
+        {
+          "id": 730564,
+          "title": "Siege of Bethlehem",
+          "year": null
+        },
+        {
+          "id": 1650663,
+          "title": "Untitled Hannibal Film",
+          "year": null
+        },
+        {
+          "id": 1685097,
+          "title": "Untitled Michael Sequel",
+          "year": null
+        },
+        {
+          "id": 936075,
+          "title": "Michael",
+          "year": "2026"
+        },
+        {
+          "id": 1243747,
+          "title": "Troublemaker",
+          "year": "2026"
+        },
+        {
+          "id": 926393,
+          "title": "The Equalizer 3 - Senza tregua",
+          "year": "2023"
+        },
+        {
+          "id": 715931,
+          "title": "Emancipation - Oltre la libertà",
+          "year": "2022"
+        },
+        {
+          "id": 567748,
+          "title": "The Guilty",
+          "year": "2021"
+        },
+        {
+          "id": 581726,
+          "title": "Infinite",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-24T04:44:09.150Z"
+  },
   "bassam tariq": {
     "value": {
       "tmdbId": 1161025,
@@ -7161,6 +7244,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:34:22.416Z"
+  },
+  "karim ainouz": {
+    "value": {
+      "tmdbId": 55018,
+      "wiki": {
+        "lang": "it",
+        "title": "Karim Aïnouz",
+        "url": "https://it.wikipedia.org/wiki/Karim_A%C3%AFnouz",
+        "extract": "Karim Aïnouz (Fortaleza, 17 gennaio 1966) è un regista e sceneggiatore brasiliano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Director_Karim_A%C3%AFnouz_at_2024_Cannes_Film_Festival.jpg/500px-Director_Karim_A%C3%AFnouz_at_2024_Cannes_Film_Festival.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Director_Karim_A%C3%AFnouz_at_2024_Cannes_Film_Festival.jpg",
+        "author": "John Sears",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1129497,
+          "title": "Favela High-Tech",
+          "year": null
+        },
+        {
+          "id": 1128890,
+          "title": "O Sol na Cabeça",
+          "year": null
+        },
+        {
+          "id": 1326740,
+          "title": "Trevo de Quatro Navalhas",
+          "year": null
+        },
+        {
+          "id": 1326747,
+          "title": "Lana Jaguaribe",
+          "year": null
+        },
+        {
+          "id": 1689715,
+          "title": "Last Dance",
+          "year": null
+        },
+        {
+          "id": 1130948,
+          "title": "Rosebush Pruning",
+          "year": "2026"
+        },
+        {
+          "id": 1161879,
+          "title": "Motel Destino",
+          "year": "2024"
+        },
+        {
+          "id": 848439,
+          "title": "L'ultima regina - Firebrand",
+          "year": "2024"
+        },
+        {
+          "id": 662714,
+          "title": "Mariner of the Mountains",
+          "year": "2023"
+        },
+        {
+          "id": 665768,
+          "title": "Nardjes A.",
+          "year": "2021"
+        },
+        {
+          "id": 1754575,
+          "title": "Marin des montagnes",
+          "year": "2021"
+        },
+        {
+          "id": 710379,
+          "title": "Missão Perséfone",
+          "year": "2020"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-24T04:44:08.165Z"
   },
   "keenen ivory wayans": {
     "value": {
