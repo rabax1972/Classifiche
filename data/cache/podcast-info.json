@@ -982,6 +982,53 @@
     },
     "fetchedAt": "2026-10-21T18:56:14.122Z"
   },
+  "podcast:dentro il mistero": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/dentro-il-mistero/id1823679448",
+      "genres": [
+        "True crime",
+        "Storia"
+      ],
+      "episodes": 51,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/cd/2a/2fcd2a18-63bb-c96c-6808-cd7efc606572/mza_378064537378505191.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MNTHA1677259258",
+      "description": "Un podcast di giornalismo investigativo (o true crime, se preferite) che non si limita a raccontare una storia, ma compie un'analisi di ciò che è successo. Scomponendo e ricomponendo i pezzi, le verità, le possibilità, le psicologie, per cercare una risposta a ciò che accadde, per entrare dentro il mistero.\nForse hai paura di diventare una vittima. Forse hai paura di diventare un assassino. Quello che troverai qui sono tutte le risposte possibili al perché alcuni lo divennero.\nSenza dimenticare questo: che non avremo mai tutte le risposte.\n\"Dentro il mistero\" esce ogni due settimane, di sabato, per la precisione alle 7 di mattina.\nFabio Sanvitale è un giornalista investigativo, criminologo, scrittore di true crime e docente.\nPer contatti: dentroilmistero@hotmail.com YouTube\nLinkedinInstagramFacebook\nSubstack“Dentro il Mistero” ha finalità informative, giornalistiche, di intrattenimento e viene realizzato nell'esercizio del diritto di cronaca e critica tutelato dall'art. 21 della Costituzione.",
+      "website": "https://www.spreaker.com/podcast/dentro-il-mistero--6661956",
+      "latest": [
+        {
+          "title": "Massimo Vichi. Il professore di Aosta.",
+          "date": "2026-10-24",
+          "seconds": 2064,
+          "url": null
+        },
+        {
+          "title": "Daniele Gravili. L'assassino è tra noi.",
+          "date": "2026-10-17",
+          "seconds": 1708,
+          "url": null
+        },
+        {
+          "title": "Pietro Peruffo. Due figlie fanno giustizia.",
+          "date": "2026-10-10",
+          "seconds": 2051,
+          "url": null
+        },
+        {
+          "title": "L'esorcismo di Polistena. Le ultime ore di Maria Ilenia.",
+          "date": "2026-10-03",
+          "seconds": 2163,
+          "url": null
+        },
+        {
+          "title": "Il fantasma di Texarkana. La voce dentro il cappuccio.",
+          "date": "2026-09-26",
+          "seconds": 2985,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-25T04:51:08.262Z"
+  },
   "podcast:di nuovo barbero": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/di-nuovo-barbero-alessandro-barbero-podcast/id1896716561",
@@ -1497,6 +1544,46 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:56:40.227Z"
+  },
+  "podcast:il tempo in piu": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/il-tempo-in-pi%C3%B9/id6817419276",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 4,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/da/0d/ed/da0ded79-7cb7-1d58-b688-7fa773769213/mza_2578401265200159024.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS6549380664",
+      "description": "La longevità è entrata nel nostro vocabolario quotidiano, raccontata quasi sempre con entusiasmo e raramente nella sua complessità. Ma vivere più a lungo non è solo una questione di anni in più: è una questione di senso. Che cosa facciamo di questo tempo guadagnato, come lo abitiamo, chi ne beneficia davvero, quali responsabilità comporta.\nIn questa serie promossa dalla Fondazione Giorgio Cini di Venezia, che ha posto il tema al centro delle sue iniziative per il 2026, Daniele Franco ne parla con alcune delle voci più autorevoli del panorama italiano, scelte per le angolature diverse da cui la guardano. Perché una società che invecchia non è soltanto una società con più anziani: è una società che cambia il proprio rapporto con il tempo, con la cura e la morte, che si interroga sulla convivenza tra generazioni, sulla trasmissione delle conoscenze e del potere.\nCREDITS\nIl tempo in più è un podcast della Fondazione Giorgio Cini in collaborazione con Chora Media.\nIdeato e scritto da Daniele Franco e Michela Maguolo.",
+      "website": null,
+      "latest": [
+        {
+          "title": "La responsabilità verso la vita",
+          "date": "2026-10-20",
+          "seconds": 1464,
+          "url": null
+        },
+        {
+          "title": "Esploratori del proprio tempo",
+          "date": "2026-10-13",
+          "seconds": 1366,
+          "url": null
+        },
+        {
+          "title": "Accettare i nostri limiti",
+          "date": "2026-10-06",
+          "seconds": 1690,
+          "url": null
+        },
+        {
+          "title": "Il tempo in più | Trailer",
+          "date": "2026-09-29",
+          "seconds": 46,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-25T04:51:05.719Z"
   },
   "podcast:impara l inglese": {
     "value": {
@@ -2426,6 +2513,52 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:56:40.814Z"
+  },
+  "podcast:partners in true crime": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/partners-in-true-crime/id1802163963",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 50,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/3c/e6/1b3ce69e-426e-1d50-a179-58ced31c0bec/mza_12287945269406338971.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/10209254c/podcast/rss",
+      "description": "Partners in True Crime è il podcast in cui Elisa racconta a Edoardo i casi e le storie più sconvolgenti, mentre lui reagisce e commenta senza filtri.\nUn viaggio tra misteri e colpi di scena * particolarmente scioccanti * attraverso le dinamiche di una coppia che condivide la passione per il True crime.\nDue venerdì al mese un nuovo episodio",
+      "website": "https://www.youtube.com/@partnersintruecrime",
+      "latest": [
+        {
+          "title": "RUTH THALÍA: QUANTO VALE LA TUA VERITÀ? EP.38",
+          "date": "2026-10-23",
+          "seconds": 2742,
+          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/RUTH-THALA-QUANTO-VALE-LA-TUA-VERIT--EP-38-e3qtjj9"
+        },
+        {
+          "title": "LA MAESTRA CHE HA SCONVOLTO L'AMERICA | EP. 37",
+          "date": "2026-10-09",
+          "seconds": 3454,
+          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/LA-MAESTRA-CHE-HA-SCONVOLTO-LAMERICA--EP--37-e3q34q1"
+        },
+        {
+          "title": "LA VERA STORIA DEI BAMBINI CON GLI OCCHI GRANDI | EP.36",
+          "date": "2026-09-25",
+          "seconds": 3101,
+          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/LA-VERA-STORIA-DEI-BAMBINI-CON-GLI-OCCHI-GRANDI--EP-36-e3pavuc"
+        },
+        {
+          "title": "DAVID NON LO DEVE SAPERE | EP. 35",
+          "date": "2026-09-11",
+          "seconds": 3552,
+          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/DAVID-NON-LO-DEVE-SAPERE--EP--35-e3olben"
+        },
+        {
+          "title": "AMERICAN STONEHENGE: 10 COMANDAMENTI PER LA FINE DEL MONDO? 🗿 | EP. 34",
+          "date": "2026-07-31",
+          "seconds": 3449,
+          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/AMERICAN-STONEHENGE-10-COMANDAMENTI-PER-LA-FINE-DEL-MONDO----EP--34-e3mor76"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-25T04:51:02.689Z"
   },
   "podcast:passa dal bsmt": {
     "value": {

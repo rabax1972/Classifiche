@@ -2488,6 +2488,106 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.254Z"
   },
+  "cyberpunk edgerunners|rafa jaki 2022": {
+    "value": {
+      "tmdbId": 105248,
+      "title": "Cyberpunk: Edgerunners",
+      "overview": "Nella spietata Night City, una metropoli ossessionata da tecnologia e potenziamenti corporei, il giovane David Martinez cerca di sopravvivere tra ristrettezze economiche e soprusi. Travolto da un'improvvisa tragedia personale, David si fa impiantare il Sandevistan, un innesto cibernetico militare estremamente pericoloso. L'incontro con la misteriosa netrunner Lucy lo spingerà nel mondo della criminalità, trasformandolo in un mercenario fuorilegge pronto a tutto.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "episodeRuntime": 31,
+      "firstAired": "2022-09-13",
+      "lastAired": "2026-10-20",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 20,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-09-13",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Cyberpunk: Edgerunners 2",
+          "date": "2026-10-20",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8.5,
+      "votes": 2083,
+      "poster": "https://image.tmdb.org/t/p/w500/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg",
+      "creators": [
+        {
+          "id": 3581622,
+          "name": "Rafał Jaki"
+        },
+        {
+          "id": 3581626,
+          "name": "Bartosz Sztybor"
+        }
+      ],
+      "cast": [
+        {
+          "name": "KENN",
+          "character": "David Martinez (voice)"
+        },
+        {
+          "name": "Kōki Uchiyama",
+          "character": "D (voice)"
+        },
+        {
+          "name": "寺澤百花",
+          "character": "Roman (voice)"
+        },
+        {
+          "name": "Akari Kito",
+          "character": "Talia (voice)"
+        },
+        {
+          "name": "Kentaro Tone",
+          "character": "Weak (voice)"
+        },
+        {
+          "name": "Kaito Ishikawa",
+          "character": "Katsuo (voice)"
+        },
+        {
+          "name": "宇垣秀成",
+          "character": "The Principal (voice)"
+        },
+        {
+          "name": "桜岡あつこ",
+          "character": "The AI Teacher (voice)"
+        }
+      ],
+      "trailer": "LxpC_NClTco",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/105248-cyberpunk-edgerunners/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-25T04:50:55.647Z"
+  },
   "delitti in paradiso|robert thorogood 2011": {
     "value": {
       "tmdbId": 41956,

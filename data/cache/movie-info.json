@@ -4458,6 +4458,128 @@
     },
     "fetchedAt": "2026-10-18T17:56:53.188Z"
   },
+  "dune|denis villeneuve 2021": {
+    "value": {
+      "tmdbId": 438631,
+      "title": "Dune",
+      "overview": "Paul Atreides, un brillante e dotato giovane nato per un grande destino oltre la sua comprensione, deve viaggiare sul pianeta più pericoloso dell'universo per garantire il futuro della sua famiglia e del suo popolo. Mentre forze malevole esplodono in conflitti per la riserva esclusiva del pianeta della risorsa più preziosa esistente, \"la spezia\", una merce capace di sbloccare il massimo potenziale dell'umanità, soltanto chi riesce a superare la propria paura sopravvivrà.",
+      "overviewLang": "it",
+      "tagline": "L'inizio di un viaggio straordinario",
+      "originalTitle": null,
+      "genres": [
+        "Fantascienza",
+        "Avventura"
+      ],
+      "runtime": 155,
+      "released": "2021-09-16",
+      "vote": 7.8,
+      "votes": 15804,
+      "poster": "https://image.tmdb.org/t/p/w500/zolKD2yscZd86GviNa6pBPc6N9o.jpg",
+      "directors": [
+        {
+          "id": 137427,
+          "name": "Denis Villeneuve"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Timothée Chalamet",
+          "character": "Paul Atreides"
+        },
+        {
+          "name": "Rebecca Ferguson",
+          "character": "Lady Jessica Atreides"
+        },
+        {
+          "name": "Oscar Isaac",
+          "character": "Duke Leto Atreides"
+        },
+        {
+          "name": "Jason Momoa",
+          "character": "Duncan Idaho"
+        },
+        {
+          "name": "Stellan Skarsgård",
+          "character": "Baron Vladimir Harkonnen"
+        },
+        {
+          "name": "Stephen McKinley Henderson",
+          "character": "Thufir Hawat"
+        },
+        {
+          "name": "Josh Brolin",
+          "character": "Gurney Halleck"
+        },
+        {
+          "name": "Javier Bardem",
+          "character": "Stilgar"
+        }
+      ],
+      "trailer": "tVbbaQDN5zs",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/438631-dune/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-25T04:47:01.298Z"
+  },
   "e colpa mia|domingo gonzalez 2023": {
     "value": {
       "tmdbId": 1010581,
@@ -21399,6 +21521,113 @@
       }
     },
     "fetchedAt": "2026-10-23T04:46:52.737Z"
+  },
+  "twilight|catherine hardwicke 2008": {
+    "value": {
+      "tmdbId": 8966,
+      "title": "Twilight",
+      "overview": "Quando sua madre si accompagna con un altro uomo, Bella decide di andare a vivere con il padre, nella piovosa cittadina di Forks. Non prevede che la sua vita possa subire dei grandi cambiamenti, prevede al massimo di adattarsi. Ma nel nuovo liceo incontra Edward Cullen, un ragazzo schivo, diverso da ogni altro. Edward ha 17 anni come lei, solo che ce li ha dal 1918. È un vampiro, che però ha scelto, insieme con la sua famiglia, di non bere sangue umano ma solo animale. Bella e Edward si innamorano perdutamente, ma l'odore di lei scatena la sete di James, un vampiro nemico e niente affatto vegetariano.",
+      "overviewLang": "it",
+      "tagline": "Niente sarà più come prima.",
+      "originalTitle": null,
+      "genres": [
+        "Fantasy",
+        "Dramma",
+        "Romance"
+      ],
+      "runtime": 122,
+      "released": "2008-11-21",
+      "vote": 6.3,
+      "votes": 14797,
+      "poster": "https://image.tmdb.org/t/p/w500/n8nYzzKGP30M6u8sUon1YJmCgm8.jpg",
+      "directors": [
+        {
+          "id": 19850,
+          "name": "Catherine Hardwicke"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kristen Stewart",
+          "character": "Bella Swan"
+        },
+        {
+          "name": "Robert Pattinson",
+          "character": "Edward Cullen"
+        },
+        {
+          "name": "Billy Burke",
+          "character": "Charlie Swan"
+        },
+        {
+          "name": "Peter Facinelli",
+          "character": "Dr. Carlisle Cullen"
+        },
+        {
+          "name": "Ashley Greene",
+          "character": "Alice Cullen"
+        },
+        {
+          "name": "Jackson Rathbone",
+          "character": "Jasper"
+        },
+        {
+          "name": "Nikki Reed",
+          "character": "Rosalie"
+        },
+        {
+          "name": "Kellan Lutz",
+          "character": "Emmet Cullen"
+        }
+      ],
+      "trailer": "TwdqzhOohYc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/8966-twilight/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Eagle Magic Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/wgwd0tYeuBXne1rtdwDgYNox4c3.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-25T04:47:01.392Z"
   },
   "u boot 96|wolfgang petersen 1981": {
     "value": {

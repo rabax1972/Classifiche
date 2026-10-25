@@ -1930,6 +1930,89 @@
     },
     "fetchedAt": "2026-10-17T09:36:10.172Z"
   },
+  "catherine hardwicke": {
+    "value": {
+      "tmdbId": 19850,
+      "wiki": {
+        "lang": "it",
+        "title": "Catherine Hardwicke",
+        "url": "https://it.wikipedia.org/wiki/Catherine_Hardwicke",
+        "extract": "Helen Catherine Hardwicke (Cameron, 21 ottobre 1955) è una scenografa, regista, sceneggiatrice e produttrice cinematografica statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Catherine_Hardwicke_%26_Madison.JPG/500px-Catherine_Hardwicke_%26_Madison.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Catherine_Hardwicke_%26_Madison.JPG",
+        "author": "M. Hodge",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1240826,
+          "title": "A French Pursuit",
+          "year": null
+        },
+        {
+          "id": 618223,
+          "title": "Heathen",
+          "year": null
+        },
+        {
+          "id": 1404300,
+          "title": "If You Could See Me Now",
+          "year": null
+        },
+        {
+          "id": 1791462,
+          "title": "American River",
+          "year": null
+        },
+        {
+          "id": 1434326,
+          "title": "Street Smart",
+          "year": "2026"
+        },
+        {
+          "id": 865382,
+          "title": "La figlia del prigioniero",
+          "year": "2023"
+        },
+        {
+          "id": 809787,
+          "title": "Mafia Mamma",
+          "year": "2023"
+        },
+        {
+          "id": 822124,
+          "title": "Tell It Like a Woman",
+          "year": "2022"
+        },
+        {
+          "id": 500852,
+          "title": "Miss Bala - Sola contro tutti",
+          "year": "2019"
+        },
+        {
+          "id": 466696,
+          "title": "The Black Ghiandola",
+          "year": "2017"
+        },
+        {
+          "id": 290762,
+          "title": "Miss You Already",
+          "year": "2015"
+        },
+        {
+          "id": 298414,
+          "title": "We the Economy: 20 Short Films You Can't Afford to Miss",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-25T04:47:01.900Z"
+  },
   "cecile allegra": {
     "value": {
       "tmdbId": 1721435,

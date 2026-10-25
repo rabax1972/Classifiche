@@ -3250,6 +3250,28 @@
     },
     "fetchedAt": "2026-10-17T12:50:20.605Z"
   },
+  "rafa jaki": {
+    "value": {
+      "tmdbId": 3581622,
+      "wiki": {
+        "lang": "en",
+        "title": "Rafał Jaki",
+        "url": "https://en.wikipedia.org/wiki/Rafa%C5%82_Jaki",
+        "extract": "Rafał Jaki (Polish: [ˈra.faw ˈja.ki]) is a Polish executive producer and writer best known for his work on Cyberpunk: Edgerunners as executive producer and showrunner, and as the writer of No\\Name, the first Western manga serialized in Shōnen Jump+."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/tHZVhOPzQzzX0v5UuxI1X1qhNMa.jpg",
+      "series": [
+        {
+          "id": 105248,
+          "title": "Cyberpunk: Edgerunners",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-25T04:50:56.273Z"
+  },
   "rhett mclaughlin": {
     "value": {
       "tmdbId": 1176585,

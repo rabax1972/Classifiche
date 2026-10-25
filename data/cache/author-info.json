@@ -1133,6 +1133,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "claudio roe": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "colette": {
     "value": {
       "wiki": {
@@ -1544,6 +1553,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "emilio lussu": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Emilio Lussu",
+        "url": "https://it.wikipedia.org/wiki/Emilio_Lussu",
+        "extract": "Emilio Lussu (Armungia, 4 dicembre 1890 – Roma, 5 marzo 1975) è stato uno scrittore, militare e politico italiano, eletto più volte al Parlamento e due volte ministro. Fondatore del Partito Sardo d'Azione e del movimento Giustizia e Libertà. Antifascista, fu aggredito, ferito e poi confinato a Lipari; infine, una volta evaso, fu profugo all'estero per circa quattordici anni. Prese parte come ufficiale alla prima guerra mondiale, dove fu più volte decorato, alla Guerra civile spagnola come dirigente politico e alla Resistenza italiana."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Emilio_Lussu.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Emilio_Lussu.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "CC BY 3.0 it",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/it/deed.en"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/emilio-lussu/440967776",
+      "died": 1975
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "emily bronte": {
     "value": {
       "wiki": {
@@ -1603,6 +1632,26 @@
       "died": 1968
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "enrico vanzina": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Enrico Vanzina",
+        "url": "https://it.wikipedia.org/wiki/Enrico_Vanzina",
+        "extract": "Enrico Vanzina (Roma, 26 marzo 1949) è uno sceneggiatore, produttore cinematografico, scrittore e regista italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cerimonia_di_presentazione_dei_candidati_ai_Premi_David_di_Donatello_per_l%E2%80%99anno_2023_09_%28cropped%29.jpg/500px-Cerimonia_di_presentazione_dei_candidati_ai_Premi_David_di_Donatello_per_l%E2%80%99anno_2023_09_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Cerimonia_di_presentazione_dei_candidati_ai_Premi_David_di_Donatello_per_l%E2%80%99anno_2023_09_(cropped).jpg",
+        "author": "Quirinale",
+        "license": "Attribution",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/enrico-vanzina/642319989",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
   },
   "erich maria remarque": {
     "value": {
@@ -2427,6 +2476,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "isabelle popp": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/isabelle-popp/1754133919",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "ismail kadare": {
     "value": {
       "wiki": {
@@ -3202,6 +3260,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "kate hewitt": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/kate-hewitt/374912906",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "kazuo ishiguro": {
     "value": {
       "wiki": {
@@ -3484,6 +3551,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "luigi giussani": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/luigi-giussani/429903658",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "luigi pirandello": {
     "value": {
       "wiki": {
@@ -3537,6 +3613,26 @@
       "died": 1922
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "marcello fois": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Marcello Fois",
+        "url": "https://it.wikipedia.org/wiki/Marcello_Fois",
+        "extract": "Marcello Fois (Nuoro, 20 gennaio 1960) è uno scrittore, commediografo e sceneggiatore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Marcello_Fois.jpg/500px-Marcello_Fois.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Marcello_Fois.jpg",
+        "author": ".Utente:Dread83[d]]oppia.Discussioni utente:Dread83[d]]i. Original uploader was…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/marcello-fois/467375461",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
   },
   "marco malvaldi": {
     "value": {
@@ -4092,6 +4188,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "oreco tachibana": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/oreco-tachibana/1750079252",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "oriana fallaci": {
     "value": {
       "wiki": {
@@ -4234,6 +4339,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "peter straub": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Peter Straub",
+        "url": "https://it.wikipedia.org/wiki/Peter_Straub",
+        "extract": "Peter Francis Straub (Milwaukee, 2 marzo 1943 – New York, 4 settembre 2022) è stato uno scrittore e poeta statunitense, conosciuto soprattutto per le sue opere di genere fantastico e horror."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Peter_Straub.jpg/500px-Peter_Straub.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Straub.jpg",
+        "author": "KyleCassidy (identity confirmed)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": null,
+      "died": 2022
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "piergiorgio pulixi": {
     "value": {
       "wiki": {
@@ -4287,6 +4412,15 @@
       "died": 1987
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "r l killmore": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/r-l-killmore/1821746838",
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
   },
   "rachel reid": {
     "value": {
@@ -4863,6 +4997,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "simon": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Simon (Sfondamento dei cieli Gurren Lagann)",
+        "url": "https://it.wikipedia.org/wiki/Simon_(Sfondamento_dei_cieli_Gurren_Lagann)",
+        "extract": "Simon (シモン?, Shimon) è un personaggio immaginario, e il protagonista del manga e anime Sfondamento dei cieli Gurren Lagann, ideato dallo sceneggiatore Kazuki Nakashima per la celebre casa di produzione Gainax. Dalla serie sono stati tratti due film riassuntivi."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "simona ravizza": {
     "value": {
       "wiki": null,
@@ -4932,6 +5080,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "stephen king": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Stephen King",
+        "url": "https://it.wikipedia.org/wiki/Stephen_King",
+        "extract": "Stephen Edwin King (Portland, 21 settembre 1947) è uno scrittore e sceneggiatore statunitense, uno dei più celebri autori di letteratura fantastica, in particolare horror, del XX e XXI secolo.\n\nScrittore molto prolifico, nel corso della sua carriera, iniziata nel 1974 con Carrie, ha pubblicato circa novanta opere, tra romanzi e antologie di racconti, alcune delle quali sotto lo pseudonimo di Richard Bachman. Le sue pubblicazioni hanno frequentemente raggiunto le classifiche dei best seller e hanno venduto complessivamente oltre 500 milioni di copie.\n\nMolte delle sue opere sono state oggetto di trasposizioni cinematografiche o televisive. Pochi autori della letteratura, tra cui Agatha Christie, Arthur Conan Doyle e William Shakespeare, hanno visto un numero paragonabile di adattamenti tratti dalle proprie opere."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/500px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_(cropped).jpg",
+        "author": "Kevin Payravi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
   "stephen markley": {
     "value": {
       "wiki": {
@@ -4978,6 +5146,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "the stars": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-25T04:47:00.737Z"
   },
   "thomas mann": {
     "value": {
