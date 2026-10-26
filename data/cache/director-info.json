@@ -2673,6 +2673,26 @@
     },
     "fetchedAt": "2026-10-19T04:48:47.567Z"
   },
+  "cosimo scarpello": {
+    "value": {
+      "tmdbId": 6569863,
+      "wiki": null,
+      "bio": {
+        "text": "Cosimo Scarpello è un regista, sceneggiatore e scrittore italiano di San Pancrazio Salentino, in Puglia. Dopo una carriera in diritto e politica locale, si è dedicato alla letteratura e al cinema, pubblicando romanzi come «La figlia mai avuta» (2017) e «Le ragioni di una coscienza» (2019). Si è formato come regista alla Mediterranean Film Academy di Bari.",
+        "lang": "it"
+      },
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1802723,
+          "title": "Diversa",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-26T04:49:47.198Z"
+  },
   "craig gillespie": {
     "value": {
       "tmdbId": 50767,
@@ -7030,6 +7050,81 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:12.853Z"
+  },
+  "jorge michel grau": {
+    "value": {
+      "tmdbId": 557880,
+      "wiki": null,
+      "bio": {
+        "text": "Jorge Michel Grau obtains a B.A. in Communication from the National Autonomous University of Mexico from 1994-1998 and then graduates with honors in Film Direction from the Centro de Capacitacion Cinematografica (CCC); in his professional career he has started as a producer of documentaries and cultural and educational television programs. Jorge has participated as a production manager on several films produced by the Mexican Film Institute, the CCC as well as independent productions.  In 2004 he specializes in film direction at the Escola Superior de Cinema I Audivisuals de Catalunya (ESCAC) at Barcelona, Spain. He receives a scholarship from FONCA (National Fund for Culture and Arts) in support program for overseas studies and in 2009 he receives funding for a film project.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/lY3rWcFuNL77gHhIuGNioCqMmMM.jpg",
+      "films": [
+        {
+          "id": 1340513,
+          "title": "Kalimán",
+          "year": null
+        },
+        {
+          "id": 1780005,
+          "title": "Contra el huracán",
+          "year": "2026"
+        },
+        {
+          "id": 1129932,
+          "title": "Rabia",
+          "year": "2023"
+        },
+        {
+          "id": 638943,
+          "title": "Perdida",
+          "year": "2019"
+        },
+        {
+          "id": 387805,
+          "title": "7:19",
+          "year": "2016"
+        },
+        {
+          "id": 332839,
+          "title": "Big Sky",
+          "year": "2015"
+        },
+        {
+          "id": 267792,
+          "title": "México bárbaro",
+          "year": "2014"
+        },
+        {
+          "id": 87436,
+          "title": "The ABCs of Death",
+          "year": "2013"
+        },
+        {
+          "id": 204401,
+          "title": "Chalán",
+          "year": "2012"
+        },
+        {
+          "id": 464910,
+          "title": "60 Sekundit Üksindust Aastal Null",
+          "year": "2011"
+        },
+        {
+          "id": 50272,
+          "title": "Siamo quello che mangiamo",
+          "year": "2010"
+        },
+        {
+          "id": 1657958,
+          "title": "Mi hermano",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-26T04:49:48.293Z"
   },
   "joseph kosinski": {
     "value": {

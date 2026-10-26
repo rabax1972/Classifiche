@@ -3509,6 +3509,73 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.961Z"
   },
+  "contra el huracan|jorge michel grau 2026": {
+    "value": {
+      "tmdbId": 1780005,
+      "title": "Contra el huracán",
+      "overview": "Due fratellastri lottano per sopravvivere all'uragano Otis ad Acapulco, dove il loro legame e il loro coraggio trasformano le avversità in speranza. Ispirato a una storia vera.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 97,
+      "released": "2026-10-23",
+      "vote": 5.7,
+      "votes": 25,
+      "poster": "https://image.tmdb.org/t/p/w500/9na3MNAhsuNKDVOoctaE7opTmbx.jpg",
+      "directors": [
+        {
+          "id": 557880,
+          "name": "Jorge Michel Grau"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Benny Emmanuel",
+          "character": "Wirpul"
+        },
+        {
+          "name": "Kristyan Ferrer",
+          "character": "Candi"
+        },
+        {
+          "name": "Mónica del Carmen",
+          "character": null
+        },
+        {
+          "name": "Mónica Jiménez",
+          "character": null
+        },
+        {
+          "name": "Andrew Leland Rogers",
+          "character": "Nico"
+        },
+        {
+          "name": "Gonzalo Vega Jr.",
+          "character": "Napo"
+        },
+        {
+          "name": "Daira Mendoza",
+          "character": "Mujer Turista"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1780005-contra-el-huracan/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-26T04:49:46.938Z"
+  },
   "coyote vs acme|dave green 2026": {
     "value": {
       "tmdbId": 1204680,
@@ -3986,6 +4053,55 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.624Z"
+  },
+  "diversa|cosimo scarpello 2026": {
+    "value": {
+      "tmdbId": 1802723,
+      "title": "Diversa",
+      "overview": "“Diversa” è un thriller psicologico che esplora le profondità dell’animo umano, affrontando temi delicati e universali come l’identità, il pregiudizio, le ferite del passato e il desiderio di riscatto. Una storia intensa, costruita attorno a verità nascoste e a un passato che torna a condizionare il presente. L'arrivo di una giovane veterinaria francese in una piccola città dell'Italia meridionale (Ambientato in Salento) innesca una vendetta pianificata da molto tempo, svelando segreti sepolti e sfidando pregiudizi profondamente radicati.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [],
+      "runtime": 81,
+      "released": "2026-10-20",
+      "vote": 5,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/iFW4yakO8VAVs5R8iJiLBxj2wPd.jpg",
+      "directors": [
+        {
+          "id": 6569863,
+          "name": "Cosimo Scarpello"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sabrina Montrone",
+          "character": "Nora"
+        },
+        {
+          "name": "Gino Cesaria",
+          "character": "Cataldo"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1802723-diversa/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-26T04:49:46.919Z"
   },
   "django unchained|quentin tarantino 2012": {
     "value": {
@@ -20617,6 +20733,112 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.814Z"
+  },
+  "titanic|james cameron 1997": {
+    "value": {
+      "tmdbId": 597,
+      "title": "Titanic",
+      "overview": "Rose ha diciassette anni, una madre egoista, un fidanzato facoltoso e una vita pianificata. Imbarcata sul Titanic e insoddisfatta della propria subalternità al futuro sposo incontra Jack, romantico disegnatore della terza classe che ha vinto a poker un biglietto per l'America. Contro le convenzioni e il destino, che chiederà il conto in una notte senza luna, Rose e Jack si innamorano, spiegando il loro spirito come i motori del più grande transatlantico del mondo. Lanciato nella sua prima traversata oceanica il Titanic è colpito al cuore da un iceberg, 'affondando' millecinquecento persone e il futuro dei due giovani amanti. Ottantaquattro anni dopo l'ultracentenaria Rose, scampata al naufragio e sopravvissuta a Jack, racconterà a un gruppo di scienziati la meraviglia di un amore interclassista e la stupidità di un mondo diviso in classi. Un mondo che il Titanic inabisserà in un oceano nero il 15 aprile del 1912.",
+      "overviewLang": "it",
+      "tagline": "Nulla al mondo poteva dividerli.",
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Romance"
+      ],
+      "runtime": 194,
+      "released": "1998-01-16",
+      "vote": 7.9,
+      "votes": 27965,
+      "poster": "https://image.tmdb.org/t/p/w500/i87I2HPumcMkX5Vl48n2XkS5Os7.jpg",
+      "directors": [
+        {
+          "id": 2710,
+          "name": "James Cameron"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Leonardo DiCaprio",
+          "character": "Jack Dawson"
+        },
+        {
+          "name": "Kate Winslet",
+          "character": "Rose DeWitt Bukater"
+        },
+        {
+          "name": "Billy Zane",
+          "character": "Cal Hockley"
+        },
+        {
+          "name": "Kathy Bates",
+          "character": "Molly Brown"
+        },
+        {
+          "name": "Frances Fisher",
+          "character": "Ruth DeWitt Bukater"
+        },
+        {
+          "name": "Gloria Stuart",
+          "character": "Old Rose"
+        },
+        {
+          "name": "Bill Paxton",
+          "character": "Brock Lovett"
+        },
+        {
+          "name": "Bernard Hill",
+          "character": "Captain Smith"
+        }
+      ],
+      "trailer": "DP-AelnPZwc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/597-titanic/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-26T04:49:47.047Z"
   },
   "top gun maverick|joseph kosinski 2022": {
     "value": {

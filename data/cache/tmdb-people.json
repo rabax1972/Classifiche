@@ -347,6 +347,10 @@
     "value": "Michael Showalter",
     "fetchedAt": "2026-10-12T07:24:28.059Z"
   },
+  "movie:1284041": {
+    "value": "Louis Leterrier",
+    "fetchedAt": "2026-10-26T04:48:34.909Z"
+  },
   "movie:1284046": {
     "value": "Adam Wingard",
     "fetchedAt": "2026-10-12T07:24:27.669Z"
@@ -1047,6 +1051,10 @@
     "value": "Jorge Michel Grau",
     "fetchedAt": "2026-10-24T04:43:02.115Z"
   },
+  "movie:1781107": {
+    "value": null,
+    "fetchedAt": "2026-10-26T04:48:34.808Z"
+  },
   "movie:1788814": {
     "value": "Guia Zapponi",
     "fetchedAt": "2026-10-24T04:43:00.811Z"
@@ -1138,6 +1146,10 @@
   "movie:218": {
     "value": "James Cameron",
     "fetchedAt": "2026-10-13T04:34:35.963Z"
+  },
+  "movie:228150": {
+    "value": "David Ayer",
+    "fetchedAt": "2026-10-26T04:48:34.107Z"
   },
   "movie:238": {
     "value": "Francis Ford Coppola",
@@ -2043,6 +2055,10 @@
     "value": null,
     "fetchedAt": "2026-10-23T04:45:48.526Z"
   },
+  "tv:255570": {
+    "value": "Stephen Butchard",
+    "fetchedAt": "2026-10-26T04:48:35.405Z"
+  },
   "tv:255752": {
     "value": "Matt Roller",
     "fetchedAt": "2026-10-12T07:25:01.019Z"
@@ -2415,6 +2431,10 @@
     "value": "김탁",
     "fetchedAt": "2026-10-24T04:43:03.814Z"
   },
+  "tv:322267": {
+    "value": "Gail Lerner, Jamie Lee Curtis",
+    "fetchedAt": "2026-10-26T04:48:35.507Z"
+  },
   "tv:324502": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.773Z"
@@ -2502,6 +2522,10 @@
   "tv:337800": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:50.532Z"
+  },
+  "tv:338641": {
+    "value": "Daniel Brocklehurst",
+    "fetchedAt": "2026-10-26T04:48:35.304Z"
   },
   "tv:338848": {
     "value": null,

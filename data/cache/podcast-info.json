@@ -3109,6 +3109,52 @@
     },
     "fetchedAt": "2026-10-21T18:57:40.888Z"
   },
+  "podcast:storia in podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/storia-in-podcast/id1511551427",
+      "genres": [
+        "Storia"
+      ],
+      "episodes": 653,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e6/1e/93/e61e93d3-9d65-a212-5196-3b30edac81bd/mza_12104299540611644514.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MONDADORI7805258396",
+      "description": "Se sei appassionato di Storia abbonati alla rivista Focus Storia, vai su\nhttps://www.abbonamenti.it/rivista/Focus-Storia?utm_source=storia+in+podcast&utm_medium=podcast&utm_campaign=podcast\ne inserisci il codice STORIAINPODCAST\nOgni settimana la redazione di Focus Storia approfondisce un tema storico o rilegge in chiave storica un avvenimento di attualità. Per capire il presente scoprendo il passato.",
+      "website": "https://www.spreaker.com/show/la-voce-della-storia",
+      "latest": [
+        {
+          "title": "La geopolitica della Turchia di Erdogan e la Sublime porta",
+          "date": "2026-10-24",
+          "seconds": 1253,
+          "url": null
+        },
+        {
+          "title": "Conversazioni sull'America - I Vicepresidenti più influenti",
+          "date": "2026-10-14",
+          "seconds": 2510,
+          "url": null
+        },
+        {
+          "title": "Scrive il fratello della Principessa Diana",
+          "date": "2026-09-26",
+          "seconds": 793,
+          "url": null
+        },
+        {
+          "title": "Mladic: storia di un criminale di guerra",
+          "date": "2026-09-13",
+          "seconds": 1195,
+          "url": null
+        },
+        {
+          "title": "L’Odissea di Omero e l’opera di Nolan",
+          "date": "2026-08-15",
+          "seconds": 2165,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-26T04:53:38.606Z"
+  },
   "podcast:storie di brand": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/storie-di-brand/id1483404084",
