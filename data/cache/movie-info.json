@@ -4289,6 +4289,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.768Z"
   },
+  "dov e la fiesta|niccolo gentili 2026": {
+    "value": {
+      "tmdbId": 1723662,
+      "title": "Dov’è la fiesta?",
+      "overview": "A pochi giorni da Capodanno, Roma è un caos di traffico, regali, cene e aspettative. Leo e Irene si frequentano da tre mesi e non hanno ancora trovato il coraggio di rispondere alla domanda che incombe su ogni nuova relazione: “Allora, cosa siamo?”. La sera in cui decidono finalmente di affrontarla, l’auto nuova di Leo viene rubata sotto casa di Irene. Da quel momento, la loro storia viene travolta da una settimana assurda di commissariati, assicurazioni, uffici ACI, guardie giurate, ladri, coinquilini, genitori e suore. Convinti di vivere una commedia romantica, i due si ritrovano invece a combattere contro burocrazia, pregiudizi e un mondo di adulti frustrati che sembra fare di tutto per ostacolarli. Ma proprio attraversando questo labirinto di ostacoli, Leo e Irene potrebbero trovare qualcosa di più importante dell’auto scomparsa: una direzione comune e il coraggio di scegliere il proprio futuro insieme.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Romance"
+      ],
+      "runtime": 102,
+      "released": "2026-09-17",
+      "vote": 5.1,
+      "votes": 7,
+      "poster": "https://image.tmdb.org/t/p/w500/gtTw3Pbf0jj69Xq1nnHDXRztpEb.jpg",
+      "directors": [
+        {
+          "id": 1343613,
+          "name": "Niccolò Gentili"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Francesco Carril",
+          "character": "Leo"
+        },
+        {
+          "name": "Linda Caridi",
+          "character": "Irene"
+        },
+        {
+          "name": "Giorgio Tirabassi",
+          "character": "Cupido"
+        },
+        {
+          "name": "Sergio Pierattini",
+          "character": "Piero, papà di Leo"
+        },
+        {
+          "name": "Niccolò Gentili",
+          "character": "Pasquale"
+        },
+        {
+          "name": "Paola Michelini",
+          "character": "Maura"
+        },
+        {
+          "name": "Cristiano Caccamo",
+          "character": "Psicologo"
+        },
+        {
+          "name": "Valentino Campitelli",
+          "character": "Ispettore De Rossi"
+        }
+      ],
+      "trailer": "Su-LYJvxGMA",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-27T04:47:40.194Z"
+  },
   "dubbio nel buio|andrea d eredita 2026": {
     "value": {
       "tmdbId": 1791064,
@@ -10991,6 +11053,109 @@
       "watch": null
     },
     "fetchedAt": "2026-10-22T04:45:42.544Z"
+  },
+  "kraken|pal ie 2026": {
+    "value": {
+      "tmdbId": 1110034,
+      "title": "Kraken",
+      "overview": "La biologa marina Johanne sta facendo ricerche in un allevamento ittico a Vangsnes, una comunità rurale situata vicino al fiordo, quando incontra diversi strani eventi. Insieme alla morte brutale di due adolescenti locali, tutti i segni indicano il fiordo profondo; può esserci di più in profondità di quanto l'occhio possa vedere? In fondo al fiordo più profondo riposa un mostro mitico grande come una montagna, con una miriade di braccia pronte a schiacciare e divorare qualsiasi cosa riescano ad afferrare.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Azione",
+        "Thriller"
+      ],
+      "runtime": 94,
+      "released": "2026-02-06",
+      "vote": 6.2,
+      "votes": 372,
+      "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
+      "directors": [
+        {
+          "id": 111532,
+          "name": "Pål Øie"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sara Khorami",
+          "character": "Johanne"
+        },
+        {
+          "name": "Mikkel Bratt Silset",
+          "character": "Erik"
+        },
+        {
+          "name": "Ingvild Holthe Bygdnes",
+          "character": "Henriette"
+        },
+        {
+          "name": "Øyvind Brandtzæg",
+          "character": "Avaldsnes"
+        },
+        {
+          "name": "Jenny Evensen",
+          "character": "Maria"
+        },
+        {
+          "name": "Steinar Klouman Hallert",
+          "character": "Cato"
+        },
+        {
+          "name": "Filip Bargee Ramberg",
+          "character": "Hallvard"
+        },
+        {
+          "name": "Jon Erik Myre",
+          "character": "Georg"
+        }
+      ],
+      "trailer": "EUTatY1-oBI",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1110034-kraken/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-27T04:47:40.240Z"
   },
   "l albero di molto lontano|ben gregor 2026": {
     "value": {
@@ -21743,6 +21908,113 @@
       }
     },
     "fetchedAt": "2026-10-23T04:46:52.737Z"
+  },
+  "tuner l accordatore|daniel roher 2026": {
+    "value": {
+      "tmdbId": 1340206,
+      "title": "Tuner - L’accordatore",
+      "overview": "Le abilità meticolose di un accordatore di pianoforti lo portano a scoprire un'attitudine inaspettata per aprire casseforti, sconvolgendo la sua vita.",
+      "overviewLang": "it",
+      "tagline": "Quando il talento diventa un'arma.",
+      "originalTitle": "Tuner",
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 108,
+      "released": "2026-05-28",
+      "vote": 7.6,
+      "votes": 607,
+      "poster": "https://image.tmdb.org/t/p/w500/zs3MvBkmM6ccC1Fpfc0faBbRwb9.jpg",
+      "directors": [
+        {
+          "id": 1932822,
+          "name": "Daniel Roher"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Leo Woodall",
+          "character": "Niki White"
+        },
+        {
+          "name": "Dustin Hoffman",
+          "character": "Harry Horowitz"
+        },
+        {
+          "name": "Havana Rose Liu",
+          "character": "Ruthie Waymon"
+        },
+        {
+          "name": "ליאור רז",
+          "character": "Uri"
+        },
+        {
+          "name": "Tovah Feldshuh",
+          "character": "Marla Horowitz"
+        },
+        {
+          "name": "Jean Reno",
+          "character": "Marius Maissner"
+        },
+        {
+          "name": "Nissan Sakira",
+          "character": "Benny"
+        },
+        {
+          "name": "Gil Cohen",
+          "character": "Yoni"
+        }
+      ],
+      "trailer": "-nEPqn6m6NY",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1340206-tuner/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-27T04:47:40.346Z"
   },
   "twilight|catherine hardwicke 2008": {
     "value": {

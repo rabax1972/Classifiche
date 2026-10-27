@@ -624,6 +624,15 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "ann lethbridge": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/ann-lethbridge/392649833",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
   "anna frank": {
     "value": {
       "wiki": {
@@ -809,6 +818,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "barbara baraldi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Barbara Baraldi",
+        "url": "https://it.wikipedia.org/wiki/Barbara_Baraldi",
+        "extract": "Barbara Baraldi (Mirandola, 17 febbraio 1975) è una scrittrice e fumettista italiana."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/BarbaraBaraldi-Lido-2018.JPG/500px-BarbaraBaraldi-Lido-2018.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:BarbaraBaraldi-Lido-2018.JPG",
+        "author": "Cla973",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/barbara-baraldi/453447124",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "barbara perna": {
     "value": {
@@ -1065,6 +1094,26 @@
       "died": 1870
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "charlotte casiraghi": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Charlotte Casiraghi",
+        "url": "https://en.wikipedia.org/wiki/Charlotte_Casiraghi",
+        "extract": "Charlotte Marie Pomeline Casiraghi (born 3 August 1986) is a Monégasque writer and philosopher with experiences working in journalism and publishing. She has worked extensively as a brand ambassador and fashion model. While for many years she pursued equestrianism, her main interests revolve around French philosophy and literature. She is the second child of Caroline, Princess of Hanover, and the late Stefano Casiraghi, an Italian industrialist. She is  twelfth in line to the throne of Monaco. Her maternal grandparents were Rainier III, Prince of Monaco, and American actress Grace Kelly."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Charlotte_Casiraghi.jpg/500px-Charlotte_Casiraghi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Charlotte_Casiraghi.jpg",
+        "author": "Juan Jose Alvarez Gomez",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/charlotte-casiraghi/1351592167",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "cheryl": {
     "value": {
@@ -1498,6 +1547,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "eliza j scott": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/eliza-j-scott/1724047962",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "elizabeth strout": {
     "value": {
@@ -2136,6 +2194,15 @@
     },
     "fetchedAt": "2026-10-23T04:46:52.229Z"
   },
+  "gigi waldorf": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/gigi-waldorf/1840658887",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
   "giorgio bassani": {
     "value": {
       "wiki": {
@@ -2175,6 +2242,15 @@
       "died": 1922
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "giulia baldelli": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/giulia-baldelli/1594202819",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "giulia marziali": {
     "value": {
@@ -2484,6 +2560,26 @@
       "died": 2013
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "isaac asimov": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Isaac Asimov",
+        "url": "https://it.wikipedia.org/wiki/Isaac_Asimov",
+        "extract": "Isaac Asimov, nato Isaàk Jùdovič Azìmov (in russo Исаáк Ю́дович Ази́мов?; Petroviči, 2 gennaio 1920 – New York, 6 aprile 1992), è stato uno scrittore, biochimico e divulgatore scientifico statunitense.\n\nFu autore di numerosi romanzi e racconti di fantascienza e di volumi di divulgazione scientifica; la sua produzione, stimata intorno ai 500 volumi pubblicati, è incentrata non solo su argomenti scientifici, ma anche sul romanzo poliziesco, la fantascienza umoristica e la letteratura per ragazzi.\n\nAutore di enorme successo, è ritenuto uno dei padri del genere fantascientifico; pubblicato in tutto il mondo, fu ideatore delle tre leggi della robotica, divenute un riferimento per lo sviluppo dell'intelligenza artificiale , e della psicostoria. Di alcuni romanzi e racconti sono state realizzate trasposizioni cinematografiche."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/500px-Isaac.Asimov01.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg",
+        "author": "Phillip Leonian [1] from New York World-Telegram & Sun.[2]",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/isaac-asimov/298947073",
+      "died": 1992
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "isabelle popp": {
     "value": {
@@ -2910,6 +3006,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "jennifer l armentrout": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Jennifer Armentrout",
+        "url": "https://it.wikipedia.org/wiki/Jennifer_Armentrout",
+        "extract": "Jennifer Lynn Armentrout, nota anche con lo pseudonimo di J. Lynn (Martinsburg, 11 giugno 1980), è una scrittrice statunitense di libri fantasy e urban fantasy.\n\nIl New York Times ha inserito alcuni dei suoi lavori nella lista dei Best Seller. È considerata un'autrice trasversale, in grado di mantenere contatti con case editrici indipendenti, con case editrici tradizionali e muovendosi anche all'interno del self-publishing (autoedizione) . Le sue attuali case editrici sono Spencer Hill Press, Entangled Publishing, Harlequin Teen, Disney/Hyperion e HarperCollins."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Jennifer_Armentrout_at_BookCon_%2816059%29.jpg/500px-Jennifer_Armentrout_at_BookCon_%2816059%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jennifer_Armentrout_at_BookCon_(16059).jpg",
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "jerome k jerome": {
     "value": {
@@ -3686,6 +3802,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "marco vichi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Marco Vichi",
+        "url": "https://it.wikipedia.org/wiki/Marco_Vichi",
+        "extract": "Marco Vichi (Firenze, 20 novembre 1957) è uno scrittore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Marco_Vichi06.jpg/500px-Marco_Vichi06.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Marco_Vichi06.jpg",
+        "author": "Iari Marcelli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/marco-vichi/438688480",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
   "margaret mitchell": {
     "value": {
       "wiki": {
@@ -3779,6 +3915,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "martina lilac": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/martina-lilac/6816979037",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "martis lisbon": {
     "value": {
@@ -4200,6 +4345,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "olivia hayle": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/olivia-hayle/1560595071",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
   "omero": {
     "value": {
       "wiki": {
@@ -4562,6 +4716,15 @@
       "died": 1976
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "rayvn salvador": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "rebecca yarros": {
     "value": {
@@ -5189,6 +5352,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "steve berry": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Steve Berry",
+        "url": "https://it.wikipedia.org/wiki/Steve_Berry",
+        "extract": "Steve Berry (2 settembre 1955) è un avvocato e scrittore statunitense.\n\nLaureato alla Walter F. George School of Law (Mercer University), esercita la professione di avvocato per venticinque anni, prima di dedicarsi alla letteratura thriller. Vive nella contea di Camden, in Georgia.\n\nLe prime apparizioni letterarie di Steve Berry furono nel 2003 con lo storico thriller The Amber Room e poi nel 2004 con La profezia dei Romanov. Steve Berry ha iniziato a scrivere nel 1990, e per 12 anni è stato rifiutato per ben 85 volte da cinque diversi editori, alla fine è riuscito a vendere il suo manoscritto alla Ballantine Books.."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Steve_%26_Elizabeth_Berry.jpg/500px-Steve_%26_Elizabeth_Berry.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Steve_%26_Elizabeth_Berry.jpg",
+        "author": "Steve Berry",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/steve-berry/1395496089",
+      "died": null
+    },
+    "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
   "suzanne wright": {
     "value": {

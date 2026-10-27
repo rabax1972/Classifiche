@@ -1220,6 +1220,33 @@
     },
     "fetchedAt": "2026-10-17T12:49:51.300Z"
   },
+  "david digilio": {
+    "value": {
+      "tmdbId": 411398,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 219760,
+          "title": "The Terminal List: Lupo Nero",
+          "year": "2025"
+        },
+        {
+          "id": 120911,
+          "title": "TERMINAL LIST",
+          "year": "2022"
+        },
+        {
+          "id": 1945,
+          "title": "Traveler",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:37.554Z"
+  },
   "david shore": {
     "value": {
       "tmdbId": 169061,
@@ -1574,6 +1601,48 @@
     },
     "fetchedAt": "2026-10-17T12:49:34.262Z"
   },
+  "francois uzan": {
+    "value": {
+      "tmdbId": 1618156,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 287978,
+          "title": "Bocciato",
+          "year": "2026"
+        },
+        {
+          "id": 229577,
+          "title": "Le Signal 149 kHz",
+          "year": "2026"
+        },
+        {
+          "id": 194899,
+          "title": "Candidato unico",
+          "year": "2023"
+        },
+        {
+          "id": 96677,
+          "title": "Lupin",
+          "year": "2021"
+        },
+        {
+          "id": 68958,
+          "title": "Dead Landes, les escapés",
+          "year": "2016"
+        },
+        {
+          "id": 68881,
+          "title": "Dead Floor",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:35.803Z"
+  },
   "frank darabont": {
     "value": {
       "tmdbId": 4027,
@@ -1644,6 +1713,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:08.502Z"
+  },
+  "george kay": {
+    "value": {
+      "tmdbId": 1287248,
+      "wiki": {
+        "lang": "en",
+        "title": "George Kay (writer)",
+        "url": "https://en.wikipedia.org/wiki/George_Kay_(writer)",
+        "extract": "George Kay is an English television writer and producer. He is best known as the creator of the series Lupin, Criminal, Hijack, The Long Shadow, and War. He has also worked on the shows Litvinenko, Stag, My Mad Fat Diary, The Hour, The Tunnel, and the first season of Killing Eve."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/George_Kay.jpg/500px-George_Kay.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:George_Kay.jpg",
+        "author": "Chloelans1234",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 290825,
+          "title": "The Wanted Man",
+          "year": "2027"
+        },
+        {
+          "id": 298852,
+          "title": "WAR",
+          "year": "2026"
+        },
+        {
+          "id": 303351,
+          "title": "Un sacrificio di sangue",
+          "year": "2026"
+        },
+        {
+          "id": 306603,
+          "title": "Gone",
+          "year": "2026"
+        },
+        {
+          "id": 231811,
+          "title": "The Long Shadow",
+          "year": "2023"
+        },
+        {
+          "id": 198102,
+          "title": "Hijack",
+          "year": "2023"
+        },
+        {
+          "id": 157064,
+          "title": "Litvinenko - Indagine sulla morte di un dissidente",
+          "year": "2022"
+        },
+        {
+          "id": 96677,
+          "title": "Lupin",
+          "year": "2021"
+        },
+        {
+          "id": 93888,
+          "title": "Criminal: Francia",
+          "year": "2019"
+        },
+        {
+          "id": 93878,
+          "title": "Criminal: Spagna",
+          "year": "2019"
+        },
+        {
+          "id": 93886,
+          "title": "Criminal: Germania",
+          "year": "2019"
+        },
+        {
+          "id": 92926,
+          "title": "Criminal: Regno Unito",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:34.973Z"
   },
   "greg berlanti": {
     "value": {
@@ -2146,6 +2298,34 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:05.441Z"
+  },
+  "joe penhall": {
+    "value": {
+      "tmdbId": 57573,
+      "wiki": {
+        "lang": "it",
+        "title": "Joe Penhall",
+        "url": "https://it.wikipedia.org/wiki/Joe_Penhall",
+        "extract": "Joe Penhall (Londra, 1967) è un commediografo, sceneggiatore e produttore televisivo britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Joe_Penhall.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Joe_Penhall.jpg",
+        "author": "Viggo_Mortensen,_Kodi_Smit-McPhee,_Joe_Penhall,_John_Hillcoat,_Steve_Schwartz.j…",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 67744,
+          "title": "MINDHUNTER",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:33.144Z"
   },
   "john wells": {
     "value": {

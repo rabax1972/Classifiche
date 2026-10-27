@@ -2911,6 +2911,84 @@
     },
     "fetchedAt": "2026-10-18T04:46:03.605Z"
   },
+  "daniel roher": {
+    "value": {
+      "tmdbId": 1932822,
+      "wiki": {
+        "lang": "it",
+        "title": "Daniel Roher",
+        "url": "https://it.wikipedia.org/wiki/Daniel_Roher",
+        "extract": "Daniel Roher (Toronto, 1993) è un regista, sceneggiatore e documentarista canadese, vincitore dell'Oscar al miglior documentario nel 2023."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Daniel_Roher_%28cropped%29.jpg/500px-Daniel_Roher_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Daniel_Roher_(cropped).jpg",
+        "author": "John Bauld from Toronto, Canada",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1600426,
+          "title": "Positano",
+          "year": null
+        },
+        {
+          "id": 1752656,
+          "title": "Paradox Inc.",
+          "year": null
+        },
+        {
+          "id": 1340206,
+          "title": "Tuner - L’accordatore",
+          "year": "2026"
+        },
+        {
+          "id": 1596335,
+          "title": "The AI Doc: Or How I Became an Apocaloptimist",
+          "year": "2026"
+        },
+        {
+          "id": 1340168,
+          "title": "Blink",
+          "year": "2024"
+        },
+        {
+          "id": 926676,
+          "title": "Navalny",
+          "year": "2022"
+        },
+        {
+          "id": 617771,
+          "title": "Once Were Brothers: Robbie Robertson and the Band",
+          "year": "2020"
+        },
+        {
+          "id": 564835,
+          "title": "Finding Fukue",
+          "year": "2018"
+        },
+        {
+          "id": 1722621,
+          "title": "Dilveen",
+          "year": "2018"
+        },
+        {
+          "id": 456133,
+          "title": "Ghosts of Our Forest",
+          "year": "2017"
+        },
+        {
+          "id": 490188,
+          "title": "Survivors Rowe",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:47:42.690Z"
+  },
   "darren aronofsky": {
     "value": {
       "tmdbId": 6431,
@@ -9682,6 +9760,28 @@
     },
     "fetchedAt": "2026-10-21T04:49:19.680Z"
   },
+  "niccolo gentili": {
+    "value": {
+      "tmdbId": 1343613,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/rngT3Qn4caczWyCGFqM0z3HsIJH.jpg",
+      "films": [
+        {
+          "id": 1723662,
+          "title": "Dov’è la fiesta?",
+          "year": "2026"
+        },
+        {
+          "id": 885998,
+          "title": "Non è una bufala",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:47:40.700Z"
+  },
   "nicola prosatore": {
     "value": {
       "tmdbId": 2100384,
@@ -9985,6 +10085,83 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:37:19.856Z"
+  },
+  "pal ie": {
+    "value": {
+      "tmdbId": 111532,
+      "wiki": {
+        "lang": "it",
+        "title": "Pål Øie",
+        "url": "https://it.wikipedia.org/wiki/P%C3%A5l_%C3%98ie",
+        "extract": "Pål Øie talvolta anche come Pål Øye (15 novembre 1961) è un regista e sceneggiatore norvegese."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/m7wKPkvWj0d9yPNSLapbXwg94at.jpg",
+      "films": [
+        {
+          "id": 1186291,
+          "title": "Brønnen",
+          "year": null
+        },
+        {
+          "id": 1110033,
+          "title": "Grieg",
+          "year": null
+        },
+        {
+          "id": 1110034,
+          "title": "Kraken",
+          "year": "2026"
+        },
+        {
+          "id": 606154,
+          "title": "The Tunnel - Trappola nel buio",
+          "year": "2019"
+        },
+        {
+          "id": 615050,
+          "title": "Astrup - Flammen over Jølster",
+          "year": "2019"
+        },
+        {
+          "id": 336884,
+          "title": "Villmark Asylum - La clinica dell'orrore",
+          "year": "2015"
+        },
+        {
+          "id": 688457,
+          "title": "OppNed",
+          "year": "2014"
+        },
+        {
+          "id": 656139,
+          "title": "Lysets vanvidd",
+          "year": "2013"
+        },
+        {
+          "id": 24821,
+          "title": "Skjult",
+          "year": "2009"
+        },
+        {
+          "id": 345400,
+          "title": "Familien Bergs erfaringer",
+          "year": "2008"
+        },
+        {
+          "id": 345301,
+          "title": "Vakuum",
+          "year": "2004"
+        },
+        {
+          "id": 41070,
+          "title": "Dark Woods - La foresta misteriosa",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:47:42.115Z"
   },
   "paolo strippoli": {
     "value": {

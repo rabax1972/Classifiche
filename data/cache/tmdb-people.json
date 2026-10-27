@@ -323,6 +323,10 @@
     "value": "Steven Spielberg",
     "fetchedAt": "2026-10-12T07:24:55.288Z"
   },
+  "movie:1279493": {
+    "value": "Derrick Borte",
+    "fetchedAt": "2026-10-27T04:45:49.062Z"
+  },
   "movie:128": {
     "value": "Hayao Miyazaki",
     "fetchedAt": "2026-10-18T17:54:34.942Z"
@@ -395,6 +399,10 @@
     "value": "Tyler Atkins",
     "fetchedAt": "2026-10-12T07:24:29.788Z"
   },
+  "movie:1294189": {
+    "value": "Mark Vanselow",
+    "fetchedAt": "2026-10-27T04:45:49.160Z"
+  },
   "movie:13": {
     "value": "Robert Zemeckis",
     "fetchedAt": "2026-10-18T17:54:25.879Z"
@@ -455,6 +463,10 @@
     "value": "Curry Barker",
     "fetchedAt": "2026-10-12T07:24:53.067Z"
   },
+  "movie:1340206": {
+    "value": "Daniel Roher",
+    "fetchedAt": "2026-10-27T04:45:48.167Z"
+  },
   "movie:1341138": {
     "value": "Jon Lucas, Scott Moore",
     "fetchedAt": "2026-10-17T04:42:35.188Z"
@@ -510,6 +522,10 @@
   "movie:1383750": {
     "value": "Nick Nevern",
     "fetchedAt": "2026-10-15T04:42:54.227Z"
+  },
+  "movie:1384216": {
+    "value": "Ridley Scott",
+    "fetchedAt": "2026-10-27T04:45:48.962Z"
   },
   "movie:1386315": {
     "value": "Kevin Macdonald",
@@ -1039,6 +1055,10 @@
     "value": "Katleho Ramaphakela, Rethabile Ramaphakela",
     "fetchedAt": "2026-10-17T04:42:33.984Z"
   },
+  "movie:1775335": {
+    "value": "Luca Severi",
+    "fetchedAt": "2026-10-27T04:45:47.765Z"
+  },
   "movie:1777819": {
     "value": "Lucas Rosas, Manu Pons",
     "fetchedAt": "2026-10-12T07:24:31.221Z"
@@ -1082,6 +1102,10 @@
   "movie:1793470": {
     "value": "Francesca Zen",
     "fetchedAt": "2026-10-23T04:45:47.230Z"
+  },
+  "movie:1796965": {
+    "value": "Cesare Bisantis",
+    "fetchedAt": "2026-10-27T04:45:47.661Z"
   },
   "movie:1797200": {
     "value": "Taehwan Yum",
@@ -1779,6 +1803,10 @@
     "value": "Graham Yost",
     "fetchedAt": "2026-10-12T07:24:51.639Z"
   },
+  "tv:126027": {
+    "value": "Joe Port, Joe Wiseman",
+    "fetchedAt": "2026-10-27T04:45:49.882Z"
+  },
   "tv:126116": {
     "value": "Jimmy McGovern",
     "fetchedAt": "2026-10-13T04:34:39.864Z"
@@ -2259,6 +2287,10 @@
     "value": "Bill Lawrence",
     "fetchedAt": "2026-10-16T04:44:17.676Z"
   },
+  "tv:297903": {
+    "value": null,
+    "fetchedAt": "2026-10-27T04:45:49.762Z"
+  },
   "tv:297982": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:01.288Z"
@@ -2423,6 +2455,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:25:02.444Z"
   },
+  "tv:321221": {
+    "value": "Jeremy Garelick, Will Phelps",
+    "fetchedAt": "2026-10-27T04:45:49.562Z"
+  },
   "tv:321518": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:49.113Z"
@@ -2506,6 +2542,10 @@
   "tv:335813": {
     "value": null,
     "fetchedAt": "2026-10-13T04:34:40.764Z"
+  },
+  "tv:335951": {
+    "value": null,
+    "fetchedAt": "2026-10-27T04:45:49.661Z"
   },
   "tv:336024": {
     "value": "Sarah Solemani, Viviane Andereggen",
@@ -2678,6 +2718,10 @@
   "tv:66732": {
     "value": "Ross Duffer, Matt Duffer",
     "fetchedAt": "2026-10-14T04:46:01.679Z"
+  },
+  "tv:67744": {
+    "value": "Joe Penhall",
+    "fetchedAt": "2026-10-27T04:45:48.560Z"
   },
   "tv:693": {
     "value": "Marc Cherry",

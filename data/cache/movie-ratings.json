@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "films": {
     "11": {
       "imdbId": "tt0076759",
@@ -1994,6 +1994,14 @@
       },
       "rt": null
     },
+    "1110034": {
+      "imdbId": "tt19838566",
+      "imdb": {
+        "value": 4.9,
+        "votes": 7090
+      },
+      "rt": null
+    },
     "1130948": {
       "imdbId": "tt27844906",
       "imdb": {
@@ -2306,6 +2314,14 @@
         "date": "2026-06-01",
         "url": "https://www.rottentomatoes.com/m/finding_emily"
       }
+    },
+    "1340206": {
+      "imdbId": "tt33296751",
+      "imdb": {
+        "value": 7.2,
+        "votes": 37829
+      },
+      "rt": null
     },
     "1368166": {
       "imdbId": "tt27543632",
@@ -2642,6 +2658,14 @@
       "imdb": {
         "value": 6.6,
         "votes": 8
+      },
+      "rt": null
+    },
+    "1723662": {
+      "imdbId": "tt40071798",
+      "imdb": {
+        "value": 6.5,
+        "votes": 33
       },
       "rt": null
     },

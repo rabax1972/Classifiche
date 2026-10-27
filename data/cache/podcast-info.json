@@ -2051,6 +2051,54 @@
     },
     "fetchedAt": "2026-10-21T18:58:08.271Z"
   },
+  "podcast:mappe capire il mondo": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/mappe-capire-il-mondo/id6816875625",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News",
+        "Notizie del giorno"
+      ],
+      "episodes": 6,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/58/94/77/589477dc-e58d-1de9-ec42-de71a7e870ae/mza_4861454385715872062.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/7377744/episodes/feed",
+      "description": "Il podcast settimanale di Esteri del Corriere della Sera: notizie e approfondimenti per orientarsi su un pianeta che sembra aver perso la bussola.",
+      "website": "https://www.spreaker.com/podcast/mappe-capire-il-mondo--7377744",
+      "latest": [
+        {
+          "title": "Voto di midterm negli Usa: onda democratica o muro repubblicano?",
+          "date": "2026-10-25",
+          "seconds": 1912,
+          "url": "https://www.spreaker.com/episode/voto-di-midterm-negli-usa-onda-democratica-o-muro-repubblicano--75940432"
+        },
+        {
+          "title": "Madrid e le altre: c’è una crisi della casa nelle nostre città?",
+          "date": "2026-10-18",
+          "seconds": 1654,
+          "url": "https://www.spreaker.com/episode/madrid-e-le-altre-c-e-una-crisi-della-casa-nelle-nostre-citta--75828701"
+        },
+        {
+          "title": "Israele al voto, finirà la guerra permanente?",
+          "date": "2026-10-11",
+          "seconds": 1581,
+          "url": "https://www.spreaker.com/episode/israele-al-voto-finira-la-guerra-permanente--75677450"
+        },
+        {
+          "title": "Esiste un'opposizione a Vladimir Putin?",
+          "date": "2026-10-04",
+          "seconds": 1316,
+          "url": "https://www.spreaker.com/episode/esiste-un-opposizione-a-vladimir-putin--75514700"
+        },
+        {
+          "title": "Tira un vento di estrema destra in Europa?",
+          "date": "2026-09-27",
+          "seconds": 1568,
+          "url": "https://www.spreaker.com/episode/tira-un-vento-di-estrema-destra-in-europa--75374602"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:40.728Z"
+  },
   "podcast:market mover": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/market-mover/id1540796758",
@@ -2329,6 +2377,54 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:55:59.519Z"
+  },
+  "podcast:nova lectio": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/nova-lectio-storie-di-geopolitica/id1537596607",
+      "genres": [
+        "Cultura e società",
+        "News",
+        "Notizie: approfondimenti"
+      ],
+      "episodes": 287,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/78/c3/4178c3c5-5ae9-823f-db37-749287513cd7/mza_12023798677745633386.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/NOVALECTIOSRL9666111267",
+      "description": "Un podcast nel quale la storia si mescola alla geopolitica. Le questioni più attuali affrontate da una prospettiva passata. Ogni episodio tratterà di argomenti di ampio respiro: politici, sociali e storici.\nIl NUOVO libro di Nova Lectio, https://amzn.to/4jEy4hh\nTutti gli altri libri di Nova Lectio: https://amzn.to/48dkPQo\nCanale Youtube: https://www.youtube.com/c/NovaLectio\nTutti i miei libri: https://amzn.to/3SxC2hz\nSito Web: https://nova-lectio.com/",
+      "website": "https://www.spreaker.com/show/storie-di-geopolitica",
+      "latest": [
+        {
+          "title": "L’Argentina sta bloccando il petrolio delle Falkland. Che succede? - Realpolitik ep.30",
+          "date": "2026-10-26",
+          "seconds": 1516,
+          "url": null
+        },
+        {
+          "title": "Petrolio: come 40 km di mare possono far aumentare il prezzo di tutto",
+          "date": "2026-10-12",
+          "seconds": 1460,
+          "url": null
+        },
+        {
+          "title": "Perché la destra ha vinto in Germania ma non in Svezia? - Realpolitik ep.29",
+          "date": "2026-09-26",
+          "seconds": 1804,
+          "url": null
+        },
+        {
+          "title": "Oro, il metallo che non serve a niente (ma che muove il mondo)",
+          "date": "2026-09-15",
+          "seconds": 1342,
+          "url": null
+        },
+        {
+          "title": "Cuba al Buio: l’isola che Trump vuole spegnere - Realpolitik ep.28",
+          "date": "2026-08-20",
+          "seconds": 1006,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:46.750Z"
   },
   "podcast:now what": {
     "value": {
@@ -3594,6 +3690,52 @@
       ]
     },
     "fetchedAt": "2026-10-22T04:49:57.877Z"
+  },
+  "podcast:tutti convocati": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/tutti-convocati/id560454583",
+      "genres": [
+        "News"
+      ],
+      "episodes": 36,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/ef/28/63ef2887-209b-445b-8ed8-705b1bb49972/mza_11752179041327031607.jpg/600x600bb.jpg",
+      "feedUrl": "https://backr24.ilsole24ore.com/podcast/tutti-convocati.xml",
+      "description": "Con Carlo Genta e Pierluigi Pardo, lo sport appassiona e diverte. Le voci e i suoni del calcio. Una lettura ironica e coinvolgente degli avvenimenti dell'attualità sportiva, senza fanatismi e senza tecnicismi. Commenti, interviste e soprattutto il dibattito con gli ascoltatori, che sono Tutti convocati. È come andare al bar sport: fra una risata, un commento, lo sport con Genta e Pardo è per tutti.\nE alla domenica, dopo le partite Tutti Convocati Weekend, condotto da Giovanni Capuano, con la partecipazione dell'immancabile Pierluigi Pardo per commentare insieme agli ascoltatori un rigore mancato, un gol rubato e un risultato con il cuore di chi la passione la vive, la racconta e ci gioca. Con imitazioni, tic, smorfie, scherzi da spogliatoio e ironia irriverente. L'unico programma in diretta sul calcio a partite appena finite, in cui da casa o dallo stadio gli ascoltatori possono dire la loro perché sono sempre convocati.",
+      "website": "https://www.radio24.ilsole24ore.com/programmi/tutti-convocati",
+      "latest": [
+        {
+          "title": "La domenica delle rivincite",
+          "date": "2026-10-26",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261026-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261026-tutti-convocati"
+        },
+        {
+          "title": "Ancora pazza Inter! Antonelli, primo match point",
+          "date": "2026-10-25",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261025-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261025-tutti-convocati"
+        },
+        {
+          "title": "Crisi che restano",
+          "date": "2026-10-23",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261023-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261023-tutti-convocati"
+        },
+        {
+          "title": "Quattro su quattro",
+          "date": "2026-10-22",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261022-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261022-tutti-convocati"
+        },
+        {
+          "title": "Napoli e Roma forza 4",
+          "date": "2026-10-21",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261021-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261021-tutti-convocati"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-27T04:51:44.177Z"
   },
   "podcast:un avvertimento prima di iniziare": {
     "value": {

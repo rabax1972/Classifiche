@@ -6863,6 +6863,123 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.507Z"
   },
+  "lupin|george kay": {
+    "value": {
+      "tmdbId": 96677,
+      "title": "Lupin",
+      "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 49,
+      "firstAired": "2021-01-08",
+      "lastAired": "2026-10-23",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2021-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-05",
+          "episodes": 7
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-23",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.7,
+      "votes": 2729,
+      "poster": "https://image.tmdb.org/t/p/w500/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "creators": [
+        {
+          "id": 1287248,
+          "name": "George Kay"
+        },
+        {
+          "id": 1618156,
+          "name": "François Uzan"
+        },
+        {
+          "id": 1409018,
+          "name": "Marie Roussin"
+        },
+        {
+          "id": 1449284,
+          "name": "Florent Meyer"
+        },
+        {
+          "id": 3051535,
+          "name": "Tigran Rosine"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "Assane Diop"
+        },
+        {
+          "name": "Antoine Gouy",
+          "character": "Benjamin Ferel"
+        },
+        {
+          "name": "Ludivine Sagnier",
+          "character": "Claire"
+        },
+        {
+          "name": "Soufiane Guerrab",
+          "character": "Youssef Guedira"
+        },
+        {
+          "name": "Kamel Guenfoud",
+          "character": "Kevin"
+        },
+        {
+          "name": "Grégoire Colin",
+          "character": "Vincent Morville"
+        },
+        {
+          "name": "Arthur Choisnet",
+          "character": "Rudy"
+        },
+        {
+          "name": "Saïd Benchnafa",
+          "character": "Bogdan"
+        }
+      ],
+      "trailer": "3Zs5ya7zf4w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-27T04:51:32.687Z"
+  },
   "luther|neil cross 2010": {
     "value": {
       "tmdbId": 1426,
@@ -6998,6 +7115,100 @@
       }
     },
     "fetchedAt": "2026-10-24T04:47:58.491Z"
+  },
+  "mindhunter|joe penhall 2017": {
+    "value": {
+      "tmdbId": 67744,
+      "title": "MINDHUNTER",
+      "overview": "Un agente dell'unità crimini seriali dell'FBI sviluppa tecniche di profilazione criminale mentre dà la caccia a noti serial killer e stupratori.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 74,
+      "firstAired": "2017-10-13",
+      "lastAired": "2019-08-16",
+      "status": "Canceled",
+      "seasons": 2,
+      "episodes": 19,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2017-10-13",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-08-16",
+          "episodes": 9
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8.1,
+      "votes": 3167,
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "creators": [
+        {
+          "id": 57573,
+          "name": "Joe Penhall"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jonathan Groff",
+          "character": "Holden Ford"
+        },
+        {
+          "name": "Holt McCallany",
+          "character": "Bill Tench"
+        },
+        {
+          "name": "Hannah Gross",
+          "character": "Debbie Mitford"
+        },
+        {
+          "name": "Anna Torv",
+          "character": "Wendy Carr"
+        },
+        {
+          "name": "Stacey Roca",
+          "character": "Nancy Tench"
+        },
+        {
+          "name": "Cotter Smith",
+          "character": "Unit Chief Shepard"
+        },
+        {
+          "name": "Joe Tuttle",
+          "character": "Gregg Smith"
+        },
+        {
+          "name": "David H. Holmes",
+          "character": "Cody Miller"
+        }
+      ],
+      "trailer": "XIdlYjANTIk",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/67744-mindhunter/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-27T04:51:32.683Z"
   },
   "minerva academy|stagione 1": {
     "value": {
@@ -11514,6 +11725,104 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.342Z"
+  },
+  "terminal list|david digilio 2022": {
+    "value": {
+      "tmdbId": 120911,
+      "title": "TERMINAL LIST",
+      "overview": "Il capitano di corvetta James Reece cerca vendetta e indaga sulle forze misteriose responsabili dell'omicidio del suo intero plotone. Libero dal comando dell'esercito, Reece applica il sapere appreso in quasi due decenni di guerra per dare la caccia ai responsabili.",
+      "overviewLang": "it",
+      "tagline": "La missione non è finita.",
+      "originalTitle": "The Terminal List",
+      "genres": [
+        "Action & Adventure",
+        "Dramma"
+      ],
+      "episodeRuntime": 59,
+      "firstAired": "2022-06-30",
+      "lastAired": "2026-10-21",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 16,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-06-29",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-10-21",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Prime Video"
+      ],
+      "vote": 8,
+      "votes": 1281,
+      "poster": "https://image.tmdb.org/t/p/w500/onDgOhbqcWyYEMFrobhVvgHmqHr.jpg",
+      "creators": [
+        {
+          "id": 411398,
+          "name": "David DiGilio"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Pratt",
+          "character": "James Reece"
+        },
+        {
+          "name": "Jeanne Tripplehorn",
+          "character": "Secretary Hartley"
+        },
+        {
+          "name": "Riley Keough",
+          "character": "Lauren Reece"
+        },
+        {
+          "name": "Taylor Kitsch",
+          "character": "Ben Edwards"
+        },
+        {
+          "name": "Constance Wu",
+          "character": "Katie Buranek"
+        },
+        {
+          "name": "Arlo Mertz",
+          "character": "Lucy Reece"
+        },
+        {
+          "name": "Tom Hopper",
+          "character": "Raife Hastings"
+        },
+        {
+          "name": "Dar Salim",
+          "character": "Mo Farooq"
+        }
+      ],
+      "trailer": "x9FvvsC0B5Q",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/120911-the-terminal-list/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-27T04:51:32.688Z"
   },
   "the bear|christopher storer 2022": {
     "value": {
