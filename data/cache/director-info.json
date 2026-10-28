@@ -2013,6 +2013,83 @@
     },
     "fetchedAt": "2026-10-25T04:47:01.900Z"
   },
+  "cathy garcia sampana": {
+    "value": {
+      "tmdbId": 93106,
+      "wiki": {
+        "lang": "en",
+        "title": "Cathy Garcia-Sampana",
+        "url": "https://en.wikipedia.org/wiki/Cathy_Garcia-Sampana",
+        "extract": "Catherine \"Cathy\" Rosales Garcia-Sampana (Tagalog pronunciation: [gaɾˈsɪa samˈpɐnɐ]; formerly Molina; born November 28, 1971) is a Filipino film and television director best known for directing romantic comedy and family drama films produced and distributed by Star Cinema. She has also directed a few television series on ABS-CBN, being one of the network's resident directors. Her films have been the highest-grossing Filipino film of the year on nine occasions, and on six occasions have been the highest-grossing Filipino film of all time."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/6ppK9ccLKtKJ37T3QKpx9YFA7pX.jpg",
+      "films": [
+        {
+          "id": 778268,
+          "title": "No Goodbyes",
+          "year": null
+        },
+        {
+          "id": 1748404,
+          "title": "Always Yours, Never Mine",
+          "year": "2026"
+        },
+        {
+          "id": 1636593,
+          "title": "Us in the End",
+          "year": "2026"
+        },
+        {
+          "id": 1509573,
+          "title": "Meet, Greet & Bye",
+          "year": "2025"
+        },
+        {
+          "id": 1292359,
+          "title": "Hello, Love, Again",
+          "year": "2024"
+        },
+        {
+          "id": 1184865,
+          "title": "緣份擲公字",
+          "year": "2023"
+        },
+        {
+          "id": 998094,
+          "title": "Partners in Crime",
+          "year": "2022"
+        },
+        {
+          "id": 848660,
+          "title": "Love at First Stream",
+          "year": "2021"
+        },
+        {
+          "id": 593961,
+          "title": "Ciao, Amore, Arrivederci",
+          "year": "2019"
+        },
+        {
+          "id": 565122,
+          "title": "Three Words to Forever",
+          "year": "2018"
+        },
+        {
+          "id": 543688,
+          "title": "The Hows of Us",
+          "year": "2018"
+        },
+        {
+          "id": 511463,
+          "title": "My Perfect You",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:04:02.798Z"
+  },
   "cecile allegra": {
     "value": {
       "tmdbId": 1721435,
@@ -3904,6 +3981,89 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:08.612Z"
+  },
+  "eli roth": {
+    "value": {
+      "tmdbId": 16847,
+      "wiki": {
+        "lang": "it",
+        "title": "Eli Roth",
+        "url": "https://it.wikipedia.org/wiki/Eli_Roth",
+        "extract": "Eli Raphael Roth (Newton, 18 aprile 1972) è un regista, sceneggiatore, attore, produttore cinematografico e animatore statunitense.\n\nAcquisì la fama di regista \"di genere\" dopo la realizzazione di Cabin Fever (2002), film horror-comico dalle tonalità splatter molto accentuate. Roth è considerato uno dei più dotati autori del genere horror, in una cerchia ristretta di registi recentemente scoperti. Il suo film più famoso è probabilmente il torture-horror Hostel (2005), pubblicizzato e prodotto da Quentin Tarantino. Per ricambiare il favore che Tarantino fece a Roth pubblicizzando e producendo il suo secondo film, Roth ha diretto il fake trailer Thanksgiving presente in Grindhouse (2007) di Quentin Tarantino e Robert Rodriguez."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eli_Roth_%40_2010_Academy_Awards.jpg/500px-Eli_Roth_%40_2010_Academy_Awards.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eli_Roth_@_2010_Academy_Awards.jpg",
+        "author": "Photo by Sgt. Michael Connors",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1211876,
+          "title": "Thanksgiving 2",
+          "year": null
+        },
+        {
+          "id": 1483898,
+          "title": "Final Cut",
+          "year": null
+        },
+        {
+          "id": 1542068,
+          "title": "Don't Go in That House, Bitch!",
+          "year": null
+        },
+        {
+          "id": 1477712,
+          "title": "Ice Cream Man",
+          "year": "2026"
+        },
+        {
+          "id": 1640034,
+          "title": "Scratching the Surface: A Look Back",
+          "year": "2026"
+        },
+        {
+          "id": 1526847,
+          "title": "The Piano Killer",
+          "year": "2025"
+        },
+        {
+          "id": 365177,
+          "title": "Borderlands",
+          "year": "2024"
+        },
+        {
+          "id": 1071215,
+          "title": "Thanksgiving",
+          "year": "2023"
+        },
+        {
+          "id": 1194363,
+          "title": "Haunted House: Trick-VR-Treat",
+          "year": "2022"
+        },
+        {
+          "id": 844584,
+          "title": "Fin",
+          "year": "2021"
+        },
+        {
+          "id": 463821,
+          "title": "Il mistero della casa del tempo",
+          "year": "2018"
+        },
+        {
+          "id": 395990,
+          "title": "Il giustiziere della notte - Death Wish",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:04:01.858Z"
   },
   "enrique gato": {
     "value": {
@@ -6341,6 +6501,78 @@
     },
     "fetchedAt": "2026-10-17T09:33:15.692Z"
   },
+  "jerome bonnell": {
+    "value": {
+      "tmdbId": 239637,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/kWQAQbHr3u69H6yfgwCvKbFhXZI.jpg",
+      "films": [
+        {
+          "id": 1119548,
+          "title": "Nel silenzio delle stanze",
+          "year": "2025"
+        },
+        {
+          "id": 1098509,
+          "title": "À la joie",
+          "year": "2023"
+        },
+        {
+          "id": 833428,
+          "title": "Chère Léa",
+          "year": "2021"
+        },
+        {
+          "id": 299715,
+          "title": "À trois, on y va",
+          "year": "2015"
+        },
+        {
+          "id": 173912,
+          "title": "Le Temps de l'aventure",
+          "year": "2013"
+        },
+        {
+          "id": 72271,
+          "title": "La Dame de trèfle",
+          "year": "2010"
+        },
+        {
+          "id": 723063,
+          "title": "Quatuor",
+          "year": "2009"
+        },
+        {
+          "id": 72362,
+          "title": "J'attends quelqu'un",
+          "year": "2007"
+        },
+        {
+          "id": 78545,
+          "title": "Les yeux clairs",
+          "year": "2005"
+        },
+        {
+          "id": 64189,
+          "title": "Le Chignon d'Olga",
+          "year": "2002"
+        },
+        {
+          "id": 723058,
+          "title": "Liste rouge",
+          "year": "2000"
+        },
+        {
+          "id": 187353,
+          "title": "Fidèle",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:04:03.728Z"
+  },
   "joe hahn": {
     "value": {
       "tmdbId": 1070444,
@@ -8487,6 +8719,28 @@
     },
     "fetchedAt": "2026-10-17T09:32:24.977Z"
   },
+  "marco bonini": {
+    "value": {
+      "tmdbId": 27177,
+      "wiki": {
+        "lang": "it",
+        "title": "Marco Bonini",
+        "url": "https://it.wikipedia.org/wiki/Marco_Bonini",
+        "extract": "Marco Bonini (Roma, 20 agosto 1972) è un attore italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/bGM6sZathCUOUX2wt1NbXw1dGDE.jpg",
+      "films": [
+        {
+          "id": 1713935,
+          "title": "Se ami qualcuno dillo",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:04:05.664Z"
+  },
   "martin scorsese": {
     "value": {
       "tmdbId": 1032,
@@ -8652,6 +8906,89 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:57:17.692Z"
+  },
+  "massimiliano bruno": {
+    "value": {
+      "tmdbId": 229571,
+      "wiki": {
+        "lang": "it",
+        "title": "Massimiliano Bruno",
+        "url": "https://it.wikipedia.org/wiki/Massimiliano_Bruno",
+        "extract": "Massimiliano Bruno (Roma, 4 giugno 1970) è uno sceneggiatore, attore, drammaturgo e regista italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Massimiliano_Bruno_cropped.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Massimiliano_Bruno_cropped.jpg",
+        "author": "Massimiliano Bruno and Davide Marengo.jpg: fanja2k7 derivative work: RanZag (ta…",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1678120,
+          "title": "Un tranquillo funerale di famiglia",
+          "year": "2026"
+        },
+        {
+          "id": 1397055,
+          "title": "2 cuori e 2 capanne",
+          "year": "2026"
+        },
+        {
+          "id": 1054698,
+          "title": "I peggiori giorni",
+          "year": "2023"
+        },
+        {
+          "id": 1054693,
+          "title": "I migliori giorni",
+          "year": "2023"
+        },
+        {
+          "id": 790529,
+          "title": "C’era una volta il crimine",
+          "year": "2022"
+        },
+        {
+          "id": 602533,
+          "title": "Ritorno al crimine",
+          "year": "2021"
+        },
+        {
+          "id": 563907,
+          "title": "Non ci resta che il crimine",
+          "year": "2019"
+        },
+        {
+          "id": 419522,
+          "title": "Beata ignoranza",
+          "year": "2017"
+        },
+        {
+          "id": 367999,
+          "title": "Gli ultimi saranno ultimi",
+          "year": "2015"
+        },
+        {
+          "id": 299847,
+          "title": "Confusi e felici",
+          "year": "2014"
+        },
+        {
+          "id": 142320,
+          "title": "Viva l'Italia",
+          "year": "2012"
+        },
+        {
+          "id": 59570,
+          "title": "Nessuno mi può giudicare",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:04:04.950Z"
   },
   "matt reeves": {
     "value": {

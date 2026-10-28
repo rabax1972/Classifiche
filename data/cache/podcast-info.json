@@ -1,4 +1,51 @@
 {
+  "podcast:3 fattori": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/3-fattori-il-podcast-di-mariangela-pira/id1650539882",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News"
+      ],
+      "episodes": 354,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9f/d6/1a/9fd61a8d-dcaf-3ea2-3864-39e1ace1e31f/mza_14160289162999991149.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/SIS9501329551",
+      "description": "3 Fattori è il podcast nato dalla rubrica di Mariangela Pira, giornalista di Sky Tg24, su Linkedin. Ogni venerdì esce un nuovo episodio. Il proposito è quello di raccontare a chiunque, anche al lattaio dell'Ohio, ciò che accade in finanza, economia e in geopolitica economica. In ogni puntata, con un linguaggio chiaro e semplice, vengono snocciolate le tematiche di attualità: dall'energia all'inflazione, dalle banche centrali ai programmi economici del governo, dal commercio globale a ciò che banalmente accade alle nostre imprese e nel nostro quotidiano. Vi aspettiamo.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Proteste al Sud, il nodo del bilancio francese, il paradosso del tech - Ep.352",
+          "date": "2026-10-23",
+          "seconds": 1730,
+          "url": null
+        },
+        {
+          "title": "L’IA preoccupa, Trump e Mosca, cosa accade in Puglia – Ep. 351",
+          "date": "2026-10-16",
+          "seconds": 2293,
+          "url": null
+        },
+        {
+          "title": "Il caso Francia, il debito globale, OpenAI – Ep. 350",
+          "date": "2026-10-08",
+          "seconds": 2483,
+          "url": null
+        },
+        {
+          "title": "Bond, IA e nucleare - ep. 349",
+          "date": "2026-09-25",
+          "seconds": 2227,
+          "url": null
+        },
+        {
+          "title": "Warsh, petrolio, intelligenza artificiale – Ep. 348",
+          "date": "2026-09-18",
+          "seconds": 2791,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:13.469Z"
+  },
   "podcast:6 minute english": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/6-minute-english/id262026947",
@@ -701,6 +748,52 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:57:23.338Z"
+  },
+  "podcast:crime scene podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/crime-scene-podcast/id1839917426",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 57,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/15/66/091566b3-a67b-fb93-74ae-bab3ff18a5ee/mza_11987938713312787833.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/6737553/episodes/feed",
+      "description": "Crime Scene è il podcast che racconta storie vere di crimini, sparizioni e misteri irrisolti. Ogni episodio è un’indagine narrativa che ricostruisce i fatti, analizza i dettagli e dà voce alle domande che spesso restano senza risposta.",
+      "website": "https://www.spreaker.com/podcast/crime-scene-podcast--6737553",
+      "latest": [
+        {
+          "title": "57 La Storia di Barbara Cicioni",
+          "date": "2026-10-26",
+          "seconds": 2058,
+          "url": "https://www.spreaker.com/episode/57-la-storia-di-barbara-cicioni--75993202"
+        },
+        {
+          "title": "56 La Storia di Simone Mattarelli",
+          "date": "2026-10-19",
+          "seconds": 2017,
+          "url": "https://www.spreaker.com/episode/56-la-storia-di-simone-mattarelli--75850554"
+        },
+        {
+          "title": "55 La Storia di Roberta Martucci",
+          "date": "2026-10-12",
+          "seconds": 1674,
+          "url": "https://www.spreaker.com/episode/55-la-storia-di-roberta-martucci--75653920"
+        },
+        {
+          "title": "54 La Storia di Caylee Anthony",
+          "date": "2026-10-05",
+          "seconds": 2088,
+          "url": "https://www.spreaker.com/episode/54-la-storia-di-caylee-anthony--75484235"
+        },
+        {
+          "title": "53 La Storia di Simonetta Ferrero",
+          "date": "2026-09-28",
+          "seconds": 1783,
+          "url": "https://www.spreaker.com/episode/53-la-storia-di-simonetta-ferrero--75401863"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:16.561Z"
   },
   "podcast:de core": {
     "value": {
@@ -1544,6 +1637,55 @@
       ]
     },
     "fetchedAt": "2026-10-21T18:56:40.227Z"
+  },
+  "podcast:il punto economico podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/il-punto-economico-podcast/id1895157356",
+      "genres": [
+        "Imprenditorialità",
+        "Economia",
+        "News",
+        "News - Affari"
+      ],
+      "episodes": 74,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/d4/c0/98d4c064-d173-f88a-9c5d-8182b319a07d/mza_15185892323788187548.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ilpuntoeconomico",
+      "description": "Questo è il Podcast del Punto Economico, che parla di economia, finanza, geopolitica e imprenditoria.\nTrattiamo i problemi che azzoppano l’Italia, i giochi di potere nel mondo e i momenti e le persone che hanno cambiato la storia.\n👉🏻 Seguici anche su YouTube: clicca qui\n👉🏻 Seguici anche su Instagram: clicca qui\n👉🏻 Iscriviti alla nostra newsletter: clicca qui",
+      "website": null,
+      "latest": [
+        {
+          "title": "Le PROTESTE nel SUD ITALIA: cosa sta succedendo?",
+          "date": "2026-10-20",
+          "seconds": 1750,
+          "url": null
+        },
+        {
+          "title": "Il banchiere della MAFIA e del VATICANO che CONTROLLAVA l'Italia: la storia di Michele Sindona",
+          "date": "2026-10-13",
+          "seconds": 2933,
+          "url": null
+        },
+        {
+          "title": "Come Polymarket ha trasformato il mondo in un CASINÒ",
+          "date": "2026-10-06",
+          "seconds": 2441,
+          "url": null
+        },
+        {
+          "title": "Come LE CRISI degli anni '70 hanno trasformato il PETROLIO in UN'ARMA",
+          "date": "2026-09-30",
+          "seconds": 1907,
+          "url": null
+        },
+        {
+          "title": "Licio Gelli e la P2: la Loggia Massonica che DOMINAVA l'Italia",
+          "date": "2026-09-22",
+          "seconds": 3680,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:11.049Z"
   },
   "podcast:il tempo in piu": {
     "value": {

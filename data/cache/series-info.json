@@ -3595,6 +3595,170 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.582Z"
   },
+  "friends|marta kauffman": {
+    "value": {
+      "tmdbId": 1668,
+      "title": "Friends",
+      "overview": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si svolge prevalentemente in due appartamenti e un Coffee-Bar: Monica, Rachel, Phoebe, Chandler, Ross e Joey condividono sogni, amori, delusioni e speranze fra gag esilaranti e battute dal ritmo serratissimo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 48,
+      "firstAired": "1994-09-22",
+      "lastAired": "2004-05-06",
+      "status": "Ended",
+      "seasons": 10,
+      "episodes": 228,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1994-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1995-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1996-09-16",
+          "episodes": 25
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1997-09-25",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1998-09-24",
+          "episodes": 23
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1999-09-23",
+          "episodes": 23
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2000-10-12",
+          "episodes": 23
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2001-09-27",
+          "episodes": 23
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2002-09-26",
+          "episodes": 23
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2003-09-25",
+          "episodes": 17
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2001-02-15",
+          "episodes": 39
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC"
+      ],
+      "vote": 8.4,
+      "votes": 9515,
+      "poster": "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+      "creators": [
+        {
+          "id": 163461,
+          "name": "Marta Kauffman"
+        },
+        {
+          "id": 1216352,
+          "name": "David Crane"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jennifer Aniston",
+          "character": "Rachel Green"
+        },
+        {
+          "name": "Courteney Cox",
+          "character": "Monica Geller"
+        },
+        {
+          "name": "Lisa Kudrow",
+          "character": "Phoebe Buffay"
+        },
+        {
+          "name": "Matt LeBlanc",
+          "character": "Joey Tribbiani"
+        },
+        {
+          "name": "Matthew Perry",
+          "character": "Chandler Bing"
+        },
+        {
+          "name": "David Schwimmer",
+          "character": "Ross Geller"
+        },
+        {
+          "name": "Lisa Thornhill",
+          "character": "Kristen"
+        },
+        {
+          "name": "Steve Zahn",
+          "character": "Duncan"
+        }
+      ],
+      "trailer": "H29XSxoKp80",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1668-friends/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:57.101Z"
+  },
   "girlfriends|mara brock akil 2000": {
     "value": {
       "tmdbId": 2398,
@@ -5766,6 +5930,113 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.206Z"
   },
+  "l estate nei tuoi occhi|jenny han": {
+    "value": {
+      "tmdbId": 194766,
+      "title": "L'estate nei tuoi occhi",
+      "overview": "Un drama multigenerazionale incentrato su un triangolo amoroso che si viene a creare tra una ragazza e due fratelli, sul rapporto in continua evoluzione tra le madri e i loro figli e sul potere duraturo delle forti amicizie femminili. È un racconto di formazione sull’amore, sulle prime rotture e sulla magia di un’estate perfetta.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Summer I Turned Pretty",
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 79,
+      "firstAired": "2022-06-16",
+      "lastAired": "2025-09-17",
+      "status": "Ended",
+      "seasons": 3,
+      "episodes": 26,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-06-16",
+          "episodes": 7
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-07-13",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-07-16",
+          "episodes": 11
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Prime Video"
+      ],
+      "vote": 8.1,
+      "votes": 1149,
+      "poster": "https://image.tmdb.org/t/p/w500/26JYpcClxonDcBSoqQ4qWn27n39.jpg",
+      "creators": [
+        {
+          "id": 2082736,
+          "name": "Jenny Han"
+        },
+        {
+          "id": 1224070,
+          "name": "Gabrielle Stanton"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lola Tung",
+          "character": "Isabel 'Belly' Conklin"
+        },
+        {
+          "name": "Christopher Briney",
+          "character": "Conrad Fisher"
+        },
+        {
+          "name": "Gavin Casalegno",
+          "character": "Jeremiah Fisher"
+        },
+        {
+          "name": "Sean Kaufman",
+          "character": "Steven Conklin"
+        },
+        {
+          "name": "Rachel Blanchard",
+          "character": "Susannah Fisher"
+        },
+        {
+          "name": "Rain Spencer",
+          "character": "Taylor Jewel"
+        },
+        {
+          "name": "Jackie Chung",
+          "character": "Laurel Park"
+        },
+        {
+          "name": "Isabella Briggs",
+          "character": "Denise"
+        }
+      ],
+      "trailer": "faL_S-7z4_I",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/194766-the-summer-i-turned-pretty/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:56.993Z"
+  },
   "l ispettore barnaby|anthony horowitz": {
     "value": {
       "tmdbId": 764,
@@ -7115,6 +7386,262 @@
       }
     },
     "fetchedAt": "2026-10-24T04:47:58.491Z"
+  },
+  "magnum p i|peter m lenkov": {
+    "value": {
+      "tmdbId": 79593,
+      "title": "Magnum P.I.",
+      "overview": "Thomas Magnum, un ex Navy Seal, al ritorno dalla guerra in Afghanistan, decide di sfruttare le sue capacità e conoscenze per fare l'investigatore nelle splendide isole Hawaii.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "2018-09-24",
+      "lastAired": "2024-01-03",
+      "status": "Canceled",
+      "seasons": 5,
+      "episodes": 96,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-09-24",
+          "episodes": 20
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-09-27",
+          "episodes": 20
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2020-12-04",
+          "episodes": 16
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2021-10-01",
+          "episodes": 20
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2023-02-19",
+          "episodes": 20
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC",
+        "CBS"
+      ],
+      "vote": 7.6,
+      "votes": 353,
+      "poster": "https://image.tmdb.org/t/p/w500/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
+      "creators": [
+        {
+          "id": 58839,
+          "name": "Peter M. Lenkov"
+        },
+        {
+          "id": 84340,
+          "name": "Eric Guggenheim"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jay Hernandez",
+          "character": "Thomas Magnum"
+        },
+        {
+          "name": "Perdita Weeks",
+          "character": "Juliet Higgins"
+        },
+        {
+          "name": "Zachary Knighton",
+          "character": "Orville 'Rick' Wright"
+        },
+        {
+          "name": "Stephen Hill",
+          "character": "Theodore 'T.C.' Calvin"
+        },
+        {
+          "name": "Tim Kang",
+          "character": "Gordon Katsumoto"
+        },
+        {
+          "name": "Amy Hill",
+          "character": "Teuila 'Kumu' Tuileta"
+        },
+        {
+          "name": "Carl Weathers",
+          "character": "Dan Sawyer"
+        },
+        {
+          "name": "Roy Yamaguchi",
+          "character": "Chef Roy Yamaguchi"
+        }
+      ],
+      "trailer": "qMmv9JFOEB0",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/79593-magnum-p-i/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:56.809Z"
+  },
+  "malcolm|linwood boomer 2000": {
+    "value": {
+      "tmdbId": 2004,
+      "title": "Malcolm",
+      "overview": "La vita di Malcolm, ragazzino prodigio con una straordinaria dote per i calcoli, si articola in un brillante canovaccio che coinvolge i suoi strambi parenti: il padre Hal, la madre Lois e i fratelli Francis, Reese, Dewey e Jamie.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Malcolm in the Middle",
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 22,
+      "firstAired": "2000-01-09",
+      "lastAired": "2006-05-14",
+      "status": "Ended",
+      "seasons": 7,
+      "episodes": 151,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2000-01-09",
+          "episodes": 16
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2000-11-05",
+          "episodes": 25
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2001-11-11",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2002-11-03",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2003-11-02",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2004-11-07",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2005-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2002-10-14",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "FOX"
+      ],
+      "vote": 8.5,
+      "votes": 5023,
+      "poster": "https://image.tmdb.org/t/p/w500/kkEyQQro7M0Avxfiio81alDPdTd.jpg",
+      "creators": [
+        {
+          "id": 40629,
+          "name": "Linwood Boomer"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Frankie Muniz",
+          "character": "Malcolm"
+        },
+        {
+          "name": "Jane Kaczmarek",
+          "character": "Lois"
+        },
+        {
+          "name": "Bryan Cranston",
+          "character": "Hal"
+        },
+        {
+          "name": "Justin Berfield",
+          "character": "Reese"
+        },
+        {
+          "name": "Erik Per Sullivan",
+          "character": "Dewey"
+        },
+        {
+          "name": "Christopher Masterson",
+          "character": "Francis"
+        },
+        {
+          "name": "James Rodriguez",
+          "character": "Jamie"
+        },
+        {
+          "name": "Lukas Rodriguez",
+          "character": "Jamie"
+        }
+      ],
+      "trailer": "o6gPg-P5FPg",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/2004-malcolm-in-the-middle/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:57.200Z"
   },
   "mindhunter|joe penhall 2017": {
     "value": {
@@ -12097,6 +12624,123 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.483Z"
   },
+  "the crown|peter morgan 2016": {
+    "value": {
+      "tmdbId": 65494,
+      "title": "The Crown",
+      "overview": "Questa serie drammatica segue le rivalità politiche e la storia d’amore della regina Elisabetta II e gli eventi che hanno segnato la seconda metà del XX secolo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 73,
+      "firstAired": "2016-11-04",
+      "lastAired": "2023-12-14",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 60,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2016-11-04",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2017-12-08",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2019-11-17",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2020-11-15",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2022-11-09",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2023-11-16",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8.2,
+      "votes": 2462,
+      "poster": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg",
+      "creators": [
+        {
+          "id": 15730,
+          "name": "Peter Morgan"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Imelda Staunton",
+          "character": "Queen Elizabeth II"
+        },
+        {
+          "name": "Jonathan Pryce",
+          "character": "Prince Philip, Duke of Edinburgh"
+        },
+        {
+          "name": "Olivia Colman",
+          "character": "Queen Elizabeth II"
+        },
+        {
+          "name": "Lesley Manville",
+          "character": "Princess Margaret"
+        },
+        {
+          "name": "Dominic West",
+          "character": "Prince Charles"
+        },
+        {
+          "name": "Matt Smith",
+          "character": "Prince Philip, Duke of Edinburgh"
+        },
+        {
+          "name": "Jonny Lee Miller",
+          "character": "John Major"
+        },
+        {
+          "name": "Claudia Harrison",
+          "character": "Princess Anne"
+        }
+      ],
+      "trailer": "JWtnJjn6ng0",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/65494-the-crown/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:56.773Z"
+  },
   "the diplomat|stagione 4": {
     "value": {
       "tmdbId": 203857,
@@ -13529,6 +14173,124 @@
       }
     },
     "fetchedAt": "2026-10-23T04:50:46.862Z"
+  },
+  "wakfu|2008": {
+    "value": {
+      "tmdbId": 64414,
+      "title": "Wakfu",
+      "overview": "La serie inizia qualche anno dopo gli avvenimenti narrati nel videogioco e la trama è strettamente legata a quest'ultimo. Il protagonista, Yugo, è l'ultimo sopravvissuto del suo popolo e viene affidato fin dall'infanzia ad Alibert per proteggerlo. Una volta compiuti dodici anni, Yugo viene a conoscenza della verità e decide di partire insieme ad altri personaggi, alla ricerca delle sue origini. La sua ricerca sarà ricca di ostacoli portandolo così ad affrontare avversari sempre più forti e situazioni imprevedibili, scoprendo sempre di più sul suo antichissimo e potente popolo e salverà il mondo dal caos per ben due volte.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Dramma",
+        "Sci-Fi & Fantasy",
+        "Commedia"
+      ],
+      "episodeRuntime": 23,
+      "firstAired": "2008-10-30",
+      "lastAired": "2024-03-15",
+      "status": "Returning Series",
+      "seasons": 5,
+      "episodes": 104,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2008-10-30",
+          "episodes": 26
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2011-02-26",
+          "episodes": 26
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2017-09-02",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2024-02-09",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": null,
+          "episodes": 26
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2007-08-23",
+          "episodes": 11
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "France 3",
+        "France 4",
+        "Okoo"
+      ],
+      "vote": 8.3,
+      "votes": 131,
+      "poster": "https://image.tmdb.org/t/p/w500/hXx5KsyUynyH6f6sxyqpOQgLBNb.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Thomas Guitard",
+          "character": "Tristepin de Percedal (voice)"
+        },
+        {
+          "name": "Geneviève Doang",
+          "character": "Evangelyne (voice)"
+        },
+        {
+          "name": "Fanny Bloc",
+          "character": "Yugo (voice)"
+        },
+        {
+          "name": "Adeline Chetail",
+          "character": "Amalia Sheran Sharm (voice)"
+        },
+        {
+          "name": "Xavier Fagnon",
+          "character": "Ruel Stroud (voice)"
+        },
+        {
+          "name": "Jérémy Prévost",
+          "character": "Adamaï (voice)"
+        },
+        {
+          "name": "Caroline Lallau",
+          "character": "Elely (voice)"
+        },
+        {
+          "name": "Karl-line Heller",
+          "character": "Flopin (voice)"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/64414-wakfu/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-28T05:07:56.892Z"
   },
   "watch what happens live with andy cohen|andy cohen 2009": {
     "value": {

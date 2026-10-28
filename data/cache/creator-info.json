@@ -1220,6 +1220,58 @@
     },
     "fetchedAt": "2026-10-17T12:49:51.300Z"
   },
+  "david crane": {
+    "value": {
+      "tmdbId": 1216352,
+      "wiki": {
+        "lang": "it",
+        "title": "David Crane",
+        "url": "https://it.wikipedia.org/wiki/David_Crane",
+        "extract": "David Crane (West New York, 13 agosto 1957) è un autore televisivo statunitense, noto per essere il creatore della sitcom Friends con Marta Kauffman."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/1NYo5ZYCSqoxQ5sqXLMDm3cqvKp.jpg",
+      "series": [
+        {
+          "id": 31841,
+          "title": "Episodes",
+          "year": "2011"
+        },
+        {
+          "id": 417,
+          "title": "The Class",
+          "year": "2006"
+        },
+        {
+          "id": 603,
+          "title": "L'atelier di Veronica",
+          "year": "1997"
+        },
+        {
+          "id": 1668,
+          "title": "Friends",
+          "year": "1994"
+        },
+        {
+          "id": 24026,
+          "title": "Family Album",
+          "year": "1993"
+        },
+        {
+          "id": 9787,
+          "title": "The Powers That Be",
+          "year": "1992"
+        },
+        {
+          "id": 1088,
+          "title": "Dream On",
+          "year": "1990"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:03.939Z"
+  },
   "david digilio": {
     "value": {
       "tmdbId": 411398,
@@ -1538,6 +1590,28 @@
     },
     "fetchedAt": "2026-10-17T12:49:28.144Z"
   },
+  "eric guggenheim": {
+    "value": {
+      "tmdbId": 84340,
+      "wiki": {
+        "lang": "en",
+        "title": "Eric Guggenheim",
+        "url": "https://en.wikipedia.org/wiki/Eric_Guggenheim",
+        "extract": "Eric Guggenheim (born October 22, 1973) is an American screenwriter. He graduated from NYU's Tisch School of the Arts in 1995. Two years later he sold a script, Trim, to Fox 2000 at age 23.  Following that, he wrote an unproduced drama for Warner Bros. and a one-hour drama pilot for USA Network. In 2004, Guggenheim wrote the feature film Miracle. Guggenheim is currently a writer, executive producer and co-showrunner of the CBS series Hawaii Five-0 and Magnum P.I., he was announced as the sole showrunner of Magnum P.I. after co-creator Peter Lenkov was fired by CBS. Before that he spent four seasons as a writer on the NBC series Parenthood. His brothers are screenwriters Marc Guggenheim and David Guggenheim. His family is Jewish."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/lQpiTKQ3W1eguhaBCom8RjikaFy.jpg",
+      "series": [
+        {
+          "id": 79593,
+          "title": "Magnum P.I.",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:07:59.501Z"
+  },
   "eric kripke": {
     "value": {
       "tmdbId": 58321,
@@ -1675,6 +1749,34 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:10.490Z"
+  },
+  "gabrielle stanton": {
+    "value": {
+      "tmdbId": 1224070,
+      "wiki": {
+        "lang": "en",
+        "title": "Gabrielle Stanton",
+        "url": "https://en.wikipedia.org/wiki/Gabrielle_Stanton",
+        "extract": "Gabrielle Gail Stanton (born in South Orange, New Jersey) is an American television writer and producer. She is known for her work on the ABC series Grey's Anatomy and Ugly Betty, for The CW's The Flash, and for Syfy's Stephen King adaptation series Haven."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Gabrielle_Stanton_by_Gage_Skidmore.jpg/500px-Gabrielle_Stanton_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gabrielle_Stanton_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 194766,
+          "title": "L'estate nei tuoi occhi",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:02.737Z"
   },
   "geoff johns": {
     "value": {
@@ -2185,6 +2287,39 @@
       ]
     },
     "fetchedAt": "2026-10-22T04:49:41.520Z"
+  },
+  "jenny han": {
+    "value": {
+      "tmdbId": 2082736,
+      "wiki": {
+        "lang": "it",
+        "title": "Jenny Han",
+        "url": "https://it.wikipedia.org/wiki/Jenny_Han",
+        "extract": "Jenny Han (Richmond, 3 settembre 1980) è una scrittrice e produttrice cinematografica statunitense di origini coreane, autrice di romanzi per adulti e narrativa per ragazzi. È nota soprattutto per aver scritto la trilogia The Summer I Turned Pretty e la serie Tutte le volte che ho scritto ti amo, l'ultima delle quali è stata adattata in un film con lo stesso nome nel 2018 con Lana Condor e Noah Centineo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Jenny_Han_at_BookCon_%2826746%29.jpg/500px-Jenny_Han_at_BookCon_%2826746%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jenny_Han_at_BookCon_(26746).jpg",
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 195670,
+          "title": "XO, Kitty",
+          "year": "2023"
+        },
+        {
+          "id": 194766,
+          "title": "L'estate nei tuoi occhi",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:01.671Z"
   },
   "jeremy zag": {
     "value": {
@@ -2697,6 +2832,33 @@
     },
     "fetchedAt": "2026-10-17T12:50:03.703Z"
   },
+  "linwood boomer": {
+    "value": {
+      "tmdbId": 40629,
+      "wiki": {
+        "lang": "it",
+        "title": "Linwood Boomer",
+        "url": "https://it.wikipedia.org/wiki/Linwood_Boomer",
+        "extract": "Linwood Boomer, in alcune produzioni anche Lindwood Dalton o Enzo Stussi (Vancouver, 9 ottobre 1955), è un attore, sceneggiatore e produttore televisivo statunitense di origine canadese, noto principalmente per essere stato il creatore della serie televisiva Malcolm, di cui è stato sceneggiatore per 151 episodi tra il 2000 e il 2006, produttore per 129 episodi tra il 2000 e il 2005 e interprete nel ruolo di Loan Shark in un episodio del 2006."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/ljviwTuF87ETq42nTqt3OQVhab0.jpg",
+      "series": [
+        {
+          "id": 279471,
+          "title": "Malcolm: Che vita!",
+          "year": "2026"
+        },
+        {
+          "id": 2004,
+          "title": "Malcolm",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:04.927Z"
+  },
   "liz brixius": {
     "value": {
       "tmdbId": 1246799,
@@ -2903,6 +3065,58 @@
       ]
     },
     "fetchedAt": "2026-10-19T04:48:50.867Z"
+  },
+  "marta kauffman": {
+    "value": {
+      "tmdbId": 163461,
+      "wiki": {
+        "lang": "it",
+        "title": "Marta Kauffman",
+        "url": "https://it.wikipedia.org/wiki/Marta_Kauffman",
+        "extract": "Marta Fran Kauffman (Filadelfia, 21 settembre 1956) è una produttrice televisiva statunitense.\n\nInizia la sua carriera di attrice presso la Brandeis University, con David Crane, con il quale lavora per più di 20 anni. I due hanno collaborato con il compositore Michael Skloff alla realizzazione di numerosi musical, tra cui una versione teatrale del film Arthur.\n\nIl musical Personals, di cui hanno curato i testi, ha ricevuto un Outer Critics Award e una nomination al Drama Desk. La Kauffman è stata, insieme a Crane e per diversi anni, co-produttrice esecutiva di Dream On, e ha ottenuto un Ace Award e una nomination agli Emmy, per la miglior serie comica.\n\nInoltre ha contribuito a realizzare la commedia The Powers That Be, in cui recitavano John Forsythe, David Hyde Pierce."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/AsX4ZOoQP5oQVLiA51zdRiTNKTm.jpg",
+      "series": [
+        {
+          "id": 330699,
+          "title": "DINKS",
+          "year": null
+        },
+        {
+          "id": 62320,
+          "title": "Grace and Frankie",
+          "year": "2015"
+        },
+        {
+          "id": 603,
+          "title": "L'atelier di Veronica",
+          "year": "1997"
+        },
+        {
+          "id": 1668,
+          "title": "Friends",
+          "year": "1994"
+        },
+        {
+          "id": 24026,
+          "title": "Family Album",
+          "year": "1993"
+        },
+        {
+          "id": 9787,
+          "title": "The Powers That Be",
+          "year": "1992"
+        },
+        {
+          "id": 1088,
+          "title": "Dream On",
+          "year": "1990"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:08:02.963Z"
   },
   "matt groening": {
     "value": {
@@ -3429,6 +3643,82 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:20.605Z"
+  },
+  "peter m lenkov": {
+    "value": {
+      "tmdbId": 58839,
+      "wiki": {
+        "lang": "en",
+        "title": "Peter M. Lenkov",
+        "url": "https://en.wikipedia.org/wiki/Peter_M._Lenkov",
+        "extract": "Peter M. Lenkov (born 9 May 1964) is a Canadian television and film writer, producer, and comic book author. He is best known as the developer and showrunner of the CBS reboot series Hawaii Five-0, MacGyver, and Magnum P.I., until his firing in July 2020."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Peter_Lenkov_at_San_Diego_2010_Comic-Con_International.jpg/500px-Peter_Lenkov_at_San_Diego_2010_Comic-Con_International.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Lenkov_at_San_Diego_2010_Comic-Con_International.jpg",
+        "author": "Hawaii_Five-0_Panel_1_2010_CC.jpg: ewen and donabel derivative work: RanZag",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 79593,
+          "title": "Magnum P.I.",
+          "year": "2018"
+        },
+        {
+          "id": 67133,
+          "title": "MacGyver",
+          "year": "2016"
+        },
+        {
+          "id": 32798,
+          "title": "Hawaii Five-0",
+          "year": "2010"
+        },
+        {
+          "id": 40076,
+          "title": "Kung Fu Dino Posse",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:07:58.720Z"
+  },
+  "peter morgan": {
+    "value": {
+      "tmdbId": 15730,
+      "wiki": {
+        "lang": "it",
+        "title": "Peter Morgan",
+        "url": "https://it.wikipedia.org/wiki/Peter_Morgan",
+        "extract": "Peter Julian Robin Morgan (Londra, 10 aprile 1963) è uno sceneggiatore e drammaturgo britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Peter_Morgan_2010.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Morgan_2010.jpg",
+        "author": "NYFF_2010_\"Hereafter\"_Press_Conference(4).jpg: aphrodite-in-nyc from new york c…",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 284080,
+          "title": "The Boys from Brazil",
+          "year": null
+        },
+        {
+          "id": 65494,
+          "title": "The Crown",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-28T05:07:57.805Z"
   },
   "rafa jaki": {
     "value": {

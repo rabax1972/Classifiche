@@ -620,6 +620,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.768Z"
   },
+  "always yours never mine|cathy garcia sampana 2026": {
+    "value": {
+      "tmdbId": 1748404,
+      "title": "Always Yours, Never Mine",
+      "overview": "Across thirty years, several almosts, and timing that is never quite right, two people keep crossing paths – always on the verge of being together, but never quite making it.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Romance",
+        "Dramma"
+      ],
+      "runtime": 115,
+      "released": "2026-11-01",
+      "vote": 5,
+      "votes": 2,
+      "poster": "https://image.tmdb.org/t/p/w500/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
+      "directors": [
+        {
+          "id": 93106,
+          "name": "Cathy Garcia-Sampana"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Joshua Garcia",
+          "character": "Apollo Amador"
+        },
+        {
+          "name": "Julia Barretto",
+          "character": "Luna Garchitorena"
+        },
+        {
+          "name": "Chanda Romero",
+          "character": "Lola Mila Villegas"
+        },
+        {
+          "name": "Bianca Umali",
+          "character": "Gaea Cervantes"
+        },
+        {
+          "name": "Joy Barcoma",
+          "character": "Daisy Cruz"
+        },
+        {
+          "name": "Karen Reyes",
+          "character": "Nella Delgado"
+        },
+        {
+          "name": "Bob Jbeili",
+          "character": "Emman Robles"
+        },
+        {
+          "name": "Miguel Almendras",
+          "character": "Christian Villaluna"
+        }
+      ],
+      "trailer": "mI2_DVu08dI",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:01.127Z"
+  },
   "amadeus|milos forman 1984": {
     "value": {
       "tmdbId": 279,
@@ -7431,6 +7493,69 @@
       }
     },
     "fetchedAt": "2026-10-21T04:48:56.999Z"
+  },
+  "ice cream man|eli roth 2026": {
+    "value": {
+      "tmdbId": 1477712,
+      "title": "Ice Cream Man",
+      "overview": "Un'idilliaca cittadina di villeggiatura estiva precipita nell’orrore, quando un gelataio offre ai bambini dolci prelibatezze dalle conseguenze terrificanti.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Commedia",
+        "Thriller"
+      ],
+      "runtime": 86,
+      "released": "2026-10-29",
+      "vote": 5.2,
+      "votes": 225,
+      "poster": "https://image.tmdb.org/t/p/w500/bnZUCOLv2Br3VOxnDMo5qPOncJF.jpg",
+      "directors": [
+        {
+          "id": 16847,
+          "name": "Eli Roth"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ari Millen",
+          "character": "The Ice Cream Man / Jonathan Smiley"
+        },
+        {
+          "name": "Charlie Zeltzer",
+          "character": "Jared"
+        },
+        {
+          "name": "Shiloh O’Reilly",
+          "character": "Tommy"
+        },
+        {
+          "name": "Kiori Mirza Waldman",
+          "character": "Mia"
+        },
+        {
+          "name": "Sarah Abbott",
+          "character": "Lizzie"
+        },
+        {
+          "name": "Benjamin Byron Davis",
+          "character": "The Priest"
+        },
+        {
+          "name": "Karen Cliche",
+          "character": "Alison"
+        },
+        {
+          "name": "Dylan Hawco",
+          "character": "Chris"
+        }
+      ],
+      "trailer": "okMr4WPxFTs",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.910Z"
   },
   "il buono il brutto il cattivo|sergio leone 1966": {
     "value": {
@@ -14449,6 +14574,69 @@
     },
     "fetchedAt": "2026-10-18T17:56:51.738Z"
   },
+  "minotaur nel labirinto del potere|2026": {
+    "value": {
+      "tmdbId": 848700,
+      "title": "Minotaur - Nel labirinto del potere",
+      "overview": "Russia, 2022. Quando Gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della sua vita ordinata precipita verso la violenza.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Minotaure",
+      "genres": [
+        "Dramma",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 135,
+      "released": "2026-10-29",
+      "vote": 7.7,
+      "votes": 26,
+      "poster": "https://image.tmdb.org/t/p/w500/gMPqcNmJaEmIArwxzvnuPI7H1Ob.jpg",
+      "directors": [
+        {
+          "id": 68519,
+          "name": "Андрей Звягинцев"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Дмитрий Мазуров",
+          "character": "Gleb"
+        },
+        {
+          "name": "Ирис Лебедева",
+          "character": "Galina"
+        },
+        {
+          "name": "Варвара Шмыкова",
+          "character": "Natasha"
+        },
+        {
+          "name": "Juris Žagars",
+          "character": null
+        },
+        {
+          "name": "Анатолий Белый",
+          "character": null
+        },
+        {
+          "name": "ולדימיר פרידמן",
+          "character": "Mayor"
+        },
+        {
+          "name": "Anastasia Mischenko",
+          "character": "Dasha"
+        },
+        {
+          "name": "Iouri Zavalniouk",
+          "character": "Anton"
+        }
+      ],
+      "trailer": "tNAeYB9yDSo",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.936Z"
+  },
   "mio zio jens|brwa vahabpour 2026": {
     "value": {
       "tmdbId": 1422017,
@@ -14610,6 +14798,68 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.710Z"
+  },
+  "nel silenzio delle stanze|jerome bonnell 2026": {
+    "value": {
+      "tmdbId": 1119548,
+      "title": "Nel silenzio delle stanze",
+      "overview": "Normandia, 1908. Céleste è una giovane domestica che lavora nella grande villa di André, un ricco notaio, e sua moglie Victoire, una donna oppressa dalle convenzioni borghesi che la vogliono moglie modello. Un giorno Victoire scopre che Céleste è incinta e intuisce che il padre è Andre. Per evitare lo scandalo e proteggere la reputazione della coppia, la donna impone al marito una condizione: l’integrità dell’uomo sarà preservata ma un accordo segreto legherà Victoire e Céleste in un’inaspettata alleanza che porterà le due donne a sfidare il rigido ordine sociale del tempo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "La Condition",
+      "genres": [
+        "Dramma",
+        "Storia"
+      ],
+      "runtime": 103,
+      "released": "2026-10-29",
+      "vote": 6,
+      "votes": 31,
+      "poster": "https://image.tmdb.org/t/p/w500/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+      "directors": [
+        {
+          "id": 239637,
+          "name": "Jérôme Bonnell"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Swann Arlaud",
+          "character": "André"
+        },
+        {
+          "name": "Galatea Bellugi",
+          "character": "Céleste"
+        },
+        {
+          "name": "Louise Chevillotte",
+          "character": "Victoire"
+        },
+        {
+          "name": "Emmanuelle Devos",
+          "character": "Mathilde"
+        },
+        {
+          "name": "Aymeline Alix",
+          "character": "Huguette"
+        },
+        {
+          "name": "Pierre Philippe",
+          "character": "Serizy"
+        },
+        {
+          "name": "Camille Rutherford",
+          "character": "Odette/Sarah"
+        },
+        {
+          "name": "François Chattot",
+          "character": "Alphonse Lajardie"
+        }
+      ],
+      "trailer": "Iadg1yD_LDM",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:01.255Z"
   },
   "nessun dolore|gianni amelio 2026": {
     "value": {
@@ -17427,6 +17677,67 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:44.162Z"
+  },
+  "se ami qualcuno dillo|marco bonini 2026": {
+    "value": {
+      "tmdbId": 1713935,
+      "title": "Se ami qualcuno dillo",
+      "overview": "Colto in flagrante durante un tradimento Sergio (Edoardo Leo) ha un malore e finisce in coma. In sala d’attesa si ritrovano tre persone che avrebbero ottimi motivi per non volerlo più vedere: la sua compagna Gabriella (Claudia Gerini), l’ex moglie Alba (Giovanna Mezzogiorno) e il figlio Giulio (Biagio Venditti). Quando Sergio si risveglia è come un bambino nel corpo di un adulto: deve reimparare tutto da capo. E da uomo prepotente e anaffettivo si trasforma in un buffo eroe tragicomico che continua a ripetere di essere rinato, di essere finalmente in grado di amare. E’ proprio questa seconda improbabile infanzia finisce per insegnargli qualcosa che prima gli era sempre sfuggito: come voler bene alla sua complicata famiglia allargata.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 100,
+      "released": "2026-10-16",
+      "vote": 4.8,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/sX7tCKtYbqmO9CuzXs2piz5AflT.jpg",
+      "directors": [
+        {
+          "id": 27177,
+          "name": "Marco Bonini"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Edoardo Leo",
+          "character": null
+        },
+        {
+          "name": "Claudia Gerini",
+          "character": null
+        },
+        {
+          "name": "Giovanna Mezzogiorno",
+          "character": null
+        },
+        {
+          "name": "Biagio Venditti",
+          "character": null
+        },
+        {
+          "name": "Daniela Virgilio",
+          "character": null
+        },
+        {
+          "name": "Pietro De Silva",
+          "character": null
+        },
+        {
+          "name": "Thomas Trabacchi",
+          "character": null
+        },
+        {
+          "name": "Clemente Pernarella",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:01.430Z"
   },
   "se mi lasci ti cancello|michel gondry 2004": {
     "value": {
@@ -22234,6 +22545,67 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.981Z"
+  },
+  "un tranquillo funerale di famiglia|massimiliano bruno 2026": {
+    "value": {
+      "tmdbId": 1678120,
+      "title": "Un tranquillo funerale di famiglia",
+      "overview": "Nel giorno del funerale del patriarca della famiglia Mancuso, i due figli Daria e Riccardo si ritrovano a fare i conti con rancori mai sopiti e segreti inconfessati. Quella che dovrebbe essere una solenne cerimonia di commiato si trasforma presto in un imprevedibile susseguirsi di rivelazioni inattese ed equivoci grotteschi, destinati a far emergere tutte le fragilità e le contraddizioni di una famiglia tutt'altro che perfetta.",
+      "overviewLang": "it",
+      "tagline": "Potreste morire dal ridere!",
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 98,
+      "released": "2026-10-29",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/iXtZ4Y28GTw1BJFHgcmHrICoyL1.jpg",
+      "directors": [
+        {
+          "id": 229571,
+          "name": "Massimiliano Bruno"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Claudia Pandolfi",
+          "character": "Daria Mancuso"
+        },
+        {
+          "name": "Pietro Sermonti",
+          "character": "Riccardo Mancuso"
+        },
+        {
+          "name": "Diego Abatantuono",
+          "character": null
+        },
+        {
+          "name": "Stefania Sandrelli",
+          "character": null
+        },
+        {
+          "name": "Stefano Fresi",
+          "character": null
+        },
+        {
+          "name": "Beatrice Arnera",
+          "character": "Stefania"
+        },
+        {
+          "name": "Edoardo Ferrario",
+          "character": null
+        },
+        {
+          "name": "Alessandro Mauthe",
+          "character": null
+        }
+      ],
+      "trailer": "B1KICaU-WgA",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-28T05:04:01.331Z"
   },
   "una di famiglia the housemaid|paul feig 2025": {
     "value": {

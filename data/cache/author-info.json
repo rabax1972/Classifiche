@@ -372,6 +372,20 @@
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
+  "alex michaelides": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Alex Michaelides",
+        "url": "https://en.wikipedia.org/wiki/Alex_Michaelides",
+        "extract": "Alex Michaelides (Greek: Άλεξ Μιχαηλίδης; born 1977) is a bestselling British Cypriot author and screenwriter. His debut novel, the psychological thriller The Silent Patient, is a New York Times and Sunday Times bestseller, with over 6.5 million copies sold."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alex-michaelides/647483875",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
+  },
   "alexandre dumas": {
     "value": {
       "wiki": {
@@ -500,6 +514,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "ana maria sepe": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "andre breton": {
     "value": {
@@ -632,6 +655,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
+  "anna de simone": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "anna frank": {
     "value": {
@@ -1115,6 +1147,15 @@
     },
     "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
+  "chelsea curto": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/chelsea-curto/1718630840",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
+  },
   "cheryl": {
     "value": {
       "wiki": null,
@@ -1190,6 +1231,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
+  "clive cussler": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Clive Cussler",
+        "url": "https://it.wikipedia.org/wiki/Clive_Cussler",
+        "extract": "Clive Eric Cussler (Aurora, 15 luglio 1931 – Scottsdale, 24 febbraio 2020) è stato uno scrittore statunitense di romanzi d'avventura, noto per la serie avente protagonista Dirk Pitt. Le sue opere hanno venduto oltre 100 milioni di copie."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Clive_Cussler_2004.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Clive_Cussler_2004.jpg",
+        "author": "Frédéric Neupont",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "appleUrl": null,
+      "died": 2020
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "colette": {
     "value": {
@@ -3296,6 +3357,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "julia wolf": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/julia-wolf/494333474",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
+  },
   "julien gracq": {
     "value": {
       "wiki": {
@@ -3983,6 +4053,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "matt dinniman": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Matt Dinniman",
+        "url": "https://it.wikipedia.org/wiki/Matt_Dinniman",
+        "extract": "Matt Dinniman (...) è uno scrittore statunitense, autore della serie di romanzi LitRPG Dungeon Crawler Carl."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Matt_Dinniman_at_San_Diego_Comic_Con_2026-1.jpg/500px-Matt_Dinniman_at_San_Diego_Comic_Con_2026-1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matt_Dinniman_at_San_Diego_Comic_Con_2026-1.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/matt-dinniman/713342715",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
+  },
   "matteo sciaudone": {
     "value": {
       "wiki": null,
@@ -4188,6 +4278,20 @@
       "died": 1616
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "mike maden": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Mike Maden",
+        "url": "https://en.wikipedia.org/wiki/Mike_Maden",
+        "extract": "Mike Maden (born 1960) is an American novelist. He is known for the Jack Ryan Jr. novels, which are part of the Ryanverse based on characters created by Tom Clancy, as well as for his own Drone series of techno-thrillers."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "milan kundera": {
     "value": {
@@ -4524,6 +4628,15 @@
       "died": 1952
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "penelope douglas": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/penelope-douglas/714708460",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "peter straub": {
     "value": {
@@ -4863,6 +4976,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "robert harris": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Harris",
+        "url": "https://it.wikipedia.org/wiki/Robert_Harris",
+        "extract": "Robert Dennis Harris (Nottingham, 7 marzo 1957) è uno scrittore e giornalista televisivo inglese.\n\nNel 1992 è diventato noto per il thriller ucronico Fatherland, a cui han fatto seguito numerosi romanzi spesso adattati per lo schermo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Robert_Harris_-_Buch_Wien_2024.JPG/500px-Robert_Harris_-_Buch_Wien_2024.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Robert_Harris_-_Buch_Wien_2024.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/robert-harris/3810273",
+      "died": null
+    },
+    "fetchedAt": "2026-10-28T05:04:00.437Z"
   },
   "robert musil": {
     "value": {
