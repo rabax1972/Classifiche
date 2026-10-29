@@ -278,6 +278,55 @@
     },
     "fetchedAt": "2026-10-18T17:56:53.917Z"
   },
+  "alberi erranti|salvatore mereu 2026": {
+    "value": {
+      "tmdbId": 1123892,
+      "title": "Alberi erranti",
+      "overview": "Piero Arca e suo figlio Giuliano vivono soli, ai margini della città, in una fattoria piena di animali feriti che raccolgono e curano. I Nonne, notabili del luogo, vogliono cacciarli perché vivono come vagabondi e perché mal sopportano che Emilio, il piccolo di casa, coltivi un’amicizia indecorosa proprio con Giuliano. Durante una nevicata, Piero scompare e gli animali vengono uccisi. Giuliano non ha altra scelta che mettersi alla ricerca del padre. Durante il suo viaggio, incontra Maddalena, che vive a sua volta con suo padre, il notaio Branca. Per entrambi è amore a prima vista anche se Maddalena è legata ai Nonne. Forse Giuliano sa come metterla in salvo. Vi è un luogo dove potrebbero nascondersi che Piero gli ha fatto conoscere fin da piccolo. Un luogo abitato da una piccola comunità di rifugiati…",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 180,
+      "released": "2026-10-29",
+      "vote": 8,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/iBsQMPcxq2gLZ8CB4A2YSR66mdh.jpg",
+      "directors": [
+        {
+          "id": 31008,
+          "name": "Salvatore Mereu"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Romeo Alexander Perrone",
+          "character": null
+        },
+        {
+          "name": "Giulia Maenza",
+          "character": null
+        },
+        {
+          "name": "Lorenzo Richelmy",
+          "character": null
+        },
+        {
+          "name": "Lupo Barbiero",
+          "character": null
+        },
+        {
+          "name": "Edoardo Raiola",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-10-29T04:59:25.850Z"
+  },
   "alex|gabriele panetta 2026": {
     "value": {
       "tmdbId": 1790666,
@@ -17061,6 +17110,71 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.574Z"
+  },
+  "rider|davide pavanello": {
+    "value": {
+      "tmdbId": 1569050,
+      "title": "Rider",
+      "overview": "Samuele, detto Sami, è un giovane rider, che ogni giorno si muove per le strade di Milano con la sua bici. La notte di Capodanno, mentre la città esplode di luci, consegna un enorme ordine di sushi in una lussuosa villa. Invitato a rimanere per la serata, incontra Nia, una ragazza libera e irrequieta che come lui si sente fuori posto nel mondo, con cui scatta subito una forte connessione. Ma, mentre un nuovo amore muove i primi passi, Sami dovrà decidere se affrontare le conseguenze fatali di una decisione presa d’impulso.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 87,
+      "released": "2026-10-08",
+      "vote": 7,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/17CEyc7s7v8AMOyCZ5SH50KNS2P.jpg",
+      "directors": [
+        {
+          "id": 4480848,
+          "name": "Davide Pavanello"
+        },
+        {
+          "id": 585361,
+          "name": "Roan Johnson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lorenzo Aloi",
+          "character": "Sami"
+        },
+        {
+          "name": "Paola Gioia Kaze Formisano",
+          "character": "Nia"
+        },
+        {
+          "name": "Mattia Mor",
+          "character": "Giorgio Colombo"
+        },
+        {
+          "name": "Kyshan Wilson",
+          "character": "Aminta"
+        },
+        {
+          "name": "Johnny Marsiglia",
+          "character": "Amir"
+        },
+        {
+          "name": "Levante",
+          "character": "Taxi Dispatcher"
+        },
+        {
+          "name": "Ensi",
+          "character": "Jari"
+        },
+        {
+          "name": "Rosa Chemical",
+          "character": "Rosa Chemical"
+        }
+      ],
+      "trailer": "q7YWdkDbebw",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-29T04:59:25.955Z"
   },
   "ritorno al futuro|robert zemeckis 1985": {
     "value": {

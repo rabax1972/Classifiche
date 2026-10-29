@@ -3705,6 +3705,28 @@
     },
     "fetchedAt": "2026-10-23T04:46:56.281Z"
   },
+  "davide pavanello": {
+    "value": {
+      "tmdbId": 4480848,
+      "wiki": {
+        "lang": "it",
+        "title": "Dade (cantante)",
+        "url": "https://it.wikipedia.org/wiki/Dade_(cantante)",
+        "extract": "Dade, pseudonimo di Davide Pavanello (Torino, 27 luglio 1977), è un bassista, produttore discografico, compositore, cantautore e regista italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/fimSMSe4FBZTWmwrUPs5xJiFbFz.jpg",
+      "films": [
+        {
+          "id": 1569050,
+          "title": "Rider",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-29T04:59:28.817Z"
+  },
   "denis villeneuve": {
     "value": {
       "tmdbId": 137427,
@@ -11783,6 +11805,89 @@
     },
     "fetchedAt": "2026-10-18T17:57:18.632Z"
   },
+  "roan johnson": {
+    "value": {
+      "tmdbId": 585361,
+      "wiki": {
+        "lang": "it",
+        "title": "Roan Johnson",
+        "url": "https://it.wikipedia.org/wiki/Roan_Johnson",
+        "extract": "Roan Occam Anthony Johnson (Londra, 14 marzo 1975) è uno sceneggiatore, regista e scrittore italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Roan-johnson.jpg/500px-Roan-johnson.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Roan-johnson.jpg",
+        "author": "Agatino Grillo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1417121,
+          "title": "I Delitti del BarLume - Non è un paese per bimbi",
+          "year": null
+        },
+        {
+          "id": 1804053,
+          "title": "Galileo",
+          "year": null
+        },
+        {
+          "id": 1569050,
+          "title": "Rider",
+          "year": "2026"
+        },
+        {
+          "id": 1619804,
+          "title": "I delitti del Barlume - La danza dello squalo",
+          "year": "2026"
+        },
+        {
+          "id": 1615911,
+          "title": "I delitti del Barlume - Il matrimonio di Pasquali",
+          "year": "2026"
+        },
+        {
+          "id": 1615904,
+          "title": "I delitti del Barlume - Il gioco delle coppe",
+          "year": "2026"
+        },
+        {
+          "id": 1425115,
+          "title": "I delitti del Barlume - Gatte da pelare",
+          "year": "2025"
+        },
+        {
+          "id": 1238893,
+          "title": "I delitti del BarLume - Sopra la panca",
+          "year": "2024"
+        },
+        {
+          "id": 1230216,
+          "title": "I delitti del barlume - Il pozzo dei desideri",
+          "year": "2024"
+        },
+        {
+          "id": 1074685,
+          "title": "I delitti del BarLume - Resort Paradiso",
+          "year": "2023"
+        },
+        {
+          "id": 1071906,
+          "title": "I delitti del BarLume - Indovina chi?",
+          "year": "2023"
+        },
+        {
+          "id": 1060562,
+          "title": "I delitti del BarLume - A bocce ferme",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-29T04:59:29.823Z"
+  },
   "rob minkoff": {
     "value": {
       "tmdbId": 18898,
@@ -12433,6 +12538,79 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:16.385Z"
+  },
+  "salvatore mereu": {
+    "value": {
+      "tmdbId": 31008,
+      "wiki": {
+        "lang": "it",
+        "title": "Salvatore Mereu",
+        "url": "https://it.wikipedia.org/wiki/Salvatore_Mereu",
+        "extract": "Salvatore Mereu (Dorgali, 17 marzo 1965) è un regista, sceneggiatore e produttore cinematografico italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Salvatore_Mereu_2012_Venice_Film_Festival.png/500px-Salvatore_Mereu_2012_Venice_Film_Festival.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Salvatore_Mereu_2012_Venice_Film_Festival.png",
+        "author": "labiennaletv",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1123892,
+          "title": "Alberi erranti",
+          "year": "2026"
+        },
+        {
+          "id": 1522626,
+          "title": "Su cane est su miu",
+          "year": "2025"
+        },
+        {
+          "id": 1005700,
+          "title": "Bentu",
+          "year": "2022"
+        },
+        {
+          "id": 726892,
+          "title": "Assandira",
+          "year": "2020"
+        },
+        {
+          "id": 482777,
+          "title": "Futuro Prossimo",
+          "year": "2017"
+        },
+        {
+          "id": 220709,
+          "title": "Venezia 70: Future Reloaded",
+          "year": "2013"
+        },
+        {
+          "id": 128508,
+          "title": "Bellas Mariposas",
+          "year": "2012"
+        },
+        {
+          "id": 319568,
+          "title": "Sonetàula",
+          "year": "2008"
+        },
+        {
+          "id": 3168,
+          "title": "Ballo a tre passi",
+          "year": "2003"
+        },
+        {
+          "id": 1326996,
+          "title": "Prima della fucilazione",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-29T04:59:27.442Z"
   },
   "sam hargrave": {
     "value": {

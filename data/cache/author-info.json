@@ -624,6 +624,20 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "andrew child": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Andrew Grant (writer)",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Grant_(writer)",
+        "extract": "Andrew Grant (born 1968) is an English writer and the younger brother of bestselling thriller writer Lee Child. Grant is in the process of taking over the writing of Child's Jack Reacher series of thrillers, writing under the new pseudonym Andrew Child."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "angela marsons": {
     "value": {
       "wiki": {
@@ -832,6 +846,26 @@
       "died": 1860
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
+  "aya koda": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Aya Kōda",
+        "url": "https://it.wikipedia.org/wiki/Aya_K%C5%8Dda",
+        "extract": "Kōda Aya (幸田文?, Aya Kōda; Tokio, 1º settembre 1904 – Ishioka, 31 ottobre 1990) è stata una scrittrice giapponese."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Kouda_Aya.jpg/500px-Kouda_Aya.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Kouda_Aya.jpg",
+        "author": "AleksandrGertsen",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/aya-k%C5%8Dda/1822078465",
+      "died": 1990
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "azzurra costance": {
     "value": {
@@ -1512,6 +1546,26 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "donato carrisi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Donato Carrisi",
+        "url": "https://it.wikipedia.org/wiki/Donato_Carrisi",
+        "extract": "Donato Carrisi (Martina Franca, 25 marzo 1973) è uno scrittore, sceneggiatore, drammaturgo e regista italiano, vincitore del Premio Bancarella nel 2009 con Il suggeritore e del premio David di Donatello nel 2018 con La ragazza nella nebbia."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Donato_Carrisi%2C_October_2017.jpg/500px-Donato_Carrisi%2C_October_2017.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Donato_Carrisi,_October_2017.jpg",
+        "author": "Lega Nerd",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/donato-carrisi/367527918",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "douglas adams": {
     "value": {
       "wiki": {
@@ -1600,6 +1654,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "edward m hallowell": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Edward Hallowell (psychiatrist)",
+        "url": "https://en.wikipedia.org/wiki/Edward_Hallowell_(psychiatrist)",
+        "extract": "Edward McKey Hallowell (born December 2, 1949) is an American psychiatrist, speaker, New York Times best-selling author and podcast host. He specializes in ADHD (attention deficit hyperactivity disorder). Hallowell is the founder of the Hallowell ADHD Centers, and is the author of 20 books, including the \"Driven to Distraction\" book series, co-authored with John Ratey."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Edward_Hallowell.jpg/500px-Edward_Hallowell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Edward_Hallowell.jpg",
+        "author": "Jess943",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "elena armas": {
     "value": {
       "wiki": null,
@@ -1608,6 +1682,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "elena giappone": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/elena-giappone/6797450328",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "eliza j scott": {
     "value": {
@@ -2283,6 +2366,26 @@
       "died": 2000
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "giovanni sabbatucci": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Giovanni Sabbatucci",
+        "url": "https://it.wikipedia.org/wiki/Giovanni_Sabbatucci",
+        "extract": "Giovanni Sabbatucci (Sellano, 24 agosto 1944 – Roma, 2 dicembre 2024) è stato uno storico e giornalista italiano, considerato uno dei massimi storici del fascismo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Giovanni_Sabbatucci_2015_Scuola_Normale_Superiore_01.png/500px-Giovanni_Sabbatucci_2015_Scuola_Normale_Superiore_01.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Sabbatucci_2015_Scuola_Normale_Superiore_01.png",
+        "author": "SNS Humanities",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": null,
+      "died": 2024
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "giovanni verga": {
     "value": {
@@ -3217,6 +3320,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
+  "john j ratey": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "john steinbeck": {
     "value": {
       "wiki": {
@@ -3643,6 +3755,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "lily red": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "linda castillo": {
     "value": {
       "wiki": {
@@ -3665,6 +3786,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "lizzy snow white": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "lori gottlieb": {
     "value": {
@@ -4259,6 +4389,26 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "mick herron": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Mick Herron",
+        "url": "https://it.wikipedia.org/wiki/Mick_Herron",
+        "extract": "Mick Herron (Newcastle upon Tyne, 12 luglio 1963) è uno scrittore britannico di romanzi gialli."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/MickHerron2018.png/500px-MickHerron2018.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MickHerron2018.png",
+        "author": "TimDuncan",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/mick-herron/40770274",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "miguel de cervantes": {
     "value": {
       "wiki": {
@@ -4359,6 +4509,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "morgan housel": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/morgan-housel/1518559909",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "myrta merlino": {
     "value": {
@@ -4554,6 +4713,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "paolo roversi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Paolo Roversi (scrittore)",
+        "url": "https://it.wikipedia.org/wiki/Paolo_Roversi_(scrittore)",
+        "extract": "Paolo Roversi (Suzzara, 29 marzo 1975) è uno scrittore, giornalista e sceneggiatore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Paolo_Roversi_in_Trento_2009_01.jpg/500px-Paolo_Roversi_in_Trento_2009_01.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Paolo_Roversi_in_Trento_2009_01.jpg",
+        "author": "Andrea Caranti (on Wikipedia as Andreas Carter)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/paolo-roversi/446742691",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "patricia gibney": {
     "value": {
@@ -5314,6 +5493,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "shari lapena": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Shari Lapena",
+        "url": "https://en.wikipedia.org/wiki/Shari_Lapena",
+        "extract": "Shari Lapena (born 1960) is a Canadian novelist.\n\nLapena, a lawyer and English teacher before beginning her writing career, published her debut novel Things Go Flying in 2008. That novel was shortlisted for the Sunburst Award in 2009. Her second novel, Happiness Economics, was a Stephen Leacock Award finalist in 2012. Her books have been sold in forty territories around the world. She lives in Toronto.\n\nLapena became best known for her 2016 thriller novel The Couple Next Door, which was a bestseller both in Canada and internationally. An upcoming Paramount+ limited series was in development as of 2026."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Shari_Lapena_%28born_1960%29_in_the_video_%27Shari_Lapena_-_Une_jeune_fille_sans_histoires%27.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Shari_Lapena_(born_1960)_in_the_video_%27Shari_Lapena_-_Une_jeune_fille_sans_histoires%27.png",
+        "author": "librairie mollat",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/shari-lapena/428944452",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "sierra simone": {
     "value": {
       "wiki": null,
@@ -5506,6 +5705,46 @@
     },
     "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
+  "sun tzu": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Sun Tzu",
+        "url": "https://it.wikipedia.org/wiki/Sun_Tzu",
+        "extract": "Sunzi (孫子T, 孙子S; pinyin: Sūnzǐ, Wade-Giles: Sun Tzu; nato Sūnwǔ (孫武), zì: Cháng Qīng (長卿); 544 a.C. – 496 a.C.), più noto con la traslitterazione anglosassone Sun Tzu, è stato un generale e filosofo cinese, vissuto probabilmente fra il VI e il V secolo a.C.\n\nA lui si attribuisce uno dei più importanti trattati di strategia militare di tutti i tempi, L'arte della guerra (孫子兵法, Sūnzǐbīngfǎ)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Enchoen27n3200.jpg/500px-Enchoen27n3200.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Enchoen27n3200.jpg",
+        "author": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/sun-tzu/60737826",
+      "died": -496
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "suzanne collins": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Suzanne Collins",
+        "url": "https://it.wikipedia.org/wiki/Suzanne_Collins",
+        "extract": "Suzanne Collins (Hartford, 10 agosto 1962) è una scrittrice e sceneggiatrice statunitense, particolarmente nota per il ciclo di fantascienza distopica degli Hunger Games."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Suzanne_Collins_David_Shankbone_2010.jpg/500px-Suzanne_Collins_David_Shankbone_2010.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Suzanne_Collins_David_Shankbone_2010.jpg",
+        "author": "David Shankbone",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/suzanne-collins/110188933",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "suzanne wright": {
     "value": {
       "wiki": null,
@@ -5600,6 +5839,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "valerie perrin": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Valérie Perrin",
+        "url": "https://it.wikipedia.org/wiki/Val%C3%A9rie_Perrin",
+        "extract": "Valérie Perrin (Remiremont, 19 gennaio 1967) è una scrittrice, fotografa e sceneggiatrice francese.\n\nHa lavorato anche come fotografa di scena e sceneggiatrice con il compagno Claude Lelouch."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/val%C3%A9rie-perrin/920245437",
+      "died": null
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
   "vercors": {
     "value": {
       "wiki": {
@@ -5653,6 +5906,20 @@
       "died": 1941
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "vittorio vidotto": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Vittorio Vidotto",
+        "url": "https://it.wikipedia.org/wiki/Vittorio_Vidotto",
+        "extract": "Vittorio Vidotto (Milano, 17 marzo 1941 – Roma, 3 febbraio 2024) è stato uno storico italiano."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": 2024
+    },
+    "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
   "vladimir nabokov": {
     "value": {

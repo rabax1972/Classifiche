@@ -143,6 +143,10 @@
     "value": "Giuseppe Tornatore",
     "fetchedAt": "2026-10-18T17:54:30.612Z"
   },
+  "movie:1123892": {
+    "value": "Salvatore Mereu",
+    "fetchedAt": "2026-10-29T04:57:36.673Z"
+  },
   "movie:1124": {
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-18T17:54:28.875Z"
@@ -310,6 +314,10 @@
   "movie:1255833": {
     "value": "Brian Duffield",
     "fetchedAt": "2026-10-12T07:24:53.451Z"
+  },
+  "movie:1260649": {
+    "value": "Jake Kasdan",
+    "fetchedAt": "2026-10-29T04:57:38.301Z"
   },
   "movie:1263337": {
     "value": "David Ayer",
@@ -731,6 +739,10 @@
     "value": "Angel de la Cruz",
     "fetchedAt": "2026-10-24T04:43:02.916Z"
   },
+  "movie:1480856": {
+    "value": "Mohammed Naqvi",
+    "fetchedAt": "2026-10-29T04:57:37.991Z"
+  },
   "movie:1487317": {
     "value": "Hernán Goldfrid",
     "fetchedAt": "2026-10-17T04:42:33.886Z"
@@ -782,6 +794,10 @@
   "movie:1514026": {
     "value": "Casper Kelly",
     "fetchedAt": "2026-10-14T04:45:59.883Z"
+  },
+  "movie:1515692": {
+    "value": "Balaji Tharaneetharan",
+    "fetchedAt": "2026-10-29T04:57:38.098Z"
   },
   "movie:1516698": {
     "value": "Carlson Young",
@@ -911,6 +927,10 @@
     "value": "Joanna Natasegara",
     "fetchedAt": "2026-10-17T04:42:34.707Z"
   },
+  "movie:1596301": {
+    "value": "Jordan Mark Windsor, Sean Wallace",
+    "fetchedAt": "2026-10-29T04:57:38.192Z"
+  },
   "movie:1597196": {
     "value": "Anna Foglietta",
     "fetchedAt": "2026-10-12T07:24:34.116Z"
@@ -1030,6 +1050,10 @@
   "movie:1727317": {
     "value": "Gabriela Ledesma",
     "fetchedAt": "2026-10-24T04:43:03.119Z"
+  },
+  "movie:1727734": {
+    "value": "Sacha Baron Cohen",
+    "fetchedAt": "2026-10-29T04:57:37.900Z"
   },
   "movie:1728408": {
     "value": "Ludovica Gibelli, Marco di Gerlando",
@@ -1230,6 +1254,10 @@
   "movie:244786": {
     "value": "Damien Chazelle",
     "fetchedAt": "2026-10-18T17:54:29.736Z"
+  },
+  "movie:269149": {
+    "value": "Byron Howard, Rich Moore",
+    "fetchedAt": "2026-10-29T04:57:37.090Z"
   },
   "movie:27205": {
     "value": "Christopher Nolan",
@@ -1831,6 +1859,10 @@
     "value": "Taylor Sheridan",
     "fetchedAt": "2026-10-12T07:24:47.304Z"
   },
+  "tv:117061": {
+    "value": null,
+    "fetchedAt": "2026-10-29T04:57:38.893Z"
+  },
   "tv:120911": {
     "value": "David DiGilio",
     "fetchedAt": "2026-10-15T04:42:55.723Z"
@@ -2035,6 +2067,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:24:59.727Z"
   },
+  "tv:218038": {
+    "value": null,
+    "fetchedAt": "2026-10-29T04:57:39.209Z"
+  },
   "tv:2190": {
     "value": "Trey Parker, Matt Stone",
     "fetchedAt": "2026-10-12T07:25:00.620Z"
@@ -2110,6 +2146,10 @@
   "tv:2398": {
     "value": "Mara Brock Akil",
     "fetchedAt": "2026-10-21T04:46:16.308Z"
+  },
+  "tv:243006": {
+    "value": "Gina Lucita Monreal, David J. North",
+    "fetchedAt": "2026-10-29T04:57:38.793Z"
   },
   "tv:243875": {
     "value": "Chuck Lorre, Steve Holland",
@@ -2383,6 +2423,10 @@
     "value": null,
     "fetchedAt": "2026-10-23T04:45:50.128Z"
   },
+  "tv:302074": {
+    "value": "Carl Hiaasen, Rob Doherty",
+    "fetchedAt": "2026-10-29T04:57:38.993Z"
+  },
   "tv:302915": {
     "value": "Alejandra Guimerà, Marc Crehuet",
     "fetchedAt": "2026-10-21T04:46:18.014Z"
@@ -2587,6 +2631,10 @@
     "value": null,
     "fetchedAt": "2026-10-25T04:46:06.500Z"
   },
+  "tv:334700": {
+    "value": "Diane Maia, Mirna Nogueira",
+    "fetchedAt": "2026-10-29T04:57:38.718Z"
+  },
   "tv:334887": {
     "value": null,
     "fetchedAt": "2026-10-28T05:02:25.835Z"
@@ -2646,6 +2694,14 @@
   "tv:339366": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:50.433Z"
+  },
+  "tv:339439": {
+    "value": null,
+    "fetchedAt": "2026-10-29T04:57:39.097Z"
+  },
+  "tv:340191": {
+    "value": null,
+    "fetchedAt": "2026-10-29T04:57:39.352Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
@@ -2734,6 +2790,10 @@
   "tv:549": {
     "value": "Dick Wolf",
     "fetchedAt": "2026-10-12T07:24:44.729Z"
+  },
+  "tv:57532": {
+    "value": "Keith Chapman",
+    "fetchedAt": "2026-10-29T04:57:37.499Z"
   },
   "tv:58841": {
     "value": "Dick Wolf, Matt Olmstead",
