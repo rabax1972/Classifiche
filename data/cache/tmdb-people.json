@@ -95,6 +95,10 @@
     "value": "刘誉, Li Taige",
     "fetchedAt": "2026-10-22T04:44:47.710Z"
   },
+  "movie:1089598": {
+    "value": "曹盾",
+    "fetchedAt": "2026-10-30T04:58:37.239Z"
+  },
   "movie:1094138": {
     "value": "Paul Feig",
     "fetchedAt": "2026-10-15T04:42:51.927Z"
@@ -187,6 +191,14 @@
     "value": "Vidhu Vinod Chopra",
     "fetchedAt": "2026-10-18T17:54:26.783Z"
   },
+  "movie:1165366": {
+    "value": "Antonin Baudry",
+    "fetchedAt": "2026-10-30T04:58:37.139Z"
+  },
+  "movie:1165369": {
+    "value": "Antonin Baudry",
+    "fetchedAt": "2026-10-30T04:58:36.739Z"
+  },
   "movie:1168190": {
     "value": "Ángel Manuel Soto",
     "fetchedAt": "2026-10-22T04:44:46.426Z"
@@ -270,6 +282,10 @@
   "movie:122917": {
     "value": "Peter Jackson",
     "fetchedAt": "2026-10-13T04:34:36.357Z"
+  },
+  "movie:1232569": {
+    "value": "Rhys Frake-Waterfield",
+    "fetchedAt": "2026-10-30T04:58:35.933Z"
   },
   "movie:1233413": {
     "value": "Ryan Coogler",
@@ -567,6 +583,10 @@
     "value": "Ben Sottak",
     "fetchedAt": "2026-10-17T04:42:34.193Z"
   },
+  "movie:1395215": {
+    "value": "Jason Sanjay",
+    "fetchedAt": "2026-10-30T04:58:37.446Z"
+  },
   "movie:1398486": {
     "value": "Pascal Bonitzer",
     "fetchedAt": "2026-10-12T07:24:31.604Z"
@@ -602,6 +622,10 @@
   "movie:1406253": {
     "value": "Scott B. Hansen",
     "fetchedAt": "2026-10-17T04:42:34.493Z"
+  },
+  "movie:1409853": {
+    "value": "David Lipper",
+    "fetchedAt": "2026-10-30T04:58:36.936Z"
   },
   "movie:1412795": {
     "value": "Paolo Strippoli",
@@ -775,6 +799,10 @@
     "value": "Pete Docter",
     "fetchedAt": "2026-10-12T07:24:39.721Z"
   },
+  "movie:1507696": {
+    "value": "Carles Torrens",
+    "fetchedAt": "2026-10-30T04:58:37.382Z"
+  },
   "movie:1509717": {
     "value": "Bea de Silva",
     "fetchedAt": "2026-10-22T04:44:47.507Z"
@@ -822,6 +850,14 @@
   "movie:1538497": {
     "value": "Jason Hand, ฝน วีระสุนทร",
     "fetchedAt": "2026-10-13T04:34:38.708Z"
+  },
+  "movie:1538731": {
+    "value": "Éric Fraticelli",
+    "fetchedAt": "2026-10-30T04:58:37.037Z"
+  },
+  "movie:1541477": {
+    "value": "Daniele Luchetti",
+    "fetchedAt": "2026-10-30T04:58:36.635Z"
   },
   "movie:1542877": {
     "value": "北村真咲",
@@ -1186,6 +1222,10 @@
   "movie:1802723": {
     "value": "Cosimo Scarpello",
     "fetchedAt": "2026-10-25T04:46:04.275Z"
+  },
+  "movie:1810511": {
+    "value": "Curry Barker",
+    "fetchedAt": "2026-10-30T04:58:36.837Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -1875,6 +1915,10 @@
     "value": "John Griffin",
     "fetchedAt": "2026-10-25T04:46:07.142Z"
   },
+  "tv:125935": {
+    "value": "Quinta Brunson",
+    "fetchedAt": "2026-10-30T04:58:38.452Z"
+  },
   "tv:125988": {
     "value": "Graham Yost",
     "fetchedAt": "2026-10-12T07:24:51.639Z"
@@ -2094,6 +2138,10 @@
   "tv:223911": {
     "value": "耳根",
     "fetchedAt": "2026-10-19T04:45:39.366Z"
+  },
+  "tv:224377": {
+    "value": null,
+    "fetchedAt": "2026-10-30T04:58:38.358Z"
   },
   "tv:2288": {
     "value": "Paul T. Scheuring",
@@ -2335,6 +2383,10 @@
     "value": "송유채, Park Soo-won",
     "fetchedAt": "2026-10-12T07:24:58.837Z"
   },
+  "tv:289517": {
+    "value": "한준희",
+    "fetchedAt": "2026-10-30T04:58:38.038Z"
+  },
   "tv:289560": {
     "value": "Dick Wolf, David Hudgins",
     "fetchedAt": "2026-10-14T04:46:01.778Z"
@@ -2467,6 +2519,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.496Z"
   },
+  "tv:307478": {
+    "value": "백재영",
+    "fetchedAt": "2026-10-30T04:58:38.195Z"
+  },
   "tv:307585": {
     "value": null,
     "fetchedAt": "2026-10-24T04:43:04.217Z"
@@ -2518,6 +2574,10 @@
   "tv:313346": {
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.875Z"
+  },
+  "tv:313699": {
+    "value": null,
+    "fetchedAt": "2026-10-30T04:58:37.844Z"
   },
   "tv:314360": {
     "value": "Kat Sandler",
@@ -2659,6 +2719,10 @@
     "value": null,
     "fetchedAt": "2026-10-13T04:34:40.764Z"
   },
+  "tv:335870": {
+    "value": "summer december",
+    "fetchedAt": "2026-10-30T04:58:38.252Z"
+  },
   "tv:335951": {
     "value": null,
     "fetchedAt": "2026-10-27T04:45:49.661Z"
@@ -2682,6 +2746,10 @@
   "tv:338641": {
     "value": "Daniel Brocklehurst",
     "fetchedAt": "2026-10-26T04:48:35.304Z"
+  },
+  "tv:338689": {
+    "value": "Darren Foster, Miguel Fernández Flores",
+    "fetchedAt": "2026-10-30T04:58:37.942Z"
   },
   "tv:338848": {
     "value": null,

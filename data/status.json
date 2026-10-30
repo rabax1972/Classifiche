@@ -3,16 +3,16 @@
     "source": "apple-music",
     "category": "canzoni",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "lastfm",
     "category": "canzoni",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
@@ -27,8 +27,8 @@
     "source": "tmdb-now-playing",
     "category": "cinema",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
@@ -43,40 +43,40 @@
     "source": "tmdb-streaming",
     "category": "film",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "tmdb-trending",
     "category": "film",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "apple-books",
     "category": "libri",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "apple-podcasts",
     "category": "podcast",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "spotify-podcasts",
     "category": "podcast",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
@@ -91,16 +91,16 @@
     "source": "tmdb-streaming",
     "category": "serie-tv",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   },
   {
     "source": "tmdb-trending",
     "category": "serie-tv",
     "ok": true,
-    "lastAttempt": "2026-10-29T04:57:33.884Z",
-    "lastSuccess": "2026-10-29T04:57:33.884Z",
+    "lastAttempt": "2026-10-30T04:58:00.299Z",
+    "lastSuccess": "2026-10-30T04:58:00.299Z",
     "entries": 50
   }
 ]

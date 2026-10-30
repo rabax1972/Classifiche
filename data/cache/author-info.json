@@ -1121,6 +1121,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "carol wyer": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/carol-wyer/450413172",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
   "cesare pavese": {
     "value": {
       "wiki": {
@@ -2061,6 +2070,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "francesca diotallevi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Francesca Diotallevi",
+        "url": "https://it.wikipedia.org/wiki/Francesca_Diotallevi",
+        "extract": "Francesca Diotallevi (Milano, 1985) è una scrittrice italiana."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Francesca_Diotallevi.jpg/500px-Francesca_Diotallevi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Francesca_Diotallevi.jpg",
+        "author": "Francesca Diotallevi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/francesca-diotallevi/1061360931",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
   "francesca giannone": {
     "value": {
       "wiki": {
@@ -2074,6 +2103,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "francesco bonazzi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Francesco Bonazzi",
+        "url": "https://it.wikipedia.org/wiki/Francesco_Bonazzi",
+        "extract": "Francesco Luigi Bonazzi (Torino, 15 aprile 1968) è un giornalista italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/francesco-bonazzi/1452264841",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   },
   "francesco merlo": {
     "value": {
@@ -2347,6 +2390,15 @@
     },
     "fetchedAt": "2026-10-27T04:47:39.585Z"
   },
+  "gino cecchettin": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/gino-cecchettin/1730173333",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
   "giorgio bassani": {
     "value": {
       "wiki": {
@@ -2424,6 +2476,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
+  },
+  "giuseppe remuzzi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Giuseppe Remuzzi",
+        "url": "https://it.wikipedia.org/wiki/Giuseppe_Remuzzi",
+        "extract": "Giuseppe Remuzzi (Bergamo, 3 aprile 1949) è un medico italiano.\n\nHa collaborato come docente di nefrologia con diverse università italiane, britanniche e statunitensi. Relativamente al suo livello accademico e di rilevanza nel mondo scientifico, basandosi sull'H-index, viene considerato uno dei migliori ricercatori italiani."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   },
   "giuseppe tomasi di lampedusa": {
     "value": {
@@ -3517,6 +3583,15 @@
       "died": 1931
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "kara lockharte": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/kara-lockharte/1224948725",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   },
   "karen ranney": {
     "value": {
@@ -5772,6 +5847,26 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "telmo pievani": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Telmo Pievani",
+        "url": "https://it.wikipedia.org/wiki/Telmo_Pievani",
+        "extract": "Dietelmo Pievani, detto Telmo (Gazzaniga, 6 ottobre 1970), è un filosofo italiano specializzato in evoluzione."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Telmo_Pievani_Festlett.png/500px-Telmo_Pievani_Festlett.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Telmo_Pievani_Festlett.png",
+        "author": "Philousophies",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
   "the stars": {
     "value": {
       "wiki": null,
@@ -5809,6 +5904,24 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "tiziano bonini": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tiziano-bonini/525731613",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
+  "tracy sierra": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tracy-sierra/1686776157",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   },
   "umberto eco": {
     "value": {
@@ -5852,6 +5965,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "vera buck": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/vera-buck/995772911",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   },
   "vercors": {
     "value": {
@@ -6060,5 +6182,25 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "yiyun li": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Yiyun Li",
+        "url": "https://it.wikipedia.org/wiki/Yiyun_Li",
+        "extract": "Yiyun Li (cinese tradizionale: 李翊雲; Pechino, 4 novembre 1972) è una scrittrice statunitense d'origine cinese."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yiyun_Li.png/500px-Yiyun_Li.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Yiyun_Li.png",
+        "author": "Librairie Mollat",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/yiyun-li/319439540",
+      "died": null
+    },
+    "fetchedAt": "2026-10-30T04:59:45.764Z"
   }
 }

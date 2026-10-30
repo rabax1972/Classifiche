@@ -737,6 +737,34 @@
     },
     "fetchedAt": "2026-10-17T09:33:20.855Z"
   },
+  "anna foglietta": {
+    "value": {
+      "tmdbId": 586953,
+      "wiki": {
+        "lang": "it",
+        "title": "Anna Foglietta",
+        "url": "https://it.wikipedia.org/wiki/Anna_Foglietta",
+        "extract": "Anna Foglietta (Roma, 3 aprile 1979) è un'attrice italiana.\n\nAttiva nel panorama cinematografico, televisivo e teatrale, nel corso della carriera ha ottenuto diversi premi e riconoscimenti, tra cui tre Nastri d'argento, due Pellicole d'oro, un Ciak d'oro, un Premio Flaiano e un Premio Le Maschere del Teatro italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Anna_Foglietta-09781.jpg/500px-Anna_Foglietta-09781.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Anna_Foglietta-09781.jpg",
+        "author": "CaseyJNewell",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1597196,
+          "title": "Una storia",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T04:59:47.161Z"
+  },
   "annemarie jacir": {
     "value": {
       "tmdbId": 56376,
@@ -11608,6 +11636,79 @@
     },
     "fetchedAt": "2026-10-18T17:58:09.408Z"
   },
+  "rhys frake waterfield": {
+    "value": {
+      "tmdbId": 3122176,
+      "wiki": {
+        "lang": "it",
+        "title": "Rhys Frake-Waterfield",
+        "url": "https://it.wikipedia.org/wiki/Rhys_Frake-Waterfield",
+        "extract": "Rhys Frake-Waterfield (Southend-on-Sea, 1991) è un regista, produttore cinematografico, sceneggiatore e montatore britannico, ideatore del Twisted Childhood Universe."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Rhys_Frake-Waterfield_2023.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Rhys_Frake-Waterfield_2023.png",
+        "author": "Tomatazos",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1260700,
+          "title": "Poohniverse: Monsters Assemble",
+          "year": null
+        },
+        {
+          "id": 1705270,
+          "title": "How to Tell a Lie",
+          "year": null
+        },
+        {
+          "id": 1232569,
+          "title": "Pinocchio: Unstrung",
+          "year": "2026"
+        },
+        {
+          "id": 1079485,
+          "title": "Winnie the Pooh - Tutto sangue e niente miele",
+          "year": "2024"
+        },
+        {
+          "id": 981348,
+          "title": "Sky Monster",
+          "year": "2023"
+        },
+        {
+          "id": 980078,
+          "title": "Winnie the Pooh - Sangue e miele",
+          "year": "2023"
+        },
+        {
+          "id": 1006431,
+          "title": "Firenado",
+          "year": "2023"
+        },
+        {
+          "id": 980128,
+          "title": "The Killing Tree",
+          "year": "2022"
+        },
+        {
+          "id": 1006437,
+          "title": "The Area 51 Incident",
+          "year": "2022"
+        },
+        {
+          "id": 1284672,
+          "title": "Go Viral",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T04:59:48.266Z"
+  },
   "rich lee": {
     "value": {
       "tmdbId": 1634181,
@@ -12538,6 +12639,34 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:16.385Z"
+  },
+  "sacha baron cohen": {
+    "value": {
+      "tmdbId": 6730,
+      "wiki": {
+        "lang": "it",
+        "title": "Sacha Baron Cohen",
+        "url": "https://it.wikipedia.org/wiki/Sacha_Baron_Cohen",
+        "extract": "Sacha Noam Baron Cohen (Londra, 13 ottobre 1971) è un attore, comico, sceneggiatore e produttore cinematografico britannico con cittadinanza israeliana.\n\nÈ noto per i suoi personaggi cinematografici di grande successo: Ali G, un aspirante gangsta-rapper inglese; Borat, un giornalista kazako; Brüno, un giornalista di moda austriaco gay; e Hafez Aladeen, un dittatore arabo. Tutti questi personaggi appaiono nel Da Ali G Show, uno spettacolo spesso improvvisato in cui Baron Cohen intervista persone ignare che lo credono un vero giornalista."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sacha_Baron_Cohen_%282024%29_03.jpg/500px-Sacha_Baron_Cohen_%282024%29_03.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sacha_Baron_Cohen_(2024)_03.jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1727734,
+          "title": "Ali G: Who Iz I?",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T04:59:49.223Z"
   },
   "salvatore mereu": {
     "value": {

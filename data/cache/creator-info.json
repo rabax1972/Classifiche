@@ -2707,6 +2707,43 @@
     },
     "fetchedAt": "2026-10-17T12:49:42.353Z"
   },
+  "keith chapman": {
+    "value": {
+      "tmdbId": 1242988,
+      "wiki": {
+        "lang": "en",
+        "title": "Keith Chapman",
+        "url": "https://en.wikipedia.org/wiki/Keith_Chapman",
+        "extract": "Keith Vincent Chapman (born 1 December 1958) is a British television writer and producer, known for creating various children's television programmes, most notably Bob the Builder and Paw Patrol."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 110317,
+          "title": "Mighty Express",
+          "year": "2020"
+        },
+        {
+          "id": 57532,
+          "title": "PAW Patrol - La squadra dei cuccioli",
+          "year": "2013"
+        },
+        {
+          "id": 11553,
+          "title": "Fifi and the Flowertots",
+          "year": "2005"
+        },
+        {
+          "id": 10938,
+          "title": "Bob aggiustatutto",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:03:49.941Z"
+  },
   "lee aronsohn": {
     "value": {
       "tmdbId": 1218744,

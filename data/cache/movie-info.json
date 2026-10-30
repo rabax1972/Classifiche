@@ -360,6 +360,81 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.969Z"
   },
+  "ali g who iz i|sacha baron cohen 2026": {
+    "value": {
+      "tmdbId": 1727734,
+      "title": "Ali G: Who Iz I?",
+      "overview": "Dopo vent'anni trascorsi a \"rilassarsi, farsi canne e scopare\", Ali G rimane scioccato nello scoprire che la sua fidanzata storica, Julie, è incinta all'ottavo mese. Messo di fronte a una bocca in più da sfamare, si dà una mossa e parte per l'America nel tentativo di riconquistare i fasti di un tempo... ma ben presto si imbatte in avversari che finiranno per minacciare la sua stessa esistenza e quella di suo figlio.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 89,
+      "released": "2026-10-22",
+      "vote": 6,
+      "votes": 55,
+      "poster": "https://image.tmdb.org/t/p/w500/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+      "directors": [
+        {
+          "id": 6730,
+          "name": "Sacha Baron Cohen"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sacha Baron Cohen",
+          "character": "Ali G / Nira Cain-N'Degeocello / Erran Morad"
+        },
+        {
+          "name": "Morgana Robinson",
+          "character": "Julie"
+        },
+        {
+          "name": "Alpha Miknas",
+          "character": "Manu"
+        },
+        {
+          "name": "Clive Russell",
+          "character": "Malcolm 'Rocky' Atkins"
+        },
+        {
+          "name": "A$AP Rocky",
+          "character": "A$AP Rocky"
+        },
+        {
+          "name": "Rihanna",
+          "character": "Rihanna"
+        },
+        {
+          "name": "Tiffany Haddish",
+          "character": "Lab Technician"
+        },
+        {
+          "name": "DJ Jazzy Jeff",
+          "character": "DJ Jazzy Jeff"
+        }
+      ],
+      "trailer": "pV32AcPa-iA",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1727734-ali-g-who-iz-i/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-30T04:59:46.702Z"
+  },
   "alien|ridley scott 1979": {
     "value": {
       "tmdbId": 348,
@@ -16002,6 +16077,84 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.671Z"
   },
+  "pinocchio unstrung|rhys frake waterfield 2026": {
+    "value": {
+      "tmdbId": 1232569,
+      "title": "Pinocchio: Unstrung",
+      "overview": "Influenzato da un Grillo Parlante sinistro e creato da Geppetto, Pinocchio intraprende una violenta crociata per trasformarsi, pezzo dopo pezzo, in un bambino vero come suo fratello Giacomo.",
+      "overviewLang": "it",
+      "tagline": "Non ha più legami che lo trattengano.",
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Mistero"
+      ],
+      "runtime": 82,
+      "released": "2026-07-22",
+      "vote": 6.5,
+      "votes": 151,
+      "poster": "https://image.tmdb.org/t/p/w500/c8IC2lORaymJyTuYwCqhN25vMx8.jpg",
+      "directors": [
+        {
+          "id": 3122176,
+          "name": "Rhys Frake-Waterfield"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jude Evan Lloyd",
+          "character": "Pinocchio (voice)"
+        },
+        {
+          "name": "Cameron Bell",
+          "character": "James"
+        },
+        {
+          "name": "Richard Brake",
+          "character": "Geppetto"
+        },
+        {
+          "name": "Jessica Balmer",
+          "character": "Mia"
+        },
+        {
+          "name": "Jack Art Gray",
+          "character": "Dudley"
+        },
+        {
+          "name": "Robert Englund",
+          "character": "Cricket (voice)"
+        },
+        {
+          "name": "Emma Tate",
+          "character": "Woodmother (voice)"
+        },
+        {
+          "name": "Toni Olabanji",
+          "character": "Trey"
+        }
+      ],
+      "trailer": "l7ipiGrlzbs",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1232569-pinocchio-unstrung/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "MIDNIGHT FACTORY Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/r7avjeKxK7xrpVktl00Jo3aD1vQ.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-30T04:59:46.604Z"
+  },
   "pirati dei caraibi ai confini del mondo|gore verbinski 2007": {
     "value": {
       "tmdbId": 285,
@@ -22930,6 +23083,51 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:58.468Z"
+  },
+  "una storia|anna foglietta 2026": {
+    "value": {
+      "tmdbId": 1597196,
+      "title": "Una storia",
+      "overview": "Erika e Mauro vivono in provincia, dentro una quotidianità semplice fatta di abitudini rassicuranti e piccoli gesti. Quando la figlia Irene parte per studiare lontano, la casa si svuota e l’equilibrio su cui la coppia ha costruito la propria esistenza sembra incrinarsi. Erika, che ha sempre abitato il mondo attraverso la cura degli altri, si scopre improvvisamente senza direzione. Mauro, cresciuto nel rigore emotivo di un padre autoritario, tenta a suo modo di reagire riempiendo il vuoto, ma finisce per confrontarsi con una fragilità mai confessata. Nel tempo sospeso che segue riaffiorano ferite lontane e desideri dimenticati. Sarà proprio questa crisi intima e profonda a spingerli a guardarsi davvero e a capire se e come possono trasformare se stessi e di conseguenza il loro amore.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 107,
+      "released": "2026-09-24",
+      "vote": 5.5,
+      "votes": 4,
+      "poster": "https://image.tmdb.org/t/p/w500/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
+      "directors": [
+        {
+          "id": 586953,
+          "name": "Anna Foglietta"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alba Rohrwacher",
+          "character": "Erika"
+        },
+        {
+          "name": "Guido Caprino",
+          "character": "Mauro"
+        },
+        {
+          "name": "Elio De Capitani",
+          "character": null
+        },
+        {
+          "name": "Caterina Casini",
+          "character": null
+        }
+      ],
+      "trailer": "F9BO9boJtzY",
+      "watch": null
+    },
+    "fetchedAt": "2026-10-30T04:59:46.536Z"
   },
   "unabomber|": {
     "value": {

@@ -46,6 +46,53 @@
     },
     "fetchedAt": "2026-10-28T05:08:13.469Z"
   },
+  "podcast:6 minute english": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/6-minute-english/id262026947",
+      "genres": [
+        "Impara le lingue",
+        "Istruzione"
+      ],
+      "episodes": 348,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ba/98/35/ba9835eb-1ef3-60e4-bf05-3d141b8d1c7a/mza_3844641997714022659.jpg/600x600bb.jpg",
+      "feedUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+      "description": "Learn and practise useful English with clips from programmes around the BBC.\nEach week, we talk about an interesting topic and learn helpful words and phrases used in natural spoken English - all in 6 minutes!\nPractise your listening and hear natural spoken English.\nFind more at\nhttps://www.bbc.co.uk/learningenglish\nFollow us at\nhttps://www.bbc.co.uk/learningenglish/followus",
+      "website": "http://www.bbc.co.uk/programmes/p02pc9tn",
+      "latest": [
+        {
+          "title": "Is aircon the answer to a heating world?",
+          "date": "2026-10-29",
+          "seconds": 379,
+          "url": "http://www.bbc.co.uk/programmes/p0pk7d0p"
+        },
+        {
+          "title": "What should you eat for a better night’s sleep?",
+          "date": "2026-10-22",
+          "seconds": 423,
+          "url": "http://www.bbc.co.uk/programmes/p0phz9z7"
+        },
+        {
+          "title": "Why has gold got so expensive?",
+          "date": "2026-10-15",
+          "seconds": 419,
+          "url": "http://www.bbc.co.uk/programmes/p0pgs2w6"
+        },
+        {
+          "title": "Are people drinking less alcohol?",
+          "date": "2026-10-08",
+          "seconds": 409,
+          "url": "http://www.bbc.co.uk/programmes/p0pflmn5"
+        },
+        {
+          "title": "Why does heartbreak hurt so much?",
+          "date": "2026-10-01",
+          "seconds": 393,
+          "url": "http://www.bbc.co.uk/programmes/p0pdc9cq"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:12.342Z"
+  },
   "podcast:alessandro barbero podcast": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/alessandro-barbero-podcast-la-storia/id1568493219",
@@ -139,6 +186,19 @@
     },
     "fetchedAt": "2026-10-29T05:04:41.692Z"
   },
+  "podcast:amo ape": {
+    "value": {
+      "appleUrl": null,
+      "genres": [],
+      "episodes": null,
+      "cover": null,
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-10-30T05:04:27.211Z"
+  },
   "podcast:artificiale": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/artificiale/id6825456463",
@@ -167,7 +227,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-10-23T04:50:49.773Z"
+    "fetchedAt": "2026-10-30T05:04:54.337Z"
   },
   "podcast:black box": {
     "value": {
@@ -217,53 +277,145 @@
     },
     "fetchedAt": "2026-10-29T05:04:38.726Z"
   },
-  "podcast:contorni": {
+  "podcast:casa zagato": {
     "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/contorni/id6817775001",
+      "appleUrl": "https://podcasts.apple.com/it/podcast/casa-zagato/id1858537950",
       "genres": [
-        "Gastronomia",
-        "Arte",
+        "Diari",
         "Cultura e società"
       ],
-      "episodes": 5,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/88/6e/ea886ecd-7e72-c6d5-d8df-8e26597ffbcc/mza_12039019381328658436.jpeg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/BCS3409369669",
-      "description": "Il cibo è molto di più di quello che troviamo sulla tavola: rappresenta un punto di osservazione unico per raccontare la realtà che ci circonda. Agricoltura, filiere, lavoro, impatto ambientale. E poi scambi commerciali, rapporti fra stati, ma anche storia, piacere, cultura del gusto e molto altro.\n“Contorni” è il podcast che ogni settimana parla di cibo attraverso i fatti del mondo, e dei fatti del mondo attraverso il cibo. Un progetto di Chora Media realizzato con il sostegno di Breaders, scritto e condotto da Eugenio Signoroni.",
-      "website": null,
+      "episodes": 30,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/07/93/b50793e5-5f2f-df8a-0805-4212ca600926/mza_13940203939389022155.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BACIONESSRLS1304833549",
+      "description": "Quattro fratelli. Una casa. Troppe opinioni.\nBenvenuti in quel tipo di conversazioni che iniziano tranquille e finiscono con qualcuno che minaccia di andarsene… per poi tornare cinque minuti dopo.\nIn questo podcast non troverai saggezza illuminata né consigli di vita: solo noi, che proviamo a capirci (spoiler: non ci riusciamo sempre). Tra drammi minuscoli, ricordi imbarazzanti e discussioni su chi ha ragione — di solito nessuno — raccontiamo la nostra famiglia senza prenderci troppo sul serio.\nSe volevi un podcast educativo… mi sa che hai sbagliato casa.\nSe volevi ridere delle dinamiche degli altri, invece, benvenuto a Casa Zagato.",
+      "website": "https://www.youtube.com/@Casazagato",
       "latest": [
         {
-          "title": "Scarti pericolosi: la gestione di quello che avanza",
+          "title": "SETTE DA PAURA, AUTOPSIE E OMICIDI HORROR - EP.9 S3",
+          "date": "2026-10-28",
+          "seconds": 3159,
+          "url": null
+        },
+        {
+          "title": "INCIDENTI DA PAURA E DRAMMI DI FAMIGLIA - S.3 EP.8",
           "date": "2026-10-21",
-          "seconds": 535,
+          "seconds": 3811,
           "url": null
         },
         {
-          "title": "Benessere animale o CO2? Il paradosso delle uova",
+          "title": "SCANTINATO HORROR E ACCUMULATORI SERIALI - Ep.7 S.3",
           "date": "2026-10-14",
-          "seconds": 665,
+          "seconds": 3232,
           "url": null
         },
         {
-          "title": "Siero: la linea rossa che collega i formaggi e i farmaci GLP-1",
+          "title": "SEGRETI D’INFANZIA E INSULTI SENZA FILTRI - EP. 6 S.3",
           "date": "2026-10-07",
-          "seconds": 547,
+          "seconds": 3209,
           "url": null
         },
         {
-          "title": "Ottobre, tempo di vendemmia. Una volta.",
+          "title": "FONDOSCHIENA DA RIFARE E PATENTE PER AEREI - S.3 E.5",
           "date": "2026-09-30",
-          "seconds": 642,
-          "url": null
-        },
-        {
-          "title": "Contorni | Trailer",
-          "date": "2026-09-30",
-          "seconds": 34,
+          "seconds": 3539,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-23T04:50:56.512Z"
+    "fetchedAt": "2026-10-30T05:04:18.360Z"
+  },
+  "podcast:catteland": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/catteland/id1554071963",
+      "genres": [
+        "News"
+      ],
+      "episodes": 100,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/38/ba/3c/38ba3cf8-102b-a1dc-0be6-c16f13c7dee7/mza_1657109513588840944.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/123f1a65-597e-40f8-b955-af3100fb503f/b4ad20d2-1cd7-49c6-8aa5-af3100fb5065/podcast.rss",
+      "description": "Il daily show di Alessandro Cattelan, on air da lunedì a venerdì dalle 12 alle 13",
+      "website": "https://www.deejay.it/programmi/catteland/",
+      "latest": [
+        {
+          "title": "Puntata del 29/10/2026",
+          "date": "2026-10-29",
+          "seconds": 2786,
+          "url": "https://www.deejay.it/programmi/catteland/puntate/catteland-del-29-10-2026/"
+        },
+        {
+          "title": "Giovedilemma le faccio capire che sono geloso o no",
+          "date": "2026-10-29",
+          "seconds": 432,
+          "url": "https://www.deejay.it/programmi/catteland/highlights/giovedilemma-le-faccio-capire-che-sono-geloso-o-no/"
+        },
+        {
+          "title": "Puntata del 28/10/2026",
+          "date": "2026-10-28",
+          "seconds": 2766,
+          "url": "https://www.deejay.it/programmi/catteland/puntate/catteland-del-28-10-2026/"
+        },
+        {
+          "title": "Mi sento sempre in difficoltà in studio Stefania Andreoli",
+          "date": "2026-10-28",
+          "seconds": 475,
+          "url": "https://www.deejay.it/programmi/catteland/highlights/mi-sento-sempre-in-difficolta-in-studio-stefania-andreoli/"
+        },
+        {
+          "title": "Sgridare i bambini degli altri",
+          "date": "2026-10-27",
+          "seconds": 374,
+          "url": "https://www.deejay.it/programmi/catteland/highlights/sgridare-i-bambini-degli-altri/"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:45.294Z"
+  },
+  "podcast:crime e comedy": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/crime-comedy/id1542508909",
+      "genres": [
+        "True crime",
+        "Umorismo"
+      ],
+      "episodes": 368,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/10/0c/f4/100cf4e5-a0a3-ac67-c024-e085a4f287dc/mza_7498123032788726818.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/crimeandcomedy",
+      "description": "Due comici, appassionati di Crime e Serial Killer, hanno deciso di parlarne seriamente... o quasi: Marco Champier e Clara Campi parlano dei casi di True Crime più sorprendenti, dei Serial Killer più efferati e di altre cose divertenti.\nOgni domenica mattina una nuova puntata del Podcast, così potete cominciare la giornata di slancio e fare colazione con i baiocchi mentre ascoltate parlare di morti ammazzati.\nPatreon: https://www.patreon.com/crimeandcomedy\nSpotify: https://spoti.fi/3aNw5GE\nTwitch: https://www.twitch.tv/crimeandcomedy\nApple Podcast: https://apple.co/3dZxD2g\nAmazon Music: https://amzn.to/3nxSVHb\nGoogle Podcast: https://bit.ly/3eznngc\nTelegram: https://t.me/crimeandcomedy\nSito: https://www.crimeandcomedy.it\n—\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/\n—\n📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
+      "website": "https://crimeandcomedy.it",
+      "latest": [
+        {
+          "title": "Jason Corbett - Morte in una Famiglia Felice - 227",
+          "date": "2026-10-25",
+          "seconds": 8139,
+          "url": null
+        },
+        {
+          "title": "Theresa Knorr - La Peggior Madre d'America - 226",
+          "date": "2026-10-18",
+          "seconds": 10714,
+          "url": null
+        },
+        {
+          "title": "Herb Baumeister - L'Orrore di Fox Hollow Farm - 225",
+          "date": "2026-10-11",
+          "seconds": 7802,
+          "url": null
+        },
+        {
+          "title": "Lizzie Borden: Colpevole o Innocente? - 224",
+          "date": "2026-10-04",
+          "seconds": 9555,
+          "url": null
+        },
+        {
+          "title": "Juan Catalan - L'Omicidio di Martha Puebla - 223",
+          "date": "2026-09-27",
+          "seconds": 4162,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:42.629Z"
   },
   "podcast:crime scene podcast": {
     "value": {
@@ -358,6 +510,53 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:36.041Z"
+  },
+  "podcast:dee giallo": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/dee-giallo/id1605369639",
+      "genres": [
+        "Cultura e società",
+        "True crime"
+      ],
+      "episodes": 258,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a0/49/b0/a049b099-0e03-2598-bdce-64e7325975f5/mza_4828595167633096995.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/2a18ba1c-489d-4aa0-ba47-ae3d009f0571/d040552e-a61e-4085-abe5-ae3d009f0589/podcast.rss",
+      "description": "Ci sono storie, storie vere, che quando le incontri ti piacciono, ti appassionano, ti commuovono, ti fanno ridere o ti fanno arrabbiare. Ma soprattutto, sono così belle, così piene di snodi e colpi di scena e con un finale così sorprendente, che ti viene voglia di raccontarle. A modo tuo, ricombinando le cose, senza inventare niente, solo sistemando i punti dove ti sembra più giusto. Sono Carlo Lucarelli, sono uno scrittore, sono un narratore, e queste sono le strane, straordinarie, incredibili, surreali e misteriose storie che non vedo l’ora di raccontare.",
+      "website": "https://www.deejay.it/podcast/dee-giallo/",
+      "latest": [
+        {
+          "title": "Dee Giallo Story - Marilyn Manson (2009)",
+          "date": "2026-10-29",
+          "seconds": 1050,
+          "url": "https://www.deejay.it/podcast/dee-giallo/dee-giallo-story/dee-giallo-story-marilyn-manson-2009/"
+        },
+        {
+          "title": "Dee Giallo Story - Marvin Gaye (2007)",
+          "date": "2026-10-22",
+          "seconds": 544,
+          "url": "https://www.deejay.it/podcast/dee-giallo/dee-giallo-story/dee-giallo-story-marvin-gaye-2007/"
+        },
+        {
+          "title": "Dee Giallo Story - Nino Bixio (2011)",
+          "date": "2026-10-15",
+          "seconds": 754,
+          "url": "https://www.deejay.it/podcast/dee-giallo/dee-giallo-story/dee-giallo-story-nino-bixio-2011/"
+        },
+        {
+          "title": "Dee Giallo Story - Charles Bronson (2012)",
+          "date": "2026-10-08",
+          "seconds": 798,
+          "url": "https://www.deejay.it/podcast/dee-giallo/dee-giallo-story/dee-giallo-story-charles-bronson-2012/"
+        },
+        {
+          "title": "Dee Giallo Story - Ozzy Osbourne (2009)",
+          "date": "2026-10-01",
+          "seconds": 1096,
+          "url": "https://www.deejay.it/podcast/dee-giallo/dee-giallo-story/dee-giallo-story-ozzy-osbourne-2009/"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:48.376Z"
   },
   "podcast:delitti invisibili": {
     "value": {
@@ -498,6 +697,53 @@
     },
     "fetchedAt": "2026-10-25T04:51:08.262Z"
   },
+  "podcast:di nuovo barbero": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/di-nuovo-barbero-alessandro-barbero-podcast/id1896716561",
+      "genres": [
+        "Cultura e società",
+        "Storia"
+      ],
+      "episodes": 36,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a2/29/d5/a229d511-1759-111d-6cfe-142b5247ba35/mza_10709861329326268423.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/6755193/episodes/feed",
+      "description": "Barbero non smette mai di stupirci, per questo raccoglieremo qui le sue conferenze più belle!\nUn nuovo episodio ogni venerdi alle ore 14:00\nPer rimozione contenuti scrivere a samuelebernardi95@gmail.com\nDiventa un supporter di questo podcast: https://www.spreaker.com/podcast/di-nuovo-barbero-alessandro-barbero-podcast--6755193/support.",
+      "website": "https://www.spreaker.com/podcast/di-nuovo-barbero-alessandro-barbero-podcast--6755193",
+      "latest": [
+        {
+          "title": "Alessandro BARBERO - come gli ANTICHI PREVEDEVANO il FUTURO",
+          "date": "2026-10-27",
+          "seconds": 3867,
+          "url": "https://www.spreaker.com/episode/alessandro-barbero-come-gli-antichi-prevedevano-il-futuro--74945890"
+        },
+        {
+          "title": "Alessandro Barbero - La Guerra Civile Francese",
+          "date": "2026-10-23",
+          "seconds": 5213,
+          "url": "https://www.spreaker.com/episode/alessandro-barbero-la-guerra-civile-francese--75003264"
+        },
+        {
+          "title": "Alessandro Barbero - Dante e la politica",
+          "date": "2026-10-20",
+          "seconds": 3984,
+          "url": "https://www.spreaker.com/episode/alessandro-barbero-dante-e-la-politica--75874226"
+        },
+        {
+          "title": "Alessandro BARBERO - Come Pensava un Uomo del Medioevo",
+          "date": "2026-10-16",
+          "seconds": 10406,
+          "url": "https://www.spreaker.com/episode/alessandro-barbero-come-pensava-un-uomo-del-medioevo--75592651"
+        },
+        {
+          "title": "BARBERO racconta TRE grandi RIVOLTE del MEDIOEVO - Alessandro Barbero",
+          "date": "2026-10-09",
+          "seconds": 11842,
+          "url": "https://www.spreaker.com/episode/barbero-racconta-tre-grandi-rivolte-del-medioevo-alessandro-barbero--75426050"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:57.569Z"
+  },
   "podcast:elisa true crime": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/elisa-true-crime/id1628126740",
@@ -543,6 +789,98 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:03:32.847Z"
+  },
+  "podcast:focus economia": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/focus-economia/id291685321",
+      "genres": [
+        "News"
+      ],
+      "episodes": 33,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/10/7d/f7/107df76d-0ad4-3b0b-f819-b34863e6e1c1/mza_1140024126204185370.jpg/600x600bb.jpg",
+      "feedUrl": "https://backr24.ilsole24ore.com/podcast/focus-economia.xml",
+      "description": "Focus economia è il programma quotidiano dedicato all'approfondimento dei temi dell'attualità dell'economia e della finanza, realizzato con i protagonisti della giornata economico finanziaria e il contributo di giornalisti e analisti de Il Sole 24 ORE. L'obiettivo della trasmissione è di spiegare e analizzare, in termini comprensibili anche \"ai non addetti ai lavori\", i temi più interessanti della giornata. Appuntamento fisso per i commenti a caldo pochi minuti dopo la chiusura della Borsa.",
+      "website": "https://www.radio24.ilsole24ore.com/programmi/focus-economia",
+      "latest": [
+        {
+          "title": "Ex Ilva si ferma, Cassazione rigetta ricorsi contro stop area a caldo",
+          "date": "2026-10-29",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261029-focus-economia.mp3?awCollectionId=focus-economia&awEpisodeId=261029-focus-economia"
+        },
+        {
+          "title": "Focus Economia del 28 ottobre 2026",
+          "date": "2026-10-28",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261028-focus-economia.mp3?awCollectionId=focus-economia&awEpisodeId=261028-focus-economia"
+        },
+        {
+          "title": "Anthropic, in rampa di lancio la più grande Ipo di sempre",
+          "date": "2026-10-27",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261027-focus-economia.mp3?awCollectionId=focus-economia&awEpisodeId=261027-focus-economia"
+        },
+        {
+          "title": "L'allarme di Federchimica, settore sull'orlo di una \"crisi esistenziale\"",
+          "date": "2026-10-26",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261026-focus-economia.mp3?awCollectionId=focus-economia&awEpisodeId=261026-focus-economia"
+        },
+        {
+          "title": "Domani a Milano due presidi autorizzati, preoccupazione per piazza Duomo. Sentiamo chi presidia il territorio",
+          "date": "2026-10-23",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261023-focus-economia.mp3?awCollectionId=focus-economia&awEpisodeId=261023-focus-economia"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:25.258Z"
+  },
+  "podcast:fuori da qui": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/fuori-da-qui/id1691855830",
+      "genres": [
+        "News"
+      ],
+      "episodes": 157,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/02/ed/cf/02edcf91-1943-0cbe-fb9d-bb9a12f9feb5/mza_12980534058933573539.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS7597999447",
+      "description": "Fuori da qui è un podcast settimanale per tutti quelli che vogliono uscire dalla bolla, quelli che sono stanchi del sovranismo delle notizie e vogliono aprire gli occhi per accorgersi di cosa succede intorno a noi. Fuori da qui è per chi ha uno sguardo curioso sul mondo e vuole capire di cosa si discute fuori dei nostri confini. Fuori da qui è un podcast di Chora News, condotto da Simone Pieranni, con Mario Calabresi, Cecilia Sala, Francesca Milano, Guido Brera e tanti ospiti che ci daranno il loro contribuito per allargare i nostri orizzonti.\nFUORI DA QUI è un podcast di Chora News, prodotto da Chora Media.\nScritto e raccontato da Simone Pieranni.\nIl Sound Design è a cura di Mattia Liciotti, Emanuele Moscatelli e Aurora Ricci.\nIn redazione Flavia Bevilacqua, Ilaria Ferraresi e Chiara Godino.\nLa producer è Martina Conte.\nIl coordinamento della post-produzione è di Matteo Scelsa.\nLa fonica di studio e Lucrezia Marcelli.\nIl progetto grafico è di Rebecca Grassi.\nMusiche su licenza di Universal Music Publishing Ricordi Srl e di Machiavelli Music.",
+      "website": "https://www.spreaker.com/show/fuori-da-qui",
+      "latest": [
+        {
+          "title": "Ep. 150: Ragnatele",
+          "date": "2026-10-23",
+          "seconds": 2433,
+          "url": null
+        },
+        {
+          "title": "Ep.149: Proteste",
+          "date": "2026-10-16",
+          "seconds": 2016,
+          "url": null
+        },
+        {
+          "title": "Ep.148: Erba",
+          "date": "2026-10-09",
+          "seconds": 1660,
+          "url": null
+        },
+        {
+          "title": "Ep. 147: Riposo",
+          "date": "2026-10-02",
+          "seconds": 1540,
+          "url": null
+        },
+        {
+          "title": "Ep. 146: Gioco",
+          "date": "2026-09-25",
+          "seconds": 2009,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:24.329Z"
   },
   "podcast:geopop": {
     "value": {
@@ -640,6 +978,128 @@
     },
     "fetchedAt": "2026-10-29T05:04:56.779Z"
   },
+  "podcast:globally": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/globally-la-geopolitica-spiegata-in-modo-chiaro/id1561208999",
+      "genres": [
+        "Politica",
+        "News",
+        "Governo"
+      ],
+      "episodes": 322,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/91/68/5a/91685a5c-0058-d250-3d54-4137c1f5dc52/mza_3203592046319083774.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISM5684255413",
+      "description": "Il mondo non è mai stato così veloce, complesso, in crisi. Le storie da raccontare sono tante e serve chiarezza. Questo è Globally, il podcast di Will in collaborazione con ISPI dove spieghiamo la geopolitica in modo chiaro.\nSeguici anche su Instagram @will_ita",
+      "website": "https://www.spreaker.com/show/globally",
+      "latest": [
+        {
+          "title": "Lula o Bolsonaro? Il futuro del Brasile",
+          "date": "2026-10-23",
+          "seconds": 1813,
+          "url": null
+        },
+        {
+          "title": "La guerra ibrida della Russia: l’Europa è pronta?",
+          "date": "2026-10-16",
+          "seconds": 1514,
+          "url": null
+        },
+        {
+          "title": "Dalle scuole alle piazze: cosa succede in Francia",
+          "date": "2026-10-09",
+          "seconds": 1544,
+          "url": null
+        },
+        {
+          "title": "Israele, la guerra e il voto",
+          "date": "2026-10-02",
+          "seconds": 1512,
+          "url": null
+        },
+        {
+          "title": "ONU, se ci sei batti un colpo",
+          "date": "2026-09-25",
+          "seconds": 1240,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:09.207Z"
+  },
+  "podcast:golden boy": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/golden-boy/id1795670148",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 48,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/b7/9f/d3b79f39-4a8a-4277-18f0-acd117880970/mza_4000787423905227816.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS5917680046",
+      "description": "Valeria Montebello racconta sesso e relazioni per lavoro. Quando scopre i forum incel, comunità online frequentate da uomini che attribuiscono alle donne e al proprio aspetto la responsabilità della loro solitudine, decide di entrarci sotto copertura.\nÈ così che conosce Golden Boy, un utente radicalizzato che da anni vive immerso in quel mondo. Dalle chat passano all'incontrarsi, poi, però, dalla curiosità alla paura: il confine tra osservare una storia e finirci dentro diventa sempre più sottile.\nGolden Boy è il podcast che racconta l’incontro tra una donna convinta di poter capire e controllare ciò che ha davanti e un uomo che sembra conoscere molto bene le sue paure. Una storia sul desiderio, sulla misoginia e sulle dinamiche che possono tenerci legati a qualcuno anche quando sappiamo che dovremmo allontanarci.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep.2: Dammi un voto | Golden Boy",
+          "date": "2026-10-30",
+          "seconds": 1379,
+          "url": null
+        },
+        {
+          "title": "Ep.1: Il forum dei brutti | Golden Boy",
+          "date": "2026-10-30",
+          "seconds": 1381,
+          "url": null
+        },
+        {
+          "title": "Golden Boy | TRAILER",
+          "date": "2026-10-28",
+          "seconds": 90,
+          "url": null
+        },
+        {
+          "title": "Ep.3: Il politico | Sandro Pertini, il tempo vissuto",
+          "date": "2026-10-08",
+          "seconds": 3246,
+          "url": null
+        },
+        {
+          "title": "Ep.2: Il partigiano | Sandro Pertini, il tempo vissuto",
+          "date": "2026-10-01",
+          "seconds": 2831,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:27.288Z"
+  },
+  "podcast:i profeti del codice": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/i-profeti-del-codice/id6827490676",
+      "genres": [
+        "News"
+      ],
+      "episodes": 2,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/cc/a5/d3cca5b4-2bb6-c5f3-4e38-d2fe9c69a936/mza_15287109378223282396.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISOS8597805585",
+      "description": "Ogni civiltà si è scelta i suoi dèi. Non li ha votati: li ha riconosciuti. La nostra li chiama fondatori, visionari, disruptor. E senza mai firmare niente gli ha consegnato il controllo su come lavoriamo, ci informiamo, compriamo, combattiamo. Su cosa sappiamo del mondo e cosa non sapremo mai. Non è un podcast sulla tecnologia. Il tema è il potere. Dietro ogni nome ne compare uno più antico: l’Ombra, il Custode, il Sovrano, l’Eterno Fanciullo, l’Alchimista, l’Eroe, il Briccone, l’Esule, la Maschera, il Mago. Figure che ci raccontiamo da tremila anni, riconoscerle è il modo più rapido per accorgersi di quando ci stiamo cascando. Ogni episodio si ascolta da solo, ma insieme mostrano i fili. Si conoscono, si finanziano, si insultano in pubblico e fanno affari in privato. Non sono dieci storie. È un sistema. E alla fine non c’è una conclusione, ma una domanda. Quasi sempre riguarda noi. I Profeti del codice è un podcast prodotto da Il Sole 24 Ore Scritto e letto da Natàlia García Carbajo, disponibile su 24 Ore Podcast.com e sulle principali piattaforme audio.",
+      "website": "https://podcast.ilsole24ore.com/serie/i-profeti-codice-AJZKzIpB",
+      "latest": [
+        {
+          "title": "01. Peter Thiel, l’Ombra",
+          "date": "2026-10-28",
+          "seconds": 1650,
+          "url": "https://podcast.ilsole24ore.com/serie/i-profeti-codice-AJZKzIpB/01-peter-thiel-l-ombra-AJH5E6vB"
+        },
+        {
+          "title": "Trailer",
+          "date": "2026-10-20",
+          "seconds": 123,
+          "url": "https://podcast.ilsole24ore.com/serie/i-profeti-codice-AJZKzIpB/trailer-profeti-codice-AJJG8JpB"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:51.306Z"
+  },
   "podcast:il mondo": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/il-mondo/id1667941272",
@@ -685,6 +1145,53 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:17.894Z"
+  },
+  "podcast:il podcast di alessandro barbero": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/il-podcast-di-alessandro-barbero-lezioni-e/id1501956064",
+      "genres": [
+        "Storia",
+        "Cultura e società"
+      ],
+      "episodes": 349,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/40/69/92/4069925f-f1c8-3187-f5ac-bb2b5474529c/mza_8226611620958075994.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/4255213/episodes/feed",
+      "description": "Lezioni e conferenze sulla Storia come non l'avete mai sentita. Il professor Alessandro Barbero racconta in modo avvincente e ricco di curiosità gli aspetti più o meno noti della storia, dal Medioevo all'Età Contemporanea.\nRaccolta non ufficiale a scopo divulgativo delle lezioni del prof. Alessandro Barbero al Festival della Mente di Sarzana, più conferenze e lezioni tratte da YouTube. Questo podcast è pubblicato senza alcuno scopo di lucro, e con il solo fine di rendere facilmente accessibili contenuti culturali già gratuiti.\nRichieste, segnalazioni et al.: fabrizio@barberopodcast.it\nInstagram e X: @barberopodcast\nFeed RSS: https://barberopodcast.it/feed",
+      "website": "https://barberopodcast.it",
+      "latest": [
+        {
+          "title": "#224 Il corpo nel medioevo, tra scienza e fede – ExtraBarbero (Dialoghi di Pistoia, 2026)",
+          "date": "2026-07-19",
+          "seconds": 3989,
+          "url": "https://www.spreaker.com/episode/224-il-corpo-nel-medioevo-tra-scienza-e-fede-extrabarbero-dialoghi-di-pistoia-2026--73059377"
+        },
+        {
+          "title": "#223 Quando la guerra si avvicina – ExtraBarbero (Ex-GKN, Firenze 2026)",
+          "date": "2026-05-31",
+          "seconds": 4800,
+          "url": "https://www.spreaker.com/episode/223-quando-la-guerra-si-avvicina-extrabarbero-ex-gkn-firenze-2026--72267128"
+        },
+        {
+          "title": "#180 I fabliaux medievali – Barbero Riserva (Chieri, 2023)",
+          "date": "2026-05-10",
+          "seconds": 5360,
+          "url": "https://www.spreaker.com/episode/180-i-fabliaux-medievali-barbero-riserva-chieri-2023--71949444"
+        },
+        {
+          "title": "#074 La crisi del Trecento: recessione e innovazione – Barbero Riserva (Grattacielo Intesa Sanpaolo, 2019)",
+          "date": "2026-05-03",
+          "seconds": 4458,
+          "url": "https://www.spreaker.com/episode/074-la-crisi-del-trecento-recessione-e-innovazione-barbero-riserva-grattacielo-intesa-sanpaolo-2019--71842563"
+        },
+        {
+          "title": "#222 Eresie – ExtraBarbero (Zanichelli, 2026)",
+          "date": "2026-04-12",
+          "seconds": 3851,
+          "url": "https://www.spreaker.com/episode/222-eresie-extrabarbero-zanichelli-2026--71275396"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:03.231Z"
   },
   "podcast:il punto economico podcast": {
     "value": {
@@ -868,6 +1375,98 @@
     },
     "fetchedAt": "2026-10-29T05:04:47.847Z"
   },
+  "podcast:la caduta": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/la-caduta-la-misteriosa-morte-di-david-rossi/id6817022205",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 9,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fd/04/72/fd047274-5af4-6d48-b32a-5fea9d2c2a73/mza_3737336562223688878.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/AMCS1492165770",
+      "description": "Il 6 marzo 2013, a Siena, un corpo cade al suolo dopo un volo di quindici metri. È quello di David Rossi, responsabile della comunicazione di Banca Monte dei Paschi di Siena. È precipitato dal terzo piano della sede della banca. Fin dalle prime ore si fa strada l'ipotesi del suicidio. Le indagini verranno poi archiviate, ma sulla sua morte resteranno molti interrogativi. A tredici anni di distanza, quegli interrogativi sono ancora aperti. In questo podcast ripercorreremo la vicenda attraverso atti, documenti e le voci dei familiari di David Rossi. Da quella sera di marzo fino a oggi, per cercare di capire che cosa sia successo quella sera del 6 marzo del 2013.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep. 8 - Ombre nel vicolo",
+          "date": "2026-10-20",
+          "seconds": 2091,
+          "url": null
+        },
+        {
+          "title": "Ep. 7 - Se tu potessi vederli ora",
+          "date": "2026-10-07",
+          "seconds": 2946,
+          "url": null
+        },
+        {
+          "title": "Ep. 6 - Gli orologi non cadono da soli",
+          "date": "2026-10-06",
+          "seconds": 2436,
+          "url": null
+        },
+        {
+          "title": "Ep. 5 - Un’altra indagine",
+          "date": "2026-10-06",
+          "seconds": 2677,
+          "url": null
+        },
+        {
+          "title": "Ep. 4 - La caduta",
+          "date": "2026-10-05",
+          "seconds": 2704,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:15.255Z"
+  },
+  "podcast:la nave dei folli": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/la-nave-dei-folli-oltre-la-ragione/id6789093821",
+      "genres": [
+        "Storia"
+      ],
+      "episodes": 9,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b0/87/2bb08791-c3cf-aefb-173c-65cef78faa7a/mza_3998337075389507545.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/SIS2435187807",
+      "description": "Per gli antichi coloro che non ubbidivano alle convenzioni sociali venivano condannati a una vita errante: abbandonati a bordo di una nave che li tenesse lontani dalla città, senza possibilità di ritorno alla terra ferma. Ma è possibile che i grandi personaggi che la storia ci ha tramandato come eccentrici, diversi o addirittura pazzi, siano stati troppo moderni per il loro tempo, vittime di giochi di potere o semplicemente affetti da malattie all’epoca sconosciute?\n“La nave dei folli. Oltre la ragione” è la nuova docuserie Sky Exclusive che attraverso le incredibili vite di personaggi del passato, racconta lo stigma della diversità nel corso della storia.\nE grazie al racconto di Carlo Lucarelli e all’intreccio di fatti storici con le testimonianze di esperti sugli studi psichiatrici più recenti, cerca di porre nuove domande scavando a fondo nella dimensione umana di personaggi del passato che forse appartenevano già al futuro. Persone così differenti le cui storie meritano di essere raccontate di nuovo, forse riabilitate, almeno comprese.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Episodio 8 | Cesare Lombroso e Lev Tolstoj",
+          "date": "2026-08-04",
+          "seconds": 2528,
+          "url": null
+        },
+        {
+          "title": "Episodio 7 | Giovanna di Castiglia",
+          "date": "2026-08-04",
+          "seconds": 1945,
+          "url": null
+        },
+        {
+          "title": "Episodio 6 | Lorenzo Lotto",
+          "date": "2026-07-28",
+          "seconds": 2264,
+          "url": null
+        },
+        {
+          "title": "Episodio 5 | Madeleine Pelletier",
+          "date": "2026-07-28",
+          "seconds": 2171,
+          "url": null
+        },
+        {
+          "title": "Episodio 4 | Vaslav Nijinsky",
+          "date": "2026-07-21",
+          "seconds": 2230,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:21.441Z"
+  },
   "podcast:la zanzara": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/la-zanzara/id291100561",
@@ -961,6 +1560,52 @@
     },
     "fetchedAt": "2026-10-29T05:04:14.860Z"
   },
+  "podcast:ma perche": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/ma-perch%C3%A9/id1666594164",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 1043,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/80/04/43/8004439a-fba7-8137-9237-0724cd8b9045/mza_18004868742121630882.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/3fbddd6a-ef2f-494d-bdc7-af8f00f3c16f/73175d2f-b9a3-4deb-ba0d-af8f00f3c178/podcast.rss",
+      "description": "Non sempre capiamo davvero e in profondit&agrave; ci&ograve; che leggiamo. Anzi, il pi&ugrave; delle volte prendiamo tutto come assodato, cos&igrave; com&rsquo;&egrave;, senza domandarci il perch&egrave; delle cose. Ad esempio, sappiamo che gli stipendi in Italia sono bassi o che Xi Jinping e Putin sono alleati, o che il 2022 &egrave; stato un anno nero per le criptovalute. Bene, ma perch&eacute;? Ogni giorno Marco Maisano assieme ad un esperto proveniente dal mondo della politica o dell&rsquo;economia, della scienza o della cultura, riparte dalle basi, facendo una semplice domanda. Anzi la domanda pi&ugrave; semplice del mondo: ma perch&eacute;?",
+      "website": "https://www.deejay.it/podcast/ma-perche/",
+      "latest": [
+        {
+          "title": "Trump rimanda tutto a dopo le elezioni. Ma perché? | 1041",
+          "date": "2026-10-30",
+          "seconds": 562,
+          "url": "https://www.deejay.it/podcast/ma-perche/stagione-2026-di-ma-perche/trump-rimanda-tutto-a-dopo-le-elezioni-ma-perche-1041/"
+        },
+        {
+          "title": "Gli arabi decidono il futuro di Israele. Nessuno li vuole al governo. Ma perché? | 1040",
+          "date": "2026-10-29",
+          "seconds": 572,
+          "url": "https://www.deejay.it/podcast/ma-perche/stagione-2026-di-ma-perche/gli-arabi-decidono-il-futuro-di-israele-nessuno-li-vuole-al-governo-ma-perche-1040/"
+        },
+        {
+          "title": "La pace tra Russia e Ucraina non sembra vicina come sostiene Trump. Ma perché? | 1039",
+          "date": "2026-10-28",
+          "seconds": 586,
+          "url": "https://www.deejay.it/podcast/ma-perche/stagione-2026-di-ma-perche/la-pace-tra-russia-e-ucraina-non-sembra-vicina-come-sostiene-trump-ma-perche-1039/"
+        },
+        {
+          "title": "Vannacci ha smesso di crescere nei sondaggi. Ma perché? | 1038",
+          "date": "2026-10-27",
+          "seconds": 519,
+          "url": "https://www.deejay.it/podcast/ma-perche/stagione-2026-di-ma-perche/vannacci-ha-smesso-di-crescere-nei-sondaggi-ma-perche-1038/"
+        },
+        {
+          "title": "Il prossimo governo israeliano dovrà vedersela con gli ultraortodossi. Ma perché? | 1037",
+          "date": "2026-10-26",
+          "seconds": 602,
+          "url": "https://www.deejay.it/podcast/ma-perche/stagione-2026-di-ma-perche/il-prossimo-governo-israeliano-dovra-vedersela-con-gli-ultraortodossi-ma-perche-1037/"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:18.404Z"
+  },
   "podcast:mappe capire il mondo": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/mappe-capire-il-mondo/id6816875625",
@@ -1008,6 +1653,52 @@
       ]
     },
     "fetchedAt": "2026-10-27T04:51:40.728Z"
+  },
+  "podcast:nera": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/nera/id1779458186",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 72,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/e0/2d/a5e02dd2-ef87-96a7-e70f-aa4a5cf1c5ec/mza_18392886043353641725.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/f8ba916e-eccf-4cf4-a089-b22500e845ec/035aec69-8440-4b86-9639-b22500e84621/podcast.rss",
+      "description": "Per cinquant'anni Massimo Lugli ha seguito per Repubblica e altri quotidiani i principali casi di cronaca nera italiana, incontrando investigatori, magistrati, avvocati e familiari delle vittime. Antonio Iovane ha realizzato podcast che raccontano alcuni dei delitti più noti della storia d'Italia. Cosa succede nelle redazioni dei giornali quando arriva la notizia di un delitto?\nCome si muove un giornalista davanti a un omicidio? Insieme a voi, Iovane e Lugli torneranno sui luoghi del delitto, per ricostruire indagini, errori e tutto il dietro le quinte della ricerca dei colpevoli e del racconto giornalistico. Il 20 di ogni mese, una nuova storia da ascoltare.",
+      "website": "https://video.repubblica.it/rss/nera.rss",
+      "latest": [
+        {
+          "title": "Uccidete Katty Skerl - Prima parte",
+          "date": "2026-10-19",
+          "seconds": 891,
+          "url": "https://video.onepodcast.it/audioseries/nera/uccidete-katty-skerl-prima-parte/4687/4689"
+        },
+        {
+          "title": "Uccidete Katty Skerl - Seconda parte",
+          "date": "2026-10-19",
+          "seconds": 670,
+          "url": "https://video.onepodcast.it/audioseries/nera/uccidete-katty-skerl-seconda-parte/4688/4690"
+        },
+        {
+          "title": "Uccidete Katty Skerl - Terza parte",
+          "date": "2026-10-19",
+          "seconds": 1232,
+          "url": "https://video.onepodcast.it/audioseries/nera/uccidete-katty-skerl-terza-parte/4689/4691"
+        },
+        {
+          "title": "La strage di Fidene - Prima parte",
+          "date": "2026-09-19",
+          "seconds": 688,
+          "url": "https://video.onepodcast.it/audioseries/nera/la-strage-di-fidene-prima-parte/4522/4524"
+        },
+        {
+          "title": "La strage di Fidene - Seconda parte",
+          "date": "2026-09-19",
+          "seconds": 1080,
+          "url": "https://video.onepodcast.it/audioseries/nera/la-strage-di-fidene-seconda-parte/4521/4523"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:39.344Z"
   },
   "podcast:non aprite quella podcast": {
     "value": {
@@ -1290,52 +1981,6 @@
     },
     "fetchedAt": "2026-10-24T04:48:04.571Z"
   },
-  "podcast:olivetti l occasione perduta": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/olivetti-loccasione-perduta/id1564087483",
-      "genres": [
-        "Storia"
-      ],
-      "episodes": 10,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/e0/cd/88e0cd4a-cfe2-6753-55ca-ecb01f66f229/mza_11423691726934132391.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.simplecast.com/0GjSIOoI",
-      "description": "“Olivetti, l'occasione perduta” è il racconto dell'avventura pionieristica dell'Olivetti nel mondo dell'elettronica: un laboratorio di giovani talenti, i primi passi dell'informatica in Italia, l'invenzione dell'Elea 9300, la straordinaria realizzazione del primo personal computer – la mitica P101 – malgrado la immaturità tecnica dei primi anni '60. Nel podcast curato dal prof. Paolo Colombo, ne emerge un affresco intrigante dell'Olivetti di Adriano, fucina di sogni, di creatività e di cultura raffinata, ma anche di robusti successi commerciali a livello internazionale. Dalla trama narrativa riaffiorano cammei di figure che, in modi diversi, hanno fatto la nostra storia, da Valletta a Visentini, da Cuccia ad Agnelli, da Moro a Segni. Accanto a loro vengono alla luce anche personaggi meno noti a livello nazionale, che tuttavia sono espressione di una vicenda prodigiosa, capace di dare un grandissimo contributo al benessere dell'intero paese. Eppure, nel '64, l'Olivetti venne costretta ad abbandonare la divisione elettronica, lasciando che i frutti del genio italiano si seccassero sulla pianta.",
-      "website": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com",
-      "latest": [
-        {
-          "title": "“La civiltà è questa”: la straordinaria voce del primo PC",
-          "date": "2025-10-29",
-          "seconds": 1535,
-          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/la-civilta-e-questa-la-straordinaria-voce-del-primo-pc-s4yC3SqK"
-        },
-        {
-          "title": "Cosa vogliamo davvero?",
-          "date": "2021-04-25",
-          "seconds": 537,
-          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/cosa-vogliamo-davvero-_4qn7bLy"
-        },
-        {
-          "title": "“Non avrei dovuto andare così al largo…”",
-          "date": "2021-04-25",
-          "seconds": 510,
-          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/non-avrei-dovuto-andare-cosi-al-largo-S7J_f_sp"
-        },
-        {
-          "title": "“L'era della meccanica è finita”",
-          "date": "2021-04-25",
-          "seconds": 669,
-          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/l-era-della-meccanica-e-finita-cF8YT30_"
-        },
-        {
-          "title": "Sliding doors",
-          "date": "2021-04-25",
-          "seconds": 696,
-          "url": "https://olivetti-loccasione-perduta-e9cd65c2.simplecast.com/episodes/sliding-doors-V7baHtl1"
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-23T04:50:52.822Z"
-  },
   "podcast:one more time di luca casadei": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/one-more-time-di-luca-casadei/id1537557135",
@@ -1381,6 +2026,52 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:02.805Z"
+  },
+  "podcast:parlarne tra amici": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/parlarne-tra-amici-il-podcast-di-libri-di-daria-bignardi/id1800430064",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 57,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/56/57/64565726-984b-a82a-8b6d-cb9597872aa4/mza_256902751181361679.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/AMCS4081483768",
+      "description": "Parlarne tra amici è il podcast di libri di Daria Bignardi. Dentro, ci sono i libri che le piacciono, quelli che non la convincono, quelli che spopolano nelle classifiche, quelli che non si possono non leggere. Con un microfono aperto davanti e due amici - Silvia Righini e Stefano Sgambati - al fianco, Daria parla di libri coi libri e qualche volta con i loro autori.",
+      "website": "https://video.repubblica.it/rss/parlare-tra-amici-ll-podcast-di-libri-di-daria-bignardi.rss",
+      "latest": [
+        {
+          "title": "LA VALLE DELL’EDEN DI STEINBECK: UN PARADISO PER MASCHI?",
+          "date": "2026-10-28",
+          "seconds": 4397,
+          "url": null
+        },
+        {
+          "title": "EMANUELA FANELLI È UNA TRUFFATRICE?",
+          "date": "2026-10-21",
+          "seconds": 4845,
+          "url": null
+        },
+        {
+          "title": "RAGIONE E SENTIMENTO È NOIOSO?",
+          "date": "2026-10-14",
+          "seconds": 4001,
+          "url": null
+        },
+        {
+          "title": "NICOLA LAGIOIA E SANTA BARBARA: PENSATECI VOI",
+          "date": "2026-10-07",
+          "seconds": 2623,
+          "url": null
+        },
+        {
+          "title": "A LETTO CON LA PERSONA PEGGIORE",
+          "date": "2026-09-30",
+          "seconds": 3874,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:00.731Z"
   },
   "podcast:partners in true crime": {
     "value": {
@@ -1475,6 +2166,98 @@
     },
     "fetchedAt": "2026-10-29T05:03:50.800Z"
   },
+  "podcast:pianeta b12": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/pianeta-b12/id6814188572",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 209,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/65/1a/64651a98-a1ea-5c0f-0c94-6015800a07cf/mza_16935587137288833016.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CSRL4666548793",
+      "description": "Il progetto Pianeta B12 nasce per trattare la sostenibilità a 360 gradi, coinvolgendo ospiti da diversi ambiti di attività. Ogni settimana viaggeremo insieme ad ospiti d'eccezione per esplorare temi caldi e attuali: ⬦ Etica e diritti umani/animali ⬦ Alimentazione e salute ⬦ Sostenibilità ambientale ⬦ Cultura e stile di vita Non solo dibattiti accesi e riflessioni profonde, ma anche momenti di leggerezza e divertimento.",
+      "website": "https://pianetab12.com",
+      "latest": [
+        {
+          "title": "Ep.123 - Tumori e Alimentazione: Quanto conta quello che mangiamo? con Franco Berrino e Natalia Gera | Pianeta B12",
+          "date": "2026-10-28",
+          "seconds": 5472,
+          "url": null
+        },
+        {
+          "title": "Parlare con i morti: Le testimonianze più incredibili con Susi Gallesi | Pianeta B12",
+          "date": "2026-10-26",
+          "seconds": 2888,
+          "url": null
+        },
+        {
+          "title": "Caro Benzina: è davvero colpa del nostro governo? con Giordano Gasperini | Pianeta B12",
+          "date": "2026-10-24",
+          "seconds": 4469,
+          "url": null
+        },
+        {
+          "title": "\"A 16 anni dovevo sposarmi per religione ma sono scappata di casa\" | la storia di Nikita Pelizon #22",
+          "date": "2026-10-23",
+          "seconds": 4169,
+          "url": null
+        },
+        {
+          "title": "Ep.122 - Il vero prezzo del fast fashion con Mattia Berveglieri | Pianeta B12",
+          "date": "2026-10-21",
+          "seconds": 4741,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:12.409Z"
+  },
+  "podcast:poretcast di giacomo poretti": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/poretcast-di-giacomo-poretti/id1661637004",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 199,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a7/26/c2/a726c265-f4b2-42f5-22fb-fa0c97eb5355/mza_12520394166236752036.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CSRL4651102462",
+      "description": "Un vodcast pieno di spirito!\nOspiti diversi che con me non c'entrano praticamente niente!\nUna produzione Corax.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep.2 S5 BEATRICE ARNERA | I social devono esplodere | PORETCAST",
+          "date": "2026-10-28",
+          "seconds": 4547,
+          "url": null
+        },
+        {
+          "title": "L'arte spiegata da Giovanni Muciaccia - Il meglio di GIOVANNI MUCIACCIA al PORETCAST",
+          "date": "2026-10-26",
+          "seconds": 861,
+          "url": null
+        },
+        {
+          "title": "Ep.1 S5 GIOVANNI MUCIACCIA | \"L'arte è davvero per tutti?\" | PORETCAST",
+          "date": "2026-10-21",
+          "seconds": 4217,
+          "url": null
+        },
+        {
+          "title": "Siamo pronti a ripartire, non spingete! | Trailer Stagione 5",
+          "date": "2026-10-14",
+          "seconds": 172,
+          "url": null
+        },
+        {
+          "title": "Giacomo senza filtri | Poretcast Stagione 4",
+          "date": "2026-08-26",
+          "seconds": 1733,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:06.300Z"
+  },
   "podcast:pulp podcast": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/pulp-podcast/id1781213268",
@@ -1520,6 +2303,193 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:03:38.751Z"
+  },
+  "podcast:qui si fa l italia": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/qui-si-fa-litalia/id1765112255",
+      "genres": [
+        "Storia",
+        "Cultura e società",
+        "Documentari"
+      ],
+      "episodes": 63,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/45/77/384577f0-7591-926b-b847-ee767dc789f1/mza_16213173384278797334.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/GLT7311128613",
+      "description": "Lorenzo Pregliasco e Lorenzo Baravalle raccontano i momenti che hanno fatto la storia dell’Italia a chi come loro non li ha vissuti.\nUn nuovo episodio di Qui Si Fa l’Italia esce in due parti tutti i mesi, il 27 del mese, su tutte le piattaforme.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Oriana Fallaci, la storia e la rabbia - 1^ parte",
+          "date": "2026-10-27",
+          "seconds": 1797,
+          "url": null
+        },
+        {
+          "title": "Oriana Fallaci, la storia e la rabbia - 2^ parte",
+          "date": "2026-10-27",
+          "seconds": 2115,
+          "url": null
+        },
+        {
+          "title": "Hanno sparato al Papa: chi voleva uccidere Giovanni Paolo II?",
+          "date": "2026-09-30",
+          "seconds": 1679,
+          "url": null
+        },
+        {
+          "title": "Marco Pannella, il ribelle della Prima Repubblica - 1^ parte",
+          "date": "2026-09-26",
+          "seconds": 2390,
+          "url": null
+        },
+        {
+          "title": "Marco Pannella, il ribelle della Prima Repubblica - 2^ parte",
+          "date": "2026-09-26",
+          "seconds": 2350,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:33.170Z"
+  },
+  "podcast:rame": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/rame/id1624729929",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 238,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/5d/05/df/5d05df02-1c73-ea86-7bc2-1e685d21c99d/mza_5062069561524688952.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/e5541d58/podcast/rss",
+      "description": "Rame è la serie podcast di una community che vuole sfatare il tabù dei soldi. Nasce all'interno di una piattaforma (www.rameplatform.com) che attraverso i suoi contenuti si pone l’obiettivo di avviare una rivoluzione culturale nella società, che trasformi la finanza personale in un argomento di conversazioni audaci e liberatorie. Annalisa Monfreda, ogni settimana, dialoga con un ospite diverso seguendo il filo della sua storia economica. Parlare di soldi può essere intimo e coinvolgente, rivelatorio ed eccitante. E si finisce sempre per svelare chi siamo e ciò in cui crediamo.",
+      "website": "https://www.spreaker.com/show/rame",
+      "latest": [
+        {
+          "title": "Longevity Talk 04. Longevity planning: come pianificare finanziariamente una vita più lunga | Emanuela Notari",
+          "date": "2026-10-28",
+          "seconds": 2629,
+          "url": "https://podcasters.spotify.com/pod/show/rame-platform/episodes/Longevity-Talk-04--Longevity-planning-come-pianificare-finanziariamente-una-vita-pi-lunga--Emanuela-Notari-e3r4spg"
+        },
+        {
+          "title": "Longevity Talk 03. Inflammaging e sistema immunitario: come calcolare e ridurre l’età biologica | Prof. Alberto Beretta",
+          "date": "2026-10-28",
+          "seconds": 2054,
+          "url": "https://podcasters.spotify.com/pod/show/rame-platform/episodes/Longevity-Talk-03--Inflammaging-e-sistema-immunitario-come-calcolare-e-ridurre-let-biologica--Prof--Alberto-Beretta-e3r4riq"
+        },
+        {
+          "title": "Longevity Talk 02. Come prevenire Alzheimer e demenze: allenare il cervello e dormire bene | Prof.ssa Maria Salsone",
+          "date": "2026-10-28",
+          "seconds": 2084,
+          "url": "https://podcasters.spotify.com/pod/show/rame-platform/episodes/Longevity-Talk-02--Come-prevenire-Alzheimer-e-demenze-allenare-il-cervello-e-dormire-bene--Prof-ssa-Maria-Salsone-e3r4q8j"
+        },
+        {
+          "title": "Longevity Talk 01. Dieta mima-digiuno e longevità: vivere fino a 110 anni in salute | Prof. Valter Longo",
+          "date": "2026-10-28",
+          "seconds": 2102,
+          "url": "https://podcasters.spotify.com/pod/show/rame-platform/episodes/Longevity-Talk-01--Dieta-mima-digiuno-e-longevit-vivere-fino-a-110-anni-in-salute--Prof--Valter-Longo-e3r4o7g"
+        },
+        {
+          "title": "Trailer. Dal 28 ottobre la nuova serie spin-off di Rame: Longevity Talk",
+          "date": "2026-10-27",
+          "seconds": 30,
+          "url": "https://podcasters.spotify.com/pod/show/rame-platform/episodes/Trailer--Dal-28-ottobre-la-nuova-serie-spin-off-di-Rame-Longevity-Talk-e3r61h5"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:03.247Z"
+  },
+  "podcast:rasoiate": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/rasoiate/id1671462668",
+      "genres": [
+        "Calcio",
+        "Sport"
+      ],
+      "episodes": 529,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8d/f1/83/8df1834a-f845-032b-1a12-dee574a06e1b/mza_945315104232934654.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CDSP9544509877",
+      "description": "Il primo daily podcast di Cronache di spogliatoio. Analisi con dati, statistiche, approfondimenti e qualche graffiante opinione personale della giornata sportiva precedente. Una piccola dose quotidiana di informazioni che soddisferà tutte le tue esigenze.",
+      "website": "https://www.capital.it/podcast/rasoiate/",
+      "latest": [
+        {
+          "title": "Ep. 915 – L'Inter e il logorio della vita moderna. La centralina del Milan. Juve, poco di tutto",
+          "date": "2026-10-29",
+          "seconds": 582,
+          "url": null
+        },
+        {
+          "title": "Ep. 914 – Lazio, una giornata particolare. I giovani Lu-Pi della Roma. Il Como è proprio grande",
+          "date": "2026-10-28",
+          "seconds": 770,
+          "url": null
+        },
+        {
+          "title": "Ep. 913 – Kane, il quiet man che si è fatto re. Tutti in giro con la Lazio. Gli studi specialistici di Fabregas",
+          "date": "2026-10-27",
+          "seconds": 628,
+          "url": null
+        },
+        {
+          "title": "Ep. 912 – Chivu e Gattuso non ce li aspettavamo. Napoli-Roma, spettacolo ed eclissi. Le montagne russe di Alvinilandia",
+          "date": "2026-10-26",
+          "seconds": 704,
+          "url": null
+        },
+        {
+          "title": "Ep. 911 – Il Milan non si è presentato. Juve nella fase Rennes. Max chiuderà il Gasp?",
+          "date": "2026-10-23",
+          "seconds": 627,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:09.237Z"
+  },
+  "podcast:scienze x storia": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/scienze-x-storia/id1861335841",
+      "genres": [
+        "Scienze"
+      ],
+      "episodes": 206,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5c/dc/b1/5cdcb1aa-a864-18f3-889d-27d405d52ee8/mza_651095319530752578.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/10cc2b368/podcast/rss",
+      "description": "Scienze X Storia è un podcast che raccoglie conferenze, lezioni e dibattiti di storici, scienziati ed esperti, per capire il mondo attraverso i fatti, i dati e il contesto.\nDalla storia antica alla contemporaneità, dalla scienza alle grandi trasformazioni sociali e tecnologiche, ogni episodio mette in dialogo discipline diverse per andare oltre le semplificazioni e le narrazioni ideologiche.\nhttps://linktr.ee/ScienzeXStoria",
+      "website": "https://podcasters.spotify.com/pod/show/dario-faiella",
+      "latest": [
+        {
+          "title": "Ep. 212: Alessandro Barbero - Gli ordini religiosi del Medioevo (Camogli 2016)",
+          "date": "2026-10-28",
+          "seconds": 2823,
+          "url": "https://podcasters.spotify.com/pod/show/dario-faiella/episodes/Ep--212-Alessandro-Barbero---Gli-ordini-religiosi-del-Medioevo-Camogli-2016-e3r77f8"
+        },
+        {
+          "title": "Ep. 211: Francesca Mannocchi - Le parole che bruciano (Sarzana, 2026)",
+          "date": "2026-10-26",
+          "seconds": 2993,
+          "url": "https://podcasters.spotify.com/pod/show/dario-faiella/episodes/Ep--211-Francesca-Mannocchi---Le-parole-che-bruciano-Sarzana--2026-e3qvbsg"
+        },
+        {
+          "title": "Ep. 210: Telmo Pievani - Intelligenze umane (Lucca, 2026)",
+          "date": "2026-10-24",
+          "seconds": 3234,
+          "url": "https://podcasters.spotify.com/pod/show/dario-faiella/episodes/Ep--210-Telmo-Pievani---Intelligenze-umane-Lucca--2026-e3qv9iq"
+        },
+        {
+          "title": "Ep. 209: Alessandro Barbero agli studenti: la storia degli umili, delle donne e del potere (Pioltello 2017)",
+          "date": "2026-10-21",
+          "seconds": 6659,
+          "url": "https://podcasters.spotify.com/pod/show/dario-faiella/episodes/Ep--209-Alessandro-Barbero-agli-studenti-la-storia-degli-umili--delle-donne-e-del-potere-Pioltello-2017-e3qqmui"
+        },
+        {
+          "title": "Ep. 208: Piero Angela – Dalle uova alla demografia (Camogli 2017)",
+          "date": "2026-10-20",
+          "seconds": 2781,
+          "url": "https://podcasters.spotify.com/pod/show/dario-faiella/episodes/Ep--208-Piero-Angela--Dalle-uova-alla-demografia-Camogli-2017-e3qosf3"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:36.310Z"
   },
   "podcast:seietrenta": {
     "value": {
@@ -1615,6 +2585,52 @@
     },
     "fetchedAt": "2026-10-29T05:04:51.191Z"
   },
+  "podcast:start": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/start/id1502634775",
+      "genres": [
+        "News"
+      ],
+      "episodes": 2074,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/24/e9/65/24e96531-cc6b-fc9e-d18c-8275a3b36ca0/mza_13674273107718844477.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISOS3411468806",
+      "description": "Start è il podcast del Sole 24 Ore che ogni mattina ti racconta tre notizie che possono esserti utili nella tua giornata. Su tutte le piattaforme gratuite e sul sito ilsole24ore.com.",
+      "website": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD",
+      "latest": [
+        {
+          "title": "Lo sciopero generale, le novità sui fringe benefit e la fine dell’ex Ilva",
+          "date": "2026-10-30",
+          "seconds": 526,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/lo-sciopero-generale-novita-fringe-benefit-e-fine-dell-ex-ilva-AJWTJayB"
+        },
+        {
+          "title": "Le agevolazioni per i giovani, il bonus casa e l’impennata dei prezzi dell’energia",
+          "date": "2026-10-29",
+          "seconds": 751,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/le-agevolazioni-i-giovani-bonus-casa-e-l-impennata-prezzi-dell-energia-AJb7ESxB"
+        },
+        {
+          "title": "L’addio al bollo auto per tutti, la nuova Quota 100 e la responsabilità del datore di lavoro per il suicidio di un dipendente",
+          "date": "2026-10-28",
+          "seconds": 689,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/l-addio-bollo-auto-tutti-nuova-quota-100-e-responsabilita-datore-lavoro-il-suicidio-un-dipendente-AJdd9CwB"
+        },
+        {
+          "title": "500 euro per le cure degli anziani, i contributi persi per malattia e come proteggere i bambini in casa",
+          "date": "2026-10-27",
+          "seconds": 707,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/500-euro-le-cure-anziani-contributi-persi-malattia-e-come-proteggere-bambini-casa-AJNeV3uB"
+        },
+        {
+          "title": "Il gap negli stipendi dei giovani, abitazioni troppo care, le città più green",
+          "date": "2026-10-26",
+          "seconds": 589,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/il-gap-stipendi-giovani-abitazioni-troppo-care-citta-piu-green-AJdT8AtB"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:15.503Z"
+  },
   "podcast:storia in podcast": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/storia-in-podcast/id1511551427",
@@ -1660,6 +2676,70 @@
       ]
     },
     "fetchedAt": "2026-10-26T04:53:38.606Z"
+  },
+  "podcast:storie di brand": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/storie-di-brand/id1483404084",
+      "genres": [
+        "Imprenditorialità",
+        "Economia",
+        "Storia"
+      ],
+      "episodes": 195,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/76/cb/d8/76cbd87b-06c7-fb1a-224b-2c87e828fa9e/mza_7273347631833084429.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/storiedibrand",
+      "description": "Storie di uomini e donne, storie di fallimenti e successi, storie di sogni…. storie di brand!\nScritto e interpretato da Max Corona.\n—\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/\n—\n📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
+      "website": null,
+      "latest": [
+        {
+          "title": "La caduta di NIKE | Flashback",
+          "date": "2026-10-28",
+          "seconds": 1130,
+          "url": null
+        },
+        {
+          "title": "ROLEX | Pt 3 | L'orologio dei potenti",
+          "date": "2026-10-12",
+          "seconds": 1187,
+          "url": null
+        },
+        {
+          "title": "ROLEX | Pt 2 | La grande fuga",
+          "date": "2026-10-12",
+          "seconds": 1442,
+          "url": null
+        },
+        {
+          "title": "ROLEX | PT. 1 | Il mago del tempo",
+          "date": "2026-09-30",
+          "seconds": 1999,
+          "url": null
+        },
+        {
+          "title": "APEROL | Sapere fraterno",
+          "date": "2026-09-01",
+          "seconds": 2066,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:05:00.500Z"
+  },
+  "podcast:storie per dormire bene": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/storie-per-dormire-bene/id1872105369",
+      "genres": [
+        "Documentari",
+        "Cultura e società"
+      ],
+      "episodes": 122,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/32/91/d432917a-cc01-cf2f-08aa-cac5a742b74e/mza_17087540738210147479.jpg/600x600bb.jpg",
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-10-30T05:05:06.109Z"
   },
   "podcast:stories": {
     "value": {
@@ -1801,6 +2881,101 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:06.430Z"
+  },
+  "podcast:terruzzi racconta": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/terruzzi-racconta/id1799662714",
+      "genres": [
+        "Automobilismo",
+        "Tempo libero",
+        "News",
+        "Notizie: approfondimenti"
+      ],
+      "episodes": 97,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/17/53/7c/17537c28-438e-3bf6-45da-f0535e2fc503/mza_6510109983038207250.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CSRL9427895119",
+      "description": "Terruzzi Racconta è tornato!\nUn incontro ad alto gradimento su ciò che accade in pista nei GP. Analisi, aneddoti, storie romantiche di ieri e di oggi con Giorgio Terruzzi, Pino Allievi e Stefano Nicoli.\nNuovo format, 25 puntate, video e audio\nPrimo episodio sabato 1 marzo alle 17:00\nSeguiteci su YouTube, Spotify e su tutte le principali piattaforme di ascolto. Dai, dai, dai!\nUna produzione Corax",
+      "website": null,
+      "latest": [
+        {
+          "title": "Terruzzi Racconta il GP di Austin 2026 | Preparate la tequila",
+          "date": "2026-10-26",
+          "seconds": 4024,
+          "url": null
+        },
+        {
+          "title": "Pagelline GP USA 2026 | Terruzzi Racconta",
+          "date": "2026-10-25",
+          "seconds": 271,
+          "url": null
+        },
+        {
+          "title": "Terruzzi Racconta il GP di Singapore 2026 | Testardi e testoni",
+          "date": "2026-10-12",
+          "seconds": 3563,
+          "url": null
+        },
+        {
+          "title": "Pagelline GP Singapore 2026 | Terruzzi Racconta",
+          "date": "2026-10-11",
+          "seconds": 250,
+          "url": null
+        },
+        {
+          "title": "Terruzzi Racconta il GP del Bahrein 2026 | I Tre Tenori",
+          "date": "2026-10-05",
+          "seconds": 3270,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:21.225Z"
+  },
+  "podcast:tg la7": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/tg-la7/id1511917213",
+      "genres": [
+        "News"
+      ],
+      "episodes": 2030,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1a/43/72/1a4372cd-27c5-414b-9d1d-f69ee3a8b66f/mza_3184441380376287764.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/RCS6570791877",
+      "description": "Le edizioni integrali del TGLA7 diretto da Enrico Mentana",
+      "website": "https://www.la7.it/tgla7",
+      "latest": [
+        {
+          "title": "Puntata del 29/10/2026 edizione delle 20:00",
+          "date": "2026-10-29",
+          "seconds": 2171,
+          "url": null
+        },
+        {
+          "title": "Puntata del 29/10/2026 edizione delle 13:30",
+          "date": "2026-10-29",
+          "seconds": 2402,
+          "url": null
+        },
+        {
+          "title": "Puntata del 29/10/2026 edizione delle 7:30",
+          "date": "2026-10-29",
+          "seconds": 743,
+          "url": null
+        },
+        {
+          "title": "Puntata del 28/10/2026 edizione delle 20:00",
+          "date": "2026-10-28",
+          "seconds": 1874,
+          "url": null
+        },
+        {
+          "title": "Puntata del 28/10/2026 edizione delle 13:30",
+          "date": "2026-10-28",
+          "seconds": 2643,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-30T05:04:30.731Z"
   },
   "podcast:the bull": {
     "value": {
@@ -2037,52 +3212,5 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:44.847Z"
-  },
-  "podcast:wilson": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/wilson-le-notizie-spiegate-bene/id1814548989",
-      "genres": [
-        "Notizie: approfondimenti",
-        "News"
-      ],
-      "episodes": 90,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7b/c1/59/7bc159ab-150f-d9bd-2f8e-be8351aabb08/mza_14014151817939624896.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/wilson",
-      "description": "Per capire meglio le notizie e poi farsi un’idea propria, un giovedì alla volta. Di Francesco Costa",
-      "website": "https://www.ilpost.it/",
-      "latest": [
-        {
-          "title": "Gli adulti possono fare gli adulti?",
-          "date": "2026-10-22",
-          "seconds": 856,
-          "url": null
-        },
-        {
-          "title": "La più grande scommessa",
-          "date": "2026-10-15",
-          "seconds": 967,
-          "url": null
-        },
-        {
-          "title": "Vietato soffrire",
-          "date": "2026-10-08",
-          "seconds": 652,
-          "url": null
-        },
-        {
-          "title": "Perché l’Egitto ci ha bullizzati",
-          "date": "2026-10-01",
-          "seconds": 530,
-          "url": null
-        },
-        {
-          "title": "Come diventare una potenza",
-          "date": "2026-09-24",
-          "seconds": 857,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-23T04:50:58.686Z"
   }
 }
