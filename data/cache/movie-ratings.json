@@ -49,6 +49,18 @@
         "url": "https://www.rottentomatoes.com/m/apocalypse_now"
       }
     },
+    "33": {
+      "imdbId": "tt0105695",
+      "imdb": {
+        "value": 8.2,
+        "votes": 474484
+      },
+      "rt": {
+        "score": 96,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/1041911-unforgiven"
+      }
+    },
     "38": {
       "imdbId": "tt0338013",
       "imdb": {
@@ -71,6 +83,18 @@
         "score": 92,
         "date": "2025-01-19",
         "url": "https://www.rottentomatoes.com/m/2001_a_space_odyssey"
+      }
+    },
+    "70": {
+      "imdbId": "tt0405159",
+      "imdb": {
+        "value": 8.1,
+        "votes": 776257
+      },
+      "rt": {
+        "score": 90,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/million_dollar_baby"
       }
     },
     "73": {
@@ -217,6 +241,18 @@
         "url": "https://www.rottentomatoes.com/m/spirited_away"
       }
     },
+    "143": {
+      "imdbId": "tt0020629",
+      "imdb": {
+        "value": 8.1,
+        "votes": 73033
+      },
+      "rt": {
+        "score": 98,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/all_quiet_on_the_western_front"
+      }
+    },
     "155": {
       "imdbId": "tt0468569",
       "imdb": {
@@ -251,6 +287,18 @@
         "score": 90,
         "date": "2025-12-08",
         "url": "https://www.rottentomatoes.com/m/terminator"
+      }
+    },
+    "223": {
+      "imdbId": "tt0032976",
+      "imdb": {
+        "value": 8,
+        "votes": 162724
+      },
+      "rt": {
+        "score": 98,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/1017293-rebecca"
       }
     },
     "238": {
@@ -323,6 +371,18 @@
         "score": 90,
         "date": "2026-07-21",
         "url": "https://www.rottentomatoes.com/m/terminator_2_judgment_day"
+      }
+    },
+    "284": {
+      "imdbId": "tt0053604",
+      "imdb": {
+        "value": 8.3,
+        "votes": 224056
+      },
+      "rt": {
+        "score": 94,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/1001115-apartment"
       }
     },
     "285": {
@@ -409,6 +469,18 @@
         "url": "https://www.rottentomatoes.com/m/the_devil_wears_prada"
       }
     },
+    "380": {
+      "imdbId": "tt0095953",
+      "imdb": {
+        "value": 8,
+        "votes": 592540
+      },
+      "rt": {
+        "score": 88,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/rain_man"
+      }
+    },
     "387": {
       "imdbId": "tt0082096",
       "imdb": {
@@ -431,6 +503,30 @@
         "score": 100,
         "date": "2026-01-15",
         "url": "https://www.rottentomatoes.com/m/1000013_12_angry_men"
+      }
+    },
+    "403": {
+      "imdbId": "tt0097239",
+      "imdb": {
+        "value": 7.3,
+        "votes": 125096
+      },
+      "rt": {
+        "score": 85,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/driving_miss_daisy"
+      }
+    },
+    "409": {
+      "imdbId": "tt0116209",
+      "imdb": {
+        "value": 7.4,
+        "votes": 215935
+      },
+      "rt": {
+        "score": 86,
+        "date": "2026-01-09",
+        "url": "https://www.rottentomatoes.com/m/english_patient"
       }
     },
     "423": {
@@ -467,6 +563,18 @@
         "score": 97,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/the_good_the_bad_and_the_ugly"
+      }
+    },
+    "453": {
+      "imdbId": "tt0268978",
+      "imdb": {
+        "value": 8.2,
+        "votes": 1067390
+      },
+      "rt": {
+        "score": 74,
+        "date": "2026-01-15",
+        "url": "https://www.rottentomatoes.com/m/beautiful_mind"
       }
     },
     "489": {
@@ -553,6 +661,18 @@
         "url": "https://www.rottentomatoes.com/m/1017289-rear_window"
       }
     },
+    "581": {
+      "imdbId": "tt0099348",
+      "imdb": {
+        "value": 8,
+        "votes": 314208
+      },
+      "rt": {
+        "score": 87,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/dances_with_wolves"
+      }
+    },
     "582": {
       "imdbId": "tt0405094",
       "imdb": {
@@ -613,6 +733,18 @@
         "url": "https://www.rottentomatoes.com/m/matrix"
       }
     },
+    "606": {
+      "imdbId": "tt0089755",
+      "imdb": {
+        "value": 7.2,
+        "votes": 94544
+      },
+      "rt": {
+        "score": 62,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/out_of_africa"
+      }
+    },
     "629": {
       "imdbId": "tt0114814",
       "imdb": {
@@ -647,6 +779,30 @@
         "score": 80,
         "date": "2026-01-11",
         "url": "https://www.rottentomatoes.com/m/requiem_for_a_dream"
+      }
+    },
+    "654": {
+      "imdbId": "tt0047296",
+      "imdb": {
+        "value": 8.1,
+        "votes": 182152
+      },
+      "rt": {
+        "score": 99,
+        "date": "2026-01-15",
+        "url": "https://www.rottentomatoes.com/m/on_the_waterfront"
+      }
+    },
+    "665": {
+      "imdbId": "tt0052618",
+      "imdb": {
+        "value": 8.1,
+        "votes": 274432
+      },
+      "rt": {
+        "score": 87,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/benhur"
       }
     },
     "670": {
@@ -745,6 +901,42 @@
         "url": "https://www.rottentomatoes.com/m/shining"
       }
     },
+    "703": {
+      "imdbId": "tt0075686",
+      "imdb": {
+        "value": 7.9,
+        "votes": 293326
+      },
+      "rt": {
+        "score": 97,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/annie_hall"
+      }
+    },
+    "705": {
+      "imdbId": "tt0042192",
+      "imdb": {
+        "value": 8.2,
+        "votes": 151079
+      },
+      "rt": {
+        "score": 99,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/1000626-all_about_eve"
+      }
+    },
+    "746": {
+      "imdbId": "tt0093389",
+      "imdb": {
+        "value": 7.7,
+        "votes": 121432
+      },
+      "rt": {
+        "score": 87,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/last_emperor"
+      }
+    },
     "769": {
       "imdbId": "tt0099685",
       "imdb": {
@@ -757,6 +949,42 @@
         "url": "https://www.rottentomatoes.com/m/1032176-goodfellas"
       }
     },
+    "770": {
+      "imdbId": "tt0031381",
+      "imdb": {
+        "value": 8.2,
+        "votes": 359951
+      },
+      "rt": {
+        "score": 90,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/gone_with_the_wind"
+      }
+    },
+    "783": {
+      "imdbId": "tt0083987",
+      "imdb": {
+        "value": 8,
+        "votes": 247520
+      },
+      "rt": {
+        "score": 89,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/gandhi"
+      }
+    },
+    "792": {
+      "imdbId": "tt0091763",
+      "imdb": {
+        "value": 8,
+        "votes": 479071
+      },
+      "rt": {
+        "score": 89,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/platoon"
+      }
+    },
     "807": {
       "imdbId": "tt0114369",
       "imdb": {
@@ -767,6 +995,18 @@
         "score": 84,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/seven"
+      }
+    },
+    "826": {
+      "imdbId": "tt0050212",
+      "imdb": {
+        "value": 8.1,
+        "votes": 252499
+      },
+      "rt": {
+        "score": 96,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/bridge_on_the_river_kwai"
       }
     },
     "857": {
@@ -803,6 +1043,30 @@
         "score": 100,
         "date": "2026-01-15",
         "url": "https://www.rottentomatoes.com/m/singin_in_the_rain"
+      }
+    },
+    "874": {
+      "imdbId": "tt0060665",
+      "imdb": {
+        "value": 7.7,
+        "votes": 40957
+      },
+      "rt": {
+        "score": 89,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1013162-man_for_all_seasons"
+      }
+    },
+    "887": {
+      "imdbId": "tt0036868",
+      "imdb": {
+        "value": 8.1,
+        "votes": 77477
+      },
+      "rt": {
+        "score": 97,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/best_years_of_our_lives"
       }
     },
     "901": {
@@ -889,6 +1153,18 @@
         "url": "https://www.rottentomatoes.com/m/paths_of_glory"
       }
     },
+    "1051": {
+      "imdbId": "tt0067116",
+      "imdb": {
+        "value": 7.6,
+        "votes": 153123
+      },
+      "rt": {
+        "score": 96,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/french_connection"
+      }
+    },
     "1124": {
       "imdbId": "tt0482571",
       "imdb": {
@@ -899,6 +1175,18 @@
         "score": 77,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/prestige"
+      }
+    },
+    "1366": {
+      "imdbId": "tt0075148",
+      "imdb": {
+        "value": 8.1,
+        "votes": 705749
+      },
+      "rt": {
+        "score": 91,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/1017776-rocky"
       }
     },
     "1422": {
@@ -913,6 +1201,18 @@
         "url": "https://www.rottentomatoes.com/m/departed"
       }
     },
+    "1574": {
+      "imdbId": "tt0299658",
+      "imdb": {
+        "value": 7.2,
+        "votes": 259329
+      },
+      "rt": {
+        "score": 86,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/chicago"
+      }
+    },
     "1585": {
       "imdbId": "tt0038650",
       "imdb": {
@@ -923,6 +1223,30 @@
         "score": 94,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/its_a_wonderful_life"
+      }
+    },
+    "1640": {
+      "imdbId": "tt0375679",
+      "imdb": {
+        "value": 7.7,
+        "votes": 465243
+      },
+      "rt": {
+        "score": 74,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/1144992-crash"
+      }
+    },
+    "1725": {
+      "imdbId": "tt0055614",
+      "imdb": {
+        "value": 7.6,
+        "votes": 129141
+      },
+      "rt": {
+        "score": 92,
+        "date": "2023-08-07",
+        "url": "https://www.rottentomatoes.com/m/west_side_story"
       }
     },
     "1891": {
@@ -949,6 +1273,18 @@
         "url": "https://www.rottentomatoes.com/m/star_wars_episode_vi_return_of_the_jedi"
       }
     },
+    "1934": {
+      "imdbId": "tt0138097",
+      "imdb": {
+        "value": 7.1,
+        "votes": 244865
+      },
+      "rt": {
+        "score": 92,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/shakespeare_in_love"
+      }
+    },
     "2034": {
       "imdbId": "tt0139654",
       "imdb": {
@@ -961,6 +1297,42 @@
         "url": "https://www.rottentomatoes.com/m/training_day"
       }
     },
+    "2769": {
+      "imdbId": "tt0043278",
+      "imdb": {
+        "value": 7.1,
+        "votes": 39920
+      },
+      "rt": {
+        "score": 95,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/american_in_paris"
+      }
+    },
+    "2897": {
+      "imdbId": "tt0048960",
+      "imdb": {
+        "value": 6.7,
+        "votes": 32504
+      },
+      "rt": {
+        "score": 72,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1001193-around_the_world_in_80_days"
+      }
+    },
+    "3078": {
+      "imdbId": "tt0025316",
+      "imdb": {
+        "value": 8.1,
+        "votes": 120954
+      },
+      "rt": {
+        "score": 98,
+        "date": "2026-02-17",
+        "url": "https://www.rottentomatoes.com/m/it_happened_one_night"
+      }
+    },
     "3082": {
       "imdbId": "tt0027977",
       "imdb": {
@@ -971,6 +1343,18 @@
         "score": 98,
         "date": "2025-01-19",
         "url": "https://www.rottentomatoes.com/m/modern_times"
+      }
+    },
+    "3116": {
+      "imdbId": "tt0064665",
+      "imdb": {
+        "value": 7.8,
+        "votes": 133306
+      },
+      "rt": {
+        "score": 89,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/midnight_cowboy"
       }
     },
     "3933": {
@@ -995,6 +1379,30 @@
         "score": 88,
         "date": "2025-01-19",
         "url": "https://www.rottentomatoes.com/m/howls_moving_castle"
+      }
+    },
+    "5769": {
+      "imdbId": "tt0057590",
+      "imdb": {
+        "value": 6.3,
+        "votes": 15589
+      },
+      "rt": {
+        "score": 81,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/tom_jones"
+      }
+    },
+    "6977": {
+      "imdbId": "tt0477348",
+      "imdb": {
+        "value": 8.2,
+        "votes": 1220461
+      },
+      "rt": {
+        "score": 93,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/no_country_for_old_men"
       }
     },
     "8355": {
@@ -1031,6 +1439,30 @@
         "score": 49,
         "date": "2022-11-29",
         "url": "https://www.rottentomatoes.com/m/twilight"
+      }
+    },
+    "9277": {
+      "imdbId": "tt0070735",
+      "imdb": {
+        "value": 8.2,
+        "votes": 307844
+      },
+      "rt": {
+        "score": 93,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/1020130-sting"
+      }
+    },
+    "9443": {
+      "imdbId": "tt0082158",
+      "imdb": {
+        "value": 7.1,
+        "votes": 71973
+      },
+      "rt": {
+        "score": 84,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/chariots_of_fire"
       }
     },
     "9479": {
@@ -1081,6 +1513,18 @@
         "url": "https://www.rottentomatoes.com/m/toy_story_3"
       }
     },
+    "10633": {
+      "imdbId": "tt0061811",
+      "imdb": {
+        "value": 7.9,
+        "votes": 92817
+      },
+      "rt": {
+        "score": 96,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/in_the_heat_of_the_night"
+      }
+    },
     "10681": {
       "imdbId": "tt0910970",
       "imdb": {
@@ -1091,6 +1535,42 @@
         "score": 95,
         "date": "2026-09-17",
         "url": "https://www.rottentomatoes.com/m/wall_e"
+      }
+    },
+    "11050": {
+      "imdbId": "tt0086425",
+      "imdb": {
+        "value": 7.4,
+        "votes": 71682
+      },
+      "rt": {
+        "score": 82,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/terms_of_endearment"
+      }
+    },
+    "11113": {
+      "imdbId": "tt0058385",
+      "imdb": {
+        "value": 7.7,
+        "votes": 108924
+      },
+      "rt": {
+        "score": 95,
+        "date": "2024-07-06",
+        "url": "https://www.rottentomatoes.com/m/my_fair_lady"
+      }
+    },
+    "11202": {
+      "imdbId": "tt0066206",
+      "imdb": {
+        "value": 7.9,
+        "votes": 114533
+      },
+      "rt": {
+        "score": 92,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/patton"
       }
     },
     "11216": {
@@ -1105,6 +1585,42 @@
         "url": "https://www.rottentomatoes.com/m/cinema_paradiso"
       }
     },
+    "11426": {
+      "imdbId": "tt0045793",
+      "imdb": {
+        "value": 7.6,
+        "votes": 55046
+      },
+      "rt": {
+        "score": 88,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/1007931-from_here_to_eternity"
+      }
+    },
+    "11778": {
+      "imdbId": "tt0077416",
+      "imdb": {
+        "value": 8.1,
+        "votes": 391077
+      },
+      "rt": {
+        "score": 86,
+        "date": "2026-01-15",
+        "url": "https://www.rottentomatoes.com/m/the_deer_hunter"
+      }
+    },
+    "12102": {
+      "imdbId": "tt0079417",
+      "imdb": {
+        "value": 7.8,
+        "votes": 168958
+      },
+      "rt": {
+        "score": 89,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/kramer_vs_kramer"
+      }
+    },
     "12153": {
       "imdbId": "tt0381707",
       "imdb": {
@@ -1115,6 +1631,42 @@
         "score": 15,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/white_chicks"
+      }
+    },
+    "12162": {
+      "imdbId": "tt0887912",
+      "imdb": {
+        "value": 7.5,
+        "votes": 501131
+      },
+      "rt": {
+        "score": 97,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/the_hurt_locker"
+      }
+    },
+    "12311": {
+      "imdbId": "tt0026752",
+      "imdb": {
+        "value": 7.6,
+        "votes": 27068
+      },
+      "rt": {
+        "score": 96,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/1014481-mutiny_on_the_bounty"
+      }
+    },
+    "12405": {
+      "imdbId": "tt1010048",
+      "imdb": {
+        "value": 8,
+        "votes": 917646
+      },
+      "rt": {
+        "score": 92,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/slumdog_millionaire"
       }
     },
     "12445": {
@@ -1165,6 +1717,18 @@
         "url": "https://www.rottentomatoes.com/m/harakiri"
       }
     },
+    "15121": {
+      "imdbId": "tt0059742",
+      "imdb": {
+        "value": 8.1,
+        "votes": 296684
+      },
+      "rt": {
+        "score": 83,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/sound_of_music"
+      }
+    },
     "15196": {
       "imdbId": "tt0088930",
       "imdb": {
@@ -1177,6 +1741,30 @@
         "url": "https://www.rottentomatoes.com/m/clue"
       }
     },
+    "15919": {
+      "imdbId": "tt0048356",
+      "imdb": {
+        "value": 7.6,
+        "votes": 31213
+      },
+      "rt": {
+        "score": 96,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1013427-marty"
+      }
+    },
+    "16619": {
+      "imdbId": "tt0081283",
+      "imdb": {
+        "value": 7.7,
+        "votes": 62901
+      },
+      "rt": {
+        "score": 89,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/ordinary_people"
+      }
+    },
     "16869": {
       "imdbId": "tt0361748",
       "imdb": {
@@ -1187,6 +1775,42 @@
         "score": 89,
         "date": "2026-01-16",
         "url": "https://www.rottentomatoes.com/m/inglourious_basterds"
+      }
+    },
+    "17281": {
+      "imdbId": "tt0051658",
+      "imdb": {
+        "value": 6.6,
+        "votes": 25254
+      },
+      "rt": {
+        "score": 88,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/gigi"
+      }
+    },
+    "17661": {
+      "imdbId": "tt0036872",
+      "imdb": {
+        "value": 7,
+        "votes": 15046
+      },
+      "rt": {
+        "score": 83,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/going_my_way"
+      }
+    },
+    "17917": {
+      "imdbId": "tt0063385",
+      "imdb": {
+        "value": 7.4,
+        "votes": 45005
+      },
+      "rt": {
+        "score": 90,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/oliver"
       }
     },
     "20352": {
@@ -1213,6 +1837,18 @@
         "url": "https://www.rottentomatoes.com/m/3_idiots"
       }
     },
+    "23383": {
+      "imdbId": "tt0040416",
+      "imdb": {
+        "value": 7.5,
+        "votes": 20205
+      },
+      "rt": {
+        "score": 96,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1009123-hamlet"
+      }
+    },
     "24428": {
       "imdbId": "tt0848228",
       "imdb": {
@@ -1223,6 +1859,30 @@
         "score": 91,
         "date": "2026-05-25",
         "url": "https://www.rottentomatoes.com/m/marvels_the_avengers"
+      }
+    },
+    "25430": {
+      "imdbId": "tt0041113",
+      "imdb": {
+        "value": 7.4,
+        "votes": 18417
+      },
+      "rt": {
+        "score": 97,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1000654-all_the_kings_men"
+      }
+    },
+    "27191": {
+      "imdbId": "tt0044672",
+      "imdb": {
+        "value": 6.5,
+        "votes": 17663
+      },
+      "rt": {
+        "score": 50,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/greatest_show_on_earth"
       }
     },
     "27205": {
@@ -1237,6 +1897,42 @@
         "url": "https://www.rottentomatoes.com/m/inception"
       }
     },
+    "27367": {
+      "imdbId": "tt0035093",
+      "imdb": {
+        "value": 7.6,
+        "votes": 21669
+      },
+      "rt": {
+        "score": 93,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/mrs_miniver"
+      }
+    },
+    "28580": {
+      "imdbId": "tt0037884",
+      "imdb": {
+        "value": 7.8,
+        "votes": 43864
+      },
+      "rt": {
+        "score": 97,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/lost_weekend"
+      }
+    },
+    "28966": {
+      "imdbId": "tt0018578",
+      "imdb": {
+        "value": 7.5,
+        "votes": 16642
+      },
+      "rt": {
+        "score": 94,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/wings"
+      }
+    },
     "30723": {
       "imdbId": "tt0088891",
       "imdb": {
@@ -1244,6 +1940,42 @@
         "votes": 1046
       },
       "rt": null
+    },
+    "33667": {
+      "imdbId": "tt0039416",
+      "imdb": {
+        "value": 7.2,
+        "votes": 19429
+      },
+      "rt": {
+        "score": 82,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/gentlemans_agreement"
+      }
+    },
+    "33680": {
+      "imdbId": "tt0022958",
+      "imdb": {
+        "value": 7.3,
+        "votes": 23025
+      },
+      "rt": {
+        "score": 87,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/grand_hotel"
+      }
+    },
+    "34106": {
+      "imdbId": "tt0030993",
+      "imdb": {
+        "value": 7.8,
+        "votes": 30852
+      },
+      "rt": {
+        "score": 94,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/you_cant_take_it_with_you_1938"
+      }
     },
     "37257": {
       "imdbId": "tt0051201",
@@ -1267,6 +1999,66 @@
         "score": 39,
         "date": "2025-01-19",
         "url": "https://www.rottentomatoes.com/m/due-date"
+      }
+    },
+    "42861": {
+      "imdbId": "tt0021746",
+      "imdb": {
+        "value": 5.8,
+        "votes": 7985
+      },
+      "rt": {
+        "score": 50,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/1004177-cimarron"
+      }
+    },
+    "43266": {
+      "imdbId": "tt0033729",
+      "imdb": {
+        "value": 7.7,
+        "votes": 29757
+      },
+      "rt": {
+        "score": 93,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/how_green_was_my_valley"
+      }
+    },
+    "43277": {
+      "imdbId": "tt0027698",
+      "imdb": {
+        "value": 6.6,
+        "votes": 9967
+      },
+      "rt": {
+        "score": 71,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/the_great_ziegfeld"
+      }
+    },
+    "43278": {
+      "imdbId": "tt0029146",
+      "imdb": {
+        "value": 7.1,
+        "votes": 10183
+      },
+      "rt": {
+        "score": 92,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/life_of_emile_zola"
+      }
+    },
+    "45269": {
+      "imdbId": "tt1504320",
+      "imdb": {
+        "value": 8,
+        "votes": 738395
+      },
+      "rt": {
+        "score": 94,
+        "date": "2026-01-16",
+        "url": "https://www.rottentomatoes.com/m/the_kings_speech"
       }
     },
     "46738": {
@@ -1293,6 +2085,18 @@
         "url": "https://www.rottentomatoes.com/m/the_dark_knight_rises"
       }
     },
+    "56164": {
+      "imdbId": "tt0023876",
+      "imdb": {
+        "value": 5.7,
+        "votes": 6810
+      },
+      "rt": {
+        "score": 66,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/cavalcade"
+      }
+    },
     "57165": {
       "imdbId": "tt1646987",
       "imdb": {
@@ -1317,6 +2121,18 @@
         "url": "https://www.rottentomatoes.com/m/a_separation_2011"
       }
     },
+    "65203": {
+      "imdbId": "tt0019729",
+      "imdb": {
+        "value": 5.5,
+        "votes": 9257
+      },
+      "rt": {
+        "score": 42,
+        "date": "2024-08-14",
+        "url": "https://www.rottentomatoes.com/m/broadway_melody"
+      }
+    },
     "68718": {
       "imdbId": "tt1853728",
       "imdb": {
@@ -1327,6 +2143,42 @@
         "score": 87,
         "date": "2022-11-29",
         "url": "https://www.rottentomatoes.com/m/django_unchained_2012"
+      }
+    },
+    "68734": {
+      "imdbId": "tt1024648",
+      "imdb": {
+        "value": 7.7,
+        "votes": 675367
+      },
+      "rt": {
+        "score": 96,
+        "date": "2026-02-17",
+        "url": "https://www.rottentomatoes.com/m/argo_2012"
+      }
+    },
+    "74643": {
+      "imdbId": "tt1655442",
+      "imdb": {
+        "value": 7.8,
+        "votes": 256842
+      },
+      "rt": {
+        "score": 95,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/the_artist"
+      }
+    },
+    "76203": {
+      "imdbId": "tt2024544",
+      "imdb": {
+        "value": 8.1,
+        "votes": 797422
+      },
+      "rt": {
+        "score": 95,
+        "date": "2026-01-15",
+        "url": "https://www.rottentomatoes.com/m/12_years_a_slave"
       }
     },
     "76341": {
@@ -1449,6 +2301,18 @@
         "url": "https://www.rottentomatoes.com/m/interstellar_2014"
       }
     },
+    "194662": {
+      "imdbId": "tt2562232",
+      "imdb": {
+        "value": 7.7,
+        "votes": 705694
+      },
+      "rt": {
+        "score": 91,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/birdman_2014"
+      }
+    },
     "205596": {
       "imdbId": "tt2084970",
       "imdb": {
@@ -1517,6 +2381,18 @@
         "url": "https://www.rottentomatoes.com/m/avengers_infinity_war"
       }
     },
+    "314365": {
+      "imdbId": "tt1895587",
+      "imdb": {
+        "value": 8.1,
+        "votes": 542901
+      },
+      "rt": {
+        "score": 97,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/spotlight_2015"
+      }
+    },
     "324857": {
       "imdbId": "tt4633694",
       "imdb": {
@@ -1577,6 +2453,18 @@
         "url": "https://www.rottentomatoes.com/m/your_name_2017"
       }
     },
+    "376867": {
+      "imdbId": "tt4975722",
+      "imdb": {
+        "value": 7.4,
+        "votes": 357290
+      },
+      "rt": {
+        "score": 98,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/moonlight_2016"
+      }
+    },
     "381284": {
       "imdbId": "tt4846340",
       "imdb": {
@@ -1599,6 +2487,18 @@
         "score": 95,
         "date": "2024-08-14",
         "url": "https://www.rottentomatoes.com/m/train_to_busan"
+      }
+    },
+    "399055": {
+      "imdbId": "tt5580390",
+      "imdb": {
+        "value": 7.3,
+        "votes": 481974
+      },
+      "rt": {
+        "score": 92,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/the_shape_of_water_2017"
       }
     },
     "414419": {
@@ -1693,6 +2593,18 @@
         "url": "https://www.rottentomatoes.com/m/joker_2019"
       }
     },
+    "490132": {
+      "imdbId": "tt6966692",
+      "imdb": {
+        "value": 8.2,
+        "votes": 709750
+      },
+      "rt": {
+        "score": 77,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/green_book"
+      }
+    },
     "496243": {
       "imdbId": "tt6751668",
       "imdb": {
@@ -1717,6 +2629,18 @@
         "url": "https://www.rottentomatoes.com/m/deadpool_and_wolverine"
       }
     },
+    "545611": {
+      "imdbId": "tt6710474",
+      "imdb": {
+        "value": 7.7,
+        "votes": 665072
+      },
+      "rt": {
+        "score": 93,
+        "date": "2025-10-08",
+        "url": "https://www.rottentomatoes.com/m/everything_everywhere_all_at_once"
+      }
+    },
     "549509": {
       "imdbId": "tt8999762",
       "imdb": {
@@ -1739,6 +2663,18 @@
         "score": 95,
         "date": "2024-01-30",
         "url": "https://www.rottentomatoes.com/m/spider_man_across_the_spider_verse"
+      }
+    },
+    "581734": {
+      "imdbId": "tt9770150",
+      "imdb": {
+        "value": 7.3,
+        "votes": 223185
+      },
+      "rt": {
+        "score": 93,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/nomadland"
       }
     },
     "587370": {
@@ -1805,6 +2741,18 @@
       },
       "rt": null
     },
+    "776503": {
+      "imdbId": "tt10366460",
+      "imdb": {
+        "value": 8,
+        "votes": 234246
+      },
+      "rt": {
+        "score": 94,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/coda_2021"
+      }
+    },
     "791523": {
       "imdbId": "tt2056785",
       "imdb": {
@@ -1859,6 +2807,18 @@
         "score": 75,
         "date": "2025-11-19",
         "url": "https://www.rottentomatoes.com/m/the_accountant_2"
+      }
+    },
+    "872585": {
+      "imdbId": "tt15398776",
+      "imdb": {
+        "value": 8.2,
+        "votes": 1109038
+      },
+      "rt": {
+        "score": 93,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/oppenheimer_2023"
       }
     },
     "911430": {
@@ -1948,6 +2908,30 @@
         "votes": 3882
       },
       "rt": null
+    },
+    "1054867": {
+      "imdbId": "tt30144839",
+      "imdb": {
+        "value": 7.6,
+        "votes": 454574
+      },
+      "rt": {
+        "score": 94,
+        "date": "2025-11-19",
+        "url": "https://www.rottentomatoes.com/m/one_battle_after_another"
+      }
+    },
+    "1064213": {
+      "imdbId": "tt28607951",
+      "imdb": {
+        "value": 7.4,
+        "votes": 312942
+      },
+      "rt": {
+        "score": 93,
+        "date": "2025-07-03",
+        "url": "https://www.rottentomatoes.com/m/anora"
+      }
     },
     "1081003": {
       "imdbId": "tt8814476",
