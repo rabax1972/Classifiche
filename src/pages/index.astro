@@ -17,30 +17,36 @@ const cards = CATEGORY_IDS.map((id) => {
   return { id, period: 'oggi' as PeriodId, chart: null, view: null };
 });
 
-// Le liste da avere, precedute dai film della scheda "IMDb Top 100" della pagina Film (uguale per tutti i periodi).
-const imdb = getChart('film', 'oggi')?.views.find((v) => v.sources[0] === 'imdb');
+// Le liste da avere, precedute dai film delle schede "IMDb Top 100" e "Oscar al miglior film" della pagina Film (uguali per tutti i periodi).
+const filmViews = getChart('film', 'oggi')?.views ?? [];
 const filmPage = href('film/oggi');
+const filmBlocks = [
+  { key: 'imdb', title: 'I 100 film che devi aver visto', source: 'IMDb Top 100' },
+  { key: 'oscar', title: "I film premiati con l'Oscar al miglior film", source: 'Dal più recente, Wikidata' },
+].flatMap(({ key, title, source }) => {
+  const view = filmViews.find((v) => v.tabKey === key);
+  if (!view) return [];
+  return [
+    {
+      id: `film-${key}`,
+      title,
+      source,
+      path: `${filmPage}#${key}`,
+      poster: true,
+      more: `Tutti i ${view.entries.length} film`,
+      entries: view.entries.slice(0, 6).map((e) => ({
+        rank: e.rank,
+        title: e.title,
+        creator: movieSubtitle(e.subtitle).directors ?? '',
+        cover: getMovieInfo(e.key)?.poster ?? e.cover,
+        // Apre la scheda del film nella pagina Film (src/lib/dialogs.ts).
+        href: `${filmPage}#film=${encodeURIComponent(e.key)}`,
+      })),
+    },
+  ];
+});
 const blocks = [
-  ...(imdb
-    ? [
-        {
-          id: 'film-imdb',
-          title: 'I 100 film che devi aver visto',
-          source: 'IMDb Top 100',
-          path: `${filmPage}#imdb`,
-          poster: true,
-          label: 'film',
-          entries: imdb.entries.slice(0, 6).map((e) => ({
-            rank: e.rank,
-            title: e.title,
-            creator: movieSubtitle(e.subtitle).directors ?? '',
-            cover: getMovieInfo(e.key)?.poster ?? e.cover,
-            // Apre la scheda del film nella pagina Film (src/lib/dialogs.ts).
-            href: `${filmPage}#film=${encodeURIComponent(e.key)}`,
-          })),
-        },
-      ]
-    : []),
+  ...filmBlocks,
   ...[
     { list: getCuratedList('album-da-avere'), poster: false, label: 'album' },
     { list: getCuratedList('libri-da-avere'), poster: true, label: 'libri' },
@@ -50,7 +56,7 @@ const blocks = [
     source: list.listSource,
     path: href(list.path),
     poster,
-    label,
+    more: `Tutti i 100 ${label}`,
     entries: list.entries.slice(0, 6).map((e) => ({ rank: e.rank, title: e.title, creator: e.creator, cover: e.cover, href: `${href(list.path)}#n${e.rank}` })),
   })),
 ];
@@ -112,7 +118,7 @@ const blocks = [
   </div>
 
   {
-    blocks.map(({ id, title, source, path, poster, label, entries }) => (
+    blocks.map(({ id, title, source, path, poster, more, entries }) => (
       <section class="mt-10 rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900" aria-labelledby={`h-${id}`}>
         <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
           <h2 id={`h-${id}`} class="text-xl font-bold">
@@ -143,7 +149,7 @@ const blocks = [
           ))}
         </ol>
         <a href={path} class="text-sm font-semibold text-indigo-700 hover:underline dark:text-indigo-300">
-          Tutti i 100 {label} →
+          {more} →
         </a>
       </section>
     ))

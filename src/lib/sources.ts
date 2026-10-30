@@ -81,6 +81,12 @@ export const SOURCES: Record<string, SourceInfo> = {
     homepage: 'https://www.wikidata.org/',
     attribution: 'Tomatometer di Rotten Tomatoes dei film, come riportato da Wikidata (dati CC0).',
   },
+  oscar: {
+    id: 'oscar',
+    name: 'Oscar',
+    homepage: 'https://www.oscars.org/oscars/ceremonies',
+    attribution: 'Vincitori dell\'Oscar al miglior film: elenco da Wikidata (CC0), con il link alla cerimonia sul sito dell\'Academy.',
+  },
   imdb: {
     id: 'imdb',
     name: 'IMDb',

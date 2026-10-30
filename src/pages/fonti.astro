@@ -10,7 +10,7 @@ const used = (sourceId: string) =>
     (c) => CATEGORIES[c].snapshotSources.includes(sourceId) || Object.values(CATEGORIES[c].officialFor).some((o) => o.source === sourceId),
   )
     .map((c) => CATEGORIES[c].label)
-    .concat(sourceId === 'imdb' || sourceId === 'wikidata' ? ['Cinema', 'Film'] : []);
+    .concat(sourceId === 'imdb' || sourceId === 'wikidata' ? ['Cinema', 'Film'] : sourceId === 'oscar' ? ['Film'] : []);
 ---
 
 <Base title="Fonti e metodo" current="fonti">
@@ -42,6 +42,11 @@ const used = (sourceId: string) =>
           (il sito di IMDb non consente la raccolta automatica dei dati) con la formula storica della Top 250: media bayesiana del voto con almeno
           25.000 voti. IMDb non pubblica la formula attuale e toglie i titoli con voti "di campagna": per avvicinarsi, scartiamo i film con meno di
           1.000 voti su TMDB e i film per la TV. I primi 100 film sono ordinati per voto IMDb; titoli italiani, locandine e registi vengono da TMDB.
+        </li>
+        <li>
+          <strong>Oscar al miglior film</strong> (pagina Film, uguale per tutti i periodi): tutti i vincitori dalla cerimonia più recente, con
+          l'elenco di <a class="underline" href="https://www.wikidata.org/wiki/Q102427" rel="noopener" target="_blank">Wikidata</a> (dati CC0)
+          rinnovato una volta al mese; titoli italiani, locandine e registi da TMDB.
         </li>
         <li>
           <strong>Variazione</strong> (▲ ▼ nuovo): confronto con il periodo precedente della stessa durata (ieri, i 7 giorni prima, …) o con la classifica

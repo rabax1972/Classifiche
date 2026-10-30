@@ -130,7 +130,7 @@ const seenTab = category === 'film';
                 aria-controls={`panel-${i}`}
                 aria-selected={i === 0 ? 'true' : 'false'}
                 tabindex={i === 0 ? 0 : -1}
-                data-tab-key={v.sources[0] === 'imdb' || cfg.viewPerSource ? v.sources[0] : undefined}
+                data-tab-key={v.tabKey ?? (cfg.viewPerSource ? v.sources[0] : undefined)}
                 class="-mb-px border-b-2 border-transparent px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 aria-selected:border-indigo-600 aria-selected:text-indigo-700 dark:text-gray-400 dark:hover:text-white dark:aria-selected:border-indigo-400 dark:aria-selected:text-indigo-300"
               >
                 {v.label}

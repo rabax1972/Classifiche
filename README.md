@@ -41,6 +41,7 @@ Per ognuna mostra i periodi **Oggi, Settimana, Mese, Anno**. Usa solo fonti grat
   - l'"Anno" calcolato per Cinema, Film e Serie TV copre quindi gli ultimi 180 giorni;
   - anche le cache di registi e copertine scadono dopo 150 giorni.
 - **IMDb**: il robots.txt e le Conditions of Use di imdb.com vietano lo scraping, quindi le sue pagine non vengono lette. La scheda "IMDb Top 100" della pagina Film usa i [dataset non commerciali](https://developer.imdb.com/non-commercial-datasets/) (`title.ratings.tsv.gz`, uso personale e non commerciale, con attribuzione), scaricati al massimo una volta a settimana da `npm run imdb:top`: media bayesiana della Top 250 storica (almeno 25.000 voti), film riconosciuti con `/find` di TMDB (scartati quelli con meno di 1.000 voti TMDB e i film per la TV), primi 100 ordinati per voto. Risultato in `data/official/film/imdb-top.json`, aggiunto da `aggregate` a tutti i periodi di Film.
+- **Oscar al miglior film** (`npm run oscar:film`, al massimo una volta al mese): vincitori da Wikidata (SPARQL, P166 = Q102427 con data della cerimonia e ID TMDB, CC0), titoli, locandine e registi da TMDB. Risultato in `data/official/film/oscar.json`, aggiunto da `aggregate` come scheda a tutti i periodi di Film, come la IMDb Top 100.
 - **Voti IMDb e Rotten Tomatoes dei film** (`npm run ratings:film`, dopo `info:film`): ID IMDb da TMDB (`/movie/{id}/external_ids`), voto dallo stesso dataset IMDb, Tomatometer da Wikidata (SPARQL, proprietà P444 qualificata "Rotten Tomatoes", CC0). Rotten Tomatoes non ha un'API pubblica e il sito non viene letto. I film delle classifiche vanno in `data/cache/movie-ratings.json`, quelli solo del catalogo privato in `privato/film-voti.json` (fuori da git); ogni run aggiunge i nuovi, una volta a settimana li rinnova tutti.
 - **Netflix**: il robots.txt di netflix.com blocca i crawler generici. Il file TSV della Top 10 è però pubblicato da Netflix appositamente per il download. Lo scarichiamo al massimo una volta al giorno, e solo quando manca la settimana più recente.
 
@@ -59,12 +60,13 @@ npm run dev                # http://localhost:4321
 |---|---|
 | `npm run ingest` | Raccoglie le classifiche di oggi da tutte le fonti |
 | `npm run aggregate` | Ricalcola `data/charts/` dagli snapshot e dalle classifiche ufficiali |
-| `npm run update` | `ingest` + `imdb:top` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`, `ratings:film`, `info:serie`): quello che fa il cron |
+| `npm run update` | `ingest` + `imdb:top` + `oscar:film` + `aggregate` + schede delle modali (`info:canzoni`, `info:libri`, `info:film`, `ratings:film`, `info:serie`): quello che fa il cron |
 | `npm run seed` | Come `update`, più lo storico: Netflix degli ultimi 2 anni e FIMI degli ultimi 5 anni |
 | `npm run info:canzoni` | Completa le schede di brani e artisti (`-- --all` senza limite di richieste) |
 | `npm run info:libri` | Completa le schede di libri e autori e le edizioni gratuite dei libri di pubblico dominio (`-- --all` senza limite) |
 | `npm run info:film` | Completa le schede di film e registi di Cinema e Film (`-- --all` senza limite; richiede la chiave TMDB) |
 | `npm run ratings:film` | Voti IMDb e Rotten Tomatoes (Wikidata) dei film delle classifiche e del catalogo privato (`-- --force` per rinnovarli tutti) |
+| `npm run oscar:film` | Scheda "Oscar al miglior film" della pagina Film da Wikidata, se ha più di 30 giorni (`-- --force` per rifarla; richiede la chiave TMDB) |
 | `npm run imdb:top` | Scheda "IMDb Top 100" della pagina Film dai dataset IMDb, se ha più di una settimana (`-- --force` per rifarla; richiede la chiave TMDB) |
 | `npm run info:serie` | Completa le schede di serie e creatori di Serie TV e gli episodi di ogni stagione (`-- --all` senza limite; richiede la chiave TMDB) |
 | `npm run info:podcast` | Completa le schede dei podcast: genere ed episodi da Apple Podcasts, descrizione e ultimi episodi dal feed RSS (`-- --all` senza limite; scadono dopo 7 giorni) |

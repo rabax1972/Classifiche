@@ -44,7 +44,7 @@ export function officialView(charts: OfficialChart[], resolveCover?: CoverResolv
  * Classifica fissa, uguale per tutti i periodi (es. IMDb Top 100 nella pagina Film), mostrata come scheda in più.
  * Le righe restano nell'ordine e nel numero del file, senza variazioni.
  */
-export function rankingView(chart: OfficialChart, label: string, note?: string): ChartView {
+export function rankingView(chart: OfficialChart, label: string, note?: string, tabKey = chart.source): ChartView {
   return {
     kind: 'official',
     label,
@@ -53,6 +53,7 @@ export function rankingView(chart: OfficialChart, label: string, note?: string):
     from: chart.periodKey,
     to: chart.periodKey,
     note,
+    tabKey,
     entries: rankList(chart.entries, chart.entries.length),
   };
 }

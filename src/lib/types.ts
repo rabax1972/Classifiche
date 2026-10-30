@@ -77,6 +77,8 @@ export interface ChartView {
   /** Giorni con dati / giorni del periodo (solo calcolate). */
   coverage?: { days: number; expected: number };
   note?: string;
+  /** Schede uguali per tutti i periodi (es. "imdb", "oscar"): restano aperte cambiando periodo e si aprono con "#chiave". */
+  tabKey?: string;
   entries: RankedEntry[];
 }
 

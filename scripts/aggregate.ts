@@ -8,6 +8,7 @@ import { CATEGORY_IDS, PERIOD_IDS, type OfficialChart } from '../src/lib/types';
 import { ITUNES_COVER_CACHE, type ItunesCover } from './adapters/apple';
 import { COVER_CACHE, coverKey, mediaFor, type CoverLookup } from './adapters/tmdb';
 import { IMDB_TOP_FILE, IMDB_TOP_NOTE } from './imdb-top';
+import { OSCAR_FILE, OSCAR_NOTE } from './oscar-winners';
 import { MetaCache, readJson, readOfficial, readSnapshots, saveChart, todayInItaly } from './lib/store';
 
 export async function buildCharts() {
@@ -25,6 +26,9 @@ export async function buildCharts() {
   // IMDb Top 100 (scripts/imdb-top.ts): scheda in più della pagina Film, uguale per tutti i periodi.
   const imdbTop = await readJson<OfficialChart>(IMDB_TOP_FILE);
   const imdbView = imdbTop ? rankingView(imdbTop, 'IMDb Top 100', IMDB_TOP_NOTE) : null;
+  // Vincitori dell'Oscar al miglior film (scripts/oscar-winners.ts), anche questa uguale per tutti i periodi.
+  const oscar = await readJson<OfficialChart>(OSCAR_FILE);
+  const oscarView = oscar ? rankingView(oscar, 'Oscar al miglior film', OSCAR_NOTE) : null;
 
   console.log(`Aggregazione ${today}`);
   for (const category of CATEGORY_IDS) {
@@ -45,7 +49,7 @@ export async function buildCharts() {
         if (v) chart.views.push(v);
       }
       if (cfg.viewPerSource) for (const v of chart.views) v.label = sourceName(v.sources[0]!);
-      if (category === 'film' && imdbView) chart.views.push(imdbView);
+      if (category === 'film') for (const v of [imdbView, oscarView]) if (v) chart.views.push(v);
       await saveChart(chart);
       const summary = chart.views.map((v) => `${v.label}: ${v.entries.length}`).join(', ') || 'vuota';
       console.log(`- ${category}/${period}: ${summary}`);

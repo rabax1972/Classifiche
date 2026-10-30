@@ -11,7 +11,7 @@ generati da script Node e committati. Codice, commenti, testi del sito e messagg
 - `npm run dev` — sito in locale (http://localhost:4321)
 - `npm run build` — sito statico in `dist/`; `npm run typecheck` (`tsc --noEmit`, non controlla i `.astro`)
 - `npm test` — vitest; un solo file: `npx vitest run tests/aggregate.test.ts`; un solo test: `npx vitest run -t "nome del test"`
-- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `ratings:film` → `info:serie` → `info:podcast`
+- `npm run update` — quello che fa il cron giornaliero: `ingest` → `imdb:top` → `oscar:film` → `aggregate` → `info:canzoni` → `info:libri` → `info:film` → `ratings:film` → `info:serie` → `info:podcast`
 - `npm run info:<canzoni|libri|film|serie|podcast> -- --all` — schede delle modali senza budget di richieste (di default ogni run ne fa un numero limitato)
 - `npm run dist:aruba` (o `distribuzione-aruba.cmd`) — build per https://www.giacomorabaglia.com/classifiche/ in `aruba/classifiche/`,
   da caricare a mano con FileZilla (niente deploy automatico); in `aruba/modifiche/` solo i file cambiati dall'ultima pubblicazione
@@ -36,7 +36,8 @@ Pipeline dei dati (descritta in dettaglio nel README):
 1. `scripts/ingest.ts` chiama gli adapter in `scripts/adapters/` (interfaccia `SourceAdapter` in `types.ts`, registro in `index.ts`) e
    scrive `data/snapshots/{categoria}/{data}.json` (una lista per fonte) e `data/official/...` (Netflix settimanale, FIMI annuale via Wikipedia).
    Esito per fonte in `data/status.json`. `scripts/imdb-top.ts` scrive `data/official/film/imdb-top.json` (IMDb Top 100 dai dataset
-   non commerciali di IMDb, una volta a settimana; il sito imdb.com vieta lo scraping), che `aggregate` aggiunge come scheda a tutti i periodi di Film.
+   non commerciali di IMDb, una volta a settimana; il sito imdb.com vieta lo scraping), che `aggregate` aggiunge come scheda a tutti i periodi di Film; allo stesso modo `scripts/oscar-winners.ts` (`data/official/film/oscar.json`,
+   vincitori dell'Oscar al miglior film da Wikidata, una volta al mese).
 2. `scripts/aggregate.ts` usa le funzioni pure di `src/lib/aggregate.ts` e `src/lib/build.ts` (punteggio Borda su finestre mobili,
    variazioni, fallback tra fonti in ordine di priorità) e scrive `data/charts/{categoria}/{periodo}.json`.
 3. Le pagine Astro (`src/pages/[categoria]/[periodo].astro` → `src/components/ChartPage.astro`) leggono i JSON a build time

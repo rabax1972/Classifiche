@@ -4,8 +4,10 @@
 
 import { buildCharts } from './aggregate';
 import { buildImdbTop } from './imdb-top';
+import { buildOscarWinners } from './oscar-winners';
 import { ingest } from './ingest';
 
 await ingest({ seed: true });
 await buildImdbTop();
+await buildOscarWinners();
 await buildCharts();
