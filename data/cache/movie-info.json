@@ -6382,6 +6382,82 @@
     },
     "fetchedAt": "2026-10-27T04:47:40.194Z"
   },
+  "drive cuori in pista|sergej moya 2026": {
+    "value": {
+      "tmdbId": 1596275,
+      "title": "Drive - Cuori in pista",
+      "overview": "Savvy Jenkins, una meccanica determinata a farsi strada nel mondo delle corse, entra nel team di Dante Annunziata, un campione del mondo arrogante che la vede solo come una distrazione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Drive – The Pretenders",
+      "genres": [
+        "Romance",
+        "Thriller"
+      ],
+      "runtime": 103,
+      "released": "2026-10-27",
+      "vote": 7.9,
+      "votes": 44,
+      "poster": "https://image.tmdb.org/t/p/w500/9nS6pALpvYLt9LHzx2Rtb1xbtoi.jpg",
+      "directors": [
+        {
+          "id": 45689,
+          "name": "Sergej Moya"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lisa-Marie Koroll",
+          "character": "Sarah Jenkins"
+        },
+        {
+          "name": "Amin Baahmed",
+          "character": "Dante Annunziata"
+        },
+        {
+          "name": "Gustav Schmidt",
+          "character": "Ruben Laroch"
+        },
+        {
+          "name": "Mišel Matičević",
+          "character": "Alexander Bronson"
+        },
+        {
+          "name": "Lucie Heinze",
+          "character": "Tanya Stein"
+        },
+        {
+          "name": "Frederic Linkemann",
+          "character": "Jack Schroder"
+        },
+        {
+          "name": "Inka Friedrich",
+          "character": "Irene Jenkins"
+        },
+        {
+          "name": "Jeanette Hain",
+          "character": "Sofia Annunziata"
+        }
+      ],
+      "trailer": "-sV69CJwUwU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1596275-drive-the-pretenders/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T04:56:24.937Z"
+  },
   "dubbio nel buio|andrea d eredita 2026": {
     "value": {
       "tmdbId": 1791064,
@@ -32497,6 +32573,114 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.420Z"
+  },
+  "zootropolis|byron howard": {
+    "value": {
+      "tmdbId": 269149,
+      "title": "Zootropolis",
+      "overview": "Il mondo animale è cambiato: non è più diviso in due fra docili prede e feroci predatori, ma armoniosamente coabitato da entrambi. Judy è una coniglietta dalle grandi ambizioni che sogna di diventare poliziotta, poiché le è stato insegnato che tutto è possibile in questo nuovo mondo. Nick è una volpe che vive di espedienti nella capitale, Zootropolis, dove Judy, dopo un estenuante training in accademia, approda come ausiliaria del traffico. Toccherà a loro, inaspettatamente uniti, risolvere il mistero dei 14 animali scomparsi che tutta la città sta cercando e sventare i piani di chi vuole impossessarsi del potere locale, secondo l'atavico principio divide et impera.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Zootopia",
+      "genres": [
+        "Animazione",
+        "Avventura",
+        "Famiglia",
+        "Commedia"
+      ],
+      "runtime": 108,
+      "released": "2016-02-18",
+      "vote": 7.8,
+      "votes": 18681,
+      "poster": "https://image.tmdb.org/t/p/w500/AhaTwhvkPjwCeYXVEkJECyk5zkl.jpg",
+      "directors": [
+        {
+          "id": 76595,
+          "name": "Byron Howard"
+        },
+        {
+          "id": 165787,
+          "name": "Rich Moore"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ginnifer Goodwin",
+          "character": "Judy Hopps (voice)"
+        },
+        {
+          "name": "Jason Bateman",
+          "character": "Nick Wilde (voice)"
+        },
+        {
+          "name": "Idris Elba",
+          "character": "Chief Bogo (voice)"
+        },
+        {
+          "name": "Jenny Slate",
+          "character": "Bellwether (voice)"
+        },
+        {
+          "name": "Nate Torrence",
+          "character": "Clawhauser (voice)"
+        },
+        {
+          "name": "Bonnie Hunt",
+          "character": "Bonnie Hopps (voice)"
+        },
+        {
+          "name": "Don Lake",
+          "character": "Stu Hopps (voice)"
+        },
+        {
+          "name": "Tommy Chong",
+          "character": "Yax (voice)"
+        }
+      ],
+      "trailer": "VE5enrp7luI",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/269149-zootopia/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T04:56:25.007Z"
   },
   "zustissia|francesco piras 2026": {
     "value": {

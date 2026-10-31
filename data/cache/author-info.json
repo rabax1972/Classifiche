@@ -793,6 +793,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "antonio scurati": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Antonio Scurati",
+        "url": "https://it.wikipedia.org/wiki/Antonio_Scurati",
+        "extract": "Antonio Scurati (Napoli, 25 giugno 1969) è uno scrittore e giornalista italiano.\n\nÈ noto per la sua pentalogia sulla vita di Benito Mussolini e il fascismo. Il primo libro M. Il figlio del secolo, pubblicato nel 2018, vince il Premio Strega nel 2019 e ne viene tratta una serie televisiva."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Antonio_Scurati-69185.jpg/500px-Antonio_Scurati-69185.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Antonio_Scurati-69185.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/antonio-scurati/415315342",
+      "died": null
+    },
+    "fetchedAt": "2026-10-31T04:56:24.181Z"
+  },
   "arthur conan doyle": {
     "value": {
       "wiki": {
@@ -922,6 +942,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "bella di corte": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/bella-di-corte/1532950733",
+      "died": null
+    },
+    "fetchedAt": "2026-10-31T04:56:24.181Z"
   },
   "bertolt brecht": {
     "value": {
@@ -1446,6 +1475,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
+  "danielle steel": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Danielle Steel",
+        "url": "https://it.wikipedia.org/wiki/Danielle_Steel",
+        "extract": "Danielle Fernande Dominique Schuelein-Steel (New York, 14 agosto 1947) è una scrittrice statunitense.\n\nÈ una delle maggiori scrittrici di best seller del mondo. È la quinta autrice per numero di copie vendute di tutti i tempi e la prima in assoluto fra gli autori viventi. Ha venduto 650 milioni di copie dei suoi libri, tradotti in 43 lingue e diffusi in 69 Paesi."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/danielle-steel/2025376",
+      "died": null
+    },
+    "fetchedAt": "2026-10-31T04:56:24.181Z"
   },
   "dante alighieri": {
     "value": {
@@ -5568,6 +5611,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "seneca": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Lucio Anneo Seneca",
+        "url": "https://it.wikipedia.org/wiki/Lucio_Anneo_Seneca",
+        "extract": "Lucio Anneo Seneca (in latino Lucius Annaeus Seneca; Corduba, 4 a.C. – Roma, aprile 65) è stato un filosofo, drammaturgo e politico romano.\n\nNoto anche come Seneca il Giovane (per distinguerlo dal padre, Seneca il Vecchio) o semplicemente come Seneca, fu tra i massimi esponenti dello stoicismo eclettico di età imperiale (\"nuova Stoà\"). Attivo in molti campi, compresa la vita pubblica, fu senatore e questore durante l'età giulio-claudia."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Seneca-berlinantikensammlung-2_copy.jpg/500px-Seneca-berlinantikensammlung-2_copy.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Seneca-berlinantikensammlung-2_copy.jpg",
+        "author": "Calidius",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/seneca/512516",
+      "died": 65
+    },
+    "fetchedAt": "2026-10-31T04:56:24.181Z"
+  },
   "shari lapena": {
     "value": {
       "wiki": {
@@ -5913,6 +5976,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
+  "tom wood": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tom Wood (scrittore)",
+        "url": "https://it.wikipedia.org/wiki/Tom_Wood_(scrittore)",
+        "extract": "Tom Wood, pseudonimo di Tom Hinshelwood (Burton upon Trent, 1978), è uno scrittore britannico di thriller."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tom-wood/255282433",
+      "died": null
+    },
+    "fetchedAt": "2026-10-31T04:56:24.181Z"
   },
   "tracy sierra": {
     "value": {

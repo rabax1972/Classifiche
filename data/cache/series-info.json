@@ -708,6 +708,246 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.309Z"
   },
+  "arthur|marc brown 1996": {
+    "value": {
+      "tmdbId": 2153,
+      "title": "Arthur",
+      "overview": "The show revolves around the lives of 8-year-old Arthur Read, an anthropomorphic aardvark, his friends and family, and their daily interactions with each other.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Kids",
+        "Famiglia"
+      ],
+      "episodeRuntime": 13,
+      "firstAired": "1996-10-07",
+      "lastAired": "2022-02-21",
+      "status": "Ended",
+      "seasons": 25,
+      "episodes": 493,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1996-10-07",
+          "episodes": 60
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1997-10-20",
+          "episodes": 40
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1998-11-16",
+          "episodes": 30
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1999-10-04",
+          "episodes": 20
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2000-09-25",
+          "episodes": 20
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2001-09-24",
+          "episodes": 20
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2002-10-08",
+          "episodes": 18
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2003-09-15",
+          "episodes": 19
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2004-12-27",
+          "episodes": 20
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2006-05-15",
+          "episodes": 19
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2007-06-25",
+          "episodes": 19
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2008-10-06",
+          "episodes": 20
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2009-10-12",
+          "episodes": 19
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2010-10-11",
+          "episodes": 20
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2011-10-10",
+          "episodes": 19
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2012-10-15",
+          "episodes": 19
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2013-11-11",
+          "episodes": 20
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2014-09-29",
+          "episodes": 19
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2015-06-02",
+          "episodes": 19
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2016-10-10",
+          "episodes": 14
+        },
+        {
+          "n": 21,
+          "name": "Stagione 21",
+          "date": "2017-10-24",
+          "episodes": 13
+        },
+        {
+          "n": 22,
+          "name": "Stagione 22",
+          "date": "2019-05-13",
+          "episodes": 8
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": "2019-09-30",
+          "episodes": 5
+        },
+        {
+          "n": 24,
+          "name": "Stagione 24",
+          "date": "2021-03-08",
+          "episodes": 5
+        },
+        {
+          "n": 25,
+          "name": "Stagione 25",
+          "date": "2022-02-21",
+          "episodes": 8
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2000-11-23",
+          "episodes": 9
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "PBS"
+      ],
+      "vote": 7,
+      "votes": 189,
+      "poster": "https://image.tmdb.org/t/p/w500/nYN8okmcsmhd4bGVcqifZ5OCumB.jpg",
+      "creators": [
+        {
+          "id": 1212865,
+          "name": "Marc Brown"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Cameron Ansell",
+          "character": "Arthur Read (voice)"
+        },
+        {
+          "name": "Jodie Resther",
+          "character": "Francine Frensky (voice)"
+        },
+        {
+          "name": "Daniel Brochu",
+          "character": "Buster Baxter (voice)"
+        },
+        {
+          "name": "Justin Bradley",
+          "character": "Arthur Read (voice)"
+        },
+        {
+          "name": "Melissa Altro",
+          "character": "Muffy Crosswire (voice)"
+        },
+        {
+          "name": "Dallas Jokic",
+          "character": "Arthur Read (voice)"
+        },
+        {
+          "name": "Tracy Braunstein",
+          "character": "Baby Kate (voice)"
+        },
+        {
+          "name": "Simon Peacock",
+          "character": "Pal (voice)"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/2153-arthur/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "The Film Club Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/kQWl83Duzyuv0V5k8dqDWxRDdxw.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.718Z"
+  },
   "below|jesse mckeown 2026": {
     "value": {
       "tmdbId": 285322,
@@ -883,6 +1123,157 @@
       }
     },
     "fetchedAt": "2026-10-21T04:53:24.987Z"
+  },
+  "beverly hills 90210|aaron spelling": {
+    "value": {
+      "tmdbId": 2025,
+      "title": "Beverly Hills 90210",
+      "overview": "Beverly Hills 90210 è una serie televisiva trasmessa negli Stati Uniti d'America tra il 1990 ed il 2000. Il 90210 del titolo si riferisce allo Zip Code (termine con cui negli USA si indica il codice di avviamento postale) della città di Beverly Hills nella contea Los Angeles. Il soggetto, all'epoca, fu originale, per la prima volta infatti una serie televisiva si propose di raccontare gli adolescenti per quello che erano affrontando temi delicati come droga, AIDS, sessualità e alcolismo. La serie seguiva le vicissitudini di un gruppo di adolescenti dell'alta borghesia, abitanti nel quartiere VIP di Beverly Hills, a Los Angeles.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Beverly Hills, 90210",
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 88,
+      "firstAired": "1990-10-04",
+      "lastAired": "2000-05-17",
+      "status": "Ended",
+      "seasons": 10,
+      "episodes": 284,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1990-10-04",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1991-07-11",
+          "episodes": 28
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1992-07-15",
+          "episodes": 29
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1993-09-08",
+          "episodes": 31
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1994-09-07",
+          "episodes": 31
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1995-09-13",
+          "episodes": 31
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1996-08-21",
+          "episodes": 31
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1997-09-10",
+          "episodes": 30
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1998-09-16",
+          "episodes": 26
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1999-09-08",
+          "episodes": 25
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1993-05-26",
+          "episodes": 22
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "FOX"
+      ],
+      "vote": 7.3,
+      "votes": 858,
+      "poster": "https://image.tmdb.org/t/p/w500/b7BYfkhu653D894krwGO1ysIKTf.jpg",
+      "creators": [
+        {
+          "id": 28715,
+          "name": "Aaron Spelling"
+        },
+        {
+          "id": 47915,
+          "name": "Darren Star"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jennie Garth",
+          "character": "Kelly Taylor"
+        },
+        {
+          "name": "Jason Priestley",
+          "character": "Brandon Walsh"
+        },
+        {
+          "name": "Ian Ziering",
+          "character": "Steve Sanders"
+        },
+        {
+          "name": "Shannen Doherty",
+          "character": "Brenda Walsh"
+        },
+        {
+          "name": "Luke Perry",
+          "character": "Dylan McKay"
+        },
+        {
+          "name": "Brian Austin Green",
+          "character": "David Silver"
+        },
+        {
+          "name": "Tori Spelling",
+          "character": "Donna Martin"
+        },
+        {
+          "name": "Joe E. Tata",
+          "character": "Nat Bussichio"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/2025-beverly-hills-90210/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.462Z"
   },
   "bleach|2004": {
     "value": {
@@ -1901,6 +2292,169 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.205Z"
+  },
+  "colombo|william link": {
+    "value": {
+      "tmdbId": 873,
+      "title": "Colombo",
+      "overview": "Colombo (Columbo) è una serie televisiva statunitense di genere poliziesco interpretata da Peter Falk e prodotto negli Stati Uniti dal 1968 al 2003. La serie venne premiata quattro volte con l'Emmy Award; vi hanno partecipato molti attori noti quali Leonard Nimoy o Donald Pleasence e alcuni episodi sono stati diretti da famosi registi come Steven Spielberg, Ben Gazzara o Jonathan Demme.\n\nIn Italia è esordita il 16 novembre 1974 su TV Koper-Capodistria e tre anni dopo, dal 6 luglio 1977, esordisce anche su Rai 2; qualche anno dopo le nuovi stagioni vennero trasmesse per le prima volta su Rete 4. Nei decenni a seguire è stata replicata più volte, in particolare sui canali Mediaset.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Columbo",
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 88,
+      "firstAired": "1971-09-15",
+      "lastAired": "2003-01-30",
+      "status": "Ended",
+      "seasons": 10,
+      "episodes": 67,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1971-09-15",
+          "episodes": 7
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1972-09-17",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1973-09-23",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1974-09-15",
+          "episodes": 6
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1975-09-14",
+          "episodes": 6
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1976-10-10",
+          "episodes": 3
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1977-11-21",
+          "episodes": 5
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1989-02-06",
+          "episodes": 4
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1989-11-25",
+          "episodes": 6
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1990-12-09",
+          "episodes": 14
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1968-02-20",
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "ABC",
+        "NBC"
+      ],
+      "vote": 8.1,
+      "votes": 879,
+      "poster": "https://image.tmdb.org/t/p/w500/zoDPuOKJn0cfAqAvlcI5PfM75hY.jpg",
+      "creators": [
+        {
+          "id": 42058,
+          "name": "William Link"
+        },
+        {
+          "id": 42057,
+          "name": "Richard Levinson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Peter Falk",
+          "character": "Lt. Columbo"
+        },
+        {
+          "name": "Martin Sheen",
+          "character": "Karl Lessing"
+        },
+        {
+          "name": "Robert Walden",
+          "character": "Billy Fine"
+        },
+        {
+          "name": "Tisha Sterling",
+          "character": "Linda Johnson"
+        },
+        {
+          "name": "Danny Goldman",
+          "character": "Press Photographer"
+        },
+        {
+          "name": "Gregory Sierra",
+          "character": "Lou D'Allessandro"
+        },
+        {
+          "name": "Robert Walker Jr.",
+          "character": "Neil Cahill"
+        },
+        {
+          "name": "Johnny Cash",
+          "character": "Tommy Brown"
+        }
+      ],
+      "trailer": "8ZOHmz3bfAI",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/873-columbo/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.647Z"
   },
   "crew girl|stagione 1": {
     "value": {
@@ -2921,6 +3475,153 @@
       }
     },
     "fetchedAt": "2026-10-19T04:48:50.516Z"
+  },
+  "detective monk|andy breckman 2002": {
+    "value": {
+      "tmdbId": 1695,
+      "title": "Detective Monk",
+      "overview": "Adrian Monk è un detective del dipartimento di polizia di San Francisco. In seguito all'omicidio di sua moglie, ha vissuto per tre anni e mezzo in isolamento prima di tornare alla sua professione grazie all'infermiera Sharona Fleming, ma l'esperienza gli ha lasciato una profonda angoscia che si manifesta in molte fobie. Queste ossessioni, comunque, lo aiutano a risolvere molti casi. Quando non collabora con la polizia, cerca di ottenere informazioni sulla morte di sua moglie. Nel corso della serie, ha due assistenti (Sharona e, in seguito, Natalie Teeger). Ha anche un fratello e alla fine della serie scoprirà di avere anche una figliastra, figlia della moglie defunta.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Monk",
+      "genres": [
+        "Dramma",
+        "Commedia",
+        "Crime",
+        "Mistero"
+      ],
+      "episodeRuntime": 43,
+      "firstAired": "2002-07-12",
+      "lastAired": "2009-12-04",
+      "status": "Ended",
+      "seasons": 8,
+      "episodes": 124,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2002-07-12",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2003-06-20",
+          "episodes": 16
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2004-06-18",
+          "episodes": 16
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2005-07-08",
+          "episodes": 16
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2006-07-07",
+          "episodes": 16
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2007-07-13",
+          "episodes": 16
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2008-07-18",
+          "episodes": 16
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2009-08-07",
+          "episodes": 16
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": null,
+          "episodes": 30
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "USA Network"
+      ],
+      "vote": 7.9,
+      "votes": 1339,
+      "poster": "https://image.tmdb.org/t/p/w500/3axGMbUecXXOPSeG47v2i9wK5y5.jpg",
+      "creators": [
+        {
+          "id": 55373,
+          "name": "Andy Breckman"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tony Shalhoub",
+          "character": "Adrian Monk"
+        },
+        {
+          "name": "Ted Levine",
+          "character": "Leland Stottlemeyer"
+        },
+        {
+          "name": "Jason Gray-Stanford",
+          "character": "Randall Disher"
+        },
+        {
+          "name": "Traylor Howard",
+          "character": "Natalie Teeger"
+        },
+        {
+          "name": "Bitty Schram",
+          "character": "Sharona Fleming"
+        },
+        {
+          "name": "Stanley Kamel",
+          "character": "Charles Kroger"
+        },
+        {
+          "name": "Stephen McHattie",
+          "character": "Adam Kirk"
+        },
+        {
+          "name": "Polly Draper",
+          "character": "Rita Bronwyn"
+        }
+      ],
+      "trailer": "HQFrNB4LcrE",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1695-monk/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.642Z"
   },
   "dr house medical division|david shore 2004": {
     "value": {
@@ -4667,6 +5368,151 @@
     },
     "fetchedAt": "2026-10-21T04:53:24.986Z"
   },
+  "how i met your mother|craig thomas": {
+    "value": {
+      "tmdbId": 1100,
+      "title": "How I Met Your Mother",
+      "overview": "Nell'anno 2030 Ted Mosby, un affermato architetto, inizia a raccontare ai suoi due figli gli eventi che, a partire da venticinque anni prima, lo hanno portato a conoscere quella che sarebbe diventata la sua futura moglie e loro madre. Ted inizia così a ricordare di quando, nel 2005, era soltanto un giovane single a New York, ancora alla ricerca dell'anima gemella. All'epoca viveva insieme ai suoi storici amici Marshall Eriksen e Lily Aldrin, una giovane coppia di innamorati, fidanzati dai tempi del college. La loro combriccola era completata da Barney Stinson, un ricco e impenitente donnaiolo conosciuto per caso. Ted inizia il suo racconto dal giorno in cui ha conosciuto Robin Scherbatsky, una ragazza canadese appena arrivata in città, reporter in una piccola emittente televisiva locale, che presto si unisce al loro gruppo e con la quale il giovane instaura un complicato rapporto di amicizia/amore.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 22,
+      "firstAired": "2005-09-19",
+      "lastAired": "2014-03-31",
+      "status": "Ended",
+      "seasons": 9,
+      "episodes": 208,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2005-09-19",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2006-09-18",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2007-09-24",
+          "episodes": 20
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2008-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2009-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2010-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2011-09-19",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2012-09-24",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2013-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2006-11-20",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "CBS"
+      ],
+      "vote": 8.1,
+      "votes": 6036,
+      "poster": "https://image.tmdb.org/t/p/w500/oJW0sau22MUlEE6NxlGO7eTCFKf.jpg",
+      "creators": [
+        {
+          "id": 1217224,
+          "name": "Craig Thomas"
+        },
+        {
+          "id": 1217221,
+          "name": "Carter Bays"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Josh Radnor",
+          "character": "Ted Mosby"
+        },
+        {
+          "name": "Neil Patrick Harris",
+          "character": "Barney Stinson"
+        },
+        {
+          "name": "Jason Segel",
+          "character": "Marshall Eriksen"
+        },
+        {
+          "name": "Alyson Hannigan",
+          "character": "Lily Aldrin"
+        },
+        {
+          "name": "Cobie Smulders",
+          "character": "Robin Scherbatsky"
+        },
+        {
+          "name": "Cristin Milioti",
+          "character": "Tracy McConnell"
+        },
+        {
+          "name": "Abby Elliott",
+          "character": "Jeanette Peterson"
+        },
+        {
+          "name": "Becki Newton",
+          "character": "Quinn Garvey"
+        }
+      ],
+      "trailer": "cjJLEYMzpjc",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1100-how-i-met-your-mother/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.288Z"
+  },
   "i griffin|seth macfarlane 1999": {
     "value": {
       "tmdbId": 1434,
@@ -6284,6 +7130,131 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.426Z"
   },
+  "la leggenda di korra|bryan konietzko": {
+    "value": {
+      "tmdbId": 33880,
+      "title": "La leggenda di Korra",
+      "overview": "Un'avatar in grado di controllare gli elementi lotta per proteggere la sua città dalle forze oscure del mondo fisico e di quello spirituale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Legend of Korra",
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 23,
+      "firstAired": "2012-04-14",
+      "lastAired": "2014-12-18",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 52,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1 - Libro Primo: Aria",
+          "date": "2012-04-14",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2 - Libro Secondo: Spiriti",
+          "date": "2013-09-13",
+          "episodes": 14
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3 - Libro Terzo: Cambiamento",
+          "date": "2014-06-27",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4 - Libro Quarto: Equilibrio",
+          "date": "2014-10-03",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2013-08-09",
+          "episodes": 47
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Nickelodeon"
+      ],
+      "vote": 8.2,
+      "votes": 2473,
+      "poster": "https://image.tmdb.org/t/p/w500/13FjyHQSi1HhUpTqS8nKd06eJmy.jpg",
+      "creators": [
+        {
+          "id": 1190518,
+          "name": "Bryan Konietzko"
+        },
+        {
+          "id": 1190517,
+          "name": "Michael Dante DiMartino"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Janet Varney",
+          "character": "Korra (voice)"
+        },
+        {
+          "name": "David Faustino",
+          "character": "Mako (voice)"
+        },
+        {
+          "name": "P.J. Byrne",
+          "character": "Bolin (voice)"
+        },
+        {
+          "name": "Seychelle Gabriel",
+          "character": "Asami Sato (voice)"
+        },
+        {
+          "name": "Mindy Sterling",
+          "character": "Lin Beifong (voice)"
+        },
+        {
+          "name": "Adrian LaTourelle",
+          "character": "Unalaq (voice)"
+        },
+        {
+          "name": "Henry Rollins",
+          "character": "Zaheer (voice)"
+        },
+        {
+          "name": "J.K. Simmons",
+          "character": "Tenzin (voice)"
+        }
+      ],
+      "trailer": "obb1e7fiGLw",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/33880-the-legend-of-korra/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.824Z"
+  },
   "la vita segreta delle mogli mormoni|2024": {
     "value": {
       "tmdbId": 261102,
@@ -7643,6 +8614,116 @@
     },
     "fetchedAt": "2026-10-28T05:07:57.200Z"
   },
+  "marco e star contro le forze del male|daron nefcy 2015": {
+    "value": {
+      "tmdbId": 61923,
+      "title": "Marco e Star contro le forze del male",
+      "overview": "Star Butterfly, la principessa da un'altra dimensione, si scontra con nemici da tutto l'universo per proteggere la sua bacchetta magica che sta ancora imparando ad utilizzare.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Star vs. the Forces of Evil",
+      "genres": [
+        "Action & Adventure",
+        "Animazione",
+        "Commedia",
+        "Sci-Fi & Fantasy",
+        "Famiglia"
+      ],
+      "episodeRuntime": 11,
+      "firstAired": "2015-01-18",
+      "lastAired": "2019-05-19",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 140,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2015-01-18",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2016-07-11",
+          "episodes": 41
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2017-07-15",
+          "episodes": 38
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2019-03-10",
+          "episodes": 37
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Disney XD",
+        "Disney Channel"
+      ],
+      "vote": 8.4,
+      "votes": 1536,
+      "poster": "https://image.tmdb.org/t/p/w500/nkB2nnTTjNJ8ypyY65lHMDBYq7S.jpg",
+      "creators": [
+        {
+          "id": 1416299,
+          "name": "Daron Nefcy"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Eden Sher",
+          "character": "Star Butterfly (voice)"
+        },
+        {
+          "name": "Adam McArthur",
+          "character": "Marco Diaz (voice)"
+        },
+        {
+          "name": "Alan Tudyk",
+          "character": "Ludo / King River Butterfly (voice)"
+        },
+        {
+          "name": "Alex Hirsch",
+          "character": "Ben Fotino (voice)"
+        },
+        {
+          "name": "Justin Roiland",
+          "character": "Doop-Doop (voice)"
+        },
+        {
+          "name": "Jessica Paré",
+          "character": "Chloe (voice)"
+        },
+        {
+          "name": "Isabella Gómez",
+          "character": "Teenage Mariposa (voice)"
+        },
+        {
+          "name": "Bryana Salaz",
+          "character": "Teenage Meteora (voice)"
+        }
+      ],
+      "trailer": "fnEDKISvZZ0",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/61923-star-vs-the-forces-of-evil/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.026Z"
+  },
   "mindhunter|joe penhall 2017": {
     "value": {
       "tmdbId": 67744,
@@ -7966,6 +9047,117 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.507Z"
+  },
+  "mob psycho 100|2016": {
+    "value": {
+      "tmdbId": 67075,
+      "title": "Mob Psycho 100",
+      "overview": "Shigeo Kageyama, soprannominato \"Mob\" per la sua totale incapacità di farsi notare, è un liceale dotato di devastanti poteri psichici. Per evitare di perdere il controllo e scatenare il suo potenziale al 100%, il ragazzo reprime ogni emozione, lavorando part-time per il sedicente esorcista Reigen Arataka. Tra spiriti maligni e organizzazioni nemiche, Mob cercherà faticosamente di condurre una vita normale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "モブサイコ100",
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Commedia",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 24,
+      "firstAired": "2016-07-12",
+      "lastAired": "2022-12-22",
+      "status": "Ended",
+      "seasons": 3,
+      "episodes": 37,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2016-07-12",
+          "episodes": 12
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-01-07",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2022-10-06",
+          "episodes": 12
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2016-09-28",
+          "episodes": 9
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "TOKYO MX"
+      ],
+      "vote": 8.5,
+      "votes": 1396,
+      "poster": "https://image.tmdb.org/t/p/w500/aFcv9zeJtSbJHSYUlQCOQYV3Gio.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "伊藤節生",
+          "character": "Shigeo 'Mob' Kageyama (voice)"
+        },
+        {
+          "name": "Takahiro Sakurai",
+          "character": "Arataka Reigen (voice)"
+        },
+        {
+          "name": "Miyu Irino",
+          "character": "Ritsu Kageyama (voice)"
+        },
+        {
+          "name": "Akio Ōtsuka",
+          "character": "Dimple (voice)"
+        },
+        {
+          "name": "Keiji Fujiwara",
+          "character": "Boss (voice)"
+        },
+        {
+          "name": "野瀬育二",
+          "character": "Takenaka (voice)"
+        },
+        {
+          "name": "Yōji Ueda",
+          "character": "Client (voice)"
+        },
+        {
+          "name": "Ai Kayano",
+          "character": "Chihiro (voice)"
+        }
+      ],
+      "trailer": "YIezct4JGNs",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/67075-100/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Crunchyroll",
+            "logo": "https://image.tmdb.org/t/p/w92/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+          },
+          {
+            "name": "Crunchyroll Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/qHLLmKo7udRgiSnIASVTwP2IxfJ.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.563Z"
   },
   "mobland|ronan bennett 2025": {
     "value": {
@@ -9247,6 +10439,137 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.214Z"
+  },
+  "orange is the new black|jenji kohan 2013": {
+    "value": {
+      "tmdbId": 1424,
+      "title": "Orange Is the New Black",
+      "overview": "Dovendo fare i conti con un crimine commesso in passato, un'agiata newyorkese finisce in un carcere femminile dove troverà amici e nemici.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Commedia",
+        "Crime"
+      ],
+      "episodeRuntime": 90,
+      "firstAired": "2013-07-11",
+      "lastAired": "2019-07-26",
+      "status": "Ended",
+      "seasons": 7,
+      "episodes": 91,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2013-07-11",
+          "episodes": 13
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-06-06",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2015-06-11",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2016-06-17",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2017-06-09",
+          "episodes": 13
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2018-07-27",
+          "episodes": 13
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2019-07-26",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2014-05-13",
+          "episodes": 20
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.6,
+      "votes": 2936,
+      "poster": "https://image.tmdb.org/t/p/w500/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
+      "creators": [
+        {
+          "id": 1214409,
+          "name": "Jenji Kohan"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Taylor Schilling",
+          "character": "Piper Chapman"
+        },
+        {
+          "name": "Laura Prepon",
+          "character": "Alex Vause"
+        },
+        {
+          "name": "Kate Mulgrew",
+          "character": "Galina 'Red' Reznikov"
+        },
+        {
+          "name": "Natasha Lyonne",
+          "character": "Nicky Nichols"
+        },
+        {
+          "name": "Michelle Hurst",
+          "character": "Miss Claudette Pelage"
+        },
+        {
+          "name": "Selenis Leyva",
+          "character": "Gloria Mendoza"
+        },
+        {
+          "name": "Elizabeth Rodriguez",
+          "character": "Aleida Diaz"
+        },
+        {
+          "name": "Dascha Polanco",
+          "character": "Dayanara Diaz"
+        }
+      ],
+      "trailer": "vY0qzXi5oJg",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1424-orange-is-the-new-black/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.941Z"
   },
   "paw patrol la squadra dei cuccioli|keith chapman 2013": {
     "value": {
@@ -10772,6 +12095,151 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.370Z"
   },
+  "seinfeld|jerry seinfeld": {
+    "value": {
+      "tmdbId": 1400,
+      "title": "Seinfeld",
+      "overview": "Jerry Seinfeld è un comico newyorkese dalla personalità nevrotica. Nelle vicende quotidiane, è accompagnato dall'amico George Costanza, sempre sull'orlo della bancarotta e un disastro con le donne, il bizzarro vicino Cosmo Kramer ed Elaine, ex fidanzata di Jerry e sua migliore amica.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 28,
+      "firstAired": "1989-07-05",
+      "lastAired": "1998-05-14",
+      "status": "Ended",
+      "seasons": 9,
+      "episodes": 180,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1989-07-05",
+          "episodes": 5
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1991-01-23",
+          "episodes": 12
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1991-09-18",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1992-08-12",
+          "episodes": 24
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1993-09-16",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1994-09-22",
+          "episodes": 24
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1995-09-21",
+          "episodes": 24
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1996-09-19",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1997-09-25",
+          "episodes": 24
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2004-11-25",
+          "episodes": 163
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC"
+      ],
+      "vote": 8.2,
+      "votes": 2496,
+      "poster": "https://image.tmdb.org/t/p/w500/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+      "creators": [
+        {
+          "id": 16377,
+          "name": "Jerry Seinfeld"
+        },
+        {
+          "id": 16376,
+          "name": "Larry David"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jerry Seinfeld",
+          "character": "Jerry Seinfeld"
+        },
+        {
+          "name": "Jason Alexander",
+          "character": "George Costanza"
+        },
+        {
+          "name": "Michael Richards",
+          "character": "Cosmo Kramer"
+        },
+        {
+          "name": "Julia Louis-Dreyfus",
+          "character": "Elaine Benes"
+        },
+        {
+          "name": "Barbara Stock",
+          "character": "Scam Woman"
+        },
+        {
+          "name": "Mariska Hargitay",
+          "character": "Melissa (Elaine)"
+        },
+        {
+          "name": "Carol Kane",
+          "character": "Corinne"
+        },
+        {
+          "name": "Judge Reinhold",
+          "character": "Aaron"
+        }
+      ],
+      "trailer": "hQXKyIG_NS4",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1400-seinfeld/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.457Z"
+  },
   "sesamo apriti|lloyd morrisett": {
     "value": {
       "tmdbId": 502,
@@ -11384,6 +12852,128 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.283Z"
+  },
+  "sherlock|mark gatiss": {
+    "value": {
+      "tmdbId": 19885,
+      "title": "Sherlock",
+      "overview": "La serie è un libero adattamento dei romanzi e dei racconti di Sir Arthur Conan Doyle e vede come protagonista il detective Sherlock Holmes, affiancato dal suo amico e assistente, il dottor John Watson. Le avventure dei due si svolgono però nella Londra odierna, e non in quella presentata da Doyle. Watson è un reduce della guerra in Afghanistan e deve ancora ritrovare il suo posto nella società. Quando un amico gli suggerisce di trovarsi un coinquilino con cui dividere le spese di un appartamento, si ritrova a vivere con l'eccentrico Holmes, che col passare degli anni diventerà suo compagno di vita. Sono state realizzate quattro stagioni, ognuna delle quali composta da tre episodi, un mini episodio e un episodio speciale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 90,
+      "firstAired": "2010-07-25",
+      "lastAired": "2017-01-15",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 12,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-07-25",
+          "episodes": 3
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-01-01",
+          "episodes": 3
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2014-01-01",
+          "episodes": 3
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2017-01-01",
+          "episodes": 3
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-08-30",
+          "episodes": 9
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "BBC One"
+      ],
+      "vote": 8.5,
+      "votes": 6796,
+      "poster": "https://image.tmdb.org/t/p/w500/3BR7M4QGfX9Z0QhHtXBJ7SnBJU6.jpg",
+      "creators": [
+        {
+          "id": 34546,
+          "name": "Mark Gatiss"
+        },
+        {
+          "id": 146459,
+          "name": "Steven Moffat"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Benedict Cumberbatch",
+          "character": "Sherlock Holmes"
+        },
+        {
+          "name": "Martin Freeman",
+          "character": "John Watson"
+        },
+        {
+          "name": "Una Stubbs",
+          "character": "Mrs. Hudson"
+        },
+        {
+          "name": "Rupert Graves",
+          "character": "DI Greg Lestrade"
+        },
+        {
+          "name": "Louise Brealey",
+          "character": "Molly Hooper"
+        },
+        {
+          "name": "Mark Gatiss",
+          "character": "Mycroft Holmes"
+        },
+        {
+          "name": "Andrew Scott",
+          "character": "Jim Moriarty"
+        },
+        {
+          "name": "Jonathan Aris",
+          "character": "Dr Anderson"
+        }
+      ],
+      "trailer": "gGqWqGOSTGQ",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/19885-sherlock/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.029Z"
   },
   "slow horses|2022": {
     "value": {
@@ -12544,6 +14134,149 @@
     },
     "fetchedAt": "2026-10-27T04:51:32.688Z"
   },
+  "the 100|jason rothenberg 2014": {
+    "value": {
+      "tmdbId": 48866,
+      "title": "The 100",
+      "overview": "97 anni dopo una guerra nucleare globale che ha sconvolto il pianeta Terra, ciò che rimane del genere umano è una stazione spaziale, l'Arca, formata dalle 13 stazioni spaziali che si trovavano in orbita al momento del disastro. L'Arca ha leggi molto severe e chi trasgredisce viene punito con la morte per espulsione nel vuoto. Con l'aumento della popolazione e con il rapido deteriorarsi degli impianti di riciclo, i rappresentanti del governo decidono di inviare sulla Terra cento delinquenti. Questi giovani ragazzi intraprenderanno un viaggio molto pericoloso per cercare di ripopolare il Pianeta e creare una nuova comunità.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "2014-03-19",
+      "lastAired": "2020-09-30",
+      "status": "Ended",
+      "seasons": 7,
+      "episodes": 100,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2014-03-19",
+          "episodes": 13
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-10-22",
+          "episodes": 16
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2016-01-21",
+          "episodes": 16
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2017-02-01",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2018-04-24",
+          "episodes": 13
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2019-04-30",
+          "episodes": 13
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2020-05-20",
+          "episodes": 16
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "The CW"
+      ],
+      "vote": 7.9,
+      "votes": 8848,
+      "poster": "https://image.tmdb.org/t/p/w500/wHIMMLFsk32wIzDmawWkYVbxFCS.jpg",
+      "creators": [
+        {
+          "id": 1258670,
+          "name": "Jason Rothenberg"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Eliza Taylor",
+          "character": "Clarke Griffin"
+        },
+        {
+          "name": "Bob Morley",
+          "character": "Bellamy Blake"
+        },
+        {
+          "name": "Lindsey Morgan",
+          "character": "Raven Reyes"
+        },
+        {
+          "name": "Marie Avgeropoulos",
+          "character": "Octavia Blake"
+        },
+        {
+          "name": "Thomas McDonell",
+          "character": "Finn Collins"
+        },
+        {
+          "name": "Richard Harmon",
+          "character": "John Murphy"
+        },
+        {
+          "name": "Tasya Teles",
+          "character": "Echo"
+        },
+        {
+          "name": "Luisa d'Oliveira",
+          "character": "Emori"
+        }
+      ],
+      "trailer": "aDrsItJ_HU4",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/48866-the-100/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.767Z"
+  },
   "the bear|christopher storer 2022": {
     "value": {
       "tmdbId": 136315,
@@ -13377,6 +15110,244 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.521Z"
   },
+  "the last kingdom|stephen butchard 2015": {
+    "value": {
+      "tmdbId": 63333,
+      "title": "The Last Kingdom",
+      "overview": "Mentre Alfred il Grande difende il suo regno dagli invasori scandinavi, Uhtred, nato sassone ma allevato dai vichinghi, rivendica il suo diritto di nascita.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "War & Politics"
+      ],
+      "episodeRuntime": 60,
+      "firstAired": "2015-10-10",
+      "lastAired": "2022-03-09",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 46,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2015-10-10",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2017-03-16",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2018-11-19",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2020-04-26",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2022-03-09",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2017-03-08",
+          "episodes": 1
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix",
+        "BBC Two"
+      ],
+      "vote": 8.3,
+      "votes": 2075,
+      "poster": "https://image.tmdb.org/t/p/w500/8eJf0hxgIhE6QSxbtuNCekTddy1.jpg",
+      "creators": [
+        {
+          "id": 1240815,
+          "name": "Stephen Butchard"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alexander Dreymon",
+          "character": "Uhtred of Bebbanburg"
+        },
+        {
+          "name": "Emily Cox",
+          "character": "Brida"
+        },
+        {
+          "name": "David Dawson",
+          "character": "Alfred"
+        },
+        {
+          "name": "Eliza Butterworth",
+          "character": "Aelswith"
+        },
+        {
+          "name": "Thomas W. Gabrielsson",
+          "character": "Guthrum"
+        },
+        {
+          "name": "Mark Rowley",
+          "character": "Finan"
+        },
+        {
+          "name": "Ruby Hartley",
+          "character": "Stiorra"
+        },
+        {
+          "name": "Harry McEntire",
+          "character": "Aethelwold"
+        }
+      ],
+      "trailer": "NNBNX34mO34",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/63333-the-last-kingdom/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.385Z"
+  },
+  "the last of us|neil druckmann": {
+    "value": {
+      "tmdbId": 100088,
+      "title": "The Last of Us",
+      "overview": "Vent'anni dopo la distruzione della civiltà moderna, Joel, uno scaltro sopravvissuto, viene incaricato di far uscire la quattordicenne Ellie da una zona di quarantena sotto stretta sorveglianza. Quello che inizia come un lavoro relativamente facile si trasforma presto in un viaggio brutale e straziante, poiché i due si troveranno a dover attraversare insieme gli Stati Uniti e a dipendere l'uno dall'altra per sopravvivere.",
+      "overviewLang": "it",
+      "tagline": "Quando ti perdi nell'oscurità, cerca la luce",
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 50,
+      "firstAired": "2023-01-15",
+      "lastAired": "2025-05-25",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 16,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2023-01-15",
+          "episodes": 9
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2025-04-13",
+          "episodes": 7
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "HBO"
+      ],
+      "vote": 8.4,
+      "votes": 7450,
+      "poster": "https://image.tmdb.org/t/p/w500/u0xTEHOd8pw6SLGRL5fZyDpoaew.jpg",
+      "creators": [
+        {
+          "id": 1295692,
+          "name": "Neil Druckmann"
+        },
+        {
+          "id": 35796,
+          "name": "Craig Mazin"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Bella Ramsey",
+          "character": "Ellie Williams"
+        },
+        {
+          "name": "Gabriel Luna",
+          "character": "Tommy Miller"
+        },
+        {
+          "name": "Isabela Merced",
+          "character": "Dina"
+        },
+        {
+          "name": "Young Mazino",
+          "character": "Jesse"
+        },
+        {
+          "name": "Pedro Pascal",
+          "character": "Joel Miller"
+        },
+        {
+          "name": "John Hannah",
+          "character": "Dr. Newman - Scientist #2"
+        },
+        {
+          "name": "Josh Brener",
+          "character": "Murray"
+        },
+        {
+          "name": "Christopher Heyerdahl",
+          "character": "Dr. Schoenheist - Scientist #1"
+        }
+      ],
+      "trailer": "uLtkt8BonwM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/100088-the-last-of-us/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.837Z"
+  },
   "the mentalist|bruno heller 2008": {
     "value": {
       "tmdbId": 5920,
@@ -13920,6 +15891,162 @@
     },
     "fetchedAt": "2026-10-21T04:53:25.352Z"
   },
+  "the vampire diaries|julie plec": {
+    "value": {
+      "tmdbId": 18165,
+      "title": "The Vampire Diaries",
+      "overview": "The Vampire Diaries è una serie televisiva statunitense di genere fantasy creata da Kevin Williamson e Julie Plec, che ha debuttato il 10 settembre 2009 sul network The CW. È basata sull'omonima serie di libri di Lisa Jane Smith, dal titolo italiano Il diario del vampiro.\n\nLa protagonista è Elena Gilbert, una normale ragazza adolescente che vive a Mystic Falls, in Virginia. La sua vita viene sconvolta quando scopre che il suo ragazzo, Stefan Salvatore, è un vampiro, e che è stata adottata. Stefan si accorge che Elena è identica alla prima donna della sua vita, la vampira che trasformò lui e suo fratello Damon Salvatore nel 1864: Katherine Pierce. I due fratelli si innamorano anche di Elena ed entrano a far parte della sua vita. Il loro scopo è proteggerla dal vampiro Originale Klaus e da altre forze che ambiscono al pieno controllo della ragazza, che ha scoperto di essere un essere soprannaturale, più precisamente una doppelgänger di Amara, il primo essere immortale insieme a Silas, di cui lo stesso Stefan è doppelgänger. Vengono spesso coinvolti anche gli amici e i compagni di Elena per via della loro soprannaturalità.\n\nLa serie ha ricevuto un'ottima accoglienza da parte del pubblico, vincendo quattro People's Choice Awards, uno nel 2010, uno nel 2012 e due nel 2014, e ventuno Teen Choice Awards, sette nel 2010, cinque nel 2011, sei nel 2012 e tre nel 2013.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 43,
+      "firstAired": "2009-09-10",
+      "lastAired": "2017-03-10",
+      "status": "Ended",
+      "seasons": 8,
+      "episodes": 171,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-09-10",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-09-09",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-09-15",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2012-10-11",
+          "episodes": 23
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2013-10-03",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2014-10-02",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2015-10-08",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2016-10-21",
+          "episodes": 16
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2009-08-24",
+          "episodes": 54
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "The CW"
+      ],
+      "vote": 8.3,
+      "votes": 9820,
+      "poster": "https://image.tmdb.org/t/p/w500/gbp4zM0FE0n23X4UFY5EBlacrog.jpg",
+      "creators": [
+        {
+          "id": 1214616,
+          "name": "Julie Plec"
+        },
+        {
+          "id": 26458,
+          "name": "Kevin Williamson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Nina Dobrev",
+          "character": "Elena Gilbert / Katherine Pierce"
+        },
+        {
+          "name": "Paul Wesley",
+          "character": "Stefan Salvatore"
+        },
+        {
+          "name": "Ian Somerhalder",
+          "character": "Damon Salvatore"
+        },
+        {
+          "name": "Steven R. McQueen",
+          "character": "Jeremy Gilbert"
+        },
+        {
+          "name": "Sara Canning",
+          "character": "Jenna Sommers"
+        },
+        {
+          "name": "Kat Graham",
+          "character": "Bonnie Bennett"
+        },
+        {
+          "name": "Candice King",
+          "character": "Caroline Forbes"
+        },
+        {
+          "name": "Zach Roerig",
+          "character": "Matt Donovan"
+        }
+      ],
+      "trailer": "RO3Qp_XdR0w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/18165-the-vampire-diaries/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.342Z"
+  },
   "the walking dead|frank darabont 2010": {
     "value": {
       "tmdbId": 1402,
@@ -14090,6 +16217,143 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.238Z"
+  },
+  "true detective|nic pizzolatto": {
+    "value": {
+      "tmdbId": 46648,
+      "title": "True Detective",
+      "overview": "Le storie di alcuni detective della polizia e della loro lotta per la cattura dei criminali attraverso metodi non convenzionali. Mentre lavorano ai casi più complicati, gli agenti cercano di affrontare i propri demoni personali.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 76,
+      "firstAired": "2014-01-12",
+      "lastAired": "2024-02-18",
+      "status": "Returning Series",
+      "seasons": 5,
+      "episodes": 30,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2014-01-12",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2015-06-21",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2019-01-13",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2024-01-14",
+          "episodes": 6
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2014-01-07",
+          "episodes": 5
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "HBO"
+      ],
+      "vote": 8.3,
+      "votes": 4446,
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "creators": [
+        {
+          "id": 1281190,
+          "name": "Nic Pizzolatto"
+        },
+        {
+          "id": 964037,
+          "name": "Issa López"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "character": "Rust Cohle"
+        },
+        {
+          "name": "Jodie Foster",
+          "character": "Liz Danvers"
+        },
+        {
+          "name": "Kali Reis",
+          "character": "Evangeline Navarro"
+        },
+        {
+          "name": "Fiona Shaw",
+          "character": "Rose Aguineau"
+        },
+        {
+          "name": "Colin Farrell",
+          "character": "Ray Velcoro"
+        },
+        {
+          "name": "Finn Bennett",
+          "character": "Peter Prior"
+        },
+        {
+          "name": "Isabella Star LaBlanc",
+          "character": "Leah Danvers"
+        },
+        {
+          "name": "Mahershala Ali",
+          "character": "Wayne Hays"
+        }
+      ],
+      "trailer": "fVQUcaO4AvE",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/46648-true-detective/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.644Z"
   },
   "tulsa king|taylor sheridan 2022": {
     "value": {
@@ -14274,6 +16538,137 @@
       }
     },
     "fetchedAt": "2026-10-21T04:53:25.456Z"
+  },
+  "vikings|michael hirst 2013": {
+    "value": {
+      "tmdbId": 44217,
+      "title": "Vikings",
+      "overview": "L'eroe Ragnar Lothbrok ha l'obiettivo di estendere il regno vichingo, sfidando un re privo di ambizioni.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "War & Politics"
+      ],
+      "episodeRuntime": 51,
+      "firstAired": "2013-03-03",
+      "lastAired": "2020-12-30",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 89,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2013-03-03",
+          "episodes": 9
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-02-27",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2015-02-19",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2016-02-18",
+          "episodes": 20
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2017-11-29",
+          "episodes": 20
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2019-12-04",
+          "episodes": 20
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2013-02-25",
+          "episodes": 31
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Prime Video",
+        "History"
+      ],
+      "vote": 8.1,
+      "votes": 7976,
+      "poster": "https://image.tmdb.org/t/p/w500/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+      "creators": [
+        {
+          "id": 37631,
+          "name": "Michael Hirst"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Travis Fimmel",
+          "character": "Ragnar Lothbrok"
+        },
+        {
+          "name": "Alex Høgh Andersen",
+          "character": "Ivar Lothbrok / Ivar the Boneless"
+        },
+        {
+          "name": "Gustaf Skarsgård",
+          "character": "Floki"
+        },
+        {
+          "name": "Jordan Patrick Smith",
+          "character": "Ubbe Lothbrok"
+        },
+        {
+          "name": "Clive Standen",
+          "character": "Rollo"
+        },
+        {
+          "name": "Marco Ilsø",
+          "character": "Hvitserk Lothbrok"
+        },
+        {
+          "name": "Katheryn Winnick",
+          "character": "Lagertha"
+        },
+        {
+          "name": "Gabriel Byrne",
+          "character": "Earl Haraldson"
+        }
+      ],
+      "trailer": "7rcozIVtujw",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/44217-vikings/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.545Z"
   },
   "visionquest|terry matalas 2026": {
     "value": {
@@ -14838,5 +17233,336 @@
       }
     },
     "fetchedAt": "2026-10-22T04:49:41.153Z"
+  },
+  "wwe nxt|paul levesque": {
+    "value": {
+      "tmdbId": 31991,
+      "title": "WWE NXT",
+      "overview": "Wrestlers will portray heroes or villains as they follow a series of events that build tension and culminate in a wrestling match or series of matches.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "Reality"
+      ],
+      "episodeRuntime": 120,
+      "firstAired": "2010-02-23",
+      "lastAired": "2026-10-20",
+      "status": "Returning Series",
+      "seasons": 20,
+      "episodes": 905,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2010-02-23",
+          "episodes": 15
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-06-08",
+          "episodes": 13
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2010-09-07",
+          "episodes": 13
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2010-12-07",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2011-03-08",
+          "episodes": 67
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2012-06-20",
+          "episodes": 28
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2013-01-02",
+          "episodes": 52
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2014-01-01",
+          "episodes": 52
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2015-01-01",
+          "episodes": 53
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2016-01-06",
+          "episodes": 51
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2017-01-04",
+          "episodes": 52
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2018-01-03",
+          "episodes": 52
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2019-01-02",
+          "episodes": 57
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2020-01-01",
+          "episodes": 58
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2021-01-06",
+          "episodes": 57
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2022-01-04",
+          "episodes": 57
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2023-01-03",
+          "episodes": 58
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2024-01-02",
+          "episodes": 53
+        },
+        {
+          "n": 19,
+          "name": "Stagione 19",
+          "date": "2025-01-07",
+          "episodes": 52
+        },
+        {
+          "n": 20,
+          "name": "Stagione 20",
+          "date": "2026-01-06",
+          "episodes": 52
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-11-04",
+        "season": 20,
+        "episode": 44
+      },
+      "networks": [
+        "USA Network",
+        "The CW",
+        "Syfy"
+      ],
+      "vote": 6.7,
+      "votes": 133,
+      "poster": "https://image.tmdb.org/t/p/w500/9nLBX5Bf7PW4FAaWJLXpFFdeTlV.jpg",
+      "creators": [
+        {
+          "id": 115788,
+          "name": "Paul Levesque"
+        },
+        {
+          "id": 57342,
+          "name": "Vince McMahon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Josh Lomberger",
+          "character": "Josh Mathews"
+        },
+        {
+          "name": "Michael Coulthard",
+          "character": "Micheal Cole"
+        },
+        {
+          "name": "Nhooph Al-Areebi",
+          "character": "ALIYAH"
+        },
+        {
+          "name": "Thomas Hannifan",
+          "character": "Tom Phillips"
+        },
+        {
+          "name": "Levi Cooper",
+          "character": "MR. Tucker Knight"
+        },
+        {
+          "name": "Brie Garcia",
+          "character": null
+        },
+        {
+          "name": "Nikki Garcia",
+          "character": null
+        },
+        {
+          "name": "Trinity Fatu",
+          "character": null
+        }
+      ],
+      "trailer": "c_hKd04nruM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/31991-wwe-nxt/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:27.220Z"
+  },
+  "you|greg berlanti": {
+    "value": {
+      "tmdbId": 78191,
+      "title": "You",
+      "overview": "Un uomo pericolosamente carismatico e ossessivo ricorre a misure estreme per entrare nelle vite delle donne che lo affascinano.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Mistero",
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 54,
+      "firstAired": "2018-09-09",
+      "lastAired": "2025-04-24",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 50,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-09-09",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-12-26",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2021-10-15",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2023-02-09",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2025-04-24",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Lifetime",
+        "Netflix"
+      ],
+      "vote": 8,
+      "votes": 4133,
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+      "creators": [
+        {
+          "id": 88967,
+          "name": "Greg Berlanti"
+        },
+        {
+          "id": 1225899,
+          "name": "Sera Gamble"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Penn Badgley",
+          "character": "Joe Goldberg"
+        },
+        {
+          "name": "Elizabeth Lail",
+          "character": "Guinevere Beck"
+        },
+        {
+          "name": "Charlotte Ritchie",
+          "character": "Kate Galvin"
+        },
+        {
+          "name": "Victoria Pedretti",
+          "character": "Love Quinn"
+        },
+        {
+          "name": "Griffin Matthews",
+          "character": "Teddy Lockwood"
+        },
+        {
+          "name": "Anna Camp",
+          "character": "Maddie Lockwood / Reagan Lockwood"
+        },
+        {
+          "name": "Saffron Burrows",
+          "character": "Dottie Quinn"
+        },
+        {
+          "name": "Tati Gabrielle",
+          "character": "Marienne Bellamy"
+        }
+      ],
+      "trailer": "TYeCEXeqa7o",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/78191-you/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T05:00:26.769Z"
   }
 }

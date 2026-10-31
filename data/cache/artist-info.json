@@ -20,6 +20,14 @@
     },
     "fetchedAt": "2026-10-17T07:57:23.849Z"
   },
+  "9x21": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/9x21/1662711309"
+    },
+    "fetchedAt": "2026-10-31T04:55:24.327Z"
+  },
   "achille lauro": {
     "value": {
       "wiki": {
@@ -454,6 +462,14 @@
     },
     "fetchedAt": "2026-10-17T07:59:18.229Z"
   },
+  "darie baby": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/darie-baby/1523767731"
+    },
+    "fetchedAt": "2026-10-31T04:55:15.391Z"
+  },
   "dystinct": {
     "value": {
       "wiki": {
@@ -594,6 +610,19 @@
       "appleUrl": "https://music.apple.com/it/artist/fedez/341339650"
     },
     "fetchedAt": "2026-10-17T07:59:14.966Z"
+  },
+  "finesse": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Finesse (Bruno Mars)",
+        "url": "https://it.wikipedia.org/wiki/Finesse_(Bruno_Mars)",
+        "extract": "Finesse è un singolo del cantautore statunitense Bruno Mars, pubblicato il 4 gennaio 2018 come quinto estratto dal terzo album in studio 24K Magic.\n\nIl brano vede la partecipazione della rapper statunitense Cardi B."
+      },
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/finesse/1673700933"
+    },
+    "fetchedAt": "2026-10-31T04:55:35.492Z"
   },
   "fred de palma": {
     "value": {
@@ -879,6 +908,25 @@
     },
     "fetchedAt": "2026-10-17T07:57:02.971Z"
   },
+  "kid yugi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Kid Yugi",
+        "url": "https://it.wikipedia.org/wiki/Kid_Yugi",
+        "extract": "Kid Yugi, pseudonimo di Francesco Stasi (Massafra, 14 aprile 2001), è un rapper italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Kid_Yugi.jpg/500px-Kid_Yugi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Kid_Yugi.jpg",
+        "author": "Riccardobusato",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/kid-yugi/1577365560"
+    },
+    "fetchedAt": "2026-10-31T04:55:06.358Z"
+  },
   "lady gaga": {
     "value": {
       "wiki": {
@@ -924,6 +972,22 @@
       "appleUrl": "https://music.apple.com/it/artist/lazza/327850974"
     },
     "fetchedAt": "2026-10-17T07:59:22.984Z"
+  },
+  "lb gang": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/lb-gang/1603702606"
+    },
+    "fetchedAt": "2026-10-31T04:55:27.329Z"
+  },
+  "lil parta": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/lil-parta/1477093102"
+    },
+    "fetchedAt": "2026-10-31T04:55:18.502Z"
   },
   "luche": {
     "value": {
@@ -1260,6 +1324,14 @@
     },
     "fetchedAt": "2026-10-17T07:59:23.215Z"
   },
+  "rrari dal tacco": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/rrari-dal-tacco/1618495079"
+    },
+    "fetchedAt": "2026-10-31T04:55:09.340Z"
+  },
   "rusowsky": {
     "value": {
       "wiki": {
@@ -1381,6 +1453,14 @@
       "appleUrl": "https://music.apple.com/it/artist/sayf/1318811824"
     },
     "fetchedAt": "2026-10-17T07:57:24.857Z"
+  },
+  "scaccia": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/scaccia/665227282"
+    },
+    "fetchedAt": "2026-10-31T04:55:21.339Z"
   },
   "serena brancale": {
     "value": {
@@ -1558,6 +1638,19 @@
     },
     "fetchedAt": "2026-10-17T08:00:02.758Z"
   },
+  "tony boy": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tony Boy",
+        "url": "https://it.wikipedia.org/wiki/Tony_Boy",
+        "extract": "Tony Boy, pseudonimo di Antonio Hueber (Padova, 26 settembre 1999), è un rapper italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/tony-boy/1674144987"
+    },
+    "fetchedAt": "2026-10-31T04:55:38.380Z"
+  },
   "tormento": {
     "value": {
       "wiki": {
@@ -1595,6 +1688,19 @@
       "appleUrl": "https://music.apple.com/it/artist/tredici-pietro/1402238079"
     },
     "fetchedAt": "2026-10-17T08:00:24.990Z"
+  },
+  "tutti fenomeni": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tutti Fenomeni",
+        "url": "https://it.wikipedia.org/wiki/Tutti_Fenomeni",
+        "extract": "Tutti Fenomeni, pseudonimo di Giorgio Quarzo Guarascio (Roma, 14 dicembre 1996), è un cantautore, rapper e attore italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/tutti-fenomeni/1323064734"
+    },
+    "fetchedAt": "2026-10-31T04:55:30.317Z"
   },
   "ty1": {
     "value": {
@@ -1670,6 +1776,14 @@
       "appleUrl": "https://music.apple.com/it/artist/yorghaki/1280681802"
     },
     "fetchedAt": "2026-10-17T08:00:02.579Z"
+  },
+  "young hash": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/young-hash/390749783"
+    },
+    "fetchedAt": "2026-10-31T04:55:12.291Z"
   },
   "yung snapp": {
     "value": {

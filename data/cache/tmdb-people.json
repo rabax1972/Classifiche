@@ -155,6 +155,10 @@
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-18T17:54:28.875Z"
   },
+  "movie:1128204": {
+    "value": "Marco van Belle",
+    "fetchedAt": "2026-10-31T04:54:26.024Z"
+  },
   "movie:1130948": {
     "value": "Karim Aïnouz",
     "fetchedAt": "2026-10-24T04:43:01.214Z"
@@ -334,6 +338,10 @@
   "movie:1260649": {
     "value": "Jake Kasdan",
     "fetchedAt": "2026-10-29T04:57:38.301Z"
+  },
+  "movie:1261763": {
+    "value": "Shashank Yeleti",
+    "fetchedAt": "2026-10-31T04:54:26.192Z"
   },
   "movie:1263337": {
     "value": "David Ayer",
@@ -663,6 +671,10 @@
     "value": "Gabriel Beristain",
     "fetchedAt": "2026-10-12T07:24:56.232Z"
   },
+  "movie:1428295": {
+    "value": "Janakiram Marella",
+    "fetchedAt": "2026-10-31T04:54:26.414Z"
+  },
   "movie:1430841": {
     "value": "Alexandre Castagnetti",
     "fetchedAt": "2026-10-28T05:02:25.337Z"
@@ -915,6 +927,10 @@
     "value": "Davide Pavanello, Roan Johnson",
     "fetchedAt": "2026-10-12T07:24:33.208Z"
   },
+  "movie:1571955": {
+    "value": "Daniel Sánchez Arévalo",
+    "fetchedAt": "2026-10-31T04:54:25.688Z"
+  },
   "movie:157336": {
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-12T07:24:37.953Z"
@@ -1051,6 +1067,10 @@
     "value": "Massimiliano Bruno",
     "fetchedAt": "2026-10-28T05:02:23.237Z"
   },
+  "movie:1682906": {
+    "value": "Roberto Marra",
+    "fetchedAt": "2026-10-31T04:54:22.882Z"
+  },
   "movie:16869": {
     "value": "Quentin Tarantino",
     "fetchedAt": "2026-10-18T17:54:30.980Z"
@@ -1058,6 +1078,10 @@
   "movie:1688795": {
     "value": "Taehwan Yum",
     "fetchedAt": "2026-10-21T04:46:15.309Z"
+  },
+  "movie:1699463": {
+    "value": "Ryan Callaway",
+    "fetchedAt": "2026-10-31T04:54:25.888Z"
   },
   "movie:1712451": {
     "value": "Ryan Ebert",
@@ -1127,6 +1151,10 @@
     "value": "Yuval Abraham, Rachel Szor",
     "fetchedAt": "2026-10-12T07:24:29.639Z"
   },
+  "movie:1756307": {
+    "value": "Jason Hehir",
+    "fetchedAt": "2026-10-31T04:54:26.290Z"
+  },
   "movie:1759875": {
     "value": "Dylan King Welter",
     "fetchedAt": "2026-10-17T04:42:34.888Z"
@@ -1179,6 +1207,10 @@
     "value": "Guia Zapponi",
     "fetchedAt": "2026-10-24T04:43:00.811Z"
   },
+  "movie:1789549": {
+    "value": "Vanessa Jopp",
+    "fetchedAt": "2026-10-31T04:54:25.789Z"
+  },
   "movie:1789738": {
     "value": "Alessio Hong, Sun Lingyi",
     "fetchedAt": "2026-10-18T04:42:47.598Z"
@@ -1227,6 +1259,10 @@
     "value": "Curry Barker",
     "fetchedAt": "2026-10-30T04:58:36.837Z"
   },
+  "movie:1811964": {
+    "value": "Raghavendra Katari",
+    "fetchedAt": "2026-10-31T04:54:26.093Z"
+  },
   "movie:1891": {
     "value": "Irvin Kershner",
     "fetchedAt": "2026-10-18T17:54:26.521Z"
@@ -1270,6 +1306,10 @@
   "movie:205596": {
     "value": "Morten Tyldum",
     "fetchedAt": "2026-10-12T07:24:40.117Z"
+  },
+  "movie:213": {
+    "value": "Alfred Hitchcock",
+    "fetchedAt": "2026-10-31T04:54:23.289Z"
   },
   "movie:218": {
     "value": "James Cameron",
@@ -1875,6 +1915,10 @@
     "value": "Joss Whedon",
     "fetchedAt": "2026-10-13T04:34:36.560Z"
   },
+  "tv:100088": {
+    "value": "Neil Druckmann, Craig Mazin",
+    "fetchedAt": "2026-10-31T04:54:24.485Z"
+  },
   "tv:105009": {
     "value": null,
     "fetchedAt": "2026-10-17T04:42:35.987Z"
@@ -1894,6 +1938,10 @@
   "tv:108978": {
     "value": "Nick Santora",
     "fetchedAt": "2026-10-12T07:24:44.474Z"
+  },
+  "tv:1100": {
+    "value": "Craig Thomas, Carter Bays",
+    "fetchedAt": "2026-10-31T04:54:23.704Z"
   },
   "tv:113962": {
     "value": "Taylor Sheridan",
@@ -1999,6 +2047,10 @@
     "value": "Steven Levitan, Christopher Lloyd",
     "fetchedAt": "2026-10-12T07:24:48.442Z"
   },
+  "tv:1424": {
+    "value": "Jenji Kohan",
+    "fetchedAt": "2026-10-31T04:54:24.583Z"
+  },
   "tv:1426": {
     "value": "Neil Cross",
     "fetchedAt": "2026-10-24T04:43:01.719Z"
@@ -2035,6 +2087,10 @@
     "value": "Marta Kauffman, David Crane",
     "fetchedAt": "2026-10-20T04:51:05.802Z"
   },
+  "tv:1695": {
+    "value": "Andy Breckman",
+    "fetchedAt": "2026-10-31T04:54:23.887Z"
+  },
   "tv:17610": {
     "value": "Shane Brennan",
     "fetchedAt": "2026-10-12T07:24:51.386Z"
@@ -2067,6 +2123,10 @@
     "value": "Robert Cochran, Joel Surnow",
     "fetchedAt": "2026-10-12T07:24:51.259Z"
   },
+  "tv:19885": {
+    "value": "Mark Gatiss, Steven Moffat",
+    "fetchedAt": "2026-10-31T04:54:24.785Z"
+  },
   "tv:2004": {
     "value": "Linwood Boomer",
     "fetchedAt": "2026-10-28T05:02:24.535Z"
@@ -2074,6 +2134,10 @@
   "tv:200777": {
     "value": null,
     "fetchedAt": "2026-10-16T04:44:18.107Z"
+  },
+  "tv:2025": {
+    "value": "Aaron Spelling, Darren Star",
+    "fetchedAt": "2026-10-31T04:54:25.086Z"
   },
   "tv:203857": {
     "value": "Debora Cahn",
@@ -2106,6 +2170,14 @@
   "tv:213562": {
     "value": "Brad Caleb Kane",
     "fetchedAt": "2026-10-12T07:25:02.317Z"
+  },
+  "tv:2153": {
+    "value": "Marc Brown",
+    "fetchedAt": "2026-10-31T04:54:25.290Z"
+  },
+  "tv:215943": {
+    "value": null,
+    "fetchedAt": "2026-10-31T04:54:27.506Z"
   },
   "tv:216467": {
     "value": null,
@@ -2198,6 +2270,10 @@
   "tv:243006": {
     "value": "Gina Lucita Monreal, David J. North",
     "fetchedAt": "2026-10-29T04:57:38.793Z"
+  },
+  "tv:243555": {
+    "value": "Dharmaraj Shetty",
+    "fetchedAt": "2026-10-31T04:54:27.086Z"
   },
   "tv:243875": {
     "value": "Chuck Lorre, Steve Holland",
@@ -2415,6 +2491,10 @@
     "value": "Rowan Joffé",
     "fetchedAt": "2026-10-28T05:02:25.936Z"
   },
+  "tv:292742": {
+    "value": "Jason Ning",
+    "fetchedAt": "2026-10-31T04:54:27.684Z"
+  },
   "tv:293607": {
     "value": "류보리, 유인식",
     "fetchedAt": "2026-10-12T07:24:58.332Z"
@@ -2511,6 +2591,10 @@
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.383Z"
   },
+  "tv:306614": {
+    "value": null,
+    "fetchedAt": "2026-10-31T04:54:27.191Z"
+  },
   "tv:307106": {
     "value": "민효정",
     "fetchedAt": "2026-10-13T04:34:40.063Z"
@@ -2554,6 +2638,10 @@
   "tv:311648": {
     "value": "강은경, 주화미",
     "fetchedAt": "2026-10-16T04:44:17.179Z"
+  },
+  "tv:311853": {
+    "value": "سعيد الماروق",
+    "fetchedAt": "2026-10-31T04:54:27.387Z"
   },
   "tv:312359": {
     "value": null,
@@ -2603,6 +2691,10 @@
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.484Z"
   },
+  "tv:31991": {
+    "value": "Paul Levesque, Vince McMahon",
+    "fetchedAt": "2026-10-31T04:54:24.891Z"
+  },
   "tv:320513": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:55.922Z"
@@ -2618,6 +2710,10 @@
   "tv:321221": {
     "value": "Jeremy Garelick, Will Phelps",
     "fetchedAt": "2026-10-27T04:45:49.562Z"
+  },
+  "tv:321231": {
+    "value": "PEPA",
+    "fetchedAt": "2026-10-31T04:54:27.282Z"
   },
   "tv:321518": {
     "value": null,
@@ -2658,6 +2754,10 @@
   "tv:330370": {
     "value": null,
     "fetchedAt": "2026-10-21T04:46:17.813Z"
+  },
+  "tv:331033": {
+    "value": null,
+    "fetchedAt": "2026-10-31T04:54:26.885Z"
   },
   "tv:331693": {
     "value": "Aytaç Çiçek",
@@ -2731,6 +2831,14 @@
     "value": "Sarah Solemani, Viviane Andereggen",
     "fetchedAt": "2026-10-12T07:24:59.976Z"
   },
+  "tv:336240": {
+    "value": "Amanda Högberg, Axel Stjärne",
+    "fetchedAt": "2026-10-31T04:54:26.782Z"
+  },
+  "tv:336241": {
+    "value": null,
+    "fetchedAt": "2026-10-31T04:54:26.990Z"
+  },
   "tv:336418": {
     "value": null,
     "fetchedAt": "2026-10-13T04:34:39.961Z"
@@ -2750,6 +2858,10 @@
   "tv:338689": {
     "value": "Darren Foster, Miguel Fernández Flores",
     "fetchedAt": "2026-10-30T04:58:37.942Z"
+  },
+  "tv:33880": {
+    "value": "Bryan Konietzko, Michael Dante DiMartino",
+    "fetchedAt": "2026-10-31T04:54:24.387Z"
   },
   "tv:338848": {
     "value": null,
@@ -2803,6 +2915,10 @@
     "value": null,
     "fetchedAt": "2026-10-22T04:44:46.909Z"
   },
+  "tv:44217": {
+    "value": "Michael Hirst",
+    "fetchedAt": "2026-10-31T04:54:23.794Z"
+  },
   "tv:45140": {
     "value": null,
     "fetchedAt": "2026-10-20T04:51:05.902Z"
@@ -2839,6 +2955,10 @@
     "value": "Vince McMahon",
     "fetchedAt": "2026-10-12T07:24:47.180Z"
   },
+  "tv:46648": {
+    "value": "Nic Pizzolatto, Issa López",
+    "fetchedAt": "2026-10-31T04:54:23.985Z"
+  },
   "tv:46952": {
     "value": "Jon Bokenkamp",
     "fetchedAt": "2026-10-12T07:24:48.189Z"
@@ -2846,6 +2966,10 @@
   "tv:47663": {
     "value": "Dean Devlin",
     "fetchedAt": "2026-10-16T04:44:17.575Z"
+  },
+  "tv:48866": {
+    "value": "Jason Rothenberg",
+    "fetchedAt": "2026-10-31T04:54:24.189Z"
   },
   "tv:502": {
     "value": "Lloyd Morrisett, Joan Ganz Cooney",
@@ -2895,9 +3019,17 @@
     "value": null,
     "fetchedAt": "2026-10-25T04:46:06.597Z"
   },
+  "tv:61923": {
+    "value": "Daron Nefcy",
+    "fetchedAt": "2026-10-31T04:54:24.707Z"
+  },
   "tv:62650": {
     "value": "Dick Wolf, Matt Olmstead",
     "fetchedAt": "2026-10-15T04:42:53.642Z"
+  },
+  "tv:63333": {
+    "value": "Stephen Butchard",
+    "fetchedAt": "2026-10-31T04:54:24.983Z"
   },
   "tv:64414": {
     "value": null,
@@ -2922,6 +3054,10 @@
   "tv:66732": {
     "value": "Ross Duffer, Matt Duffer",
     "fetchedAt": "2026-10-14T04:46:01.679Z"
+  },
+  "tv:67075": {
+    "value": null,
+    "fetchedAt": "2026-10-31T04:54:25.242Z"
   },
   "tv:67744": {
     "value": "Joe Penhall",
@@ -2955,6 +3091,10 @@
     "value": "Eric Kripke",
     "fetchedAt": "2026-10-13T04:34:41.165Z"
   },
+  "tv:78191": {
+    "value": "Greg Berlanti, Sera Gamble",
+    "fetchedAt": "2026-10-31T04:54:24.288Z"
+  },
   "tv:79481": {
     "value": null,
     "fetchedAt": "2026-10-19T04:45:39.068Z"
@@ -2971,6 +3111,10 @@
     "value": "Dick Wolf, Craig Turk",
     "fetchedAt": "2026-10-12T07:24:50.352Z"
   },
+  "tv:81723": {
+    "value": "Julian Fellowes",
+    "fetchedAt": "2026-10-31T04:54:27.588Z"
+  },
   "tv:82684": {
     "value": null,
     "fetchedAt": "2026-10-17T04:42:36.297Z"
@@ -2982,6 +3126,10 @@
   "tv:84773": {
     "value": "Patrick McKay, John D. Payne",
     "fetchedAt": "2026-10-22T04:44:48.707Z"
+  },
+  "tv:873": {
+    "value": "William Link, Richard Levinson",
+    "fetchedAt": "2026-10-31T04:54:24.105Z"
   },
   "tv:90": {
     "value": "Bernard Vaillot, André Barro",

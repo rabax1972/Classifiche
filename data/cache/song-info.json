@@ -716,6 +716,18 @@
     },
     "fetchedAt": "2026-10-17T07:30:39.857Z"
   },
+  "disobbedire|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-10-30",
+      "genre": "Hip-hop",
+      "durationMs": 178994,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/disobbedire/6826288271?i=6826288474",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:54:42.613Z"
+  },
   "dtmf|bad bunny": {
     "value": {
       "album": null,
@@ -744,6 +756,40 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-17T07:29:02.267Z"
+  },
+  "eri solo da incontrare|alfa": {
+    "value": {
+      "album": "Eri solo da incontrare",
+      "released": "2026-10-30",
+      "genre": "Pop",
+      "durationMs": 178859,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/db/10/79db10bf-8be8-36ca-210d-c0999234776a/8057715138025.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/eri-solo-da-incontrare/6820638645?i=6820638803",
+      "wiki": {
+        "lang": "it",
+        "title": "Eri solo da incontrare",
+        "url": "https://it.wikipedia.org/wiki/Eri_solo_da_incontrare",
+        "extract": "Eri solo da incontrare è un singolo del cantautore italiano Alfa, pubblicato il 30 ottobre 2026 come primo estratto dal quarto album in studio Tempo al tempo."
+      }
+    },
+    "fetchedAt": "2026-10-31T04:54:51.452Z"
+  },
+  "eroina|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono",
+      "released": "2026-01-30",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 198002,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/15/82/fa15828a-c5c5-d96b-97b7-da79a79afd27/25UM1IM96916.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/eroina/1869767404?i=1869767408",
+      "wiki": {
+        "lang": "it",
+        "title": "Eroina (singolo)",
+        "url": "https://it.wikipedia.org/wiki/Eroina_(singolo)",
+        "extract": "Eroina è un singolo del rapper italiano Kid Yugi, in collaborazione con il cantautore italiano Tutti Fenomeni, pubblicato il 30 gennaio 2026 come terzo estratto dal terzo album in studio Anche gli eroi muoiono."
+      }
+    },
+    "fetchedAt": "2026-10-31T04:54:55.087Z"
   },
   "facil facil|geolier": {
     "value": {
@@ -893,6 +939,18 @@
     },
     "fetchedAt": "2026-10-17T07:35:31.009Z"
   },
+  "il mio posto nel mondo|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-10-30",
+      "genre": "Hip-hop",
+      "durationMs": 152517,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/il-mio-posto-nel-mondo/6826288271?i=6826288479",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:54:48.749Z"
+  },
   "incoscienti giovani|achille lauro": {
     "value": {
       "album": "Incoscienti Giovani",
@@ -938,6 +996,18 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-17T07:34:02.426Z"
+  },
+  "l ultimo a cadere|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-01-30",
+      "genre": "Hip-hop",
+      "durationMs": 162353,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/lultimo-a-cadere/6826288271?i=6826288679",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:54:58.793Z"
   },
   "la ballata del ragno|chris nolan": {
     "value": {
@@ -1127,6 +1197,18 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-17T07:39:18.377Z"
+  },
+  "mostro|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono",
+      "released": "2026-01-30",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 192030,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/15/82/fa15828a-c5c5-d96b-97b7-da79a79afd27/25UM1IM96916.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/mostro/1869767404?i=1869767410",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:55:04.420Z"
   },
   "movin to the sun|hugel": {
     "value": {
@@ -1426,6 +1508,18 @@
     },
     "fetchedAt": "2026-10-17T07:29:05.824Z"
   },
+  "puglia crime|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-10-30",
+      "genre": "Hip-hop",
+      "durationMs": 311091,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/puglia-crime/6826288271?i=6826288478",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:54:45.594Z"
+  },
   "quanto forte ti pensavo|madame": {
     "value": {
       "album": "L'AMORE",
@@ -1529,6 +1623,23 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-17T07:36:07.128Z"
+  },
+  "sentire la musica|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-10-30",
+      "genre": "Hip-hop",
+      "durationMs": 206210,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/sentire-la-musica/6826288271?i=6826288477",
+      "wiki": {
+        "lang": "it",
+        "title": "Sentire la musica",
+        "url": "https://it.wikipedia.org/wiki/Sentire_la_musica",
+        "extract": "Sentire la musica è un singolo del rapper italiano Kid Yugi, pubblicato il 30 ottobre 2026 come secondo estratto dall'edizione deluxe del terzo album in studio Anche gli eroi muoiono."
+      }
+    },
+    "fetchedAt": "2026-10-31T04:54:37.329Z"
   },
   "serenata|serena brancale": {
     "value": {
@@ -1662,6 +1773,18 @@
       }
     },
     "fetchedAt": "2026-10-17T07:32:06.494Z"
+  },
+  "stratos|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono Post Mortem",
+      "released": "2026-10-30",
+      "genre": "Hip-hop",
+      "durationMs": 168670,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/25/18/1925183b-b2f0-3c52-45bc-cecef1c3f04f/26UM1IM26049.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/stratos/6826288271?i=6826288464",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:54:39.992Z"
   },
   "swag music|artie 5ive": {
     "value": {
@@ -1945,5 +2068,17 @@
       }
     },
     "fetchedAt": "2026-10-17T07:38:21.647Z"
+  },
+  "zombieland|finesse": {
+    "value": {
+      "album": "Zombieland (feat. Tony Boy, Capo Plaza & Skrilla)",
+      "released": "2026-10-29",
+      "genre": "Rap",
+      "durationMs": 161143,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/a8/49/2da84990-77e5-5e86-50ce-db7b8ce3bd83/196874896501.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/zombieland-feat-tony-boy-capo-plaza-skrilla/6823584759?i=6823585034",
+      "wiki": null
+    },
+    "fetchedAt": "2026-10-31T04:55:00.638Z"
   }
 }

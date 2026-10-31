@@ -15273,6 +15273,64 @@
     },
     "fetchedAt": "2026-10-17T09:34:20.449Z"
   },
+  "rich moore": {
+    "value": {
+      "tmdbId": 165787,
+      "wiki": {
+        "lang": "it",
+        "title": "Rich Moore",
+        "url": "https://it.wikipedia.org/wiki/Rich_Moore",
+        "extract": "Rich Moore (Oxnard, 10 maggio 1963) è un regista e produttore cinematografico statunitense, partner commerciale della Rough Draft Studios, Inc.."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Rich_Moore.jpg/500px-Rich_Moore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rich_Moore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1691538,
+          "title": "Untitled Jack and the Beanstalk Film",
+          "year": null
+        },
+        {
+          "id": 404368,
+          "title": "Ralph spacca Internet",
+          "year": "2018"
+        },
+        {
+          "id": 269149,
+          "title": "Zootropolis",
+          "year": "2016"
+        },
+        {
+          "id": 570253,
+          "title": "Garlan Hulse: Where Potential Lives",
+          "year": "2013"
+        },
+        {
+          "id": 1730646,
+          "title": "Wreck-It Ralph - Bit by Bit: Creating the Worlds of Wreck-It Ralph",
+          "year": "2013"
+        },
+        {
+          "id": 82690,
+          "title": "Ralph Spaccatutto",
+          "year": "2012"
+        },
+        {
+          "id": 197233,
+          "title": "Duck Dodgers in Attack of the Drones",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T04:56:26.413Z"
+  },
   "richard attenborough": {
     "value": {
       "tmdbId": 4786,
@@ -17272,6 +17330,48 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.066Z"
+  },
+  "sergej moya": {
+    "value": {
+      "tmdbId": 45689,
+      "wiki": {
+        "lang": "en",
+        "title": "Sergej Moya",
+        "url": "https://en.wikipedia.org/wiki/Sergej_Moya",
+        "extract": "Sergej Moya (born 4 January 1988 in East Berlin) is a German actor, screenwriter and director. He won the Undine Award for Best Young Leading Actor in the 2005 film Keller – Teenage Wasteland."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/rOTaoIk2jhVLyjtsAtbbiQ5zmuQ.jpg",
+      "films": [
+        {
+          "id": 1596275,
+          "title": "Drive - Cuori in pista",
+          "year": "2026"
+        },
+        {
+          "id": 479825,
+          "title": "The Huntingtans: Chewing Gum & Love Affairs",
+          "year": "2016"
+        },
+        {
+          "id": 82023,
+          "title": "Hotel Desire",
+          "year": "2011"
+        },
+        {
+          "id": 447882,
+          "title": "Sprich mit! – Deutsch lernen ist cool!",
+          "year": "2011"
+        },
+        {
+          "id": 1310109,
+          "title": "Hollywood Drama",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T04:56:25.467Z"
   },
   "sergio leone": {
     "value": {
