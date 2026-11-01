@@ -1073,53 +1073,6 @@
     },
     "fetchedAt": "2026-10-29T05:04:59.873Z"
   },
-  "podcast:dentro il mistero": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/dentro-il-mistero/id1823679448",
-      "genres": [
-        "True crime",
-        "Storia"
-      ],
-      "episodes": 51,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/cd/2a/2fcd2a18-63bb-c96c-6808-cd7efc606572/mza_378064537378505191.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/MNTHA1677259258",
-      "description": "Un podcast di giornalismo investigativo (o true crime, se preferite) che non si limita a raccontare una storia, ma compie un'analisi di ciò che è successo. Scomponendo e ricomponendo i pezzi, le verità, le possibilità, le psicologie, per cercare una risposta a ciò che accadde, per entrare dentro il mistero.\nForse hai paura di diventare una vittima. Forse hai paura di diventare un assassino. Quello che troverai qui sono tutte le risposte possibili al perché alcuni lo divennero.\nSenza dimenticare questo: che non avremo mai tutte le risposte.\n\"Dentro il mistero\" esce ogni due settimane, di sabato, per la precisione alle 7 di mattina.\nFabio Sanvitale è un giornalista investigativo, criminologo, scrittore di true crime e docente.\nPer contatti: dentroilmistero@hotmail.com YouTube\nLinkedinInstagramFacebook\nSubstack“Dentro il Mistero” ha finalità informative, giornalistiche, di intrattenimento e viene realizzato nell'esercizio del diritto di cronaca e critica tutelato dall'art. 21 della Costituzione.",
-      "website": "https://www.spreaker.com/podcast/dentro-il-mistero--6661956",
-      "latest": [
-        {
-          "title": "Massimo Vichi. Il professore di Aosta.",
-          "date": "2026-10-24",
-          "seconds": 2064,
-          "url": null
-        },
-        {
-          "title": "Daniele Gravili. L'assassino è tra noi.",
-          "date": "2026-10-17",
-          "seconds": 1708,
-          "url": null
-        },
-        {
-          "title": "Pietro Peruffo. Due figlie fanno giustizia.",
-          "date": "2026-10-10",
-          "seconds": 2051,
-          "url": null
-        },
-        {
-          "title": "L'esorcismo di Polistena. Le ultime ore di Maria Ilenia.",
-          "date": "2026-10-03",
-          "seconds": 2163,
-          "url": null
-        },
-        {
-          "title": "Il fantasma di Texarkana. La voce dentro il cappuccio.",
-          "date": "2026-09-26",
-          "seconds": 2985,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-25T04:51:08.262Z"
-  },
   "podcast:di nuovo barbero": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/di-nuovo-barbero-alessandro-barbero-podcast/id1896716561",
@@ -1495,6 +1448,54 @@
     },
     "fetchedAt": "2026-10-30T05:05:27.288Z"
   },
+  "podcast:gurulandia": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/gurulandia/id1658343376",
+      "genres": [
+        "Imprenditorialità",
+        "Economia",
+        "Marketing"
+      ],
+      "episodes": 139,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dc/4a/6a/dc4a6aab-660b-f7d2-7531-3c8a8f80b220/mza_5413545339081014451.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MCA5782672802",
+      "description": "Intervistiamo il Guru di ogni settore 🎪🤹",
+      "website": "https://gurulandia.buzzsprout.com",
+      "latest": [
+        {
+          "title": "“UN MARXISTA E UN LIBERALE” - Con Giuseppe Cruciani e Luca Sommi",
+          "date": "2026-10-27",
+          "seconds": 4690,
+          "url": null
+        },
+        {
+          "title": "GREEN THEORY VS FITACTIVE: LO SCONTRO DEL FITNESS ITALIANO",
+          "date": "2026-07-31",
+          "seconds": 5477,
+          "url": null
+        },
+        {
+          "title": "“COSA NON CI STANNO DICENDO SULL’INTELLIGENZA ARTIFICIALE” - Con Simone Rizzo",
+          "date": "2026-07-27",
+          "seconds": 7264,
+          "url": null
+        },
+        {
+          "title": "“L’ASSURDA STORIA DELLA NONNA PIÙ FAMOSA DI TIKTOK” - Con Nonna Silvi",
+          "date": "2026-07-21",
+          "seconds": 5103,
+          "url": null
+        },
+        {
+          "title": "“VANNACCI SARÀ DECISIVO ALLE PROSSIME ELEZIONI” - Con Andrea Scanzi",
+          "date": "2026-07-14",
+          "seconds": 4567,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-01T05:04:55.792Z"
+  },
   "podcast:i profeti del codice": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/i-profeti-del-codice/id6827490676",
@@ -1664,46 +1665,6 @@
       ]
     },
     "fetchedAt": "2026-10-28T05:08:11.049Z"
-  },
-  "podcast:il tempo in piu": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/il-tempo-in-pi%C3%B9/id6817419276",
-      "genres": [
-        "Cultura e società"
-      ],
-      "episodes": 4,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/da/0d/ed/da0ded79-7cb7-1d58-b688-7fa773769213/mza_2578401265200159024.jpeg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/BCS6549380664",
-      "description": "La longevità è entrata nel nostro vocabolario quotidiano, raccontata quasi sempre con entusiasmo e raramente nella sua complessità. Ma vivere più a lungo non è solo una questione di anni in più: è una questione di senso. Che cosa facciamo di questo tempo guadagnato, come lo abitiamo, chi ne beneficia davvero, quali responsabilità comporta.\nIn questa serie promossa dalla Fondazione Giorgio Cini di Venezia, che ha posto il tema al centro delle sue iniziative per il 2026, Daniele Franco ne parla con alcune delle voci più autorevoli del panorama italiano, scelte per le angolature diverse da cui la guardano. Perché una società che invecchia non è soltanto una società con più anziani: è una società che cambia il proprio rapporto con il tempo, con la cura e la morte, che si interroga sulla convivenza tra generazioni, sulla trasmissione delle conoscenze e del potere.\nCREDITS\nIl tempo in più è un podcast della Fondazione Giorgio Cini in collaborazione con Chora Media.\nIdeato e scritto da Daniele Franco e Michela Maguolo.",
-      "website": null,
-      "latest": [
-        {
-          "title": "La responsabilità verso la vita",
-          "date": "2026-10-20",
-          "seconds": 1464,
-          "url": null
-        },
-        {
-          "title": "Esploratori del proprio tempo",
-          "date": "2026-10-13",
-          "seconds": 1366,
-          "url": null
-        },
-        {
-          "title": "Accettare i nostri limiti",
-          "date": "2026-10-06",
-          "seconds": 1690,
-          "url": null
-        },
-        {
-          "title": "Il tempo in più | Trailer",
-          "date": "2026-09-29",
-          "seconds": 46,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-25T04:51:05.719Z"
   },
   "podcast:impara l inglese": {
     "value": {
@@ -2633,7 +2594,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-10-25T04:51:02.689Z"
+    "fetchedAt": "2026-11-01T05:04:52.974Z"
   },
   "podcast:passa dal bsmt": {
     "value": {
@@ -2819,6 +2780,35 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:03:38.751Z"
+  },
+  "podcast:quello che il potere non dice": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/quello-che-il-potere-non-dice/id6825042769",
+      "genres": [
+        "Governo",
+        "Cultura e società"
+      ],
+      "episodes": 2,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1a/0c/ca/1a0cca44-0576-e03c-2eb0-828595a83bbf/mza_13750054731244506935.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS4096689014",
+      "description": "Ogni giorno leggiamo le dichiarazioni dei politici, seguiamo gli scontri tra i partiti e ascoltiamo le promesse di chi ci governa. Ma che cosa succede davvero dietro le quinte della politica? Come si arriva alle decisioni che cambiano le nostre vite? E che cosa resta fuori dai racconti ufficiali?\nQuello che il potere non dice prova a rispondere a queste domande attraverso le voci di chi il potere lo esercita o lo conosce da vicino. Ogni settimana Chiara Albanese, giornalista di Bloomberg News, incontra uno dei protagonisti della politica e delle istituzioni italiane per andare oltre le dichiarazioni pubbliche e i titoli dei giornali.\nAl centro delle conversazioni ci sono le scelte che riguardano il Paese, gli interessi che le condizionano, i rapporti personali e politici che contano quando bisogna decidere. Le interviste partono dall'attualità e si confrontano con fatti, numeri e promesse, per capire che cosa funziona, che cosa non funziona e quali conseguenze hanno le decisioni di chi governa.\nUno sguardo sulla politica raccontata da chi la fa, con le domande di chi cerca di capire che cosa si nasconde dietro le parole del potere.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Gualtieri: come si risolve la crisi della casa a Roma",
+          "date": "2026-10-28",
+          "seconds": 1668,
+          "url": null
+        },
+        {
+          "title": "Lollobrigida: come difendere il Made in Italy dai dazi di Trump",
+          "date": "2026-10-20",
+          "seconds": 1534,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-01T05:04:58.563Z"
   },
   "podcast:qui si fa l italia": {
     "value": {

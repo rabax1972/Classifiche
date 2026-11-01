@@ -1803,6 +1803,23 @@
     },
     "fetchedAt": "2026-10-17T07:32:24.666Z"
   },
+  "thriller|michael jackson": {
+    "value": {
+      "album": "Thriller",
+      "released": "1982-11-29",
+      "genre": "Pop",
+      "durationMs": 358807,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/thriller/269572838?i=269573303",
+      "wiki": {
+        "lang": "it",
+        "title": "Thriller (singolo)",
+        "url": "https://it.wikipedia.org/wiki/Thriller_(singolo)",
+        "extract": "Thriller è un singolo del cantante statunitense Michael Jackson, pubblicato il 11 novembre 1983 in Regno Unito e il 23 gennaio 1984 negli Stati Uniti d'America come settimo e ultimo estratto dal sesto album in studio Thriller.\n\nLa title track contiene una strofa narrata con lo stile gotico (definita da alcuni un rap), dall'attore di film horror Vincent Price. Ritenuto fra i pezzi più celebri nella discografia dell'artista, è stato peraltro uno dei sette singoli dall'album omonimo che entrarono consecutivamente nelle prime dieci posizioni della Billboard Hot 100, avendo raggiunto la posizione numero 4. Con oltre 15 milioni di copie vendute a livello globale, tra cui 10 nei soli Stati Uniti in virtù dei quali ha ottenuto la certificazione di disco di diamante dalla RIAA, resta tutt'oggi il secondo singolo di maggior successo di Jackson dopo Billie Jean."
+      }
+    },
+    "fetchedAt": "2026-11-01T05:00:05.433Z"
+  },
   "tu con chi fai l amore|the kolors": {
     "value": {
       "album": "TU CON CHI FAI L'AMORE",

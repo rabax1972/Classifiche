@@ -1141,6 +1141,25 @@
     },
     "fetchedAt": "2026-10-17T07:59:18.032Z"
   },
+  "michael jackson": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Jackson",
+        "url": "https://it.wikipedia.org/wiki/Michael_Jackson",
+        "extract": "Michael Joseph Jackson (Gary, 29 agosto 1958 – Los Angeles, 25 giugno 2009) è stato un cantautore, compositore, ballerino, coreografo, produttore discografico, imprenditore e filantropo statunitense.\n\nConosciuto anche come The King of Pop (Il Re del Pop), è ritenuto uno degli artisti più influenti della  popular music in virtù dei suoi contributi nel mondo della musica, della danza, della moda e dello spettacolo. Con le sue performance dal vivo e i suoi videoclip ha reso popolari tecniche di danza come il moonwalk, il toe stand, l'anti-gravity lean e la robot dance, arrivando in tal modo ad essere annoverato tra i ballerini più influenti di tutti i tempi."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Michael_Jackson_1983_%283x4_cropped%29.jpg/500px-Michael_Jackson_1983_%283x4_cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped).jpg",
+        "author": "Matthew Rolston; Distributed by Epic Records",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://music.apple.com/it/artist/michael-jackson/32940"
+    },
+    "fetchedAt": "2026-11-01T05:00:07.934Z"
+  },
   "nerissima serpe": {
     "value": {
       "wiki": {

@@ -2274,6 +2274,78 @@
     },
     "fetchedAt": "2026-10-17T09:31:15.712Z"
   },
+  "carles torrens": {
+    "value": {
+      "tmdbId": 1017209,
+      "wiki": {
+        "lang": "en",
+        "title": "Carles Torrens",
+        "url": "https://en.wikipedia.org/wiki/Carles_Torrens",
+        "extract": "Carles Torrens (born 1984) is a Spanish film and television director, screenwriter, editor, and producer, known for his award-winning short films and his 2011 feature film debut Apartment 143 (Emergo)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/jBGDX4BwsytGhPehgrrPKFFlIgn.jpg",
+      "films": [
+        {
+          "id": 1507696,
+          "title": "Apocalipsis Z: Il Nuovo Mondo",
+          "year": "2026"
+        },
+        {
+          "id": 1118031,
+          "title": "Apocalisse Z: l'inizio della fine",
+          "year": "2024"
+        },
+        {
+          "id": 1102822,
+          "title": "Antes de que no haya tiempo",
+          "year": "2020"
+        },
+        {
+          "id": 353979,
+          "title": "Pet",
+          "year": "2016"
+        },
+        {
+          "id": 248781,
+          "title": "ABCs of Death 2 1/2",
+          "year": "2016"
+        },
+        {
+          "id": 1481989,
+          "title": "Hide and Seek",
+          "year": "2014"
+        },
+        {
+          "id": 369732,
+          "title": "M Is for Mom",
+          "year": "2013"
+        },
+        {
+          "id": 267025,
+          "title": "Sequence",
+          "year": "2013"
+        },
+        {
+          "id": 97795,
+          "title": "Emergo",
+          "year": "2011"
+        },
+        {
+          "id": 199018,
+          "title": "Plou a Barcelona",
+          "year": "2009"
+        },
+        {
+          "id": 651237,
+          "title": "Coming to Town",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-01T05:00:40.530Z"
+  },
   "carlos saldanha": {
     "value": {
       "tmdbId": 5714,

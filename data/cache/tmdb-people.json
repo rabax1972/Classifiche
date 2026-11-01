@@ -511,6 +511,10 @@
     "value": "Jon Lucas, Scott Moore",
     "fetchedAt": "2026-10-17T04:42:35.188Z"
   },
+  "movie:1351705": {
+    "value": "Pauline Brunner, Marion Verlé",
+    "fetchedAt": "2026-11-01T04:59:50.953Z"
+  },
   "movie:1368166": {
     "value": "Paul Feig",
     "fetchedAt": "2026-10-12T07:24:41.668Z"
@@ -1079,9 +1083,17 @@
     "value": "Taehwan Yum",
     "fetchedAt": "2026-10-21T04:46:15.309Z"
   },
+  "movie:1696814": {
+    "value": "Curry Barker",
+    "fetchedAt": "2026-11-01T04:59:51.055Z"
+  },
   "movie:1699463": {
     "value": "Ryan Callaway",
     "fetchedAt": "2026-10-31T04:54:25.888Z"
+  },
+  "movie:1704895": {
+    "value": "Emilio Mercanti",
+    "fetchedAt": "2026-11-01T04:59:49.749Z"
   },
   "movie:1712451": {
     "value": "Ryan Ebert",
@@ -1255,6 +1267,10 @@
     "value": "Cosimo Scarpello",
     "fetchedAt": "2026-10-25T04:46:04.275Z"
   },
+  "movie:1804639": {
+    "value": null,
+    "fetchedAt": "2026-11-01T04:59:49.649Z"
+  },
   "movie:1810511": {
     "value": "Curry Barker",
     "fetchedAt": "2026-10-30T04:58:36.837Z"
@@ -1262,6 +1278,14 @@
   "movie:1811964": {
     "value": "Raghavendra Katari",
     "fetchedAt": "2026-10-31T04:54:26.093Z"
+  },
+  "movie:1813225": {
+    "value": "Curry Barker",
+    "fetchedAt": "2026-11-01T04:59:51.175Z"
+  },
+  "movie:1813355": {
+    "value": "Tazbah Chavez",
+    "fetchedAt": "2026-11-01T04:59:50.856Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -1642,6 +1666,10 @@
   "movie:62": {
     "value": "Stanley Kubrick",
     "fetchedAt": "2026-10-18T17:54:34.580Z"
+  },
+  "movie:624860": {
+    "value": "Lana Wachowski",
+    "fetchedAt": "2026-11-01T04:59:50.163Z"
   },
   "movie:629": {
     "value": "Bryan Singer",
@@ -2134,6 +2162,10 @@
   "tv:200777": {
     "value": null,
     "fetchedAt": "2026-10-16T04:44:18.107Z"
+  },
+  "tv:200875": {
+    "value": "Andy Muschietti, Barbara Muschietti",
+    "fetchedAt": "2026-11-01T04:59:51.550Z"
   },
   "tv:2025": {
     "value": "Aaron Spelling, Darren Star",
@@ -2782,6 +2814,10 @@
   "tv:333533": {
     "value": null,
     "fetchedAt": "2026-10-28T05:02:25.736Z"
+  },
+  "tv:333622": {
+    "value": null,
+    "fetchedAt": "2026-11-01T04:59:51.649Z"
   },
   "tv:334470": {
     "value": "Leo Reich",
