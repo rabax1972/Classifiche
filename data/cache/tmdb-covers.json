@@ -155,10 +155,10 @@
   },
   "movie:hidden": {
     "value": {
-      "cover": "https://image.tmdb.org/t/p/w185/d6JTN9J9cAwCLDS37FsXTXbl1OQ.jpg",
-      "url": "https://www.themoviedb.org/movie/381284"
+      "cover": "https://image.tmdb.org/t/p/w185/mPuaHaczkoJDzlYD9GyXiDjMXig.jpg",
+      "url": "https://www.themoviedb.org/movie/360784"
     },
-    "fetchedAt": "2026-10-21T04:46:30.990Z"
+    "fetchedAt": "2026-11-01T16:30:37.300Z"
   },
   "movie:ice age": {
     "value": {
@@ -320,13 +320,6 @@
       "url": "https://www.themoviedb.org/movie/1758536"
     },
     "fetchedAt": "2026-10-12T07:25:10.147Z"
-  },
-  "movie:to the max": {
-    "value": {
-      "cover": "https://image.tmdb.org/t/p/w185/gJo7w34ahFZi6p4UIBALjKNxIz9.jpg",
-      "url": "https://www.themoviedb.org/movie/116739"
-    },
-    "fetchedAt": "2026-10-12T07:25:06.259Z"
   },
   "movie:turning point generation 9 11": {
     "value": {
@@ -603,10 +596,10 @@
   },
   "tv:the doll": {
     "value": {
-      "cover": "https://image.tmdb.org/t/p/w185/vQAEVcAWRvcn2qyA1G9TkUNM95P.jpg",
-      "url": "https://www.themoviedb.org/tv/214191"
+      "cover": "https://image.tmdb.org/t/p/w185/5JeE5IAgquQdL6T5gz3zA3EQglQ.jpg",
+      "url": "https://www.themoviedb.org/tv/72320"
     },
-    "fetchedAt": "2026-10-12T07:25:14.230Z"
+    "fetchedAt": "2026-11-01T16:30:37.319Z"
   },
   "tv:the final problem": {
     "value": {
@@ -631,10 +624,10 @@
   },
   "tv:the trap": {
     "value": {
-      "cover": "https://image.tmdb.org/t/p/w185/jFDfQo3RjG3IZ4bLZeATLXBbo9g.jpg",
-      "url": "https://www.themoviedb.org/tv/357"
+      "cover": null,
+      "url": "https://www.themoviedb.org/tv/28056"
     },
-    "fetchedAt": "2026-10-21T04:46:32.195Z"
+    "fetchedAt": "2026-11-01T16:30:37.425Z"
   },
   "tv:tyson": {
     "value": {

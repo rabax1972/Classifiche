@@ -9615,82 +9615,70 @@
   },
   "hidden|": {
     "value": {
-      "tmdbId": 381284,
-      "title": "Il diritto di contare",
-      "overview": "Katherine Johnson, Dorothy Vaughn e Mary Jackson sono tre donne afro-americane. Lavorano alla Nasa e sono le menti brillanti che hanno messo a punto il primo programma di missioni spaziali che ha portato uomini come l'astronauta John Glenn in orbita. Il loro operato, basato sull'elaborazione di importanti dati matematici, ha contribuito a ridare nuova fiducia alla nazione, ridefinire la corsa nello spazio e stupire il mondo. Da visionarie quali sono, hanno avuto la meglio sugli stereotipi di genere e razza, divenendo fonte di ispirazione per le giovani generazioni.",
+      "tmdbId": 360784,
+      "title": "Hidden: Senza via di scampo",
+      "overview": "Da 301 giorni, ovvero da quando una terribile epidemia ha iniziato a diffondersi, Ray, Clare e loro figlia Zoe sono nascosti in un rifugio antiatomico. Qualcuno o qualcosa, là fuori, gli sta dando la caccia.",
       "overviewLang": "it",
-      "tagline": "Il genio non ha razza. La forza non ha sesso. Il coraggio non ha limiti.",
-      "originalTitle": "Hidden Figures",
+      "tagline": null,
+      "originalTitle": "Hidden",
       "genres": [
-        "Dramma",
-        "Storia"
+        "Thriller",
+        "Horror"
       ],
-      "runtime": 127,
-      "released": "2017-03-08",
-      "vote": 8.1,
-      "votes": 10767,
-      "poster": "https://image.tmdb.org/t/p/w500/d6JTN9J9cAwCLDS37FsXTXbl1OQ.jpg",
+      "runtime": 84,
+      "released": "2015-09-15",
+      "vote": 7,
+      "votes": 1291,
+      "poster": "https://image.tmdb.org/t/p/w500/mPuaHaczkoJDzlYD9GyXiDjMXig.jpg",
       "directors": [
         {
-          "id": 1141683,
-          "name": "Theodore Melfi"
+          "id": 1179422,
+          "name": "Ross Duffer"
+        },
+        {
+          "id": 1179419,
+          "name": "Matt Duffer"
         }
       ],
       "cast": [
         {
-          "name": "Taraji P. Henson",
-          "character": "Katherine G. Johnson"
+          "name": "Alexander Skarsgård",
+          "character": "Ray"
         },
         {
-          "name": "Octavia Spencer",
-          "character": "Dorothy Vaughan"
+          "name": "Andrea Riseborough",
+          "character": "Claire"
         },
         {
-          "name": "Janelle Monáe",
-          "character": "Mary Jackson"
+          "name": "Emily Alyn Lind",
+          "character": "Zoe"
         },
         {
-          "name": "Kevin Costner",
-          "character": "Al Harrison"
+          "name": "Heather Doerksen",
+          "character": "Jillian"
         },
         {
-          "name": "Kirsten Dunst",
-          "character": "Vivian Mitchell"
+          "name": "William Ainscough",
+          "character": "Joey Neary"
         },
         {
-          "name": "Jim Parsons",
-          "character": "Paul Stafford"
-        },
-        {
-          "name": "Mahershala Ali",
-          "character": "Jim Johnson"
-        },
-        {
-          "name": "Glen Powell",
-          "character": "John Glenn"
+          "name": "David James Lewis",
+          "character": "Breather Lieutenant"
         }
       ],
-      "trailer": "LrM27IHgrpI",
+      "trailer": "0qlxTw--4qw",
       "watch": {
-        "link": "https://www.themoviedb.org/movie/381284-hidden-figures/watch?locale=IT",
+        "link": "https://www.themoviedb.org/movie/360784-hidden/watch?locale=IT",
         "flatrate": [
           {
-            "name": "Disney Plus",
-            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
           }
         ],
         "rent": [
           {
             "name": "Apple TV Store",
             "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-          },
-          {
-            "name": "Timvision",
-            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
-          },
-          {
-            "name": "Rakuten TV",
-            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
           },
           {
             "name": "Amazon Video",
@@ -9703,21 +9691,13 @@
             "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
           },
           {
-            "name": "Timvision",
-            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
-          },
-          {
-            "name": "Rakuten TV",
-            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
-          },
-          {
             "name": "Amazon Video",
             "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
           }
         ]
       }
     },
-    "fetchedAt": "2026-10-21T04:48:56.387Z"
+    "fetchedAt": "2026-11-01T16:30:41.195Z"
   },
   "hunger games il canto della rivolta parte 1|francis lawrence 2014": {
     "value": {

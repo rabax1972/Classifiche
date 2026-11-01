@@ -13846,79 +13846,47 @@
   },
   "the trap|miniserie": {
     "value": {
-      "tmdbId": 357,
-      "title": "The Trap Door",
-      "overview": "The Trap Door is a claymation-style animated television series, originally shown in the United Kingdom in 1984. The plot revolves around both the daily lives and the misadventures of a group of monsters living in a castle. Although the emphasis was on humour and the show was marketed as a children's programme but also for family entertainment, the show drew much from the genres of horror and dark fantasy. The show has since become a cult favourite and remains one of the most widely recognised kids' shows of the 1980s. Digital children's channel Pop started rerunning the show in 2010.",
+      "tmdbId": 28056,
+      "title": "The Trap",
+      "overview": "An anthology series about people who are suddenly confronted with uncertain situations.",
       "overviewLang": "en",
       "tagline": null,
       "originalTitle": null,
       "genres": [
-        "Animazione",
-        "Commedia",
-        "Famiglia",
-        "Kids"
+        "Dramma"
       ],
-      "episodeRuntime": 5,
-      "firstAired": "1986-10-06",
-      "lastAired": "1990-07-28",
+      "episodeRuntime": 60,
+      "firstAired": "1950-04-29",
+      "lastAired": "1950-06-24",
       "status": "Ended",
-      "seasons": 2,
-      "episodes": 40,
+      "seasons": 1,
+      "episodes": 9,
       "seasonList": [
         {
           "n": 1,
           "name": "Stagione 1",
-          "date": "1986-10-06",
-          "episodes": 25
-        },
-        {
-          "n": 2,
-          "name": "Stagione 2",
-          "date": "1990-04-21",
-          "episodes": 15
-        },
-        {
-          "n": 0,
-          "name": "Speciali",
-          "date": null,
-          "episodes": 2
+          "date": "1950-04-29",
+          "episodes": 9
         }
       ],
       "nextEpisode": null,
       "networks": [
-        "ITV1"
+        "CBS"
       ],
-      "vote": 7.7,
-      "votes": 22,
-      "poster": "https://image.tmdb.org/t/p/w500/jFDfQo3RjG3IZ4bLZeATLXBbo9g.jpg",
-      "creators": [
-        {
-          "id": 1215806,
-          "name": "Charlie Mills"
-        },
-        {
-          "id": 1215807,
-          "name": "Terry Brain"
-        }
-      ],
+      "vote": 7,
+      "votes": 2,
+      "poster": null,
+      "creators": [],
       "cast": [
         {
-          "name": "William Rushton",
-          "character": "Berk / Boni / The Thing Upstairs / Rogg (voice)"
-        },
-        {
-          "name": "Nick Shipley",
-          "character": "Drutt (voice)"
-        },
-        {
-          "name": "Terry Brain",
-          "character": null
+          "name": "Joe De Santis",
+          "character": "Narrator (voice)"
         }
       ],
       "trailer": null,
       "watch": null
     },
-    "fetchedAt": "2026-10-21T04:53:25.352Z"
+    "fetchedAt": "2026-11-01T16:30:47.896Z"
   },
   "the walking dead|frank darabont 2010": {
     "value": {

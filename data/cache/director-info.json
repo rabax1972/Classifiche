@@ -11953,6 +11953,44 @@
     },
     "fetchedAt": "2026-10-28T05:04:04.950Z"
   },
+  "matt duffer": {
+    "value": {
+      "tmdbId": 1179419,
+      "wiki": {
+        "lang": "it",
+        "title": "Matt e Ross Duffer",
+        "url": "https://it.wikipedia.org/wiki/Matt_e_Ross_Duffer",
+        "extract": "Matt Duffer (Durham, 15 febbraio 1984) e\n\nRoss Duffer (Durham, 15 febbraio 1984), più comunemente noti come Duffer Brothers, sono due registi, sceneggiatori e produttori televisivi statunitensi, noti per aver ideato la serie di fantascienza Netflix Stranger Things."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Matt_%26_Ross_Duffer_%2836214184705%29.jpg/500px-Matt_%26_Ross_Duffer_%2836214184705%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matt_%26_Ross_Duffer_(36214184705).jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1715249,
+          "title": "Untitled Duffer Brothers Film",
+          "year": "2028"
+        },
+        {
+          "id": 360784,
+          "title": "Hidden: Senza via di scampo",
+          "year": "2015"
+        },
+        {
+          "id": 199114,
+          "title": "Eater",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-01T16:30:42.900Z"
+  },
   "matt reeves": {
     "value": {
       "tmdbId": 32278,
@@ -16682,6 +16720,44 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.242Z"
+  },
+  "ross duffer": {
+    "value": {
+      "tmdbId": 1179422,
+      "wiki": {
+        "lang": "it",
+        "title": "Matt e Ross Duffer",
+        "url": "https://it.wikipedia.org/wiki/Matt_e_Ross_Duffer",
+        "extract": "Matt Duffer (Durham, 15 febbraio 1984) e\n\nRoss Duffer (Durham, 15 febbraio 1984), più comunemente noti come Duffer Brothers, sono due registi, sceneggiatori e produttori televisivi statunitensi, noti per aver ideato la serie di fantascienza Netflix Stranger Things."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Matt_%26_Ross_Duffer_%2836214184705%29.jpg/500px-Matt_%26_Ross_Duffer_%2836214184705%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matt_%26_Ross_Duffer_(36214184705).jpg",
+        "author": "Gage Skidmore from Peoria, AZ, United States of America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1715249,
+          "title": "Untitled Duffer Brothers Film",
+          "year": "2028"
+        },
+        {
+          "id": 360784,
+          "title": "Hidden: Senza via di scampo",
+          "year": "2015"
+        },
+        {
+          "id": 199114,
+          "title": "Eater",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-01T16:30:42.273Z"
   },
   "ryan adriandhy": {
     "value": {
