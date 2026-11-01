@@ -2141,6 +2141,83 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.362Z"
   },
+  "apocalipsis z il nuovo mondo|carles torrens 2026": {
+    "value": {
+      "tmdbId": 1507696,
+      "title": "Apocalipsis Z: Il Nuovo Mondo",
+      "overview": "Le Isole Canarie sono diventate l'ultimo rifugio d'Europa in seguito allo scoppio dell'epidemia del virus TSJ. Quando una missione speciale parte per la terraferma alla ricerca di rifornimenti vitali, Roberto si unisce alla squadra con intenzioni discutibili. La pericolosa operazione si trasforma in una disperata corsa per la sopravvivenza, e Roberto e i suoi compagni si ritrovano intrappolati tra orde di infetti e lealtà divise.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Apocalipsis Z: Nuevo mundo",
+      "genres": [
+        "Azione",
+        "Thriller",
+        "Horror"
+      ],
+      "runtime": 96,
+      "released": "2026-10-09",
+      "vote": 6.1,
+      "votes": 40,
+      "poster": "https://image.tmdb.org/t/p/w500/Aaf1GNXi80i2qNvVHlIjpBGfs88.jpg",
+      "directors": [
+        {
+          "id": 1017209,
+          "name": "Carles Torrens"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Carlos Alcaide",
+          "character": "Roberto"
+        },
+        {
+          "name": "Julia Martínez",
+          "character": "Marina"
+        },
+        {
+          "name": "Mario Mayo",
+          "character": "De Luna"
+        },
+        {
+          "name": "Mónica López",
+          "character": "Castro"
+        },
+        {
+          "name": "Tamara Casellas",
+          "character": "Comillas"
+        },
+        {
+          "name": "Santiago Vaca Narvaja",
+          "character": "Core"
+        },
+        {
+          "name": "José María Yázpik",
+          "character": "Pritchenko"
+        },
+        {
+          "name": "Berta Vázquez",
+          "character": "Lucía"
+        }
+      ],
+      "trailer": "m_jc3YrSAF8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1507696-apocalipsis-z-nuevo-mundo/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-01T05:00:40.074Z"
+  },
   "apocalypse now|francis ford coppola 1979": {
     "value": {
       "tmdbId": 28,
@@ -6381,6 +6458,82 @@
       "watch": null
     },
     "fetchedAt": "2026-10-27T04:47:40.194Z"
+  },
+  "drive cuori in pista|sergej moya 2026": {
+    "value": {
+      "tmdbId": 1596275,
+      "title": "Drive - Cuori in pista",
+      "overview": "Savvy Jenkins, una meccanica determinata a farsi strada nel mondo delle corse, entra nel team di Dante Annunziata, un campione del mondo arrogante che la vede solo come una distrazione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Drive – The Pretenders",
+      "genres": [
+        "Romance",
+        "Thriller"
+      ],
+      "runtime": 103,
+      "released": "2026-10-27",
+      "vote": 7.9,
+      "votes": 44,
+      "poster": "https://image.tmdb.org/t/p/w500/9nS6pALpvYLt9LHzx2Rtb1xbtoi.jpg",
+      "directors": [
+        {
+          "id": 45689,
+          "name": "Sergej Moya"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lisa-Marie Koroll",
+          "character": "Sarah Jenkins"
+        },
+        {
+          "name": "Amin Baahmed",
+          "character": "Dante Annunziata"
+        },
+        {
+          "name": "Gustav Schmidt",
+          "character": "Ruben Laroch"
+        },
+        {
+          "name": "Mišel Matičević",
+          "character": "Alexander Bronson"
+        },
+        {
+          "name": "Lucie Heinze",
+          "character": "Tanya Stein"
+        },
+        {
+          "name": "Frederic Linkemann",
+          "character": "Jack Schroder"
+        },
+        {
+          "name": "Inka Friedrich",
+          "character": "Irene Jenkins"
+        },
+        {
+          "name": "Jeanette Hain",
+          "character": "Sofia Annunziata"
+        }
+      ],
+      "trailer": "-sV69CJwUwU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1596275-drive-the-pretenders/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-10-31T04:56:24.937Z"
   },
   "dubbio nel buio|andrea d eredita 2026": {
     "value": {
@@ -19696,6 +19849,133 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.991Z"
   },
+  "matrix resurrections|lana wachowski 2021": {
+    "value": {
+      "tmdbId": 624860,
+      "title": "Matrix Resurrections",
+      "overview": "Due realtà differenti caratterizzano il mondo: una rappresentata dalla vita di tutti i giorni e un'altra nascosta e inaccessibile. Per scoprire se la sua realtà è un costrutto fisico o mentale, per conoscere veramente se stesso, Mr. Anderson dovrà scegliere di seguire ancora una volta il Bianconiglio. E se Thomas, Neo, ha imparato qualcosa è che la scelta, pur essendo un'illusione, è ancora una volta la via d'uscita o di ingresso in Matrix. Ovviamente, Neo sa già cosa deve fare. Ma quello che ancora non sa è che Matrix è più forte, più sicura e più pericolosa che mai. Salvato da Matrix per diventare il salvatore dell'umanità, ancora una volta dovrà scegliere quale strada prendere.",
+      "overviewLang": "it",
+      "tagline": "È tempo di tornare alla sorgente",
+      "originalTitle": "The Matrix Resurrections",
+      "genres": [
+        "Fantascienza",
+        "Azione",
+        "Avventura"
+      ],
+      "runtime": 148,
+      "released": "2022-01-01",
+      "vote": 6.3,
+      "votes": 6833,
+      "poster": "https://image.tmdb.org/t/p/w500/sZCT1D5yLNVHarTpv157FaLzPCc.jpg",
+      "directors": [
+        {
+          "id": 9340,
+          "name": "Lana Wachowski"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Keanu Reeves",
+          "character": "Neo / Thomas Anderson"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "character": "Trinity / Tiffany"
+        },
+        {
+          "name": "Yahya Abdul-Mateen II",
+          "character": "Morpheus / Agent Smith"
+        },
+        {
+          "name": "Jonathan Groff",
+          "character": "Smith"
+        },
+        {
+          "name": "Jessica Henwick",
+          "character": "Bugs"
+        },
+        {
+          "name": "Neil Patrick Harris",
+          "character": "The Analyst"
+        },
+        {
+          "name": "Jada Pinkett Smith",
+          "character": "Niobe"
+        },
+        {
+          "name": "Priyanka Chopra Jonas",
+          "character": "Sati"
+        }
+      ],
+      "trailer": "g0sHIIwI2C4",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/624860-the-matrix-resurrections/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-01T05:00:40.137Z"
+  },
   "matrix|lana wachowski": {
     "value": {
       "tmdbId": 603,
@@ -32477,6 +32757,114 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.420Z"
+  },
+  "zootropolis|byron howard": {
+    "value": {
+      "tmdbId": 269149,
+      "title": "Zootropolis",
+      "overview": "Il mondo animale è cambiato: non è più diviso in due fra docili prede e feroci predatori, ma armoniosamente coabitato da entrambi. Judy è una coniglietta dalle grandi ambizioni che sogna di diventare poliziotta, poiché le è stato insegnato che tutto è possibile in questo nuovo mondo. Nick è una volpe che vive di espedienti nella capitale, Zootropolis, dove Judy, dopo un estenuante training in accademia, approda come ausiliaria del traffico. Toccherà a loro, inaspettatamente uniti, risolvere il mistero dei 14 animali scomparsi che tutta la città sta cercando e sventare i piani di chi vuole impossessarsi del potere locale, secondo l'atavico principio divide et impera.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Zootopia",
+      "genres": [
+        "Animazione",
+        "Avventura",
+        "Famiglia",
+        "Commedia"
+      ],
+      "runtime": 108,
+      "released": "2016-02-18",
+      "vote": 7.8,
+      "votes": 18681,
+      "poster": "https://image.tmdb.org/t/p/w500/AhaTwhvkPjwCeYXVEkJECyk5zkl.jpg",
+      "directors": [
+        {
+          "id": 76595,
+          "name": "Byron Howard"
+        },
+        {
+          "id": 165787,
+          "name": "Rich Moore"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ginnifer Goodwin",
+          "character": "Judy Hopps (voice)"
+        },
+        {
+          "name": "Jason Bateman",
+          "character": "Nick Wilde (voice)"
+        },
+        {
+          "name": "Idris Elba",
+          "character": "Chief Bogo (voice)"
+        },
+        {
+          "name": "Jenny Slate",
+          "character": "Bellwether (voice)"
+        },
+        {
+          "name": "Nate Torrence",
+          "character": "Clawhauser (voice)"
+        },
+        {
+          "name": "Bonnie Hunt",
+          "character": "Bonnie Hopps (voice)"
+        },
+        {
+          "name": "Don Lake",
+          "character": "Stu Hopps (voice)"
+        },
+        {
+          "name": "Tommy Chong",
+          "character": "Yax (voice)"
+        }
+      ],
+      "trailer": "VE5enrp7luI",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/269149-zootopia/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-10-31T04:56:25.007Z"
   },
   "zustissia|francesco piras 2026": {
     "value": {

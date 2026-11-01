@@ -16,6 +16,89 @@
     },
     "fetchedAt": "2026-10-17T12:49:25.398Z"
   },
+  "aaron spelling": {
+    "value": {
+      "tmdbId": 28715,
+      "wiki": {
+        "lang": "it",
+        "title": "Aaron Spelling",
+        "url": "https://it.wikipedia.org/wiki/Aaron_Spelling",
+        "extract": "Aaron Spelling (Dallas, 22 aprile 1923 – Los Angeles, 23 giugno 2006) è stato un produttore televisivo, produttore cinematografico e attore statunitense, che detiene il record del mondo come produttore televisivo più prolifico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Aaron_Spelling_TWA_ad_photo.JPG/500px-Aaron_Spelling_TWA_ad_photo.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Aaron_Spelling_TWA_ad_photo.JPG",
+        "author": "Trans World Airlines",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 9772,
+          "title": "Love Boat: The Next Wave",
+          "year": "1998"
+        },
+        {
+          "id": 12100,
+          "title": "Pacific Palisades",
+          "year": "1997"
+        },
+        {
+          "id": 2025,
+          "title": "Beverly Hills 90210",
+          "year": "1990"
+        },
+        {
+          "id": 35244,
+          "title": "Hollywood Wives",
+          "year": "1985"
+        },
+        {
+          "id": 14591,
+          "title": "MacGruder and Loud",
+          "year": "1985"
+        },
+        {
+          "id": 3437,
+          "title": "Hotel",
+          "year": "1982"
+        },
+        {
+          "id": 1059,
+          "title": "T. J. Hooker",
+          "year": "1982"
+        },
+        {
+          "id": 1823,
+          "title": "Love Boat",
+          "year": "1977"
+        },
+        {
+          "id": 10652,
+          "title": "The New People",
+          "year": "1969"
+        },
+        {
+          "id": 13912,
+          "title": "The Guns of Will Sonnett",
+          "year": "1967"
+        },
+        {
+          "id": 11114,
+          "title": "The Smothers Brothers Show",
+          "year": "1965"
+        },
+        {
+          "id": 14579,
+          "title": "Johnny Ringo",
+          "year": "1959"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:55.593Z"
+  },
   "alex kurtzman": {
     "value": {
       "tmdbId": 15345,
@@ -223,6 +306,49 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:29.864Z"
+  },
+  "andy breckman": {
+    "value": {
+      "tmdbId": 55373,
+      "wiki": {
+        "lang": "it",
+        "title": "Andy Breckman",
+        "url": "https://it.wikipedia.org/wiki/Andy_Breckman",
+        "extract": "Andrew Ross Breckman (Filadelfia, 3 marzo 1955) è uno sceneggiatore e conduttore radiofonico statunitense, consultato spesso come Script doctor. Assieme a David Hoberman ha contribuito a creare la serie televisiva Detective Monk."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Andy_Breckman_4930971457_0f42acbd84_o.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Andy_Breckman_4930971457_0f42acbd84_o.jpg",
+        "author": "Benutzer repose auf Flickr, modifiziert von Benutzer:Asthma. Asthma at de.wikip…",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 294409,
+          "title": "Mistry",
+          "year": "2025"
+        },
+        {
+          "id": 80308,
+          "title": "The Good Cop",
+          "year": "2018"
+        },
+        {
+          "id": 53827,
+          "title": "Galip Derviş",
+          "year": "2013"
+        },
+        {
+          "id": 1695,
+          "title": "Detective Monk",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:36.365Z"
   },
   "andy cohen": {
     "value": {
@@ -788,6 +914,44 @@
     },
     "fetchedAt": "2026-10-17T12:49:29.190Z"
   },
+  "bryan konietzko": {
+    "value": {
+      "tmdbId": 1190518,
+      "wiki": {
+        "lang": "it",
+        "title": "Bryan Konietzko",
+        "url": "https://it.wikipedia.org/wiki/Bryan_Konietzko",
+        "extract": "Bryan Joseph Konietzko (Cleveland, 1º giugno 1975) è uno sceneggiatore e produttore cinematografico statunitense.\n\nÈ uno dei due co-creatori nonché produttore esecutivo della serie animata di successo Avatar - La leggenda di Aang e del suo sequel La leggenda di Korra."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/BryanKonietzkoCCJuly09.jpg/500px-BryanKonietzkoCCJuly09.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:BryanKonietzkoCCJuly09.jpg",
+        "author": "Mike Rollerson at https://www.flickr.com/photos/mikerollerson/",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 284833,
+          "title": "Avatar: I sette rifugi",
+          "year": "2026"
+        },
+        {
+          "id": 33880,
+          "title": "La leggenda di Korra",
+          "year": "2012"
+        },
+        {
+          "id": 246,
+          "title": "Avatar - La leggenda di Aang",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:42.911Z"
+  },
   "caroline graham": {
     "value": {
       "tmdbId": 1428479,
@@ -809,6 +973,44 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:01.396Z"
+  },
+  "carter bays": {
+    "value": {
+      "tmdbId": 1217221,
+      "wiki": {
+        "lang": "it",
+        "title": "Carter Bays",
+        "url": "https://it.wikipedia.org/wiki/Carter_Bays",
+        "extract": "Carter L. Bays (Shaker Heights, 12 agosto 1975) è uno sceneggiatore e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Carter_Bays_-_How_I_Met_Your_Mother_%289448160804%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Carter_Bays_-_How_I_Met_Your_Mother_(9448160804).jpg",
+        "author": "vagueonthehow from Tadcaster, York, England",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 158611,
+          "title": "How I Met Your Dad",
+          "year": null
+        },
+        {
+          "id": 44008,
+          "title": "The Goodwin Games",
+          "year": "2013"
+        },
+        {
+          "id": 1100,
+          "title": "How I Met Your Mother",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:30.440Z"
   },
   "charlie mills": {
     "value": {
@@ -995,6 +1197,71 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:19.596Z"
+  },
+  "craig mazin": {
+    "value": {
+      "tmdbId": 35796,
+      "wiki": {
+        "lang": "it",
+        "title": "Craig Mazin",
+        "url": "https://it.wikipedia.org/wiki/Craig_Mazin",
+        "extract": "Craig Mazin (New York, 8 aprile 1971) è uno sceneggiatore, produttore cinematografico e regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Craig_Mazin%2C_MovieZine_interview_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Craig_Mazin,_MovieZine_interview_(cropped).png",
+        "author": "Jonatan Blomberg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 100088,
+          "title": "The Last of Us",
+          "year": "2023"
+        },
+        {
+          "id": 87108,
+          "title": "Chernobyl",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:46.665Z"
+  },
+  "craig thomas": {
+    "value": {
+      "tmdbId": 1217224,
+      "wiki": {
+        "lang": "it",
+        "title": "Craig Thomas (scrittore)",
+        "url": "https://it.wikipedia.org/wiki/Craig_Thomas_(scrittore)",
+        "extract": "Craig David Owen Thomas (Cardiff, 24 novembre 1942 – Londra, 8 aprile 2011) è stato uno scrittore gallese di techno thriller, conosciuto soprattutto per la serie di Mitchell Gant.\n\nHa usato anche lo pseudonimo di David Grant."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/11piamBSf0YsGvH06OtMPGVG4mU.jpg",
+      "series": [
+        {
+          "id": 158611,
+          "title": "How I Met Your Dad",
+          "year": null
+        },
+        {
+          "id": 44008,
+          "title": "The Goodwin Games",
+          "year": "2013"
+        },
+        {
+          "id": 1100,
+          "title": "How I Met Your Mother",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:28.819Z"
   },
   "craig turk": {
     "value": {
@@ -1186,6 +1453,122 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:41.267Z"
+  },
+  "daron nefcy": {
+    "value": {
+      "tmdbId": 1416299,
+      "wiki": {
+        "lang": "it",
+        "title": "Daron Nefcy",
+        "url": "https://it.wikipedia.org/wiki/Daron_Nefcy",
+        "extract": "Daron Leah Nefcy (Los Angeles, 26 novembre 1985) è una scrittrice statunitense, creatrice di Marco e Star contro le forze del male.\n\nÈ la seconda donna a creare una serie animata per Disney Channel, la prima è stata Sue Rose, la creatrice di Pepper Ann, e la prima donna a creare una produzione animata per Disney XD. Ha anche doppiato personaggi aggiuntivi nello show, come StarFan13, Sabrina Backintosh, Becky e la fata principessa del riformatorio di Sant'Olga per Principesse ribelli."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/DaronNefcyAtSDCC2017.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:DaronNefcyAtSDCC2017.jpg",
+        "author": "William Tung from USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 61923,
+          "title": "Marco e Star contro le forze del male",
+          "year": "2015"
+        },
+        {
+          "id": 283043,
+          "title": "Star And The Forces Of Evil",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:49.365Z"
+  },
+  "darren star": {
+    "value": {
+      "tmdbId": 47915,
+      "wiki": {
+        "lang": "it",
+        "title": "Darren Star",
+        "url": "https://it.wikipedia.org/wiki/Darren_Star",
+        "extract": "Darren Bennett Star (Potomac, 25 luglio 1961) è uno sceneggiatore, produttore cinematografico e regista statunitense, autore di molte serie tv di successo come Sex and the City, Beverly Hills 90210 e Melrose Place, co-prodotte assieme ad Aaron Spelling."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Darren_Star_on_Sidewalks_Entertainment_about_Younger.jpg/500px-Darren_Star_on_Sidewalks_Entertainment_about_Younger.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Darren_Star_on_Sidewalks_Entertainment_about_Younger.jpg",
+        "author": "Sidewalks Entertainment",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 201380,
+          "title": "Uncoupled",
+          "year": "2022"
+        },
+        {
+          "id": 116450,
+          "title": "And Just Like That…",
+          "year": "2021"
+        },
+        {
+          "id": 82596,
+          "title": "Emily in Paris",
+          "year": "2020"
+        },
+        {
+          "id": 62117,
+          "title": "Younger",
+          "year": "2015"
+        },
+        {
+          "id": 18109,
+          "title": "Melrose Place",
+          "year": "2009"
+        },
+        {
+          "id": 18796,
+          "title": "Niños Ricos, Pobres Padres",
+          "year": "2009"
+        },
+        {
+          "id": 2084,
+          "title": "Miss Match",
+          "year": "2003"
+        },
+        {
+          "id": 1616,
+          "title": "The $treet",
+          "year": "2000"
+        },
+        {
+          "id": 4989,
+          "title": "Grosse Pointe",
+          "year": "2000"
+        },
+        {
+          "id": 105,
+          "title": "Sex and the City",
+          "year": "1998"
+        },
+        {
+          "id": 3843,
+          "title": "Central Park West",
+          "year": "1995"
+        },
+        {
+          "id": 4349,
+          "title": "Melrose Place",
+          "year": "1992"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:56.542Z"
   },
   "david benioff": {
     "value": {
@@ -2179,6 +2562,62 @@
     },
     "fetchedAt": "2026-10-17T12:50:22.700Z"
   },
+  "issa lopez": {
+    "value": {
+      "tmdbId": 964037,
+      "wiki": {
+        "lang": "it",
+        "title": "Issa López",
+        "url": "https://it.wikipedia.org/wiki/Issa_L%C3%B3pez",
+        "extract": "Issa López (Città del Messico, 3 agosto 1971) è una sceneggiatrice, regista e produttrice cinematografica messicana."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Issa_L%C3%B3pez.png/500px-Issa_L%C3%B3pez.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Issa_L%C3%B3pez.png",
+        "author": "NotimexTV",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 46648,
+          "title": "True Detective",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:38.314Z"
+  },
+  "jason rothenberg": {
+    "value": {
+      "tmdbId": 1258670,
+      "wiki": {
+        "lang": "it",
+        "title": "Jason Rothenberg",
+        "url": "https://it.wikipedia.org/wiki/Jason_Rothenberg",
+        "extract": "Jason Rothenberg (Detroit, 10 maggio 1967) è un produttore televisivo e sceneggiatore statunitense.\n\nÈ conosciuto soprattutto per avere sviluppato la serie televisiva postapocalittica The 100."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Jason_Rothenberg_by_Gage_Skidmore.jpg/500px-Jason_Rothenberg_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jason_Rothenberg_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 48866,
+          "title": "The 100",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:40.745Z"
+  },
   "jason sudeikis": {
     "value": {
       "tmdbId": 58224,
@@ -2288,6 +2727,44 @@
     },
     "fetchedAt": "2026-10-22T04:49:41.520Z"
   },
+  "jenji kohan": {
+    "value": {
+      "tmdbId": 1214409,
+      "wiki": {
+        "lang": "it",
+        "title": "Jenji Kohan",
+        "url": "https://it.wikipedia.org/wiki/Jenji_Kohan",
+        "extract": "Jenji Leslie Kohan (Los Angeles, 5 luglio 1969) è una sceneggiatrice e produttrice televisiva statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Jenji_Kohan_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Jenji_Kohan_2014.jpg",
+        "author": "Dominick D",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 1424,
+          "title": "Orange Is the New Black",
+          "year": "2013"
+        },
+        {
+          "id": 186,
+          "title": "Weeds",
+          "year": "2005"
+        },
+        {
+          "id": 10171,
+          "title": "The Stones",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:47.676Z"
+  },
   "jenny han": {
     "value": {
       "tmdbId": 2082736,
@@ -2363,6 +2840,44 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:17.608Z"
+  },
+  "jerry seinfeld": {
+    "value": {
+      "tmdbId": 16377,
+      "wiki": {
+        "lang": "it",
+        "title": "Jerry Seinfeld",
+        "url": "https://it.wikipedia.org/wiki/Jerry_Seinfeld",
+        "extract": "Jerome Allen Seinfeld, detto Jerry (New York, 29 aprile 1954), è un cabarettista, attore, sceneggiatore, produttore televisivo e scrittore statunitense.\n\nHa raggiunto grande successo all'inizio degli anni novanta grazie alla popolare sit-com Seinfeld, che ha co-creato e scritto insieme a Larry David e per la quale nel 1995 ha vinto un Golden Globe per il miglior attore in una serie commedia o musicale.\n\nSuccessivamente ha creato e prodotto il reality show The Marriage Ref (2010-2011) e il talk show Comedians in Cars Getting Coffee (2012-2019), valsogli tre Webby Award. Ha poi coprodotto, co-sceneggiato e recitato nel film d'animazione Bee Movie (2007) e in Unfrosted - Storia di uno snack americano (2024)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jerry_Seinfeld_2023.jpg/500px-Jerry_Seinfeld_2023.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jerry_Seinfeld_2023.jpg",
+        "author": "Zafrir Keren - צפריר קרן",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 59717,
+          "title": "Comedians in Cars Getting Coffee",
+          "year": "2012"
+        },
+        {
+          "id": 31663,
+          "title": "The Marriage Ref",
+          "year": "2010"
+        },
+        {
+          "id": 1400,
+          "title": "Seinfeld",
+          "year": "1989"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:33.312Z"
   },
   "jesse mckeown": {
     "value": {
@@ -2624,6 +3139,69 @@
     },
     "fetchedAt": "2026-10-24T04:47:58.912Z"
   },
+  "julie plec": {
+    "value": {
+      "tmdbId": 1214616,
+      "wiki": {
+        "lang": "it",
+        "title": "Julie Plec",
+        "url": "https://it.wikipedia.org/wiki/Julie_Plec",
+        "extract": "Julie Carol Plec (Los Angeles, 26 maggio 1972) è una produttrice cinematografica, produttrice televisiva, sceneggiatrice, regista e scrittrice statunitense. È nota per il suo lavoro sui film Scream e la serie televisiva Kyle XY.\n\nAssieme a Kevin Williamson, è stata produttrice esecutiva e sceneggiatrice della serie televisiva The Vampire Diaries."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Julie_Plec_by_Gage_Skidmore.jpg/500px-Julie_Plec_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Julie_Plec_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 215522,
+          "title": "L'estate dei segreti perduti",
+          "year": "2025"
+        },
+        {
+          "id": 105532,
+          "title": "The Girls on the Bus",
+          "year": "2024"
+        },
+        {
+          "id": 125940,
+          "title": "Vampire Academy",
+          "year": "2022"
+        },
+        {
+          "id": 79460,
+          "title": "Legacies",
+          "year": "2018"
+        },
+        {
+          "id": 62919,
+          "title": "Containment",
+          "year": "2016"
+        },
+        {
+          "id": 255529,
+          "title": "The Originals: The Awakening",
+          "year": "2014"
+        },
+        {
+          "id": 48860,
+          "title": "The Tomorrow People",
+          "year": "2013"
+        },
+        {
+          "id": 18165,
+          "title": "The Vampire Diaries",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:31.317Z"
+  },
   "justin roiland": {
     "value": {
       "tmdbId": 1245733,
@@ -2743,6 +3321,122 @@
       ]
     },
     "fetchedAt": "2026-10-30T05:03:49.941Z"
+  },
+  "kevin williamson": {
+    "value": {
+      "tmdbId": 26458,
+      "wiki": {
+        "lang": "it",
+        "title": "Kevin Williamson",
+        "url": "https://it.wikipedia.org/wiki/Kevin_Williamson",
+        "extract": "Kevin Meade Williamson (New Bern, 14 marzo 1965) è un produttore televisivo, sceneggiatore, produttore cinematografico, attore e regista statunitense.\n\nÈ noto soprattutto per aver scritto la sceneggiatura del film horror Scream (1996), diretto da Wes Craven, che ha rilanciato il genere slasher negli anni novanta e ha dato origine all'omonima saga cinematografica. In seguito ha scritto anche Scream 2 (1997) e Scream 4 (2011), mentre nel 2026 ha diretto e co-scritto Scream 7.\n\nTra gli altri suoi lavori per il cinema figurano le sceneggiature di So cosa hai fatto (1997) e di The Faculty (1998). In televisione è il creatore della serie Dawson's Creek (1998–2003) e ha sviluppato e prodotto altre serie di successo, tra cui The Vampire Diaries."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Kevin_Williamson_by_Gage_Skidmore.jpg/500px-Kevin_Williamson_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Kevin_Williamson_by_Gage_Skidmore.jpg",
+        "author": "https://www.flickr.com/photos/gageskidmore/",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 254544,
+          "title": "The Waterfront",
+          "year": "2025"
+        },
+        {
+          "id": 81747,
+          "title": "Tell Me a Story",
+          "year": "2018"
+        },
+        {
+          "id": 68002,
+          "title": "Time After Time",
+          "year": "2017"
+        },
+        {
+          "id": 255529,
+          "title": "The Originals: The Awakening",
+          "year": "2014"
+        },
+        {
+          "id": 60796,
+          "title": "Stalker",
+          "year": "2014"
+        },
+        {
+          "id": 45094,
+          "title": "The Following",
+          "year": "2013"
+        },
+        {
+          "id": 18165,
+          "title": "The Vampire Diaries",
+          "year": "2009"
+        },
+        {
+          "id": 5225,
+          "title": "Hidden Palms",
+          "year": "2007"
+        },
+        {
+          "id": 5241,
+          "title": "Glory Days",
+          "year": "2002"
+        },
+        {
+          "id": 13927,
+          "title": "Wasteland",
+          "year": "1999"
+        },
+        {
+          "id": 2327,
+          "title": "Dawson's Creek",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:32.346Z"
+  },
+  "larry david": {
+    "value": {
+      "tmdbId": 16376,
+      "wiki": {
+        "lang": "it",
+        "title": "Larry David",
+        "url": "https://it.wikipedia.org/wiki/Larry_David",
+        "extract": "Lawrence Eugene David, detto Larry (New York, 2 luglio 1947), è un attore, sceneggiatore, produttore cinematografico e comico statunitense.\n\nIn tutta la sua carriera è stato candidato a 27 Emmy Awards e 3 Golden Globes, vincendo nel 2010 il Laurel Award for TV Writing Achievement. È stato votato come la 23a più grande star della commedia di tutti i tempi in un sondaggio britannico del 2004 per selezionare il \"Comico dei Comici\".\n\nDavid è particolarmente noto per essere stato il co-creatore della sit-com Seinfeld, nonché sceneggiatore e produttore di molti episodi della stessa, e per essere il creatore e protagonista della serie Curb Your Enthusiasm."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Larry_David_at_the_2009_Tribeca_Film_Festival_2.jpg/500px-Larry_David_at_the_2009_Tribeca_Film_Festival_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Larry_David_at_the_2009_Tribeca_Film_Festival_2.jpg",
+        "author": "David Shankbone",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 295780,
+          "title": "La vita, Larry e la ricerca dell'infelicità: Una storia dell'America, o quasi",
+          "year": "2026"
+        },
+        {
+          "id": 4546,
+          "title": "Curb Your Enthusiasm",
+          "year": "2000"
+        },
+        {
+          "id": 1400,
+          "title": "Seinfeld",
+          "year": "1989"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:34.307Z"
   },
   "lee aronsohn": {
     "value": {
@@ -3030,6 +3724,38 @@
     },
     "fetchedAt": "2026-10-21T04:53:38.298Z"
   },
+  "marc brown": {
+    "value": {
+      "tmdbId": 1212865,
+      "wiki": {
+        "lang": "en",
+        "title": "Marc Brown (journalist)",
+        "url": "https://en.wikipedia.org/wiki/Marc_Brown_(journalist)",
+        "extract": "Marc Alan Brown (born September 29, 1961) is an American television news anchor at KABC-TV in Los Angeles. Brown co-anchors the station's Eyewitness News HD newscasts at 5 p.m. and 11 p.m. Brown has earned four Emmy Awards, a Golden Mike, an Associated Press and a Radio and Television News Director Association award."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/1m970n4tYOZ3AUdngXL0vdSNUW1.jpg",
+      "series": [
+        {
+          "id": 228566,
+          "title": "Hop",
+          "year": "2024"
+        },
+        {
+          "id": 85,
+          "title": "Postcards from Buster",
+          "year": "2004"
+        },
+        {
+          "id": 2153,
+          "title": "Arthur",
+          "year": "1996"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:59.928Z"
+  },
   "marc cherry": {
     "value": {
       "tmdbId": 1218666,
@@ -3102,6 +3828,54 @@
       ]
     },
     "fetchedAt": "2026-10-19T04:48:50.867Z"
+  },
+  "mark gatiss": {
+    "value": {
+      "tmdbId": 34546,
+      "wiki": {
+        "lang": "it",
+        "title": "Mark Gatiss",
+        "url": "https://it.wikipedia.org/wiki/Mark_Gatiss",
+        "extract": "Mark Gatiss (Sedgefield, 17 ottobre 1966) è un attore e sceneggiatore britannico.\n\nÈ conosciuto soprattutto come membro del quartetto comico The League of Gentlemen, e per aver lavorato come sceneggiatore e attore alle serie televisive Doctor Who e Sherlock."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Gatiss_by_Gage_Skidmore_2.jpg/500px-Mark_Gatiss_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mark_Gatiss_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 251597,
+          "title": "Bookish",
+          "year": "2025"
+        },
+        {
+          "id": 86850,
+          "title": "Dracula",
+          "year": "2020"
+        },
+        {
+          "id": 19885,
+          "title": "Sherlock",
+          "year": "2010"
+        },
+        {
+          "id": 19887,
+          "title": "Crooked House",
+          "year": "2008"
+        },
+        {
+          "id": 2349,
+          "title": "The League of Gentlemen",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:50.408Z"
   },
   "marta kauffman": {
     "value": {
@@ -3328,6 +4102,91 @@
     },
     "fetchedAt": "2026-10-17T12:49:47.413Z"
   },
+  "michael dante dimartino": {
+    "value": {
+      "tmdbId": 1190517,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Dante DiMartino",
+        "url": "https://it.wikipedia.org/wiki/Michael_Dante_DiMartino",
+        "extract": "Michael Dante DiMartino (Shelburne, 18 luglio 1974) è uno sceneggiatore e produttore cinematografico statunitense.\n\nÈ uno dei due co-creatori nonché produttore esecutivo della serie animata di successo Avatar - La leggenda di Aang e della serie animata La leggenda di Korra sequel del suo predecessore."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MichaelDanteDiMartinoCCJuly09.jpg/500px-MichaelDanteDiMartinoCCJuly09.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MichaelDanteDiMartinoCCJuly09.jpg",
+        "author": "Mike Rollerson at https://www.flickr.com/photos/mikerollerson/",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 284833,
+          "title": "Avatar: I sette rifugi",
+          "year": "2026"
+        },
+        {
+          "id": 33880,
+          "title": "La leggenda di Korra",
+          "year": "2012"
+        },
+        {
+          "id": 246,
+          "title": "Avatar - La leggenda di Aang",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:43.896Z"
+  },
+  "michael hirst": {
+    "value": {
+      "tmdbId": 37631,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Hirst",
+        "url": "https://it.wikipedia.org/wiki/Michael_Hirst",
+        "extract": "Michael Hirst (Bradford, 21 settembre 1952) è uno sceneggiatore e produttore televisivo britannico, noto per aver scritto i film Elizabeth ed Elizabeth: The Golden Age e le serie televisive I Tudors e Vikings."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/70lhWPCdSPv7aGpaoAPk9h6sFOR.jpg",
+      "series": [
+        {
+          "id": 114056,
+          "title": "The Plague Year",
+          "year": null
+        },
+        {
+          "id": 285887,
+          "title": "Bloodaxe",
+          "year": "2027"
+        },
+        {
+          "id": 138971,
+          "title": "Billy the Kid",
+          "year": "2022"
+        },
+        {
+          "id": 44217,
+          "title": "Vikings",
+          "year": "2013"
+        },
+        {
+          "id": 33958,
+          "title": "Camelot",
+          "year": "2011"
+        },
+        {
+          "id": 2942,
+          "title": "I Tudors",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:34.639Z"
+  },
   "mike flanagan": {
     "value": {
       "tmdbId": 551463,
@@ -3503,6 +4362,67 @@
     },
     "fetchedAt": "2026-10-24T04:47:59.891Z"
   },
+  "neil druckmann": {
+    "value": {
+      "tmdbId": 1295692,
+      "wiki": {
+        "lang": "it",
+        "title": "Neil Druckmann",
+        "url": "https://it.wikipedia.org/wiki/Neil_Druckmann",
+        "extract": "Neil Alan Druckmann (Tel Aviv, 5 dicembre 1978) è un autore di videogiochi e regista israeliano naturalizzato statunitense, con ruoli inizialmente di programmatore e poi di sceneggiatore e direttore creativo.\n\nÈ co-presidente dell'azienda produttrice di videogiochi statunitense Naughty Dog, conosciuto principalmente per i suoi lavori svolti nei videogiochi The Last of Us e l'intera serie di Uncharted. È nato e cresciuto fino all'età di 10 anni in Israele, dove le sue esperienze nell'ambito dell'intrattenimento hanno influenzato le sue tecniche di narrazione. Ha studiato informatica presso l'Università Carnegie Mellon, prima di trovare lavoro nell'ambito dei videogiochi."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Neil_Druckmann%2C_MovieZine_interview_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Neil_Druckmann,_MovieZine_interview_(cropped).png",
+        "author": "Jonatan Blomberg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 100088,
+          "title": "The Last of Us",
+          "year": "2023"
+        },
+        {
+          "id": 125212,
+          "title": "Uncharted: Drake's Fortune Motion Comic",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:45.670Z"
+  },
+  "nic pizzolatto": {
+    "value": {
+      "tmdbId": 1281190,
+      "wiki": {
+        "lang": "it",
+        "title": "Nic Pizzolatto",
+        "url": "https://it.wikipedia.org/wiki/Nic_Pizzolatto",
+        "extract": "Nicholas Austin Pizzolatto (New Orleans, 21 settembre 1975) è uno scrittore, sceneggiatore, produttore televisivo e regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Nic_Pizzolatto_at_TIFF_2025_02.jpg/500px-Nic_Pizzolatto_at_TIFF_2025_02.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Nic_Pizzolatto_at_TIFF_2025_02.jpg",
+        "author": "Gabriel Hutchinson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 46648,
+          "title": "True Detective",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:37.334Z"
+  },
   "nick santora": {
     "value": {
       "tmdbId": 78417,
@@ -3643,6 +4563,69 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:14.572Z"
+  },
+  "paul levesque": {
+    "value": {
+      "tmdbId": 115788,
+      "wiki": {
+        "lang": "en",
+        "title": "Triple H",
+        "url": "https://en.wikipedia.org/wiki/Triple_H",
+        "extract": "Paul Michael Levesque (; born July 27, 1969), also known by his ring name Triple H, is an American business executive, professional wrestling promoter, and retired wrestler. He is signed to WWE, where he serves as its chief content officer, its head of creative, and an executive producer."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/P20250731DT-0076_Paul_Levesque_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:P20250731DT-0076_Paul_Levesque_2025.jpg",
+        "author": "The White House",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 289380,
+          "title": "WWE Lucha Libre AAA",
+          "year": "2026"
+        },
+        {
+          "id": 122821,
+          "title": "WWE's Most Wanted Treasures",
+          "year": "2021"
+        },
+        {
+          "id": 104288,
+          "title": "The Best of WWE",
+          "year": "2020"
+        },
+        {
+          "id": 122611,
+          "title": "WWE Worlds Collide",
+          "year": "2019"
+        },
+        {
+          "id": 83217,
+          "title": "WWE NXT UK",
+          "year": "2018"
+        },
+        {
+          "id": 68921,
+          "title": "WWE 205 Live",
+          "year": "2016"
+        },
+        {
+          "id": 64084,
+          "title": "WWE 24",
+          "year": "2015"
+        },
+        {
+          "id": 31991,
+          "title": "WWE NXT",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:53.074Z"
   },
   "paul t scheuring": {
     "value": {
@@ -3838,6 +4821,63 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:02.719Z"
+  },
+  "richard levinson": {
+    "value": {
+      "tmdbId": 42057,
+      "wiki": {
+        "lang": "it",
+        "title": "Richard Levinson",
+        "url": "https://it.wikipedia.org/wiki/Richard_Levinson",
+        "extract": "Richard Leighton Levinson (Filadelfia, 7 agosto 1934 – Los Angeles, 12 marzo 1987) è stato uno sceneggiatore e produttore televisivo statunitense ha legato il suo nome a William Link come scrittore e produttore di polizieschi per la televisione."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 15024,
+          "title": "Blacke's Magic",
+          "year": "1986"
+        },
+        {
+          "id": 484,
+          "title": "La signora in giallo",
+          "year": "1984"
+        },
+        {
+          "id": 1007,
+          "title": "Mrs. Columbo",
+          "year": "1979"
+        },
+        {
+          "id": 13925,
+          "title": "Ellery Queen",
+          "year": "1975"
+        },
+        {
+          "id": 13290,
+          "title": "Tenafly",
+          "year": "1973"
+        },
+        {
+          "id": 873,
+          "title": "Colombo",
+          "year": "1971"
+        },
+        {
+          "id": 2813,
+          "title": "Mannix",
+          "year": "1967"
+        },
+        {
+          "id": 21773,
+          "title": "Jericho",
+          "year": "1966"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:39.667Z"
   },
   "robert thorogood": {
     "value": {
@@ -4081,6 +5121,39 @@
     },
     "fetchedAt": "2026-10-17T12:49:49.294Z"
   },
+  "sera gamble": {
+    "value": {
+      "tmdbId": 1225899,
+      "wiki": {
+        "lang": "en",
+        "title": "Sera Gamble",
+        "url": "https://en.wikipedia.org/wiki/Sera_Gamble",
+        "extract": "Sera Gamble is an American television writer and producer, best known for her work on Lifetime/Netflix's You, Syfy's The Magicians and The CW's Supernatural."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sera_Gamble_by_Gage_Skidmore.jpg/500px-Sera_Gamble_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sera_Gamble_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 78191,
+          "title": "You",
+          "year": "2018"
+        },
+        {
+          "id": 64432,
+          "title": "The Magicians",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:41.984Z"
+  },
   "seth macfarlane": {
     "value": {
       "tmdbId": 52139,
@@ -4255,6 +5328,53 @@
     },
     "fetchedAt": "2026-10-17T12:49:30.189Z"
   },
+  "stephen butchard": {
+    "value": {
+      "tmdbId": 1240815,
+      "wiki": {
+        "lang": "en",
+        "title": "Stephen Butchard",
+        "url": "https://en.wikipedia.org/wiki/Stephen_Butchard",
+        "extract": "Stephen Butchard is a British screenwriter and television producer, best known for adapting Bernard Cornwell's The Saxon Stories into the BBC/Netflix drama series The Last Kingdom."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 255570,
+          "title": "This City Is Ours",
+          "year": "2025"
+        },
+        {
+          "id": 223599,
+          "title": "Shardlake",
+          "year": "2024"
+        },
+        {
+          "id": 119064,
+          "title": "The Good Mothers",
+          "year": "2023"
+        },
+        {
+          "id": 63333,
+          "title": "The Last Kingdom",
+          "year": "2015"
+        },
+        {
+          "id": 58283,
+          "title": "Good Cop",
+          "year": "2012"
+        },
+        {
+          "id": 4465,
+          "title": "Always and Everyone",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:53.979Z"
+  },
   "steven levitan": {
     "value": {
       "tmdbId": 1215785,
@@ -4317,6 +5437,84 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:55.378Z"
+  },
+  "steven moffat": {
+    "value": {
+      "tmdbId": 146459,
+      "wiki": {
+        "lang": "it",
+        "title": "Steven Moffat",
+        "url": "https://it.wikipedia.org/wiki/Steven_Moffat",
+        "extract": "Steven Moffat (Paisley, 18 novembre 1961) è uno sceneggiatore e produttore televisivo britannico.\n\nÈ noto soprattutto per aver ideato (o coideato) e sceneggiato le serie televisive Press Gang, Joking Apart, Chalk, Coupling e Sherlock. Moffat è stato inoltre sceneggiatore della miniserie Jekyll e di diversi episodi della nuova serie di Doctor Who, di cui è diventato showrunner e produttore a partire dalla quinta stagione.\n\nTra i tanti premi conquistati in carriera, spicca il premio Emmy vinto nel 2014 per la migliore sceneggiatura in una miniserie o film TV, per Sherlock: His Last Vow."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Steven_Moffat_by_Gage_Skidmore_2.jpg/500px-Steven_Moffat_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Steven_Moffat_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 307974,
+          "title": "Number 10",
+          "year": null
+        },
+        {
+          "id": 240457,
+          "title": "Douglas Is Cancelled",
+          "year": "2024"
+        },
+        {
+          "id": 121710,
+          "title": "Inside Man",
+          "year": "2022"
+        },
+        {
+          "id": 81322,
+          "title": "Un amore senza tempo",
+          "year": "2022"
+        },
+        {
+          "id": 86850,
+          "title": "Dracula",
+          "year": "2020"
+        },
+        {
+          "id": 19885,
+          "title": "Sherlock",
+          "year": "2010"
+        },
+        {
+          "id": 744,
+          "title": "Jekyll",
+          "year": "2007"
+        },
+        {
+          "id": 2719,
+          "title": "Coupling",
+          "year": "2000"
+        },
+        {
+          "id": 2431,
+          "title": "Chalk",
+          "year": "1997"
+        },
+        {
+          "id": 784,
+          "title": "Joking Apart",
+          "year": "1993"
+        },
+        {
+          "id": 2522,
+          "title": "Press Gang",
+          "year": "1989"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:51.374Z"
   },
   "taylor sheridan": {
     "value": {
@@ -4666,6 +5864,68 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:26.847Z"
+  },
+  "william link": {
+    "value": {
+      "tmdbId": 42058,
+      "wiki": {
+        "lang": "it",
+        "title": "William Link",
+        "url": "https://it.wikipedia.org/wiki/William_Link",
+        "extract": "William Theodore Link (Filadelfia, 15 dicembre 1933 – Los Angeles, 27 dicembre 2020) è stato uno scrittore e produttore televisivo statunitense che ha legato il suo nome al lavoro di Richard Levinson come autore di soggetti polizieschi per la televisione."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 14337,
+          "title": "Cosby indaga",
+          "year": "1994"
+        },
+        {
+          "id": 3304,
+          "title": "Probe",
+          "year": "1988"
+        },
+        {
+          "id": 484,
+          "title": "La signora in giallo",
+          "year": "1984"
+        },
+        {
+          "id": 1007,
+          "title": "Mrs. Columbo",
+          "year": "1979"
+        },
+        {
+          "id": 13925,
+          "title": "Ellery Queen",
+          "year": "1975"
+        },
+        {
+          "id": 13290,
+          "title": "Tenafly",
+          "year": "1973"
+        },
+        {
+          "id": 873,
+          "title": "Colombo",
+          "year": "1971"
+        },
+        {
+          "id": 2813,
+          "title": "Mannix",
+          "year": "1967"
+        },
+        {
+          "id": 21773,
+          "title": "Jericho",
+          "year": "1966"
+        }
+      ]
+    },
+    "fetchedAt": "2026-10-31T05:00:38.674Z"
   },
   "zoe kazan": {
     "value": {
