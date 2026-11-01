@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { biggerArtwork, parseAppleFeed } from '../scripts/adapters/apple';
 import { parseLastfm } from '../scripts/adapters/lastfm';
 import { expectedLatestWeek, parseNetflixTsv, seasonLabel, toOfficialCharts } from '../scripts/adapters/netflix';
-import { toEntry } from '../scripts/adapters/tmdb';
+import { pickSearchHit, toEntry } from '../scripts/adapters/tmdb';
 import { cleanEntries } from '../scripts/adapters/types';
 import { parseSinglesTable } from '../scripts/adapters/wikipedia';
 
@@ -119,6 +119,17 @@ describe('TMDB', () => {
       externalId: 'tmdb:movie:5',
     });
     expect(toEntry({ id: 7, name: 'Serie', poster_path: null }, 'tv', 2, 's')).toMatchObject({ title: 'Serie', cover: null });
+  });
+
+  it('nella ricerca preferisce il titolo uguale al primo risultato', () => {
+    const results = [
+      { id: 381284, title: 'Il diritto di contare', original_title: 'Hidden Figures' },
+      { id: 360784, title: 'Hidden: Senza via di scampo', original_title: 'Hidden' },
+      { id: 64622, title: 'Hidden', original_title: 'Hidden 3D' },
+    ];
+    expect(pickSearchHit(results, 'Hidden')?.id).toBe(360784);
+    expect(pickSearchHit(results, 'Figures')?.id).toBe(381284);
+    expect(pickSearchHit([], 'Hidden')).toBeUndefined();
   });
 });
 

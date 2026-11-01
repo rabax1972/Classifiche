@@ -21,6 +21,8 @@ export interface TmdbItem {
   id: number;
   title?: string;
   name?: string;
+  original_title?: string;
+  original_name?: string;
   release_date?: string;
   first_air_date?: string;
   poster_path?: string | null;
@@ -192,6 +194,17 @@ export function tmdbIdOf(
 }
 
 /**
+ * Risultato della ricerca TMDB per un titolo Netflix: il primo con titolo o titolo originale uguale (Netflix usa il titolo
+ * inglese, la ricerca in italiano lo dà come originale), altrimenti il primo. Il primo da solo può essere un altro film più
+ * popolare: "Hidden" → Hidden Figures.
+ */
+export function pickSearchHit(results: TmdbItem[], query: string): TmdbItem | undefined {
+  const q = normalizeText(query);
+  const titles = (i: TmdbItem) => [i.title, i.name, i.original_title, i.original_name];
+  return results.find((i) => titles(i).some((t) => t && normalizeText(t) === q)) ?? results[0];
+}
+
+/**
  * Cerca su TMDB le copertine dei titoli delle classifiche ufficiali (Netflix non le fornisce).
  * Il risultato è salvato in data/cache/tmdb-covers.json (scadenza 150 giorni) e applicato
  * in fase di aggregazione: i file ufficiali restano senza dati TMDB.
@@ -205,10 +218,10 @@ export async function lookupCovers(charts: OfficialChart[], log: (m: string) => 
       const key = coverKey(media, e.title);
       if (cache.has(key)) continue;
       if (calls++ >= budget) break;
-      const q = encodeURIComponent(e.title.replace(/:\s*(stagione|season|parte|part|limited series).*$/i, ''));
+      const query = e.title.replace(/:\s*(stagione|season|parte|part|limited series).*$/i, '');
       try {
-        const res = await tmdb<TmdbPage>(`/search/${media}?language=it-IT&region=IT&query=${q}`);
-        const hit = res.results[0];
+        const res = await tmdb<TmdbPage>(`/search/${media}?language=it-IT&region=IT&query=${encodeURIComponent(query)}`);
+        const hit = pickSearchHit(res.results, query);
         cache.set(key, {
           cover: hit?.poster_path ? `${IMG}${hit.poster_path}` : null,
           url: hit ? `https://www.themoviedb.org/${media}/${hit.id}` : null,
