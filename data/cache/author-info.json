@@ -1021,6 +1021,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "blake pierce": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/blake-pierce/1061299863",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "boris vian": {
     "value": {
       "wiki": {
@@ -1061,6 +1070,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "bruno vespa": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Bruno Vespa",
+        "url": "https://it.wikipedia.org/wiki/Bruno_Vespa",
+        "extract": "Bruno Paolo Vespa (L'Aquila, 27 maggio 1944) è un giornalista, conduttore televisivo, autore televisivo e scrittore italiano.\n\nDirettore del TG1 dal 1990 al 1993, è ideatore e conduttore del programma televisivo Porta a Porta, trasmesso da Rai 1 a partire dal 1996."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bruno_Vespa_%28cropped%29.jpg/500px-Bruno_Vespa_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bruno_Vespa_(cropped).jpg",
+        "author": "Daniele La Malfa",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/bruno-vespa/467361514",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "c s lewis": {
     "value": {
       "wiki": {
@@ -1081,6 +1110,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "caitlin crews": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "camilla de falco": {
     "value": {
       "wiki": null,
@@ -1089,6 +1127,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
+  "camilla lackberg": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Camilla Läckberg",
+        "url": "https://it.wikipedia.org/wiki/Camilla_L%C3%A4ckberg",
+        "extract": "Camilla Läckberg, nome completo  Jean Edith Camilla Läckberg Eriksson  (Fjällbacka, 30 agosto 1974), è una scrittrice svedese i cui romanzi si svolgono all'interno o intorno al paese in cui è nata e cresciuta, Fjällbacka, sulla costa occidentale della Svezia."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Camilla_L%C3%A4ckberg_by_Christian_Ursilva.jpg/500px-Camilla_L%C3%A4ckberg_by_Christian_Ursilva.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Camilla_L%C3%A4ckberg_by_Christian_Ursilva.jpg",
+        "author": "Christian Ursilva from København, Danmark",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/camilla-l%C3%A4ckberg/271415883",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "carlo collodi": {
     "value": {
@@ -1130,6 +1188,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "carlo rovelli": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Carlo Rovelli",
+        "url": "https://it.wikipedia.org/wiki/Carlo_Rovelli",
+        "extract": "Carlo Rovelli (Verona, 3 maggio 1956) è un fisico, saggista e divulgatore scientifico italiano, specializzato in fisica teorica.\n\nHa lavorato in Italia e negli Stati Uniti e attualmente insegna in Francia all'Università di Aix-Marseille. La sua principale attività scientifica è nell'ambito della teoria della gravità quantistica a loop (Loop Quantum Gravity), di cui è uno dei fondatori. Si è occupato anche di storia e filosofia della scienza, della nascita del pensiero scientifico e in particolare della posizione di Anassimandro nello sviluppo della riflessione scientifica dell'umanità."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Carlo_Rovelli_no_Fronteiras_do_Pensamento_Porto_Alegre_2017_%2834648147621%29.jpg/500px-Carlo_Rovelli_no_Fronteiras_do_Pensamento_Porto_Alegre_2017_%2834648147621%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Carlo_Rovelli_no_Fronteiras_do_Pensamento_Porto_Alegre_2017_(34648147621).jpg",
+        "author": "Fronteiras do Pensamento",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/carlo-rovelli/262049503",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "carlos ruiz zafon": {
     "value": {
       "wiki": {
@@ -1167,6 +1245,20 @@
       "died": null
     },
     "fetchedAt": "2026-11-01T05:00:39.462Z"
+  },
+  "cathy williams": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Cathy Williams",
+        "url": "https://en.wikipedia.org/wiki/Cathy_Williams",
+        "extract": "Cathy Williams (born 1957 in Trinidad and Tobago) is a British writer of romance novels in Mills & Boon since 1990."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "cesare pavese": {
     "value": {
@@ -2233,6 +2325,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "francois morlupi": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/francois-morlupi/1563048251",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "francoise sagan": {
     "value": {
       "wiki": {
@@ -2711,6 +2812,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-01T05:00:39.462Z"
+  },
+  "heidi rice": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "heinrich boll": {
     "value": {
@@ -3853,6 +3963,15 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "lela may wight": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "lev tolstoj": {
     "value": {
       "wiki": {
@@ -4045,6 +4164,15 @@
       "died": 1888
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "lucy king": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "lucy score": {
     "value": {
@@ -4402,6 +4530,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "meggie mold": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "mel robbins": {
     "value": {
       "wiki": {
@@ -4415,6 +4552,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "mercedes ron": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Mercedes Ron",
+        "url": "https://it.wikipedia.org/wiki/Mercedes_Ron",
+        "extract": "Mercedes Ron López (Buenos Aires, 3 giugno 1993) è una scrittrice spagnola di origine argentina.\n\nÈ conosciuta per la saga dei Culpables, una trilogia diventata famosa grazie a Wattpad."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mercedes_Ron.jpg/500px-Mercedes_Ron.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes_Ron.jpg",
+        "author": "Dolce Didi",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/mercedes-ron/1215065930",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "michael connelly": {
     "value": {
@@ -4544,6 +4701,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "michelle smart": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "mick herron": {
     "value": {
@@ -4903,6 +5069,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "patricia woitynek": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "patrick mcgrath": {
     "value": {
@@ -5458,6 +5633,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "rula jebreal": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Rula Jebreal",
+        "url": "https://it.wikipedia.org/wiki/Rula_Jebreal",
+        "extract": "Rula Jebreal (in arabo رولا جبريل‎?; in ebraico רולא ג'בריל‎?; Haifa, 24 aprile 1973) è una giornalista, scrittrice e docente palestinese con cittadinanza israeliana naturalizzata italiana."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rula_Jebreal%2C_portrait_by_Fabrizio_Ferri.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Rula_Jebreal,_portrait_by_Fabrizio_Ferri.jpg",
+        "author": "Fabrizioferri",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/rula-jebreal/1521390872",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "s j sylvis": {
     "value": {
       "wiki": null,
@@ -5689,6 +5884,20 @@
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
+  "sharon kendrick": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Sharon Kendrick",
+        "url": "https://en.wikipedia.org/wiki/Sharon_Kendrick",
+        "extract": "Sharon Kendrick, née Wirdnam (b. London, England) is a British author of over 100 romance novels published by Mills & Boon since 1993. Her books regularly top the sales charts for romance fiction."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
   "sierra simone": {
     "value": {
       "wiki": null,
@@ -5820,6 +6029,15 @@
       "died": 1942
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "stefania s": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/stefania-s/1683058562",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "stendhal": {
     "value": {
@@ -6016,6 +6234,26 @@
       "died": 1955
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "thomas pynchon": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Thomas Pynchon",
+        "url": "https://it.wikipedia.org/wiki/Thomas_Pynchon",
+        "extract": "Thomas Ruggles Pynchon Jr. (AFI: [ˈpɪntʃɒn] o anche [ˈpɪntʃən]; Glen Cove, 8 maggio 1937) è uno scrittore statunitense.\n\nRiconosciuto come uno dei più importanti scrittori americani del Novecento, nonché uno dei massimi esponenti della letteratura postmoderna, con una vasta influenza sugli autori delle generazioni seguenti, si segnala per i suoi romanzi densi e complessi, caratterizzati da una prosa labirintica e ricercata, dall'amalgama dei più disparati generi e sottogeneri letterari, dall'unione tra cultura alta e cultura bassa e per la varietà degli argomenti trattati. È stato più volte indicato come possibile candidato al Premio Nobel per la Letteratura."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Thomas_Pynchon%2C_Navy_Sailor.jpg/500px-Thomas_Pynchon%2C_Navy_Sailor.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Thomas_Pynchon,_Navy_Sailor.jpg",
+        "author": "Published by Albert Love Enterprises, a publisher based in Atlanta, Georgia. Ph…",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/thomas-pynchon/129356497",
+      "died": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
   "tim malloy": {
     "value": {
@@ -6357,5 +6595,25 @@
       "died": null
     },
     "fetchedAt": "2026-10-30T04:59:45.764Z"
+  },
+  "yukio mishima": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Yukio Mishima",
+        "url": "https://it.wikipedia.org/wiki/Yukio_Mishima",
+        "extract": "Yukio Mishima  (三島 由紀夫?, Mishima Yukio), pseudonimo di Kimitake Hiraoka (平岡 公威?, Hiraoka Kimitake; Tokyo, 14 gennaio 1925 – Tokyo, 25 novembre 1970), è stato uno scrittore, drammaturgo, poeta, traduttore e attivista giapponese.\n\nConsiderato come uno degli autori giapponesi più importanti del ventesimo secolo, ebbe notorietà anche come attore, regista cinematografico e artista marziale. Le sue posizioni politiche lo resero una figura controversa in Giappone, dove continua ad esserlo ancora al giorno d'oggi. Convinto patriota, fu il fondatore della Tatenokai, una milizia civile con il dichiarato scopo di restaurare la dignità dell'Impero giapponese."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Yukio_Mishima_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Yukio_Mishima_2.jpg",
+        "author": "Yukio_Mishima_cropped.jpg: Shirou Aoyama derivative work: PRA (talk)",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/yukio-mishima/411517879",
+      "died": 1970
+    },
+    "fetchedAt": "2026-11-02T05:13:11.244Z"
   }
 }

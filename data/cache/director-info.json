@@ -3960,6 +3960,89 @@
     },
     "fetchedAt": "2026-10-27T04:47:42.690Z"
   },
+  "daniel sanchez arevalo": {
+    "value": {
+      "tmdbId": 34017,
+      "wiki": {
+        "lang": "it",
+        "title": "Daniel Sánchez Arévalo",
+        "url": "https://it.wikipedia.org/wiki/Daniel_S%C3%A1nchez_Ar%C3%A9valo",
+        "extract": "Daniel Sánchez Arévalo (Madrid, 24 giugno 1970) è un regista e scrittore spagnolo.\n\nEsordisce nel 2006 presentando alla 3ª Giornata del Autori della 63ª Mostra internazionale d'arte cinematografica di Venezia il suo primo film Azuloscurocasinegro."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Director_Daniel_Sanchez_Arzvalo_at_MIFF_%28cropped%29.jpg/500px-Director_Daniel_Sanchez_Arzvalo_at_MIFF_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Director_Daniel_Sanchez_Arzvalo_at_MIFF_(cropped).jpg",
+        "author": "MiamiFilmFestival",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1632406,
+          "title": "Caza mayor",
+          "year": null
+        },
+        {
+          "id": 1571955,
+          "title": "Colisión",
+          "year": "2026"
+        },
+        {
+          "id": 1437873,
+          "title": "Rondallas",
+          "year": "2025"
+        },
+        {
+          "id": 1445711,
+          "title": "Pipiolos",
+          "year": "2025"
+        },
+        {
+          "id": 623627,
+          "title": "Diciassette",
+          "year": "2019"
+        },
+        {
+          "id": 438414,
+          "title": "En tu cabeza",
+          "year": "2016"
+        },
+        {
+          "id": 215848,
+          "title": "La gran familia española",
+          "year": "2013"
+        },
+        {
+          "id": 56647,
+          "title": "Primos",
+          "year": "2011"
+        },
+        {
+          "id": 721018,
+          "title": "(Uno de los) primos",
+          "year": "2010"
+        },
+        {
+          "id": 28478,
+          "title": "Gordos",
+          "year": "2009"
+        },
+        {
+          "id": 687518,
+          "title": "Traumalogía",
+          "year": "2007"
+        },
+        {
+          "id": 1451093,
+          "title": "Pene",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:13:12.360Z"
+  },
   "daniel scheinert": {
     "value": {
       "tmdbId": 1317730,
@@ -18530,6 +18613,28 @@
       ]
     },
     "fetchedAt": "2026-10-22T04:45:45.496Z"
+  },
+  "tazbah chavez": {
+    "value": {
+      "tmdbId": 2521383,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1813355,
+          "title": "A Story of Derry",
+          "year": "2026"
+        },
+        {
+          "id": 883453,
+          "title": "Your Name Isn't English",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:13:13.303Z"
   },
   "theodore melfi": {
     "value": {

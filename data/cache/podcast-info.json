@@ -1806,6 +1806,53 @@
     },
     "fetchedAt": "2026-10-29T05:04:47.847Z"
   },
+  "podcast:l ultima granita": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/l-ultima-granita/id1852464399",
+      "genres": [
+        "Documentari",
+        "Cultura e società"
+      ],
+      "episodes": 8,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dd/03/e8/dd03e809-f293-e49d-5a32-7e201cf561d2/mza_1538665256723725946.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/108e77440/podcast/rss",
+      "description": "Nella sezione delle sepolture comunali del cimitero di Bari, Onny Allegretti scopre per caso le tombe di un’intera famiglia, i Pontrelli, tutti scomparsi lo stesso giorno: l’11 agosto 1974.\nDa quella scoperta inizia un’indagine volta a ricostruire la vicenda che li vide protagonisti e che, all’epoca, coinvolse altre 50 persone.\nQuesta è \"L'Ultima Granita\", 1ª miniserie di CRONACHE SEPOLTE, un podcast fatto di storie celate dal tempo e sepolte letteralmente dalla terra, vicende umane che meritano di tornare in superficie.\nScritto da Onny Allegretti e Gaia Lavarra.",
+      "website": "https://podcasters.spotify.com/pod/show/onny6",
+      "latest": [
+        {
+          "title": "07- Cicatrici",
+          "date": "2025-11-20",
+          "seconds": 1136,
+          "url": "https://podcasters.spotify.com/pod/show/onny6/episodes/07--Cicatrici-e3b1ha3"
+        },
+        {
+          "title": "06- Peppino",
+          "date": "2025-11-20",
+          "seconds": 703,
+          "url": "https://podcasters.spotify.com/pod/show/onny6/episodes/06--Peppino-e3b1h3i"
+        },
+        {
+          "title": "05- Un foglio verde",
+          "date": "2025-11-20",
+          "seconds": 1077,
+          "url": "https://podcasters.spotify.com/pod/show/onny6/episodes/05--Un-foglio-verde-e3b1h0g"
+        },
+        {
+          "title": "04- Diluvio",
+          "date": "2025-11-20",
+          "seconds": 895,
+          "url": "https://podcasters.spotify.com/pod/show/onny6/episodes/04--Diluvio-e3b1grk"
+        },
+        {
+          "title": "03- Chi manca?",
+          "date": "2025-11-20",
+          "seconds": 1389,
+          "url": "https://podcasters.spotify.com/pod/show/onny6/episodes/03--Chi-manca-e3b1gnd"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:18:25.147Z"
+  },
   "podcast:la caduta": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/la-caduta-la-misteriosa-morte-di-david-rossi/id6817022205",
@@ -2951,6 +2998,53 @@
     },
     "fetchedAt": "2026-10-30T05:05:09.237Z"
   },
+  "podcast:scientificast la scienza come non l hai mai sentita": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/scientificast-la-scienza-come-non-lhai-mai-sentita/id465501415",
+      "genres": [
+        "Scienze",
+        "Istruzione"
+      ],
+      "episodes": 566,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/45/77/6d/45776d6d-39e4-9c63-7a89-d3d777858ee0/mza_13676230967746021528.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/1762253/episodes/feed",
+      "description": "Scientificast è un podcast che parla di scienza in modo semplice e divertente.\nDal 2007 ogni settimana spieghiamo le ultime novità nella fisica e nella matematica, nella biologia e nella chimica, nell'informatica e nell'ingegneria. Il nostro è un podcast indipendente e senza alcun fine di lucro fatto da scienziati e ricercatori con la passione per la divulgazione libera ed accessibile a tutti.\nVisita il nostro sito:\nhttp://www.scientificast.it\nvieni a trovarci sui social network:\nhttps://www.facebook.com/scientificast/\nhttps://www.instagram.com/scicast/\nsupportaci con una donazione:\nhttps://www.scientificast.it/sostieni-scientificast/\ne vieni a salutarci sul nostro canale Telegram:\nhttps://t.me/joinchat/CVDLbkSCClLhDkPWMJ57PA\nDiventa un supporter di questo podcast: https://www.spreaker.com/podcast/scientificast-la-scienza-come-non-l-hai-mai-sentita--1762253/support.",
+      "website": "https://www.scientificast.it/",
+      "latest": [
+        {
+          "title": "Respirare funghi verdi",
+          "date": "2026-11-02",
+          "seconds": 3042,
+          "url": "https://www.spreaker.com/episode/respirare-funghi-verdi--76099227"
+        },
+        {
+          "title": "Un positrone da latte",
+          "date": "2026-10-26",
+          "seconds": 2946,
+          "url": "https://www.spreaker.com/episode/un-positrone-da-latte--75984746"
+        },
+        {
+          "title": "L'autocatalisi delle gomme intercalari",
+          "date": "2026-10-19",
+          "seconds": 3351,
+          "url": "https://www.spreaker.com/episode/l-autocatalisi-delle-gomme-intercalari--75839393"
+        },
+        {
+          "title": "Nobel neutrinici sotto ghiaccio",
+          "date": "2026-10-12",
+          "seconds": 3007,
+          "url": "https://www.spreaker.com/episode/nobel-neutrinici-sotto-ghiaccio--75703127"
+        },
+        {
+          "title": "Pozioni superbiased",
+          "date": "2026-10-05",
+          "seconds": 3018,
+          "url": "https://www.spreaker.com/episode/pozioni-superbiased--75548355"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:18:28.185Z"
+  },
   "podcast:scienze x storia": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/scienze-x-storia/id1861335841",
@@ -3136,52 +3230,6 @@
       ]
     },
     "fetchedAt": "2026-10-30T05:05:15.503Z"
-  },
-  "podcast:storia in podcast": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/storia-in-podcast/id1511551427",
-      "genres": [
-        "Storia"
-      ],
-      "episodes": 653,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e6/1e/93/e61e93d3-9d65-a212-5196-3b30edac81bd/mza_12104299540611644514.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/MONDADORI7805258396",
-      "description": "Se sei appassionato di Storia abbonati alla rivista Focus Storia, vai su\nhttps://www.abbonamenti.it/rivista/Focus-Storia?utm_source=storia+in+podcast&utm_medium=podcast&utm_campaign=podcast\ne inserisci il codice STORIAINPODCAST\nOgni settimana la redazione di Focus Storia approfondisce un tema storico o rilegge in chiave storica un avvenimento di attualità. Per capire il presente scoprendo il passato.",
-      "website": "https://www.spreaker.com/show/la-voce-della-storia",
-      "latest": [
-        {
-          "title": "La geopolitica della Turchia di Erdogan e la Sublime porta",
-          "date": "2026-10-24",
-          "seconds": 1253,
-          "url": null
-        },
-        {
-          "title": "Conversazioni sull'America - I Vicepresidenti più influenti",
-          "date": "2026-10-14",
-          "seconds": 2510,
-          "url": null
-        },
-        {
-          "title": "Scrive il fratello della Principessa Diana",
-          "date": "2026-09-26",
-          "seconds": 793,
-          "url": null
-        },
-        {
-          "title": "Mladic: storia di un criminale di guerra",
-          "date": "2026-09-13",
-          "seconds": 1195,
-          "url": null
-        },
-        {
-          "title": "L’Odissea di Omero e l’opera di Nolan",
-          "date": "2026-08-15",
-          "seconds": 2165,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-26T04:53:38.606Z"
   },
   "podcast:storie di brand": {
     "value": {
@@ -3531,6 +3579,46 @@
     },
     "fetchedAt": "2026-10-29T05:04:23.997Z"
   },
+  "podcast:the bull playbook": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/the-bull-playbook/id6816897498",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 4,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/94/e7/db94e70d-361d-6706-832d-194f52c7d6fc/mza_12430604224122142374.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CSRL9950876708",
+      "description": "The Bull Playbook è il podcast di The Bull dedicato al capitale umano: le risorse che possiamo sviluppare oltre il patrimonio finanziario, per decidere meglio e vivere meglio.\nSalute, longevità, carriera, produttività, psicologia, relazioni, comunicazione e performance: attraverso conversazioni con esperti e professionisti, esploriamo le risorse che influenzano il nostro potenziale, le nostre scelte e, in ultima analisi, anche il nostro patrimonio.\nPerché tempo, energia, competenze, salute e capacità sono risorse su cui vale la pena investire.\nUna produzione Corax.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Perché la vita intima decide tutto il resto | Monica Calcagni",
+          "date": "2026-10-30",
+          "seconds": 2980,
+          "url": null
+        },
+        {
+          "title": "Cosa fare nelle prime 24 ore dopo una sconfitta | Giuseppe Vercelli",
+          "date": "2026-10-16",
+          "seconds": 3107,
+          "url": null
+        },
+        {
+          "title": "Il medico degli astronauti, come invecchiare meno (e meglio) | Filippo Ongaro",
+          "date": "2026-10-02",
+          "seconds": 3488,
+          "url": null
+        },
+        {
+          "title": "Benvenuti su The Bull Playbook: il nostro asset più importante siamo noi",
+          "date": "2026-09-29",
+          "seconds": 106,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:18:22.127Z"
+  },
   "podcast:the essential": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/the-essential/id1705847056",
@@ -3718,5 +3806,53 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:44.847Z"
+  },
+  "podcast:una parola al giorno": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/una-parola-al-giorno-il-podcast/id1627694492",
+      "genres": [
+        "Cultura e società",
+        "Istruzione",
+        "Impara le lingue"
+      ],
+      "episodes": 937,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f0/5b/51/f05b51f5-7caf-7899-1651-6bf07e4efe30/mza_9958559863406201898.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BON1898980871",
+      "description": "Le parole della nostra lingua danno forma al nostro pensiero, custodiscono e creano storie e tagli di mondo. Questo è Una Parola al Giorno, un podcast di unaparolaalgiorno.it e Bonfire, che ti accompagna fra usi, sfumature, curiosità e trascorsi di parole note e meno note.\n-\nTesti di unaparolaalgiorno.it\nhttps://unaparolaalgiorno.it/\n-\nUna produzione Bonfire\nhttps://bonfire.land\n-\nVoce di Roberta Ricciardi e Giorgio Moretti\nMontaggio di Stefano Riggi\nSigla a cura di Emanuele Pavese",
+      "website": "https://www.spreaker.com/show/una-parola-al-giorno-il-podcast",
+      "latest": [
+        {
+          "title": "Venale",
+          "date": "2026-10-30",
+          "seconds": 241,
+          "url": null
+        },
+        {
+          "title": "Tesaurizzare",
+          "date": "2026-10-29",
+          "seconds": 228,
+          "url": null
+        },
+        {
+          "title": "Gratis",
+          "date": "2026-10-28",
+          "seconds": 227,
+          "url": null
+        },
+        {
+          "title": "Erario",
+          "date": "2026-10-27",
+          "seconds": 189,
+          "url": null
+        },
+        {
+          "title": "Emolumento",
+          "date": "2026-10-26",
+          "seconds": 267,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-02T05:18:19.371Z"
   }
 }

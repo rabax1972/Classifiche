@@ -635,6 +635,83 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.556Z"
   },
+  "a story of derry|tazbah chavez 2026": {
+    "value": {
+      "tmdbId": 1813355,
+      "title": "A Story of Derry",
+      "overview": "Centinaia di anni prima dell'arrivo di Pennywise, tre ragazzini si avventurano nel bosco dove incontrano un terrificante e antico spirito.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Horror",
+        "Mistero"
+      ],
+      "runtime": 30,
+      "released": "2026-10-31",
+      "vote": 6.8,
+      "votes": 32,
+      "poster": "https://image.tmdb.org/t/p/w500/q2XCoT6AqBANz0mKmkgVeo4PyRQ.jpg",
+      "directors": [
+        {
+          "id": 2521383,
+          "name": "Tazbah Chavez"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kiawentiio",
+          "character": "Necani"
+        },
+        {
+          "name": "Isabel DeRoy-Olson",
+          "character": "Kino"
+        },
+        {
+          "name": "Michael Podemski",
+          "character": "Maneese"
+        },
+        {
+          "name": "Zahn McClarnon",
+          "character": null
+        },
+        {
+          "name": "MorningStar Angeline",
+          "character": "Sesqui"
+        },
+        {
+          "name": "Brandon Oakes",
+          "character": "Apto"
+        },
+        {
+          "name": "Jennifer Podemski",
+          "character": "Miko"
+        },
+        {
+          "name": "Kimberly Guerrero",
+          "character": "Rose"
+        }
+      ],
+      "trailer": "iOjzJsHS0M0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1813355-a-story-of-derry/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-02T05:13:11.967Z"
+  },
   "accadde una notte|frank capra 1934": {
     "value": {
       "tmdbId": 3078,
@@ -2217,6 +2294,83 @@
       }
     },
     "fetchedAt": "2026-11-01T05:00:40.074Z"
+  },
+  "apocalisse z il nuovo mondo|carles torrens 2026": {
+    "value": {
+      "tmdbId": 1507696,
+      "title": "Apocalipsis Z: Il Nuovo Mondo",
+      "overview": "Le Isole Canarie sono diventate l'ultimo rifugio d'Europa in seguito allo scoppio dell'epidemia del virus TSJ. Quando una missione speciale parte per la terraferma alla ricerca di rifornimenti vitali, Roberto si unisce alla squadra con intenzioni discutibili. La pericolosa operazione si trasforma in una disperata corsa per la sopravvivenza, e Roberto e i suoi compagni si ritrovano intrappolati tra orde di infetti e lealtà divise.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Apocalipsis Z: Nuevo mundo",
+      "genres": [
+        "Azione",
+        "Thriller",
+        "Horror"
+      ],
+      "runtime": 96,
+      "released": "2026-10-09",
+      "vote": 6.1,
+      "votes": 40,
+      "poster": "https://image.tmdb.org/t/p/w500/Aaf1GNXi80i2qNvVHlIjpBGfs88.jpg",
+      "directors": [
+        {
+          "id": 1017209,
+          "name": "Carles Torrens"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Carlos Alcaide",
+          "character": "Roberto"
+        },
+        {
+          "name": "Julia Martínez",
+          "character": "Marina"
+        },
+        {
+          "name": "Mario Mayo",
+          "character": "De Luna"
+        },
+        {
+          "name": "Mónica López",
+          "character": "Castro"
+        },
+        {
+          "name": "Tamara Casellas",
+          "character": "Comillas"
+        },
+        {
+          "name": "Santiago Vaca Narvaja",
+          "character": "Core"
+        },
+        {
+          "name": "José María Yázpik",
+          "character": "Pritchenko"
+        },
+        {
+          "name": "Berta Vázquez",
+          "character": "Lucía"
+        }
+      ],
+      "trailer": "m_jc3YrSAF8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1507696-apocalipsis-z-nuevo-mundo/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-02T05:13:11.821Z"
   },
   "apocalypse now|francis ford coppola 1979": {
     "value": {
@@ -5350,6 +5504,79 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.374Z"
+  },
+  "colision|daniel sanchez arevalo 2026": {
+    "value": {
+      "tmdbId": 1571955,
+      "title": "Colisión",
+      "overview": "2013. Nel pieno di una crisi economica, una banda assalta una banca a Madrid innescando una catena di eventi imprevedibili. Quella che inizialmente sembra una semplice rapina, si trasforma rapidamente in un gioco di inganni, paura e sopravvivenza, dove ogni decisione conta, ogni gesto nasconde qualcosa e ognuno cerca di evitare un destino ben peggiore rispetto al carcere.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Azione",
+        "Crime"
+      ],
+      "runtime": 122,
+      "released": "2026-10-30",
+      "vote": 6.9,
+      "votes": 28,
+      "poster": "https://image.tmdb.org/t/p/w500/5oaS1EJfYCsd0kjZK2W9YaSMUaI.jpg",
+      "directors": [
+        {
+          "id": 34017,
+          "name": "Daniel Sánchez Arévalo"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Laia Costa",
+          "character": "Carla Mencía"
+        },
+        {
+          "name": "Karra Elejalde",
+          "character": "Pedro"
+        },
+        {
+          "name": "Luis Zahera",
+          "character": "Ernesto"
+        },
+        {
+          "name": "Tamar Novas",
+          "character": "Tomás"
+        },
+        {
+          "name": "Álvaro Cervantes",
+          "character": "Raúl"
+        },
+        {
+          "name": "Lluís Homar",
+          "character": "Luis"
+        },
+        {
+          "name": "Luz Valdenebro",
+          "character": "Lola"
+        },
+        {
+          "name": "Víctor Duplá",
+          "character": "Pablo"
+        }
+      ],
+      "trailer": "T-GkNaa_dXU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1571955-colision/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-02T05:13:11.864Z"
   },
   "com era verde la mia valle|john ford 1941": {
     "value": {
@@ -15377,6 +15604,58 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:46.153Z"
+  },
+  "killer card|2026": {
+    "value": {
+      "tmdbId": 1804639,
+      "title": "Killer Card",
+      "overview": "Dopo essersi conosciuti in una comunità di recupero per tossicodipendenti, Elisa e Luca si innamorano perdutamente l'una dell'altro e, una volta dimessi, decidono di sposarsi. La convivenza matrimoniale, tuttavia, non sarà spensierata come entrambi speravano. A complicare la situazione c'è anche una figura misteriosa che agisce nell'ombra e sfrutta le debolezze di Elisa.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 90,
+      "released": "2026-10-23",
+      "vote": 10,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/xPhT3HPEa1cN0rhmZZ5ZrkVgSVI.jpg",
+      "directors": [],
+      "cast": [
+        {
+          "name": "Ambra Ferrara",
+          "character": "Elisa"
+        },
+        {
+          "name": "Andrea Grasso",
+          "character": "Luca"
+        },
+        {
+          "name": "Helena Geraci",
+          "character": "Iris"
+        },
+        {
+          "name": "Verdiana Barbagallo",
+          "character": "Stella"
+        },
+        {
+          "name": "Carolina Pulvirenti",
+          "character": "Nicole"
+        },
+        {
+          "name": "Mara Di Maura",
+          "character": "Jane"
+        },
+        {
+          "name": "Salvo Saverio D'Angelo",
+          "character": "Padre Luigi"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-02T05:13:11.820Z"
   },
   "klara e il sole|taika waititi 2026": {
     "value": {

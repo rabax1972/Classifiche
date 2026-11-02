@@ -627,6 +627,10 @@
     "value": "Giovanni Tortorici",
     "fetchedAt": "2026-10-12T07:24:32.541Z"
   },
+  "movie:1404304": {
+    "value": "John Suits",
+    "fetchedAt": "2026-11-02T05:11:44.329Z"
+  },
   "movie:1404604": {
     "value": "Yann Samuell",
     "fetchedAt": "2026-10-12T07:24:31.983Z"
@@ -1247,6 +1251,10 @@
     "value": "Francesca Zen",
     "fetchedAt": "2026-10-23T04:45:47.230Z"
   },
+  "movie:1796328": {
+    "value": "John Real",
+    "fetchedAt": "2026-11-02T05:11:44.107Z"
+  },
   "movie:1796965": {
     "value": "Cesare Bisantis",
     "fetchedAt": "2026-10-27T04:45:47.661Z"
@@ -1286,6 +1294,10 @@
   "movie:1813355": {
     "value": "Tazbah Chavez",
     "fetchedAt": "2026-11-01T04:59:50.856Z"
+  },
+  "movie:1814555": {
+    "value": "Curry Barker",
+    "fetchedAt": "2026-11-02T05:11:44.209Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -2187,6 +2199,10 @@
     "value": "Matthew B. Roberts",
     "fetchedAt": "2026-10-19T12:51:52.103Z"
   },
+  "tv:208929": {
+    "value": null,
+    "fetchedAt": "2026-11-02T05:11:44.704Z"
+  },
   "tv:210224": {
     "value": "José Júnior",
     "fetchedAt": "2026-10-23T04:45:50.731Z"
@@ -2258,6 +2274,10 @@
   "tv:230050": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:56.124Z"
+  },
+  "tv:230915": {
+    "value": "Cali",
+    "fetchedAt": "2026-11-02T05:11:44.804Z"
   },
   "tv:2316": {
     "value": "Greg Daniels",
@@ -2422,6 +2442,10 @@
   "tv:283428": {
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.376Z"
+  },
+  "tv:283692": {
+    "value": null,
+    "fetchedAt": "2026-11-02T05:11:44.904Z"
   },
   "tv:283938": {
     "value": null,
