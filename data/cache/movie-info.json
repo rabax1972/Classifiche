@@ -7680,6 +7680,119 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.490Z"
   },
+  "fall|scott mann 2022": {
+    "value": {
+      "tmdbId": 985939,
+      "title": "Fall",
+      "overview": "Per le migliori amiche Becky e Hunter, la vita consiste nel vincere le paure e superare i limiti. Ma dopo essersi arrampicate per oltre 600 metri fino alla cima di una torre radio abbandonata, si ritrovano bloccate senza possibilità di scendere. Ora le abilità di Becky e Hunter nell'arrampicata saranno messe a dura prova, mentre lottano disperatamente per sopravvivere agli elementi, alla mancanza di rifornimenti e alle altezze vertiginose.",
+      "overviewLang": "it",
+      "tagline": "La paura raggiunge nuove vette.",
+      "originalTitle": null,
+      "genres": [
+        "Thriller"
+      ],
+      "runtime": 107,
+      "released": "2022-08-11",
+      "vote": 7.2,
+      "votes": 5053,
+      "poster": "https://image.tmdb.org/t/p/w500/uZFX3ZU6AhS5bDRIysepwowmvjA.jpg",
+      "directors": [
+        {
+          "id": 90812,
+          "name": "Scott Mann"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Grace Caroline Currey",
+          "character": "Becky Connor"
+        },
+        {
+          "name": "Virginia Gardner",
+          "character": "Shiloh Hunter"
+        },
+        {
+          "name": "Mason Gooding",
+          "character": "Dan Connor"
+        },
+        {
+          "name": "Jeffrey Dean Morgan",
+          "character": "James Conner"
+        },
+        {
+          "name": "Jasper Cole",
+          "character": "Steve"
+        },
+        {
+          "name": "Darrell Dennis",
+          "character": "Randy"
+        },
+        {
+          "name": "Bamm Ericsen",
+          "character": "Police Officer"
+        },
+        {
+          "name": "Julia Pace Mitchell",
+          "character": "Diner Server"
+        }
+      ],
+      "trailer": "VqNVYC-JrMc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/985939-fall/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-03T05:06:13.110Z"
+  },
   "fatherland|pawe pawlikowski 2026": {
     "value": {
       "tmdbId": 1437696,

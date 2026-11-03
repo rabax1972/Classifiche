@@ -699,6 +699,34 @@
     },
     "fetchedAt": "2026-10-31T05:01:39.446Z"
   },
+  "podcast:come le cipolle": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/come-le-cipolle-lo-sguardo-di-stefania-andreoli/id6827205917",
+      "genres": [
+        "Istruzione"
+      ],
+      "episodes": 2,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c2/dc/1e/c2dc1e0b-1be2-a7c4-4149-8b43a618f59d/mza_6787060481515770962.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/SIS6074934384",
+      "description": "Le relazioni, i sentimenti, le fragilità e i desideri non si rivelano mai tutti\ninsieme.\nCome una cipolla, si scoprono strato dopo strato. In ogni episodio, la\npsicoterapeuta e scrittrice Stefania Andreoli parte da storie vere e domande universali per esplorare ciò che ci muove davvero: l'amore, la famiglia, la crescita, il dolore, il cambiamento.\nUn video podcast che aiuta a guardarsi\ndentro con sincerità, senza giudizio e senza scorciatoie.\nCon la partecipazione della giornalista di SkyTG24 Federica De Lillis.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep.1 - Violenza psicologica",
+          "date": "2026-11-02",
+          "seconds": 2001,
+          "url": null
+        },
+        {
+          "title": "Come le Cipolle - Trailer",
+          "date": "2026-10-30",
+          "seconds": 132,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-03T05:10:09.011Z"
+  },
   "podcast:complotti": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/complotti/id1869867257",
@@ -1026,6 +1054,35 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:53.746Z"
+  },
+  "podcast:democracy": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/democracy-noi-siamo-politica/id6828918982",
+      "genres": [
+        "Cultura e società",
+        "Governo"
+      ],
+      "episodes": 2,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3e/79/3e/3e793e97-3293-f18c-8360-a8208c7f386d/mza_5516374211580419187.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS5341846304",
+      "description": "Che cosa succede quando il rapporto tra cittadini e potere comincia a incrinarsi? Come si difende la democrazia quando il confronto lascia spazio allo scontro e alla legge del più forte? E quanto conta ancora la nostra voce nelle decisioni di chi governa?\nDemocracy è il podcast di Chora Media in cui Andrea Malaguti parte dalle notizie e dalle storie dell'attualità per raccontare il rapporto tra noi cittadini e chi esercita il potere. Un patto sempre più fragile, in Italia e nel mondo, che riguarda i nostri diritti e le nostre libertà.\nIn ogni puntata Malaguti affronta un tema diverso, si rivolge a chi esercita il potere e pone domande sulle scelte che riguardano la vita di tutti noi. L'obiettivo è capire che cosa sta cambiando nelle nostre democrazie e come possiamo difenderle, senza rinunciare al confronto con chi non la pensa come noi.\nPerché la democrazia è un patto che abbiamo bisogno di difendere e ripensare, continuando a farci domande e ad ascoltarci. Anche quando non siamo d'accordo.\nDemocracy. Noi siamo politica è un podcast di Chora Media condotto da Andrea Malaguti\nCREDITS\nDEMOCRACY è un podcast di Chora News prodotto da Chora Media.\nÈ scritto da Andrea Malaguti.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Meloni sulle piazze tradisce sé stessa",
+          "date": "2026-11-02",
+          "seconds": 696,
+          "url": null
+        },
+        {
+          "title": "Democracy - Noi siamo politica | Trailer",
+          "date": "2026-10-30",
+          "seconds": 57,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-03T05:10:06.317Z"
   },
   "podcast:dentro il caso": {
     "value": {
@@ -2084,54 +2141,6 @@
     },
     "fetchedAt": "2026-10-30T05:05:18.404Z"
   },
-  "podcast:mappe capire il mondo": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/mappe-capire-il-mondo/id6816875625",
-      "genres": [
-        "Notizie: approfondimenti",
-        "News",
-        "Notizie del giorno"
-      ],
-      "episodes": 6,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/58/94/77/589477dc-e58d-1de9-ec42-de71a7e870ae/mza_4861454385715872062.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.spreaker.com/show/7377744/episodes/feed",
-      "description": "Il podcast settimanale di Esteri del Corriere della Sera: notizie e approfondimenti per orientarsi su un pianeta che sembra aver perso la bussola.",
-      "website": "https://www.spreaker.com/podcast/mappe-capire-il-mondo--7377744",
-      "latest": [
-        {
-          "title": "Voto di midterm negli Usa: onda democratica o muro repubblicano?",
-          "date": "2026-10-25",
-          "seconds": 1912,
-          "url": "https://www.spreaker.com/episode/voto-di-midterm-negli-usa-onda-democratica-o-muro-repubblicano--75940432"
-        },
-        {
-          "title": "Madrid e le altre: c’è una crisi della casa nelle nostre città?",
-          "date": "2026-10-18",
-          "seconds": 1654,
-          "url": "https://www.spreaker.com/episode/madrid-e-le-altre-c-e-una-crisi-della-casa-nelle-nostre-citta--75828701"
-        },
-        {
-          "title": "Israele al voto, finirà la guerra permanente?",
-          "date": "2026-10-11",
-          "seconds": 1581,
-          "url": "https://www.spreaker.com/episode/israele-al-voto-finira-la-guerra-permanente--75677450"
-        },
-        {
-          "title": "Esiste un'opposizione a Vladimir Putin?",
-          "date": "2026-10-04",
-          "seconds": 1316,
-          "url": "https://www.spreaker.com/episode/esiste-un-opposizione-a-vladimir-putin--75514700"
-        },
-        {
-          "title": "Tira un vento di estrema destra in Europa?",
-          "date": "2026-09-27",
-          "seconds": 1568,
-          "url": "https://www.spreaker.com/episode/tira-un-vento-di-estrema-destra-in-europa--75374602"
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-27T04:51:40.728Z"
-  },
   "podcast:market mover": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/market-mover/id1540796758",
@@ -2411,54 +2420,6 @@
     },
     "fetchedAt": "2026-10-29T05:04:32.740Z"
   },
-  "podcast:nova lectio": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/nova-lectio-storie-di-geopolitica/id1537596607",
-      "genres": [
-        "Cultura e società",
-        "News",
-        "Notizie: approfondimenti"
-      ],
-      "episodes": 287,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/78/c3/4178c3c5-5ae9-823f-db37-749287513cd7/mza_12023798677745633386.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/NOVALECTIOSRL9666111267",
-      "description": "Un podcast nel quale la storia si mescola alla geopolitica. Le questioni più attuali affrontate da una prospettiva passata. Ogni episodio tratterà di argomenti di ampio respiro: politici, sociali e storici.\nIl NUOVO libro di Nova Lectio, https://amzn.to/4jEy4hh\nTutti gli altri libri di Nova Lectio: https://amzn.to/48dkPQo\nCanale Youtube: https://www.youtube.com/c/NovaLectio\nTutti i miei libri: https://amzn.to/3SxC2hz\nSito Web: https://nova-lectio.com/",
-      "website": "https://www.spreaker.com/show/storie-di-geopolitica",
-      "latest": [
-        {
-          "title": "L’Argentina sta bloccando il petrolio delle Falkland. Che succede? - Realpolitik ep.30",
-          "date": "2026-10-26",
-          "seconds": 1516,
-          "url": null
-        },
-        {
-          "title": "Petrolio: come 40 km di mare possono far aumentare il prezzo di tutto",
-          "date": "2026-10-12",
-          "seconds": 1460,
-          "url": null
-        },
-        {
-          "title": "Perché la destra ha vinto in Germania ma non in Svezia? - Realpolitik ep.29",
-          "date": "2026-09-26",
-          "seconds": 1804,
-          "url": null
-        },
-        {
-          "title": "Oro, il metallo che non serve a niente (ma che muove il mondo)",
-          "date": "2026-09-15",
-          "seconds": 1342,
-          "url": null
-        },
-        {
-          "title": "Cuba al Buio: l’isola che Trump vuole spegnere - Realpolitik ep.28",
-          "date": "2026-08-20",
-          "seconds": 1006,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-27T04:51:46.750Z"
-  },
   "podcast:now what": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/now-what/id1835378422",
@@ -2689,6 +2650,54 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:03:50.800Z"
+  },
+  "podcast:philosophize this": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/philosophize-this/id659155419",
+      "genres": [
+        "Filosofia",
+        "Cultura e società",
+        "Istruzione"
+      ],
+      "episodes": 253,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/b7/51/c1b751eb-ab38-f11c-d6c1-0a9de79b7061/mza_12134548126279202007.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/QCD6036500916",
+      "description": "Beginner friendly if listened to in order! For anyone interested in an educational podcast about philosophy where you don't need to be a graduate-level philosopher to understand it. In chronological order, the thinkers and ideas that forged the world we live in are broken down and explained.",
+      "website": "http://www.philosophizethis.org",
+      "latest": [
+        {
+          "title": "Episode #253 ... The Philosophy of Alan Watts - What Am I?",
+          "date": "2026-10-27",
+          "seconds": 2164,
+          "url": null
+        },
+        {
+          "title": "Episode #252 ... Slaughterhouse-Five - Kurt Vonnegut",
+          "date": "2026-08-29",
+          "seconds": 2141,
+          "url": null
+        },
+        {
+          "title": "Episode #251 ... You Must Change Your Life, Pt. 2 - The Worlds That Make Us",
+          "date": "2026-08-08",
+          "seconds": 2125,
+          "url": null
+        },
+        {
+          "title": "Episode #250 ... You Must Change Your Life. - Peter Sloterdijk",
+          "date": "2026-07-14",
+          "seconds": 2159,
+          "url": null
+        },
+        {
+          "title": "Episode #249 ... The Trap of Modern Cynicism - Peter Sloterdijk",
+          "date": "2026-06-27",
+          "seconds": 2063,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-03T05:10:11.940Z"
   },
   "podcast:pianeta b12": {
     "value": {
@@ -3726,38 +3735,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/tutti-convocati",
       "latest": [
         {
-          "title": "La domenica delle rivincite",
-          "date": "2026-10-26",
+          "title": "Kimi, il mondo è tuo!",
+          "date": "2026-11-02",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261026-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261026-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261102-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261102-tutti-convocati"
         },
         {
-          "title": "Ancora pazza Inter! Antonelli, primo match point",
-          "date": "2026-10-25",
+          "title": "Lazio in vetta da sola. Antonelli, è il grande giorno!",
+          "date": "2026-11-01",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261025-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261025-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261101-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261101-tutti-convocati"
         },
         {
-          "title": "Crisi che restano",
-          "date": "2026-10-23",
+          "title": "In ritiro per Juve-Napoli",
+          "date": "2026-10-30",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261023-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261023-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261030-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261030-tutti-convocati"
         },
         {
-          "title": "Quattro su quattro",
-          "date": "2026-10-22",
+          "title": "Sciagure e fortune",
+          "date": "2026-10-29",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261022-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261022-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261029-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261029-tutti-convocati"
         },
         {
-          "title": "Napoli e Roma forza 4",
-          "date": "2026-10-21",
+          "title": "Una sera, 3 partite, 18 gol",
+          "date": "2026-10-28",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261021-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261021-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261028-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261028-tutti-convocati"
         }
       ]
     },
-    "fetchedAt": "2026-10-27T04:51:44.177Z"
+    "fetchedAt": "2026-11-03T05:10:16.313Z"
   },
   "podcast:un avvertimento prima di iniziare": {
     "value": {

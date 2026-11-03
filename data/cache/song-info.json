@@ -125,6 +125,23 @@
     },
     "fetchedAt": "2026-10-24T04:43:07.079Z"
   },
+  "amelie|kid yugi": {
+    "value": {
+      "album": "Anche gli Eroi Muoiono",
+      "released": "2026-01-30",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 184804,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/15/82/fa15828a-c5c5-d96b-97b7-da79a79afd27/25UM1IM96916.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/amelie/1869767404?i=1869767685",
+      "wiki": {
+        "lang": "it",
+        "title": "Amelie (Kid Yugi)",
+        "url": "https://it.wikipedia.org/wiki/Amelie_(Kid_Yugi)",
+        "extract": "Amelie è un singolo del rapper italiano Kid Yugi, pubblicato il 13 marzo 2026 come quarto estratto dal terzo album in studio Anche gli eroi muoiono."
+      }
+    },
+    "fetchedAt": "2026-11-03T05:05:36.814Z"
+  },
   "amica con madame|annalisa": {
     "value": {
       "album": "Amica (con Madame)",
@@ -1519,6 +1536,23 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-31T04:54:45.594Z"
+  },
+  "push it|kid yugi": {
+    "value": {
+      "album": "Push It",
+      "released": "2026-01-02",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 175138,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/6f/50/fc6f5010-593c-8306-eafb-17c38427982c/25UM2IM07593.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/push-it/1862843882?i=1862843884",
+      "wiki": {
+        "lang": "it",
+        "title": "Push It (Kid Yugi)",
+        "url": "https://it.wikipedia.org/wiki/Push_It_(Kid_Yugi)",
+        "extract": "Push It è un singolo del rapper italiano Kid Yugi, pubblicato il 2 gennaio 2026 come secondo estratto dal terzo album in studio Anche gli eroi muoiono."
+      }
+    },
+    "fetchedAt": "2026-11-03T05:05:34.065Z"
   },
   "quanto forte ti pensavo|madame": {
     "value": {

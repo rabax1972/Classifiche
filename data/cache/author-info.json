@@ -486,6 +486,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "allen carr": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Allen Carr",
+        "url": "https://it.wikipedia.org/wiki/Allen_Carr",
+        "extract": "Allen Carr (Londra, 2 settembre 1934 – Malaga, 29 novembre 2006) è stato un saggista britannico."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Allen_Carr.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Allen_Carr.jpeg",
+        "author": "Janne Ström, Allen Carr's Easyway Finland",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/allen-carr/134881193",
+      "died": 2006
+    },
+    "fetchedAt": "2026-11-03T05:06:12.473Z"
+  },
   "amanda richardson": {
     "value": {
       "wiki": null,
@@ -924,6 +944,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-27T04:47:39.585Z"
+  },
+  "barbara frale": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Barbara Frale",
+        "url": "https://it.wikipedia.org/wiki/Barbara_Frale",
+        "extract": "Barbara Frale (Viterbo, 24 febbraio 1970) è una storica, paleografa e scrittrice italiana, nota per gli studi sui Cavalieri templari e sulla Sindone di Torino."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/barbara-frale/467348808",
+      "died": null
+    },
+    "fetchedAt": "2026-11-03T05:06:12.473Z"
   },
   "barbara perna": {
     "value": {
@@ -3338,6 +3372,26 @@
       "died": 1817
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "jared diamond": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Jared Diamond",
+        "url": "https://en.wikipedia.org/wiki/Jared_Diamond",
+        "extract": "Jared Mason Diamond (born September 10, 1937) is an American scientist, historian, and author. He has written hundreds of scientific and popular articles and books, most notably Guns, Germs, and Steel (1997), which received multiple awards, including the 1998 Pulitzer Prize for general nonfiction. In 2005, Diamond was ranked ninth on a poll by Prospect and Foreign Policy of the world's top 100 public intellectuals.\n\nOriginally trained in biochemistry and physiology, Diamond has published in many fields, including anthropology, ecology, geography, and evolutionary biology. In 1985, he received a MacArthur Genius Grant and in 1999, the National Medal of Science, an honor bestowed by the President of the United States and the National Science Foundation. He was a professor of geography at UCLA until his retirement in 2024."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Jared_Diamond_author_academic.jpg/500px-Jared_Diamond_author_academic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jared_Diamond_author_academic.jpg",
+        "author": "Kenneth Zirkel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/jared-diamond/43974075",
+      "died": null
+    },
+    "fetchedAt": "2026-11-03T05:06:12.473Z"
   },
   "jean genet": {
     "value": {

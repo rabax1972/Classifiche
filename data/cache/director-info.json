@@ -17422,6 +17422,69 @@
     },
     "fetchedAt": "2026-10-23T04:46:57.189Z"
   },
+  "scott mann": {
+    "value": {
+      "tmdbId": 90812,
+      "wiki": {
+        "lang": "it",
+        "title": "Scott Mann",
+        "url": "https://it.wikipedia.org/wiki/Scott_Mann",
+        "extract": "Scott Mann (Newton Aycliffe, 1º dicembre 1979) è un regista britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Scott_Mann_in_2022.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Scott_Mann_in_2022.jpg",
+        "author": "Criticologos",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1198959,
+          "title": "Fall 3",
+          "year": null
+        },
+        {
+          "id": 773689,
+          "title": "Tsunami LA",
+          "year": null
+        },
+        {
+          "id": 985939,
+          "title": "Fall",
+          "year": "2022"
+        },
+        {
+          "id": 421658,
+          "title": "Final Score",
+          "year": "2018"
+        },
+        {
+          "id": 336004,
+          "title": "Bus 657",
+          "year": "2015"
+        },
+        {
+          "id": 517197,
+          "title": "The Betty Driver Story",
+          "year": "2011"
+        },
+        {
+          "id": 24056,
+          "title": "The Tournament",
+          "year": "2009"
+        },
+        {
+          "id": 1712657,
+          "title": "Tug of War",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-03T05:06:14.726Z"
+  },
   "scott waugh": {
     "value": {
       "tmdbId": 293911,
