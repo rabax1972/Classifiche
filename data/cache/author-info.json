@@ -323,6 +323,26 @@
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
+  "alessandro d avenia": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandro D'Avenia",
+        "url": "https://it.wikipedia.org/wiki/Alessandro_D'Avenia",
+        "extract": "Alessandro D'Avenia (Palermo, 2 maggio 1977) è uno scrittore, insegnante e sceneggiatore italiano."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Alessandro_D%27Avenia_2012.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Alessandro_D%27Avenia_2012.jpg",
+        "author": "Associazione Amici di Piero Chiara",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/alessandro-davenia/346776071",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "alessandro manzoni": {
     "value": {
       "wiki": {
@@ -643,6 +663,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "andrea vitali": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Andrea Vitali",
+        "url": "https://it.wikipedia.org/wiki/Andrea_Vitali",
+        "extract": "Andrea Vitali (Bellano, 5 febbraio 1956) è uno scrittore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Andrea_Vitali.jpg/500px-Andrea_Vitali.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Andrea_Vitali.jpg",
+        "author": "Associazione Amici di Piero Chiara",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/andrea-vitali/300588316",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "andrew child": {
     "value": {
@@ -977,6 +1017,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "bell hooks": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Bell hooks",
+        "url": "https://it.wikipedia.org/wiki/Bell_hooks",
+        "extract": "bell hooks, pseudonimo di Gloria Jean Watkins (Hopkinsville, 25 settembre 1952 – Berea, 15 dicembre 2021), è stata una scrittrice, attivista e femminista statunitense.\n\nLo pseudonimo, che secondo la scrittrice va riportato in minuscolo, deriva da quello della bisnonna materna, Bell Blair Hooks.\n\nIl focus della sua scrittura è stata l'intersezionalità di razza, il capitalismo, il genere e la loro\n\ncapacità di produrre e perpetuare sistemi di oppressione e di dominio di classe. Ha pubblicato più di 30 libri e numerosi articoli accademici, è apparsa in documentari e ha partecipato a conferenze pubbliche. Principalmente attraverso una prospettiva postmoderna ha affrontato razza, classe e genere nell'istruzione, arte, storia, sessualità, mass media e femminismo.\n\nNel 2014 ha fondato il bell hooks Institute al Berea College a Berea, in Kentucky."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bell_hooks%2C_October_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Bell_hooks,_October_2014.jpg",
+        "author": "Alex Lozupone (Tduk)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/bell-hooks/358500239",
+      "died": 2021
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "bella di corte": {
     "value": {
       "wiki": null,
@@ -1104,6 +1164,29 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "bree grenwich": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
+  "bruno morchio": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Bruno Morchio",
+        "url": "https://it.wikipedia.org/wiki/Bruno_Morchio",
+        "extract": "Bruno Morchio (Genova, 6 agosto 1954) è uno scrittore italiano.\n\nÈ autore di romanzi ascrivibili al genere \"noir mediterraneo\"."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/bruno-morchio/444696144",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "bruno vespa": {
     "value": {
       "wiki": {
@@ -1148,10 +1231,10 @@
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/caitlin-crews/392625423",
       "died": null
     },
-    "fetchedAt": "2026-11-02T05:13:11.244Z"
+    "fetchedAt": "2026-11-04T05:14:59.126Z"
   },
   "camilla de falco": {
     "value": {
@@ -1181,6 +1264,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
+  "camy blue": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/camy-blue/1676726323",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "carlo collodi": {
     "value": {
@@ -4084,6 +4176,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "lily king": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Lily King",
+        "url": "https://it.wikipedia.org/wiki/Lily_King",
+        "extract": "Lily King (Massachusetts, 1963) è una scrittrice e anglista statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Lily_King_%2826173579493%29.jpg/500px-Lily_King_%2826173579493%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lily_King_(26173579493).jpg",
+        "author": "Deschutes Public Library",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/lily-king/296426947",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "lily red": {
     "value": {
       "wiki": null,
@@ -4218,6 +4330,26 @@
       "died": 1888
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "luca di fulvio": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Luca Di Fulvio",
+        "url": "https://it.wikipedia.org/wiki/Luca_Di_Fulvio",
+        "extract": "Luca Di Fulvio (Roma, 13 maggio 1957 – Roma, 31 maggio 2023) è stato uno scrittore, attore teatrale e drammaturgo italiano.\n\nTutti i suoi libri sono stati tradotti all'estero."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Luca_di_Fulvio_-_2021_%28cropped%29.jpg/500px-Luca_di_Fulvio_-_2021_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Luca_di_Fulvio_-_2021_(cropped).jpg",
+        "author": "ActuaLitté",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": null,
+      "died": 2023
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "lucy king": {
     "value": {
@@ -4647,6 +4779,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
+  "michael douglas": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/michael-douglas/1074111509",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "michail bulgakov": {
     "value": {
       "wiki": {
@@ -5056,6 +5197,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "paola barbato": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Paola Barbato",
+        "url": "https://it.wikipedia.org/wiki/Paola_Barbato",
+        "extract": "Paola Barbato (Milano, 18 giugno 1971) è una fumettista e scrittrice italiana.\n\nFa parte dello staff di sceneggiatori del fumetto italiano Dylan Dog edito dalla Sergio Bonelli Editore."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Paolabarbato.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Paolabarbato.jpg",
+        "author": "Batmanforever71",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
   "paolo fox": {
     "value": {
       "wiki": {
@@ -5109,6 +5270,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "parker lennox": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "patricia gibney": {
     "value": {
@@ -5309,10 +5479,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/rachel-reid/89696985",
       "died": null
     },
-    "fetchedAt": "2026-10-17T09:03:31.748Z"
+    "fetchedAt": "2026-11-04T05:14:59.126Z"
   },
   "rainer maria rilke": {
     "value": {
@@ -5686,6 +5856,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "rudy rucker": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Rudy Rucker",
+        "url": "https://it.wikipedia.org/wiki/Rudy_Rucker",
+        "extract": "Rudy Rucker nato Rolf Von Bitter Rucker (Louisville, 22 marzo 1946) è uno scrittore, matematico e informatico statunitense, autore di romanzi di fantascienza."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Rudyrucker.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Rudyrucker.jpg",
+        "author": "The original uploader was Rudyrucker at English Wikipedia.",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/rudy-rucker/168509000",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "rula jebreal": {
     "value": {
@@ -6112,6 +6302,26 @@
       "died": 1842
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "stephen baxter": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Stephen Baxter",
+        "url": "https://it.wikipedia.org/wiki/Stephen_Baxter",
+        "extract": "Stephen Baxter (Liverpool, 13 novembre 1957) è un autore di fantascienza britannico, specializzato nella fantascienza hard.\n\nÈ laureato in matematica e ingegneria. I suoi scritti rientrano in tre categorie principali, ciascuna con uno stile e un tono molto differente.\n\nLe storie della sua \"Sequenza Xeelee\" sono ambientate in un futuro remoto, in cui l'umanità si eleva a divenire la seconda più potente razza dell'universo, al fianco dei semidei Xeelee.\n\nCome avviene spesso nelle opere di fantascienza hard, lo sviluppo dei personaggi in queste storie si pone in secondo piano rispetto alla descrizione di teorie e idee avanzate, come ad esempio la vera natura del Grande Attrattore, delle singolarità nude e la grande battaglia tra forme di vita Barioniche (Baryonic) e fotoniche (Photonic). Esempi di romanzi scritti in questo stile sono: Ring e Infinito (Timelike Infinity)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Stephen_Baxter_2005.jpg/500px-Stephen_Baxter_2005.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Stephen_Baxter_2005.jpg",
+        "author": "autore sconosciuto",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/stephen-baxter/264695389",
+      "died": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
   "stephen king": {
     "value": {

@@ -5282,6 +5282,105 @@
     },
     "fetchedAt": "2026-10-22T04:45:42.447Z"
   },
+  "clown in a cornfield|": {
+    "value": {
+      "tmdbId": 713364,
+      "title": "Il clown di Kettle Springs",
+      "overview": "Quinn e suo padre si sono appena trasferiti nella tranquilla cittadina di Kettle Springs, sperando in un nuovo inizio. Invece, scopre una comunità fratturata che è caduta in disgrazia dopo che la preziosa fabbrica di sciroppo di mais Baypen è andata a fuoco. Mentre la gente del posto litiga tra di loro e le tensioni ribollono, una figura sinistra e sorridente emerge dai campi di grano per ripulire la città dai suoi fardelli, una vittima sanguinante alla volta.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Clown in a Cornfield",
+      "genres": [
+        "Horror",
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 96,
+      "released": "2025-05-02",
+      "vote": 6.1,
+      "votes": 655,
+      "poster": "https://image.tmdb.org/t/p/w500/1jDjHEY63K89KkLtYhG4TpD0rYL.jpg",
+      "directors": [
+        {
+          "id": 52479,
+          "name": "Eli Craig"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Katie Douglas",
+          "character": "Quinn Maybrook"
+        },
+        {
+          "name": "Carson MacCormac",
+          "character": "Cole Hill"
+        },
+        {
+          "name": "Kevin Durand",
+          "character": "Mayor Arthur Hill"
+        },
+        {
+          "name": "Dylan McEwan",
+          "character": "Tyler Anderson"
+        },
+        {
+          "name": "Aaron Abrams",
+          "character": "Dr. Glenn Maybrook"
+        },
+        {
+          "name": "Alexandre Martin Deakin",
+          "character": "Matt"
+        },
+        {
+          "name": "Vincent Muller",
+          "character": "Rust Vance"
+        },
+        {
+          "name": "Will Sasso",
+          "character": "Sheriff Dunne"
+        }
+      ],
+      "trailer": "e69AWLED77w",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/713364-clown-in-a-cornfield/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.821Z"
+  },
   "coco|lee unkrich 2017": {
     "value": {
       "tmdbId": 354912,
@@ -5578,6 +5677,61 @@
     },
     "fetchedAt": "2026-11-02T05:13:11.864Z"
   },
+  "collision course|": {
+    "value": {
+      "tmdbId": 1660624,
+      "title": "Collision Course",
+      "overview": "Charlotte finds herself caught up in the affairs that her late brother left behind. With the help of her brother’s best friend, Finn, the duo must outrun a pair of hitmen before their grief consumes them.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 8,
+      "released": "2026-03-31",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/xTp9NvziOk3e7ZuKGpZ2xuS92dJ.jpg",
+      "directors": [
+        {
+          "id": 5409972,
+          "name": "Ashley Miller"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ava Banzhoff",
+          "character": "Charlotte Westwood"
+        },
+        {
+          "name": "Matthew Dinello",
+          "character": "Finn"
+        },
+        {
+          "name": "Jeremy Jackson",
+          "character": "Wax"
+        },
+        {
+          "name": "Jadoryon Nicholas",
+          "character": "Wayne"
+        },
+        {
+          "name": "Bela Gonzalez",
+          "character": "Isla Stonehenge"
+        },
+        {
+          "name": "Graham Hamilton",
+          "character": "Charlie Westwood"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:10.109Z"
+  },
   "com era verde la mia valle|john ford 1941": {
     "value": {
       "tmdbId": 43266,
@@ -5720,6 +5874,81 @@
       }
     },
     "fetchedAt": "2026-10-26T04:49:46.938Z"
+  },
+  "cortina express|": {
+    "value": {
+      "tmdbId": 1294483,
+      "title": "Cortina Express",
+      "overview": "Durante le feste di Natale, le strade e le piste di Cortina si popolano dei personaggi più diversi, riuniti tra le incantevoli montagne ampezzane innevate per divertirsi, ma non solo! Tra di loro, incontriamo Lucio De Roberti, un irresistibile viveur che tenta di salvare il nipote da un matrimonio disastroso; Dino Doni, una stella musicale ormai spenta, alla ricerca di riscatto e soprattutto dell'amore di sua figlia; e Patrizia Giordano, una vulcanica discografica alle prese con il rischio di fallimento e un marito un po' ignavo. Insieme a loro, molti altri personaggi, ognuno involontariamente legato al destino degli altri in situazioni esilaranti, cercano il proprio lieto fine. (TMDB)",
+      "overviewLang": "it",
+      "tagline": "il film di Natale... ça va sans dire",
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 100,
+      "released": "2024-12-23",
+      "vote": 4.9,
+      "votes": 73,
+      "poster": "https://image.tmdb.org/t/p/w500/hd7KoRwNoL0dFAJtPzxd7ESx1aW.jpg",
+      "directors": [
+        {
+          "id": 1014914,
+          "name": "Eros Puglielli"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Christian De Sica",
+          "character": "Lucio De Roberti"
+        },
+        {
+          "name": "Lillo",
+          "character": "Dino Doni"
+        },
+        {
+          "name": "Isabella Ferrari",
+          "character": "Patrizia Giordano"
+        },
+        {
+          "name": "Paolo Calabresi",
+          "character": "Alexei Smirnoff"
+        },
+        {
+          "name": "Ernesto D'Argenio",
+          "character": "Gennaro"
+        },
+        {
+          "name": "Francesco Bruni",
+          "character": "Andrea De Roberti"
+        },
+        {
+          "name": "Beatrice Modica",
+          "character": "Giorgia Doni"
+        },
+        {
+          "name": "Riccardo Maria Manera",
+          "character": "Ossosakro"
+        }
+      ],
+      "trailer": "c6SEtVkyk6E",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1294483-cortina-express/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Infinity Selection Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/7bLI3pIxIlURo1tYrfChgtJSZQF.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.411Z"
   },
   "coyote vs acme|dave green 2026": {
     "value": {
@@ -6084,6 +6313,63 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.721Z"
   },
+  "dal nulla|joe juanne piras 2026": {
+    "value": {
+      "tmdbId": 1438963,
+      "title": "Dal nulla",
+      "overview": "Sardegna. Un piccolo villaggio viene sconvolto dalla scomparsa di una bambina e dal suicidio di Alice, una giovane donna ritrovata morta nel bosco. C’è un legame tra i due casi, ma ancora nessuno lo sa. Sara, una scrittrice di successo, amica della ragazza, decide di tornare nei suoi luoghi d’infanzia per scoprire cosa sia accaduto. Sarà così costretta a confrontarsi coi demoni di un passato dimenticato.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Thriller"
+      ],
+      "runtime": 102,
+      "released": "2026-11-11",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/rHQgxrs731wD5t0gmH0Dm34Wq3w.jpg",
+      "directors": [
+        {
+          "id": 5142200,
+          "name": "Joe Juanne Piras"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Selene Caramazza",
+          "character": null
+        },
+        {
+          "name": "Lucho Velasco",
+          "character": null
+        },
+        {
+          "name": "Syama Rayner",
+          "character": null
+        },
+        {
+          "name": "Ryan Bommarito",
+          "character": null
+        },
+        {
+          "name": "Riccardo Lai",
+          "character": null
+        },
+        {
+          "name": "Lia Careddu",
+          "character": null
+        },
+        {
+          "name": "Giuseppe Boy",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.214Z"
+  },
   "deadpool e wolverine|shawn levy 2024": {
     "value": {
       "tmdbId": 533535,
@@ -6388,6 +6674,68 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.624Z"
+  },
+  "dio ride|giovanni veronesi 2026": {
+    "value": {
+      "tmdbId": 1506710,
+      "title": "Dio ride",
+      "overview": "Nel cuore del ‘600, Frate Leopoldo da Casamacchia racconta il Vangelo con una gioia e una libertà mai viste prima. Mentre la Chiesa parla in latino, lui parla alla gente di un Dio vicino, capace di portare sollievo, speranza e persino di ridere insieme agli uomini. La sua voce si diffonde di villaggio in villaggio, conquistando migliaia di persone e svuotando le chiese. L’eco del suo messaggio arriva fino a Roma, dove il Papa affida il caso al cardinale Maculani, il più autorevole inquisitore del tempo. Quello che nasce come un processo si trasforma in un confronto inatteso, capace di mettere in crisi convinzioni apparentemente incrollabili. Mentre il destino di Leopoldo sembra segnato, il dubbio comincia a cambiare anche chi lo giudica. Perché si può spegnere una voce, ma non ciò che quella voce ha lasciato negli altri.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 114,
+      "released": "2026-10-29",
+      "vote": 8.2,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+      "directors": [
+        {
+          "id": 85551,
+          "name": "Giovanni Veronesi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Pierfrancesco Favino",
+          "character": "Frate Leopoldo da Casamacchia"
+        },
+        {
+          "name": "Silvio Orlando",
+          "character": "cardinale Maculani"
+        },
+        {
+          "name": "Alma Noce",
+          "character": "contessa Isabella"
+        },
+        {
+          "name": "Maurizio Lombardi",
+          "character": "Fra Monaldo"
+        },
+        {
+          "name": "Francesco Gheghi",
+          "character": "fraticello Giacinto"
+        },
+        {
+          "name": "Paolo Rossi",
+          "character": "priore"
+        },
+        {
+          "name": "Carlo Cecchi",
+          "character": "Papa Innocenzo X"
+        },
+        {
+          "name": "Alessandro Cucca",
+          "character": null
+        }
+      ],
+      "trailer": "GyQz-5xlIsc",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.441Z"
   },
   "diversa|cosimo scarpello 2026": {
     "value": {
@@ -6761,6 +7109,108 @@
       }
     },
     "fetchedAt": "2026-10-31T04:56:24.937Z"
+  },
+  "drop|": {
+    "value": {
+      "tmdbId": 1249213,
+      "title": "Drop - Accetta o rifiuta",
+      "overview": "I primi appuntamenti sono già abbastanza stressanti. Andare a un primo appuntamento mentre uno sconosciuto ti invia dei meme irritanti che evolvono in minacce di morte, è da brividi.",
+      "overviewLang": "it",
+      "tagline": "Potrebbe essere chiunque",
+      "originalTitle": "Drop",
+      "genres": [
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 91,
+      "released": "2025-04-17",
+      "vote": 6.3,
+      "votes": 1022,
+      "poster": "https://image.tmdb.org/t/p/w500/sYo8mowvoL1Hi1vsS8dSEpqArJM.jpg",
+      "directors": [
+        {
+          "id": 54248,
+          "name": "Christopher Landon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Meghann Fahy",
+          "character": "Violet"
+        },
+        {
+          "name": "Brandon Sklenar",
+          "character": "Henry"
+        },
+        {
+          "name": "Reed Diamond",
+          "character": "Richard"
+        },
+        {
+          "name": "Violett Beane",
+          "character": "Jen"
+        },
+        {
+          "name": "Jeffery Self",
+          "character": "Matt"
+        },
+        {
+          "name": "Jacob Robinson",
+          "character": "Toby"
+        },
+        {
+          "name": "Gabrielle Ryan",
+          "character": "Cara"
+        },
+        {
+          "name": "Ed Weeks",
+          "character": "Phil"
+        }
+      ],
+      "trailer": "Ku-9ZKyfHHc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1249213-drop/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.690Z"
   },
   "dubbio nel buio|andrea d eredita 2026": {
     "value": {
@@ -7855,6 +8305,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.737Z"
   },
+  "ferine|andrea corsini 2026": {
+    "value": {
+      "tmdbId": 1357952,
+      "title": "Ferine",
+      "overview": "Irene (Carolyn Bracken), ricca e raffinata collezionista d’arte, vede la sua vita sconvolta da un tragico evento che risveglia in lei un istinto primordiale e incontrollabile. Una nuova natura prende il sopravvento distruggendo la sua esistenza privilegiata. Dama (Caroline Goodall), misteriosa trafficante di predatori esotici, è sulle tracce di un suo esemplare fuggito dalla cattività, quando scopre qualcosa di inatteso: Irene. In lei riconosce un predatore nuovo, irresistibilmente pericoloso. Un destino oscuro unisce le due donne, trascinandole verso uno scontro inevitabile.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Dramma"
+      ],
+      "runtime": 105,
+      "released": "2026-11-05",
+      "vote": 7,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/jwFXsXC7bBBZipa6moVlxTsYh8H.jpg",
+      "directors": [
+        {
+          "id": 1203871,
+          "name": "Andrea Corsini"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Carolyn Bracken",
+          "character": "Irene"
+        },
+        {
+          "name": "Caroline Goodall",
+          "character": "Dama"
+        },
+        {
+          "name": "Paola Lavini",
+          "character": "Rosa"
+        },
+        {
+          "name": "Elisabetta Caccamo",
+          "character": null
+        },
+        {
+          "name": "Ilario Calvo",
+          "character": "Till"
+        },
+        {
+          "name": "Marco Gambino",
+          "character": "Alfredo"
+        },
+        {
+          "name": "Uliana Kuzmina",
+          "character": "Anita"
+        },
+        {
+          "name": "Fabrizio Odetto",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.108Z"
+  },
   "fight club|david fincher 1999": {
     "value": {
       "tmdbId": 550,
@@ -8423,6 +8935,110 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.599Z"
+  },
+  "ghost in the cell|joko anwar 2026": {
+    "value": {
+      "tmdbId": 1393326,
+      "title": "Ghost in the Cell",
+      "overview": "In un famigerato carcere, una forza invisibile inizia a uccidere brutalmente i detenuti, costringendo bande rivali e guardie corrotte a collaborare per sopravvivere alla crescente carneficina.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Commedia",
+        "Thriller",
+        "Azione"
+      ],
+      "runtime": 106,
+      "released": "2026-04-16",
+      "vote": 6.8,
+      "votes": 112,
+      "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+      "directors": [
+        {
+          "id": 121798,
+          "name": "Joko Anwar"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Abimana Aryasatya",
+          "character": "Anggoro Ramadhani"
+        },
+        {
+          "name": "Bront Palarae",
+          "character": "Jefry Hutama"
+        },
+        {
+          "name": "Dimas Danang",
+          "character": "Irfan Hamdani"
+        },
+        {
+          "name": "Endy Arfian",
+          "character": "Dimas Kurnia"
+        },
+        {
+          "name": "Lukman Sardi",
+          "character": "Pendi Mulia"
+        },
+        {
+          "name": "Mike Lucock",
+          "character": "Wildan Arifin"
+        },
+        {
+          "name": "Yoga Pratama",
+          "character": "Six Nugraha"
+        },
+        {
+          "name": "Morgan Oey",
+          "character": "Bimo Gumira"
+        }
+      ],
+      "trailer": "otL78_pk_A0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1393326-ghost-in-the-cell/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Far East Amazon Channel ",
+            "logo": "https://image.tmdb.org/t/p/w92/vP9lVLjFAEcTDiPQEAZvrdk0Od8.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:09.718Z"
   },
   "gigi|vincente minnelli 1958": {
     "value": {
@@ -9121,6 +9737,83 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.524Z"
+  },
+  "halloween|": {
+    "value": {
+      "tmdbId": 948,
+      "title": "Halloween - La notte delle streghe",
+      "overview": "Micheal, a soli 6 anni ammazza la sorella e viene internato ma dopo 15 anni fugge per recarsi al suo paese. E' il 31 Ottobre, e secondo l'antica tradizione americana è la notte in cui si esorcizzano le streghe, grazie a questa concomitanza Micheal può mietere altre vittime.",
+      "overviewLang": "it",
+      "tagline": "La notte che Lui tornò a casa.",
+      "originalTitle": "Halloween",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 91,
+      "released": "1979-04-14",
+      "vote": 7.6,
+      "votes": 6506,
+      "poster": "https://image.tmdb.org/t/p/w500/uxLqrN38fSQEUVpM4S1suhnW3X.jpg",
+      "directors": [
+        {
+          "id": 11770,
+          "name": "John Carpenter"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Donald Pleasence",
+          "character": "Loomis"
+        },
+        {
+          "name": "Jamie Lee Curtis",
+          "character": "Laurie"
+        },
+        {
+          "name": "Nancy Kyes",
+          "character": "Annie"
+        },
+        {
+          "name": "P. J. Soles",
+          "character": "Lynda"
+        },
+        {
+          "name": "Charles Cyphers",
+          "character": "Brackett"
+        },
+        {
+          "name": "Kyle Richards",
+          "character": "Lindsey"
+        },
+        {
+          "name": "Brian Andrews",
+          "character": "Tommy"
+        },
+        {
+          "name": "John Michael Graham",
+          "character": "Bob"
+        }
+      ],
+      "trailer": "hb3VOq2BRkY",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/948-halloween/watch?locale=IT",
+        "flatrate": [],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.721Z"
   },
   "harakiri|masaki kobayashi 1962": {
     "value": {
@@ -10191,6 +10884,69 @@
       }
     },
     "fetchedAt": "2026-11-01T16:30:41.195Z"
+  },
+  "hope|2026": {
+    "value": {
+      "tmdbId": 1058424,
+      "title": "Hope",
+      "overview": "I rinforzi sono stati richiamati per fronteggiare i devastanti incendi boschivi e ogni comunicazione con l’esterno è stata interrotta. Nel piccolo posto di polizia di Hope, il comandante Bum-seok e l’agente Sung-ae lottano per proteggere un villaggio popolato quasi esclusivamente da anziani. Nel frattempo, tra le montagne, Sung-ki e gli abitanti del luogo partono sulle tracce della misteriosa creatura, ma la battuta di caccia si trasforma presto in un incubo e diventano loro stessi prede.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "호프",
+      "genres": [
+        "Fantascienza",
+        "Mistero",
+        "Azione"
+      ],
+      "runtime": 157,
+      "released": "2026-11-05",
+      "vote": 6.8,
+      "votes": 457,
+      "poster": "https://image.tmdb.org/t/p/w500/fbFxZSSw2kQoAkyXosVoOyBX0Z4.jpg",
+      "directors": [
+        {
+          "id": 75915,
+          "name": "나홍진"
+        }
+      ],
+      "cast": [
+        {
+          "name": "황정민",
+          "character": "Go Bum-seok"
+        },
+        {
+          "name": "조인성",
+          "character": "Go Sung-ki"
+        },
+        {
+          "name": "정호연",
+          "character": "Lim Sung-ae"
+        },
+        {
+          "name": "Alicia Vikander",
+          "character": "J'aur"
+        },
+        {
+          "name": "Michael Fassbender",
+          "character": "Ma'veyyo"
+        },
+        {
+          "name": "Taylor Russell",
+          "character": "Ai'dovor"
+        },
+        {
+          "name": "Cameron Britton",
+          "character": "Va'migere"
+        },
+        {
+          "name": "이상희",
+          "character": "Nak-yeon"
+        }
+      ],
+      "trailer": "uV3s51ivuVI",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.788Z"
   },
   "hunger games il canto della rivolta parte 1|francis lawrence 2014": {
     "value": {
@@ -12349,6 +13105,75 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:57.359Z"
+  },
+  "il gatto col cappello|erica rivinoja": {
+    "value": {
+      "tmdbId": 1117898,
+      "title": "Il gatto col cappello",
+      "overview": "Scopri Il Gatto col Cappello come non l’hai mai visto prima! Dal meraviglioso e stravagante mondo di Dr. Seuss, Il Gatto col Cappello arriva per la prima volta sul grande schermo da protagonista di un film d’animazione: un’avventura epica, inedita e piena di brio, dove regnano magia, caos e tanta allegria. Facendo ciò che gli riesce meglio, il Gatto porta gioia ai bambini con il suo umorismo esilarante, unico e irriverente, trasportandoli in un viaggio fantastico verso un mondo mai visto prima.",
+      "overviewLang": "it",
+      "tagline": "Qui gatto ci cova",
+      "originalTitle": "The Cat in the Hat",
+      "genres": [
+        "Avventura",
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Fantasy"
+      ],
+      "runtime": 91,
+      "released": "2026-11-05",
+      "vote": 7.2,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/reGVZn7oCOXM5oaOTjV4MZhFwqT.jpg",
+      "directors": [
+        {
+          "id": 1229796,
+          "name": "Erica Rivinoja"
+        },
+        {
+          "id": 1262481,
+          "name": "Alessandro Carloni"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Bill Hader",
+          "character": "The Cat in the Hat (voice)"
+        },
+        {
+          "name": "Xochitl Gomez",
+          "character": "Gabby (voice)"
+        },
+        {
+          "name": "Tiago Martinez",
+          "character": "Sebastian (voice)"
+        },
+        {
+          "name": "Matt Berry",
+          "character": "Waffles the Fish (voice)"
+        },
+        {
+          "name": "Quinta Brunson",
+          "character": "Sherrie (voice)"
+        },
+        {
+          "name": "Bowen Yang",
+          "character": "Gary (voice)"
+        },
+        {
+          "name": "America Ferrera",
+          "character": "Carmen (voice)"
+        },
+        {
+          "name": "Paula Pell",
+          "character": "Patty (voice)"
+        }
+      ],
+      "trailer": "bCZo-8YVjgs",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.021Z"
   },
   "il giro del mondo in 80 giorni|michael anderson 1956": {
     "value": {
@@ -17337,6 +18162,56 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.827Z"
   },
+  "la citta dei vivi|edoardo gabbriellini 2026": {
+    "value": {
+      "tmdbId": 1632103,
+      "title": "La città dei vivi",
+      "overview": "Luca ha ventitré anni. Vive in una famiglia che lo ha adottato e che lo ama. Si muove con i suoi amici tra la periferia e il centro e ha una fidanzata con cui vive un amore giovane ma importante per entrambi. Luca sta cercando la sua strada, in un’età in cui tutto sembra ancora possibile e al tempo stesso già perduto, e in questa ricerca vive una doppia vita. Una notte, dopo un incontro apparentemente casuale, la traiettoria della vita di Luca si spezza, infrangendosi contro una violenza cieca e insensata.",
+      "overviewLang": "it",
+      "tagline": "Tratto da una storia inspiegabilmente vera",
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 103,
+      "released": "2026-10-01",
+      "vote": 6.2,
+      "votes": 19,
+      "poster": "https://image.tmdb.org/t/p/w500/opBholBwfUmPISED5muouubQPq3.jpg",
+      "directors": [
+        {
+          "id": 125489,
+          "name": "Edoardo Gabbriellini"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Emanuele Maria Di Stefano",
+          "character": "Luca"
+        },
+        {
+          "name": "Valerio Mastandrea",
+          "character": null
+        },
+        {
+          "name": "Simona Senzacqua",
+          "character": null
+        },
+        {
+          "name": "Roberta Mattei",
+          "character": null
+        },
+        {
+          "name": "Gaia Merlonghi",
+          "character": null
+        }
+      ],
+      "trailer": "Y-0Hs73X23Q",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.514Z"
+  },
   "la citta incantata|hayao miyazaki 2001": {
     "value": {
       "tmdbId": 129,
@@ -17795,6 +18670,68 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.457Z"
   },
+  "la guerra dei prezzi|anthony dechaux 2026": {
+    "value": {
+      "tmdbId": 1376412,
+      "title": "La guerra dei prezzi",
+      "overview": "Audrey, appassionata di prodotti biologici e locali, è responsabile del reparto latticini di un'importante catena di supermercati. Riconosciuta dai suoi superiori, entra a far parte dell'ufficio acquisti centrale. Guidata da un veterano delle trattative, Audrey affronterà le contraddizioni interiori di una giovane donna idealista ma ambiziosa e vendicativa.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "La Guerre des prix",
+      "genres": [
+        "Thriller",
+        "Dramma"
+      ],
+      "runtime": 96,
+      "released": "2026-11-05",
+      "vote": 6.5,
+      "votes": 26,
+      "poster": "https://image.tmdb.org/t/p/w500/vyjgmwVgSn10aqDojeztAwnDqWL.jpg",
+      "directors": [
+        {
+          "id": 5019542,
+          "name": "Anthony Déchaux"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Olivier Gourmet",
+          "character": "Fournier"
+        },
+        {
+          "name": "Ana Girardot",
+          "character": "Audrey"
+        },
+        {
+          "name": "Julien Frison",
+          "character": "Ronan"
+        },
+        {
+          "name": "Jonas Bloquet",
+          "character": "Axel"
+        },
+        {
+          "name": "Camille Moutawakil",
+          "character": "Gaëlle"
+        },
+        {
+          "name": "Catherine Vinatier",
+          "character": "Corinne"
+        },
+        {
+          "name": "Camille Sansterre",
+          "character": "Sandrine"
+        },
+        {
+          "name": "Grégoire Monsaingeon",
+          "character": "Xavier Lambert"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.616Z"
+  },
   "la jangada|lucas rosas": {
     "value": {
       "tmdbId": 1777819,
@@ -17859,6 +18796,67 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.832Z"
+  },
+  "la maison des femmes la casa delle donne|melisa godet 2026": {
+    "value": {
+      "tmdbId": 1318417,
+      "title": "La maison des femmes - La casa delle donne",
+      "overview": "Alla Maison des femmes vengono accudite, ascoltate e curate tutte quelle donne vittima di violenza che richiedono assistenza, fisica e psicologica. Altrove vengono minacciate, sminuite, violentate, mutilate e la loro sofferenza viene ignorata. Qui vengono credute e sostenute. Diane, Manon, Inès, Awa e le altre operatrici della Casa, sono disposte a dare tutto pur di aiutare le donne in difficoltà, anche se questo significa mettere a repentaglio il proprio equilibrio mentale ed emotivo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "La Maison des Femmes",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 110,
+      "released": "2026-10-29",
+      "vote": 8,
+      "votes": 60,
+      "poster": "https://image.tmdb.org/t/p/w500/deNnRUbRnImW2n5RQrQHWwH5ox6.jpg",
+      "directors": [
+        {
+          "id": 3494663,
+          "name": "Mélisa Godet"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Karin Viard",
+          "character": "Diane"
+        },
+        {
+          "name": "Laetitia Dosch",
+          "character": "Manon"
+        },
+        {
+          "name": "Oulaya Amamra",
+          "character": "Inès"
+        },
+        {
+          "name": "Eye Haïdara",
+          "character": "Awa"
+        },
+        {
+          "name": "Pierre Deladonchamps",
+          "character": "Alexandre"
+        },
+        {
+          "name": "Juliette Armanet",
+          "character": "Lucie"
+        },
+        {
+          "name": "Laurent Stocker",
+          "character": "L'inspecteur"
+        },
+        {
+          "name": "Jean-Charles Clichet",
+          "character": "Gilles"
+        }
+      ],
+      "trailer": "E3TFEINdnHQ",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.309Z"
   },
   "la mia africa|sydney pollack 1985": {
     "value": {
@@ -21775,6 +22773,105 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.715Z"
+  },
+  "nowhere to run|": {
+    "value": {
+      "tmdbId": 10413,
+      "title": "Accerchiato",
+      "overview": "Dopo una rocambolesca fuga costata la vita al suo migliore amico, il fuggitivo Sam Gillen trova ospitalità a casa di Clydie - una giovane e bellissima vedova con due figli. Sam si ritrova così ad affrontare e fermare una banda di spietati speculatori edili pronti a tutto pur di espropriare la casa a Clydie. Nessuno sa chi Sam sia, ma lui è più deciso che mai a proteggere quella famiglia.",
+      "overviewLang": "it",
+      "tagline": "Quando la legge non sa proteggere gli innocenti, l'unico eroe rimasto è un fuorilegge.",
+      "originalTitle": "Nowhere to Run",
+      "genres": [
+        "Azione",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 94,
+      "released": "1993-01-15",
+      "vote": 6.6,
+      "votes": 877,
+      "poster": "https://image.tmdb.org/t/p/w500/wQDtwZBuXrVaCVoOfLKQho8phVd.jpg",
+      "directors": [
+        {
+          "id": 57895,
+          "name": "Robert Harmon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jean-Claude Van Damme",
+          "character": "Sam Gillen"
+        },
+        {
+          "name": "Rosanna Arquette",
+          "character": "Clydie Anderson"
+        },
+        {
+          "name": "Kieran Culkin",
+          "character": "Mike 'Mookie' Anderson"
+        },
+        {
+          "name": "Ted Levine",
+          "character": "Mr. Dunston"
+        },
+        {
+          "name": "Tiffany Taubman",
+          "character": "Bree Anderson"
+        },
+        {
+          "name": "Edward Blatchford",
+          "character": "Sheriff Lonnie Cole"
+        },
+        {
+          "name": "Anthony Starke",
+          "character": "Billy"
+        },
+        {
+          "name": "Joss Ackland",
+          "character": "Franklin Hale"
+        }
+      ],
+      "trailer": "lbKtJ5ltHqc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/10413-nowhere-to-run/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.516Z"
   },
   "nuovo cinema paradiso|giuseppe tornatore 1988": {
     "value": {
@@ -26799,6 +27896,73 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.592Z"
   },
+  "surviving hurricane otis|": {
+    "value": {
+      "tmdbId": 1780005,
+      "title": "Contra el huracán",
+      "overview": "Due fratellastri lottano per sopravvivere all'uragano Otis ad Acapulco, dove il loro legame e il loro coraggio trasformano le avversità in speranza. Ispirato a una storia vera.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 97,
+      "released": "2026-10-23",
+      "vote": 7.6,
+      "votes": 119,
+      "poster": "https://image.tmdb.org/t/p/w500/9na3MNAhsuNKDVOoctaE7opTmbx.jpg",
+      "directors": [
+        {
+          "id": 557880,
+          "name": "Jorge Michel Grau"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Benny Emmanuel",
+          "character": "Wirpul"
+        },
+        {
+          "name": "Kristyan Ferrer",
+          "character": "Candi"
+        },
+        {
+          "name": "Mónica del Carmen",
+          "character": null
+        },
+        {
+          "name": "Mónica Jiménez",
+          "character": null
+        },
+        {
+          "name": "Andrew Leland Rogers",
+          "character": "Nico"
+        },
+        {
+          "name": "Gonzalo Vega Jr.",
+          "character": "Napo"
+        },
+        {
+          "name": "Daira Mendoza",
+          "character": "Mujer Turista"
+        }
+      ],
+      "trailer": "qC0HZLUXRXw",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1780005-contra-el-huracan/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.214Z"
+  },
   "taddeo l esploratore e la lampada magica|enrique gato 2026": {
     "value": {
       "tmdbId": 1187326,
@@ -28027,6 +29191,96 @@
     },
     "fetchedAt": "2026-10-18T17:56:48.846Z"
   },
+  "the guardian|": {
+    "value": {
+      "tmdbId": 4643,
+      "title": "The Guardian - Salvataggio in mare",
+      "overview": "Dopo aver perso la sua squadra di salvataggio in un tragico incidente, il comandante Ben Randall, scosso dall'accaduto, viene mandato contro la sua volontà ad insegnare le tecniche del salvataggio alla \"A\" School, una scuola che addestra l'elite delle reclute che diventeranno i migliori Rescue Swimmers. Stravolgendo gli schemi di insegnamento e facendo un pò a modo suo, Ben si butta nell'insegnamento e tra i partecipanti al corso vede in Jake Fischer, la stoffa, il cuore e l'attitudine giusta per fare questo mestiere, cerca così di trasmettere al ragazzo tutto quello che gli può servire per svolgerlo al meglio.",
+      "overviewLang": "it",
+      "tagline": "Salvare una vita... o perdere la vita",
+      "originalTitle": "The Guardian",
+      "genres": [
+        "Azione",
+        "Dramma"
+      ],
+      "runtime": 100,
+      "released": "2007-01-19",
+      "vote": 7.1,
+      "votes": 1760,
+      "poster": "https://image.tmdb.org/t/p/w500/aBfdEOe0IiZZAGiNboVtI2dWwRp.jpg",
+      "directors": [
+        {
+          "id": 12989,
+          "name": "Andrew Davis"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kevin Costner",
+          "character": "Ben Randall"
+        },
+        {
+          "name": "Ashton Kutcher",
+          "character": "Jake Fischer"
+        },
+        {
+          "name": "Sela Ward",
+          "character": "Helen Randall"
+        },
+        {
+          "name": "Melissa Sagemiller",
+          "character": "Emily Thomas"
+        },
+        {
+          "name": "Dulé Hill",
+          "character": "Ken Weatherly"
+        },
+        {
+          "name": "Bryce Cass",
+          "character": "Manny"
+        },
+        {
+          "name": "Omari Hardwick",
+          "character": "Carl Billings"
+        },
+        {
+          "name": "Clancy Brown",
+          "character": "Capt. William Hadley"
+        }
+      ],
+      "trailer": "JNHpwC4Ked0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/4643-the-guardian/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-04T05:15:10.314Z"
+  },
   "the hurt locker|kathryn bigelow 2008": {
     "value": {
       "tmdbId": 12162,
@@ -28859,6 +30113,69 @@
       }
     },
     "fetchedAt": "2026-10-19T04:48:45.090Z"
+  },
+  "the uprising cuore ribelle|paul greengrass 2026": {
+    "value": {
+      "tmdbId": 977942,
+      "title": "The Uprising - Cuore ribelle",
+      "overview": "Mentre la guerra e la peste devastano l'Inghilterra del XIV secolo, un umile contadino, unendo un esercito di popolani, dà inizio a una ribellione per sfidare il potere del re in una disperata lotta per la giustizia e la sopravvivenza.",
+      "overviewLang": "it",
+      "tagline": "Risorgi o muori.",
+      "originalTitle": "The Uprising",
+      "genres": [
+        "Azione",
+        "Dramma",
+        "Storia"
+      ],
+      "runtime": 128,
+      "released": "2026-11-05",
+      "vote": 7.8,
+      "votes": 402,
+      "poster": "https://image.tmdb.org/t/p/w500/zT1Mw02U7zrDb0hs3JNkAdzh6d3.jpg",
+      "directors": [
+        {
+          "id": 25598,
+          "name": "Paul Greengrass"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Andrew Garfield",
+          "character": "Ploughman"
+        },
+        {
+          "name": "Jamie Bell",
+          "character": "John Ball"
+        },
+        {
+          "name": "Stephen Dillane",
+          "character": "Archbishop Sudbury"
+        },
+        {
+          "name": "Woody Norman",
+          "character": "King Richard II"
+        },
+        {
+          "name": "Tom Hollander",
+          "character": "Treasurer Hales"
+        },
+        {
+          "name": "Cosmo Jarvis",
+          "character": "Wat Tyler"
+        },
+        {
+          "name": "Thomasin McKenzie",
+          "character": "Alyce"
+        },
+        {
+          "name": "Jonny Lee Miller",
+          "character": "Mayor Walworth"
+        }
+      ],
+      "trailer": "lyhCxZN4Ro8",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.815Z"
   },
   "the whisper man|": {
     "value": {
@@ -32408,6 +33725,69 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.873Z"
   },
+  "wild horse nine|martin mcdonagh 2026": {
+    "value": {
+      "tmdbId": 891621,
+      "title": "Wild Horse Nine",
+      "overview": "Cile, 1973. Chris e Lee sono due agenti della CIA distaccati in Sud America, costretti ad affrontare un complicato viaggio da Santiago all'Isola di Pasqua che metterà a dura prova la loro fiducia reciproca.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 117,
+      "released": "2026-11-05",
+      "vote": 9,
+      "votes": 18,
+      "poster": "https://image.tmdb.org/t/p/w500/og5qagWp4ZqVl28nbBwiBHZprJM.jpg",
+      "directors": [
+        {
+          "id": 54472,
+          "name": "Martin McDonagh"
+        }
+      ],
+      "cast": [
+        {
+          "name": "John Malkovich",
+          "character": "Chris"
+        },
+        {
+          "name": "Sam Rockwell",
+          "character": "Lee"
+        },
+        {
+          "name": "Steve Buscemi",
+          "character": "MJ"
+        },
+        {
+          "name": "Tom Waits",
+          "character": "Jim"
+        },
+        {
+          "name": "Parker Posey",
+          "character": "Marge"
+        },
+        {
+          "name": "Mariana di Girolamo",
+          "character": "Monica"
+        },
+        {
+          "name": "Ailín Salas",
+          "character": "Alicia"
+        },
+        {
+          "name": "Paola Giannini",
+          "character": "Rosa"
+        }
+      ],
+      "trailer": "djscxQOf8bo",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:08.916Z"
+  },
   "wildwood i segreti del bosco proibito|travis knight 2026": {
     "value": {
       "tmdbId": 791523,
@@ -32874,6 +34254,43 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.858Z"
+  },
+  "you me us|": {
+    "value": {
+      "tmdbId": 1445222,
+      "title": "You, Me, Us",
+      "overview": "A metaphorical drama about two personalities trapped in one body conveys the struggle of bi-gender people. The film portrays their fight over dominance inside Elizabeth's head as she keeps her alternate personality, Roy, locked in a room until he tries to break free.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 5,
+      "released": "2017-09-22",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/aVpuQ5HXnvSTxrdDx6e36B9tk4y.jpg",
+      "directors": [
+        {
+          "id": 4116385,
+          "name": "Danylo Hauk"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Elena Isabel",
+          "character": null
+        },
+        {
+          "name": "Reid Barraza",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-04T05:15:09.907Z"
   },
   "your mother your mother your mother|bassam tariq 2026": {
     "value": {

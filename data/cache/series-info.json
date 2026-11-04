@@ -304,6 +304,98 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.142Z"
   },
+  "a couple of lies|miniserie": {
+    "value": {
+      "tmdbId": 336240,
+      "title": "Scambio di bugie",
+      "overview": "Uno scambio di case all'apparenza idilliaco tra la Sicilia e Stoccolma diventa un incubo quando due coppie benestanti fanno di tutto per proteggere se stesse e i propri segreti.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Bytet",
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 48,
+      "firstAired": "2026-10-30",
+      "lastAired": "2026-10-30",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 4,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-30",
+          "episodes": 4
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 4.3,
+      "votes": 8,
+      "poster": "https://image.tmdb.org/t/p/w500/4Z88NNfpPkG6ymd59G52v2ji6t7.jpg",
+      "creators": [
+        {
+          "id": 2158114,
+          "name": "Amanda Högberg"
+        },
+        {
+          "id": 5364533,
+          "name": "Axel Stjärne"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Emma Appleton",
+          "character": "Scarlett"
+        },
+        {
+          "name": "Fares Fares",
+          "character": "Carl"
+        },
+        {
+          "name": "Frida Gustavsson",
+          "character": "Helene"
+        },
+        {
+          "name": "Jakob Oftebro",
+          "character": "Adam"
+        },
+        {
+          "name": "Anna Bjelkerud",
+          "character": "Silvia Regner"
+        },
+        {
+          "name": "Magnus Krepper",
+          "character": "Ragnar Severin"
+        },
+        {
+          "name": "Diarmuid Noyes",
+          "character": "Tom Harris"
+        },
+        {
+          "name": "Lars Väringer",
+          "character": "Bernt Regner"
+        }
+      ],
+      "trailer": "ARYGWtBnQEA",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/336240-bytet/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.215Z"
+  },
   "american dad|matt weitzman": {
     "value": {
       "tmdbId": 1433,
@@ -3142,6 +3234,93 @@
     },
     "fetchedAt": "2026-10-25T04:50:55.647Z"
   },
+  "dead end job|miniserie": {
+    "value": {
+      "tmdbId": 289517,
+      "title": "Dead-End Job",
+      "overview": "Un giovane sommerso dai debiti riceve da un'agenzia di collocamento misteriosa allettanti lavori part time, ma la sua corsa al denaro si trasforma in un incubo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "꿀알바",
+      "genres": [
+        "Mistero"
+      ],
+      "episodeRuntime": 36,
+      "firstAired": "2026-10-30",
+      "lastAired": "2026-10-30",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Miniserie",
+          "date": "2026-10-30",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.5,
+      "votes": 36,
+      "poster": "https://image.tmdb.org/t/p/w500/yyA9CI8BLNg6LtVRvmVxki4xiGb.jpg",
+      "creators": [
+        {
+          "id": 1457187,
+          "name": "한준희"
+        }
+      ],
+      "cast": [
+        {
+          "name": "이재욱",
+          "character": "Byeon Hyeok-jun"
+        },
+        {
+          "name": "Go Min-si",
+          "character": "Eum Yeon-joo"
+        },
+        {
+          "name": "김민하",
+          "character": "Byeon Ji-yoon"
+        },
+        {
+          "name": "이희준",
+          "character": "Head of Spider Staffing Agency"
+        },
+        {
+          "name": "최현욱",
+          "character": "Choi Hee-dong"
+        },
+        {
+          "name": "윤경호",
+          "character": "Jo Jun-seop"
+        },
+        {
+          "name": "조현철",
+          "character": "Cinephile"
+        },
+        {
+          "name": "윤병희",
+          "character": "Theater Manager"
+        }
+      ],
+      "trailer": "6sCCXYMh760",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/289517/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.422Z"
+  },
   "delitti in paradiso|robert thorogood 2011": {
     "value": {
       "tmdbId": 41956,
@@ -4146,6 +4325,115 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.502Z"
+  },
+  "elena di avalor|craig gerber 2016": {
+    "value": {
+      "tmdbId": 67175,
+      "title": "Elena di Avalor",
+      "overview": "La Principessa Elena è un’adolescente gentile e sicura di sé, che ha salvato il regno incantato di Avalor da una perfida strega. Con l’aiuto della famiglia e degli amici, ora deve governare il regno come principessa ereditaria fino a quando avrà l’età giusta per diventare regina. Elena di Avalor è un magico racconto di avventura, che narra le imprese compiute da Elena per diventare una regina forte, coraggiosa e compassionevole…",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Elena of Avalor",
+      "genres": [
+        "Animazione",
+        "Kids",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "episodeRuntime": 1,
+      "firstAired": "2016-07-22",
+      "lastAired": "2020-08-23",
+      "status": "Ended",
+      "seasons": 3,
+      "episodes": 81,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2016-07-22",
+          "episodes": 26
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2017-10-14",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2019-10-07",
+          "episodes": 31
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2017-10-14",
+          "episodes": 20
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Disney Channel",
+        "Disney Junior"
+      ],
+      "vote": 6.4,
+      "votes": 87,
+      "poster": "https://image.tmdb.org/t/p/w500/f4HzOzUUBZ1Dw9BUSqalWfI4m3.jpg",
+      "creators": [
+        {
+          "id": 1257848,
+          "name": "Craig Gerber"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Aimee Carrero",
+          "character": "Princess Elena (voice)"
+        },
+        {
+          "name": "Jenna Ortega",
+          "character": "Princess Isabel (voice)"
+        },
+        {
+          "name": "Chris Parnell",
+          "character": "Migs (voice)"
+        },
+        {
+          "name": "Yvette Nicole Brown",
+          "character": "Luna (voice)"
+        },
+        {
+          "name": "Carlos Alazraqui",
+          "character": "Skylar (voice)"
+        },
+        {
+          "name": "Emiliano Díez",
+          "character": "Francisco (voice)"
+        },
+        {
+          "name": "Julia Vera",
+          "character": "Luisa (voice)"
+        },
+        {
+          "name": "Christian Lanz",
+          "character": "Chancellor Esteban (voice)"
+        }
+      ],
+      "trailer": "cRpmMwQ0aR4",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/67175-elena-of-avalor/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:26.995Z"
   },
   "fbi|dick wolf": {
     "value": {
@@ -8222,6 +8510,474 @@
     },
     "fetchedAt": "2026-10-27T04:51:32.687Z"
   },
+  "lupin|parte 1": {
+    "value": {
+      "tmdbId": 96677,
+      "title": "Lupin",
+      "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 49,
+      "firstAired": "2021-01-08",
+      "lastAired": "2026-10-23",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2021-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-05",
+          "episodes": 7
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-23",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.7,
+      "votes": 2771,
+      "poster": "https://image.tmdb.org/t/p/w500/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "creators": [
+        {
+          "id": 1287248,
+          "name": "George Kay"
+        },
+        {
+          "id": 1618156,
+          "name": "François Uzan"
+        },
+        {
+          "id": 1409018,
+          "name": "Marie Roussin"
+        },
+        {
+          "id": 1449284,
+          "name": "Florent Meyer"
+        },
+        {
+          "id": 3051535,
+          "name": "Tigran Rosine"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "Assane Diop"
+        },
+        {
+          "name": "Ludivine Sagnier",
+          "character": "Claire Laurent"
+        },
+        {
+          "name": "Antoine Gouy",
+          "character": "Benjamin Férel"
+        },
+        {
+          "name": "Soufiane Guerrab",
+          "character": "Youssef Guédira"
+        },
+        {
+          "name": "Kamel Guenfoud",
+          "character": "Kevin"
+        },
+        {
+          "name": "Grégoire Colin",
+          "character": "Vincent Morville"
+        },
+        {
+          "name": "Arthur Choisnet",
+          "character": "Rudy"
+        },
+        {
+          "name": "Saïd Benchnafa",
+          "character": "Bogdan"
+        }
+      ],
+      "trailer": "3Zs5ya7zf4w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.019Z"
+  },
+  "lupin|parte 2": {
+    "value": {
+      "tmdbId": 96677,
+      "title": "Lupin",
+      "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 49,
+      "firstAired": "2021-01-08",
+      "lastAired": "2026-10-23",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2021-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-05",
+          "episodes": 7
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-23",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.7,
+      "votes": 2771,
+      "poster": "https://image.tmdb.org/t/p/w500/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "creators": [
+        {
+          "id": 1287248,
+          "name": "George Kay"
+        },
+        {
+          "id": 1618156,
+          "name": "François Uzan"
+        },
+        {
+          "id": 1409018,
+          "name": "Marie Roussin"
+        },
+        {
+          "id": 1449284,
+          "name": "Florent Meyer"
+        },
+        {
+          "id": 3051535,
+          "name": "Tigran Rosine"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "Assane Diop"
+        },
+        {
+          "name": "Ludivine Sagnier",
+          "character": "Claire Laurent"
+        },
+        {
+          "name": "Antoine Gouy",
+          "character": "Benjamin Férel"
+        },
+        {
+          "name": "Soufiane Guerrab",
+          "character": "Youssef Guédira"
+        },
+        {
+          "name": "Kamel Guenfoud",
+          "character": "Kevin"
+        },
+        {
+          "name": "Grégoire Colin",
+          "character": "Vincent Morville"
+        },
+        {
+          "name": "Arthur Choisnet",
+          "character": "Rudy"
+        },
+        {
+          "name": "Saïd Benchnafa",
+          "character": "Bogdan"
+        }
+      ],
+      "trailer": "3Zs5ya7zf4w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.121Z"
+  },
+  "lupin|parte 3": {
+    "value": {
+      "tmdbId": 96677,
+      "title": "Lupin",
+      "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 49,
+      "firstAired": "2021-01-08",
+      "lastAired": "2026-10-23",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2021-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-05",
+          "episodes": 7
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-23",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.7,
+      "votes": 2771,
+      "poster": "https://image.tmdb.org/t/p/w500/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "creators": [
+        {
+          "id": 1287248,
+          "name": "George Kay"
+        },
+        {
+          "id": 1618156,
+          "name": "François Uzan"
+        },
+        {
+          "id": 1409018,
+          "name": "Marie Roussin"
+        },
+        {
+          "id": 1449284,
+          "name": "Florent Meyer"
+        },
+        {
+          "id": 3051535,
+          "name": "Tigran Rosine"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "Assane Diop"
+        },
+        {
+          "name": "Ludivine Sagnier",
+          "character": "Claire Laurent"
+        },
+        {
+          "name": "Antoine Gouy",
+          "character": "Benjamin Férel"
+        },
+        {
+          "name": "Soufiane Guerrab",
+          "character": "Youssef Guédira"
+        },
+        {
+          "name": "Kamel Guenfoud",
+          "character": "Kevin"
+        },
+        {
+          "name": "Grégoire Colin",
+          "character": "Vincent Morville"
+        },
+        {
+          "name": "Arthur Choisnet",
+          "character": "Rudy"
+        },
+        {
+          "name": "Saïd Benchnafa",
+          "character": "Bogdan"
+        }
+      ],
+      "trailer": "3Zs5ya7zf4w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.120Z"
+  },
+  "lupin|parte 4": {
+    "value": {
+      "tmdbId": 96677,
+      "title": "Lupin",
+      "overview": "Ispirandosi alle avventure di Arsenio Lupin, il ladro gentiluomo Assane Diop decide di vendicare il padre per un'ingiustizia subita per colpa di una ricca famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 49,
+      "firstAired": "2021-01-08",
+      "lastAired": "2026-10-23",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 25,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2021-01-08",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-05",
+          "episodes": 7
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-23",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.7,
+      "votes": 2771,
+      "poster": "https://image.tmdb.org/t/p/w500/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "creators": [
+        {
+          "id": 1287248,
+          "name": "George Kay"
+        },
+        {
+          "id": 1618156,
+          "name": "François Uzan"
+        },
+        {
+          "id": 1409018,
+          "name": "Marie Roussin"
+        },
+        {
+          "id": 1449284,
+          "name": "Florent Meyer"
+        },
+        {
+          "id": 3051535,
+          "name": "Tigran Rosine"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omar Sy",
+          "character": "Assane Diop"
+        },
+        {
+          "name": "Ludivine Sagnier",
+          "character": "Claire Laurent"
+        },
+        {
+          "name": "Antoine Gouy",
+          "character": "Benjamin Férel"
+        },
+        {
+          "name": "Soufiane Guerrab",
+          "character": "Youssef Guédira"
+        },
+        {
+          "name": "Kamel Guenfoud",
+          "character": "Kevin"
+        },
+        {
+          "name": "Grégoire Colin",
+          "character": "Vincent Morville"
+        },
+        {
+          "name": "Arthur Choisnet",
+          "character": "Rudy"
+        },
+        {
+          "name": "Saïd Benchnafa",
+          "character": "Bogdan"
+        }
+      ],
+      "trailer": "3Zs5ya7zf4w",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.017Z"
+  },
   "luther|neil cross 2010": {
     "value": {
       "tmdbId": 1426,
@@ -10102,6 +10858,106 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.044Z"
+  },
+  "nobody wants this|stagione 3": {
+    "value": {
+      "tmdbId": 250923,
+      "title": "Nobody Wants This",
+      "overview": "Una podcaster agnostica che parla di sesso e un rabbino da poco single si innamorano. Riuscirà la loro storia a sopravvivere a stili di vita opposti e famiglie impiccione?",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "episodeRuntime": 27,
+      "firstAired": "2024-09-26",
+      "lastAired": "2026-10-22",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 30,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2024-09-26",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2025-10-23",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-10-22",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.3,
+      "votes": 316,
+      "poster": "https://image.tmdb.org/t/p/w500/1RNtqMeSNNBkXqK8WPUMf72vGrt.jpg",
+      "creators": [
+        {
+          "id": 1223973,
+          "name": "Erin Foster"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kristen Bell",
+          "character": "Joanne Williams"
+        },
+        {
+          "name": "Adam Brody",
+          "character": "Noah Roklov"
+        },
+        {
+          "name": "Justine Lupe",
+          "character": "Morgan Williams"
+        },
+        {
+          "name": "Timothy Simons",
+          "character": "Sasha Roklov"
+        },
+        {
+          "name": "Jackie Tohn",
+          "character": "Esther Roklov"
+        },
+        {
+          "name": "Stephanie Faracy",
+          "character": "Lynn"
+        },
+        {
+          "name": "Tovah Feldshuh",
+          "character": "Bina Roklov"
+        },
+        {
+          "name": "Paul Ben-Victor",
+          "character": "Ilan Roklov"
+        }
+      ],
+      "trailer": "DEnHbvBbl-Y",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/250923-nobody-wants-this/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.118Z"
   },
   "not a stranger|stagione 1": {
     "value": {
@@ -15660,6 +16516,187 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.111Z"
+  },
+  "the one about matthew perry|stagione 1": {
+    "value": {
+      "tmdbId": 333533,
+      "title": "The One About Matthew Perry",
+      "overview": "Tramite le testimonianze di amici e familiari, questa docuserie ripercorre il successo a Hollywood, l'attivismo schietto e la tragica morte dell'amata star di \"Friends\".",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "episodeRuntime": 60,
+      "firstAired": "2026-10-27",
+      "lastAired": "2026-10-27",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 3,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-10-27",
+          "episodes": 3
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.2,
+      "votes": 13,
+      "poster": "https://image.tmdb.org/t/p/w500/zDSjGvywwyWUqnMIpYYwFDyA7Az.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Matthew Perry",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Marjorie Harris Newman",
+          "character": "Self - Matthew's Friend"
+        },
+        {
+          "name": "Mia Perry Bowick",
+          "character": "Self - Matthew's Sister"
+        },
+        {
+          "name": "Roger Castillo",
+          "character": "Self - Matthew's Friend"
+        },
+        {
+          "name": "David Pressman",
+          "character": "Self - Matthew's Friend"
+        },
+        {
+          "name": "Warren Littlefield",
+          "character": "Self - President, NBC Entertainment (1990–98), Producer"
+        },
+        {
+          "name": "Billy Gallo",
+          "character": "Self - Co-Star, \"Boys Will Be Boys\""
+        },
+        {
+          "name": "Mary McNamara",
+          "character": "Self - Cultural Critic, Los Angeles Times"
+        }
+      ],
+      "trailer": "_iM1AOFxoDI",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/333533-the-one-about-matthew-perry/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.341Z"
+  },
+  "the order|shelley eriksen": {
+    "value": {
+      "tmdbId": 82104,
+      "title": "The Order",
+      "overview": "Per vendicarsi della morte della madre, uno studente del college entra in un ordine segreto rimanendo coinvolto in una guerra tra lupi mannari e seguaci della magia nera.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Mistero",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 50,
+      "firstAired": "2019-03-07",
+      "lastAired": "2020-06-18",
+      "status": "Canceled",
+      "seasons": 2,
+      "episodes": 20,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2019-03-07",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2020-06-18",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.6,
+      "votes": 944,
+      "poster": "https://image.tmdb.org/t/p/w500/yMPjmuSd5Fac8YMNOwofGALQWjR.jpg",
+      "creators": [
+        {
+          "id": 189019,
+          "name": "Shelley Eriksen"
+        },
+        {
+          "id": 64762,
+          "name": "Dennis Heaton"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jake Manley",
+          "character": "Jack Morton"
+        },
+        {
+          "name": "Sarah Grey",
+          "character": "Alyssa Drake"
+        },
+        {
+          "name": "Devery Jacobs",
+          "character": "Lilith Bathory"
+        },
+        {
+          "name": "Thomas Elms",
+          "character": "Hamish Duke"
+        },
+        {
+          "name": "Françoise Yip",
+          "character": "Kepler"
+        },
+        {
+          "name": "Katharine Isabelle",
+          "character": "Vera Stone"
+        },
+        {
+          "name": "Louriza Tronco",
+          "character": "Gabrielle Dupres"
+        },
+        {
+          "name": "Adam DiMarco",
+          "character": "Randall Carpio"
+        }
+      ],
+      "trailer": "iD-cFgDDuqM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/82104-the-order/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-04T05:19:27.016Z"
   },
   "the rookie|alexi hawley 2018": {
     "value": {

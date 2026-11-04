@@ -52,12 +52,18 @@
         "Notizie: approfondimenti",
         "News"
       ],
-      "episodes": 354,
+      "episodes": 355,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9f/d6/1a/9fd61a8d-dcaf-3ea2-3864-39e1ace1e31f/mza_14160289162999991149.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS9501329551",
       "description": "3 Fattori è il podcast nato dalla rubrica di Mariangela Pira, giornalista di Sky Tg24, su Linkedin. Ogni venerdì esce un nuovo episodio. Il proposito è quello di raccontare a chiunque, anche al lattaio dell'Ohio, ciò che accade in finanza, economia e in geopolitica economica. In ogni puntata, con un linguaggio chiaro e semplice, vengono snocciolate le tematiche di attualità: dall'energia all'inflazione, dalle banche centrali ai programmi economici del governo, dal commercio globale a ciò che banalmente accade alle nostre imprese e nel nostro quotidiano. Vi aspettiamo.",
       "website": null,
       "latest": [
+        {
+          "title": "Lagarde, Manovra finanziaria, MPS – Ep.353",
+          "date": "2026-10-30",
+          "seconds": 3014,
+          "url": null
+        },
         {
           "title": "Proteste al Sud, il nodo del bilancio francese, il paradosso del tech - Ep.352",
           "date": "2026-10-23",
@@ -81,16 +87,10 @@
           "date": "2026-09-25",
           "seconds": 2227,
           "url": null
-        },
-        {
-          "title": "Warsh, petrolio, intelligenza artificiale – Ep. 348",
-          "date": "2026-09-18",
-          "seconds": 2791,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-28T05:08:13.469Z"
+    "fetchedAt": "2026-11-04T05:19:43.269Z"
   },
   "podcast:6 minute english": {
     "value": {
@@ -822,52 +822,6 @@
     },
     "fetchedAt": "2026-10-30T05:04:42.629Z"
   },
-  "podcast:crime scene podcast": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/crime-scene-podcast/id1839917426",
-      "genres": [
-        "True crime"
-      ],
-      "episodes": 57,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/15/66/091566b3-a67b-fb93-74ae-bab3ff18a5ee/mza_11987938713312787833.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.spreaker.com/show/6737553/episodes/feed",
-      "description": "Crime Scene è il podcast che racconta storie vere di crimini, sparizioni e misteri irrisolti. Ogni episodio è un’indagine narrativa che ricostruisce i fatti, analizza i dettagli e dà voce alle domande che spesso restano senza risposta.",
-      "website": "https://www.spreaker.com/podcast/crime-scene-podcast--6737553",
-      "latest": [
-        {
-          "title": "57 La Storia di Barbara Cicioni",
-          "date": "2026-10-26",
-          "seconds": 2058,
-          "url": "https://www.spreaker.com/episode/57-la-storia-di-barbara-cicioni--75993202"
-        },
-        {
-          "title": "56 La Storia di Simone Mattarelli",
-          "date": "2026-10-19",
-          "seconds": 2017,
-          "url": "https://www.spreaker.com/episode/56-la-storia-di-simone-mattarelli--75850554"
-        },
-        {
-          "title": "55 La Storia di Roberta Martucci",
-          "date": "2026-10-12",
-          "seconds": 1674,
-          "url": "https://www.spreaker.com/episode/55-la-storia-di-roberta-martucci--75653920"
-        },
-        {
-          "title": "54 La Storia di Caylee Anthony",
-          "date": "2026-10-05",
-          "seconds": 2088,
-          "url": "https://www.spreaker.com/episode/54-la-storia-di-caylee-anthony--75484235"
-        },
-        {
-          "title": "53 La Storia di Simonetta Ferrero",
-          "date": "2026-09-28",
-          "seconds": 1783,
-          "url": "https://www.spreaker.com/episode/53-la-storia-di-simonetta-ferrero--75401863"
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-28T05:08:16.561Z"
-  },
   "podcast:de core": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/de-core-podcast/id1694669718",
@@ -1269,6 +1223,21 @@
     },
     "fetchedAt": "2026-10-30T05:05:25.258Z"
   },
+  "podcast:forse fame forse trauma": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/forse-fame-forse-trauma/id1896940122",
+      "genres": [
+        "Narrativa"
+      ],
+      "episodes": 54,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/c9/7d/38c97d3b-b8b4-cce2-a022-d1de082d9958/mza_15644050176641938132.jpeg/600x600bb.jpg",
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-11-04T05:19:40.054Z"
+  },
   "podcast:fuori da qui": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/fuori-da-qui/id1691855830",
@@ -1410,6 +1379,53 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:56.779Z"
+  },
+  "podcast:global news podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/global-news-podcast/id135067274",
+      "genres": [
+        "Notizie del giorno",
+        "News"
+      ],
+      "episodes": 3036,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f1/4f/d1/f14fd1cf-7b5c-0bb7-683d-325c83bb089e/mza_17540730169954302156.jpg/600x600bb.jpg",
+      "feedUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "description": "The Global News Podcast brings you the breaking news you need to hear, as it happens. Listen for the latest headlines and current affairs from around the world. Politics, economics, climate, business, technology, health – we cover it all with expert analysis and insight. Get the news that matters, delivered twice a day on weekdays and daily at weekends, plus special bonus episodes reacting to urgent breaking stories. Follow or subscribe now and never miss a moment. Get in touch: globalpodcast@bbc.co.uk",
+      "website": "http://www.bbc.co.uk/programmes/p02nq0gn",
+      "latest": [
+        {
+          "title": "Americans vote in pivotal midterm elections",
+          "date": "2026-11-03",
+          "seconds": 1719,
+          "url": "http://www.bbc.co.uk/programmes/p0pl435f"
+        },
+        {
+          "title": "Ukraine accuses Russia of hitting school used as aid centre",
+          "date": "2026-11-03",
+          "seconds": 1710,
+          "url": "http://www.bbc.co.uk/programmes/p0pkz9jt"
+        },
+        {
+          "title": "Ukraine and Russia hit by fake emergency alerts",
+          "date": "2026-11-02",
+          "seconds": 1679,
+          "url": "http://www.bbc.co.uk/programmes/p0pkww1f"
+        },
+        {
+          "title": "Trump celebrates shock endorsement ahead of US midterms",
+          "date": "2026-11-02",
+          "seconds": 1798,
+          "url": "http://www.bbc.co.uk/programmes/p0pksmf2"
+        },
+        {
+          "title": "Violent protests in France for the third weekend in a row",
+          "date": "2026-11-01",
+          "seconds": 1708,
+          "url": "http://www.bbc.co.uk/programmes/p0pkpg0p"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:46.076Z"
   },
   "podcast:globally": {
     "value": {
@@ -1674,55 +1690,6 @@
     },
     "fetchedAt": "2026-10-30T05:04:03.231Z"
   },
-  "podcast:il punto economico podcast": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/il-punto-economico-podcast/id1895157356",
-      "genres": [
-        "Imprenditorialità",
-        "Economia",
-        "News",
-        "News - Affari"
-      ],
-      "episodes": 74,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/d4/c0/98d4c064-d173-f88a-9c5d-8182b319a07d/mza_15185892323788187548.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/ilpuntoeconomico",
-      "description": "Questo è il Podcast del Punto Economico, che parla di economia, finanza, geopolitica e imprenditoria.\nTrattiamo i problemi che azzoppano l’Italia, i giochi di potere nel mondo e i momenti e le persone che hanno cambiato la storia.\n👉🏻 Seguici anche su YouTube: clicca qui\n👉🏻 Seguici anche su Instagram: clicca qui\n👉🏻 Iscriviti alla nostra newsletter: clicca qui",
-      "website": null,
-      "latest": [
-        {
-          "title": "Le PROTESTE nel SUD ITALIA: cosa sta succedendo?",
-          "date": "2026-10-20",
-          "seconds": 1750,
-          "url": null
-        },
-        {
-          "title": "Il banchiere della MAFIA e del VATICANO che CONTROLLAVA l'Italia: la storia di Michele Sindona",
-          "date": "2026-10-13",
-          "seconds": 2933,
-          "url": null
-        },
-        {
-          "title": "Come Polymarket ha trasformato il mondo in un CASINÒ",
-          "date": "2026-10-06",
-          "seconds": 2441,
-          "url": null
-        },
-        {
-          "title": "Come LE CRISI degli anni '70 hanno trasformato il PETROLIO in UN'ARMA",
-          "date": "2026-09-30",
-          "seconds": 1907,
-          "url": null
-        },
-        {
-          "title": "Licio Gelli e la P2: la Loggia Massonica che DOMINAVA l'Italia",
-          "date": "2026-09-22",
-          "seconds": 3680,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-28T05:08:11.049Z"
-  },
   "podcast:impara l inglese": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/impara-linglese/id1835998425",
@@ -1862,6 +1829,52 @@
       ]
     },
     "fetchedAt": "2026-10-29T05:04:47.847Z"
+  },
+  "podcast:l ambasciatore dimenticato": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/lambasciatore-dimenticato/id1795944596",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 6,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/c5/0c/90c50c9d-b1a2-7948-69ac-f9ca0fbc2cbb/mza_1274528578397129372.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/1011f0cc8/podcast/rss",
+      "description": "Il 22 febbraio 2021 l’ambasciatore in Congo Luca Attanasio, il carabiniere Vittorio Iacovacci e l’autista Mustapha Milambo vengono uccisi in un agguato. Le falle nella sicurezza di cui si resero responsabili due funzionari Pam non saranno mai approfondite per l'immunità diplomatica. Davvero fu una rapina finita male? I cinque congolesi condannati sono i veri colpevoli? Attraverso testimonianze inedite, il podcast riaccende una luce su un caso archiviato troppo in fretta.\nL'autore è Luca Attanasio\nSostieni l'inchiesta: https://tinyurl.com/3b7bhems",
+      "website": "https://www.editorialedomani.it/",
+      "latest": [
+        {
+          "title": "5. La solitudine di Luca e Vittorio",
+          "date": "2025-03-20",
+          "seconds": 1560,
+          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/5--La-solitudine-di-Luca-e-Vittorio-e30d2ct"
+        },
+        {
+          "title": "4. I processi",
+          "date": "2025-03-13",
+          "seconds": 1497,
+          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/4--I-processi-e302shc"
+        },
+        {
+          "title": "3. L’ultima cena",
+          "date": "2025-03-06",
+          "seconds": 1656,
+          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/3--Lultima-cena-e2vn1ec"
+        },
+        {
+          "title": "2. Fuori dai compound",
+          "date": "2025-02-27",
+          "seconds": 1550,
+          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/2--Fuori-dai-compound-e2vdj5u"
+        },
+        {
+          "title": "1. L’agguato",
+          "date": "2025-02-20",
+          "seconds": 1772,
+          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/1--Lagguato-e2usknu"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:48.837Z"
   },
   "podcast:l ultima granita": {
     "value": {

@@ -20,6 +20,13 @@
     },
     "fetchedAt": "2026-10-21T04:46:30.816Z"
   },
+  "movie:armored": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/p194PK6FdRpqsMMlkJBwwPMVPhL.jpg",
+      "url": "https://www.themoviedb.org/movie/4597"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.233Z"
+  },
   "movie:bare hands": {
     "value": {
       "cover": null,
@@ -41,6 +48,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:09.435Z"
   },
+  "movie:blackout": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gFy3I3hJeLKKJt8EGpc1ZbGTwoH.jpg",
+      "url": "https://www.themoviedb.org/movie/1624183"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.533Z"
+  },
   "movie:buen camino": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/gYvlK73gKsJAaGjndyyiaZerEFb.jpg",
@@ -54,6 +68,27 @@
       "url": "https://www.themoviedb.org/movie/1508701"
     },
     "fetchedAt": "2026-10-12T07:25:09.733Z"
+  },
+  "movie:clown in a cornfield": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/1jDjHEY63K89KkLtYhG4TpD0rYL.jpg",
+      "url": "https://www.themoviedb.org/movie/713364"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.326Z"
+  },
+  "movie:collision course": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/xTp9NvziOk3e7ZuKGpZ2xuS92dJ.jpg",
+      "url": "https://www.themoviedb.org/movie/1660624"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.829Z"
+  },
+  "movie:cortina express": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/hd7KoRwNoL0dFAJtPzxd7ESx1aW.jpg",
+      "url": "https://www.themoviedb.org/movie/1294483"
+    },
+    "fetchedAt": "2026-11-04T05:13:51.937Z"
   },
   "movie:criature": {
     "value": {
@@ -96,6 +131,13 @@
       "url": "https://www.themoviedb.org/movie/1504358"
     },
     "fetchedAt": "2026-10-12T07:25:06.117Z"
+  },
+  "movie:drop": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/sYo8mowvoL1Hi1vsS8dSEpqArJM.jpg",
+      "url": "https://www.themoviedb.org/movie/1249213"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.131Z"
   },
   "movie:due date": {
     "value": {
@@ -146,6 +188,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:06.698Z"
   },
+  "movie:halloween": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/uxLqrN38fSQEUVpM4S1suhnW3X.jpg",
+      "url": "https://www.themoviedb.org/movie/948"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.129Z"
+  },
   "movie:hellboy": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/v58oqIHFi5hqmKl7k722vevYITc.jpg",
@@ -159,6 +208,13 @@
       "url": "https://www.themoviedb.org/movie/360784"
     },
     "fetchedAt": "2026-11-01T16:30:37.300Z"
+  },
+  "movie:hot wheels let s race attack of the t rex": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/iIc0OkYnf06kv5Zp0IYVwuvffgh.jpg",
+      "url": "https://www.themoviedb.org/movie/1802674"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.685Z"
   },
   "movie:ice age": {
     "value": {
@@ -230,6 +286,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:09.163Z"
   },
+  "movie:nowhere to run": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/wQDtwZBuXrVaCVoOfLKQho8phVd.jpg",
+      "url": "https://www.themoviedb.org/movie/10413"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.046Z"
+  },
   "movie:practical magic": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/nQnvBhl8YMrtaKMb6juzNE4znXu.jpg",
@@ -258,6 +321,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:07.265Z"
   },
+  "movie:surviving hurricane otis": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9na3MNAhsuNKDVOoctaE7opTmbx.jpg",
+      "url": "https://www.themoviedb.org/movie/1780005"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.033Z"
+  },
   "movie:the accountant": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/5hvm0GeaahJfWcfvLODT3Iw3LaL.jpg",
@@ -271,6 +341,13 @@
       "url": "https://www.themoviedb.org/movie/866398"
     },
     "fetchedAt": "2026-10-12T07:25:04.592Z"
+  },
+  "movie:the guardian": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/aBfdEOe0IiZZAGiNboVtI2dWwRp.jpg",
+      "url": "https://www.themoviedb.org/movie/4643"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.931Z"
   },
   "movie:the heat": {
     "value": {
@@ -321,6 +398,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:10.147Z"
   },
+  "movie:therapy done right": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/vaok2Dm7suKG2gEY2cKBXL4OMYf.jpg",
+      "url": "https://www.themoviedb.org/movie/1487317"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.427Z"
+  },
   "movie:turning point generation 9 11": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
@@ -370,6 +454,20 @@
     },
     "fetchedAt": "2026-10-12T07:25:10.605Z"
   },
+  "movie:you me us": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/aVpuQ5HXnvSTxrdDx6e36B9tk4y.jpg",
+      "url": "https://www.themoviedb.org/movie/1445222"
+    },
+    "fetchedAt": "2026-11-04T05:13:52.732Z"
+  },
+  "tv:a couple of lies": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/4Z88NNfpPkG6ymd59G52v2ji6t7.jpg",
+      "url": "https://www.themoviedb.org/tv/336240"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.527Z"
+  },
   "tv:all the truth in my lies": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/xrXT1n7o77XOVsQKAoS7lIg2emc.jpg",
@@ -411,6 +509,20 @@
       "url": "https://www.themoviedb.org/tv/300507"
     },
     "fetchedAt": "2026-10-12T07:25:13.367Z"
+  },
+  "tv:cyberpunk edgerunners": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg",
+      "url": "https://www.themoviedb.org/tv/105248"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.427Z"
+  },
+  "tv:dead end job": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/yyA9CI8BLNg6LtVRvmVxki4xiGb.jpg",
+      "url": "https://www.themoviedb.org/tv/289517"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.730Z"
   },
   "tv:death of the pastor s wife": {
     "value": {
@@ -461,6 +573,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:14.773Z"
   },
+  "tv:lupin": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/d59yXYdagCO8OSPZIV68lRoB5PF.jpg",
+      "url": "https://www.themoviedb.org/tv/96677"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.222Z"
+  },
   "tv:mayor of kingstown": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
@@ -502,6 +621,13 @@
       "url": "https://www.themoviedb.org/tv/199001"
     },
     "fetchedAt": "2026-10-12T07:25:10.758Z"
+  },
+  "tv:nobody wants this": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/1RNtqMeSNNBkXqK8WPUMf72vGrt.jpg",
+      "url": "https://www.themoviedb.org/tv/250923"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.330Z"
   },
   "tv:not a stranger": {
     "value": {
@@ -614,6 +740,13 @@
       "url": "https://www.themoviedb.org/tv/236235"
     },
     "fetchedAt": "2026-10-12T07:25:12.831Z"
+  },
+  "tv:the one about matthew perry": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/zDSjGvywwyWUqnMIpYYwFDyA7Az.jpg",
+      "url": "https://www.themoviedb.org/tv/333533"
+    },
+    "fetchedAt": "2026-11-04T05:13:53.628Z"
   },
   "tv:the perfect lie": {
     "value": {

@@ -244,6 +244,26 @@
     },
     "fetchedAt": "2026-10-17T12:50:12.531Z"
   },
+  "amanda hogberg": {
+    "value": {
+      "tmdbId": 2158114,
+      "wiki": null,
+      "bio": {
+        "text": "AMANDA HÖGBERG (b.1990 in Gagnef, Dalarna) is an exciting screenwriter with a unique voice and a recipient of an Oscar for best student film “Get Ready With Me” (2018).\n\nAmanda has a background in the performing arts, as an actress, dancer, and choreographer. Her wide-ranging interests touch on everything from writing coming-of-age stories to mystery horror. She is drawn to American indie films and is especially skilled in character-driven dramas with dark, witty humor.\n\nAmanda has written episodes for director Lisa Langseth’s beloved original series “Kärlek och anarki / Love and Anarchy” for Netflix and is currently head writer for a drama-comedy series.\n\nCurrently, Amanda is working on a Danish series that’s in development.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/ynOM3RQlVlNHOjpxqLNNEdZF1Ot.jpg",
+      "series": [
+        {
+          "id": 336240,
+          "title": "Scambio di bugie",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:36.419Z"
+  },
   "andre barro": {
     "value": {
       "tmdbId": 1714518,
@@ -564,6 +584,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:00.433Z"
+  },
+  "axel stjarne": {
+    "value": {
+      "tmdbId": 5364533,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 336240,
+          "title": "Scambio di bugie",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:37.432Z"
   },
   "bernard vaillot": {
     "value": {
@@ -1198,6 +1235,54 @@
     },
     "fetchedAt": "2026-10-17T12:50:19.596Z"
   },
+  "craig gerber": {
+    "value": {
+      "tmdbId": 1257848,
+      "wiki": {
+        "lang": "en",
+        "title": "Craig Gerber (creator)",
+        "url": "https://en.wikipedia.org/wiki/Craig_Gerber_(creator)",
+        "extract": "Craig Gerber is an American television writer and producer. He created the Disney Junior series Sofia the First (2012–2018), Elena of Avalor (2016–2020) and Firebuds (2022–2025)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Craig_Gerber_on_3decades3kids.jpg/500px-Craig_Gerber_on_3decades3kids.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Craig_Gerber_on_3decades3kids.jpg",
+        "author": "3decades3kids",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 261647,
+          "title": "Sofia la principessa: Magia Reale",
+          "year": "2026"
+        },
+        {
+          "id": 321657,
+          "title": "Sofia la principessa: Magici Amici",
+          "year": "2026"
+        },
+        {
+          "id": 138987,
+          "title": "Firebuds",
+          "year": "2022"
+        },
+        {
+          "id": 67175,
+          "title": "Elena di Avalor",
+          "year": "2016"
+        },
+        {
+          "id": 46928,
+          "title": "Sofia la principessa",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:30.220Z"
+  },
   "craig mazin": {
     "value": {
       "tmdbId": 35796,
@@ -1757,6 +1842,44 @@
     },
     "fetchedAt": "2026-10-21T04:53:52.104Z"
   },
+  "dennis heaton": {
+    "value": {
+      "tmdbId": 64762,
+      "wiki": {
+        "lang": "en",
+        "title": "Dennis Heaton",
+        "url": "https://en.wikipedia.org/wiki/Dennis_Heaton",
+        "extract": "Dennis Heaton is a Canadian screenwriter working in film and television. He formerly executive produced and show-ran The Order for Netflix. Other recent credits include executive producing and writing on Ghost Wars for SYFY and Netflix, executive producing and showrunning Motive on CTV/NBCU, Call Me Fitz (HBO Canada/Audience Network), The Listener (CTV/NBC), JPOD (CBC), Blood Ties (Lifetime/Space) and the feature film Fido.\n\nHeaton received two 2014 Canadian Screen Awards Nominations for Best Dramatic Series for Motive and Best Comedy Series for Call Me Fitz, with Fitz winning the category.\n\nHe has four prior Gemini Award"
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Dennis_Heaton.jpg/500px-Dennis_Heaton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Dennis_Heaton.jpg",
+        "author": "Canadian Film Centre, Jesse Grant",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 58147,
+          "title": "My Pal Satan",
+          "year": null
+        },
+        {
+          "id": 203555,
+          "title": "The Imperfects",
+          "year": "2022"
+        },
+        {
+          "id": 82104,
+          "title": "The Order",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:31.786Z"
+  },
   "derek haas": {
     "value": {
       "tmdbId": 8161,
@@ -2057,6 +2180,76 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:34.262Z"
+  },
+  "erin foster": {
+    "value": {
+      "tmdbId": 1223973,
+      "wiki": {
+        "lang": "it",
+        "title": "Erin Foster",
+        "url": "https://it.wikipedia.org/wiki/Erin_Foster",
+        "extract": "Erin Foster (Los Angeles, 23 agosto 1982) è un'attrice, sceneggiatrice e produttrice televisiva statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Erin_Foster_TechCrunch_Disrupt_2024.jpg/500px-Erin_Foster_TechCrunch_Disrupt_2024.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Erin_Foster_TechCrunch_Disrupt_2024.jpg",
+        "author": "TechCrunch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 250923,
+          "title": "Nobody Wants This",
+          "year": "2024"
+        },
+        {
+          "id": 62192,
+          "title": "Barely Famous",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:35.450Z"
+  },
+  "florent meyer": {
+    "value": {
+      "tmdbId": 1449284,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 311001,
+          "title": "Chercheurs d'or",
+          "year": null
+        },
+        {
+          "id": 283036,
+          "title": "Les Aventurières",
+          "year": "2025"
+        },
+        {
+          "id": 229580,
+          "title": "La Casa dei Misteri",
+          "year": "2024"
+        },
+        {
+          "id": 158332,
+          "title": "L'isola delle trenta bare",
+          "year": "2022"
+        },
+        {
+          "id": 96677,
+          "title": "Lupin",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:33.688Z"
   },
   "francois uzan": {
     "value": {
@@ -3829,6 +4022,38 @@
     },
     "fetchedAt": "2026-10-19T04:48:50.867Z"
   },
+  "marie roussin": {
+    "value": {
+      "tmdbId": 1409018,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 250306,
+          "title": "Made in France",
+          "year": "2025"
+        },
+        {
+          "id": 121460,
+          "title": "Il liceo Voltaire",
+          "year": "2021"
+        },
+        {
+          "id": 96677,
+          "title": "Lupin",
+          "year": "2021"
+        },
+        {
+          "id": 87296,
+          "title": "Cut",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:32.692Z"
+  },
   "mark gatiss": {
     "value": {
       "tmdbId": 34546,
@@ -5260,6 +5485,33 @@
     },
     "fetchedAt": "2026-10-17T12:50:11.686Z"
   },
+  "shelley eriksen": {
+    "value": {
+      "tmdbId": 189019,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 203555,
+          "title": "The Imperfects",
+          "year": "2022"
+        },
+        {
+          "id": 82104,
+          "title": "The Order",
+          "year": "2019"
+        },
+        {
+          "id": 66599,
+          "title": "Private Eyes",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:30.686Z"
+  },
   "shonda rhimes": {
     "value": {
       "tmdbId": 25539,
@@ -5669,6 +5921,33 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:16.633Z"
+  },
+  "tigran rosine": {
+    "value": {
+      "tmdbId": 3051535,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 274323,
+          "title": "La Famille Rose",
+          "year": "2025"
+        },
+        {
+          "id": 229580,
+          "title": "La Casa dei Misteri",
+          "year": "2024"
+        },
+        {
+          "id": 96677,
+          "title": "Lupin",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:19:34.694Z"
   },
   "trey parker": {
     "value": {

@@ -316,6 +316,38 @@
     },
     "fetchedAt": "2026-10-17T09:31:07.289Z"
   },
+  "alessandro carloni": {
+    "value": {
+      "tmdbId": 1262481,
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandro Carloni",
+        "url": "https://it.wikipedia.org/wiki/Alessandro_Carloni",
+        "extract": "Alessandro Carloni (Bologna, 1977) è un regista e sceneggiatore italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/igd5EphyUtZKveyeLYe4eLTztxd.jpg",
+      "films": [
+        {
+          "id": 1117898,
+          "title": "Il gatto col cappello",
+          "year": "2026"
+        },
+        {
+          "id": 456661,
+          "title": "A passo di panda",
+          "year": "2016"
+        },
+        {
+          "id": 140300,
+          "title": "Kung Fu Panda 3",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:14.038Z"
+  },
   "alexander ullom": {
     "value": {
       "tmdbId": 5197159,
@@ -629,6 +661,41 @@
     },
     "fetchedAt": "2026-10-17T09:32:21.964Z"
   },
+  "andrea corsini": {
+    "value": {
+      "tmdbId": 1203871,
+      "wiki": null,
+      "bio": {
+        "text": "Andrea Corsini was born in Italy in 1980. He's a multiple awarded director and screenwriter. His works has been showcased at Mostra del Cinema di Venezia, Aesthetica, Rhode Island, Triennale di Milano, Fantasia, BIFAN. He's been a selected director at internation development programs Cannes Frontières, Milano Film Network and European Genre Forum.\n\nIn 2011 he wrote and directed the short film Non Nel Mio Giardino. In 2018 his experimental documentary Societas Mortis has been premiered at Triennale di Milano. In 2019 he’s written and directed the short film Ferine premiered at 76. Mostra del Cinema di Venezia Int. Critics Week. He's now in production with his feature film debut \"Ferine (aka Beasts of Prey)\", expansion of his short film Ferine.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/oM3w5zLG0fmwcGp2MuqIp2knsK9.jpg",
+      "films": [
+        {
+          "id": 1357952,
+          "title": "Ferine",
+          "year": "2026"
+        },
+        {
+          "id": 617842,
+          "title": "Ferine (Shortfilm)",
+          "year": "2019"
+        },
+        {
+          "id": 1139331,
+          "title": "Societas Mortis",
+          "year": "2018"
+        },
+        {
+          "id": 1139314,
+          "title": "Non Nel Mio Giardino",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:20.237Z"
+  },
   "andrea d eredita": {
     "value": {
       "tmdbId": 4801279,
@@ -658,6 +725,89 @@
       ]
     },
     "fetchedAt": "2026-10-19T04:48:45.617Z"
+  },
+  "andrew davis": {
+    "value": {
+      "tmdbId": 12989,
+      "wiki": {
+        "lang": "it",
+        "title": "Andrew Davis",
+        "url": "https://it.wikipedia.org/wiki/Andrew_Davis",
+        "extract": "Andrew Davis (Chicago, 21 novembre 1946) è un regista statunitense.\n\nSpecialista in film d'azione e polizieschi, tra gli anni ottanta e gli anni novanta ha diretto alcuni dei film di maggior successo del periodo come Il codice del silenzio, Nico, Il fuggitivo, Trappola in alto mare e Delitto perfetto. Ha ottenuto una nomination ai Golden Globe come miglior regista per Il fuggitivo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Andrew_DaviS_8459.jpg/500px-Andrew_DaviS_8459.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Andrew_DaviS_8459.jpg",
+        "author": "Gérald Garitan",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1220551,
+          "title": "My French Amore",
+          "year": null
+        },
+        {
+          "id": 1201250,
+          "title": "Mentors - Tony & Santi",
+          "year": "2020"
+        },
+        {
+          "id": 4643,
+          "title": "The Guardian - Salvataggio in mare",
+          "year": "2006"
+        },
+        {
+          "id": 8326,
+          "title": "Holes - Buchi nel deserto",
+          "year": "2003"
+        },
+        {
+          "id": 9884,
+          "title": "Danni collaterali",
+          "year": "2002"
+        },
+        {
+          "id": 1965,
+          "title": "Delitto perfetto",
+          "year": "1998"
+        },
+        {
+          "id": 12123,
+          "title": "Reazione a catena",
+          "year": "1996"
+        },
+        {
+          "id": 78406,
+          "title": "Il gemello scomodo",
+          "year": "1995"
+        },
+        {
+          "id": 5503,
+          "title": "Il fuggitivo",
+          "year": "1993"
+        },
+        {
+          "id": 8845,
+          "title": "Trappola in alto mare",
+          "year": "1992"
+        },
+        {
+          "id": 31606,
+          "title": "Uccidete la colomba bianca",
+          "year": "1989"
+        },
+        {
+          "id": 9395,
+          "title": "Nico",
+          "year": "1988"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:28.455Z"
   },
   "andrew stanton": {
     "value": {
@@ -847,6 +997,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:08.469Z"
+  },
+  "anthony dechaux": {
+    "value": {
+      "tmdbId": 5019542,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1376412,
+          "title": "La guerra dei prezzi",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:24.474Z"
   },
   "anthony minghella": {
     "value": {
@@ -1080,6 +1247,43 @@
       ]
     },
     "fetchedAt": "2026-10-24T04:44:09.150Z"
+  },
+  "ashley miller": {
+    "value": {
+      "tmdbId": 5409972,
+      "wiki": {
+        "lang": "it",
+        "title": "Ashley Miller (regista)",
+        "url": "https://it.wikipedia.org/wiki/Ashley_Miller_(regista)",
+        "extract": "Ashley Miller (Cincinnati, 11 agosto 1867 – New York, 19 novembre 1949) è stato un regista e sceneggiatore statunitense del cinema muto.\n\nLavorò anche nell'animazione, prendendo parte a sette pellicole. Nella sua carriera cinematografica, che durò dal 1910 al 1923, diresse 115 film e ne sceneggiò 30."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/19Ih3ry89WHLVNYtVB0eBSPEzfY.jpg",
+      "films": [
+        {
+          "id": 1660624,
+          "title": "Collision Course",
+          "year": "2026"
+        },
+        {
+          "id": 1661780,
+          "title": "The Bridesmaids",
+          "year": "2025"
+        },
+        {
+          "id": 1568569,
+          "title": "Asymmetrical",
+          "year": "2025"
+        },
+        {
+          "id": 1662483,
+          "title": "LIMBO",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:27.419Z"
   },
   "barry jenkins": {
     "value": {
@@ -3260,6 +3464,83 @@
     },
     "fetchedAt": "2026-10-17T09:37:10.465Z"
   },
+  "christopher landon": {
+    "value": {
+      "tmdbId": 54248,
+      "wiki": {
+        "lang": "it",
+        "title": "Christopher Landon",
+        "url": "https://it.wikipedia.org/wiki/Christopher_Landon",
+        "extract": "Christopher Beau Landon (Los Angeles, 27 febbraio 1975) è uno sceneggiatore e regista statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/F4paQMOh6fuKbyAp4wKNtheLlF.jpg",
+      "films": [
+        {
+          "id": 1232601,
+          "title": "Big Bad",
+          "year": null
+        },
+        {
+          "id": 774079,
+          "title": "Auguri per la tua morte",
+          "year": null
+        },
+        {
+          "id": 1547909,
+          "title": "Blink of an Eye",
+          "year": null
+        },
+        {
+          "id": 1437428,
+          "title": "Final Boarding",
+          "year": null
+        },
+        {
+          "id": 1740102,
+          "title": "The Final Girl Support Group",
+          "year": null
+        },
+        {
+          "id": 1249213,
+          "title": "Drop - Accetta o rifiuta",
+          "year": "2025"
+        },
+        {
+          "id": 852096,
+          "title": "Un fantasma in casa",
+          "year": "2023"
+        },
+        {
+          "id": 551804,
+          "title": "Freaky",
+          "year": "2020"
+        },
+        {
+          "id": 512196,
+          "title": "Ancora auguri per la tua morte",
+          "year": "2019"
+        },
+        {
+          "id": 440021,
+          "title": "Auguri per la tua morte",
+          "year": "2017"
+        },
+        {
+          "id": 273477,
+          "title": "Manuale scout per l'apocalisse zombie",
+          "year": "2015"
+        },
+        {
+          "id": 227348,
+          "title": "Il segnato",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:31.404Z"
+  },
   "christopher miller": {
     "value": {
       "tmdbId": 155267,
@@ -4208,6 +4489,28 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.194Z"
+  },
+  "danylo hauk": {
+    "value": {
+      "tmdbId": 4116385,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1445222,
+          "title": "You, Me, Us",
+          "year": "2017"
+        },
+        {
+          "id": 1141358,
+          "title": "The Father, the Son, and the Gun",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:26.445Z"
   },
   "darren aronofsky": {
     "value": {
@@ -5208,6 +5511,54 @@
     },
     "fetchedAt": "2026-10-30T08:47:27.673Z"
   },
+  "edoardo gabbriellini": {
+    "value": {
+      "tmdbId": 125489,
+      "wiki": {
+        "lang": "it",
+        "title": "Edoardo Gabbriellini",
+        "url": "https://it.wikipedia.org/wiki/Edoardo_Gabbriellini",
+        "extract": "Edoardo Gabbriellini (Livorno, 16 luglio 1975) è un attore, regista e sceneggiatore italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Edoardo_Gabbriellini_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Edoardo_Gabbriellini_(cropped).jpg",
+        "author": "Nicogenin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1632103,
+          "title": "La città dei vivi",
+          "year": "2026"
+        },
+        {
+          "id": 1084140,
+          "title": "Holiday",
+          "year": "2023"
+        },
+        {
+          "id": 1578816,
+          "title": "Kemp",
+          "year": "2019"
+        },
+        {
+          "id": 169692,
+          "title": "Padroni di casa",
+          "year": "2012"
+        },
+        {
+          "id": 214957,
+          "title": "B.B. e il cormorano",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:23.485Z"
+  },
   "edoardo saccone": {
     "value": {
       "tmdbId": 5003384,
@@ -5312,6 +5663,59 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:08.612Z"
+  },
+  "eli craig": {
+    "value": {
+      "tmdbId": 52479,
+      "wiki": {
+        "lang": "en",
+        "title": "Eli Craig",
+        "url": "https://en.wikipedia.org/wiki/Eli_Craig",
+        "extract": "Eli Craig is an American film director, screenwriter, and actor. He is best known for co-writing and directing the cult horror comedy film Tucker & Dale vs. Evil."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Eli_Craig_at_Rose_City_Comic_Con_2026_01.jpg/500px-Eli_Craig_at_Rose_City_Comic_Con_2026_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Eli_Craig_at_Rose_City_Comic_Con_2026_01.jpg",
+        "author": "Joe Peacock",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 718652,
+          "title": "The Hills Have Eyes for You",
+          "year": null
+        },
+        {
+          "id": 1662520,
+          "title": "White Elephant",
+          "year": null
+        },
+        {
+          "id": 713364,
+          "title": "Il clown di Kettle Springs",
+          "year": "2025"
+        },
+        {
+          "id": 346671,
+          "title": "Little Evil",
+          "year": "2017"
+        },
+        {
+          "id": 46838,
+          "title": "Tucker & Dale vs. Evil",
+          "year": "2010"
+        },
+        {
+          "id": 1393319,
+          "title": "The Tao of Pong",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:33.507Z"
   },
   "eli roth": {
     "value": {
@@ -5623,6 +6027,111 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:57:26.610Z"
+  },
+  "erica rivinoja": {
+    "value": {
+      "tmdbId": 1229796,
+      "wiki": {
+        "lang": "it",
+        "title": "Erica Rivinoja",
+        "url": "https://it.wikipedia.org/wiki/Erica_Rivinoja",
+        "extract": "Erica Rivinoja (...) è una sceneggiatrice e produttrice televisiva statunitense, candidata al Premio Oscar alla miglior sceneggiatura non originale per Borat - Seguito di film cinema."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Erica_Rivinoja_by_Gage_Skidmore.jpg/500px-Erica_Rivinoja_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Erica_Rivinoja_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1117898,
+          "title": "Il gatto col cappello",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:13.128Z"
+  },
+  "eros puglielli": {
+    "value": {
+      "tmdbId": 1014914,
+      "wiki": {
+        "lang": "it",
+        "title": "Eros Puglielli",
+        "url": "https://it.wikipedia.org/wiki/Eros_Puglielli",
+        "extract": "Eros Puglielli (Roma, 17 maggio 1973) è un regista italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/lNmAriMBefAsuTYmqsoTLlJSlV6.jpg",
+      "films": [
+        {
+          "id": 1594609,
+          "title": "Spie per caso - Missione Tokyo",
+          "year": null
+        },
+        {
+          "id": 1449709,
+          "title": "Agata Christian - Delitto sulle nevi",
+          "year": "2026"
+        },
+        {
+          "id": 1294483,
+          "title": "Cortina Express",
+          "year": "2024"
+        },
+        {
+          "id": 840118,
+          "title": "Gli idoli delle donne",
+          "year": "2022"
+        },
+        {
+          "id": 568165,
+          "title": "Copperman",
+          "year": "2019"
+        },
+        {
+          "id": 571844,
+          "title": "Nevermind",
+          "year": "2018"
+        },
+        {
+          "id": 157624,
+          "title": "Caldo criminale",
+          "year": "2010"
+        },
+        {
+          "id": 1180580,
+          "title": "So che ritornerai",
+          "year": "2009"
+        },
+        {
+          "id": 110849,
+          "title": "AD Project",
+          "year": "2006"
+        },
+        {
+          "id": 89587,
+          "title": "Occhi di cristallo",
+          "year": "2004"
+        },
+        {
+          "id": 469481,
+          "title": "Tutta la conoscenza del mondo",
+          "year": "2001"
+        },
+        {
+          "id": 476982,
+          "title": "Dorme",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:29.395Z"
   },
   "ethan coen": {
     "value": {
@@ -7150,6 +7659,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:06.140Z"
+  },
+  "giovanni veronesi": {
+    "value": {
+      "tmdbId": 85551,
+      "wiki": {
+        "lang": "it",
+        "title": "Giovanni Veronesi",
+        "url": "https://it.wikipedia.org/wiki/Giovanni_Veronesi",
+        "extract": "Giovanni Veronesi (Prato, 31 agosto 1962) è un regista, sceneggiatore, conduttore radiofonico e attore italiano, fratello dello scrittore Sandro Veronesi.\n\nDivenuto noto sia come sceneggiatore per i film di Francesco Nuti, Leonardo Pieraccioni, Carlo Verdone e Massimo Ceccherini che come regista, è stato riconosciuto con un David di Donatello per la migliore sceneggiatura per Per amore, solo per amore, due Nastri d'argento alla migliore sceneggiatura per i film Il ciclone e Manuale d'amore e un Globo d'oro. Nel corso della carriera ha inoltre diretto video musicali per Elisa, Negramaro e Gianna Nannini, oltre che recitato in film e spettacoli teatrali."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Giovanni_Veronesi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Veronesi.jpg",
+        "author": "Vincenzo Iaconianni",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1506710,
+          "title": "Dio ride",
+          "year": "2026"
+        },
+        {
+          "id": 1359873,
+          "title": "La valanga azzurra",
+          "year": "2024"
+        },
+        {
+          "id": 1168806,
+          "title": "Romeo è Giulietta",
+          "year": "2024"
+        },
+        {
+          "id": 715869,
+          "title": "Tutti per 1 - 1 per tutti",
+          "year": "2020"
+        },
+        {
+          "id": 565413,
+          "title": "Moschettieri del Re - La penultima missione",
+          "year": "2018"
+        },
+        {
+          "id": 442419,
+          "title": "Non è un paese per giovani",
+          "year": "2017"
+        },
+        {
+          "id": 257314,
+          "title": "Una donna per amica",
+          "year": "2014"
+        },
+        {
+          "id": 234356,
+          "title": "L'ultima ruota del carro",
+          "year": "2013"
+        },
+        {
+          "id": 58219,
+          "title": "Manuale d'amore 3",
+          "year": "2011"
+        },
+        {
+          "id": 42675,
+          "title": "Genitori & figli - Agitare bene prima dell'uso",
+          "year": "2010"
+        },
+        {
+          "id": 23509,
+          "title": "Italians",
+          "year": "2009"
+        },
+        {
+          "id": 707715,
+          "title": "All Human Rights for All",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:22.461Z"
   },
   "giuseppe tornatore": {
     "value": {
@@ -8882,6 +9474,28 @@
     },
     "fetchedAt": "2026-10-17T09:32:13.402Z"
   },
+  "joe juanne piras": {
+    "value": {
+      "tmdbId": 5142200,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1438963,
+          "title": "Dal nulla",
+          "year": "2026"
+        },
+        {
+          "id": 1407967,
+          "title": "Dalia",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:20.436Z"
+  },
   "joe russo": {
     "value": {
       "tmdbId": 19272,
@@ -9167,6 +9781,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:21.521Z"
+  },
+  "john carpenter": {
+    "value": {
+      "tmdbId": 11770,
+      "wiki": {
+        "lang": "it",
+        "title": "John Carpenter",
+        "url": "https://it.wikipedia.org/wiki/John_Carpenter",
+        "extract": "John Howard Carpenter (Carthage, 16 gennaio 1948) è un regista, sceneggiatore, compositore, musicista, attore, produttore cinematografico e montatore statunitense.\n\nRegista di numerose pellicole horror, thriller e fantascientifiche, è ritenuto una figura di riferimento tra i cineasti specializzati in tali generi. I suoi film più famosi sono Distretto 13 - Le brigate della morte (1976), Halloween - La notte delle streghe (1978), Fog (1980), 1997: Fuga da New York (1981), La cosa (1982), Grosso guaio a Chinatown (1986), Essi vivono (1988) e Il seme della follia (1994). Oltre a dirigere, Carpenter ha composto la colonna sonora di molti suoi film."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/John_Carpenter_Photo_Op_GalaxyCon_Richmond_2025.jpg/500px-John_Carpenter_Photo_Op_GalaxyCon_Richmond_2025.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:John_Carpenter_Photo_Op_GalaxyCon_Richmond_2025.jpg",
+        "author": "autore sconosciuto",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 45657,
+          "title": "The Ward - Il reparto",
+          "year": "2011"
+        },
+        {
+          "id": 298723,
+          "title": "Pro-Life",
+          "year": "2006"
+        },
+        {
+          "id": 327389,
+          "title": "Cigarette Burns",
+          "year": "2005"
+        },
+        {
+          "id": 10016,
+          "title": "Fantasmi da Marte",
+          "year": "2001"
+        },
+        {
+          "id": 9945,
+          "title": "Vampires",
+          "year": "1998"
+        },
+        {
+          "id": 10061,
+          "title": "Fuga da Los Angeles",
+          "year": "1996"
+        },
+        {
+          "id": 12122,
+          "title": "Villaggio dei dannati",
+          "year": "1995"
+        },
+        {
+          "id": 2654,
+          "title": "Il seme della follia",
+          "year": "1995"
+        },
+        {
+          "id": 31578,
+          "title": "Body bags - Corpi estranei",
+          "year": "1993"
+        },
+        {
+          "id": 2687,
+          "title": "Avventure di un uomo invisibile",
+          "year": "1992"
+        },
+        {
+          "id": 8337,
+          "title": "Essi vivono",
+          "year": "1988"
+        },
+        {
+          "id": 8852,
+          "title": "Il signore del male",
+          "year": "1987"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:32.432Z"
   },
   "john ford": {
     "value": {
@@ -9576,6 +10273,89 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.521Z"
+  },
+  "joko anwar": {
+    "value": {
+      "tmdbId": 121798,
+      "wiki": {
+        "lang": "en",
+        "title": "Joko Anwar",
+        "url": "https://en.wikipedia.org/wiki/Joko_Anwar",
+        "extract": "Joko Anwar (born 3 January 1976) is an Indonesian film director, producer, screenwriter, and actor. Prior to becoming a filmmaker, he worked as a journalist and film critic.\n\nAnwar first rose to prominence for co-writing Nia Dinata's 2003 hit Arisan! which won five awards at the 2004 Citra Award. He then made his feature film directorial debut with the romantic comedy Joni's Promise in 2005, gaining a Best Director nomination at the 2005 Citra Award. He has since directed a wide range of genres: the noir thriller Dead Time: Kala (2007), psychological thriller The Forbidden Door (2009), supernatural horror Satan's Slaves (2017) and its sequel Satan's Slaves 2: Communion (2022), and live-action superhero Gundala (2019). In 2024, Anwar's anthology series Joko Anwar's Nightmares and Daydreams was released on Netflix."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Joko_Anwar_Best_Director_Festival_Film_Indonesia_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Joko_Anwar_Best_Director_Festival_Film_Indonesia_2015.jpg",
+        "author": "Netmediatama",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1280095,
+          "title": "Pengabdi Setan 3: Origin",
+          "year": null
+        },
+        {
+          "id": 632883,
+          "title": "Gundala Putra Petir",
+          "year": null
+        },
+        {
+          "id": 1393328,
+          "title": "Perkasa Seperti Air",
+          "year": null
+        },
+        {
+          "id": 1569697,
+          "title": "The Charms in Broken Things",
+          "year": null
+        },
+        {
+          "id": 1679600,
+          "title": "Ghost in the Cell 2",
+          "year": null
+        },
+        {
+          "id": 1393326,
+          "title": "Ghost in the Cell",
+          "year": "2026"
+        },
+        {
+          "id": 1280089,
+          "title": "Pengepungan di Bukit Duri",
+          "year": "2025"
+        },
+        {
+          "id": 1119527,
+          "title": "Siksa Kubur",
+          "year": "2024"
+        },
+        {
+          "id": 925786,
+          "title": "Pengabdi Setan 2: Communion",
+          "year": "2022"
+        },
+        {
+          "id": 572468,
+          "title": "Impetigore",
+          "year": "2019"
+        },
+        {
+          "id": 516700,
+          "title": "Gundala - Il figlio del lampo",
+          "year": "2019"
+        },
+        {
+          "id": 467012,
+          "title": "Satan's Slaves",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:25.509Z"
   },
   "jon favreau": {
     "value": {
@@ -11859,6 +12639,69 @@
     },
     "fetchedAt": "2026-10-28T05:04:05.664Z"
   },
+  "martin mcdonagh": {
+    "value": {
+      "tmdbId": 54472,
+      "wiki": {
+        "lang": "it",
+        "title": "Martin McDonagh",
+        "url": "https://it.wikipedia.org/wiki/Martin_McDonagh",
+        "extract": "Martin McDonagh (/ˈmɑrtɪn məkˈdɒnə/; Londra, 26 marzo 1970) è un commediografo, sceneggiatore, regista e produttore cinematografico britannico di origini irlandesi.\n\nÈ principalmente noto per aver diretto le pellicole In Bruges - La coscienza dell'assassino (2008), 7 psicopatici (2012), Tre manifesti a Ebbing, Missouri (2017) e Gli spiriti dell'isola (2022). Nel corso della sua carriera si è aggiudicato un Premio Oscar, due Golden Globe e quattro British Academy Film Awards. In ambito teatrale ha vinto tre Laurence Olivier Award, un Drama Desk Award ed è stato candidato quattro volte ai Tony Awards. Nel 1999 fu tra i destinatari del V Premio Europa Realtà Teatrali conferito al Royal Court Theatre (con Sarah Kane, Mark Ravenhill, Jez Butterworth, Conor McPherson)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Martin_McDonagh_at_83rd_Venice_International_Film_Festival-7_%28cropped%29.jpg/500px-Martin_McDonagh_at_83rd_Venice_International_Film_Festival-7_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Martin_McDonagh_at_83rd_Venice_International_Film_Festival-7_(cropped).jpg",
+        "author": "LucaFazPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 891621,
+          "title": "Wild Horse Nine",
+          "year": "2026"
+        },
+        {
+          "id": 674324,
+          "title": "Gli spiriti dell'isola",
+          "year": "2022"
+        },
+        {
+          "id": 604847,
+          "title": "The Origins of Ebbing",
+          "year": "2018"
+        },
+        {
+          "id": 359940,
+          "title": "Tre manifesti a Ebbing, Missouri",
+          "year": "2017"
+        },
+        {
+          "id": 86838,
+          "title": "7 psicopatici",
+          "year": "2012"
+        },
+        {
+          "id": 8321,
+          "title": "In Bruges - La coscienza dell'assassino",
+          "year": "2008"
+        },
+        {
+          "id": 505819,
+          "title": "Cinema 16: European Short Films (U.S. Edition)",
+          "year": "2007"
+        },
+        {
+          "id": 25126,
+          "title": "Six Shooter",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:12.115Z"
+  },
   "martin scorsese": {
     "value": {
       "tmdbId": 1032,
@@ -12323,6 +13166,23 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:58:15.153Z"
+  },
+  "melisa godet": {
+    "value": {
+      "tmdbId": 3494663,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/4lzfMOMyhvddBK750hHTg25gz5A.jpg",
+      "films": [
+        {
+          "id": 1318417,
+          "title": "La maison des femmes - La casa delle donne",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:21.446Z"
   },
   "michael anderson": {
     "value": {
@@ -14415,6 +15275,89 @@
     },
     "fetchedAt": "2026-10-22T04:45:49.494Z"
   },
+  "paul greengrass": {
+    "value": {
+      "tmdbId": 25598,
+      "wiki": {
+        "lang": "it",
+        "title": "Paul Greengrass",
+        "url": "https://it.wikipedia.org/wiki/Paul_Greengrass",
+        "extract": "Paul Greengrass (Cheam, 13 agosto 1955) è un regista, sceneggiatore e produttore cinematografico britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Paul_Greengrass_at_the_2025_Toronto_International_Film_Festival.jpg/500px-Paul_Greengrass_at_the_2025_Toronto_International_Film_Festival.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Paul_Greengrass_at_the_2025_Toronto_International_Film_Festival.jpg",
+        "author": "Gabriel Hutchinson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 819149,
+          "title": "Night of Camp David",
+          "year": null
+        },
+        {
+          "id": 339840,
+          "title": "Untitled Jimi Hendrix Film",
+          "year": null
+        },
+        {
+          "id": 1102942,
+          "title": "Drowning: The Rescue of Flight 1421",
+          "year": null
+        },
+        {
+          "id": 977942,
+          "title": "The Uprising - Cuore ribelle",
+          "year": "2026"
+        },
+        {
+          "id": 1236470,
+          "title": "The Lost Bus",
+          "year": "2025"
+        },
+        {
+          "id": 581032,
+          "title": "Notizie dal mondo",
+          "year": "2020"
+        },
+        {
+          "id": 474354,
+          "title": "22 Luglio",
+          "year": "2018"
+        },
+        {
+          "id": 324668,
+          "title": "Jason Bourne",
+          "year": "2016"
+        },
+        {
+          "id": 109424,
+          "title": "Captain Phillips - Attacco in mare aperto",
+          "year": "2013"
+        },
+        {
+          "id": 22972,
+          "title": "Green Zone",
+          "year": "2010"
+        },
+        {
+          "id": 2503,
+          "title": "The Bourne Ultimatum - Il ritorno dello sciacallo",
+          "year": "2007"
+        },
+        {
+          "id": 9829,
+          "title": "United 93",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:11.114Z"
+  },
   "paul haggis": {
     "value": {
       "tmdbId": 455,
@@ -16170,6 +17113,83 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.388Z"
+  },
+  "robert harmon": {
+    "value": {
+      "tmdbId": 57895,
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Harmon",
+        "url": "https://it.wikipedia.org/wiki/Robert_Harmon",
+        "extract": "Robert Harmon (1953) è un regista statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/i4Yz5DdC0BU00EBYfnZvCOQwuty.jpg",
+      "films": [
+        {
+          "id": 361263,
+          "title": "Jesse Stone: Lost in Paradise",
+          "year": "2015"
+        },
+        {
+          "id": 110148,
+          "title": "Jesse Stone: Trappola di fuoco",
+          "year": "2012"
+        },
+        {
+          "id": 52688,
+          "title": "Miracolo a novembre",
+          "year": "2010"
+        },
+        {
+          "id": 43263,
+          "title": "Nessun rimorso",
+          "year": "2010"
+        },
+        {
+          "id": 22555,
+          "title": "Jesse Stone: Nel mezzo del nulla",
+          "year": "2009"
+        },
+        {
+          "id": 26114,
+          "title": "Sea Change - Delitto perfetto",
+          "year": "2007"
+        },
+        {
+          "id": 30347,
+          "title": "Missing - Dispersa",
+          "year": "2006"
+        },
+        {
+          "id": 31047,
+          "title": "Jesse Stone: Passaggio nella notte",
+          "year": "2006"
+        },
+        {
+          "id": 31046,
+          "title": "Stone Cold - Caccia al serial killer",
+          "year": "2005"
+        },
+        {
+          "id": 31065,
+          "title": "Ike: Countdown to D-Day",
+          "year": "2004"
+        },
+        {
+          "id": 29979,
+          "title": "Highwaymen - I Banditi Della Strada",
+          "year": "2004"
+        },
+        {
+          "id": 16028,
+          "title": "They - Incubi dal mondo delle ombre",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-04T05:15:30.414Z"
   },
   "robert olsen": {
     "value": {

@@ -1014,6 +1014,23 @@
     },
     "fetchedAt": "2026-10-17T07:34:02.426Z"
   },
+  "l amore non mi basta|emma": {
+    "value": {
+      "album": "Schiena",
+      "released": "2013-04-09",
+      "genre": "Pop",
+      "durationMs": 211453,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/a9/d2/51a9d282-8176-1a8e-c40b-3810a4638de6/13UAEIM08552.rgb.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/lamore-non-mi-basta/1440862210?i=1440862324",
+      "wiki": {
+        "lang": "it",
+        "title": "L'amore non mi basta",
+        "url": "https://it.wikipedia.org/wiki/L'amore_non_mi_basta",
+        "extract": "L'amore non mi basta è un singolo della cantautrice italiana Emma, pubblicato l'11 ottobre 2013 come terzo estratto dal terzo album in studio Schiena."
+      }
+    },
+    "fetchedAt": "2026-11-04T05:13:58.594Z"
+  },
   "l ultimo a cadere|kid yugi": {
     "value": {
       "album": "Anche gli Eroi Muoiono Post Mortem",
@@ -1778,6 +1795,23 @@
       }
     },
     "fetchedAt": "2026-10-17T07:30:39.856Z"
+  },
+  "sparisci|tony boy": {
+    "value": {
+      "album": "Sparisci",
+      "released": "2026-04-10",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 177149,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/42/24/49422414-e9bf-ed3a-be7b-d40a73b79d56/1200220330348.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/sparisci/6823684389?i=6823684391",
+      "wiki": {
+        "lang": "it",
+        "title": "Sparisci",
+        "url": "https://it.wikipedia.org/wiki/Sparisci",
+        "extract": "Sparisci è un singolo del rapper italiano Tony Boy, pubblicato il 3 novembre 2026 come primo estratto dal quinto album in studio Cura."
+      }
+    },
+    "fetchedAt": "2026-11-04T05:13:56.942Z"
   },
   "spie|shiva": {
     "value": {
