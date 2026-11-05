@@ -348,6 +348,23 @@
     },
     "fetchedAt": "2026-11-04T05:15:14.038Z"
   },
+  "alessio hong": {
+    "value": {
+      "tmdbId": 6529734,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1789738,
+          "title": "B.A.E. - Before Anything Else",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-05T05:13:23.657Z"
+  },
   "alexander ullom": {
     "value": {
       "tmdbId": 5197159,
@@ -4406,6 +4423,89 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.074Z"
+  },
+  "daniele luchetti": {
+    "value": {
+      "tmdbId": 59911,
+      "wiki": {
+        "lang": "it",
+        "title": "Daniele Luchetti",
+        "url": "https://it.wikipedia.org/wiki/Daniele_Luchetti",
+        "extract": "Daniele Luchetti (Roma, 26 luglio 1960) è un regista, sceneggiatore e attore cinematografico italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Daniele_Luchetti_-_IFFR_2024.jpg/500px-Daniele_Luchetti_-_IFFR_2024.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Daniele_Luchetti_-_IFFR_2024.jpg",
+        "author": "Vera de Kok",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1622561,
+          "title": "Dove non mi hai portata",
+          "year": null
+        },
+        {
+          "id": 1541477,
+          "title": "Noi un po' meglio",
+          "year": "2026"
+        },
+        {
+          "id": 1037051,
+          "title": "Confidenza",
+          "year": "2024"
+        },
+        {
+          "id": 1193328,
+          "title": "Codice Carla",
+          "year": "2023"
+        },
+        {
+          "id": 1137974,
+          "title": "Raffa",
+          "year": "2023"
+        },
+        {
+          "id": 659290,
+          "title": "Lacci",
+          "year": "2020"
+        },
+        {
+          "id": 583029,
+          "title": "Momenti di trascurabile felicità",
+          "year": "2019"
+        },
+        {
+          "id": 514266,
+          "title": "Io sono Tempesta",
+          "year": "2018"
+        },
+        {
+          "id": 370980,
+          "title": "Chiamatemi Francesco - Il Papa della gente",
+          "year": "2015"
+        },
+        {
+          "id": 209353,
+          "title": "Anni felici",
+          "year": "2013"
+        },
+        {
+          "id": 46920,
+          "title": "La nostra vita",
+          "year": "2010"
+        },
+        {
+          "id": 707715,
+          "title": "All Human Rights for All",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-05T05:13:26.623Z"
   },
   "danny boyle": {
     "value": {
@@ -14911,6 +15011,64 @@
     },
     "fetchedAt": "2026-10-27T04:47:42.115Z"
   },
+  "paola randi": {
+    "value": {
+      "tmdbId": 229590,
+      "wiki": {
+        "lang": "it",
+        "title": "Paola Randi",
+        "url": "https://it.wikipedia.org/wiki/Paola_Randi",
+        "extract": "Paola Livia Randi (Milano, 21 marzo 1970) è una regista cinematografica, sceneggiatrice e docente italiana."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Malaga_Film_Festival_2025_-Paola_Randi-2_%28cropped%29.jpg/500px-Malaga_Film_Festival_2025_-Paola_Randi-2_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Malaga_Film_Festival_2025_-Paola_Randi-2_(cropped).jpg",
+        "author": "Pedro J Pacheco",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1583853,
+          "title": "Se domani non torno",
+          "year": "2026"
+        },
+        {
+          "id": 1320254,
+          "title": "La storia del Frank e della Nina",
+          "year": "2024"
+        },
+        {
+          "id": 990600,
+          "title": "Beata te",
+          "year": "2022"
+        },
+        {
+          "id": 811050,
+          "title": "La befana vien di notte 2 - Le origini",
+          "year": "2021"
+        },
+        {
+          "id": 485346,
+          "title": "Tito e gli alieni",
+          "year": "2018"
+        },
+        {
+          "id": 314552,
+          "title": "9×10 Novanta",
+          "year": "2014"
+        },
+        {
+          "id": 59579,
+          "title": "Into Paradiso",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-05T05:13:22.632Z"
+  },
   "paolo strippoli": {
     "value": {
       "tmdbId": 2456774,
@@ -15171,6 +15329,78 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:17.475Z"
+  },
+  "patrick hughes": {
+    "value": {
+      "tmdbId": 143059,
+      "wiki": {
+        "lang": "it",
+        "title": "Patrick Hughes (regista)",
+        "url": "https://it.wikipedia.org/wiki/Patrick_Hughes_(regista)",
+        "extract": "Patrick Hughes (Melbourne, 13 maggio 1978) è un regista, sceneggiatore e montatore australiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/1yTU7U9HVchCQ1KO66noEKuK5J2.jpg",
+      "films": [
+        {
+          "id": 1541388,
+          "title": "Untitled NAVY Seal Film",
+          "year": null
+        },
+        {
+          "id": 1677583,
+          "title": "High Rise",
+          "year": null
+        },
+        {
+          "id": 1707125,
+          "title": "Untitled War Machine Sequel",
+          "year": null
+        },
+        {
+          "id": 1265609,
+          "title": "War Machine",
+          "year": "2026"
+        },
+        {
+          "id": 667739,
+          "title": "The Man from Toronto",
+          "year": "2022"
+        },
+        {
+          "id": 522931,
+          "title": "Come ti ammazzo il bodyguard 2 - La moglie del sicario",
+          "year": "2021"
+        },
+        {
+          "id": 390043,
+          "title": "Come ti ammazzo il bodyguard",
+          "year": "2017"
+        },
+        {
+          "id": 138103,
+          "title": "I mercenari 3",
+          "year": "2014"
+        },
+        {
+          "id": 45569,
+          "title": "Red Hill",
+          "year": "2010"
+        },
+        {
+          "id": 53214,
+          "title": "Signs",
+          "year": "2008"
+        },
+        {
+          "id": 201834,
+          "title": "The Lighter",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-05T05:13:25.769Z"
   },
   "patrik pass": {
     "value": {
@@ -19415,6 +19645,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:31.360Z"
+  },
+  "sun lingyi": {
+    "value": {
+      "tmdbId": 6529736,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1789738,
+          "title": "B.A.E. - Before Anything Else",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-05T05:13:24.643Z"
   },
   "susanne bier": {
     "value": {

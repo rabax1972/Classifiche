@@ -3199,6 +3199,71 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.415Z"
   },
+  "b a e before anything else|alessio hong": {
+    "value": {
+      "tmdbId": 1789738,
+      "title": "B.A.E. - Before Anything Else",
+      "overview": "On the threshold of adulthood, Romeo spends a final summer in Tropea with his friends, where he meets Giulia, a local theater enthusiast. As their romance blossoms, the two end up starring in a local production of Romeo and Juliet, and their real lives begin to painfully parallel the classic play. Facing opposition from Giulia’s overprotective brother and the pressure of an uncertain future, their bond deepens until a tragic confrontation alters their lives forever. B.A.E. - Before Anything Else is a poignant exploration of first love, passion, and devastating sacrifice.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 102,
+      "released": "2026-09-30",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/rczENRyOKuQpby9y0T2DFcgNhUn.jpg",
+      "directors": [
+        {
+          "id": 6529734,
+          "name": "Alessio Hong"
+        },
+        {
+          "id": 6529736,
+          "name": "Sun Lingyi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Riccardo De Rinaldis",
+          "character": null
+        },
+        {
+          "name": "Yile Yara Vianello",
+          "character": null
+        },
+        {
+          "name": "Jenny De Nucci",
+          "character": null
+        },
+        {
+          "name": "Mattia Carrano",
+          "character": null
+        },
+        {
+          "name": "Nina Pons",
+          "character": null
+        },
+        {
+          "name": "Leonardo Cappelli",
+          "character": null
+        },
+        {
+          "name": "Giorgio Belli",
+          "character": null
+        },
+        {
+          "name": "Augusto Mario Russi",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-05T05:13:22.172Z"
+  },
   "backrooms|kane parsons 2026": {
     "value": {
       "tmdbId": 1083381,
@@ -22376,6 +22441,78 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.462Z"
   },
+  "noi un po meglio|daniele luchetti 2026": {
+    "value": {
+      "tmdbId": 1541477,
+      "title": "Noi un po' meglio",
+      "overview": "Una coppia affronta il difficile percorso verso l'adozione, decisi a diventare genitori nonostante le loro complesse fragilità.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "runtime": 107,
+      "released": "2026-10-29",
+      "vote": 5.9,
+      "votes": 38,
+      "poster": "https://image.tmdb.org/t/p/w500/ahSqZAAHU4PgNdbKdGPj332O7As.jpg",
+      "directors": [
+        {
+          "id": 59911,
+          "name": "Daniele Luchetti"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Elio Germano",
+          "character": "Simone"
+        },
+        {
+          "name": "Maria Chiara Giannetta",
+          "character": "Lucia"
+        },
+        {
+          "name": "Lidia Vitale",
+          "character": null
+        },
+        {
+          "name": "Anna Bonaiuto",
+          "character": null
+        },
+        {
+          "name": "Diop Virginia",
+          "character": null
+        },
+        {
+          "name": "Francesca De Martini",
+          "character": null
+        },
+        {
+          "name": "Caterina Guzzanti",
+          "character": null
+        },
+        {
+          "name": "Sofia Luchetti",
+          "character": null
+        }
+      ],
+      "trailer": "-4pm5QQK8f0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1541477-noi-un-po-meglio/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-05T05:13:22.374Z"
+  },
   "nomadland|chloe zhao 2021": {
     "value": {
       "tmdbId": 581734,
@@ -26242,6 +26379,67 @@
       "watch": null
     },
     "fetchedAt": "2026-10-28T05:04:01.430Z"
+  },
+  "se domani non torno|paola randi 2026": {
+    "value": {
+      "tmdbId": 1583853,
+      "title": "Se domani non torno",
+      "overview": "Giulia è la figlia ideale. Studia, disegna, sogna di vivere in una brughiera, colleziona scatole e regala sorrisi dolcissimi. Poi una sera scompare, inghiottita da una morte assurda: un femminicidio. Travolto dal dolore più atroce che un padre possa sopportare, Gino Cecchettin sceglie di non stare in silenzio, si interroga sugli esiti più efferati di una cultura patriarcale che ancora ci riguarda e trova le parole per ricordare chi era Giulia e cosa ha imparato da lei. In questa lunga lettera scritta insieme a Marco Franzoso, Gino ripercorre la sua storia di padre, i giorni della gioia e quelli del dolore. Commuove e invita a “costruire un’alleanza tra i sessi, anziché consolidare la prevaricazione di uno sull’altro”. Ci esorta ad ascoltare le giovani e i giovani del nostro Paese e a lavorare insieme per costruire relazioni fondate sull’empatia e sul rispetto reciproco.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 106,
+      "released": "2026-11-05",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/yfnAxbirYCIm1qP9ZT9LjYIj6DQ.jpg",
+      "directors": [
+        {
+          "id": 229590,
+          "name": "Paola Randi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sabrina Martina",
+          "character": "Giulia Cecchettin"
+        },
+        {
+          "name": "Filippo Timi",
+          "character": "Gino Cecchettin"
+        },
+        {
+          "name": "Tecla Bossi",
+          "character": "Elena Cecchettin"
+        },
+        {
+          "name": "Tommaso Allione",
+          "character": "Davide Cecchettin"
+        },
+        {
+          "name": "Massimo Scola",
+          "character": null
+        },
+        {
+          "name": "Carmen Lorenzo",
+          "character": null
+        },
+        {
+          "name": "Marianna Caporali",
+          "character": null
+        },
+        {
+          "name": "Filippo Sottoriva",
+          "character": null
+        }
+      ],
+      "trailer": "M4T73uO9VxQ",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-05T05:13:22.054Z"
   },
   "se mi lasci ti cancello|michel gondry 2004": {
     "value": {
@@ -33368,6 +33566,79 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:52.063Z"
+  },
+  "war machine|patrick hughes 2026": {
+    "value": {
+      "tmdbId": 1265609,
+      "title": "War Machine",
+      "overview": "Durante un'ultima ed estenuante missione dell'addestramento dei Ranger, un geniere deve guidare la sua unità contro una gigantesca macchina assassina proveniente da un altro mondo.",
+      "overviewLang": "it",
+      "tagline": "Tanta grinta. Non mollare.",
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Fantascienza",
+        "Thriller"
+      ],
+      "runtime": 106,
+      "released": "2026-02-12",
+      "vote": 7.5,
+      "votes": 2706,
+      "poster": "https://image.tmdb.org/t/p/w500/30t19PpvZ3GVw9nRsn7TjZh5qEr.jpg",
+      "directors": [
+        {
+          "id": 143059,
+          "name": "Patrick Hughes"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Alan Ritchson",
+          "character": "81"
+        },
+        {
+          "name": "Stephan James",
+          "character": "7"
+        },
+        {
+          "name": "Blake Richardson",
+          "character": "15"
+        },
+        {
+          "name": "Dennis Quaid",
+          "character": "Sheridan"
+        },
+        {
+          "name": "Esai Morales",
+          "character": "Torres"
+        },
+        {
+          "name": "Jai Courtney",
+          "character": "Squad Leader"
+        },
+        {
+          "name": "Alex King",
+          "character": "44"
+        },
+        {
+          "name": "Keiynan Lonsdale",
+          "character": "60"
+        }
+      ],
+      "trailer": "qBg39HCJiTU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-05T05:13:22.279Z"
   },
   "west side story|jerome robbins": {
     "value": {

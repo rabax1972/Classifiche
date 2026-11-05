@@ -355,6 +355,10 @@
     "value": "Susana Garcia",
     "fetchedAt": "2026-11-03T05:05:19.159Z"
   },
+  "movie:1260263": {
+    "value": "Roberto Santucci",
+    "fetchedAt": "2026-11-05T05:11:38.510Z"
+  },
   "movie:1260649": {
     "value": "Jake Kasdan",
     "fetchedAt": "2026-10-29T04:57:38.301Z"
@@ -466,6 +470,10 @@
   "movie:13": {
     "value": "Robert Zemeckis",
     "fetchedAt": "2026-10-18T17:54:25.879Z"
+  },
+  "movie:1300926": {
+    "value": "John Rice",
+    "fetchedAt": "2026-11-05T05:11:38.410Z"
   },
   "movie:1300968": {
     "value": "Francis Lawrence",
@@ -627,6 +635,10 @@
     "value": "Joko Anwar",
     "fetchedAt": "2026-10-22T04:44:47.807Z"
   },
+  "movie:1393615": {
+    "value": "Allan Deberton",
+    "fetchedAt": "2026-11-05T05:11:38.710Z"
+  },
   "movie:1393929": {
     "value": "Ben Sottak",
     "fetchedAt": "2026-10-17T04:42:34.193Z"
@@ -662,6 +674,10 @@
   "movie:1401832": {
     "value": "Giovanni Tortorici",
     "fetchedAt": "2026-10-12T07:24:32.541Z"
+  },
+  "movie:1403676": {
+    "value": "Michel K. Parandi",
+    "fetchedAt": "2026-11-05T05:11:38.211Z"
   },
   "movie:1404304": {
     "value": "John Suits",
@@ -991,6 +1007,10 @@
     "value": "Davide Pavanello, Roan Johnson",
     "fetchedAt": "2026-10-12T07:24:33.208Z"
   },
+  "movie:1570488": {
+    "value": "Cathryn Michon",
+    "fetchedAt": "2026-11-05T05:11:38.107Z"
+  },
   "movie:1571955": {
     "value": "Daniel Sánchez Arévalo",
     "fetchedAt": "2026-10-31T04:54:25.688Z"
@@ -1022,6 +1042,10 @@
   "movie:1585": {
     "value": "Frank Capra",
     "fetchedAt": "2026-10-18T17:54:28.129Z"
+  },
+  "movie:1585239": {
+    "value": "Jordan Firstman",
+    "fetchedAt": "2026-11-05T05:11:38.609Z"
   },
   "movie:1590613": {
     "value": "Bobby Prasetyo",
@@ -1378,6 +1402,10 @@
   "movie:1814555": {
     "value": "Curry Barker",
     "fetchedAt": "2026-11-02T05:11:44.209Z"
+  },
+  "movie:1816668": {
+    "value": "Thibaut de Longeville, Yanis Tiliouine",
+    "fetchedAt": "2026-11-05T05:11:38.314Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -2007,6 +2035,14 @@
     "value": "Olivia Wilde",
     "fetchedAt": "2026-10-12T07:24:28.741Z"
   },
+  "movie:961214": {
+    "value": "백종열",
+    "fetchedAt": "2026-11-05T05:11:38.810Z"
+  },
+  "movie:964849": {
+    "value": "Hanna Bergholm",
+    "fetchedAt": "2026-11-05T05:11:38.912Z"
+  },
   "movie:969681": {
     "value": "Destin Daniel Cretton",
     "fetchedAt": "2026-10-12T07:24:52.292Z"
@@ -2114,6 +2150,10 @@
   "tv:12971": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:51.114Z"
+  },
+  "tv:131488": {
+    "value": "Katharina Eyssen",
+    "fetchedAt": "2026-11-05T05:11:39.808Z"
   },
   "tv:133174": {
     "value": "Christian Keyes",
@@ -2446,6 +2486,10 @@
   "tv:252747": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:48.607Z"
+  },
+  "tv:252886": {
+    "value": null,
+    "fetchedAt": "2026-11-05T05:11:39.509Z"
   },
   "tv:254492": {
     "value": null,
@@ -2827,6 +2871,10 @@
     "value": "سعيد الماروق",
     "fetchedAt": "2026-10-31T04:54:27.387Z"
   },
+  "tv:312006": {
+    "value": null,
+    "fetchedAt": "2026-11-05T05:11:39.307Z"
+  },
   "tv:312359": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:57.953Z"
@@ -2947,6 +2995,10 @@
     "value": null,
     "fetchedAt": "2026-10-21T04:46:17.813Z"
   },
+  "tv:330613": {
+    "value": null,
+    "fetchedAt": "2026-11-05T05:11:39.606Z"
+  },
   "tv:331033": {
     "value": null,
     "fetchedAt": "2026-10-31T04:54:26.885Z"
@@ -3051,6 +3103,10 @@
     "value": "Daniel Brocklehurst",
     "fetchedAt": "2026-10-26T04:48:35.304Z"
   },
+  "tv:338684": {
+    "value": "Dani Sloane",
+    "fetchedAt": "2026-11-05T05:11:39.418Z"
+  },
   "tv:338689": {
     "value": "Darren Foster, Miguel Fernández Flores",
     "fetchedAt": "2026-10-30T04:58:37.942Z"
@@ -3078,6 +3134,10 @@
   "tv:340191": {
     "value": null,
     "fetchedAt": "2026-10-29T04:57:39.352Z"
+  },
+  "tv:340544": {
+    "value": null,
+    "fetchedAt": "2026-11-05T05:11:39.710Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",

@@ -853,6 +853,46 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "antonio manzini": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Antonio Manzini",
+        "url": "https://it.wikipedia.org/wiki/Antonio_Manzini",
+        "extract": "Antonio Manzini (Roma, 7 agosto 1964) è un attore, sceneggiatore, regista e scrittore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Antonio_Manzini.jpg/500px-Antonio_Manzini.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Antonio_Manzini.jpg",
+        "author": "Mirco Cattelan per Amici di Piero Chiara",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/antonio-manzini/580193137",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
+  "antonio nicaso": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Antonio Nicaso",
+        "url": "https://it.wikipedia.org/wiki/Antonio_Nicaso",
+        "extract": "Antonio Nicaso (Caulonia, 1964) è un saggista italiano, esperto di 'ndrangheta."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Antonio_Nicaso.jpg/500px-Antonio_Nicaso.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Antonio_Nicaso.jpg",
+        "author": "Niccolò Caranti",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "antonio scurati": {
     "value": {
       "wiki": {
@@ -1274,6 +1314,20 @@
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
+  "carla maria russo": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Carla Maria Russo",
+        "url": "https://it.wikipedia.org/wiki/Carla_Maria_Russo",
+        "extract": "Carla Maria Russo (Campobasso, 1950) è una scrittrice italiana."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/carla-maria-russo/473486235",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "carlo collodi": {
     "value": {
       "wiki": {
@@ -1654,6 +1708,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "dale carnegie": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Dale Carnegie",
+        "url": "https://it.wikipedia.org/wiki/Dale_Carnegie",
+        "extract": "Dale Breckenridge Carnegie (Maryville, 24 novembre 1888 – Forest Hills, 1º novembre 1955) è stato uno scrittore e insegnante statunitense.\n\nPromotore di numerosi corsi sullo sviluppo personale, vendita, leadership, corporate training, relazioni interpersonali e abilità di parlare in pubblico, fu autore di Come trattare gli altri e farseli amici (in inglese How to win friends and influence people), pubblicato negli Stati Uniti nel 1936 dalla casa editrice Simon & Schuster e in Italia da Bompiani. L'opera, che ha venduto oltre quindici milioni di copie in tutto il mondo ed è tuttora popolare, è uno dei primi best seller nella storia dei libri sullo sviluppo personale. Scrisse numerose altre opere tra cui una biografia di Abraham Lincoln, intitolata Lincoln lo sconosciuto (in inglese Lincoln the Unknown), pubblicata nel 1932 dalla casa editrice The Century Co."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/dale-carnegie/23547707",
+      "died": 1955
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "dan brown": {
     "value": {
       "wiki": {
@@ -1864,6 +1932,15 @@
       "died": 2001
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "e a allen": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/e-a-allen/376570229",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "e b white": {
     "value": {
@@ -2460,6 +2537,15 @@
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
+  "francoise degois": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/fran%C3%A7oise-degois/892984740",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "francoise sagan": {
     "value": {
       "wiki": {
@@ -2567,6 +2653,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-24T04:44:07.102Z"
+  },
+  "gavino zucca": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Gavino Zucca",
+        "url": "https://it.wikipedia.org/wiki/Gavino_Zucca",
+        "extract": "Gavino Zucca (Sassari, 30 agosto 1959) è uno scrittore italiano."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Foto_GZ_per_wiki.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Foto_GZ_per_wiki.jpg",
+        "author": "Sophie Volland",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/gavino-zucca/1223194636",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "george orwell": {
     "value": {
@@ -3683,6 +3789,20 @@
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
   },
+  "john dickson carr": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "John Dickson Carr",
+        "url": "https://it.wikipedia.org/wiki/John_Dickson_Carr",
+        "extract": "John Dickson Carr (Uniontown, 30 novembre 1906 – Greenville, 27 febbraio 1977) è stato uno scrittore statunitense.\n\nAutore di numerosi romanzi polizieschi, è considerato uno dei grandi autori dell'epoca d'oro del giallo classico ed è uno dei maggiori esponenti del cosiddetto enigma della camera chiusa.\n\nMoltissimi dei libri di John Dickson Carr sono stati pubblicati a firma Carter Dickson, mentre altri pseudonimi usati dallo scrittore sono stati Carr Dickson e Roger Fairbairn."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/john-dickson-carr/443933669",
+      "died": 1977
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "john dos passos": {
     "value": {
       "wiki": {
@@ -4022,6 +4142,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "ken courtenay": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/ken-courtenay/1476792249",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "khaled hosseini": {
     "value": {
       "wiki": {
@@ -4218,6 +4347,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "lisa jones": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Lisa Jones",
+        "url": "https://en.wikipedia.org/wiki/Lisa_Jones",
+        "extract": "Lisa Victoria Chapman Jones (born August 15, 1961) is an American playwright, essayist, journalist, and memoirist."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lisa-jones/51991764",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "liz tomforde": {
     "value": {
@@ -4682,6 +4825,15 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "matthew perry": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/matthew-perry/1451135808",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "maurizio de giovanni": {
     "value": {
       "wiki": {
@@ -5018,6 +5170,15 @@
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
+  "mona kasten": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/mona-kasten/936264288",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "morena d f": {
     "value": {
       "wiki": null,
@@ -5104,6 +5265,46 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "niccolo machiavelli": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Niccolò Machiavelli",
+        "url": "https://it.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
+        "extract": "Niccolò di Bernardo dei Machiavelli, noto semplicemente come Niccolò Machiavelli (Firenze, 3 maggio 1469 – Firenze, 21 giugno 1527), è stato un politico, politologo, storico, drammaturgo, scrittore, diplomatico e filosofo italiano, segretario della seconda cancelleria della Repubblica Fiorentina dal 1498 al 1512.\n\nFigura controversa nella Firenze dei Medici, è noto come il fondatore della scienza politica moderna, i cui princìpi base emergono dalla sua opera più famosa, Il Principe, nella quale, tra l'altro, è esposto il concetto di ragion di Stato nonché è presente la concezione ciclica della storia."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/500px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+        "author": "Santi di Tito",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": null,
+      "died": 1527
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
+  "nicola gratteri": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Nicola Gratteri",
+        "url": "https://it.wikipedia.org/wiki/Nicola_Gratteri",
+        "extract": "Nicola Gratteri (Gerace, 22 luglio 1958) è un magistrato e saggista italiano, dal 20 ottobre 2023 Procuratore della Repubblica presso il Tribunale di Napoli."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Festival_di_Open_2024_46.jpg/500px-Festival_di_Open_2024_46.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Festival_di_Open_2024_46.jpg",
+        "author": "Canale ufficiale",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "nicola lagioia": {
     "value": {
@@ -5411,6 +5612,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
+  },
+  "piero melograni": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Piero Melograni",
+        "url": "https://it.wikipedia.org/wiki/Piero_Melograni",
+        "extract": "Piero Melograni (Roma, 15 novembre 1930 – Roma, 27 settembre 2012) è stato uno storico, saggista e scrittore italiano."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Piero_Melograni.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Piero_Melograni.jpg",
+        "author": "Camera dei Deputati",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": 2012
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "pierre martin": {
     "value": {
@@ -6108,6 +6329,26 @@
     },
     "fetchedAt": "2026-10-31T04:56:24.181Z"
   },
+  "serena dandini": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Serena Dandini",
+        "url": "https://it.wikipedia.org/wiki/Serena_Dandini",
+        "extract": "Serena Dandini, all'anagrafe Serena Dandini de Sylva (Roma, 22 aprile 1954), è una conduttrice televisiva, scrittrice e autrice televisiva italiana."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Serena_Dandini_2014_1.JPG/500px-Serena_Dandini_2014_1.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Serena_Dandini_2014_1.JPG",
+        "author": "Niccolò Caranti",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/serena-dandini/313596564",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "shari lapena": {
     "value": {
       "wiki": {
@@ -6450,6 +6691,26 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "tana french": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tana French",
+        "url": "https://it.wikipedia.org/wiki/Tana_French",
+        "extract": "Tana Elizabeth French (Burlington, 10 maggio 1973) è una scrittrice e attrice teatrale statunitense di origini irlandesi e naturalizzata irlandese."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/TanaFrench_i5785.jpg/500px-TanaFrench_i5785.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:TanaFrench_i5785.jpg",
+        "author": "TimDuncan",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/tana-french/253638843",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
   "telmo pievani": {
     "value": {
       "wiki": {
@@ -6719,6 +6980,26 @@
       "died": 1977
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "walter veltroni": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Walter Veltroni",
+        "url": "https://it.wikipedia.org/wiki/Walter_Veltroni",
+        "extract": "Walter Veltroni (Roma, 3 luglio 1955) è un politico, giornalista, scrittore e regista italiano.\n\nEletto sindaco di Roma una prima volta nel 2001, è stato poi riconfermato nel 2006 e si è dimesso da tale carica il 13 febbraio 2008 per candidarsi alle elezioni politiche dell'aprile successivo."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Walter_Veltroni_2008_crop.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Walter_Veltroni_2008_crop.jpg",
+        "author": "Iaconianni family",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/walter-veltroni/444932341",
+      "died": null
+    },
+    "fetchedAt": "2026-11-05T05:13:21.410Z"
   },
   "william faulkner": {
     "value": {

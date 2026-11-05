@@ -11192,6 +11192,249 @@
     },
     "fetchedAt": "2026-10-21T04:53:24.770Z"
   },
+  "one piece|1999": {
+    "value": {
+      "tmdbId": 37854,
+      "title": "One Piece",
+      "overview": "Un ragazzo con un cappello di paglia e dal corpo interamente fatto di gomma parte per l'avventura con un unico sogno: diventare il Re dei pirati. Ma per farlo, come prima cosa dovrà raggruppare una valida ciurma...",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "ワンピース",
+      "genres": [
+        "Action & Adventure",
+        "Commedia",
+        "Animazione"
+      ],
+      "episodeRuntime": 24,
+      "firstAired": "1999-10-20",
+      "lastAired": "2026-09-27",
+      "status": "Returning Series",
+      "seasons": 23,
+      "episodes": 1180,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Saga del Mare Orientale",
+          "date": "1999-10-20",
+          "episodes": 61
+        },
+        {
+          "n": 2,
+          "name": "Saga dell'ingresso nella Rotta Maggiore",
+          "date": null,
+          "episodes": 16
+        },
+        {
+          "n": 3,
+          "name": "Saga dell'isola invernale",
+          "date": null,
+          "episodes": 14
+        },
+        {
+          "n": 4,
+          "name": "Saga di Alabasta",
+          "date": null,
+          "episodes": 39
+        },
+        {
+          "n": 5,
+          "name": "Saga Della Nebbia Arcobaleno",
+          "date": null,
+          "episodes": 13
+        },
+        {
+          "n": 6,
+          "name": "Saga dell'Isola nel Cielo",
+          "date": null,
+          "episodes": 52
+        },
+        {
+          "n": 7,
+          "name": "Saga della fortezza navale e dei pirati di Foxy",
+          "date": null,
+          "episodes": 33
+        },
+        {
+          "n": 8,
+          "name": "Saga di Water Seven",
+          "date": null,
+          "episodes": 35
+        },
+        {
+          "n": 9,
+          "name": "Saga di Enies Lobby",
+          "date": null,
+          "episodes": 73
+        },
+        {
+          "n": 10,
+          "name": "Saga di Thriller Bark",
+          "date": null,
+          "episodes": 45
+        },
+        {
+          "n": 11,
+          "name": "Saga dell'arcipelago Sabaody",
+          "date": null,
+          "episodes": 26
+        },
+        {
+          "n": 12,
+          "name": "Saga dell'isola delle donne",
+          "date": null,
+          "episodes": 14
+        },
+        {
+          "n": 13,
+          "name": "Saga di Impel Down e Marineford",
+          "date": null,
+          "episodes": 101
+        },
+        {
+          "n": 14,
+          "name": "Saga dell'isola degli uomini-pesce",
+          "date": null,
+          "episodes": 58
+        },
+        {
+          "n": 15,
+          "name": "Saga di Punk Hazard",
+          "date": null,
+          "episodes": 62
+        },
+        {
+          "n": 16,
+          "name": "Saga di Dressrosa",
+          "date": null,
+          "episodes": 50
+        },
+        {
+          "n": 17,
+          "name": "Saga Di Dressrosa (2)",
+          "date": null,
+          "episodes": 56
+        },
+        {
+          "n": 18,
+          "name": "Saga di Zo",
+          "date": "2016-07-13",
+          "episodes": 55
+        },
+        {
+          "n": 19,
+          "name": "Saga di Whole Cake Island",
+          "date": "2017-09-05",
+          "episodes": 74
+        },
+        {
+          "n": 20,
+          "name": "Saga Del Reverie",
+          "date": "2019-04-01",
+          "episodes": 14
+        },
+        {
+          "n": 21,
+          "name": "Saga del Paese di Wa",
+          "date": "2019-07-08",
+          "episodes": 197
+        },
+        {
+          "n": 22,
+          "name": "Saga di Egghead",
+          "date": null,
+          "episodes": 67
+        },
+        {
+          "n": 23,
+          "name": "Stagione 23",
+          "date": null,
+          "episodes": 25
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "1999-12-15",
+          "episodes": 39
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Fuji TV",
+        "Tokai Television Broadcasting"
+      ],
+      "vote": 8.8,
+      "votes": 5630,
+      "poster": "https://image.tmdb.org/t/p/w500/8f33Q5AuM2G5ZqFeusbIqDjr3cI.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Mayumi Tanaka",
+          "character": "Monkey D. Luffy (voice)"
+        },
+        {
+          "name": "Kazuya Nakai",
+          "character": "Roronoa Zoro (voice)"
+        },
+        {
+          "name": "矢口真里",
+          "character": "Yoko (voice)"
+        },
+        {
+          "name": "Akemi Okamura",
+          "character": "Nami (voice)"
+        },
+        {
+          "name": "Kappei Yamaguchi",
+          "character": "Usopp (voice)"
+        },
+        {
+          "name": "Hiroaki Hirata",
+          "character": "Sanji (voice)"
+        },
+        {
+          "name": "Ikue Ōtani",
+          "character": "Tony Tony Chopper (voice)"
+        },
+        {
+          "name": "宝亀克寿",
+          "character": "Jinbe (voice)"
+        }
+      ],
+      "trailer": "1KMcoJBMWE4",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/37854/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          },
+          {
+            "name": "Crunchyroll",
+            "logo": "https://image.tmdb.org/t/p/w92/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+          },
+          {
+            "name": "Crunchyroll Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/qHLLmKo7udRgiSnIASVTwP2IxfJ.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-05T05:17:36.696Z"
+  },
   "operazione speciale lioness|taylor sheridan 2023": {
     "value": {
       "tmdbId": 113962,
