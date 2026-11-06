@@ -602,6 +602,54 @@
     },
     "fetchedAt": "2026-11-04T05:19:37.432Z"
   },
+  "ben bocquelet": {
+    "value": {
+      "tmdbId": 1254165,
+      "wiki": {
+        "lang": "it",
+        "title": "Ben Bocquelet",
+        "url": "https://it.wikipedia.org/wiki/Ben_Bocquelet",
+        "extract": "Benjamin Bocquelet, detto Ben (Parigi, 27 giugno 1980), è un animatore britannico di origini francesi.\n\nÈ soprattutto noto per aver creato il cartone animato Lo straordinario mondo di Gumball, trasmesso su Cartoon Network e per aver prodotto un cortometraggio chiamato The Hell's Kitchen."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Ben_Bocquelet-IMG_0340.JPG/500px-Ben_Bocquelet-IMG_0340.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ben_Bocquelet-IMG_0340.JPG",
+        "author": "Rama",
+        "license": "CC BY-SA 2.0 fr",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 298158,
+          "title": "Gumball",
+          "year": null
+        },
+        {
+          "id": 291904,
+          "title": "Lo strano e meraviglioso mondo di Gumball",
+          "year": "2025"
+        },
+        {
+          "id": 133529,
+          "title": "Le cronache di Gumball",
+          "year": "2020"
+        },
+        {
+          "id": 104987,
+          "title": "Il diario di Darwin",
+          "year": "2019"
+        },
+        {
+          "id": 37606,
+          "title": "Lo straordinario mondo di Gumball",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-06T05:12:51.737Z"
+  },
   "bernard vaillot": {
     "value": {
       "tmdbId": 1706457,

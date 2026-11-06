@@ -8393,6 +8393,140 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.507Z"
   },
+  "lo straordinario mondo di gumball|ben bocquelet 2011": {
+    "value": {
+      "tmdbId": 37606,
+      "title": "Lo straordinario mondo di Gumball",
+      "overview": "Gumball, un gatto di 12 anni, e il suo amico Darwin, un pesce rosso, vivono avventure al limite della follia, in questa stravagante commedia animata.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Amazing World of Gumball",
+      "genres": [
+        "Animazione",
+        "Famiglia",
+        "Sci-Fi & Fantasy",
+        "Commedia"
+      ],
+      "episodeRuntime": 11,
+      "firstAired": "2011-05-03",
+      "lastAired": "2019-06-24",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 240,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-05-03",
+          "episodes": 36
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-08-07",
+          "episodes": 40
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2014-06-05",
+          "episodes": 40
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2015-07-07",
+          "episodes": 40
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2016-09-01",
+          "episodes": 40
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2018-01-05",
+          "episodes": 44
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2008-05-09",
+          "episodes": 14
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Cartoon Network"
+      ],
+      "vote": 8.5,
+      "votes": 1827,
+      "poster": "https://image.tmdb.org/t/p/w500/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
+      "creators": [
+        {
+          "id": 1254165,
+          "name": "Ben Bocquelet"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Logan Grove",
+          "character": "Gumball Watterson (voice)"
+        },
+        {
+          "name": "Nicolas Cantu",
+          "character": "Gumball Watterson (voice)"
+        },
+        {
+          "name": "Kwesi Boakye",
+          "character": "Darwin Watterson (voice)"
+        },
+        {
+          "name": "Jacob Hopkins",
+          "character": "Gumball Watterson (voice)"
+        },
+        {
+          "name": "Kyla Kowalewski",
+          "character": "Anais Watterson (voice)"
+        },
+        {
+          "name": "Donielle T. Hansley Jr.",
+          "character": "Darwin Watterson (voice)"
+        },
+        {
+          "name": "Christian J. Simon",
+          "character": "Darwin Watterson (voice)"
+        },
+        {
+          "name": "Teresa Gallagher",
+          "character": "Nicole Watterson / Penny Fitzgerald / Teri / Mrs. Robinson (voice)"
+        }
+      ],
+      "trailer": "xm37yTCJQOA",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/37606-the-amazing-world-of-gumball/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-06T05:12:51.079Z"
+  },
   "lupin|george kay": {
     "value": {
       "tmdbId": 96677,

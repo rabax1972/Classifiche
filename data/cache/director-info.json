@@ -12739,6 +12739,23 @@
     },
     "fetchedAt": "2026-10-28T05:04:05.664Z"
   },
+  "mark vanselow": {
+    "value": {
+      "tmdbId": 1416819,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/6JujySQUNRPg1k1V0s51wzqZMwd.jpg",
+      "films": [
+        {
+          "id": 1294189,
+          "title": "The Mongoose",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-06T05:08:52.926Z"
+  },
   "martin mcdonagh": {
     "value": {
       "tmdbId": 54472,

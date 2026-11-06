@@ -1645,6 +1645,24 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "cora reilly": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/cora-reilly/952599565",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
+  },
+  "corinna lovegood": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/corinna-lovegood/1702651846",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
+  },
   "cristina caboni": {
     "value": {
       "wiki": {
@@ -2348,6 +2366,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "faith hogan": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/faith-hogan/1098194325",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
   "federica bosco": {
     "value": {
@@ -3213,6 +3240,15 @@
       "died": 2013
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "iosno": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/iosno/1824598901",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
   "isaac asimov": {
     "value": {
@@ -4246,6 +4282,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
+  "leone xiv": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/leone-xiv/1847374476",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
   "lev tolstoj": {
     "value": {
@@ -6015,6 +6060,20 @@
     },
     "fetchedAt": "2026-10-26T04:49:46.161Z"
   },
+  "roberto riccardi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Roberto Riccardi",
+        "url": "https://it.wikipedia.org/wiki/Roberto_Riccardi",
+        "extract": "Roberto Riccardi (Bari, 21 gennaio 1966) è un generale e scrittore italiano.\n\nGenerale di Brigata dell'Arma dei Carabinieri, attualmente dirige il Dipartimento Audit e Innovazione presso il Comando generale. Ha pubblicato diversi libri, ottenendo importanti riconoscimenti di critica.Nella sua produzione artistica alterna per lo più romanzi gialli e noir (probabilmente di ispirazione autobiografica) a saggi che gravitano sull'attualità e i temi storici, fra i quali ricorre la Shoah."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
+  },
   "rohinton mistry": {
     "value": {
       "wiki": {
@@ -6250,6 +6309,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
+  "saro trovato": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/saro-trovato/1535558932",
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
   "sean black": {
     "value": {
@@ -6494,6 +6562,15 @@
       "died": 1986
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "simone ungaro": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
   "stefan zweig": {
     "value": {

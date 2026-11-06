@@ -847,6 +847,10 @@
     "value": "Eli Roth",
     "fetchedAt": "2026-10-23T04:45:49.029Z"
   },
+  "movie:1480574": {
+    "value": "Martin Campbell",
+    "fetchedAt": "2026-11-06T05:08:14.894Z"
+  },
   "movie:1480613": {
     "value": "Angel de la Cruz",
     "fetchedAt": "2026-10-24T04:43:02.916Z"
@@ -854,6 +858,10 @@
   "movie:1480856": {
     "value": "Mohammed Naqvi",
     "fetchedAt": "2026-10-29T04:57:37.991Z"
+  },
+  "movie:1483525": {
+    "value": "Lee Chang-dong",
+    "fetchedAt": "2026-11-06T05:08:15.040Z"
   },
   "movie:1487317": {
     "value": "Hernán Goldfrid",
@@ -1111,9 +1119,21 @@
     "value": "Dave Boyle",
     "fetchedAt": "2026-10-28T05:02:25.238Z"
   },
+  "movie:1630420": {
+    "value": "Prueksa Amaruji",
+    "fetchedAt": "2026-11-06T05:08:14.597Z"
+  },
+  "movie:1630865": {
+    "value": "Indra Gunawan",
+    "fetchedAt": "2026-11-06T05:08:15.431Z"
+  },
   "movie:1632103": {
     "value": "Edoardo Gabbriellini",
     "fetchedAt": "2026-10-12T07:24:32.692Z"
+  },
+  "movie:1633056": {
+    "value": "牟正洋",
+    "fetchedAt": "2026-11-06T05:08:14.797Z"
   },
   "movie:1634864": {
     "value": "Luca Salmaso",
@@ -1147,6 +1167,10 @@
     "value": "Balaji Mohan",
     "fetchedAt": "2026-10-17T04:42:34.990Z"
   },
+  "movie:1654940": {
+    "value": "Hiroki Kazama",
+    "fetchedAt": "2026-11-06T05:08:14.691Z"
+  },
   "movie:1657630": {
     "value": "Jaime Osorio Márquez",
     "fetchedAt": "2026-10-24T04:43:02.818Z"
@@ -1154,6 +1178,10 @@
   "movie:1659389": {
     "value": "鎌谷悠",
     "fetchedAt": "2026-10-15T04:42:54.323Z"
+  },
+  "movie:1659441": {
+    "value": "David Ryan Keith",
+    "fetchedAt": "2026-11-06T05:08:15.131Z"
   },
   "movie:1662858": {
     "value": "Klaas de Jong",
@@ -1387,6 +1415,10 @@
     "value": "Curry Barker",
     "fetchedAt": "2026-10-30T04:58:36.837Z"
   },
+  "movie:1810711": {
+    "value": "Ritesh Menon",
+    "fetchedAt": "2026-11-06T05:08:15.333Z"
+  },
   "movie:1811964": {
     "value": "Raghavendra Katari",
     "fetchedAt": "2026-10-31T04:54:26.093Z"
@@ -1406,6 +1438,10 @@
   "movie:1816668": {
     "value": "Thibaut de Longeville, Yanis Tiliouine",
     "fetchedAt": "2026-11-05T05:11:38.314Z"
+  },
+  "movie:1817773": {
+    "value": "Cristóbal Valenzuela Berrios",
+    "fetchedAt": "2026-11-06T05:08:15.233Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -1834,6 +1870,10 @@
   "movie:674": {
     "value": "Mike Newell",
     "fetchedAt": "2026-10-16T04:44:13.800Z"
+  },
+  "movie:675871": {
+    "value": "Jay Chandrasekhar",
+    "fetchedAt": "2026-11-06T05:08:15.534Z"
   },
   "movie:679": {
     "value": "James Cameron",
@@ -2471,6 +2511,10 @@
     "value": "Jason Keller",
     "fetchedAt": "2026-11-04T05:13:46.333Z"
   },
+  "tv:249023": {
+    "value": "Stacey Aglok MacDonald, Alethea Arnaquq-Baril",
+    "fetchedAt": "2026-11-06T05:08:16.131Z"
+  },
   "tv:250203": {
     "value": "Matthew McConaughey, Woody Harrelson",
     "fetchedAt": "2026-10-15T04:42:55.026Z"
@@ -2482,6 +2526,10 @@
   "tv:251941": {
     "value": "Justin Spitzer, Eric Ledgin",
     "fetchedAt": "2026-11-04T05:13:46.932Z"
+  },
+  "tv:2527": {
+    "value": "Kevin Laffan",
+    "fetchedAt": "2026-11-06T05:08:16.331Z"
   },
   "tv:252747": {
     "value": null,
@@ -2559,6 +2607,10 @@
     "value": "Georges Simenon",
     "fetchedAt": "2026-10-19T12:25:48.269Z"
   },
+  "tv:273240": {
+    "value": "Louisa Levy",
+    "fetchedAt": "2026-11-06T05:08:16.628Z"
+  },
   "tv:273247": {
     "value": "Sterlin Harjo",
     "fetchedAt": "2026-10-15T04:42:54.921Z"
@@ -2579,9 +2631,17 @@
     "value": "何苦",
     "fetchedAt": "2026-11-03T05:05:20.060Z"
   },
+  "tv:279155": {
+    "value": null,
+    "fetchedAt": "2026-11-06T05:08:15.932Z"
+  },
   "tv:279246": {
     "value": null,
     "fetchedAt": "2026-11-04T05:13:46.133Z"
+  },
+  "tv:279412": {
+    "value": null,
+    "fetchedAt": "2026-11-06T05:08:16.830Z"
   },
   "tv:279923": {
     "value": null,
@@ -2791,6 +2851,10 @@
     "value": "Alejandra Guimerà, Marc Crehuet",
     "fetchedAt": "2026-10-21T04:46:18.014Z"
   },
+  "tv:303044": {
+    "value": "Thomas Boullé",
+    "fetchedAt": "2026-11-06T05:08:16.028Z"
+  },
   "tv:303745": {
     "value": "문수정",
     "fetchedAt": "2026-10-19T04:45:39.170Z"
@@ -2814,6 +2878,10 @@
   "tv:306163": {
     "value": "Henri Debeurme, Mathilde Arnaud",
     "fetchedAt": "2026-10-24T04:43:04.013Z"
+  },
+  "tv:306179": {
+    "value": null,
+    "fetchedAt": "2026-11-06T05:08:16.532Z"
   },
   "tv:306565": {
     "value": null,
@@ -2846,6 +2914,10 @@
   "tv:307831": {
     "value": "Salmon",
     "fetchedAt": "2026-10-22T04:44:48.907Z"
+  },
+  "tv:307853": {
+    "value": null,
+    "fetchedAt": "2026-11-06T05:08:16.227Z"
   },
   "tv:307903": {
     "value": null,
@@ -2954,6 +3026,10 @@
   "tv:321518": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:49.113Z"
+  },
+  "tv:321958": {
+    "value": "Joshua Safran",
+    "fetchedAt": "2026-11-06T05:08:16.732Z"
   },
   "tv:322051": {
     "value": "김탁",
@@ -3118,6 +3194,10 @@
   "tv:338848": {
     "value": null,
     "fetchedAt": "2026-10-20T04:51:07.014Z"
+  },
+  "tv:338938": {
+    "value": "赵文海",
+    "fetchedAt": "2026-11-06T05:08:16.426Z"
   },
   "tv:339342": {
     "value": null,

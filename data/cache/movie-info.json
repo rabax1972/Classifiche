@@ -29884,6 +29884,82 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.487Z"
   },
+  "the mongoose|mark vanselow 2026": {
+    "value": {
+      "tmdbId": 1294189,
+      "title": "The Mongoose",
+      "overview": "Un veterano di guerra decorato fugge da una scena del crimine a 210 km/h su una Mustang Shelby GT500, sfuggendo alla legge per risolvere il mistero.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Thriller"
+      ],
+      "runtime": 99,
+      "released": "2026-10-29",
+      "vote": 6.1,
+      "votes": 47,
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "directors": [
+        {
+          "id": 1416819,
+          "name": "Mark Vanselow"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Liam Neeson",
+          "character": "Ryan 'Fang' Flanagan"
+        },
+        {
+          "name": "Marisa Tomei",
+          "character": "Tara"
+        },
+        {
+          "name": "Ving Rhames",
+          "character": "Tanker"
+        },
+        {
+          "name": "Marcus Thomas",
+          "character": "Munch"
+        },
+        {
+          "name": "Michael Chiklis",
+          "character": "Major Walter Pope"
+        },
+        {
+          "name": "Maurice Marvel Meredith",
+          "character": "Major James Tilton"
+        },
+        {
+          "name": "Brett Tucker",
+          "character": "Todd"
+        },
+        {
+          "name": "Ryan Morgan",
+          "character": "Wiz"
+        }
+      ],
+      "trailer": "aHrMFtt40_Q",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1294189-the-mongoose/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-06T05:08:52.437Z"
+  },
   "the mortuary assistant anatomia di un incubo|jeremiah kipp 2026": {
     "value": {
       "tmdbId": 1470130,
