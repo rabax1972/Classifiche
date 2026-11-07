@@ -12,38 +12,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/24mattino",
       "latest": [
         {
-          "title": "La giornata in 24 minuti del 30 ottobre",
-          "date": "2026-10-30",
+          "title": "La giornata in 24 minuti del 6 novembre",
+          "date": "2026-11-06",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261030-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261030-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261106-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261106-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 29 ottobre",
-          "date": "2026-10-29",
+          "title": "La giornata in 24 minuti del 5 novembre",
+          "date": "2026-11-05",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261029-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261029-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261105-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261105-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 28 ottobre",
-          "date": "2026-10-28",
+          "title": "La giornata in 24 minuti del 4 novembre - Speciale elezioni Usa Midterm",
+          "date": "2026-11-04",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261028-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261028-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261104-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261104-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 27 ottobre",
-          "date": "2026-10-27",
+          "title": "La giornata in 24 minuti del 3 novembre",
+          "date": "2026-11-03",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261027-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261027-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261103-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261103-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 26 ottobre",
-          "date": "2026-10-26",
+          "title": "La giornata in 24 minuti del 2 novembre",
+          "date": "2026-11-02",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261026-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261026-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261102-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261102-24mattino"
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:31.281Z"
+    "fetchedAt": "2026-11-07T05:09:32.450Z"
   },
   "podcast:3 fattori": {
     "value": {
@@ -139,101 +139,6 @@
     },
     "fetchedAt": "2026-11-06T05:14:17.525Z"
   },
-  "podcast:actually": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/actually/id1516817035",
-      "genres": [
-        "Notizie di tecnologia",
-        "News",
-        "Tecnologia"
-      ],
-      "episodes": 566,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e4/5b/1b/e45b1b1b-ba45-6122-4210-9d56c72b907b/mza_13101311386068929468.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/ISM7167031904",
-      "description": "Il mondo non è mai stato così complesso, connesso e tecnologico. Actually è il podcast in cui Riccardo Haupt, CEO di Chora e Will, e Riccardo Bassetto, Head of Operations, parlano dei grandi cambiamenti che stanno stravolgendo il mondo, attraverso le voci e le storie di chi questo cambiamento lo sta vivendo da dentro.\nSeguici anche su Instagram @will_ita",
-      "website": "https://www.spreaker.com/show/actually",
-      "latest": [
-        {
-          "title": "Tutto quello che NON VA BENE nei numeri di ANTHROPIC",
-          "date": "2026-10-31",
-          "seconds": 3359,
-          "url": null
-        },
-        {
-          "title": "Da un sito VUOTO a un gruppo QUOTATO: la storia di MUTUIONLINE - con Alessandro Fracassi",
-          "date": "2026-10-28",
-          "seconds": 3214,
-          "url": null
-        },
-        {
-          "title": "Se la CINA è la FABBRICA del mondo, cosa ci resta in EUROPA?",
-          "date": "2026-10-26",
-          "seconds": 2123,
-          "url": null
-        },
-        {
-          "title": "Il piano dei TECH BRO per sostituire lo STATO",
-          "date": "2026-10-23",
-          "seconds": 3566,
-          "url": null
-        },
-        {
-          "title": "L'AI in ufficio è ARRIVATA, ma la stai usando MALE!",
-          "date": "2026-10-20",
-          "seconds": 2525,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-31T05:01:36.433Z"
-  },
-  "podcast:ai nostri giorni": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/ai-nostri-giorni/id1848898972",
-      "genres": [
-        "Tecnologia",
-        "Economia"
-      ],
-      "episodes": 9,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5d/fb/8d/5dfb8d59-6c6a-e08d-1037-ffdfdd3bcc88/mza_11991545271924448270.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.spreaker.com/show/6773664/episodes/feed",
-      "description": "Assicurazioni, banche, scuole, uffici, motori di ricerca, chatbot: l’adozione dell'Intelligenza Artificiale non si ferma e ogni giorno continua a cambiare il mondo che ci circonda. Nella seconda stagione, esperti e giornalisti del Corriere della Sera tornano a raccontare opportunità e sfide di una tecnologia che sta rivoluzionando le nostre vite. Cinque episodi, disponibili ogni venerdì dal 30 ottobre 2026.\nUna serie del Corriere della Sera, in collaborazione con GFT Technologies, scritta e condotta da Velia Alvich.\nCoordinamento editoriale di Tommaso Pellizzari.\nAdattamento e produzione di Carlo Annese, con Piano P.",
-      "website": "https://www.spreaker.com/podcast/ai-nostri-giorni--6773664",
-      "latest": [
-        {
-          "title": "S2E1. Banche, assicurazioni, credito. E frodi",
-          "date": "2026-10-29",
-          "seconds": 1323,
-          "url": "https://www.spreaker.com/episode/s2e1-banche-assicurazioni-credito-e-frodi--76064722"
-        },
-        {
-          "title": "Trailer - Parte la seconda stagione",
-          "date": "2026-10-28",
-          "seconds": 85,
-          "url": "https://www.spreaker.com/episode/trailer-parte-la-seconda-stagione--76045379"
-        },
-        {
-          "title": "S1E6. Agentic AI",
-          "date": "2025-12-01",
-          "seconds": 1182,
-          "url": "https://www.spreaker.com/episode/s1e6-agentic-ai--68755808"
-        },
-        {
-          "title": "S1E5. Gli algoritmi di raccomandazione",
-          "date": "2025-11-24",
-          "seconds": 1339,
-          "url": "https://www.spreaker.com/episode/s1e5-gli-algoritmi-di-raccomandazione--68635285"
-        },
-        {
-          "title": "S1E4. La robotica chirurgica",
-          "date": "2025-11-17",
-          "seconds": 1331,
-          "url": "https://www.spreaker.com/episode/s1e4-la-robotica-chirurgica--68598477"
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-31T05:01:27.751Z"
-  },
   "podcast:alessandro barbero podcast": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/alessandro-barbero-podcast-la-storia/id1568493219",
@@ -288,12 +193,18 @@
         "Notizie: approfondimenti",
         "News"
       ],
-      "episodes": 111,
+      "episodes": 112,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/0f/6a/b70f6a94-73ab-c4ae-85a6-df67b72c7374/mza_9804753119780339118.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS2941287819",
-      "description": "\"Altre / Storie americane\" è il podcast su una nazione al bivio nell’elezione più difficile della sua storia: Mario Calabresi e Marco Bardazzi raccontano la campagna elettorale che deciderà il futuro degli Stati Uniti (e un po’ anche il nostro…)",
+      "description": "Gli Stati Uniti sono un Paese in continua trasformazione, attraversato da profonde divisioni politiche, sociali e culturali. E quello che succede lì ha conseguenze che vanno ben oltre i suoi confini.\nIn Altre/Storie Americane, Marco Bardazzi, Liliana Faccioli Pintozzi e Pietro Bellini raccontano la politica statunitense attraverso i protagonisti e le storie che aiutano a capire come sta cambiando l’America e in quale direzione si sta muovendo. Uno sguardo sulla politica e sulla società americana, per comprendere meglio anche il mondo in cui viviamo.",
       "website": "https://www.spreaker.com/show/altre-storie",
       "latest": [
+        {
+          "title": "MIDTERM: lo TSUNAMI democratico travolge TRUMP",
+          "date": "2026-11-04",
+          "seconds": 3018,
+          "url": null
+        },
         {
           "title": "MIDTERM USA: Trump si gioca tutto?",
           "date": "2026-10-30",
@@ -317,16 +228,10 @@
           "date": "2026-09-28",
           "seconds": 3773,
           "url": null
-        },
-        {
-          "title": "11 settembre, il giorno che ha deciso il secolo",
-          "date": "2026-09-10",
-          "seconds": 1764,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:21.439Z"
+    "fetchedAt": "2026-11-07T05:09:10.718Z"
   },
   "podcast:altri orienti": {
     "value": {
@@ -471,12 +376,18 @@
       "genres": [
         "True crime"
       ],
-      "episodes": 180,
+      "episodes": 181,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/68/38/b9/6838b90c-7c57-43f1-6733-9291e9567864/mza_4573577065433580506.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/CSRL6075351570",
       "description": "Bouquet of Madness si occupa di storie misteriose, senza soluzioni, ma solo tante domande. Esce ogni due settimane, la domenica alle 17.\nIl nostro sito: https://www.bouquetofmadness.it/",
       "website": "https://www.bouquetofmadness.it/",
       "latest": [
+        {
+          "title": "#175 - Sai dire la verità?",
+          "date": "2026-11-01",
+          "seconds": 6335,
+          "url": null
+        },
         {
           "title": "#174 - Finché morte non ci separi?",
           "date": "2026-10-18",
@@ -500,16 +411,10 @@
           "date": "2026-09-06",
           "seconds": 4834,
           "url": null
-        },
-        {
-          "title": "#170 - Tutto per un cognome?",
-          "date": "2026-07-26",
-          "seconds": 8217,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:33.841Z"
+    "fetchedAt": "2026-11-07T05:09:16.545Z"
   },
   "podcast:brandy": {
     "value": {
@@ -520,45 +425,45 @@
         "News",
         "News - Affari"
       ],
-      "episodes": 1245,
+      "episodes": 1250,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/f1/11/9bf111f8-7be3-6684-3c48-003048fbdb10/mza_11891032912529896347.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/brandy",
       "description": "Brandy! Ogni settimana dal lunedì al venerdì un distillato di fatti curiosi dal magico mondo del marketing e del business in generale.\nMax Corona, già autore di Storie di Brand, ti porterà ogni mattina in un viaggio alla scoperta di tutte quelle invenzioni dimenticate che ci circondano, magici avventurieri nel mondo del marketing, campagne pubblicitarie e curiosi approfondimenti.\nChi ha inventato il divano letto? Quali sono le campagne pubblicitarie più famose della storia? Perché in Thailandia TUTTI odiano la Pepsi? Questo e molto altro nel tuo bicchiere di Brandy quotidiano.\n.\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/\n—\n📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
       "website": null,
       "latest": [
         {
-          "title": "L’assurdo piano marketing di The Witch",
-          "date": "2026-10-30",
-          "seconds": 531,
+          "title": "Prada e il ritorno alle origini",
+          "date": "2026-11-06",
+          "seconds": 506,
           "url": null
         },
         {
-          "title": "Quando Berlusconi voleva comprare l’Inter",
-          "date": "2026-10-29",
-          "seconds": 885,
+          "title": "Elisabeth holmes e theranos",
+          "date": "2026-11-05",
+          "seconds": 1329,
           "url": null
         },
         {
-          "title": "Come ha fatto a fallire Alitalia ?",
-          "date": "2026-10-28",
-          "seconds": 636,
+          "title": "La vittoria del pezzotto",
+          "date": "2026-11-04",
+          "seconds": 452,
           "url": null
         },
         {
-          "title": "Che fine ha fatto Sergio Tacchini?",
-          "date": "2026-10-27",
-          "seconds": 590,
+          "title": "L’oppio dei ricchi",
+          "date": "2026-11-03",
+          "seconds": 592,
           "url": null
         },
         {
-          "title": "La magica storia del flipper",
-          "date": "2026-10-26",
-          "seconds": 595,
+          "title": "La storia dei krumiri",
+          "date": "2026-11-02",
+          "seconds": 538,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:46.109Z"
+    "fetchedAt": "2026-11-07T05:09:28.736Z"
   },
   "podcast:casa zagato": {
     "value": {
@@ -606,6 +511,52 @@
       ]
     },
     "fetchedAt": "2026-11-06T05:13:14.521Z"
+  },
+  "podcast:catteland": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/catteland/id1554071963",
+      "genres": [
+        "News"
+      ],
+      "episodes": 100,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/38/ba/3c/38ba3cf8-102b-a1dc-0be6-c16f13c7dee7/mza_1657109513588840944.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/123f1a65-597e-40f8-b955-af3100fb503f/b4ad20d2-1cd7-49c6-8aa5-af3100fb5065/podcast.rss",
+      "description": "Il daily show di Alessandro Cattelan, on air da lunedì a venerdì dalle 12 alle 13",
+      "website": "https://www.deejay.it/programmi/catteland/",
+      "latest": [
+        {
+          "title": "Tony Like a Local presenta L'ennesimo libro su New York",
+          "date": "2026-11-06",
+          "seconds": 1029,
+          "url": "https://www.deejay.it/programmi/catteland/highlights/lennesimo-libro-su-new-york-tony-like-a-local/"
+        },
+        {
+          "title": "Puntata del 06/11/2026",
+          "date": "2026-11-06",
+          "seconds": 2612,
+          "url": "https://www.deejay.it/programmi/catteland/puntate/catteland-del-06-11-2026/"
+        },
+        {
+          "title": "Giovedilemma cerco un nuovo modo per trovare un fidanzato",
+          "date": "2026-11-05",
+          "seconds": 417,
+          "url": "https://www.deejay.it/programmi/catteland/highlights/giovedilemma-cerco-un-nuovo-modo-per-trovare-un-fidanzato/"
+        },
+        {
+          "title": "Puntata del 05/11/2026",
+          "date": "2026-11-05",
+          "seconds": 2640,
+          "url": "https://www.deejay.it/programmi/catteland/puntate/catteland-del-05-11-2026/"
+        },
+        {
+          "title": "Puntata del 04/11/2026",
+          "date": "2026-11-04",
+          "seconds": 2614,
+          "url": "https://www.deejay.it/programmi/catteland/puntate/catteland-del-04-11-2026/"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:40.666Z"
   },
   "podcast:cenni storici per fare lo splendido": {
     "value": {
@@ -659,12 +610,24 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 196,
+      "episodes": 198,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/bf/dc/a3bfdc90-8ad2-75d1-a530-57ed41a8a6ab/mza_15808895706461493237.png/600x600bb.jpg",
       "feedUrl": "https://d172q3toj7w1md.cloudfront.net/rss-xml-files/8fb9b8f2-590b-48f9-a566-a95b7950af68.xml",
       "description": "CHIEDILO ALLA STORIA:\nDopo due anni al fianco del professor Barbero, Davide Savelli affronta una nuova sfida: continuare ad appassionare il vasto pubblico degli amanti della Storia, cercando di soddisfare le loro infinite curiosità, grazie al contributo di storiche e storici, su qualsiasi argomento, personaggio e periodo. Ascoltate Chiedilo alla Storia!\nCHIEDILO A BARBERO:\nUn nuovo imperdibile appuntamento settimanale, in compagnia del Professore di storia più celebre del web, per rispondere a tutte le domande che hai sempre voluto fare sulla Storia, i suoi protagonisti e i suoi stravolgimenti. In questo talk podcast di Intesa Sanpaolo On Air e Chora Media, ogni settimana il Prof. Alessandro Barbero risponde a dubbi, perplessità e curiosità sulla materia che conosce meglio, la Storia, in un Q&A serrato che toccherà ogni epoca, senza risparmiare consigli di lettura, film da vedere, luoghi da visitare e musica da ascoltare.",
       "website": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air",
       "latest": [
+        {
+          "title": "Episodio 59: A un centimetro dall'Apocalisse. Storia del rischio di autodistruzione di massa",
+          "date": "2026-11-04",
+          "seconds": 1818,
+          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
+        },
+        {
+          "title": "Un mese in anteprima - Novembre",
+          "date": "2026-11-02",
+          "seconds": 192,
+          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
+        },
         {
           "title": "Episodio 58: Un’altra storia delle donne medievali",
           "date": "2026-10-28",
@@ -682,22 +645,10 @@
           "date": "2026-10-14",
           "seconds": 2231,
           "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
-        },
-        {
-          "title": "Episodio 55: Quattro spicci di storia",
-          "date": "2026-10-07",
-          "seconds": 1561,
-          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
-        },
-        {
-          "title": "Un mese in anteprima - Ottobre",
-          "date": "2026-10-05",
-          "seconds": 164,
-          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:39.446Z"
+    "fetchedAt": "2026-11-07T05:09:25.600Z"
   },
   "podcast:come le cipolle": {
     "value": {
@@ -726,54 +677,6 @@
       ]
     },
     "fetchedAt": "2026-11-03T05:10:09.011Z"
-  },
-  "podcast:complotti": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/complotti/id1869867257",
-      "genres": [
-        "Notizie: approfondimenti",
-        "News",
-        "True crime"
-      ],
-      "episodes": 9,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/68/bd/af/68bdaf43-7e5d-6380-02f0-4b24d87fb729/mza_2904333169946589679.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.spreaker.com/show/6850417/episodes/feed",
-      "description": "Un podcast di Internazionale con Leonardo Bianchi\nScritto da Leonardo Bianchi\nEditing di Chiara Nielsen e Jonathan Zenti\nProduzione di Claudio Balboni e Jonathan Zenti\nMusiche di Jonathan Zenti, Pietro Bonaiti e Carlo Madaghiele\nProduzione esecutiva di Jonathan Zenti",
-      "website": "https://www.spreaker.com/podcast/complotti--6850417",
-      "latest": [
-        {
-          "title": "L’allunaggio",
-          "date": "2026-10-15",
-          "seconds": 2969,
-          "url": "https://www.spreaker.com/episode/l-allunaggio--75788597"
-        },
-        {
-          "title": "11 settembre",
-          "date": "2026-09-09",
-          "seconds": 2883,
-          "url": "https://www.spreaker.com/episode/11-settembre--74998009"
-        },
-        {
-          "title": "Rettiliani",
-          "date": "2026-07-08",
-          "seconds": 3003,
-          "url": "https://www.spreaker.com/episode/rettiliani--72856120"
-        },
-        {
-          "title": "Soros",
-          "date": "2026-05-28",
-          "seconds": 2803,
-          "url": "https://www.spreaker.com/episode/soros--72193524"
-        },
-        {
-          "title": "Transvestigazioni",
-          "date": "2026-04-28",
-          "seconds": 2751,
-          "url": "https://www.spreaker.com/episode/transvestigazioni--71702752"
-        }
-      ]
-    },
-    "fetchedAt": "2026-10-31T05:01:48.733Z"
   },
   "podcast:cose molto umane di gianpiero kesten": {
     "value": {
@@ -977,38 +880,38 @@
       "website": "https://www.deejay.it/programmi/deejay-chiama-italia/",
       "latest": [
         {
-          "title": "Puntata del 28/10/2026",
-          "date": "2026-10-28",
-          "seconds": 5689,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-28-10-2026/"
+          "title": "Aldo Rock e la maratona di New York",
+          "date": "2026-11-06",
+          "seconds": 885,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/aldo-rock-e-la-maratona-di-new-york-2/"
         },
         {
-          "title": "Diego Abatantuono e Carlo Amleto presentano il film \"Un tranquillo funerale di famiglia\"",
-          "date": "2026-10-28",
-          "seconds": 1040,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/ospiti-in-studio-diego-abatantuono-e-carlo-amleto-presentano-il-film-un-tranquillo-funerale-di-famiglia/"
+          "title": "Ospite in studio Lucio Corsi",
+          "date": "2026-11-06",
+          "seconds": 775,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/ospite-in-studio-lucio-corsi-2/"
         },
         {
-          "title": "L'ira di Pechino contro Mbappé dopo le frasi su Mao",
-          "date": "2026-10-28",
-          "seconds": 382,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/lira-di-pechino-contro-mbappe-dopo-le-frasi-su-mao/"
+          "title": "L'hackerismo",
+          "date": "2026-11-06",
+          "seconds": 408,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/lhackerismo/"
         },
         {
-          "title": "Harry Styles sarà a NY per i suoi ultimi concerti, correrà anche la maratona?",
-          "date": "2026-10-28",
-          "seconds": 223,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/harry-styles-sara-a-ny-per-i-suoi-ultimi-concerti-correra-anche-la-maratona/"
+          "title": "Puntata del 06/11/2026",
+          "date": "2026-11-06",
+          "seconds": 5514,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-06-11-2026/"
         },
         {
-          "title": "Puntata del 27/10/2026",
-          "date": "2026-10-27",
-          "seconds": 5769,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-27-10-2026/"
+          "title": "I tre enfant prodige della politica americana",
+          "date": "2026-11-05",
+          "seconds": 564,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/i-tre-enfant-prodige-della-politica-americana/"
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:42.886Z"
+    "fetchedAt": "2026-11-07T05:09:20.021Z"
   },
   "podcast:delitti invisibili": {
     "value": {
@@ -1177,6 +1080,54 @@
       ]
     },
     "fetchedAt": "2026-11-06T05:13:56.869Z"
+  },
+  "podcast:don chisciotte": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/don-chisciotte/id1546749645",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News",
+        "Economia"
+      ],
+      "episodes": 513,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/9a/ef/d4/9aefd4cc-15ff-a86f-8fe8-b97eaad8a9ad/mza_14603662794180435362.png/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISM3660516866",
+      "description": "Don Chisciotte racconta l’attualità economica a partire dai dati e dai report delle più importanti istituzioni di statistica e ricerca sia a livello nazionale che internazionale, e da oggi si unisce al catalogo dei nostri podcast e nella nostra programmazione editoriale.\nIn un mondo in continua trasformazione, dove l'economia influenza ogni aspetto delle nostre vite, \"Don Chisciotte\" offre gli strumenti necessari per capire i cambiamenti che ci circondano per ispirare un mondo con un nuovo motore economico. Un podcast per lottare con i dati contro le frasi fatte e i mulini a vento del dibattito economico in Italia, condotto da Oscar Giannino con Carlo Alberto Carnevale Maffé e Renato Cifarelli.\nScopri di più sul sito: https://www.donchisciottepodcast.it",
+      "website": "https://www.donchisciottepodcast.it",
+      "latest": [
+        {
+          "title": "Midterm USA: l’onda blu scuote Wall Street, il crollo dei titoli tech mette a nudo la fragilità dei mercati",
+          "date": "2026-11-06",
+          "seconds": 2871,
+          "url": null
+        },
+        {
+          "title": "Milan e Inter, il nuovo San Siro fa gol fuori dal campo: la partita dell’innovazione finanziaria",
+          "date": "2026-11-03",
+          "seconds": 4263,
+          "url": null
+        },
+        {
+          "title": "Lagarde lascia la BCE: dietro le dimissioni l’ombra di Macron",
+          "date": "2026-10-30",
+          "seconds": 4714,
+          "url": null
+        },
+        {
+          "title": "Vučić cade, Lula resta, Netanyahu trema: le urne rimescolano le carte del potere",
+          "date": "2026-10-27",
+          "seconds": 4055,
+          "url": null
+        },
+        {
+          "title": "L’AI scopre le falle, la Borsa presenta il conto: dalla cybersecurity alla correzione dei titoli tech",
+          "date": "2026-10-23",
+          "seconds": 4239,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:34.815Z"
   },
   "podcast:elisa true crime": {
     "value": {
@@ -1788,7 +1739,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:18.838Z"
+    "fetchedAt": "2026-11-07T05:09:37.678Z"
   },
   "podcast:indagini": {
     "value": {
@@ -2022,6 +1973,52 @@
     },
     "fetchedAt": "2026-11-06T05:13:17.471Z"
   },
+  "podcast:la nave dei folli": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/la-nave-dei-folli-oltre-la-ragione/id6789093821",
+      "genres": [
+        "Storia"
+      ],
+      "episodes": 9,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b0/87/2bb08791-c3cf-aefb-173c-65cef78faa7a/mza_3998337075389507545.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/SIS2435187807",
+      "description": "Per gli antichi coloro che non ubbidivano alle convenzioni sociali venivano condannati a una vita errante: abbandonati a bordo di una nave che li tenesse lontani dalla città, senza possibilità di ritorno alla terra ferma. Ma è possibile che i grandi personaggi che la storia ci ha tramandato come eccentrici, diversi o addirittura pazzi, siano stati troppo moderni per il loro tempo, vittime di giochi di potere o semplicemente affetti da malattie all’epoca sconosciute?\n“La nave dei folli. Oltre la ragione” è la nuova docuserie Sky Exclusive che attraverso le incredibili vite di personaggi del passato, racconta lo stigma della diversità nel corso della storia.\nE grazie al racconto di Carlo Lucarelli e all’intreccio di fatti storici con le testimonianze di esperti sugli studi psichiatrici più recenti, cerca di porre nuove domande scavando a fondo nella dimensione umana di personaggi del passato che forse appartenevano già al futuro. Persone così differenti le cui storie meritano di essere raccontate di nuovo, forse riabilitate, almeno comprese.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Episodio 8 | Cesare Lombroso e Lev Tolstoj",
+          "date": "2026-08-04",
+          "seconds": 2528,
+          "url": null
+        },
+        {
+          "title": "Episodio 7 | Giovanna di Castiglia",
+          "date": "2026-08-04",
+          "seconds": 1945,
+          "url": null
+        },
+        {
+          "title": "Episodio 6 | Lorenzo Lotto",
+          "date": "2026-07-28",
+          "seconds": 2264,
+          "url": null
+        },
+        {
+          "title": "Episodio 5 | Madeleine Pelletier",
+          "date": "2026-07-28",
+          "seconds": 2171,
+          "url": null
+        },
+        {
+          "title": "Episodio 4 | Vaslav Nijinsky",
+          "date": "2026-07-21",
+          "seconds": 2230,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:43.781Z"
+  },
   "podcast:la zanzara": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/la-zanzara/id291100561",
@@ -2213,45 +2210,45 @@
       "genres": [
         "News"
       ],
-      "episodes": 1328,
+      "episodes": 1335,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/b1/37/78b1373a-414d-4275-5af2-d2b0ecbbdbd4/mza_4557844297068798423.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/ISOS1907906070",
       "description": "Le variabili che influenzano l’andamento dei listini, le storie societarie del momento e i protagonisti dell’attualità finanziaria. Questi e altri temi sono oggetto di approfondimento di Market Mover, il podcast del Sole 24 Ore che vi racconta le notizie che muovono i mercati. Dal lunedì al sabato il punto sui mercati finanziari, l’analisi dello scenario e delle prospettive future ma anche l’approfondimento delle notizie societarie più importanti. L’attualità finanziaria più complessa spiegata con parole semplici.",
       "website": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3",
       "latest": [
         {
-          "title": "La guerra fredda dell’Ai",
-          "date": "2026-10-30",
-          "seconds": 907,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/la-guerra-fredda-dell-ai-AJxmzQyB"
+          "title": "Strategie anti-inflazione",
+          "date": "2026-11-07",
+          "seconds": 808,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/strategie-anti-inflazione-AJDUao7B"
         },
         {
-          "title": "Intesa-Mps alla resa dei conti",
-          "date": "2026-10-29",
-          "seconds": 796,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/intesa-mps-resa-conti-AJGSF5wB"
+          "title": "Il tracollo del Nasdaq",
+          "date": "2026-11-06",
+          "seconds": 1042,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/il-tracollo-nasdaq-AJQc2Q6B"
         },
         {
-          "title": "Tutti i numeri dell’Ipo di Anthropic",
-          "date": "2026-10-28",
-          "seconds": 1101,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/tutti-numeri-dell-ipo-anthropic-AJyXgBwB"
+          "title": "I mercati festeggiano la “blue wave”",
+          "date": "2026-11-05",
+          "seconds": 752,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/i-mercati-festeggiano-blue-wave-AJVO0o4B"
         },
         {
-          "title": "Equilibrismo d’oltralpe",
-          "date": "2026-10-27",
-          "seconds": 889,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/equilibrismo-d-oltralpe-AJkneCvB"
+          "title": "Apple paga per l’Ai (degli altri)",
+          "date": "2026-11-04",
+          "seconds": 715,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/apple-paga-l-ai-degli-altri-AJ8IOg3B"
         },
         {
-          "title": "Se il mercato prezza la guerra continua",
-          "date": "2026-10-26",
-          "seconds": 1154,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/se-mercato-prezza-guerra-continua-AJN2S5tB"
+          "title": "Mercati al test elettorale",
+          "date": "2026-11-03",
+          "seconds": 798,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/mercati-test-elettorale-AJhqiM2B"
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:24.458Z"
+    "fetchedAt": "2026-11-07T05:09:22.871Z"
   },
   "podcast:nessun luogo e lontano": {
     "value": {
@@ -2492,12 +2489,24 @@
       "genres": [
         "News"
       ],
-      "episodes": 203,
+      "episodes": 205,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fe/33/2a/fe332ab6-7188-1aee-8af5-d42d170c1cdd/mza_15339167274041311372.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/MCR6971806545",
       "description": "Il podcast che ti racconta le notizie che ci riguardano, anche quando non sembra, e soprattutto dove ci domandiamo: e adesso, cosa accade?",
       "website": null,
       "latest": [
+        {
+          "title": "Hackerare un supermarket",
+          "date": "2026-11-05",
+          "seconds": 693,
+          "url": null
+        },
+        {
+          "title": "L'America vota (e forse ci guadagna)",
+          "date": "2026-11-02",
+          "seconds": 967,
+          "url": null
+        },
         {
           "title": "La favola serba",
           "date": "2026-10-29",
@@ -2515,22 +2524,10 @@
           "date": "2026-10-22",
           "seconds": 1236,
           "url": null
-        },
-        {
-          "title": "La scuola brucia",
-          "date": "2026-10-08",
-          "seconds": 687,
-          "url": null
-        },
-        {
-          "title": "Come fanno gli evasori?",
-          "date": "2026-09-30",
-          "seconds": 878,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-10-31T05:01:15.908Z"
+    "fetchedAt": "2026-11-07T05:09:14.016Z"
   },
   "podcast:one more time di luca casadei": {
     "value": {
@@ -3073,6 +3070,53 @@
     },
     "fetchedAt": "2026-11-06T05:14:14.743Z"
   },
+  "podcast:rasoiate": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/rasoiate/id1671462668",
+      "genres": [
+        "Calcio",
+        "Sport"
+      ],
+      "episodes": 535,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8d/f1/83/8df1834a-f845-032b-1a12-dee574a06e1b/mza_945315104232934654.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CDSP9544509877",
+      "description": "Il primo daily podcast di Cronache di spogliatoio. Analisi con dati, statistiche, approfondimenti e qualche graffiante opinione personale della giornata sportiva precedente. Una piccola dose quotidiana di informazioni che soddisferà tutte le tue esigenze.",
+      "website": "https://www.capital.it/podcast/rasoiate/",
+      "latest": [
+        {
+          "title": "Ep. 921 – Non siamo mica gli indonesiani. Juve convincente dalla A alla Z. Le turbe del weekend",
+          "date": "2026-11-06",
+          "seconds": 650,
+          "url": null
+        },
+        {
+          "title": "Ep. 920 – Como, ragione e sentimento. Il Napoli non si sop-Porto. Milan e Juve, domande e risposte",
+          "date": "2026-11-05",
+          "seconds": 631,
+          "url": null
+        },
+        {
+          "title": "Ep. 919 – Il mestiere del portiere e il mestiere dell'attaccante. Cosa può imparare la Roma? L'Inter fa la voce grossa",
+          "date": "2026-11-04",
+          "seconds": 708,
+          "url": null
+        },
+        {
+          "title": "Ep. 918 – Bergamo bassissima. L'Inter dopo l'acquazzone. La Roma contro la storia",
+          "date": "2026-11-03",
+          "seconds": 634,
+          "url": null
+        },
+        {
+          "title": "Ep. 917 – I giardini di Ringhio. Certi Amorim non finiscono. Juve, brandelli di calcio",
+          "date": "2026-11-02",
+          "seconds": 677,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:49.749Z"
+  },
   "podcast:scientificast la scienza come non l hai mai sentita": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/scientificast-la-scienza-come-non-lhai-mai-sentita/id465501415",
@@ -3259,6 +3303,52 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:18:58.309Z"
+  },
+  "podcast:start": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/start/id1502634775",
+      "genres": [
+        "News"
+      ],
+      "episodes": 2074,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/24/e9/65/24e96531-cc6b-fc9e-d18c-8275a3b36ca0/mza_13674273107718844477.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISOS3411468806",
+      "description": "Start è il podcast del Sole 24 Ore che ogni mattina ti racconta tre notizie che possono esserti utili nella tua giornata. Su tutte le piattaforme gratuite e sul sito ilsole24ore.com.",
+      "website": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD",
+      "latest": [
+        {
+          "title": "Lavoro domestico sempre più sommerso, startup e data center in Puglia",
+          "date": "2026-11-06",
+          "seconds": 736,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/lavoro-domestico-sempre-piu-sommerso-startup-e-data-center-puglia-AJKVgY6B"
+        },
+        {
+          "title": "Prima casa con scadenze più lunghe, ristrutturazioni con nuovi limiti fiscali e pensioni con lo sconto che svanisce",
+          "date": "2026-11-05",
+          "seconds": 623,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/prima-casa-scadenze-piu-lunghe-ristrutturazioni-nuovi-limiti-fiscali-e-pensioni-lo-sconto-che-svanisce-AJHcE24B"
+        },
+        {
+          "title": "La dichiarazione dei redditi in ritardo, il bonus baby sitter da 500 euro e le nuove regole Ryanair",
+          "date": "2026-11-04",
+          "seconds": 591,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/la-dichiarazione-redditi-ritardo-bonus-baby-sitter-500-euro-e-nuove-regole-ryanair-AJArqo3B"
+        },
+        {
+          "title": "Guadagnare di più affittando a meno, il costo delle cure gratuite e la salute dei giovani italiani",
+          "date": "2026-11-03",
+          "seconds": 655,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/guadagnare-piu-affittando-meno-costo-cure-gratuite-e-salute-giovani-italiani-AJlr6L2B"
+        },
+        {
+          "title": "La nuova cedolare sugli affitti, l’inflazione percepita e gli stranieri a scuola",
+          "date": "2026-11-02",
+          "seconds": 822,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/la-nuova-cedolare-affitti-l-inflazione-percepita-e-stranieri-scuola-AJd38rzB"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:46.798Z"
   },
   "podcast:storie di brand": {
     "value": {

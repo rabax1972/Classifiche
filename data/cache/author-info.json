@@ -363,6 +363,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "alessandro robecchi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandro Robecchi",
+        "url": "https://it.wikipedia.org/wiki/Alessandro_Robecchi",
+        "extract": "Alessandro Robecchi (Milano, 16 giugno 1960) è un giornalista, autore televisivo e scrittore italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alessandro-robecchi/528564766",
+      "died": null
+    },
+    "fetchedAt": "2026-11-07T05:05:02.989Z"
+  },
   "alessia gazzola": {
     "value": {
       "wiki": {
@@ -772,6 +786,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
+  },
+  "anna todd": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Anna Todd",
+        "url": "https://it.wikipedia.org/wiki/Anna_Todd",
+        "extract": "Anna Renee Todd (Dayton, 20 marzo 1989) è una scrittrice statunitense.\n\nÈ nota per la serie After, nata come una fanfiction dedicata agli One Direction pubblicata sul sito web per la condivisione di storie,  Wattpad."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/anna-todd/887010412",
+      "died": null
+    },
+    "fetchedAt": "2026-11-07T05:05:02.989Z"
   },
   "anne carson": {
     "value": {
@@ -2525,6 +2553,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-19T04:48:44.152Z"
+  },
+  "francesco micheli": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Francesco Micheli",
+        "url": "https://it.wikipedia.org/wiki/Francesco_Micheli",
+        "extract": "Francesco Micheli (Bergamo, 1972) è un regista teatrale e autore televisivo italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/francesco-micheli/794295332",
+      "died": null
+    },
+    "fetchedAt": "2026-11-07T05:05:02.989Z"
   },
   "francesco totti": {
     "value": {
@@ -4370,6 +4412,15 @@
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
+  "lily r antares": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lily-r-antares/1886840440",
+      "died": null
+    },
+    "fetchedAt": "2026-11-07T05:05:02.989Z"
+  },
   "lily red": {
     "value": {
       "wiki": null,
@@ -5093,6 +5144,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "michelle heard": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/michelle-heard/1497440061",
+      "died": null
+    },
+    "fetchedAt": "2026-11-07T05:05:02.989Z"
   },
   "michelle smart": {
     "value": {

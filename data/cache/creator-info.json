@@ -1587,6 +1587,59 @@
     },
     "fetchedAt": "2026-10-17T12:49:41.267Z"
   },
+  "dan povenmire": {
+    "value": {
+      "tmdbId": 104644,
+      "wiki": {
+        "lang": "it",
+        "title": "Dan Povenmire",
+        "url": "https://it.wikipedia.org/wiki/Dan_Povenmire",
+        "extract": "Daniel Kingsley Povenmire, detto Dan (Mobile, 18 settembre 1963), è un regista, attore e doppiatore statunitense.\n\nCresciuto a Mobile in Alabama, Povenmire sin da piccolo aveva un talento per il disegno, tant'è che passava le sue estati a fare film. Ha frequentato la University of South Alabama, prima di decidere però di proseguire negli studi di cinema alla University of Southern California School of Cinematic Arts.\n\nÈ conosciuto per essere il co-creatore, insieme a Jeff \"Swampy\" Marsh, della popolare serie prodotta da Disney Phineas e Ferb, di La legge di Milo Murphy e di Hamster e Gretel. È stato in precedenza anche regista della prima stagione de I Griffin ed ha lavorato per numerose altre serie TV d’animazione."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Dan_Povenmire_Comic-Con_2009.jpg/500px-Dan_Povenmire_Comic-Con_2009.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Dan_Povenmire_Comic-Con_2009.jpg",
+        "author": "Joe Meno from Raleigh, NC, USA. [1]",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 296764,
+          "title": "Cartoonified! With Phineas and Ferb",
+          "year": "2025"
+        },
+        {
+          "id": 156606,
+          "title": "Hamster & Gretel",
+          "year": "2022"
+        },
+        {
+          "id": 67549,
+          "title": "La legge di Milo Murphy",
+          "year": "2016"
+        },
+        {
+          "id": 219488,
+          "title": "Doofenshmirtz's Daily Dirt",
+          "year": "2013"
+        },
+        {
+          "id": 34406,
+          "title": "Il Talk Show di Phineas e Ferb",
+          "year": "2010"
+        },
+        {
+          "id": 1877,
+          "title": "Phineas e Ferb",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:05.587Z"
+  },
   "daron nefcy": {
     "value": {
       "tmdbId": 1416299,
@@ -2374,6 +2427,33 @@
     },
     "fetchedAt": "2026-10-17T12:50:10.490Z"
   },
+  "gabbie asher": {
+    "value": {
+      "tmdbId": 1617085,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 294120,
+          "title": "The Revenge Club",
+          "year": "2025"
+        },
+        {
+          "id": 253376,
+          "title": "La fidanzata",
+          "year": "2025"
+        },
+        {
+          "id": 19114,
+          "title": "Personal Affairs",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:08.431Z"
+  },
   "gabrielle stanton": {
     "value": {
       "tmdbId": 1224070,
@@ -2924,6 +3004,46 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:37.449Z"
+  },
+  "jeff swampy marsh": {
+    "value": {
+      "tmdbId": 567615,
+      "wiki": null,
+      "bio": {
+        "text": "Jeff \"Swampy\" Marsh (born December 9, 1960) is an American animator, writer, director, producer, and voice actor associated with several animated television series, most notably as an executive producer and the voice of Major Monogram for Disney's animated series Phineas and Ferb and Milo Murphy's Law, both of which he co-created with Dan Povenmire. Marsh was born in Santa Monica, California, where he grew up with a heavily blended family dynamic. Marsh has been and continues to be a driving force behind several animation projects, working for over six seasons on the animated television series The Simpsons. Marsh continued to work on other animated television series, including King of the Hill and Rocko's Modern Life, before moving to England in 1996.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/bbJufeLLpO3bs8V4cslz6ttNqEY.jpg",
+      "series": [
+        {
+          "id": 296764,
+          "title": "Cartoonified! With Phineas and Ferb",
+          "year": "2025"
+        },
+        {
+          "id": 82235,
+          "title": "Pete the Cat",
+          "year": "2017"
+        },
+        {
+          "id": 67549,
+          "title": "La legge di Milo Murphy",
+          "year": "2016"
+        },
+        {
+          "id": 34406,
+          "title": "Il Talk Show di Phineas e Ferb",
+          "year": "2010"
+        },
+        {
+          "id": 1877,
+          "title": "Phineas e Ferb",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:06.514Z"
   },
   "jemaine clement": {
     "value": {
@@ -4582,6 +4702,23 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:53:53.147Z"
+  },
+  "naomi sheldon": {
+    "value": {
+      "tmdbId": 1768997,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 253376,
+          "title": "La fidanzata",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:09:07.452Z"
   },
   "neil cross": {
     "value": {

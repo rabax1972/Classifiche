@@ -7418,6 +7418,102 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.426Z"
   },
+  "la fidanzata|naomi sheldon": {
+    "value": {
+      "tmdbId": 253376,
+      "title": "La fidanzata",
+      "overview": "Laura ha tutto: un'ottima carriera, un marito attento e un figlio adorato, Daniel. Ma la sua vita perfetta va in frantumi quando Daniel porta a casa Cherry, che scompiglia tutto. Dopo una presentazione tesa, Laura si convince che Cherry le nasconda qualcosa. Sarà davvero una scaltra arrampicatrice sociale o Laura è paranoica? La verità è una questione di prospettiva.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Girlfriend",
+      "genres": [
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 52,
+      "firstAired": "2025-09-10",
+      "lastAired": "2025-09-10",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 6,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2025-09-10",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Prime Video"
+      ],
+      "vote": 7.2,
+      "votes": 165,
+      "poster": "https://image.tmdb.org/t/p/w500/Aq9LnrnKNwUjLVTrD4A348EIGc5.jpg",
+      "creators": [
+        {
+          "id": 1768997,
+          "name": "Naomi Sheldon"
+        },
+        {
+          "id": 1617085,
+          "name": "Gabbie Asher"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Robin Wright",
+          "character": "Laura Sanderson"
+        },
+        {
+          "name": "Olivia Cooke",
+          "character": "Cherry Laine"
+        },
+        {
+          "name": "Laurie Davidson",
+          "character": "Daniel Sanderson"
+        },
+        {
+          "name": "Waleed Zuaiter",
+          "character": "Howard Sanderson"
+        },
+        {
+          "name": "Karen Henthorn",
+          "character": "Tracey Laine"
+        },
+        {
+          "name": "Tanya Moodie",
+          "character": "Isabella Russell-Bailey"
+        },
+        {
+          "name": "Shalom Brune-Franklin",
+          "character": "Brigitte Russell-Bailey"
+        },
+        {
+          "name": "Anna Chancellor",
+          "character": "Lillith Greenway"
+        }
+      ],
+      "trailer": "SKGdid_6V5s",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/253376-the-girlfriend/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-07T05:09:05.195Z"
+  },
   "la leggenda di korra|bryan konietzko": {
     "value": {
       "tmdbId": 33880,
@@ -12128,6 +12224,137 @@
       }
     },
     "fetchedAt": "2026-10-24T04:47:58.445Z"
+  },
+  "phineas e ferb|dan povenmire": {
+    "value": {
+      "tmdbId": 1877,
+      "title": "Phineas e Ferb",
+      "overview": "Phineas e Ferb, due fratellastri, passano il tempo nei loro pomeriggi liberi estivi costruendo invenzioni impossibili per dei bambini della loro età. Le loro fantastiche invenzioni non sono adorate da tutti: la sorella maggiore di Phineas e sorellastra di Ferb, Candace, cerca invano di farli \"beccare\" dalla mamma. Candace non pensa solo a far \"beccare\" i fratelli: è interessata anche a Jeremy Johnson, un ragazzo del quale si è perdutamente innamorata; grazie alla sua migliore amica Stacy riesce a sapere tutto quello che fa e a perfezionarsi. Perry, l'ornitorinco di Ferb, invece, è un agente segreto che combatte contro il malvagio Dottor Heinz Doofenshmirtz, riuscendo a sventare sempre i suoi malefici piani e, casualmente, a far scomparire sotto il naso di Candace le invenzioni di Phineas e Ferb. Perry, di solito, scompare dalla vista dei suoi padroni, che esclamano Ehi, dov'è Perry?, per ricomparire a fine episodio accolto da un ingenuo: Oh, eccoti qua Perry!.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Phineas and Ferb",
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 12,
+      "firstAired": "2007-08-17",
+      "lastAired": "2026-10-06",
+      "status": "Returning Series",
+      "seasons": 6,
+      "episodes": 263,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2007-08-17",
+          "episodes": 47
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2009-02-19",
+          "episodes": 66
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-03-04",
+          "episodes": 62
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2012-12-07",
+          "episodes": 48
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2025-05-25",
+          "episodes": 38
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2026-10-06",
+          "episodes": 2
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2013-02-26",
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Disney XD",
+        "Disney Channel"
+      ],
+      "vote": 7.9,
+      "votes": 1083,
+      "poster": "https://image.tmdb.org/t/p/w500/ghSXWAGPve8LMDw4MH78f8AHvua.jpg",
+      "creators": [
+        {
+          "id": 104644,
+          "name": "Dan Povenmire"
+        },
+        {
+          "id": 567615,
+          "name": "Jeff 'Swampy' Marsh"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Vincent Martella",
+          "character": "Phineas Flynn (voice)"
+        },
+        {
+          "name": "Ashley French",
+          "character": "Candace Flynn (voice)"
+        },
+        {
+          "name": "Thomas Brodie-Sangster",
+          "character": "Ferb Fletcher (voice)"
+        },
+        {
+          "name": "Alyson Stoner",
+          "character": "Isabella Garcia-Shapiro (voice)"
+        },
+        {
+          "name": "David Errigo Jr.",
+          "character": "Ferb Fletcher (voice)"
+        },
+        {
+          "name": "Maulik Pancholy",
+          "character": "Baljeet Tjinder (voice)"
+        },
+        {
+          "name": "Bobby Gaylor",
+          "character": "Buford Van Stomm (voice)"
+        },
+        {
+          "name": "Dan Povenmire",
+          "character": "Dr. Heinz Doofenshmirtz (voice)"
+        }
+      ],
+      "trailer": "th9hxCGH_ms",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1877-phineas-and-ferb/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-07T05:09:05.171Z"
   },
   "physical 100 italy|stagione 1": {
     "value": {

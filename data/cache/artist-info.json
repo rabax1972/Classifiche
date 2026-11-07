@@ -1040,6 +1040,25 @@
     },
     "fetchedAt": "2026-10-17T07:59:20.561Z"
   },
+  "mace": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Mace (beatmaker)",
+        "url": "https://it.wikipedia.org/wiki/Mace_(beatmaker)",
+        "extract": "Mace, pseudonimo di Simone Benussi (Milano, 9 luglio 1982), è un produttore discografico e disc jockey italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Mace_at_Fabrique%2C_Milan%2C_May_25th%2C_2022_%282%29.jpg/500px-Mace_at_Fabrique%2C_Milan%2C_May_25th%2C_2022_%282%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Mace_at_Fabrique,_Milan,_May_25th,_2022_(2).jpg",
+        "author": "Dennis Radaelli",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/mace/1472978301"
+    },
+    "fetchedAt": "2026-11-07T05:04:16.451Z"
+  },
   "madame": {
     "value": {
       "wiki": {

@@ -9398,6 +9398,89 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.552Z"
   },
+  "godzilla minus one|takashi yamazaki 2023": {
+    "value": {
+      "tmdbId": 940721,
+      "title": "Godzilla Minus One",
+      "overview": "Dopo la Seconda guerra mondiale, il Giappone è stato ridotto in ginocchio e deve ripartire da zero. In questo contesto, Godzilla appare improvvisamente e fa precipitare il paese in uno stato ancora più negativo: è la situazione più disperata nella storia del Giappone.",
+      "overviewLang": "it",
+      "tagline": "Il Giappone del dopoguerra. Da zero a meno.",
+      "originalTitle": "ゴジラ-1.0",
+      "genres": [
+        "Fantascienza",
+        "Horror",
+        "Azione"
+      ],
+      "runtime": 125,
+      "released": "2023-12-01",
+      "vote": 7.6,
+      "votes": 3593,
+      "poster": "https://image.tmdb.org/t/p/w500/AhO2e2EWYYZk4zxxeynriCufixo.jpg",
+      "directors": [
+        {
+          "id": 43652,
+          "name": "Takashi Yamazaki"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ryūnosuke Kamiki",
+          "character": "Koichi Shikishima"
+        },
+        {
+          "name": "浜辺美波",
+          "character": "Noriko Oishi"
+        },
+        {
+          "name": "山田裕貴",
+          "character": "Shiro Mizushima"
+        },
+        {
+          "name": "Munetaka Aoki",
+          "character": "Sosaku Tachibana"
+        },
+        {
+          "name": "吉岡秀隆",
+          "character": "Kenji Noda"
+        },
+        {
+          "name": "Sakura Ando",
+          "character": "Sumiko Ota"
+        },
+        {
+          "name": "Kuranosuke Sasaki",
+          "character": "Yoji Akitsu"
+        },
+        {
+          "name": "永谷咲笑",
+          "character": "Akiko"
+        }
+      ],
+      "trailer": "JzLK94HAyzg",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/940721-1-0/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-07T05:05:03.664Z"
+  },
   "grand hotel|edmund goulding 1932": {
     "value": {
       "tmdbId": 33680,
@@ -11012,6 +11095,88 @@
       "watch": null
     },
     "fetchedAt": "2026-11-04T05:15:08.788Z"
+  },
+  "hotel new hampshire|tony richardson 1984": {
+    "value": {
+      "tmdbId": 11308,
+      "title": "Hotel New Hampshire",
+      "overview": "Il film racconta le vicende della bizzarra famiglia Berry, il patriarca Win decide di gestire un albergo coinvolgendo tutti i membri della famiglia. Dopo alcune difficoltà iniziali, la loro impresa avrà successo. All'interno dell'hotel si svolgono le intricate vicende familiari, tra litigi, amori e ripicche. John e Frannie vivono un rapporto incestuoso, essendo innamorati l'uno dell'altra, Frank deve fare i conti con le sue pulsioni omosessuali, in più ad animare le vicende, vi sono il bizzarro nonno ed un cane di nome Tristezza, che soffre di flatulenze. Tra drammi e tragicomiche avventure, la famiglia riuscirà ad aprire un nuovo albergo a Vienna.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Hotel New Hampshire",
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 109,
+      "released": "1984-03-09",
+      "vote": 5.7,
+      "votes": 138,
+      "poster": "https://image.tmdb.org/t/p/w500/9XGGGniMtBqhox7JAV5JujlUqFz.jpg",
+      "directors": [
+        {
+          "id": 32765,
+          "name": "Tony Richardson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jodie Foster",
+          "character": "Franny Berry"
+        },
+        {
+          "name": "Beau Bridges",
+          "character": "Win Berry"
+        },
+        {
+          "name": "Rob Lowe",
+          "character": "John Berry"
+        },
+        {
+          "name": "Nastassja Kinski",
+          "character": "Susie the Bear"
+        },
+        {
+          "name": "Wilford Brimley",
+          "character": "Iowa Bob"
+        },
+        {
+          "name": "Paul McCrane",
+          "character": "Frank Berry"
+        },
+        {
+          "name": "Jennifer Dundas",
+          "character": "Lilly Berry"
+        },
+        {
+          "name": "Wallace Shawn",
+          "character": "Freud"
+        }
+      ],
+      "trailer": "scsPDp9eLTQ",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/11308-the-hotel-new-hampshire/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "The Film Club Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/kQWl83Duzyuv0V5k8dqDWxRDdxw.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-07T05:05:03.635Z"
   },
   "hunger games il canto della rivolta parte 1|francis lawrence 2014": {
     "value": {

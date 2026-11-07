@@ -19961,6 +19961,89 @@
     },
     "fetchedAt": "2026-10-22T04:45:45.496Z"
   },
+  "takashi yamazaki": {
+    "value": {
+      "tmdbId": 43652,
+      "wiki": {
+        "lang": "it",
+        "title": "Takashi Yamazaki",
+        "url": "https://it.wikipedia.org/wiki/Takashi_Yamazaki",
+        "extract": "Takashi Yamazaki (Matsumoto, 12 giugno 1964) è un regista, sceneggiatore e supervisore agli effetti visivi giapponese."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Yamazaki_Takashi_from_%22Godzilla_Minus_One%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348355520%29_%28cropped%29_%282%29.jpg/500px-Yamazaki_Takashi_from_%22Godzilla_Minus_One%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348355520%29_%28cropped%29_%282%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Yamazaki_Takashi_from_%22Godzilla_Minus_One%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_(53348355520)_(cropped)_(2).jpg",
+        "author": "Dick Thomas Johnson from Tokyo, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1727720,
+          "title": "Nue",
+          "year": null
+        },
+        {
+          "id": 1388496,
+          "title": "Grandgear",
+          "year": "2028"
+        },
+        {
+          "id": 1381071,
+          "title": "Godzilla Minus Zero",
+          "year": "2026"
+        },
+        {
+          "id": 1255542,
+          "title": "フードロスラ",
+          "year": "2024"
+        },
+        {
+          "id": 940721,
+          "title": "Godzilla Minus One",
+          "year": "2023"
+        },
+        {
+          "id": 961418,
+          "title": "ゴーストブック おばけずかん",
+          "year": "2022"
+        },
+        {
+          "id": 728754,
+          "title": "Doraemon - Il film 2",
+          "year": "2020"
+        },
+        {
+          "id": 614587,
+          "title": "Lupin III - The First",
+          "year": "2019"
+        },
+        {
+          "id": 592867,
+          "title": "Dragon Quest: Your Story",
+          "year": "2019"
+        },
+        {
+          "id": 605389,
+          "title": "アルキメデスの大戦",
+          "year": "2019"
+        },
+        {
+          "id": 492136,
+          "title": "DESTINY 鎌倉ものがたり",
+          "year": "2017"
+        },
+        {
+          "id": 426080,
+          "title": "海賊とよばれた男",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-07T05:05:03.979Z"
+  },
   "tazbah chavez": {
     "value": {
       "tmdbId": 2521383,

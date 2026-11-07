@@ -103,6 +103,10 @@
     "value": "Paul Feig",
     "fetchedAt": "2026-10-15T04:42:51.927Z"
   },
+  "movie:1096228": {
+    "value": "Alex Gibney",
+    "fetchedAt": "2026-11-07T05:03:33.216Z"
+  },
   "movie:1096831": {
     "value": "Bobby Moresco",
     "fetchedAt": "2026-10-14T04:45:58.126Z"
@@ -162,6 +166,10 @@
   "movie:1128204": {
     "value": "Marco van Belle",
     "fetchedAt": "2026-10-31T04:54:26.024Z"
+  },
+  "movie:11308": {
+    "value": "Tony Richardson",
+    "fetchedAt": "2026-11-07T05:03:31.847Z"
   },
   "movie:1130948": {
     "value": "Karim Aïnouz",
@@ -319,6 +327,10 @@
     "value": "Jane Schoenbrun",
     "fetchedAt": "2026-10-19T04:45:38.568Z"
   },
+  "movie:1241046": {
+    "value": "Dara Van Dusen",
+    "fetchedAt": "2026-11-07T05:03:33.517Z"
+  },
   "movie:1242332": {
     "value": "Ben Wheatley",
     "fetchedAt": "2026-10-12T07:24:29.384Z"
@@ -346,6 +358,10 @@
   "movie:1248832": {
     "value": "Alejandro G. Iñárritu",
     "fetchedAt": "2026-10-12T07:24:27.932Z"
+  },
+  "movie:1250502": {
+    "value": "Nahas Hidayath",
+    "fetchedAt": "2026-11-07T05:03:33.415Z"
   },
   "movie:1255833": {
     "value": "Brian Duffield",
@@ -602,6 +618,10 @@
   "movie:1381078": {
     "value": "Rachel Morrison",
     "fetchedAt": "2026-10-15T04:42:54.028Z"
+  },
+  "movie:1381221": {
+    "value": "Chris Rock",
+    "fetchedAt": "2026-11-07T05:03:33.618Z"
   },
   "movie:1381273": {
     "value": "James Gray",
@@ -907,6 +927,10 @@
     "value": "Bea de Silva",
     "fetchedAt": "2026-10-22T04:44:47.507Z"
   },
+  "movie:1511829": {
+    "value": "Federico Zampaglione",
+    "fetchedAt": "2026-11-07T05:03:31.454Z"
+  },
   "movie:1512493": {
     "value": "Paul Becker",
     "fetchedAt": "2026-10-18T04:42:49.000Z"
@@ -1095,6 +1119,10 @@
     "value": "Volfango De Biasi",
     "fetchedAt": "2026-10-13T04:34:35.461Z"
   },
+  "movie:1615596": {
+    "value": "Ken Sanzel",
+    "fetchedAt": "2026-11-07T05:03:33.722Z"
+  },
   "movie:161803": {
     "value": "Murat Dündar",
     "fetchedAt": "2026-10-18T17:54:25.634Z"
@@ -1139,6 +1167,10 @@
     "value": "Luca Salmaso",
     "fetchedAt": "2026-10-14T04:45:58.225Z"
   },
+  "movie:1634902": {
+    "value": "Boris Volodarsky",
+    "fetchedAt": "2026-11-07T05:03:33.825Z"
+  },
   "movie:1635771": {
     "value": "Andrew Baird",
     "fetchedAt": "2026-10-28T05:02:25.138Z"
@@ -1182,6 +1214,10 @@
   "movie:1659441": {
     "value": "David Ryan Keith",
     "fetchedAt": "2026-11-06T05:08:15.131Z"
+  },
+  "movie:1662511": {
+    "value": "Todd Wilderman, Hamish Grieve",
+    "fetchedAt": "2026-11-07T05:03:31.355Z"
   },
   "movie:1662858": {
     "value": "Klaas de Jong",
@@ -1378,6 +1414,10 @@
   "movie:1793470": {
     "value": "Francesca Zen",
     "fetchedAt": "2026-10-23T04:45:47.230Z"
+  },
+  "movie:1794569": {
+    "value": null,
+    "fetchedAt": "2026-11-07T05:03:33.318Z"
   },
   "movie:1796328": {
     "value": "John Real",
@@ -2055,6 +2095,10 @@
     "value": "Antoine Fuqua",
     "fetchedAt": "2026-10-19T04:45:38.671Z"
   },
+  "movie:940721": {
+    "value": "Takashi Yamazaki",
+    "fetchedAt": "2026-11-07T05:03:32.490Z"
+  },
   "movie:947": {
     "value": "David Lean",
     "fetchedAt": "2026-10-18T17:55:09.419Z"
@@ -2539,6 +2583,10 @@
     "value": null,
     "fetchedAt": "2026-11-05T05:11:39.509Z"
   },
+  "tv:253376": {
+    "value": "Naomi Sheldon, Gabbie Asher",
+    "fetchedAt": "2026-11-07T05:03:32.811Z"
+  },
   "tv:254492": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:48.526Z"
@@ -2586,6 +2634,10 @@
   "tv:261343": {
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.278Z"
+  },
+  "tv:262352": {
+    "value": "Jack Williams, Harry Williams",
+    "fetchedAt": "2026-11-07T05:03:34.315Z"
   },
   "tv:2661": {
     "value": null,
@@ -2799,6 +2851,10 @@
     "value": "Bill Lawrence",
     "fetchedAt": "2026-10-16T04:44:17.676Z"
   },
+  "tv:297491": {
+    "value": "Natalia Santa, Mariana Berenguer",
+    "fetchedAt": "2026-11-07T05:03:34.419Z"
+  },
   "tv:297903": {
     "value": null,
     "fetchedAt": "2026-10-27T04:45:49.762Z"
@@ -2846,6 +2902,10 @@
   "tv:302074": {
     "value": "Carl Hiaasen, Rob Doherty",
     "fetchedAt": "2026-10-29T04:57:38.993Z"
+  },
+  "tv:302118": {
+    "value": "Jared Keeso",
+    "fetchedAt": "2026-11-07T05:03:34.516Z"
   },
   "tv:302915": {
     "value": "Alejandra Guimerà, Marc Crehuet",
@@ -3055,6 +3115,10 @@
     "value": "Roberto Orci, Alex Kurtzman",
     "fetchedAt": "2026-10-12T07:24:49.850Z"
   },
+  "tv:328010": {
+    "value": null,
+    "fetchedAt": "2026-11-07T05:03:34.218Z"
+  },
   "tv:329439": {
     "value": "Miguel Ángel Blanca",
     "fetchedAt": "2026-10-28T05:02:26.042Z"
@@ -3066,6 +3130,10 @@
   "tv:329665": {
     "value": null,
     "fetchedAt": "2026-10-21T04:46:18.115Z"
+  },
+  "tv:330168": {
+    "value": null,
+    "fetchedAt": "2026-11-07T05:03:34.617Z"
   },
   "tv:330370": {
     "value": null,
