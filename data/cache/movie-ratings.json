@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "films": {
     "11": {
       "imdbId": "tt0076759",
@@ -3101,7 +3101,7 @@
       },
       "rt": {
         "score": 92,
-        "date": "2026-10-04",
+        "date": "2026-11-07",
         "url": "https://www.rottentomatoes.com/m/toy_story_5"
       }
     },
@@ -3499,7 +3499,7 @@
       },
       "rt": {
         "score": 94,
-        "date": "2026-09-17",
+        "date": "2026-11-07",
         "url": "https://www.rottentomatoes.com/m/hoppers"
       }
     },
@@ -3797,6 +3797,14 @@
       },
       "rt": null
     },
+    "1483525": {
+      "imdbId": "tt37803364",
+      "imdb": {
+        "value": 8.1,
+        "votes": 1275
+      },
+      "rt": null
+    },
     "1489932": {
       "imdbId": "tt37108970",
       "imdb": {
@@ -3882,6 +3890,14 @@
       "imdb": null,
       "rt": null
     },
+    "1570488": {
+      "imdbId": "tt38515310",
+      "imdb": {
+        "value": 6.5,
+        "votes": 608
+      },
+      "rt": null
+    },
     "1571955": {
       "imdbId": "tt38793125",
       "imdb": {
@@ -3965,6 +3981,14 @@
     "1660624": {
       "imdbId": null,
       "imdb": null,
+      "rt": null
+    },
+    "1662511": {
+      "imdbId": "tt41371151",
+      "imdb": {
+        "value": 8,
+        "votes": 21
+      },
       "rt": null
     },
     "1678120": {

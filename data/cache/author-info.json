@@ -2478,6 +2478,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
+  "fedor michajlovi dostoevskij": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/f%C3%ABdor-michajlovi-dostoevskij/1210742876",
+      "died": null
+    },
+    "fetchedAt": "2026-11-08T05:03:51.076Z"
+  },
   "felicia kingsley": {
     "value": {
       "wiki": {
@@ -4325,6 +4334,26 @@
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
+  "leonardo sciascia": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Leonardo Sciascia",
+        "url": "https://it.wikipedia.org/wiki/Leonardo_Sciascia",
+        "extract": "Leonardo Sciascia (Racalmuto, 8 gennaio 1921 – Palermo, 20 novembre 1989) è stato uno scrittore, giornalista, saggista, drammaturgo, poeta, politico e critico d'arte italiano.\n\nSciascia è considerato una delle più grandi figure letterarie del Novecento italiano ed europeo. All'ansia di conoscere le contraddizioni della sua terra e dell'umanità, unì un senso di giustizia pessimistico e sempre deluso, ma che non rinuncia mai all'uso della ragione umana di matrice illuminista, per attuare questo suo progetto. All'influenza del relativismo conoscitivo di Luigi Pirandello si possono ricondurre invece l'umorismo e la difficoltà di pervenire a una conclusione che i suoi protagonisti incontrano: la realtà non sempre è osservabile in maniera obiettiva, e spesso è un insieme inestricabile di verità e menzogna."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/it/9/9d/Leonardo_Sciascia2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Leonardo_Sciascia2.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/leonardo-sciascia/345708829",
+      "died": 1989
+    },
+    "fetchedAt": "2026-11-08T05:03:51.076Z"
+  },
   "leone xiv": {
     "value": {
       "wiki": null,
@@ -4920,6 +4949,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "matteo strukul": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Matteo Strukul",
+        "url": "https://it.wikipedia.org/wiki/Matteo_Strukul",
+        "extract": "Matteo Strukul (Padova, 8 settembre 1973) è un romanziere e sceneggiatore italiano, vincitore del Premio Bancarella 2017 col suo libro I Medici."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Matteo_Strukul_%28Turin%29.jpg/500px-Matteo_Strukul_%28Turin%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Matteo_Strukul_(Turin).jpg",
+        "author": "McMarcoP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/matteo-strukul/378210200",
+      "died": null
+    },
+    "fetchedAt": "2026-11-08T05:03:51.076Z"
   },
   "matthew perry": {
     "value": {
@@ -5766,6 +5815,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-26T04:49:46.161Z"
+  },
+  "platone": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Platone",
+        "url": "https://it.wikipedia.org/wiki/Platone",
+        "extract": "Platone, pseudonimo di Aristocle, figlio di Aristone del demo di Collito e di Perictione (in greco antico Πλάτων?, Plátōn, pronuncia: [plátɔːn]; Atene, 428/427 a.C. – Atene, 348/347 a.C.), è stato un filosofo, scrittore e politico greco antico, comunemente ritenuto il fondatore della tradizione filosofica occidentale.\n\nInnovatore del dialogo letterario e delle forme dialettiche, Platone influenzò tutti i principali ambiti della filosofia teoretica e della filosofia pratica e fondò l'Accademia di Atene, una scuola filosofica dove insegnò quell'insieme di teorie filosofiche che sarebbero poi divenute note sotto il nome di platonismo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/500px-Plato_Silanion_Musei_Capitolini_MC1377.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+        "author": "Marie-Lan Nguyen",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/platone/400874150",
+      "died": -347
+    },
+    "fetchedAt": "2026-11-08T05:03:51.076Z"
   },
   "primo levi": {
     "value": {
@@ -7006,6 +7075,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "valentino rossi": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/valentino-rossi/273855149",
+      "died": null
+    },
+    "fetchedAt": "2026-11-08T05:03:51.076Z"
   },
   "valerie perrin": {
     "value": {

@@ -6378,6 +6378,57 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.721Z"
   },
+  "daffy season|todd wilderman": {
+    "value": {
+      "tmdbId": 1662511,
+      "title": "Daffy Season",
+      "overview": "Daffy è pronto per la stagione della caccia all'anatra, ma Elmer è troppo preso dalla sua nuova ossessione – il calcio – per andare a caccia. Lentamente, il mondo attorno a Daffy si trasforma in un incubo in stile zombie, man mano che i personaggi dei cartoni animati diventano ossessionati da questo sport.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia"
+      ],
+      "runtime": 6,
+      "released": "2026-11-05",
+      "vote": 4.7,
+      "votes": 3,
+      "poster": "https://image.tmdb.org/t/p/w500/wyAkjd0aDOoTaBG0bnJJNkUmUDd.jpg",
+      "directors": [
+        {
+          "id": 74948,
+          "name": "Todd Wilderman"
+        },
+        {
+          "id": 2414721,
+          "name": "Hamish Grieve"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Eric Bauza",
+          "character": "Daffy Duck (voice)"
+        },
+        {
+          "name": "Jeff Bergman",
+          "character": "Elmer Fudd / Bugs Bunny (voice)"
+        },
+        {
+          "name": "Gabriel Iglesias",
+          "character": "Speedy Gonzales (voice)"
+        },
+        {
+          "name": "Jeannie Tirado",
+          "character": "Lola Bunny (voice)"
+        }
+      ],
+      "trailer": "h6u-pc4-ono",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-08T05:03:51.644Z"
+  },
   "dal nulla|joe juanne piras 2026": {
     "value": {
       "tmdbId": 1438963,
@@ -22093,6 +22144,82 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.596Z"
   },
+  "mongoose l ultimo soldato|mark vanselow 2026": {
+    "value": {
+      "tmdbId": 1294189,
+      "title": "The Mongoose",
+      "overview": "Un veterano di guerra decorato fugge da una scena del crimine a 210 km/h su una Mustang Shelby GT500, sfuggendo alla legge per risolvere il mistero.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Thriller"
+      ],
+      "runtime": 99,
+      "released": "2026-10-29",
+      "vote": 6.1,
+      "votes": 47,
+      "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+      "directors": [
+        {
+          "id": 1416819,
+          "name": "Mark Vanselow"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Liam Neeson",
+          "character": "Ryan 'Fang' Flanagan"
+        },
+        {
+          "name": "Marisa Tomei",
+          "character": "Tara"
+        },
+        {
+          "name": "Ving Rhames",
+          "character": "Tanker"
+        },
+        {
+          "name": "Marcus Thomas",
+          "character": "Munch"
+        },
+        {
+          "name": "Michael Chiklis",
+          "character": "Major Walter Pope"
+        },
+        {
+          "name": "Maurice Marvel Meredith",
+          "character": "Major James Tilton"
+        },
+        {
+          "name": "Brett Tucker",
+          "character": "Todd"
+        },
+        {
+          "name": "Ryan Morgan",
+          "character": "Wiz"
+        }
+      ],
+      "trailer": "aHrMFtt40_Q",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1294189-the-mongoose/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-08T05:03:51.645Z"
+  },
   "moonlight|barry jenkins 2016": {
     "value": {
       "tmdbId": 376867,
@@ -24505,6 +24632,77 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.566Z"
+  },
+  "possible love|lee chang dong 2026": {
+    "value": {
+      "tmdbId": 1483525,
+      "title": "Possible Love",
+      "overview": "Un operaio licenziato e sua moglie incontrano una regista di documentari e suo marito, e si ritrovano a confrontarsi con i loro desideri nascosti.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "가능한 사랑",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 165,
+      "released": "2026-09-23",
+      "vote": 7.5,
+      "votes": 27,
+      "poster": "https://image.tmdb.org/t/p/w500/uPOpXBUMtMslIBAxldQwJwBQkad.jpg",
+      "directors": [
+        {
+          "id": 96657,
+          "name": "Lee Chang-dong"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jeon Do-yeon",
+          "character": "Mi-ok"
+        },
+        {
+          "name": "설경구",
+          "character": "Ho-seok"
+        },
+        {
+          "name": "조인성",
+          "character": "Sang-woo"
+        },
+        {
+          "name": "Cho Yeo-jeong",
+          "character": "Ye-ji"
+        },
+        {
+          "name": "조유리",
+          "character": "Young Mi-ok"
+        },
+        {
+          "name": "최민",
+          "character": "Young Ho-seok"
+        },
+        {
+          "name": "정섶",
+          "character": "Cheol"
+        },
+        {
+          "name": "강창권",
+          "character": "Min-sik"
+        }
+      ],
+      "trailer": "nEVXK29ed94",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1483525/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-08T05:03:51.809Z"
   },
   "primetime|lance oppenheim 2026": {
     "value": {
@@ -32354,6 +32552,78 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.723Z"
+  },
+  "un cucciolo per natale|cathryn michon 2026": {
+    "value": {
+      "tmdbId": 1570488,
+      "title": "Un cucciolo per Natale",
+      "overview": "Un'emergenza medica divide la famiglia Goss e il determinato cane Winstead farà di tutto per far ricongiungere i suoi padroni prima della vigilia di Natale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "A Dog's Perfect Christmas",
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 102,
+      "released": "2026-11-04",
+      "vote": 8.3,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/zKJmIJWxxFLKtfylpCYFfeVJ8xZ.jpg",
+      "directors": [
+        {
+          "id": 1382199,
+          "name": "Cathryn Michon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Dennis Quaid",
+          "character": "Sander"
+        },
+        {
+          "name": "Milo Ventimiglia",
+          "character": "Hunter"
+        },
+        {
+          "name": "Brooke Lena Johnson",
+          "character": "Ello"
+        },
+        {
+          "name": "Kathleen Rose Perkins",
+          "character": "Juliana"
+        },
+        {
+          "name": "Jennifer Tilly",
+          "character": "Lucille"
+        },
+        {
+          "name": "Thomas Haden Church",
+          "character": "Winstead (voice)"
+        },
+        {
+          "name": "Mary Steenburgen",
+          "character": "Claire"
+        },
+        {
+          "name": "Ethan Loomis",
+          "character": "Sean"
+        }
+      ],
+      "trailer": "XUlH_OVv_QM",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1570488-a-dog-s-perfect-christmas/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-08T05:03:51.692Z"
   },
   "un po di luce|ali asgari 2026": {
     "value": {

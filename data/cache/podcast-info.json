@@ -1,4 +1,50 @@
 {
+  "podcast:2024": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/2024/id290890570",
+      "genres": [
+        "News"
+      ],
+      "episodes": 31,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/bd/78/27/bd782768-5312-20e0-6d58-6622176d9ed2/mza_14040079663532570953.jpg/600x600bb.jpg",
+      "feedUrl": "https://backr24.ilsole24ore.com/podcast/2024.xml",
+      "description": "Le tecnologie sono ovunque: nel nostro ufficio e in cucina, nell&rsquo;automobile e a scuola. Cambiano il modo di viaggiare e lavorare, di ascoltare la musica e di telefonare. Le usiamo per giocare, per divertirci, per conoscere. E sono le tecnologie a determinare le grandi variabili su cui si basa la vita: gli approvvigionamenti di energia, la cura della salute, la coltivazione del cibo. La velocit&agrave; con cui si sviluppano &egrave; esponenziale, inquietante e affascinante. Per questo 2024 si espande, allarga i suoi e i vostri orizzonti, per parlare del presente e guardare al futuro. Tre le grandi aree di contenuti: i nuovi prodotti hi-tech di largo consumo, il mondo dei video giochi, le novit&agrave; tecnologiche che stanno cambiando il mondo.",
+      "website": "https://www.radio24.ilsole24ore.com/programmi/2024",
+      "latest": [
+        {
+          "title": "Guerra ibrida - Furto a Binance – Satelliti",
+          "date": "2026-11-06",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261106-2024.mp3?awCollectionId=2024&awEpisodeId=261106-2024"
+        },
+        {
+          "title": "Oled e notebook – Pixel tracking – Robot in fabbrica",
+          "date": "2026-10-30",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261030-2024.mp3?awCollectionId=2024&awEpisodeId=261030-2024"
+        },
+        {
+          "title": "Cloud - PEC Q - AI e wearable",
+          "date": "2026-10-23",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261023-2024.mp3?awCollectionId=2024&awEpisodeId=261023-2024"
+        },
+        {
+          "title": "Maxi cripto furto - Frigoriferi in tilt - Compliance",
+          "date": "2026-10-16",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261016-2024.mp3?awCollectionId=2024&awEpisodeId=261016-2024"
+        },
+        {
+          "title": "AI fra cloud, locale e costi - Voce come marchio - Robot",
+          "date": "2026-10-09",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261009-2024.mp3?awCollectionId=2024&awEpisodeId=261009-2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:48.427Z"
+  },
   "podcast:24 mattino": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/24-mattino/id308039446",
@@ -138,6 +184,101 @@
       ]
     },
     "fetchedAt": "2026-11-06T05:14:17.525Z"
+  },
+  "podcast:acquario": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/acquario-podcast/id6788684551",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News"
+      ],
+      "episodes": 19,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/50/d0/16/50d01698-1588-e49f-b1a9-250f5aa6f303/mza_16428312913573260778.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/113340e90/podcast/rss",
+      "description": "Ogni settimana, Isidoro e Fortunato si scambiano pareri su tutto quello che succede nel mondo. Una conversazione tra due amici aperti al confronto, pronti ad andare a fondo delle questioni più importanti, senza tralasciare notizie e particolari che spesso possono sfuggire.\nTutti i giovedì, in videochiamata, per capire cosa fluttua nel grande acquario. Dietro al vetro ti senti più osservatore o osservato?",
+      "website": "https://podcasters.spotify.com/pod/show/acquario-podcast",
+      "latest": [
+        {
+          "title": "Pornografia, educazione sessuale e pompe funebri: Vietati nell'Acquario | Ep. 18",
+          "date": "2026-11-05",
+          "seconds": 1523,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Pornografia--educazione-sessuale-e-pompe-funebri-Vietati-nellAcquario--Ep--18-e3rpb76"
+        },
+        {
+          "title": "Halloween, storie di paura e casi macabri italiani: Terrorizzati nell'Acquario | Ep. 17",
+          "date": "2026-10-29",
+          "seconds": 1516,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Halloween--storie-di-paura-e-casi-macabri-italiani-Terrorizzati-nellAcquario--Ep--17-e3r9973"
+        },
+        {
+          "title": "Chi sono i maranza? Le proteste, i supermercati vuoti e una generazione sotto pressione: Incompresi nell'Acquario | Ep. 16",
+          "date": "2026-10-22",
+          "seconds": 1469,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Chi-sono-i-maranza--Le-proteste--i-supermercati-vuoti-e-una-generazione-sotto-pressione-Incompresi-nellAcquario--Ep--16-e3qs9gr"
+        },
+        {
+          "title": "Garlasco, l'ossessione per il True Crime e il pappagallo miracolato: Indagati nell'Acquario | Ep. 15",
+          "date": "2026-10-15",
+          "seconds": 1422,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Garlasco--lossessione-per-il-True-Crime-e-il-pappagallo-miracolato-Indagati-nellAcquario--Ep--15-e3qh6jo"
+        },
+        {
+          "title": "Allarme salute, l'illusione della produttività e il boom dei peptidi: Distratti nell'Acquario | Ep. 14",
+          "date": "2026-10-08",
+          "seconds": 1514,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Allarme-salute--lillusione-della-produttivit-e-il-boom-dei-peptidi-Distratti-nellAcquario--Ep--14-e3q3h8i"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:38.387Z"
+  },
+  "podcast:actually": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/actually/id1516817035",
+      "genres": [
+        "Notizie di tecnologia",
+        "News",
+        "Tecnologia"
+      ],
+      "episodes": 569,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e4/5b/1b/e45b1b1b-ba45-6122-4210-9d56c72b907b/mza_13101311386068929468.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ISM7167031904",
+      "description": "Il mondo non è mai stato così complesso, connesso e tecnologico. Actually è il podcast in cui Riccardo Haupt, CEO di Chora e Will, e Riccardo Bassetto, Head of Operations, parlano dei grandi cambiamenti che stanno stravolgendo il mondo, attraverso le voci e le storie di chi questo cambiamento lo sta vivendo da dentro.\nSeguici anche su Instagram @will_ita",
+      "website": "https://www.spreaker.com/show/actually",
+      "latest": [
+        {
+          "title": "Gli effetti delle ELEZIONI USA sull'AI",
+          "date": "2026-11-07",
+          "seconds": 2366,
+          "url": null
+        },
+        {
+          "title": "Come scalare un'azienda FAMILIARE fino a 1 MILIONE di clienti - con Marco Bernardi",
+          "date": "2026-11-04",
+          "seconds": 3391,
+          "url": null
+        },
+        {
+          "title": "Alla guida dell'azienda ITALIANA che fattura MILIARDI – con Sonia Bonfiglioli",
+          "date": "2026-11-02",
+          "seconds": 3117,
+          "url": null
+        },
+        {
+          "title": "Tutto quello che NON VA BENE nei numeri di ANTHROPIC",
+          "date": "2026-10-31",
+          "seconds": 3359,
+          "url": null
+        },
+        {
+          "title": "Da un sito VUOTO a un gruppo QUOTATO: la storia di MUTUIONLINE - con Alessandro Fracassi",
+          "date": "2026-10-28",
+          "seconds": 3214,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:50.399Z"
   },
   "podcast:alessandro barbero podcast": {
     "value": {
@@ -604,6 +745,52 @@
     },
     "fetchedAt": "2026-11-06T05:13:47.426Z"
   },
+  "podcast:chapeau": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/chapeau/id1785537065",
+      "genres": [
+        "Economia"
+      ],
+      "episodes": 90,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/12/36/d41236ae-5cf7-d0d4-7c14-b236209ff164/mza_2254030333906806026.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/feb0cea4/podcast/rss",
+      "description": "Parliamo con gli imprenditori e i CEO più importanti d'Italia.\nRaccontiamo le loro storie per scoprire come hanno fatto DAVVERO ad arrivare dove sono, i loro errori e i consigli PRATICI.",
+      "website": "https://podcasters.spotify.com/pod/show/giacomo-luppi8",
+      "latest": [
+        {
+          "title": "LEGAMI: Le Penne Cancellabili Italiane da €380 MILIONI ✏️ Alberto Fassi, Fondatore Legami",
+          "date": "2026-11-03",
+          "seconds": 1449,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/LEGAMI-Le-Penne-Cancellabili-Italiane-da-380-MILIONI--Alberto-Fassi--Fondatore-Legami-e3rm1bh"
+        },
+        {
+          "title": "L’Italiano che Ha Creato le WINX e Fattura €120 MILIONI 🧚 Iginio Straffi, Rainbow",
+          "date": "2026-10-27",
+          "seconds": 2089,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/LItaliano-che-Ha-Creato-le-WINX-e-Fattura-120-MILIONI--Iginio-Straffi--Rainbow-e3r6bnv"
+        },
+        {
+          "title": "La più Grande Azienda di S€x Toys in Italia Fa €11 MILIONI 🍑 My Secret Case - Live @ Casa Spotify",
+          "date": "2026-10-20",
+          "seconds": 1564,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/La-pi-Grande-Azienda-di-Sx-Toys-in-Italia-Fa-11-MILIONI--My-Secret-Case---Live--Casa-Spotify-e3qq9oo"
+        },
+        {
+          "title": "Da €30 MILIONI di Debiti all'Azienda di Valigie più Grande d'Italia🎒 Marco Palmieri, Piquadro",
+          "date": "2026-10-13",
+          "seconds": 1918,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/Da-30-MILIONI-di-Debiti-allAzienda-di-Valigie-pi-Grande-dItalia-Marco-Palmieri--Piquadro-e3qed2g"
+        },
+        {
+          "title": "Toys Center: la Catena di Giocattoli da €1.2 MILIARDI dietro ai Gormiti e Cicciobello 🧸",
+          "date": "2026-10-06",
+          "seconds": 1502,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/Toys-Center-la-Catena-di-Giocattoli-da-1-2-MILIARDI-dietro-ai-Gormiti-e-Cicciobello-e3q037u"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:41.454Z"
+  },
   "podcast:chiedilo alla storia": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/chiedilo-alla-storia-intesa-sanpaolo-on-air/id1688392438",
@@ -1033,6 +1220,53 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:18:55.353Z"
+  },
+  "podcast:dentro il mistero": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/dentro-il-mistero/id1823679448",
+      "genres": [
+        "True crime",
+        "Storia"
+      ],
+      "episodes": 53,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/cd/2a/2fcd2a18-63bb-c96c-6808-cd7efc606572/mza_378064537378505191.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MNTHA1677259258",
+      "description": "Un podcast di giornalismo investigativo (o true crime, se preferite) che non si limita a raccontare una storia, ma compie un'analisi di ciò che è successo. Scomponendo e ricomponendo i pezzi, le verità, le possibilità, le psicologie, per cercare una risposta a ciò che accadde, per entrare dentro il mistero.\nForse hai paura di diventare una vittima. Forse hai paura di diventare un assassino. Quello che troverai qui sono tutte le risposte possibili al perché alcuni lo divennero.\nSenza dimenticare questo: che non avremo mai tutte le risposte.\n\"Dentro il mistero\" esce ogni due settimane, di sabato, per la precisione alle 7 di mattina.\nFabio Sanvitale è un giornalista investigativo, criminologo, scrittore di true crime e docente.\nPer contatti: dentroilmistero@hotmail.com YouTube\nLinkedinInstagramFacebook\nSubstack“Dentro il Mistero” ha finalità informative, giornalistiche, di intrattenimento e viene realizzato nell'esercizio del diritto di cronaca e critica tutelato dall'art. 21 della Costituzione.",
+      "website": "https://www.spreaker.com/podcast/dentro-il-mistero--6661956",
+      "latest": [
+        {
+          "title": "Antonella Falcidia. Cercare l'assassino sbagliato.",
+          "date": "2026-11-07",
+          "seconds": 2091,
+          "url": null
+        },
+        {
+          "title": "Che fine hanno fatto le case dei delitti? Ep. 3",
+          "date": "2026-10-31",
+          "seconds": 1853,
+          "url": null
+        },
+        {
+          "title": "Massimo Vichi. Il professore di Aosta.",
+          "date": "2026-10-24",
+          "seconds": 2064,
+          "url": null
+        },
+        {
+          "title": "Daniele Gravili. L'assassino è tra noi.",
+          "date": "2026-10-17",
+          "seconds": 1708,
+          "url": null
+        },
+        {
+          "title": "Pietro Peruffo. Due figlie fanno giustizia.",
+          "date": "2026-10-10",
+          "seconds": 2051,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:53.400Z"
   },
   "podcast:di nuovo barbero": {
     "value": {
@@ -1527,12 +1761,18 @@
         "Economia",
         "Marketing"
       ],
-      "episodes": 139,
+      "episodes": 140,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dc/4a/6a/dc4a6aab-660b-f7d2-7531-3c8a8f80b220/mza_5413545339081014451.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/MCA5782672802",
       "description": "Intervistiamo il Guru di ogni settore 🎪🤹",
       "website": "https://gurulandia.buzzsprout.com",
       "latest": [
+        {
+          "title": "“VANNACCI, FARÒ DI TUTTO PER MANDARLO IN PRIGIONE\" - Con Carlo Calenda",
+          "date": "2026-11-04",
+          "seconds": 4919,
+          "url": null
+        },
         {
           "title": "“UN MARXISTA E UN LIBERALE” - Con Giuseppe Cruciani e Luca Sommi",
           "date": "2026-10-27",
@@ -1556,16 +1796,10 @@
           "date": "2026-07-21",
           "seconds": 5103,
           "url": null
-        },
-        {
-          "title": "“VANNACCI SARÀ DECISIVO ALLE PROSSIME ELEZIONI” - Con Andrea Scanzi",
-          "date": "2026-07-14",
-          "seconds": 4567,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-01T05:04:55.792Z"
+    "fetchedAt": "2026-11-08T05:08:35.703Z"
   },
   "podcast:i profeti del codice": {
     "value": {
@@ -2670,49 +2904,49 @@
   },
   "podcast:partners in true crime": {
     "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/partners-in-true-crime/id1802163963",
+      "appleUrl": "https://podcasts.apple.com/it/podcast/partners-in-true-crime-uk/id1568526436",
       "genres": [
         "True crime"
       ],
-      "episodes": 50,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/3c/e6/1b3ce69e-426e-1d50-a179-58ced31c0bec/mza_12287945269406338971.jpg/600x600bb.jpg",
-      "feedUrl": "https://anchor.fm/s/10209254c/podcast/rss",
-      "description": "Partners in True Crime è il podcast in cui Elisa racconta a Edoardo i casi e le storie più sconvolgenti, mentre lui reagisce e commenta senza filtri.\nUn viaggio tra misteri e colpi di scena * particolarmente scioccanti * attraverso le dinamiche di una coppia che condivide la passione per il True crime.\nDue venerdì al mese un nuovo episodio",
-      "website": "https://www.youtube.com/@partnersintruecrime",
+      "episodes": 9,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/00/3e/c2/003ec2e1-6a1d-1ce2-3e76-8c298c91c163/mza_13709695421719622981.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/5b920954/podcast/rss",
+      "description": "Husband and Wife, talk all things True Crime.",
+      "website": "https://podcasters.spotify.com/pod/show/pitcuk",
       "latest": [
         {
-          "title": "RUTH THALÍA: QUANTO VALE LA TUA VERITÀ? EP.38",
-          "date": "2026-10-23",
-          "seconds": 2742,
-          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/RUTH-THALA-QUANTO-VALE-LA-TUA-VERIT--EP-38-e3qtjj9"
+          "title": "University of Idaho - Quadruple Murders - PT 1",
+          "date": "2023-01-16",
+          "seconds": 3609,
+          "url": "https://podcasters.spotify.com/pod/show/pitcuk/episodes/University-of-Idaho---Quadruple-Murders---PT-1-e1tfmku"
         },
         {
-          "title": "LA MAESTRA CHE HA SCONVOLTO L'AMERICA | EP. 37",
-          "date": "2026-10-09",
-          "seconds": 3454,
-          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/LA-MAESTRA-CHE-HA-SCONVOLTO-LAMERICA--EP--37-e3q34q1"
+          "title": "The Disappearance of Amy Bradley",
+          "date": "2021-06-14",
+          "seconds": 3496,
+          "url": "https://podcasters.spotify.com/pod/show/pitcuk/episodes/The-Disappearance-of-Amy-Bradley-e12k6tc"
         },
         {
-          "title": "LA VERA STORIA DEI BAMBINI CON GLI OCCHI GRANDI | EP.36",
-          "date": "2026-09-25",
-          "seconds": 3101,
-          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/LA-VERA-STORIA-DEI-BAMBINI-CON-GLI-OCCHI-GRANDI--EP-36-e3pavuc"
+          "title": "The Grindr Killer",
+          "date": "2021-06-10",
+          "seconds": 2592,
+          "url": "https://podcasters.spotify.com/pod/show/pitcuk/episodes/The-Grindr-Killer-e12fnu2"
         },
         {
-          "title": "DAVID NON LO DEVE SAPERE | EP. 35",
-          "date": "2026-09-11",
-          "seconds": 3552,
-          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/DAVID-NON-LO-DEVE-SAPERE--EP--35-e3olben"
+          "title": "The disappearance of Brandon Lawson",
+          "date": "2021-06-07",
+          "seconds": 4130,
+          "url": "https://podcasters.spotify.com/pod/show/pitcuk/episodes/The-disappearance-of-Brandon-Lawson-e129fqr"
         },
         {
-          "title": "AMERICAN STONEHENGE: 10 COMANDAMENTI PER LA FINE DEL MONDO? 🗿 | EP. 34",
-          "date": "2026-07-31",
-          "seconds": 3449,
-          "url": "https://podcasters.spotify.com/pod/show/partnersintruecrime/episodes/AMERICAN-STONEHENGE-10-COMANDAMENTI-PER-LA-FINE-DEL-MONDO----EP--34-e3mor76"
+          "title": "Lauren Agee Part 2",
+          "date": "2021-06-03",
+          "seconds": 1691,
+          "url": "https://podcasters.spotify.com/pod/show/pitcuk/episodes/Lauren-Agee-Part-2-e11sa47"
         }
       ]
     },
-    "fetchedAt": "2026-11-01T05:04:52.974Z"
+    "fetchedAt": "2026-11-08T05:08:56.452Z"
   },
   "podcast:passa dal bsmt": {
     "value": {
@@ -2760,6 +2994,54 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:17:55.615Z"
+  },
+  "podcast:phastidio podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/phastidio-podcast/id1485097768",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News",
+        "Politica"
+      ],
+      "episodes": 331,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c5/19/a2/c519a21e-782f-808b-758a-f98e16c3b829/mza_7256711836556823119.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/4672101/episodes/feed",
+      "description": "\"Andrà molto peggio, prima di andare meglio\"\nUn post di Phastidio ma parlato anziché scritto\nDiventa un supporter di questo podcast: https://www.spreaker.com/podcast/phastidio-podcast--4672101/support.",
+      "website": "https://phastidio.net",
+      "latest": [
+        {
+          "title": "La settimana phastidiosa - 7 novembre 2026",
+          "date": "2026-11-07",
+          "seconds": 5054,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-7-novembre-2026--76207371"
+        },
+        {
+          "title": "La settimana phastidiosa - 31 ottobre 2026",
+          "date": "2026-10-31",
+          "seconds": 5122,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-31-ottobre-2026--76084356"
+        },
+        {
+          "title": "La settimana phastidiosa - 24 ottobre 2026",
+          "date": "2026-10-24",
+          "seconds": 5165,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-24-ottobre-2026--75936466"
+        },
+        {
+          "title": "La settimana phastidiosa - 17 ottobre 2026",
+          "date": "2026-10-17",
+          "seconds": 4886,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-17-ottobre-2026--75821131"
+        },
+        {
+          "title": "La settimana phastidiosa - 10 ottobre 2026",
+          "date": "2026-10-10",
+          "seconds": 4889,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-10-ottobre-2026--75665497"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:08:44.596Z"
   },
   "podcast:philosophize this": {
     "value": {
@@ -2946,35 +3228,6 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:17:46.274Z"
-  },
-  "podcast:quello che il potere non dice": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/quello-che-il-potere-non-dice/id6825042769",
-      "genres": [
-        "Governo",
-        "Cultura e società"
-      ],
-      "episodes": 2,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1a/0c/ca/1a0cca44-0576-e03c-2eb0-828595a83bbf/mza_13750054731244506935.jpeg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/BCS4096689014",
-      "description": "Ogni giorno leggiamo le dichiarazioni dei politici, seguiamo gli scontri tra i partiti e ascoltiamo le promesse di chi ci governa. Ma che cosa succede davvero dietro le quinte della politica? Come si arriva alle decisioni che cambiano le nostre vite? E che cosa resta fuori dai racconti ufficiali?\nQuello che il potere non dice prova a rispondere a queste domande attraverso le voci di chi il potere lo esercita o lo conosce da vicino. Ogni settimana Chiara Albanese, giornalista di Bloomberg News, incontra uno dei protagonisti della politica e delle istituzioni italiane per andare oltre le dichiarazioni pubbliche e i titoli dei giornali.\nAl centro delle conversazioni ci sono le scelte che riguardano il Paese, gli interessi che le condizionano, i rapporti personali e politici che contano quando bisogna decidere. Le interviste partono dall'attualità e si confrontano con fatti, numeri e promesse, per capire che cosa funziona, che cosa non funziona e quali conseguenze hanno le decisioni di chi governa.\nUno sguardo sulla politica raccontata da chi la fa, con le domande di chi cerca di capire che cosa si nasconde dietro le parole del potere.",
-      "website": null,
-      "latest": [
-        {
-          "title": "Gualtieri: come si risolve la crisi della casa a Roma",
-          "date": "2026-10-28",
-          "seconds": 1668,
-          "url": null
-        },
-        {
-          "title": "Lollobrigida: come difendere il Made in Italy dai dazi di Trump",
-          "date": "2026-10-20",
-          "seconds": 1534,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-01T05:04:58.563Z"
   },
   "podcast:qui si fa l italia": {
     "value": {

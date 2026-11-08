@@ -664,6 +664,25 @@
     },
     "fetchedAt": "2026-10-26T04:49:14.611Z"
   },
+  "fulminacci": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Fulminacci",
+        "url": "https://it.wikipedia.org/wiki/Fulminacci",
+        "extract": "Fulminacci, pseudonimo di Filippo Uttinacci (Roma, 12 settembre 1997), è un cantautore italiano.\n\nDopo aver esordito nel 2019 con l'album di debutto La vita veramente, ha partecipato due volte al Festival di Sanremo, venendo riconosciuto nell'edizione del 2026 con il Premio della Critica \"Mia Martini\" per il brano Stupida sfortuna. È stato inoltre premiato con una Targa Tenco, un Premio MEI e un Videoclip Italia Award."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fulminacci_%28headshot%29.jpg/500px-Fulminacci_%28headshot%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Fulminacci_(headshot).jpg",
+        "author": "Ferdinando Traversa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/fulminacci/1448246762"
+    },
+    "fetchedAt": "2026-11-08T05:03:25.570Z"
+  },
   "gabry ponte": {
     "value": {
       "wiki": {

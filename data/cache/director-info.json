@@ -2816,6 +2816,49 @@
     },
     "fetchedAt": "2026-10-25T04:47:01.900Z"
   },
+  "cathryn michon": {
+    "value": {
+      "tmdbId": 1382199,
+      "wiki": {
+        "lang": "en",
+        "title": "Cathryn Michon",
+        "url": "https://en.wikipedia.org/wiki/Cathryn_Michon",
+        "extract": "Cathryn Michon is a Los Angeles-based filmmaker, actress, writer, blogger and stand-up comic. She has been featured at the Montreal Comedy Festival, the Toyota Comedy Festival and the Marshall’s Women in Comedy Festival."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cathryn_Headshot_2019.jpg/500px-Cathryn_Headshot_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Cathryn_Headshot_2019.jpg",
+        "author": "Cameron Productions",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1570488,
+          "title": "Un cucciolo per Natale",
+          "year": "2026"
+        },
+        {
+          "id": 1632888,
+          "title": "I’m Still Here: A Dog’s Purpose Forever",
+          "year": "2025"
+        },
+        {
+          "id": 370301,
+          "title": "Cook-Off!",
+          "year": "2017"
+        },
+        {
+          "id": 301229,
+          "title": "Muffin Top: A Love Story",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:03:54.592Z"
+  },
   "cathy garcia sampana": {
     "value": {
       "tmdbId": 93106,
@@ -8175,6 +8218,33 @@
     },
     "fetchedAt": "2026-10-18T17:58:06.100Z"
   },
+  "hamish grieve": {
+    "value": {
+      "tmdbId": 2414721,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1138290,
+          "title": "Meet the Flinstones",
+          "year": null
+        },
+        {
+          "id": 1662511,
+          "title": "Daffy Season",
+          "year": "2026"
+        },
+        {
+          "id": 598331,
+          "title": "Steve - Un mostro a tutto ritmo",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:03:53.137Z"
+  },
   "harris dickinson": {
     "value": {
       "tmdbId": 1716493,
@@ -12115,6 +12185,69 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.642Z"
+  },
+  "lee chang dong": {
+    "value": {
+      "tmdbId": 96657,
+      "wiki": {
+        "lang": "it",
+        "title": "Lee Chang-dong",
+        "url": "https://it.wikipedia.org/wiki/Lee_Chang-dong",
+        "extract": "Lee Chang-dong (pron. AFI: [iː‿t͡ɕʰaŋːtoŋ]; 이창동?, 李滄東?, I Chang-dongLR, Yi Ch'angdongMR; Daegu, 1 aprile 1954) è un regista, sceneggiatore e scrittore sudcoreano.\n\nOriginariamente una figura di spicco nella letteratura coreana fra anni ottanta e anni novanta, dalla fine di quest'ultimi è diventato uno dei principali autori drammatici del cinema sudcoreano, imponendosi a livello internazionale nel 2002 con il film Oasis. È stato il Ministro della cultura del governo Roh Moo-hyun dal 2003 al 2004."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Lee_Chang-dong-2538.jpg/500px-Lee_Chang-dong-2538.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lee_Chang-dong-2538.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1483525,
+          "title": "Possible Love",
+          "year": "2026"
+        },
+        {
+          "id": 953535,
+          "title": "심장소리",
+          "year": "2022"
+        },
+        {
+          "id": 491584,
+          "title": "Burning - L'amore brucia",
+          "year": "2018"
+        },
+        {
+          "id": 47909,
+          "title": "Poetry",
+          "year": "2010"
+        },
+        {
+          "id": 2015,
+          "title": "Secret Sunshine",
+          "year": "2007"
+        },
+        {
+          "id": 26955,
+          "title": "Oasis",
+          "year": "2002"
+        },
+        {
+          "id": 41245,
+          "title": "Peppermint Candy",
+          "year": "2000"
+        },
+        {
+          "id": 95482,
+          "title": "Green Fish",
+          "year": "1997"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:03:55.456Z"
   },
   "lee unkrich": {
     "value": {
@@ -20498,6 +20631,36 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:37:11.408Z"
+  },
+  "todd wilderman": {
+    "value": {
+      "tmdbId": 74948,
+      "wiki": null,
+      "bio": {
+        "text": "Todd Wilderman (born June 9, 1973) is an American animation director, writer, story artist, and animator who has spent over 25 years working with major Hollywood animation studios like Sony Pictures Imageworks, DreamWorks Animation, and Warner Bros. Animation.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/2ioIstw2PrDyuRAfae9zARZrgwm.jpg",
+      "films": [
+        {
+          "id": 1138290,
+          "title": "Meet the Flinstones",
+          "year": null
+        },
+        {
+          "id": 1662511,
+          "title": "Daffy Season",
+          "year": "2026"
+        },
+        {
+          "id": 256346,
+          "title": "Almost Home",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-08T05:03:52.185Z"
   },
   "tom hooper": {
     "value": {

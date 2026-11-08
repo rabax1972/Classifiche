@@ -905,6 +905,23 @@
     },
     "fetchedAt": "2026-10-17T07:38:18.413Z"
   },
+  "goya|fabri fibra": {
+    "value": {
+      "album": "Mentre Los Angeles Brucia (Deluxe)",
+      "released": "2026-06-19",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 175557,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/ad/ea/26adea17-4a15-1810-af8c-b8b995a5c5bb/196874509517.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/goya-feat-pinguini-tattici-nucleari/6778773450?i=6778773783",
+      "wiki": {
+        "lang": "it",
+        "title": "Goya (singolo)",
+        "url": "https://it.wikipedia.org/wiki/Goya_(singolo)",
+        "extract": "Goya è un singolo del rapper italiano Fabri Fibra, pubblicato il 21 agosto 2026 come unico estratto dall'edizione deluxe dell'undicesimo album in studio Mentre Los Angeles brucia."
+      }
+    },
+    "fetchedAt": "2026-11-08T05:03:20.193Z"
+  },
   "halo|samurai jay": {
     "value": {
       "album": "Halo",
@@ -1877,6 +1894,23 @@
       "wiki": null
     },
     "fetchedAt": "2026-10-31T04:54:39.992Z"
+  },
+  "stupida sfortuna|fulminacci": {
+    "value": {
+      "album": "Stupida sfortuna",
+      "released": "2026-02-25",
+      "genre": "Pop",
+      "durationMs": 175013,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/ce/f7/a1cef77f-d105-1813-f1a4-6e0270143e42/5026854668253.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/stupida-sfortuna/1876902009?i=1876902325",
+      "wiki": {
+        "lang": "it",
+        "title": "Stupida sfortuna",
+        "url": "https://it.wikipedia.org/wiki/Stupida_sfortuna",
+        "extract": "Stupida sfortuna è un singolo del cantautore italiano Fulminacci, pubblicato il 25 febbraio 2026 come quarto estratto dal quarto album in studio Calcinacci.\n\nIl brano è stato presentato in gara durante la 76ª edizione del Festival di Sanremo, posizionandosi al settimo posto della classifica finale e aggiudicandosi inoltre il Premio della Critica \"Mia Martini\"."
+      }
+    },
+    "fetchedAt": "2026-11-08T05:03:22.651Z"
   },
   "swag music|artie 5ive": {
     "value": {
