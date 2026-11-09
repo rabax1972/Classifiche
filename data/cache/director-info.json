@@ -5211,6 +5211,74 @@
     },
     "fetchedAt": "2026-10-17T09:32:06.712Z"
   },
+  "david robert mitchell": {
+    "value": {
+      "tmdbId": 558929,
+      "wiki": {
+        "lang": "it",
+        "title": "David Robert Mitchell",
+        "url": "https://it.wikipedia.org/wiki/David_Robert_Mitchell",
+        "extract": "David Robert Mitchell (Clawson, 19 ottobre 1974) è un regista e sceneggiatore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/David_Robert_Mitchell.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Robert_Mitchell.jpg",
+        "author": "larry-411",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1198577,
+          "title": "They Follow",
+          "year": null
+        },
+        {
+          "id": 1199883,
+          "title": "Evergreen Pines and the Fading Summer",
+          "year": null
+        },
+        {
+          "id": 677095,
+          "title": "Ella Walks the Beach",
+          "year": null
+        },
+        {
+          "id": 706579,
+          "title": "Heroes & Villains",
+          "year": null
+        },
+        {
+          "id": 1101383,
+          "title": "La fine di Oak Street",
+          "year": "2026"
+        },
+        {
+          "id": 396461,
+          "title": "Under the Silver Lake",
+          "year": "2018"
+        },
+        {
+          "id": 270303,
+          "title": "It Follows",
+          "year": "2015"
+        },
+        {
+          "id": 70588,
+          "title": "The Myth of the American Sleepover",
+          "year": "2011"
+        },
+        {
+          "id": 401175,
+          "title": "Virgin",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-09T05:19:25.174Z"
+  },
   "david yates": {
     "value": {
       "tmdbId": 11343,
@@ -6358,6 +6426,79 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.208Z"
+  },
+  "federico zampaglione": {
+    "value": {
+      "tmdbId": 118581,
+      "wiki": {
+        "lang": "it",
+        "title": "Federico Zampaglione",
+        "url": "https://it.wikipedia.org/wiki/Federico_Zampaglione",
+        "extract": "Federico Zampaglione (Roma, 29 giugno 1968) è un cantautore, chitarrista, regista e sceneggiatore italiano, frontman dei Tiromancino."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Federico_Zampaglione.jpg/500px-Federico_Zampaglione.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Federico_Zampaglione.jpg",
+        "author": "Marino Casini from Salerno, Italia",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1559992,
+          "title": "La bambola dagli occhi di cristallo",
+          "year": null
+        },
+        {
+          "id": 1511829,
+          "title": "The Nameless Ballad",
+          "year": "2026"
+        },
+        {
+          "id": 1091267,
+          "title": "The Well",
+          "year": "2024"
+        },
+        {
+          "id": 765490,
+          "title": "Morrison",
+          "year": "2021"
+        },
+        {
+          "id": 710932,
+          "title": "Bianca - Fase 2",
+          "year": "2020"
+        },
+        {
+          "id": 710929,
+          "title": "Bianca",
+          "year": "2020"
+        },
+        {
+          "id": 487618,
+          "title": "Una serata speciale",
+          "year": "2017"
+        },
+        {
+          "id": 128452,
+          "title": "Tulpa - Perdizioni mortali",
+          "year": "2012"
+        },
+        {
+          "id": 37813,
+          "title": "Shadow - L'ombra",
+          "year": "2009"
+        },
+        {
+          "id": 52074,
+          "title": "Nero bifamiliare",
+          "year": "2007"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-09T05:19:24.192Z"
   },
   "fernando meirelles": {
     "value": {
@@ -19812,6 +19953,71 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:13:24.643Z"
+  },
+  "susana garcia": {
+    "value": {
+      "tmdbId": 1706418,
+      "wiki": null,
+      "bio": {
+        "text": "Susana Garcia Assis is a Brazilian filmmaker and writer.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/o5hcdEO1mpkQmwnzKZhgLgk13h7.jpg",
+      "films": [
+        {
+          "id": 1257142,
+          "title": "Minha Vida em Marte 2",
+          "year": null
+        },
+        {
+          "id": 1775041,
+          "title": "Minha Melhor Amiga 2",
+          "year": null
+        },
+        {
+          "id": 1492730,
+          "title": "Minha Irmã e Eu 2",
+          "year": null
+        },
+        {
+          "id": 1257147,
+          "title": "La mia migliore amica",
+          "year": "2026"
+        },
+        {
+          "id": 1061240,
+          "title": "Minha Irmã e Eu",
+          "year": "2023"
+        },
+        {
+          "id": 1103787,
+          "title": "O Primeiro Natal do Mundo",
+          "year": "2023"
+        },
+        {
+          "id": 994468,
+          "title": "Filho da Mãe",
+          "year": "2022"
+        },
+        {
+          "id": 760163,
+          "title": "220 Volts: Especial de Fim de Ano",
+          "year": "2020"
+        },
+        {
+          "id": 620683,
+          "title": "Minha Mãe é uma Peça 3: O Filme",
+          "year": "2019"
+        },
+        {
+          "id": 564427,
+          "title": "Minha Vida em Marte",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-09T05:19:26.884Z"
   },
   "susanne bier": {
     "value": {

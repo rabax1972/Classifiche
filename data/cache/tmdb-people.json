@@ -1247,6 +1247,10 @@
     "value": "Klaas de Jong",
     "fetchedAt": "2026-10-21T04:46:17.208Z"
   },
+  "movie:1669915": {
+    "value": "Julio Quintana",
+    "fetchedAt": "2026-11-09T05:18:49.727Z"
+  },
   "movie:1678120": {
     "value": "Massimiliano Bruno",
     "fetchedAt": "2026-10-28T05:02:23.237Z"
@@ -1466,6 +1470,14 @@
   "movie:1797226": {
     "value": "Park Sang-geun, Kim Jin-eui",
     "fetchedAt": "2026-10-21T04:46:15.011Z"
+  },
+  "movie:1798383": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:49.825Z"
+  },
+  "movie:1798852": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:48.717Z"
   },
   "movie:1802674": {
     "value": "Motonori Sakakibara",
@@ -2359,6 +2371,10 @@
     "value": "Taylor Sheridan",
     "fetchedAt": "2026-10-16T04:44:17.773Z"
   },
+  "tv:154770": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:50.729Z"
+  },
   "tv:1622": {
     "value": "Eric Kripke",
     "fetchedAt": "2026-10-12T07:24:46.124Z"
@@ -2390,6 +2406,10 @@
   "tv:1877": {
     "value": "Dan Povenmire, Jeff 'Swampy' Marsh",
     "fetchedAt": "2026-10-19T04:45:39.571Z"
+  },
+  "tv:1900": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:50.429Z"
   },
   "tv:1911": {
     "value": "Hart Hanson",
@@ -2498,6 +2518,10 @@
   "tv:222176": {
     "value": "Michel Catz",
     "fetchedAt": "2026-10-19T12:51:52.207Z"
+  },
+  "tv:223397": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:50.327Z"
   },
   "tv:223911": {
     "value": "耳根",
@@ -2614,6 +2638,10 @@
   "tv:252886": {
     "value": null,
     "fetchedAt": "2026-11-05T05:11:39.509Z"
+  },
+  "tv:253372": {
+    "value": "Benjamin Cavell",
+    "fetchedAt": "2026-11-09T05:18:50.224Z"
   },
   "tv:253376": {
     "value": "Naomi Sheldon, Gabbie Asher",
@@ -2775,6 +2803,10 @@
     "value": "Ryan Murphy, Tim Minear",
     "fetchedAt": "2026-10-17T04:42:35.891Z"
   },
+  "tv:285250": {
+    "value": null,
+    "fetchedAt": "2026-11-09T05:18:50.632Z"
+  },
   "tv:285322": {
     "value": "Jesse McKeown",
     "fetchedAt": "2026-10-12T07:24:58.204Z"
@@ -2910,6 +2942,10 @@
   "tv:298852": {
     "value": "George Kay",
     "fetchedAt": "2026-10-13T04:34:40.463Z"
+  },
+  "tv:299276": {
+    "value": "孙忠怀, 許濤",
+    "fetchedAt": "2026-11-09T05:18:50.527Z"
   },
   "tv:299939": {
     "value": "Ian Brennan",

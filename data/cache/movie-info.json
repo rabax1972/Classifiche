@@ -18669,6 +18669,121 @@
     },
     "fetchedAt": "2026-10-18T17:56:58.617Z"
   },
+  "la fine di oak street|david robert mitchell 2026": {
+    "value": {
+      "tmdbId": 1101383,
+      "title": "La fine di Oak Street",
+      "overview": "Quando un misterioso evento cosmico strappa Oak Street dalla periferia e trasporta l’intero quartiere in un luogo sconosciuto, la famiglia Platt si rende presto conto che la propria sopravvivenza dipende dalla capacità di restare uniti cercando di orientarsi in un ambiente ormai irriconoscibile.",
+      "overviewLang": "it",
+      "tagline": "Dove va il quartiere.",
+      "originalTitle": "The End of Oak Street",
+      "genres": [
+        "Fantascienza",
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 99,
+      "released": "2026-08-12",
+      "vote": 7.1,
+      "votes": 2342,
+      "poster": "https://image.tmdb.org/t/p/w500/54mt6Tg2Hj4M9A4mpkGrLktTiJR.jpg",
+      "directors": [
+        {
+          "id": 558929,
+          "name": "David Robert Mitchell"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Anne Hathaway",
+          "character": "Denise Platt"
+        },
+        {
+          "name": "Ewan McGregor",
+          "character": "Greg Platt"
+        },
+        {
+          "name": "Maisy Stella",
+          "character": "Audrey Platt"
+        },
+        {
+          "name": "Christian Convery",
+          "character": "Brian Platt"
+        },
+        {
+          "name": "Jordan Alexa Davis",
+          "character": "Jeannette Christiansen"
+        },
+        {
+          "name": "P.J. Byrne",
+          "character": "Mel Jacobs"
+        },
+        {
+          "name": "Hudson Meek",
+          "character": "Kaden Tucker"
+        },
+        {
+          "name": "Anne Gee Byrd",
+          "character": "Mrs. Huddleston"
+        }
+      ],
+      "trailer": "TR9hY0wbFsk",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1101383-the-end-of-oak-street/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-09T05:19:23.648Z"
+  },
   "la finestra sul cortile|alfred hitchcock 1954": {
     "value": {
       "tmdbId": 567,
@@ -19249,6 +19364,77 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.589Z"
+  },
+  "la mia migliore amica|susana garcia 2026": {
+    "value": {
+      "tmdbId": 1257147,
+      "title": "La mia migliore amica",
+      "overview": "Due grandi amiche con la sindrome del nido vuoto seguono le figlie adolescenti in Portogallo, dove troveranno l'amore, il divertimento e un nuovo significato della parola amicizia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Minha Melhor Amiga",
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 125,
+      "released": "2026-09-03",
+      "vote": 7.8,
+      "votes": 42,
+      "poster": "https://image.tmdb.org/t/p/w500/6TWL1KEZUOMnwQe7ufncpLvSrfL.jpg",
+      "directors": [
+        {
+          "id": 1706418,
+          "name": "Susana Garcia"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ingrid Guimarães",
+          "character": "Clara"
+        },
+        {
+          "name": "Mônica Martelli",
+          "character": "Julia"
+        },
+        {
+          "name": "Giulia Benite",
+          "character": "Manu"
+        },
+        {
+          "name": "Gabi Amaral",
+          "character": "Isadora"
+        },
+        {
+          "name": "Ricardo Pereira",
+          "character": "Antônio - Médico"
+        },
+        {
+          "name": "Michel Melamed",
+          "character": "Breno"
+        },
+        {
+          "name": "Thaila Ayala",
+          "character": "Elisa"
+        },
+        {
+          "name": "Gustavo Machado",
+          "character": "André"
+        }
+      ],
+      "trailer": "h2WhwYa9PFs",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1257147-minha-melhor-amiga/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-09T05:19:23.751Z"
   },
   "la mia via|leo mccarey 1944": {
     "value": {
@@ -30379,6 +30565,63 @@
       "watch": null
     },
     "fetchedAt": "2026-10-17T09:30:33.541Z"
+  },
+  "the nameless ballad|federico zampaglione 2026": {
+    "value": {
+      "tmdbId": 1511829,
+      "title": "The Nameless Ballad",
+      "overview": "Sam Gallo è un giovane musicista di successo dalla personalità fragile e introversa. Schiacciato dalla pressione di dover creare nuove canzoni e tormentato da dipendenze che non riesce a superare, Sam si ritira in una villa italiana isolata in cerca di ispirazione. Ma le sue vulnerabilità lo rendono la preda perfetta per le presenze oscure che si nascondono nella casa: entità che si nutrono della sua angoscia e delle sue paure più profonde, trascinandolo in un labirinto di visioni, tormento e autodistruzione. Coinvolta in questa spirale di orrore è anche la sua compagna Tania.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror"
+      ],
+      "runtime": 90,
+      "released": "2026-11-05",
+      "vote": 4.1,
+      "votes": 6,
+      "poster": "https://image.tmdb.org/t/p/w500/g691fkK4mB5GCFziGG7gZP6oP2Y.jpg",
+      "directors": [
+        {
+          "id": 118581,
+          "name": "Federico Zampaglione"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jamie Ward",
+          "character": "Sam Gallo"
+        },
+        {
+          "name": "Alana Boden",
+          "character": "Tania"
+        },
+        {
+          "name": "Seumas F. Sargent",
+          "character": "Paul"
+        },
+        {
+          "name": "Sergio Ceglie",
+          "character": null
+        },
+        {
+          "name": "Vincenzo De Michele",
+          "character": null
+        },
+        {
+          "name": "Fabrizio Ferracane",
+          "character": null
+        },
+        {
+          "name": "Giglia Marra",
+          "character": null
+        }
+      ],
+      "trailer": "3L4riWh5VN4",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-09T05:19:23.569Z"
   },
   "the prestige|christopher nolan 2006": {
     "value": {

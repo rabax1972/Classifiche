@@ -861,6 +861,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "antonio franchini": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Antonio Franchini",
+        "url": "https://it.wikipedia.org/wiki/Antonio_Franchini",
+        "extract": "Antonio Franchini (Napoli, 1958) è un curatore editoriale e scrittore italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/antonio-franchini/467576913",
+      "died": null
+    },
+    "fetchedAt": "2026-11-09T05:19:22.880Z"
+  },
   "antonio lanzetta": {
     "value": {
       "wiki": {
@@ -1851,6 +1865,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "dario fabbri": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Dario Fabbri",
+        "url": "https://it.wikipedia.org/wiki/Dario_Fabbri",
+        "extract": "Dario Fabbri (26 agosto 1978) è un giornalista e analista geopolitico italiano, fondatore e direttore della rivista mensile di geopolitica Domino.\n\nHa collaborato con Limes e con i quotidiani La Stampa e Il Riformista."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Festival_di_Open_2024_05.jpg/500px-Festival_di_Open_2024_05.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Festival_di_Open_2024_05.jpg",
+        "author": "Canale ufficiale",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/dario-fabbri/1554081802",
+      "died": null
+    },
+    "fetchedAt": "2026-11-09T05:19:22.880Z"
+  },
   "david baldacci": {
     "value": {
       "wiki": {
@@ -1870,6 +1904,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "david pogue": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "David Pogue",
+        "url": "https://en.wikipedia.org/wiki/David_Pogue",
+        "extract": "David Welch Pogue (born March 9, 1963) is an American technology and science writer and TV presenter, and correspondent for CBS News Sunday Morning.\n\nHe has hosted 18 Nova specials on PBS, including Nova ScienceNow, the Making Stuff series in 2011 and 2013, and Hunting the Elements in 2012. Pogue has written or co-written seven books in the For Dummies series, and in 1999, he launched his own series of computer how-to books called the Missing Manual series, which now includes more than 100 titles. He also wrote The World According to Twitter (2009) and Pogue's Basics (2014), a New York Times bestseller.\n\nIn 2013, Pogue left The New York Times to join Yahoo!, where he created a new consumer-technology website. In 2018 he returned to the Times as the writer of the \"Crowdwise\" feature for the \"Smarter Living\" section."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/DavidPogueOct10.jpg/500px-DavidPogueOct10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:DavidPogueOct10.jpg",
+        "author": "Ed Schipul",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/david-pogue/364661571",
+      "died": null
+    },
+    "fetchedAt": "2026-11-09T05:19:22.880Z"
   },
   "dean koontz": {
     "value": {
@@ -4454,10 +4508,10 @@
     "value": {
       "wiki": null,
       "photo": null,
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/lily-red/1763426849",
       "died": null
     },
-    "fetchedAt": "2026-10-29T04:59:24.841Z"
+    "fetchedAt": "2026-11-09T05:19:19.796Z"
   },
   "linda castillo": {
     "value": {
@@ -4614,10 +4668,10 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       },
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/luca-di-fulvio/417949788",
       "died": 2023
     },
-    "fetchedAt": "2026-11-04T05:15:08.084Z"
+    "fetchedAt": "2026-11-09T05:19:19.796Z"
   },
   "lucy king": {
     "value": {
