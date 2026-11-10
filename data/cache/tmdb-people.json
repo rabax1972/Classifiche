@@ -15,6 +15,10 @@
     "value": "Domingo González",
     "fetchedAt": "2026-10-12T07:24:41.794Z"
   },
+  "movie:101299": {
+    "value": "Francis Lawrence",
+    "fetchedAt": "2026-11-10T05:03:00.527Z"
+  },
   "movie:10138": {
     "value": "Jon Favreau",
     "fetchedAt": "2026-10-12T07:24:40.757Z"
@@ -571,6 +575,10 @@
     "value": "Andrea Corsini",
     "fetchedAt": "2026-11-04T05:13:43.530Z"
   },
+  "movie:1366": {
+    "value": "John G. Avildsen",
+    "fetchedAt": "2026-11-10T05:03:00.623Z"
+  },
   "movie:1368166": {
     "value": "Paul Feig",
     "fetchedAt": "2026-10-12T07:24:41.668Z"
@@ -699,6 +707,10 @@
     "value": "Giovanni Tortorici",
     "fetchedAt": "2026-10-12T07:24:32.541Z"
   },
+  "movie:1402181": {
+    "value": "Jithu Madhavan",
+    "fetchedAt": "2026-11-10T05:03:01.629Z"
+  },
   "movie:1403676": {
     "value": "Michel K. Parandi",
     "fetchedAt": "2026-11-05T05:11:38.211Z"
@@ -802,6 +814,10 @@
   "movie:1440769": {
     "value": "Timo Tjahjanto",
     "fetchedAt": "2026-10-16T04:44:16.173Z"
+  },
+  "movie:1447420": {
+    "value": "Patricia Ortega",
+    "fetchedAt": "2026-11-10T05:03:01.534Z"
   },
   "movie:1447853": {
     "value": "Dylan Southern, Will Lovelace",
@@ -1031,6 +1047,10 @@
     "value": "Thomas Vincent",
     "fetchedAt": "2026-10-16T04:44:15.949Z"
   },
+  "movie:1562642": {
+    "value": "William Eubank",
+    "fetchedAt": "2026-11-10T05:03:01.424Z"
+  },
   "movie:1562777": {
     "value": "Michael Dowse",
     "fetchedAt": "2026-10-28T05:02:24.943Z"
@@ -1146,6 +1166,10 @@
   "movie:1615596": {
     "value": "Ken Sanzel",
     "fetchedAt": "2026-11-07T05:03:33.722Z"
+  },
+  "movie:1616419": {
+    "value": "Tristan Séguéla",
+    "fetchedAt": "2026-11-10T05:03:01.327Z"
   },
   "movie:161803": {
     "value": "Murat Dündar",
@@ -2363,6 +2387,10 @@
     "value": "Seth MacFarlane",
     "fetchedAt": "2026-10-12T07:24:45.609Z"
   },
+  "tv:1489": {
+    "value": null,
+    "fetchedAt": "2026-11-10T05:03:02.029Z"
+  },
   "tv:15226": {
     "value": "Brijendrapal Singh",
     "fetchedAt": "2026-10-12T07:24:45.484Z"
@@ -2686,6 +2714,10 @@
   "tv:259909": {
     "value": "Clyde Phillips",
     "fetchedAt": "2026-10-15T04:42:55.625Z"
+  },
+  "tv:260823": {
+    "value": null,
+    "fetchedAt": "2026-11-10T05:03:02.429Z"
   },
   "tv:261102": {
     "value": null,
@@ -3107,6 +3139,10 @@
     "value": null,
     "fetchedAt": "2026-10-30T04:58:37.844Z"
   },
+  "tv:313738": {
+    "value": "두부",
+    "fetchedAt": "2026-11-10T05:03:02.129Z"
+  },
   "tv:314271": {
     "value": "LeSean Thomas",
     "fetchedAt": "2026-11-04T05:13:46.232Z"
@@ -3475,6 +3511,10 @@
     "value": "Keith Chapman",
     "fetchedAt": "2026-10-29T04:57:37.499Z"
   },
+  "tv:57775": {
+    "value": null,
+    "fetchedAt": "2026-11-10T05:03:02.525Z"
+  },
   "tv:58841": {
     "value": "Dick Wolf, Matt Olmstead",
     "fetchedAt": "2026-10-12T07:24:48.568Z"
@@ -3482,6 +3522,10 @@
   "tv:5920": {
     "value": "Bruno Heller",
     "fetchedAt": "2026-10-12T07:24:44.854Z"
+  },
+  "tv:59941": {
+    "value": null,
+    "fetchedAt": "2026-11-10T05:03:02.229Z"
   },
   "tv:60572": {
     "value": null,
@@ -3558,6 +3602,10 @@
   "tv:693": {
     "value": "Marc Cherry",
     "fetchedAt": "2026-10-12T07:24:50.101Z"
+  },
+  "tv:70672": {
+    "value": null,
+    "fetchedAt": "2026-11-10T05:03:02.321Z"
   },
   "tv:71712": {
     "value": "David Shore",

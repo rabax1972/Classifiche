@@ -1560,6 +1560,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "chiara cavini benedetti": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/chiara-cavini-benedetti/1488600022",
+      "died": null
+    },
+    "fetchedAt": "2026-11-10T05:04:01.728Z"
+  },
   "chiara gamberale": {
     "value": {
       "wiki": {
@@ -2147,6 +2156,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "elisabeth storrs": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/elisabeth-storrs/448134899",
+      "died": null
+    },
+    "fetchedAt": "2026-11-10T05:04:01.728Z"
   },
   "eliza j scott": {
     "value": {
@@ -3354,6 +3372,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-06T05:08:51.800Z"
+  },
+  "irene nemirovsky": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Irène Némirovsky",
+        "url": "https://it.wikipedia.org/wiki/Ir%C3%A8ne_N%C3%A9mirovsky",
+        "extract": "Irène Némirovsky (Kiev, 11 febbraio 1903 – Auschwitz, 17 agosto 1942) è stata una scrittrice francese di origine ebraica, vittima dell'Olocausto."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Irene_Nemirovsky_25yo.jpg/500px-Irene_Nemirovsky_25yo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Irene_Nemirovsky_25yo.jpg",
+        "author": "unknown, this is a scan of a family photo",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/ir%C3%A8ne-n%C3%A9mirovsky/141817437",
+      "died": 1942
+    },
+    "fetchedAt": "2026-11-10T05:04:01.728Z"
   },
   "isaac asimov": {
     "value": {
@@ -5533,6 +5571,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "oliver sacks": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Oliver Sacks",
+        "url": "https://it.wikipedia.org/wiki/Oliver_Sacks",
+        "extract": "Oliver Wolf Sacks (Londra, 9 luglio 1933 – New York, 30 agosto 2015) è stato un neurologo e scrittore britannico; dal 2012 è stato docente di neurologia presso la New York University School of Medicine.\n\nTra il 2007 e il 2012 ha insegnato neurologia e psichiatria alla Columbia University, dove, tra l'altro, era riconosciuto come Columbia Artist. In precedenza aveva trascorso diversi anni presso l'Albert Einstein College of Medicine della Yeshiva University di New York ed era stato anche professore esterno all'Università di Warwick, nel Regno Unito."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/9.13.09OliverSacksByLuigiNovi.jpg/500px-9.13.09OliverSacksByLuigiNovi.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:9.13.09OliverSacksByLuigiNovi.jpg",
+        "author": "Luigi Novi",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/oliver-sacks/265734056",
+      "died": 2015
+    },
+    "fetchedAt": "2026-11-10T05:04:01.728Z"
   },
   "olivia hayle": {
     "value": {

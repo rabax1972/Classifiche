@@ -1315,6 +1315,53 @@
     },
     "fetchedAt": "2026-11-06T05:13:56.869Z"
   },
+  "podcast:direful tales": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/direful-tales/id1544996218",
+      "genres": [
+        "True crime",
+        "Istruzione"
+      ],
+      "episodes": 354,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c0/ad/f2/c0adf2fd-3a9c-de17-6743-0e2669581b45/mza_6408399598496336356.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/direfultales",
+      "description": "Misteri irrisolti e omicidi efferati sono i temi principali di Direful Tales. Lasciatevi guidare dalla voce di Valentina e sollevate con noi il velo dell'ignoto.\nVISITA IL NOSTRO SITO: https://www.direfultales.com/\nSEGUI SU INSTAGRAM: @direfultales\nSOSTIENICI SU PATREON: patreon.com/ladireful\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/ — 📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
+      "website": "https://www.direfultales.com/",
+      "latest": [
+        {
+          "title": "(9X10) Macelleria Messicana - La Scuola Diaz",
+          "date": "2026-11-09",
+          "seconds": 2759,
+          "url": null
+        },
+        {
+          "title": "(9X09) Carlo Giuliani - Ragazzo",
+          "date": "2026-11-02",
+          "seconds": 2285,
+          "url": null
+        },
+        {
+          "title": "(9X08) Erika con la K - Erika Pierno",
+          "date": "2026-10-26",
+          "seconds": 2243,
+          "url": null
+        },
+        {
+          "title": "(9X07) La Strage di Altavilla - SECONDA PARTE",
+          "date": "2026-10-19",
+          "seconds": 2254,
+          "url": null
+        },
+        {
+          "title": "(9X06) La Strage di Altavilla - PRIMA PARTE",
+          "date": "2026-10-12",
+          "seconds": 1473,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-10T05:08:50.836Z"
+  },
   "podcast:don chisciotte": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/don-chisciotte/id1546749645",
@@ -1362,6 +1409,52 @@
       ]
     },
     "fetchedAt": "2026-11-07T05:09:34.815Z"
+  },
+  "podcast:dpen crimini": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/dpen-crimini/id1507448801",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 331,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/e8/c6/b5e8c67e-a488-9d26-4a0b-27640d3f583c/mza_4600444727411874338.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/DPENPODCAST2708549029",
+      "description": "Racconteremo nel dettaglio alcuni dei crimini italiani più famosi e celebri la cui ricostruzione, anche a distanza di anni, non è ancora chiara. Cercheremo di fare chiarezza sulle ricostruzioni più agghiaccianti di omicidi che hanno sconvolto l'opinione pubblica italiana. In tutti questi crimini il colpevole non ha confessato e non esiste la certezza assoluta della colpevolezza degli indagati. Dpen Crimini vuole indagare le profondità più oscure dell'animo umano.",
+      "website": "https://dpenpodcast.wixsite.com/website",
+      "latest": [
+        {
+          "title": "Valentina Salamone — La ragazza che non si è uccisa (Parte 1)",
+          "date": "2026-11-09",
+          "seconds": 3197,
+          "url": null
+        },
+        {
+          "title": "Antonella Di Veroli: le ipotesi (parte 3)",
+          "date": "2026-11-02",
+          "seconds": 3732,
+          "url": null
+        },
+        {
+          "title": "Antonella Di Veroli: il mistero più oscuro della cronaca nera romana (parte 2)",
+          "date": "2026-10-26",
+          "seconds": 3477,
+          "url": null
+        },
+        {
+          "title": "Antonella Di Veroli — Il mistero più oscuro della cronaca romana",
+          "date": "2026-10-19",
+          "seconds": 3211,
+          "url": null
+        },
+        {
+          "title": "La Ragazza Senza Ombre: chi ha ucciso Maura Fondacci (parte 2)",
+          "date": "2026-10-12",
+          "seconds": 3540,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-10T05:08:48.082Z"
   },
   "podcast:elisa true crime": {
     "value": {

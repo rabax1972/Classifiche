@@ -7171,6 +7171,93 @@
     },
     "fetchedAt": "2026-10-28T05:07:56.993Z"
   },
+  "l imperatrice risposata|2026": {
+    "value": {
+      "tmdbId": 279246,
+      "title": "L’imperatrice risposata",
+      "overview": "Al centro della storia c'è Navier, imperatrice irreprensibile dell’Impero d’Oriente, allontanata da un giorno all’altro dall’uomo che credeva di conoscere meglio di chiunque altro: suo marito, l’imperatore Sovieshu. La sua brusca caduta diventa tuttavia il punto di partenza di una rinascita inaspettata.",
+      "overviewLang": "it",
+      "tagline": "Accetto questo divorzio. E vi chiedo il permesso di risposarmi.",
+      "originalTitle": "재혼 황후",
+      "genres": [
+        "Dramma",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 53,
+      "firstAired": "2026-11-03",
+      "lastAired": "2026-11-03",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 10,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-03",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-11-11",
+        "season": 1,
+        "episode": 5
+      },
+      "networks": [
+        "Disney+"
+      ],
+      "vote": 7.9,
+      "votes": 31,
+      "poster": "https://image.tmdb.org/t/p/w500/fmHnoe3eKjfikufa1jxLPmiKZCb.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "신민아",
+          "character": "Navier Ellie Trovi"
+        },
+        {
+          "name": "주지훈",
+          "character": "Sovieshu Vict"
+        },
+        {
+          "name": "이종석",
+          "character": "Heinrey Alles Lazlo"
+        },
+        {
+          "name": "이세영",
+          "character": "Rashta Isqua"
+        },
+        {
+          "name": "남윤호",
+          "character": "Baron Lante"
+        },
+        {
+          "name": "차우민",
+          "character": "Grand Duke Kaufman"
+        },
+        {
+          "name": "최대훈",
+          "character": "Lord McKenna"
+        },
+        {
+          "name": "박호산",
+          "character": "Viscount Lotteshu"
+        }
+      ],
+      "trailer": "aScUjuKvHSo",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/279246/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-10T05:08:47.073Z"
+  },
   "l ispettore barnaby|anthony horowitz": {
     "value": {
       "tmdbId": 764,
