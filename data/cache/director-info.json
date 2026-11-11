@@ -5128,6 +5128,172 @@
     },
     "fetchedAt": "2026-10-18T17:58:21.234Z"
   },
+  "david leitch": {
+    "value": {
+      "tmdbId": 40684,
+      "wiki": {
+        "lang": "it",
+        "title": "David Leitch",
+        "url": "https://it.wikipedia.org/wiki/David_Leitch",
+        "extract": "David Leitch (Stratford, 16 novembre 1975) è uno stuntman, regista, attore e produttore cinematografico statunitense.\n\nIniziò la carriera a Hollywood negli anni '90 lavorando come stuntman. In seguito fondò una società di stuntmen col collega Chad Stahelski."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/David_Leitch_by_Gage_Skidmore_2.jpg/500px-David_Leitch_by_Gage_Skidmore_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Leitch_by_Gage_Skidmore_2.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1422045,
+          "title": "Ocean's Fourteen",
+          "year": null
+        },
+        {
+          "id": 1469501,
+          "title": "Fight",
+          "year": null
+        },
+        {
+          "id": 1481795,
+          "title": "Gears of War",
+          "year": null
+        },
+        {
+          "id": 1634942,
+          "title": "Jason Statham Stole My Bike",
+          "year": "2027"
+        },
+        {
+          "id": 1437511,
+          "title": "Come rapinare una banca",
+          "year": "2026"
+        },
+        {
+          "id": 746036,
+          "title": "The Fall Guy",
+          "year": "2024"
+        },
+        {
+          "id": 718930,
+          "title": "Bullet Train",
+          "year": "2022"
+        },
+        {
+          "id": 384018,
+          "title": "Fast & Furious - Hobbs & Shaw",
+          "year": "2019"
+        },
+        {
+          "id": 567604,
+          "title": "C'era una volta Deadpool",
+          "year": "2018"
+        },
+        {
+          "id": 383498,
+          "title": "Deadpool 2",
+          "year": "2018"
+        },
+        {
+          "id": 341013,
+          "title": "Atomica bionda",
+          "year": "2017"
+        },
+        {
+          "id": 558144,
+          "title": "Deadpool: No Good Deed",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:32.591Z"
+  },
+  "david mamet": {
+    "value": {
+      "tmdbId": 1255,
+      "wiki": {
+        "lang": "it",
+        "title": "David Mamet",
+        "url": "https://it.wikipedia.org/wiki/David_Mamet",
+        "extract": "David Alan Mamet (Chicago, 30 novembre 1947) è un drammaturgo, sceneggiatore, produttore cinematografico, regista e saggista statunitense.\n\nÈ stato candidato due volte agli Oscar: nel 1983 per la sceneggiatura de Il verdetto, e nel 1998 per la sceneggiatura di Sesso & potere. Nel 1984 ha vinto il Premio Pulitzer, per l'opera teatrale Glengarry Glen Ross, adattato dallo stesso Mamet per il film Americani, diretto da James Foley."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/David_Mamet_2_by_David_Shankbone.JPG/500px-David_Mamet_2_by_David_Shankbone.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Mamet_2_by_David_Shankbone.JPG",
+        "author": "David Shankbone",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1630679,
+          "title": "Speed the Plow",
+          "year": null
+        },
+        {
+          "id": 1708868,
+          "title": "Russian Poland",
+          "year": null
+        },
+        {
+          "id": 1418220,
+          "title": "Henry Johnson",
+          "year": "2025"
+        },
+        {
+          "id": 173153,
+          "title": "Phil Spector",
+          "year": "2013"
+        },
+        {
+          "id": 404220,
+          "title": "Two Painters",
+          "year": "2010"
+        },
+        {
+          "id": 404032,
+          "title": "The Marquee",
+          "year": "2010"
+        },
+        {
+          "id": 404128,
+          "title": "Our Valley",
+          "year": "2010"
+        },
+        {
+          "id": 404222,
+          "title": "Inside the Actor's Workshop",
+          "year": "2010"
+        },
+        {
+          "id": 265656,
+          "title": "Lost Masterpieces of Pornography",
+          "year": "2010"
+        },
+        {
+          "id": 12400,
+          "title": "Redbelt",
+          "year": "2008"
+        },
+        {
+          "id": 11169,
+          "title": "Spartan",
+          "year": "2004"
+        },
+        {
+          "id": 11088,
+          "title": "Il colpo",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:40.762Z"
+  },
   "david oliver pfeil": {
     "value": {
       "tmdbId": 106853,
@@ -7247,6 +7413,31 @@
     },
     "fetchedAt": "2026-10-30T08:47:27.541Z"
   },
+  "gabriel hamner": {
+    "value": {
+      "tmdbId": 5639024,
+      "wiki": null,
+      "bio": {
+        "text": "Gabriel Hamner is a young aspiring filmmaker. He has always had a passion for film, and decided at a young age to be a professional filmmaker.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1730747,
+          "title": "My Best Friend",
+          "year": "2026"
+        },
+        {
+          "id": 1533302,
+          "title": "Poverty",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:42.816Z"
+  },
   "gabriele panetta": {
     "value": {
       "tmdbId": 6532164,
@@ -8663,6 +8854,89 @@
     },
     "fetchedAt": "2026-10-17T09:34:18.630Z"
   },
+  "hirokazu kore eda": {
+    "value": {
+      "tmdbId": 25645,
+      "wiki": {
+        "lang": "it",
+        "title": "Hirokazu Kore'eda",
+        "url": "https://it.wikipedia.org/wiki/Hirokazu_Kore'eda",
+        "extract": "Hirokazu Koreeda (是枝 裕和?, Koreeda Hirokazu; Tokyo, 6 giugno 1962) è un regista, sceneggiatore e montatore giapponese.\n\nÈ apprezzato per l'approccio innovativo con cui, nella sua esplorazione della natura umana, fonde finzione e tecniche narrative documentarie.\n\nCentrali nel suo cinema sono i temi dei legami personali e familiari, del lutto e della perdita, della memoria, del senso di colpa, dell'infanzia e delle difficoltà della genitorialità.\n\nHa iniziato la sua carriera nel 1991 con il cinema documentario; nel 1995 ha realizzato il suo primo lungometraggio, Maborosi, che ha vinto il Premio Osella per la migliore sceneggiatura alla 52ª Mostra del Cinema di Venezia.\n\nAl Festival di Cannes nel 2013 ha vinto il Premio della giuria per Father and Son e la Palma d'oro nel 2018 per Un affare di famiglia."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Hirokazu_Kore-eda_-_The_Egyptian_Theatre.jpg/500px-Hirokazu_Kore-eda_-_The_Egyptian_Theatre.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Hirokazu_Kore-eda_-_The_Egyptian_Theatre.jpg",
+        "author": "Kevin Paul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1638481,
+          "title": "Untitled Hirokazu Kore-eda Film",
+          "year": null
+        },
+        {
+          "id": 1761050,
+          "title": "5 - 嵐という時間 -",
+          "year": "2026"
+        },
+        {
+          "id": 1591675,
+          "title": "Look Back",
+          "year": "2026"
+        },
+        {
+          "id": 1553969,
+          "title": "Sheep in the Box",
+          "year": "2026"
+        },
+        {
+          "id": 1050035,
+          "title": "L'innocenza",
+          "year": "2023"
+        },
+        {
+          "id": 736732,
+          "title": "Le buone stelle - Broker",
+          "year": "2022"
+        },
+        {
+          "id": 812567,
+          "title": "センターレーン",
+          "year": "2021"
+        },
+        {
+          "id": 517468,
+          "title": "Le verità",
+          "year": "2019"
+        },
+        {
+          "id": 505192,
+          "title": "Un affare di famiglia",
+          "year": "2018"
+        },
+        {
+          "id": 434775,
+          "title": "Il terzo omicidio",
+          "year": "2017"
+        },
+        {
+          "id": 374671,
+          "title": "Ritratto di famiglia con tempesta",
+          "year": "2016"
+        },
+        {
+          "id": 516543,
+          "title": "Ishibumi",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:35.641Z"
+  },
   "hugh hudson": {
     "value": {
       "tmdbId": 58220,
@@ -9349,6 +9623,81 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:33:27.164Z"
+  },
+  "jaume collet serra": {
+    "value": {
+      "tmdbId": 59521,
+      "wiki": null,
+      "bio": {
+        "text": "Jaume Collet-Serra (born March 23, 1974) is a Spanish filmmaker. He is best known for directing the films House of Wax (2005), Orphan (2009), Unknown (2011), The Shallows (2016), Jungle Cruise (2021) and Black Adam (2022). He is the co-founder of Ombra Films.",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/s1MdlS2wnzfKevPfXK63V1qkwfI.jpg",
+      "films": [
+        {
+          "id": 1432846,
+          "title": "Play Dead",
+          "year": null
+        },
+        {
+          "id": 1461073,
+          "title": "An Innocent Girl",
+          "year": null
+        },
+        {
+          "id": 1615604,
+          "title": "The Cage",
+          "year": null
+        },
+        {
+          "id": 1731706,
+          "title": "Maelstrom",
+          "year": null
+        },
+        {
+          "id": 1120556,
+          "title": "Cliffhanger",
+          "year": "2027"
+        },
+        {
+          "id": 1244944,
+          "title": "The Woman in the Yard",
+          "year": "2025"
+        },
+        {
+          "id": 1005331,
+          "title": "Carry-On",
+          "year": "2024"
+        },
+        {
+          "id": 436270,
+          "title": "Black Adam",
+          "year": "2022"
+        },
+        {
+          "id": 451048,
+          "title": "Jungle Cruise",
+          "year": "2021"
+        },
+        {
+          "id": 399035,
+          "title": "L'uomo sul treno - The Commuter",
+          "year": "2018"
+        },
+        {
+          "id": 332567,
+          "title": "Paradise Beach - Dentro l'incubo",
+          "year": "2016"
+        },
+        {
+          "id": 241554,
+          "title": "Run All Night - Una notte per sopravvivere",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:44.753Z"
   },
   "jean claude rozec": {
     "value": {
@@ -12541,6 +12890,89 @@
     },
     "fetchedAt": "2026-10-30T08:47:27.646Z"
   },
+  "leonardo pieraccioni": {
+    "value": {
+      "tmdbId": 120271,
+      "wiki": {
+        "lang": "it",
+        "title": "Leonardo Pieraccioni",
+        "url": "https://it.wikipedia.org/wiki/Leonardo_Pieraccioni",
+        "extract": "Leonardo Pieraccioni (Firenze, 17 febbraio 1965) è un comico, regista, scrittore, musicista, chitarrista, sceneggiatore e attore italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Leonardo_Pieraccioni_cropped.jpg/500px-Leonardo_Pieraccioni_cropped.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Leonardo_Pieraccioni_cropped.jpg",
+        "author": "Leonardo_Pieraccioni.jpg: Elena Torre from Viareggio, Italia derivative work: R…",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1723882,
+          "title": "Un weekend artificiale",
+          "year": "2026"
+        },
+        {
+          "id": 1140222,
+          "title": "Pare parecchio Parigi",
+          "year": "2024"
+        },
+        {
+          "id": 828586,
+          "title": "Il sesso degli angeli",
+          "year": "2022"
+        },
+        {
+          "id": 558022,
+          "title": "Se son rose...",
+          "year": "2018"
+        },
+        {
+          "id": 371307,
+          "title": "Il professor Cenerentolo",
+          "year": "2015"
+        },
+        {
+          "id": 243442,
+          "title": "Un fantastico via vai",
+          "year": "2013"
+        },
+        {
+          "id": 79371,
+          "title": "Finalmente la felicità",
+          "year": "2011"
+        },
+        {
+          "id": 52124,
+          "title": "Io & Marilyn",
+          "year": "2009"
+        },
+        {
+          "id": 52214,
+          "title": "Una moglie bellissima",
+          "year": "2007"
+        },
+        {
+          "id": 44894,
+          "title": "Ti amo in tutte le lingue del mondo",
+          "year": "2005"
+        },
+        {
+          "id": 61630,
+          "title": "Il paradiso all'improvviso",
+          "year": "2003"
+        },
+        {
+          "id": 45916,
+          "title": "Il principe e il pirata",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:38.468Z"
+  },
   "lewis milestone": {
     "value": {
       "tmdbId": 2000,
@@ -13013,6 +13445,44 @@
     },
     "fetchedAt": "2026-10-28T05:04:05.664Z"
   },
+  "marine atlan": {
+    "value": {
+      "tmdbId": 1988085,
+      "wiki": {
+        "lang": "en",
+        "title": "Marine Atlan",
+        "url": "https://en.wikipedia.org/wiki/Marine_Atlan",
+        "extract": "Marine Atlan (French pronunciation: [ma.ʁin at.lɑ̃]; born 1989 or 1990) is a French cinematographer and film director."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Seminci_2026_-_Marine_Atlan_-_2_%28cropped%29.jpg/500px-Seminci_2026_-_Marine_Atlan_-_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Seminci_2026_-_Marine_Atlan_-_2_(cropped).jpg",
+        "author": "Pedro J Pacheco",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1154730,
+          "title": "La Gradiva",
+          "year": "2026"
+        },
+        {
+          "id": 575800,
+          "title": "Daniel fait face",
+          "year": "2018"
+        },
+        {
+          "id": 952203,
+          "title": "Les amours vertes",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:33.706Z"
+  },
   "mark vanselow": {
     "value": {
       "tmdbId": 1416819,
@@ -13175,6 +13645,23 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:57:10.528Z"
+  },
+  "mary jane balagtas": {
+    "value": {
+      "tmdbId": 3353373,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1637661,
+          "title": "Family Matters",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:43.740Z"
   },
   "masaki kobayashi": {
     "value": {
@@ -15360,6 +15847,83 @@
     },
     "fetchedAt": "2026-11-05T05:13:22.632Z"
   },
+  "paolo genovese": {
+    "value": {
+      "tmdbId": 225160,
+      "wiki": {
+        "lang": "it",
+        "title": "Paolo Genovese",
+        "url": "https://it.wikipedia.org/wiki/Paolo_Genovese",
+        "extract": "Paolo Genovese (Roma, 20 agosto 1966) è un regista, sceneggiatore e scrittore italiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/inn6owypkGYh8zzGiD7s3HgSCQc.jpg",
+      "films": [
+        {
+          "id": 1336434,
+          "title": "Scandalo",
+          "year": null
+        },
+        {
+          "id": 1718823,
+          "title": "FolleMente: Capitolo II",
+          "year": "2027"
+        },
+        {
+          "id": 1544126,
+          "title": "Il rumore delle cose nuove",
+          "year": "2026"
+        },
+        {
+          "id": 1312157,
+          "title": "FolleMente",
+          "year": "2025"
+        },
+        {
+          "id": 700819,
+          "title": "Il primo giorno della mia vita",
+          "year": "2023"
+        },
+        {
+          "id": 612491,
+          "title": "Supereroi",
+          "year": "2021"
+        },
+        {
+          "id": 468198,
+          "title": "The Place",
+          "year": "2017"
+        },
+        {
+          "id": 445679,
+          "title": "Per sempre",
+          "year": "2016"
+        },
+        {
+          "id": 381341,
+          "title": "Perfetti sconosciuti",
+          "year": "2016"
+        },
+        {
+          "id": 320302,
+          "title": "Sei mai stata sulla luna?",
+          "year": "2015"
+        },
+        {
+          "id": 250235,
+          "title": "Tutta colpa di Freud",
+          "year": "2014"
+        },
+        {
+          "id": 162282,
+          "title": "Una famiglia perfetta",
+          "year": "2012"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:37.448Z"
+  },
   "paolo strippoli": {
     "value": {
       "tmdbId": 2456774,
@@ -16480,6 +17044,43 @@
     },
     "fetchedAt": "2026-10-17T09:34:05.958Z"
   },
+  "philip g atwell": {
+    "value": {
+      "tmdbId": 65190,
+      "wiki": {
+        "lang": "it",
+        "title": "Philip G. Atwell",
+        "url": "https://it.wikipedia.org/wiki/Philip_G._Atwell",
+        "extract": "Philip G. Atwell (Filadelfia, 1974) è un regista statunitense, prevalentemente di ambito musicale hip hop."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 10431,
+          "title": "Rogue - Il solitario",
+          "year": "2007"
+        },
+        {
+          "id": 77959,
+          "title": "The Turbo Charged Prelude for 2 Fast 2 Furious",
+          "year": "2003"
+        },
+        {
+          "id": 164833,
+          "title": "Eminem E",
+          "year": "2000"
+        },
+        {
+          "id": 19349,
+          "title": "The Up in Smoke Tour",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:40.347Z"
+  },
   "pierre coffin": {
     "value": {
       "tmdbId": 124747,
@@ -17475,6 +18076,89 @@
     },
     "fetchedAt": "2026-10-18T17:57:22.756Z"
   },
+  "rob reiner": {
+    "value": {
+      "tmdbId": 3026,
+      "wiki": {
+        "lang": "it",
+        "title": "Rob Reiner",
+        "url": "https://it.wikipedia.org/wiki/Rob_Reiner",
+        "extract": "Robert Norman Reiner, detto Rob (New York, 6 marzo 1947 – Los Angeles, 14 dicembre 2025), è stato un regista, attore, sceneggiatore, produttore cinematografico e attivista statunitense.\n\nFiglio del comico Carl Reiner, ha iniziato la sua carriera come attore, interpretando del personaggio di Michael Stivic nella sitcom Arcibaldo di Norman Lear. Reiner in seguito passò alla regia, dirigendo film come This Is Spinal Tap, Stand by Me - Ricordo di un'estate, La storia fantastica, Harry, ti presento Sally..., Misery non deve morire, e Codice d'onore."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rob_Reiner_MFF_2016.jpg/500px-Rob_Reiner_MFF_2016.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rob_Reiner_MFF_2016.jpg",
+        "author": "Montclair Film Festival",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1568062,
+          "title": "Spinal Tap at Stonehenge: The Final Finale",
+          "year": null
+        },
+        {
+          "id": 975225,
+          "title": "Spinal Tap II: La fine è solo l’inizio",
+          "year": "2025"
+        },
+        {
+          "id": 1184849,
+          "title": "Albert Brooks: Defending My Life",
+          "year": "2023"
+        },
+        {
+          "id": 476335,
+          "title": "Attacco alla verità - Shock and Awe",
+          "year": "2017"
+        },
+        {
+          "id": 353575,
+          "title": "LBJ",
+          "year": "2017"
+        },
+        {
+          "id": 358895,
+          "title": "La rivoluzione di Charlie",
+          "year": "2016"
+        },
+        {
+          "id": 253235,
+          "title": "Mai così vicini",
+          "year": "2014"
+        },
+        {
+          "id": 101731,
+          "title": "The Magic of Belle Isle",
+          "year": "2012"
+        },
+        {
+          "id": 1321694,
+          "title": "8",
+          "year": "2012"
+        },
+        {
+          "id": 43949,
+          "title": "Il primo amore non si scorda mai",
+          "year": "2010"
+        },
+        {
+          "id": 7350,
+          "title": "Non è mai troppo tardi",
+          "year": "2007"
+        },
+        {
+          "id": 2800,
+          "title": "Vizi di famiglia",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:45.654Z"
+  },
   "rob savage": {
     "value": {
       "tmdbId": 1129908,
@@ -18255,6 +18939,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:18.930Z"
+  },
+  "rodrigo sorogoyen": {
+    "value": {
+      "tmdbId": 96690,
+      "wiki": {
+        "lang": "it",
+        "title": "Rodrigo Sorogoyen",
+        "url": "https://it.wikipedia.org/wiki/Rodrigo_Sorogoyen",
+        "extract": "Rodrigo Sorogoyen del Amo (Madrid, 16 settembre 1981) è un regista, sceneggiatore e produttore cinematografico spagnolo."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rodrigo_Sorogoyen_at_the_UK_premiere_of_The_Beloved_05.jpg/500px-Rodrigo_Sorogoyen_at_the_UK_premiere_of_The_Beloved_05.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rodrigo_Sorogoyen_at_the_UK_premiere_of_The_Beloved_05.jpg",
+        "author": "DavidPMaynard",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1074074,
+          "title": "L'essere amato",
+          "year": "2026"
+        },
+        {
+          "id": 1028881,
+          "title": "Negación",
+          "year": "2022"
+        },
+        {
+          "id": 848685,
+          "title": "As bestas - La terra della discordia",
+          "year": "2022"
+        },
+        {
+          "id": 712865,
+          "title": "Una Situación Extraordinaria",
+          "year": "2020"
+        },
+        {
+          "id": 594692,
+          "title": "Madre",
+          "year": "2019"
+        },
+        {
+          "id": 517331,
+          "title": "Il regno",
+          "year": "2018"
+        },
+        {
+          "id": 466874,
+          "title": "Madre",
+          "year": "2017"
+        },
+        {
+          "id": 703797,
+          "title": "Disquisiciones de una pareja que lleva más de seis meses y menos de un año",
+          "year": "2017"
+        },
+        {
+          "id": 394684,
+          "title": "Che Dio ci perdoni",
+          "year": "2016"
+        },
+        {
+          "id": 340707,
+          "title": "El Iluso",
+          "year": "2014"
+        },
+        {
+          "id": 185738,
+          "title": "Stockholm",
+          "year": "2013"
+        },
+        {
+          "id": 26969,
+          "title": "8 citas",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:34.719Z"
   },
   "roger allers": {
     "value": {
@@ -19827,6 +20594,89 @@
     },
     "fetchedAt": "2026-10-30T08:47:27.155Z"
   },
+  "steven soderbergh": {
+    "value": {
+      "tmdbId": 1884,
+      "wiki": {
+        "lang": "it",
+        "title": "Steven Soderbergh",
+        "url": "https://it.wikipedia.org/wiki/Steven_Soderbergh",
+        "extract": "Steven Andrew Soderbergh (Atlanta, 14 gennaio 1963) è un regista, produttore cinematografico, direttore della fotografia, montatore e sceneggiatore statunitense.\n\nVincitore della Palma d'oro al Festival di Cannes per il film cult Sesso, bugie e videotape, con cui riceve una candidatura all'Oscar alla migliore sceneggiatura originale. Nel 2001, riceve una doppia candidatura all'Oscar al miglior regista per i film Erin Brockovich e Traffic, vincendolo per il secondo.\n\nRegista sperimentale e prolifico, ha al suo attivo più di 30 film: i più noti sono Sesso, bugie e videotape, Magic Mike, Traffic, Erin Brockovich - Forte come la verità, Out of Sight, Panama Papers e i film della trilogia Ocean's. In campo televisivo ha diretto l'acclamato film TV Dietro i candelabri e la serie TV The Knick."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/58th_Karlovy_Vary_International_Film_Festival%2C_Steven_Soderbergh_07_%28cropped%29.jpg/500px-58th_Karlovy_Vary_International_Film_Festival%2C_Steven_Soderbergh_07_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:58th_Karlovy_Vary_International_Film_Festival,_Steven_Soderbergh_07_(cropped).jpg",
+        "author": "Jan Beránek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1668098,
+          "title": "Ascenso",
+          "year": null
+        },
+        {
+          "id": 1475047,
+          "title": "John Lennon: The Last Interview",
+          "year": "2026"
+        },
+        {
+          "id": 1400357,
+          "title": "The Christophers",
+          "year": "2026"
+        },
+        {
+          "id": 1233575,
+          "title": "Black Bag - Doppio gioco",
+          "year": "2025"
+        },
+        {
+          "id": 1140535,
+          "title": "Presence",
+          "year": "2025"
+        },
+        {
+          "id": 906221,
+          "title": "Magic Mike - The Last Dance",
+          "year": "2023"
+        },
+        {
+          "id": 800510,
+          "title": "Kimi",
+          "year": "2022"
+        },
+        {
+          "id": 649409,
+          "title": "No Sudden Move",
+          "year": "2021"
+        },
+        {
+          "id": 623856,
+          "title": "Lasciali parlare",
+          "year": "2020"
+        },
+        {
+          "id": 517909,
+          "title": "Panama Papers",
+          "year": "2019"
+        },
+        {
+          "id": 510498,
+          "title": "High Flying Bird",
+          "year": "2019"
+        },
+        {
+          "id": 574056,
+          "title": "Your Life as a Spy",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:41.824Z"
+  },
   "steven spielberg": {
     "value": {
       "tmdbId": 488,
@@ -20672,6 +21522,89 @@
     },
     "fetchedAt": "2026-10-18T17:58:20.266Z"
   },
+  "ti west": {
+    "value": {
+      "tmdbId": 101542,
+      "wiki": {
+        "lang": "it",
+        "title": "Ti West",
+        "url": "https://it.wikipedia.org/wiki/Ti_West",
+        "extract": "Timon West (Wilmington, 5 ottobre 1980) è un regista, sceneggiatore, montatore e direttore della fotografia statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ti_West_in_2024.jpg/500px-Ti_West_in_2024.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ti_West_in_2024.jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1479338,
+          "title": "Scream Queen",
+          "year": null
+        },
+        {
+          "id": 1567605,
+          "title": "Scrooge e gli spiriti del Natale",
+          "year": "2026"
+        },
+        {
+          "id": 1023922,
+          "title": "MaXXXine",
+          "year": "2024"
+        },
+        {
+          "id": 949423,
+          "title": "Pearl",
+          "year": "2022"
+        },
+        {
+          "id": 1061020,
+          "title": "The Farmer's Daughters",
+          "year": "2022"
+        },
+        {
+          "id": 760104,
+          "title": "X - A Sexy Horror Story",
+          "year": "2022"
+        },
+        {
+          "id": 291356,
+          "title": "Nella valle della violenza",
+          "year": "2016"
+        },
+        {
+          "id": 211067,
+          "title": "The Sacrament",
+          "year": "2014"
+        },
+        {
+          "id": 87436,
+          "title": "The ABCs of Death",
+          "year": "2013"
+        },
+        {
+          "id": 84348,
+          "title": "V/H/S",
+          "year": "2012"
+        },
+        {
+          "id": 58428,
+          "title": "The Innkeepers",
+          "year": "2012"
+        },
+        {
+          "id": 25983,
+          "title": "The House of the Devil",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:31.673Z"
+  },
   "tim burton": {
     "value": {
       "tmdbId": 510,
@@ -21393,6 +22326,39 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.651Z"
+  },
+  "vincent munier": {
+    "value": {
+      "tmdbId": 2294474,
+      "wiki": {
+        "lang": "en",
+        "title": "Vincent Munier",
+        "url": "https://en.wikipedia.org/wiki/Vincent_Munier",
+        "extract": "Vincent Munier (born 14 April 1976) is a French wildlife photographer and documentary filmmaker. Among his most notable works are his photographs of arctic wolves and snow leopards. He co-directed a film about snow leopards, The Velvet Queen (2021), which received the César Award for Best Documentary Film."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Vincent_Munier_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_11.jpg/500px-Vincent_Munier_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_11.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Vincent_Munier_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_11.jpg",
+        "author": "Quejaytee",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1309373,
+          "title": "Il canto della foresta",
+          "year": "2025"
+        },
+        {
+          "id": 842356,
+          "title": "La pantera delle nevi",
+          "year": "2021"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:20:36.695Z"
   },
   "vincente minnelli": {
     "value": {

@@ -98,12 +98,18 @@
         "Notizie: approfondimenti",
         "News"
       ],
-      "episodes": 355,
+      "episodes": 356,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9f/d6/1a/9fd61a8d-dcaf-3ea2-3864-39e1ace1e31f/mza_14160289162999991149.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS9501329551",
       "description": "3 Fattori è il podcast nato dalla rubrica di Mariangela Pira, giornalista di Sky Tg24, su Linkedin. Ogni venerdì esce un nuovo episodio. Il proposito è quello di raccontare a chiunque, anche al lattaio dell'Ohio, ciò che accade in finanza, economia e in geopolitica economica. In ogni puntata, con un linguaggio chiaro e semplice, vengono snocciolate le tematiche di attualità: dall'energia all'inflazione, dalle banche centrali ai programmi economici del governo, dal commercio globale a ciò che banalmente accade alle nostre imprese e nel nostro quotidiano. Vi aspettiamo.",
       "website": null,
       "latest": [
+        {
+          "title": "Post Midterm, Paraguay, tutto sulle banche – Ep.354",
+          "date": "2026-11-06",
+          "seconds": 2905,
+          "url": null
+        },
         {
           "title": "Lagarde, Manovra finanziaria, MPS – Ep.353",
           "date": "2026-10-30",
@@ -127,16 +133,10 @@
           "date": "2026-10-08",
           "seconds": 2483,
           "url": null
-        },
-        {
-          "title": "Bond, IA e nucleare - ep. 349",
-          "date": "2026-09-25",
-          "seconds": 2227,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-04T05:19:43.269Z"
+    "fetchedAt": "2026-11-11T05:25:04.540Z"
   },
   "podcast:6 minute english": {
     "value": {
@@ -843,16 +843,22 @@
       "genres": [
         "Istruzione"
       ],
-      "episodes": 2,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c2/dc/1e/c2dc1e0b-1be2-a7c4-4149-8b43a618f59d/mza_6787060481515770962.jpg/600x600bb.jpg",
+      "episodes": 3,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/4a/c9/844ac9ef-5322-5963-1b5c-3fd7fdbece86/mza_17197939684205953792.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS6074934384",
       "description": "Le relazioni, i sentimenti, le fragilità e i desideri non si rivelano mai tutti\ninsieme.\nCome una cipolla, si scoprono strato dopo strato. In ogni episodio, la\npsicoterapeuta e scrittrice Stefania Andreoli parte da storie vere e domande universali per esplorare ciò che ci muove davvero: l'amore, la famiglia, la crescita, il dolore, il cambiamento.\nUn video podcast che aiuta a guardarsi\ndentro con sincerità, senza giudizio e senza scorciatoie.\nCon la partecipazione della giornalista di SkyTG24 Federica De Lillis.",
       "website": null,
       "latest": [
         {
+          "title": "Ep. 2 - Separazione e figli",
+          "date": "2026-11-09",
+          "seconds": 1760,
+          "url": null
+        },
+        {
           "title": "Ep.1 - Violenza psicologica",
           "date": "2026-11-02",
-          "seconds": 2001,
+          "seconds": 2061,
           "url": null
         },
         {
@@ -863,7 +869,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-03T05:10:09.011Z"
+    "fetchedAt": "2026-11-11T05:24:46.908Z"
   },
   "podcast:cose molto umane di gianpiero kesten": {
     "value": {
@@ -1145,35 +1151,6 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:19:04.324Z"
-  },
-  "podcast:democracy": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/democracy-noi-siamo-politica/id6828918982",
-      "genres": [
-        "Cultura e società",
-        "Governo"
-      ],
-      "episodes": 2,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3e/79/3e/3e793e97-3293-f18c-8360-a8208c7f386d/mza_5516374211580419187.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/BCS5341846304",
-      "description": "Che cosa succede quando il rapporto tra cittadini e potere comincia a incrinarsi? Come si difende la democrazia quando il confronto lascia spazio allo scontro e alla legge del più forte? E quanto conta ancora la nostra voce nelle decisioni di chi governa?\nDemocracy è il podcast di Chora Media in cui Andrea Malaguti parte dalle notizie e dalle storie dell'attualità per raccontare il rapporto tra noi cittadini e chi esercita il potere. Un patto sempre più fragile, in Italia e nel mondo, che riguarda i nostri diritti e le nostre libertà.\nIn ogni puntata Malaguti affronta un tema diverso, si rivolge a chi esercita il potere e pone domande sulle scelte che riguardano la vita di tutti noi. L'obiettivo è capire che cosa sta cambiando nelle nostre democrazie e come possiamo difenderle, senza rinunciare al confronto con chi non la pensa come noi.\nPerché la democrazia è un patto che abbiamo bisogno di difendere e ripensare, continuando a farci domande e ad ascoltarci. Anche quando non siamo d'accordo.\nDemocracy. Noi siamo politica è un podcast di Chora Media condotto da Andrea Malaguti\nCREDITS\nDEMOCRACY è un podcast di Chora News prodotto da Chora Media.\nÈ scritto da Andrea Malaguti.",
-      "website": null,
-      "latest": [
-        {
-          "title": "Meloni sulle piazze tradisce sé stessa",
-          "date": "2026-11-02",
-          "seconds": 696,
-          "url": null
-        },
-        {
-          "title": "Democracy - Noi siamo politica | Trailer",
-          "date": "2026-10-30",
-          "seconds": 57,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-03T05:10:06.317Z"
   },
   "podcast:dentro il caso": {
     "value": {
@@ -1548,21 +1525,6 @@
     },
     "fetchedAt": "2026-11-06T05:13:43.133Z"
   },
-  "podcast:forse fame forse trauma": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/forse-fame-forse-trauma/id1896940122",
-      "genres": [
-        "Narrativa"
-      ],
-      "episodes": 54,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/c9/7d/38c97d3b-b8b4-cce2-a022-d1de082d9958/mza_15644050176641938132.jpeg/600x600bb.jpg",
-      "feedUrl": null,
-      "description": null,
-      "website": null,
-      "latest": []
-    },
-    "fetchedAt": "2026-11-04T05:19:40.054Z"
-  },
   "podcast:fuori da qui": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/fuori-da-qui/id1691855830",
@@ -1608,6 +1570,53 @@
       ]
     },
     "fetchedAt": "2026-11-06T05:13:32.666Z"
+  },
+  "podcast:fuori dal buio": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/fuori-dal-buio/id1849180145",
+      "genres": [
+        "Automiglioramento",
+        "Istruzione"
+      ],
+      "episodes": 34,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/c5/ed/a6c5edd4-045e-3ee2-2e66-cdb5b37e765e/mza_17752716226410775507.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/AMCS8077634226",
+      "description": "Torna Fuori dal Buio.\nPer questa seconda stagione Luca Casadei, ideatore del format, affida la conduzione alla psicoterapeuta Daniela Uslenghi. Al suo fianco ci saranno Giulia Boverio, già presente nella scorsa stagione, e Sarah Borruso.\nSarà un viaggio attraverso le dipendenze e i disturbi che condizionano e segnano le vite di tanti. Conosceremo le storie di trenta persone comuni: non solo di chi ha attraversato un buio, ma anche di chi ha accompagnato da vicino il percorso di una persona cara.\nUna nuova puntata ogni mercoledì.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Marta, emetofobia (paura di vomitare)",
+          "date": "2026-11-10",
+          "seconds": 3506,
+          "url": null
+        },
+        {
+          "title": "Lia, accumulo seriale",
+          "date": "2026-11-03",
+          "seconds": 4164,
+          "url": null
+        },
+        {
+          "title": "Torna Fuori dal Buio",
+          "date": "2026-11-03",
+          "seconds": 230,
+          "url": null
+        },
+        {
+          "title": "Nicla, eroina",
+          "date": "2026-05-19",
+          "seconds": 5887,
+          "url": null
+        },
+        {
+          "title": "Jack, disturbo borderline",
+          "date": "2026-05-12",
+          "seconds": 5114,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:24:52.678Z"
   },
   "podcast:geopop": {
     "value": {
@@ -1712,45 +1721,45 @@
         "Notizie del giorno",
         "News"
       ],
-      "episodes": 3036,
+      "episodes": 3050,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f1/4f/d1/f14fd1cf-7b5c-0bb7-683d-325c83bb089e/mza_17540730169954302156.jpg/600x600bb.jpg",
       "feedUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "description": "The Global News Podcast brings you the breaking news you need to hear, as it happens. Listen for the latest headlines and current affairs from around the world. Politics, economics, climate, business, technology, health – we cover it all with expert analysis and insight. Get the news that matters, delivered twice a day on weekdays and daily at weekends, plus special bonus episodes reacting to urgent breaking stories. Follow or subscribe now and never miss a moment. Get in touch: globalpodcast@bbc.co.uk",
       "website": "http://www.bbc.co.uk/programmes/p02nq0gn",
       "latest": [
         {
-          "title": "Americans vote in pivotal midterm elections",
-          "date": "2026-11-03",
-          "seconds": 1719,
-          "url": "http://www.bbc.co.uk/programmes/p0pl435f"
+          "title": "How US model agencies helped Epstein access victims",
+          "date": "2026-11-10",
+          "seconds": 1724,
+          "url": "http://www.bbc.co.uk/programmes/p0pm9szt"
         },
         {
-          "title": "Ukraine accuses Russia of hitting school used as aid centre",
-          "date": "2026-11-03",
-          "seconds": 1710,
-          "url": "http://www.bbc.co.uk/programmes/p0pkz9jt"
+          "title": "Trump backs Hegseth as he faces impeachment push",
+          "date": "2026-11-10",
+          "seconds": 1633,
+          "url": "http://www.bbc.co.uk/programmes/p0pm6qtr"
         },
         {
-          "title": "Ukraine and Russia hit by fake emergency alerts",
-          "date": "2026-11-02",
-          "seconds": 1679,
-          "url": "http://www.bbc.co.uk/programmes/p0pkww1f"
+          "title": "China denies spying on Nvidia boss",
+          "date": "2026-11-09",
+          "seconds": 1759,
+          "url": "http://www.bbc.co.uk/programmes/p0pm36r2"
         },
         {
-          "title": "Trump celebrates shock endorsement ahead of US midterms",
-          "date": "2026-11-02",
-          "seconds": 1798,
-          "url": "http://www.bbc.co.uk/programmes/p0pksmf2"
+          "title": "Nvidia investigates CEO's affair with suspected Chinese spy",
+          "date": "2026-11-09",
+          "seconds": 1673,
+          "url": "http://www.bbc.co.uk/programmes/p0plzjqt"
         },
         {
-          "title": "Violent protests in France for the third weekend in a row",
-          "date": "2026-11-01",
-          "seconds": 1708,
-          "url": "http://www.bbc.co.uk/programmes/p0pkpg0p"
+          "title": "The Global Story: They fled Russia. The US sent them back",
+          "date": "2026-11-08",
+          "seconds": 1676,
+          "url": "http://www.bbc.co.uk/programmes/p0pllbwj"
         }
       ]
     },
-    "fetchedAt": "2026-11-04T05:19:46.076Z"
+    "fetchedAt": "2026-11-11T05:24:58.590Z"
   },
   "podcast:globally": {
     "value": {
@@ -2161,52 +2170,6 @@
     },
     "fetchedAt": "2026-11-05T05:18:52.598Z"
   },
-  "podcast:l ambasciatore dimenticato": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/lambasciatore-dimenticato/id1795944596",
-      "genres": [
-        "True crime"
-      ],
-      "episodes": 6,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/c5/0c/90c50c9d-b1a2-7948-69ac-f9ca0fbc2cbb/mza_1274528578397129372.jpg/600x600bb.jpg",
-      "feedUrl": "https://anchor.fm/s/1011f0cc8/podcast/rss",
-      "description": "Il 22 febbraio 2021 l’ambasciatore in Congo Luca Attanasio, il carabiniere Vittorio Iacovacci e l’autista Mustapha Milambo vengono uccisi in un agguato. Le falle nella sicurezza di cui si resero responsabili due funzionari Pam non saranno mai approfondite per l'immunità diplomatica. Davvero fu una rapina finita male? I cinque congolesi condannati sono i veri colpevoli? Attraverso testimonianze inedite, il podcast riaccende una luce su un caso archiviato troppo in fretta.\nL'autore è Luca Attanasio\nSostieni l'inchiesta: https://tinyurl.com/3b7bhems",
-      "website": "https://www.editorialedomani.it/",
-      "latest": [
-        {
-          "title": "5. La solitudine di Luca e Vittorio",
-          "date": "2025-03-20",
-          "seconds": 1560,
-          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/5--La-solitudine-di-Luca-e-Vittorio-e30d2ct"
-        },
-        {
-          "title": "4. I processi",
-          "date": "2025-03-13",
-          "seconds": 1497,
-          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/4--I-processi-e302shc"
-        },
-        {
-          "title": "3. L’ultima cena",
-          "date": "2025-03-06",
-          "seconds": 1656,
-          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/3--Lultima-cena-e2vn1ec"
-        },
-        {
-          "title": "2. Fuori dai compound",
-          "date": "2025-02-27",
-          "seconds": 1550,
-          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/2--Fuori-dai-compound-e2vdj5u"
-        },
-        {
-          "title": "1. L’agguato",
-          "date": "2025-02-20",
-          "seconds": 1772,
-          "url": "https://podcasters.spotify.com/pod/show/domani8/episodes/1--Lagguato-e2usknu"
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-04T05:19:48.837Z"
-  },
   "podcast:la caduta": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/la-caduta-la-misteriosa-morte-di-david-rossi/id6817022205",
@@ -2437,6 +2400,55 @@
       ]
     },
     "fetchedAt": "2026-11-05T05:18:22.650Z"
+  },
+  "podcast:love bombing": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/love-bombing-storie-di-manipolazione/id1546146233",
+      "genres": [
+        "Relazioni interpersonali",
+        "Cultura e società",
+        "Istruzione",
+        "Automiglioramento"
+      ],
+      "episodes": 41,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c3/b4/af/c3b4af1e-8991-4d8b-3618-aac65be5cf3e/mza_16714692478449253342.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/love-bombing",
+      "description": "Love Bombing, letteralmente bombardamento d’amore. È una tecnica utilizzata da tutti i manipolatori mentali per irretire le loro vittime. E, che vi piaccia o no, nessuno ne è immune. Narcisisti patologici, adoratori di Satana, sette religiose, nuovi guru, esperti di marketing piramidale, istruttori che si nascondono dietro al suggestivo velo della new age, sembrano appartenere a mondi lontanissimi, ma tutti mettono in atto gli stessi meccanismi strategici per prendere all’amo nuovi adepti. A causa del Love Bombing, le vittime si fanno lentamente trascinare in un nuovo mondo, fatto di comprensione, energia, entusiasmo ed espansione. Alcuni si convincono di potere tutto, anche, per esempio, guarire da soli. Plagiati ﬁno al punto di restare senza niente. Salute, aﬀetti e soldi.\nRoberta Lippi analizzerà, anche con l’aiuto di chi ha a che fare con questi meccanismi psicologici ogni giorno, i segnali che servono a riconoscere le situazioni a rischio, raccogliendo le storie di persone che hanno vissuto sulla propria pelle cosa significhi entrare e uscire da una bruttissima storia, che lì per lì, sembrava una delle più belle avventure della vita.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep. 40 | La ragazza alla pari",
+          "date": "2026-11-10",
+          "seconds": 4627,
+          "url": null
+        },
+        {
+          "title": "Ep. 39 | Il traditore seriale",
+          "date": "2026-10-13",
+          "seconds": 4118,
+          "url": null
+        },
+        {
+          "title": "Ep. 38 | Il call center",
+          "date": "2026-09-17",
+          "seconds": 3653,
+          "url": null
+        },
+        {
+          "title": "Ep. 37 | Il villaggio turistico",
+          "date": "2026-08-11",
+          "seconds": 3969,
+          "url": null
+        },
+        {
+          "title": "Ep. 36 | Il volontariato",
+          "date": "2026-07-14",
+          "seconds": 4050,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:25:01.664Z"
   },
   "podcast:ma perche": {
     "value": {
@@ -3088,54 +3100,6 @@
       ]
     },
     "fetchedAt": "2026-11-08T05:08:44.596Z"
-  },
-  "podcast:philosophize this": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/philosophize-this/id659155419",
-      "genres": [
-        "Filosofia",
-        "Cultura e società",
-        "Istruzione"
-      ],
-      "episodes": 253,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/b7/51/c1b751eb-ab38-f11c-d6c1-0a9de79b7061/mza_12134548126279202007.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/QCD6036500916",
-      "description": "Beginner friendly if listened to in order! For anyone interested in an educational podcast about philosophy where you don't need to be a graduate-level philosopher to understand it. In chronological order, the thinkers and ideas that forged the world we live in are broken down and explained.",
-      "website": "http://www.philosophizethis.org",
-      "latest": [
-        {
-          "title": "Episode #253 ... The Philosophy of Alan Watts - What Am I?",
-          "date": "2026-10-27",
-          "seconds": 2164,
-          "url": null
-        },
-        {
-          "title": "Episode #252 ... Slaughterhouse-Five - Kurt Vonnegut",
-          "date": "2026-08-29",
-          "seconds": 2141,
-          "url": null
-        },
-        {
-          "title": "Episode #251 ... You Must Change Your Life, Pt. 2 - The Worlds That Make Us",
-          "date": "2026-08-08",
-          "seconds": 2125,
-          "url": null
-        },
-        {
-          "title": "Episode #250 ... You Must Change Your Life. - Peter Sloterdijk",
-          "date": "2026-07-14",
-          "seconds": 2159,
-          "url": null
-        },
-        {
-          "title": "Episode #249 ... The Trap of Modern Cynicism - Peter Sloterdijk",
-          "date": "2026-06-27",
-          "seconds": 2063,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-03T05:10:11.940Z"
   },
   "podcast:pianeta b12": {
     "value": {
@@ -4056,38 +4020,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/tutti-convocati",
       "latest": [
         {
-          "title": "Kimi, il mondo è tuo!",
-          "date": "2026-11-02",
+          "title": "Lazio: in pausa, in testa",
+          "date": "2026-11-10",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261102-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261102-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261110-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261110-tutti-convocati"
         },
         {
-          "title": "Lazio in vetta da sola. Antonelli, è il grande giorno!",
-          "date": "2026-11-01",
+          "title": "L'Inter batte due colpi",
+          "date": "2026-11-09",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261101-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261101-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261109-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261109-tutti-convocati"
         },
         {
-          "title": "In ritiro per Juve-Napoli",
-          "date": "2026-10-30",
+          "title": "Inter-Como, lo Scudetto passa da San Siro?",
+          "date": "2026-11-08",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261030-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261030-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261108-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261108-tutti-convocati"
         },
         {
-          "title": "Sciagure e fortune",
-          "date": "2026-10-29",
+          "title": "Milan impreparato",
+          "date": "2026-11-06",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261029-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261029-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261106-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261106-tutti-convocati"
         },
         {
-          "title": "Una sera, 3 partite, 18 gol",
-          "date": "2026-10-28",
+          "title": "Il Napoli non va in Porto",
+          "date": "2026-11-05",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261028-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261028-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261105-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261105-tutti-convocati"
         }
       ]
     },
-    "fetchedAt": "2026-11-03T05:10:16.313Z"
+    "fetchedAt": "2026-11-11T05:24:56.423Z"
   },
   "podcast:un avvertimento prima di iniziare": {
     "value": {
@@ -4184,5 +4148,51 @@
       ]
     },
     "fetchedAt": "2026-11-09T05:23:20.995Z"
+  },
+  "podcast:weekly news": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/weekly-news-marketing-espresso/id1649952638",
+      "genres": [
+        "Economia"
+      ],
+      "episodes": 321,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/6d/aa/13/6daa13e0-5688-d2ca-1bd0-8ea40cd95a43/mza_15976850955216336205.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/1c8f2a98/podcast/rss",
+      "description": "Ciao, siamo il team di Marketing Espresso e questo è Weekly News, il podcast in cui ogni martedì ti raccontiamo in meno di 30 le ultimissime dal mondo digital e marketing 🔥\nIn elenco Agcom ✨",
+      "website": "https://www.marketing-espresso.com/?gad_source=1&gbraid=0AAAAACwSyBEPAkgk40kZDJQl-Px7Xh7z5&gclid=Cj0KCQjwqv2_BhC0ARIsAFb5Ac-JDoTcBPBUfYhwcRjemlrHk_vQk-lfAJI1nGeDy6Bek_nmUwbUqo4aAuXhEALw_wcB",
+      "latest": [
+        {
+          "title": "KIKO x STABILO: quando il make up diventa packaging",
+          "date": "2026-11-10",
+          "seconds": 2285,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/KIKO-x-STABILO-quando-il-make-up-diventa-packaging-e3s3c1n"
+        },
+        {
+          "title": "Ferrero non si ferma più: ecco Nutella Dark, Nutella Cookies e Wonka",
+          "date": "2026-11-03",
+          "seconds": 2003,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/Ferrero-non-si-ferma-pi-ecco-Nutella-Dark--Nutella-Cookies-e-Wonka-e3rjulm"
+        },
+        {
+          "title": "La Kettlebox di McDonald’s è bellissima. Peccato non si possa comprare",
+          "date": "2026-10-27",
+          "seconds": 2245,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/La-Kettlebox-di-McDonalds--bellissima--Peccato-non-si-possa-comprare-e3r4g37"
+        },
+        {
+          "title": "CANVA ha CAMBIATO il modo di fare DESIGN",
+          "date": "2026-10-22",
+          "seconds": 3101,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/CANVA-ha-CAMBIATO-il-modo-di-fare-DESIGN-e3qrdj4"
+        },
+        {
+          "title": "IKEA ora ha il suo Vinted",
+          "date": "2026-10-20",
+          "seconds": 1620,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/IKEA-ora-ha-il-suo-Vinted-e3qogl4"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:24:49.569Z"
   }
 }

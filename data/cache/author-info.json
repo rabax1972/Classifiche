@@ -39,6 +39,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "a zavarelli": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/a-zavarelli/1109505564",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "abigail blackman": {
     "value": {
       "wiki": null,
@@ -322,6 +331,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "alessandro aresu": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alessandro-aresu/495437910",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "alessandro d avenia": {
     "value": {
@@ -1450,6 +1468,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "caro claire burke": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/caro-claire-burke/1825267393",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "carol wyer": {
     "value": {
       "wiki": null,
@@ -1521,6 +1548,26 @@
       "died": 1870
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "charles duhigg": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Charles Duhigg",
+        "url": "https://it.wikipedia.org/wiki/Charles_Duhigg",
+        "extract": "Charles Duhigg (New Mexico, 1974) è uno scrittore e giornalista statunitense.\n\nGiornalista del The New York Times, nel 2013 ha ricevuto il premio Pulitzer insieme ad altri suoi colleghi per una serie di articoli su Apple e su altre aziende tecnologiche.\n\nÈ noto per il libro Il potere delle abitudini (The Power of Habit), tradotto in italiano da Marco Silvio Sartori e pubblicato da TEA."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Charles_Duhigg_at_TechCocktail_in_2012.jpg/500px-Charles_Duhigg_at_TechCocktail_in_2012.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Charles_Duhigg_at_TechCocktail_in_2012.jpg",
+        "author": "Geoff Livingston",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/charles-duhigg/494604133",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "charlotte casiraghi": {
     "value": {
@@ -2042,6 +2089,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "dustin hoffman": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/dustin-hoffman/164684278",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "e a allen": {
     "value": {
       "wiki": null,
@@ -2317,6 +2373,20 @@
       "died": 1968
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "ennio flaiano": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Ennio Flaiano",
+        "url": "https://it.wikipedia.org/wiki/Ennio_Flaiano",
+        "extract": "Ennio Flaiano (Pescara, 5 marzo 1910 – Roma, 20 novembre 1972) è stato uno sceneggiatore, scrittore, giornalista, umorista, critico cinematografico e drammaturgo italiano.\n\nSpecializzato in elzeviri, Flaiano scrisse per Oggi, Il Mondo, il Corriere della Sera e altre testate. Lavorò a lungo per Federico Fellini, con cui collaborò ampiamente ai soggetti e alle sceneggiature dei suoi più celebri film, tra i quali La strada, La dolce vita e 8½."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/ennio-flaiano/380666732",
+      "died": 1972
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "enrico vanzina": {
     "value": {
@@ -2648,6 +2718,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-07T05:05:02.989Z"
+  },
+  "francesco sole": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Francesco Sole",
+        "url": "https://it.wikipedia.org/wiki/Francesco_Sole",
+        "extract": "Francesco Sole, pseudonimo di Gabriele Dotti (Modena, 20 marzo 1992), è uno youtuber, scrittore e conduttore televisivo italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Francesco_Sole_Occhio_alla_Notizia_2023.png/500px-Francesco_Sole_Occhio_alla_Notizia_2023.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Francesco_Sole_Occhio_alla_Notizia_2023.png",
+        "author": "Occhio alla Notizia",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/francesco-sole/947265053",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "francesco totti": {
     "value": {
@@ -3556,6 +3646,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "jack du brul": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Jack Du Brul",
+        "url": "https://it.wikipedia.org/wiki/Jack_Du_Brul",
+        "extract": "Jack Du Brul (Burlington, 15 ottobre 1968) è uno scrittore statunitense,."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "jack kerouac": {
     "value": {
       "wiki": {
@@ -3730,6 +3834,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:46.271Z"
   },
+  "james rollins": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "James Rollins",
+        "url": "https://it.wikipedia.org/wiki/James_Rollins",
+        "extract": "James Rollins, conosciuto anche come James Clemens, pseudonimo di Jim Czajkowski (Chicago, 20 agosto 1961), è uno scrittore statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/James_Rollins_by_Gage_Skidmore.jpg/500px-James_Rollins_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Rollins_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/james-rollins/17439993",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "jane austen": {
     "value": {
       "wiki": {
@@ -3769,6 +3893,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-03T05:06:12.473Z"
+  },
+  "jason rekulak": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/jason-rekulak/1128640438",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "jean genet": {
     "value": {
@@ -4350,6 +4483,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "kira shell": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/kira-shell/1480233506",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "l j shen": {
     "value": {
       "wiki": null,
@@ -4711,6 +4853,20 @@
     },
     "fetchedAt": "2026-11-09T05:19:19.796Z"
   },
+  "luca sommi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Luca Sommi",
+        "url": "https://it.wikipedia.org/wiki/Luca_Sommi",
+        "extract": "Luca Sommi (Parma, 18 settembre 1972) è un giornalista, conduttore televisivo, scrittore e opinionista italiano, che collabora con il Fatto Quotidiano e conduce sul Nove il talk show di approfondimento Accordi & disaccordi, con la partecipazione di Marco Travaglio e Andrea Scanzi."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/luca-sommi/1585952666",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "lucy king": {
     "value": {
       "wiki": null,
@@ -4757,6 +4913,26 @@
       "died": 1936
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "m john harrison": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "M. John Harrison",
+        "url": "https://it.wikipedia.org/wiki/M._John_Harrison",
+        "extract": "Michael John Harrison (Warwickshire, 26 luglio 1945) è uno scrittore britannico, noto soprattutto con lo pseudonimo di M. John Harrison come autore di slipstream, fantascienza e fantasy.\n\nEsponente di rilievo della New Wave, la sua prima pubblicazione risale al 1966. Dal 1968 al 1975 ha lavorato come redattore per la rivista New Worlds.\n\nAppassionato di arrampicata su roccia, ha scritto nel 1989 il romanzo Climbers, vincitore del Boardman Tasker Prize.\n\nTra le altre sue opere più celebri vi sono il ciclo di Viriconium (formato da diversi racconti), il romanzo di fantascienza Luce dell'universo (2002, Light) e un'altra raccolta di storie brevi, Things That Never Happen.\n\nHarrison scrive regolarmente articoli sulla letteratura per il Times Literary Supplement, il Guardian e il Daily Telegraph."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/M_John_Harrison_2017_%28A42SClp-9fI%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:M_John_Harrison_2017_(A42SClp-9fI).jpg",
+        "author": "Virtual Futures",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/m-john-harrison/296603597",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "malcolm lowry": {
     "value": {
@@ -6569,6 +6745,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "sebastian fitzek": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Sebastian Fitzek",
+        "url": "https://it.wikipedia.org/wiki/Sebastian_Fitzek",
+        "extract": "Sebastian Fitzek (Berlino, 13 ottobre 1971) è uno scrittore tedesco.\n\nÈ autore di numerosi thriller e il suo primo romanzo, Die Therapie (La terapia, in italiano), ha avuto un grandissimo successo in Germania nel 2006, arrivando a contendere al bestseller Il Codice Da Vinci il primo posto nelle classifiche di vendita. Il romanzo è stato ideato da Fitzek mentre attendeva la fidanzata in uno studio medico: \"Quando dopo mezz'ora non s'era fatta vedere, il mio cervello thriller ha cominciato a speculare: e se tutti ti dicessero che non è mai venuta?\"\n\nIn Italia i suoi romanzi sono stati pubblicati da Elliot Edizioni fino al 2012, anno in cui i diritti sono passati a Einaudi con la pubblicazione de Il cacciatore di occhi."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/MJK58351_Sebastian_Fitzek.jpg/500px-MJK58351_Sebastian_Fitzek.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MJK58351_Sebastian_Fitzek.jpg",
+        "author": "Martin Kraft",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/sebastian-fitzek/258171023",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "seicho matsumoto": {
     "value": {
       "wiki": {
@@ -7098,6 +7294,15 @@
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
+  "tim guenard": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tim-gu%C3%A9nard/1525697892",
+      "died": null
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
   "tim malloy": {
     "value": {
       "wiki": null,
@@ -7327,6 +7532,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
+  "wilbur smith": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Wilbur Smith",
+        "url": "https://it.wikipedia.org/wiki/Wilbur_Smith",
+        "extract": "Wilbur Addison Smith (Broken Hill, 9 gennaio 1933 – Città del Capo, 13 novembre 2021) è stato uno scrittore zambiano naturalizzato sudafricano, di origini britanniche.\n\nHa raggiunto il successo nel 1964 con Il destino del leone. Considerato l'incontrastato «maestro dell'avventura» e uno dei massimi autori di bestseller, i suoi libri hanno venduto oltre 140 milioni di copie nel mondo, di cui circa 25 milioni solo in Italia. Il Times lo ha definito «un autore di culto, uno di quei punti di riferimento cui gli altri scrittori vengono continuamente paragonati». La maggior parte dei suoi romanzi è legata all'Africa, sua terra natale."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Wilbur_Smith_in_Sydney.jpg/500px-Wilbur_Smith_in_Sydney.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Wilbur_Smith_in_Sydney.jpg",
+        "author": "jimincairns",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/wilbur-smith/2679753",
+      "died": 2021
+    },
+    "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
   "william faulkner": {
     "value": {

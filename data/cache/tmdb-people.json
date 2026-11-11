@@ -79,6 +79,10 @@
     "value": "Andrew Stanton",
     "fetchedAt": "2026-10-18T17:54:31.228Z"
   },
+  "movie:1074074": {
+    "value": "Rodrigo Sorogoyen",
+    "fetchedAt": "2026-11-11T05:18:55.953Z"
+  },
   "movie:1081003": {
     "value": "Craig Gillespie",
     "fetchedAt": "2026-10-14T04:45:58.927Z"
@@ -211,6 +215,10 @@
     "value": "Giulio Callegari",
     "fetchedAt": "2026-10-12T07:24:34.243Z"
   },
+  "movie:1154730": {
+    "value": "Marine Atlan",
+    "fetchedAt": "2026-11-11T05:18:55.853Z"
+  },
   "movie:1155818": {
     "value": "Honey Trehan",
     "fetchedAt": "2026-10-18T17:54:26.400Z"
@@ -330,6 +338,10 @@
   "movie:1236045": {
     "value": "Ben Affleck",
     "fetchedAt": "2026-10-12T07:24:35.923Z"
+  },
+  "movie:1238735": {
+    "value": "Rachel Israel",
+    "fetchedAt": "2026-11-11T05:18:57.867Z"
   },
   "movie:1240889": {
     "value": "Jane Schoenbrun",
@@ -515,6 +527,10 @@
     "value": "Kate Dolan",
     "fetchedAt": "2026-10-12T07:24:55.418Z"
   },
+  "movie:1309373": {
+    "value": "Vincent Munier",
+    "fetchedAt": "2026-11-11T05:18:56.065Z"
+  },
   "movie:1309396": {
     "value": "Sophie Beaulieu",
     "fetchedAt": "2026-10-14T04:45:57.825Z"
@@ -550,6 +566,10 @@
   "movie:1327819": {
     "value": "Daniel Chong",
     "fetchedAt": "2026-10-15T04:42:52.222Z"
+  },
+  "movie:1329471": {
+    "value": "Adam Rehmeier",
+    "fetchedAt": "2026-11-11T05:18:57.659Z"
   },
   "movie:1339588": {
     "value": "Alicia MacDonald",
@@ -662,6 +682,10 @@
   "movie:1389172": {
     "value": "Dhruv Tripathi",
     "fetchedAt": "2026-10-12T07:24:53.324Z"
+  },
+  "movie:1391239": {
+    "value": "Jesse Eisenberg",
+    "fetchedAt": "2026-11-11T05:18:57.766Z"
   },
   "movie:1393326": {
     "value": "Joko Anwar",
@@ -879,6 +903,10 @@
     "value": "Babak Najafi",
     "fetchedAt": "2026-10-12T07:24:52.809Z"
   },
+  "movie:1477087": {
+    "value": "Regina Schilling",
+    "fetchedAt": "2026-11-11T05:18:56.358Z"
+  },
   "movie:1477104": {
     "value": "Steve Cox, Matthew Walker",
     "fetchedAt": "2026-10-21T04:46:14.709Z"
@@ -906,6 +934,10 @@
   "movie:1483525": {
     "value": "Lee Chang-dong",
     "fetchedAt": "2026-11-06T05:08:15.040Z"
+  },
+  "movie:1484085": {
+    "value": "Reed Van Dyk",
+    "fetchedAt": "2026-11-11T05:18:57.463Z"
   },
   "movie:1487317": {
     "value": "Hernán Goldfrid",
@@ -1018,6 +1050,10 @@
   "movie:1543142": {
     "value": "Towatchai Ladloy, ชัยวัฒน์ สีตลาศัย",
     "fetchedAt": "2026-10-22T04:44:47.419Z"
+  },
+  "movie:1544126": {
+    "value": "Paolo Genovese",
+    "fetchedAt": "2026-11-11T05:18:56.153Z"
   },
   "movie:1545690": {
     "value": null,
@@ -1134,6 +1170,10 @@
   "movie:1594043": {
     "value": "Gianni Amelio",
     "fetchedAt": "2026-10-12T07:24:32.138Z"
+  },
+  "movie:1596249": {
+    "value": "Josef Kubota Wladyka",
+    "fetchedAt": "2026-11-11T05:18:57.561Z"
   },
   "movie:1596275": {
     "value": "Sergej Moya",
@@ -1327,9 +1367,17 @@
     "value": "Niccolò Gentili",
     "fetchedAt": "2026-10-12T07:24:35.030Z"
   },
+  "movie:1723882": {
+    "value": "Leonardo Pieraccioni",
+    "fetchedAt": "2026-11-11T05:18:56.271Z"
+  },
   "movie:1725719": {
     "value": "Giorgio Pasotti",
     "fetchedAt": "2026-10-12T07:24:34.649Z"
+  },
+  "movie:1726": {
+    "value": "Jon Favreau",
+    "fetchedAt": "2026-11-11T05:18:56.761Z"
   },
   "movie:1727317": {
     "value": "Gabriela Ledesma",
@@ -2511,6 +2559,10 @@
     "value": "Brad Caleb Kane",
     "fetchedAt": "2026-10-12T07:25:02.317Z"
   },
+  "tv:214582": {
+    "value": "정종연",
+    "fetchedAt": "2026-11-11T05:18:58.262Z"
+  },
   "tv:2153": {
     "value": "Marc Brown",
     "fetchedAt": "2026-10-31T04:54:25.290Z"
@@ -2779,6 +2831,10 @@
     "value": null,
     "fetchedAt": "2026-11-06T05:08:15.932Z"
   },
+  "tv:279185": {
+    "value": "Robert Małecki",
+    "fetchedAt": "2026-11-11T05:18:58.371Z"
+  },
   "tv:279246": {
     "value": null,
     "fetchedAt": "2026-11-04T05:13:46.133Z"
@@ -2946,6 +3002,10 @@
   "tv:295778": {
     "value": "Bill Lawrence",
     "fetchedAt": "2026-10-16T04:44:17.676Z"
+  },
+  "tv:297253": {
+    "value": null,
+    "fetchedAt": "2026-11-11T05:18:58.573Z"
   },
   "tv:297491": {
     "value": "Natalia Santa, Mariana Berenguer",
@@ -3347,6 +3407,10 @@
     "value": null,
     "fetchedAt": "2026-10-13T04:34:39.961Z"
   },
+  "tv:337277": {
+    "value": null,
+    "fetchedAt": "2026-11-11T05:18:58.669Z"
+  },
   "tv:337609": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:50.328Z"
@@ -3394,6 +3458,10 @@
   "tv:339697": {
     "value": null,
     "fetchedAt": "2026-11-08T05:03:16.851Z"
+  },
+  "tv:340053": {
+    "value": null,
+    "fetchedAt": "2026-11-11T05:18:58.465Z"
   },
   "tv:340191": {
     "value": null,

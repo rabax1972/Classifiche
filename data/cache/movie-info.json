@@ -530,6 +530,78 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.538Z"
   },
+  "a dog s perfect christmas|": {
+    "value": {
+      "tmdbId": 1570488,
+      "title": "Un cucciolo per Natale",
+      "overview": "Un'emergenza medica divide la famiglia Goss e il determinato cane Winstead farà di tutto per far ricongiungere i suoi padroni prima della vigilia di Natale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "A Dog's Perfect Christmas",
+      "genres": [
+        "Commedia",
+        "Dramma"
+      ],
+      "runtime": 102,
+      "released": "2026-11-04",
+      "vote": 8.3,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/zKJmIJWxxFLKtfylpCYFfeVJ8xZ.jpg",
+      "directors": [
+        {
+          "id": 1382199,
+          "name": "Cathryn Michon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Dennis Quaid",
+          "character": "Sander"
+        },
+        {
+          "name": "Milo Ventimiglia",
+          "character": "Hunter"
+        },
+        {
+          "name": "Brooke Lena Johnson",
+          "character": "Ello"
+        },
+        {
+          "name": "Kathleen Rose Perkins",
+          "character": "Juliana"
+        },
+        {
+          "name": "Jennifer Tilly",
+          "character": "Lucille"
+        },
+        {
+          "name": "Thomas Haden Church",
+          "character": "Winstead (voice)"
+        },
+        {
+          "name": "Mary Steenburgen",
+          "character": "Claire"
+        },
+        {
+          "name": "Ethan Loomis",
+          "character": "Sean"
+        }
+      ],
+      "trailer": "XUlH_OVv_QM",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1570488-a-dog-s-perfect-christmas/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:30.702Z"
+  },
   "a spasso con daisy|bruce beresford 1989": {
     "value": {
       "tmdbId": 403,
@@ -4000,6 +4072,108 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.449Z"
   },
+  "black bag|": {
+    "value": {
+      "tmdbId": 1233575,
+      "title": "Black Bag - Doppio gioco",
+      "overview": "Un avvincente spy drama che racconta la storia dei leggendari agenti segreti George Woodhouse e della sua amata moglie Kathryn. Quando lei viene sospettata di tradire la nazione, George si trova ad affrontare la prova definitiva: la fedeltà al suo matrimonio o al suo paese.",
+      "overviewLang": "it",
+      "tagline": "In un mondo di spie ogni legame è sospetto",
+      "originalTitle": "Black Bag",
+      "genres": [
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 94,
+      "released": "2025-04-30",
+      "vote": 6.4,
+      "votes": 1439,
+      "poster": "https://image.tmdb.org/t/p/w500/uQfHXIiBkQj0VzPz1UFvV9jIFBM.jpg",
+      "directors": [
+        {
+          "id": 1884,
+          "name": "Steven Soderbergh"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Cate Blanchett",
+          "character": "Kathryn St. Jean"
+        },
+        {
+          "name": "Michael Fassbender",
+          "character": "George Woodhouse"
+        },
+        {
+          "name": "Tom Burke",
+          "character": "Freddie Smalls"
+        },
+        {
+          "name": "Marisa Abela",
+          "character": "Clarissa Dubose"
+        },
+        {
+          "name": "Regé-Jean Page",
+          "character": "Col James Stokes"
+        },
+        {
+          "name": "Naomie Harris",
+          "character": "Dr Zoe Vaughn"
+        },
+        {
+          "name": "Gustaf Skarsgård",
+          "character": "Philip Meacham"
+        },
+        {
+          "name": "Kae Alexander",
+          "character": "Anna Ko"
+        }
+      ],
+      "trailer": "nygzhwz2x9U",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1233575-black-bag/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:30.605Z"
+  },
   "blade runner 2049|denis villeneuve 2017": {
     "value": {
       "tmdbId": 335984,
@@ -5872,6 +6046,69 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.772Z"
+  },
+  "come rapinare una banca|david leitch 2026": {
+    "value": {
+      "tmdbId": 1437511,
+      "title": "Come rapinare una banca",
+      "overview": "In \"Come rapinare una banca\", una banda di ladri, esperti di social media, trasmette le proprie spettacolari rapine, ignara che la crescente fama virale li ha messi nel mirino di un agente veterano dell'FBI e di una brillante ingegnera informatica. Nonostante i due inseguitori siano sempre più vicini, il gruppo criminale si spinge oltre i propri limiti, mettendo in gioco tutto per le proprie convinzioni e per il loro colpo più ambizioso di sempre.",
+      "overviewLang": "it",
+      "tagline": "Chi rapina chi?",
+      "originalTitle": "How to Rob a Bank",
+      "genres": [
+        "Azione",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 90,
+      "released": "2026-11-12",
+      "vote": 9,
+      "votes": 2,
+      "poster": "https://image.tmdb.org/t/p/w500/c0wJ0zBp0pgacpdn3foT9MlFZpW.jpg",
+      "directors": [
+        {
+          "id": 40684,
+          "name": "David Leitch"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Nicholas Hoult",
+          "character": "Ryan"
+        },
+        {
+          "name": "Zoë Kravitz",
+          "character": "Reagan Gardner"
+        },
+        {
+          "name": "Anna Sawai",
+          "character": "Emi"
+        },
+        {
+          "name": "Rhenzy Feliz",
+          "character": null
+        },
+        {
+          "name": "Pete Davidson",
+          "character": "Vince"
+        },
+        {
+          "name": "John C. Reilly",
+          "character": "Agent West"
+        },
+        {
+          "name": "Christian Slater",
+          "character": "Walton"
+        },
+        {
+          "name": "Tati Gabrielle",
+          "character": "Skyler"
+        }
+      ],
+      "trailer": "wLDWeYRP9JY",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.572Z"
   },
   "contra el huracan|jorge michel grau 2026": {
     "value": {
@@ -8359,6 +8596,49 @@
     },
     "fetchedAt": "2026-11-03T05:06:13.110Z"
   },
+  "family matters|": {
+    "value": {
+      "tmdbId": 1637661,
+      "title": "Family Matters",
+      "overview": null,
+      "overviewLang": null,
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [],
+      "runtime": null,
+      "released": "2025-01-01",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/bDWASkqNfIDZ7jgbkiuMaiZKxBt.jpg",
+      "directors": [
+        {
+          "id": 3353373,
+          "name": "Mary Jane Balagtas"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Erika Balagtas",
+          "character": "주연"
+        },
+        {
+          "name": "Arjay Bautista",
+          "character": "주연"
+        },
+        {
+          "name": "Zia Zamora",
+          "character": "조연"
+        },
+        {
+          "name": "Apple Dy",
+          "character": "조연"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:30.908Z"
+  },
   "fatherland|pawe pawlikowski 2026": {
     "value": {
       "tmdbId": 1437696,
@@ -8588,6 +8868,96 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:44.758Z"
+  },
+  "flipped|": {
+    "value": {
+      "tmdbId": 43949,
+      "title": "Il primo amore non si scorda mai",
+      "overview": "Bryce e Juli, bambini delle elementari, si incontrano, e Juli capisce che è amore. Bryce non ne è convinto. Da quel giorno, per i prossimi sei anni, Bryce fa il possibile per tenere a distanza la sua pretendente fidanzatina... cosa non facile, visto che frequentano la stessa scuola e sono dirimpettai. Intelligente, sognatrice, indipendente e disposta a lottare per ciò in cui crede, Juli è diversa da tutte le bambine che conosce, e un po' sopra le righe. Juli è delusa dal fatto che Bryce non voglia vedere le cose come lei, e neanche le cose che a lei interessano, ma continua a sperare. Fino al momento in cui i crescenti dubbi la portano a pensare che forse sbagliava. Proprio quando Bryce inizia a pensare che forse lui sbagliava su di lei. Ma è troppo tardi?",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Flipped",
+      "genres": [
+        "Romance",
+        "Dramma"
+      ],
+      "runtime": 89,
+      "released": "2010-08-06",
+      "vote": 8,
+      "votes": 3472,
+      "poster": "https://image.tmdb.org/t/p/w500/4B9hr0MVNESxUNOK616hAaZ05dy.jpg",
+      "directors": [
+        {
+          "id": 3026,
+          "name": "Rob Reiner"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Madeline Carroll",
+          "character": "Juli Baker"
+        },
+        {
+          "name": "Callan McAuliffe",
+          "character": "Bryce Loski"
+        },
+        {
+          "name": "Rebecca De Mornay",
+          "character": "Patsy Loski"
+        },
+        {
+          "name": "Anthony Edwards",
+          "character": "Steven Loski"
+        },
+        {
+          "name": "John Mahoney",
+          "character": "Chet Duncan"
+        },
+        {
+          "name": "Penelope Ann Miller",
+          "character": "Trina Baker"
+        },
+        {
+          "name": "Aidan Quinn",
+          "character": "Richard Baker"
+        },
+        {
+          "name": "Kevin Weisman",
+          "character": "Daniel Baker"
+        }
+      ],
+      "trailer": "shN4dt583Y0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/43949-flipped/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:31.093Z"
   },
   "forrest gump|robert zemeckis 1994": {
     "value": {
@@ -9531,6 +9901,69 @@
       }
     },
     "fetchedAt": "2026-11-07T05:05:03.664Z"
+  },
+  "godzilla minus zero|takashi yamazaki 2026": {
+    "value": {
+      "tmdbId": 1381071,
+      "title": "Godzilla Minus Zero",
+      "overview": "La vicenda è ambientata nel 1949, in un Giappone che sta ancora faticosamente cercando di ricostruirsi dopo i traumi della Seconda Guerra Mondiale e dopo il precedente passaggio del mostro. La ricomparsa di Godzilla costringerà i due protagonisti, l’ex pilota Kōichi (interpretato da Ryunosuke Kamiki) e Noriko (Minami Hamabe), a una nuova e disperata lotta per la sopravvivenza.",
+      "overviewLang": "it",
+      "tagline": "Una nuova minaccia sta per arrivare.",
+      "originalTitle": "ゴジラ-0.0",
+      "genres": [
+        "Fantascienza",
+        "Horror",
+        "Azione"
+      ],
+      "runtime": 135,
+      "released": "2026-11-12",
+      "vote": 7.8,
+      "votes": 138,
+      "poster": "https://image.tmdb.org/t/p/w500/qRq5Oa4hsfjVqTtEgBKi1efTQuv.jpg",
+      "directors": [
+        {
+          "id": 43652,
+          "name": "Takashi Yamazaki"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ryūnosuke Kamiki",
+          "character": "Koichi Shikishima"
+        },
+        {
+          "name": "浜辺美波",
+          "character": "Noriko Shikishima"
+        },
+        {
+          "name": "山田裕貴",
+          "character": "Shiro Mizushima"
+        },
+        {
+          "name": "Kuranosuke Sasaki",
+          "character": "Seiji Akitsu"
+        },
+        {
+          "name": "Jun Kunimura",
+          "character": "Dr. Ogata"
+        },
+        {
+          "name": "田中美央",
+          "character": "Captain Tatsuo Hotta"
+        },
+        {
+          "name": "Sakura Ando",
+          "character": "Sumiko Ota"
+        },
+        {
+          "name": "長澤まさみ",
+          "character": "Aoyama"
+        }
+      ],
+      "trailer": "a1y8wbDMUOg",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.280Z"
   },
   "grand hotel|edmund goulding 1932": {
     "value": {
@@ -10826,6 +11259,80 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:56.663Z"
+  },
+  "heist|": {
+    "value": {
+      "tmdbId": 11088,
+      "title": "Il colpo",
+      "overview": "Joe Moore (Gene Hackman) è felice, ha una bella moglie, molti soldi e un lavoro che ama. Joe Moore è un ladro. Ma ad un certo punto tutto inizia ad andare storto: viene ripreso da una telecamera mentre ruba, il suo ricettatore Bergman (Danny DeVito) si rifiuta di dargli dei soldi per un vecchio affare e sua moglie forse lo tradisce con un tenente della polizia.",
+      "overviewLang": "it",
+      "tagline": "Non è l'amore che fa girare il mondo.",
+      "originalTitle": "Heist",
+      "genres": [
+        "Azione",
+        "Crime",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 107,
+      "released": "2001-11-09",
+      "vote": 6.3,
+      "votes": 667,
+      "poster": "https://image.tmdb.org/t/p/w500/8ees9f4hPcEXucgdPgOwDJj6eEw.jpg",
+      "directors": [
+        {
+          "id": 1255,
+          "name": "David Mamet"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Gene Hackman",
+          "character": "Joe Moore"
+        },
+        {
+          "name": "Danny DeVito",
+          "character": "Mickey Bergman"
+        },
+        {
+          "name": "Delroy Lindo",
+          "character": "Bobby 'Bob' Blane"
+        },
+        {
+          "name": "Sam Rockwell",
+          "character": "Jimmy Silk"
+        },
+        {
+          "name": "Rebecca Pidgeon",
+          "character": "Fran Moore"
+        },
+        {
+          "name": "Ricky Jay",
+          "character": "Don 'Pinky' Pincus"
+        },
+        {
+          "name": "Patti LuPone",
+          "character": "Betty Croft"
+        },
+        {
+          "name": "Alan Bilzerian",
+          "character": "Fast Food Customer"
+        }
+      ],
+      "trailer": "Yjmy0TcpDtA",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/11088-heist/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:30.495Z"
   },
   "hellboy|": {
     "value": {
@@ -12534,6 +13041,47 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.603Z"
+  },
+  "il canto della foresta|vincent munier 2026": {
+    "value": {
+      "tmdbId": 1309373,
+      "title": "Il canto della foresta",
+      "overview": "Un nonno, suo figlio e il figlio del figlio: Michel, Vincent (il regista) e Simon. Tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua rarità, di osservare da vicinissimo la natura. Rispettandola. Nelle foreste di conifere del dipartimento francese dei Vosgi, come a una base sicura dopo le loro esplorazioni, tornano in una baita di legno illuminata solo da candele. Tra i tre si compie la trasmissione della passione per animali e ambiente, in uno scambio continuo di saperi e curiosità. Un patrimonio di storie tramandate per via orale e di esperienze, rilevazione sul campo. Per Michel la scintilla è scattata, tanti anni prima, con l'avvistamento di un gallo cedrone, razza ormai scomparsa da quei territori.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Le Chant des forêts",
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 99,
+      "released": "2026-11-12",
+      "vote": 7.9,
+      "votes": 77,
+      "poster": "https://image.tmdb.org/t/p/w500/1Ty8uGoVEc4g4W7AFPdcOzXktG3.jpg",
+      "directors": [
+        {
+          "id": 2294474,
+          "name": "Vincent Munier"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Michel Munier",
+          "character": "Self"
+        },
+        {
+          "name": "Simon Munier",
+          "character": "Self"
+        },
+        {
+          "name": "Vincent Munier",
+          "character": "Self"
+        }
+      ],
+      "trailer": "Hg84mjAvwyQ",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:30.074Z"
   },
   "il caso spotlight|tom mccarthy 2015": {
     "value": {
@@ -14860,6 +15408,67 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.895Z"
+  },
+  "il rumore delle cose nuove|paolo genovese 2026": {
+    "value": {
+      "tmdbId": 1544126,
+      "title": "Il rumore delle cose nuove",
+      "overview": "Andrea è un fotografo, Andreina un’infermiera, e se oggi Andrea è ancora vivo è perché Andreina gli ha donato un pezzo di sé. Umberto al lavoro allevia il dolore e a casa lo infligge ad Alba, che aveva sogni semplici e ora ha smesso di sognare. Ralph di mestiere riproduce suoni, Viola è un’attrice che ha scelto di recitare anche nella vita. E poi c’è Mirko, che ha dieci anni ma fa tanto rumore. Tre famiglie, che per anni si sono sfiorate nelle strade di Milano senza conoscersi, trascorrono le loro esistenze fra rancori, bugie e momenti di felicità finché un incontro imprevisto non stravolge tutto. Allora il caos prende il sopravvento sul fragile equilibrio che le regge e rischia di spazzarle via.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 113,
+      "released": "2026-11-12",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/2Wq59OquoiAmgs1A86FfJcnzxfs.jpg",
+      "directors": [
+        {
+          "id": 225160,
+          "name": "Paolo Genovese"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Edoardo Pesce",
+          "character": "Umberto"
+        },
+        {
+          "name": "Stefano Accorsi",
+          "character": "Andrea"
+        },
+        {
+          "name": "Emanuela Fanelli",
+          "character": "Alba"
+        },
+        {
+          "name": "Lino Musella",
+          "character": "Ralph"
+        },
+        {
+          "name": "Claudia Pandolfi",
+          "character": "Viola"
+        },
+        {
+          "name": "Claudio Santamaria",
+          "character": "Elio"
+        },
+        {
+          "name": "Vittoria Puccini",
+          "character": "Andreina"
+        },
+        {
+          "name": "Rolando Ravello",
+          "character": "Psicanalista Andreina"
+        }
+      ],
+      "trailer": "KKWO4jLB24U",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:30.170Z"
   },
   "il signore degli anelli il ritorno del re|peter jackson 2003": {
     "value": {
@@ -17580,6 +18189,67 @@
     },
     "fetchedAt": "2026-10-17T09:30:41.551Z"
   },
+  "l essere amato|rodrigo sorogoyen 2026": {
+    "value": {
+      "tmdbId": 1074074,
+      "title": "L'essere amato",
+      "overview": "Acclaimed film director Esteban Martínez is a legend both for his films and for his past marked by violence and excess. For his latest project, he offers his daughter Emilia a role under the pretext of helping her with her stalled acting career. Living together on set will foster a closeness they haven’t shared for years, but it will also reopen old wounds that never healed.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": "El ser querido",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 136,
+      "released": "2026-11-12",
+      "vote": 6.9,
+      "votes": 113,
+      "poster": "https://image.tmdb.org/t/p/w500/LdKLipXCdKHNXxUxn8l7UTdnXJ.jpg",
+      "directors": [
+        {
+          "id": 96690,
+          "name": "Rodrigo Sorogoyen"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Javier Bardem",
+          "character": "Esteban Martínez"
+        },
+        {
+          "name": "Victoria Luengo",
+          "character": "Emilia"
+        },
+        {
+          "name": "Melina Matthews",
+          "character": "Bárbara"
+        },
+        {
+          "name": "Malena Villa",
+          "character": "Malena"
+        },
+        {
+          "name": "Mourad Ouani",
+          "character": "Bilal"
+        },
+        {
+          "name": "Pepa Gracia",
+          "character": "Pepa"
+        },
+        {
+          "name": "Raúl Prieto",
+          "character": "Raúl"
+        },
+        {
+          "name": "Pablo Gómez-Pando",
+          "character": "Pablo"
+        }
+      ],
+      "trailer": "2I5LLG2XBco",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.867Z"
+  },
   "l estranea|paolo strippoli 2026": {
     "value": {
       "tmdbId": 1412795,
@@ -18989,6 +19659,67 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.388Z"
+  },
+  "la gradiva|marine atlan 2026": {
+    "value": {
+      "tmdbId": 1154730,
+      "title": "La Gradiva",
+      "overview": "Una classe di liceali si reca a Pompei alla scoperta delle rovine e dei corpi pietrificati dal Vesuvio. Il viaggio si trasforma in un momento unico in cui la forza della giovinezza incontra un mondo congelato nel tempo. I loro desideri cominciano ad affiorare con intensità inaspettata, conducendoli verso una frattura irreversibile.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 145,
+      "released": "2026-11-18",
+      "vote": 7.4,
+      "votes": 45,
+      "poster": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+      "directors": [
+        {
+          "id": 1988085,
+          "name": "Marine Atlan"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Colas Quignard",
+          "character": "Toni"
+        },
+        {
+          "name": "Antonia Buresi",
+          "character": "Madame Mercier"
+        },
+        {
+          "name": "Mitia Capellier-Audat",
+          "character": "James"
+        },
+        {
+          "name": "Suzanne Gerin",
+          "character": "Suzanne"
+        },
+        {
+          "name": "Hadya Fofana",
+          "character": "Angela"
+        },
+        {
+          "name": "Rouge Isaac",
+          "character": "Amaury"
+        },
+        {
+          "name": "Lou-Ann Le Glorennec",
+          "character": "Constance"
+        },
+        {
+          "name": "Chamathka Warahena",
+          "character": "Chamathka"
+        }
+      ],
+      "trailer": "9vD0Euyk0a4",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.685Z"
   },
   "la guerra dei mondi|rich lee 2025": {
     "value": {
@@ -20883,6 +21614,67 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.468Z"
   },
+  "look back|hirokazu kore eda 2026": {
+    "value": {
+      "tmdbId": 1591675,
+      "title": "Look Back",
+      "overview": "Fujino, adolescente determinata e piena di talento, sogna di diventare una mangaka. Kyomoto, schiva e solitaria, vive quasi sempre chiusa nella sua stanza, dedicando ogni istante al disegno. Unite dalla stessa passione, le due ragazze, cresciute in una piccola città, inseguono per tredici anni il sogno di diventare autrici di manga.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "ルックバック",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 100,
+      "released": "2026-11-12",
+      "vote": 7.9,
+      "votes": 23,
+      "poster": "https://image.tmdb.org/t/p/w500/7Ou8VlAhPvYmtzRu7UhFdSjJs4j.jpg",
+      "directors": [
+        {
+          "id": 25645,
+          "name": "Hirokazu Kore-eda"
+        }
+      ],
+      "cast": [
+        {
+          "name": "出口夏希",
+          "character": "Fujino"
+        },
+        {
+          "name": "Aju Makita",
+          "character": "Kyomoto"
+        },
+        {
+          "name": "七瀬ふうり",
+          "character": "Young Fujino"
+        },
+        {
+          "name": "岡田六花",
+          "character": "Young Kyomoto"
+        },
+        {
+          "name": "Masaki Suda",
+          "character": "Maeda"
+        },
+        {
+          "name": "宮藤官九郎",
+          "character": "Tamai"
+        },
+        {
+          "name": "野呂佳代",
+          "character": "Akari"
+        },
+        {
+          "name": "池田良",
+          "character": "Hitoshi"
+        }
+      ],
+      "trailer": "i7sRLxcbakE",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.968Z"
+  },
   "luci della citta|charlie chaplin 1931": {
     "value": {
       "tmdbId": 901,
@@ -22567,6 +23359,52 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.614Z"
+  },
+  "my best friend|": {
+    "value": {
+      "tmdbId": 1730747,
+      "title": "My Best Friend",
+      "overview": "È da un po' che Star vuole condividere qualcosa con Jill. Qualcosa che comporta un prezzo molto alto.",
+      "overviewLang": "it",
+      "tagline": "Il dono della conoscenza può cambiare ogni cosa",
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Dramma"
+      ],
+      "runtime": 2,
+      "released": "2026-07-11",
+      "vote": 6,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/sH4AhpoZ6s4MWj7jFW7CXvUtzxw.jpg",
+      "directors": [
+        {
+          "id": 5639024,
+          "name": "Gabriel Hamner"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Liv Reed",
+          "character": "Jill"
+        },
+        {
+          "name": "Maddy Earnest",
+          "character": "Star"
+        },
+        {
+          "name": "Abigail McCoy",
+          "character": "Eve"
+        },
+        {
+          "name": "Apple",
+          "character": "Apple"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:30.701Z"
   },
   "my fair lady|george cukor 1964": {
     "value": {
@@ -26867,6 +27705,68 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:44.162Z"
+  },
+  "scrooge e gli spiriti del natale|ti west 2026": {
+    "value": {
+      "tmdbId": 1567605,
+      "title": "Scrooge e gli spiriti del Natale",
+      "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": "Ebenezer",
+      "genres": [
+        "Fantasy",
+        "Commedia"
+      ],
+      "runtime": 115,
+      "released": "2026-11-12",
+      "vote": 8.6,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/drg45KOBksTrv9qQA0EmNuFgHG9.jpg",
+      "directors": [
+        {
+          "id": 101542,
+          "name": "Ti West"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Johnny Depp",
+          "character": "Ebenezer Scrooge"
+        },
+        {
+          "name": "Rupert Grint",
+          "character": "Bob Cratchit"
+        },
+        {
+          "name": "Daisy Ridley",
+          "character": "Emily Cratchit"
+        },
+        {
+          "name": "Tramell Tillman",
+          "character": "Ghost of Christmas Present"
+        },
+        {
+          "name": "Ian McKellen",
+          "character": "Jacob Marley"
+        },
+        {
+          "name": "Andrea Riseborough",
+          "character": "Ghost of Christmas Past"
+        },
+        {
+          "name": "Sam Claflin",
+          "character": "Fred"
+        },
+        {
+          "name": "Arthur Conti",
+          "character": "Young Ebenezer"
+        }
+      ],
+      "trailer": "FATCofGu-6k",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:29.469Z"
   },
   "se ami qualcuno dillo|marco bonini 2026": {
     "value": {
@@ -33160,6 +34060,67 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.665Z"
   },
+  "un weekend artificiale|leonardo pieraccioni 2026": {
+    "value": {
+      "tmdbId": 1723882,
+      "title": "Un weekend artificiale",
+      "overview": "Leonardo, parrucchiere fiorentino, viene invitato insieme ad altri sei sconosciuti in una villa da sogno per partecipare a un esperimento senza precedenti: dovranno scoprire chi tra di loro è un umanoide creato con l’intelligenza artificiale. Un incasinatissimo weekend di sospetti, emozioni e colpi di scena… prima che siano i sentimenti e la vita vera a mandare tutti in tilt.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": null,
+      "released": "2026-11-12",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/x8fbJstLDEYYlJSCDj3v0MD9Lqd.jpg",
+      "directors": [
+        {
+          "id": 120271,
+          "name": "Leonardo Pieraccioni"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Leonardo Pieraccioni",
+          "character": "Leonardo"
+        },
+        {
+          "name": "Giovanni Esposito",
+          "character": null
+        },
+        {
+          "name": "Giulia Vecchio",
+          "character": null
+        },
+        {
+          "name": "Marta Zoboli",
+          "character": null
+        },
+        {
+          "name": "Tosca D'Aquino",
+          "character": null
+        },
+        {
+          "name": "Massimo Ceccherini",
+          "character": null
+        },
+        {
+          "name": "Giorgio Panariello",
+          "character": null
+        },
+        {
+          "name": "Herbert Ballerina",
+          "character": null
+        }
+      ],
+      "trailer": "FlfJ4uKGMuw",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-11T05:20:30.274Z"
+  },
   "una battaglia dopo l altra|paul thomas anderson 2025": {
     "value": {
       "tmdbId": 1054867,
@@ -33679,6 +34640,88 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.986Z"
+  },
+  "unknown|": {
+    "value": {
+      "tmdbId": 48138,
+      "title": "Unknown - Senza identità",
+      "overview": "A Berlino per un congresso, il Dott. Martin Harris è vittima di un incidente stradale a bordo di un taxi. Dopo quattro giorni di coma si risveglia, per scoprire che un altro uomo ha assunto la sua identità e che persino sua moglie, in viaggio con lui, afferma di non conoscerlo. Ignorato dalle autorità e braccato da un misterioso assassino, Martin trova nella tassista del suo incidente un alleato per scavare a fondo in un mistero che mette in gioco la sua identità e la sua sanità mentale.",
+      "overviewLang": "it",
+      "tagline": "Riprenditi la tua vita",
+      "originalTitle": "Unknown",
+      "genres": [
+        "Azione",
+        "Mistero",
+        "Thriller"
+      ],
+      "runtime": 113,
+      "released": "2011-02-28",
+      "vote": 6.7,
+      "votes": 4355,
+      "poster": "https://image.tmdb.org/t/p/w500/1it6mU9xYHDkURMJQcvYHL2hbx2.jpg",
+      "directors": [
+        {
+          "id": 59521,
+          "name": "Jaume Collet Serra"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Liam Neeson",
+          "character": "Dr. Martin Harris"
+        },
+        {
+          "name": "Diane Kruger",
+          "character": "Gina"
+        },
+        {
+          "name": "January Jones",
+          "character": "Elizabeth Harris"
+        },
+        {
+          "name": "Aidan Quinn",
+          "character": "Martin B."
+        },
+        {
+          "name": "Bruno Ganz",
+          "character": "Ernst Jürgen"
+        },
+        {
+          "name": "Frank Langella",
+          "character": "Rodney Cole"
+        },
+        {
+          "name": "Sebastian Koch",
+          "character": "Professor Leo Bressler"
+        },
+        {
+          "name": "Olivier Schneider",
+          "character": "Smith"
+        }
+      ],
+      "trailer": "iC2MVSpUVHc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/48138-unknown/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:31.007Z"
   },
   "up|pete docter 2009": {
     "value": {
@@ -34393,6 +35436,105 @@
       }
     },
     "fetchedAt": "2026-11-05T05:13:22.279Z"
+  },
+  "war|": {
+    "value": {
+      "tmdbId": 10431,
+      "title": "Rogue - Il solitario",
+      "overview": "Jack Crawford, agente dell'FBI, sconvolto dalla morte di un suo collega e amico, cerca una vendetta personale nei confronti dei mandanti dell'omicidio, che appartengono alla mafia giapponese. La stessa organizzazione criminale vede al suo interno una serie di tradimenti e tensioni che ben presto fanno precipitare la situazione.",
+      "overviewLang": "it",
+      "tagline": "Uno vuole giustizia. L'altro vendetta.",
+      "originalTitle": "War",
+      "genres": [
+        "Azione",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 103,
+      "released": "2008-07-18",
+      "vote": 6.4,
+      "votes": 2165,
+      "poster": "https://image.tmdb.org/t/p/w500/mWuR0bKqAxPfuzTKHTVDl4Ihbtq.jpg",
+      "directors": [
+        {
+          "id": 65190,
+          "name": "Philip G. Atwell"
+        }
+      ],
+      "cast": [
+        {
+          "name": "李连杰",
+          "character": "Rogue"
+        },
+        {
+          "name": "Jason Statham",
+          "character": "Crawford"
+        },
+        {
+          "name": "John Lone",
+          "character": "Chang"
+        },
+        {
+          "name": "Devon Aoki",
+          "character": "Kira"
+        },
+        {
+          "name": "Luis Guzmán",
+          "character": "Benny"
+        },
+        {
+          "name": "Saul Rubinek",
+          "character": "Dr. Sherman"
+        },
+        {
+          "name": "Ryo Ishibashi",
+          "character": "Shiro"
+        },
+        {
+          "name": "Sung Kang",
+          "character": "Goi"
+        }
+      ],
+      "trailer": "0LH-1rg7XrM",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/10431-war/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-11T05:20:30.380Z"
   },
   "west side story|jerome robbins": {
     "value": {

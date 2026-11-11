@@ -1640,6 +1640,23 @@
     },
     "fetchedAt": "2026-11-07T05:09:05.587Z"
   },
+  "dani sloane": {
+    "value": {
+      "tmdbId": 6598928,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 338684,
+          "title": "Taken: il caso Natalee Holloway",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:24:41.915Z"
+  },
   "daron nefcy": {
     "value": {
       "tmdbId": 1416299,
@@ -3309,6 +3326,54 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:05.441Z"
+  },
+  "joe barton": {
+    "value": {
+      "tmdbId": 226587,
+      "wiki": {
+        "lang": "en",
+        "title": "Joe Barton (screenwriter)",
+        "url": "https://en.wikipedia.org/wiki/Joe_Barton_(screenwriter)",
+        "extract": "Joe Barton (born 1985) is a British screenwriter of film and television, best known for the crime series Giri/Haji, the science-fiction thriller The Lazarus Project, and the spy thriller Black Doves."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Joe_Barton_at_2025_SXSW_London_02.jpg/500px-Joe_Barton_at_2025_SXSW_London_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Joe_Barton_at_2025_SXSW_London_02.jpg",
+        "author": "DavidPMaynard",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 246864,
+          "title": "Amadeus",
+          "year": "2025"
+        },
+        {
+          "id": 225385,
+          "title": "Black Doves",
+          "year": "2024"
+        },
+        {
+          "id": 210235,
+          "title": "The Bastard Son & the Devil Himself",
+          "year": "2022"
+        },
+        {
+          "id": 194567,
+          "title": "Progetto Lazarus",
+          "year": "2022"
+        },
+        {
+          "id": 94659,
+          "title": "Giri / Haji - Dovere / Vergogna",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-11T05:24:41.193Z"
   },
   "joe penhall": {
     "value": {

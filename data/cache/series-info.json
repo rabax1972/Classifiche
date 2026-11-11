@@ -800,6 +800,88 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.309Z"
   },
+  "anaesthesia|stagione 1": {
+    "value": {
+      "tmdbId": 312006,
+      "title": "Anestesia",
+      "overview": "Dopo un'operazione audace ma sfortunata, un medico di talento lascia una clinica prestigiosa per un ospedale di provincia nel tentativo di rimettere in sesto la sua vita.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Znieczulenie",
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 52,
+      "firstAired": "2026-11-04",
+      "lastAired": "2026-11-04",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-04",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.9,
+      "votes": 8,
+      "poster": "https://image.tmdb.org/t/p/w500/h11NvlBzbTF6P2boA65ITdFSSo4.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Leszek Lichota",
+          "character": "Dr. Dawid Łazarz"
+        },
+        {
+          "name": "Aleksandra Popławska",
+          "character": "Jagoda Wilk"
+        },
+        {
+          "name": "Karolina Gruszka",
+          "character": "Basia Łazarz"
+        },
+        {
+          "name": "Masza Wągrocka",
+          "character": "Ada Dąbrowska"
+        },
+        {
+          "name": "Karol Biskup",
+          "character": "Zawisza"
+        },
+        {
+          "name": "Mariusz Bonaszewski",
+          "character": "Ordynator Grzelka"
+        },
+        {
+          "name": "Andrij Zhuravsky",
+          "character": "Oleg"
+        },
+        {
+          "name": "Marcin Drabicki",
+          "character": "Pacjent wyrywający się z pasów"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/312006-znieczulenie/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-11T05:24:39.912Z"
+  },
   "arthur|marc brown 1996": {
     "value": {
       "tmdbId": 2153,
@@ -1366,6 +1448,101 @@
       }
     },
     "fetchedAt": "2026-10-31T05:00:27.462Z"
+  },
+  "black doves|stagione 2": {
+    "value": {
+      "tmdbId": 225385,
+      "title": "Black Doves",
+      "overview": "Quando l'amante segreto di una spia viene ucciso, un assassino viene incaricato di proteggere la sua vita mentre indaga sull'omicidio. Insieme scoprono una vasta cospirazione interconnessa che li porta a mettere in discussione il costo delle loro scelte morali.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Mistero",
+        "Crime"
+      ],
+      "episodeRuntime": 54,
+      "firstAired": "2024-12-05",
+      "lastAired": "2026-11-05",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 12,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2024-12-05",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-11-05",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7,
+      "votes": 483,
+      "poster": "https://image.tmdb.org/t/p/w500/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+      "creators": [
+        {
+          "id": 226587,
+          "name": "Joe Barton"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Keira Knightley",
+          "character": "Helen Webb"
+        },
+        {
+          "name": "Ben Whishaw",
+          "character": "Sam Young"
+        },
+        {
+          "name": "Sarah Lancashire",
+          "character": "Mrs. Reed"
+        },
+        {
+          "name": "Andrew Buchan",
+          "character": "Wallace"
+        },
+        {
+          "name": "Ella Lily Hyland",
+          "character": "Williams"
+        },
+        {
+          "name": "Andrew Koji",
+          "character": "Jason"
+        },
+        {
+          "name": "Omari Douglas",
+          "character": "Michael"
+        },
+        {
+          "name": "Sam Troughton",
+          "character": "Stephen Yarrick"
+        }
+      ],
+      "trailer": "shzJzjVscno",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-11T05:24:39.914Z"
   },
   "bleach|2004": {
     "value": {
@@ -15454,6 +15631,60 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.172Z"
+  },
+  "taken natalee holloway|stagione 1": {
+    "value": {
+      "tmdbId": 338684,
+      "title": "Taken: il caso Natalee Holloway",
+      "overview": "Beth Holloway, la madre di Natalee, racconta la storia completa e definitiva del caso che l'ha tormentata negli ultimi 20 anni, dal giorno della scomparsa di Natalee alla drammatica confessione di due decenni dopo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Taken: Natalee Holloway",
+      "genres": [
+        "Documentario"
+      ],
+      "episodeRuntime": 36,
+      "firstAired": "2026-11-04",
+      "lastAired": "2026-11-04",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 3,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-04",
+          "episodes": 3
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.6,
+      "votes": 8,
+      "poster": "https://image.tmdb.org/t/p/w500/rKyjcuSbsDDDcIisa6cx5k5yQNa.jpg",
+      "creators": [
+        {
+          "id": 6598928,
+          "name": "Dani Sloane"
+        }
+      ],
+      "cast": [],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/338684-taken-natalee-holloway/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-11T05:24:39.989Z"
   },
   "ted lasso|bill lawrence": {
     "value": {
