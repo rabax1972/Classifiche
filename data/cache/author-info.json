@@ -1495,6 +1495,15 @@
     },
     "fetchedAt": "2026-11-01T05:00:39.462Z"
   },
+  "cathy maxwell": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/cathy-maxwell/214000612",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
+  },
   "cathy williams": {
     "value": {
       "wiki": {
@@ -1867,6 +1876,20 @@
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
+  "daniel keyes": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Daniel Keyes",
+        "url": "https://it.wikipedia.org/wiki/Daniel_Keyes",
+        "extract": "Daniel Keyes (Brooklyn, 9 agosto 1927 – Boca Raton, 15 giugno 2014) è stato un autore di fantascienza statunitense, principalmente noto per il suo racconto Fiori per Algernon, del 1959, vincitore del Premio Hugo nel 1960, che adattò in un romanzo omonimo nel 1966 aggiudicandosi con esso il Premio Nebula e in un film nel 1968.\n\nKeyes aveva un Bachelor of Arts in psicologia e un Master's degree in letteratura inglese ed americana. Nel 2000, la Science Fiction and Fantasy Writers of America lo ha insignito del Premio Author Emeritus."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/daniel-keyes/122974960",
+      "died": 2014
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
+  },
   "daniel silva": {
     "value": {
       "wiki": {
@@ -1886,6 +1909,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-23T04:46:52.228Z"
+  },
+  "daniela volonte": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/daniela-volont%C3%A9/621752852",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
   },
   "danielle steel": {
     "value": {
@@ -5860,6 +5892,26 @@
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
+  "paolo del debbio": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Paolo Del Debbio",
+        "url": "https://it.wikipedia.org/wiki/Paolo_Del_Debbio",
+        "extract": "Paolo Del Debbio (Lucca, 2 febbraio 1958) è un saggista, giornalista, conduttore televisivo, autore televisivo ed ex politico italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Del_Debbio.jpg/500px-Del_Debbio.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Del_Debbio.jpg",
+        "author": "Photo2021",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/paolo-del-debbio/1167060901",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
+  },
   "paolo fox": {
     "value": {
       "wiki": {
@@ -6146,6 +6198,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
+  "r s burton": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/r-s-burton/6830662976",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.883Z"
   },
   "rachel reid": {
     "value": {
@@ -6689,6 +6750,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "sandrone dazieri": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Sandrone Dazieri",
+        "url": "https://it.wikipedia.org/wiki/Sandrone_Dazieri",
+        "extract": "Sandro Dazieri, detto Sandrone (Cremona, 4 novembre 1964), è uno scrittore, sceneggiatore, curatore editoriale e attivista italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Sandrone_Dazieri_-_Lucca_Comics_%26_Games_2016.jpg/500px-Sandrone_Dazieri_-_Lucca_Comics_%26_Games_2016.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Sandrone_Dazieri_-_Lucca_Comics_%26_Games_2016.jpg",
+        "author": "Niccolò Caranti",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/sandrone-dazieri/467353399",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
   },
   "sara d amario": {
     "value": {
@@ -7293,6 +7374,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
+  "thrity umrigar": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Thrity Umrigar",
+        "url": "https://it.wikipedia.org/wiki/Thrity_Umrigar",
+        "extract": "Thrity Umrigar (Mumbai, 1961) è una scrittrice indiana naturalizzata statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Thrity_Umrigar_2022_Texas_Book_Festival.jpg/500px-Thrity_Umrigar_2022_Texas_Book_Festival.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Thrity_Umrigar_2022_Texas_Book_Festival.jpg",
+        "author": "Larry D. Moore",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/thrity-umrigar/364509922",
+      "died": null
+    },
+    "fetchedAt": "2026-11-12T12:47:02.884Z"
   },
   "tim guenard": {
     "value": {

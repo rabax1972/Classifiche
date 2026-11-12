@@ -3403,6 +3403,23 @@
     },
     "fetchedAt": "2026-10-27T04:51:33.144Z"
   },
+  "john d payne": {
+    "value": {
+      "tmdbId": 1276959,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/tcZE30s0wA9H85598aGFaXgvoqA.jpg",
+      "series": [
+        {
+          "id": 84773,
+          "title": "Il Signore degli Anelli: Gli Anelli del Potere",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-12T12:51:14.475Z"
+  },
   "john wells": {
     "value": {
       "tmdbId": 47333,
@@ -4955,6 +4972,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:24.102Z"
+  },
+  "patrick mckay": {
+    "value": {
+      "tmdbId": 1276960,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/mzPLmSrqMQkQc0n8Kft07Han3zu.jpg",
+      "series": [
+        {
+          "id": 84773,
+          "title": "Il Signore degli Anelli: Gli Anelli del Potere",
+          "year": "2022"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-12T12:51:13.570Z"
   },
   "paul abbott": {
     "value": {

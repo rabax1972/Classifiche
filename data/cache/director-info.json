@@ -8937,6 +8937,43 @@
     },
     "fetchedAt": "2026-11-11T05:20:35.641Z"
   },
+  "hiroki kazama": {
+    "value": {
+      "tmdbId": 2441790,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/9OLcvd3qsqEgqyb2z8uoAjxBWzp.jpg",
+      "films": [
+        {
+          "id": 1654940,
+          "title": "One Year to Live, Buy a Man",
+          "year": "2026"
+        },
+        {
+          "id": 1663041,
+          "title": "モブ子の恋",
+          "year": "2026"
+        },
+        {
+          "id": 1219566,
+          "title": "バジーノイズ",
+          "year": "2024"
+        },
+        {
+          "id": 926916,
+          "title": "チェリまほ THE MOVIE 〜30歳まで童貞だと魔法使いになれるらしい〜",
+          "year": "2022"
+        },
+        {
+          "id": 601879,
+          "title": "チア男子!!",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-12T12:47:03.741Z"
+  },
   "hugh hudson": {
     "value": {
       "tmdbId": 58220,
@@ -22135,6 +22172,64 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:00.711Z"
+  },
+  "tristan seguela": {
+    "value": {
+      "tmdbId": 1277829,
+      "wiki": {
+        "lang": "it",
+        "title": "Tristan Séguéla",
+        "url": "https://it.wikipedia.org/wiki/Tristan_S%C3%A9gu%C3%A9la",
+        "extract": "Tristan Séguela (Parigi, 19 settembre 1978) è un regista e sceneggiatore francese, noto per la miniserie Netflix Le mille vite di Bernard Tapie.\n\nFiglio del dirigente pubblicitario Jacques Séguela, ha studiato presso HEC Paris."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Tristan_S%C3%A9gu%C3%A9la_at_83rd_Venice_International_Film_Festival-1.jpg/500px-Tristan_S%C3%A9gu%C3%A9la_at_83rd_Venice_International_Film_Festival-1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Tristan_S%C3%A9gu%C3%A9la_at_83rd_Venice_International_Film_Festival-1.jpg",
+        "author": "LucaFazPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1012604,
+          "title": "Aucun rapport",
+          "year": null
+        },
+        {
+          "id": 1616419,
+          "title": "Un buon avvocato",
+          "year": "2026"
+        },
+        {
+          "id": 1235610,
+          "title": "Mercato",
+          "year": "2025"
+        },
+        {
+          "id": 875818,
+          "title": "Un uomo felice",
+          "year": "2023"
+        },
+        {
+          "id": 613349,
+          "title": "Chiamate un dottore!",
+          "year": "2019"
+        },
+        {
+          "id": 432622,
+          "title": "Rattrapage",
+          "year": "2017"
+        },
+        {
+          "id": 242673,
+          "title": "16 ans ou presque",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-12T12:47:04.740Z"
   },
   "tyler atkins": {
     "value": {

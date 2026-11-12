@@ -6534,6 +6534,124 @@
     },
     "fetchedAt": "2026-10-18T14:25:22.973Z"
   },
+  "il signore degli anelli gli anelli del potere|patrick mckay": {
+    "value": {
+      "tmdbId": 84773,
+      "title": "Il Signore degli Anelli: Gli Anelli del Potere",
+      "overview": "Migliaia di anni prima degli eventi raccontati ne Lo Hobbit e Il Signore degli Anelli, durante un periodo di relativa pace, nel corso della Seconda Era della Terra di Mezzo, si assiste alla forgiatura degli Anelli del Potere, all'ascesa dell'Oscuro Signore Sauron, alla caduta del regno insulare di Númenor e all'ultima alleanza tra Elfi e Uomini.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Lord of the Rings: The Rings of Power",
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 74,
+      "firstAired": "2022-09-01",
+      "lastAired": "2024-10-03",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 24,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-09-01",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2024-08-29",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-11-09",
+          "episodes": 8
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2022-09-03",
+          "episodes": 36
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-11-11",
+        "season": 3,
+        "episode": 1
+      },
+      "networks": [
+        "Prime Video"
+      ],
+      "vote": 7.2,
+      "votes": 4020,
+      "poster": "https://image.tmdb.org/t/p/w500/oA9c49FoSJDTGKBfngC6L8XnmU9.jpg",
+      "creators": [
+        {
+          "id": 1276960,
+          "name": "Patrick McKay"
+        },
+        {
+          "id": 1276959,
+          "name": "John D. Payne"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Morfydd Clark",
+          "character": "Galadriel"
+        },
+        {
+          "name": "Charlie Vickers",
+          "character": "Halbrand"
+        },
+        {
+          "name": "Robert Aramayo",
+          "character": "Elrond"
+        },
+        {
+          "name": "Charles Edwards",
+          "character": "Lord Celebrimbor"
+        },
+        {
+          "name": "Owain Arthur",
+          "character": "Durin IV"
+        },
+        {
+          "name": "Sophia Nomvete",
+          "character": "Disa"
+        },
+        {
+          "name": "Daniel Weyman",
+          "character": "The Stranger"
+        },
+        {
+          "name": "Markella Kavenagh",
+          "character": "Elanor 'Nori' Brandyfoot"
+        }
+      ],
+      "trailer": "y4Sod99mi6k",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-12T12:51:13.155Z"
+  },
   "il trono di spade|david benioff": {
     "value": {
       "tmdbId": 1399,

@@ -24777,6 +24777,79 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.654Z"
   },
+  "one year to live buy a man|hiroki kazama 2026": {
+    "value": {
+      "tmdbId": 1654940,
+      "title": "One Year to Live, Buy a Man",
+      "overview": "Alla parsimoniosa quarantenne Yui resta un anno da vivere e decide finalmente di spendere \"comprando\" Sena, l'host di un nightclub. Ma il contratto prende una piega inaspettata.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "余命一年、男をかう",
+      "genres": [
+        "Romance",
+        "Dramma",
+        "Commedia"
+      ],
+      "runtime": 110,
+      "released": "2026-11-05",
+      "vote": 7.5,
+      "votes": 23,
+      "poster": "https://image.tmdb.org/t/p/w500/lkEQXQ1YpMCzCrLOBxHLGdCHLVb.jpg",
+      "directors": [
+        {
+          "id": 2441790,
+          "name": "Hiroki Kazama"
+        }
+      ],
+      "cast": [
+        {
+          "name": "柴咲コウ",
+          "character": "Yui Katakura"
+        },
+        {
+          "name": "赤楚衛二",
+          "character": "Sena"
+        },
+        {
+          "name": "筒井道隆",
+          "character": "Masami Ikuyama"
+        },
+        {
+          "name": "Naomi Nishida",
+          "character": "Mizuho Maruyama"
+        },
+        {
+          "name": "鳴海唯",
+          "character": "Nachi"
+        },
+        {
+          "name": "宮世琉弥",
+          "character": "Kiriya"
+        },
+        {
+          "name": "近藤公園",
+          "character": "Doctor"
+        },
+        {
+          "name": "濱田マリ",
+          "character": "Sena's Mother"
+        }
+      ],
+      "trailer": "WH-RRKQGdJ8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1654940/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-12T12:47:03.442Z"
+  },
   "onslaught assalto finale|adam wingard 2026": {
     "value": {
       "tmdbId": 1284046,
@@ -33695,6 +33768,66 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.723Z"
+  },
+  "un buon avvocato|tristan seguela 2026": {
+    "value": {
+      "tmdbId": 1616419,
+      "title": "Un buon avvocato",
+      "overview": "Finito in riabilitazione dopo un'overdose in aula, un avvocato ha una settimana di tempo per salvarsi la carriera e prepararsi al processo con l'aiuto di una tenace tirocinante.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Un bon avocat",
+      "genres": [
+        "Thriller",
+        "Dramma"
+      ],
+      "runtime": 121,
+      "released": "2026-09-11",
+      "vote": 6.8,
+      "votes": 23,
+      "poster": "https://image.tmdb.org/t/p/w500/k84V1Y2PiohjN3ic8XzhukydEjm.jpg",
+      "directors": [
+        {
+          "id": 1277829,
+          "name": "Tristan Séguéla"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Laurent Lafitte",
+          "character": "Léonard Landry"
+        },
+        {
+          "name": "Anthony Bajon",
+          "character": "Noé"
+        },
+        {
+          "name": "Mélanie Laurent",
+          "character": "Iris Saint Didier"
+        },
+        {
+          "name": "Carole Bouquet",
+          "character": "Anne Lamarck"
+        },
+        {
+          "name": "Gwendal Kerdelhue",
+          "character": "L'homme de main"
+        }
+      ],
+      "trailer": "ZZtbCtD1dg8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1616419-un-bon-avocat/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-12T12:47:03.466Z"
   },
   "un cucciolo per natale|cathryn michon 2026": {
     "value": {

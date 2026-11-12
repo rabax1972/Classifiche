@@ -699,6 +699,10 @@
     "value": "Ben Sottak",
     "fetchedAt": "2026-10-17T04:42:34.193Z"
   },
+  "movie:1394740": {
+    "value": "최국희",
+    "fetchedAt": "2026-11-12T12:46:14.341Z"
+  },
   "movie:1395215": {
     "value": "Jason Sanjay",
     "fetchedAt": "2026-10-30T04:58:37.446Z"
@@ -1071,6 +1075,10 @@
     "value": "Louis Paxton",
     "fetchedAt": "2026-10-13T04:34:38.608Z"
   },
+  "movie:1559980": {
+    "value": "Tyler Perry",
+    "fetchedAt": "2026-11-12T12:46:14.139Z"
+  },
   "movie:156022": {
     "value": "Antoine Fuqua",
     "fetchedAt": "2026-10-15T04:42:51.444Z"
@@ -1211,6 +1219,10 @@
     "value": "Tristan Séguéla",
     "fetchedAt": "2026-11-10T05:03:01.327Z"
   },
+  "movie:1616687": {
+    "value": "Sidharta Tata",
+    "fetchedAt": "2026-11-12T12:46:14.235Z"
+  },
   "movie:161803": {
     "value": "Murat Dündar",
     "fetchedAt": "2026-10-18T17:54:25.634Z"
@@ -1310,6 +1322,14 @@
   "movie:1662858": {
     "value": "Klaas de Jong",
     "fetchedAt": "2026-10-21T04:46:17.208Z"
+  },
+  "movie:1664682": {
+    "value": "Lygia M. Barbosa, Paulo Gambale (Maká)",
+    "fetchedAt": "2026-11-12T12:46:14.538Z"
+  },
+  "movie:1666787": {
+    "value": "Ron Howard",
+    "fetchedAt": "2026-11-12T12:46:14.438Z"
   },
   "movie:1669915": {
     "value": "Julio Quintana",
@@ -2307,6 +2327,10 @@
     "value": "Craig Thomas, Carter Bays",
     "fetchedAt": "2026-10-31T04:54:23.704Z"
   },
+  "tv:112745": {
+    "value": "Berkun Oya",
+    "fetchedAt": "2026-11-12T12:46:15.484Z"
+  },
   "tv:113962": {
     "value": "Taylor Sheridan",
     "fetchedAt": "2026-10-12T07:24:47.304Z"
@@ -2467,6 +2491,10 @@
     "value": "Andy Breckman",
     "fetchedAt": "2026-10-31T04:54:23.887Z"
   },
+  "tv:17380": {
+    "value": "Scott Dunlop",
+    "fetchedAt": "2026-11-12T12:46:16.242Z"
+  },
   "tv:17610": {
     "value": "Shane Brennan",
     "fetchedAt": "2026-10-12T07:24:51.386Z"
@@ -2538,6 +2566,10 @@
   "tv:207484": {
     "value": "Matthew B. Roberts",
     "fetchedAt": "2026-10-19T12:51:52.103Z"
+  },
+  "tv:208921": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:15.542Z"
   },
   "tv:208929": {
     "value": null,
@@ -2695,6 +2727,10 @@
     "value": "Stacey Aglok MacDonald, Alethea Arnaquq-Baril",
     "fetchedAt": "2026-11-06T05:08:16.131Z"
   },
+  "tv:249565": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:15.937Z"
+  },
   "tv:250203": {
     "value": "Matthew McConaughey, Woody Harrelson",
     "fetchedAt": "2026-10-15T04:42:55.026Z"
@@ -2702,6 +2738,10 @@
   "tv:250923": {
     "value": "Erin Foster",
     "fetchedAt": "2026-10-23T04:45:50.031Z"
+  },
+  "tv:251842": {
+    "value": "גיא עמיר, חנן סביון",
+    "fetchedAt": "2026-11-12T12:46:16.675Z"
   },
   "tv:251941": {
     "value": "Justin Spitzer, Eric Ledgin",
@@ -2730,6 +2770,10 @@
   "tv:254492": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:48.526Z"
+  },
+  "tv:254630": {
+    "value": "Dudi Appleton, Jim Keeble",
+    "fetchedAt": "2026-11-12T12:46:15.742Z"
   },
   "tv:255570": {
     "value": "Stephen Butchard",
@@ -2774,6 +2818,10 @@
   "tv:261102": {
     "value": null,
     "fetchedAt": "2026-10-13T04:34:36.953Z"
+  },
+  "tv:261315": {
+    "value": "Chenzhou Jiang",
+    "fetchedAt": "2026-11-12T12:46:16.039Z"
   },
   "tv:261343": {
     "value": null,
@@ -2975,6 +3023,10 @@
     "value": "Robert Carlock, Sam Means",
     "fetchedAt": "2026-11-04T05:13:46.836Z"
   },
+  "tv:291507": {
+    "value": "Quinn Shephard",
+    "fetchedAt": "2026-11-12T12:46:14.938Z"
+  },
   "tv:292741": {
     "value": "Rowan Joffé",
     "fetchedAt": "2026-10-28T05:02:25.936Z"
@@ -3039,6 +3091,10 @@
     "value": "孙忠怀, 許濤",
     "fetchedAt": "2026-11-09T05:18:50.527Z"
   },
+  "tv:299764": {
+    "value": "Yang Hui-seung",
+    "fetchedAt": "2026-11-12T12:46:16.438Z"
+  },
   "tv:299939": {
     "value": "Ian Brennan",
     "fetchedAt": "2026-10-12T07:25:01.435Z"
@@ -3074,6 +3130,10 @@
   "tv:303044": {
     "value": "Thomas Boullé",
     "fetchedAt": "2026-11-06T05:08:16.028Z"
+  },
+  "tv:303630": {
+    "value": "Robert King, Michelle King",
+    "fetchedAt": "2026-11-12T12:46:16.776Z"
   },
   "tv:303745": {
     "value": "문수정",
@@ -3179,6 +3239,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:24:57.953Z"
   },
+  "tv:312661": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:15.138Z"
+  },
   "tv:312693": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:55.822Z"
@@ -3235,6 +3299,10 @@
     "value": "Paul Levesque, Vince McMahon",
     "fetchedAt": "2026-10-31T04:54:24.891Z"
   },
+  "tv:320507": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:16.137Z"
+  },
   "tv:320513": {
     "value": null,
     "fetchedAt": "2026-10-15T04:42:55.922Z"
@@ -3275,6 +3343,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:25:00.773Z"
   },
+  "tv:325689": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:16.341Z"
+  },
   "tv:32692": {
     "value": "Robin Green, Mitchell Burgess",
     "fetchedAt": "2026-10-23T04:45:48.632Z"
@@ -3282,6 +3354,10 @@
   "tv:326973": {
     "value": null,
     "fetchedAt": "2026-11-04T05:13:46.643Z"
+  },
+  "tv:326975": {
+    "value": "시크크",
+    "fetchedAt": "2026-11-12T12:46:15.238Z"
   },
   "tv:32798": {
     "value": "Roberto Orci, Alex Kurtzman",
@@ -3391,6 +3467,10 @@
     "value": null,
     "fetchedAt": "2026-10-27T04:45:49.661Z"
   },
+  "tv:335981": {
+    "value": "Charlie Brooker",
+    "fetchedAt": "2026-11-12T12:46:15.838Z"
+  },
   "tv:336024": {
     "value": "Sarah Solemani, Viviane Andereggen",
     "fetchedAt": "2026-10-12T07:24:59.976Z"
@@ -3402,6 +3482,10 @@
   "tv:336241": {
     "value": null,
     "fetchedAt": "2026-10-31T04:54:26.990Z"
+  },
+  "tv:336243": {
+    "value": "Umberto Gnoli, Michela Straniero",
+    "fetchedAt": "2026-11-12T12:46:15.342Z"
   },
   "tv:336418": {
     "value": null,
@@ -3418,6 +3502,10 @@
   "tv:337800": {
     "value": null,
     "fetchedAt": "2026-10-23T04:45:50.532Z"
+  },
+  "tv:338562": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:15.037Z"
   },
   "tv:338641": {
     "value": "Daniel Brocklehurst",
@@ -3470,6 +3558,14 @@
   "tv:340544": {
     "value": null,
     "fetchedAt": "2026-11-05T05:11:39.710Z"
+  },
+  "tv:340784": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:15.640Z"
+  },
+  "tv:341436": {
+    "value": null,
+    "fetchedAt": "2026-11-12T12:46:16.665Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
