@@ -779,6 +779,10 @@
     "value": "Pete Docter",
     "fetchedAt": "2026-10-18T17:54:33.443Z"
   },
+  "movie:1419036": {
+    "value": "Phontharis Chotkijsadarsopon",
+    "fetchedAt": "2026-11-13T12:13:26.934Z"
+  },
   "movie:1422": {
     "value": "Martin Scorsese",
     "fetchedAt": "2026-10-18T17:54:28.998Z"
@@ -979,6 +983,10 @@
     "value": "Janus Metz",
     "fetchedAt": "2026-10-12T07:24:38.516Z"
   },
+  "movie:1493572": {
+    "value": "Varun V. Sharma",
+    "fetchedAt": "2026-11-13T12:13:27.016Z"
+  },
   "movie:1497464": {
     "value": "Enrico Casarosa",
     "fetchedAt": "2026-11-13T10:26:55.832Z"
@@ -1078,6 +1086,10 @@
   "movie:1543142": {
     "value": "Towatchai Ladloy, ชัยวัฒน์ สีตลาศัย",
     "fetchedAt": "2026-10-22T04:44:47.419Z"
+  },
+  "movie:1543469": {
+    "value": "Shana Feste",
+    "fetchedAt": "2026-11-13T12:13:26.820Z"
   },
   "movie:1544126": {
     "value": "Paolo Genovese",
@@ -1530,6 +1542,10 @@
   "movie:1780005": {
     "value": "Jorge Michel Grau",
     "fetchedAt": "2026-10-24T04:43:02.115Z"
+  },
+  "movie:1780407": {
+    "value": "Matt Ferguson",
+    "fetchedAt": "2026-11-13T12:13:26.726Z"
   },
   "movie:1781107": {
     "value": null,
@@ -3443,6 +3459,10 @@
     "value": "Aytaç Çiçek",
     "fetchedAt": "2026-10-13T04:34:40.400Z"
   },
+  "tv:332269": {
+    "value": null,
+    "fetchedAt": "2026-11-13T12:13:27.521Z"
+  },
   "tv:33238": {
     "value": "조효진, 김주형",
     "fetchedAt": "2026-10-12T07:24:44.978Z"
@@ -3614,6 +3634,10 @@
   "tv:341436": {
     "value": null,
     "fetchedAt": "2026-11-12T12:46:16.665Z"
+  },
+  "tv:341603": {
+    "value": null,
+    "fetchedAt": "2026-11-13T12:13:27.419Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",

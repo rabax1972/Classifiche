@@ -318,6 +318,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.745Z"
   },
+  "alessandra celentano": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T12:13:47.911Z"
+  },
   "alessandro alciato": {
     "value": {
       "wiki": {
@@ -3067,6 +3076,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "gianfranco longo": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/gianfranco-longo/1456854957",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T12:13:47.911Z"
+  },
   "gianluca gotto": {
     "value": {
       "wiki": null,
@@ -3403,6 +3421,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "helene flood": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/helene-flood/1486284220",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T12:13:47.911Z"
   },
   "henry miller": {
     "value": {
@@ -6734,6 +6761,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "rosita celentano": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Rosita Celentano",
+        "url": "https://it.wikipedia.org/wiki/Rosita_Celentano",
+        "extract": "Rosita Celentano (Milano, 17 febbraio 1965) è una conduttrice televisiva, conduttrice radiofonica e attrice italiana."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/TV_show_Fantastico.png/500px-TV_show_Fantastico.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:TV_show_Fantastico.png",
+        "author": "TV Sorrisi e Canzoni",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T12:13:47.911Z"
+  },
   "rudy rucker": {
     "value": {
       "wiki": {
@@ -7293,10 +7340,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/stephen-king/2024797",
       "died": null
     },
-    "fetchedAt": "2026-10-25T04:47:00.737Z"
+    "fetchedAt": "2026-11-13T12:13:46.845Z"
   },
   "stephen markley": {
     "value": {
@@ -7678,6 +7725,15 @@
       "died": 1885
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "vincent mcdaniel": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/vincent-mcdaniel/1507545442",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T12:13:47.911Z"
   },
   "virginia woolf": {
     "value": {
