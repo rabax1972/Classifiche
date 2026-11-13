@@ -59,6 +59,10 @@
     "value": "Robert Zemeckis",
     "fetchedAt": "2026-10-17T04:42:33.184Z"
   },
+  "movie:1050981": {
+    "value": "Sian Heder",
+    "fetchedAt": "2026-11-13T10:26:55.620Z"
+  },
   "movie:1058424": {
     "value": "나홍진",
     "fetchedAt": "2026-10-12T07:24:54.499Z"
@@ -302,6 +306,10 @@
   "movie:1214130": {
     "value": "Steve Hudson",
     "fetchedAt": "2026-10-14T04:45:57.729Z"
+  },
+  "movie:1215889": {
+    "value": "Meghna Gulzar",
+    "fetchedAt": "2026-11-13T10:26:56.129Z"
   },
   "movie:122": {
     "value": "Peter Jackson",
@@ -683,6 +691,10 @@
     "value": "Dhruv Tripathi",
     "fetchedAt": "2026-10-12T07:24:53.324Z"
   },
+  "movie:1389379": {
+    "value": "Rahul Sankrityan",
+    "fetchedAt": "2026-11-13T10:26:55.731Z"
+  },
   "movie:1391239": {
     "value": "Jesse Eisenberg",
     "fetchedAt": "2026-11-11T05:18:57.766Z"
@@ -867,6 +879,10 @@
     "value": "David Fincher",
     "fetchedAt": "2026-11-03T05:05:19.380Z"
   },
+  "movie:1458215": {
+    "value": "Randall Emmett",
+    "fetchedAt": "2026-11-13T10:26:56.023Z"
+  },
   "movie:1458300": {
     "value": "Peter Berg",
     "fetchedAt": "2026-11-03T05:05:19.559Z"
@@ -963,6 +979,10 @@
     "value": "Janus Metz",
     "fetchedAt": "2026-10-12T07:24:38.516Z"
   },
+  "movie:1497464": {
+    "value": "Enrico Casarosa",
+    "fetchedAt": "2026-11-13T10:26:55.832Z"
+  },
   "movie:1498036": {
     "value": "Mar Olid",
     "fetchedAt": "2026-10-17T04:42:35.089Z"
@@ -1022,6 +1042,10 @@
   "movie:1517123": {
     "value": "David Pablos",
     "fetchedAt": "2026-10-12T07:24:30.572Z"
+  },
+  "movie:1518204": {
+    "value": "Daley Pearson, Jeffrey Walker",
+    "fetchedAt": "2026-11-13T10:26:55.438Z"
   },
   "movie:15196": {
     "value": "Jonathan Lynn",
@@ -1455,6 +1479,10 @@
     "value": "Bobby Bonifacio",
     "fetchedAt": "2026-11-04T05:13:45.634Z"
   },
+  "movie:1757174": {
+    "value": "Adam Pålsson",
+    "fetchedAt": "2026-11-13T10:26:55.525Z"
+  },
   "movie:1759875": {
     "value": "Dylan King Welter",
     "fetchedAt": "2026-10-17T04:42:34.888Z"
@@ -1618,6 +1646,10 @@
   "movie:1817773": {
     "value": "Cristóbal Valenzuela Berrios",
     "fetchedAt": "2026-11-06T05:08:15.233Z"
+  },
+  "movie:1824694": {
+    "value": null,
+    "fetchedAt": "2026-11-13T10:26:55.931Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -2291,6 +2323,10 @@
     "value": "Scott Mann",
     "fetchedAt": "2026-10-12T07:24:42.063Z"
   },
+  "movie:9963": {
+    "value": "Mennan Yapo",
+    "fetchedAt": "2026-11-13T10:26:54.693Z"
+  },
   "movie:99861": {
     "value": "Joss Whedon",
     "fetchedAt": "2026-10-13T04:34:36.560Z"
@@ -2715,6 +2751,10 @@
     "value": "Chuck Lorre, Steve Holland",
     "fetchedAt": "2026-10-23T04:45:50.627Z"
   },
+  "tv:247634": {
+    "value": null,
+    "fetchedAt": "2026-11-13T10:26:56.850Z"
+  },
   "tv:247718": {
     "value": "Ronan Bennett",
     "fetchedAt": "2026-10-12T07:24:45.356Z"
@@ -3130,6 +3170,10 @@
   "tv:303044": {
     "value": "Thomas Boullé",
     "fetchedAt": "2026-11-06T05:08:16.028Z"
+  },
+  "tv:303182": {
+    "value": "Curro Serrano",
+    "fetchedAt": "2026-11-13T10:26:56.545Z"
   },
   "tv:303630": {
     "value": "Robert King, Michelle King",
@@ -3547,6 +3591,10 @@
     "value": null,
     "fetchedAt": "2026-11-08T05:03:16.851Z"
   },
+  "tv:339992": {
+    "value": "David Baddiel, Peter Bradshaw",
+    "fetchedAt": "2026-11-13T10:26:56.756Z"
+  },
   "tv:340053": {
     "value": null,
     "fetchedAt": "2026-11-11T05:18:58.465Z"
@@ -3878,6 +3926,10 @@
   "tv:97546": {
     "value": "Bill Lawrence, Jason Sudeikis",
     "fetchedAt": "2026-10-12T07:24:46.397Z"
+  },
+  "tv:99125": {
+    "value": "José Júnior",
+    "fetchedAt": "2026-11-13T10:26:56.672Z"
   },
   "tv:99353": {
     "value": "Chris Coelen",

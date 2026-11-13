@@ -25801,6 +25801,97 @@
     },
     "fetchedAt": "2026-11-08T05:03:51.809Z"
   },
+  "premonition|mennan yapo 2007": {
+    "value": {
+      "tmdbId": 9963,
+      "title": "Premonition",
+      "overview": "Per Linda, un giovedì qualsiasi segna l'inizio di un incubo senza fine. La polizia bussa alla sua porta e le comunica la morte del marito in un incidente stradale, la mattina successiva si risveglia trovandolo vivo accanto a sé. Le giornate si susseguono senza più un ordine temporale, portando Linda sull'orlo della follia...",
+      "overviewLang": "it",
+      "tagline": "Realtà o immaginazione?",
+      "originalTitle": null,
+      "genres": [
+        "Thriller",
+        "Dramma",
+        "Mistero"
+      ],
+      "runtime": 96,
+      "released": "2007-09-07",
+      "vote": 6.3,
+      "votes": 1758,
+      "poster": "https://image.tmdb.org/t/p/w500/vKW1XIYrIqVrbCaYj9FQDHKXR8R.jpg",
+      "directors": [
+        {
+          "id": 61087,
+          "name": "Mennan Yapo"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sandra Bullock",
+          "character": "Linda Hanson"
+        },
+        {
+          "name": "Julian McMahon",
+          "character": "Jim Hanson"
+        },
+        {
+          "name": "Courtney Taylor Burness",
+          "character": "Bridgette Hanson"
+        },
+        {
+          "name": "Shyann McClure",
+          "character": "Megan Hanson"
+        },
+        {
+          "name": "Nia Long",
+          "character": "Annie"
+        },
+        {
+          "name": "Kate Nelligan",
+          "character": "Joanne"
+        },
+        {
+          "name": "Amber Valletta",
+          "character": "Claire"
+        },
+        {
+          "name": "Laurel Whitsett",
+          "character": "School Aide"
+        }
+      ],
+      "trailer": "S8LdZodeW-s",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/9963-premonition/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Eagle No Limits Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/oRBrcpz5DzpOHF7q6N7yUCDMvwc.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-13T10:28:20.690Z"
+  },
   "primetime|lance oppenheim 2026": {
     "value": {
       "tmdbId": 1375441,

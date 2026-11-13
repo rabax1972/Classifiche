@@ -14099,6 +14099,38 @@
     },
     "fetchedAt": "2026-11-04T05:15:21.446Z"
   },
+  "mennan yapo": {
+    "value": {
+      "tmdbId": 61087,
+      "wiki": {
+        "lang": "it",
+        "title": "Mennan Yapo",
+        "url": "https://it.wikipedia.org/wiki/Mennan_Yapo",
+        "extract": "Mennan Yapo (Monaco di Baviera, 1966) è un produttore cinematografico, regista, sceneggiatore e attore tedesco."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/dE41OMb1nrVpS1MZnlBYl27TTSo.jpg",
+      "films": [
+        {
+          "id": 9963,
+          "title": "Premonition",
+          "year": "2007"
+        },
+        {
+          "id": 10458,
+          "title": "Lautlos",
+          "year": "2004"
+        },
+        {
+          "id": 653977,
+          "title": "Framed",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-13T10:28:21.088Z"
+  },
   "michael anderson": {
     "value": {
       "tmdbId": 20412,

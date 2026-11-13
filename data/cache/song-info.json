@@ -1203,6 +1203,23 @@
     },
     "fetchedAt": "2026-10-17T07:37:13.425Z"
   },
+  "livia|gazzelle": {
+    "value": {
+      "album": "Livia",
+      "released": "2026-11-11",
+      "genre": "Pop",
+      "durationMs": 193212,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/af/29/68af2936-d4e5-97f9-7d8a-838fbd504de8/1200220424689.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/livia/6830254831?i=6830254833",
+      "wiki": {
+        "lang": "it",
+        "title": "Livia (Gazzelle)",
+        "url": "https://it.wikipedia.org/wiki/Livia_(Gazzelle)",
+        "extract": "Livia è un singolo del cantautore italiano Gazzelle, pubblicato l'11 novembre 2026."
+      }
+    },
+    "fetchedAt": "2026-11-13T10:27:33.624Z"
+  },
   "lontano|sfera ebbasta": {
     "value": {
       "album": "Lontano",

@@ -730,6 +730,26 @@
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
+  "angela giussani": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Angela and Luciana Giussani",
+        "url": "https://en.wikipedia.org/wiki/Angela_and_Luciana_Giussani",
+        "extract": "Angela Giussani (10 June 1922, Milan – 10 February 1987, Milan) and Luciana Giussani (19 April 1928, Milan – 31 March 2001, Milan) were two Italian comic book writers. They are best known for their comic book anti-hero series Diabolik. The series has sold more than 150 million copies and inspired films, a radio show, and an animated TV series."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg/500px-Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg",
+        "author": "Kaitu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
+  },
   "angela marsons": {
     "value": {
       "wiki": {
@@ -1387,6 +1407,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
+  "carla pediatra": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/carla-pediatra/1846684954",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "carlo collodi": {
     "value": {
@@ -2100,6 +2129,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "dostoevskij fedor": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/dostoevskij-f%C3%ABdor/1763449871",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "douglas adams": {
     "value": {
@@ -4899,6 +4937,26 @@
     },
     "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
+  "luciana giussani": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Angela and Luciana Giussani",
+        "url": "https://en.wikipedia.org/wiki/Angela_and_Luciana_Giussani",
+        "extract": "Angela Giussani (10 June 1922, Milan – 10 February 1987, Milan) and Luciana Giussani (19 April 1928, Milan – 31 March 2001, Milan) were two Italian comic book writers. They are best known for their comic book anti-hero series Diabolik. The series has sold more than 150 million copies and inspired films, a radio show, and an animated TV series."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg/500px-Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Giardino_Angela_e_Luciana_Giussani_in_Milan.jpg",
+        "author": "Kaitu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
+  },
   "lucy king": {
     "value": {
       "wiki": null,
@@ -4945,6 +5003,26 @@
       "died": 1936
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "m c beaton": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Marion Chesney",
+        "url": "https://en.wikipedia.org/wiki/Marion_Chesney",
+        "extract": "Marion Gibbons (née Chesney; 10 June 1936 – 30/31 December 2019) was a Scottish writer of romance and mystery novels, whose career as a published author began in 1979. She wrote numerous successful historical romance novels under a form of her maiden name, Marion Chesney, including the \"Travelling Matchmaker\" and \"Daughters of Mannerling\" series.\n\nUsing the pseudonym M. C. Beaton, she also wrote many popular mystery novels, most notably the Agatha Raisin and Hamish Macbeth mystery series. Both of these book series have been adapted for TV. She also wrote romance novels under the pseudonyms Ann Fairfax, Jennie Tremaine, Helen Crampton, Charlotte Ward, and Sarah Chester."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/M.C.Beaton.IMG_3430_%28cropped%29.jpg/500px-M.C.Beaton.IMG_3430_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:M.C.Beaton.IMG_3430_(cropped).jpg",
+        "author": "Lohusalu",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "appleUrl": null,
+      "died": 2019
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "m john harrison": {
     "value": {
@@ -5153,6 +5231,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "marsha linehan": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Marsha Linehan",
+        "url": "https://it.wikipedia.org/wiki/Marsha_Linehan",
+        "extract": "Marsha Marie Linehan (Tulsa, 5 maggio 1943 – Seattle, 10 novembre 2026) è stata una psicologa e saggista statunitense."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/marsha-linehan/610401839",
+      "died": 2026
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "martina lilac": {
     "value": {
@@ -5892,6 +5984,15 @@
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
+  "paola chiozza": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/paola-chiozza/1082311423",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
+  },
   "paolo del debbio": {
     "value": {
       "wiki": {
@@ -6207,6 +6308,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-12T12:47:02.883Z"
+  },
+  "r w green": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "rachel reid": {
     "value": {
@@ -6594,6 +6704,15 @@
       "died": 1980
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "rosa lucas": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/rosa-lucas/1643417275",
+      "died": null
+    },
+    "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
   "rosanna lambertucci": {
     "value": {

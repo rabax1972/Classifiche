@@ -721,6 +721,25 @@
     },
     "fetchedAt": "2026-10-17T08:00:04.890Z"
   },
+  "gazzelle": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Gazzelle (cantante)",
+        "url": "https://it.wikipedia.org/wiki/Gazzelle_(cantante)",
+        "extract": "Gazzelle, pseudonimo di Flavio Bruno Pardini (Roma, 7 dicembre 1989), è un cantautore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Gazzelle_%28cropped%29.png/500px-Gazzelle_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Gazzelle_(cropped).png",
+        "author": "Bruno from Roma, Italia",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/gazzelle/1183386766"
+    },
+    "fetchedAt": "2026-11-13T10:27:35.524Z"
+  },
   "geolier": {
     "value": {
       "wiki": {
