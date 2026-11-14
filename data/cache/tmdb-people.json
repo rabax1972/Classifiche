@@ -263,6 +263,10 @@
     "value": "Chris Sanders",
     "fetchedAt": "2026-10-12T07:24:41.021Z"
   },
+  "movie:1185344": {
+    "value": "Renny Harlin",
+    "fetchedAt": "2026-11-14T11:29:21.838Z"
+  },
   "movie:1185806": {
     "value": "Cal Brunker",
     "fetchedAt": "2026-10-12T07:24:28.467Z"
@@ -1071,6 +1075,10 @@
     "value": "Spike Jonze",
     "fetchedAt": "2026-10-16T04:44:13.411Z"
   },
+  "movie:1528830": {
+    "value": "Molly Manners",
+    "fetchedAt": "2026-11-14T11:29:21.751Z"
+  },
   "movie:1532997": {
     "value": "John V. Soto",
     "fetchedAt": "2026-11-08T05:03:16.050Z"
@@ -1675,6 +1683,10 @@
     "value": "Cristóbal Valenzuela Berrios",
     "fetchedAt": "2026-11-06T05:08:15.233Z"
   },
+  "movie:1823907": {
+    "value": "Olivia Issacs",
+    "fetchedAt": "2026-11-14T11:29:22.045Z"
+  },
   "movie:1824694": {
     "value": null,
     "fetchedAt": "2026-11-13T10:26:55.931Z"
@@ -2250,6 +2262,10 @@
   "movie:872": {
     "value": "Stanley Donen, Gene Kelly",
     "fetchedAt": "2026-10-18T17:55:09.670Z"
+  },
+  "movie:87513": {
+    "value": "Potsy Ponciroli",
+    "fetchedAt": "2026-11-14T11:29:21.936Z"
   },
   "movie:891621": {
     "value": "Martin McDonagh",
@@ -3046,6 +3062,10 @@
   "tv:286183": {
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.069Z"
+  },
+  "tv:287296": {
+    "value": "Emma Moran",
+    "fetchedAt": "2026-11-14T11:29:22.433Z"
   },
   "tv:288328": {
     "value": null,

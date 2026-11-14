@@ -3161,6 +3161,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "giovanni montanaro": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Giovanni Montanaro",
+        "url": "https://it.wikipedia.org/wiki/Giovanni_Montanaro",
+        "extract": "Giovanni Montanaro (Venezia, 1983) è uno scrittore italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/giovanni-montanaro/458363620",
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T11:30:09.551Z"
+  },
   "giovanni sabbatucci": {
     "value": {
       "wiki": {
@@ -5253,6 +5267,15 @@
       "died": 1987
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "marina astrologo": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T11:30:09.551Z"
   },
   "marina marazza": {
     "value": {
