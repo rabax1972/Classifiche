@@ -1616,6 +1616,15 @@
     },
     "fetchedAt": "2026-11-11T05:20:28.542Z"
   },
+  "charlie donlea": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/charlie-donlea/991671047",
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T08:01:31.146Z"
+  },
   "charlotte casiraghi": {
     "value": {
       "wiki": {
@@ -3323,6 +3332,26 @@
       "died": 1946
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "hakan nesser": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Håkan Nesser",
+        "url": "https://it.wikipedia.org/wiki/H%C3%A5kan_Nesser",
+        "extract": "Håkan Nesser (Kumla, 21 febbraio 1950) è uno scrittore svedese di romanzi polizieschi."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/H%C3%A5kan_Nesser.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:H%C3%A5kan_Nesser.jpg",
+        "author": "No machine-readable author provided. Hannibal assumed (based on copyright claim…",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/h%C3%A5kan-nesser/20753795",
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T08:01:31.146Z"
   },
   "hannah arendt": {
     "value": {
@@ -5839,6 +5868,15 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "neva altaj": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/neva-altaj/1644905225",
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T08:01:31.146Z"
+  },
   "niccolo machiavelli": {
     "value": {
       "wiki": {
@@ -6821,6 +6859,15 @@
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
   },
+  "russ harris": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/russ-harris/373756984",
+      "died": null
+    },
+    "fetchedAt": "2026-11-14T08:01:31.146Z"
+  },
   "s j sylvis": {
     "value": {
       "wiki": null,
@@ -7134,6 +7181,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
+  "shirley jackson": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Shirley Jackson",
+        "url": "https://it.wikipedia.org/wiki/Shirley_Jackson",
+        "extract": "Shirley Jackson (San Francisco, 14 dicembre 1916 – North Bennington, 8 agosto 1965) è stata una scrittrice e giornalista statunitense, nota per il racconto in stile gotico La Lotteria (1948), e per L'incubo di Hill House (1959), considerato uno dei più celebri racconti di fantasmi del ventesimo secolo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Shirley_Jackson_1940s.png/500px-Shirley_Jackson_1940s.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Shirley_Jackson_1940s.png",
+        "author": "Eric Hartmann",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/shirley-jackson/279292380",
+      "died": 1965
+    },
+    "fetchedAt": "2026-11-14T08:01:31.146Z"
   },
   "sierra simone": {
     "value": {

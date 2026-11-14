@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "films": {
     "11": {
       "imdbId": "tt0076759",
@@ -2337,6 +2337,18 @@
         "url": "https://www.rottentomatoes.com/m/avengers_age_of_ultron"
       }
     },
+    "101299": {
+      "imdbId": "tt1951264",
+      "imdb": {
+        "value": 7.5,
+        "votes": 788271
+      },
+      "rt": {
+        "score": 90,
+        "date": "2024-08-02",
+        "url": "https://www.rottentomatoes.com/m/the_hunger_games_catching_fire"
+      }
+    },
     "103663": {
       "imdbId": "tt2106476",
       "imdb": {
@@ -3840,7 +3852,7 @@
       "rt": null
     },
     "1438963": {
-      "imdbId": null,
+      "imdbId": "tt36525080",
       "imdb": null,
       "rt": null
     },
@@ -4026,8 +4038,11 @@
       "rt": null
     },
     "1544126": {
-      "imdbId": null,
-      "imdb": null,
+      "imdbId": "tt38281377",
+      "imdb": {
+        "value": 5.4,
+        "votes": 23
+      },
       "rt": null
     },
     "1561726": {

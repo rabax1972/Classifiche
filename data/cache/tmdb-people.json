@@ -779,6 +779,10 @@
     "value": "Pete Docter",
     "fetchedAt": "2026-10-18T17:54:33.443Z"
   },
+  "movie:1418709": {
+    "value": "Julien Royal",
+    "fetchedAt": "2026-11-14T08:00:52.905Z"
+  },
   "movie:1419036": {
     "value": "Phontharis Chotkijsadarsopon",
     "fetchedAt": "2026-11-13T12:13:26.934Z"
@@ -1010,6 +1014,10 @@
   "movie:1507696": {
     "value": "Carles Torrens",
     "fetchedAt": "2026-10-30T04:58:37.382Z"
+  },
+  "movie:1508704": {
+    "value": "Niccolò Falsetti",
+    "fetchedAt": "2026-11-14T08:00:51.735Z"
   },
   "movie:1509717": {
     "value": "Bea de Silva",
@@ -1495,6 +1503,10 @@
     "value": "Adam Pålsson",
     "fetchedAt": "2026-11-13T10:26:55.525Z"
   },
+  "movie:1757324": {
+    "value": "Martín Florio",
+    "fetchedAt": "2026-11-14T08:00:53.006Z"
+  },
   "movie:1759875": {
     "value": "Dylan King Welter",
     "fetchedAt": "2026-10-17T04:42:34.888Z"
@@ -1666,6 +1678,14 @@
   "movie:1824694": {
     "value": null,
     "fetchedAt": "2026-11-13T10:26:55.931Z"
+  },
+  "movie:1825463": {
+    "value": null,
+    "fetchedAt": "2026-11-14T08:00:52.709Z"
+  },
+  "movie:1825468": {
+    "value": null,
+    "fetchedAt": "2026-11-14T08:00:52.802Z"
   },
   "movie:1891": {
     "value": "Irvin Kershner",
@@ -2515,6 +2535,10 @@
     "value": null,
     "fetchedAt": "2026-11-10T05:03:02.029Z"
   },
+  "tv:14929": {
+    "value": "Heather Conkie",
+    "fetchedAt": "2026-11-14T08:00:53.512Z"
+  },
   "tv:15226": {
     "value": "Brijendrapal Singh",
     "fetchedAt": "2026-10-12T07:24:45.484Z"
@@ -3207,6 +3231,10 @@
     "value": "Malcolm Spellman",
     "fetchedAt": "2026-10-15T04:42:56.021Z"
   },
+  "tv:305245": {
+    "value": "Jan Holoubek",
+    "fetchedAt": "2026-11-14T08:00:53.408Z"
+  },
   "tv:305313": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:03.161Z"
@@ -3279,6 +3307,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:24:49.577Z"
   },
+  "tv:310133": {
+    "value": "Bernd Lange, Özgür Yildirim",
+    "fetchedAt": "2026-11-14T08:00:53.607Z"
+  },
   "tv:31132": {
     "value": "J.G. Quintel",
     "fetchedAt": "2026-10-15T04:42:53.424Z"
@@ -3342,6 +3374,10 @@
   "tv:316197": {
     "value": null,
     "fetchedAt": "2026-10-19T12:51:52.007Z"
+  },
+  "tv:316683": {
+    "value": null,
+    "fetchedAt": "2026-11-14T08:00:53.906Z"
   },
   "tv:316694": {
     "value": null,
@@ -3471,6 +3507,10 @@
     "value": null,
     "fetchedAt": "2026-10-24T04:43:04.313Z"
   },
+  "tv:332683": {
+    "value": null,
+    "fetchedAt": "2026-11-14T08:00:53.715Z"
+  },
   "tv:332713": {
     "value": null,
     "fetchedAt": "2026-10-20T04:51:06.914Z"
@@ -3486,6 +3526,10 @@
   "tv:333622": {
     "value": null,
     "fetchedAt": "2026-11-01T04:59:51.649Z"
+  },
+  "tv:334412": {
+    "value": null,
+    "fetchedAt": "2026-11-14T08:00:53.810Z"
   },
   "tv:334470": {
     "value": "Leo Reich",

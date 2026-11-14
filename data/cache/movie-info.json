@@ -5971,6 +5971,79 @@
     },
     "fetchedAt": "2026-11-04T05:15:10.109Z"
   },
+  "collision course|daniel sanchez arevalo 2026": {
+    "value": {
+      "tmdbId": 1571955,
+      "title": "Collision Course",
+      "overview": "2013. Nel pieno di una crisi economica, una banda assalta una banca a Madrid innescando una catena di eventi imprevedibili. Quella che inizialmente sembra una semplice rapina, si trasforma rapidamente in un gioco di inganni, paura e sopravvivenza, dove ogni decisione conta, ogni gesto nasconde qualcosa e ognuno cerca di evitare un destino ben peggiore rispetto al carcere.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Colisión",
+      "genres": [
+        "Thriller",
+        "Dramma",
+        "Crime"
+      ],
+      "runtime": 122,
+      "released": "2026-10-30",
+      "vote": 6.3,
+      "votes": 102,
+      "poster": "https://image.tmdb.org/t/p/w500/5oaS1EJfYCsd0kjZK2W9YaSMUaI.jpg",
+      "directors": [
+        {
+          "id": 34017,
+          "name": "Daniel Sánchez Arévalo"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Laia Costa",
+          "character": "Carla Mencía"
+        },
+        {
+          "name": "Karra Elejalde",
+          "character": "Pedro"
+        },
+        {
+          "name": "Luis Zahera",
+          "character": "Ernesto"
+        },
+        {
+          "name": "Tamar Novas",
+          "character": "Tomás"
+        },
+        {
+          "name": "Álvaro Cervantes",
+          "character": "Raúl"
+        },
+        {
+          "name": "Lluís Homar",
+          "character": "Luis"
+        },
+        {
+          "name": "Luz Valdenebro",
+          "character": "Lola"
+        },
+        {
+          "name": "Víctor Duplá",
+          "character": "Pablo"
+        }
+      ],
+      "trailer": "T-GkNaa_dXU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1571955-colision/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-14T08:01:31.677Z"
+  },
   "com era verde la mia valle|john ford 1941": {
     "value": {
       "tmdbId": 43266,
@@ -11846,6 +11919,117 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.956Z"
+  },
+  "hunger games la ragazza di fuoco|francis lawrence 2013": {
+    "value": {
+      "tmdbId": 101299,
+      "title": "Hunger Games: La ragazza di fuoco",
+      "overview": "Tornati al loro distretto, Katniss e Peeta si preparano al tour e alla gloria che li attende a ogni stazione. Partita sotto la minaccia del Presidente Snow, Katniss si accorge di aver acceso la speranza nel cuore della gente di Panem. Accolta come un'eroina, Katniss morde il freno ma il ricatto di Snow la costringe a giocare il suo ruolo e a distrarre il popolo dai problemi reali. Temeraria e sfrontata, Katniss cresce tuttavia in fascino e ascendente. Snow Allarmato decide di diffamarla, a ogni costo, con ogni mezzo. L'incarico viene affidato a Plutarch Heavensbee, stratega volontario che ha sostituito il Seneca Crane. Indcono un'edizione straordinaria dei giochi in cui concorreranno i vincitori delle edizioni precedenti. Katniss e Peeta, di nuovo uniti e di nuovo in gara, emergono su un'isola tropicale piena di insidie. Stabilite alleanze e ostilità, i due ragazzi cercano di sopravvivere. Ma questa volta Katniss e Peeta non sono soli. La ghiandaia imitatrice ha spalancato le ali.",
+      "overviewLang": "it",
+      "tagline": "Ogni rivoluzione nasce da una scintilla.",
+      "originalTitle": "The Hunger Games: Catching Fire",
+      "genres": [
+        "Avventura",
+        "Azione",
+        "Fantascienza"
+      ],
+      "runtime": 146,
+      "released": "2013-11-27",
+      "vote": 7.4,
+      "votes": 19042,
+      "poster": "https://image.tmdb.org/t/p/w500/oFQj7SBn9pGGc6ZuadhmQoSYWaD.jpg",
+      "directors": [
+        {
+          "id": 10943,
+          "name": "Francis Lawrence"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jennifer Lawrence",
+          "character": "Katniss Everdeen"
+        },
+        {
+          "name": "Josh Hutcherson",
+          "character": "Peeta Mellark"
+        },
+        {
+          "name": "Liam Hemsworth",
+          "character": "Gale Hawthorne"
+        },
+        {
+          "name": "Woody Harrelson",
+          "character": "Haymitch Abernathy"
+        },
+        {
+          "name": "Elizabeth Banks",
+          "character": "Effie Trinket"
+        },
+        {
+          "name": "Donald Sutherland",
+          "character": "President Coriolanus Snow"
+        },
+        {
+          "name": "Lenny Kravitz",
+          "character": "Cinna"
+        },
+        {
+          "name": "Philip Seymour Hoffman",
+          "character": "Plutarch Heavensbee"
+        }
+      ],
+      "trailer": "AK4ypH-GGvo",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/101299-the-hunger-games-catching-fire/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-14T08:01:31.726Z"
   },
   "i migliori anni della nostra vita|william wyler 1946": {
     "value": {
