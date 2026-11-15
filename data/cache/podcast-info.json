@@ -12,6 +12,12 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/2024",
       "latest": [
         {
+          "title": "Nvidia Spark - Mercato PC - Sicurezza quantistica",
+          "date": "2026-11-13",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261113-2024.mp3?awCollectionId=2024&awEpisodeId=261113-2024"
+        },
+        {
           "title": "Guerra ibrida - Furto a Binance – Satelliti",
           "date": "2026-11-06",
           "seconds": null,
@@ -34,16 +40,10 @@
           "date": "2026-10-16",
           "seconds": null,
           "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261016-2024.mp3?awCollectionId=2024&awEpisodeId=261016-2024"
-        },
-        {
-          "title": "AI fra cloud, locale e costi - Voce come marchio - Robot",
-          "date": "2026-10-09",
-          "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261009-2024.mp3?awCollectionId=2024&awEpisodeId=261009-2024"
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:48.427Z"
+    "fetchedAt": "2026-11-15T12:05:52.807Z"
   },
   "podcast:3 fattori": {
     "value": {
@@ -146,12 +146,18 @@
         "Notizie: approfondimenti",
         "News"
       ],
-      "episodes": 19,
+      "episodes": 20,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/50/d0/16/50d01698-1588-e49f-b1a9-250f5aa6f303/mza_16428312913573260778.jpg/600x600bb.jpg",
       "feedUrl": "https://anchor.fm/s/113340e90/podcast/rss",
       "description": "Ogni settimana, Isidoro e Fortunato si scambiano pareri su tutto quello che succede nel mondo. Una conversazione tra due amici aperti al confronto, pronti ad andare a fondo delle questioni più importanti, senza tralasciare notizie e particolari che spesso possono sfuggire.\nTutti i giovedì, in videochiamata, per capire cosa fluttua nel grande acquario. Dietro al vetro ti senti più osservatore o osservato?",
       "website": "https://podcasters.spotify.com/pod/show/acquario-podcast",
       "latest": [
+        {
+          "title": "Alberto Ravagnani, cambiare vita e un palazzo per Gaza: Cambi di rotta nell’Acquario | Ep. 19",
+          "date": "2026-11-12",
+          "seconds": 1570,
+          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Alberto-Ravagnani--cambiare-vita-e-un-palazzo-per-Gaza-Cambi-di-rotta-nellAcquario--Ep--19-e3s6po3"
+        },
         {
           "title": "Pornografia, educazione sessuale e pompe funebri: Vietati nell'Acquario | Ep. 18",
           "date": "2026-11-05",
@@ -175,16 +181,10 @@
           "date": "2026-10-15",
           "seconds": 1422,
           "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Garlasco--lossessione-per-il-True-Crime-e-il-pappagallo-miracolato-Indagati-nellAcquario--Ep--15-e3qh6jo"
-        },
-        {
-          "title": "Allarme salute, l'illusione della produttività e il boom dei peptidi: Distratti nell'Acquario | Ep. 14",
-          "date": "2026-10-08",
-          "seconds": 1514,
-          "url": "https://podcasters.spotify.com/pod/show/acquario-podcast/episodes/Allarme-salute--lillusione-della-produttivit-e-il-boom-dei-peptidi-Distratti-nellAcquario--Ep--14-e3q3h8i"
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:38.387Z"
+    "fetchedAt": "2026-11-15T12:06:03.913Z"
   },
   "podcast:actually": {
     "value": {
@@ -194,12 +194,30 @@
         "News",
         "Tecnologia"
       ],
-      "episodes": 569,
+      "episodes": 572,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e4/5b/1b/e45b1b1b-ba45-6122-4210-9d56c72b907b/mza_13101311386068929468.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/ISM7167031904",
       "description": "Il mondo non è mai stato così complesso, connesso e tecnologico. Actually è il podcast in cui Riccardo Haupt, CEO di Chora e Will, e Riccardo Bassetto, Head of Operations, parlano dei grandi cambiamenti che stanno stravolgendo il mondo, attraverso le voci e le storie di chi questo cambiamento lo sta vivendo da dentro.\nSeguici anche su Instagram @will_ita",
       "website": "https://www.spreaker.com/show/actually",
       "latest": [
+        {
+          "title": "Come sarà NVIDIA senza Jensen Huang?",
+          "date": "2026-11-14",
+          "seconds": 2297,
+          "url": null
+        },
+        {
+          "title": "Così l’AI sta cambiando il modo in cui GUIDIAMO le nostre AUTO",
+          "date": "2026-11-11",
+          "seconds": 1825,
+          "url": null
+        },
+        {
+          "title": "Si può fare un'azienda di HARDWARE partendo dall'EUROPA?",
+          "date": "2026-11-09",
+          "seconds": 2207,
+          "url": null
+        },
         {
           "title": "Gli effetti delle ELEZIONI USA sull'AI",
           "date": "2026-11-07",
@@ -211,28 +229,10 @@
           "date": "2026-11-04",
           "seconds": 3391,
           "url": null
-        },
-        {
-          "title": "Alla guida dell'azienda ITALIANA che fattura MILIARDI – con Sonia Bonfiglioli",
-          "date": "2026-11-02",
-          "seconds": 3117,
-          "url": null
-        },
-        {
-          "title": "Tutto quello che NON VA BENE nei numeri di ANTHROPIC",
-          "date": "2026-10-31",
-          "seconds": 3359,
-          "url": null
-        },
-        {
-          "title": "Da un sito VUOTO a un gruppo QUOTATO: la storia di MUTUIONLINE - con Alessandro Fracassi",
-          "date": "2026-10-28",
-          "seconds": 3214,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:50.399Z"
+    "fetchedAt": "2026-11-15T12:06:00.994Z"
   },
   "podcast:alessandro barbero podcast": {
     "value": {
@@ -725,12 +725,18 @@
       "genres": [
         "Economia"
       ],
-      "episodes": 90,
+      "episodes": 91,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/12/36/d41236ae-5cf7-d0d4-7c14-b236209ff164/mza_2254030333906806026.jpg/600x600bb.jpg",
       "feedUrl": "https://anchor.fm/s/feb0cea4/podcast/rss",
       "description": "Parliamo con gli imprenditori e i CEO più importanti d'Italia.\nRaccontiamo le loro storie per scoprire come hanno fatto DAVVERO ad arrivare dove sono, i loro errori e i consigli PRATICI.",
       "website": "https://podcasters.spotify.com/pod/show/giacomo-luppi8",
       "latest": [
+        {
+          "title": "La Famiglia Napoletana che fa €300 MILIONI col Caffè ☕️ Mario Rubino, Kimbo",
+          "date": "2026-11-10",
+          "seconds": 1626,
+          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/La-Famiglia-Napoletana-che-fa-300-MILIONI-col-Caff--Mario-Rubino--Kimbo-e3s5h1e"
+        },
         {
           "title": "LEGAMI: Le Penne Cancellabili Italiane da €380 MILIONI ✏️ Alberto Fassi, Fondatore Legami",
           "date": "2026-11-03",
@@ -754,16 +760,10 @@
           "date": "2026-10-13",
           "seconds": 1918,
           "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/Da-30-MILIONI-di-Debiti-allAzienda-di-Valigie-pi-Grande-dItalia-Marco-Palmieri--Piquadro-e3qed2g"
-        },
-        {
-          "title": "Toys Center: la Catena di Giocattoli da €1.2 MILIARDI dietro ai Gormiti e Cicciobello 🧸",
-          "date": "2026-10-06",
-          "seconds": 1502,
-          "url": "https://podcasters.spotify.com/pod/show/giacomo-luppi8/episodes/Toys-Center-la-Catena-di-Giocattoli-da-1-2-MILIARDI-dietro-ai-Gormiti-e-Cicciobello-e3q037u"
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:41.454Z"
+    "fetchedAt": "2026-11-15T12:05:43.076Z"
   },
   "podcast:chiedilo alla storia": {
     "value": {
@@ -1179,12 +1179,18 @@
         "True crime",
         "Storia"
       ],
-      "episodes": 53,
+      "episodes": 54,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/cd/2a/2fcd2a18-63bb-c96c-6808-cd7efc606572/mza_378064537378505191.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/MNTHA1677259258",
       "description": "Un podcast di giornalismo investigativo (o true crime, se preferite) che non si limita a raccontare una storia, ma compie un'analisi di ciò che è successo. Scomponendo e ricomponendo i pezzi, le verità, le possibilità, le psicologie, per cercare una risposta a ciò che accadde, per entrare dentro il mistero.\nForse hai paura di diventare una vittima. Forse hai paura di diventare un assassino. Quello che troverai qui sono tutte le risposte possibili al perché alcuni lo divennero.\nSenza dimenticare questo: che non avremo mai tutte le risposte.\n\"Dentro il mistero\" esce ogni due settimane, di sabato, per la precisione alle 7 di mattina.\nFabio Sanvitale è un giornalista investigativo, criminologo, scrittore di true crime e docente.\nPer contatti: dentroilmistero@hotmail.com YouTube\nLinkedinInstagramFacebook\nSubstack“Dentro il Mistero” ha finalità informative, giornalistiche, di intrattenimento e viene realizzato nell'esercizio del diritto di cronaca e critica tutelato dall'art. 21 della Costituzione.",
       "website": "https://www.spreaker.com/podcast/dentro-il-mistero--6661956",
       "latest": [
+        {
+          "title": "I fidanzati di Policoro. Non è un omicidio.",
+          "date": "2026-11-14",
+          "seconds": 3425,
+          "url": null
+        },
         {
           "title": "Antonella Falcidia. Cercare l'assassino sbagliato.",
           "date": "2026-11-07",
@@ -1208,16 +1214,10 @@
           "date": "2026-10-17",
           "seconds": 1708,
           "url": null
-        },
-        {
-          "title": "Pietro Peruffo. Due figlie fanno giustizia.",
-          "date": "2026-10-10",
-          "seconds": 2051,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:53.400Z"
+    "fetchedAt": "2026-11-15T12:05:57.985Z"
   },
   "podcast:di nuovo barbero": {
     "value": {
@@ -1498,6 +1498,21 @@
       ]
     },
     "fetchedAt": "2026-11-13T10:32:57.564Z"
+  },
+  "podcast:forse fame forse trauma": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/forse-fame-forse-trauma/id1896940122",
+      "genres": [
+        "Narrativa"
+      ],
+      "episodes": 55,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/c9/7d/38c97d3b-b8b4-cce2-a022-d1de082d9958/mza_15644050176641938132.jpeg/600x600bb.jpg",
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-11-15T12:05:39.914Z"
   },
   "podcast:fuori da qui": {
     "value": {
@@ -1837,12 +1852,18 @@
         "Economia",
         "Marketing"
       ],
-      "episodes": 140,
+      "episodes": 141,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dc/4a/6a/dc4a6aab-660b-f7d2-7531-3c8a8f80b220/mza_5413545339081014451.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/MCA5782672802",
       "description": "Intervistiamo il Guru di ogni settore 🎪🤹",
       "website": "https://gurulandia.buzzsprout.com",
       "latest": [
+        {
+          "title": "\"FANTACALCIO, DE ROSSI, BOBBY MALEN E CANNE\" - Con Il Pancio e Luca Diddi",
+          "date": "2026-11-10",
+          "seconds": 4906,
+          "url": null
+        },
         {
           "title": "“VANNACCI, FARÒ DI TUTTO PER MANDARLO IN PRIGIONE\" - Con Carlo Calenda",
           "date": "2026-11-04",
@@ -1866,16 +1887,10 @@
           "date": "2026-07-27",
           "seconds": 7264,
           "url": null
-        },
-        {
-          "title": "“L’ASSURDA STORIA DELLA NONNA PIÙ FAMOSA DI TIKTOK” - Con Nonna Silvi",
-          "date": "2026-07-21",
-          "seconds": 5103,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:35.703Z"
+    "fetchedAt": "2026-11-15T12:05:37.211Z"
   },
   "podcast:il mondo": {
     "value": {
@@ -2061,6 +2076,52 @@
       ]
     },
     "fetchedAt": "2026-11-12T12:51:21.280Z"
+  },
+  "podcast:jeantoneria": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/jeantoneria/id1609066518",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 98,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/75/58/7d7558e7-e81d-3540-c90f-9042b2c6d055/mza_1235540526804850270.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/CSRL5747921680",
+      "description": "Un ospite e 2 gin tonic. Questo è Jeantoneria. Un podcast tutto d'un sorso.\nProdotto in collaborazione con Chora Media",
+      "website": null,
+      "latest": [
+        {
+          "title": "LUCA RAVENNA - Ep.87 Jeantoneria Podcast",
+          "date": "2026-11-10",
+          "seconds": 6809,
+          "url": null
+        },
+        {
+          "title": "Da Garlasco a Emanuela Orlandi: MISTERI ITALIANI con Gianluigi Nuzzi - Ep.86 Jeantoneria Podcast",
+          "date": "2026-11-03",
+          "seconds": 6496,
+          "url": null
+        },
+        {
+          "title": "MANUALE DELLO SPORT ITALIANO con FRANCO BRAGAGNA - Ep.85 Jeantoneria Podcast",
+          "date": "2026-10-27",
+          "seconds": 7359,
+          "url": null
+        },
+        {
+          "title": "I SEGRETI DELLE GUERRE: DA GAZA ALL'UCRAINA con NELLO SCAVO - EP.84 Jeantoneria Podcast",
+          "date": "2026-10-20",
+          "seconds": 9607,
+          "url": null
+        },
+        {
+          "title": "CHI È DAVVERO DIKELE??? EP.83",
+          "date": "2026-10-13",
+          "seconds": 6102,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-15T12:05:49.124Z"
   },
   "podcast:katia": {
     "value": {
@@ -2897,7 +2958,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:56.452Z"
+    "fetchedAt": "2026-11-15T12:05:46.038Z"
   },
   "podcast:passa dal bsmt": {
     "value": {
@@ -2954,12 +3015,18 @@
         "News",
         "Politica"
       ],
-      "episodes": 331,
+      "episodes": 332,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c5/19/a2/c519a21e-782f-808b-758a-f98e16c3b829/mza_7256711836556823119.jpg/600x600bb.jpg",
       "feedUrl": "https://www.spreaker.com/show/4672101/episodes/feed",
       "description": "\"Andrà molto peggio, prima di andare meglio\"\nUn post di Phastidio ma parlato anziché scritto\nDiventa un supporter di questo podcast: https://www.spreaker.com/podcast/phastidio-podcast--4672101/support.",
       "website": "https://phastidio.net",
       "latest": [
+        {
+          "title": "La settimana phastidiosa - 14 novembre 2026",
+          "date": "2026-11-14",
+          "seconds": 5106,
+          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-14-novembre-2026--76335459"
+        },
         {
           "title": "La settimana phastidiosa - 7 novembre 2026",
           "date": "2026-11-07",
@@ -2983,16 +3050,10 @@
           "date": "2026-10-17",
           "seconds": 4886,
           "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-17-ottobre-2026--75821131"
-        },
-        {
-          "title": "La settimana phastidiosa - 10 ottobre 2026",
-          "date": "2026-10-10",
-          "seconds": 4889,
-          "url": "https://www.spreaker.com/episode/la-settimana-phastidiosa-10-ottobre-2026--75665497"
         }
       ]
     },
-    "fetchedAt": "2026-11-08T05:08:44.596Z"
+    "fetchedAt": "2026-11-15T12:05:55.447Z"
   },
   "podcast:pianeta b12": {
     "value": {

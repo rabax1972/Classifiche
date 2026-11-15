@@ -1002,6 +1002,15 @@
     },
     "fetchedAt": "2026-10-31T04:56:24.181Z"
   },
+  "arianna canale": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/arianna-canale/1821968187",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
   "arthur conan doyle": {
     "value": {
       "wiki": {
@@ -1055,6 +1064,46 @@
       "died": 1860
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
+  },
+  "aslak nore": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Aslak Nore",
+        "url": "https://en.wikipedia.org/wiki/Aslak_Nore",
+        "extract": "Aslak Nore  (born 12 May 1978) is a Norwegian journalist, publisher, non-fiction and crime fiction writer. He was awarded the Riverton Prize in 2017."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Aslak_Nore.jpg/500px-Aslak_Nore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Aslak_Nore.jpg",
+        "author": "Torunn_Nyen_Aslak_Nore_Andreas_Voigt.jpg: Kortfilmfestivalen i Grimstad derivat…",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/aslak-nore/932462077",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
+  "astra taylor": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Astra Taylor",
+        "url": "https://en.wikipedia.org/wiki/Astra_Taylor",
+        "extract": "Astra Taylor (born September 30, 1979) is a Canadian-American documentary filmmaker, writer, activist, and musician. Taylor has written articles for a range of publications, and is the author or editor of seven books: Examined Life: Excursions with Contemporary Thinkers (2009), Occupy!: Scenes From Occupied America (co-editor with Keith Gessen) (2012), The People's Platform: Taking Back Power and Culture in the Digital Age (2014), Democracy May Not Exist, but We'll Miss It When It's Gone (2019), Remake the World: Essays, Reflections, Rebellions (2020), The Age of Insecurity: Coming Together as Things Fall Apart (CBC Massey Lectures) (2023), End Times Fascism and the Fight for the Living World (with Naomi Klein) (2026)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Astra_Taylor_%2855535617316%29.jpg/500px-Astra_Taylor_%2855535617316%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Astra_Taylor_(55535617316).jpg",
+        "author": "John Mathew Smith & www.celebrity-photos.com",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
   },
   "aya koda": {
     "value": {
@@ -3900,6 +3949,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "james clear": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "James Clear",
+        "url": "https://it.wikipedia.org/wiki/James_Clear",
+        "extract": "James Clear (Hamilton, 22 gennaio 1986) è uno scrittore statunitense, conosciuto soprattutto per il suo libro Atomic Habits."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/James_Clear_in_2010.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Clear_in_2010.jpg",
+        "author": "James Clear",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/james-clear/1374709152",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
   "james hadley chase": {
     "value": {
       "wiki": {
@@ -4516,6 +4585,20 @@
     },
     "fetchedAt": "2026-10-26T04:49:46.161Z"
   },
+  "karen swan": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Karen Swan",
+        "url": "https://it.wikipedia.org/wiki/Karen_Swan",
+        "extract": "Karen Swan (14 agosto 1948) è una scrittrice britannica, autrice di romanzi appartenenti ai generi drammatico e rosa. È nota per le sue trame complesse, ambientazioni suggestive e storie d’amore intrecciate a elementi storici e contemporanei. In Italia i suoi libri sono stati pubblicati da Newton Compton Editori."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/karen-swan/374526558",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
   "karin slaughter": {
     "value": {
       "wiki": {
@@ -5074,6 +5157,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "lydia flem": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lydia-flem/661196476",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
   "m c beaton": {
     "value": {
       "wiki": {
@@ -5113,6 +5205,20 @@
       "died": null
     },
     "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
+  "madeline cash": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Madeline Cash",
+        "url": "https://en.wikipedia.org/wiki/Madeline_Cash",
+        "extract": "Madeline Cash is an American author and co-founder of Forever Magazine. Her debut novel Lost Lambs was published in 2026 by Farrar, Straus and Giroux. Cash previously authored a collection of short stories, Earth Angel, published in 2023. Her short fiction, op-eds and interviews with artists have been featured in publications including Nylon, Los Angeles Times, Highsnobiety, The Baffler, and Granta."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/madeline-cash/1706056183",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
   },
   "malcolm lowry": {
     "value": {
@@ -5842,6 +5948,26 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "naomi klein": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Naomi Klein",
+        "url": "https://it.wikipedia.org/wiki/Naomi_Klein",
+        "extract": "Naomi Klein (Montréal, 8 maggio 1970) è una giornalista, scrittrice e attivista canadese.\n\nÈ l'autrice del bestseller internazionale No logo, saggio che tratta delle pratiche aziendali delle multinazionali nei paesi in via di sviluppo, considerato il manifesto del movimento no-global. Naomi Klein compare frequentemente negli elenchi globali e nazionali dei pensatori più influenti per le sue analisi politiche sui temi della globalizzazione e dell'ambiente."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Naomi_Klein_at_Berkeley%2C_California%2C_in_2014_%28cropped%29.jpg/500px-Naomi_Klein_at_Berkeley%2C_California%2C_in_2014_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Naomi_Klein_at_Berkeley,_California,_in_2014_(cropped).jpg",
+        "author": "Moizsyed",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
   "natalia ginzburg": {
     "value": {
       "wiki": {
@@ -6405,6 +6531,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-13T10:28:20.045Z"
+  },
+  "rachel gillig": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Rachel Gillig",
+        "url": "https://it.wikipedia.org/wiki/Rachel_Gillig",
+        "extract": "Rachel Gillig (California, 23 settembre 1989) è una scrittrice statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rachel_Gillig_at_Rose_City_Comic_Con.jpg/500px-Rachel_Gillig_at_Rose_City_Comic_Con.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rachel_Gillig_at_Rose_City_Comic_Con.jpg",
+        "author": "Joe Peacock",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/rachel-gillig/1582411143",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
   },
   "rachel reid": {
     "value": {
@@ -7824,6 +7970,20 @@
       "died": null
     },
     "fetchedAt": "2026-11-13T12:13:47.911Z"
+  },
+  "virginia evans": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Virginia Evans",
+        "url": "https://en.wikipedia.org/wiki/Virginia_Evans",
+        "extract": "Virginia Evans  (born on June 2, 1986) is an American novelist. She won the 2026 Women's Prize for Fiction with her novel The Correspondent."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/virginia-evans/269549820",
+      "died": null
+    },
+    "fetchedAt": "2026-11-15T12:01:33.429Z"
   },
   "virginia woolf": {
     "value": {

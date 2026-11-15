@@ -4005,6 +4005,28 @@
     },
     "fetchedAt": "2026-10-17T09:35:09.040Z"
   },
+  "daley pearson": {
+    "value": {
+      "tmdbId": 1672488,
+      "wiki": {
+        "lang": "en",
+        "title": "Daley Pearson",
+        "url": "https://en.wikipedia.org/wiki/Daley_Pearson",
+        "extract": "Daley Pearson (b. 1984 or 1985) is an Australian writer, director, producer, and actor. He is the co-founder of Ludo Studio, the creator of the series The Strange Calls (2012), The Strange Chores (2019–present), #7DaysLater (2013), and an executive producer on Bluey (2018–present), Content (2019), and Thou Shalt Not Steal (2024). He also plays Darryl Jacobson on Team Thor (2016–2018) and the film Thor: Love and Thunder (2022) and created the concept for the Australian horror film Talk to Me (2022)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/iX77YtxdoslRXdG6EVK2WEknbwD.jpg",
+      "films": [
+        {
+          "id": 1518204,
+          "title": "Allen",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-15T12:01:35.677Z"
+  },
   "damien chazelle": {
     "value": {
       "tmdbId": 136495,
@@ -9859,6 +9881,83 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:05.292Z"
+  },
+  "jeffrey walker": {
+    "value": {
+      "tmdbId": 131776,
+      "wiki": {
+        "lang": "it",
+        "title": "Jeffrey Walker",
+        "url": "https://it.wikipedia.org/wiki/Jeffrey_Walker",
+        "extract": "Jeffrey Walker (Melbourne, 10 luglio 1982) è un attore e regista australiano."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/eifaOb3XPsf3d7jrXFml2DSIo5H.jpg",
+      "films": [
+        {
+          "id": 528095,
+          "title": "Poor Boy",
+          "year": null
+        },
+        {
+          "id": 1450980,
+          "title": "FING!",
+          "year": "2027"
+        },
+        {
+          "id": 1518204,
+          "title": "Allen",
+          "year": "2026"
+        },
+        {
+          "id": 830896,
+          "title": "The Portable Door",
+          "year": "2023"
+        },
+        {
+          "id": 505444,
+          "title": "Riot",
+          "year": "2018"
+        },
+        {
+          "id": 457258,
+          "title": "Il matrimonio di Ali",
+          "year": "2017"
+        },
+        {
+          "id": 429765,
+          "title": "Dance Academy: The Movie",
+          "year": "2017"
+        },
+        {
+          "id": 264578,
+          "title": "Jack Irish: Dead Point",
+          "year": "2014"
+        },
+        {
+          "id": 141099,
+          "title": "Jack Irish: Black Tide",
+          "year": "2012"
+        },
+        {
+          "id": 141095,
+          "title": "Jack Irish: Bad Debts",
+          "year": "2012"
+        },
+        {
+          "id": 1456240,
+          "title": "H2O: Just add Water, TV-Movie 2",
+          "year": "2009"
+        },
+        {
+          "id": 1364486,
+          "title": "H2O: Just Add Water: Metamorphosis",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-15T12:01:36.610Z"
   },
   "jennifer peedom": {
     "value": {
@@ -20101,6 +20200,53 @@
     },
     "fetchedAt": "2026-10-18T17:57:06.651Z"
   },
+  "shana feste": {
+    "value": {
+      "tmdbId": 129718,
+      "wiki": {
+        "lang": "it",
+        "title": "Shana Feste",
+        "url": "https://it.wikipedia.org/wiki/Shana_Feste",
+        "extract": "Shana Feste (Los Angeles, 28 agosto 1975) è una regista e sceneggiatrice statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/exBIbwKgmSuE2tsaqfjsoLTOd1l.jpg",
+      "films": [
+        {
+          "id": 1543469,
+          "title": "Heartland",
+          "year": "2026"
+        },
+        {
+          "id": 532870,
+          "title": "Run Sweetheart Run",
+          "year": "2020"
+        },
+        {
+          "id": 447682,
+          "title": "Un viaggio stupefacente",
+          "year": "2018"
+        },
+        {
+          "id": 226857,
+          "title": "Un amore senza fine",
+          "year": "2014"
+        },
+        {
+          "id": 45272,
+          "title": "Country Strong",
+          "year": "2010"
+        },
+        {
+          "id": 32395,
+          "title": "Gli ostacoli del cuore",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-15T12:01:38.547Z"
+  },
   "shawn levy": {
     "value": {
       "tmdbId": 17825,
@@ -20246,6 +20392,78 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.088Z"
+  },
+  "sidharta tata": {
+    "value": {
+      "tmdbId": 2246464,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/koZJJiqSOUybcaTM8feylsO161C.jpg",
+      "films": [
+        {
+          "id": 1785508,
+          "title": "Hujan Kematian",
+          "year": null
+        },
+        {
+          "id": 1627840,
+          "title": "Zona Merah",
+          "year": "2027"
+        },
+        {
+          "id": 1616687,
+          "title": "Never Surrender",
+          "year": "2026"
+        },
+        {
+          "id": 1421155,
+          "title": "Ikatan Darah",
+          "year": "2026"
+        },
+        {
+          "id": 1391149,
+          "title": "Waktu Maghrib 2",
+          "year": "2025"
+        },
+        {
+          "id": 1263992,
+          "title": "Sakaratul Maut",
+          "year": "2024"
+        },
+        {
+          "id": 1239506,
+          "title": "Malam Pencabut Nyawa",
+          "year": "2024"
+        },
+        {
+          "id": 1092622,
+          "title": "Ali Topan",
+          "year": "2024"
+        },
+        {
+          "id": 1064312,
+          "title": "Waktu Maghrib",
+          "year": "2023"
+        },
+        {
+          "id": 1069064,
+          "title": "2210",
+          "year": "2022"
+        },
+        {
+          "id": 770108,
+          "title": "Quarantine Tales",
+          "year": "2020"
+        },
+        {
+          "id": 583606,
+          "title": "Loz Jogjakartoz",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-15T12:01:34.731Z"
   },
   "sidney lumet": {
     "value": {

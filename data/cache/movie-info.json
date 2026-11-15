@@ -1450,6 +1450,83 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.775Z"
   },
+  "allen|daley pearson": {
+    "value": {
+      "tmdbId": 1518204,
+      "title": "Allen",
+      "overview": "Vent'anni dopo il suo incontro con un alieno, Petey non è ancora riuscito a voltare pagina. Ora il suo amico extraterrestre è tornato per un motivo complicato... e imprevisto.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Fantascienza",
+        "Avventura",
+        "Commedia"
+      ],
+      "runtime": 105,
+      "released": "2026-11-12",
+      "vote": 6.9,
+      "votes": 28,
+      "poster": "https://image.tmdb.org/t/p/w500/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
+      "directors": [
+        {
+          "id": 1672488,
+          "name": "Daley Pearson"
+        },
+        {
+          "id": 131776,
+          "name": "Jeffrey Walker"
+        }
+      ],
+      "cast": [
+        {
+          "name": "T.J. Power",
+          "character": "Petey"
+        },
+        {
+          "name": "Charlotte Nicdao",
+          "character": "Carly"
+        },
+        {
+          "name": "Josh Helman",
+          "character": "Jaden"
+        },
+        {
+          "name": "Emily Barclay",
+          "character": "Sarah"
+        },
+        {
+          "name": "Benedict Hardie",
+          "character": "Rory"
+        },
+        {
+          "name": "Elijah Tamati",
+          "character": "Cameron"
+        },
+        {
+          "name": "Edward A O'Sullivan",
+          "character": "Young Petey"
+        },
+        {
+          "name": "Caitlin Niemotko",
+          "character": "Young Carly"
+        }
+      ],
+      "trailer": "QhQ9PSf7HBc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1518204-allen/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-15T12:01:34.140Z"
+  },
   "always lalisa|sue kim 2026": {
     "value": {
       "tmdbId": 1489932,
@@ -11230,6 +11307,78 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.629Z"
+  },
+  "heartland|shana feste 2026": {
+    "value": {
+      "tmdbId": 1543469,
+      "title": "Heartland",
+      "overview": "Una leggenda della musica country dal carattere schivo indaga sulla scomparsa della nipote, giovane promessa del settore, in questo thriller con Jessica Chastain e Garrett Hedlund.",
+      "overviewLang": "it",
+      "tagline": "Le stelle più luminose nascondono i segreti più oscuri.",
+      "originalTitle": null,
+      "genres": [
+        "Thriller",
+        "Mistero"
+      ],
+      "runtime": 114,
+      "released": "2026-11-13",
+      "vote": 7.2,
+      "votes": 29,
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "directors": [
+        {
+          "id": 129718,
+          "name": "Shana Feste"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jessica Chastain",
+          "character": "Misty Jones"
+        },
+        {
+          "name": "Carter Faith",
+          "character": "Charlie Hart"
+        },
+        {
+          "name": "Garrett Hedlund",
+          "character": "Roy Combs"
+        },
+        {
+          "name": "John Hawkes",
+          "character": "Clark"
+        },
+        {
+          "name": "Norbert Leo Butz",
+          "character": "Detective White"
+        },
+        {
+          "name": "Hill Harper",
+          "character": "Detective Kinsey"
+        },
+        {
+          "name": "Paul Sparks",
+          "character": "Donny"
+        },
+        {
+          "name": "Ben Dickey",
+          "character": "Buck"
+        }
+      ],
+      "trailer": "ziIz59enN1c",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1543469-heartland/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-15T12:01:34.243Z"
   },
   "heat la sfida|michael mann 1995": {
     "value": {
@@ -23834,6 +23983,79 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.955Z"
   },
+  "never surrender|sidharta tata 2026": {
+    "value": {
+      "tmdbId": 1616687,
+      "title": "Never Surrender",
+      "overview": "Un veterano tormentato dai sensi di colpa deve unire le forze con i nipoti che conosce a malapena per sopravvivere a una banda spietata che assalta la sua casa isolata.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Serangan Balik",
+      "genres": [
+        "Azione",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 140,
+      "released": "2026-11-11",
+      "vote": 7.1,
+      "votes": 22,
+      "poster": "https://image.tmdb.org/t/p/w500/9wypfSz5OyWnew6mt5hviGw6WhM.jpg",
+      "directors": [
+        {
+          "id": 2246464,
+          "name": "Sidharta Tata"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lukman Sardi",
+          "character": "Eyang Hari"
+        },
+        {
+          "name": "Callista Arum",
+          "character": "Putri"
+        },
+        {
+          "name": "Sulthan Hamonangan",
+          "character": "Dimas"
+        },
+        {
+          "name": "Derby Romero",
+          "character": "Bastian"
+        },
+        {
+          "name": "Donny Alamsyah",
+          "character": "Ulo"
+        },
+        {
+          "name": "Dennis Adishwara",
+          "character": "Agus"
+        },
+        {
+          "name": "Ismi Melinda",
+          "character": "Jegeg"
+        },
+        {
+          "name": "David Hendrawan",
+          "character": "Aldo"
+        }
+      ],
+      "trailer": "o0d1IA85D9o",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1616687-serangan-balik/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-15T12:01:34.096Z"
+  },
   "nightmare before christmas|henry selick 1993": {
     "value": {
       "tmdbId": 9479,
@@ -27328,6 +27550,101 @@
       "watch": null
     },
     "fetchedAt": "2026-10-29T04:59:25.955Z"
+  },
+  "ring 0 the birthday|2000": {
+    "value": {
+      "tmdbId": 9674,
+      "title": "Ring 0 - The Birthday",
+      "overview": "Una reporter, Miyaji Akiko, il cui fidanzato fu ucciso durante le dimostrazioni dei poteri di Shizuko Yamamura, sta raccogliendo informazioni sulla figlia di Shizuko, Sadako. Nel frattempo la stessa Sadako si è unita ad una troupe di attori teatrali e si è innamorata di Hiroshi Toyama, anche se è tormentata dall'incontrollabilità dei propri poteri.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "リング０　バースデイ",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Dramma"
+      ],
+      "runtime": 99,
+      "released": "2000-01-22",
+      "vote": 6.1,
+      "votes": 303,
+      "poster": "https://image.tmdb.org/t/p/w500/xaQCmiiydYR0WhGGaC7UCE3boK.jpg",
+      "directors": [
+        {
+          "id": 58677,
+          "name": "鶴田法男"
+        }
+      ],
+      "cast": [
+        {
+          "name": "仲間由紀恵",
+          "character": "Sadako Yamamura"
+        },
+        {
+          "name": "田辺誠一",
+          "character": "Hiroshi Tôyama"
+        },
+        {
+          "name": "麻生久美子",
+          "character": "Etsuko Tachihara"
+        },
+        {
+          "name": "田中好子",
+          "character": "Akiko Miyaji"
+        },
+        {
+          "name": "若松武史",
+          "character": "Yûsaku Shigemori"
+        },
+        {
+          "name": "水上竜士",
+          "character": "Wataru Kuno"
+        },
+        {
+          "name": "奥貫薫",
+          "character": "Aiko Hazuki"
+        },
+        {
+          "name": "木村靖司",
+          "character": "Togashi"
+        }
+      ],
+      "trailer": "hV1JeyjofRk",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/9674-ringu-basudei/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "MIDNIGHT FACTORY Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/r7avjeKxK7xrpVktl00Jo3aD1vQ.png"
+          },
+          {
+            "name": "Far East Amazon Channel ",
+            "logo": "https://image.tmdb.org/t/p/w92/vP9lVLjFAEcTDiPQEAZvrdk0Od8.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-15T12:01:34.343Z"
   },
   "ritorno al futuro|robert zemeckis 1985": {
     "value": {
