@@ -31440,6 +31440,78 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.337Z"
   },
+  "the christmas switch|adam palsson 2026": {
+    "value": {
+      "tmdbId": 1757174,
+      "title": "The Christmas Switch",
+      "overview": "A Natale, una stacanovista di città con tanta voglia di rallentare il passo si scambia di posto con la sorella pantofolaia, provocando così un nuovo tipo di caos.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Bara till jul",
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 103,
+      "released": "2026-11-12",
+      "vote": 6.6,
+      "votes": 39,
+      "poster": "https://image.tmdb.org/t/p/w500/k7h5uzeCFBNl802TW2WTvctGYHi.jpg",
+      "directors": [
+        {
+          "id": 1137377,
+          "name": "Adam Pålsson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Felice Jankell",
+          "character": "Mathilda Stjärne"
+        },
+        {
+          "name": "Happy Jankell",
+          "character": "Freddie Stjärne"
+        },
+        {
+          "name": "Christian Fandango Sundgren",
+          "character": "Oliver"
+        },
+        {
+          "name": "Celie Sparre",
+          "character": "Emma"
+        },
+        {
+          "name": "Anastasios Soulis",
+          "character": "Jonas"
+        },
+        {
+          "name": "Maria Kulle",
+          "character": "Lillian"
+        },
+        {
+          "name": "Dag Malmberg",
+          "character": "Janne"
+        },
+        {
+          "name": "Bengt Braskered",
+          "character": "Patric"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1757174-bara-till-jul/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-16T12:49:50.684Z"
+  },
   "the departed il bene e il male|martin scorsese 2006": {
     "value": {
       "tmdbId": 1422,

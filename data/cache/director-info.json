@@ -67,6 +67,39 @@
     },
     "fetchedAt": "2026-10-17T09:31:11.753Z"
   },
+  "adam palsson": {
+    "value": {
+      "tmdbId": 1137377,
+      "wiki": {
+        "lang": "it",
+        "title": "Adam Pålsson",
+        "url": "https://it.wikipedia.org/wiki/Adam_P%C3%A5lsson",
+        "extract": "Adam Gustav Justus Pålsson (Österhaninge, 25 marzo 1988) è un attore svedese, noto per il ruolo di Kurt Wallander nella serie Netflix Il giovane Wallander."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Adam_P%C3%A5lsson_in_August_2014.jpg/500px-Adam_P%C3%A5lsson_in_August_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Adam_P%C3%A5lsson_in_August_2014.jpg",
+        "author": "Frankie Fouganthin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1757174,
+          "title": "The Christmas Switch",
+          "year": "2026"
+        },
+        {
+          "id": 633814,
+          "title": "Brunch hos Kristin Kaspersen",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-16T12:49:51.777Z"
+  },
   "adam wingard": {
     "value": {
       "tmdbId": 98631,

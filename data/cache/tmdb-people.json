@@ -303,6 +303,10 @@
     "value": "Peter Jackson",
     "fetchedAt": "2026-10-18T17:54:26.153Z"
   },
+  "movie:1210268": {
+    "value": "Manuela Martelli",
+    "fetchedAt": "2026-11-16T12:48:59.841Z"
+  },
   "movie:1212763": {
     "value": "Sébastien Vaniček",
     "fetchedAt": "2026-10-12T07:24:54.773Z"
@@ -1495,6 +1499,10 @@
     "value": "Cathy Garcia-Sampana",
     "fetchedAt": "2026-10-28T05:02:23.038Z"
   },
+  "movie:1751094": {
+    "value": null,
+    "fetchedAt": "2026-11-16T12:48:59.641Z"
+  },
   "movie:1752617": {
     "value": null,
     "fetchedAt": "2026-10-18T17:54:25.507Z"
@@ -1690,6 +1698,10 @@
   "movie:1817773": {
     "value": "Cristóbal Valenzuela Berrios",
     "fetchedAt": "2026-11-06T05:08:15.233Z"
+  },
+  "movie:1822873": {
+    "value": "Jason B. Bergh",
+    "fetchedAt": "2026-11-16T12:48:59.743Z"
   },
   "movie:1823907": {
     "value": "Olivia Issacs",
@@ -3570,6 +3582,10 @@
   "tv:334470": {
     "value": "Leo Reich",
     "fetchedAt": "2026-10-22T04:44:49.313Z"
+  },
+  "tv:334504": {
+    "value": null,
+    "fetchedAt": "2026-11-16T12:49:00.243Z"
   },
   "tv:334517": {
     "value": null,

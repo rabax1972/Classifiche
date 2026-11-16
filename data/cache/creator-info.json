@@ -5911,6 +5911,49 @@
     },
     "fetchedAt": "2026-10-31T05:00:53.979Z"
   },
+  "stephen hillenburg": {
+    "value": {
+      "tmdbId": 70651,
+      "wiki": {
+        "lang": "it",
+        "title": "Stephen Hillenburg",
+        "url": "https://it.wikipedia.org/wiki/Stephen_Hillenburg",
+        "extract": "Stephen McDannell Hillenburg (Lawton, 21 agosto 1961 – San Marino, 26 novembre 2018) è stato un animatore, disegnatore e biologo statunitense, famoso per aver creato la serie animata SpongeBob."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Stephen_Hillenburg_by_Carlos_Cazurro.jpg/500px-Stephen_Hillenburg_by_Carlos_Cazurro.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Stephen_Hillenburg_by_Carlos_Cazurro.jpg",
+        "author": "Carlos Cazurro Burgos (http://www.cazurro.com/)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 33130,
+          "title": "Mermaid Man and Barnacle Boy series",
+          "year": null
+        },
+        {
+          "id": 126824,
+          "title": "Lo show di Patrick Stella",
+          "year": "2021"
+        },
+        {
+          "id": 309590,
+          "title": "Astrology with Squidward",
+          "year": "2000"
+        },
+        {
+          "id": 387,
+          "title": "SpongeBob",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-16T12:54:14.921Z"
+  },
   "steven levitan": {
     "value": {
       "tmdbId": 1215785,

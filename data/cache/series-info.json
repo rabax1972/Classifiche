@@ -15383,6 +15383,228 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.436Z"
   },
+  "spongebob|stephen hillenburg 1999": {
+    "value": {
+      "tmdbId": 387,
+      "title": "SpongeBob",
+      "overview": "Nel profondo dell'Oceano Pacifico, nella città sotterranea di Bikini Bottom, vive una spugna gialla quadrata chiamata SpongeBob SquarePants. SpongeBob vive in un ananas con la sua lumaca domestica, Gary, ama il suo lavoro di cuoco al Krusty Krab e ha un talento per mettersi nei guai di tutti i tipi senza provarci davvero. Quando non sta dando sui nervi del suo irritabile vicino di casa Squiddi, SpongeBob di solito  può essere trovato nel mezzo di tutti i tipi di situazioni strane con il suo migliore amico, la semplice ma adorabile stella marina, Patrick Stella.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "SpongeBob SquarePants",
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia"
+      ],
+      "episodeRuntime": 11,
+      "firstAired": "1999-05-01",
+      "lastAired": "2026-11-06",
+      "status": "Returning Series",
+      "seasons": 18,
+      "episodes": 659,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1999-05-01",
+          "episodes": 41
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2000-10-26",
+          "episodes": 36
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2002-01-21",
+          "episodes": 40
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2005-05-06",
+          "episodes": 40
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2007-04-13",
+          "episodes": 36
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2008-03-03",
+          "episodes": 47
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2009-07-19",
+          "episodes": 52
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2011-03-26",
+          "episodes": 52
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2012-10-27",
+          "episodes": 47
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2017-02-25",
+          "episodes": 20
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2017-09-23",
+          "episodes": 51
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2019-01-12",
+          "episodes": 35
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2020-10-22",
+          "episodes": 64
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2023-11-02",
+          "episodes": 23
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2024-12-03",
+          "episodes": 24
+        },
+        {
+          "n": 16,
+          "name": "Stagione 16",
+          "date": "2025-06-27",
+          "episodes": 22
+        },
+        {
+          "n": 17,
+          "name": "Stagione 17",
+          "date": "2026-06-12",
+          "episodes": 26
+        },
+        {
+          "n": 18,
+          "name": "Stagione 18",
+          "date": "2026-11-27",
+          "episodes": 3
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2001-01-01",
+          "episodes": 113
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-11-20",
+        "season": 17,
+        "episode": 25
+      },
+      "networks": [
+        "Nickelodeon"
+      ],
+      "vote": 7.7,
+      "votes": 3309,
+      "poster": "https://image.tmdb.org/t/p/w500/qEU3SEsEuYjakRQlNZ1kiZNXvMz.jpg",
+      "creators": [
+        {
+          "id": 70651,
+          "name": "Stephen Hillenburg"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tom Kenny",
+          "character": "SpongeBob SquarePants / Gary the Snail / French Narrator (voice) / Patchy The Pirate"
+        },
+        {
+          "name": "Bill Fagerbakke",
+          "character": "Patrick Star (voice)"
+        },
+        {
+          "name": "Rodger Bumpass",
+          "character": "Squidward (voice)"
+        },
+        {
+          "name": "Clancy Brown",
+          "character": "Mr. Krabs (voice)"
+        },
+        {
+          "name": "Carolyn Lawrence",
+          "character": "Sandy Cheeks (voice)"
+        },
+        {
+          "name": "Mary Jo Catlett",
+          "character": "Mrs. Puff (voice)"
+        },
+        {
+          "name": "Mr. Lawrence",
+          "character": "Plankton / Larry the Lobster (voice)"
+        },
+        {
+          "name": "Jill Talley",
+          "character": "Karen Plankton (voice)"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/387-spongebob-squarepants/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Paramount Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+          },
+          {
+            "name": "Paramount+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/bxX0YVOCY7bI85BKRlJAAQ2EjUR.png"
+          },
+          {
+            "name": "Paramount Plus Apple TV channel",
+            "logo": "https://image.tmdb.org/t/p/w92/xu4LyKTwasTbta1Z0qWtZG48yZ3.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-16T12:54:14.536Z"
+  },
   "stargate sg 1|brad wright": {
     "value": {
       "tmdbId": 4629,
