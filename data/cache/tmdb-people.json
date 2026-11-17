@@ -103,6 +103,10 @@
     "value": "Andrew Stanton",
     "fetchedAt": "2026-10-12T07:24:36.179Z"
   },
+  "movie:1084409": {
+    "value": "Anton Corbijn",
+    "fetchedAt": "2026-11-17T13:29:32.822Z"
+  },
   "movie:1086176": {
     "value": "刘誉, Li Taige",
     "fetchedAt": "2026-10-22T04:44:47.710Z"
@@ -654,6 +658,10 @@
   "movie:1377237": {
     "value": "Scott Waugh",
     "fetchedAt": "2026-10-12T07:24:35.794Z"
+  },
+  "movie:1378742": {
+    "value": "Lauren Bond",
+    "fetchedAt": "2026-11-17T13:29:32.945Z"
   },
   "movie:1380417": {
     "value": "Elegance Bratton",
@@ -1479,6 +1487,10 @@
     "value": null,
     "fetchedAt": "2026-10-12T07:24:33.731Z"
   },
+  "movie:1735270": {
+    "value": "Manoj Kumar",
+    "fetchedAt": "2026-11-17T13:29:33.028Z"
+  },
   "movie:1735959": {
     "value": "Francesca Archibugi",
     "fetchedAt": "2026-10-28T05:02:23.437Z"
@@ -2179,6 +2191,10 @@
     "value": "Stanley Kubrick",
     "fetchedAt": "2026-10-18T17:54:31.349Z"
   },
+  "movie:695721": {
+    "value": "Francis Lawrence",
+    "fetchedAt": "2026-11-17T13:29:31.822Z"
+  },
   "movie:698687": {
     "value": "Josh Cooley",
     "fetchedAt": "2026-10-16T04:44:13.506Z"
@@ -2623,6 +2639,10 @@
     "value": "Julie Plec, Kevin Williamson",
     "fetchedAt": "2026-10-19T04:45:37.865Z"
   },
+  "tv:18347": {
+    "value": "Dan Harmon",
+    "fetchedAt": "2026-11-17T13:29:32.323Z"
+  },
   "tv:1877": {
     "value": "Dan Povenmire, Jeff 'Swampy' Marsh",
     "fetchedAt": "2026-10-19T04:45:39.571Z"
@@ -2762,6 +2782,10 @@
   "tv:225385": {
     "value": "Joe Barton",
     "fetchedAt": "2026-11-03T05:05:20.278Z"
+  },
+  "tv:226102": {
+    "value": "박준우",
+    "fetchedAt": "2026-11-17T13:29:33.420Z"
   },
   "tv:2288": {
     "value": "Paul T. Scheuring",
@@ -2971,6 +2995,10 @@
     "value": "Georges Simenon",
     "fetchedAt": "2026-10-19T12:25:48.269Z"
   },
+  "tv:271338": {
+    "value": null,
+    "fetchedAt": "2026-11-17T13:29:33.625Z"
+  },
   "tv:273240": {
     "value": "Louisa Levy",
     "fetchedAt": "2026-11-06T05:08:16.628Z"
@@ -3170,6 +3198,10 @@
   "tv:294446": {
     "value": null,
     "fetchedAt": "2026-10-13T04:34:40.565Z"
+  },
+  "tv:294498": {
+    "value": null,
+    "fetchedAt": "2026-11-17T13:29:33.522Z"
   },
   "tv:295420": {
     "value": "那波なばな, Dr.Poro",
@@ -3438,6 +3470,10 @@
   "tv:316891": {
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.484Z"
+  },
+  "tv:318349": {
+    "value": null,
+    "fetchedAt": "2026-11-17T13:29:33.927Z"
   },
   "tv:31991": {
     "value": "Paul Levesque, Vince McMahon",
@@ -3735,6 +3771,10 @@
     "value": null,
     "fetchedAt": "2026-11-13T12:13:27.419Z"
   },
+  "tv:342270": {
+    "value": "정종연",
+    "fetchedAt": "2026-11-17T13:29:33.827Z"
+  },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
     "fetchedAt": "2026-10-12T07:24:49.704Z"
@@ -3790,6 +3830,10 @@
   "tv:4586": {
     "value": "Amy Sherman-Palladino",
     "fetchedAt": "2026-10-15T04:42:53.562Z"
+  },
+  "tv:4588": {
+    "value": "Michael Crichton",
+    "fetchedAt": "2026-11-17T13:29:32.424Z"
   },
   "tv:4604": {
     "value": "Alfred Gough, Miles Millar",
@@ -3959,6 +4003,10 @@
     "value": "Ryan Murphy, Brad Falchuk",
     "fetchedAt": "2026-10-18T04:42:48.595Z"
   },
+  "tv:76331": {
+    "value": "Jesse Armstrong",
+    "fetchedAt": "2026-11-17T13:29:32.246Z"
+  },
   "tv:764": {
     "value": "Anthony Horowitz, Caroline Graham",
     "fetchedAt": "2026-10-12T07:24:48.818Z"
@@ -4018,6 +4066,10 @@
   "tv:873": {
     "value": "William Link, Richard Levinson",
     "fetchedAt": "2026-10-31T04:54:24.105Z"
+  },
+  "tv:8840": {
+    "value": "Daniel Fajemisin-Duncan, Marlon Smith",
+    "fetchedAt": "2026-11-17T13:29:33.724Z"
   },
   "tv:90": {
     "value": "Bernard Vaillot, André Barro",

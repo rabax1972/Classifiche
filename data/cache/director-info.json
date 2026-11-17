@@ -18033,6 +18033,28 @@
     },
     "fetchedAt": "2026-10-18T17:57:18.632Z"
   },
+  "ritesh shah": {
+    "value": {
+      "tmdbId": 150486,
+      "wiki": {
+        "lang": "en",
+        "title": "Ritesh Shah",
+        "url": "https://en.wikipedia.org/wiki/Ritesh_Shah",
+        "extract": "Ritesh Shah is an Indian screenwriter who works in Hindi films. He has written the screenplay and dialogues for films like Kahaani (2012), Pink (2016), Airlift (2017) and Raid (2018). He won the Filmfare award, Star Screen Award and Zee Cine Award in the Best Dialogue category for Pink."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/nQHtdlipGeGtJQcImXfeRawjzct.jpg",
+      "films": [
+        {
+          "id": 1453407,
+          "title": "ग़ज़ब रात",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-17T13:30:56.480Z"
+  },
   "roan johnson": {
     "value": {
       "tmdbId": 585361,

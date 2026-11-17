@@ -3257,6 +3257,54 @@
     },
     "fetchedAt": "2026-10-31T05:00:33.312Z"
   },
+  "jesse armstrong": {
+    "value": {
+      "tmdbId": 62946,
+      "wiki": {
+        "lang": "it",
+        "title": "Jesse Armstrong",
+        "url": "https://it.wikipedia.org/wiki/Jesse_Armstrong",
+        "extract": "Jesse Armstrong (Oswestry, 13 dicembre 1970) è uno sceneggiatore, produttore cinematografico giornalista britannico, molto famoso per la sitcom Peep Show, la satira politica The Thick of It e soprattutto per la serie televisiva   Succession.\n\nLa sua città di provenienza è Oswestry, in Shropshire, e si è laureato alla Manchester University, dove ha incontrato il suo compagno di scrittura Sam Bain. Prima di addentrarsi nella scrittura della commedia alla fine degli anni Novanta, Armstrong ha lavorato come ricercatore per il deputato laburista Doug Henderson."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/SuccessionBFI280523_%2818_of_20%29_%2852935333250%29_%28cropped%29.jpg/500px-SuccessionBFI280523_%2818_of_20%29_%2852935333250%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:SuccessionBFI280523_(18_of_20)_(52935333250)_(cropped).jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 76331,
+          "title": "Succession",
+          "year": "2018"
+        },
+        {
+          "id": 61815,
+          "title": "Babylon",
+          "year": "2014"
+        },
+        {
+          "id": 40632,
+          "title": "Fresh Meat",
+          "year": "2011"
+        },
+        {
+          "id": 16217,
+          "title": "The Old Guys",
+          "year": "2009"
+        },
+        {
+          "id": 815,
+          "title": "Peep Show",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-17T13:34:52.253Z"
+  },
   "jesse mckeown": {
     "value": {
       "tmdbId": 159780,
@@ -4576,6 +4624,39 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:47.413Z"
+  },
+  "michael crichton": {
+    "value": {
+      "tmdbId": 4782,
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Crichton",
+        "url": "https://it.wikipedia.org/wiki/Michael_Crichton",
+        "extract": "John Michael Crichton ([ˈkraɪtən]; Chicago, 23 ottobre 1942 – Los Angeles, 4 novembre 2008) è stato uno scrittore, sceneggiatore, regista, produttore cinematografico e produttore televisivo statunitense.\n\nTra le sue opere più celebri spicca Il mondo dei robot (Westworld) (1973) con Yul Brynner film considerato precursore del tema delle \"macchine ribelli\" e il romanzo di fantascienza Jurassic Park, dal quale Steven Spielberg ha tratto l’altrettanto celebre trasposizione cinematografica. È stato anche ideatore e produttore esecutivo del popolare medical drama E.R. - Medici in prima linea. Complessivamente i suoi romanzi hanno venduto 150 milioni di copie."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/MichaelCrichton_2.jpg/500px-MichaelCrichton_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MichaelCrichton_2.jpg",
+        "author": "Jon Chase photo/Harvard News Office",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 4588,
+          "title": "E.R. - Medici in prima linea",
+          "year": "1994"
+        },
+        {
+          "id": 411,
+          "title": "Alle soglie del futuro",
+          "year": "1980"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-17T13:34:53.161Z"
   },
   "michael dante dimartino": {
     "value": {

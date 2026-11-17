@@ -224,6 +224,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "alberto mantovani": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alberto-mantovani/31512375",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
+  },
   "alberto moravia": {
     "value": {
       "wiki": {
@@ -283,6 +292,15 @@
       "died": 1963
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "alejandro guillermo roemmers": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/alejandro-guillermo-roemmers/677639142",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "aleksandr solzenicyn": {
     "value": {
@@ -857,6 +875,15 @@
     },
     "fetchedAt": "2026-11-07T05:05:02.989Z"
   },
+  "anna zarlenga": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/anna-zarlenga/1225017148",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
+  },
   "anne carson": {
     "value": {
       "wiki": {
@@ -1422,6 +1449,15 @@
       "died": 1963
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "c s quill": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/c-s-quill/1223867598",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "caitlin crews": {
     "value": {
@@ -2127,6 +2163,15 @@
     },
     "fetchedAt": "2026-11-09T05:19:22.880Z"
   },
+  "davide francesco sada": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
+  },
   "dean koontz": {
     "value": {
       "wiki": {
@@ -2194,6 +2239,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
+  },
+  "donatella di pietrantonio": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Donatella Di Pietrantonio",
+        "url": "https://it.wikipedia.org/wiki/Donatella_Di_Pietrantonio",
+        "extract": "Donatella Di Pietrantonio (Arsita, 5 gennaio 1962) è una scrittrice italiana.\n\nÈ divenuta nota al grande pubblico grazie al suo romanzo L'Arminuta, vincitore del Premio Campiello nel 2017. Nel 2024 ha vinto il Premio Strega con il romanzo L'età fragile."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Donatella_Di_Pietrantonio_%282022%29.jpg/500px-Donatella_Di_Pietrantonio_%282022%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Donatella_Di_Pietrantonio_(2022).jpg",
+        "author": "Jindřich Nosek (NoJin)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/donatella-di-pietrantonio/609379685",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "donato carrisi": {
     "value": {
@@ -2542,6 +2607,15 @@
       "died": 1972
     },
     "fetchedAt": "2026-11-11T05:20:28.542Z"
+  },
+  "enrico garzotto": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "enrico vanzina": {
     "value": {
@@ -3373,6 +3447,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
+  },
+  "graham greene": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Graham Greene (scrittore)",
+        "url": "https://it.wikipedia.org/wiki/Graham_Greene_(scrittore)",
+        "extract": "Henry Graham Greene (Berkhamsted, 2 ottobre 1904 – Corseaux, 3 aprile 1991) è stato uno scrittore, drammaturgo, sceneggiatore, giornalista, considerato uno dei più importanti romanzieri del XX secolo britannico."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Graham_Greene_angol_%C3%ADr%C3%B3%2C_1975_Fortepan_84697.jpg/500px-Graham_Greene_angol_%C3%ADr%C3%B3%2C_1975_Fortepan_84697.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Graham_Greene_angol_%C3%ADr%C3%B3,_1975_Fortepan_84697.jpg",
+        "author": "FOTO:Fortepan — ID 84697: Adományozó/Donor: Magyar Hírek folyóirat. archive cop…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/graham-greene/7032334",
+      "died": 1991
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "guillaume apollinaire": {
     "value": {
@@ -4828,6 +4922,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
+  },
+  "lars kepler": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Lars Kepler",
+        "url": "https://it.wikipedia.org/wiki/Lars_Kepler",
+        "extract": "Lars Kepler, pseudonimo di Alexander Ahndoril (Upplands Väsby, 20 gennaio 1967) e\n\nAlexandra Coelho Ahndoril (Helsingborg, 1966) sono una coppia di scrittori svedesi.\n\nI due coniugi, sposati nel 1994, vivono a Stoccolma con le loro tre figlie, vicino alla centrale di polizia. Entrambi scrittori, decidono di sospendere momentaneamente nel 2009 le loro carriere, provando a scrivere un romanzo giallo a quattro mani.. Per mantenere la separazione tra la loro nuova avventura e le rispettive carriere, entrambe non indirizzate verso questo genere letterario, decidono di inviare il manoscritto con lo pseudonimo Lars Kepler."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Lars_Kepler.JPG/500px-Lars_Kepler.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lars_Kepler.JPG",
+        "author": "Vogler",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/lars-kepler/398607110",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "laurie gilmore": {
     "value": {
@@ -6314,6 +6428,15 @@
     },
     "fetchedAt": "2026-11-13T10:28:20.045Z"
   },
+  "paolo borzacchiello": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/paolo-borzacchiello/596586183",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
+  },
   "paolo del debbio": {
     "value": {
       "wiki": {
@@ -6508,6 +6631,26 @@
       "died": 2022
     },
     "fetchedAt": "2026-10-25T04:47:00.737Z"
+  },
+  "philip kerr": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Philip Kerr",
+        "url": "https://it.wikipedia.org/wiki/Philip_Kerr",
+        "extract": "Philip Kerr (Edimburgo, 22 febbraio 1956 – 23 marzo 2018) è stato uno scrittore scozzese, autore di romanzi thriller d'ambientazione storica, contemporanea e futuristica.\n\nKerr ha studiato legge all'università di Birmingham, dove ha ottenuto un master's degree nel 1980, e negli anni ottanta ha lavorato come copywriter in diverse agenzie pubblicitarie, fra cui la Saatchi & Saatchi, prima di esordire nella narrativa nel 1989 con Violette di marzo (March Violets), che ha dato inizio ad una serie di thriller storici ambientati nella Germania nazista.\n\nÈ scomparso nel 2018 all'età di 62 anni a seguito di un tumore."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Philip_Kerr_2014.jpg/500px-Philip_Kerr_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Philip_Kerr_2014.jpg",
+        "author": "PEN American Center",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/philip-kerr/2065839",
+      "died": 2018
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "piergiorgio pulixi": {
     "value": {
@@ -7964,6 +8107,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-31T04:56:24.181Z"
+  },
+  "tommaso ebhardt": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/tommaso-ebhardt/1459959377",
+      "died": null
+    },
+    "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
   "tracy sierra": {
     "value": {

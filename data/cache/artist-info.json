@@ -934,6 +934,25 @@
     },
     "fetchedAt": "2026-10-17T07:58:23.369Z"
   },
+  "justice": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Justice (Justin Bieber)",
+        "url": "https://it.wikipedia.org/wiki/Justice_(Justin_Bieber)",
+        "extract": "Justice è il sesto album in studio del cantautore canadese Justin Bieber, pubblicato il 19 marzo 2021 dalla Def Jam.\n\nL'album presenta al suo interno collaborazioni con Khalid, Chance the Rapper, The Kid Laroi, Dominic Fike, Daniel Caesar, Giveon, Beam, Burna Boy, Benny Blanco e TroyBoi; la produzione è stata affidata a Andrew Watt, Skrillex, Finneas, Jon Bellion, Benny Blanco, The Monsters & Strangerz e altri ancora. È stato il secondo album con più stream su Spotify nel 2021."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Justice_Logo_%28Justin_Bieber%29.png/500px-Justice_Logo_%28Justin_Bieber%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Justice_Logo_(Justin_Bieber).png",
+        "author": "Justin Bieber, Def Jam, RBMG, SB Projects, Schoolboy, Universal",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://music.apple.com/it/artist/justice/145072812"
+    },
+    "fetchedAt": "2026-11-17T13:29:45.984Z"
+  },
   "justin bieber": {
     "value": {
       "wiki": {
@@ -990,6 +1009,25 @@
       "appleUrl": "https://music.apple.com/it/artist/kid-yugi/1577365560"
     },
     "fetchedAt": "2026-10-31T04:55:06.358Z"
+  },
+  "king gizzard": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "King Gizzard & the Lizard Wizard",
+        "url": "https://en.wikipedia.org/wiki/King_Gizzard_%26_the_Lizard_Wizard",
+        "extract": "King Gizzard & the Lizard Wizard (KGLW) are an Australian rock band formed in 2010 in Melbourne, Victoria. The band's current lineup consists of Stu Mackenzie (vocals, guitar, flute), Ambrose Kenny-Smith (vocals, harmonica, keyboards, saxophone), Cook Craig (guitar, keyboards, vocals), Joey Walker (guitar, vocals), Lucas Harwood (bass, vocals), and Michael Cavanagh (drums, vocals). They are known for exploring multiple genres, staging energetic live shows, and building a prolific discography."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/King_Gizzard_Detroit_2024.jpg/500px-King_Gizzard_Detroit_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Gizzard_Detroit_2024.jpg",
+        "author": "Lygonstreet",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null
+    },
+    "fetchedAt": "2026-11-17T13:29:54.942Z"
   },
   "lady gaga": {
     "value": {
@@ -1683,6 +1721,44 @@
     },
     "fetchedAt": "2026-10-17T07:57:09.092Z"
   },
+  "sza": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "SZA",
+        "url": "https://it.wikipedia.org/wiki/SZA",
+        "extract": "SZA (pronuncia /ˈsɪzə/), pseudonimo di Solána Imani Rowe (Saint Louis, 8 novembre 1989), è una cantautrice statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg/500px-KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_(cropped)_(cropped).jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/sza/605800394"
+    },
+    "fetchedAt": "2026-11-17T13:29:51.941Z"
+  },
+  "tame impala": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Tame Impala",
+        "url": "https://it.wikipedia.org/wiki/Tame_Impala",
+        "extract": "Tame Impala è il progetto solista del cantautore e polistrumentista australiano Kevin Parker.\n\nRiconosciuto con due Grammy Awards, un BRIT Award e quattordici ARIA Music Awards, nel corso della sua carriera ha venduto oltre oltre 7 milioni di copie vendute pubblicando sei album in studio e singoli di successo tra cui Let It Happen, The Less I Know the Better, Borderline e Dracula.\n\nTame Impala è stato apprezzato dalla critica per le sonorità stratificate, dove si ritrovano numerose influenze della musica psichedelica rock degli anni 70, con enfatizzanti melodie oniriche. Nel corso della carriera ha collaborato con artisti come di Mark Ronson, Kendrick Lamar, Miguel e Damon Albarn oltre che a scrivere, arrangiare e produrre per Lady Gaga, The Weeknd, Travis Scott, Rihanna, Kanye West e Kali Uchis."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tame_Impala-3760_%2818222291464%29.jpg/500px-Tame_Impala-3760_%2818222291464%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Tame_Impala-3760_(18222291464).jpg",
+        "author": "Abby Gillardi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/tame-impala/290242959"
+    },
+    "fetchedAt": "2026-11-17T13:29:49.038Z"
+  },
   "tate mcrae": {
     "value": {
       "wiki": {
@@ -1739,6 +1815,25 @@
       "appleUrl": "https://music.apple.com/it/artist/the-kolors/461413537"
     },
     "fetchedAt": "2026-10-17T08:00:02.758Z"
+  },
+  "the lizard wizard": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "King Gizzard & the Lizard Wizard",
+        "url": "https://en.wikipedia.org/wiki/King_Gizzard_%26_the_Lizard_Wizard",
+        "extract": "King Gizzard & the Lizard Wizard (KGLW) are an Australian rock band formed in 2010 in Melbourne, Victoria. The band's current lineup consists of Stu Mackenzie (vocals, guitar, flute), Ambrose Kenny-Smith (vocals, harmonica, keyboards, saxophone), Cook Craig (guitar, keyboards, vocals), Joey Walker (guitar, vocals), Lucas Harwood (bass, vocals), and Michael Cavanagh (drums, vocals). They are known for exploring multiple genres, staging energetic live shows, and building a prolific discography."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/King_Gizzard_Detroit_2024.jpg/500px-King_Gizzard_Detroit_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Gizzard_Detroit_2024.jpg",
+        "author": "Lygonstreet",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": null
+    },
+    "fetchedAt": "2026-11-17T13:29:57.876Z"
   },
   "tony boy": {
     "value": {

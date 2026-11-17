@@ -2725,6 +2725,130 @@
     },
     "fetchedAt": "2026-10-31T05:00:26.647Z"
   },
+  "community|dan harmon 2009": {
+    "value": {
+      "tmdbId": 18347,
+      "title": "Community",
+      "overview": "Il protagonista della serie è Jeff Winger (Joel McHale), un affermato avvocato la cui laurea viene invalidata poichéottenuta in modo illegale. Jeff si trova quindi costretto a frequentare uno dei peggiori college del paese, il Greendale Community College in Colorado. Le divertenti vicende riguardano il bizzarro gruppo di studio di Jeff, del quale fa parte anche una giovane ragazza di nome Britta Perry (Gillian Jacobs), della quale si innamora, che tenterà di rimettere ordine nella sua vita. Del gruppo fanno parte anche altri singolari personaggi, come Shirley Bennet (Yvette Nicole Brown), una mamma che decide di frequentare per la prima volta il College dopo il fallimento del suo matrimonio, l'ex quarterback del liceo Troy Barnes e la nerd Annie Edison, segretamente innamorata di quest'ultimo dai tempi del liceo. Assai particolari appaiono anche i professori dell'istituto, tra i quali quello di spagnolo e quello di psicologia risultano i più singolari.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 28,
+      "firstAired": "2009-09-17",
+      "lastAired": "2015-06-02",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 110,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2009-09-17",
+          "episodes": 25
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2010-09-23",
+          "episodes": 24
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2011-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2013-02-07",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2014-01-02",
+          "episodes": 13
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2015-03-17",
+          "episodes": 13
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2010-03-05",
+          "episodes": 45
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC",
+        "Yahoo! Screen"
+      ],
+      "vote": 8,
+      "votes": 2238,
+      "poster": "https://image.tmdb.org/t/p/w500/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
+      "creators": [
+        {
+          "id": 57194,
+          "name": "Dan Harmon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Joel McHale",
+          "character": "Jeff Winger"
+        },
+        {
+          "name": "Gillian Jacobs",
+          "character": "Britta Perry"
+        },
+        {
+          "name": "Alison Brie",
+          "character": "Annie Edison"
+        },
+        {
+          "name": "Donald Glover",
+          "character": "Troy Barnes"
+        },
+        {
+          "name": "Yvette Nicole Brown",
+          "character": "Shirley Bennett"
+        },
+        {
+          "name": "Jim Rash",
+          "character": "Dean Craig Pelton"
+        },
+        {
+          "name": "Danny Pudi",
+          "character": "Abed Nadir"
+        },
+        {
+          "name": "Chevy Chase",
+          "character": "Pierce Hawthorne"
+        }
+      ],
+      "trailer": "C4W4L9TLJa8",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/18347-community/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-17T13:34:51.589Z"
+  },
   "crew girl|stagione 1": {
     "value": {
       "tmdbId": 300507,
@@ -4415,6 +4539,191 @@
       }
     },
     "fetchedAt": "2026-10-17T14:26:28.522Z"
+  },
+  "e r medici in prima linea|michael crichton 1994": {
+    "value": {
+      "tmdbId": 4588,
+      "title": "E.R. - Medici in prima linea",
+      "overview": "E.R. - Medici in prima linea è una serie televisiva statunitense di genere medical drama prodotta dal 1994 al 2009 e creata dallo scrittore Michael Crichton. È ambientata nel pronto soccorso del policlinico universitario di Chicago, il County General Hospital, e racconta la tipica giornata lavorativa dei medici che vi lavorano e dei vari casi che nel corso della puntata si susseguono, analizzando le varie patologie.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "ER",
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 45,
+      "firstAired": "1994-09-19",
+      "lastAired": "2009-04-02",
+      "status": "Ended",
+      "seasons": 15,
+      "episodes": 331,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1994-09-19",
+          "episodes": 25
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1995-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1996-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1997-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1998-09-24",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1999-09-30",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2000-10-12",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "2001-09-27",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "2002-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "2003-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2004-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 12,
+          "name": "Stagione 12",
+          "date": "2005-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 13,
+          "name": "Stagione 13",
+          "date": "2006-09-21",
+          "episodes": 23
+        },
+        {
+          "n": 14,
+          "name": "Stagione 14",
+          "date": "2007-09-27",
+          "episodes": 19
+        },
+        {
+          "n": 15,
+          "name": "Stagione 15",
+          "date": "2008-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2009-04-02",
+          "episodes": 51
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC"
+      ],
+      "vote": 7.8,
+      "votes": 991,
+      "poster": "https://image.tmdb.org/t/p/w500/gf0wSk2Ce0jUXp57LSwZsTSvMy.jpg",
+      "creators": [
+        {
+          "id": 4782,
+          "name": "Michael Crichton"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Anthony Edwards",
+          "character": "Mark Greene"
+        },
+        {
+          "name": "Goran Višnjić",
+          "character": "Luka Kovač"
+        },
+        {
+          "name": "Julianna Margulies",
+          "character": "Carol Hathaway"
+        },
+        {
+          "name": "Maura Tierney",
+          "character": "Abby Lockhart"
+        },
+        {
+          "name": "Alex Kingston",
+          "character": "Elizabeth Corday"
+        },
+        {
+          "name": "George Clooney",
+          "character": "Doug Ross"
+        },
+        {
+          "name": "Laura Innes",
+          "character": "Kerry Weaver"
+        },
+        {
+          "name": "Kellie Martin",
+          "character": "Lucy Knight"
+        }
+      ],
+      "trailer": "q6Qgrb8lP4k",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/4588-er/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-17T13:34:51.762Z"
   },
   "east of eden|miniserie": {
     "value": {
@@ -15774,6 +16083,125 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.941Z"
+  },
+  "succession|jesse armstrong 2018": {
+    "value": {
+      "tmdbId": 76331,
+      "title": "Succession",
+      "overview": "Creata da Jesse Armstrong, la pluripremiata serie sulle vicende dell'anziano proprietario di un impero delle comunicazioni, che deve decidere a chi lasciare la sua eredità.",
+      "overviewLang": "it",
+      "tagline": "Ogni famiglia ha le sue tradizioni.",
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Commedia"
+      ],
+      "episodeRuntime": 89,
+      "firstAired": "2018-06-03",
+      "lastAired": "2023-05-28",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 39,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-06-03",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2019-08-11",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2021-10-17",
+          "episodes": 9
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2023-03-26",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "HBO"
+      ],
+      "vote": 8.3,
+      "votes": 1855,
+      "poster": "https://image.tmdb.org/t/p/w500/z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg",
+      "creators": [
+        {
+          "id": 62946,
+          "name": "Jesse Armstrong"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jeremy Strong",
+          "character": "Kendall Roy"
+        },
+        {
+          "name": "Hiam Abbass",
+          "character": "Marcia Roy"
+        },
+        {
+          "name": "Kieran Culkin",
+          "character": "Roman Roy"
+        },
+        {
+          "name": "Sarah Snook",
+          "character": "Siobhan 'Shiv' Roy"
+        },
+        {
+          "name": "Brian Cox",
+          "character": "Logan Roy"
+        },
+        {
+          "name": "Matthew Macfadyen",
+          "character": "Tom Wambsgans"
+        },
+        {
+          "name": "Alan Ruck",
+          "character": "Connor Roy"
+        },
+        {
+          "name": "Natalie Gold",
+          "character": "Rava Roy"
+        }
+      ],
+      "trailer": "ZO-XX1UpsqY",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/76331-succession/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-17T13:34:51.548Z"
   },
   "supernatural|eric kripke 2005": {
     "value": {

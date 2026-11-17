@@ -64,6 +64,78 @@
     },
     "fetchedAt": "2026-10-21T04:48:55.680Z"
   },
+  "|ritesh shah 2026": {
+    "value": {
+      "tmdbId": 1453407,
+      "title": "ग़ज़ब रात",
+      "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 124,
+      "released": "2026-10-23",
+      "vote": 6.1,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+      "directors": [
+        {
+          "id": 150486,
+          "name": "Ritesh Shah"
+        }
+      ],
+      "cast": [
+        {
+          "name": "मनोज बाजपेयी",
+          "character": "Ajay Nirvit"
+        },
+        {
+          "name": "Divya Dutta",
+          "character": "Suneeta Chaudhary"
+        },
+        {
+          "name": "Akshay Oberoi",
+          "character": "Naveen Madhok"
+        },
+        {
+          "name": "Saqib Saleem",
+          "character": "Karan Gill"
+        },
+        {
+          "name": "Shraddha Das",
+          "character": "Neha Prabhu"
+        },
+        {
+          "name": "Rajiv Gupta",
+          "character": "SHO Praveen Rana"
+        },
+        {
+          "name": "Aditi Sandhya Sharma",
+          "character": "Arya Sahni"
+        },
+        {
+          "name": "Nushrratt Bharuccha",
+          "character": "Rosie"
+        }
+      ],
+      "trailer": "BwFuJbHNE4o",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1453407-g-j-b-rat/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-17T13:30:56.099Z"
+  },
   "|taehwan yum 2026": {
     "value": {
       "tmdbId": 1688795,
