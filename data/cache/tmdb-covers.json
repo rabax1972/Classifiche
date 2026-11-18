@@ -34,6 +34,13 @@
     },
     "fetchedAt": "2026-11-04T05:13:52.233Z"
   },
+  "movie:ballerina": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/fgzv2GA50AcvajcrIsShEOJ8G5v.jpg",
+      "url": "https://www.themoviedb.org/movie/541671"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.691Z"
+  },
   "movie:bare hands": {
     "value": {
       "cover": null,
@@ -223,6 +230,13 @@
     },
     "fetchedAt": "2026-11-04T05:13:53.129Z"
   },
+  "movie:heartland": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/uQbIxihrqS5naBeNogZZdx3zx5H.jpg",
+      "url": "https://www.themoviedb.org/movie/1543469"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.884Z"
+  },
   "movie:heist": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/8ees9f4hPcEXucgdPgOwDJj6eEw.jpg",
@@ -279,6 +293,13 @@
     },
     "fetchedAt": "2026-10-21T04:46:31.188Z"
   },
+  "movie:in the heart of the sea": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/wAN0GViqoyT1616y1fBq0hNB2HR.jpg",
+      "url": "https://www.themoviedb.org/movie/205775"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.988Z"
+  },
   "movie:kraven the hunter": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/vQZ11oQtuapB6xYgBTkM8VFAu86.jpg",
@@ -321,6 +342,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:05.027Z"
   },
+  "movie:never surrender": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/szQ0FWlldWrbgq5t5HNlEWqnPgc.jpg",
+      "url": "https://www.themoviedb.org/movie/1616687"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.795Z"
+  },
   "movie:novocaine": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/gzHJSn8I1QxGScttymjbTifloN0.jpg",
@@ -348,6 +376,13 @@
       "url": "https://www.themoviedb.org/movie/972433"
     },
     "fetchedAt": "2026-10-12T07:25:08.627Z"
+  },
+  "movie:return to christmas creek": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gCdjZCWM9x9vAbtkvZiIIYL7tOB.jpg",
+      "url": "https://www.themoviedb.org/movie/554279"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.090Z"
   },
   "movie:robin hood": {
     "value": {
@@ -383,6 +418,20 @@
       "url": "https://www.themoviedb.org/movie/866398"
     },
     "fetchedAt": "2026-10-12T07:25:04.592Z"
+  },
+  "movie:the christmas switch": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/k7h5uzeCFBNl802TW2WTvctGYHi.jpg",
+      "url": "https://www.themoviedb.org/movie/1757174"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.585Z"
+  },
+  "movie:the good lawyer": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/k84V1Y2PiohjN3ic8XzhukydEjm.jpg",
+      "url": "https://www.themoviedb.org/movie/1616419"
+    },
+    "fetchedAt": "2026-11-18T13:08:48.499Z"
   },
   "movie:the guardian": {
     "value": {
@@ -566,6 +615,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:12.101Z"
   },
+  "tv:chiaroscuro": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/m9eZy0jzWCHSUUzbzIpysOrLgFb.jpg",
+      "url": "https://www.themoviedb.org/tv/336243"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.181Z"
+  },
   "tv:conversations with a killer the charles manson tapes": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/8yyWUZjItJEO5dpKyCE8IghET9i.jpg",
@@ -593,6 +649,13 @@
       "url": "https://www.themoviedb.org/tv/289517"
     },
     "fetchedAt": "2026-11-04T05:13:53.730Z"
+  },
+  "tv:deadly class": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/u2GSiPazSXpyNQz0yymOUCUm944.jpg",
+      "url": "https://www.themoviedb.org/tv/75663"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.593Z"
   },
   "tv:death of the pastor s wife": {
     "value": {
@@ -748,6 +811,13 @@
     },
     "fetchedAt": "2026-10-21T04:46:32.492Z"
   },
+  "tv:power": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "url": "https://www.themoviedb.org/tv/54650"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.399Z"
+  },
   "tv:real men": {
     "value": {
       "cover": null,
@@ -776,6 +846,13 @@
     },
     "fetchedAt": "2026-11-11T05:19:05.101Z"
   },
+  "tv:the body": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/9oexlNHpUaJIaXhwKKsxkcbytPF.jpg",
+      "url": "https://www.themoviedb.org/tv/291507"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.490Z"
+  },
   "tv:the bombing of pan am 103": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/jWMG8htFNfc4eeu9UcPszql3Xa6.jpg",
@@ -803,6 +880,13 @@
       "url": "https://www.themoviedb.org/tv/72320"
     },
     "fetchedAt": "2026-11-01T16:30:37.319Z"
+  },
+  "tv:the empress": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/n3alQays6LUs0vQEqw1yxLjWbEI.jpg",
+      "url": "https://www.themoviedb.org/tv/84107"
+    },
+    "fetchedAt": "2026-11-18T13:08:49.313Z"
   },
   "tv:the final problem": {
     "value": {

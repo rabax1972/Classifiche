@@ -859,6 +859,33 @@
     },
     "fetchedAt": "2026-11-04T05:15:28.455Z"
   },
+  "andrew patterson": {
+    "value": {
+      "tmdbId": 2186238,
+      "wiki": {
+        "lang": "en",
+        "title": "Andrew Patterson (film director)",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Patterson_(film_director)",
+        "extract": "Andrew Patterson (born June 1982) is an American filmmaker. His debut feature The Vast of Night won the Best Narrative Feature Audience Award at the 2019 Slamdance Film Festival. Patterson lives in Oklahoma."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/xqvhMGARC5pSYObDrEnTtzNS1Z.jpg",
+      "films": [
+        {
+          "id": 1124142,
+          "title": "La ballata del re delle api",
+          "year": "2026"
+        },
+        {
+          "id": 565743,
+          "title": "L'immensità della notte",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:42.800Z"
+  },
   "andrew stanton": {
     "value": {
       "tmdbId": 7,
@@ -4038,6 +4065,89 @@
     },
     "fetchedAt": "2026-10-17T09:35:09.040Z"
   },
+  "cristian mungiu": {
+    "value": {
+      "tmdbId": 20657,
+      "wiki": {
+        "lang": "it",
+        "title": "Cristian Mungiu",
+        "url": "https://it.wikipedia.org/wiki/Cristian_Mungiu",
+        "extract": "Cristian Mungiu (pron. AFI: [munˈd͡ʒi.u]; Iași, 27 aprile 1968) è un regista, sceneggiatore e produttore cinematografico rumeno."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cristian_Mungiu_at_82nd_Venice_International_Film_Festival_%281_of_1%29_%28cropped%29.jpg/500px-Cristian_Mungiu_at_82nd_Venice_International_Film_Festival_%281_of_1%29_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Cristian_Mungiu_at_82nd_Venice_International_Film_Festival_(1_of_1)_(cropped).jpg",
+        "author": "LucaFazPhoto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1247374,
+          "title": "Amintiri din epoca de aur: Pactul de la Varșovia",
+          "year": null
+        },
+        {
+          "id": 1401459,
+          "title": "Fjord",
+          "year": "2026"
+        },
+        {
+          "id": 919570,
+          "title": "Animali selvatici",
+          "year": "2022"
+        },
+        {
+          "id": 374458,
+          "title": "Un padre, una figlia",
+          "year": "2016"
+        },
+        {
+          "id": 103740,
+          "title": "Oltre le colline",
+          "year": "2012"
+        },
+        {
+          "id": 39376,
+          "title": "Racconti dell'età dell'oro",
+          "year": "2009"
+        },
+        {
+          "id": 2009,
+          "title": "4 mesi, 3 settimane, 2 giorni",
+          "year": "2007"
+        },
+        {
+          "id": 274153,
+          "title": "Lost and Found",
+          "year": "2005"
+        },
+        {
+          "id": 38907,
+          "title": "Occident",
+          "year": "2002"
+        },
+        {
+          "id": 354211,
+          "title": "Zapping",
+          "year": "2000"
+        },
+        {
+          "id": 976897,
+          "title": "Nici o întâmplare",
+          "year": "2000"
+        },
+        {
+          "id": 455965,
+          "title": "Corul pompierilor",
+          "year": "2000"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:41.784Z"
+  },
   "daley pearson": {
     "value": {
       "tmdbId": 1672488,
@@ -5803,6 +5913,83 @@
     },
     "fetchedAt": "2026-10-17T09:36:14.531Z"
   },
+  "don mcbrearty": {
+    "value": {
+      "tmdbId": 168782,
+      "wiki": {
+        "lang": "en",
+        "title": "Don McBrearty",
+        "url": "https://en.wikipedia.org/wiki/Don_McBrearty",
+        "extract": "Don McBrearty is a Canadian film director."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1087092,
+          "title": "Il mio ballo di Natale",
+          "year": "2024"
+        },
+        {
+          "id": 1053725,
+          "title": "Travolti dal Natale",
+          "year": "2023"
+        },
+        {
+          "id": 1150521,
+          "title": "Christmas on Windmill Way",
+          "year": "2023"
+        },
+        {
+          "id": 1131992,
+          "title": "Una trapunta per natale",
+          "year": "2023"
+        },
+        {
+          "id": 1055317,
+          "title": "Quando arriva l'amore",
+          "year": "2023"
+        },
+        {
+          "id": 1026941,
+          "title": "Natale al drive-in",
+          "year": "2022"
+        },
+        {
+          "id": 874136,
+          "title": "Per un calice d'amore",
+          "year": "2022"
+        },
+        {
+          "id": 874257,
+          "title": "Una principessa a Natale",
+          "year": "2021"
+        },
+        {
+          "id": 874162,
+          "title": "Tre fidanzati per Natale",
+          "year": "2021"
+        },
+        {
+          "id": 814723,
+          "title": "Color of Love",
+          "year": "2021"
+        },
+        {
+          "id": 779006,
+          "title": "Gli ingredienti dell'amore",
+          "year": "2021"
+        },
+        {
+          "id": 746476,
+          "title": "La chiave del Natale",
+          "year": "2020"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:45.741Z"
+  },
   "dylan southern": {
     "value": {
       "tmdbId": 128992,
@@ -5942,6 +6129,83 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.673Z"
+  },
+  "edoardo de angelis": {
+    "value": {
+      "tmdbId": 929899,
+      "wiki": {
+        "lang": "it",
+        "title": "Edoardo De Angelis",
+        "url": "https://it.wikipedia.org/wiki/Edoardo_De_Angelis",
+        "extract": "Edoardo De Angelis (Roma, 24 dicembre 1945) è un cantautore e paroliere italiano.\n\nUno dei più noti cantautori italiani, nel corso della sua lunga carriera ha collaborato con molti tra i più grandi nomi della canzone d'autore italiana; è stato anche produttore e discografico, ed è entrato nella storia della musica leggera italiana come autore della celebre Lella, che è diventata un evergreen della canzone d'autore italiana (reincisa da moltissimi interpreti)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/w9KHIrN2QF6GvYR3NGh7CVeucLE.jpg",
+      "films": [
+        {
+          "id": 1632188,
+          "title": "Il fuoco che ti porti dentro",
+          "year": "2026"
+        },
+        {
+          "id": 1047016,
+          "title": "Comandante",
+          "year": "2023"
+        },
+        {
+          "id": 911247,
+          "title": "Non ti pago",
+          "year": "2021"
+        },
+        {
+          "id": 908167,
+          "title": "Sabato, domenica e lunedì",
+          "year": "2021"
+        },
+        {
+          "id": 769110,
+          "title": "Natale in casa Cupiello",
+          "year": "2020"
+        },
+        {
+          "id": 512897,
+          "title": "Il vizio della speranza",
+          "year": "2018"
+        },
+        {
+          "id": 1439878,
+          "title": "Ci vuole un fiore",
+          "year": "2017"
+        },
+        {
+          "id": 448920,
+          "title": "Vieni a vivere a Napoli!",
+          "year": "2017"
+        },
+        {
+          "id": 408438,
+          "title": "Indivisibili",
+          "year": "2016"
+        },
+        {
+          "id": 288313,
+          "title": "Perez.",
+          "year": "2014"
+        },
+        {
+          "id": 83658,
+          "title": "Mozzarella Stories",
+          "year": "2011"
+        },
+        {
+          "id": 439137,
+          "title": "Fisico da Spiaggia",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:43.757Z"
   },
   "edoardo gabbriellini": {
     "value": {
@@ -12976,6 +13240,54 @@
     },
     "fetchedAt": "2026-10-17T09:36:06.167Z"
   },
+  "len wiseman": {
+    "value": {
+      "tmdbId": 3950,
+      "wiki": {
+        "lang": "it",
+        "title": "Len Wiseman",
+        "url": "https://it.wikipedia.org/wiki/Len_Wiseman",
+        "extract": "Len Ryan Wiseman (Fremont, 4 marzo 1973) è un regista, sceneggiatore, produttore cinematografico e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/LenWisemanJune07.jpg/500px-LenWisemanJune07.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:LenWisemanJune07.jpg",
+        "author": "Caroline Bonarde Ucci at https://www.flickr.com/photos/caroline_bonarde/",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 541671,
+          "title": "Ballerina",
+          "year": "2025"
+        },
+        {
+          "id": 64635,
+          "title": "Total Recall - Atto di forza",
+          "year": "2012"
+        },
+        {
+          "id": 1571,
+          "title": "Die Hard - Vivere o morire",
+          "year": "2007"
+        },
+        {
+          "id": 834,
+          "title": "Underworld: Evolution",
+          "year": "2006"
+        },
+        {
+          "id": 277,
+          "title": "Underworld",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:44.792Z"
+  },
   "leo mccarey": {
     "value": {
       "tmdbId": 30008,
@@ -15583,6 +15895,64 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:31:26.088Z"
+  },
+  "nitesh tiwari": {
+    "value": {
+      "tmdbId": 1042010,
+      "wiki": {
+        "lang": "it",
+        "title": "Nitesh Tiwari",
+        "url": "https://it.wikipedia.org/wiki/Nitesh_Tiwari",
+        "extract": "Nitesh Tiwari (Itarsi, ...) è uno sceneggiatore e regista indiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/The_Director_Nitesh_Tiwari_of_the_film_DANGAL_at_the_Master_Class%2C_during_the_48th_International_Film_Festival_of_India_%28IFFI-2017%29%2C_in_Panaji%2C_Goa_on_November_23%2C_2017.jpg/500px-thumbnail.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:The_Director_Nitesh_Tiwari_of_the_film_DANGAL_at_the_Master_Class,_during_the_48th_International_Film_Festival_of_India_(IFFI-2017),_in_Panaji,_Goa_on_November_23,_2017.jpg",
+        "author": "Ministry of Information and Broadcasting",
+        "license": "GODL-India",
+        "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1383500,
+          "title": "रामायण: द्वितीय भाग",
+          "year": "2028"
+        },
+        {
+          "id": 656908,
+          "title": "Ramayana - La nascita di una leggenda",
+          "year": "2026"
+        },
+        {
+          "id": 1142127,
+          "title": "बवाल",
+          "year": "2023"
+        },
+        {
+          "id": 596650,
+          "title": "छिछोरे",
+          "year": "2019"
+        },
+        {
+          "id": 360814,
+          "title": "Dangal",
+          "year": "2016"
+        },
+        {
+          "id": 264085,
+          "title": "भूतनाथ रिटर्न्स",
+          "year": "2014"
+        },
+        {
+          "id": 69891,
+          "title": "Chillar Party",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:09:40.858Z"
   },
   "norman jewison": {
     "value": {

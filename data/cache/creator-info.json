@@ -1283,6 +1283,49 @@
     },
     "fetchedAt": "2026-10-17T12:50:19.596Z"
   },
+  "courtney kemp agboh": {
+    "value": {
+      "tmdbId": 1224562,
+      "wiki": {
+        "lang": "en",
+        "title": "Courtney A. Kemp",
+        "url": "https://en.wikipedia.org/wiki/Courtney_A._Kemp",
+        "extract": "Courtney A. Kemp (born May 4, 1977) is an American television writer and producer. She created the 2014 television series franchise Power Universe for the network Starz. She has written for such shows as The Good Wife and Beauty & the Beast."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Courtney_Kemp_Agboh_on_the_%E2%80%9CFlesh_and_Bone%E2%80%9D_Red_Carpet.jpg/500px-Courtney_Kemp_Agboh_on_the_%E2%80%9CFlesh_and_Bone%E2%80%9D_Red_Carpet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Courtney_Kemp_Agboh_on_the_%E2%80%9CFlesh_and_Bone%E2%80%9D_Red_Carpet.jpg",
+        "author": "Behind The Velvet Rope TV",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 277445,
+          "title": "Power: Origins",
+          "year": null
+        },
+        {
+          "id": 285807,
+          "title": "Due forze opposte",
+          "year": "2026"
+        },
+        {
+          "id": 97890,
+          "title": "Power Book II: Ghost",
+          "year": "2020"
+        },
+        {
+          "id": 54650,
+          "title": "Power",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:45.155Z"
+  },
   "craig gerber": {
     "value": {
       "tmdbId": 1257848,
@@ -2368,6 +2411,48 @@
       ]
     },
     "fetchedAt": "2026-11-04T05:19:33.688Z"
+  },
+  "francesco arlanch": {
+    "value": {
+      "tmdbId": 209807,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 330405,
+          "title": "Untitled Giorgio Armani Series",
+          "year": null
+        },
+        {
+          "id": 336243,
+          "title": "ChiaroScuro",
+          "year": "2026"
+        },
+        {
+          "id": 247662,
+          "title": "Hotel Costiera",
+          "year": "2025"
+        },
+        {
+          "id": 208878,
+          "title": "Viola Come Il Mare",
+          "year": "2022"
+        },
+        {
+          "id": 101048,
+          "title": "Doc – Nelle tue mani",
+          "year": "2020"
+        },
+        {
+          "id": 94933,
+          "title": "La strada di casa",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:42.985Z"
   },
   "francois uzan": {
     "value": {
@@ -4743,6 +4828,23 @@
     },
     "fetchedAt": "2026-10-31T05:00:34.639Z"
   },
+  "michela straniero": {
+    "value": {
+      "tmdbId": 2510870,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 336243,
+          "title": "ChiaroScuro",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:41.962Z"
+  },
   "mike flanagan": {
     "value": {
       "tmdbId": 551463,
@@ -4848,6 +4950,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:13.539Z"
+  },
+  "miles orion feldsott": {
+    "value": {
+      "tmdbId": 2200019,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 75663,
+          "title": "Deadly Class",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:46.976Z"
   },
   "miranda nation": {
     "value": {
@@ -5053,6 +5172,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:24.102Z"
+  },
+  "park young soo": {
+    "value": {
+      "tmdbId": 1910577,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 84107,
+          "title": "The Last Empress",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:43.969Z"
   },
   "patrick mckay": {
     "value": {
@@ -5330,6 +5466,39 @@
     },
     "fetchedAt": "2026-10-28T05:07:57.805Z"
   },
+  "quinn shephard": {
+    "value": {
+      "tmdbId": 429728,
+      "wiki": {
+        "lang": "it",
+        "title": "Quinn Shephard",
+        "url": "https://it.wikipedia.org/wiki/Quinn_Shephard",
+        "extract": "Quinn Shephard (Metuchen, 28 febbraio 1995) è un'attrice, regista e sceneggiatrice statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Quinn_Shephard_2017.jpg/500px-Quinn_Shephard_2017.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Quinn_Shephard_2017.jpg",
+        "author": "Montclair Film Festival",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 291507,
+          "title": "The Body",
+          "year": "2026"
+        },
+        {
+          "id": 211358,
+          "title": "Under the Bridge",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:40.171Z"
+  },
   "rafa jaki": {
     "value": {
       "tmdbId": 3581622,
@@ -5468,6 +5637,34 @@
       ]
     },
     "fetchedAt": "2026-10-31T05:00:39.667Z"
+  },
+  "rick remender": {
+    "value": {
+      "tmdbId": 2028390,
+      "wiki": {
+        "lang": "it",
+        "title": "Rick Remender",
+        "url": "https://it.wikipedia.org/wiki/Rick_Remender",
+        "extract": "Rick Remender (Pasadena, febbraio 1973) è un fumettista e disegnatore statunitense.\n\nPrima di iniziare a lavorare nel mondo dei comics, Rick Remender lavora nell'animazione, prendendo parte a film come Il gigante di ferro, Anastasia e Titan A.E.."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Rick_Remender_-_01.jpg/500px-Rick_Remender_-_01.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rick_Remender_-_01.jpg",
+        "author": "https://www.flickr.com/photos/patloika/with/8688008739/",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 75663,
+          "title": "Deadly Class",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:48.011Z"
   },
   "robert thorogood": {
     "value": {
@@ -6412,6 +6609,23 @@
     },
     "fetchedAt": "2026-10-17T12:50:21.777Z"
   },
+  "umberto gnoli": {
+    "value": {
+      "tmdbId": 2207394,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 336243,
+          "title": "ChiaroScuro",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:41.021Z"
+  },
   "vince gilligan": {
     "value": {
       "tmdbId": 66633,
@@ -6551,6 +6765,23 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:50:26.847Z"
+  },
+  "vladimir cvetko": {
+    "value": {
+      "tmdbId": 1371513,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 54650,
+          "title": "Power",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-18T13:13:45.980Z"
   },
   "william link": {
     "value": {

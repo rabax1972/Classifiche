@@ -1387,6 +1387,26 @@
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
   },
+  "brian k vaughan": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Brian Vaughan",
+        "url": "https://it.wikipedia.org/wiki/Brian_Vaughan",
+        "extract": "Brian Keller Vaughan (Cleveland, 15 marzo 1976) è un fumettista e sceneggiatore statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/10.12.12BrianKVaughanByLuigiNovi1.jpg/500px-10.12.12BrianKVaughanByLuigiNovi1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:10.12.12BrianKVaughanByLuigiNovi1.jpg",
+        "author": "Nightscream",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/brian-k-vaughan/504646177",
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
+  },
   "bruno morchio": {
     "value": {
       "wiki": {
@@ -1568,6 +1588,26 @@
       "died": 1975
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "carlo lucarelli": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Carlo Lucarelli",
+        "url": "https://it.wikipedia.org/wiki/Carlo_Lucarelli",
+        "extract": "Carlo Lucarelli (Parma, 26 ottobre 1960) è uno scrittore, sceneggiatore, conduttore televisivo, conduttore radiofonico, curatore editoriale e fumettista italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Lucarelli.jpg/500px-Lucarelli.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lucarelli.jpg",
+        "author": "Niccolò Caranti",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
   },
   "carlo rovelli": {
     "value": {
@@ -3237,6 +3277,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "giampiero rigosi": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Giampiero Rigosi",
+        "url": "https://it.wikipedia.org/wiki/Giampiero_Rigosi",
+        "extract": "Giampiero Rigosi (Bologna, 1962) è uno scrittore e sceneggiatore italiano."
+      },
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
+  },
   "gian andrea cerone": {
     "value": {
       "wiki": null,
@@ -3467,6 +3521,20 @@
       "died": 1991
     },
     "fetchedAt": "2026-11-17T13:30:55.455Z"
+  },
+  "guido maria brera": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Guido Maria Brera",
+        "url": "https://it.wikipedia.org/wiki/Guido_Maria_Brera",
+        "extract": "Guido Maria Brera (Roma, 27 agosto 1969) è un dirigente d'azienda e scrittore italiano. Ricopre il ruolo di Chief Investment Officer per l'asset management di Kairos Partners SGR S.p.A, ed è co-fondatore ed azionista di minoranza del gruppo Kairos."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/guido-maria-brera/794496374",
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
   },
   "guillaume apollinaire": {
     "value": {
@@ -5021,6 +5089,26 @@
     },
     "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
+  "lev nikolaevic tolstoj": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Lev Tolstoj",
+        "url": "https://it.wikipedia.org/wiki/Lev_Tolstoj",
+        "extract": "Lev Nikolàevič Tolstòj, storicamente italianizzato in Leone Tolstoi (in russo Лев Никола́евич Толсто́й? [ˈlʲef nʲɪkɐˈɫa(j)ɪvʲɪtɕ tɐɫˈstoj] ; Jasnaja Poljana, 9 settembre 1828 – Astapovo, 20 novembre 1910), è stato uno scrittore, filosofo, educatore e attivista sociale russo.\n\nDivenuto celebre in patria grazie a una serie di racconti giovanili sulla realtà della guerra, il nome di Tolstoj acquisì presto risonanza mondiale per il successo dei romanzi Guerra e pace e Anna Karenina, a cui seguirono altre sue opere narrative sempre più rivolte all'introspezione dei personaggi e alla riflessione morale. La fama di Tolstoj è legata anche al suo pensiero pedagogico, filosofico e religioso, da lui espresso in numerosi saggi e lettere che ispirarono, in particolare, la condotta nonviolenta dei tolstoiani e del Mahatma Gandhi."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/500px-L.N.Tolstoy_Prokudin-Gorsky.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:L.N.Tolstoy_Prokudin-Gorsky.jpg",
+        "author": "Sergei Prokudin-Gorskii",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/lev-nikolaevic-tolstoj/262652001",
+      "died": 1910
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
+  },
   "lev tolstoj": {
     "value": {
       "wiki": {
@@ -5366,6 +5454,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-15T12:01:33.429Z"
+  },
+  "lyra sunrise": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lyra-sunrise/1873203359",
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
   },
   "m c beaton": {
     "value": {
@@ -5776,6 +5873,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-05T05:13:21.410Z"
+  },
+  "maurice leblanc": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Maurice Leblanc",
+        "url": "https://it.wikipedia.org/wiki/Maurice_Leblanc",
+        "extract": "Maurice Marie Émile Leblanc (Rouen, 11 dicembre 1864 – Perpignano, 6 novembre 1941) è stato uno scrittore francese. È conosciuto principalmente quale creatore del ladro gentiluomo Arsenio Lupin, spesso definito la controparte francese del personaggio Sherlock Holmes di Arthur Conan Doyle, dal momento che nelle sue opere racconta che Lupin sfida \"Herlock Sholmes\"."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Maurice-leblanc.jpg/500px-Maurice-leblanc.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Maurice-leblanc.jpg",
+        "author": "Henri Manuel",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/maurice-leblanc/45295047",
+      "died": 1941
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
   },
   "maurizio de giovanni": {
     "value": {
@@ -6414,10 +6531,10 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       },
-      "appleUrl": null,
+      "appleUrl": "https://books.apple.com/it/artist/paola-barbato/459132145",
       "died": null
     },
-    "fetchedAt": "2026-11-04T05:15:08.084Z"
+    "fetchedAt": "2026-11-18T13:09:31.587Z"
   },
   "paola chiozza": {
     "value": {
@@ -8517,5 +8634,25 @@
       "died": 1970
     },
     "fetchedAt": "2026-11-02T05:13:11.244Z"
+  },
+  "zerocalcare": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Zerocalcare",
+        "url": "https://it.wikipedia.org/wiki/Zerocalcare",
+        "extract": "Zerocalcare, pseudonimo di Michele Rech (Arezzo, 12 dicembre 1983), è un fumettista italiano.\n\nIl nome d'arte \"Zerocalcare\" nacque quando, dovendo scegliersi un nome utente per partecipare a una discussione su Internet, s’ispirò al ritornello della pubblicità televisiva di un prodotto anti-calcare per ferro da stiro, che veniva trasmessa in quel momento. Alla fine del 2019 ha raggiunto il traguardo del milione di copie vendute dei suoi libri."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Zerocalcare_%28cropped%29.jpg/500px-Zerocalcare_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Zerocalcare_(cropped).jpg",
+        "author": "ActuaLitté",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/zerocalcare/818359288",
+      "died": null
+    },
+    "fetchedAt": "2026-11-18T13:09:38.560Z"
   }
 }

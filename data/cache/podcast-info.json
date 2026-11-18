@@ -91,53 +91,6 @@
     },
     "fetchedAt": "2026-11-17T13:35:11.163Z"
   },
-  "podcast:3 fattori": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/3-fattori-il-podcast-di-mariangela-pira/id1650539882",
-      "genres": [
-        "Notizie: approfondimenti",
-        "News"
-      ],
-      "episodes": 356,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9f/d6/1a/9fd61a8d-dcaf-3ea2-3864-39e1ace1e31f/mza_14160289162999991149.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/SIS9501329551",
-      "description": "3 Fattori è il podcast nato dalla rubrica di Mariangela Pira, giornalista di Sky Tg24, su Linkedin. Ogni venerdì esce un nuovo episodio. Il proposito è quello di raccontare a chiunque, anche al lattaio dell'Ohio, ciò che accade in finanza, economia e in geopolitica economica. In ogni puntata, con un linguaggio chiaro e semplice, vengono snocciolate le tematiche di attualità: dall'energia all'inflazione, dalle banche centrali ai programmi economici del governo, dal commercio globale a ciò che banalmente accade alle nostre imprese e nel nostro quotidiano. Vi aspettiamo.",
-      "website": null,
-      "latest": [
-        {
-          "title": "Post Midterm, Paraguay, tutto sulle banche – Ep.354",
-          "date": "2026-11-06",
-          "seconds": 2905,
-          "url": null
-        },
-        {
-          "title": "Lagarde, Manovra finanziaria, MPS – Ep.353",
-          "date": "2026-10-30",
-          "seconds": 3014,
-          "url": null
-        },
-        {
-          "title": "Proteste al Sud, il nodo del bilancio francese, il paradosso del tech - Ep.352",
-          "date": "2026-10-23",
-          "seconds": 1730,
-          "url": null
-        },
-        {
-          "title": "L’IA preoccupa, Trump e Mosca, cosa accade in Puglia – Ep. 351",
-          "date": "2026-10-16",
-          "seconds": 2293,
-          "url": null
-        },
-        {
-          "title": "Il caso Francia, il debito globale, OpenAI – Ep. 350",
-          "date": "2026-10-08",
-          "seconds": 2483,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-11T05:25:04.540Z"
-  },
   "podcast:6 minute english": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/6-minute-english/id262026947",
@@ -863,12 +816,18 @@
       "genres": [
         "Istruzione"
       ],
-      "episodes": 3,
+      "episodes": 4,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/4a/c9/844ac9ef-5322-5963-1b5c-3fd7fdbece86/mza_17197939684205953792.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS6074934384",
       "description": "Le relazioni, i sentimenti, le fragilità e i desideri non si rivelano mai tutti\ninsieme.\nCome una cipolla, si scoprono strato dopo strato. In ogni episodio, la\npsicoterapeuta e scrittrice Stefania Andreoli parte da storie vere e domande universali per esplorare ciò che ci muove davvero: l'amore, la famiglia, la crescita, il dolore, il cambiamento.\nUn video podcast che aiuta a guardarsi\ndentro con sincerità, senza giudizio e senza scorciatoie.\nCon la partecipazione della giornalista di SkyTG24 Federica De Lillis.",
       "website": null,
       "latest": [
+        {
+          "title": "Ep. 3 - Malattie ed effetti sulla psiche",
+          "date": "2026-11-16",
+          "seconds": 1769,
+          "url": null
+        },
         {
           "title": "Ep. 2 - Separazione e figli",
           "date": "2026-11-09",
@@ -889,7 +848,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:24:46.908Z"
+    "fetchedAt": "2026-11-18T13:13:53.014Z"
   },
   "podcast:cose molto umane di gianpiero kesten": {
     "value": {
@@ -1613,12 +1572,18 @@
         "Automiglioramento",
         "Istruzione"
       ],
-      "episodes": 34,
+      "episodes": 35,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/c5/ed/a6c5edd4-045e-3ee2-2e66-cdb5b37e765e/mza_17752716226410775507.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/AMCS8077634226",
       "description": "Torna Fuori dal Buio.\nPer questa seconda stagione Luca Casadei, ideatore del format, affida la conduzione alla psicoterapeuta Daniela Uslenghi. Al suo fianco ci saranno Giulia Boverio, già presente nella scorsa stagione, e Sarah Borruso.\nSarà un viaggio attraverso le dipendenze e i disturbi che condizionano e segnano le vite di tanti. Conosceremo le storie di trenta persone comuni: non solo di chi ha attraversato un buio, ma anche di chi ha accompagnato da vicino il percorso di una persona cara.\nUna nuova puntata ogni mercoledì.",
       "website": null,
       "latest": [
+        {
+          "title": "Luca, scommesse sportive",
+          "date": "2026-11-17",
+          "seconds": 3469,
+          "url": null
+        },
         {
           "title": "Marta, emetofobia (paura di vomitare)",
           "date": "2026-11-10",
@@ -1642,16 +1607,10 @@
           "date": "2026-05-19",
           "seconds": 5887,
           "url": null
-        },
-        {
-          "title": "Jack, disturbo borderline",
-          "date": "2026-05-12",
-          "seconds": 5114,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:24:52.678Z"
+    "fetchedAt": "2026-11-18T13:13:50.407Z"
   },
   "podcast:geopop": {
     "value": {
@@ -1756,45 +1715,45 @@
         "Notizie del giorno",
         "News"
       ],
-      "episodes": 3050,
+      "episodes": 3066,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f1/4f/d1/f14fd1cf-7b5c-0bb7-683d-325c83bb089e/mza_17540730169954302156.jpg/600x600bb.jpg",
       "feedUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "description": "The Global News Podcast brings you the breaking news you need to hear, as it happens. Listen for the latest headlines and current affairs from around the world. Politics, economics, climate, business, technology, health – we cover it all with expert analysis and insight. Get the news that matters, delivered twice a day on weekdays and daily at weekends, plus special bonus episodes reacting to urgent breaking stories. Follow or subscribe now and never miss a moment. Get in touch: globalpodcast@bbc.co.uk",
       "website": "http://www.bbc.co.uk/programmes/p02nq0gn",
       "latest": [
         {
-          "title": "How US model agencies helped Epstein access victims",
-          "date": "2026-11-10",
-          "seconds": 1724,
-          "url": "http://www.bbc.co.uk/programmes/p0pm9szt"
+          "title": "Nvidia rules out return for disgraced boss",
+          "date": "2026-11-18",
+          "seconds": 1737,
+          "url": "http://www.bbc.co.uk/programmes/p0pnjy0q"
         },
         {
-          "title": "Trump backs Hegseth as he faces impeachment push",
-          "date": "2026-11-10",
-          "seconds": 1633,
-          "url": "http://www.bbc.co.uk/programmes/p0pm6qtr"
+          "title": "Special episode: Trump, Putin and Xi meeting",
+          "date": "2026-11-17",
+          "seconds": 2136,
+          "url": "http://www.bbc.co.uk/programmes/p0pnhq1p"
         },
         {
-          "title": "China denies spying on Nvidia boss",
-          "date": "2026-11-09",
-          "seconds": 1759,
-          "url": "http://www.bbc.co.uk/programmes/p0pm36r2"
+          "title": "Red carpet for Trump in Asia",
+          "date": "2026-11-17",
+          "seconds": 1846,
+          "url": "http://www.bbc.co.uk/programmes/p0pngj3s"
         },
         {
-          "title": "Nvidia investigates CEO's affair with suspected Chinese spy",
-          "date": "2026-11-09",
-          "seconds": 1673,
-          "url": "http://www.bbc.co.uk/programmes/p0plzjqt"
+          "title": "OpenAI sued by California over rogue cyber attacks",
+          "date": "2026-11-17",
+          "seconds": 1715,
+          "url": "http://www.bbc.co.uk/programmes/p0pnc231"
         },
         {
-          "title": "The Global Story: They fled Russia. The US sent them back",
-          "date": "2026-11-08",
-          "seconds": 1676,
-          "url": "http://www.bbc.co.uk/programmes/p0pllbwj"
+          "title": "Crimea Kerch Bridge hit in a huge Ukrainian drone attack",
+          "date": "2026-11-16",
+          "seconds": 1557,
+          "url": "http://www.bbc.co.uk/programmes/p0pn98q4"
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:24:58.590Z"
+    "fetchedAt": "2026-11-18T13:14:02.016Z"
   },
   "podcast:globally": {
     "value": {
@@ -2448,7 +2407,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:25:01.664Z"
+    "fetchedAt": "2026-11-18T13:13:55.997Z"
   },
   "podcast:ma perche": {
     "value": {
@@ -3067,6 +3026,19 @@
       ]
     },
     "fetchedAt": "2026-11-15T12:05:46.038Z"
+  },
+  "podcast:party gamers": {
+    "value": {
+      "appleUrl": null,
+      "genres": [],
+      "episodes": null,
+      "cover": null,
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-11-18T13:13:59.032Z"
   },
   "podcast:passa dal bsmt": {
     "value": {
@@ -3990,38 +3962,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/tutti-convocati",
       "latest": [
         {
-          "title": "Lazio: in pausa, in testa",
-          "date": "2026-11-10",
+          "title": "Nations League e dintorni",
+          "date": "2026-11-17",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261110-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261110-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261117-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261117-tutti-convocati"
         },
         {
-          "title": "L'Inter batte due colpi",
-          "date": "2026-11-09",
+          "title": "Abbiamo scherzato",
+          "date": "2026-11-16",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261109-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261109-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261116-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261116-tutti-convocati"
         },
         {
-          "title": "Inter-Como, lo Scudetto passa da San Siro?",
-          "date": "2026-11-08",
+          "title": "Missione quarti di finale!",
+          "date": "2026-11-15",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261108-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261108-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261115-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261115-tutti-convocati"
         },
         {
-          "title": "Milan impreparato",
-          "date": "2026-11-06",
+          "title": "Il ritorno degli Azzurri",
+          "date": "2026-11-13",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261106-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261106-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261113-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261113-tutti-convocati"
         },
         {
-          "title": "Il Napoli non va in Porto",
-          "date": "2026-11-05",
+          "title": "Italia-Francia sold out",
+          "date": "2026-11-12",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261105-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261105-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261112-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261112-tutti-convocati"
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:24:56.423Z"
+    "fetchedAt": "2026-11-18T13:14:06.046Z"
   },
   "podcast:ultimi attimi": {
     "value": {
@@ -4125,12 +4097,18 @@
       "genres": [
         "Economia"
       ],
-      "episodes": 321,
+      "episodes": 322,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/6d/aa/13/6daa13e0-5688-d2ca-1bd0-8ea40cd95a43/mza_15976850955216336205.jpg/600x600bb.jpg",
       "feedUrl": "https://anchor.fm/s/1c8f2a98/podcast/rss",
       "description": "Ciao, siamo il team di Marketing Espresso e questo è Weekly News, il podcast in cui ogni martedì ti raccontiamo in meno di 30 le ultimissime dal mondo digital e marketing 🔥\nIn elenco Agcom ✨",
       "website": "https://www.marketing-espresso.com/?gad_source=1&gbraid=0AAAAACwSyBEPAkgk40kZDJQl-Px7Xh7z5&gclid=Cj0KCQjwqv2_BhC0ARIsAFb5Ac-JDoTcBPBUfYhwcRjemlrHk_vQk-lfAJI1nGeDy6Bek_nmUwbUqo4aAuXhEALw_wcB",
       "latest": [
+        {
+          "title": "Burger King x Magic: il sold out delude i fan",
+          "date": "2026-11-17",
+          "seconds": 2041,
+          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/Burger-King-x-Magic-il-sold-out-delude-i-fan-e3sfrrm"
+        },
         {
           "title": "KIKO x STABILO: quando il make up diventa packaging",
           "date": "2026-11-10",
@@ -4154,15 +4132,9 @@
           "date": "2026-10-22",
           "seconds": 3101,
           "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/CANVA-ha-CAMBIATO-il-modo-di-fare-DESIGN-e3qrdj4"
-        },
-        {
-          "title": "IKEA ora ha il suo Vinted",
-          "date": "2026-10-20",
-          "seconds": 1620,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/IKEA-ora-ha-il-suo-Vinted-e3qogl4"
         }
       ]
     },
-    "fetchedAt": "2026-11-11T05:24:49.569Z"
+    "fetchedAt": "2026-11-18T13:14:08.203Z"
   }
 }

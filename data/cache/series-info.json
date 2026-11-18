@@ -1449,6 +1449,102 @@
     },
     "fetchedAt": "2026-10-31T05:00:27.462Z"
   },
+  "black doves|stagione 1": {
+    "value": {
+      "tmdbId": 225385,
+      "title": "Black Doves",
+      "overview": "Quando l'amante segreto di una spia viene ucciso, un assassino viene incaricato di proteggere la sua vita mentre indaga sull'omicidio. Insieme scoprono una vasta cospirazione interconnessa che li porta a mettere in discussione il costo delle loro scelte morali.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "Mistero",
+        "Crime"
+      ],
+      "episodeRuntime": 54,
+      "firstAired": "2024-12-05",
+      "lastAired": "2026-11-05",
+      "status": "Returning Series",
+      "seasons": 2,
+      "episodes": 12,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2024-12-05",
+          "episodes": 6
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2026-11-05",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.1,
+      "votes": 498,
+      "poster": "https://image.tmdb.org/t/p/w500/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+      "creators": [
+        {
+          "id": 226587,
+          "name": "Joe Barton"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Keira Knightley",
+          "character": "Helen Webb"
+        },
+        {
+          "name": "Ben Whishaw",
+          "character": "Sam Young"
+        },
+        {
+          "name": "Sarah Lancashire",
+          "character": "Mrs. Reed"
+        },
+        {
+          "name": "Andrew Buchan",
+          "character": "Wallace"
+        },
+        {
+          "name": "Ella Lily Hyland",
+          "character": "Williams"
+        },
+        {
+          "name": "Andrew Koji",
+          "character": "Jason"
+        },
+        {
+          "name": "Omari Douglas",
+          "character": "Michael"
+        },
+        {
+          "name": "Sam Troughton",
+          "character": "Stephen Yarrick"
+        }
+      ],
+      "trailer": "shzJzjVscno",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.413Z"
+  },
   "black doves|stagione 2": {
     "value": {
       "tmdbId": 225385,
@@ -2164,6 +2260,90 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.567Z"
+  },
+  "chiaroscuro|stagione 1": {
+    "value": {
+      "tmdbId": 336243,
+      "title": "ChiaroScuro",
+      "overview": "Cosmo Speranza è un brillante consulente d’arte con uno straordinario talento nel riconoscere immediatamente se un’opera è autentica o falsa. Quando il direttore di un’importante galleria di Roma viene trovato assassinato, con il corpo disposto come una figura tratta da un dipinto di Artemisia Gentileschi, Cosmo viene coinvolto nelle indagini della polizia.\n\nÈ costretto a collaborare con l’ispettore Angelo Tiberi, un uomo molto diverso da lui. Nonostante le loro personalità opposte, i due finiscono per formare un’inaspettata ed efficace coppia investigativa. Quando altri crimini sembrano essere collegati a opere d’arte, il caso diventa personale dopo il ritrovamento, sulla scena di un delitto, di un quadro che raffigura la casa d’infanzia di Cosmo.\n\nCosmo comincia così a sospettare che l’assassino stia comunicando direttamente con lui, costringendolo ad affrontare i segreti del proprio passato e le misteriose circostanze legate alla morte di suo padre.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Crime"
+      ],
+      "episodeRuntime": 53,
+      "firstAired": "2026-11-11",
+      "lastAired": "2026-11-11",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Season 1",
+          "date": "2026-11-11",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8,
+      "votes": 11,
+      "poster": "https://image.tmdb.org/t/p/w500/m9eZy0jzWCHSUUzbzIpysOrLgFb.jpg",
+      "creators": [
+        {
+          "id": 2207394,
+          "name": "Umberto Gnoli"
+        },
+        {
+          "id": 2510870,
+          "name": "Michela Straniero"
+        },
+        {
+          "id": 209807,
+          "name": "Francesco Arlanch"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Pierpaolo Spollon",
+          "character": "Kunstberater Cosmo Speranza"
+        },
+        {
+          "name": "Andrea Lattanzi",
+          "character": "Polizeiinspektor Angelo Tiberi"
+        },
+        {
+          "name": "Romana Maggiora Vergano",
+          "character": "Gerichtsmedizinerin Eleonora"
+        },
+        {
+          "name": "Matilde Gioli",
+          "character": "Leda, die entfremdete Halbschwester von Cosmo"
+        },
+        {
+          "name": "Aurora Giovinazzo",
+          "character": "Mia, eine enge Vertraute von Cosmo"
+        }
+      ],
+      "trailer": "g2vsb6Id7fE",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/336243-chiaroscuro/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.190Z"
   },
   "chicago fire|derek haas": {
     "value": {
@@ -3621,6 +3801,99 @@
       }
     },
     "fetchedAt": "2026-11-04T05:19:27.422Z"
+  },
+  "deadly class|stagione 1": {
+    "value": {
+      "tmdbId": 75663,
+      "title": "Deadly Class",
+      "overview": "Un adolescente orfano viene reclutato in un'accademia segreta che addestra la prossima generazione di capi per le più grandi famiglie criminali del mondo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "episodeRuntime": 43,
+      "firstAired": "2019-01-16",
+      "lastAired": "2019-03-20",
+      "status": "Canceled",
+      "seasons": 1,
+      "episodes": 10,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2019-01-16",
+          "episodes": 10
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Syfy"
+      ],
+      "vote": 7.4,
+      "votes": 355,
+      "poster": "https://image.tmdb.org/t/p/w500/u2GSiPazSXpyNQz0yymOUCUm944.jpg",
+      "creators": [
+        {
+          "id": 2200019,
+          "name": "Miles Orion Feldsott"
+        },
+        {
+          "id": 2028390,
+          "name": "Rick Remender"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Benjamin Wadsworth",
+          "character": "Marcus Lopez Arguello"
+        },
+        {
+          "name": "Benedict Wong",
+          "character": "Master Lin"
+        },
+        {
+          "name": "Lana Condor",
+          "character": "Saya Kuroki"
+        },
+        {
+          "name": "María Gabriela de Faría",
+          "character": "Maria Salazar"
+        },
+        {
+          "name": "Luke Tennie",
+          "character": "Willie Lewis"
+        },
+        {
+          "name": "Liam James",
+          "character": "Billy Bennett"
+        },
+        {
+          "name": "Michel Duval",
+          "character": "Chico"
+        },
+        {
+          "name": "Juan Grey",
+          "character": "Juan"
+        }
+      ],
+      "trailer": "Zn9n1pWLG0k",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/75663-deadly-class/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.520Z"
   },
   "delitti in paradiso|robert thorogood 2011": {
     "value": {
@@ -13432,6 +13705,137 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.230Z"
   },
+  "power|stagione 1": {
+    "value": {
+      "tmdbId": 54650,
+      "title": "Power",
+      "overview": "Un imprenditore di successo di New York vive una doppia vita come capo di un impero della droga che serve solo i ricchi e influenti, il tutto mentre vuole fuggire dagli inferi e mantenere la sua famiglia al sicuro.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 60,
+      "firstAired": "2014-06-07",
+      "lastAired": "2020-02-09",
+      "status": "Ended",
+      "seasons": 6,
+      "episodes": 63,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2014-06-07",
+          "episodes": 8
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2015-06-06",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2016-07-17",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2017-06-25",
+          "episodes": 10
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2018-07-01",
+          "episodes": 10
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2019-08-25",
+          "episodes": 15
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "STARZ"
+      ],
+      "vote": 7.7,
+      "votes": 1322,
+      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "creators": [
+        {
+          "id": 1224562,
+          "name": "Courtney Kemp Agboh"
+        },
+        {
+          "id": 1371513,
+          "name": "Vladimir Cvetko"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Omari Hardwick",
+          "character": "James 'Ghost' St. Patrick"
+        },
+        {
+          "name": "Joseph Sikora",
+          "character": "Tommy Egan"
+        },
+        {
+          "name": "Naturi Naughton",
+          "character": "Tasha St. Patrick"
+        },
+        {
+          "name": "Lucy Walters",
+          "character": "Holly"
+        },
+        {
+          "name": "Vinicius Zorin-Machado",
+          "character": "Nomar Arcielo"
+        },
+        {
+          "name": "J.R. Ramirez",
+          "character": "Julio"
+        },
+        {
+          "name": "Leslie Lopez",
+          "character": "Pink Sneakers"
+        },
+        {
+          "name": "Kathrine Narducci",
+          "character": "Frankie"
+        }
+      ],
+      "trailer": "w7fuOkF74Zw",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/54650-power/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Lionsgate+ Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/1356slxu4QrHOMrEVDKHJXRo5sW.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.412Z"
+  },
   "prison break|paul t scheuring 2005": {
     "value": {
       "tmdbId": 2288,
@@ -17096,6 +17500,182 @@
     },
     "fetchedAt": "2026-10-18T14:25:23.483Z"
   },
+  "the body|quinn shephard 2026": {
+    "value": {
+      "tmdbId": 291507,
+      "title": "The Body",
+      "overview": "La notte di Halloween, una squadra di ballo femminile è travolta da sensi di colpa cattolici, desideri peccaminosi e visioni spettrali quando un'iniziazione va a rotoli.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Mistero",
+        "Dramma"
+      ],
+      "episodeRuntime": 57,
+      "firstAired": "2026-11-11",
+      "lastAired": "2026-11-11",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-11",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.8,
+      "votes": 80,
+      "poster": "https://image.tmdb.org/t/p/w500/9oexlNHpUaJIaXhwKKsxkcbytPF.jpg",
+      "creators": [
+        {
+          "id": 429728,
+          "name": "Quinn Shephard"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kristina Bogic",
+          "character": "Anya Butler"
+        },
+        {
+          "name": "Geena Meszaros",
+          "character": "Lisbeth Anderson"
+        },
+        {
+          "name": "Sara Boustany",
+          "character": "Elise Zakaria"
+        },
+        {
+          "name": "Nnamdi Asomugha",
+          "character": "Father Franklin"
+        },
+        {
+          "name": "Louisa Krause",
+          "character": "Catherine Anderson"
+        },
+        {
+          "name": "Shirley Chen",
+          "character": "Maddie Delaney"
+        },
+        {
+          "name": "Jackson Kelly",
+          "character": "Leo Anderson"
+        },
+        {
+          "name": "Sofia Wylie",
+          "character": "Grace Franklin"
+        }
+      ],
+      "trailer": "wl7uj7n7DoY",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.093Z"
+  },
+  "the body|stagione 1": {
+    "value": {
+      "tmdbId": 291507,
+      "title": "The Body",
+      "overview": "La notte di Halloween, una squadra di ballo femminile è travolta da sensi di colpa cattolici, desideri peccaminosi e visioni spettrali quando un'iniziazione va a rotoli.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Mistero",
+        "Dramma"
+      ],
+      "episodeRuntime": 57,
+      "firstAired": "2026-11-11",
+      "lastAired": "2026-11-11",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 8,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-11",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 7.8,
+      "votes": 80,
+      "poster": "https://image.tmdb.org/t/p/w500/9oexlNHpUaJIaXhwKKsxkcbytPF.jpg",
+      "creators": [
+        {
+          "id": 429728,
+          "name": "Quinn Shephard"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kristina Bogic",
+          "character": "Anya Butler"
+        },
+        {
+          "name": "Geena Meszaros",
+          "character": "Lisbeth Anderson"
+        },
+        {
+          "name": "Sara Boustany",
+          "character": "Elise Zakaria"
+        },
+        {
+          "name": "Nnamdi Asomugha",
+          "character": "Father Franklin"
+        },
+        {
+          "name": "Louisa Krause",
+          "character": "Catherine Anderson"
+        },
+        {
+          "name": "Shirley Chen",
+          "character": "Maddie Delaney"
+        },
+        {
+          "name": "Jackson Kelly",
+          "character": "Leo Anderson"
+        },
+        {
+          "name": "Sofia Wylie",
+          "character": "Grace Franklin"
+        }
+      ],
+      "trailer": "wl7uj7n7DoY",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.414Z"
+  },
   "the crown|peter morgan 2016": {
     "value": {
       "tmdbId": 65494,
@@ -17318,6 +17898,99 @@
       }
     },
     "fetchedAt": "2026-10-21T04:53:25.555Z"
+  },
+  "the empress|stagione 3": {
+    "value": {
+      "tmdbId": 84107,
+      "title": "The Last Empress",
+      "overview": "In una moderna Corea governata dalla monarchia, una vivace attrice di musical sposa l'imperatore ed entra in un mondo spietato permeato di segreti sinistri.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "황후의 품격",
+      "genres": [
+        "Dramma",
+        "Action & Adventure",
+        "Mistero"
+      ],
+      "episodeRuntime": 35,
+      "firstAired": "2018-11-21",
+      "lastAired": "2019-02-21",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 52,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-11-21",
+          "episodes": 52
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "SBS"
+      ],
+      "vote": 6.3,
+      "votes": 28,
+      "poster": "https://image.tmdb.org/t/p/w500/n3alQays6LUs0vQEqw1yxLjWbEI.jpg",
+      "creators": [
+        {
+          "id": 1910577,
+          "name": "Park Young-soo"
+        },
+        {
+          "id": 1794443,
+          "name": "김순옥"
+        }
+      ],
+      "cast": [
+        {
+          "name": "장나라",
+          "character": "Oh Ssu-Ni"
+        },
+        {
+          "name": "최진혁",
+          "character": "Na Wang-shik"
+        },
+        {
+          "name": "신성록",
+          "character": "Lee Hyuk"
+        },
+        {
+          "name": "이엘리야",
+          "character": "Min Yoo-ra"
+        },
+        {
+          "name": "신은경",
+          "character": "Empress Dowager Kang"
+        },
+        {
+          "name": "오승윤",
+          "character": "Yi-Yoon"
+        },
+        {
+          "name": "오아린",
+          "character": "A-Ri"
+        },
+        {
+          "name": "박원숙",
+          "character": "Grand Empress Dowager Jo"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/84107-hwanghuui-pumgyeog/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Kocowa",
+            "logo": "https://image.tmdb.org/t/p/w92/tUXhi1QnIhdoPOTFUKKTrshUuiV.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:13:39.321Z"
   },
   "the final problem|miniserie": {
     "value": {

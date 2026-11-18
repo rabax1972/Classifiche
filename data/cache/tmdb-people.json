@@ -175,6 +175,10 @@
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-18T17:54:28.875Z"
   },
+  "movie:1124142": {
+    "value": "Andrew Patterson",
+    "fetchedAt": "2026-11-18T13:08:40.806Z"
+  },
   "movie:1126097": {
     "value": "Tom Dean, Mac Eldridge",
     "fetchedAt": "2026-11-04T05:13:45.340Z"
@@ -194,6 +198,10 @@
   "movie:1130948": {
     "value": "Karim Aïnouz",
     "fetchedAt": "2026-10-24T04:43:01.214Z"
+  },
+  "movie:1131943": {
+    "value": "David O. Russell",
+    "fetchedAt": "2026-11-18T13:08:42.141Z"
   },
   "movie:1137888": {
     "value": "Adam Shankman",
@@ -390,6 +398,10 @@
   "movie:1244523": {
     "value": "Mike P. Nelson",
     "fetchedAt": "2026-11-03T05:05:19.076Z"
+  },
+  "movie:1244809": {
+    "value": "홍의정, 박선우",
+    "fetchedAt": "2026-11-18T13:08:42.544Z"
   },
   "movie:12477": {
     "value": "高畑勲",
@@ -591,6 +603,10 @@
     "value": "Adam Rehmeier",
     "fetchedAt": "2026-11-11T05:18:57.659Z"
   },
+  "movie:1336166": {
+    "value": "Jeremy Garelick",
+    "fetchedAt": "2026-11-18T13:08:42.349Z"
+  },
   "movie:1339588": {
     "value": "Alicia MacDonald",
     "fetchedAt": "2026-10-12T07:24:30.697Z"
@@ -759,6 +775,14 @@
     "value": "James Watkins",
     "fetchedAt": "2026-10-12T07:24:53.723Z"
   },
+  "movie:1401433": {
+    "value": "Chris Marrs Piliero",
+    "fetchedAt": "2026-11-18T13:08:42.445Z"
+  },
+  "movie:1401459": {
+    "value": "Cristian Mungiu",
+    "fetchedAt": "2026-11-18T13:08:40.712Z"
+  },
   "movie:1401832": {
     "value": "Giovanni Tortorici",
     "fetchedAt": "2026-10-12T07:24:32.541Z"
@@ -826,6 +850,10 @@
   "movie:1424965": {
     "value": "Taavi Vartia",
     "fetchedAt": "2026-10-16T04:44:16.573Z"
+  },
+  "movie:1425859": {
+    "value": "M. Night Shyamalan",
+    "fetchedAt": "2026-11-18T13:08:42.643Z"
   },
   "movie:1426968": {
     "value": "Gabriel Beristain",
@@ -1131,6 +1159,10 @@
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-12T07:24:39.058Z"
   },
+  "movie:1551025": {
+    "value": "Elizabeth Allen Rosenbaum",
+    "fetchedAt": "2026-11-18T13:08:42.238Z"
+  },
   "movie:1554129": {
     "value": "Tommaso Landucci",
     "fetchedAt": "2026-10-12T07:24:34.777Z"
@@ -1307,6 +1339,10 @@
     "value": "Josephine Bornebusch",
     "fetchedAt": "2026-10-16T04:44:15.847Z"
   },
+  "movie:1625362": {
+    "value": "Виктор Косаковский",
+    "fetchedAt": "2026-11-18T13:08:41.011Z"
+  },
   "movie:1629051": {
     "value": "Dave Boyle",
     "fetchedAt": "2026-10-28T05:02:25.238Z"
@@ -1322,6 +1358,10 @@
   "movie:1632103": {
     "value": "Edoardo Gabbriellini",
     "fetchedAt": "2026-10-12T07:24:32.692Z"
+  },
+  "movie:1632188": {
+    "value": "Edoardo De Angelis",
+    "fetchedAt": "2026-11-18T13:08:40.908Z"
   },
   "movie:1633056": {
     "value": "牟正洋",
@@ -1838,6 +1878,10 @@
   "movie:289": {
     "value": "Michael Curtiz",
     "fetchedAt": "2026-10-18T17:54:30.248Z"
+  },
+  "movie:293167": {
+    "value": "Jordan Vogt-Roberts",
+    "fetchedAt": "2026-11-18T13:08:41.441Z"
   },
   "movie:299534": {
     "value": "Anthony Russo, Joe Russo",
@@ -2446,6 +2490,10 @@
   "tv:107371": {
     "value": "耳根",
     "fetchedAt": "2026-10-21T04:46:17.918Z"
+  },
+  "tv:108545": {
+    "value": "David Benioff, D.B. Weiss",
+    "fetchedAt": "2026-11-18T13:08:43.355Z"
   },
   "tv:108978": {
     "value": "Nick Santora",
@@ -3103,6 +3151,10 @@
     "value": null,
     "fetchedAt": "2026-10-22T04:44:48.412Z"
   },
+  "tv:285710": {
+    "value": null,
+    "fetchedAt": "2026-11-18T13:08:43.603Z"
+  },
   "tv:285899": {
     "value": null,
     "fetchedAt": "2026-10-25T04:46:06.802Z"
@@ -3166,6 +3218,10 @@
   "tv:291": {
     "value": "Tony Warren",
     "fetchedAt": "2026-10-17T04:42:36.192Z"
+  },
+  "tv:291084": {
+    "value": "Liz Tuccillo",
+    "fetchedAt": "2026-11-18T13:08:43.688Z"
   },
   "tv:2912": {
     "value": "Merv Griffin",
@@ -3475,6 +3531,14 @@
     "value": null,
     "fetchedAt": "2026-11-17T13:29:33.927Z"
   },
+  "tv:318420": {
+    "value": "Ray Tavares",
+    "fetchedAt": "2026-11-18T13:08:43.253Z"
+  },
+  "tv:319436": {
+    "value": null,
+    "fetchedAt": "2026-11-18T13:08:43.449Z"
+  },
   "tv:31991": {
     "value": "Paul Levesque, Vince McMahon",
     "fetchedAt": "2026-10-31T04:54:24.891Z"
@@ -3598,6 +3662,10 @@
   "tv:332713": {
     "value": null,
     "fetchedAt": "2026-10-20T04:51:06.914Z"
+  },
+  "tv:332839": {
+    "value": null,
+    "fetchedAt": "2026-11-18T13:08:43.049Z"
   },
   "tv:333101": {
     "value": "Robert Murphy",
@@ -3754,6 +3822,10 @@
   "tv:340191": {
     "value": null,
     "fetchedAt": "2026-10-29T04:57:39.352Z"
+  },
+  "tv:340280": {
+    "value": "Pablo Trapero",
+    "fetchedAt": "2026-11-18T13:08:43.150Z"
   },
   "tv:340544": {
     "value": null,

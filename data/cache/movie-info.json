@@ -3756,6 +3756,113 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.555Z"
   },
+  "ballerina|": {
+    "value": {
+      "tmdbId": 541671,
+      "title": "Ballerina",
+      "overview": "La giovanissima ballerina Rooney diventa una killer in seguito all'uccisione di tutta la sua famiglia. Una volta cresciuta e addestrata, la donna è assetata di vendetta ed è alla ricerca degli assassini dei suoi cari.",
+      "overviewLang": "it",
+      "tagline": "La vendetta ha un nuovo volto.",
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 124,
+      "released": "2025-06-12",
+      "vote": 7.3,
+      "votes": 3141,
+      "poster": "https://image.tmdb.org/t/p/w500/fgzv2GA50AcvajcrIsShEOJ8G5v.jpg",
+      "directors": [
+        {
+          "id": 3950,
+          "name": "Len Wiseman"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ana de Armas",
+          "character": "Eve"
+        },
+        {
+          "name": "Keanu Reeves",
+          "character": "John Wick"
+        },
+        {
+          "name": "Ian McShane",
+          "character": "Winston"
+        },
+        {
+          "name": "Anjelica Huston",
+          "character": "The Director"
+        },
+        {
+          "name": "Gabriel Byrne",
+          "character": "The Chancellor"
+        },
+        {
+          "name": "Catalina Sandino Moreno",
+          "character": "Lena"
+        },
+        {
+          "name": "Ava McCarthy",
+          "character": "Ella"
+        },
+        {
+          "name": "Juliet Doherty",
+          "character": "Tatiana"
+        }
+      ],
+      "trailer": "6rY_py741-E",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/541671-ballerina/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:40.002Z"
+  },
   "barriera invisibile|elia kazan 1947": {
     "value": {
       "tmdbId": 33667,
@@ -9091,6 +9198,67 @@
     },
     "fetchedAt": "2026-10-18T17:56:44.758Z"
   },
+  "fjord|cristian mungiu 2026": {
+    "value": {
+      "tmdbId": 1401459,
+      "title": "Fjord",
+      "overview": "Una famiglia rumeno-norvegese profondamente religiosa si trasferisce in un remoto villaggio tra i fiordi della Norvegia per ricominciare una nuova vita. Quando la figlia maggiore arriva a scuola con alcuni lividi, la comunità e le autorità iniziano a sospettare che l'educazione tradizionale impartita dai genitori possa nascondere abusi. Ne nasce un intenso dramma giudiziario e morale che mette a confronto valori, fede, identità culturale e i limiti della tolleranza.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 146,
+      "released": "2026-11-19",
+      "vote": 7.2,
+      "votes": 109,
+      "poster": "https://image.tmdb.org/t/p/w500/e6qR7qbqxe66vh2ONZ8d5pCphA6.jpg",
+      "directors": [
+        {
+          "id": 20657,
+          "name": "Cristian Mungiu"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sebastian Stan",
+          "character": "Mihai Gheorghiu"
+        },
+        {
+          "name": "Renate Reinsve",
+          "character": "Lisbet Gheorghiu"
+        },
+        {
+          "name": "Lisa Carlehed",
+          "character": "Mia Halberg"
+        },
+        {
+          "name": "Ellen Dorrit Petersen",
+          "character": "Gunda"
+        },
+        {
+          "name": "Lisa Loven Kongsli",
+          "character": "Frida"
+        },
+        {
+          "name": "Henrikke Lund Olsen",
+          "character": "Noora Halberg"
+        },
+        {
+          "name": "Markus Tønseth",
+          "character": "Mats Halberg"
+        },
+        {
+          "name": "Vanessa Ceban",
+          "character": "Elia Gheorghiu"
+        }
+      ],
+      "trailer": "4L8XzvLxyuY",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-18T13:09:39.400Z"
+  },
   "flipped|": {
     "value": {
       "tmdbId": 43949,
@@ -11380,6 +11548,78 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.629Z"
   },
+  "heartland|": {
+    "value": {
+      "tmdbId": 1543469,
+      "title": "Heartland",
+      "overview": "Una leggenda della musica country dal carattere schivo indaga sulla scomparsa della nipote, giovane promessa del settore, in questo thriller con Jessica Chastain e Garrett Hedlund.",
+      "overviewLang": "it",
+      "tagline": "Le stelle più luminose nascondono i segreti più oscuri.",
+      "originalTitle": null,
+      "genres": [
+        "Thriller",
+        "Mistero"
+      ],
+      "runtime": 114,
+      "released": "2026-11-13",
+      "vote": 7.2,
+      "votes": 29,
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "directors": [
+        {
+          "id": 129718,
+          "name": "Shana Feste"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jessica Chastain",
+          "character": "Misty Jones"
+        },
+        {
+          "name": "Carter Faith",
+          "character": "Charlie Hart"
+        },
+        {
+          "name": "Garrett Hedlund",
+          "character": "Roy Combs"
+        },
+        {
+          "name": "John Hawkes",
+          "character": "Clark"
+        },
+        {
+          "name": "Norbert Leo Butz",
+          "character": "Detective White"
+        },
+        {
+          "name": "Hill Harper",
+          "character": "Detective Kinsey"
+        },
+        {
+          "name": "Paul Sparks",
+          "character": "Donny"
+        },
+        {
+          "name": "Ben Dickey",
+          "character": "Buck"
+        }
+      ],
+      "trailer": "ziIz59enN1c",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1543469-heartland/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:40.003Z"
+  },
   "heartland|shana feste 2026": {
     "value": {
       "tmdbId": 1543469,
@@ -12140,6 +12380,171 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:08.956Z"
+  },
+  "hunger games l alba sulla mietitura|francis lawrence 2026": {
+    "value": {
+      "tmdbId": 1300968,
+      "title": "Hunger Games - L'alba sulla mietitura",
+      "overview": "Ventiquattro anni prima delle vicende di Katniss Everdeen, il giovane Haymitch Abernathy viene scelto come tributo del Distretto 12 per i cinquantesimi Hunger Games, la seconda Edizione della Memoria. Nell’arena dovrà lottare per sopravvivere contro avversari e un sistema spietato.",
+      "overviewLang": "it",
+      "tagline": "Questi giochi saranno diversi.",
+      "originalTitle": "The Hunger Games: Sunrise on the Reaping",
+      "genres": [
+        "Fantascienza",
+        "Azione",
+        "Avventura"
+      ],
+      "runtime": 159,
+      "released": "2026-11-19",
+      "vote": 8.1,
+      "votes": 20,
+      "poster": "https://image.tmdb.org/t/p/w500/uR1lZA2ET3gf7uGVgbRwSeSkEsU.jpg",
+      "directors": [
+        {
+          "id": 10943,
+          "name": "Francis Lawrence"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Joseph Zada",
+          "character": "Haymitch Abernathy"
+        },
+        {
+          "name": "Mckenna Grace",
+          "character": "Maysilee Donner / Merrilee Donner"
+        },
+        {
+          "name": "Ralph Fiennes",
+          "character": "President Coriolanus Snow"
+        },
+        {
+          "name": "Jesse Plemons",
+          "character": "Plutarch Heavensbee"
+        },
+        {
+          "name": "Glenn Close",
+          "character": "Drusilla Sickle"
+        },
+        {
+          "name": "Whitney Peak",
+          "character": "Lenore Dove Baird"
+        },
+        {
+          "name": "Elle Fanning",
+          "character": "Effie Trinket"
+        },
+        {
+          "name": "Kieran Culkin",
+          "character": "Caesar Flickerman"
+        }
+      ],
+      "trailer": "Nr5M3PhPrEo",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-18T13:09:39.292Z"
+  },
+  "hunger games la ballata dell usignolo e del serpente|francis lawrence 2023": {
+    "value": {
+      "tmdbId": 695721,
+      "title": "Hunger Games - La ballata dell'usignolo e del serpente",
+      "overview": "Molto prima delle avventure di Hunger Games, Coriolanus Snow è un giovane ragazzo deciso a riabilitare il nome della sua famiglia caduta in disgrazia. La decima edizione degli Hunger Games si avvicina, e Snow è nominato mentore di Lucy Grey Baird, la ragazza tributo del miserabile Distretto 12.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "genres": [
+        "Fantascienza",
+        "Azione"
+      ],
+      "runtime": 157,
+      "released": "2023-11-15",
+      "vote": 7,
+      "votes": 3819,
+      "poster": "https://image.tmdb.org/t/p/w500/bk2Bh5mD3uvyKDaXKTAOGfoCTq5.jpg",
+      "directors": [
+        {
+          "id": 10943,
+          "name": "Francis Lawrence"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tom Blyth",
+          "character": "Coriolanus Snow"
+        },
+        {
+          "name": "Rachel Zegler",
+          "character": "Lucy Gray Baird"
+        },
+        {
+          "name": "Peter Dinklage",
+          "character": "Dean Casca Highbottom"
+        },
+        {
+          "name": "Jason Schwartzman",
+          "character": "Lucky Flickerman"
+        },
+        {
+          "name": "Hunter Schafer",
+          "character": "Tigris"
+        },
+        {
+          "name": "Josh Rivera",
+          "character": "Sejanus Plinth"
+        },
+        {
+          "name": "Viola Davis",
+          "character": "Dr. Volumnia Gaul"
+        },
+        {
+          "name": "Fionnula Flanagan",
+          "character": "Grandma’am"
+        }
+      ],
+      "trailer": "jSDxSEcmp_U",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:39.797Z"
   },
   "hunger games la ragazza di fuoco|francis lawrence 2013": {
     "value": {
@@ -14340,6 +14745,67 @@
     },
     "fetchedAt": "2026-10-18T17:56:57.359Z"
   },
+  "il fuoco che ti porti dentro|edoardo de angelis 2026": {
+    "value": {
+      "tmdbId": 1632188,
+      "title": "Il fuoco che ti porti dentro",
+      "overview": "Antonio, fuggito molti anni fa da Napoli, ha costruito a Milano una famiglia e una carriera di successo, lontano da sua madre Angela, una donna esagerata nel bene e nel male, irresistibile, antica e ostile come poche, che lo ha raggiunto per Natale e sembra decisa a restare. La cena della Vigilia diventa così un campo di battaglia emotivo, comico e feroce al tempo stesso che fa riemergere un passato di sopraffazioni e incomprensioni. Con un tenace cappone che non vuole saperne di finire in pentola, una figlia che non si sa se mai arriverà e un illustre ospite inatteso, la serata si trasforma in una resa dei conti tra madre e figlio destinata a cambiare per sempre il senso del loro legame: un amore che brucia come un fuoco dentro e che mai si consuma, neppure andando via.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 93,
+      "released": "2026-11-19",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/kCfIZpqRsBe39Y1lUCxOAjgQ5VR.jpg",
+      "directors": [
+        {
+          "id": 929899,
+          "name": "Edoardo De Angelis"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Vanessa Scalera",
+          "character": "Angela"
+        },
+        {
+          "name": "Lino Musella",
+          "character": "Antonio"
+        },
+        {
+          "name": "Elena Radonicich",
+          "character": "Benedetta"
+        },
+        {
+          "name": "Ivana Lotito",
+          "character": "Paola"
+        },
+        {
+          "name": "Tommaso Ragno",
+          "character": "Giulio Simonetti"
+        },
+        {
+          "name": "Nicole Malaj",
+          "character": "Valentina"
+        },
+        {
+          "name": "Samuele Mazza",
+          "character": "Andrea"
+        },
+        {
+          "name": "Toni Laudadio",
+          "character": "Edoardo"
+        }
+      ],
+      "trailer": "wkL5lY_Jm0Y",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-18T13:09:39.697Z"
+  },
   "il gatto col cappello|erica rivinoja": {
     "value": {
       "tmdbId": 1117898,
@@ -16526,6 +16992,131 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.837Z"
+  },
+  "in the heart of the sea|": {
+    "value": {
+      "tmdbId": 205775,
+      "title": "Heart of the Sea - Le origini di Moby Dick",
+      "overview": "Nell’inverno del 1820, la baleniera del New England viene attaccata da una creatura incredibile: una balena dalle dimensioni e la forza elefantiache, ed un senso quasi umano di vendetta. Il disastro marittimo, realmente accaduto, avrebbe ispirato Herman Melville a scrivere Moby Dick. Ma l’autore ha descritto solo una parte della storia. Heart of the Sea - Le origini di Moby Dick rivela le conseguenze di quella straziante aggressione, di come i superstiti dell’equipaggio della nave vengono spinti oltre i loro limiti e costretti a compiere l’impensabile per poter sopravvivere. Sfidando le intemperie, la fame, il panico e la disperazione, gli uomini mettono in discussione le loro convinzioni più radicate: dal valore della vita alla moralità delle loro spedizioni, mentre il capitano cerca di riprendere la rotta in mare aperto, ed il primo ufficiale tenta di sconfiggere il capodoglio.",
+      "overviewLang": "it",
+      "tagline": "Basato sull'incredibile storia vera che ha ispirato il mito",
+      "originalTitle": "In the Heart of the Sea",
+      "genres": [
+        "Thriller",
+        "Dramma",
+        "Avventura",
+        "Azione",
+        "Storia"
+      ],
+      "runtime": 121,
+      "released": "2015-12-03",
+      "vote": 6.8,
+      "votes": 4568,
+      "poster": "https://image.tmdb.org/t/p/w500/wAN0GViqoyT1616y1fBq0hNB2HR.jpg",
+      "directors": [
+        {
+          "id": 6159,
+          "name": "Ron Howard"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Hemsworth",
+          "character": "Owen Chase"
+        },
+        {
+          "name": "Benjamin Walker",
+          "character": "George Pollard"
+        },
+        {
+          "name": "Cillian Murphy",
+          "character": "Matthew Joy"
+        },
+        {
+          "name": "Brendan Gleeson",
+          "character": "Old Thomas Nickerson"
+        },
+        {
+          "name": "Ben Whishaw",
+          "character": "Herman Melville"
+        },
+        {
+          "name": "Michelle Fairley",
+          "character": "Mrs. Nickerson"
+        },
+        {
+          "name": "Tom Holland",
+          "character": "Young Thomas Nickerson"
+        },
+        {
+          "name": "Paul Anderson",
+          "character": "Thomas Chappel"
+        }
+      ],
+      "trailer": "9VpMhXeypBo",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/205775-in-the-heart-of-the-sea/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:40.103Z"
   },
   "inception|christopher nolan 2010": {
     "value": {
@@ -19294,6 +19885,69 @@
       }
     },
     "fetchedAt": "2026-10-30T08:47:26.561Z"
+  },
+  "la ballata del re delle api|andrew patterson 2026": {
+    "value": {
+      "tmdbId": 1124142,
+      "title": "La ballata del re delle api",
+      "overview": "Nel cuore delle zone più remote dell'Oklahoma rurale, il carismatico e talentuoso musicista Amziah King guida una strampalata band di bluegrass e gestisce la principale azienda produttrice di miele della zona. Quando la figlia adottiva, con cui non ha più rapporti da tempo, fa ritorno inaspettatamente, Amziah coglie al volo l'occasione per riallacciare i rapporti e creare un'attività di famiglia. Ma il mercato del miele è spietato e i rivali di Amziah minacciano di distruggere tutto ciò che ha costruito.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "The Rivals of Amziah King",
+      "genres": [
+        "Crime",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 131,
+      "released": "2026-11-19",
+      "vote": 6.7,
+      "votes": 131,
+      "poster": "https://image.tmdb.org/t/p/w500/bsUZIWpF5ZvU9oZTBL9pHw1DTP9.jpg",
+      "directors": [
+        {
+          "id": 2186238,
+          "name": "Andrew Patterson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "character": "Amziah King"
+        },
+        {
+          "name": "Kurt Russell",
+          "character": "Dob McCoy"
+        },
+        {
+          "name": "Angelina LookingGlass",
+          "character": "Kateri"
+        },
+        {
+          "name": "Cole Sprouse",
+          "character": "Oat"
+        },
+        {
+          "name": "Scott Shepherd",
+          "character": "Chimmy"
+        },
+        {
+          "name": "Rob Morgan",
+          "character": "Rippy"
+        },
+        {
+          "name": "Tony Revolori",
+          "character": "Colemar"
+        },
+        {
+          "name": "Jake Horowitz",
+          "character": "Remick"
+        }
+      ],
+      "trailer": "X3iIJzlJpF0",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-18T13:09:39.603Z"
   },
   "la bambola|sophie beaulieu 2026": {
     "value": {
@@ -24055,6 +24709,79 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.955Z"
   },
+  "never surrender|": {
+    "value": {
+      "tmdbId": 1616687,
+      "title": "Never Surrender",
+      "overview": "Un veterano tormentato dai sensi di colpa deve unire le forze con i nipoti che conosce a malapena per sopravvivere a una banda spietata che assalta la sua casa isolata.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Serangan Balik",
+      "genres": [
+        "Azione",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 140,
+      "released": "2026-11-11",
+      "vote": 7.1,
+      "votes": 22,
+      "poster": "https://image.tmdb.org/t/p/w500/9wypfSz5OyWnew6mt5hviGw6WhM.jpg",
+      "directors": [
+        {
+          "id": 2246464,
+          "name": "Sidharta Tata"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Lukman Sardi",
+          "character": "Eyang Hari"
+        },
+        {
+          "name": "Callista Arum",
+          "character": "Putri"
+        },
+        {
+          "name": "Sulthan Hamonangan",
+          "character": "Dimas"
+        },
+        {
+          "name": "Derby Romero",
+          "character": "Bastian"
+        },
+        {
+          "name": "Donny Alamsyah",
+          "character": "Ulo"
+        },
+        {
+          "name": "Dennis Adishwara",
+          "character": "Agus"
+        },
+        {
+          "name": "Ismi Melinda",
+          "character": "Jegeg"
+        },
+        {
+          "name": "David Hendrawan",
+          "character": "Aldo"
+        }
+      ],
+      "trailer": "o0d1IA85D9o",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1616687-serangan-balik/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:40.002Z"
+  },
   "never surrender|sidharta tata 2026": {
     "value": {
       "tmdbId": 1616687,
@@ -27214,6 +27941,69 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.558Z"
   },
+  "ramayana la nascita di una leggenda|nitesh tiwari 2026": {
+    "value": {
+      "tmdbId": 656908,
+      "title": "Ramayana - La nascita di una leggenda",
+      "overview": "In un’epoca di dèi e re, il destino di interi mondi è in bilico. Rama, principe votato al dovere, al sacrificio e alla rettitudine, deve affrontare Ravana, sovrano immortale accecato dall’orgoglio e dalla sete di vendetta, tanto potente da poter frantumare il cosmo.",
+      "overviewLang": "it",
+      "tagline": "La più grande storia dell'umanità arriva sul grande schermo",
+      "originalTitle": "रामायणम्",
+      "genres": [
+        "Fantasy",
+        "Azione",
+        "Avventura"
+      ],
+      "runtime": 195,
+      "released": "2026-11-19",
+      "vote": 7.5,
+      "votes": 57,
+      "poster": "https://image.tmdb.org/t/p/w500/ovi5mxUCbSdFPv73rn6aXP9x9UC.jpg",
+      "directors": [
+        {
+          "id": 1042010,
+          "name": "Nitesh Tiwari"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ranbir Kapoor",
+          "character": "Prince Rama / Parashurama"
+        },
+        {
+          "name": "Yash",
+          "character": "Dashanan 'Ravana'"
+        },
+        {
+          "name": "Sai Pallavi",
+          "character": "Sita"
+        },
+        {
+          "name": "Ravi Dubey",
+          "character": "Lakshmana"
+        },
+        {
+          "name": "अरुण गोविल",
+          "character": "King Dashrath"
+        },
+        {
+          "name": "लारा दत्ता",
+          "character": "Kaikeyi"
+        },
+        {
+          "name": "Rakul Preet Singh",
+          "character": "Surpanakha"
+        },
+        {
+          "name": "इंदिरा कृष्णन",
+          "character": "Kaushalya"
+        }
+      ],
+      "trailer": "-NY7Ts0TCpM",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-18T13:09:39.208Z"
+  },
   "rebecca la prima moglie|alfred hitchcock 1940": {
     "value": {
       "tmdbId": 223,
@@ -27557,6 +28347,93 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.574Z"
+  },
+  "return to christmas creek|": {
+    "value": {
+      "tmdbId": 554279,
+      "title": "Ritorno a Christmas Creek",
+      "overview": "As Christmas approaches, Amelia Hughes, a career-focused Chicago app developer lacking in holiday spirit, returns to her small hometown of Christmas Creek to rediscover the meaning of Christmas. There, she reunites with her childhood best friend Mike and her estranged uncle Harry, whose mysterious rift with Amelia’s father divided her family during the holiday season when she was a child.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": "Return to Christmas Creek",
+      "genres": [
+        "Romance",
+        "Famiglia",
+        "televisione film"
+      ],
+      "runtime": 90,
+      "released": "2018-11-18",
+      "vote": 6.5,
+      "votes": 129,
+      "poster": "https://image.tmdb.org/t/p/w500/gCdjZCWM9x9vAbtkvZiIIYL7tOB.jpg",
+      "directors": [
+        {
+          "id": 168782,
+          "name": "Don McBrearty"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tori Anderson",
+          "character": "Amelia Hughes"
+        },
+        {
+          "name": "Stephen Huszar",
+          "character": "Mike"
+        },
+        {
+          "name": "Steven Weber",
+          "character": "Harry"
+        },
+        {
+          "name": "Kari Matchett",
+          "character": "Pamela"
+        },
+        {
+          "name": "Byron Abalos",
+          "character": "Nathan"
+        },
+        {
+          "name": "Janet Porter",
+          "character": "Elisa Redding"
+        },
+        {
+          "name": "Zach Smadu",
+          "character": "Brad"
+        },
+        {
+          "name": "Stuart Hughes",
+          "character": "Dan Hayes"
+        }
+      ],
+      "trailer": "USkhJ5lq9dY",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/554279-return-to-christmas-creek/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:40.290Z"
   },
   "rider|davide pavanello": {
     "value": {
@@ -31512,6 +32389,78 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.337Z"
   },
+  "the christmas switch|": {
+    "value": {
+      "tmdbId": 1757174,
+      "title": "The Christmas Switch",
+      "overview": "A Natale, una stacanovista di città con tanta voglia di rallentare il passo si scambia di posto con la sorella pantofolaia, provocando così un nuovo tipo di caos.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Bara till jul",
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 103,
+      "released": "2026-11-12",
+      "vote": 6.6,
+      "votes": 39,
+      "poster": "https://image.tmdb.org/t/p/w500/k7h5uzeCFBNl802TW2WTvctGYHi.jpg",
+      "directors": [
+        {
+          "id": 1137377,
+          "name": "Adam Pålsson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Felice Jankell",
+          "character": "Mathilda Stjärne"
+        },
+        {
+          "name": "Happy Jankell",
+          "character": "Freddie Stjärne"
+        },
+        {
+          "name": "Christian Fandango Sundgren",
+          "character": "Oliver"
+        },
+        {
+          "name": "Celie Sparre",
+          "character": "Emma"
+        },
+        {
+          "name": "Anastasios Soulis",
+          "character": "Jonas"
+        },
+        {
+          "name": "Maria Kulle",
+          "character": "Lillian"
+        },
+        {
+          "name": "Dag Malmberg",
+          "character": "Janne"
+        },
+        {
+          "name": "Bengt Braskered",
+          "character": "Patric"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1757174-bara-till-jul/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:39.893Z"
+  },
   "the christmas switch|adam palsson 2026": {
     "value": {
       "tmdbId": 1757174,
@@ -31646,6 +32595,139 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T17:56:48.846Z"
+  },
+  "the good lawyer|": {
+    "value": {
+      "tmdbId": 1616419,
+      "title": "Un buon avvocato",
+      "overview": "Finito in riabilitazione dopo un'overdose in aula, un avvocato ha una settimana di tempo per salvarsi la carriera e prepararsi al processo con l'aiuto di una tenace tirocinante.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Un bon avocat",
+      "genres": [
+        "Thriller",
+        "Dramma"
+      ],
+      "runtime": 121,
+      "released": "2026-09-11",
+      "vote": 6.8,
+      "votes": 23,
+      "poster": "https://image.tmdb.org/t/p/w500/k84V1Y2PiohjN3ic8XzhukydEjm.jpg",
+      "directors": [
+        {
+          "id": 1277829,
+          "name": "Tristan Séguéla"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Laurent Lafitte",
+          "character": "Léonard Landry"
+        },
+        {
+          "name": "Anthony Bajon",
+          "character": "Noé"
+        },
+        {
+          "name": "Mélanie Laurent",
+          "character": "Iris Saint Didier"
+        },
+        {
+          "name": "Carole Bouquet",
+          "character": "Anne Lamarck"
+        },
+        {
+          "name": "Gwendal Kerdelhue",
+          "character": "L'homme de main"
+        }
+      ],
+      "trailer": "ZZtbCtD1dg8",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1616419-un-bon-avocat/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:39.893Z"
+  },
+  "the gospel of christmas|tyler perry 2026": {
+    "value": {
+      "tmdbId": 1559980,
+      "title": "The Gospel of Christmas",
+      "overview": "Un pastore affronta dei dubbi mentre cerca di salvare la chiesa di famiglia ereditata in una zona travagliata di New York. Attraverso la fede e la preghiera, combatte i demoni interiori e un nemico per proteggere la sua chiesa, la sua famiglia e la sua comunità prima di Natale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Musica",
+        "Famiglia",
+        "Dramma"
+      ],
+      "runtime": 103,
+      "released": "2026-11-11",
+      "vote": 7.3,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+      "directors": [
+        {
+          "id": 80602,
+          "name": "Tyler Perry"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Fantasia Barrino",
+          "character": "Rebecca"
+        },
+        {
+          "name": "Tank",
+          "character": "Isaac"
+        },
+        {
+          "name": "Mason Douglas",
+          "character": "Jacob"
+        },
+        {
+          "name": "Eric Wiltz",
+          "character": "Esau"
+        },
+        {
+          "name": "John Gray",
+          "character": "Deacon Daniel"
+        },
+        {
+          "name": "Hezekiah Walker",
+          "character": "Matthew"
+        },
+        {
+          "name": "Le'Andria Johnson",
+          "character": "Eve"
+        },
+        {
+          "name": "Shirley Caesar",
+          "character": "May"
+        }
+      ],
+      "trailer": "RcJurNB0eAM",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1559980-the-gospel-of-christmas/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:39.892Z"
   },
   "the guardian|": {
     "value": {
@@ -37489,6 +38571,101 @@
       }
     },
     "fetchedAt": "2026-10-18T17:56:54.365Z"
+  },
+  "your name|2017": {
+    "value": {
+      "tmdbId": 372058,
+      "title": "Your Name.",
+      "overview": "Mitsuha è una studentessa che vive in una piccola città rurale e desidera trasferirsi a Tokyo, nella grande metropoli dove ogni sogno si può realizzare. Taki è uno studente di liceo che vive proprio a Tokyo, ha un lavoro part-time in un ristorante italiano, ma vorrebbe lavorare nel campo dell’arte o dell’architettura. Una notte, Mitsuha sogna di essere un giovane uomo, si ritrova in una stanza che non conosce, ha nuovi amici e lo skyline di Tokyo si apre dinnanzi al suo sguardo. Nello stesso momento Taki sogna di essere una ragazzina che vive in una piccola città di montagna che non ha mai visitato. Ma quale sarà il segreto che si cela dietro questi strani sogni incrociati?",
+      "overviewLang": "it",
+      "tagline": "Intrappolati in uno strano sogno che sembra la vita di qualcun altro",
+      "originalTitle": "君の名は。",
+      "genres": [
+        "Animazione",
+        "Romance",
+        "Dramma"
+      ],
+      "runtime": 106,
+      "released": "2017-01-23",
+      "vote": 8.5,
+      "votes": 13205,
+      "poster": "https://image.tmdb.org/t/p/w500/uyOd5E0dNTp2AJAJWv0V3asf31u.jpg",
+      "directors": [
+        {
+          "id": 74091,
+          "name": "新海誠"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ryūnosuke Kamiki",
+          "character": "Taki Tachibana (voice)"
+        },
+        {
+          "name": "上白石萌音",
+          "character": "Mitsuha Miyamizu (voice)"
+        },
+        {
+          "name": "成田凌",
+          "character": "Katsuhiko Teshigawara (voice)"
+        },
+        {
+          "name": "Aoi Yuuki",
+          "character": "Sayaka Natori (voice)"
+        },
+        {
+          "name": "Nobunaga Shimazaki",
+          "character": "Tsukasa Fujii (voice)"
+        },
+        {
+          "name": "Kaito Ishikawa",
+          "character": "Shinta Takagi (voice)"
+        },
+        {
+          "name": "谷花音",
+          "character": "Yotsuha Miyamizu (voice)"
+        },
+        {
+          "name": "てらそままさき",
+          "character": "Toshiki Miyamizu (voice)"
+        }
+      ],
+      "trailer": "pCrIjWgnZFE",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/372058-jun-no-ming-ha/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "dAnime Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/znUEdjHzuxK2WrNDkKS2Xgv1ooW.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-18T13:09:39.494Z"
   },
   "zootropolis 2|jared bush": {
     "value": {
