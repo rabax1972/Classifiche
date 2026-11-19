@@ -964,6 +964,48 @@
     },
     "fetchedAt": "2026-10-17T09:33:20.855Z"
   },
+  "andy morahan": {
+    "value": {
+      "tmdbId": 4940102,
+      "wiki": {
+        "lang": "en",
+        "title": "Andy Morahan",
+        "url": "https://en.wikipedia.org/wiki/Andy_Morahan",
+        "extract": "Andrew Douglas Morahan (born 11 August 1958) is a British commercial, film and music video director. He is the son of director Christopher Morahan and the half-brother of actress Hattie Morahan.\n\nMarried to Joanna Lewis, he has two children."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1649403,
+          "title": "George Michael: The Faith Tour",
+          "year": "2026"
+        },
+        {
+          "id": 1578412,
+          "title": "Simply Red - Home: Live in Sicily",
+          "year": "2025"
+        },
+        {
+          "id": 1560617,
+          "title": "A-HA: The Videos 1984–2010",
+          "year": "2011"
+        },
+        {
+          "id": 51478,
+          "title": "Michael Jackson's Vision",
+          "year": "2010"
+        },
+        {
+          "id": 306494,
+          "title": "Simply Red: The Greatest Video Hits",
+          "year": "2003"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-19T13:11:28.536Z"
+  },
   "anna foglietta": {
     "value": {
       "tmdbId": 586953,
@@ -4966,6 +5008,48 @@
     },
     "fetchedAt": "2026-10-17T09:33:10.126Z"
   },
+  "david austin": {
+    "value": {
+      "tmdbId": 1564922,
+      "wiki": {
+        "lang": "en",
+        "title": "David Austin (cartoonist)",
+        "url": "https://en.wikipedia.org/wiki/David_Austin_(cartoonist)",
+        "extract": "David Austin (March 29, 1935 – November 19, 2005) was a British cartoonist. He was best known for his pocket cartoons in The Guardian, which he contributed from 1990 to 2005, and for the strip Hom Sap in Private Eye, which began in 1970. The Guardian's obituary said that he \"was one of the central pillars in what made the paper important to its readers.\"\n\nHe has had a train named after him by his widow, Janet."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1649403,
+          "title": "George Michael: The Faith Tour",
+          "year": "2026"
+        },
+        {
+          "id": 965132,
+          "title": "George Michael: Freedom Uncut",
+          "year": "2022"
+        },
+        {
+          "id": 476517,
+          "title": "George Michael: Freedom",
+          "year": "2017"
+        },
+        {
+          "id": 327449,
+          "title": "George Michael: Live at The Palais Garnier Opera House in Paris",
+          "year": "2014"
+        },
+        {
+          "id": 575591,
+          "title": "George Michael: I'd Know Him a Mile Off",
+          "year": "2009"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-19T13:11:31.454Z"
+  },
   "david ayer": {
     "value": {
       "tmdbId": 19769,
@@ -6578,6 +6662,69 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.633Z"
+  },
+  "elizabeth allen rosenbaum": {
+    "value": {
+      "tmdbId": 1223175,
+      "wiki": {
+        "lang": "it",
+        "title": "Elizabeth Allen Rosenbaum",
+        "url": "https://it.wikipedia.org/wiki/Elizabeth_Allen_Rosenbaum",
+        "extract": "Elizabeth Allen Rosenbaum (Stony Brook, 1971) è una regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Elizabeth_Allen.jpg/500px-Elizabeth_Allen.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_Allen.jpg",
+        "author": "Michael Dahan",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1407874,
+          "title": "Mary Jane",
+          "year": null
+        },
+        {
+          "id": 1551025,
+          "title": "Guarding Stars",
+          "year": "2026"
+        },
+        {
+          "id": 762975,
+          "title": "Purple Hearts",
+          "year": "2022"
+        },
+        {
+          "id": 756187,
+          "title": "Sneakerentola",
+          "year": "2022"
+        },
+        {
+          "id": 317744,
+          "title": "Passione senza regole",
+          "year": "2015"
+        },
+        {
+          "id": 38843,
+          "title": "Ramona e Beezus",
+          "year": "2010"
+        },
+        {
+          "id": 14191,
+          "title": "Aquamarine",
+          "year": "2006"
+        },
+        {
+          "id": 601855,
+          "title": "Eyeball Eddie",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-19T13:11:32.426Z"
   },
   "enrique gato": {
     "value": {

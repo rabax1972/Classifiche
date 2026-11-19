@@ -1,4 +1,13 @@
 {
+  "": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/%E5%90%8D%E5%8F%96-%E4%BD%90%E5%92%8C%E5%AD%90/1800189815",
+      "died": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
+  },
   "a a milne": {
     "value": {
       "wiki": {
@@ -1873,6 +1882,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "claudia castiello": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/claudia-castiello/1265281499",
+      "died": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
+  },
   "claudio roe": {
     "value": {
       "wiki": null,
@@ -2142,6 +2160,15 @@
       "died": 1321
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "darcy burke": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/darcy-burke/528495031",
+      "died": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
   },
   "dario fabbri": {
     "value": {
@@ -5776,6 +5803,26 @@
     },
     "fetchedAt": "2026-10-20T04:53:34.429Z"
   },
+  "massimiliano colombo": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Massimiliano Colombo",
+        "url": "https://it.wikipedia.org/wiki/Massimiliano_Colombo",
+        "extract": "Massimiliano Colombo (Bergamo, 1966) è uno scrittore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Colombo_Massimiliano.jpg/500px-Colombo_Massimiliano.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Colombo_Massimiliano.jpg",
+        "author": "Aquilifer66",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/massimiliano-colombo/470101064",
+      "died": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
+  },
   "massimo d alema": {
     "value": {
       "wiki": {
@@ -5999,6 +6046,20 @@
       "died": null
     },
     "fetchedAt": "2026-11-04T05:15:08.084Z"
+  },
+  "michael ende": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Michael Ende",
+        "url": "https://it.wikipedia.org/wiki/Michael_Ende",
+        "extract": "Michael Andreas Helmuth Ende /ˈmɪçaːʔeːl ʔanˈdʁeːas ˈhɛlmuːt ˈʔɛndə/ (Garmisch-Partenkirchen, 12 novembre 1929 – Filderstadt, 28 agosto 1995) è stato uno scrittore, drammaturgo e librettista tedesco, universalmente noto soprattutto per i romanzi Momo e La storia infinita."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/michael-ende/68435718",
+      "died": 1995
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
   },
   "michail bulgakov": {
     "value": {
@@ -8007,6 +8068,26 @@
       "died": -496
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
+  },
+  "susan abulhawa": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Susan Abulhawa",
+        "url": "https://en.wikipedia.org/wiki/Susan_Abulhawa",
+        "extract": "Susan Abulhawa (Arabic: سوزان أبو الهوى; born 1970) is a Palestinian-American writer, and activist. She wrote the novels Mornings in Jenin, The Blue Between Sky and Water (2015), and Against the Loveless World (2020). She founded the children's organization Playgrounds for Palestine."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Susan_Abulhawa_%283x4_cropped_b%29.jpg/500px-Susan_Abulhawa_%283x4_cropped_b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Susan_Abulhawa_(3x4_cropped_b).jpg",
+        "author": "decltype",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/susan-abulhawa/427965613",
+      "died": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.165Z"
   },
   "suzanne collins": {
     "value": {

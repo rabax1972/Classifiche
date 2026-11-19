@@ -9812,6 +9812,43 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.599Z"
   },
+  "george michael the faith tour|andy morahan": {
+    "value": {
+      "tmdbId": 1649403,
+      "title": "George Michael: The Faith Tour",
+      "overview": "A stunning delve into George Michael's 1988 Faith Tour, as shot live at the famous Palais Omnisports de Paris-Bercy. This exclusive footage, assembled from a 14-camera shoot captured on 35mm over two nights (30–31 May 1988), features the 24-year-old pop star at the height of his powers.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Musica"
+      ],
+      "runtime": 113,
+      "released": "2026-11-06",
+      "vote": 9,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/LXqHnaJ4ffkcx5YCuJN1noxkhr.jpg",
+      "directors": [
+        {
+          "id": 4940102,
+          "name": "Andy Morahan"
+        },
+        {
+          "id": 1564922,
+          "name": "David Austin"
+        }
+      ],
+      "cast": [
+        {
+          "name": "George Michael",
+          "character": "Self (archive footage)"
+        }
+      ],
+      "trailer": "H_NwyHRY9yk",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-19T13:11:27.982Z"
+  },
   "ghost in the cell|joko anwar 2026": {
     "value": {
       "tmdbId": 1393326,
@@ -10656,6 +10693,68 @@
       }
     },
     "fetchedAt": "2026-10-19T04:48:45.172Z"
+  },
+  "guarding stars|elizabeth allen rosenbaum 2026": {
+    "value": {
+      "tmdbId": 1551025,
+      "title": "Guarding Stars",
+      "overview": "Una bodyguard risoluta raggiunge un ranch in Montana con l'attore famoso che deve proteggere, ma fingersi una coppia per Natale farà presto nascere una vera storia d'amore.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 109,
+      "released": "2026-11-18",
+      "vote": 7.2,
+      "votes": 14,
+      "poster": "https://image.tmdb.org/t/p/w500/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "directors": [
+        {
+          "id": 1223175,
+          "name": "Elizabeth Allen Rosenbaum"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Leighton Meester",
+          "character": "Hannah"
+        },
+        {
+          "name": "Jared Padalecki",
+          "character": "Jack"
+        },
+        {
+          "name": "Andie MacDowell",
+          "character": "Connie Stapleton"
+        },
+        {
+          "name": "Walker Hayes",
+          "character": "Sheriff Sanderson"
+        },
+        {
+          "name": "Noah LaLonde",
+          "character": "Hank Stapleton"
+        },
+        {
+          "name": "Toby Sandeman",
+          "character": "Robbie"
+        },
+        {
+          "name": "Phil Brooks",
+          "character": "Doghouse"
+        },
+        {
+          "name": "Ava Max",
+          "character": "Kennedy Monroe"
+        }
+      ],
+      "trailer": "gqwbXxEF5Fc",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-19T13:11:28.089Z"
   },
   "guerre stellari|george lucas 1977": {
     "value": {
