@@ -3873,6 +3873,48 @@
     },
     "fetchedAt": "2026-10-17T09:34:26.480Z"
   },
+  "clay kaytis": {
+    "value": {
+      "tmdbId": 1281387,
+      "wiki": {
+        "lang": "en",
+        "title": "Clay Kaytis",
+        "url": "https://en.wikipedia.org/wiki/Clay_Kaytis",
+        "extract": "Clay Kaytis (born March 22, 1973) is an American animator and film director, best known for directing the animated film The Angry Birds Movie (2016), the Christmas comedy film The Christmas Chronicles (2018), and the A Christmas Story sequel A Christmas Story Christmas (2022)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/bpCa0nPRJjxanavvcxL7g0kqoJT.jpg",
+      "films": [
+        {
+          "id": 929340,
+          "title": "A Christmas Story Christmas",
+          "year": "2022"
+        },
+        {
+          "id": 949581,
+          "title": "Snoopy presenta: A mamma (e papà) con amore",
+          "year": "2022"
+        },
+        {
+          "id": 881211,
+          "title": "Snoopy presenta: Anno nuovo vita nuova, Lucy",
+          "year": "2021"
+        },
+        {
+          "id": 527435,
+          "title": "Qualcuno salvi il Natale",
+          "year": "2018"
+        },
+        {
+          "id": 153518,
+          "title": "Angry Birds - Il film",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T12:56:26.077Z"
+  },
   "clint eastwood": {
     "value": {
       "tmdbId": 190,
@@ -5543,6 +5585,89 @@
     },
     "fetchedAt": "2026-11-11T05:20:40.762Z"
   },
+  "david o russell": {
+    "value": {
+      "tmdbId": 17883,
+      "wiki": {
+        "lang": "it",
+        "title": "David O. Russell",
+        "url": "https://it.wikipedia.org/wiki/David_O._Russell",
+        "extract": "David Owen Russell (New York, 20 agosto 1958) è un regista e sceneggiatore statunitense.\n\nHa ricevuto tre candidature ai Premi Oscar come miglior regista rispettivamente per i film The Fighter, Il lato positivo - Silver Linings Playbook e American Hustle - L'apparenza inganna. Ha inoltre vinto un Premio BAFTA e ricevuto 2 candidature all'Oscar come migliore sceneggiatura. Sono note le collaborazioni nei suoi film con Jennifer Lawrence, Bradley Cooper, Christian Bale, Amy Adams e Robert De Niro."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/David_O._Russell_avp_2014.jpg/500px-David_O._Russell_avp_2014.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_O._Russell_avp_2014.jpg",
+        "author": "Georges Biard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1229274,
+          "title": "Untitled Linda Ronstadt Biopic",
+          "year": null
+        },
+        {
+          "id": 1084687,
+          "title": "Super Toys",
+          "year": null
+        },
+        {
+          "id": 1475995,
+          "title": "Shutout",
+          "year": null
+        },
+        {
+          "id": 1131943,
+          "title": "Madden",
+          "year": "2026"
+        },
+        {
+          "id": 664469,
+          "title": "Amsterdam",
+          "year": "2022"
+        },
+        {
+          "id": 274479,
+          "title": "Joy",
+          "year": "2015"
+        },
+        {
+          "id": 316002,
+          "title": "Accidental Love",
+          "year": "2015"
+        },
+        {
+          "id": 168672,
+          "title": "American Hustle - L'apparenza inganna",
+          "year": "2013"
+        },
+        {
+          "id": 82693,
+          "title": "Il lato positivo - Silver Linings Playbook",
+          "year": "2012"
+        },
+        {
+          "id": 45317,
+          "title": "The Fighter",
+          "year": "2010"
+        },
+        {
+          "id": 1599,
+          "title": "I Heart Huckabees - Le strane coincidenze della vita",
+          "year": "2004"
+        },
+        {
+          "id": 275442,
+          "title": "Soldiers Pay",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T12:56:25.122Z"
+  },
   "david oliver pfeil": {
     "value": {
       "tmdbId": 106853,
@@ -7131,6 +7256,33 @@
       ]
     },
     "fetchedAt": "2026-11-09T05:19:24.192Z"
+  },
+  "fergal reilly": {
+    "value": {
+      "tmdbId": 52701,
+      "wiki": {
+        "lang": "en",
+        "title": "Fergal Reilly",
+        "url": "https://en.wikipedia.org/wiki/Fergal_Reilly",
+        "extract": "Fergal Reilly is an Irish film director, storyboard artist, voice actor and animator best known for directing the animated film The Angry Birds Movie."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 743226,
+          "title": "Ronan Boyle And The Book Of Riddles",
+          "year": null
+        },
+        {
+          "id": 153518,
+          "title": "Angry Birds - Il film",
+          "year": "2016"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T12:56:27.097Z"
   },
   "fernando meirelles": {
     "value": {
@@ -18138,6 +18290,63 @@
       ]
     },
     "fetchedAt": "2026-10-18T17:58:09.408Z"
+  },
+  "regina schilling": {
+    "value": {
+      "tmdbId": 240638,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1477087,
+          "title": "Ingeborg Bachmann: qui non c'è nessuna donna",
+          "year": "2026"
+        },
+        {
+          "id": 1162412,
+          "title": "Diese Sendung ist kein Spiel – Die unheimliche Welt des Eduard Zimmermann",
+          "year": "2023"
+        },
+        {
+          "id": 1025038,
+          "title": "Igor Levit: No Fear",
+          "year": "2022"
+        },
+        {
+          "id": 541519,
+          "title": "Kulenkampffs Schuhe",
+          "year": "2018"
+        },
+        {
+          "id": 310124,
+          "title": "Titos Brille",
+          "year": "2014"
+        },
+        {
+          "id": 297305,
+          "title": "Geschlossene Gesellschaft - Der Missbrauch an der Odenwaldschule",
+          "year": "2014"
+        },
+        {
+          "id": 36128,
+          "title": "24 h Berlin - Ein Tag im Leben",
+          "year": "2009"
+        },
+        {
+          "id": 719707,
+          "title": "Bierbichler",
+          "year": "2008"
+        },
+        {
+          "id": 65188,
+          "title": "Leben nach Microsoft",
+          "year": "2001"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T12:56:24.148Z"
   },
   "rhys frake waterfield": {
     "value": {

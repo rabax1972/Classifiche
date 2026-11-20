@@ -2192,6 +2192,110 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.602Z"
   },
+  "angry birds il film|clay kaytis": {
+    "value": {
+      "tmdbId": 153518,
+      "title": "Angry Birds - Il film",
+      "overview": "Nell'isola degli uccellini sono tutti felici e contenti, distribuiscono abbracci e adorano stare in gruppo e fare festa, convinti che non esista altro mondo al di là dei confini della loro terra. Tutti tutti? Non proprio. Le eccezioni alla norma rispondono al nome di Terence, un gigante apparentemente muto, Bomb, dal piumaggio nero ed esplosivo, Chuck, giallo e velocissimo, e soprattutto Red, l'uccellino rosso di rabbia.  Soprannominato “Sopracciglia”, Red è l'emarginato tra gli emarginati, tanto che la sua casa è persino fisicamente lontana dalle altre. Ma Red è anche una voce fuori dal coro, non certo un timido o un succube, e l'invasione dei maiali verdi offre l'occasione agli altri uccelli di capire che la sua voce andrebbe ascoltata più spesso, perché potrebbe andarne della loro sopravvivenza.",
+      "overviewLang": "it",
+      "tagline": "Il gioco si fa serio",
+      "originalTitle": "The Angry Birds Movie",
+      "genres": [
+        "Animazione",
+        "Avventura",
+        "Commedia",
+        "Famiglia"
+      ],
+      "runtime": 97,
+      "released": "2016-06-15",
+      "vote": 6.3,
+      "votes": 4200,
+      "poster": "https://image.tmdb.org/t/p/w500/4gBegVfloSN7yj9WGTRn0GGcfMB.jpg",
+      "directors": [
+        {
+          "id": 1281387,
+          "name": "Clay Kaytis"
+        },
+        {
+          "id": 52701,
+          "name": "Fergal Reilly"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jason Sudeikis",
+          "character": "Red (voice)"
+        },
+        {
+          "name": "Josh Gad",
+          "character": "Chuck (voice)"
+        },
+        {
+          "name": "Danny McBride",
+          "character": "Bomb (voice)"
+        },
+        {
+          "name": "Maya Rudolph",
+          "character": "Matilda (voice)"
+        },
+        {
+          "name": "Bill Hader",
+          "character": "Leonard (voice)"
+        },
+        {
+          "name": "Peter Dinklage",
+          "character": "Mighty Eagle (voice)"
+        },
+        {
+          "name": "Sean Penn",
+          "character": "Terence (voice)"
+        },
+        {
+          "name": "Keegan-Michael Key",
+          "character": "Judge Peckinpah (voice)"
+        }
+      ],
+      "trailer": "spDTDkTiwuc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/153518-the-angry-birds-movie/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-20T12:56:23.738Z"
+  },
   "animals|": {
     "value": {
       "tmdbId": 1236045,
@@ -17348,6 +17452,67 @@
     },
     "fetchedAt": "2026-10-18T17:56:44.617Z"
   },
+  "ingeborg bachmann qui non c e nessuna donna|regina schilling 2026": {
+    "value": {
+      "tmdbId": 1477087,
+      "title": "Ingeborg Bachmann: qui non c'è nessuna donna",
+      "overview": "La regista invita l’attrice Sandra Hüller a compiere insieme un viaggio a Roma, sulle tracce della grande scrittrice Ingeborg Bachmann, che visse nella capitale per quasi vent’anni. Immaginando una giornata qualunque degli ultimi giorni della sua vita, Sandra Hüller si immerge nelle parole della Bachmann, con una presenza fisica intensa e perturbante. Tra scene improvvisate, materiali d’archivio, frammenti di diari, lettere e testi, il film ripercorre la sua avventura poetica: i fantasmi della guerra, la consacrazione letteraria, il peso della fama, gli amori che l’hanno segnata e ferita, fino ai suoi ultimi giorni sola e ritirata. Il ritratto di una donna libera e insofferente alle categorizzazioni, che ha fatto della sua vita un’incessante lotta per trovare un suo modo di stare al mondo.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Ingeborg Bachmann – Jemand, der einmal ich war",
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 97,
+      "released": "2026-11-15",
+      "vote": 7.2,
+      "votes": 6,
+      "poster": "https://image.tmdb.org/t/p/w500/agMoDlETfvISN1JCK1FAgKaQEnx.jpg",
+      "directors": [
+        {
+          "id": 240638,
+          "name": "Regina Schilling"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sandra Hüller",
+          "character": "Self / Ingeborg Bachmann"
+        },
+        {
+          "name": "Ingeborg Bachmann",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Max Frisch",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Günter Grass",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Margot Fonteyn",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Hans Werner Henze",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Marcel Reich-Ranicki",
+          "character": "Self (archive footage)"
+        },
+        {
+          "name": "Siegfried Unseld",
+          "character": "Self (archive footage)"
+        }
+      ],
+      "trailer": "wEuGSREViiY",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-20T12:56:23.554Z"
+  },
   "inside out 2|kelsey mann 2024": {
     "value": {
       "tmdbId": 1022789,
@@ -23014,6 +23179,83 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:10.157Z"
+  },
+  "madden|david o russell 2026": {
+    "value": {
+      "tmdbId": 1131943,
+      "title": "Madden",
+      "overview": "Ispirato alla vita dell'amata icona americana John Madden, MADDEN racconta il suo percorso da vincitore del Super Bowl con Al Davis e i Raiders, a voce più riconoscibile voce del football americano, a creatore del videogioco mondiale Madden NFL. La celebrazione di una mente brillante il cui spirito e amore contagioso per la gente e per il football, insieme alla moglie Virginia, trascende lo sport.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma",
+        "Storia",
+        "Commedia"
+      ],
+      "runtime": 112,
+      "released": "2026-11-18",
+      "vote": 8,
+      "votes": 25,
+      "poster": "https://image.tmdb.org/t/p/w500/dMaxXSH6FIlBloyCLjDjhtdMQbE.jpg",
+      "directors": [
+        {
+          "id": 17883,
+          "name": "David O. Russell"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Nicolas Cage",
+          "character": "John Madden"
+        },
+        {
+          "name": "Christian Bale",
+          "character": "Al Davis"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Virginia Madden"
+        },
+        {
+          "name": "Sienna Miller",
+          "character": "Carol Davis"
+        },
+        {
+          "name": "John Mulaney",
+          "character": "Trip Hawkins"
+        },
+        {
+          "name": "Snoop Dogg",
+          "character": "Snoop Dogg"
+        },
+        {
+          "name": "Shane Gillis",
+          "character": "Vince McGary"
+        },
+        {
+          "name": "Marshawn Lynch",
+          "character": "Jerry Bell"
+        }
+      ],
+      "trailer": "xzh7HzLXXpk",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1131943-madden/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-20T12:56:23.636Z"
   },
   "maigret l amore e la morte|pascal bonitzer 2026": {
     "value": {

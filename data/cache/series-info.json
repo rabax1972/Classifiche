@@ -1122,6 +1122,121 @@
     },
     "fetchedAt": "2026-10-31T05:00:27.718Z"
   },
+  "banshee la citta del male|david schickler": {
+    "value": {
+      "tmdbId": 41727,
+      "title": "Banshee - La città del male",
+      "overview": "Lucas Hood, un ex-ladro, uscito di prigione dopo 15 anni, parte alla ricerca della sua ex-amante/partner e la rintraccia a Banshee, un paesino dove la donna si è costruita una nuova identità. Uno strano scherzo del destino gli offrirà l'opportunità di spacciarsi per lo sceriffo della città, il che lo porterà, però, a rimanere invischiato in trame e intrighi imprevedibili.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Banshee",
+      "genres": [
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 50,
+      "firstAired": "2013-01-11",
+      "lastAired": "2016-05-20",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 38,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2013-01-11",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2014-01-10",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2015-01-09",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2016-04-01",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Cinemax"
+      ],
+      "vote": 8,
+      "votes": 1502,
+      "poster": "https://image.tmdb.org/t/p/w500/uTFHSLT0DBGYuVM0XQarDLFapVh.jpg",
+      "creators": [
+        {
+          "id": 1255314,
+          "name": "David Schickler"
+        },
+        {
+          "id": 1274663,
+          "name": "Jonathan Tropper"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Antony Starr",
+          "character": "Lucas Hood"
+        },
+        {
+          "name": "Ivana Miličević",
+          "character": "Anastasia / Carrie Hopewell"
+        },
+        {
+          "name": "Hoon Lee",
+          "character": "Job"
+        },
+        {
+          "name": "Frankie Faison",
+          "character": "Sugar Bates"
+        },
+        {
+          "name": "Ulrich Thomsen",
+          "character": "Kai Proctor"
+        },
+        {
+          "name": "Matthew Rauch",
+          "character": "Clay Burton"
+        },
+        {
+          "name": "Trieste Kelly Dunn",
+          "character": "Deputy Siobhan Kelly"
+        },
+        {
+          "name": "Matt Servitto",
+          "character": "Deputy Brock Lotus"
+        }
+      ],
+      "trailer": "lE5CMog-Opk",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/41727-banshee/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-20T13:00:26.064Z"
+  },
   "below|jesse mckeown 2026": {
     "value": {
       "tmdbId": 285322,
@@ -1639,6 +1754,132 @@
       }
     },
     "fetchedAt": "2026-11-11T05:24:39.914Z"
+  },
+  "black mirror|charlie brooker 2011": {
+    "value": {
+      "tmdbId": 42009,
+      "title": "Black Mirror",
+      "overview": "Una serie antologica di racconti angosciosi e spiazzanti che rivelano i tratti umani più oscuri, le innovazioni più sensazionali e tanto altro ancora.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Dramma",
+        "Mistero"
+      ],
+      "episodeRuntime": 90,
+      "firstAired": "2011-12-04",
+      "lastAired": "2025-04-10",
+      "status": "Returning Series",
+      "seasons": 7,
+      "episodes": 33,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-12-04",
+          "episodes": 3
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2013-02-11",
+          "episodes": 4
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2016-10-21",
+          "episodes": 6
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2017-12-29",
+          "episodes": 6
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2019-06-05",
+          "episodes": 3
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2023-06-15",
+          "episodes": 5
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2025-04-10",
+          "episodes": 6
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Channel 4",
+        "Netflix"
+      ],
+      "vote": 8.3,
+      "votes": 6700,
+      "poster": "https://image.tmdb.org/t/p/w500/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+      "creators": [
+        {
+          "id": 211845,
+          "name": "Charlie Brooker"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hayley Atwell",
+          "character": "Martha Starmer"
+        },
+        {
+          "name": "Domhnall Gleeson",
+          "character": "Ash Starmer"
+        },
+        {
+          "name": "Rory Kinnear",
+          "character": "Michael Callow"
+        },
+        {
+          "name": "Lindsay Duncan",
+          "character": "Alex Cairns"
+        },
+        {
+          "name": "Donald Sumpter",
+          "character": "Julian Hereford"
+        },
+        {
+          "name": "Tom Goodman-Hill",
+          "character": "Tom Blice"
+        },
+        {
+          "name": "Toby Kebbell",
+          "character": "Liam Foxwell"
+        },
+        {
+          "name": "Lenora Crichlow",
+          "character": "Victoria Skillane"
+        }
+      ],
+      "trailer": "-oY6PvsVNqU",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/42009-black-mirror/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-20T13:00:25.313Z"
   },
   "bleach|2004": {
     "value": {
@@ -4637,6 +4878,7 @@
   "due uomini e mezzo|lee aronsohn": {
     "value": {
       "tmdbId": 2691,
+      "title": "Due uomini e mezzo",
       "overview": "Due fratelli, Charlie e Alan, per necessità si trovano a condividere lo stesso tetto, una grande villa sulla spiaggia. I due, però, sono molto differenti tra loro , sia per carattere che per stile di vita. Da un lato c'è Charlie (proprietario della casa) che di professione fa il compositore musicale per jingle pubblicitari e con un carattere molto estroverso, sicuro di se, estremamente viziato e con un gran successo con il sesso femminile. Dall'altro c'è Alan, che di professione fa il chiropratico e che invece sembra essere l'esatto opposto; uomo mite, tranquillo, molto preciso, separato e con un figlio di dieci anni di nome Jake al seguito. I due uomini e mezzo quindi danno vita a storie comiche nelle quali spesso entra prepotentemente anche la madre dei fratelli, Evelyn, una ricca agente immobiliare ma con la quale i due, sia Charlie che Alan, hanno un rapporto conflittuale.",
       "overviewLang": "it",
       "tagline": null,
@@ -4735,7 +4977,7 @@
         "CBS"
       ],
       "vote": 7.4,
-      "votes": 3815,
+      "votes": 3854,
       "poster": "https://image.tmdb.org/t/p/w500/jZmz0qtBzO3DBmQzMKEj0ES8vxU.jpg",
       "creators": [
         {
@@ -4811,7 +5053,7 @@
         ]
       }
     },
-    "fetchedAt": "2026-10-17T14:26:28.522Z"
+    "fetchedAt": "2026-11-20T13:00:25.549Z"
   },
   "e r medici in prima linea|michael crichton 1994": {
     "value": {
@@ -12052,6 +12294,129 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:23.044Z"
+  },
+  "new girl|elizabeth meriwether 2011": {
+    "value": {
+      "tmdbId": 1420,
+      "title": "New Girl",
+      "overview": "La nuova serie di Liz Meriwether, che punta i riflettori su un nuovo modo di relazionarsi tra i due sessi. La serie, segue le vicende di un gruppo di nuovi amici. La protagonista principale è Jess Day (Zooey Deschanel), una ragazza sulla tarda ventina, che a seguito della rottura con il fidanzato, deve cambiare casa e soprattutto riprendere in mano la sua vita sociale. Troverà un nuovo appartamento da condividere con altre persone: Nick (Jake Johnson), Schmidt (Max Greenfield) e Coach (Damon Wayans Jr). I tre ragazzi , molto diversi tra loro, avranno un ruolo importante nella nuova vita della coinquilina. Completa il gruppo, l’eterna migliore amica di Jess, la modella Cece (Hannah Simone). Ben presto i cinque instaureranno un ottimo rapporto e entreranno in perfetta sintonia, creando un’insolita famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "episodeRuntime": 22,
+      "firstAired": "2011-09-20",
+      "lastAired": "2018-05-15",
+      "status": "Ended",
+      "seasons": 7,
+      "episodes": 146,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2011-09-20",
+          "episodes": 24
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2012-09-25",
+          "episodes": 25
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2013-09-17",
+          "episodes": 23
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2014-09-16",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2016-01-05",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "2016-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "2018-04-10",
+          "episodes": 8
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "FOX"
+      ],
+      "vote": 7.4,
+      "votes": 1779,
+      "poster": "https://image.tmdb.org/t/p/w500/8oCqMlKKomCArVtyOjRzMN6g40Z.jpg",
+      "creators": [
+        {
+          "id": 513378,
+          "name": "Elizabeth Meriwether"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Zooey Deschanel",
+          "character": "Jessica 'Jess' Day"
+        },
+        {
+          "name": "Jake Johnson",
+          "character": "Nick Miller"
+        },
+        {
+          "name": "Max Greenfield",
+          "character": "Schmidt"
+        },
+        {
+          "name": "Lamorne Morris",
+          "character": "Winston Bishop"
+        },
+        {
+          "name": "Hannah Simone",
+          "character": "Cecilia 'Cece' Parikh"
+        },
+        {
+          "name": "Ciara Hanna",
+          "character": "Karli"
+        },
+        {
+          "name": "Damon Wayans Jr.",
+          "character": "Coach"
+        },
+        {
+          "name": "Lake Bell",
+          "character": "Amanda"
+        }
+      ],
+      "trailer": "0U1v971lit8",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1420-new-girl/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-20T13:00:25.818Z"
   },
   "nobody wants this|stagione 3": {
     "value": {
@@ -19585,6 +19950,133 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.238Z"
+  },
+  "the wire|david simon 2002": {
+    "value": {
+      "tmdbId": 1438,
+      "title": "The Wire",
+      "overview": "La trama dell'opera è basata sulla lotta tra una speciale unità di polizia e una potente banda che controlla il traffico di stupefacenti. La particolarità e l'innovazione della serie sta, oltre che nell'accurato realismo dei personaggi, siano essi poliziotti o membri delle gang, nel narrare passo dopo passo l'indagine di polizia, dalla nascita all'evolversi fino alla conclusione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 94,
+      "firstAired": "2002-06-02",
+      "lastAired": "2008-03-09",
+      "status": "Ended",
+      "seasons": 5,
+      "episodes": 60,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2002-06-02",
+          "episodes": 13
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2003-06-01",
+          "episodes": 12
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2004-09-19",
+          "episodes": 12
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2006-09-10",
+          "episodes": 13
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "2008-01-06",
+          "episodes": 10
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2006-08-20",
+          "episodes": 7
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "HBO"
+      ],
+      "vote": 8.6,
+      "votes": 2916,
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "creators": [
+        {
+          "id": 1218279,
+          "name": "David Simon"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Dominic West",
+          "character": "Jimmy McNulty"
+        },
+        {
+          "name": "Lance Reddick",
+          "character": "Cedric Daniels"
+        },
+        {
+          "name": "Sonja Sohn",
+          "character": "Kima Greggs"
+        },
+        {
+          "name": "Wood Harris",
+          "character": "Avon Barksdale"
+        },
+        {
+          "name": "Wendell Pierce",
+          "character": "Bunk Moreland"
+        },
+        {
+          "name": "Michael Kenneth Williams",
+          "character": "Omar Little"
+        },
+        {
+          "name": "Deirdre Lovejoy",
+          "character": "Rhonda Pearlman"
+        },
+        {
+          "name": "Idris Elba",
+          "character": "Stringer Bell"
+        }
+      ],
+      "trailer": "uDcQbk78CSw",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/1438-the-wire/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": [
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-20T13:00:26.062Z"
   },
   "true detective|nic pizzolatto": {
     "value": {

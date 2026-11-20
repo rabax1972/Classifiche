@@ -1978,6 +1978,26 @@
     },
     "fetchedAt": "2026-11-06T05:08:51.800Z"
   },
+  "corrado augias": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Corrado Augias",
+        "url": "https://it.wikipedia.org/wiki/Corrado_Augias",
+        "extract": "Corrado Augias (AFI: /ˈaud͡ʒas/; Roma, 26 gennaio 1935 – Roma, 19 novembre 2026) è stato un giornalista, scrittore, conduttore televisivo, autore televisivo, drammaturgo e politico italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Corrado_Augias_MEP_1994.jpg/500px-Corrado_Augias_MEP_1994.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Corrado_Augias_MEP_1994.jpg",
+        "author": "European Parliament Multimedia Centre",
+        "license": "European Parliament",
+        "licenseUrl": "https://www.europarl.europa.eu/legal-notice/"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/corrado-augias/287527385",
+      "died": 2026
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
+  },
   "cristina caboni": {
     "value": {
       "wiki": {
@@ -2209,6 +2229,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "david goggins": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "David Goggins",
+        "url": "https://en.wikipedia.org/wiki/David_Goggins",
+        "extract": "David Goggins (born February 17, 1975) is an American motivational speaker, athlete, author, former United States Air Force JTAC, and retired United States Navy SEAL. An ultramarathon runner, ultra-distance cyclist, and triathlete, he was inducted into the International Sports Hall of Fame in 2019 for both his achievements in sports and his service in the United States Armed Forces. His memoir Can't Hurt Me: Master Your Mind and Defy the Odds was a New York Times Best Seller. Goggins reenlisted in the Air Force in 2026 to attempt to become a pararescueman."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/DavidGogginsMay08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:DavidGogginsMay08.jpg",
+        "author": "Paul Rudman at https://www.flickr.com/photos/thecanonrattman/",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/david-goggins/1275360479",
+      "died": null
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
   },
   "david pogue": {
     "value": {
@@ -2744,6 +2784,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "ersilia vaudo": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/ersilia-vaudo/1681367827",
+      "died": null
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
+  },
   "esad ribic": {
     "value": {
       "wiki": {
@@ -3195,6 +3244,15 @@
       "died": 2014
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "gabriele bronzetti": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/gabriele-bronzetti/1318692249",
+      "died": null
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
   },
   "gabriella genisi": {
     "value": {
@@ -6830,6 +6888,26 @@
     },
     "fetchedAt": "2026-11-17T13:30:55.455Z"
   },
+  "philip roth": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Philip Roth",
+        "url": "https://it.wikipedia.org/wiki/Philip_Roth",
+        "extract": "Philip Milton Roth (Newark, 19 marzo 1933 – New York, 22 maggio 2018) è stato uno scrittore statunitense.\n\nÈ stato uno dei più noti e premiati scrittori statunitensi della sua generazione, considerato non solo tra i più importanti romanzieri ebrei di lingua inglese – una tradizione che annovera autori come Saul Bellow, Henry Roth, E. L. Doctorow, Bernard Malamud e Paul Auster – ma anche, secondo il critico Harold Bloom, il maggiore prosatore statunitense dopo Faulkner; per Bloom, «Roth è il culmine di un enigma irrisolto nella letteratura ebraica dei secoli XX e XXI. Le complesse influenze di Kafka e Freud e il malessere della vita ebraico-statunitense produssero in Philip un nuovo genere di sintesi»."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Philip_Roth_-_1973.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Philip_Roth_-_1973.jpg",
+        "author": "Nancy Crampton",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/philip-roth/2079982",
+      "died": 2018
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
+  },
   "piergiorgio pulixi": {
     "value": {
       "wiki": {
@@ -8481,6 +8559,15 @@
       "died": 1941
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "vito mancuso": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": null,
+      "died": null
+    },
+    "fetchedAt": "2026-11-20T12:56:22.767Z"
   },
   "vittorio vidotto": {
     "value": {

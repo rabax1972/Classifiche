@@ -1097,6 +1097,89 @@
     },
     "fetchedAt": "2026-10-31T05:00:30.440Z"
   },
+  "charlie brooker": {
+    "value": {
+      "tmdbId": 211845,
+      "wiki": {
+        "lang": "it",
+        "title": "Charlie Brooker",
+        "url": "https://it.wikipedia.org/wiki/Charlie_Brooker",
+        "extract": "Charlton Brooker detto Charlie (Reading, 3 marzo 1971) è uno sceneggiatore, conduttore televisivo, comico, satirista, produttore televisivo e scrittore britannico."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Charlie_Brooker.jpg/500px-Charlie_Brooker.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Charlie_Brooker.jpg",
+        "author": "Feline_Dacat",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 300315,
+          "title": "Blackmere",
+          "year": null
+        },
+        {
+          "id": 336465,
+          "title": "Blackmere",
+          "year": null
+        },
+        {
+          "id": 335981,
+          "title": "Cunk on Cinema",
+          "year": "2026"
+        },
+        {
+          "id": 79063,
+          "title": "Cunk on...",
+          "year": "2018"
+        },
+        {
+          "id": 58658,
+          "title": "Charlie Brooker's Weekly Wipe",
+          "year": "2013"
+        },
+        {
+          "id": 45482,
+          "title": "A Touch of Cloth",
+          "year": "2012"
+        },
+        {
+          "id": 42009,
+          "title": "Black Mirror",
+          "year": "2011"
+        },
+        {
+          "id": 35383,
+          "title": "How TV Ruined Your Life",
+          "year": "2011"
+        },
+        {
+          "id": 72961,
+          "title": "Charlie Brooker's Yearly Wipe",
+          "year": "2010"
+        },
+        {
+          "id": 30832,
+          "title": "Charlie Brooker's Gameswipe",
+          "year": "2009"
+        },
+        {
+          "id": 17968,
+          "title": "Newswipe with Charlie Brooker",
+          "year": "2009"
+        },
+        {
+          "id": 7831,
+          "title": "Dead Set",
+          "year": "2008"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T13:00:26.524Z"
+  },
   "charlie mills": {
     "value": {
       "tmdbId": 1215806,
@@ -1928,6 +2011,39 @@
     },
     "fetchedAt": "2026-10-27T04:51:37.554Z"
   },
+  "david schickler": {
+    "value": {
+      "tmdbId": 1255314,
+      "wiki": {
+        "lang": "en",
+        "title": "David Schickler",
+        "url": "https://en.wikipedia.org/wiki/David_Schickler",
+        "extract": "David Schickler (born July 30, 1969, in Rochester, New York) is an American screenwriter and author, most recently of the memoir The Dark Path, published by Riverhead Books in September 2013. He is the co-creator and an executive producer of the Cinemax television series Banshee, which premiered in 2013. He is the author of the New York Times bestselling short story collection Kissing in Manhattan (2001) and the nationally bestselling novel Sweet and Vicious (2004). He has written original and adapted scripts for Universal, Lions Gate, Sidney Kimmel and Wildwood Films.\n\nHis books have been published in nine countries and his stories have appeared in The New Yorker, Travel + Leisure, and Zoetrope: All-Story, as well as on Selected Shorts. His short story \"The Smoker\" won an O. Henry Award and was optioned by Paramount Pictures."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/David_Schickler_Headshot_2013.jpg/500px-David_Schickler_Headshot_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Schickler_Headshot_2013.jpg",
+        "author": "Intowonder",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 41727,
+          "title": "Banshee - La città del male",
+          "year": "2013"
+        },
+        {
+          "id": 62119,
+          "title": "Banshee: Origins",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T13:00:30.154Z"
+  },
   "david shore": {
     "value": {
       "tmdbId": 169061,
@@ -1980,6 +2096,59 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:54.369Z"
+  },
+  "david simon": {
+    "value": {
+      "tmdbId": 1218279,
+      "wiki": {
+        "lang": "it",
+        "title": "David Simon (scrittore)",
+        "url": "https://it.wikipedia.org/wiki/David_Simon_(scrittore)",
+        "extract": "David Judah Simon (Washington, 9 febbraio 1960) è uno scrittore, giornalista, sceneggiatore e produttore televisivo statunitense.\n\nLavorò come giornalista del Baltimore Sun per dodici anni (1982-1995) ed è l'autore di Homicide: A Year on the Killing Streets (1991) e The Corner: A Year in the Life of an Inner-City Neighborhood (1997), scritto con Ed Burns. Sul primo è basata la serie NBC Homicide (1993–99), di cui Simon è autore e produttore. Mentre il secondo libro è stato adattato dalla HBO per la miniserie The Corner (2000)."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/David_Simon_croped.jpg/500px-David_Simon_croped.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Simon_croped.jpg",
+        "author": "Peabody Awards",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 125949,
+          "title": "We Own This City - Potere e corruzione",
+          "year": "2022"
+        },
+        {
+          "id": 83870,
+          "title": "Il complotto contro l'America",
+          "year": "2020"
+        },
+        {
+          "id": 65817,
+          "title": "The Deuce - La via del porno",
+          "year": "2017"
+        },
+        {
+          "id": 17967,
+          "title": "Treme",
+          "year": "2010"
+        },
+        {
+          "id": 17035,
+          "title": "Generation Kill",
+          "year": "2008"
+        },
+        {
+          "id": 1438,
+          "title": "The Wire",
+          "year": "2002"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T13:00:28.520Z"
   },
   "debora cahn": {
     "value": {
@@ -2256,6 +2425,59 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:28.144Z"
+  },
+  "elizabeth meriwether": {
+    "value": {
+      "tmdbId": 513378,
+      "wiki": {
+        "lang": "it",
+        "title": "Elizabeth Meriwether",
+        "url": "https://it.wikipedia.org/wiki/Elizabeth_Meriwether",
+        "extract": "Elizabeth Hughes Meriwether (Miami, 11 ottobre 1981) è una sceneggiatrice e produttrice televisiva statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Flickr_-_Genevieve719_-_Elizabeth_Meriwether_%28cropped%29.jpg/500px-Flickr_-_Genevieve719_-_Elizabeth_Meriwether_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Genevieve719_-_Elizabeth_Meriwether_(cropped).jpg",
+        "author": "Genevieve",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 287238,
+          "title": "Furious",
+          "year": "2026"
+        },
+        {
+          "id": 241405,
+          "title": "Dying for Sex",
+          "year": "2025"
+        },
+        {
+          "id": 122066,
+          "title": "The Dropout",
+          "year": "2022"
+        },
+        {
+          "id": 86129,
+          "title": "Bless This Mess",
+          "year": "2019"
+        },
+        {
+          "id": 81127,
+          "title": "Single Parents",
+          "year": "2018"
+        },
+        {
+          "id": 1420,
+          "title": "New Girl",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T13:00:27.474Z"
   },
   "eric guggenheim": {
     "value": {
@@ -3714,6 +3936,54 @@
       ]
     },
     "fetchedAt": "2026-10-24T04:47:58.912Z"
+  },
+  "jonathan tropper": {
+    "value": {
+      "tmdbId": 1274663,
+      "wiki": {
+        "lang": "it",
+        "title": "Jonathan Tropper",
+        "url": "https://it.wikipedia.org/wiki/Jonathan_Tropper",
+        "extract": "Jonathan Tropper (New York, 19 febbraio 1970) è uno scrittore, sceneggiatore e produttore televisivo statunitense, nonché, docente alla Manhattan University."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Jonathan_Tropper_%28cropped%29.jpg/500px-Jonathan_Tropper_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Tropper_(cropped).jpg",
+        "author": "Bryan Berlin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 278624,
+          "title": "Lucky",
+          "year": "2026"
+        },
+        {
+          "id": 241609,
+          "title": "Your Friends & Neighbors",
+          "year": "2025"
+        },
+        {
+          "id": 73544,
+          "title": "Warrior",
+          "year": "2019"
+        },
+        {
+          "id": 41727,
+          "title": "Banshee - La città del male",
+          "year": "2013"
+        },
+        {
+          "id": 62119,
+          "title": "Banshee: Origins",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-20T13:00:31.120Z"
   },
   "julie plec": {
     "value": {
