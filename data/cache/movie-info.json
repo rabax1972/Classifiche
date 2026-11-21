@@ -18075,6 +18075,113 @@
     },
     "fetchedAt": "2026-10-18T09:33:09.981Z"
   },
+  "iron man|jon favreau 2008": {
+    "value": {
+      "tmdbId": 1726,
+      "title": "Iron Man",
+      "overview": "Dopo aver subito un grave incidente, il ricco e tormentato scienziato Tony Stark inventa una speciale tuta di ferro che gli garantisce la sopravvivenza e gli conferisce straordinari poteri. L'uomo decide ben presto di utilizzare l'armatura per combattere il male e proteggere il prossimo.",
+      "overviewLang": "it",
+      "tagline": "Gli eroi non nascono, vengono costruiti.",
+      "originalTitle": null,
+      "genres": [
+        "Azione",
+        "Fantascienza",
+        "Avventura"
+      ],
+      "runtime": 126,
+      "released": "2008-05-01",
+      "vote": 7.7,
+      "votes": 29231,
+      "poster": "https://image.tmdb.org/t/p/w500/xWXuFC4FY0inQ1QsnDrE7fGwFEd.jpg",
+      "directors": [
+        {
+          "id": 15277,
+          "name": "Jon Favreau"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Robert Downey Jr.",
+          "character": "Tony Stark"
+        },
+        {
+          "name": "Terrence Howard",
+          "character": "Rhodey"
+        },
+        {
+          "name": "Jeff Bridges",
+          "character": "Obadiah Stane"
+        },
+        {
+          "name": "Gwyneth Paltrow",
+          "character": "Pepper Potts"
+        },
+        {
+          "name": "Leslie Bibb",
+          "character": "Christine Everhart"
+        },
+        {
+          "name": "Shaun Toub",
+          "character": "Yinsen"
+        },
+        {
+          "name": "Faran Tahir",
+          "character": "Raza"
+        },
+        {
+          "name": "Clark Gregg",
+          "character": "Agent Coulson"
+        }
+      ],
+      "trailer": "hJc2YALCHdc",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1726-iron-man/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-21T09:30:33.159Z"
+  },
   "it ends|alexander ullom 2026": {
     "value": {
       "tmdbId": 1422011,

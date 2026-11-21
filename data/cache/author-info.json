@@ -4584,6 +4584,15 @@
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
   },
+  "joe dispenza": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/joe-dispenza/445837120",
+      "died": null
+    },
+    "fetchedAt": "2026-11-21T09:30:32.459Z"
+  },
   "johann wolfgang von goethe": {
     "value": {
       "wiki": {
@@ -6286,6 +6295,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "mika yamamori": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/mika-yamamori/1013834204",
+      "died": null
+    },
+    "fetchedAt": "2026-11-21T09:30:32.459Z"
+  },
   "mike maden": {
     "value": {
       "wiki": {
@@ -6542,6 +6560,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "nikolaj semenovic leskov": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Nikolaj Semënovič Leskov",
+        "url": "https://it.wikipedia.org/wiki/Nikolaj_Sem%C3%ABnovi%C4%8D_Leskov",
+        "extract": "Nikolaj Semënovič Leskov (in russo: Николай Семёнович Лесков) (Gorochovo, 16 febbraio 1831 – San Pietroburgo, 5 marzo 1895) è stato uno scrittore e giornalista russo.\n\nNelle sue opere descrisse la realtà sociale dell'impero zarista nella seconda metà del XIX secolo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Serov_Leskov.jpg/500px-Serov_Leskov.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Serov_Leskov.jpg",
+        "author": "Valentin Serov",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/nikolaj-sem%C3%ABnovi%C4%8D-leskov/841811890",
+      "died": 1895
+    },
+    "fetchedAt": "2026-11-21T09:30:32.459Z"
   },
   "oliver sacks": {
     "value": {
@@ -7284,6 +7322,26 @@
       "died": 1990
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "robert bryndza": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Bryndza",
+        "url": "https://it.wikipedia.org/wiki/Robert_Bryndza",
+        "extract": "Robert Bryndza, all'anagrafe Robert Sutton, (Lowestoft, 15 gennaio 1979) è uno scrittore, attore teatrale e commediografo britannico.\n\nIl suo thriller d'esordio, La donna di ghiaccio, ha in pochi mesi scalato le classifiche ed è stato tradotto in 30 lingue. Tutti i suoi romanzi sono bestseller internazionali e contano più di 4 milioni di copie vendute in tutto il mondo.\n\nLa Newton Compton ha pubblicato i thriller che hanno per protagonista Erika Foster (La donna di ghiaccio, La vittima perfetta, La ragazza nell'acqua, Ultimo respiro, Sangue freddo, Indizi mortali, Testimonianza fatale, L'angelo della morte e Un volto nell'ombra) e la serie con Kate Marshall (I cinque cadaveri, La casa nella nebbia, La verità sul caso Joanna Duncan, La mano del diavolo e La vittima mancante)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Robert_Bryndza_%282019%29.jpg/500px-Robert_Bryndza_%282019%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Robert_Bryndza_(2019).jpg",
+        "author": "Jindřich Nosek (NoJin)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/robert-bryndza/566116807",
+      "died": null
+    },
+    "fetchedAt": "2026-11-21T09:30:32.459Z"
   },
   "robert crais": {
     "value": {
@@ -8046,6 +8104,15 @@
       "died": 1842
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "stephanie archer": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/stephanie-archer/1597518921",
+      "died": null
+    },
+    "fetchedAt": "2026-11-21T09:30:32.459Z"
   },
   "stephen baxter": {
     "value": {

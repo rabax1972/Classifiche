@@ -885,6 +885,18 @@
     },
     "fetchedAt": "2026-10-19T04:47:20.607Z"
   },
+  "ferite|capo plaza": {
+    "value": {
+      "album": "FERITE",
+      "released": "2024-05-03",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 179609,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/03/75/44037501-be6e-5858-cf9e-aeba514c5637/5054197966187.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/ferite/1742277783?i=1742277796",
+      "wiki": null
+    },
+    "fetchedAt": "2026-11-21T09:29:59.361Z"
+  },
   "flamenco paranoia|samurai jay": {
     "value": {
       "album": "AMATORE",
@@ -986,6 +998,23 @@
       }
     },
     "fetchedAt": "2026-10-17T07:38:18.413Z"
+  },
+  "gotham|shiva": {
+    "value": {
+      "album": "Milano Angels",
+      "released": "2024-09-06",
+      "genre": "Hip-Hop/Rap",
+      "durationMs": 207346,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/e5/ba/afe5babf-3102-8ee2-9ecb-3375b9d0938b/196872118391.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/gotham-feat-kid-yugi/1765543345?i=1765543358",
+      "wiki": {
+        "lang": "it",
+        "title": "Gotham (Shiva)",
+        "url": "https://it.wikipedia.org/wiki/Gotham_(Shiva)",
+        "extract": "Gotham è un brano musicale del rapper italiano Shiva, pubblicato il 6 settembre 2024 come dodicesima traccia del sesto album in studio Milano Angels."
+      }
+    },
+    "fetchedAt": "2026-11-21T09:30:01.997Z"
   },
   "goya|fabri fibra": {
     "value": {

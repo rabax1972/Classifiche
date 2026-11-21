@@ -87,6 +87,10 @@
     "value": "Rodrigo Sorogoyen",
     "fetchedAt": "2026-11-11T05:18:55.953Z"
   },
+  "movie:1078446": {
+    "value": "Tommy Wirkola",
+    "fetchedAt": "2026-11-21T09:29:55.148Z"
+  },
   "movie:1081003": {
     "value": "Craig Gillespie",
     "fetchedAt": "2026-10-14T04:45:58.927Z"
@@ -483,6 +487,10 @@
     "value": "George Jaques",
     "fetchedAt": "2026-10-12T07:24:31.478Z"
   },
+  "movie:1280738": {
+    "value": "谷垣健治",
+    "fetchedAt": "2026-11-21T09:29:55.048Z"
+  },
   "movie:1281331": {
     "value": "Aaron Sorkin",
     "fetchedAt": "2026-10-12T07:24:28.337Z"
@@ -735,6 +743,10 @@
     "value": "Ridley Scott",
     "fetchedAt": "2026-10-27T04:45:48.962Z"
   },
+  "movie:1384528": {
+    "value": "Rajkumar Periasamy",
+    "fetchedAt": "2026-11-21T09:29:55.371Z"
+  },
   "movie:1384758": {
     "value": "John Donkin",
     "fetchedAt": "2026-11-20T12:54:52.386Z"
@@ -970,6 +982,10 @@
   "movie:1458215": {
     "value": "Randall Emmett",
     "fetchedAt": "2026-11-13T10:26:56.023Z"
+  },
+  "movie:1458249": {
+    "value": "Kevin Cate",
+    "fetchedAt": "2026-11-21T09:29:54.955Z"
   },
   "movie:1458300": {
     "value": "Peter Berg",
@@ -1462,6 +1478,10 @@
   "movie:1635771": {
     "value": "Andrew Baird",
     "fetchedAt": "2026-10-28T05:02:25.138Z"
+  },
+  "movie:1637705": {
+    "value": "Vishwak Sen",
+    "fetchedAt": "2026-11-21T09:29:55.246Z"
   },
   "movie:1639616": {
     "value": "Francesco Piras",
@@ -2114,6 +2134,10 @@
   "movie:447365": {
     "value": "James Gunn",
     "fetchedAt": "2026-10-19T04:45:37.466Z"
+  },
+  "movie:453": {
+    "value": "Ron Howard",
+    "fetchedAt": "2026-11-21T09:29:54.143Z"
   },
   "movie:454639": {
     "value": "Travis Knight",
@@ -3035,6 +3059,10 @@
     "value": "Dharmaraj Shetty",
     "fetchedAt": "2026-10-31T04:54:27.086Z"
   },
+  "tv:243761": {
+    "value": "최유나, 김가람",
+    "fetchedAt": "2026-11-21T09:29:55.767Z"
+  },
   "tv:243875": {
     "value": "Chuck Lorre, Steve Holland",
     "fetchedAt": "2026-10-23T04:45:50.627Z"
@@ -3167,6 +3195,10 @@
     "value": "Lee Aronsohn, Chuck Lorre",
     "fetchedAt": "2026-10-16T04:44:15.122Z"
   },
+  "tv:270429": {
+    "value": null,
+    "fetchedAt": "2026-11-21T09:29:55.985Z"
+  },
   "tv:270431": {
     "value": null,
     "fetchedAt": "2026-11-03T05:05:20.356Z"
@@ -3206,6 +3238,10 @@
   "tv:275139": {
     "value": "Nick Paley",
     "fetchedAt": "2026-10-21T04:46:17.612Z"
+  },
+  "tv:275204": {
+    "value": "Bhuvan Bam",
+    "fetchedAt": "2026-11-21T09:29:55.867Z"
   },
   "tv:275297": {
     "value": "何苦",
@@ -4010,6 +4046,10 @@
   "tv:342646": {
     "value": null,
     "fetchedAt": "2026-11-20T12:54:54.076Z"
+  },
+  "tv:342653": {
+    "value": null,
+    "fetchedAt": "2026-11-21T09:29:56.081Z"
   },
   "tv:34307": {
     "value": "Paul Abbott, John Wells",
