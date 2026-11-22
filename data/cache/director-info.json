@@ -694,6 +694,28 @@
     },
     "fetchedAt": "2026-10-17T09:32:03.656Z"
   },
+  "alyce tzue": {
+    "value": {
+      "tmdbId": 1641126,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/pKqaLQdnopMqKyMB89T7qbCiiLv.jpg",
+      "films": [
+        {
+          "id": 1595124,
+          "title": "Steps",
+          "year": "2026"
+        },
+        {
+          "id": 379559,
+          "title": "Soar",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-22T12:40:50.408Z"
+  },
   "amine adjina": {
     "value": {
       "tmdbId": 1965439,
@@ -8131,6 +8153,58 @@
     },
     "fetchedAt": "2026-10-20T04:53:36.110Z"
   },
+  "gary ross": {
+    "value": {
+      "tmdbId": 23964,
+      "wiki": {
+        "lang": "it",
+        "title": "Gary Ross",
+        "url": "https://it.wikipedia.org/wiki/Gary_Ross",
+        "extract": "Gary Ross (Los Angeles, 3 novembre 1956) è un regista, sceneggiatore, produttore cinematografico e scrittore statunitense.\n\nÈ conosciuto principalmente per i suoi lavori da sceneggiatore in pellicole come  Big, Dave - Presidente per un giorno e Seabiscuit - Un mito senza tempo, grazie ai quali ha ottenuto tre candidature ai Premi Oscar."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/xIQshBR5eJgzD7RjEXuRwfFvATW.jpg",
+      "films": [
+        {
+          "id": 1211907,
+          "title": "Old Time Hockey",
+          "year": null
+        },
+        {
+          "id": 615189,
+          "title": "Will",
+          "year": null
+        },
+        {
+          "id": 402900,
+          "title": "Ocean's 8",
+          "year": "2018"
+        },
+        {
+          "id": 316152,
+          "title": "Free State of Jones",
+          "year": "2016"
+        },
+        {
+          "id": 70160,
+          "title": "Hunger Games",
+          "year": "2012"
+        },
+        {
+          "id": 4464,
+          "title": "Seabiscuit - Un mito senza tempo",
+          "year": "2003"
+        },
+        {
+          "id": 2657,
+          "title": "Pleasantville",
+          "year": "1998"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-22T12:40:51.928Z"
+  },
   "gavin o connor": {
     "value": {
       "tmdbId": 77003,
@@ -10817,6 +10891,23 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.565Z"
+  },
+  "jesus colmenar": {
+    "value": {
+      "tmdbId": 1608537,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/pvfNjlwcwUFFuB9CSFgVcEGzUZt.jpg",
+      "films": [
+        {
+          "id": 1568060,
+          "title": "Perfetti bugiardi",
+          "year": "2026"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-22T12:40:49.423Z"
   },
   "joe hahn": {
     "value": {

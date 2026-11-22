@@ -496,6 +496,25 @@
     },
     "fetchedAt": "2026-10-31T04:55:15.391Z"
   },
+  "dua lipa": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Dua Lipa",
+        "url": "https://it.wikipedia.org/wiki/Dua_Lipa",
+        "extract": "Dua Lipa (IPA-en: /ˈduːə ˈliːpə/; albanese [ˈdua ˈlipa]; Londra, 22 agosto 1995) è una cantante e compositrice britannica di etnia kosovaro-albanese.\n\nFormatasi culturalmente e musicalmente tra Londra e Priština, si fece conoscere intorno ai 14 anni con cover di brani noti diffuse tramite YouTube.\n\nEsordì sul mercato nel 2015 per Warner Records con il singolo Be the One, successivamente inserito nel suo primo album Dua Lipa da cui furono tratti altri due singoli di successo, New Rules (2017) e IDGAF (2018)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/500px-Dua_Lipa-69798_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/dua-lipa/1031397873"
+    },
+    "fetchedAt": "2026-11-22T12:40:20.003Z"
+  },
   "dystinct": {
     "value": {
       "wiki": {

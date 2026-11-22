@@ -1298,6 +1298,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "bertrand russell": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Bertrand Russell",
+        "url": "https://it.wikipedia.org/wiki/Bertrand_Russell",
+        "extract": "Bertrand Arthur William Russell, III conte Russell (Trellech, 18 maggio 1872 – Penrhyndeudraeth, 2 febbraio 1970), è stato un nobile, filosofo, logico, matematico, attivista e saggista britannico.\n\nFu un autorevole esponente del movimento pacifista nonché divulgatore della filosofia, avvicinato alle correnti filosofiche del razionalismo, dell'antiteismo e del neopositivismo."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bertrand_Russell_photo.jpg/500px-Bertrand_Russell_photo.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bertrand_Russell_photo.jpg",
+        "author": "Bassano Ltd",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/bertrand-russell/2064319",
+      "died": 1970
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
+  },
   "bianca marconero": {
     "value": {
       "wiki": null,
@@ -1871,6 +1891,15 @@
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
+  "clare marchant": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/clare-marchant/1498739028",
+      "died": null
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
+  },
   "claude levi strauss": {
     "value": {
       "wiki": {
@@ -2040,6 +2069,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-18T04:45:57.229Z"
+  },
+  "cristina tomasi": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/cristina-tomasi/1689555526",
+      "died": null
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
   },
   "cs quill": {
     "value": {
@@ -5279,6 +5317,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "lily graham": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/lily-graham/975776008",
+      "died": null
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
+  },
   "lily king": {
     "value": {
       "wiki": {
@@ -6045,6 +6092,15 @@
       "died": null
     },
     "fetchedAt": "2026-10-24T04:44:07.102Z"
+  },
+  "max pezzali": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/max-pezzali/18239123",
+      "died": null
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
   },
   "maxine paetro": {
     "value": {
@@ -8601,6 +8657,15 @@
       "died": 1885
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
+  },
+  "victoria pinder": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/victoria-pinder/990760976",
+      "died": null
+    },
+    "fetchedAt": "2026-11-22T12:40:47.866Z"
   },
   "vincent mcdaniel": {
     "value": {
