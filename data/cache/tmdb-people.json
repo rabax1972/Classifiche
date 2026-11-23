@@ -171,6 +171,10 @@
     "value": "Giuseppe Tornatore",
     "fetchedAt": "2026-10-18T17:54:30.612Z"
   },
+  "movie:1122573": {
+    "value": "Guy Ritchie",
+    "fetchedAt": "2026-11-23T14:42:31.728Z"
+  },
   "movie:1123892": {
     "value": "Salvatore Mereu",
     "fetchedAt": "2026-10-29T04:57:36.673Z"
@@ -1415,6 +1419,14 @@
     "value": "Kiran Nadagouda",
     "fetchedAt": "2026-11-20T12:54:52.288Z"
   },
+  "movie:1611767": {
+    "value": "Carlson Young",
+    "fetchedAt": "2026-11-23T14:42:31.432Z"
+  },
+  "movie:1615391": {
+    "value": "Marcos Patrizzi Luporini, Juliano Prado",
+    "fetchedAt": "2026-11-23T14:42:31.630Z"
+  },
   "movie:1615596": {
     "value": "Ken Sanzel",
     "fetchedAt": "2026-11-07T05:03:33.722Z"
@@ -1803,6 +1815,10 @@
     "value": "Joe Berlinger",
     "fetchedAt": "2026-11-20T12:54:52.580Z"
   },
+  "movie:1792069": {
+    "value": "Nicolás Di Blasi",
+    "fetchedAt": "2026-11-23T14:42:31.533Z"
+  },
   "movie:1792170": {
     "value": "Tag Mendillo",
     "fetchedAt": "2026-11-04T05:13:45.194Z"
@@ -2155,6 +2171,10 @@
     "value": "Ron Howard",
     "fetchedAt": "2026-11-21T09:29:54.143Z"
   },
+  "movie:453395": {
+    "value": "Sam Raimi",
+    "fetchedAt": "2026-11-23T14:42:30.733Z"
+  },
   "movie:454639": {
     "value": "Travis Knight",
     "fetchedAt": "2026-10-19T12:25:47.784Z"
@@ -2423,6 +2443,10 @@
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-18T17:54:31.099Z"
   },
+  "movie:772": {
+    "value": "Chris Columbus",
+    "fetchedAt": "2026-11-23T14:42:30.517Z"
+  },
   "movie:77338": {
     "value": "Olivier Nakache, Éric Toledano",
     "fetchedAt": "2026-10-18T17:54:29.859Z"
@@ -2498,6 +2522,10 @@
   "movie:87513": {
     "value": "Potsy Ponciroli",
     "fetchedAt": "2026-11-14T11:29:21.936Z"
+  },
+  "movie:8871": {
+    "value": "Ron Howard",
+    "fetchedAt": "2026-11-23T14:42:30.650Z"
   },
   "movie:891621": {
     "value": "Martin McDonagh",
@@ -3411,6 +3439,10 @@
     "value": null,
     "fetchedAt": "2026-10-16T04:44:17.918Z"
   },
+  "tv:290826": {
+    "value": "Michael Schur, Amy Poehler",
+    "fetchedAt": "2026-11-23T14:42:32.206Z"
+  },
   "tv:290856": {
     "value": "Spencer Hudnut",
     "fetchedAt": "2026-10-12T07:25:01.686Z"
@@ -3558,6 +3590,10 @@
   "tv:303182": {
     "value": "Curro Serrano",
     "fetchedAt": "2026-11-13T10:26:56.545Z"
+  },
+  "tv:303552": {
+    "value": "최수",
+    "fetchedAt": "2026-11-23T14:42:32.316Z"
   },
   "tv:303630": {
     "value": "Robert King, Michelle King",
@@ -4054,6 +4090,10 @@
   "tv:340566": {
     "value": "Danny Robins",
     "fetchedAt": "2026-11-22T12:39:41.525Z"
+  },
+  "tv:340615": {
+    "value": null,
+    "fetchedAt": "2026-11-23T14:42:32.409Z"
   },
   "tv:340784": {
     "value": null,

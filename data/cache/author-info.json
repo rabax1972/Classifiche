@@ -2791,6 +2791,26 @@
     },
     "fetchedAt": "2026-10-25T04:47:00.737Z"
   },
+  "erich fromm": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Erich Fromm",
+        "url": "https://it.wikipedia.org/wiki/Erich_Fromm",
+        "extract": "Erich Seligmann Fromm (Francoforte sul Meno, 23 marzo 1900 – Muralto, 18 marzo 1980) è stato uno psicologo, psicoanalista e filosofo tedesco."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Erich_Fromm_1974.jpg/500px-Erich_Fromm_1974.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Erich_Fromm_1974.jpg",
+        "author": "Müller-May",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/erich-fromm/152709628",
+      "died": 1980
+    },
+    "fetchedAt": "2026-11-23T14:43:08.631Z"
+  },
   "erich maria remarque": {
     "value": {
       "wiki": {
@@ -7210,6 +7230,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "raquel riley": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/raquel-riley/1674115547",
+      "died": null
+    },
+    "fetchedAt": "2026-11-23T14:43:08.631Z"
+  },
   "ray bradbury": {
     "value": {
       "wiki": {
@@ -8912,6 +8941,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "yasushi inoue": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Yasushi Inoue",
+        "url": "https://it.wikipedia.org/wiki/Yasushi_Inoue",
+        "extract": "Yasushi Inoue (井上靖 Inoue Yasushi) (Asahikawa, 6 maggio 1907 – Tokyo, 29 gennaio 1991) è stato uno scrittore giapponese.\n\nLa maggior parte della sua produzione è dedicata a romanzi storici ambientati alla fine del cinquecento, sia in Giappone, sia in altri paesi dell'Asia."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Inoue_Yasushi.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Inoue_Yasushi.JPG",
+        "author": "朝日新聞社",
+        "license": "Public domain",
+        "licenseUrl": null
+      },
+      "appleUrl": "https://books.apple.com/it/artist/yasushi-inoue/546126077",
+      "died": 1991
+    },
+    "fetchedAt": "2026-11-23T14:43:08.631Z"
   },
   "yiyun li": {
     "value": {

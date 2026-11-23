@@ -4299,6 +4299,29 @@
     "value": null,
     "fetchedAt": "2026-10-18T17:53:54.776Z"
   },
+  "tt45368240": {
+    "value": {
+      "adult": false,
+      "backdrop_path": "/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1765072,
+      "title": "You Can See Everything",
+      "original_language": "en",
+      "original_title": "You Can See Everything",
+      "overview": "Trentaquattro giorni prima di entrare in prigione, Elizabeth Holmes, la controversa fondatrice di una società della Silicon Valley, invita una troupe cinematografica scettica a documentare ogni suo passo. Quello che inizia come un ritratto intimo di una figura enigmatica condannata per frode si trasforma in un sorprendente viaggio di tre anni negli abissi di una realtà sempre più inquietante e difficile da decifrare.",
+      "popularity": 64.2048,
+      "poster_path": "/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "release_date": "2026-10-16",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.8,
+      "vote_count": 155,
+      "media_type": "movie"
+    },
+    "fetchedAt": "2026-11-23T14:42:34.699Z"
+  },
   "tt4574334": {
     "value": null,
     "fetchedAt": "2026-10-18T17:53:37.234Z"
@@ -4364,6 +4387,10 @@
   "tt4832262": {
     "value": null,
     "fetchedAt": "2026-10-18T17:54:12.583Z"
+  },
+  "tt48933918": {
+    "value": null,
+    "fetchedAt": "2026-11-23T14:42:34.599Z"
   },
   "tt49985562": {
     "value": null,

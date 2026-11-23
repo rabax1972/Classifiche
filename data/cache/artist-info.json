@@ -1256,6 +1256,25 @@
     },
     "fetchedAt": "2026-10-17T07:58:02.215Z"
   },
+  "mariah carey": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Mariah Carey",
+        "url": "https://it.wikipedia.org/wiki/Mariah_Carey",
+        "extract": "Mariah Carey (IPA: [məˈraɪə ˈkɛəɹi]; Huntington, 27 marzo 1969) è una cantautrice, attrice e produttrice discografica statunitense.\n\nCon oltre 220 milioni di album venduti in tutto il mondo, è annoverata fra gli artisti di maggior successo nella storia della popular music. Ha contribuito all'ascesa della musica hip hop con il brano Fantasy del 1995 che ha reso popolari le collaborazioni tra cantanti e rapper, divenute sempre più comuni nell'industria discografica.\n\nIn patria, è la cantautrice con più dischi venduti negli anni novanta, con 467 settimane nella Billboard Hot 100 e 21 hit certificate (superando, in quel decennio, Madonna e le sue 355 settimane in classifica). I suoi album in studio, dal 1990 a oggi, hanno sempre raggiunto la top 10 della Billboard 200, mentre i suoi singoli sono tutti entrati nella Billboard Hot 100."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/MariahSandringham150825-3_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:MariahSandringham150825-3_(cropped).jpg",
+        "author": "Raph_PH",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/mariah-carey/91853"
+    },
+    "fetchedAt": "2026-11-23T14:42:44.918Z"
+  },
   "marracash": {
     "value": {
       "wiki": {
@@ -1992,6 +2011,25 @@
       "appleUrl": "https://music.apple.com/it/artist/w-sound/1620506341"
     },
     "fetchedAt": "2026-10-17T07:59:07.400Z"
+  },
+  "wham": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Wham!",
+        "url": "https://it.wikipedia.org/wiki/Wham!",
+        "extract": "I Wham! sono stati un duo pop britannico, costituito, nel 1981, dal cantante e compositore George Michael e dal chitarrista Andrew Ridgeley, scioltosi nel 1986 su iniziativa del cantante. Per un breve periodo erano conosciuti negli Stati Uniti come Wham! U.K., a causa di un conflitto di denominazione con un'altra band, dopodiché diventarono così famosi in tutto il mondo da oscurare l'omonima band statunitense. Il nome deriva da una delle onomatopee utilizzate nei fumetti."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Wham%21_circa_1984-1985_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Wham!_circa_1984-1985_(cropped).jpg",
+        "author": "Louise Palanker",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/wham/548421"
+    },
+    "fetchedAt": "2026-11-23T14:42:41.711Z"
   },
   "yorghaki": {
     "value": {

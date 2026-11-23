@@ -2553,45 +2553,45 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 928,
+      "episodes": 934,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/60/df/86/60df8673-646c-3f2a-f8b7-9760f600dde9/mza_14624240689900897619.jpg/600x600bb.jpg",
       "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/79898bd7-e2b3-461d-ac48-b08c00647ce3/b231fed3-1e9e-4280-b585-b08c00647d45/podcast.rss",
       "description": "Miti da sfatare è una guida pratica per smontare le moltissime convinzioni che hanno influenzato le nostre vite sin da bambini e che, in molti casi, continuano ancora a condizionare. Il nostro obiettivo è quello di sfidare le nostre e le vostre certezze, offrendo un approccio basato su fonti autorevoli, ricerche approfondite e esperimenti concreti, al fine di promuovere una comprensione più accurata e informata della realtà. In ogni puntata analizzeremo un mito diverso: le sue origini storiche, quelle culturali, ma soprattutto la sua (spesso) totale infondatezza scientifica. Una possibile fonte per soddisfare la vostra sete di curiosità quotidiana o, se non altro, degli ottimi spunti di conversazione per ravvivare quelle cene piene di silenzi imbarazzanti che tutti odiamo.",
       "website": "https://video.repubblica.it/rss/miti-da-sfatare.rss",
       "latest": [
         {
-          "title": "Abbiate paura dei T-Rex | 866",
-          "date": "2026-11-15",
-          "seconds": 539,
-          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/abbiate-paura-dei-t-rex-%7C-866/4812/4814"
+          "title": "Il garage dei miliardari | 872",
+          "date": "2026-11-22",
+          "seconds": 544,
+          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/il-garage-dei-miliardari-%7C-872/4854/4857"
         },
         {
-          "title": "Luoghi molto umani con Gianpiero Kesten | 865",
-          "date": "2026-11-13",
-          "seconds": 579,
-          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/luoghi-molto-umani-con-gianpiero-kesten-%7C-865/4811/4813"
+          "title": "Proverbi molto umani con Gianpiero Kesten | 871",
+          "date": "2026-11-20",
+          "seconds": 615,
+          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/proverbi-molto-umani-con-gianpiero-kesten-%7C-871/4816/4818"
         },
         {
-          "title": "Una merenda spaziale | 864",
-          "date": "2026-11-12",
-          "seconds": 566,
-          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/una-merenda-spaziale-%7C-864/4779/4781"
+          "title": "Miti da spillare | 870",
+          "date": "2026-11-19",
+          "seconds": 384,
+          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/miti-da-spillare-%7C-870/4847/4850"
         },
         {
-          "title": "Mezzogiorno di fuoco | 863",
-          "date": "2026-11-11",
-          "seconds": 548,
-          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/mezzogiorno-di-fuoco-%7C-863/4778/4780"
+          "title": "Miti da detoxare | 869",
+          "date": "2026-11-18",
+          "seconds": 523,
+          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/miti-da-detoxare-%7C-869/4815/4817"
         },
         {
-          "title": "La fisica dei calzini | 862",
-          "date": "2026-11-10",
-          "seconds": 530,
-          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/la-fisica-dei-calzini-%7C-862/4777/4779"
+          "title": "La sconfitta dello zucchero di canna | 868",
+          "date": "2026-11-17",
+          "seconds": 508,
+          "url": "https://video.onepodcast.it/audioseries/miti-da-sfatare/la-sconfitta-dello-zucchero-di-canna-%7C-868/4814/4816"
         }
       ]
     },
-    "fetchedAt": "2026-11-16T12:54:21.148Z"
+    "fetchedAt": "2026-11-23T14:47:05.828Z"
   },
   "podcast:nera": {
     "value": {
@@ -4099,6 +4099,19 @@
       ]
     },
     "fetchedAt": "2026-11-18T13:14:06.046Z"
+  },
+  "podcast:two humans in the loop": {
+    "value": {
+      "appleUrl": null,
+      "genres": [],
+      "episodes": null,
+      "cover": null,
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-11-23T14:47:02.769Z"
   },
   "podcast:ultimi attimi": {
     "value": {

@@ -120,6 +120,23 @@
     },
     "fetchedAt": "2026-10-22T04:44:52.608Z"
   },
+  "all i want for christmas is you|mariah carey": {
+    "value": {
+      "album": "Merry Christmas",
+      "released": "1994-10-28",
+      "genre": "Natale: pop",
+      "durationMs": 241562,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c6/b7/27/c6b727f7-3a32-6b43-cee2-05bb71daf1cf/dj.itfmdeif.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/all-i-want-for-christmas-is-you/585972750?i=585972803",
+      "wiki": {
+        "lang": "it",
+        "title": "All I Want for Christmas Is You",
+        "url": "https://it.wikipedia.org/wiki/All_I_Want_for_Christmas_Is_You",
+        "extract": "All I Want for Christmas Is You è un singolo della cantautrice statunitense Mariah Carey, pubblicato il 1º novembre 1994 come primo estratto dal quarto album in studio Merry Christmas.\n\nSi stima che il brano abbia generato oltre 100000000 $ di royalties. Ha inoltre venduto 18 milioni di copie, diventando il singolo natalizio più venduto da una cantante femminile e quello più popolare di sempre da una donna in patria.\n\nSi tratta inoltre del singolo festivo col maggior numero di settimane (22) trascorse in cima alla Billboard Hot 100."
+      }
+    },
+    "fetchedAt": "2026-11-23T14:42:38.985Z"
+  },
   "alta marea don t dream it s over|antonello venditti": {
     "value": {
       "album": "Le donne",
@@ -1296,6 +1313,23 @@
       }
     },
     "fetchedAt": "2026-10-17T07:31:03.061Z"
+  },
+  "last christmas single version|wham": {
+    "value": {
+      "album": "Last Christmas",
+      "released": "1984-12-01",
+      "genre": "Natale",
+      "durationMs": 262960,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/eb/4a/f9/eb4af984-fc68-56ab-7b89-1d070c04e1dd/5099765318524.jpg/600x600bb.jpg",
+      "appleUrl": "https://music.apple.com/it/album/last-christmas-single-version/202117886?i=202117984",
+      "wiki": {
+        "lang": "it",
+        "title": "Last Christmas",
+        "url": "https://it.wikipedia.org/wiki/Last_Christmas",
+        "extract": "Last Christmas è un singolo del gruppo musicale britannico Wham, pubblicato il 3 dicembre 1984 come primo estratto dal terzo album in studio Music from the Edge of Heaven."
+      }
+    },
+    "fetchedAt": "2026-11-23T14:42:36.568Z"
   },
   "leggenda|geolier": {
     "value": {
