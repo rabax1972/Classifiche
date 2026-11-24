@@ -58,38 +58,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/24mattino",
       "latest": [
         {
-          "title": "La giornata in 24 minuti del 17 novembre",
-          "date": "2026-11-17",
+          "title": "La giornata in 24 minuti del 24 novembre",
+          "date": "2026-11-24",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261117-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261117-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261124-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261124-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 16 novembre",
-          "date": "2026-11-16",
+          "title": "La giornata in 24 minuti del 23 novembre",
+          "date": "2026-11-23",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261116-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261116-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261123-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261123-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 13 novembre",
-          "date": "2026-11-13",
+          "title": "La giornata in 24 minuti del 20 novembre",
+          "date": "2026-11-20",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261113-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261113-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261120-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261120-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti del 12 novembre",
-          "date": "2026-11-12",
+          "title": "La giornata in 24 minuti del 19 novembre",
+          "date": "2026-11-19",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261112-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261112-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261119-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261119-24mattino"
         },
         {
-          "title": "La giornata in 24 minuti dell'11 novembre",
-          "date": "2026-11-11",
+          "title": "La giornata in 24 minuti del 18 novembre",
+          "date": "2026-11-18",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261111-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261111-24mattino"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261118-24mattino.mp3?awCollectionId=24mattino&awEpisodeId=261118-24mattino"
         }
       ]
     },
-    "fetchedAt": "2026-11-17T13:35:11.163Z"
+    "fetchedAt": "2026-11-24T15:02:07.766Z"
   },
   "podcast:3 fattori": {
     "value": {
@@ -479,6 +479,52 @@
     },
     "fetchedAt": "2026-11-20T13:01:37.711Z"
   },
+  "podcast:b2b lounge": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/the-leopard-b2b-lounge/id1132755801",
+      "genres": [
+        "Economia"
+      ],
+      "episodes": 6,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/dc/33/f6/dc33f66c-6d3f-201f-6704-33b741236677/mza_4860556006095143196.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.soundcloud.com/users/soundcloud:users:232755915/sounds.rss",
+      "description": "The Leopard B2B Lounge is an expert-to-expert conversation about the complexities of business-to-business marketing.\nLeopard is an enablement specialty unity of Ogilvy focused on helping B2B companies translate the complexities of the B2B world into content and conversations that sell.",
+      "website": "http://www.leopard.com",
+      "latest": [
+        {
+          "title": "AI, 5G, Mixed Reality, Blockchain and Quantum computing: what marketers need to know today",
+          "date": "2018-07-12",
+          "seconds": 1575,
+          "url": "https://soundcloud.com/leopardb2blounge/ai-5g-mixed-reality-blockchain-and-quantum-what-marketers-need-to-know-today"
+        },
+        {
+          "title": "5 lessons for B2B marketers for 2018",
+          "date": "2017-08-21",
+          "seconds": 1893,
+          "url": "https://soundcloud.com/leopardb2blounge/5-big-trends-in-b2b-marketing"
+        },
+        {
+          "title": "A history of women in advertising",
+          "date": "2017-06-09",
+          "seconds": 1122,
+          "url": "https://soundcloud.com/leopardb2blounge/a-history-of-women-in-advertising"
+        },
+        {
+          "title": "How to choose an advertising agency",
+          "date": "2017-03-21",
+          "seconds": 2193,
+          "url": "https://soundcloud.com/leopardb2blounge/how-to-choose-an-advertising-agency"
+        },
+        {
+          "title": "Understanding artificial intelligence or: How I learned to stop worrying and love the bots",
+          "date": "2017-01-03",
+          "seconds": 1634,
+          "url": "https://soundcloud.com/leopardb2blounge/understanding-artificial-intelligence-or-how-i-learned-to-stop-worrying-and-love-the-bots"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:55.190Z"
+  },
   "podcast:binario 11": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/binario-11-la-storia-della-finanza-mentre-la-stai-vivendo/id1802845638",
@@ -810,6 +856,54 @@
     },
     "fetchedAt": "2026-11-21T09:34:44.790Z"
   },
+  "podcast:cibo per la mente": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/cibo-per-la-mente-stare-bene-nella-societ%C3%A0-di-oggi/id1816921790",
+      "genres": [
+        "Salute mentale",
+        "Salute e benessere",
+        "Alimentazione"
+      ],
+      "episodes": 13,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/95/72/1b957278-9a6e-b8c4-bc39-3585064aa092/mza_6495784525056465629.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/ciboperlamente",
+      "description": "In questo video-podcast proveremo a fare una cosa semplice ma rivoluzionaria: mettere in discussione la versione di benessere che ci viene proposta ogni giorno da social, marketing e media.\nParleremo di cervello, movimento, emozioni, relazioni, cibo, lavoro, e di tutti quei pezzi che compongono il nostro equilibrio interiore.\nPuntata dopo puntata, insieme alle esperte di Serenis Milena Frontini (biologa nutrizionista) e Agnese Cannistraci (psicoterapeuta), e a tanti ospiti, ci chiederemo: e se stare bene non fosse una questione di performance, ma di ascolto?\nPer ricostruire una visione del benessere più realistica, più umana, e soprattutto più nostra.\nUna puntata in uscita ogni due settimane.\nScritto e prodotto da Factanza Media.\nCondotto da Olimpia Peroni.\nPer gli ascoltatori di questo podcast Milk e Serenis offrono una convenzione speciale per accedere a una prima visita con uno psicoterapeuta e un nutrizionista.",
+      "website": null,
+      "latest": [
+        {
+          "title": "S2 Ep. 6 - Sonno e rigenerazione (con Simona Cortopassi)",
+          "date": "2026-10-01",
+          "seconds": 3271,
+          "url": null
+        },
+        {
+          "title": "S2 Ep.5 - Lunga vita all'amicizia (con Paolo Borzacchiello)",
+          "date": "2026-09-18",
+          "seconds": 2470,
+          "url": null
+        },
+        {
+          "title": "S2 Ep.4 - Il tempo del lavoro (con Giorgia Fumo)",
+          "date": "2026-09-04",
+          "seconds": 3874,
+          "url": null
+        },
+        {
+          "title": "S3 Ep. 3 - La ricetta del futuro (con Mattia Pieri)",
+          "date": "2026-07-01",
+          "seconds": 2202,
+          "url": null
+        },
+        {
+          "title": "S2 Ep. 2 - Hackerare il benessere (con Nicola Triglione)",
+          "date": "2026-06-17",
+          "seconds": 2737,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:58.136Z"
+  },
   "podcast:come le cipolle": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/come-le-cipolle-lo-sguardo-di-stefania-andreoli/id6827205917",
@@ -943,6 +1037,52 @@
       ]
     },
     "fetchedAt": "2026-11-20T13:01:59.052Z"
+  },
+  "podcast:crime scene podcast": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/crime-scene-podcast/id1839917426",
+      "genres": [
+        "True crime"
+      ],
+      "episodes": 61,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/15/66/091566b3-a67b-fb93-74ae-bab3ff18a5ee/mza_11987938713312787833.jpg/600x600bb.jpg",
+      "feedUrl": "https://www.spreaker.com/show/6737553/episodes/feed",
+      "description": "Crime Scene è il podcast che racconta storie vere di crimini, sparizioni e misteri irrisolti. Ogni episodio è un’indagine narrativa che ricostruisce i fatti, analizza i dettagli e dà voce alle domande che spesso restano senza risposta.",
+      "website": "https://www.spreaker.com/podcast/crime-scene-podcast--6737553",
+      "latest": [
+        {
+          "title": "61 La Storia di Gisella Orrù",
+          "date": "2026-11-23",
+          "seconds": 2149,
+          "url": "https://www.spreaker.com/episode/61-la-storia-di-gisella-orru--76534712"
+        },
+        {
+          "title": "60 La Storia di Luigi Criscuolo",
+          "date": "2026-11-16",
+          "seconds": 2192,
+          "url": "https://www.spreaker.com/episode/60-la-storia-di-luigi-criscuolo--76393643"
+        },
+        {
+          "title": "59 La Storia di Bianca Devins",
+          "date": "2026-11-09",
+          "seconds": 2222,
+          "url": "https://www.spreaker.com/episode/59-la-storia-di-bianca-devins--76250069"
+        },
+        {
+          "title": "58 La Storia del Purificatore di Anime",
+          "date": "2026-11-02",
+          "seconds": 1915,
+          "url": "https://www.spreaker.com/episode/58-la-storia-del-purificatore-di-anime--76088820"
+        },
+        {
+          "title": "57 La Storia di Barbara Cicioni",
+          "date": "2026-10-26",
+          "seconds": 2058,
+          "url": "https://www.spreaker.com/episode/57-la-storia-di-barbara-cicioni--75993202"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:02:10.040Z"
   },
   "podcast:de core": {
     "value": {
@@ -1271,53 +1411,6 @@
     },
     "fetchedAt": "2026-11-20T13:01:29.052Z"
   },
-  "podcast:direful tales": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/direful-tales/id1544996218",
-      "genres": [
-        "True crime",
-        "Istruzione"
-      ],
-      "episodes": 355,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c0/ad/f2/c0adf2fd-3a9c-de17-6743-0e2669581b45/mza_6408399598496336356.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/direfultales",
-      "description": "Misteri irrisolti e omicidi efferati sono i temi principali di Direful Tales. Lasciatevi guidare dalla voce di Valentina e sollevate con noi il velo dell'ignoto.\nVISITA IL NOSTRO SITO: https://www.direfultales.com/\nSEGUI SU INSTAGRAM: @direfultales\nSOSTIENICI SU PATREON: patreon.com/ladireful\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/ — 📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
-      "website": "https://www.direfultales.com/",
-      "latest": [
-        {
-          "title": "(9x11) Melania Rea",
-          "date": "2026-11-16",
-          "seconds": 4367,
-          "url": null
-        },
-        {
-          "title": "(9X10) Macelleria Messicana - La Scuola Diaz",
-          "date": "2026-11-09",
-          "seconds": 2759,
-          "url": null
-        },
-        {
-          "title": "(9X09) Carlo Giuliani - Ragazzo",
-          "date": "2026-11-02",
-          "seconds": 2285,
-          "url": null
-        },
-        {
-          "title": "(9X08) Erika con la K - Erika Pierno",
-          "date": "2026-10-26",
-          "seconds": 2243,
-          "url": null
-        },
-        {
-          "title": "(9X07) La Strage di Altavilla - SECONDA PARTE",
-          "date": "2026-10-19",
-          "seconds": 2254,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-17T13:35:07.373Z"
-  },
   "podcast:domande prime": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/domande-prime/id1896830918",
@@ -1418,12 +1511,18 @@
       "genres": [
         "True crime"
       ],
-      "episodes": 332,
+      "episodes": 333,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/e8/c6/b5e8c67e-a488-9d26-4a0b-27640d3f583c/mza_4600444727411874338.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/DPENPODCAST2708549029",
       "description": "Racconteremo nel dettaglio alcuni dei crimini italiani più famosi e celebri la cui ricostruzione, anche a distanza di anni, non è ancora chiara. Cercheremo di fare chiarezza sulle ricostruzioni più agghiaccianti di omicidi che hanno sconvolto l'opinione pubblica italiana. In tutti questi crimini il colpevole non ha confessato e non esiste la certezza assoluta della colpevolezza degli indagati. Dpen Crimini vuole indagare le profondità più oscure dell'animo umano.",
       "website": "https://dpenpodcast.wixsite.com/website",
       "latest": [
+        {
+          "title": "Valentina Salamone- La ragazza che non si è uccisa (parte 3)",
+          "date": "2026-11-23",
+          "seconds": 3001,
+          "url": null
+        },
         {
           "title": "Valentina Salamone- La ragazza che non si è uccisa (parte 2)",
           "date": "2026-11-16",
@@ -1447,16 +1546,10 @@
           "date": "2026-10-26",
           "seconds": 3477,
           "url": null
-        },
-        {
-          "title": "Antonella Di Veroli — Il mistero più oscuro della cronaca romana",
-          "date": "2026-10-19",
-          "seconds": 3211,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-17T13:35:04.261Z"
+    "fetchedAt": "2026-11-24T15:02:03.913Z"
   },
   "podcast:elisa true crime": {
     "value": {
@@ -1503,6 +1596,113 @@
       ]
     },
     "fetchedAt": "2026-11-19T13:15:44.625Z"
+  },
+  "podcast:est radio": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/facciamolo-est-radio/id1617830413",
+      "genres": [
+        "Sessualità",
+        "Salute e benessere"
+      ],
+      "episodes": 83,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f1/01/2c/f1012c29-a08c-6f75-b9ef-a1ba13e5807b/mza_9681645653323218393.jpg/600x600bb.jpg",
+      "feedUrl": "https://anchor.fm/s/8702e1a8/podcast/rss",
+      "description": "Un podcast di Est Radio e Livio Ricciardi.\nFACCIAMOLO è incentrato sulla divulgazione e il trattamento di tematiche legate a psicologia e sessuologia. L'intenzione principale è quella di sfatare tabù, analizzare aspetti psico-sociali e farsi un paio di risate.",
+      "website": "https://www.estclothing.eu/pages/podcast?fbclid=PAZXh0bgNhZW0CMTEAAadwVnEDyIvAU1d5OTvth1DJA89Xme79c1ZegfCHw5e1UK_9Mn9LBg0r9r7LDQ_aem_65e2nHoiKeWuc9_wUs1MqA",
+      "latest": [
+        {
+          "title": "FACCIAMOLO SBAGLIATO - Erez1one",
+          "date": "2026-11-23",
+          "seconds": 1823,
+          "url": "https://podcasters.spotify.com/pod/show/estradiofacciamolo/episodes/FACCIAMOLO-SBAGLIATO---Erez1one-e3sqnkv"
+        },
+        {
+          "title": "FACCIAMOLO // Ep. 65 PSICHEDELICI con Tommaso Barba",
+          "date": "2026-06-08",
+          "seconds": 3306,
+          "url": "https://podcasters.spotify.com/pod/show/estradiofacciamolo/episodes/FACCIAMOLO--Ep--65-PSICHEDELICI-con-Tommaso-Barba-e3kdtb9"
+        },
+        {
+          "title": "Ep. 64 DIFFERENZE DI GENERE con Prof. Del Giudice",
+          "date": "2026-05-25",
+          "seconds": 5360,
+          "url": "https://podcasters.spotify.com/pod/show/estradiofacciamolo/episodes/Ep--64-DIFFERENZE-DI-GENERE-con-Prof--Del-Giudice-e3js3mk"
+        },
+        {
+          "title": "Ep.63 FACCIAMOLO con Hachiko",
+          "date": "2026-04-27",
+          "seconds": 3187,
+          "url": "https://podcasters.spotify.com/pod/show/estradiofacciamolo/episodes/Ep-63-FACCIAMOLO-con-Hachiko-e3ihdm7"
+        },
+        {
+          "title": "SDEP - Accettare la rottura",
+          "date": "2026-04-20",
+          "seconds": 1951,
+          "url": "https://podcasters.spotify.com/pod/show/estradiofacciamolo/episodes/SDEP---Accettare-la-rottura-e3i5sl7"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:02:00.949Z"
+  },
+  "podcast:fantacycling": {
+    "value": {
+      "appleUrl": null,
+      "genres": [],
+      "episodes": null,
+      "cover": null,
+      "feedUrl": null,
+      "description": null,
+      "website": null,
+      "latest": []
+    },
+    "fetchedAt": "2026-11-24T15:01:48.812Z"
+  },
+  "podcast:flush it con turbopaolo": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/flush-it-con-turbopaolo/id6819215801",
+      "genres": [
+        "Umorismo: interviste",
+        "Umorismo"
+      ],
+      "episodes": 7,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/7e/6a/be7e6a14-e6f2-a6fa-cf70-73ee906cbdf0/mza_5143835871051845733.jpeg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/MNTHA1532214562",
+      "description": "Tutti i giorni qualcuno ci spiega come vivere meglio. Consigli non richiesti, trend fastidiosi, formule magiche, gadget inutili.\nMa ci serve davvero tutto questo? Forse è il momento di tirare lo sciacquone. Vi presentiamo Flush it, il nuovo video podcast prodotto da Vois in collaborazione con Geberit, in cui Turbopaolo e i suoi ospiti decidono cosa merita di restare a galla e cosa invece va giù per il tubo.\nOgni puntata è un bivio continuo: scelte drastiche, quiz, qualche approfondimento e tanta ironia, il tutto nel Geberit Experience Center, la location più adatta per parlare di sciacquoni.\nDal 7 Ottobre ore 12:30 è disponibile il primo episodio, su YouTube, Spotify e su tutte le piattaforme podcast.",
+      "website": "https://www.geberit.it/landingpages/per-un-bagno-migliore/?gad_source=1&gad_campaignid=24116718921&gbraid=0AAAAAqtOs84ESuZ5xogklN8xeHddrPLRM&gclid=CjwKCAjwrP3VBhBbEiwAnaqpQzXFxIP2CafoKKrLugh-SkdXzW6wt6WfcGpo3U4Z98s9P_Ok1w6X1xoCWLAQAvD_BwE#section-migliore-per-te",
+      "latest": [
+        {
+          "title": "Quanti lavabi ci sono nella casa perfetta? | con Lorenzo Magni",
+          "date": "2026-11-11",
+          "seconds": 1528,
+          "url": null
+        },
+        {
+          "title": "Pesi, cardio e sonno: quali abitudini ti fanno vivere più a lungo? | con Giacomo Spazzini",
+          "date": "2026-11-04",
+          "seconds": 1087,
+          "url": null
+        },
+        {
+          "title": "Design: bello o funzionale? | con Breccia",
+          "date": "2026-10-28",
+          "seconds": 1240,
+          "url": null
+        },
+        {
+          "title": "Hyrox, buone abitudini e allenamento: cosa funziona davvero | con Silvia Fascians",
+          "date": "2026-10-21",
+          "seconds": 1461,
+          "url": null
+        },
+        {
+          "title": "Ci serve davvero tutta questa tecnologia? Con Otto Climan",
+          "date": "2026-10-14",
+          "seconds": 1531,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:51.891Z"
   },
   "podcast:focus economia": {
     "value": {
@@ -2692,14 +2892,14 @@
         "True crime",
         "Storia"
       ],
-      "episodes": 48,
+      "episodes": 55,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cd/c4/50/cdc45026-8185-00d0-bfb4-4b9404fa2525/mza_5174099905959982804.jpeg/600x600bb.jpg",
       "feedUrl": null,
       "description": null,
       "website": null,
       "latest": []
     },
-    "fetchedAt": "2026-11-17T13:34:58.358Z"
+    "fetchedAt": "2026-11-24T15:01:46.131Z"
   },
   "podcast:non aprite quella podcast": {
     "value": {
@@ -4112,54 +4312,6 @@
       "latest": []
     },
     "fetchedAt": "2026-11-23T14:47:02.769Z"
-  },
-  "podcast:ultimi attimi": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/ultimi-attimi/id1524361166",
-      "genres": [
-        "Drammatici",
-        "Narrativa",
-        "News"
-      ],
-      "episodes": 101,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/37/fb/9237fb9e-d6dd-c550-4414-92fa64244ade/mza_1172533726683726672.jpeg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/ultimiattimi",
-      "description": "Le storie degli incidenti aerei che hanno colpito l'opinione pubblica, e cambiato la storia dell'aviazione. Gli ultimi attimi di voli maledetti, tra eroismi estremi ed errori evitabili.\nSupporta il podcast qui: www.patreon.com/ultimiattimi\nTutti i link qui: https://linktr.ee/ultimiattimi\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/ — 📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
-      "website": "http://www.ultimiattimi.it",
-      "latest": [
-        {
-          "title": "Miracolo a Sioux City - volo United Airlines 232 PARTE I",
-          "date": "2026-11-16",
-          "seconds": 2784,
-          "url": null
-        },
-        {
-          "title": "Miracolo a Sioux City - Volo United Airlines 232 PARTE II",
-          "date": "2026-11-16",
-          "seconds": 2434,
-          "url": null
-        },
-        {
-          "title": "Vendetta mortale - Collisione su Uberlingen PARTE I",
-          "date": "2026-11-02",
-          "seconds": 2607,
-          "url": null
-        },
-        {
-          "title": "Vendetta mortale - Collisione su Uberlingen PARTE II",
-          "date": "2026-11-02",
-          "seconds": 2842,
-          "url": null
-        },
-        {
-          "title": "Il mistero di D.B. Cooper - PARTE I",
-          "date": "2026-10-19",
-          "seconds": 2796,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-17T13:35:01.426Z"
   },
   "podcast:un avvertimento prima di iniziare": {
     "value": {

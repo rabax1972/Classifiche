@@ -875,6 +875,10 @@
     "value": "Phontharis Chotkijsadarsopon",
     "fetchedAt": "2026-11-13T12:13:26.934Z"
   },
+  "movie:1421903": {
+    "value": "Robert Eggers",
+    "fetchedAt": "2026-11-24T14:56:06.901Z"
+  },
   "movie:1422": {
     "value": "Martin Scorsese",
     "fetchedAt": "2026-10-18T17:54:28.998Z"
@@ -1859,6 +1863,10 @@
     "value": "Motonori Sakakibara",
     "fetchedAt": "2026-10-25T04:46:05.966Z"
   },
+  "movie:1802703": {
+    "value": "Chris Smith",
+    "fetchedAt": "2026-11-24T14:56:06.786Z"
+  },
   "movie:1802723": {
     "value": "Cosimo Scarpello",
     "fetchedAt": "2026-10-25T04:46:04.275Z"
@@ -1922,6 +1930,10 @@
   "movie:1825468": {
     "value": null,
     "fetchedAt": "2026-11-14T08:00:52.802Z"
+  },
+  "movie:1829270": {
+    "value": "Leandro Manuel Emede",
+    "fetchedAt": "2026-11-24T14:56:06.711Z"
   },
   "movie:1830834": {
     "value": null,
@@ -2443,6 +2455,10 @@
     "value": "Christopher Nolan",
     "fetchedAt": "2026-10-18T17:54:31.099Z"
   },
+  "movie:771": {
+    "value": "Chris Columbus",
+    "fetchedAt": "2026-11-24T14:56:05.766Z"
+  },
   "movie:772": {
     "value": "Chris Columbus",
     "fetchedAt": "2026-11-23T14:42:30.517Z"
@@ -2458,6 +2474,10 @@
   "movie:791523": {
     "value": "Travis Knight",
     "fetchedAt": "2026-10-12T07:24:55.029Z"
+  },
+  "movie:801688": {
+    "value": "Nag Ashwin",
+    "fetchedAt": "2026-11-24T14:56:05.666Z"
   },
   "movie:803796": {
     "value": "Maggie Kang, Chris Appelhans",
@@ -3635,6 +3655,10 @@
     "value": null,
     "fetchedAt": "2026-10-14T04:46:01.383Z"
   },
+  "tv:306609": {
+    "value": null,
+    "fetchedAt": "2026-11-24T14:56:07.288Z"
+  },
   "tv:306614": {
     "value": null,
     "fetchedAt": "2026-10-31T04:54:27.191Z"
@@ -4099,6 +4123,10 @@
     "value": null,
     "fetchedAt": "2026-11-12T12:46:15.640Z"
   },
+  "tv:341164": {
+    "value": null,
+    "fetchedAt": "2026-11-24T14:56:07.397Z"
+  },
   "tv:341436": {
     "value": null,
     "fetchedAt": "2026-11-12T12:46:16.665Z"
@@ -4331,6 +4359,10 @@
     "value": "Marc Cherry",
     "fetchedAt": "2026-10-12T07:24:50.101Z"
   },
+  "tv:69740": {
+    "value": "Bill Dubuque, Mark Williams",
+    "fetchedAt": "2026-11-24T14:56:06.272Z"
+  },
   "tv:70672": {
     "value": null,
     "fetchedAt": "2026-11-10T05:03:02.321Z"
@@ -4382,6 +4414,10 @@
   "tv:79744": {
     "value": "Alexi Hawley",
     "fetchedAt": "2026-10-12T07:24:46.798Z"
+  },
+  "tv:80240": {
+    "value": "Andrés Salgado",
+    "fetchedAt": "2026-11-24T14:56:06.172Z"
   },
   "tv:80748": {
     "value": "Dick Wolf, Craig Turk",

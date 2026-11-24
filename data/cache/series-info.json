@@ -8845,6 +8845,106 @@
     },
     "fetchedAt": "2026-10-31T05:00:26.824Z"
   },
+  "la regina del flow|andres salgado 2018": {
+    "value": {
+      "tmdbId": 80240,
+      "title": "La regina del flow",
+      "overview": "Dopo aver trascorso diciassette anni in prigione ingiustamente, una talentuosa cantautrice cerca vendetta sugli uomini che l'hanno affondata e ucciso la sua famiglia.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "La Reina del Flow",
+      "genres": [
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 53,
+      "firstAired": "2018-06-12",
+      "lastAired": "2026-03-10",
+      "status": "Returning Series",
+      "seasons": 3,
+      "episodes": 237,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2018-06-12",
+          "episodes": 82
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2021-04-26",
+          "episodes": 90
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2026-01-13",
+          "episodes": 65
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Caracol TV"
+      ],
+      "vote": 8,
+      "votes": 1584,
+      "poster": "https://image.tmdb.org/t/p/w500/fuVuDYrs8sxvEolnYr0wCSvtyTi.jpg",
+      "creators": [
+        {
+          "id": 2097380,
+          "name": "Andrés Salgado"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Carolina Ramírez",
+          "character": "Yeimy Montoya / Tammy Andrade"
+        },
+        {
+          "name": "Carlos Torres",
+          "character": "Charly Flow"
+        },
+        {
+          "name": "Mabel Moreno",
+          "character": "Gema Granados"
+        },
+        {
+          "name": "Juan Manuel Restrepo",
+          "character": "Erik Cruz / Young Charly Flow"
+        },
+        {
+          "name": "Andrés Sandoval",
+          "character": "Juan Camilo Mesa \"Juancho\""
+        },
+        {
+          "name": "María José Vargas",
+          "character": "Yeimy Montoya"
+        },
+        {
+          "name": "Adriana Arango",
+          "character": "Ligia"
+        },
+        {
+          "name": "Mariana Gómez",
+          "character": "Irma 'El Huracán'"
+        }
+      ],
+      "trailer": "sZjBH4cuO5k",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/80240-la-reina-del-flow/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-24T15:01:36.629Z"
+  },
   "la vita segreta delle mogli mormoni|2024": {
     "value": {
       "tmdbId": 261102,
@@ -13228,6 +13328,116 @@
       }
     },
     "fetchedAt": "2026-10-31T05:00:26.941Z"
+  },
+  "ozark|bill dubuque": {
+    "value": {
+      "tmdbId": 69740,
+      "title": "Ozark",
+      "overview": "Un consulente finanziario trascina la famiglia da Chicago in una località turistica dell'Ozark per riciclare 500 milioni di dollari in 5 anni per un boss della droga.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 72,
+      "firstAired": "2017-07-21",
+      "lastAired": "2022-04-29",
+      "status": "Ended",
+      "seasons": 4,
+      "episodes": 44,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2017-07-21",
+          "episodes": 10
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2018-08-31",
+          "episodes": 10
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2020-03-27",
+          "episodes": 10
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2022-01-21",
+          "episodes": 14
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 8.2,
+      "votes": 3005,
+      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+      "creators": [
+        {
+          "id": 1281388,
+          "name": "Bill Dubuque"
+        },
+        {
+          "id": 206574,
+          "name": "Mark Williams"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jason Bateman",
+          "character": "Marty Byrde"
+        },
+        {
+          "name": "Laura Linney",
+          "character": "Wendy Byrde"
+        },
+        {
+          "name": "Sofia Hublitz",
+          "character": "Charlotte Byrde"
+        },
+        {
+          "name": "Skylar Gaertner",
+          "character": "Jonah Byrde"
+        },
+        {
+          "name": "Julia Garner",
+          "character": "Ruth Langmore"
+        },
+        {
+          "name": "Jordana Spiro",
+          "character": "Rachel Garrison"
+        },
+        {
+          "name": "Jason Butler Harner",
+          "character": "Roy Petty"
+        },
+        {
+          "name": "Charlie Tahan",
+          "character": "Wyatt Langmore"
+        }
+      ],
+      "trailer": "RDuSZMhXUSM",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/69740-ozark/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-24T15:01:36.630Z"
   },
   "paw patrol la squadra dei cuccioli|keith chapman 2013": {
     "value": {
@@ -18693,6 +18903,133 @@
       }
     },
     "fetchedAt": "2026-10-18T14:25:24.521Z"
+  },
+  "the gilded age|julian fellowes 2022": {
+    "value": {
+      "tmdbId": 81723,
+      "title": "The Gilded Age",
+      "overview": "New York, 1882: la giovane Marian si trasferisce dalle zie a New York e incontra la dura realtà dell'alta società.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 54,
+      "firstAired": "2022-01-24",
+      "lastAired": "2026-11-15",
+      "status": "Returning Series",
+      "seasons": 4,
+      "episodes": 33,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2022-01-24",
+          "episodes": 9
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "2023-10-28",
+          "episodes": 8
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "2025-06-22",
+          "episodes": 8
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "2026-11-01",
+          "episodes": 8
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2022-03-05",
+          "episodes": 16
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-11-29",
+        "season": 4,
+        "episode": 5
+      },
+      "networks": [
+        "HBO"
+      ],
+      "vote": 7.7,
+      "votes": 303,
+      "poster": "https://image.tmdb.org/t/p/w500/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
+      "creators": [
+        {
+          "id": 10747,
+          "name": "Julian Fellowes"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Carrie Coon",
+          "character": "Bertha Russell"
+        },
+        {
+          "name": "Morgan Spector",
+          "character": "George Russell"
+        },
+        {
+          "name": "Louisa Jacobson",
+          "character": "Marian Brook"
+        },
+        {
+          "name": "Denée Benton",
+          "character": "Peggy Scott"
+        },
+        {
+          "name": "Taissa Farmiga",
+          "character": "Gladys Russell"
+        },
+        {
+          "name": "Harry Richardson",
+          "character": "Larry Russell"
+        },
+        {
+          "name": "Blake Ritson",
+          "character": "Oscar van Rhijn"
+        },
+        {
+          "name": "Simon Jones",
+          "character": "Alfred Bannister"
+        }
+      ],
+      "trailer": "wKj1cMz3yfI",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Sky Go",
+            "logo": "https://image.tmdb.org/t/p/w92/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+          },
+          {
+            "name": "Now TV",
+            "logo": "https://image.tmdb.org/t/p/w92/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+          },
+          {
+            "name": "HBO Max Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/64fLWeSyZ1KQZhIdvTdy4QHeWty.png"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "https://image.tmdb.org/t/p/w92/skypuy7SXuugIQeYg0IglmzoKaS.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-24T15:01:36.533Z"
   },
   "the last kingdom|stephen butchard 2015": {
     "value": {

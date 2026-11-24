@@ -289,6 +289,48 @@
     },
     "fetchedAt": "2026-10-21T04:53:44.683Z"
   },
+  "andres salgado": {
+    "value": {
+      "tmdbId": 2097380,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 80240,
+          "title": "La regina del flow",
+          "year": "2018"
+        },
+        {
+          "id": 64161,
+          "title": "Celia",
+          "year": "2015"
+        },
+        {
+          "id": 66398,
+          "title": "Diomedes, el Cacique de La Junta",
+          "year": "2015"
+        },
+        {
+          "id": 107222,
+          "title": "Made in Cartagena",
+          "year": "2012"
+        },
+        {
+          "id": 126368,
+          "title": "El Joe: La leyenda",
+          "year": "2011"
+        },
+        {
+          "id": 219167,
+          "title": "Juegos Prohibidos",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:38.703Z"
+  },
   "andrew w marlowe": {
     "value": {
       "tmdbId": 57532,
@@ -676,6 +718,33 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:53:43.677Z"
+  },
+  "bill dubuque": {
+    "value": {
+      "tmdbId": 1281388,
+      "wiki": {
+        "lang": "en",
+        "title": "Bill Dubuque",
+        "url": "https://en.wikipedia.org/wiki/Bill_Dubuque",
+        "extract": "Bill Dubuque is an American screenwriter known for such films as The Accountant, A Family Man, The Judge, and the television series Ozark."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/fOasIvmeoPExyNTfKEGa4XqhmW.jpg",
+      "series": [
+        {
+          "id": 262388,
+          "title": "M.I.A.",
+          "year": "2026"
+        },
+        {
+          "id": 69740,
+          "title": "Ozark",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:39.142Z"
   },
   "bill lawrence": {
     "value": {
@@ -3985,6 +4054,69 @@
     },
     "fetchedAt": "2026-11-20T13:00:31.120Z"
   },
+  "julian fellowes": {
+    "value": {
+      "tmdbId": 10747,
+      "wiki": {
+        "lang": "it",
+        "title": "Julian Fellowes",
+        "url": "https://it.wikipedia.org/wiki/Julian_Fellowes",
+        "extract": "Julian Fellowes, nome completo Julian Alexander Kitchener-Fellowes, barone Fellowes di West Stafford (Il Cairo, 17 agosto 1949), è un attore, sceneggiatore e scrittore britannico.\n\nNel 2002 ha vinto l'Oscar alla migliore sceneggiatura originale per il film Gosford Park. Sempre per lo stesso film è stato candidato anche ai Golden Globe 2002 e ai Premi BAFTA 2002.\n\nNel 2011 ha vinto un Premio Emmy per la miglior sceneggiatura per un film, miniserie o speciale drammatico per Downton Abbey."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Official_portrait_of_Lord_Fellowes_of_West_Stafford_crop_2.jpg/500px-Official_portrait_of_Lord_Fellowes_of_West_Stafford_crop_2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Lord_Fellowes_of_West_Stafford_crop_2.jpg",
+        "author": "Chris McAndrew",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 81723,
+          "title": "The Gilded Age",
+          "year": "2022"
+        },
+        {
+          "id": 100052,
+          "title": "The English Game",
+          "year": "2020"
+        },
+        {
+          "id": 85862,
+          "title": "Belgravia",
+          "year": "2020"
+        },
+        {
+          "id": 65805,
+          "title": "Doctor Thorne",
+          "year": "2016"
+        },
+        {
+          "id": 39016,
+          "title": "Titanic",
+          "year": "2012"
+        },
+        {
+          "id": 33907,
+          "title": "Downton Abbey",
+          "year": "2010"
+        },
+        {
+          "id": 86705,
+          "title": "The Prince and the Pauper",
+          "year": "1996"
+        },
+        {
+          "id": 156121,
+          "title": "Little Lord Fauntleroy",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:37.170Z"
+  },
   "julie plec": {
     "value": {
       "tmdbId": 1214616,
@@ -4754,6 +4886,34 @@
       ]
     },
     "fetchedAt": "2026-10-31T05:00:50.408Z"
+  },
+  "mark williams": {
+    "value": {
+      "tmdbId": 206574,
+      "wiki": {
+        "lang": "it",
+        "title": "Mark Williams (attore)",
+        "url": "https://it.wikipedia.org/wiki/Mark_Williams_(attore)",
+        "extract": "Mark Williams (Bromsgrove, 22 agosto 1959) è un attore, comico e sceneggiatore britannico.\n\nÈ noto principalmente per aver interpretato Arthur Weasley nei film tratti dalla saga di Harry Potter e l'omonimo protagonista nella serie TV della BBC Padre Brown."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/MarK_Williams.jpg/500px-MarK_Williams.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:MarK_Williams.jpg",
+        "author": "Alex Caut",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 69740,
+          "title": "Ozark",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T15:01:42.882Z"
   },
   "marta kauffman": {
     "value": {

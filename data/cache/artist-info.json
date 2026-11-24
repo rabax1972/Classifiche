@@ -804,6 +804,25 @@
     },
     "fetchedAt": "2026-10-17T07:57:01.112Z"
   },
+  "ghali": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Ghali",
+        "url": "https://it.wikipedia.org/wiki/Ghali",
+        "extract": "Ghali, pseudonimo di Ghali Amdouni (Milano, 21 maggio 1993), è un rapper e cantautore italiano di origini tunisine."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png/500px-Ghali_%28Feb_2024%29_%28cropped%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ghali_(Feb_2024)_(cropped).png",
+        "author": "Radio Bruno",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/ghali/341924363"
+    },
+    "fetchedAt": "2026-11-24T14:56:13.853Z"
+  },
   "gigi d alessio": {
     "value": {
       "wiki": {
@@ -1449,6 +1468,19 @@
       "appleUrl": "https://music.apple.com/it/artist/promessa/1474516513"
     },
     "fetchedAt": "2026-10-17T07:58:09.456Z"
+  },
+  "pyrex": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Pyrex (rapper)",
+        "url": "https://it.wikipedia.org/wiki/Pyrex_(rapper)",
+        "extract": "Pyrex, pseudonimo di Dylan Thomas Cerulli (Roma, 3 maggio 1994), è un rapper italiano di origini  statunitensi.\n\nÈ un ex membro del collettivo Dark Polo Gang, scioltosi nel 2021, anno in cui ha intrapreso la carriera da solista."
+      },
+      "photo": null,
+      "appleUrl": "https://music.apple.com/it/artist/pyrex/1670989585"
+    },
+    "fetchedAt": "2026-11-24T14:56:16.906Z"
   },
   "quevedo": {
     "value": {

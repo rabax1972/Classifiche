@@ -2774,6 +2774,53 @@
     },
     "fetchedAt": "2026-10-17T09:36:10.172Z"
   },
+  "carlson young": {
+    "value": {
+      "tmdbId": 965770,
+      "wiki": {
+        "lang": "it",
+        "title": "Carlson Young",
+        "url": "https://it.wikipedia.org/wiki/Carlson_Young",
+        "extract": "Carlson Elizabeth Young (Fort Worth, 29 ottobre 1990) è un'attrice e regista statunitense."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/bIxM7fwCU90GzXlvvcdDwjjPX9o.jpg",
+      "films": [
+        {
+          "id": 1611767,
+          "title": "Scontrarsi a Natale",
+          "year": "2026"
+        },
+        {
+          "id": 1516698,
+          "title": "The Last Sunrise. L'estate delle prime volte",
+          "year": "2026"
+        },
+        {
+          "id": 1244953,
+          "title": "Trust",
+          "year": "2025"
+        },
+        {
+          "id": 1014590,
+          "title": "Upgraded: amore, arte e bugie",
+          "year": "2024"
+        },
+        {
+          "id": 776506,
+          "title": "The Blazing World",
+          "year": "2021"
+        },
+        {
+          "id": 499924,
+          "title": "The Blazing World",
+          "year": "2018"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T14:57:32.849Z"
+  },
   "carol reed": {
     "value": {
       "tmdbId": 15378,
@@ -16039,6 +16086,49 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:32:16.069Z"
+  },
+  "nag ashwin": {
+    "value": {
+      "tmdbId": 1508808,
+      "wiki": {
+        "lang": "en",
+        "title": "Nag Ashwin",
+        "url": "https://en.wikipedia.org/wiki/Nag_Ashwin",
+        "extract": "Singireddy Nag Ashwin Reddy (born 23 April 1986), popularly known as Nag Ashwin, is an Indian film director and screenwriter known for his work in Telugu cinema. He is a recipient of two National Film Awards, a Nandi Award, and a Filmfare Award. A graduate of the New York Film Academy, Ashwin began his career as an assistant director to Sekhar Kammula. He made his directorial debut in 2015 with the coming-of-age film Yevade Subramanyam, which earned him the Nandi Award for Best Debut Director."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nag_Ashwin_by_Gage_Skidmore.jpg/500px-Nag_Ashwin_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Nag_Ashwin_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1310969,
+          "title": "కల్కి 2898-ఎ.డి: భాగం 2",
+          "year": null
+        },
+        {
+          "id": 801688,
+          "title": "Kalki 2898-AD",
+          "year": "2024"
+        },
+        {
+          "id": 459713,
+          "title": "Mahanati",
+          "year": "2018"
+        },
+        {
+          "id": 332831,
+          "title": "ఎవడే సుబ్రమణ్యం",
+          "year": "2015"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-24T14:57:32.199Z"
   },
   "neil marshall": {
     "value": {
