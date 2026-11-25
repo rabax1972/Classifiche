@@ -396,6 +396,92 @@
     },
     "fetchedAt": "2026-11-04T05:19:27.215Z"
   },
+  "alicia s law|stagione 1": {
+    "value": {
+      "tmdbId": 338562,
+      "title": "I casi di Alicia",
+      "overview": "Quando la vita che si era costruita con tanta cura va in pezzi, Alicia torna alla professione legale e scopre che ricostruirsi una carriera significa anche ridefinire se stessa.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "La ley de Alicia",
+      "genres": [
+        "Dramma"
+      ],
+      "episodeRuntime": 48,
+      "firstAired": "2026-11-11",
+      "lastAired": "2026-11-11",
+      "status": "Returning Series",
+      "seasons": 1,
+      "episodes": 20,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-11",
+          "episodes": 20
+        }
+      ],
+      "nextEpisode": {
+        "date": "2026-12-09",
+        "season": 1,
+        "episode": 11
+      },
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 6.7,
+      "votes": 16,
+      "poster": "https://image.tmdb.org/t/p/w500/7o9nY3GO97jyeVWdtWr12nR0Qpt.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Fernanda Castillo",
+          "character": "Alicia"
+        },
+        {
+          "name": "Michel Brown",
+          "character": "David"
+        },
+        {
+          "name": "Claudio Roca",
+          "character": "Freddy"
+        },
+        {
+          "name": "Juan Manuel Bernal",
+          "character": "Aurelio"
+        },
+        {
+          "name": "Caro Darman",
+          "character": "Elizabeth"
+        },
+        {
+          "name": "Karina Gidi",
+          "character": "Diana"
+        },
+        {
+          "name": "Yoshira Escárrega",
+          "character": "Katya"
+        },
+        {
+          "name": "Dario Yazbek Bernal",
+          "character": "Alex"
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/338562-la-ley-de-alicia/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-25T14:32:04.718Z"
+  },
   "american dad|matt weitzman": {
     "value": {
       "tmdbId": 1433,
@@ -11808,6 +11894,107 @@
     },
     "fetchedAt": "2026-10-18T14:25:24.486Z"
   },
+  "murder in galicia|miniserie": {
+    "value": {
+      "tmdbId": 303182,
+      "title": "Delitto in Galizia",
+      "overview": "Una donna è aggredita di notte e un tenace sergente sospetta che suo marito non sia così innocente come sembra in questa serie drammatica ispirata a eventi reali.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "El crimen de Pazos",
+      "genres": [
+        "Crime",
+        "Mistero",
+        "Dramma"
+      ],
+      "episodeRuntime": 43,
+      "firstAired": "2026-11-13",
+      "lastAired": "2026-11-13",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 3,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-13",
+          "episodes": 3
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 6.5,
+      "votes": 24,
+      "poster": "https://image.tmdb.org/t/p/w500/pk7ewQL2vAxtit0YmDEURmAInS9.jpg",
+      "creators": [
+        {
+          "id": 2191683,
+          "name": "Curro Serrano"
+        },
+        {
+          "id": 1261462,
+          "name": "Ramón Campos"
+        },
+        {
+          "id": 1261463,
+          "name": "Gema R. Neira"
+        },
+        {
+          "id": 2747679,
+          "name": "David Orea"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Tristán Ulloa",
+          "character": "Elías Lago"
+        },
+        {
+          "name": "Carlos Blanco",
+          "character": "Turrientes \"Turri\""
+        },
+        {
+          "name": "Fer Fraga",
+          "character": "Barreiro"
+        },
+        {
+          "name": "Miguel Borines",
+          "character": "Aniceto Rodríguez Caneiro"
+        },
+        {
+          "name": "Marta Nieto",
+          "character": null
+        },
+        {
+          "name": "Verónica Sánchez",
+          "character": "Begoña"
+        },
+        {
+          "name": "Fernando Guillén Cuervo",
+          "character": null
+        },
+        {
+          "name": "Nacho Fresneda",
+          "character": null
+        }
+      ],
+      "trailer": null,
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/303182-el-crimen-de-pazos/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-25T14:32:04.574Z"
+  },
   "naruto|2002": {
     "value": {
       "tmdbId": 46260,
@@ -19268,6 +19455,85 @@
       }
     },
     "fetchedAt": "2026-10-31T05:00:26.837Z"
+  },
+  "the law of beasts|stagione 1": {
+    "value": {
+      "tmdbId": 332839,
+      "title": "La legge della bestia",
+      "overview": "Il panico torna a diffondersi in Polonia quando un assassino di minori è prossimo al rilascio, riaccendendo il conflitto morale tra la psichiatra e l'investigatrice coinvolte.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Prawo bestii",
+      "genres": [
+        "Crime",
+        "Dramma"
+      ],
+      "episodeRuntime": 60,
+      "firstAired": "2026-11-18",
+      "lastAired": "2026-11-18",
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 4,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "2026-11-18",
+          "episodes": 4
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "Netflix"
+      ],
+      "vote": 6.6,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/gYtYtadU4AdIduG9klh9i64OzaA.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Agnieszka Grochowska",
+          "character": "Anna Bersz"
+        },
+        {
+          "name": "Agnieszka Żulewska",
+          "character": "Agnieszka Grabska"
+        },
+        {
+          "name": "Michał Pawlik",
+          "character": "Mariusz Trynkiewicz"
+        },
+        {
+          "name": "Andrzej Chyra",
+          "character": null
+        },
+        {
+          "name": "Kamilla Baar",
+          "character": null
+        },
+        {
+          "name": "Michalina Łabacz",
+          "character": null
+        },
+        {
+          "name": "Jacek Beler",
+          "character": null
+        }
+      ],
+      "trailer": "MP6onJR5hP4",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/332839-prawo-bestii/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-25T14:32:04.483Z"
   },
   "the mentalist|bruno heller 2008": {
     "value": {

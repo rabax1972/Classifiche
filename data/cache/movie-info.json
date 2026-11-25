@@ -602,6 +602,52 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.538Z"
   },
+  "a dark story|": {
+    "value": {
+      "tmdbId": 1542613,
+      "title": "A Good Dark Roast - A Mr. Henderson Story",
+      "overview": "Mr Henderson is a collector, an observer and an artist. A creature who takes great pride in everything that he does. By employing his keen eye for detail, he attempts to unearth a path to his enlightenment.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia",
+        "Thriller"
+      ],
+      "runtime": 13,
+      "released": "2025-09-26",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/6003SAtEhO8vQaY1iODkyaf5ZnS.jpg",
+      "directors": [
+        {
+          "id": 1940493,
+          "name": "Angelika Padberg"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Vaughn Rae",
+          "character": "Mr. Henderson"
+        },
+        {
+          "name": "Carlos Reynoso",
+          "character": "Robert Strathmore"
+        },
+        {
+          "name": "Kyle Kaczmarczyk",
+          "character": "Narrator"
+        },
+        {
+          "name": "Cait Gregor",
+          "character": "News Reporter"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:28:00.412Z"
+  },
   "a dog s perfect christmas|": {
     "value": {
       "tmdbId": 1570488,
@@ -4743,6 +4789,69 @@
     },
     "fetchedAt": "2026-10-18T17:56:56.041Z"
   },
+  "buddy|casper kelly 2026": {
+    "value": {
+      "tmdbId": 1514026,
+      "title": "Buddy",
+      "overview": "Un gruppo di bambini affetti da amnesia rimane intrappolato in uno show televisivo per ragazzi degli anni '90. Lo spettacolo si trasforma rapidamente in un terrificante incubo, costringendo i partecipanti a trovare un modo per sfuggire alla folle trasmissione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Horror",
+        "Commedia",
+        "Fantasy"
+      ],
+      "runtime": 96,
+      "released": "2026-12-02",
+      "vote": 6.8,
+      "votes": 303,
+      "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+      "directors": [
+        {
+          "id": 1232064,
+          "name": "Casper Kelly"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Keegan-Michael Key",
+          "character": "Buddy / Dark Buddy (voice)"
+        },
+        {
+          "name": "Delaney Quinn",
+          "character": "Freddy"
+        },
+        {
+          "name": "Tristan Borders",
+          "character": "Oliver"
+        },
+        {
+          "name": "Madison Skyy Polan",
+          "character": "Hannah"
+        },
+        {
+          "name": "Caleb Williams",
+          "character": "Wade"
+        },
+        {
+          "name": "Cristin Milioti",
+          "character": "Grace"
+        },
+        {
+          "name": "Topher Grace",
+          "character": "Ben"
+        },
+        {
+          "name": "Patton Oswalt",
+          "character": "Strappy (voice)"
+        }
+      ],
+      "trailer": "zVXAcqzZFy8",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.217Z"
+  },
   "c era una volta il west|sergio leone 1968": {
     "value": {
       "tmdbId": 335,
@@ -7820,6 +7929,74 @@
     },
     "fetchedAt": "2026-10-27T04:47:40.194Z"
   },
+  "dr seuss the grinch|": {
+    "value": {
+      "tmdbId": 762951,
+      "title": "Dr. Seuss' The Grinch Musical",
+      "overview": "A musical version of the classic story of the mean spirited Grinch who plots to steal Christmas from Whoville.",
+      "overviewLang": "en",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Famiglia",
+        "Musica",
+        "televisione film",
+        "Fantasy"
+      ],
+      "runtime": 82,
+      "released": "2020-12-09",
+      "vote": 5.1,
+      "votes": 14,
+      "poster": "https://image.tmdb.org/t/p/w500/rHJlD4ElNBZmejPATAjkuLUooSB.jpg",
+      "directors": [
+        {
+          "id": 2851575,
+          "name": "Max Webster"
+        },
+        {
+          "id": 126414,
+          "name": "Julia Knowles"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Matthew Morrison",
+          "character": "The Grinch"
+        },
+        {
+          "name": "Denis O'Hare",
+          "character": "Old Max"
+        },
+        {
+          "name": "Booboo Stewart",
+          "character": "Young Max"
+        },
+        {
+          "name": "Amelia Minto",
+          "character": "Cindy-Lou Who"
+        },
+        {
+          "name": "Claire Machin",
+          "character": "Grandma Who"
+        },
+        {
+          "name": "Amy Ellen Richardson",
+          "character": "Mama Who"
+        },
+        {
+          "name": "Ako Mitchell",
+          "character": "Papa Who"
+        },
+        {
+          "name": "Gary Wilmot",
+          "character": "Grandpa Who"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:28:00.223Z"
+  },
   "drive cuori in pista|sergej moya 2026": {
     "value": {
       "tmdbId": 1596275,
@@ -10798,6 +10975,68 @@
     },
     "fetchedAt": "2026-10-19T04:48:45.172Z"
   },
+  "guarding stars|": {
+    "value": {
+      "tmdbId": 1551025,
+      "title": "Guarding Stars",
+      "overview": "Una bodyguard risoluta raggiunge un ranch in Montana con l'attore famoso che deve proteggere, ma fingersi una coppia per Natale farà presto nascere una vera storia d'amore.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Romance",
+        "Commedia"
+      ],
+      "runtime": 109,
+      "released": "2026-11-18",
+      "vote": 7.2,
+      "votes": 14,
+      "poster": "https://image.tmdb.org/t/p/w500/wWNizZ4IcSld3xXH1WEXziJiNJN.jpg",
+      "directors": [
+        {
+          "id": 1223175,
+          "name": "Elizabeth Allen Rosenbaum"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Leighton Meester",
+          "character": "Hannah"
+        },
+        {
+          "name": "Jared Padalecki",
+          "character": "Jack"
+        },
+        {
+          "name": "Andie MacDowell",
+          "character": "Connie Stapleton"
+        },
+        {
+          "name": "Walker Hayes",
+          "character": "Sheriff Sanderson"
+        },
+        {
+          "name": "Noah LaLonde",
+          "character": "Hank Stapleton"
+        },
+        {
+          "name": "Toby Sandeman",
+          "character": "Robbie"
+        },
+        {
+          "name": "Phil Brooks",
+          "character": "Doghouse"
+        },
+        {
+          "name": "Ava Max",
+          "character": "Kennedy Monroe"
+        }
+      ],
+      "trailer": "gqwbXxEF5Fc",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:28:00.020Z"
+  },
   "guarding stars|elizabeth allen rosenbaum 2026": {
     "value": {
       "tmdbId": 1551025,
@@ -12242,6 +12481,75 @@
     },
     "fetchedAt": "2026-10-18T09:33:07.730Z"
   },
+  "hexe il regno delle streghe|jason hand": {
+    "value": {
+      "tmdbId": 1538497,
+      "title": "Hexe - Il regno delle streghe",
+      "overview": "Billie Doe, un'adolescente impulsiva e non convenzionale, scopre di avere abilità magiche che la portano dalla periferia a Hexe, un regno di streghe. Con la cauta madre Alice indaga sui segreti di famiglia legati al mondo delle streghe.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Hexed",
+      "genres": [
+        "Avventura",
+        "Animazione",
+        "Famiglia",
+        "Fantasy",
+        "Commedia"
+      ],
+      "runtime": 103,
+      "released": "2026-11-26",
+      "vote": 6.3,
+      "votes": 11,
+      "poster": "https://image.tmdb.org/t/p/w500/qR6ABfdY3NLLkkN1L5UusJ5TlHU.jpg",
+      "directors": [
+        {
+          "id": 1461394,
+          "name": "Jason Hand"
+        },
+        {
+          "id": 2375591,
+          "name": "ฝน วีระสุนทร"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Hailee Steinfeld",
+          "character": "Billie Doe (voice)"
+        },
+        {
+          "name": "Rashida Jones",
+          "character": "Alice Doe (voice)"
+        },
+        {
+          "name": "Jodie Foster",
+          "character": "Queen Celeste (voice)"
+        },
+        {
+          "name": "Walton Goggins",
+          "character": "Beef Roger Crummchuk (voice)"
+        },
+        {
+          "name": "Henry Winkler",
+          "character": "Nigel (voice)"
+        },
+        {
+          "name": "Dan Stevens",
+          "character": "Hieronymous / Crystal Ball Greeter (voice)"
+        },
+        {
+          "name": "Brett Gelman",
+          "character": "Principal Huggins (voice)"
+        },
+        {
+          "name": "Tracey Ullman",
+          "character": "Quill (voice)"
+        }
+      ],
+      "trailer": "3yTZi6aXTDo",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.317Z"
+  },
   "hidden|": {
     "value": {
       "tmdbId": 360784,
@@ -12472,6 +12780,125 @@
       }
     },
     "fetchedAt": "2026-11-07T05:05:03.635Z"
+  },
+  "how the grinch stole christmas|": {
+    "value": {
+      "tmdbId": 8871,
+      "title": "Il Grinch",
+      "overview": "È la storia di una creatura con il cuore due volte più piccolo del normale e che si traveste da Babbo Natale. Ruba regali, alberi di Natale e cibo.",
+      "overviewLang": "it",
+      "tagline": "Metti tutto il verde che c'è.",
+      "originalTitle": "How the Grinch Stole Christmas",
+      "genres": [
+        "Famiglia",
+        "Commedia",
+        "Fantasy"
+      ],
+      "runtime": 104,
+      "released": "2000-11-17",
+      "vote": 6.8,
+      "votes": 8611,
+      "poster": "https://image.tmdb.org/t/p/w500/oIQYw3rzBcMUiOGAOex0Ml1zrTS.jpg",
+      "directors": [
+        {
+          "id": 6159,
+          "name": "Ron Howard"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Jim Carrey",
+          "character": "Grinch"
+        },
+        {
+          "name": "Taylor Momsen",
+          "character": "Cindy Lou Who"
+        },
+        {
+          "name": "Jeffrey Tambor",
+          "character": "Mayor Augustus Maywho"
+        },
+        {
+          "name": "Christine Baranski",
+          "character": "Martha May Whovier"
+        },
+        {
+          "name": "Bill Irwin",
+          "character": "Lou Lou Who"
+        },
+        {
+          "name": "Molly Shannon",
+          "character": "Betty Lou Who"
+        },
+        {
+          "name": "Clint Howard",
+          "character": "Whobris"
+        },
+        {
+          "name": "Josh Ryan Evans",
+          "character": "8-Year-Old Grinch"
+        }
+      ],
+      "trailer": "UnyPPS1Z-Vs",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/8871-how-the-grinch-stole-christmas/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          },
+          {
+            "name": "CHILI",
+            "logo": "https://image.tmdb.org/t/p/w92/xfDy4aGaOqbUqKPVQobjoJ9ZsSs.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-25T14:28:00.520Z"
   },
   "hunger games il canto della rivolta parte 1|francis lawrence 2014": {
     "value": {
@@ -16495,6 +16922,69 @@
     },
     "fetchedAt": "2026-10-18T17:56:49.287Z"
   },
+  "il risveglio di boiuna|mike p nelson 2026": {
+    "value": {
+      "tmdbId": 1244523,
+      "title": "Il risveglio di Boiúna",
+      "overview": "Un gruppo di giovani medici impegnato a portare assistenza sanitaria nei villaggi più remoti dell’Amazzonia è costretto a fuggire nella giungla dopo un violento scontro con alcuni uomini coinvolti nella costruzione di una strada. Ma nelle profondità della foresta li attende una minaccia ancora più terrificante: Boiúna, un gigantesco serpente leggendario che sembra essere molto più di una semplice creatura del folklore. Braccati in un ambiente estremo e implacabile, i protagonisti dovranno lottare per sopravvivere contro un predatore che domina la giungla da milioni di anni.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Beware Boiúna",
+      "genres": [
+        "Avventura",
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 103,
+      "released": "2026-11-26",
+      "vote": 6,
+      "votes": 73,
+      "poster": "https://image.tmdb.org/t/p/w500/mBvXcLHu1v7U8JiooBizBNbQPRy.jpg",
+      "directors": [
+        {
+          "id": 1039364,
+          "name": "Mike P. Nelson"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Kiana Madeira",
+          "character": "Lena"
+        },
+        {
+          "name": "Jessica Rothe",
+          "character": "Alli"
+        },
+        {
+          "name": "Will Close",
+          "character": "Callum"
+        },
+        {
+          "name": "Juan Pablo Shuk",
+          "character": "Miguel"
+        },
+        {
+          "name": "Logan Marshall-Green",
+          "character": "Brennan"
+        },
+        {
+          "name": "Jaime Newball",
+          "character": "Raúl"
+        },
+        {
+          "name": "Jackson Bews",
+          "character": "Shawn"
+        },
+        {
+          "name": "Tonfy Andoque",
+          "character": "Yaguari Leader"
+        }
+      ],
+      "trailer": "cbRwCbaSVJc",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.035Z"
+  },
   "il ritorno dello jedi|richard marquand 1983": {
     "value": {
       "tmdbId": 1892,
@@ -19018,6 +19508,79 @@
       }
     },
     "fetchedAt": "2026-11-24T14:57:31.295Z"
+  },
+  "ken il guerriero il film|2024": {
+    "value": {
+      "tmdbId": 19877,
+      "title": "Ken il guerriero - Il film",
+      "overview": "Dopo una guerra nucleare che ha trasformato la Terra in un immenso deserto senza vita, il mondo è piombato nel caos e nella violenza. I maestri di Hokuto e di Nanto, due potenti scuole di arti marziali, si fronteggiano fra loro. Kenshiro, legittimo successore della scuola di Hokuto, va in cerca dell'amata Julia che è stata rapita da Shin di Nanto; ma deve anche fronteggiare l'ambizione di Raoul, suo fratello adottivo, che intende dominare il mondo con la forza.",
+      "overviewLang": "it",
+      "tagline": "La Leggenda del Salvatore di Fine Secolo Hokuto No Ken",
+      "originalTitle": "北斗の拳",
+      "genres": [
+        "Animazione",
+        "Azione",
+        "Fantascienza"
+      ],
+      "runtime": 110,
+      "released": "2024-10-14",
+      "vote": 6.8,
+      "votes": 198,
+      "poster": "https://image.tmdb.org/t/p/w500/nQvEwHHEwaDbEy6G0Xkyki0G13O.jpg",
+      "directors": [
+        {
+          "id": 57730,
+          "name": "芦田豊雄"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Akira Kamiya",
+          "character": "Kenshirô (voice)"
+        },
+        {
+          "name": "山本百合子",
+          "character": "Yuria (voice)"
+        },
+        {
+          "name": "内海賢二",
+          "character": "Raoh (voice)"
+        },
+        {
+          "name": "大塚周夫",
+          "character": "Jagi (voice)"
+        },
+        {
+          "name": "Toshio Furukawa",
+          "character": "Shin (voice)"
+        },
+        {
+          "name": "Kaneto Shiozawa",
+          "character": "Rei (voice)"
+        },
+        {
+          "name": "鈴木富子",
+          "character": "Lin (voice)"
+        },
+        {
+          "name": "一龍斎貞友",
+          "character": "Bat (voice)"
+        }
+      ],
+      "trailer": "kyyqfTEKYeU",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/19877-bei-dou-no-quan/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Anime Generation Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/yBiIEHJqOfsGdgz4mlxHln6GNup.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-25T14:27:59.920Z"
   },
   "kill bill the whole bloody affair|quentin tarantino 2011": {
     "value": {
@@ -22951,6 +23514,69 @@
     },
     "fetchedAt": "2026-10-18T09:33:10.171Z"
   },
+  "le nuove disavventure di cliff booth|david fincher 2026": {
+    "value": {
+      "tmdbId": 1457866,
+      "title": "Le nuove disavventure di Cliff Booth",
+      "overview": "Otto anni dopo gli eventi di C'era una volta a... Hollywood, Cliff Booth torna in una Los Angeles in trasformazione. Ora lavora come risolutore di problemi nell'ombra del sistema degli studi di Hollywood e si ritrova invischiato in una pericolosa rete di segreti, crimini e tradimenti che metterà alla prova tutto ciò che sa sulla lealtà e sulla sopravvivenza.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "genres": [
+        "Commedia",
+        "Dramma",
+        "Thriller"
+      ],
+      "runtime": 141,
+      "released": "2026-11-26",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/fyVW1LKytl3xWo9T6sz6fXZKC9K.jpg",
+      "directors": [
+        {
+          "id": 7467,
+          "name": "David Fincher"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Brad Pitt",
+          "character": "Cliff Booth"
+        },
+        {
+          "name": "Elizabeth Debicki",
+          "character": "Karen Crosby"
+        },
+        {
+          "name": "Scott Caan",
+          "character": "Charlie Peters"
+        },
+        {
+          "name": "Yahya Abdul-Mateen II",
+          "character": "Roderick 'Hot Rod' Harrison"
+        },
+        {
+          "name": "Carla Gugino",
+          "character": "Toni Peters"
+        },
+        {
+          "name": "Peter Weller",
+          "character": "Gus Booth"
+        },
+        {
+          "name": "Matt Groove",
+          "character": "Mr. Verdusco"
+        },
+        {
+          "name": "JB Tadena",
+          "character": "Mr. Verdusco"
+        }
+      ],
+      "trailer": "WQQUOwOJ4z8",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.513Z"
+  },
   "le vite degli altri|florian henckel von donnersmarck 2006": {
     "value": {
       "tmdbId": 582,
@@ -23163,6 +23789,50 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.872Z"
+  },
+  "lilo e scratch|": {
+    "value": {
+      "tmdbId": 1720486,
+      "title": "Lilo & Scratch",
+      "overview": "Stitch ha il compito di badare a Scratch, un gatto trovato da Lilo, ma Scratch ha più cose in comune con Stitch di quanto sembri a prima vista.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Commedia",
+        "Famiglia",
+        "Fantascienza"
+      ],
+      "runtime": 6,
+      "released": "2026-11-26",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/yl1KfDAzKsdzYRPTAXcNgnhYnPb.jpg",
+      "directors": [
+        {
+          "id": 2375591,
+          "name": "ฝน วีระสุนทร"
+        },
+        {
+          "id": 1717780,
+          "name": "Malcon Pierce"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Sanders",
+          "character": "Stitch (voice)"
+        },
+        {
+          "name": "Maia Kealoha",
+          "character": "Lilo (voice)"
+        }
+      ],
+      "trailer": null,
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.617Z"
   },
   "linkin park unshatter|joe hahn 2026": {
     "value": {
@@ -23894,6 +24564,113 @@
       }
     },
     "fetchedAt": "2026-11-24T14:57:31.402Z"
+  },
+  "mamma ho riperso l aereo mi sono smarrito a new york|chris columbus 1992": {
+    "value": {
+      "tmdbId": 772,
+      "title": "Mamma, ho riperso l'aereo - Mi sono smarrito a New York",
+      "overview": "Per le feste di Natale il piccolo Kevin dovrebbe partire per la Florida insieme alla sua famiglia. Purtroppo il bambino sbaglia aereo e finisce a New York. Inizialmente si diverte a fare shopping con la carta di credito di suo padre, ma poi incontra i due ladruncoli che lo avevano assediato a casa sua nel precedente episodio.",
+      "overviewLang": "it",
+      "tagline": "Lui è ancora sveglio in una città che non dorme mai.",
+      "originalTitle": "Home Alone 2: Lost in New York",
+      "genres": [
+        "Commedia",
+        "Famiglia",
+        "Avventura"
+      ],
+      "runtime": 120,
+      "released": "1992-12-18",
+      "vote": 6.8,
+      "votes": 11094,
+      "poster": "https://image.tmdb.org/t/p/w500/eYKQJmrEyANdUcE7nJ7PQ6XARaO.jpg",
+      "directors": [
+        {
+          "id": 10965,
+          "name": "Chris Columbus"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Macaulay Culkin",
+          "character": "Kevin"
+        },
+        {
+          "name": "Joe Pesci",
+          "character": "Harry"
+        },
+        {
+          "name": "Daniel Stern",
+          "character": "Marv"
+        },
+        {
+          "name": "Catherine O'Hara",
+          "character": "Kate"
+        },
+        {
+          "name": "John Heard",
+          "character": "Peter"
+        },
+        {
+          "name": "Brenda Fricker",
+          "character": "Pigeon Lady"
+        },
+        {
+          "name": "Tim Curry",
+          "character": "Concierge"
+        },
+        {
+          "name": "Devin Ratray",
+          "character": "Buzz"
+        }
+      ],
+      "trailer": "k0kJieJ1k6k",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/772-home-alone-2-lost-in-new-york/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Disney Plus",
+            "logo": "https://image.tmdb.org/t/p/w92/5eZ872CghnHFLB1j8grszbrx0dx.png"
+          }
+        ],
+        "rent": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ],
+        "buy": [
+          {
+            "name": "Apple TV Store",
+            "logo": "https://image.tmdb.org/t/p/w92/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Rakuten TV",
+            "logo": "https://image.tmdb.org/t/p/w92/872dfVu1biZISJ8rO143CZZutPR.png"
+          },
+          {
+            "name": "Amazon Video",
+            "logo": "https://image.tmdb.org/t/p/w92/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+          }
+        ]
+      }
+    },
+    "fetchedAt": "2026-11-25T14:28:00.019Z"
   },
   "mammina|rob savage 2026": {
     "value": {
@@ -28936,6 +29713,70 @@
     },
     "fetchedAt": "2026-11-18T13:09:39.208Z"
   },
+  "ray gunn|brad bird 2026": {
+    "value": {
+      "tmdbId": 940009,
+      "title": "Ray Gunn",
+      "overview": "A Metropia, una gigantesca città in un futuro alternativo vista dal 1939, l'investigatore privato Raymond Gunn viene coinvolto in un caso che coinvolge alieni, omicidio e una star multimediale di nome Venus Nova.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Fantascienza",
+        "Crime",
+        "Mistero"
+      ],
+      "runtime": 120,
+      "released": "2026-12-02",
+      "vote": null,
+      "votes": 0,
+      "poster": "https://image.tmdb.org/t/p/w500/rpP29aOKpHy1FhX8OZQdUICEs2j.jpg",
+      "directors": [
+        {
+          "id": 7087,
+          "name": "Brad Bird"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Sam Rockwell",
+          "character": "Raymond Gunn (voice)"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "character": "Venus Nova (voice)"
+        },
+        {
+          "name": "Tom Waits",
+          "character": "Eye-Ra (voice)"
+        },
+        {
+          "name": "Matt Berry",
+          "character": "Francis 'Slugsy' Xavier (voice)"
+        },
+        {
+          "name": "Kathryn Hunter",
+          "character": "Vanzine Kaluta (voice)"
+        },
+        {
+          "name": "Alan Tudyk",
+          "character": "Barry Vogel (voice)"
+        },
+        {
+          "name": "Bobby Cannavale",
+          "character": "Arnold Dom (voice)"
+        },
+        {
+          "name": "Michelle Rodriguez",
+          "character": "Roz Dexler (voice)"
+        }
+      ],
+      "trailer": "JqMGVVAVYsk",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.723Z"
+  },
   "rebecca la prima moglie|alfred hitchcock 1940": {
     "value": {
       "tmdbId": 223,
@@ -31898,6 +32739,81 @@
     },
     "fetchedAt": "2026-10-18T09:33:08.536Z"
   },
+  "steps|": {
+    "value": {
+      "tmdbId": 1595124,
+      "title": "Steps",
+      "overview": "In questa commedia d'azione brillante e atipica, la \"perfida\" sorellastra di Cenerentola Lilith ruba la bacchetta della Fata Madrina e stravolge la storia che tutti noi conosciamo.",
+      "overviewLang": "it",
+      "tagline": "A mezzanotte saliamo.",
+      "originalTitle": null,
+      "genres": [
+        "Animazione",
+        "Famiglia",
+        "Commedia",
+        "Avventura",
+        "Fantasy"
+      ],
+      "runtime": 107,
+      "released": "2026-11-20",
+      "vote": 6.6,
+      "votes": 40,
+      "poster": "https://image.tmdb.org/t/p/w500/gXEMhP3LSrVNQ7iV6SPV4sqHKjU.jpg",
+      "directors": [
+        {
+          "id": 1641126,
+          "name": "Alyce Tzue"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ali Wong",
+          "character": "Lilith (voice)"
+        },
+        {
+          "name": "Amanda Seyfried",
+          "character": "Cinderella (voice)"
+        },
+        {
+          "name": "Stephanie Hsu",
+          "character": "Margot (voice)"
+        },
+        {
+          "name": "Nikki Glaser",
+          "character": "Priscilla (voice)"
+        },
+        {
+          "name": "Daniel Radcliffe",
+          "character": "The Prince (voice)"
+        },
+        {
+          "name": "Young Mazino",
+          "character": "Gef (voice)"
+        },
+        {
+          "name": "Peter Dinklage",
+          "character": "Roderick (voice)"
+        },
+        {
+          "name": "Bette Midler",
+          "character": "Fairy Godmother (voice)"
+        }
+      ],
+      "trailer": "5xLcdIV7QM0",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1595124-steps/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-25T14:28:00.413Z"
+  },
   "steps|alyce tzue 2026": {
     "value": {
       "tmdbId": 1595124,
@@ -31972,6 +32888,69 @@
       }
     },
     "fetchedAt": "2026-11-22T12:40:48.757Z"
+  },
+  "storie parallele|2026": {
+    "value": {
+      "tmdbId": 1157869,
+      "title": "Storie parallele",
+      "overview": "Sylvie, una scrittrice in cerca d’ispirazione per il suo nuovo romanzo, inizia a osservare di nascosto i vicini, immaginando le loro vite. Quando assume il giovane Adam per aiutarla nella quotidianità, la sua presenza sconvolge ogni equilibrio, fino a rendere sempre più sottile il confine tra realtà e finzione.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Histoires parallèles",
+      "genres": [
+        "Dramma",
+        "Thriller",
+        "Mistero"
+      ],
+      "runtime": 139,
+      "released": "2026-11-26",
+      "vote": 5.7,
+      "votes": 69,
+      "poster": "https://image.tmdb.org/t/p/w500/sKa694GSjSMACf4VkW5364qUQPv.jpg",
+      "directors": [
+        {
+          "id": 229931,
+          "name": "اصغر فرهادی"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Isabelle Huppert",
+          "character": "Sylvie"
+        },
+        {
+          "name": "Virginie Efira",
+          "character": "Anna / Nita"
+        },
+        {
+          "name": "Vincent Cassel",
+          "character": "Pierre / Nicolas"
+        },
+        {
+          "name": "Pierre Niney",
+          "character": "Christophe / Théo"
+        },
+        {
+          "name": "Adam Bessa",
+          "character": "Adam"
+        },
+        {
+          "name": "Catherine Deneuve",
+          "character": "Céline"
+        },
+        {
+          "name": "India Hair",
+          "character": "Laurence"
+        },
+        {
+          "name": "Véronique Ruggia Saura",
+          "character": "Housekeeper"
+        }
+      ],
+      "trailer": "iSvWJaFBFIM",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.820Z"
   },
   "stormen|josephine bornebusch 2026": {
     "value": {
@@ -35027,6 +36006,68 @@
       }
     },
     "fetchedAt": "2026-10-18T09:33:09.814Z"
+  },
+  "ti presento i fotter|john hamburg 2026": {
+    "value": {
+      "tmdbId": 1400336,
+      "title": "Ti presento i Fotter",
+      "overview": "Un giovane di nome Henry, figlio di Greg e Pam Focker, si ritrova ad affrontare il caos familiare quando decide di sposare una donna volitiva che sembra essere completamente diversa dalla sua fidanzata ideale.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Focker In-Law",
+      "genres": [
+        "Commedia",
+        "Romance"
+      ],
+      "runtime": 105,
+      "released": "2026-11-26",
+      "vote": 7.6,
+      "votes": 5,
+      "poster": "https://image.tmdb.org/t/p/w500/ekWQkK9aI41TUBX4nrmKUyfW5ly.jpg",
+      "directors": [
+        {
+          "id": 17871,
+          "name": "John Hamburg"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Ben Stiller",
+          "character": "Greg Focker"
+        },
+        {
+          "name": "Robert De Niro",
+          "character": "Jack Byrnes"
+        },
+        {
+          "name": "Ariana Grande",
+          "character": "Olivia Jones"
+        },
+        {
+          "name": "Skyler Gisondo",
+          "character": "Henry Focker"
+        },
+        {
+          "name": "Owen Wilson",
+          "character": "Kevin Rawley"
+        },
+        {
+          "name": "Blythe Danner",
+          "character": "Dina Byrnes"
+        },
+        {
+          "name": "Teri Polo",
+          "character": "Pam Byrnes-Focker"
+        },
+        {
+          "name": "Beanie Feldstein",
+          "character": "Samantha Focker"
+        }
+      ],
+      "trailer": "qtqQVu0ReCY",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.427Z"
   },
   "titanic|james cameron 1997": {
     "value": {
@@ -39441,6 +40482,71 @@
       "watch": null
     },
     "fetchedAt": "2026-10-18T09:33:07.858Z"
+  },
+  "you can see everything|nathan fielder": {
+    "value": {
+      "tmdbId": 1765072,
+      "title": "You Can See Everything",
+      "overview": "Trentaquattro giorni prima di entrare in prigione, Elizabeth Holmes, la controversa fondatrice di una società della Silicon Valley, invita una troupe cinematografica scettica a documentare ogni suo passo. Quello che inizia come un ritratto intimo di una figura enigmatica condannata per frode si trasforma in un sorprendente viaggio di tre anni negli abissi di una realtà sempre più inquietante e difficile da decifrare.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Documentario"
+      ],
+      "runtime": 175,
+      "released": "2026-11-27",
+      "vote": 8.7,
+      "votes": 185,
+      "poster": "https://image.tmdb.org/t/p/w500/mVh3qkw2NUFxWWyF0G1hg2Wh0K5.jpg",
+      "directors": [
+        {
+          "id": 1212667,
+          "name": "Nathan Fielder"
+        },
+        {
+          "id": 1405665,
+          "name": "Lance Oppenheim"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Elizabeth Holmes",
+          "character": "Self"
+        },
+        {
+          "name": "Nathan Fielder",
+          "character": "Self"
+        },
+        {
+          "name": "Billy Evans",
+          "character": "Self"
+        },
+        {
+          "name": "Amanda Seyfried",
+          "character": "Self / Elizabeth Holmes"
+        },
+        {
+          "name": "Christopher Abbott",
+          "character": "Billy Evans"
+        },
+        {
+          "name": "Lance Oppenheim",
+          "character": "Self"
+        },
+        {
+          "name": "Christian Rasmus Holmes IV",
+          "character": "Self"
+        },
+        {
+          "name": "Noel Anne Holmes",
+          "character": "Self"
+        }
+      ],
+      "trailer": "APL01D_3BRU",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-25T14:27:59.115Z"
   },
   "you me us|": {
     "value": {

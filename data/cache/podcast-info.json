@@ -910,12 +910,18 @@
       "genres": [
         "Istruzione"
       ],
-      "episodes": 4,
+      "episodes": 5,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/4a/c9/844ac9ef-5322-5963-1b5c-3fd7fdbece86/mza_17197939684205953792.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS6074934384",
       "description": "Le relazioni, i sentimenti, le fragilità e i desideri non si rivelano mai tutti\ninsieme.\nCome una cipolla, si scoprono strato dopo strato. In ogni episodio, la\npsicoterapeuta e scrittrice Stefania Andreoli parte da storie vere e domande universali per esplorare ciò che ci muove davvero: l'amore, la famiglia, la crescita, il dolore, il cambiamento.\nUn video podcast che aiuta a guardarsi\ndentro con sincerità, senza giudizio e senza scorciatoie.\nCon la partecipazione della giornalista di SkyTG24 Federica De Lillis.",
       "website": null,
       "latest": [
+        {
+          "title": "Ep.4 - Omosessualità e accettazione",
+          "date": "2026-11-23",
+          "seconds": 1831,
+          "url": null
+        },
         {
           "title": "Ep. 3 - Malattie ed effetti sulla psiche",
           "date": "2026-11-16",
@@ -942,7 +948,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-18T13:13:53.014Z"
+    "fetchedAt": "2026-11-25T14:32:16.880Z"
   },
   "podcast:cose molto umane di gianpiero kesten": {
     "value": {
@@ -1818,12 +1824,18 @@
         "Automiglioramento",
         "Istruzione"
       ],
-      "episodes": 35,
+      "episodes": 36,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/c5/ed/a6c5edd4-045e-3ee2-2e66-cdb5b37e765e/mza_17752716226410775507.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/AMCS8077634226",
       "description": "Torna Fuori dal Buio.\nPer questa seconda stagione Luca Casadei, ideatore del format, affida la conduzione alla psicoterapeuta Daniela Uslenghi. Al suo fianco ci saranno Giulia Boverio, già presente nella scorsa stagione, e Sarah Borruso.\nSarà un viaggio attraverso le dipendenze e i disturbi che condizionano e segnano le vite di tanti. Conosceremo le storie di trenta persone comuni: non solo di chi ha attraversato un buio, ma anche di chi ha accompagnato da vicino il percorso di una persona cara.\nUna nuova puntata ogni mercoledì.",
       "website": null,
       "latest": [
+        {
+          "title": "Francesca, sorella di un ragazzo con psicosi",
+          "date": "2026-11-24",
+          "seconds": 4574,
+          "url": null
+        },
         {
           "title": "Luca, scommesse sportive",
           "date": "2026-11-17",
@@ -1847,16 +1859,10 @@
           "date": "2026-11-03",
           "seconds": 230,
           "url": null
-        },
-        {
-          "title": "Nicla, eroina",
-          "date": "2026-05-19",
-          "seconds": 5887,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-18T13:13:50.407Z"
+    "fetchedAt": "2026-11-25T14:32:11.263Z"
   },
   "podcast:geopop": {
     "value": {
@@ -1961,45 +1967,45 @@
         "Notizie del giorno",
         "News"
       ],
-      "episodes": 3066,
+      "episodes": 3081,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f1/4f/d1/f14fd1cf-7b5c-0bb7-683d-325c83bb089e/mza_17540730169954302156.jpg/600x600bb.jpg",
       "feedUrl": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
       "description": "The Global News Podcast brings you the breaking news you need to hear, as it happens. Listen for the latest headlines and current affairs from around the world. Politics, economics, climate, business, technology, health – we cover it all with expert analysis and insight. Get the news that matters, delivered twice a day on weekdays and daily at weekends, plus special bonus episodes reacting to urgent breaking stories. Follow or subscribe now and never miss a moment. Get in touch: globalpodcast@bbc.co.uk",
       "website": "http://www.bbc.co.uk/programmes/p02nq0gn",
       "latest": [
         {
-          "title": "Nvidia rules out return for disgraced boss",
-          "date": "2026-11-18",
-          "seconds": 1737,
-          "url": "http://www.bbc.co.uk/programmes/p0pnjy0q"
+          "title": "Huawei has been found guilty of bank fraud in the US",
+          "date": "2026-11-25",
+          "seconds": 1799,
+          "url": "http://www.bbc.co.uk/programmes/p0pprc4x"
         },
         {
-          "title": "Special episode: Trump, Putin and Xi meeting",
-          "date": "2026-11-17",
-          "seconds": 2136,
-          "url": "http://www.bbc.co.uk/programmes/p0pnhq1p"
+          "title": "Is Jensen Huang's reinstatement good news for China?",
+          "date": "2026-11-24",
+          "seconds": 1718,
+          "url": "http://www.bbc.co.uk/programmes/p0ppp111"
         },
         {
-          "title": "Red carpet for Trump in Asia",
-          "date": "2026-11-17",
-          "seconds": 1846,
-          "url": "http://www.bbc.co.uk/programmes/p0pngj3s"
+          "title": "Stock markets jump after Nvidia boss reinstated",
+          "date": "2026-11-24",
+          "seconds": 1721,
+          "url": "http://www.bbc.co.uk/programmes/p0ppkqn5"
         },
         {
-          "title": "OpenAI sued by California over rogue cyber attacks",
-          "date": "2026-11-17",
-          "seconds": 1715,
-          "url": "http://www.bbc.co.uk/programmes/p0pnc231"
+          "title": "Jensen Huang reinstated as Nvidia CEO",
+          "date": "2026-11-23",
+          "seconds": 1896,
+          "url": "http://www.bbc.co.uk/programmes/p0pphgd5"
         },
         {
-          "title": "Crimea Kerch Bridge hit in a huge Ukrainian drone attack",
-          "date": "2026-11-16",
-          "seconds": 1557,
-          "url": "http://www.bbc.co.uk/programmes/p0pn98q4"
+          "title": "COP31 in Turkey ends without a deal",
+          "date": "2026-11-23",
+          "seconds": 1654,
+          "url": "http://www.bbc.co.uk/programmes/p0ppdfkn"
         }
       ]
     },
-    "fetchedAt": "2026-11-18T13:14:02.016Z"
+    "fetchedAt": "2026-11-25T14:32:19.963Z"
   },
   "podcast:globally": {
     "value": {
@@ -2606,55 +2612,6 @@
     },
     "fetchedAt": "2026-11-19T13:16:29.595Z"
   },
-  "podcast:love bombing": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/love-bombing-storie-di-manipolazione/id1546146233",
-      "genres": [
-        "Relazioni interpersonali",
-        "Cultura e società",
-        "Istruzione",
-        "Automiglioramento"
-      ],
-      "episodes": 41,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c3/b4/af/c3b4af1e-8991-4d8b-3618-aac65be5cf3e/mza_16714692478449253342.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/love-bombing",
-      "description": "Love Bombing, letteralmente bombardamento d’amore. È una tecnica utilizzata da tutti i manipolatori mentali per irretire le loro vittime. E, che vi piaccia o no, nessuno ne è immune. Narcisisti patologici, adoratori di Satana, sette religiose, nuovi guru, esperti di marketing piramidale, istruttori che si nascondono dietro al suggestivo velo della new age, sembrano appartenere a mondi lontanissimi, ma tutti mettono in atto gli stessi meccanismi strategici per prendere all’amo nuovi adepti. A causa del Love Bombing, le vittime si fanno lentamente trascinare in un nuovo mondo, fatto di comprensione, energia, entusiasmo ed espansione. Alcuni si convincono di potere tutto, anche, per esempio, guarire da soli. Plagiati ﬁno al punto di restare senza niente. Salute, aﬀetti e soldi.\nRoberta Lippi analizzerà, anche con l’aiuto di chi ha a che fare con questi meccanismi psicologici ogni giorno, i segnali che servono a riconoscere le situazioni a rischio, raccogliendo le storie di persone che hanno vissuto sulla propria pelle cosa significhi entrare e uscire da una bruttissima storia, che lì per lì, sembrava una delle più belle avventure della vita.",
-      "website": null,
-      "latest": [
-        {
-          "title": "Ep. 40 | La ragazza alla pari",
-          "date": "2026-11-10",
-          "seconds": 4627,
-          "url": null
-        },
-        {
-          "title": "Ep. 39 | Il traditore seriale",
-          "date": "2026-10-13",
-          "seconds": 4118,
-          "url": null
-        },
-        {
-          "title": "Ep. 38 | Il call center",
-          "date": "2026-09-17",
-          "seconds": 3653,
-          "url": null
-        },
-        {
-          "title": "Ep. 37 | Il villaggio turistico",
-          "date": "2026-08-11",
-          "seconds": 3969,
-          "url": null
-        },
-        {
-          "title": "Ep. 36 | Il volontariato",
-          "date": "2026-07-14",
-          "seconds": 4050,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-18T13:13:55.997Z"
-  },
   "podcast:ma perche": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/ma-perch%C3%A9/id1666594164",
@@ -2700,6 +2657,52 @@
       ]
     },
     "fetchedAt": "2026-11-20T13:01:19.907Z"
+  },
+  "podcast:maradona una storia politica": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/maradona-una-storia-politica-chora-storie/id1795670148",
+      "genres": [
+        "Cultura e società"
+      ],
+      "episodes": 54,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/b7/9f/d3b79f39-4a8a-4277-18f0-acd117880970/mza_4000787423905227816.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/BCS5917680046",
+      "description": "Questo non è un podcast che parla di calcio. Per capire perché Diego Armando Maradona divida così tanto tra chi lo considera una divinità e chi un fuorilegge, perché sia considerato il più forte di tutti i tempi pur avendo vinto meno di altri, parlare di calcio non basta.\nDall’Argentina del peronismo e delle dittature militari a Napoli, dalla Cuba di Fidel Castro al resto del Sud America, la sua storia attraversa lotta di classe, colonialismo, criminalità e persino religione.\nUn intreccio continuo di calcio e politica, di storia personale e storia collettiva, di ribellione e di potere. E dietro il mito, un uomo con tutte le sue contraddizioni.\n\"Maradona, una storia politica\" è una serie podcast di Chora News, prodotta da Chora Media, raccontata e scritta da Lorenzo Baravalle in collaborazione con Fabrizio Gabrielli ed Emanuele Monterotti.\nCREDITS\nMaradona, una storia politica è una serie podcast di Chora News, prodotta da Chora Media.\nRaccontata e scritta da Lorenzo Baravalle in collaborazione con Fabrizio Gabrielli ed Emanuele Monterotti.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Ep.1: Siamo gente di calcio, non di politica | Maradona, una storia politica",
+          "date": "2026-11-25",
+          "seconds": 3118,
+          "url": null
+        },
+        {
+          "title": "Maradona, una storia politica | TRAILER - Da mercoledì 25 novembre",
+          "date": "2026-11-23",
+          "seconds": 76,
+          "url": null
+        },
+        {
+          "title": "Ep.6: Un nuovo inizio | Golden Boy",
+          "date": "2026-11-13",
+          "seconds": 1245,
+          "url": null
+        },
+        {
+          "title": "Ep.5: Sette pagine | Golden Boy",
+          "date": "2026-11-13",
+          "seconds": 1273,
+          "url": null
+        },
+        {
+          "title": "Ep.4: L'ho fatto per te | Golden Boy",
+          "date": "2026-11-06",
+          "seconds": 1548,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:25.807Z"
   },
   "podcast:market mover": {
     "value": {
@@ -3319,19 +3322,6 @@
     },
     "fetchedAt": "2026-11-22T12:44:55.854Z"
   },
-  "podcast:party gamers": {
-    "value": {
-      "appleUrl": null,
-      "genres": [],
-      "episodes": null,
-      "cover": null,
-      "feedUrl": null,
-      "description": null,
-      "website": null,
-      "latest": []
-    },
-    "fetchedAt": "2026-11-18T13:13:59.032Z"
-  },
   "podcast:passa dal bsmt": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/passa-dal-bsmt/id1649904820",
@@ -3922,6 +3912,53 @@
     },
     "fetchedAt": "2026-11-19T13:16:02.331Z"
   },
+  "podcast:streetsmart": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/streetsmart-gainesville/id1872445745",
+      "genres": [
+        "Notizie: approfondimenti",
+        "News"
+      ],
+      "episodes": 47,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f4/7e/53/f47e53ea-6b77-f3d5-cb56-c88bd6399a70/mza_12922421107374324208.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.transistor.fm/street-smart-gainesville",
+      "description": "A weekly, local news podcast for Gainesville, FL and Alachua County, covering business, government, education and events. StreetSmart is produced by Mainstreet Daily News, the source for local news that matters to you.",
+      "website": "https://podcast.mainstreetdailynews.com",
+      "latest": [
+        {
+          "title": "Ironwood Golf Course tees a bid",
+          "date": "2026-11-23",
+          "seconds": 906,
+          "url": "https://share.transistor.fm/s/7974c356"
+        },
+        {
+          "title": "Bonus—Switching from school board to county commission with Tina Certain",
+          "date": "2026-11-16",
+          "seconds": 1408,
+          "url": "https://share.transistor.fm/s/2b084107"
+        },
+        {
+          "title": "Bonus—Transparency, taking office with Nathan Crabbe",
+          "date": "2026-11-09",
+          "seconds": 1184,
+          "url": "https://share.transistor.fm/s/2114caf3"
+        },
+        {
+          "title": "Enrollment drop, reading gap in Alachua County schools",
+          "date": "2026-11-02",
+          "seconds": 747,
+          "url": "https://share.transistor.fm/s/c63b7389"
+        },
+        {
+          "title": "Ups and downs in the Hippodrome elevator",
+          "date": "2026-10-26",
+          "seconds": 645,
+          "url": "https://share.transistor.fm/s/5ead89ab"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:13.766Z"
+  },
   "podcast:supernova": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/supernova/id1775666184",
@@ -4267,38 +4304,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/tutti-convocati",
       "latest": [
         {
-          "title": "Nations League e dintorni",
-          "date": "2026-11-17",
+          "title": "Puntata del 25/11/2026",
+          "date": "2026-11-25",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261117-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261117-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261125-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261125-tutti-convocati"
         },
         {
-          "title": "Abbiamo scherzato",
-          "date": "2026-11-16",
+          "title": "KDB e la sua vera City",
+          "date": "2026-11-24",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261116-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261116-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261124-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261124-tutti-convocati"
         },
         {
-          "title": "Missione quarti di finale!",
-          "date": "2026-11-15",
+          "title": "L'Inter fa la Pazza",
+          "date": "2026-11-23",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261115-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261115-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261123-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261123-tutti-convocati"
         },
         {
-          "title": "Il ritorno degli Azzurri",
-          "date": "2026-11-13",
+          "title": "Le romane chiamano, l’Inter risponde?",
+          "date": "2026-11-22",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261113-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261113-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261122-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261122-tutti-convocati"
         },
         {
-          "title": "Italia-Francia sold out",
-          "date": "2026-11-12",
+          "title": "Riprende la corsa",
+          "date": "2026-11-20",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261112-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261112-tutti-convocati"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261120-tutti-convocati.mp3?awCollectionId=tutti-convocati&awEpisodeId=261120-tutti-convocati"
         }
       ]
     },
-    "fetchedAt": "2026-11-18T13:14:06.046Z"
+    "fetchedAt": "2026-11-25T14:32:23.586Z"
   },
   "podcast:two humans in the loop": {
     "value": {
@@ -4360,51 +4397,5 @@
       ]
     },
     "fetchedAt": "2026-11-19T13:16:05.313Z"
-  },
-  "podcast:weekly news": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/weekly-news-marketing-espresso/id1649952638",
-      "genres": [
-        "Economia"
-      ],
-      "episodes": 322,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/6d/aa/13/6daa13e0-5688-d2ca-1bd0-8ea40cd95a43/mza_15976850955216336205.jpg/600x600bb.jpg",
-      "feedUrl": "https://anchor.fm/s/1c8f2a98/podcast/rss",
-      "description": "Ciao, siamo il team di Marketing Espresso e questo è Weekly News, il podcast in cui ogni martedì ti raccontiamo in meno di 30 le ultimissime dal mondo digital e marketing 🔥\nIn elenco Agcom ✨",
-      "website": "https://www.marketing-espresso.com/?gad_source=1&gbraid=0AAAAACwSyBEPAkgk40kZDJQl-Px7Xh7z5&gclid=Cj0KCQjwqv2_BhC0ARIsAFb5Ac-JDoTcBPBUfYhwcRjemlrHk_vQk-lfAJI1nGeDy6Bek_nmUwbUqo4aAuXhEALw_wcB",
-      "latest": [
-        {
-          "title": "Burger King x Magic: il sold out delude i fan",
-          "date": "2026-11-17",
-          "seconds": 2041,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/Burger-King-x-Magic-il-sold-out-delude-i-fan-e3sfrrm"
-        },
-        {
-          "title": "KIKO x STABILO: quando il make up diventa packaging",
-          "date": "2026-11-10",
-          "seconds": 2285,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/KIKO-x-STABILO-quando-il-make-up-diventa-packaging-e3s3c1n"
-        },
-        {
-          "title": "Ferrero non si ferma più: ecco Nutella Dark, Nutella Cookies e Wonka",
-          "date": "2026-11-03",
-          "seconds": 2003,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/Ferrero-non-si-ferma-pi-ecco-Nutella-Dark--Nutella-Cookies-e-Wonka-e3rjulm"
-        },
-        {
-          "title": "La Kettlebox di McDonald’s è bellissima. Peccato non si possa comprare",
-          "date": "2026-10-27",
-          "seconds": 2245,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/La-Kettlebox-di-McDonalds--bellissima--Peccato-non-si-possa-comprare-e3r4g37"
-        },
-        {
-          "title": "CANVA ha CAMBIATO il modo di fare DESIGN",
-          "date": "2026-10-22",
-          "seconds": 3101,
-          "url": "https://podcasters.spotify.com/pod/show/marketing-espresso/episodes/CANVA-ha-CAMBIATO-il-modo-di-fare-DESIGN-e3qrdj4"
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-18T13:14:08.203Z"
   }
 }

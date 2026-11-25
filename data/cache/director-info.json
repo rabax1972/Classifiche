@@ -1028,6 +1028,43 @@
     },
     "fetchedAt": "2026-11-19T13:11:28.536Z"
   },
+  "angelika padberg": {
+    "value": {
+      "tmdbId": 1940493,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1542808,
+          "title": "Kinderspiel",
+          "year": null
+        },
+        {
+          "id": 1623961,
+          "title": "Room for the Rest",
+          "year": null
+        },
+        {
+          "id": 1830830,
+          "title": "The Wasp",
+          "year": null
+        },
+        {
+          "id": 1830845,
+          "title": "A Good Soup - A Mr. Henderson Story",
+          "year": null
+        },
+        {
+          "id": 1542613,
+          "title": "A Good Dark Roast - A Mr. Henderson Story",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:10.656Z"
+  },
   "anna foglietta": {
     "value": {
       "tmdbId": 586953,
@@ -2128,6 +2165,84 @@
     },
     "fetchedAt": "2026-10-17T09:33:03.740Z"
   },
+  "brad bird": {
+    "value": {
+      "tmdbId": 7087,
+      "wiki": {
+        "lang": "it",
+        "title": "Brad Bird",
+        "url": "https://it.wikipedia.org/wiki/Brad_Bird",
+        "extract": "Phillip Bradley Bird, detto Brad (Kalispell, 24 settembre 1957), è un regista, animatore, sceneggiatore, produttore cinematografico e doppiatore statunitense.\n\nVincitore di due premi Oscar al miglior film d'animazione per Gli Incredibili - Una \"normale\" famiglia di supereroi (2004) e Ratatouille (2007), ha cominciato lavorando per le più importanti case di produzione del genere d'animazione fino al suo ingresso nella Pixar."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brad_bird_cropped_2009.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Brad_bird_cropped_2009.jpg",
+        "author": "nicolas genin from Paris, France",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 940009,
+          "title": "Ray Gunn",
+          "year": "2026"
+        },
+        {
+          "id": 260513,
+          "title": "Gli Incredibili 2",
+          "year": "2018"
+        },
+        {
+          "id": 158852,
+          "title": "Tomorrowland - Il mondo di domani",
+          "year": "2015"
+        },
+        {
+          "id": 678845,
+          "title": "Tomorrowland: The Origins of Plus Ultra",
+          "year": "2015"
+        },
+        {
+          "id": 56292,
+          "title": "Mission: Impossible - Protocollo fantasma",
+          "year": "2011"
+        },
+        {
+          "id": 2062,
+          "title": "Ratatouille",
+          "year": "2007"
+        },
+        {
+          "id": 13932,
+          "title": "L'attacco di Jack-Jack",
+          "year": "2005"
+        },
+        {
+          "id": 9806,
+          "title": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
+          "year": "2004"
+        },
+        {
+          "id": 10386,
+          "title": "Il gigante di ferro",
+          "year": "1999"
+        },
+        {
+          "id": 1309299,
+          "title": "Amazing Stories: The Movie III",
+          "year": "1998"
+        },
+        {
+          "id": 1303499,
+          "title": "Tortoise and the Hare",
+          "year": "1979"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:06.997Z"
+  },
   "brady corbet": {
     "value": {
       "tmdbId": 55493,
@@ -2903,6 +3018,84 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.529Z"
+  },
+  "casper kelly": {
+    "value": {
+      "tmdbId": 1232064,
+      "wiki": {
+        "lang": "it",
+        "title": "Casper Kelly",
+        "url": "https://it.wikipedia.org/wiki/Casper_Kelly",
+        "extract": "Christopher Benjamin \"Casper\" Kelly (Burlington, 29 giugno 1970) è uno sceneggiatore, regista e produttore televisivo statunitense.\n\nKelly contribuisce frequentemente in diversi progetti del blocco televisivo Adult Swim di Cartoon Network, per cui ha co-creato la serie televisiva Your Pretty Face Is Going to Hell e la serie animata Stroker and Hoop, acquisendo notorietà per aver scritto e diretto il cortometraggio Too Many Cooks e i lungometraggi Adult Swim Yule Log e Adult Swim Yule Log 2: Branchin' Out.\n\nNel 2025 ha diretto uno dei segmenti di V/H/S/Halloween, mentre l'anno successivo ha diretto e sceneggiato Buddy, il suo primo lungometraggio distribuito nei cinema."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fantastic_fest11_%28cropped2%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Fantastic_fest11_(cropped2).jpg",
+        "author": "Happy Green Giraffe",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1514026,
+          "title": "Buddy",
+          "year": "2026"
+        },
+        {
+          "id": 1373445,
+          "title": "V/H/S/Halloween",
+          "year": "2025"
+        },
+        {
+          "id": 1397934,
+          "title": "Adult Swim Yule Log 2: Branchin' Out",
+          "year": "2024"
+        },
+        {
+          "id": 1060421,
+          "title": "Adult Swim Yule Log",
+          "year": "2022"
+        },
+        {
+          "id": 843964,
+          "title": "Danny Ketchup",
+          "year": "2020"
+        },
+        {
+          "id": 532378,
+          "title": "Final Deployment 4: Queen Battle Walkthrough",
+          "year": "2018"
+        },
+        {
+          "id": 301566,
+          "title": "Too Many Cooks",
+          "year": "2014"
+        },
+        {
+          "id": 1061008,
+          "title": "Please Please Pick Up",
+          "year": "2010"
+        },
+        {
+          "id": 298015,
+          "title": "Night of the Living Doo",
+          "year": "2001"
+        },
+        {
+          "id": 946961,
+          "title": "Major Flake: Soggy Sale",
+          "year": "2001"
+        },
+        {
+          "id": 423336,
+          "title": "The Scooby-Doo Project",
+          "year": "1999"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:02.990Z"
   },
   "catherine hardwicke": {
     "value": {
@@ -10400,6 +10593,28 @@
     },
     "fetchedAt": "2026-10-17T09:33:27.164Z"
   },
+  "jason hand": {
+    "value": {
+      "tmdbId": 1461394,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/gepbkgavGdDXdNbQzdFaxayTpoH.jpg",
+      "films": [
+        {
+          "id": 1538497,
+          "title": "Hexe - Il regno delle streghe",
+          "year": "2026"
+        },
+        {
+          "id": 1241982,
+          "title": "Oceania 2",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:03.977Z"
+  },
   "jaume collet serra": {
     "value": {
       "tmdbId": 59521,
@@ -11560,6 +11775,69 @@
       ]
     },
     "fetchedAt": "2026-10-30T08:47:27.455Z"
+  },
+  "john hamburg": {
+    "value": {
+      "tmdbId": 17871,
+      "wiki": {
+        "lang": "it",
+        "title": "John Hamburg",
+        "url": "https://it.wikipedia.org/wiki/John_Hamburg",
+        "extract": "John Liman Hamburg (New York, 26 maggio 1970) è uno sceneggiatore e regista statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/JohnHamburg-byPhilipRomano.jpg/500px-JohnHamburg-byPhilipRomano.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:JohnHamburg-byPhilipRomano.jpg",
+        "author": "PhilipRomano",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 747028,
+          "title": "Dr. Rapp",
+          "year": null
+        },
+        {
+          "id": 1400336,
+          "title": "Ti presento i Fotter",
+          "year": "2026"
+        },
+        {
+          "id": 862551,
+          "title": "Me Time - Un weekend tutto per me",
+          "year": "2022"
+        },
+        {
+          "id": 356305,
+          "title": "Proprio lui?",
+          "year": "2016"
+        },
+        {
+          "id": 16538,
+          "title": "I Love You, Man",
+          "year": "2009"
+        },
+        {
+          "id": 5966,
+          "title": "...E alla fine arriva Polly",
+          "year": "2004"
+        },
+        {
+          "id": 16155,
+          "title": "Safe Men",
+          "year": "1998"
+        },
+        {
+          "id": 429672,
+          "title": "Tick",
+          "year": "1996"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:04.993Z"
   },
   "john lasseter": {
     "value": {
@@ -12740,6 +13018,81 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:35:03.846Z"
+  },
+  "julia knowles": {
+    "value": {
+      "tmdbId": 126414,
+      "wiki": null,
+      "bio": {
+        "text": "Julia Knowles is known for World War One Remembered: Passchendaele (2014), The Coronation Concert (2023) and The Royal Wedding: Prince Harry and Meghan Markle (2018).",
+        "lang": "en"
+      },
+      "photo": null,
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1399086,
+          "title": "Maisie Adam: Appraisal",
+          "year": "2024"
+        },
+        {
+          "id": 1290034,
+          "title": "La gravità non è un limite: su il sipario su Wicked",
+          "year": "2024"
+        },
+        {
+          "id": 1239501,
+          "title": "My Favorite Things: The Rodgers & Hammerstein 80th Anniversary Concert",
+          "year": "2024"
+        },
+        {
+          "id": 1171656,
+          "title": "An Audience with Kylie",
+          "year": "2023"
+        },
+        {
+          "id": 1216363,
+          "title": "An Audience with Kylie: Exclusive performance",
+          "year": "2023"
+        },
+        {
+          "id": 1123580,
+          "title": "The Coronation Concert",
+          "year": "2023"
+        },
+        {
+          "id": 1117125,
+          "title": "Derren Brown: Showman",
+          "year": "2023"
+        },
+        {
+          "id": 1068404,
+          "title": "Sam Ryder Rocks New Year’s Eve",
+          "year": "2022"
+        },
+        {
+          "id": 1055001,
+          "title": "Mariah Carey: Global Citizen Festival",
+          "year": "2022"
+        },
+        {
+          "id": 762951,
+          "title": "Dr. Seuss' The Grinch Musical",
+          "year": "2020"
+        },
+        {
+          "id": 694588,
+          "title": "It's Not the Robbie Williams Christmas Show",
+          "year": "2019"
+        },
+        {
+          "id": 624078,
+          "title": "Simon Amstell: Set Free",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:09.640Z"
   },
   "justin k thompson": {
     "value": {
@@ -14247,6 +14600,28 @@
     },
     "fetchedAt": "2026-10-17T09:32:09.451Z"
   },
+  "malcon pierce": {
+    "value": {
+      "tmdbId": 1717780,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/3fF4riCyMpsmnHB8DPbBfxxmVSW.jpg",
+      "films": [
+        {
+          "id": 1720486,
+          "title": "Lilo & Scratch",
+          "year": "2026"
+        },
+        {
+          "id": 1500099,
+          "title": "Versa",
+          "year": "2025"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:05.960Z"
+  },
   "manu pons": {
     "value": {
       "tmdbId": 4638760,
@@ -14884,6 +15259,43 @@
       ]
     },
     "fetchedAt": "2026-10-21T04:49:06.438Z"
+  },
+  "max webster": {
+    "value": {
+      "tmdbId": 2851575,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/qjPAd1qeY4VU3CYNl0RHXEBHITa.jpg",
+      "films": [
+        {
+          "id": 1352026,
+          "title": "National Theatre Live: The Importance of Being Earnest",
+          "year": "2025"
+        },
+        {
+          "id": 1368487,
+          "title": "Macbeth",
+          "year": "2025"
+        },
+        {
+          "id": 1073828,
+          "title": "National Theatre Live: Life of Pi",
+          "year": "2023"
+        },
+        {
+          "id": 925377,
+          "title": "National Theatre Live: Henry V",
+          "year": "2022"
+        },
+        {
+          "id": 762951,
+          "title": "Dr. Seuss' The Grinch Musical",
+          "year": "2020"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:08.650Z"
   },
   "mel gibson": {
     "value": {
@@ -15838,6 +16250,83 @@
     },
     "fetchedAt": "2026-10-20T04:53:37.186Z"
   },
+  "mike p nelson": {
+    "value": {
+      "tmdbId": 1039364,
+      "wiki": {
+        "lang": "en",
+        "title": "Mike P. Nelson",
+        "url": "https://en.wikipedia.org/wiki/Mike_P._Nelson",
+        "extract": "Michael Paul Nelson (born December 18, 1982) is an American filmmaker. He is known for directing the horror films The Domestics (2018), Wrong Turn (2021), Silent Night, Deadly Night (2025), and Beware Boiúna (2026)."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/uIYmWGeKMHtoQiGQ5AG2cnjxifu.jpg",
+      "films": [
+        {
+          "id": 1509671,
+          "title": "Saw XI",
+          "year": null
+        },
+        {
+          "id": 1244523,
+          "title": "Il risveglio di Boiúna",
+          "year": "2026"
+        },
+        {
+          "id": 801937,
+          "title": "Silent Night, Deadly Night",
+          "year": "2025"
+        },
+        {
+          "id": 1032948,
+          "title": "V/H/S/85",
+          "year": "2023"
+        },
+        {
+          "id": 630586,
+          "title": "Wrong Turn - The Foundation",
+          "year": "2021"
+        },
+        {
+          "id": 426814,
+          "title": "The Domestics",
+          "year": "2018"
+        },
+        {
+          "id": 1719074,
+          "title": "The Goodbye",
+          "year": "2016"
+        },
+        {
+          "id": 579053,
+          "title": "The Retirement of Joe Corduroy",
+          "year": "2012"
+        },
+        {
+          "id": 1722378,
+          "title": "An American Classic",
+          "year": "2008"
+        },
+        {
+          "id": 106028,
+          "title": "Summer School",
+          "year": "2006"
+        },
+        {
+          "id": 1722362,
+          "title": "The 26th",
+          "year": "2005"
+        },
+        {
+          "id": 955202,
+          "title": "The G.I.",
+          "year": "2004"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:01.066Z"
+  },
   "milos forman": {
     "value": {
       "tmdbId": 3974,
@@ -16129,6 +16618,89 @@
       ]
     },
     "fetchedAt": "2026-11-24T14:57:32.199Z"
+  },
+  "nathan fielder": {
+    "value": {
+      "tmdbId": 1212667,
+      "wiki": {
+        "lang": "it",
+        "title": "Nathan Fielder",
+        "url": "https://it.wikipedia.org/wiki/Nathan_Fielder",
+        "extract": "Nathan Joseph Fielder (Vancouver, 12 maggio 1983) è un comico, attore e produttore cinematografico canadese.\n\nÈ principalmente noto per aver co-creato, diretto e interpretato per il canale Comedy Central il reality-show parodia Nathan for you (2013-2017), il \"mockumentary\" HBO The Rehearsal (2022) e la serie Showtime The Curse (2023) con Emma Stone.\n\nÈ stato inoltre produttore esecutivo dello show HBO How to with John Wilson (2020–2023).\n\nNel 2023 Fielder è stato inserito nella lista dei 100 uomini più influenti del mondo dal magazine Time."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nathan_Fielder.jpg/500px-Nathan_Fielder.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Nathan_Fielder.jpg",
+        "author": "Northwest",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1283920,
+          "title": "Checkmate",
+          "year": null
+        },
+        {
+          "id": 1765072,
+          "title": "You Can See Everything",
+          "year": "2026"
+        },
+        {
+          "id": 1833246,
+          "title": "How To With John Wilson: Anatomy of a Scene - The Bread Scene",
+          "year": "2020"
+        },
+        {
+          "id": 1833238,
+          "title": "Can the Emmys be Hacked?",
+          "year": "2018"
+        },
+        {
+          "id": 361839,
+          "title": "The Web",
+          "year": "2013"
+        },
+        {
+          "id": 1832593,
+          "title": "Buyer's Market",
+          "year": "2012"
+        },
+        {
+          "id": 1833199,
+          "title": "hiLarious clip from 30 Rock!!",
+          "year": "2011"
+        },
+        {
+          "id": 1832559,
+          "title": "Way Up There",
+          "year": "2011"
+        },
+        {
+          "id": 1833227,
+          "title": "Ronald Shoub",
+          "year": "2010"
+        },
+        {
+          "id": 1833224,
+          "title": "One-Handed Flourishes",
+          "year": "2010"
+        },
+        {
+          "id": 1832602,
+          "title": "Thin Watermelon",
+          "year": "2010"
+        },
+        {
+          "id": 1832845,
+          "title": "Sublet",
+          "year": "2010"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:28:02.006Z"
   },
   "neil marshall": {
     "value": {

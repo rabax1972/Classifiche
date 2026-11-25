@@ -1714,6 +1714,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "carlotta dicataldo": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/carlotta-dicataldo/1688698079",
+      "died": null
+    },
+    "fetchedAt": "2026-11-25T14:27:58.256Z"
+  },
   "caro claire burke": {
     "value": {
       "wiki": null,
@@ -6151,6 +6160,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "massimo recalcati": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Massimo Recalcati",
+        "url": "https://it.wikipedia.org/wiki/Massimo_Recalcati",
+        "extract": "Massimo Recalcati (Milano, 28 novembre 1959) è uno psicoanalista e saggista italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Massimo_Recalcati_Premio_Chiara_2018.jpg/500px-Massimo_Recalcati_Premio_Chiara_2018.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Massimo_Recalcati_Premio_Chiara_2018.jpg",
+        "author": "Amici di Piero Chiara",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/massimo-recalcati/516840490",
+      "died": null
+    },
+    "fetchedAt": "2026-11-25T14:27:58.256Z"
   },
   "matt dinniman": {
     "value": {

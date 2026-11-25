@@ -1613,6 +1613,38 @@
     },
     "fetchedAt": "2026-10-17T12:50:30.857Z"
   },
+  "curro serrano": {
+    "value": {
+      "tmdbId": 2191683,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 320350,
+          "title": "En el nombre de Marta",
+          "year": null
+        },
+        {
+          "id": 303182,
+          "title": "Delitto in Galizia",
+          "year": "2026"
+        },
+        {
+          "id": 244432,
+          "title": "La Favorita 1922",
+          "year": "2025"
+        },
+        {
+          "id": 73355,
+          "title": "All Wrong",
+          "year": "2017"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:05.239Z"
+  },
   "d b weiss": {
     "value": {
       "tmdbId": 228068,
@@ -2079,6 +2111,38 @@
       ]
     },
     "fetchedAt": "2026-10-27T04:51:37.554Z"
+  },
+  "david orea": {
+    "value": {
+      "tmdbId": 2747679,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 320350,
+          "title": "En el nombre de Marta",
+          "year": null
+        },
+        {
+          "id": 303182,
+          "title": "Delitto in Galizia",
+          "year": "2026"
+        },
+        {
+          "id": 296285,
+          "title": "Oasis Resort",
+          "year": "2026"
+        },
+        {
+          "id": 239966,
+          "title": "Asunta",
+          "year": "2024"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:08.687Z"
   },
   "david schickler": {
     "value": {
@@ -2874,6 +2938,78 @@
       ]
     },
     "fetchedAt": "2026-10-28T05:08:02.737Z"
+  },
+  "gema r neira": {
+    "value": {
+      "tmdbId": 1261463,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 320350,
+          "title": "En el nombre de Marta",
+          "year": null
+        },
+        {
+          "id": 303182,
+          "title": "Delitto in Galizia",
+          "year": "2026"
+        },
+        {
+          "id": 280890,
+          "title": "Manuale per signorine",
+          "year": "2025"
+        },
+        {
+          "id": 244432,
+          "title": "La Favorita 1922",
+          "year": "2025"
+        },
+        {
+          "id": 208251,
+          "title": "Tierra de mujeres - Intrecci di vite",
+          "year": "2024"
+        },
+        {
+          "id": 239966,
+          "title": "Asunta",
+          "year": "2024"
+        },
+        {
+          "id": 206285,
+          "title": "Nacho",
+          "year": "2023"
+        },
+        {
+          "id": 112321,
+          "title": "Un affare privato",
+          "year": "2022"
+        },
+        {
+          "id": 123854,
+          "title": "Now and Then",
+          "year": "2022"
+        },
+        {
+          "id": 127425,
+          "title": "Jaguar",
+          "year": "2021"
+        },
+        {
+          "id": 108389,
+          "title": "Gran Hotel",
+          "year": "2020"
+        },
+        {
+          "id": 92500,
+          "title": "En el corredor de la muerte",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:07.696Z"
   },
   "geoff johns": {
     "value": {
@@ -5950,6 +6086,78 @@
       ]
     },
     "fetchedAt": "2026-10-25T04:50:56.273Z"
+  },
+  "ramon campos": {
+    "value": {
+      "tmdbId": 1261462,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 320350,
+          "title": "En el nombre de Marta",
+          "year": null
+        },
+        {
+          "id": 303182,
+          "title": "Delitto in Galizia",
+          "year": "2026"
+        },
+        {
+          "id": 296285,
+          "title": "Oasis Resort",
+          "year": "2026"
+        },
+        {
+          "id": 244432,
+          "title": "La Favorita 1922",
+          "year": "2025"
+        },
+        {
+          "id": 208251,
+          "title": "Tierra de mujeres - Intrecci di vite",
+          "year": "2024"
+        },
+        {
+          "id": 239966,
+          "title": "Asunta",
+          "year": "2024"
+        },
+        {
+          "id": 112321,
+          "title": "Un affare privato",
+          "year": "2022"
+        },
+        {
+          "id": 123854,
+          "title": "Now and Then",
+          "year": "2022"
+        },
+        {
+          "id": 127425,
+          "title": "Jaguar",
+          "year": "2021"
+        },
+        {
+          "id": 108389,
+          "title": "Gran Hotel",
+          "year": "2020"
+        },
+        {
+          "id": 92500,
+          "title": "En el corredor de la muerte",
+          "year": "2019"
+        },
+        {
+          "id": 88239,
+          "title": "Alto mare",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-25T14:32:06.717Z"
   },
   "rhett mclaughlin": {
     "value": {

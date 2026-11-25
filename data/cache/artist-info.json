@@ -1950,6 +1950,25 @@
     },
     "fetchedAt": "2026-10-17T08:00:20.924Z"
   },
+  "travis scott": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Travis Scott",
+        "url": "https://it.wikipedia.org/wiki/Travis_Scott",
+        "extract": "Travis Scott, pseudonimo di Jacques Bermon Webster II, conosciuto anche come La Flame o Cactus Jack (Houston, 30 aprile 1991), è un rapper, cantautore e produttore discografico statunitense."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/TravisScott-byPhilipRomano_%28cropped%29.jpg/500px-TravisScott-byPhilipRomano_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:TravisScott-byPhilipRomano_(cropped).jpg",
+        "author": "PhilipRomano",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://music.apple.com/it/artist/travis-scott/549236696"
+    },
+    "fetchedAt": "2026-11-25T14:27:46.614Z"
+  },
   "tredici pietro": {
     "value": {
       "wiki": {

@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "films": {
     "11": {
       "imdbId": "tt0076759",
       "imdb": {
         "value": 8.6,
-        "votes": 1599218
+        "votes": 1599303
       },
       "rt": {
         "score": 94,
@@ -17,7 +17,7 @@
       "imdbId": "tt0109830",
       "imdb": {
         "value": 8.8,
-        "votes": 2555383
+        "votes": 2555577
       },
       "rt": {
         "score": 75,
@@ -29,7 +29,7 @@
       "imdbId": "tt0169547",
       "imdb": {
         "value": 8.3,
-        "votes": 1293495
+        "votes": 1293534
       },
       "rt": {
         "score": 87,
@@ -41,7 +41,7 @@
       "imdbId": "tt0078788",
       "imdb": {
         "value": 8.4,
-        "votes": 782709
+        "votes": 782750
       },
       "rt": {
         "score": 91,
@@ -53,7 +53,7 @@
       "imdbId": "tt0105695",
       "imdb": {
         "value": 8.2,
-        "votes": 475431
+        "votes": 475447
       },
       "rt": {
         "score": 96,
@@ -65,7 +65,7 @@
       "imdbId": "tt0338013",
       "imdb": {
         "value": 8.3,
-        "votes": 1203687
+        "votes": 1203767
       },
       "rt": {
         "score": 93,
@@ -77,7 +77,7 @@
       "imdbId": "tt0062622",
       "imdb": {
         "value": 8.3,
-        "votes": 798038
+        "votes": 798100
       },
       "rt": {
         "score": 92,
@@ -89,7 +89,7 @@
       "imdbId": "tt0405159",
       "imdb": {
         "value": 8.1,
-        "votes": 777633
+        "votes": 777673
       },
       "rt": {
         "score": 90,
@@ -101,7 +101,7 @@
       "imdbId": "tt0120586",
       "imdb": {
         "value": 8.5,
-        "votes": 1294025
+        "votes": 1294099
       },
       "rt": {
         "score": 84,
@@ -113,7 +113,7 @@
       "imdbId": "tt0209144",
       "imdb": {
         "value": 8.4,
-        "votes": 1468393
+        "votes": 1468525
       },
       "rt": {
         "score": 94,
@@ -125,7 +125,7 @@
       "imdbId": "tt0082971",
       "imdb": {
         "value": 8.4,
-        "votes": 1126500
+        "votes": 1126555
       },
       "rt": {
         "score": 94,
@@ -137,7 +137,7 @@
       "imdbId": "tt0172495",
       "imdb": {
         "value": 8.5,
-        "votes": 1896374
+        "votes": 1896519
       },
       "rt": {
         "score": 80,
@@ -149,7 +149,7 @@
       "imdbId": "tt0110413",
       "imdb": {
         "value": 8.5,
-        "votes": 1374470
+        "votes": 1374557
       },
       "rt": {
         "score": 75,
@@ -161,7 +161,7 @@
       "imdbId": "tt0088763",
       "imdb": {
         "value": 8.5,
-        "votes": 1489041
+        "votes": 1489169
       },
       "rt": {
         "score": 92,
@@ -173,7 +173,7 @@
       "imdbId": "tt0086250",
       "imdb": {
         "value": 8.3,
-        "votes": 1043504
+        "votes": 1043599
       },
       "rt": {
         "score": 78,
@@ -185,7 +185,7 @@
       "imdbId": "tt0120737",
       "imdb": {
         "value": 8.9,
-        "votes": 2254539
+        "votes": 2254734
       },
       "rt": {
         "score": 91,
@@ -197,7 +197,7 @@
       "imdbId": "tt0167261",
       "imdb": {
         "value": 8.8,
-        "votes": 1998790
+        "votes": 1998946
       },
       "rt": {
         "score": 95,
@@ -209,7 +209,7 @@
       "imdbId": "tt0167260",
       "imdb": {
         "value": 9,
-        "votes": 2209787
+        "votes": 2209943
       },
       "rt": {
         "score": 94,
@@ -221,7 +221,7 @@
       "imdbId": "tt0119698",
       "imdb": {
         "value": 8.3,
-        "votes": 495057
+        "votes": 495096
       },
       "rt": {
         "score": 93,
@@ -233,7 +233,7 @@
       "imdbId": "tt0245429",
       "imdb": {
         "value": 8.6,
-        "votes": 994718
+        "votes": 994811
       },
       "rt": {
         "score": 96,
@@ -245,7 +245,7 @@
       "imdbId": "tt0020629",
       "imdb": {
         "value": 8.1,
-        "votes": 73176
+        "votes": 73183
       },
       "rt": {
         "score": 98,
@@ -257,7 +257,7 @@
       "imdbId": "tt0468569",
       "imdb": {
         "value": 9.1,
-        "votes": 3253541
+        "votes": 3253799
       },
       "rt": {
         "score": 94,
@@ -269,7 +269,7 @@
       "imdbId": "tt0112573",
       "imdb": {
         "value": 8.3,
-        "votes": 1177767
+        "votes": 1177822
       },
       "rt": {
         "score": 74,
@@ -281,7 +281,7 @@
       "imdbId": "tt0088247",
       "imdb": {
         "value": 8.1,
-        "votes": 1025883
+        "votes": 1025956
       },
       "rt": {
         "score": 90,
@@ -293,7 +293,7 @@
       "imdbId": "tt0032976",
       "imdb": {
         "value": 8,
-        "votes": 163089
+        "votes": 163097
       },
       "rt": {
         "score": 98,
@@ -305,7 +305,7 @@
       "imdbId": "tt0068646",
       "imdb": {
         "value": 9.2,
-        "votes": 2274199
+        "votes": 2274361
       },
       "rt": {
         "score": 97,
@@ -317,7 +317,7 @@
       "imdbId": "tt0071562",
       "imdb": {
         "value": 9,
-        "votes": 1525165
+        "votes": 1525276
       },
       "rt": {
         "score": 96,
@@ -329,7 +329,7 @@
       "imdbId": "tt0102926",
       "imdb": {
         "value": 8.6,
-        "votes": 1768339
+        "votes": 1768483
       },
       "rt": {
         "score": 95,
@@ -341,7 +341,7 @@
       "imdbId": "tt0111161",
       "imdb": {
         "value": 9.3,
-        "votes": 3267800
+        "votes": 3268052
       },
       "rt": {
         "score": 89,
@@ -353,7 +353,7 @@
       "imdbId": "tt0086879",
       "imdb": {
         "value": 8.4,
-        "votes": 476294
+        "votes": 476319
       },
       "rt": {
         "score": 90,
@@ -365,7 +365,7 @@
       "imdbId": "tt0103064",
       "imdb": {
         "value": 8.6,
-        "votes": 1311910
+        "votes": 1312005
       },
       "rt": {
         "score": 91,
@@ -377,7 +377,7 @@
       "imdbId": "tt0053604",
       "imdb": {
         "value": 8.3,
-        "votes": 224669
+        "votes": 224680
       },
       "rt": {
         "score": 94,
@@ -389,7 +389,7 @@
       "imdbId": "tt0449088",
       "imdb": {
         "value": 7.2,
-        "votes": 757307
+        "votes": 757349
       },
       "rt": {
         "score": 43,
@@ -401,7 +401,7 @@
       "imdbId": "tt0034583",
       "imdb": {
         "value": 8.5,
-        "votes": 664804
+        "votes": 664836
       },
       "rt": {
         "score": 99,
@@ -413,7 +413,7 @@
       "imdbId": "tt0087843",
       "imdb": {
         "value": 8.3,
-        "votes": 414618
+        "votes": 414638
       },
       "rt": {
         "score": 86,
@@ -425,7 +425,7 @@
       "imdbId": "tt0064116",
       "imdb": {
         "value": 8.5,
-        "votes": 389700
+        "votes": 389714
       },
       "rt": {
         "score": 96,
@@ -437,7 +437,7 @@
       "imdbId": "tt0047478",
       "imdb": {
         "value": 8.6,
-        "votes": 408233
+        "votes": 408264
       },
       "rt": {
         "score": 100,
@@ -449,7 +449,7 @@
       "imdbId": "tt0078748",
       "imdb": {
         "value": 8.4,
-        "votes": 1084329
+        "votes": 1084408
       },
       "rt": {
         "score": 93,
@@ -461,7 +461,7 @@
       "imdbId": "tt0458352",
       "imdb": {
         "value": 7,
-        "votes": 577964
+        "votes": 577999
       },
       "rt": {
         "score": 75,
@@ -473,7 +473,7 @@
       "imdbId": "tt0095953",
       "imdb": {
         "value": 8,
-        "votes": 593622
+        "votes": 593642
       },
       "rt": {
         "score": 88,
@@ -485,7 +485,7 @@
       "imdbId": "tt0082096",
       "imdb": {
         "value": 8.3,
-        "votes": 291892
+        "votes": 291898
       },
       "rt": {
         "score": 98,
@@ -497,7 +497,7 @@
       "imdbId": "tt0050083",
       "imdb": {
         "value": 9,
-        "votes": 1013230
+        "votes": 1013287
       },
       "rt": {
         "score": 100,
@@ -509,7 +509,7 @@
       "imdbId": "tt0097239",
       "imdb": {
         "value": 7.3,
-        "votes": 125325
+        "votes": 125334
       },
       "rt": {
         "score": 85,
@@ -521,7 +521,7 @@
       "imdbId": "tt0116209",
       "imdb": {
         "value": 7.4,
-        "votes": 216259
+        "votes": 216266
       },
       "rt": {
         "score": 86,
@@ -533,7 +533,7 @@
       "imdbId": "tt0253474",
       "imdb": {
         "value": 8.5,
-        "votes": 1032824
+        "votes": 1032871
       },
       "rt": {
         "score": 95,
@@ -545,7 +545,7 @@
       "imdbId": "tt0108052",
       "imdb": {
         "value": 9,
-        "votes": 1614772
+        "votes": 1614860
       },
       "rt": {
         "score": 98,
@@ -557,7 +557,7 @@
       "imdbId": "tt0060196",
       "imdb": {
         "value": 8.8,
-        "votes": 907502
+        "votes": 907554
       },
       "rt": {
         "score": 97,
@@ -569,7 +569,7 @@
       "imdbId": "tt0268978",
       "imdb": {
         "value": 8.2,
-        "votes": 1069389
+        "votes": 1069445
       },
       "rt": {
         "score": 74,
@@ -581,7 +581,7 @@
       "imdbId": "tt0119217",
       "imdb": {
         "value": 8.4,
-        "votes": 1255251
+        "votes": 1255366
       },
       "rt": {
         "score": 97,
@@ -593,7 +593,7 @@
       "imdbId": "tt0120689",
       "imdb": {
         "value": 8.6,
-        "votes": 1598930
+        "votes": 1599047
       },
       "rt": {
         "score": 78,
@@ -605,7 +605,7 @@
       "imdbId": "tt0073486",
       "imdb": {
         "value": 8.6,
-        "votes": 1174776
+        "votes": 1174843
       },
       "rt": {
         "score": 93,
@@ -617,7 +617,7 @@
       "imdbId": "tt0054215",
       "imdb": {
         "value": 8.5,
-        "votes": 800724
+        "votes": 800767
       },
       "rt": {
         "score": 97,
@@ -629,7 +629,7 @@
       "imdbId": "tt0137523",
       "imdb": {
         "value": 8.8,
-        "votes": 2686520
+        "votes": 2686804
       },
       "rt": {
         "score": 81,
@@ -641,7 +641,7 @@
       "imdbId": "tt0145487",
       "imdb": {
         "value": 7.5,
-        "votes": 1005179
+        "votes": 1005257
       },
       "rt": {
         "score": 90,
@@ -653,7 +653,7 @@
       "imdbId": "tt0047396",
       "imdb": {
         "value": 8.4,
-        "votes": 577315
+        "votes": 577340
       },
       "rt": {
         "score": 99,
@@ -665,7 +665,7 @@
       "imdbId": "tt0099348",
       "imdb": {
         "value": 8,
-        "votes": 314754
+        "votes": 314769
       },
       "rt": {
         "score": 87,
@@ -677,7 +677,7 @@
       "imdbId": "tt0405094",
       "imdb": {
         "value": 8.4,
-        "votes": 449391
+        "votes": 449413
       },
       "rt": {
         "score": 92,
@@ -689,7 +689,7 @@
       "imdbId": "tt0120338",
       "imdb": {
         "value": 8,
-        "votes": 1421444
+        "votes": 1421527
       },
       "rt": {
         "score": 88,
@@ -701,7 +701,7 @@
       "imdbId": "tt0317248",
       "imdb": {
         "value": 8.6,
-        "votes": 888152
+        "votes": 888207
       },
       "rt": {
         "score": 91,
@@ -713,7 +713,7 @@
       "imdbId": "tt0043014",
       "imdb": {
         "value": 8.4,
-        "votes": 265334
+        "votes": 265341
       },
       "rt": {
         "score": 98,
@@ -725,7 +725,7 @@
       "imdbId": "tt0133093",
       "imdb": {
         "value": 8.7,
-        "votes": 2296056
+        "votes": 2296220
       },
       "rt": {
         "score": 83,
@@ -737,7 +737,7 @@
       "imdbId": "tt0089755",
       "imdb": {
         "value": 7.2,
-        "votes": 94686
+        "votes": 94691
       },
       "rt": {
         "score": 62,
@@ -749,7 +749,7 @@
       "imdbId": "tt0114814",
       "imdb": {
         "value": 8.5,
-        "votes": 1263510
+        "votes": 1263590
       },
       "rt": {
         "score": 87,
@@ -761,7 +761,7 @@
       "imdbId": "tt0118799",
       "imdb": {
         "value": 8.6,
-        "votes": 828597
+        "votes": 828651
       },
       "rt": {
         "score": 81,
@@ -773,7 +773,7 @@
       "imdbId": "tt0180093",
       "imdb": {
         "value": 8.3,
-        "votes": 990757
+        "votes": 990812
       },
       "rt": {
         "score": 80,
@@ -785,7 +785,7 @@
       "imdbId": "tt0047296",
       "imdb": {
         "value": 8.1,
-        "votes": 183048
+        "votes": 183091
       },
       "rt": {
         "score": 99,
@@ -797,7 +797,7 @@
       "imdbId": "tt0052618",
       "imdb": {
         "value": 8.1,
-        "votes": 274908
+        "votes": 274921
       },
       "rt": {
         "score": 87,
@@ -809,7 +809,7 @@
       "imdbId": "tt0364569",
       "imdb": {
         "value": 8.3,
-        "votes": 739571
+        "votes": 739637
       },
       "rt": {
         "score": 82,
@@ -821,7 +821,7 @@
       "imdbId": "tt0241527",
       "imdb": {
         "value": 7.7,
-        "votes": 976148
+        "votes": 976284
       },
       "rt": {
         "score": 80,
@@ -833,7 +833,7 @@
       "imdbId": "tt0295297",
       "imdb": {
         "value": 7.5,
-        "votes": 784851
+        "votes": 784955
       },
       "rt": {
         "score": 82,
@@ -845,7 +845,7 @@
       "imdbId": "tt0304141",
       "imdb": {
         "value": 8,
-        "votes": 786012
+        "votes": 786086
       },
       "rt": {
         "score": 91,
@@ -857,7 +857,7 @@
       "imdbId": "tt0330373",
       "imdb": {
         "value": 7.7,
-        "votes": 771582
+        "votes": 771684
       },
       "rt": {
         "score": 88,
@@ -869,7 +869,7 @@
       "imdbId": "tt0090605",
       "imdb": {
         "value": 8.4,
-        "votes": 853283
+        "votes": 853327
       },
       "rt": {
         "score": 93,
@@ -881,7 +881,7 @@
       "imdbId": "tt0110912",
       "imdb": {
         "value": 8.8,
-        "votes": 2485324
+        "votes": 2485482
       },
       "rt": {
         "score": 92,
@@ -893,7 +893,7 @@
       "imdbId": "tt0081505",
       "imdb": {
         "value": 8.4,
-        "votes": 1255403
+        "votes": 1255491
       },
       "rt": {
         "score": 84,
@@ -905,7 +905,7 @@
       "imdbId": "tt0075686",
       "imdb": {
         "value": 7.9,
-        "votes": 293725
+        "votes": 293736
       },
       "rt": {
         "score": 97,
@@ -917,7 +917,7 @@
       "imdbId": "tt0042192",
       "imdb": {
         "value": 8.2,
-        "votes": 151322
+        "votes": 151330
       },
       "rt": {
         "score": 99,
@@ -929,7 +929,7 @@
       "imdbId": "tt0093389",
       "imdb": {
         "value": 7.7,
-        "votes": 121702
+        "votes": 121712
       },
       "rt": {
         "score": 87,
@@ -941,7 +941,7 @@
       "imdbId": "tt0099685",
       "imdb": {
         "value": 8.7,
-        "votes": 1425019
+        "votes": 1425114
       },
       "rt": {
         "score": 93,
@@ -953,7 +953,7 @@
       "imdbId": "tt0031381",
       "imdb": {
         "value": 8.2,
-        "votes": 360619
+        "votes": 360640
       },
       "rt": {
         "score": 90,
@@ -965,7 +965,7 @@
       "imdbId": "tt0099785",
       "imdb": {
         "value": 7.8,
-        "votes": 760690
+        "votes": 760875
       },
       "rt": {
         "score": 67,
@@ -973,11 +973,23 @@
         "url": "https://www.rottentomatoes.com/m/home_alone"
       }
     },
+    "772": {
+      "imdbId": "tt0104431",
+      "imdb": {
+        "value": 6.9,
+        "votes": 466024
+      },
+      "rt": {
+        "score": 35,
+        "date": "2022-11-29",
+        "url": "https://www.rottentomatoes.com/m/home_alone_2_lost_in_new_york"
+      }
+    },
     "783": {
       "imdbId": "tt0083987",
       "imdb": {
         "value": 8,
-        "votes": 247744
+        "votes": 247748
       },
       "rt": {
         "score": 89,
@@ -989,7 +1001,7 @@
       "imdbId": "tt0091763",
       "imdb": {
         "value": 8,
-        "votes": 479879
+        "votes": 479905
       },
       "rt": {
         "score": 89,
@@ -1001,7 +1013,7 @@
       "imdbId": "tt0114369",
       "imdb": {
         "value": 8.6,
-        "votes": 2079932
+        "votes": 2080153
       },
       "rt": {
         "score": 84,
@@ -1013,7 +1025,7 @@
       "imdbId": "tt0050212",
       "imdb": {
         "value": 8.1,
-        "votes": 253412
+        "votes": 253460
       },
       "rt": {
         "score": 96,
@@ -1025,7 +1037,7 @@
       "imdbId": "tt0120815",
       "imdb": {
         "value": 8.6,
-        "votes": 1674384
+        "votes": 1674486
       },
       "rt": {
         "score": 94,
@@ -1037,7 +1049,7 @@
       "imdbId": "tt0114709",
       "imdb": {
         "value": 8.3,
-        "votes": 1208177
+        "votes": 1208264
       },
       "rt": {
         "score": 100,
@@ -1049,7 +1061,7 @@
       "imdbId": "tt0045152",
       "imdb": {
         "value": 8.3,
-        "votes": 287576
+        "votes": 287590
       },
       "rt": {
         "score": 100,
@@ -1073,7 +1085,7 @@
       "imdbId": "tt0036868",
       "imdb": {
         "value": 8.1,
-        "votes": 77700
+        "votes": 77708
       },
       "rt": {
         "score": 97,
@@ -1085,7 +1097,7 @@
       "imdbId": "tt0021749",
       "imdb": {
         "value": 8.5,
-        "votes": 219400
+        "votes": 219402
       },
       "rt": {
         "score": 95,
@@ -1097,7 +1109,7 @@
       "imdbId": "tt0032553",
       "imdb": {
         "value": 8.4,
-        "votes": 261606
+        "votes": 261617
       },
       "rt": {
         "score": 92,
@@ -1109,7 +1121,7 @@
       "imdbId": "tt0317219",
       "imdb": {
         "value": 7.3,
-        "votes": 555040
+        "votes": 555085
       },
       "rt": {
         "score": 75,
@@ -1121,7 +1133,7 @@
       "imdbId": "tt0057012",
       "imdb": {
         "value": 8.3,
-        "votes": 557457
+        "votes": 557480
       },
       "rt": {
         "score": 98,
@@ -1133,7 +1145,7 @@
       "imdbId": "tt0056172",
       "imdb": {
         "value": 8.3,
-        "votes": 348692
+        "votes": 348716
       },
       "rt": {
         "score": 93,
@@ -1145,7 +1157,7 @@
       "imdbId": "tt0077651",
       "imdb": {
         "value": 7.7,
-        "votes": 350031
+        "votes": 350058
       },
       "rt": {
         "score": 97,
@@ -1157,7 +1169,7 @@
       "imdbId": "tt0113277",
       "imdb": {
         "value": 8.3,
-        "votes": 825658
+        "votes": 825746
       },
       "rt": {
         "score": 84,
@@ -1169,7 +1181,7 @@
       "imdbId": "tt0050825",
       "imdb": {
         "value": 8.4,
-        "votes": 244337
+        "votes": 244350
       },
       "rt": {
         "score": 96,
@@ -1181,7 +1193,7 @@
       "imdbId": "tt0067116",
       "imdb": {
         "value": 7.6,
-        "votes": 153461
+        "votes": 153467
       },
       "rt": {
         "score": 96,
@@ -1193,7 +1205,7 @@
       "imdbId": "tt0482571",
       "imdb": {
         "value": 8.5,
-        "votes": 1643423
+        "votes": 1643610
       },
       "rt": {
         "score": 77,
@@ -1205,7 +1217,7 @@
       "imdbId": "tt0075148",
       "imdb": {
         "value": 8.1,
-        "votes": 709337
+        "votes": 709504
       },
       "rt": {
         "score": 91,
@@ -1217,7 +1229,7 @@
       "imdbId": "tt0407887",
       "imdb": {
         "value": 8.5,
-        "votes": 1591875
+        "votes": 1592003
       },
       "rt": {
         "score": 91,
@@ -1229,7 +1241,7 @@
       "imdbId": "tt0299658",
       "imdb": {
         "value": 7.2,
-        "votes": 259666
+        "votes": 259676
       },
       "rt": {
         "score": 86,
@@ -1241,7 +1253,7 @@
       "imdbId": "tt0038650",
       "imdb": {
         "value": 8.6,
-        "votes": 563949
+        "votes": 564003
       },
       "rt": {
         "score": 94,
@@ -1253,7 +1265,7 @@
       "imdbId": "tt0375679",
       "imdb": {
         "value": 7.7,
-        "votes": 465730
+        "votes": 465746
       },
       "rt": {
         "score": 74,
@@ -1265,7 +1277,7 @@
       "imdbId": "tt0055614",
       "imdb": {
         "value": 7.6,
-        "votes": 129316
+        "votes": 129318
       },
       "rt": {
         "score": 92,
@@ -1277,7 +1289,7 @@
       "imdbId": "tt0371746",
       "imdb": {
         "value": 7.9,
-        "votes": 1260177
+        "votes": 1260308
       },
       "rt": {
         "score": 94,
@@ -1289,7 +1301,7 @@
       "imdbId": "tt0080684",
       "imdb": {
         "value": 8.7,
-        "votes": 1534493
+        "votes": 1534585
       },
       "rt": {
         "score": 93,
@@ -1301,7 +1313,7 @@
       "imdbId": "tt0086190",
       "imdb": {
         "value": 8.3,
-        "votes": 1230573
+        "votes": 1230635
       },
       "rt": {
         "score": 83,
@@ -1313,7 +1325,7 @@
       "imdbId": "tt0138097",
       "imdb": {
         "value": 7.1,
-        "votes": 245110
+        "votes": 245116
       },
       "rt": {
         "score": 92,
@@ -1325,7 +1337,7 @@
       "imdbId": "tt0139654",
       "imdb": {
         "value": 7.8,
-        "votes": 530385
+        "votes": 530427
       },
       "rt": {
         "score": 74,
@@ -1337,7 +1349,7 @@
       "imdbId": "tt0043278",
       "imdb": {
         "value": 7.1,
-        "votes": 40006
+        "votes": 40010
       },
       "rt": {
         "score": 95,
@@ -1349,7 +1361,7 @@
       "imdbId": "tt0048960",
       "imdb": {
         "value": 6.7,
-        "votes": 32570
+        "votes": 32575
       },
       "rt": {
         "score": 72,
@@ -1361,7 +1373,7 @@
       "imdbId": "tt0025316",
       "imdb": {
         "value": 8.1,
-        "votes": 121141
+        "votes": 121146
       },
       "rt": {
         "score": 98,
@@ -1373,7 +1385,7 @@
       "imdbId": "tt0027977",
       "imdb": {
         "value": 8.5,
-        "votes": 289384
+        "votes": 289393
       },
       "rt": {
         "score": 98,
@@ -1385,7 +1397,7 @@
       "imdbId": "tt0064665",
       "imdb": {
         "value": 7.8,
-        "votes": 133587
+        "votes": 133596
       },
       "rt": {
         "score": 89,
@@ -1397,7 +1409,7 @@
       "imdbId": "tt0121164",
       "imdb": {
         "value": 7.4,
-        "votes": 336725
+        "votes": 336753
       },
       "rt": {
         "score": 84,
@@ -1409,7 +1421,7 @@
       "imdbId": "tt0406816",
       "imdb": {
         "value": 6.9,
-        "votes": 104656
+        "votes": 104662
       },
       "rt": {
         "score": 37,
@@ -1421,7 +1433,7 @@
       "imdbId": "tt0347149",
       "imdb": {
         "value": 8.2,
-        "votes": 526382
+        "votes": 526436
       },
       "rt": {
         "score": 88,
@@ -1433,7 +1445,7 @@
       "imdbId": "tt0057590",
       "imdb": {
         "value": 6.3,
-        "votes": 15630
+        "votes": 15632
       },
       "rt": {
         "score": 81,
@@ -1445,7 +1457,7 @@
       "imdbId": "tt0477348",
       "imdb": {
         "value": 8.2,
-        "votes": 1223924
+        "votes": 1224039
       },
       "rt": {
         "score": 93,
@@ -1457,7 +1469,7 @@
       "imdbId": "tt1080016",
       "imdb": {
         "value": 6.9,
-        "votes": 291829
+        "votes": 291859
       },
       "rt": {
         "score": 46,
@@ -1469,7 +1481,7 @@
       "imdbId": "tt0110357",
       "imdb": {
         "value": 8.5,
-        "votes": 1286724
+        "votes": 1286772
       },
       "rt": {
         "score": 92,
@@ -1477,11 +1489,23 @@
         "url": "https://www.rottentomatoes.com/m/the_lion_king"
       }
     },
+    "8871": {
+      "imdbId": "tt0170016",
+      "imdb": {
+        "value": 6.4,
+        "votes": 338431
+      },
+      "rt": {
+        "score": 50,
+        "date": "2026-01-11",
+        "url": "https://www.rottentomatoes.com/m/how_the_grinch_stole_christmas"
+      }
+    },
     "8966": {
       "imdbId": "tt1099212",
       "imdb": {
         "value": 5.4,
-        "votes": 539851
+        "votes": 539927
       },
       "rt": {
         "score": 49,
@@ -1493,7 +1517,7 @@
       "imdbId": "tt0070735",
       "imdb": {
         "value": 8.2,
-        "votes": 308466
+        "votes": 308474
       },
       "rt": {
         "score": 93,
@@ -1505,7 +1529,7 @@
       "imdbId": "tt0082158",
       "imdb": {
         "value": 7.1,
-        "votes": 72114
+        "votes": 72117
       },
       "rt": {
         "score": 84,
@@ -1517,7 +1541,7 @@
       "imdbId": "tt0107688",
       "imdb": {
         "value": 7.9,
-        "votes": 421444
+        "votes": 421485
       },
       "rt": {
         "score": 95,
@@ -1529,7 +1553,7 @@
       "imdbId": "tt0235712",
       "imdb": {
         "value": 5.9,
-        "votes": 10982
+        "votes": 10985
       },
       "rt": null
     },
@@ -1537,7 +1561,7 @@
       "imdbId": "tt0477071",
       "imdb": {
         "value": 5.9,
-        "votes": 87169
+        "votes": 87173
       },
       "rt": {
         "score": 8,
@@ -1549,7 +1573,7 @@
       "imdbId": "tt1228705",
       "imdb": {
         "value": 6.9,
-        "votes": 965547
+        "votes": 965644
       },
       "rt": {
         "score": 72,
@@ -1561,7 +1585,7 @@
       "imdbId": "tt0892791",
       "imdb": {
         "value": 6.4,
-        "votes": 251709
+        "votes": 251734
       },
       "rt": {
         "score": 58,
@@ -1573,7 +1597,7 @@
       "imdbId": "tt0435761",
       "imdb": {
         "value": 8.3,
-        "votes": 997422
+        "votes": 997487
       },
       "rt": {
         "score": 98,
@@ -1585,7 +1609,7 @@
       "imdbId": "tt0107711",
       "imdb": {
         "value": 5.7,
-        "votes": 28935
+        "votes": 28944
       },
       "rt": {
         "score": 36,
@@ -1597,7 +1621,7 @@
       "imdbId": "tt0499556",
       "imdb": {
         "value": 6.2,
-        "votes": 102615
+        "votes": 102624
       },
       "rt": {
         "score": 13,
@@ -1609,7 +1633,7 @@
       "imdbId": "tt0061811",
       "imdb": {
         "value": 7.9,
-        "votes": 93107
+        "votes": 93116
       },
       "rt": {
         "score": 96,
@@ -1621,7 +1645,7 @@
       "imdbId": "tt0910970",
       "imdb": {
         "value": 8.4,
-        "votes": 1351112
+        "votes": 1351200
       },
       "rt": {
         "score": 95,
@@ -1633,7 +1657,7 @@
       "imdbId": "tt0086425",
       "imdb": {
         "value": 7.4,
-        "votes": 71822
+        "votes": 71832
       },
       "rt": {
         "score": 82,
@@ -1645,7 +1669,7 @@
       "imdbId": "tt0252503",
       "imdb": {
         "value": 6.5,
-        "votes": 44043
+        "votes": 44078
       },
       "rt": {
         "score": 66,
@@ -1657,7 +1681,7 @@
       "imdbId": "tt0058385",
       "imdb": {
         "value": 7.7,
-        "votes": 109094
+        "votes": 109100
       },
       "rt": {
         "score": 95,
@@ -1669,7 +1693,7 @@
       "imdbId": "tt0066206",
       "imdb": {
         "value": 7.9,
-        "votes": 114716
+        "votes": 114715
       },
       "rt": {
         "score": 92,
@@ -1681,7 +1705,7 @@
       "imdbId": "tt0095765",
       "imdb": {
         "value": 8.5,
-        "votes": 323244
+        "votes": 323258
       },
       "rt": {
         "score": 90,
@@ -1705,7 +1729,7 @@
       "imdbId": "tt0045793",
       "imdb": {
         "value": 7.6,
-        "votes": 55193
+        "votes": 55194
       },
       "rt": {
         "score": 88,
@@ -1717,7 +1741,7 @@
       "imdbId": "tt0077416",
       "imdb": {
         "value": 8.1,
-        "votes": 392027
+        "votes": 392069
       },
       "rt": {
         "score": 86,
@@ -1729,7 +1753,7 @@
       "imdbId": "tt0079417",
       "imdb": {
         "value": 7.8,
-        "votes": 169364
+        "votes": 169381
       },
       "rt": {
         "score": 89,
@@ -1741,7 +1765,7 @@
       "imdbId": "tt0381707",
       "imdb": {
         "value": 6,
-        "votes": 204720
+        "votes": 204759
       },
       "rt": {
         "score": 15,
@@ -1753,7 +1777,7 @@
       "imdbId": "tt0887912",
       "imdb": {
         "value": 7.5,
-        "votes": 501700
+        "votes": 501717
       },
       "rt": {
         "score": 97,
@@ -1765,7 +1789,7 @@
       "imdbId": "tt0026752",
       "imdb": {
         "value": 7.6,
-        "votes": 27126
+        "votes": 27128
       },
       "rt": {
         "score": 96,
@@ -1777,7 +1801,7 @@
       "imdbId": "tt1010048",
       "imdb": {
         "value": 8,
-        "votes": 918656
+        "votes": 918684
       },
       "rt": {
         "score": 92,
@@ -1789,7 +1813,7 @@
       "imdbId": "tt1201607",
       "imdb": {
         "value": 8.1,
-        "votes": 1071011
+        "votes": 1071113
       },
       "rt": {
         "score": 96,
@@ -1801,7 +1825,7 @@
       "imdbId": "tt0095327",
       "imdb": {
         "value": 8.5,
-        "votes": 402075
+        "votes": 402128
       },
       "rt": {
         "score": 100,
@@ -1813,7 +1837,7 @@
       "imdbId": "tt1049413",
       "imdb": {
         "value": 8.3,
-        "votes": 1264589
+        "votes": 1264668
       },
       "rt": {
         "score": 98,
@@ -1825,7 +1849,7 @@
       "imdbId": "tt0056058",
       "imdb": {
         "value": 8.6,
-        "votes": 95827
+        "votes": 95842
       },
       "rt": {
         "score": 100,
@@ -1837,7 +1861,7 @@
       "imdbId": "tt0059742",
       "imdb": {
         "value": 8.1,
-        "votes": 297475
+        "votes": 297503
       },
       "rt": {
         "score": 83,
@@ -1849,7 +1873,7 @@
       "imdbId": "tt0088930",
       "imdb": {
         "value": 7.3,
-        "votes": 129547
+        "votes": 129567
       },
       "rt": {
         "score": 66,
@@ -1861,7 +1885,7 @@
       "imdbId": "tt0048356",
       "imdb": {
         "value": 7.6,
-        "votes": 31326
+        "votes": 31329
       },
       "rt": {
         "score": 96,
@@ -1873,7 +1897,7 @@
       "imdbId": "tt0081283",
       "imdb": {
         "value": 7.7,
-        "votes": 63030
+        "votes": 63031
       },
       "rt": {
         "score": 89,
@@ -1885,7 +1909,7 @@
       "imdbId": "tt0361748",
       "imdb": {
         "value": 8.4,
-        "votes": 1832202
+        "votes": 1832336
       },
       "rt": {
         "score": 89,
@@ -1897,7 +1921,7 @@
       "imdbId": "tt0051658",
       "imdb": {
         "value": 6.6,
-        "votes": 25310
+        "votes": 25311
       },
       "rt": {
         "score": 88,
@@ -1909,7 +1933,7 @@
       "imdbId": "tt0036872",
       "imdb": {
         "value": 7,
-        "votes": 15101
+        "votes": 15104
       },
       "rt": {
         "score": 83,
@@ -1921,7 +1945,7 @@
       "imdbId": "tt0063385",
       "imdb": {
         "value": 7.4,
-        "votes": 45084
+        "votes": 45087
       },
       "rt": {
         "score": 90,
@@ -1929,11 +1953,19 @@
         "url": "https://www.rottentomatoes.com/m/oliver"
       }
     },
+    "19877": {
+      "imdbId": "tt0142371",
+      "imdb": {
+        "value": 7.1,
+        "votes": 8097
+      },
+      "rt": null
+    },
     "20352": {
       "imdbId": "tt1323594",
       "imdb": {
         "value": 7.6,
-        "votes": 644012
+        "votes": 644045
       },
       "rt": {
         "score": 80,
@@ -1945,7 +1977,7 @@
       "imdbId": "tt1187043",
       "imdb": {
         "value": 8.4,
-        "votes": 493197
+        "votes": 493218
       },
       "rt": {
         "score": 100,
@@ -1957,7 +1989,7 @@
       "imdbId": "tt0040416",
       "imdb": {
         "value": 7.5,
-        "votes": 20248
+        "votes": 20253
       },
       "rt": {
         "score": 96,
@@ -1969,7 +2001,7 @@
       "imdbId": "tt0848228",
       "imdb": {
         "value": 8,
-        "votes": 1593738
+        "votes": 1593887
       },
       "rt": {
         "score": 91,
@@ -1981,7 +2013,7 @@
       "imdbId": "tt0041113",
       "imdb": {
         "value": 7.4,
-        "votes": 18463
+        "votes": 18471
       },
       "rt": {
         "score": 97,
@@ -1993,7 +2025,7 @@
       "imdbId": "tt0044672",
       "imdb": {
         "value": 6.5,
-        "votes": 17710
+        "votes": 17714
       },
       "rt": {
         "score": 50,
@@ -2005,7 +2037,7 @@
       "imdbId": "tt1375666",
       "imdb": {
         "value": 8.8,
-        "votes": 2892496
+        "votes": 2892755
       },
       "rt": {
         "score": 87,
@@ -2017,7 +2049,7 @@
       "imdbId": "tt0035093",
       "imdb": {
         "value": 7.6,
-        "votes": 21727
+        "votes": 21726
       },
       "rt": {
         "score": 93,
@@ -2029,7 +2061,7 @@
       "imdbId": "tt0037884",
       "imdb": {
         "value": 7.8,
-        "votes": 43943
+        "votes": 43944
       },
       "rt": {
         "score": 97,
@@ -2041,7 +2073,7 @@
       "imdbId": "tt0018578",
       "imdb": {
         "value": 7.5,
-        "votes": 16704
+        "votes": 16708
       },
       "rt": {
         "score": 94,
@@ -2061,7 +2093,7 @@
       "imdbId": "tt0039416",
       "imdb": {
         "value": 7.2,
-        "votes": 19468
+        "votes": 19470
       },
       "rt": {
         "score": 82,
@@ -2073,7 +2105,7 @@
       "imdbId": "tt0022958",
       "imdb": {
         "value": 7.3,
-        "votes": 23109
+        "votes": 23114
       },
       "rt": {
         "score": 85,
@@ -2085,7 +2117,7 @@
       "imdbId": "tt0030993",
       "imdb": {
         "value": 7.8,
-        "votes": 30953
+        "votes": 30957
       },
       "rt": {
         "score": 94,
@@ -2097,7 +2129,7 @@
       "imdbId": "tt0051201",
       "imdb": {
         "value": 8.4,
-        "votes": 166223
+        "votes": 166230
       },
       "rt": {
         "score": 100,
@@ -2109,7 +2141,7 @@
       "imdbId": "tt1231583",
       "imdb": {
         "value": 6.5,
-        "votes": 377494
+        "votes": 377510
       },
       "rt": {
         "score": 39,
@@ -2121,7 +2153,7 @@
       "imdbId": "tt0021746",
       "imdb": {
         "value": 5.7,
-        "votes": 8016
+        "votes": 8017
       },
       "rt": {
         "score": 50,
@@ -2133,7 +2165,7 @@
       "imdbId": "tt0033729",
       "imdb": {
         "value": 7.7,
-        "votes": 29848
+        "votes": 29849
       },
       "rt": {
         "score": 93,
@@ -2145,7 +2177,7 @@
       "imdbId": "tt0027698",
       "imdb": {
         "value": 6.6,
-        "votes": 9982
+        "votes": 9984
       },
       "rt": {
         "score": 71,
@@ -2157,7 +2189,7 @@
       "imdbId": "tt0029146",
       "imdb": {
         "value": 7.1,
-        "votes": 10208
+        "votes": 10212
       },
       "rt": {
         "score": 92,
@@ -2169,7 +2201,7 @@
       "imdbId": "tt0817177",
       "imdb": {
         "value": 7.6,
-        "votes": 110415
+        "votes": 110420
       },
       "rt": {
         "score": 54,
@@ -2181,7 +2213,7 @@
       "imdbId": "tt1504320",
       "imdb": {
         "value": 8,
-        "votes": 739096
+        "votes": 739124
       },
       "rt": {
         "score": 94,
@@ -2193,7 +2225,7 @@
       "imdbId": "tt1255953",
       "imdb": {
         "value": 8.3,
-        "votes": 263810
+        "votes": 263858
       },
       "rt": {
         "score": 91,
@@ -2205,7 +2237,7 @@
       "imdbId": "tt1401152",
       "imdb": {
         "value": 6.8,
-        "votes": 278572
+        "votes": 278580
       },
       "rt": {
         "score": 55,
@@ -2217,7 +2249,7 @@
       "imdbId": "tt1345836",
       "imdb": {
         "value": 8.4,
-        "votes": 2040303
+        "votes": 2040434
       },
       "rt": {
         "score": 87,
@@ -2229,7 +2261,7 @@
       "imdbId": "tt0023876",
       "imdb": {
         "value": 5.7,
-        "votes": 6831
+        "votes": 6833
       },
       "rt": {
         "score": 66,
@@ -2241,7 +2273,7 @@
       "imdbId": "tt1646987",
       "imdb": {
         "value": 5.7,
-        "votes": 205787
+        "votes": 205795
       },
       "rt": {
         "score": 26,
@@ -2253,7 +2285,7 @@
       "imdbId": "tt1832382",
       "imdb": {
         "value": 8.3,
-        "votes": 281918
+        "votes": 281932
       },
       "rt": {
         "score": 99,
@@ -2265,7 +2297,7 @@
       "imdbId": "tt0019729",
       "imdb": {
         "value": 5.5,
-        "votes": 9288
+        "votes": 9291
       },
       "rt": {
         "score": 42,
@@ -2277,7 +2309,7 @@
       "imdbId": "tt1853728",
       "imdb": {
         "value": 8.5,
-        "votes": 1928314
+        "votes": 1928448
       },
       "rt": {
         "score": 87,
@@ -2289,7 +2321,7 @@
       "imdbId": "tt1024648",
       "imdb": {
         "value": 7.7,
-        "votes": 676494
+        "votes": 676520
       },
       "rt": {
         "score": 96,
@@ -2301,7 +2333,7 @@
       "imdbId": "tt1392170",
       "imdb": {
         "value": 7.2,
-        "votes": 1107116
+        "votes": 1107714
       },
       "rt": {
         "score": 84,
@@ -2313,7 +2345,7 @@
       "imdbId": "tt1655442",
       "imdb": {
         "value": 7.8,
-        "votes": 257050
+        "votes": 257055
       },
       "rt": {
         "score": 95,
@@ -2325,7 +2357,7 @@
       "imdbId": "tt2024544",
       "imdb": {
         "value": 8.1,
-        "votes": 798779
+        "votes": 798812
       },
       "rt": {
         "score": 95,
@@ -2337,7 +2369,7 @@
       "imdbId": "tt1392190",
       "imdb": {
         "value": 8.1,
-        "votes": 1228494
+        "votes": 1228540
       },
       "rt": {
         "score": 97,
@@ -2349,7 +2381,7 @@
       "imdbId": "tt1675434",
       "imdb": {
         "value": 8.5,
-        "votes": 1049905
+        "votes": 1049960
       },
       "rt": {
         "score": 76,
@@ -2361,7 +2393,7 @@
       "imdbId": "tt1757678",
       "imdb": {
         "value": 7.2,
-        "votes": 220257
+        "votes": 220369
       },
       "rt": {
         "score": 68,
@@ -2373,7 +2405,7 @@
       "imdbId": "tt2395427",
       "imdb": {
         "value": 7.3,
-        "votes": 1032114
+        "votes": 1032240
       },
       "rt": {
         "score": 75,
@@ -2385,7 +2417,7 @@
       "imdbId": "tt1951264",
       "imdb": {
         "value": 7.5,
-        "votes": 792035
+        "votes": 792555
       },
       "rt": {
         "score": 90,
@@ -2397,7 +2429,7 @@
       "imdbId": "tt2106476",
       "imdb": {
         "value": 8.3,
-        "votes": 423388
+        "votes": 423420
       },
       "rt": {
         "score": 92,
@@ -2409,7 +2441,7 @@
       "imdbId": "tt2310332",
       "imdb": {
         "value": 7.4,
-        "votes": 629698
+        "votes": 629754
       },
       "rt": {
         "score": 59,
@@ -2421,7 +2453,7 @@
       "imdbId": "tt1951265",
       "imdb": {
         "value": 6.6,
-        "votes": 561316
+        "votes": 561753
       },
       "rt": {
         "score": 70,
@@ -2433,7 +2465,7 @@
       "imdbId": "tt1951266",
       "imdb": {
         "value": 6.6,
-        "votes": 428491
+        "votes": 428908
       },
       "rt": {
         "score": 70,
@@ -2445,7 +2477,7 @@
       "imdbId": "tt1457767",
       "imdb": {
         "value": 7.5,
-        "votes": 639352
+        "votes": 639383
       },
       "rt": {
         "score": 86,
@@ -2457,7 +2489,7 @@
       "imdbId": "tt2096673",
       "imdb": {
         "value": 8.1,
-        "votes": 939948
+        "votes": 940022
       },
       "rt": {
         "score": 98,
@@ -2469,7 +2501,7 @@
       "imdbId": "tt1985949",
       "imdb": {
         "value": 6.3,
-        "votes": 122298
+        "votes": 122319
       },
       "rt": {
         "score": 44,
@@ -2481,7 +2513,7 @@
       "imdbId": "tt0816692",
       "imdb": {
         "value": 8.7,
-        "votes": 2638221
+        "votes": 2638552
       },
       "rt": {
         "score": 73,
@@ -2493,7 +2525,7 @@
       "imdbId": "tt2562232",
       "imdb": {
         "value": 7.7,
-        "votes": 706647
+        "votes": 706670
       },
       "rt": {
         "score": 91,
@@ -2505,7 +2537,7 @@
       "imdbId": "tt2084970",
       "imdb": {
         "value": 8,
-        "votes": 889339
+        "votes": 889372
       },
       "rt": {
         "score": 90,
@@ -2517,7 +2549,7 @@
       "imdbId": "tt1390411",
       "imdb": {
         "value": 6.9,
-        "votes": 162334
+        "votes": 162353
       },
       "rt": {
         "score": 42,
@@ -2529,7 +2561,7 @@
       "imdbId": "tt2582802",
       "imdb": {
         "value": 8.5,
-        "votes": 1194415
+        "votes": 1194536
       },
       "rt": {
         "score": 94,
@@ -2541,7 +2573,7 @@
       "imdbId": "tt2948356",
       "imdb": {
         "value": 8,
-        "votes": 654394
+        "votes": 654450
       },
       "rt": {
         "score": 98,
@@ -2553,7 +2585,7 @@
       "imdbId": "tt3416828",
       "imdb": {
         "value": 5.7,
-        "votes": 89447
+        "votes": 89459
       },
       "rt": {
         "score": 18,
@@ -2565,7 +2597,7 @@
       "imdbId": "tt3612320",
       "imdb": {
         "value": 5.1,
-        "votes": 9800
+        "votes": 9803
       },
       "rt": null
     },
@@ -2573,7 +2605,7 @@
       "imdbId": "tt4154796",
       "imdb": {
         "value": 8.4,
-        "votes": 1511248
+        "votes": 1511504
       },
       "rt": {
         "score": 94,
@@ -2585,7 +2617,7 @@
       "imdbId": "tt4154756",
       "imdb": {
         "value": 8.4,
-        "votes": 1426484
+        "votes": 1426669
       },
       "rt": {
         "score": 85,
@@ -2597,7 +2629,7 @@
       "imdbId": "tt1895587",
       "imdb": {
         "value": 8.1,
-        "votes": 543926
+        "votes": 543961
       },
       "rt": {
         "score": 97,
@@ -2609,7 +2641,7 @@
       "imdbId": "tt4633694",
       "imdb": {
         "value": 8.4,
-        "votes": 825919
+        "votes": 826022
       },
       "rt": {
         "score": 97,
@@ -2621,7 +2653,7 @@
       "imdbId": "tt1856101",
       "imdb": {
         "value": 8,
-        "votes": 777753
+        "votes": 777874
       },
       "rt": {
         "score": 88,
@@ -2633,7 +2665,7 @@
       "imdbId": "tt2380307",
       "imdb": {
         "value": 8.4,
-        "votes": 736374
+        "votes": 736454
       },
       "rt": {
         "score": 97,
@@ -2645,7 +2677,7 @@
       "imdbId": "tt2131532",
       "imdb": {
         "value": 6.3,
-        "votes": 30331
+        "votes": 30334
       },
       "rt": {
         "score": 80,
@@ -2657,7 +2689,7 @@
       "imdbId": "tt1745960",
       "imdb": {
         "value": 8.2,
-        "votes": 914497
+        "votes": 914599
       },
       "rt": {
         "score": 96,
@@ -2669,7 +2701,7 @@
       "imdbId": "tt5311514",
       "imdb": {
         "value": 8.4,
-        "votes": 410941
+        "votes": 411008
       },
       "rt": {
         "score": 98,
@@ -2681,7 +2713,7 @@
       "imdbId": "tt4975722",
       "imdb": {
         "value": 7.4,
-        "votes": 357990
+        "votes": 358010
       },
       "rt": {
         "score": 98,
@@ -2693,7 +2725,7 @@
       "imdbId": "tt5700672",
       "imdb": {
         "value": 7.6,
-        "votes": 319610
+        "votes": 319655
       },
       "rt": {
         "score": 95,
@@ -2705,7 +2737,7 @@
       "imdbId": "tt5580390",
       "imdb": {
         "value": 7.3,
-        "votes": 482875
+        "votes": 482906
       },
       "rt": {
         "score": 92,
@@ -2717,7 +2749,7 @@
       "imdbId": "tt6019206",
       "imdb": {
         "value": 8.7,
-        "votes": 70991
+        "votes": 71117
       },
       "rt": null
     },
@@ -2725,7 +2757,7 @@
       "imdbId": "tt1877830",
       "imdb": {
         "value": 7.8,
-        "votes": 959968
+        "votes": 960150
       },
       "rt": {
         "score": 85,
@@ -2737,7 +2769,7 @@
       "imdbId": "tt1160419",
       "imdb": {
         "value": 8,
-        "votes": 1105084
+        "votes": 1105323
       },
       "rt": {
         "score": 83,
@@ -2749,7 +2781,7 @@
       "imdbId": "tt6587640",
       "imdb": {
         "value": 6.1,
-        "votes": 34082
+        "votes": 34087
       },
       "rt": {
         "score": 72,
@@ -2761,7 +2793,7 @@
       "imdbId": "tt6791350",
       "imdb": {
         "value": 7.9,
-        "votes": 495031
+        "votes": 495136
       },
       "rt": {
         "score": 82,
@@ -2773,7 +2805,7 @@
       "imdbId": "tt2274648",
       "imdb": {
         "value": 5.3,
-        "votes": 109069
+        "votes": 109075
       },
       "rt": {
         "score": 17,
@@ -2785,7 +2817,7 @@
       "imdbId": "tt6920084",
       "imdb": {
         "value": 5.2,
-        "votes": 75749
+        "votes": 75760
       },
       "rt": {
         "score": 30,
@@ -2797,7 +2829,7 @@
       "imdbId": "tt7286456",
       "imdb": {
         "value": 8.3,
-        "votes": 1738671
+        "votes": 1738823
       },
       "rt": {
         "score": 68,
@@ -2809,7 +2841,7 @@
       "imdbId": "tt6966692",
       "imdb": {
         "value": 8.2,
-        "votes": 713051
+        "votes": 713173
       },
       "rt": {
         "score": 77,
@@ -2821,7 +2853,7 @@
       "imdbId": "tt6751668",
       "imdb": {
         "value": 8.5,
-        "votes": 1210831
+        "votes": 1210983
       },
       "rt": {
         "score": 99,
@@ -2833,7 +2865,7 @@
       "imdbId": "tt6263850",
       "imdb": {
         "value": 7.5,
-        "votes": 603941
+        "votes": 604082
       },
       "rt": {
         "score": 78,
@@ -2845,7 +2877,7 @@
       "imdbId": "tt7181546",
       "imdb": {
         "value": 6.8,
-        "votes": 166438
+        "votes": 166465
       },
       "rt": {
         "score": 75,
@@ -2857,7 +2889,7 @@
       "imdbId": "tt6710474",
       "imdb": {
         "value": 7.7,
-        "votes": 667192
+        "votes": 667251
       },
       "rt": {
         "score": 93,
@@ -2869,7 +2901,7 @@
       "imdbId": "tt8999762",
       "imdb": {
         "value": 7.2,
-        "votes": 167047
+        "votes": 167081
       },
       "rt": {
         "score": 93,
@@ -2881,7 +2913,7 @@
       "imdbId": "tt9103028",
       "imdb": {
         "value": 6.1,
-        "votes": 2895
+        "votes": 2904
       },
       "rt": null
     },
@@ -2889,7 +2921,7 @@
       "imdbId": "tt9362722",
       "imdb": {
         "value": 8.5,
-        "votes": 563807
+        "votes": 563906
       },
       "rt": {
         "score": 95,
@@ -2901,7 +2933,7 @@
       "imdbId": "tt9770150",
       "imdb": {
         "value": 7.3,
-        "votes": 223648
+        "votes": 223662
       },
       "rt": {
         "score": 93,
@@ -2921,7 +2953,7 @@
       "imdbId": "tt10838180",
       "imdb": {
         "value": 5.6,
-        "votes": 308952
+        "votes": 308974
       },
       "rt": {
         "score": 63,
@@ -2933,7 +2965,7 @@
       "imdbId": "tt10872600",
       "imdb": {
         "value": 8.1,
-        "votes": 1090518
+        "votes": 1090716
       },
       "rt": {
         "score": 93,
@@ -2945,7 +2977,7 @@
       "imdbId": "tt27988879",
       "imdb": {
         "value": 8.2,
-        "votes": 44336
+        "votes": 44747
       },
       "rt": {
         "score": 78,
@@ -2957,7 +2989,7 @@
       "imdbId": "tt12042730",
       "imdb": {
         "value": 8.2,
-        "votes": 609305
+        "votes": 609890
       },
       "rt": {
         "score": 95,
@@ -2969,7 +3001,7 @@
       "imdbId": "tt15239678",
       "imdb": {
         "value": 8.4,
-        "votes": 808748
+        "votes": 808961
       },
       "rt": {
         "score": 92,
@@ -2981,7 +3013,7 @@
       "imdbId": "tt10545296",
       "imdb": {
         "value": 6.6,
-        "votes": 198235
+        "votes": 198738
       },
       "rt": {
         "score": 64,
@@ -2993,7 +3025,7 @@
       "imdbId": "tt8864596",
       "imdb": {
         "value": 7.6,
-        "votes": 70881
+        "votes": 70907
       },
       "rt": {
         "score": 89,
@@ -3005,7 +3037,7 @@
       "imdbId": "tt23060698",
       "imdb": {
         "value": 5.6,
-        "votes": 29706
+        "votes": 29713
       },
       "rt": {
         "score": 74,
@@ -3017,7 +3049,7 @@
       "imdbId": "tt13186306",
       "imdb": {
         "value": 2.5,
-        "votes": 35183
+        "votes": 35190
       },
       "rt": {
         "score": 4,
@@ -3025,11 +3057,19 @@
         "url": "https://www.rottentomatoes.com/m/war_of_the_worlds_2025"
       }
     },
+    "762951": {
+      "imdbId": "tt13437728",
+      "imdb": {
+        "value": 3.7,
+        "votes": 1057
+      },
+      "rt": null
+    },
     "776503": {
       "imdbId": "tt10366460",
       "imdb": {
         "value": 8,
-        "votes": 235134
+        "votes": 235167
       },
       "rt": {
         "score": 94,
@@ -3041,7 +3081,7 @@
       "imdbId": "tt2056785",
       "imdb": {
         "value": 8.6,
-        "votes": 33657
+        "votes": 33993
       },
       "rt": {
         "score": 97,
@@ -3053,7 +3093,7 @@
       "imdbId": "tt12735488",
       "imdb": {
         "value": 7,
-        "votes": 78619
+        "votes": 78633
       },
       "rt": {
         "score": 77,
@@ -3065,7 +3105,7 @@
       "imdbId": "tt37118301",
       "imdb": {
         "value": 7.6,
-        "votes": 2773
+        "votes": 2826
       },
       "rt": {
         "score": 97,
@@ -3077,7 +3117,7 @@
       "imdbId": "tt14371256",
       "imdb": {
         "value": 6.4,
-        "votes": 2985
+        "votes": 2992
       },
       "rt": {
         "score": 25,
@@ -3089,7 +3129,7 @@
       "imdbId": "tt11561116",
       "imdb": {
         "value": 6.2,
-        "votes": 73748
+        "votes": 73846
       },
       "rt": {
         "score": 45,
@@ -3101,7 +3141,7 @@
       "imdbId": "tt15314262",
       "imdb": {
         "value": 6.3,
-        "votes": 189380
+        "votes": 189409
       },
       "rt": {
         "score": 71,
@@ -3113,7 +3153,7 @@
       "imdbId": "tt7068946",
       "imdb": {
         "value": 6.6,
-        "votes": 139054
+        "votes": 139079
       },
       "rt": {
         "score": 75,
@@ -3125,7 +3165,7 @@
       "imdbId": "tt15398776",
       "imdb": {
         "value": 8.2,
-        "votes": 1114516
+        "votes": 1114612
       },
       "rt": {
         "score": 93,
@@ -3137,7 +3177,7 @@
       "imdbId": "tt15799564",
       "imdb": {
         "value": 8.1,
-        "votes": 26593
+        "votes": 27219
       },
       "rt": {
         "score": 94,
@@ -3149,7 +3189,7 @@
       "imdbId": "tt16311594",
       "imdb": {
         "value": 7.6,
-        "votes": 403440
+        "votes": 403561
       },
       "rt": {
         "score": 82,
@@ -3161,7 +3201,7 @@
       "imdbId": "tt17526714",
       "imdb": {
         "value": 7.2,
-        "votes": 477202
+        "votes": 477297
       },
       "rt": {
         "score": 89,
@@ -3169,11 +3209,19 @@
         "url": "https://www.rottentomatoes.com/m/the_substance"
       }
     },
+    "940009": {
+      "imdbId": "tt18270542",
+      "imdb": {
+        "value": 7.5,
+        "votes": 384
+      },
+      "rt": null
+    },
     "940721": {
       "imdbId": "tt23289160",
       "imdb": {
         "value": 7.6,
-        "votes": 242721
+        "votes": 242897
       },
       "rt": {
         "score": 99,
@@ -3193,7 +3241,7 @@
       "imdbId": "tt14173636",
       "imdb": {
         "value": 7.4,
-        "votes": 108850
+        "votes": 109176
       },
       "rt": {
         "score": 95,
@@ -3205,7 +3253,7 @@
       "imdbId": "tt36983905",
       "imdb": {
         "value": 6.2,
-        "votes": 17095
+        "votes": 17190
       },
       "rt": {
         "score": 57,
@@ -3217,7 +3265,7 @@
       "imdbId": "tt18259538",
       "imdb": {
         "value": 7.7,
-        "votes": 34138
+        "votes": 34206
       },
       "rt": {
         "score": 90,
@@ -3229,7 +3277,7 @@
       "imdbId": "tt15325794",
       "imdb": {
         "value": 6.4,
-        "votes": 151605
+        "votes": 151648
       },
       "rt": {
         "score": 79,
@@ -3241,7 +3289,7 @@
       "imdbId": "tt21909764",
       "imdb": {
         "value": 6.1,
-        "votes": 47684
+        "votes": 47699
       },
       "rt": {
         "score": 0,
@@ -3253,7 +3301,7 @@
       "imdbId": "tt22022452",
       "imdb": {
         "value": 7.5,
-        "votes": 264145
+        "votes": 264180
       },
       "rt": {
         "score": 91,
@@ -3265,7 +3313,7 @@
       "imdbId": "tt22526100",
       "imdb": {
         "value": 6.8,
-        "votes": 36530
+        "votes": 36613
       },
       "rt": {
         "score": 73,
@@ -3285,7 +3333,7 @@
       "imdbId": "tt30144839",
       "imdb": {
         "value": 7.6,
-        "votes": 459748
+        "votes": 459905
       },
       "rt": {
         "score": 94,
@@ -3297,7 +3345,7 @@
       "imdbId": "tt27369017",
       "imdb": {
         "value": 6.5,
-        "votes": 36775
+        "votes": 36963
       },
       "rt": {
         "score": 80,
@@ -3309,7 +3357,7 @@
       "imdbId": "tt28607951",
       "imdb": {
         "value": 7.4,
-        "votes": 315446
+        "votes": 315534
       },
       "rt": {
         "score": 93,
@@ -3321,7 +3369,7 @@
       "imdbId": "tt33451014",
       "imdb": {
         "value": 7.2,
-        "votes": 4584
+        "votes": 4602
       },
       "rt": {
         "score": 85,
@@ -3333,7 +3381,7 @@
       "imdbId": "tt8814476",
       "imdb": {
         "value": 5.8,
-        "votes": 123749
+        "votes": 123864
       },
       "rt": {
         "score": 52,
@@ -3345,7 +3393,7 @@
       "imdbId": "tt26657236",
       "imdb": {
         "value": 6.7,
-        "votes": 255692
+        "votes": 256052
       },
       "rt": {
         "score": 85,
@@ -3357,7 +3405,7 @@
       "imdbId": "tt26443597",
       "imdb": {
         "value": 7.3,
-        "votes": 160789
+        "votes": 160860
       },
       "rt": {
         "score": 92,
@@ -3369,7 +3417,7 @@
       "imdbId": "tt29355505",
       "imdb": {
         "value": 7.3,
-        "votes": 109615
+        "votes": 109737
       },
       "rt": {
         "score": 92,
@@ -3386,7 +3434,7 @@
       "imdbId": "tt27165187",
       "imdb": {
         "value": 6.1,
-        "votes": 111757
+        "votes": 112421
       },
       "rt": {
         "score": 86,
@@ -3398,7 +3446,7 @@
       "imdbId": "tt27419466",
       "imdb": {
         "value": 5.8,
-        "votes": 25142
+        "votes": 25191
       },
       "rt": {
         "score": 34,
@@ -3410,7 +3458,7 @@
       "imdbId": "tt19838566",
       "imdb": {
         "value": 4.9,
-        "votes": 7703
+        "votes": 7721
       },
       "rt": {
         "score": 67,
@@ -3422,7 +3470,7 @@
       "imdbId": "tt2321555",
       "imdb": {
         "value": 6.5,
-        "votes": 2176
+        "votes": 2226
       },
       "rt": {
         "score": 47,
@@ -3434,7 +3482,7 @@
       "imdbId": "tt35465655",
       "imdb": {
         "value": 6.2,
-        "votes": 247
+        "votes": 248
       },
       "rt": null
     },
@@ -3450,7 +3498,7 @@
       "imdbId": "tt27706593",
       "imdb": {
         "value": 6.6,
-        "votes": 9774
+        "votes": 9809
       },
       "rt": {
         "score": 88,
@@ -3462,7 +3510,7 @@
       "imdbId": "tt27844906",
       "imdb": {
         "value": 5.1,
-        "votes": 3319
+        "votes": 3326
       },
       "rt": {
         "score": 16,
@@ -3474,7 +3522,7 @@
       "imdbId": "tt24818230",
       "imdb": {
         "value": 5.6,
-        "votes": 5183
+        "votes": 5706
       },
       "rt": null
     },
@@ -3482,7 +3530,7 @@
       "imdbId": "tt7734244",
       "imdb": {
         "value": 6.2,
-        "votes": 7274
+        "votes": 7291
       },
       "rt": {
         "score": 80,
@@ -3494,7 +3542,7 @@
       "imdbId": "tt28498219",
       "imdb": {
         "value": 5.7,
-        "votes": 15369
+        "votes": 15424
       },
       "rt": {
         "score": 30,
@@ -3518,7 +3566,7 @@
       "imdbId": "tt27419420",
       "imdb": {
         "value": 6.1,
-        "votes": 24703
+        "votes": 24808
       },
       "rt": null
     },
@@ -3526,7 +3574,7 @@
       "imdbId": "tt36107185",
       "imdb": {
         "value": 7.5,
-        "votes": 1528
+        "votes": 1550
       },
       "rt": {
         "score": 93,
@@ -3534,11 +3582,23 @@
         "url": "https://www.rottentomatoes.com/m/la_gradiva"
       }
     },
+    "1157869": {
+      "imdbId": "tt36646880",
+      "imdb": {
+        "value": 5.9,
+        "votes": 1791
+      },
+      "rt": {
+        "score": 19,
+        "date": "2026-11-19",
+        "url": "https://www.rottentomatoes.com/m/parallel_tales"
+      }
+    },
     "1184918": {
       "imdbId": "tt29623480",
       "imdb": {
         "value": 8.1,
-        "votes": 243394
+        "votes": 243457
       },
       "rt": {
         "score": 97,
@@ -3550,7 +3610,7 @@
       "imdbId": "tt29356163",
       "imdb": {
         "value": 6,
-        "votes": 3155
+        "votes": 3161
       },
       "rt": {
         "score": 84,
@@ -3562,7 +3622,7 @@
       "imdbId": "tt36164852",
       "imdb": {
         "value": 6.4,
-        "votes": 539
+        "votes": 541
       },
       "rt": null
     },
@@ -3570,7 +3630,7 @@
       "imdbId": "tt29603959",
       "imdb": {
         "value": 6.5,
-        "votes": 98804
+        "votes": 98853
       },
       "rt": {
         "score": 81,
@@ -3582,7 +3642,7 @@
       "imdbId": "tt29714073",
       "imdb": {
         "value": 6.7,
-        "votes": 9131
+        "votes": 9240
       },
       "rt": {
         "score": 83,
@@ -3594,7 +3654,7 @@
       "imdbId": "tt1756855",
       "imdb": {
         "value": 7.3,
-        "votes": 53502
+        "votes": 53628
       },
       "rt": {
         "score": 96,
@@ -3622,7 +3682,7 @@
       "imdbId": "tt30825738",
       "imdb": {
         "value": 6.7,
-        "votes": 127214
+        "votes": 127321
       },
       "rt": {
         "score": 60,
@@ -3634,7 +3694,7 @@
       "imdbId": "tt30887701",
       "imdb": {
         "value": 5.4,
-        "votes": 5919
+        "votes": 5932
       },
       "rt": null
     },
@@ -3642,7 +3702,7 @@
       "imdbId": "tt31193180",
       "imdb": {
         "value": 7.5,
-        "votes": 545298
+        "votes": 545483
       },
       "rt": {
         "score": 97,
@@ -3654,7 +3714,7 @@
       "imdbId": "tt30988739",
       "imdb": {
         "value": 6.7,
-        "votes": 100984
+        "votes": 101052
       },
       "rt": {
         "score": 96,
@@ -3666,7 +3726,7 @@
       "imdbId": "tt31036941",
       "imdb": {
         "value": 5.8,
-        "votes": 209429
+        "votes": 209465
       },
       "rt": {
         "score": 50,
@@ -3678,7 +3738,7 @@
       "imdbId": "tt31049299",
       "imdb": {
         "value": 5.7,
-        "votes": 37545
+        "votes": 37661
       },
       "rt": {
         "score": 30,
@@ -3690,7 +3750,7 @@
       "imdbId": "tt31195136",
       "imdb": {
         "value": 6.3,
-        "votes": 40357
+        "votes": 40444
       },
       "rt": {
         "score": 78,
@@ -3698,11 +3758,19 @@
         "url": "https://www.rottentomatoes.com/m/normal_2025"
       }
     },
+    "1244523": {
+      "imdbId": "tt10377864",
+      "imdb": {
+        "value": 5.6,
+        "votes": 3939
+      },
+      "rt": null
+    },
     "1248832": {
       "imdbId": "tt31450459",
       "imdb": {
         "value": 7.5,
-        "votes": 48759
+        "votes": 48816
       },
       "rt": {
         "score": 52,
@@ -3714,7 +3782,7 @@
       "imdbId": "tt32149847",
       "imdb": {
         "value": 6.1,
-        "votes": 62031
+        "votes": 62082
       },
       "rt": {
         "score": 83,
@@ -3726,7 +3794,7 @@
       "imdbId": "tt28535715",
       "imdb": {
         "value": 6.6,
-        "votes": 11013
+        "votes": 11026
       },
       "rt": {
         "score": 75,
@@ -3738,7 +3806,7 @@
       "imdbId": "tt37458193",
       "imdb": {
         "value": 6,
-        "votes": 1757
+        "votes": 1769
       },
       "rt": null
     },
@@ -3746,7 +3814,7 @@
       "imdbId": "tt7526136",
       "imdb": {
         "value": 7.1,
-        "votes": 66306
+        "votes": 66974
       },
       "rt": {
         "score": 84,
@@ -3758,7 +3826,7 @@
       "imdbId": "tt15940132",
       "imdb": {
         "value": 6.3,
-        "votes": 124883
+        "votes": 124952
       },
       "rt": {
         "score": 66,
@@ -3770,7 +3838,7 @@
       "imdbId": "tt34487826",
       "imdb": {
         "value": 6,
-        "votes": 208
+        "votes": 209
       },
       "rt": null
     },
@@ -3778,7 +3846,7 @@
       "imdbId": "tt37510326",
       "imdb": {
         "value": 6.6,
-        "votes": 10945
+        "votes": 11534
       },
       "rt": {
         "score": 54,
@@ -3790,7 +3858,7 @@
       "imdbId": "tt35715953",
       "imdb": {
         "value": 6.7,
-        "votes": 5355
+        "votes": 5362
       },
       "rt": {
         "score": 96,
@@ -3802,7 +3870,7 @@
       "imdbId": "tt32261958",
       "imdb": {
         "value": 6,
-        "votes": 40951
+        "votes": 41196
       },
       "rt": {
         "score": 31,
@@ -3814,7 +3882,7 @@
       "imdbId": "tt32268691",
       "imdb": {
         "value": 5.4,
-        "votes": 9362
+        "votes": 9394
       },
       "rt": {
         "score": 59,
@@ -3826,7 +3894,7 @@
       "imdbId": "tt6262770",
       "imdb": {
         "value": 7.4,
-        "votes": 19871
+        "votes": 19989
       },
       "rt": null
     },
@@ -3834,7 +3902,7 @@
       "imdbId": "tt32338669",
       "imdb": {
         "value": 5.7,
-        "votes": 27970
+        "votes": 28032
       },
       "rt": {
         "score": 49,
@@ -3846,7 +3914,7 @@
       "imdbId": "tt7708226",
       "imdb": {
         "value": 5.8,
-        "votes": 5030
+        "votes": 5033
       },
       "rt": null
     },
@@ -3854,7 +3922,7 @@
       "imdbId": "tt13611778",
       "imdb": {
         "value": 5,
-        "votes": 6097
+        "votes": 6172
       },
       "rt": null
     },
@@ -3870,7 +3938,7 @@
       "imdbId": "tt32558705",
       "imdb": {
         "value": 7.5,
-        "votes": 25680
+        "votes": 29134
       },
       "rt": {
         "score": 74,
@@ -3882,7 +3950,7 @@
       "imdbId": "tt32588798",
       "imdb": {
         "value": 5.9,
-        "votes": 20557
+        "votes": 20620
       },
       "rt": {
         "score": 35,
@@ -3894,7 +3962,7 @@
       "imdbId": "tt32368068",
       "imdb": {
         "value": 7.7,
-        "votes": 1499
+        "votes": 1502
       },
       "rt": null
     },
@@ -3910,7 +3978,7 @@
       "imdbId": "tt32820897",
       "imdb": {
         "value": 8.3,
-        "votes": 91097
+        "votes": 91162
       },
       "rt": {
         "score": 98,
@@ -3927,7 +3995,7 @@
       "imdbId": "tt33612209",
       "imdb": {
         "value": 6.3,
-        "votes": 125351
+        "votes": 125435
       },
       "rt": {
         "score": 78,
@@ -3939,7 +4007,7 @@
       "imdbId": "tt35455708",
       "imdb": {
         "value": 7.2,
-        "votes": 415
+        "votes": 416
       },
       "rt": null
     },
@@ -3947,7 +4015,7 @@
       "imdbId": "tt26443616",
       "imdb": {
         "value": 7.2,
-        "votes": 91562
+        "votes": 91616
       },
       "rt": {
         "score": 94,
@@ -3959,7 +4027,7 @@
       "imdbId": "tt32499466",
       "imdb": {
         "value": 6.9,
-        "votes": 8019
+        "votes": 8044
       },
       "rt": {
         "score": 100,
@@ -3971,7 +4039,7 @@
       "imdbId": "tt33296751",
       "imdb": {
         "value": 7.2,
-        "votes": 42553
+        "votes": 42655
       },
       "rt": {
         "score": 94,
@@ -3991,7 +4059,7 @@
       "imdbId": "tt27543632",
       "imdb": {
         "value": 6.7,
-        "votes": 215793
+        "votes": 215941
       },
       "rt": {
         "score": 73,
@@ -4003,7 +4071,7 @@
       "imdbId": "tt33764258",
       "imdb": {
         "value": 8.4,
-        "votes": 591850
+        "votes": 593671
       },
       "rt": {
         "score": 94,
@@ -4015,7 +4083,7 @@
       "imdbId": "tt34206385",
       "imdb": {
         "value": 6.8,
-        "votes": 50740
+        "votes": 51207
       },
       "rt": {
         "score": 86,
@@ -4027,7 +4095,7 @@
       "imdbId": "tt34890499",
       "imdb": {
         "value": 6.6,
-        "votes": 274
+        "votes": 275
       },
       "rt": null
     },
@@ -4035,7 +4103,7 @@
       "imdbId": "tt31349844",
       "imdb": {
         "value": 6.2,
-        "votes": 21937
+        "votes": 22029
       },
       "rt": null
     },
@@ -4043,7 +4111,7 @@
       "imdbId": "tt34384661",
       "imdb": {
         "value": 7.8,
-        "votes": 32117
+        "votes": 32571
       },
       "rt": {
         "score": 90,
@@ -4055,7 +4123,7 @@
       "imdbId": "tt34384900",
       "imdb": {
         "value": 6.5,
-        "votes": 13035
+        "votes": 13117
       },
       "rt": {
         "score": 79,
@@ -4067,7 +4135,7 @@
       "imdbId": "tt43442522",
       "imdb": {
         "value": 8.6,
-        "votes": 1010
+        "votes": 1012
       },
       "rt": null
     },
@@ -4075,7 +4143,7 @@
       "imdbId": "tt9000310",
       "imdb": {
         "value": 6.4,
-        "votes": 5757
+        "votes": 5785
       },
       "rt": null
     },
@@ -4083,15 +4151,20 @@
       "imdbId": "tt33509147",
       "imdb": {
         "value": 5.9,
-        "votes": 586
+        "votes": 588
       },
+      "rt": null
+    },
+    "1400336": {
+      "imdbId": "tt34966140",
+      "imdb": null,
       "rt": null
     },
     "1400379": {
       "imdbId": "tt34966678",
       "imdb": {
         "value": 7.7,
-        "votes": 1043
+        "votes": 1044
       },
       "rt": null
     },
@@ -4099,7 +4172,7 @@
       "imdbId": "tt36586020",
       "imdb": {
         "value": 5.3,
-        "votes": 27561
+        "votes": 27899
       },
       "rt": {
         "score": 19,
@@ -4111,7 +4184,7 @@
       "imdbId": "tt34890576",
       "imdb": {
         "value": 7.5,
-        "votes": 55656
+        "votes": 55806
       },
       "rt": {
         "score": 78,
@@ -4123,7 +4196,7 @@
       "imdbId": "tt35410859",
       "imdb": {
         "value": 7.6,
-        "votes": 8357
+        "votes": 8608
       },
       "rt": {
         "score": 91,
@@ -4135,7 +4208,7 @@
       "imdbId": "tt39814688",
       "imdb": {
         "value": 6.7,
-        "votes": 468
+        "votes": 469
       },
       "rt": null
     },
@@ -4151,7 +4224,7 @@
       "imdbId": "tt35519455",
       "imdb": {
         "value": 5.8,
-        "votes": 10962
+        "votes": 10981
       },
       "rt": {
         "score": 93,
@@ -4171,7 +4244,7 @@
       "imdbId": "tt35538033",
       "imdb": {
         "value": 7.4,
-        "votes": 177651
+        "votes": 178510
       },
       "rt": {
         "score": 96,
@@ -4183,7 +4256,7 @@
       "imdbId": "tt29271622",
       "imdb": {
         "value": 7.4,
-        "votes": 8728
+        "votes": 8738
       },
       "rt": null
     },
@@ -4191,7 +4264,7 @@
       "imdbId": "tt35856037",
       "imdb": {
         "value": 6.6,
-        "votes": 9597
+        "votes": 9777
       },
       "rt": {
         "score": 95,
@@ -4203,7 +4276,7 @@
       "imdbId": "tt35866986",
       "imdb": {
         "value": 6.5,
-        "votes": 5066
+        "votes": 5252
       },
       "rt": null
     },
@@ -4211,7 +4284,7 @@
       "imdbId": "tt37304295",
       "imdb": {
         "value": 7.4,
-        "votes": 5289
+        "votes": 5333
       },
       "rt": {
         "score": 93,
@@ -4231,7 +4304,7 @@
       "imdbId": "tt36411726",
       "imdb": {
         "value": 6.8,
-        "votes": 280
+        "votes": 282
       },
       "rt": null
     },
@@ -4239,7 +4312,7 @@
       "imdbId": "tt36073210",
       "imdb": {
         "value": 5.4,
-        "votes": 6772
+        "votes": 6783
       },
       "rt": {
         "score": 36,
@@ -4256,7 +4329,7 @@
       "imdbId": "tt36150957",
       "imdb": {
         "value": 7.9,
-        "votes": 5637
+        "votes": 5654
       },
       "rt": null
     },
@@ -4264,15 +4337,20 @@
       "imdbId": "tt39631280",
       "imdb": {
         "value": 5.9,
-        "votes": 2992
+        "votes": 3010
       },
+      "rt": null
+    },
+    "1457866": {
+      "imdbId": "tt36408401",
+      "imdb": null,
       "rt": null
     },
     "1458857": {
       "imdbId": "tt36429458",
       "imdb": {
         "value": 6.6,
-        "votes": 2729
+        "votes": 2733
       },
       "rt": null
     },
@@ -4280,7 +4358,7 @@
       "imdbId": "tt36583977",
       "imdb": {
         "value": 7.4,
-        "votes": 12635
+        "votes": 12699
       },
       "rt": {
         "score": 95,
@@ -4292,7 +4370,7 @@
       "imdbId": "tt36629665",
       "imdb": {
         "value": 4.5,
-        "votes": 5251
+        "votes": 5258
       },
       "rt": {
         "score": 40,
@@ -4304,7 +4382,7 @@
       "imdbId": "tt36647890",
       "imdb": {
         "value": 3.7,
-        "votes": 4800
+        "votes": 4803
       },
       "rt": null
     },
@@ -4320,7 +4398,7 @@
       "imdbId": "tt36841161",
       "imdb": {
         "value": 7.1,
-        "votes": 4228
+        "votes": 4247
       },
       "rt": {
         "score": 99,
@@ -4340,7 +4418,7 @@
       "imdbId": "tt36893729",
       "imdb": {
         "value": 4.1,
-        "votes": 10518
+        "votes": 10569
       },
       "rt": {
         "score": 25,
@@ -4352,7 +4430,7 @@
       "imdbId": "tt37803364",
       "imdb": {
         "value": 7.6,
-        "votes": 5727
+        "votes": 5833
       },
       "rt": {
         "score": 97,
@@ -4364,7 +4442,7 @@
       "imdbId": "tt37108970",
       "imdb": {
         "value": 7.7,
-        "votes": 521
+        "votes": 527
       },
       "rt": null
     },
@@ -4372,7 +4450,7 @@
       "imdbId": "tt6933238",
       "imdb": {
         "value": 6.2,
-        "votes": 40923
+        "votes": 41015
       },
       "rt": {
         "score": 24,
@@ -4384,7 +4462,7 @@
       "imdbId": "tt13609648",
       "imdb": {
         "value": 7.2,
-        "votes": 13497
+        "votes": 13597
       },
       "rt": {
         "score": 78,
@@ -4396,7 +4474,7 @@
       "imdbId": "tt37601990",
       "imdb": {
         "value": 7.2,
-        "votes": 233
+        "votes": 235
       },
       "rt": null
     },
@@ -4404,7 +4482,7 @@
       "imdbId": "tt37522541",
       "imdb": {
         "value": 5.1,
-        "votes": 5810
+        "votes": 5870
       },
       "rt": null
     },
@@ -4412,7 +4490,7 @@
       "imdbId": "tt38681843",
       "imdb": {
         "value": 6.4,
-        "votes": 476
+        "votes": 478
       },
       "rt": null
     },
@@ -4420,15 +4498,27 @@
       "imdbId": "tt37543956",
       "imdb": {
         "value": 5.8,
-        "votes": 173
+        "votes": 174
       },
       "rt": null
+    },
+    "1514026": {
+      "imdbId": "tt37281055",
+      "imdb": {
+        "value": 6.6,
+        "votes": 26820
+      },
+      "rt": {
+        "score": 88,
+        "date": "2026-11-19",
+        "url": "https://www.rottentomatoes.com/m/buddy_2026"
+      }
     },
     "1517123": {
       "imdbId": "tt37660509",
       "imdb": {
         "value": 7.1,
-        "votes": 1835
+        "votes": 1838
       },
       "rt": null
     },
@@ -4436,16 +4526,26 @@
       "imdbId": "tt37675123",
       "imdb": {
         "value": 5.3,
-        "votes": 1887
+        "votes": 1944
       },
+      "rt": null
+    },
+    "1538497": {
+      "imdbId": "tt38077943",
+      "imdb": null,
       "rt": null
     },
     "1541477": {
       "imdbId": "tt38504402",
       "imdb": {
         "value": 6.3,
-        "votes": 506
+        "votes": 509
       },
+      "rt": null
+    },
+    "1542613": {
+      "imdbId": "tt36965084",
+      "imdb": null,
       "rt": null
     },
     "1542877": {
@@ -4460,7 +4560,7 @@
       "imdbId": "tt38213251",
       "imdb": {
         "value": 5.5,
-        "votes": 6001
+        "votes": 6257
       },
       "rt": null
     },
@@ -4468,7 +4568,7 @@
       "imdbId": "tt38281377",
       "imdb": {
         "value": 6.4,
-        "votes": 142
+        "votes": 147
       },
       "rt": null
     },
@@ -4476,7 +4576,7 @@
       "imdbId": "tt6611324",
       "imdb": {
         "value": 6.2,
-        "votes": 7136
+        "votes": 7972
       },
       "rt": null
     },
@@ -4484,7 +4584,7 @@
       "imdbId": "tt38420997",
       "imdb": {
         "value": 5.4,
-        "votes": 759
+        "votes": 776
       },
       "rt": null
     },
@@ -4492,7 +4592,7 @@
       "imdbId": "tt38672588",
       "imdb": {
         "value": 5.4,
-        "votes": 6833
+        "votes": 6871
       },
       "rt": {
         "score": 31,
@@ -4504,15 +4604,15 @@
       "imdbId": "tt38773219",
       "imdb": {
         "value": 7.2,
-        "votes": 13763
+        "votes": 14320
       },
       "rt": null
     },
     "1568060": {
       "imdbId": "tt18351090",
       "imdb": {
-        "value": 5.3,
-        "votes": 618
+        "value": 5.4,
+        "votes": 692
       },
       "rt": null
     },
@@ -4525,7 +4625,7 @@
       "imdbId": "tt38515310",
       "imdb": {
         "value": 6.5,
-        "votes": 3904
+        "votes": 4000
       },
       "rt": {
         "score": 33,
@@ -4537,7 +4637,7 @@
       "imdbId": "tt38793125",
       "imdb": {
         "value": 5.7,
-        "votes": 3755
+        "votes": 3779
       },
       "rt": null
     },
@@ -4545,7 +4645,7 @@
       "imdbId": "tt38984314",
       "imdb": {
         "value": 7,
-        "votes": 284
+        "votes": 291
       },
       "rt": null
     },
@@ -4553,7 +4653,7 @@
       "imdbId": "tt39094466",
       "imdb": {
         "value": 7.6,
-        "votes": 1306
+        "votes": 1326
       },
       "rt": {
         "score": 88,
@@ -4573,7 +4673,7 @@
       "imdbId": "tt14413964",
       "imdb": {
         "value": 6.8,
-        "votes": 2215
+        "votes": 2671
       },
       "rt": null
     },
@@ -4581,7 +4681,7 @@
       "imdbId": "tt37180686",
       "imdb": {
         "value": 5.6,
-        "votes": 3320
+        "votes": 3343
       },
       "rt": null
     },
@@ -4595,14 +4695,17 @@
     },
     "1611767": {
       "imdbId": "tt39316936",
-      "imdb": null,
+      "imdb": {
+        "value": 5.9,
+        "votes": 1024
+      },
       "rt": null
     },
     "1616419": {
       "imdbId": "tt39453578",
       "imdb": {
         "value": 6.5,
-        "votes": 1664
+        "votes": 1700
       },
       "rt": null
     },
@@ -4610,7 +4713,7 @@
       "imdbId": "tt39370926",
       "imdb": {
         "value": 6.1,
-        "votes": 1494
+        "votes": 1556
       },
       "rt": null
     },
@@ -4618,7 +4721,7 @@
       "imdbId": "tt37070354",
       "imdb": {
         "value": 5,
-        "votes": 2721
+        "votes": 2727
       },
       "rt": null
     },
@@ -4634,7 +4737,7 @@
       "imdbId": "tt34621251",
       "imdb": {
         "value": 6.7,
-        "votes": 74
+        "votes": 77
       },
       "rt": null
     },
@@ -4670,8 +4773,8 @@
     "1649403": {
       "imdbId": "tt40564737",
       "imdb": {
-        "value": 8.6,
-        "votes": 488
+        "value": 8.5,
+        "votes": 493
       },
       "rt": null
     },
@@ -4679,7 +4782,7 @@
       "imdbId": "tt39400541",
       "imdb": {
         "value": 6.3,
-        "votes": 977
+        "votes": 996
       },
       "rt": null
     },
@@ -4692,7 +4795,7 @@
       "imdbId": "tt41371151",
       "imdb": {
         "value": 7.3,
-        "votes": 86
+        "votes": 87
       },
       "rt": null
     },
@@ -4725,6 +4828,11 @@
       },
       "rt": null
     },
+    "1720486": {
+      "imdbId": "tt43621069",
+      "imdb": null,
+      "rt": null
+    },
     "1723662": {
       "imdbId": "tt40071798",
       "imdb": {
@@ -4745,7 +4853,7 @@
       "imdbId": "tt43655467",
       "imdb": {
         "value": 5,
-        "votes": 15431
+        "votes": 15492
       },
       "rt": null
     },
@@ -4758,7 +4866,7 @@
       "imdbId": "tt43704846",
       "imdb": {
         "value": 6.7,
-        "votes": 134
+        "votes": 136
       },
       "rt": {
         "score": 90,
@@ -4775,7 +4883,7 @@
       "imdbId": "tt43656794",
       "imdb": {
         "value": 7,
-        "votes": 286
+        "votes": 293
       },
       "rt": null
     },
@@ -4783,7 +4891,7 @@
       "imdbId": "tt44766123",
       "imdb": {
         "value": 8.4,
-        "votes": 7979
+        "votes": 8022
       },
       "rt": {
         "score": 100,
@@ -4795,7 +4903,7 @@
       "imdbId": "tt39313557",
       "imdb": {
         "value": 5.4,
-        "votes": 2076
+        "votes": 2161
       },
       "rt": null
     },
@@ -4803,9 +4911,21 @@
       "imdbId": "tt44568097",
       "imdb": {
         "value": 6.6,
-        "votes": 3242
+        "votes": 3251
       },
       "rt": null
+    },
+    "1765072": {
+      "imdbId": "tt45368240",
+      "imdb": {
+        "value": 9,
+        "votes": 45126
+      },
+      "rt": {
+        "score": 97,
+        "date": "2026-11-19",
+        "url": "https://www.rottentomatoes.com/m/you_can_see_everything"
+      }
     },
     "1766496": {
       "imdbId": null,
@@ -4821,7 +4941,7 @@
       "imdbId": "tt37961714",
       "imdb": {
         "value": 5.1,
-        "votes": 2003
+        "votes": 2012
       },
       "rt": null
     },
@@ -4864,7 +4984,7 @@
       "imdbId": "tt50389959",
       "imdb": {
         "value": 6.6,
-        "votes": 2674
+        "votes": 2693
       },
       "rt": null
     }

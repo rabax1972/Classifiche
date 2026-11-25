@@ -6,6 +6,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:05.448Z"
   },
+  "movie:a dark story": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/6003SAtEhO8vQaY1iODkyaf5ZnS.jpg",
+      "url": "https://www.themoviedb.org/movie/1542613"
+    },
+    "fetchedAt": "2026-11-25T14:27:41.766Z"
+  },
   "movie:a dog s perfect christmas": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/zKJmIJWxxFLKtfylpCYFfeVJ8xZ.jpg",
@@ -153,6 +160,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:06.117Z"
   },
+  "movie:dr seuss the grinch": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/rHJlD4ElNBZmejPATAjkuLUooSB.jpg",
+      "url": "https://www.themoviedb.org/movie/762951"
+    },
+    "fetchedAt": "2026-11-25T14:27:41.651Z"
+  },
   "movie:drop": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/sYo8mowvoL1Hi1vsS8dSEpqArJM.jpg",
@@ -223,6 +237,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:06.698Z"
   },
+  "movie:guarding stars": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/5bsXFYXOlbzHBpl9mPaxmOPIQJ9.jpg",
+      "url": "https://www.themoviedb.org/movie/1551025"
+    },
+    "fetchedAt": "2026-11-25T14:27:41.571Z"
+  },
   "movie:halloween": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/uxLqrN38fSQEUVpM4S1suhnW3X.jpg",
@@ -264,6 +285,13 @@
       "url": "https://www.themoviedb.org/movie/1802674"
     },
     "fetchedAt": "2026-11-04T05:13:52.685Z"
+  },
+  "movie:how the grinch stole christmas": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/oIQYw3rzBcMUiOGAOex0Ml1zrTS.jpg",
+      "url": "https://www.themoviedb.org/movie/8871"
+    },
+    "fetchedAt": "2026-11-25T14:27:41.966Z"
   },
   "movie:ice age": {
     "value": {
@@ -397,6 +425,13 @@
       "url": "https://www.themoviedb.org/movie/1549128"
     },
     "fetchedAt": "2026-10-12T07:25:07.265Z"
+  },
+  "movie:steps": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gXEMhP3LSrVNQ7iV6SPV4sqHKjU.jpg",
+      "url": "https://www.themoviedb.org/movie/1595124"
+    },
+    "fetchedAt": "2026-11-25T14:27:41.860Z"
   },
   "movie:surviving hurricane otis": {
     "value": {
@@ -573,6 +608,13 @@
     },
     "fetchedAt": "2026-11-04T05:13:53.527Z"
   },
+  "tv:alicia s law": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/7o9nY3GO97jyeVWdtWr12nR0Qpt.jpg",
+      "url": "https://www.themoviedb.org/tv/338562"
+    },
+    "fetchedAt": "2026-11-25T14:27:42.258Z"
+  },
   "tv:all the truth in my lies": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/xrXT1n7o77XOVsQKAoS7lIg2emc.jpg",
@@ -741,6 +783,13 @@
     },
     "fetchedAt": "2026-10-12T07:25:11.024Z"
   },
+  "tv:murder in galicia": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/pk7ewQL2vAxtit0YmDEURmAInS9.jpg",
+      "url": "https://www.themoviedb.org/tv/303182"
+    },
+    "fetchedAt": "2026-11-25T14:27:42.150Z"
+  },
   "tv:my brilliant career": {
     "value": {
       "cover": "https://image.tmdb.org/t/p/w185/biuErDJnNoxKccF7NHGCRIyaGIo.jpg",
@@ -901,6 +950,13 @@
       "url": "https://www.themoviedb.org/tv/236235"
     },
     "fetchedAt": "2026-10-12T07:25:12.831Z"
+  },
+  "tv:the law of beasts": {
+    "value": {
+      "cover": "https://image.tmdb.org/t/p/w185/gYtYtadU4AdIduG9klh9i64OzaA.jpg",
+      "url": "https://www.themoviedb.org/tv/332839"
+    },
+    "fetchedAt": "2026-11-25T14:27:42.066Z"
   },
   "tv:the one about matthew perry": {
     "value": {
