@@ -29479,6 +29479,69 @@
     },
     "fetchedAt": "2026-10-18T17:56:46.007Z"
   },
+  "radio praga le onde della liberta|jiri madl 2026": {
+    "value": {
+      "tmdbId": 1251621,
+      "title": "Radio Praga - Le onde della libertà",
+      "overview": "Alla fine degli anni '60, quando l'aria vibra a ritmo di rock & roll e le rivolte studentesche stanno cambiando il mondo, il maggiore di due fratelli viene assunto in una prestigiosa redazione dell'emittente radiofonica pubblica e in breve tempo si ritrova invischiato in un pericoloso conflitto tra i giornalisti e i servizi segreti. Ben presto, un vortice di eventi metterà in pericolo le vite di tutti. Il protagonista si ritrova davanti a una scelta difficile: proteggere il fratello o lottare per la verità e per i suoi colleghi?",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Vlny",
+      "genres": [
+        "Thriller",
+        "Dramma",
+        "Storia"
+      ],
+      "runtime": 131,
+      "released": "2026-11-26",
+      "vote": 7.5,
+      "votes": 76,
+      "poster": "https://image.tmdb.org/t/p/w500/39FJqmlU6e8rzUAQjLXkRDzEn3.jpg",
+      "directors": [
+        {
+          "id": 544235,
+          "name": "Jiří Mádl"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Vojtěch Vodochodský",
+          "character": "Tomáš Havlík"
+        },
+        {
+          "name": "Ondřej Stupka",
+          "character": "Pavel Havlík"
+        },
+        {
+          "name": "Tatiana Pauhofová",
+          "character": "Věra Šťovíčková"
+        },
+        {
+          "name": "Stanislav Majer",
+          "character": "Milan Weiner"
+        },
+        {
+          "name": "Vojtěch Kotek",
+          "character": "Jiří Dienstbier"
+        },
+        {
+          "name": "Marika Šoposká",
+          "character": "Jarunka"
+        },
+        {
+          "name": "Petr Lněnička",
+          "character": "Jan Petránek"
+        },
+        {
+          "name": "Martin Hofmann",
+          "character": "Luboš Dobrovský"
+        }
+      ],
+      "trailer": "pxSeWimkAOI",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.785Z"
+  },
   "ragione e sentimento|georgia oakley 2026": {
     "value": {
       "tmdbId": 1503762,
@@ -31216,6 +31279,77 @@
       "watch": null
     },
     "fetchedAt": "2026-11-11T05:20:29.469Z"
+  },
+  "scuola per guerrieri coraggiosi|mcg 2026": {
+    "value": {
+      "tmdbId": 1280115,
+      "title": "Scuola per guerrieri coraggiosi",
+      "overview": "Jake, un Navy SEAL ferito, diventa il mentore del timido Marc e, con la disciplina militare, lo aiuta a diventare un vero Guerriero alle superiori.",
+      "overviewLang": "it",
+      "tagline": "Il talento coltiva il talento.",
+      "originalTitle": "Way of the Warrior Kid",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 107,
+      "released": "2026-11-24",
+      "vote": 7.5,
+      "votes": 23,
+      "poster": "https://image.tmdb.org/t/p/w500/naeCYQHH3CJ6uj47EYd9jHNtxIe.jpg",
+      "directors": [
+        {
+          "id": 36425,
+          "name": "McG"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Chris Pratt",
+          "character": "Jake"
+        },
+        {
+          "name": "Jude Hill",
+          "character": "Marc"
+        },
+        {
+          "name": "Linda Cardellini",
+          "character": "Sarah"
+        },
+        {
+          "name": "Jocko Willink",
+          "character": "Coach Adam"
+        },
+        {
+          "name": "Ava Torres",
+          "character": "Nora"
+        },
+        {
+          "name": "Levi McConaughey",
+          "character": "Kenny"
+        },
+        {
+          "name": "Darien Sills-Evans",
+          "character": "Commander Barnes"
+        },
+        {
+          "name": "Carl McDowell",
+          "character": "Principal Lanzetta"
+        }
+      ],
+      "trailer": "0SPEo7TD1RY",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1280115-way-of-the-warrior-kid/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Apple TV",
+            "logo": "https://image.tmdb.org/t/p/w92/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-26T13:59:02.973Z"
   },
   "se ami qualcuno dillo|marco bonini 2026": {
     "value": {
@@ -35404,6 +35538,79 @@
       "watch": null
     },
     "fetchedAt": "2026-10-17T09:30:33.541Z"
+  },
+  "the mosquito bowl|peter berg 2026": {
+    "value": {
+      "tmdbId": 1458300,
+      "title": "The Mosquito Bowl",
+      "overview": "Dopo l’attacco a Pearl Harbor, quattro delle migliori stelle del football universitario statunitense mettono da parte la fama per arruolarsi nei Marines. Mentre si preparano alla brutale invasione di Okinawa, disputano una partita leggendaria che vede protagonisti alcuni dei più grandi giocatori della storia – una partita che, per molti, sarà l’ultima in assoluto…",
+      "overviewLang": "it",
+      "tagline": "Addestrati per la gloria, chiamati alla guerra.",
+      "originalTitle": null,
+      "genres": [
+        "Guerra",
+        "Storia",
+        "Dramma"
+      ],
+      "runtime": 128,
+      "released": "2026-10-29",
+      "vote": 7.2,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
+      "directors": [
+        {
+          "id": 36602,
+          "name": "Peter Berg"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Nicholas Galitzine",
+          "character": "John McLaughry"
+        },
+        {
+          "name": "Bill Skarsgård",
+          "character": "Bob Bauman"
+        },
+        {
+          "name": "Ray Nicholson",
+          "character": "Tony Butkovich"
+        },
+        {
+          "name": "Tom Francis",
+          "character": "Dave Schreiner"
+        },
+        {
+          "name": "Brent Comer",
+          "character": "George Murphy"
+        },
+        {
+          "name": "Dominic Bogart",
+          "character": "Wilkes"
+        },
+        {
+          "name": "Jack Ingram",
+          "character": "Wilson"
+        },
+        {
+          "name": "Ella Newton",
+          "character": "Jane"
+        }
+      ],
+      "trailer": "F6YDzPfjH4I",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1458300-the-mosquito-bowl/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-26T13:59:02.873Z"
   },
   "the nameless ballad|federico zampaglione 2026": {
     "value": {

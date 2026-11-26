@@ -286,12 +286,18 @@
         "Storia",
         "Cultura e società"
       ],
-      "episodes": 384,
+      "episodes": 385,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/da/02/33/da0233dd-ef86-70cb-24ab-fcac60726033/mza_4711954230342366404.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/FRANCD9181985431",
       "description": "Canale Podcast dedicato al professor Alessandro Barbero focalizzato su interventi brevi, conferenze inedite e podcast non reperibili su altri canali. (Non ufficiale - come tutti)\n.\n.\n// Disclaimer //\nTutti gli audio disponibili sono utilizzati negli episodi dopo previo consenso e accordo con i distributori originali di altre piattaforme e/o comunque distribuiti liberamente e originariamente con licenze CC BY 4.0 e affini (o registrati in loco), viene sempre riportata la fonte principale.\nI titoli potrebbero differire in caso di titoli originali troppo lunghi o estratti brevi.\nPer qualsiasi dubbio o problema contattateci PER FAVORE prima alla nostra mail: vassallidibarbero[@]gmail[dot]com",
       "website": "https://www.spreaker.com/show/alessandro-barbero-podcast-la-storia",
       "latest": [
+        {
+          "title": "Chi SFAMAVA gli ESERCITI? La spiegazione di Alessandro Barbero",
+          "date": "2026-11-23",
+          "seconds": 3675,
+          "url": null
+        },
         {
           "title": "\"In DEMOCRAZIA hai il DIRITTO di mandare A FAN*ULO il GOVERNO\", Alessandro Barbero al Campus Einaudi",
           "date": "2026-11-18",
@@ -315,16 +321,10 @@
           "date": "2026-11-01",
           "seconds": 5056,
           "url": null
-        },
-        {
-          "title": "La Crociata dei BAMBINI e le BEGHINE: cosa c'è di vero? - Alessandro Barbero (Pioltello, 2026)",
-          "date": "2026-10-25",
-          "seconds": 6038,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:38.816Z"
+    "fetchedAt": "2026-11-26T14:03:52.354Z"
   },
   "podcast:altre storie americane": {
     "value": {
@@ -379,12 +379,24 @@
       "genres": [
         "News"
       ],
-      "episodes": 286,
+      "episodes": 288,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/25/bf/d9/25bfd9a8-a5eb-4e3a-18b2-10cccd770423/mza_15100382235722530193.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS4111321912",
       "description": "I paesi asiatici hanno una vita politica e culturale che ne determina l'identità e la proposizione internazionale. Solo che il più delle volte siamo portati a parlarne sulla base di immagini stereotipate, superficiali e che non rappresentano la realtà. Anziché considerare gli Stati asiatici pedine in mano alle principali potenze, paesi esotici e misteriosi, “Altri Orienti” propone una narrazione asiatica dei fatti del mondo per gettare uno squarcio approfondito su quanto accade all'interno di quei mondi, come evolvono i loro conflitti sociali, le novità tecnologiche, le tendenze culturali e la propria “visione del mondo”. L'Asia è ormai una grande potenza demografica, economica, culturale e militare: quello che succede in quella parte del mondo finirà per avere delle conseguenze anche sulle nostre società e le nostre vite.\nALTRI ORIENTI è un podcast di Chora News prodotto da Chora Media.\nScritto e raccontato da Simone Pieranni.\nIl Sound Design è a cura di Daniele Marinello e di Filippo Mainardi.\nLa producer è Martina Conte.\nLa fonica di studio è Lucrezia Marcelli.\nIl coordinamento della post-produzione è di Matteo Scelsa.",
       "website": "https://www.spreaker.com/show/altri-orienti",
       "latest": [
+        {
+          "title": "Ep.86: Il Quinto Plenum con vista Congresso",
+          "date": "2026-11-23",
+          "seconds": 1027,
+          "url": null
+        },
+        {
+          "title": "Ep.193: Quella di Jensen Huang e Nvidia non è una spy story",
+          "date": "2026-11-20",
+          "seconds": 2551,
+          "url": null
+        },
         {
           "title": "PER LE ALTRE: storie di sottomissione chimica in Italia | Una nuova inchiesta di Chora",
           "date": "2026-11-18",
@@ -402,22 +414,10 @@
           "date": "2026-11-13",
           "seconds": 1660,
           "url": null
-        },
-        {
-          "title": "Ep.84: La dinastia Han - Parte 1",
-          "date": "2026-11-09",
-          "seconds": 1479,
-          "url": null
-        },
-        {
-          "title": "Ep.191: Kazakistan",
-          "date": "2026-11-06",
-          "seconds": 1779,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:17:02.544Z"
+    "fetchedAt": "2026-11-26T14:04:22.343Z"
   },
   "podcast:amo ape": {
     "value": {
@@ -582,45 +582,45 @@
         "News",
         "News - Affari"
       ],
-      "episodes": 783,
+      "episodes": 793,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/49/5f/ba/495fba67-4f38-e057-0ff5-ba144e78f5b0/mza_12972480367148405188.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS7148028594",
-      "description": "La finanza è un universo complesso, regolato da flussi che scorrono ovunque e da algoritmi indecifrabili. La finanza è il liquido in cui siamo immersi, senza saperlo. Questa serie racconta i meccanismi della finanza globale per entrare nel cuore del dispositivo: nella sua scatola nera.\n\"Black Box\" è un podcast di Chora News prodotto da Chora Media.\nScritto da Guido Brera e da Raffaele Coriglione\nLa cura editoriale è di Simone Pieranni\nIn redazione Flavia Bevilacqua\nLa sigla è di Luca Micheli\nIl sound design è a cura di Guido Bertolotti, Cosma Castellucci, Mattia Liciotti, Emanuele Moscatelli, Aurora Ricci, Matteo Zullo\nIl progetto grafico è di Rebecca Grassi\nLa producer è Sabrina Patilli\nIl coordinamento della post produzione è di Matteo Scelsa",
+      "description": "Black Box, la scatola nera della finanza. Ogni giorno raccontiamo i mercati globali e le forze che li muovono.\nBLACK BOX: Guido Brera e Raffaele Coriglione analizzano ogni giorno i meccanismi della finanza globale, per entrare nel cuore della sua scatola nera.\nMORNING FINANCE: Ogni mattina Silvia Berzoni racconta l’essenziale della finanza internazionale: storie, driver e analisi. Autorevole per i professionisti, chiaro per chi vuole capire.\nOUT OF THE BOX: Gian Luca Comandini esplora le frontiere del futuro e le storie di chi sta rivoluzionando l’economia per generare un impatto positivo e duraturo.\nTHE MARKET DISPATCH: Ogni mese Silvia Berzoni e Monica Defend, Head of Amundi Investment Institute e Chief Strategist di Amundi, vanno dietro le quinte dei mercati finanziari tra scenari, insight e strategie d’investimento.\n---\n\"Black Box\" è un podcast di Chora News prodotto da Chora Media.",
       "website": "https://www.spreaker.com/show/black-box_2",
       "latest": [
         {
-          "title": "Nauru, l’isola che si scavò da sola",
-          "date": "2026-11-19",
-          "seconds": 1649,
+          "title": "Asia in verde, rimbalza Tech. Dazi, rischio Nvidia, spettro Fed e EUCO | Morning Finance",
+          "date": "2026-11-26",
+          "seconds": 1470,
           "url": null
         },
         {
-          "title": "Anthropic, IPO record: 83$. Trump-Xi-Putin. Mercati in stallo. E’ l’ora di GTA VI | Morning Finance",
-          "date": "2026-11-19",
-          "seconds": 1710,
+          "title": "Il tacchino avvelenato",
+          "date": "2026-11-25",
+          "seconds": 802,
           "url": null
         },
         {
-          "title": "\"Benvenuti nell'era del tecnodollaro\"",
-          "date": "2026-11-18",
-          "seconds": 1082,
+          "title": "Sell-off Tech. Tornano i dazi. ANT sotto IPO, Nvidia -6%. Oggi PCE. T-bond sotto 4,9% | Morning Finance",
+          "date": "2026-11-25",
+          "seconds": 1685,
           "url": null
         },
         {
-          "title": "Nvidia record, basterà? Porte chiuse a Huang. ANT sopra 1.500mld. Rally nel limbo | Morning Finance",
-          "date": "2026-11-18",
-          "seconds": 1840,
+          "title": "Breakaway gap o rimbalzo del gatto morto?",
+          "date": "2026-11-24",
+          "seconds": 1002,
           "url": null
         },
         {
-          "title": "Aspettando Nvidia (e Anthropic)",
-          "date": "2026-11-17",
-          "seconds": 876,
+          "title": "Dagli Usa all’Asia: Jensen rally. E adesso? Re dollaro, rame, Fed. I rischi del mercato | Morning Finance",
+          "date": "2026-11-24",
+          "seconds": 1623,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:44.320Z"
+    "fetchedAt": "2026-11-26T14:04:04.509Z"
   },
   "podcast:bouquet of madness": {
     "value": {
@@ -1098,16 +1098,22 @@
         "Umorismo",
         "Cultura e società"
       ],
-      "episodes": 178,
+      "episodes": 179,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/d7/16/13d7162a-f259-7a12-9d23-09d418b311c8/mza_9686696573083754774.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/decorepodcast",
       "description": "Il Podcast di interviste condotte da Alessandro Pieravanti e Danilo da Fiumicino. Un ospite ogni puntata per parlare delle cose che lo fanno stare bene: musica, cinema, viaggi, sport, cucina e tanto altro. Una produzione Dopcast.",
       "website": null,
       "latest": [
         {
+          "title": "Ep.179 Valentina Lodovini - De Core Podcast",
+          "date": "2026-11-26",
+          "seconds": 6892,
+          "url": null
+        },
+        {
           "title": "Ep.178 Francesco Gabbani - De Core Podcast",
           "date": "2026-11-19",
-          "seconds": 5673,
+          "seconds": 5913,
           "url": null
         },
         {
@@ -1127,16 +1133,10 @@
           "date": "2026-10-29",
           "seconds": 6236,
           "url": null
-        },
-        {
-          "title": "Ep.174 Lucia Ocone - De Core Podcast",
-          "date": "2026-10-22",
-          "seconds": 6558,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:41.479Z"
+    "fetchedAt": "2026-11-26T14:04:10.336Z"
   },
   "podcast:dee giallo": {
     "value": {
@@ -1275,7 +1275,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:35.602Z"
+    "fetchedAt": "2026-11-26T14:04:13.390Z"
   },
   "podcast:dentro il caso": {
     "value": {
@@ -1283,12 +1283,18 @@
       "genres": [
         "True crime"
       ],
-      "episodes": 61,
+      "episodes": 62,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/3f/27/a03f27ba-309e-42ac-d5d7-6e55ecc8c118/mza_4419122163191998716.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/AMCS3037670685",
       "description": "Ogni settimana raccontiamo la cronaca nera italiana: i fatti che hanno segnato il nostro Paese, le storie che continuano a far discutere e le domande che restano sospese anche quando i riflettori si spengono.\nLo facciamo con un obiettivo chiaro: provare a capire cosa è successo davvero e come funziona — o non funziona — la giustizia italiana. Analizziamo i casi, ricostruiamo le indagini, ripercorriamo i processi. Entriamo nelle scelte degli inquirenti, nelle ipotesi rimaste sul tavolo, nelle verità che ancora oggi fanno discutere. Ci chiediamo cosa si sarebbe potuto fare meglio e cosa si può ancora cambiare, senza inseguire risposte facili o verità assolute.\nIn questo podcast troverete solo i fatti, spiegati con chiarezza.",
       "website": null,
       "latest": [
+        {
+          "title": "Gianfranco Stevanin - Il mostro di Terrazzo | Prima parte",
+          "date": "2026-11-24",
+          "seconds": 1460,
+          "url": null
+        },
         {
           "title": "David Rossi - Una nuova verità | Seconda parte",
           "date": "2026-11-17",
@@ -1312,16 +1318,10 @@
           "date": "2026-10-27",
           "seconds": 1757,
           "url": null
-        },
-        {
-          "title": "Luca Varani - Senza un perché | Prima parte",
-          "date": "2026-10-20",
-          "seconds": 1900,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:17:08.443Z"
+    "fetchedAt": "2026-11-26T14:04:31.414Z"
   },
   "podcast:dentro il mistero": {
     "value": {
@@ -1563,12 +1563,18 @@
       "genres": [
         "True crime"
       ],
-      "episodes": 193,
+      "episodes": 194,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/3b/26/883b2605-134d-9394-7c2e-741d6bde7549/mza_4189239204302403626.jpg/600x600bb.jpg",
       "feedUrl": "https://anchor.fm/s/113597d60/podcast/rss",
       "description": "OGNI MERCOLEDÌ UN NUOVO CASO DI TRUE CRIME!\nNel 2020 Elisa De Marco ha aperto il canale Youtube “ElisaTrueCrime” che oggi conta più di 1 milione di iscritti in cui racconta storie di crimini efferati, enigmi irrisolti e misteriose sparizioni.\nNel 2022 il canale è diventato un podcast confermandosi per 3 anni consecutivi il podcast più ascoltato in Italia\nPuoi ascoltare e guardare il podcast Elisa True Crime su Spotify e su tutte le principali piattaforme.",
       "website": "https://elisatruecrime.com/",
       "latest": [
+        {
+          "title": "Ep.188: PIETRO MASO: IL DELITTO CHE SCONVOLSE L'ITALIA",
+          "date": "2026-11-25",
+          "seconds": 4482,
+          "url": "https://podcasters.spotify.com/pod/show/partners-in-true-crime0/episodes/Ep-188-PIETRO-MASO-IL-DELITTO-CHE-SCONVOLSE-LITALIA-e3su9im"
+        },
         {
           "title": "Ep. 187: CAMBIA FACCIA PER NON FARSI PRENDERE - IL CASO DI MORIAH WILSON",
           "date": "2026-11-18",
@@ -1592,16 +1598,10 @@
           "date": "2026-11-04",
           "seconds": 3486,
           "url": "https://podcasters.spotify.com/pod/show/partners-in-true-crime0/episodes/Ep-184-UN-MOSTRO-PER-COINQUILINO---IL-CASO-ANITA-COWEN-e3rmj5c"
-        },
-        {
-          "title": "Ep.183: IL LATO OSCURO DI XXXTENTACION",
-          "date": "2026-10-28",
-          "seconds": 5299,
-          "url": "https://podcasters.spotify.com/pod/show/partners-in-true-crime0/episodes/Ep-183-IL-LATO-OSCURO-DI-XXXTENTACION-e3r42o1"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:44.625Z"
+    "fetchedAt": "2026-11-26T14:03:04.402Z"
   },
   "podcast:est radio": {
     "value": {
@@ -1872,12 +1872,24 @@
         "Scienze",
         "Cultura e società"
       ],
-      "episodes": 459,
+      "episodes": 461,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/70/b5/36/70b5363c-0ca2-2bfd-f93d-58859959ddd0/mza_18014205878257080970.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/CPS2408869581",
       "description": "'Le Scienze nella vita di tutti i giorni’ è il podcast di divulgazione scientifica di Geopop.\nOgni settimana, attraverso episodi della durata media tra i 5 e i 10 minuti, parleremo di energia, geopolitica, ambiente, tecnologia, fenomeni naturali, curiosità, ricostruzione di disastri e approfondimenti sull’attualità. Tutti temi legati, in un modo o nell'altro, alla nostra quotidianità - perché sì, le scienze sono nella vita di tutti i giorni!\nGeopop è un canale presente su tutti i social, con oltre 15 milioni di follower, il cui obiettivo principale è stimolare la curiosità e la passione per la conoscenza.\nBenvenuti a bordo!",
       "website": "https://www.geopop.it/",
       "latest": [
+        {
+          "title": "450 - Incendio a Notre Dame, l’inedita ricostruzione in 3D del disastro",
+          "date": "2026-11-25",
+          "seconds": 1504,
+          "url": null
+        },
+        {
+          "title": "449 - Assassinio di J. F. Kennedy del 1963 in 3D: l’analisi balistica e le teorie del complotto",
+          "date": "2026-11-23",
+          "seconds": 1101,
+          "url": null
+        },
         {
           "title": "448 - Strumenti musicali vs AI: dentro lo studio di registrazione di Lucio Corsi",
           "date": "2026-11-19",
@@ -1895,22 +1907,10 @@
           "date": "2026-11-10",
           "seconds": 434,
           "url": null
-        },
-        {
-          "title": "445- Hacker dei frigoriferi: perché i congelatori dei supermercati europei sono arrivati a 50 °C",
-          "date": "2026-11-06",
-          "seconds": 767,
-          "url": null
-        },
-        {
-          "title": "444 - Incidente aereo in Florida, cosa sappiamo sullo schianto del jet privato e l'indagine NTSB",
-          "date": "2026-11-05",
-          "seconds": 833,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:47.312Z"
+    "fetchedAt": "2026-11-26T14:03:58.410Z"
   },
   "podcast:giorno per giorno": {
     "value": {
@@ -1927,38 +1927,38 @@
       "website": "https://www.spreaker.com/show/corriere-daily_1",
       "latest": [
         {
-          "title": "Il Pd e l'antisemitismo. Come non curare un tumore. GTA VI, finalmente",
-          "date": "2026-11-18",
-          "seconds": 1400,
-          "url": "https://www.spreaker.com/episode/il-pd-e-l-antisemitismo-come-non-curare-un-tumore-gta-vi-finalmente--76452896"
+          "title": "I nuovi dazi di Trump. Giovani maschi violenti. Brignone si ritira",
+          "date": "2026-11-25",
+          "seconds": 1224,
+          "url": "https://www.spreaker.com/episode/i-nuovi-dazi-di-trump-giovani-maschi-violenti-brignone-si-ritira--76590809"
         },
         {
-          "title": "I segreti di Deutsche Bank. Lite Russia-Francia. Trump e Putin da Xi",
-          "date": "2026-11-17",
-          "seconds": 1313,
-          "url": "https://www.spreaker.com/episode/i-segreti-di-deutsche-bank-lite-russia-francia-trump-e-putin-da-xi--76425878"
+          "title": "L'Antimafia e De Gennaro. I dati sui femminicidi. Sinner operato",
+          "date": "2026-11-24",
+          "seconds": 1294,
+          "url": "https://www.spreaker.com/episode/l-antimafia-e-de-gennaro-i-dati-sui-femminicidi-sinner-operato--76565477"
         },
         {
-          "title": "Le falle di Revolut. De Gennaro e Borsellino. Pattinson nuovo 007",
-          "date": "2026-11-16",
-          "seconds": 1550,
-          "url": "https://www.spreaker.com/episode/le-falle-di-revolut-de-gennaro-e-borsellino-pattinson-nuovo-007--76407321"
+          "title": "Huang si riprende Nvidia. Guerra Ucraina-Russia in Libia. Bombe carta a Roma",
+          "date": "2026-11-23",
+          "seconds": 1308,
+          "url": "https://www.spreaker.com/episode/huang-si-riprende-nvidia-guerra-ucraina-russia-in-libia-bombe-carta-a-roma--76542556"
         },
         {
-          "title": "Putin alza la posta. Droni sul Bahrein. I due fronti della Cop31",
-          "date": "2026-11-15",
-          "seconds": 1271,
-          "url": "https://www.spreaker.com/episode/putin-alza-la-posta-droni-sul-bahrein-i-due-fronti-della-cop31--76389615"
+          "title": "Fallisce la Cop31. Il mistero De Gennaro. Preso l'altro «Chapo»",
+          "date": "2026-11-22",
+          "seconds": 1445,
+          "url": "https://www.spreaker.com/episode/fallisce-la-cop31-il-mistero-de-gennaro-preso-l-altro-chapo--76527763"
         },
         {
-          "title": "Voti, popoli, religioni: «Radio Italians», Beppe Severgnini risponde ai vostri vocali",
-          "date": "2026-11-14",
-          "seconds": 1551,
-          "url": "https://www.spreaker.com/episode/voti-popoli-religioni-radio-italians-beppe-severgnini-risponde-ai-vostri-vocali--76360309"
+          "title": "Fidarsi dei giovani: «Radio Italians», Beppe Severgnini risponde ai vostri vocali",
+          "date": "2026-11-21",
+          "seconds": 1233,
+          "url": "https://www.spreaker.com/episode/fidarsi-dei-giovani-radio-italians-beppe-severgnini-risponde-ai-vostri-vocali--76487239"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:59.593Z"
+    "fetchedAt": "2026-11-26T14:04:25.426Z"
   },
   "podcast:global news podcast": {
     "value": {
@@ -2162,38 +2162,38 @@
       "website": "https://www.spreaker.com/podcast/il-mondo--5773405",
       "latest": [
         {
-          "title": "La legge italiana sull’antisemitismo è inutile e dannosa. Il primo vertice della storia tra Cina, Russia e Stati Uniti",
-          "date": "2026-11-19",
-          "seconds": 1851,
-          "url": "https://www.spreaker.com/episode/la-legge-italiana-sull-antisemitismo-e-inutile-e-dannosa-il-primo-vertice-della-storia-tra-cina-russia-e-stati-uniti--76450960"
+          "title": "Sulle armi autonome gli stati non sono d’accordo. La tecnologia manda in crisi il più grande esame di stato sudcoreano",
+          "date": "2026-11-26",
+          "seconds": 1502,
+          "url": "https://www.spreaker.com/episode/sulle-armi-autonome-gli-stati-non-sono-d-accordo-la-tecnologia-manda-in-crisi-il-piu-grande-esame-di-stato-sudcoreano--76589070"
         },
         {
-          "title": "Cinque paesi europei vogliono deportare in Ruanda i migranti irregolari. Il futuro dello spazio è nelle mani di una persona sola",
-          "date": "2026-11-18",
-          "seconds": 1695,
-          "url": "https://www.spreaker.com/episode/cinque-paesi-europei-vogliono-deportare-in-ruanda-i-migranti-irregolari-il-futuro-dello-spazio-e-nelle-mani-di-una-persona-sola--76423134"
+          "title": "Cosa serve davvero per favorire la natalità in Italia. Duro colpo ai narcos messicani",
+          "date": "2026-11-25",
+          "seconds": 1728,
+          "url": "https://www.spreaker.com/episode/cosa-serve-davvero-per-favorire-la-natalita-in-italia-duro-colpo-ai-narcos-messicani--76562658"
         },
         {
-          "title": "La grande manifestazione di Praga contro la riforma della tv pubblica. Il futuro della Nvidia dopo la scandalo che ha travolto Jensen Huang",
-          "date": "2026-11-17",
-          "seconds": 1513,
-          "url": "https://www.spreaker.com/episode/la-grande-manifestazione-di-praga-contro-la-riforma-della-tv-pubblica-il-futuro-della-nvidia-dopo-la-scandalo-che-ha-travolto-jensen-huang--76404563"
+          "title": "Il fallimento della conferenza sul clima è anche una buona notizia. Perché Gianni De Gennaro è stato così potente",
+          "date": "2026-11-24",
+          "seconds": 1732,
+          "url": "https://www.spreaker.com/episode/il-fallimento-della-conferenza-sul-clima-e-anche-una-buona-notizia-perche-gianni-de-gennaro-e-stato-cosi-potente--76540933"
         },
         {
-          "title": "Come proteggerci dai falsi allarmi bomba. Berlino contro i colossi immobiliari tedeschi",
-          "date": "2026-11-16",
-          "seconds": 1603,
-          "url": "https://www.spreaker.com/episode/come-proteggerci-dai-falsi-allarmi-bomba-berlino-contro-i-colossi-immobiliari-tedeschi--76343994"
+          "title": "Per la prima volta un paese è giudicato responsabile di genocidio. Cosa ci fanno migliaia di soldati del Salvador ad Haiti",
+          "date": "2026-11-23",
+          "seconds": 1823,
+          "url": "https://www.spreaker.com/episode/per-la-prima-volta-un-paese-e-giudicato-responsabile-di-genocidio-cosa-ci-fanno-migliaia-di-soldati-del-salvador-ad-haiti--76483102"
         },
         {
-          "title": "Oggi sul Mondo cultura: un romanzo sulle influencer conservatrici, un’artista del Cinquecento, il film La Gradiva, un documentario sui Pulp",
-          "date": "2026-11-14",
-          "seconds": 179,
-          "url": "https://www.spreaker.com/episode/oggi-sul-mondo-cultura-un-romanzo-sulle-influencer-conservatrici-un-artista-del-cinquecento-il-film-la-gradiva-un-documentario-sui-pulp--76343965"
+          "title": "Oggi sul Mondo cultura: il vincitore del Booker, rabbia femminile e mito antico, archeologia e globalizzazione, documentare la scena rave",
+          "date": "2026-11-21",
+          "seconds": 212,
+          "url": "https://www.spreaker.com/episode/oggi-sul-mondo-cultura-il-vincitore-del-booker-rabbia-femminile-e-mito-antico-archeologia-e-globalizzazione-documentare-la-scena-rave--76485164"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:33.240Z"
+    "fetchedAt": "2026-11-26T14:04:01.644Z"
   },
   "podcast:il podcast di alessandro barbero": {
     "value": {
@@ -2332,7 +2332,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:08.460Z"
+    "fetchedAt": "2026-11-26T14:03:43.320Z"
   },
   "podcast:jeantoneria": {
     "value": {
@@ -2387,12 +2387,18 @@
         "Umorismo: improvvisazione",
         "Umorismo"
       ],
-      "episodes": 152,
+      "episodes": 153,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/20/4b/b2204b39-bcb6-882b-890f-442bc8abf24c/mza_4166308076567935706.jpg/600x600bb.jpg",
       "feedUrl": "https://anchor.fm/s/fbcf52f0/podcast/rss",
       "description": "Benvenut* a Katia!\nL'unico podcast che si chiama come l'amica pettegola di tua mamma.\nLei arriva, si fa offrire il caffè, ti parla per quattro ore dei suoi problemi e se ne va senza chiederti come stai.",
       "website": "https://www.spreaker.com/podcast/katia--5338354",
       "latest": [
+        {
+          "title": "Il Mondiale clandestino di aspirapolvere a Las Vegas 🧹🎰 - Katia Ep. 153",
+          "date": "2026-11-20",
+          "seconds": 4251,
+          "url": "https://podcasters.spotify.com/pod/show/edoardo-zaggia1/episodes/Il-Mondiale-clandestino-di-aspirapolvere-a-Las-Vegas----Katia-Ep--153-e3sm6pk"
+        },
         {
           "title": "Vogliamo cambiare la targa della macchina: TE 770 NA 🚗🍐 - Katia Ep. 152",
           "date": "2026-11-13",
@@ -2416,16 +2422,10 @@
           "date": "2026-10-23",
           "seconds": 4352,
           "url": "https://podcasters.spotify.com/pod/show/edoardo-zaggia1/episodes/Pagheresti-15-000-per-un-uccello-----Katia-Ep--149-e3qrbud"
-        },
-        {
-          "title": "Si può nascere carabiniera e morire principessa? 🚓👸🏻 - Katia Ep. 148",
-          "date": "2026-10-16",
-          "seconds": 4490,
-          "url": "https://podcasters.spotify.com/pod/show/edoardo-zaggia1/episodes/Si-pu-nascere-carabiniera-e-morire-principessa-----Katia-Ep--148-e3qhr4r"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:17:11.541Z"
+    "fetchedAt": "2026-11-26T14:04:28.498Z"
   },
   "podcast:la caduta": {
     "value": {
@@ -2532,38 +2532,38 @@
       "website": "https://www.radio24.ilsole24ore.com/programmi/lazanzara",
       "latest": [
         {
-          "title": "La Zanzara del 18 novembre 2026",
-          "date": "2026-11-18",
+          "title": "La Zanzara del 25 novembre 2026",
+          "date": "2026-11-25",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261118-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261118-lazanzara"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261125-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261125-lazanzara"
         },
         {
-          "title": "La Zanzara del 17 novembre 2026",
-          "date": "2026-11-17",
+          "title": "La Zanzara del 24 novembre 2026",
+          "date": "2026-11-24",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261117-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261117-lazanzara"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261124-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261124-lazanzara"
         },
         {
-          "title": "La Zanzara del 16 novembre 2026",
-          "date": "2026-11-16",
+          "title": "La Zanzara del 23 novembre 2026",
+          "date": "2026-11-23",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261116-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261116-lazanzara"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261123-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261123-lazanzara"
         },
         {
-          "title": "La Zanzara del 13 novembre 2026",
-          "date": "2026-11-13",
+          "title": "La Zanzara del 20 novembre 2026",
+          "date": "2026-11-20",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261113-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261113-lazanzara"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261120-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261120-lazanzara"
         },
         {
-          "title": "La Zanzara del 12 novembre 2026",
-          "date": "2026-11-12",
+          "title": "La Zanzara del 19 novembre 2026",
+          "date": "2026-11-19",
           "seconds": null,
-          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261112-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261112-lazanzara"
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261119-lazanzara.mp3?awCollectionId=lazanzara&awEpisodeId=261119-lazanzara"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:48.357Z"
+    "fetchedAt": "2026-11-26T14:03:08.284Z"
   },
   "podcast:lo zoo di 105": {
     "value": {
@@ -2572,45 +2572,45 @@
         "Umorismo",
         "News"
       ],
-      "episodes": 1003,
+      "episodes": 1007,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/84/b8/9d84b8ba-474e-0bab-5229-492d7ec4c6ea/mza_16120883302885785777.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/lozoodi105",
       "description": "Il podcast ufficiale dello Zoo di 105",
       "website": null,
       "latest": [
         {
+          "title": "Mercoledì 25 Novembre 2026",
+          "date": "2026-11-25",
+          "seconds": 5467,
+          "url": null
+        },
+        {
+          "title": "Martedì 24 Novembre 2026",
+          "date": "2026-11-24",
+          "seconds": 5483,
+          "url": null
+        },
+        {
+          "title": "Lunedì 23 Novembre 2026",
+          "date": "2026-11-23",
+          "seconds": 5535,
+          "url": null
+        },
+        {
+          "title": "Giovedì 19 Novembre 2026",
+          "date": "2026-11-19",
+          "seconds": 5472,
+          "url": null
+        },
+        {
           "title": "Mercoledì 18 Novembre 2026",
           "date": "2026-11-18",
           "seconds": 5670,
           "url": null
-        },
-        {
-          "title": "Martedì 17 Novembre 2026",
-          "date": "2026-11-17",
-          "seconds": 5534,
-          "url": null
-        },
-        {
-          "title": "Lunedì 16 Novembre 2026",
-          "date": "2026-11-16",
-          "seconds": 5521,
-          "url": null
-        },
-        {
-          "title": "Venerdì 13 Novembre 2026",
-          "date": "2026-11-13",
-          "seconds": 5448,
-          "url": null
-        },
-        {
-          "title": "Giovedì 12 Novembre 2026",
-          "date": "2026-11-12",
-          "seconds": 5266,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:29.595Z"
+    "fetchedAt": "2026-11-26T14:03:49.423Z"
   },
   "podcast:ma perche": {
     "value": {
@@ -2949,7 +2949,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:53.477Z"
+    "fetchedAt": "2026-11-26T14:04:19.364Z"
   },
   "podcast:non hanno un amico": {
     "value": {
@@ -2959,45 +2959,45 @@
         "News",
         "Umorismo"
       ],
-      "episodes": 991,
+      "episodes": 996,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/6f/99/7e6f994b-80f7-a2dd-cf83-04f1a5401da7/mza_14894076794245844085.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS3841029693",
       "description": "Nessuno che conti fino a 3 prima di twittare, e nessuno che chieda consiglio a un amico prima di postare. Piccoli e grandi tic degli italiani (e dei loro rappresentanti politici).\n“Non hanno un amico” è un podcast di Chora News, prodotto da Chora Media.\nScritto da Luca Bizzarri con Ugo Ripamonti.\nLa cura editoriale è di Simone Pieranni.\nIn redazione: Ilaria Ferraresi.\nIl sound design è a cura di Filippo Mainardi, Cosma Castellucci, Daniele Marinello, Emanuele Moscatelli e Guido Bertolotti.\nIl producer è Alex Peverengo.\nMusiche su licenza di Universal Music Publishing Ricordi Srl e di Machiavelli Music.",
       "website": "https://www.spreaker.com/show/non-hanno-un-amico",
       "latest": [
         {
-          "title": "Ep.979 - Accetta tutto",
-          "date": "2026-11-19",
-          "seconds": 363,
+          "title": "Ep.984 - Di demoni e frustate",
+          "date": "2026-11-26",
+          "seconds": 447,
           "url": null
         },
         {
-          "title": "Ep.978 - I reati e i cretini",
-          "date": "2026-11-18",
-          "seconds": 406,
+          "title": "Ep.983 - Diventare scimpanzé",
+          "date": "2026-11-25",
+          "seconds": 366,
           "url": null
         },
         {
-          "title": "Ep.977: La Commissione",
-          "date": "2026-11-17",
+          "title": "Ep.982 - Il proprio Dio, il proprio io",
+          "date": "2026-11-24",
+          "seconds": 472,
+          "url": null
+        },
+        {
+          "title": "Ep.981 - I bambini sono buoni",
+          "date": "2026-11-23",
           "seconds": 445,
           "url": null
         },
         {
-          "title": "Ep. 976 - Non giudichiamo Adolf",
-          "date": "2026-11-16",
-          "seconds": 440,
-          "url": null
-        },
-        {
-          "title": "Ep.975 - Piselli maleducati",
-          "date": "2026-11-14",
-          "seconds": 497,
+          "title": "Ep.980 - Emendamentemente",
+          "date": "2026-11-20",
+          "seconds": 449,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:11.329Z"
+    "fetchedAt": "2026-11-26T14:03:28.381Z"
   },
   "podcast:non ho mai con rockandfiocc e claves": {
     "value": {
@@ -3005,12 +3005,18 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 54,
+      "episodes": 55,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9e/46/49/9e464972-1604-858e-fe47-6f3f01558c06/mza_4998306830697274049.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/AMCS8900620982",
       "description": "“Non ho mai” è la versione italiana del celebre gioco “Never have I ever” che RockandFiocc (Giulia Torelli, influencer e content creator) e Claves (Claudio Pavese, speaker di Radio m2o) hanno trasformato in un podcast, anzi, un vodcast.\nLe regole del gioco sono semplici: la conversazione ruota intorno ad un mazzo di carte. Ad ogni carta corrisponde un “Non ho mai”. Ogni carta diventa l’occasione per parlare di…tutto! Con una predilezione particolare per le verità scomode, le abitudini imbarazzanti e le unpopoular opinion! Questo è Non ho mai…il podcast senza scheletri nella cabina armadio!",
       "website": null,
       "latest": [
+        {
+          "title": "Messaggi non risposti, ringraziamenti e… Giulia e Claudio si amano? | Ep.48",
+          "date": "2026-11-24",
+          "seconds": 2577,
+          "url": null
+        },
         {
           "title": "Boni famosi, giudizi sommari e piccoli piaceri della vita | EP.47",
           "date": "2026-11-17",
@@ -3034,16 +3040,10 @@
           "date": "2026-10-27",
           "seconds": 2881,
           "url": null
-        },
-        {
-          "title": "Feste di m*rda, aura battle e “non uscirei mai con”… | EP.43",
-          "date": "2026-10-20",
-          "seconds": 3174,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:50.596Z"
+    "fetchedAt": "2026-11-26T14:04:07.395Z"
   },
   "podcast:non lo faccio x moda": {
     "value": {
@@ -3051,12 +3051,30 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 101,
+      "episodes": 104,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/32/a7/fc32a7e4-d872-d47a-1990-372c6529843b/mza_13789884261162576748.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/HYPE9698362854",
       "description": "Giulia Salemi non ama le etichette! E allora ogni puntata diventa un processo al Pop: Giulia incontra artisti, personaggi dello spettacolo, giornalisti, sportivi e creator per smontare pregiudizi e letture superficiali e guardare le loro storie da nuovi punti di vista. Tra giuramenti, sentenze, giochi e arringhe, sono tutti colpevoli di essere, a modo loro, delle icone!",
       "website": null,
       "latest": [
+        {
+          "title": "Valentina Nappi | Il Pescivendolo Ha Detto Ai Miei Che Facevo P***O | Non Lo Faccio X Moda",
+          "date": "2026-11-25",
+          "seconds": 193,
+          "url": null
+        },
+        {
+          "title": "Valentina Nappi | I Luoghi Comuni Sul P***O? | Non Lo Faccio X Moda",
+          "date": "2026-11-23",
+          "seconds": 193,
+          "url": null
+        },
+        {
+          "title": "Valentina Nappi: la regina del Forno",
+          "date": "2026-11-20",
+          "seconds": 4229,
+          "url": null
+        },
         {
           "title": "Pierpaolo Spollon | Essere Un Papà Con I Sensi Di Colpa | Non Lo Faccio X Moda",
           "date": "2026-11-18",
@@ -3068,28 +3086,10 @@
           "date": "2026-11-17",
           "seconds": 385,
           "url": null
-        },
-        {
-          "title": "Pierpaolo Spollon | \"Mammo\" è una parola orribile | Non Lo Faccio X Moda",
-          "date": "2026-11-16",
-          "seconds": 200,
-          "url": null
-        },
-        {
-          "title": "Pierpaolo Spollon: fiero di essere TROPPO",
-          "date": "2026-11-13",
-          "seconds": 3339,
-          "url": null
-        },
-        {
-          "title": "Lorella Cuccarini | La ferita mai guarita con Raffaella Carrà | Non Lo Faccio X Moda",
-          "date": "2026-11-11",
-          "seconds": 227,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:56.519Z"
+    "fetchedAt": "2026-11-26T14:03:25.460Z"
   },
   "podcast:now what": {
     "value": {
@@ -3143,12 +3143,18 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 213,
+      "episodes": 214,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/70/0f/39/700f3933-f3bb-7280-dc87-55c187fa5d42/mza_2627686113178304361.jpg/600x600bb.jpg",
       "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/343b8072-a5b0-41bf-b035-af1c0103f5f9/92cb2f9a-c2cd-42dc-990a-af1c0103f610/podcast.rss",
       "description": "Luca Casadei, nato a Parigi. Ama profondamente il lato umano delle persone.\nSpinto dal desiderio di conoscere grandi storie ha fatto nascere One More Time, il podcast in cui intervista persone note e non note, accomunate dal fatto di aver vissuto pienamente. Persone che attraverso i loro racconti di rinascita e trasformazione possono aiutarci a raggiungere grandi consapevolezze.",
       "website": "https://video.repubblica.it/rss/one-more-time.rss",
       "latest": [
+        {
+          "title": "Eduardo Montefusco, aprire 200 palestre partendo da zero",
+          "date": "2026-11-19",
+          "seconds": 7557,
+          "url": "https://video.onepodcast.it/audioseries/one-more-time/eduardo-montefusco-aprire-200-palestre-partendo-da-zero/4850/4853"
+        },
         {
           "title": "Sangiovanni, tutto bene grazie",
           "date": "2026-11-12",
@@ -3172,16 +3178,10 @@
           "date": "2026-10-22",
           "seconds": 7216,
           "url": "https://video.onepodcast.it/audioseries/one-more-time/adriano-alia-ero-uno-spacciatore-insospettabile/4710/4712"
-        },
-        {
-          "title": "Deborah De Luca, da Scampia all’infinito",
-          "date": "2026-10-15",
-          "seconds": 8430,
-          "url": "https://video.onepodcast.it/audioseries/one-more-time/deborah-de-luca-da-scampia-all-infinito/4670/4672"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:20.663Z"
+    "fetchedAt": "2026-11-26T14:03:34.411Z"
   },
   "podcast:otto e mezzo": {
     "value": {
@@ -3329,45 +3329,45 @@
         "Cultura e società",
         "Musica"
       ],
-      "episodes": 742,
+      "episodes": 748,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/80/2b/e8/802be832-1862-6a38-1b4f-3b819ab53dfa/mza_394471813939632872.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BSMT6291075949",
       "description": "BSMT è un progetto nato per raccontare storie di ispirazione, punti di vista originali e conversazioni che lasciano il segno. Diversi format, un’unica visione: creare connessioni vere, attraverso le parole e i luoghi.\nPassa Dal BSMT è il cuore di tutto: una chiacchierata tra amici, nel Basement di Gianluca Gazzoli. Un luogo creativo dove si incontrano personaggi incredibili, legati da un solo filo conduttore: qualcosa di speciale da condividere. Attualità, sport, musica, spettacolo, scienza, imprenditoria… ogni episodio è un frammento di mondo raccontato a occhi negli occhi. Due nuove puntate ogni settimana, il lunedì e il giovedì.\nBSMT On The Map è la sua naturale evoluzione: usciamo dal Basement e andiamo noi a incontrare le persone nei luoghi che le hanno ispirate, formate, definite. Un nuovo modo di ascoltare e guardare le storie, a partire da chi le ha vissute davvero.\nIl BSMT è tutto questo: un modo di raccontare che non si ferma mai. Solo storie vere. Solo se valgono la pena.",
       "website": "https://podcasters.spotify.com/pod/show/gianluca-gazzoli",
       "latest": [
         {
-          "title": "LELE ADANI | Restiamo idrati | Passa dal BSMT S06E16",
-          "date": "2026-11-19",
-          "seconds": 9150,
+          "title": "EMA STOKOLMA | Cosa c'è dietro la leggerezza? | Passa dal BSMT S06E18",
+          "date": "2026-11-26",
+          "seconds": 5461,
           "url": null
         },
         {
-          "title": "Tenente Colonnello Paglia | È GIUSTO RENDERE LA LEVA OBBLIGATORIA? | Passa dal BSMT S06E15 Highlights",
-          "date": "2026-11-18",
-          "seconds": 158,
-          "url": "https://open.spotify.com/episode/4xvEFIpsqfwS1LK9mWYBAo?si=1ozeDkuvRbmDv6vZ_iJ7Gg&utm_source=copy-link"
+          "title": "Francesco Mutti | L'AZIENDA DI FAMIGLIA NON È UN OBBLIGO | Passa dal BSMT S06E17 Highlights",
+          "date": "2026-11-25",
+          "seconds": 178,
+          "url": "https://open.spotify.com/episode/72Y1T0DJmLkzwrsDCXTAie?si=c0VV3G-vQ9OTTZr3Wk_alA&utm_source=copy-link"
         },
         {
-          "title": "Tenente Colonnello Paglia | L'OPINIONE SU VANNACCI | Passa dal BSMT S06E15 Highlights",
-          "date": "2026-11-17",
-          "seconds": 201,
-          "url": "https://open.spotify.com/episode/4xvEFIpsqfwS1LK9mWYBAo?si=1ozeDkuvRbmDv6vZ_iJ7Gg&utm_source=copy-link"
+          "title": "Francesco Mutti | IL CORAGGIO DI ANDARE CONTROCORRENTE | Passa dal BSMT S06E17 Highlights",
+          "date": "2026-11-24",
+          "seconds": 177,
+          "url": "https://open.spotify.com/episode/72Y1T0DJmLkzwrsDCXTAie?si=c0VV3G-vQ9OTTZr3Wk_alA&utm_source=copy-link"
         },
         {
-          "title": "TENENTE COLONNELLO PAGLIA | Eroe di guerra. Cosa vive chi indossa una divisa ! Passa dal BSMT S06E15",
-          "date": "2026-11-16",
-          "seconds": 6041,
+          "title": "FRANCESCO MUTTI | Il Willy Wonka del pomodoro che ha conquistato il mondo | Passa dal BSMT S06E17",
+          "date": "2026-11-23",
+          "seconds": 5472,
           "url": null
         },
         {
-          "title": "Dal Basement a Madison Square Garden a New York",
-          "date": "2026-11-14",
-          "seconds": 1332,
-          "url": null
+          "title": "Lele Adani | LA MANCANZA DELLA MAMMA | Passa dal BSMT S06E16 Highlights",
+          "date": "2026-11-21",
+          "seconds": 204,
+          "url": "https://open.spotify.com/episode/5k6jHAhwaHt1cPfSIbdDLi?si=vvg4zNvyQ7O9v5R2MxPkng&utm_source=copy-link"
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:50.509Z"
+    "fetchedAt": "2026-11-26T14:03:10.514Z"
   },
   "podcast:phastidio podcast": {
     "value": {
@@ -3515,12 +3515,18 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 103,
+      "episodes": 104,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ef/f0/c4/eff0c447-3dd7-977b-0634-96093eaf4931/mza_10513515597633223728.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SONY4300078217",
       "description": "Nel loro nuovo podcast, Fedez e Mr.Marra incontrano una serie di personaggi in lungo viaggio tra cultura pop, storie, dibattiti, politica, misteri e molto altro.",
       "website": null,
       "latest": [
+        {
+          "title": "L’uomo di Musk, ex hacker Anonymous: Andrea Stroppa | Pulp Podcast #73",
+          "date": "2026-11-23",
+          "seconds": 5984,
+          "url": null
+        },
         {
           "title": "Lascia 3 Miliardi per fare il Trapper in Francia: Paolo Rotelli | Pulp Podcast #72",
           "date": "2026-11-16",
@@ -3544,16 +3550,10 @@
           "date": "2026-10-26",
           "seconds": 5791,
           "url": null
-        },
-        {
-          "title": "Ignazio Benito La Russa a Pulp Podcast. | Pulp Podcast #68",
-          "date": "2026-10-19",
-          "seconds": 4424,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:56.325Z"
+    "fetchedAt": "2026-11-26T14:03:13.392Z"
   },
   "podcast:qui si fa l italia": {
     "value": {
@@ -3657,45 +3657,45 @@
         "News",
         "Notizie del giorno"
       ],
-      "episodes": 585,
+      "episodes": 594,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d8/62/a8/d862a8ac-2081-0d7b-b83d-434ce2bd8e79/mza_17048215969736777163.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS7205693947",
       "description": "SEIETRENTA è il podcast che tutti i giorni racconta le storie più importanti dai giornali, dai siti e dai social media. Una rassegna stampa quotidiana e contemporanea, che attinge da tutti i mezzi di informazione per spiegare il mondo che cambia.\nPerché ogni giorno nel mondo succedono tantissime cose, ma fatichiamo a seguirle tutte e veniamo travolti da un rumore assordante in cui è difficile capire cosa è davvero importante. Un rumore che a volte può anche fare paura e spingerci a spegnere tutto.\nMa c'è un'alternativa tra il rumore e il silenzio: SEIETRENTA, il podcast quotidiano di Chora News.",
       "website": null,
       "latest": [
         {
-          "title": "19/11: Il giorno dell’incontro tra Trump, Xi e Putin",
-          "date": "2026-11-19",
-          "seconds": 1370,
+          "title": "26/11: De Gennaro: io condannato a morte non ho mai tradito la Patria",
+          "date": "2026-11-26",
+          "seconds": 1110,
           "url": null
         },
         {
-          "title": "Cosa si rischia a criticare Israele con la nuova legge sull’antisemitismo | VIVAVOCE",
-          "date": "2026-11-18",
-          "seconds": 1337,
+          "title": "Come aiutare una donna che vive un'esperienza di abuso | VIVAVOCE",
+          "date": "2026-11-25",
+          "seconds": 1143,
           "url": null
         },
         {
-          "title": "PER LE ALTRE: storie di sottomissione chimica in Italia | Una nuova inchiesta di Chora",
-          "date": "2026-11-18",
-          "seconds": 151,
+          "title": "25/11: La violenza sulle donne e il machismo tossico",
+          "date": "2026-11-25",
+          "seconds": 901,
           "url": null
         },
         {
-          "title": "18/11: Record di emendamenti alla manovra, da FdI arriva il condono edilizio",
-          "date": "2026-11-18",
-          "seconds": 1280,
+          "title": "24/11: Zelensky, le donne afghane e le lettere di De Gennaro",
+          "date": "2026-11-24",
+          "seconds": 1132,
           "url": null
         },
         {
-          "title": "17/11: Un prestito dell’UE da 45 miliardi per sostenere l’Ucraina in guerra",
-          "date": "2026-11-17",
-          "seconds": 1299,
+          "title": "Sul clima il mondo ha deciso di non decidere | VIVAVOCE con Giovanni Mori",
+          "date": "2026-11-23",
+          "seconds": 1494,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:14.341Z"
+    "fetchedAt": "2026-11-26T14:03:37.524Z"
   },
   "podcast:sky crime podcast": {
     "value": {
@@ -3703,16 +3703,22 @@
       "genres": [
         "True crime"
       ],
-      "episodes": 162,
+      "episodes": 163,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/60/7d/13/607d139d-b1c3-c946-9159-0589a6122e54/mza_12048138117074080914.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/crimeinvestigation",
       "description": "Quante cose può dirci la storia di un crimine?\nCome si sono evolute le tecniche di indagine?\nIn che modo giustizia, informazione e il nostro stesso istinto reagiscono di fronte a un delitto?\nE cosa succede quando non riusciamo a venirne a capo?\nFrancesco Marchi vi guiderà attraverso queste domande su storie di crimini e delitti... fino all'ultimo indizio. Online ogni giovedì.\nUna produzione Sky Crime\nAdattamento audio Alessio Abeli e Francesco Marchi\nVoce Francesco Marchi\nProducer Giovanna Surace e Andrea Maltagliati\nProduzione vois.fm\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/\n—\n📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
       "website": null,
       "latest": [
         {
+          "title": "Luwig | Gli angeli della morte - puntata 1/2",
+          "date": "2026-11-26",
+          "seconds": 2497,
+          "url": null
+        },
+        {
           "title": "Melania Rea | Tradita due volte - puntata 3/3",
           "date": "2026-11-19",
-          "seconds": 1649,
+          "seconds": 1709,
           "url": null
         },
         {
@@ -3732,16 +3738,10 @@
           "date": "2026-10-29",
           "seconds": 1715,
           "url": null
-        },
-        {
-          "title": "Pagato per uccidere | Concorrenza spietata - puntata 1/2",
-          "date": "2026-10-22",
-          "seconds": 1465,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:17:05.477Z"
+    "fetchedAt": "2026-11-26T14:04:16.446Z"
   },
   "podcast:spiegato da will": {
     "value": {
@@ -3872,45 +3872,45 @@
       "genres": [
         "News"
       ],
-      "episodes": 1098,
+      "episodes": 1103,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/59/ba/e4/59bae4b9-0e83-2a79-cf3c-0f2e80bfbe79/mza_14738659942177856939.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/GLT7160542006",
       "description": "Spesso sono proprio le storie a spiegare nel modo migliore l’attualità e la realtà che ci circonda. E il mondo ne è pieno.\nIn \"Stories\" andiamo alla ricerca di queste storie insieme a Cecilia Sala, che ci racconterà gli Esteri attraverso i suoi protagonisti, alcuni molto famosi, altri ancora da scoprire.\n“Stories” non rimarrà in una stanza, vi porterà in trasferta con Cecilia per scoprire sul campo quello che succede nel mondo: i contesti, le crisi e le buone notizie.\n\"Stories\" è un podcast di Chora News prodotto da Chora Media\nE' scritto da Cecilia Sala\nLa cura editoriale è di Simone PieranniIn redazione: Ilaria Ferraresi\nLa sigla e la supervisione del suono e della musica sono di Luca Micheli\nLa post produzione e il montaggio sono di Daniele Marinello, Cosma Castellucci e Filippo Mainardi\nLa producer è Martina Conte\nMusiche addizionali su licenza di Universal Music Publishing Ricordi Srl e di Machiavelli Music",
       "website": null,
       "latest": [
         {
-          "title": "Xi, Trump, Putin e nessuna Yalta",
-          "date": "2026-11-18",
-          "seconds": 551,
+          "title": "Un allevatore di mucche consacra il collasso repubblicano",
+          "date": "2026-11-25",
+          "seconds": 484,
           "url": null
         },
         {
-          "title": "Gli studenti prendono il controllo della Serbia",
-          "date": "2026-11-17",
-          "seconds": 464,
+          "title": "La guerra globale tra Russia e Ucraina",
+          "date": "2026-11-24",
+          "seconds": 558,
           "url": null
         },
         {
-          "title": "L’occidente non ha abbastanza bambini per riempire le sue scuole",
-          "date": "2026-11-16",
-          "seconds": 472,
+          "title": "È più facile attraversare Hormuz a nuoto che mettere d’accordo la Cop31",
+          "date": "2026-11-23",
+          "seconds": 513,
           "url": null
         },
         {
-          "title": "Tutti rivogliono Jensen Huang",
-          "date": "2026-11-13",
-          "seconds": 624,
+          "title": "GTA VI è una festa, ma non per tutti",
+          "date": "2026-11-20",
+          "seconds": 518,
           "url": null
         },
         {
-          "title": "Il database con i nomi di mezzo milione di soldati russi uccisi in Ucraina",
-          "date": "2026-11-12",
-          "seconds": 493,
+          "title": "Cosa pensano le formiche di Anthropic",
+          "date": "2026-11-19",
+          "seconds": 564,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:02.331Z"
+    "fetchedAt": "2026-11-26T14:03:19.473Z"
   },
   "podcast:streetsmart": {
     "value": {
@@ -3967,12 +3967,24 @@
         "Musica",
         "Cultura e società"
       ],
-      "episodes": 219,
+      "episodes": 221,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/27/a8/4e/27a84eb3-8c88-2157-fc65-21339f6e2d28/mza_16913523098004666719.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS5151209180",
       "description": "Un vivace e avvincente podcast di interviste a personaggi straordinari o – come preferisce definirlo il suo conduttore Alessandro Cattelan – l’ennesimo podcast. Lunghe conversazioni dirette e informali che spaziano dai più insignificanti dettagli della quotidianità alle riflessioni sul senso della vita.",
       "website": null,
       "latest": [
+        {
+          "title": "IL RAGAZZO CHE HA VIAGGIATO FINO ALLA LUNA",
+          "date": "2026-11-26",
+          "seconds": 4100,
+          "url": null
+        },
+        {
+          "title": "CARLO CRACCO: UN UOVO D’ORO",
+          "date": "2026-11-23",
+          "seconds": 4265,
+          "url": null
+        },
         {
           "title": "ALESSIA MARCUZZI TRA UFO, SKIN CARE E TRADITORI",
           "date": "2026-11-19",
@@ -3990,22 +4002,10 @@
           "date": "2026-11-14",
           "seconds": 5858,
           "url": null
-        },
-        {
-          "title": "PANE, PODCAST E STANDUP",
-          "date": "2026-11-12",
-          "seconds": 4117,
-          "url": null
-        },
-        {
-          "title": "PAOLA EGONU: L’ALTRA METÀ DEL CAMPO",
-          "date": "2026-11-09",
-          "seconds": 4726,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:53.408Z"
+    "fetchedAt": "2026-11-26T14:03:16.397Z"
   },
   "podcast:tavolo parcheggio": {
     "value": {
@@ -4014,12 +4014,18 @@
         "Cultura e società",
         "Umorismo"
       ],
-      "episodes": 159,
+      "episodes": 160,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/03/12/fc03125e-7cb5-6698-e944-b8152874d3b7/mza_10838300630453033831.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BACIONESSRLS8915424455",
       "description": "Benvenuti a \"Tavolo Parcheggio\", il podcast scatenato dove Gianmarco Zagato e Nicole Pallado, il duo più affiatato del web, portano il caos direttamente dai parcheggi delle discoteche! Conosciuti come la versione vivente di Barbie e Ken su TikTok, questi due personaggi eclettici non hanno paura di dire la loro su tutto.Gianmarco, l'uomo dietro la telecamera da ben 7 anni, ha abbandonato la sua brillante carriera in tecniche della radiologia medica per inseguire il sogno di diventare una superstar dei social media. Chi avrebbe mai pensato che giocare con i filtri radiologici sarebbe stato solo l'inizio della sua avventura digitale? Nicole Pallado, l'influencer del \"tutto\", ci fa entrare nel suo mondo ed è pronta a svelare tutti i segreti di bellezza, anche se a volte sembra che la sua definizione di \"naturale\" differisca leggermente da quella comune.In \"Tavolo Parcheggio\", Gianmarco e Nicole abbandonano ogni filtro, sia sulle telecamere che nella loro conversazione. Si scatenano in discussioni senza senso, scherzi e racconti imbarazzanti delle loro serate pazze. Se avete il coraggio di ascoltare, siete avvertiti: la verità sarà servita senza alcun addolcimento!",
       "website": null,
       "latest": [
+        {
+          "title": "Ci Sposiamo: In Salute E In Chirurgia ep.170",
+          "date": "2026-11-22",
+          "seconds": 3486,
+          "url": null
+        },
         {
           "title": "Blackout, Fine Del Mondo E Ultime Riflessioni - Ep.169",
           "date": "2026-11-15",
@@ -4043,16 +4049,10 @@
           "date": "2026-10-25",
           "seconds": 3857,
           "url": null
-        },
-        {
-          "title": "Paure, Figli e Gogna Mediatica - Ep.165",
-          "date": "2026-10-18",
-          "seconds": 3624,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:23.590Z"
+    "fetchedAt": "2026-11-26T14:03:46.354Z"
   },
   "podcast:terruzzi racconta": {
     "value": {
@@ -4157,12 +4157,24 @@
         "Economia",
         "Carriere"
       ],
-      "episodes": 400,
+      "episodes": 402,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/a1/56/32/a1563245-6ddf-5edc-86aa-ca502724bc7f/mza_8400204383607900715.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/RICCARDOSPADA2271908995",
       "description": "The Bull - Il tuo podcast di Finanza Personale.\nTutto, ma proprio tutto, quello che devi sapere su risparmio e investimenti, senza fronzoli e tecnicismi inutili ma solo l'essenziale per imparare a gestire sul serio i tuoi soldi e costruire un passo per volta un futuro finanziario migliore per te e per la tua famiglia.\nSettimana dopo settimana, con The Bull imparerai a gestire con semplicità il tuo budet personale, ad aumentare i tuoi risparmi senza compromettere il tuo stile di vita, ad incrementare i tuoi guadagni prendendo decisioni migliori sulla tua carriera professionale.\nMa soprattutto imparerai come investire davvero i tuoi soldi, con una prospettiva di lungo termine, solida e realistica, che ti porterà a rivoluzionare il tuo intero rapporto con il denaro e ad aprirti strade che non avresti mai immaginato.\nUna produzione Corax.",
       "website": "https://www.spreaker.com/podcast/the-bull-il-tuo-podcast-di-finanza-personale--5880075",
       "latest": [
+        {
+          "title": "374. È il petrolio che muove i tuoi ETF: per questo oro e bond hanno deluso",
+          "date": "2026-11-26",
+          "seconds": 1467,
+          "url": null
+        },
+        {
+          "title": "373. Non devi rinunciare alle azioni per proteggerti",
+          "date": "2026-11-23",
+          "seconds": 1570,
+          "url": null
+        },
         {
           "title": "372. Paura di una crisi? Ecco come investirei oggi",
           "date": "2026-11-19",
@@ -4180,22 +4192,10 @@
           "date": "2026-11-12",
           "seconds": 1493,
           "url": null
-        },
-        {
-          "title": "369. Testa e costi: cosa conta davvero negli investimenti - con Vanguard e Simone Rosti",
-          "date": "2026-11-09",
-          "seconds": 3443,
-          "url": null
-        },
-        {
-          "title": "368. Inflazione al 5%: perché ti serve un aumento dell’10%",
-          "date": "2026-11-05",
-          "seconds": 1799,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:26.396Z"
+    "fetchedAt": "2026-11-26T14:03:55.338Z"
   },
   "podcast:the essential": {
     "value": {
@@ -4212,38 +4212,38 @@
       "website": "https://www.spreaker.com/show/the-essential",
       "latest": [
         {
-          "title": "Il terzetto Trump-Xi-Putin, scontro sull’antisemitismo, il fenomeno GTA 6",
-          "date": "2026-11-19",
-          "seconds": 730,
+          "title": "Migranti record alle Canarie, nuovi dazi USA all’Europa e novità sulla scuola",
+          "date": "2026-11-26",
+          "seconds": 633,
           "url": null
         },
         {
-          "title": "Soldati francesi in Ucraina, perizia sulla morte di Epstein e divieto social under 13",
-          "date": "2026-11-18",
-          "seconds": 562,
+          "title": "Armi nucleari russe nello spazio, sottomissione chimica e auto ibride dalla Cina",
+          "date": "2026-11-25",
+          "seconds": 629,
           "url": null
         },
         {
-          "title": "Revolut commissariata, centro rimpatri UE in Ruanda, il nuovo James Bond",
-          "date": "2026-11-17",
-          "seconds": 692,
+          "title": "Droni ucraini in Libia, Trump riporta Huang a Nvidia, par condicio per i podcast",
+          "date": "2026-11-24",
+          "seconds": 632,
           "url": null
         },
         {
-          "title": "Più tutele per la polizia in Francia, crisi della casa in Spagna e blackout bufala il 17 novembre",
-          "date": "2026-11-16",
-          "seconds": 749,
+          "title": "Il caso De Gennaro, Cop31 senza accordo, dilemma su IA e matematica",
+          "date": "2026-11-23",
+          "seconds": 731,
           "url": null
         },
         {
-          "title": "L’Europa cerca una voce unica sull’Ucraina, la Calabria prova a ripopolarsi, l’UE vuole eliminare i filtri delle sigarette",
-          "date": "2026-11-14",
-          "seconds": 576,
+          "title": "Accordo post Brexit, musulmani in aumento e Daraxonrasib",
+          "date": "2026-11-21",
+          "seconds": 623,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:15:59.406Z"
+    "fetchedAt": "2026-11-26T14:03:22.403Z"
   },
   "podcast:tintoria": {
     "value": {
@@ -4251,12 +4251,24 @@
       "genres": [
         "Umorismo"
       ],
-      "episodes": 476,
+      "episodes": 478,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/cc/47/61cc4761-550c-2e15-8bde-96ebe3d71b42/mza_9135649439104772256.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/AMCS7780999547",
       "description": "Due stand-up comedian e tantissimi ospiti d'eccezione in oltre 250 puntate con più di 100 milioni di visualizzazioni su YouTube. Questo è Tintoria, il talk di Daniele Tinti e Stefano Rapone prodotto da THE COMEDY CLUB.\nNato nel 2018, Tintoria è il primo podcast italiano condotto da comici. Le nuove puntate di Tintoria sono disponibili ogni martedì su Spotify, YouTube e sulle principali piattaforme di streaming audio con OnePodcast.",
       "website": "https://www.onepodcast.it",
       "latest": [
+        {
+          "title": "Tintoria #324 Gabry Ponte",
+          "date": "2026-11-24",
+          "seconds": 5771,
+          "url": null
+        },
+        {
+          "title": "Chi sono i Sunnycola Connection - TINTORIA #281 Caparezza - HIGHLIGHTS",
+          "date": "2026-11-20",
+          "seconds": 292,
+          "url": null
+        },
         {
           "title": "Tintoria #323 Matteo Lane",
           "date": "2026-11-17",
@@ -4274,22 +4286,10 @@
           "date": "2026-11-10",
           "seconds": 8089,
           "url": null
-        },
-        {
-          "title": "Gli studi di Art Attack a Londra - TINTORIA #252 Giovanni Muciaccia - HIGHLIGHTS",
-          "date": "2026-11-06",
-          "seconds": 232,
-          "url": null
-        },
-        {
-          "title": "Fingere a Verissimo - TINTORIA #297 Giulia Vecchio - HIGHLIGHTS",
-          "date": "2026-10-30",
-          "seconds": 377,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:17.384Z"
+    "fetchedAt": "2026-11-26T14:03:40.335Z"
   },
   "podcast:tutti convocati": {
     "value": {
@@ -4358,16 +4358,22 @@
         "News",
         "Notizie: approfondimenti"
       ],
-      "episodes": 24,
+      "episodes": 25,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/17/f7/2717f707-e12a-3587-8a94-ab9a4f41f9a5/mza_17309828119651991644.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/SIS8663705044",
       "description": "Il nuovo vodcast Sky “Un avvertimento prima di iniziare”, condotto da Pablo Trincia, racconta storie che mettono al centro le parole delle vittime, dei sopravvissuti, dei loro familiari e dei professionisti coinvolti nelle indagini.\nIn ogni puntata, Pablo Trincia incontra i protagonisti delle storie, esplorando le zone d’ombra, “la storia dietro la storia” di chi ha subito ingiustizie, abusi, violenze o peggio.",
       "website": null,
       "latest": [
         {
+          "title": "Uccisa due volte - Femminicidio Carol Maltesi | S2",
+          "date": "2026-11-24",
+          "seconds": 2840,
+          "url": null
+        },
+        {
           "title": "Buonvicino 1996: la più grande strage familiare della cronaca italiana | S2",
           "date": "2026-11-17",
-          "seconds": 3073,
+          "seconds": 3193,
           "url": null
         },
         {
@@ -4387,15 +4393,9 @@
           "date": "2026-10-27",
           "seconds": 3962,
           "url": null
-        },
-        {
-          "title": "Cronaca di una tortura",
-          "date": "2026-05-26",
-          "seconds": 2979,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-19T13:16:05.313Z"
+    "fetchedAt": "2026-11-26T14:03:31.411Z"
   }
 }

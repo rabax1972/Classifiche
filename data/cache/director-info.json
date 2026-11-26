@@ -11171,6 +11171,44 @@
     },
     "fetchedAt": "2026-11-22T12:40:49.423Z"
   },
+  "jiri madl": {
+    "value": {
+      "tmdbId": 544235,
+      "wiki": {
+        "lang": "en",
+        "title": "Jiří Mádl",
+        "url": "https://en.wikipedia.org/wiki/Ji%C5%99%C3%AD_M%C3%A1dl",
+        "extract": "Jiří Mádl  (born October 23, 1986) is a Czech film actor, director and screenwriter."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Ji%C5%99%C3%AD_M%C3%A1dl_%282022%29.jpg/500px-Ji%C5%99%C3%AD_M%C3%A1dl_%282022%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Ji%C5%99%C3%AD_M%C3%A1dl_(2022).jpg",
+        "author": "Jindřich Nosek (NoJin)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1251621,
+          "title": "Radio Praga - Le onde della libertà",
+          "year": "2024"
+        },
+        {
+          "id": 582593,
+          "title": "Na střeše",
+          "year": "2019"
+        },
+        {
+          "id": 268726,
+          "title": "Pojedeme k moři",
+          "year": "2014"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-26T13:59:04.020Z"
+  },
   "joe hahn": {
     "value": {
       "tmdbId": 1070444,
@@ -15297,6 +15335,89 @@
     },
     "fetchedAt": "2026-11-25T14:28:08.650Z"
   },
+  "mcg": {
+    "value": {
+      "tmdbId": 36425,
+      "wiki": {
+        "lang": "it",
+        "title": "McG",
+        "url": "https://it.wikipedia.org/wiki/McG",
+        "extract": "McG, pseudonimo di Joseph McGinty Nichol (Kalamazoo, 9 agosto 1968), è un regista, produttore cinematografico e sceneggiatore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/McG%2C_Chuck.jpg/500px-McG%2C_Chuck.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:McG,_Chuck.jpg",
+        "author": "TV Squad Julia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1355889,
+          "title": "Shout It Out Loud",
+          "year": null
+        },
+        {
+          "id": 1686307,
+          "title": "Spy Duo",
+          "year": null
+        },
+        {
+          "id": 1280115,
+          "title": "Scuola per guerrieri coraggiosi",
+          "year": "2026"
+        },
+        {
+          "id": 748167,
+          "title": "Uglies",
+          "year": "2024"
+        },
+        {
+          "id": 798021,
+          "title": "Family Switch",
+          "year": "2023"
+        },
+        {
+          "id": 623491,
+          "title": "La babysitter: Killer Queen",
+          "year": "2020"
+        },
+        {
+          "id": 531306,
+          "title": "Rim of the World",
+          "year": "2019"
+        },
+        {
+          "id": 419479,
+          "title": "La babysitter",
+          "year": "2017"
+        },
+        {
+          "id": 192102,
+          "title": "3 Days to Kill",
+          "year": "2014"
+        },
+        {
+          "id": 59962,
+          "title": "Una spia non basta",
+          "year": "2012"
+        },
+        {
+          "id": 534,
+          "title": "Terminator Salvation",
+          "year": "2009"
+        },
+        {
+          "id": 11170,
+          "title": "We Are Marshall",
+          "year": "2006"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-26T13:59:06.662Z"
+  },
   "mel gibson": {
     "value": {
       "tmdbId": 2461,
@@ -18352,6 +18473,89 @@
       ]
     },
     "fetchedAt": "2026-10-17T09:35:06.960Z"
+  },
+  "peter berg": {
+    "value": {
+      "tmdbId": 36602,
+      "wiki": {
+        "lang": "it",
+        "title": "Peter Berg",
+        "url": "https://it.wikipedia.org/wiki/Peter_Berg",
+        "extract": "Peter Winkler Berg (New York, 11 marzo 1964) è un attore, regista, sceneggiatore, produttore cinematografico e produttore televisivo statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Peter_Berg_by_Gage_Skidmore.jpg/500px-Peter_Berg_by_Gage_Skidmore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Peter_Berg_by_Gage_Skidmore.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 696337,
+          "title": "Spenser Confidential 2",
+          "year": null
+        },
+        {
+          "id": 656615,
+          "title": "Untitled Rihanna Documentary",
+          "year": null
+        },
+        {
+          "id": 797486,
+          "title": "Untitled Chris Cornell Documentary",
+          "year": null
+        },
+        {
+          "id": 1540305,
+          "title": "Call of Duty",
+          "year": "2028"
+        },
+        {
+          "id": 1458300,
+          "title": "The Mosquito Bowl",
+          "year": "2026"
+        },
+        {
+          "id": 581600,
+          "title": "Spenser Confidential",
+          "year": "2020"
+        },
+        {
+          "id": 682204,
+          "title": "Heavy: Fury v Schwarz",
+          "year": "2019"
+        },
+        {
+          "id": 347375,
+          "title": "Red Zone - 22 miglia di fuoco",
+          "year": "2018"
+        },
+        {
+          "id": 534691,
+          "title": "The People's Fighters: Teofilo Stevenson and the Legend of Cuban Boxing",
+          "year": "2018"
+        },
+        {
+          "id": 388399,
+          "title": "Boston: Caccia all'uomo",
+          "year": "2016"
+        },
+        {
+          "id": 296524,
+          "title": "Deepwater - Inferno sull'Oceano",
+          "year": "2016"
+        },
+        {
+          "id": 193756,
+          "title": "Lone Survivor",
+          "year": "2013"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-26T13:59:05.372Z"
   },
   "peter farrelly": {
     "value": {

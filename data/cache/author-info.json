@@ -1472,6 +1472,15 @@
     },
     "fetchedAt": "2026-11-18T13:09:38.560Z"
   },
+  "brianna wiest": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/brianna-wiest/673364844",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
+  },
   "bruno morchio": {
     "value": {
       "wiki": {
@@ -1964,6 +1973,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-19T13:11:27.165Z"
+  },
+  "claudia girardi": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/claudia-girardi/1872832583",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
   },
   "claudio roe": {
     "value": {
@@ -2613,6 +2631,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "elena ferrante": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Elena Ferrante",
+        "url": "https://it.wikipedia.org/wiki/Elena_Ferrante",
+        "extract": "Elena Ferrante (Napoli, 1943) è lo pseudonimo di una scrittrice italiana, inserita nel 2016 dal settimanale statunitense Time nella lista delle 100 persone più influenti al mondo.\n\nÈ apprezzata anche fuori dall'Italia, in particolare negli Stati Uniti, dove quattro suoi romanzi hanno trovato il favore del pubblico sotto la traduzione di Ann Goldstein, grazie alla casa editrice Europa Editions."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/elena-ferrante/402214778",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
   },
   "elena giappone": {
     "value": {
@@ -3697,6 +3729,26 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "giuseppe tornatore": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Giuseppe Tornatore",
+        "url": "https://it.wikipedia.org/wiki/Giuseppe_Tornatore",
+        "extract": "Giuseppe Tornatore (Bagheria, 27 maggio 1956) è un regista, sceneggiatore, produttore cinematografico e montatore italiano.\n\nDiventato noto a livello internazionale con il film del 1988 Nuovo Cinema Paradiso,  diverse sue pellicole hanno riscosso un notevole successo di pubblico in Italia e all'estero; ha diretto ad oggi undici film di finzione e dieci documentari, molti dei quali fortemente autobiografici, ed ha vinto vari premi, tra cui figurano un  Oscar, un Golden Globe, un Grand Prix Speciale della Giuria (al Festival di Cannes del 1989), due premi BAFTA, undici David di Donatello."
+      },
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Giuseppe_Tornatore.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Tornatore.jpg",
+        "author": "Giuseppe Tornatore",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/giuseppe-tornatore/24141007",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
+  },
   "glenn cooper": {
     "value": {
       "wiki": {
@@ -3928,6 +3980,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "helen scales": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Helen Scales",
+        "url": "https://en.wikipedia.org/wiki/Helen_Scales",
+        "extract": "Helen Scales is a British marine biologist, broadcaster and writer."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Cmglee_Cambridge_Science_Festival_2015_Helen_Scales.jpg/500px-Cmglee_Cambridge_Science_Festival_2015_Helen_Scales.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Cmglee_Cambridge_Science_Festival_2015_Helen_Scales.jpg",
+        "author": "Cmglee",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/helen-scales/524690299",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
   },
   "helene flood": {
     "value": {
@@ -5547,6 +5619,26 @@
     },
     "fetchedAt": "2026-10-29T04:59:24.841Z"
   },
+  "lorenzo marone": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Lorenzo Marone",
+        "url": "https://it.wikipedia.org/wiki/Lorenzo_Marone",
+        "extract": "Lorenzo Marone (Napoli, 12 dicembre 1974) è uno scrittore italiano."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Lorenzo_Marone_RIC_2279.jpg/500px-Lorenzo_Marone_RIC_2279.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lorenzo_Marone_RIC_2279.jpg",
+        "author": "Lorenzo marone",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/lorenzo-marone/597389937",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
+  },
   "lori gottlieb": {
     "value": {
       "wiki": {
@@ -6829,6 +6921,20 @@
       "died": null
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "nigel warburton": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Nigel Warburton",
+        "url": "https://it.wikipedia.org/wiki/Nigel_Warburton",
+        "extract": "Nigel Warburton (1962) è un filosofo inglese, al momento senior lecturer presso la Open University.\n\nConosciuto soprattutto per i suoi testi di divulgazione filosofica, è anche autore di saggi di estetica ed etica applicata."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/nigel-warburton/500049208",
+      "died": null
+    },
+    "fetchedAt": "2026-11-26T13:59:02.302Z"
   },
   "nikolaj semenovic leskov": {
     "value": {
