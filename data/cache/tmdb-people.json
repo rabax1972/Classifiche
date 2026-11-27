@@ -327,6 +327,10 @@
     "value": "Dave Green",
     "fetchedAt": "2026-10-12T07:24:27.410Z"
   },
+  "movie:1209723": {
+    "value": "Sooraj Barjatya",
+    "fetchedAt": "2026-11-27T13:54:14.182Z"
+  },
   "movie:121": {
     "value": "Peter Jackson",
     "fetchedAt": "2026-10-18T17:54:26.153Z"
@@ -478,6 +482,10 @@
   "movie:1266826": {
     "value": "Amine Adjina",
     "fetchedAt": "2026-10-12T07:24:33.603Z"
+  },
+  "movie:1269325": {
+    "value": "Abhishek Pathak",
+    "fetchedAt": "2026-11-27T13:54:13.074Z"
   },
   "movie:1273221": {
     "value": "Michael Tiddes",
@@ -639,6 +647,10 @@
     "value": "Francis Lawrence",
     "fetchedAt": "2026-11-20T12:54:50.630Z"
   },
+  "movie:1316427": {
+    "value": "Adil El Arbi, Bilall Fallah",
+    "fetchedAt": "2026-11-27T13:54:13.585Z"
+  },
   "movie:1317410": {
     "value": "박훈정",
     "fetchedAt": "2026-11-26T13:58:17.852Z"
@@ -794,6 +806,10 @@
   "movie:1389379": {
     "value": "Rahul Sankrityan",
     "fetchedAt": "2026-11-13T10:26:55.731Z"
+  },
+  "movie:1391021": {
+    "value": "文牧野",
+    "fetchedAt": "2026-11-27T13:54:13.175Z"
   },
   "movie:1391239": {
     "value": "Jesse Eisenberg",
@@ -1095,6 +1111,10 @@
     "value": "Angel de la Cruz",
     "fetchedAt": "2026-10-24T04:43:02.916Z"
   },
+  "movie:1480665": {
+    "value": "Jean-François Richet",
+    "fetchedAt": "2026-11-27T13:54:12.984Z"
+  },
   "movie:1480856": {
     "value": "Mohammed Naqvi",
     "fetchedAt": "2026-10-29T04:57:37.991Z"
@@ -1139,6 +1159,10 @@
     "value": "Alex Goyette",
     "fetchedAt": "2026-11-21T12:40:14.743Z"
   },
+  "movie:1496785": {
+    "value": "Trivikram Srinivas",
+    "fetchedAt": "2026-11-27T13:54:13.484Z"
+  },
   "movie:1497464": {
     "value": "Enrico Casarosa",
     "fetchedAt": "2026-11-13T10:26:55.832Z"
@@ -1155,6 +1179,10 @@
     "value": "Pete Docter",
     "fetchedAt": "2026-10-12T07:24:39.721Z"
   },
+  "movie:1506401": {
+    "value": "Mariano Barroso",
+    "fetchedAt": "2026-11-27T13:54:13.289Z"
+  },
   "movie:1506710": {
     "value": "Giovanni Veronesi",
     "fetchedAt": "2026-11-03T05:05:17.757Z"
@@ -1170,6 +1198,10 @@
   "movie:1509717": {
     "value": "Bea de Silva",
     "fetchedAt": "2026-10-22T04:44:47.507Z"
+  },
+  "movie:1510775": {
+    "value": "Aditya Datt",
+    "fetchedAt": "2026-11-27T13:54:13.891Z"
   },
   "movie:1511829": {
     "value": "Federico Zampaglione",
@@ -1443,6 +1475,10 @@
     "value": null,
     "fetchedAt": "2026-11-22T12:39:40.895Z"
   },
+  "movie:1599329": {
+    "value": "Jake Helgren",
+    "fetchedAt": "2026-11-27T13:54:13.686Z"
+  },
   "movie:1600653": {
     "value": "David Lipper",
     "fetchedAt": "2026-11-08T05:03:15.963Z"
@@ -1647,6 +1683,10 @@
     "value": "Taehwan Yum",
     "fetchedAt": "2026-10-21T04:46:15.309Z"
   },
+  "movie:1690098": {
+    "value": "Michael Medico",
+    "fetchedAt": "2026-11-27T13:54:13.775Z"
+  },
   "movie:1696814": {
     "value": "Curry Barker",
     "fetchedAt": "2026-11-01T04:59:51.055Z"
@@ -1667,6 +1707,10 @@
     "value": "Alessandro Genovesi",
     "fetchedAt": "2026-11-25T14:27:34.389Z"
   },
+  "movie:1709391": {
+    "value": "Vishal Chaturvedi",
+    "fetchedAt": "2026-11-27T13:54:13.381Z"
+  },
   "movie:1712451": {
     "value": "Ryan Ebert",
     "fetchedAt": "2026-10-23T04:45:49.326Z"
@@ -1682,6 +1726,10 @@
   "movie:1714761": {
     "value": "Arturo Rocha, Sergio Simental",
     "fetchedAt": "2026-10-23T04:45:49.527Z"
+  },
+  "movie:1715686": {
+    "value": "Shane Prigmore",
+    "fetchedAt": "2026-11-27T13:54:13.982Z"
   },
   "movie:1716604": {
     "value": "David H. Brooks",
@@ -1974,6 +2022,10 @@
   "movie:1822873": {
     "value": "Jason B. Bergh",
     "fetchedAt": "2026-11-16T12:48:59.743Z"
+  },
+  "movie:1823449": {
+    "value": null,
+    "fetchedAt": "2026-11-27T13:54:14.074Z"
   },
   "movie:1823907": {
     "value": "Olivia Issacs",
@@ -3979,6 +4031,10 @@
     "value": "김탁",
     "fetchedAt": "2026-10-24T04:43:03.814Z"
   },
+  "tv:322052": {
+    "value": "이로밀",
+    "fetchedAt": "2026-11-27T13:54:14.574Z"
+  },
   "tv:322267": {
     "value": "Gail Lerner, Jamie Lee Curtis",
     "fetchedAt": "2026-10-26T04:48:35.507Z"
@@ -4207,6 +4263,10 @@
     "value": "赵文海",
     "fetchedAt": "2026-11-06T05:08:16.426Z"
   },
+  "tv:339341": {
+    "value": null,
+    "fetchedAt": "2026-11-27T13:54:14.678Z"
+  },
   "tv:339342": {
     "value": null,
     "fetchedAt": "2026-10-22T04:44:49.214Z"
@@ -4355,6 +4415,10 @@
     "value": "Don McGill, Donald P. Bellisario",
     "fetchedAt": "2026-10-12T07:24:45.230Z"
   },
+  "tv:4616": {
+    "value": "John Schulian, Robert Tapert",
+    "fetchedAt": "2026-11-27T13:54:12.580Z"
+  },
   "tv:46260": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:49.201Z"
@@ -4418,6 +4482,10 @@
   "tv:60572": {
     "value": null,
     "fetchedAt": "2026-10-12T07:24:50.856Z"
+  },
+  "tv:60574": {
+    "value": "Steven Knight",
+    "fetchedAt": "2026-11-27T13:54:12.476Z"
   },
   "tv:60625": {
     "value": "Dan Harmon, Justin Roiland",

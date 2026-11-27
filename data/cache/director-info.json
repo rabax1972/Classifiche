@@ -381,6 +381,89 @@
     },
     "fetchedAt": "2026-11-04T05:15:14.038Z"
   },
+  "alessandro genovesi": {
+    "value": {
+      "tmdbId": 129106,
+      "wiki": {
+        "lang": "it",
+        "title": "Alessandro Genovesi",
+        "url": "https://it.wikipedia.org/wiki/Alessandro_Genovesi",
+        "extract": "Alessandro Genovesi (Milano, 10 gennaio 1973) è un regista, commediografo, sceneggiatore e attore italiano."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Alessandro_Genovesi_2025.jpg/500px-Alessandro_Genovesi_2025.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Alessandro_Genovesi_2025.jpg",
+        "author": "Algenoves",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "tmdbPhoto": null,
+      "films": [
+        {
+          "id": 1708090,
+          "title": "La notte delle fragole",
+          "year": "2026"
+        },
+        {
+          "id": 1288599,
+          "title": "Una famiglia sottosopra",
+          "year": "2025"
+        },
+        {
+          "id": 1313011,
+          "title": "10 giorni con i suoi",
+          "year": "2025"
+        },
+        {
+          "id": 1127166,
+          "title": "Fabbricante di lacrime",
+          "year": "2024"
+        },
+        {
+          "id": 890541,
+          "title": "7 donne e un mistero",
+          "year": "2021"
+        },
+        {
+          "id": 614420,
+          "title": "10 giorni con Babbo Natale",
+          "year": "2020"
+        },
+        {
+          "id": 575100,
+          "title": "10 giorni senza mamma",
+          "year": "2019"
+        },
+        {
+          "id": 486103,
+          "title": "Puoi baciare lo sposo",
+          "year": "2018"
+        },
+        {
+          "id": 328720,
+          "title": "Ma che bella sorpresa",
+          "year": "2015"
+        },
+        {
+          "id": 298722,
+          "title": "Soap Opera",
+          "year": "2014"
+        },
+        {
+          "id": 147868,
+          "title": "Il peggior Natale della mia vita",
+          "year": "2012"
+        },
+        {
+          "id": 77944,
+          "title": "La peggior settimana della mia vita",
+          "year": "2011"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-27T13:55:19.361Z"
+  },
   "alessio hong": {
     "value": {
       "tmdbId": 6529734,

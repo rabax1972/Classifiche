@@ -22524,6 +22524,67 @@
     },
     "fetchedAt": "2026-10-30T08:47:26.766Z"
   },
+  "la notte delle fragole|alessandro genovesi 2026": {
+    "value": {
+      "tmdbId": 1708090,
+      "title": "La notte delle fragole",
+      "overview": "Valentino (Valentino Picone) ha una vita perfettamente organizzata, accanto alla moglie Elena (Anna Foglietta) e a Carolina (Giovanna Rosace), la figlia adolescente di lei. Il suo equilibrio viene però stravolto dall’arrivo di Salvo (Salvo Ficarra), ex marito di Elena e padre di Carolina, un uomo impulsivo, disordinato e imprevedibile. Dopo una lite con la compagna Tania (Giulia Fiume), Salvo chiede ospitalità per una sola notte, ma finisce per stabilirsi in casa, scatenando una serie di equivoci, bugie e situazioni esilaranti. L’arrivo di Francesca (Vittoria Puccini), la sua nuova fiamma, complica ulteriormente la situazione, mettendo a dura prova i già fragili equilibri familiari. Tra convivenze impossibili, amori inattesi e seconde possibilità, i protagonisti scopriranno che la vita, soprattutto in amore, raramente segue i piani prestabiliti.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": null,
+      "genres": [
+        "Commedia"
+      ],
+      "runtime": 91,
+      "released": "2026-11-26",
+      "vote": 4,
+      "votes": 1,
+      "poster": "https://image.tmdb.org/t/p/w500/zW9saC1YPpD4VPVCyDbhsGdzjxu.jpg",
+      "directors": [
+        {
+          "id": 129106,
+          "name": "Alessandro Genovesi"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Salvatore Ficarra",
+          "character": "Salvo"
+        },
+        {
+          "name": "Valentino Picone",
+          "character": "Valentino"
+        },
+        {
+          "name": "Vittoria Puccini",
+          "character": "Francesca"
+        },
+        {
+          "name": "Anna Foglietta",
+          "character": "Elena"
+        },
+        {
+          "name": "Giulia Fiume",
+          "character": null
+        },
+        {
+          "name": "Enzo Casertano",
+          "character": null
+        },
+        {
+          "name": "Pif",
+          "character": null
+        },
+        {
+          "name": "Rocco Loschiavo",
+          "character": "Psicanalista"
+        }
+      ],
+      "trailer": "BaevOlsiAjI",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.787Z"
+  },
   "la parola ai giurati|sidney lumet 1957": {
     "value": {
       "tmdbId": 389,

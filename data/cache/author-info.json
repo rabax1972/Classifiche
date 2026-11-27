@@ -836,6 +836,15 @@
     },
     "fetchedAt": "2026-10-22T04:45:41.954Z"
   },
+  "anita sessa": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/anita-sessa/1760832298",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
+  },
   "ann lethbridge": {
     "value": {
       "wiki": null,
@@ -1936,6 +1945,26 @@
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
   },
+  "christina lauren": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Christina Lauren",
+        "url": "https://en.wikipedia.org/wiki/Christina_Lauren",
+        "extract": "Christina Lauren, the combined pen name of Christina Hobbs and Lauren Billings is an American author duo of contemporary fiction, teen fiction and romance novels."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lauren_Billings_and_Christina_Hobbs.jpg/500px-Lauren_Billings_and_Christina_Hobbs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lauren_Billings_and_Christina_Hobbs.jpg",
+        "author": "Trixieboomer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/christina-lauren/303540126",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
+  },
   "clare marchant": {
     "value": {
       "wiki": null,
@@ -2775,6 +2804,15 @@
       "died": 1848
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "emily rose": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/emily-rose/278967594",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
   },
   "emmanuel carrere": {
     "value": {
@@ -4766,6 +4804,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
   },
+  "jessica l fox": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/jessica-l-fox/520772338",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
+  },
   "jo nesb": {
     "value": {
       "wiki": {
@@ -4803,6 +4850,26 @@
       "died": null
     },
     "fetchedAt": "2026-11-21T09:30:32.459Z"
+  },
+  "joel dicker": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Joël Dicker",
+        "url": "https://it.wikipedia.org/wiki/Jo%C3%ABl_Dicker",
+        "extract": "Joël Dicker (Ginevra, 16 giugno 1985) è uno scrittore svizzero.\n\nHa scritto soprattutto romanzi gialli, tra cui La verità sul caso Harry Quebert, best-seller in Europa nel 2012 da cui è stata tratta una serie tv omonima nel 2018."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Joel_Dicker_2016.jpg/500px-Joel_Dicker_2016.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Joel_Dicker_2016.jpg",
+        "author": "Krimidoedel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/jo%C3%ABl-dicker/632406401",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
   },
   "johann wolfgang von goethe": {
     "value": {
@@ -5586,6 +5653,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-21T04:48:51.364Z"
+  },
+  "lisa jewell": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Lisa Jewell",
+        "url": "https://en.wikipedia.org/wiki/Lisa_Jewell",
+        "extract": "Lisa Jewell (born 1968) is an English author of popular fiction. Her books include Ralph's Party (1999), Thirtynothing (2000), After The Party (2010), Then She Was Gone (2018), Watching You (2018), The Family Upstairs (2019), Invisible Girl (2020), None of This Is True (2023), and Don’t Let Him In (2025)."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Lisa_Jewell_Official_Author_Photo.jpg/500px-Lisa_Jewell_Official_Author_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lisa_Jewell_Official_Author_Photo.jpg",
+        "author": "Melodygordon",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/lisa-jewell/262725607",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
   },
   "lisa jones": {
     "value": {
@@ -7341,6 +7428,20 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.747Z"
   },
+  "pierluigi battista": {
+    "value": {
+      "wiki": {
+        "lang": "it",
+        "title": "Pierluigi Battista",
+        "url": "https://it.wikipedia.org/wiki/Pierluigi_Battista",
+        "extract": "Pierluigi Battista (Roma, 3 luglio 1955) è un giornalista, scrittore, opinionista e conduttore televisivo italiano."
+      },
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/pierluigi-battista/446081833",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
+  },
   "piero melograni": {
     "value": {
       "wiki": {
@@ -8063,6 +8164,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "saito kohei": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/saito-kohei/1771584150",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
+  },
   "salman rushdie": {
     "value": {
       "wiki": {
@@ -8186,6 +8296,15 @@
       "died": null
     },
     "fetchedAt": "2026-11-06T05:08:51.800Z"
+  },
+  "scarlett st clair": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/scarlett-st-clair/1226970142",
+      "died": null
+    },
+    "fetchedAt": "2026-11-27T13:55:18.136Z"
   },
   "sean black": {
     "value": {

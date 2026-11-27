@@ -3980,6 +3980,23 @@
     },
     "fetchedAt": "2026-11-12T12:51:14.475Z"
   },
+  "john schulian": {
+    "value": {
+      "tmdbId": 1219783,
+      "wiki": null,
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": "https://image.tmdb.org/t/p/w300/gYRF2bFwOIkvMSCvc7A5EveHMsA.jpg",
+      "series": [
+        {
+          "id": 4616,
+          "title": "Xena - Principessa guerriera",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-27T13:59:18.181Z"
+  },
   "john wells": {
     "value": {
       "tmdbId": 47333,
@@ -6304,6 +6321,97 @@
     },
     "fetchedAt": "2026-11-18T13:13:48.011Z"
   },
+  "rob mac": {
+    "value": {
+      "tmdbId": 78597,
+      "wiki": {
+        "lang": "en",
+        "title": "Rob McElhenney",
+        "url": "https://en.wikipedia.org/wiki/Rob_McElhenney",
+        "extract": "Robert Dale McElhenney III ( MAK-əl-hen-ee; born April 14, 1977), also known professionally as Rob Mac, is an American actor, comedian, screenwriter, producer, director, and businessman. He is best known for his role as Mac on the FX/FXX comedy series It's Always Sunny in Philadelphia (2005–present), a show he created and co-developed with Charlie Day and Glenn Howerton and on which he continues to serve as an executive producer and writer. He is also known for playing Ian Grimm on the Apple TV+ comedy series Mythic Quest (2020–2025), which he co-created with Day and Megan Ganz as executive producers."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Rob_McElhenney_by_Gage_Skidmore_3.jpg/500px-Rob_McElhenney_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Rob_McElhenney_by_Gage_Skidmore_3.jpg",
+        "author": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 306568,
+          "title": "Far Cry",
+          "year": null
+        },
+        {
+          "id": 273754,
+          "title": "Necaxa",
+          "year": "2025"
+        },
+        {
+          "id": 241772,
+          "title": "Me/We",
+          "year": "2024"
+        },
+        {
+          "id": 94951,
+          "title": "Mythic Quest",
+          "year": "2020"
+        },
+        {
+          "id": 322399,
+          "title": "В Москве всегда солнечно",
+          "year": "2014"
+        },
+        {
+          "id": 2710,
+          "title": "C'è sempre il sole a Philadelphia",
+          "year": "2005"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-27T13:59:16.597Z"
+  },
+  "robert tapert": {
+    "value": {
+      "tmdbId": 11359,
+      "wiki": {
+        "lang": "it",
+        "title": "Robert Tapert",
+        "url": "https://it.wikipedia.org/wiki/Robert_Tapert",
+        "extract": "Robert Gerard Tapert (conosciuto anche come Rob Tapert, Robert G. Tapert o Rip Tapert) (Royal Oak, 14 maggio 1955) è un produttore cinematografico, produttore televisivo e sceneggiatore statunitense."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lawless_13_%2828461569318%29.jpg/500px-Lawless_13_%2828461569318%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Lawless_13_(28461569318).jpg",
+        "author": "GabboT",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 5398,
+          "title": "Cleopatra 2525",
+          "year": "2000"
+        },
+        {
+          "id": 5999,
+          "title": "Young Hercules",
+          "year": "1998"
+        },
+        {
+          "id": 4616,
+          "title": "Xena - Principessa guerriera",
+          "year": "1995"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-27T13:59:19.251Z"
+  },
   "robert thorogood": {
     "value": {
       "tmdbId": 1364632,
@@ -6869,6 +6977,89 @@
       ]
     },
     "fetchedAt": "2026-11-16T12:54:14.921Z"
+  },
+  "steven knight": {
+    "value": {
+      "tmdbId": 23227,
+      "wiki": {
+        "lang": "it",
+        "title": "Steven Knight",
+        "url": "https://it.wikipedia.org/wiki/Steven_Knight",
+        "extract": "Steven Knight (Marlborough, 1º gennaio 1959) è uno sceneggiatore e regista britannico, noto per aver sceneggiato i film Piccoli affari sporchi e La promessa dell'assassino, per aver diretto e scritto Locke, e per aver creato le serie televisive Peaky Blinders,  Taboo  e lo show Chi vuol essere milionario?."
+      },
+      "bio": null,
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Steven_Knight-64548.jpg/500px-Steven_Knight-64548.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Steven_Knight-64548.jpg",
+        "author": "Harald Krichel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 3058,
+          "title": "The People Versus",
+          "year": null
+        },
+        {
+          "id": 3352,
+          "title": "Winning Lines",
+          "year": null
+        },
+        {
+          "id": 45090,
+          "title": "Ningalkkum Aakaam Kodeeshwaran",
+          "year": null
+        },
+        {
+          "id": 302069,
+          "title": "Untitled Peaky Blinders Sequel",
+          "year": null
+        },
+        {
+          "id": 250988,
+          "title": "House of Guinness",
+          "year": "2025"
+        },
+        {
+          "id": 208851,
+          "title": "A Thousand Blows",
+          "year": "2025"
+        },
+        {
+          "id": 207334,
+          "title": "The Veil",
+          "year": "2024"
+        },
+        {
+          "id": 215253,
+          "title": "This Town",
+          "year": "2024"
+        },
+        {
+          "id": 155421,
+          "title": "Tutta la luce che non vediamo",
+          "year": "2023"
+        },
+        {
+          "id": 157972,
+          "title": "Grandi speranze",
+          "year": "2023"
+        },
+        {
+          "id": 93870,
+          "title": "SAS Rogue Heroes",
+          "year": "2022"
+        },
+        {
+          "id": 80752,
+          "title": "See",
+          "year": "2019"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-27T13:59:17.442Z"
   },
   "steven levitan": {
     "value": {
