@@ -2559,6 +2559,53 @@
     },
     "fetchedAt": "2026-10-17T12:49:28.144Z"
   },
+  "douglas schwartz": {
+    "value": {
+      "tmdbId": 56131,
+      "wiki": {
+        "lang": "en",
+        "title": "Douglas Schwartz",
+        "url": "https://en.wikipedia.org/wiki/Douglas_Schwartz",
+        "extract": "Douglas Schwartz is an American television screenwriter and series creator who, along with Michael Berk, worked as a writer on the television series Manimal, and multiple made for television movies. He is most famous for creating co-producing, and writing The Wizard, as well as creating and writing the earlier scripts of Baywatch, a series which exceeded a global audience of 1 billion people. He also developed Sheena, based on the comic book of the same name.\n\nDouglas Schwartz, along with his collaborator Michael Berk, is a nephew of Sherwood Schwartz, who created the TV show Gilligan's Island."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 248172,
+          "title": "Baywatch",
+          "year": "2027"
+        },
+        {
+          "id": 11693,
+          "title": "Sheena",
+          "year": "2000"
+        },
+        {
+          "id": 1937,
+          "title": "Baywatch Nights",
+          "year": "1995"
+        },
+        {
+          "id": 1605,
+          "title": "Thunder in Paradise",
+          "year": "1994"
+        },
+        {
+          "id": 4386,
+          "title": "Baywatch",
+          "year": "1989"
+        },
+        {
+          "id": 10977,
+          "title": "Il mago",
+          "year": "1986"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-28T13:07:22.551Z"
+  },
   "elizabeth meriwether": {
     "value": {
       "tmdbId": 513378,
@@ -5270,6 +5317,48 @@
       ]
     },
     "fetchedAt": "2026-10-17T12:49:48.598Z"
+  },
+  "michael berk": {
+    "value": {
+      "tmdbId": 56132,
+      "wiki": {
+        "lang": "en",
+        "title": "Michael Berk",
+        "url": "https://en.wikipedia.org/wiki/Michael_Berk",
+        "extract": "Michael Berk is an American television screenwriter. He worked with Douglas Schwartz as a writer on the television series Manimal, and many made-for-television movies. He served as a co-creator, writer and executive producer on the series Baywatch, and is also known as the creator, co-producer, and writer of the television series The Wizard."
+      },
+      "bio": null,
+      "photo": null,
+      "tmdbPhoto": null,
+      "series": [
+        {
+          "id": 248172,
+          "title": "Baywatch",
+          "year": "2027"
+        },
+        {
+          "id": 1937,
+          "title": "Baywatch Nights",
+          "year": "1995"
+        },
+        {
+          "id": 1605,
+          "title": "Thunder in Paradise",
+          "year": "1994"
+        },
+        {
+          "id": 4386,
+          "title": "Baywatch",
+          "year": "1989"
+        },
+        {
+          "id": 10977,
+          "title": "Il mago",
+          "year": "1986"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-28T13:07:21.591Z"
   },
   "michael brandt": {
     "value": {

@@ -5172,6 +5172,15 @@
     },
     "fetchedAt": "2026-10-17T09:03:31.749Z"
   },
+  "k m scott": {
+    "value": {
+      "wiki": null,
+      "photo": null,
+      "appleUrl": "https://books.apple.com/it/artist/k-m-scott/682901297",
+      "died": null
+    },
+    "fetchedAt": "2026-11-28T13:03:24.460Z"
+  },
   "kahlil gibran": {
     "value": {
       "wiki": {
@@ -6195,6 +6204,26 @@
       "died": 1987
     },
     "fetchedAt": "2026-10-17T09:03:31.748Z"
+  },
+  "marie benedict": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Heather Terrell",
+        "url": "https://en.wikipedia.org/wiki/Heather_Terrell",
+        "extract": "Heather Benedict Terrell (born November 24, 1968) is an American novelist and lawyer who writes some of her novels under the pen name Marie Benedict."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Heather_Terrell_2013.jpg/500px-Heather_Terrell_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Heather_Terrell_2013.jpg",
+        "author": "Larry D. Moore",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/marie-benedict/1155270895",
+      "died": null
+    },
+    "fetchedAt": "2026-11-28T13:03:24.460Z"
   },
   "marina astrologo": {
     "value": {
@@ -7947,6 +7976,26 @@
       "died": null
     },
     "fetchedAt": "2026-10-26T04:49:46.161Z"
+  },
+  "roberto burioni": {
+    "value": {
+      "wiki": {
+        "lang": "en",
+        "title": "Roberto Burioni",
+        "url": "https://en.wikipedia.org/wiki/Roberto_Burioni",
+        "extract": "Roberto Burioni (born 10 December 1962) is an Italian virologist, physician, and academic. A Professor of Microbiology and Virology at the Vita-Salute San Raffaele University, he runs there a lab developing human monoclonal antibodies against human infectious agents, the study of pathogen-host interplay, and the use of molecular tools in the early diagnosis of infectious diseases. A prominent virologist, Burioni has risen to fame in Italy for his strong stance against the antivaccination movement and has been described as the \"most famous virologist in Italy\"."
+      },
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Roberto_Burioni_2017.jpg/500px-Roberto_Burioni_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Roberto_Burioni_2017.jpg",
+        "author": "International Journalism Festival",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "appleUrl": "https://books.apple.com/it/artist/roberto-burioni/1156764600",
+      "died": null
+    },
+    "fetchedAt": "2026-11-28T13:03:24.460Z"
   },
   "roberto costantini": {
     "value": {

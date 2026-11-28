@@ -29430,6 +29430,77 @@
     },
     "fetchedAt": "2026-10-18T17:56:49.950Z"
   },
+  "quasimodo l anima di parigi|jean francois richet 2026": {
+    "value": {
+      "tmdbId": 1480665,
+      "title": "Quasimodo, l'anima di Parigi",
+      "overview": "Parigi, 1830. Mentre il colera minaccia di devastare la città, un gobbo braccato per esperimenti medici è intrappolato tra disordini politici e amore impossibile.",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "Quasimodo, l'âme de Paris",
+      "genres": [
+        "Dramma"
+      ],
+      "runtime": 106,
+      "released": "2026-11-27",
+      "vote": 7.4,
+      "votes": 21,
+      "poster": "https://image.tmdb.org/t/p/w500/ba1Gyh9ZnkSCoLMAFfpMonnsYbN.jpg",
+      "directors": [
+        {
+          "id": 58324,
+          "name": "Jean-François Richet"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Vincent Cassel",
+          "character": "Quasimodo"
+        },
+        {
+          "name": "Karim Leklou",
+          "character": "Coco-Lacour"
+        },
+        {
+          "name": "Daphné Patakia",
+          "character": "Agnès / Esméralda"
+        },
+        {
+          "name": "Benjamin Voisin",
+          "character": "Doctor Gaspard de Tournier de Vaillac"
+        },
+        {
+          "name": "Noémie Lvovsky",
+          "character": "Camille Rewinds"
+        },
+        {
+          "name": "Sébastien Pouderoux",
+          "character": "D'Artagnan"
+        },
+        {
+          "name": "Eli Nachmani",
+          "character": "Gavroche"
+        },
+        {
+          "name": "Alexis Rosenstiehl",
+          "character": "Armel"
+        }
+      ],
+      "trailer": "Fbo4fQYuQxQ",
+      "watch": {
+        "link": "https://www.themoviedb.org/movie/1480665-quasimodo-l-ame-de-paris/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Netflix",
+            "logo": "https://image.tmdb.org/t/p/w92/rK1KljqmbvO9HQa1PBFLILWah72.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-28T13:03:24.998Z"
+  },
   "quei bravi ragazzi|martin scorsese 1990": {
     "value": {
       "tmdbId": 769,

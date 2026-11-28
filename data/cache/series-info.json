@@ -1323,6 +1323,160 @@
     },
     "fetchedAt": "2026-11-20T13:00:26.064Z"
   },
+  "baywatch|michael berk": {
+    "value": {
+      "tmdbId": 4386,
+      "title": "Baywatch",
+      "overview": "Il tenente Mitch Buchannon è il caposquadra dei bagnini delle spiagge di Emerald Bay, in Florida, assieme alle due fidate colleghe Stephanie Holden e C.J. Parker. Essendo rimasti liberi tre posti vengono indette delle selezioni, che vengono vinte dal borioso ex campione olimpico di nuoto Matt Brody, dall'intelligente Summer Quinn e dall'imbranato esperto di informatica Ronnie (al suo terzo tentativo e innamorato di C.J.). Nel frattempo giunge ad Emerald Bay la nuova proprietaria dell'esclusivo Huntley Club, Victoria Leeds, su cui pendono delle voci riguardo il fatto che sia a capo del traffico di una pericolosissima droga chiamata \"Flakka\".",
+      "overviewLang": "it",
+      "tagline": "Perché sono sempre pronto, non ti perderò mai di vista.",
+      "originalTitle": null,
+      "genres": [
+        "Action & Adventure",
+        "Dramma",
+        "Crime"
+      ],
+      "episodeRuntime": 42,
+      "firstAired": "1989-04-23",
+      "lastAired": "2001-05-14",
+      "status": "Ended",
+      "seasons": 11,
+      "episodes": 242,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Stagione 1",
+          "date": "1989-04-23",
+          "episodes": 22
+        },
+        {
+          "n": 2,
+          "name": "Stagione 2",
+          "date": "1991-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 3,
+          "name": "Stagione 3",
+          "date": "1992-09-14",
+          "episodes": 22
+        },
+        {
+          "n": 4,
+          "name": "Stagione 4",
+          "date": "1993-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 5,
+          "name": "Stagione 5",
+          "date": "1994-09-26",
+          "episodes": 22
+        },
+        {
+          "n": 6,
+          "name": "Stagione 6",
+          "date": "1995-09-25",
+          "episodes": 22
+        },
+        {
+          "n": 7,
+          "name": "Stagione 7",
+          "date": "1996-09-23",
+          "episodes": 22
+        },
+        {
+          "n": 8,
+          "name": "Stagione 8",
+          "date": "1997-09-22",
+          "episodes": 22
+        },
+        {
+          "n": 9,
+          "name": "Stagione 9",
+          "date": "1998-09-21",
+          "episodes": 22
+        },
+        {
+          "n": 10,
+          "name": "Stagione 10",
+          "date": "1999-09-20",
+          "episodes": 22
+        },
+        {
+          "n": 11,
+          "name": "Stagione 11",
+          "date": "2000-10-02",
+          "episodes": 22
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2003-02-28",
+          "episodes": 2
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "NBC",
+        "Syndication"
+      ],
+      "vote": 6,
+      "votes": 585,
+      "poster": "https://image.tmdb.org/t/p/w500/34t8WxHn1OcIVpcTxmjYmjX9tE4.jpg",
+      "creators": [
+        {
+          "id": 56132,
+          "name": "Michael Berk"
+        },
+        {
+          "id": 56131,
+          "name": "Douglas Schwartz"
+        },
+        {
+          "id": 1216763,
+          "name": "Gregory J. Bonann"
+        }
+      ],
+      "cast": [
+        {
+          "name": "David Hasselhoff",
+          "character": "Mitch Buchannon"
+        },
+        {
+          "name": "Jason Momoa",
+          "character": "Jason Ioane"
+        },
+        {
+          "name": "Gena Lee Nolin",
+          "character": "Neely Capshaw"
+        },
+        {
+          "name": "Brande Roderick",
+          "character": "Leigh Dyer"
+        },
+        {
+          "name": "Mitzi Kapture",
+          "character": "Alex Ryker"
+        },
+        {
+          "name": "David Chokachi",
+          "character": "Cody Madison"
+        },
+        {
+          "name": "Michael Bergin",
+          "character": "J.D. Darius"
+        },
+        {
+          "name": "Nicole Eggert",
+          "character": "Summer Quinn"
+        }
+      ],
+      "trailer": "V3YE977cSuU",
+      "watch": null
+    },
+    "fetchedAt": "2026-11-28T13:07:21.112Z"
+  },
   "below|jesse mckeown 2026": {
     "value": {
       "tmdbId": 285322,
@@ -12194,6 +12348,226 @@
       }
     },
     "fetchedAt": "2026-11-25T14:32:04.574Z"
+  },
+  "naruto shippuden|2007": {
+    "value": {
+      "tmdbId": 31910,
+      "title": "Naruto Shippuden",
+      "overview": "La serie si svolge due anni e mezzo dopo che Naruto parte per allenarsi con Jiraiya. Al suo ritorno, Naruto scopre che tutti lo hanno superato di grado, e lui è rimasto indietro. Tuttavia, l'obiettivo di Naruto è sempre quello di salvare Sasuke, per questo dovrà affrontare nemici sempre più pericolosi. Quando il piano dell'Akatsuki si dispiega, e Naruto lentamente si perde nella Volpe a nove code, diventa chiaro che più pericoli che mai lo attendono!",
+      "overviewLang": "it",
+      "tagline": null,
+      "originalTitle": "ナルト 疾風伝",
+      "genres": [
+        "Animazione",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "episodeRuntime": 25,
+      "firstAired": "2007-02-15",
+      "lastAired": "2017-03-23",
+      "status": "Ended",
+      "seasons": 20,
+      "episodes": 500,
+      "seasonList": [
+        {
+          "n": 1,
+          "name": "Saga del salvataggio del Kazekage",
+          "date": "2007-02-15",
+          "episodes": 32
+        },
+        {
+          "n": 2,
+          "name": "Saga della riunione tanto attesa",
+          "date": "2007-11-06",
+          "episodes": 21
+        },
+        {
+          "n": 3,
+          "name": "Saga dei dodici guardiani ninja",
+          "date": "2008-04-02",
+          "episodes": 18
+        },
+        {
+          "n": 4,
+          "name": "Saga di Hidan e Kakuzu: i distruttori immortali",
+          "date": "2008-08-20",
+          "episodes": 17
+        },
+        {
+          "n": 5,
+          "name": "Saga dell'arrivo del Tricoda",
+          "date": "2008-12-17",
+          "episodes": 24
+        },
+        {
+          "n": 6,
+          "name": "Saga della profezia del maestro e della vendetta",
+          "date": "2009-06-10",
+          "episodes": 31
+        },
+        {
+          "n": 7,
+          "name": "Saga dell’Esacoda in azione",
+          "date": "2010-01-20",
+          "episodes": 8
+        },
+        {
+          "n": 8,
+          "name": "Saga dei due salvatori",
+          "date": "2010-03-24",
+          "episodes": 24
+        },
+        {
+          "n": 9,
+          "name": "Saga del passato: Il percorso della Foglia",
+          "date": "2010-09-01",
+          "episodes": 21
+        },
+        {
+          "n": 10,
+          "name": "Saga della riunione dei cinque Kage",
+          "date": "2011-02-10",
+          "episodes": 25
+        },
+        {
+          "n": 11,
+          "name": "Vita paradisiaca in barca",
+          "date": "2011-07-28",
+          "episodes": 21
+        },
+        {
+          "n": 12,
+          "name": "Saga del controllo dell’Enneacoda e dell'incontro del destino",
+          "date": "2012-01-04",
+          "episodes": 33
+        },
+        {
+          "n": 13,
+          "name": "Saga dei sette spadaccini ninja leggendari",
+          "date": "2012-08-22",
+          "episodes": 20
+        },
+        {
+          "n": 14,
+          "name": "Saga speciale: Potere",
+          "date": "2013-01-16",
+          "episodes": 25
+        },
+        {
+          "n": 15,
+          "name": "Grande guerra ninja: Sasuke ed Itachi",
+          "date": "2013-07-18",
+          "episodes": 28
+        },
+        {
+          "n": 16,
+          "name": "Saga dell'ANBU Kakashi: il ninja che vive nell'oscurità",
+          "date": "2014-02-05",
+          "episodes": 13
+        },
+        {
+          "n": 17,
+          "name": "Grande guerra ninja: di nuovo la Squadra 7",
+          "date": "2014-05-14",
+          "episodes": 11
+        },
+        {
+          "n": 18,
+          "name": "Grande guerra ninja: Obito Uchiha",
+          "date": "2014-08-20",
+          "episodes": 21
+        },
+        {
+          "n": 19,
+          "name": "Il ritorno di Naruto: il miracolo dei compagni",
+          "date": null,
+          "episodes": 20
+        },
+        {
+          "n": 20,
+          "name": "Saga dell'attivazione dello Tsukuyomi Infinito",
+          "date": "2015-05-27",
+          "episodes": 87
+        },
+        {
+          "n": 0,
+          "name": "Speciali",
+          "date": "2008-02-06",
+          "episodes": 3
+        }
+      ],
+      "nextEpisode": null,
+      "networks": [
+        "TV Tokyo"
+      ],
+      "vote": 8.5,
+      "votes": 8871,
+      "poster": "https://image.tmdb.org/t/p/w500/qOxedwaJzdms2alAmIEHEnDeDzg.jpg",
+      "creators": [],
+      "cast": [
+        {
+          "name": "Junko Takeuchi",
+          "character": "Naruto Uzumaki (voice)"
+        },
+        {
+          "name": "杉山紀彰",
+          "character": "Sasuke Uchiha (voice)"
+        },
+        {
+          "name": "中村千絵",
+          "character": "Sakura Haruno (voice)"
+        },
+        {
+          "name": "Kazuhiko Inoue",
+          "character": "Kakashi Hatake (voice)"
+        },
+        {
+          "name": "Showtaro Morikubo",
+          "character": "Shikamaru Nara (voice)"
+        },
+        {
+          "name": "Satoshi Hino",
+          "character": "Sai (voice)"
+        },
+        {
+          "name": "Akira Ishida",
+          "character": "Gaara (voice)"
+        },
+        {
+          "name": "石川英郎",
+          "character": "Itachi Uchiha (voice)"
+        }
+      ],
+      "trailer": "22R0j8UKRzY",
+      "watch": {
+        "link": "https://www.themoviedb.org/tv/31910-naruto-ji-feng-yun/watch?locale=IT",
+        "flatrate": [
+          {
+            "name": "Amazon Prime Video",
+            "logo": "https://image.tmdb.org/t/p/w92/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+          },
+          {
+            "name": "Timvision",
+            "logo": "https://image.tmdb.org/t/p/w92/iGb7XGcCiCZyBgBqIdSEBiOxNc4.png"
+          },
+          {
+            "name": "Crunchyroll",
+            "logo": "https://image.tmdb.org/t/p/w92/uFL3c4Cq8M6WoLymlC5Y8bmGytV.png"
+          },
+          {
+            "name": "Crunchyroll Amazon Channel",
+            "logo": "https://image.tmdb.org/t/p/w92/qHLLmKo7udRgiSnIASVTwP2IxfJ.png"
+          },
+          {
+            "name": "Amazon Prime Video with Ads",
+            "logo": "https://image.tmdb.org/t/p/w92/tpwTT1FpWqLLhxUfAuDavIXDDfI.png"
+          }
+        ],
+        "rent": [],
+        "buy": []
+      }
+    },
+    "fetchedAt": "2026-11-28T13:07:21.194Z"
   },
   "naruto|2002": {
     "value": {

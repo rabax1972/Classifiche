@@ -1747,6 +1747,10 @@
     "value": "Leonardo Pieraccioni",
     "fetchedAt": "2026-11-11T05:18:56.271Z"
   },
+  "movie:1725336": {
+    "value": "Toni Trupia",
+    "fetchedAt": "2026-11-28T13:02:29.509Z"
+  },
   "movie:1725719": {
     "value": "Giorgio Pasotti",
     "fetchedAt": "2026-10-12T07:24:34.649Z"
@@ -1994,6 +1998,10 @@
   "movie:1810711": {
     "value": "Ritesh Menon",
     "fetchedAt": "2026-11-06T05:08:15.333Z"
+  },
+  "movie:1811599": {
+    "value": "Lucy Wilcox",
+    "fetchedAt": "2026-11-28T13:02:30.712Z"
   },
   "movie:1811964": {
     "value": "Raghavendra Katari",
@@ -3283,6 +3291,10 @@
     "value": "Rebecca Perry Cutter",
     "fetchedAt": "2026-11-25T14:27:36.948Z"
   },
+  "tv:247085": {
+    "value": "이진주",
+    "fetchedAt": "2026-11-28T13:02:31.217Z"
+  },
   "tv:247634": {
     "value": null,
     "fetchedAt": "2026-11-13T10:26:56.850Z"
@@ -3490,6 +3502,10 @@
   "tv:280042": {
     "value": null,
     "fetchedAt": "2026-10-12T07:25:03.286Z"
+  },
+  "tv:280880": {
+    "value": null,
+    "fetchedAt": "2026-11-28T13:02:31.113Z"
   },
   "tv:282326": {
     "value": null,
@@ -3987,6 +4003,10 @@
     "value": "Ray Tavares",
     "fetchedAt": "2026-11-18T13:08:43.253Z"
   },
+  "tv:31910": {
+    "value": null,
+    "fetchedAt": "2026-11-28T13:02:30.317Z"
+  },
   "tv:319436": {
     "value": null,
     "fetchedAt": "2026-11-18T13:08:43.449Z"
@@ -4166,6 +4186,10 @@
   "tv:334887": {
     "value": null,
     "fetchedAt": "2026-10-28T05:02:25.835Z"
+  },
+  "tv:335251": {
+    "value": null,
+    "fetchedAt": "2026-11-28T13:02:31.317Z"
   },
   "tv:335319": {
     "value": null,
@@ -4374,6 +4398,10 @@
   "tv:42009": {
     "value": "Charlie Brooker",
     "fetchedAt": "2026-11-20T12:54:51.126Z"
+  },
+  "tv:4386": {
+    "value": "Michael Berk, Douglas Schwartz",
+    "fetchedAt": "2026-11-28T13:02:30.211Z"
   },
   "tv:44006": {
     "value": "Derek Haas, Michael Brandt",

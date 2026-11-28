@@ -138,53 +138,6 @@
     },
     "fetchedAt": "2026-11-22T12:45:16.834Z"
   },
-  "podcast:6 minute english": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/6-minute-english/id262026947",
-      "genres": [
-        "Impara le lingue",
-        "Istruzione"
-      ],
-      "episodes": 351,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ba/98/35/ba9835eb-1ef3-60e4-bf05-3d141b8d1c7a/mza_3844641997714022659.jpg/600x600bb.jpg",
-      "feedUrl": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
-      "description": "Learn and practise useful English with clips from programmes around the BBC.\nEach week, we talk about an interesting topic and learn helpful words and phrases used in natural spoken English - all in 6 minutes!\nPractise your listening and hear natural spoken English.\nFind more at\nhttps://www.bbc.co.uk/learningenglish\nFollow us at\nhttps://www.bbc.co.uk/learningenglish/followus",
-      "website": "http://www.bbc.co.uk/programmes/p02pc9tn",
-      "latest": [
-        {
-          "title": "Are microplastics harming us?",
-          "date": "2026-11-19",
-          "seconds": 403,
-          "url": "http://www.bbc.co.uk/programmes/p0pnt62q"
-        },
-        {
-          "title": "Learning from different generations",
-          "date": "2026-11-12",
-          "seconds": 411,
-          "url": "http://www.bbc.co.uk/programmes/p0pmkr5c"
-        },
-        {
-          "title": "Could vaccines cure cancer?",
-          "date": "2026-11-05",
-          "seconds": 399,
-          "url": "http://www.bbc.co.uk/programmes/p0pldm3h"
-        },
-        {
-          "title": "Is aircon the answer to a heating world?",
-          "date": "2026-10-29",
-          "seconds": 379,
-          "url": "http://www.bbc.co.uk/programmes/p0pk7d0p"
-        },
-        {
-          "title": "What should you eat for a better night’s sleep?",
-          "date": "2026-10-22",
-          "seconds": 423,
-          "url": "http://www.bbc.co.uk/programmes/p0phz9z7"
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-21T09:35:02.867Z"
-  },
   "podcast:actually": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/actually/id1516817035",
@@ -287,12 +240,24 @@
         "Notizie: approfondimenti",
         "News"
       ],
-      "episodes": 114,
+      "episodes": 116,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/0f/6a/b70f6a94-73ab-c4ae-85a6-df67b72c7374/mza_9804753119780339118.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/BCS2941287819",
       "description": "Gli Stati Uniti sono un Paese in continua trasformazione, attraversato da profonde divisioni politiche, sociali e culturali. E quello che succede lì ha conseguenze che vanno ben oltre i suoi confini.\nIn Altre/Storie Americane, Marco Bardazzi, Liliana Faccioli Pintozzi e Pietro Bellini raccontano la politica statunitense attraverso i protagonisti e le storie che aiutano a capire come sta cambiando l’America e in quale direzione si sta muovendo. Uno sguardo sulla politica e sulla società americana, per comprendere meglio anche il mondo in cui viviamo.",
       "website": "https://www.spreaker.com/show/altre-storie",
       "latest": [
+        {
+          "title": "[ENG] Trump and the New End Time Fascists | NAOMI KLEIN and ASTRA TAYLOR on Voci dall’America",
+          "date": "2026-11-27",
+          "seconds": 2191,
+          "url": null
+        },
+        {
+          "title": "Trump e i nuovi fascisti dell'Apocalisse | NAOMI KLEIN e ASTRA TAYLOR a Voci dall'America [ITA]",
+          "date": "2026-11-27",
+          "seconds": 2191,
+          "url": null
+        },
         {
           "title": "Trump ha perso le midterm. E adesso?",
           "date": "2026-11-20",
@@ -310,22 +275,10 @@
           "date": "2026-11-04",
           "seconds": 3018,
           "url": null
-        },
-        {
-          "title": "MIDTERM USA: Trump si gioca tutto?",
-          "date": "2026-10-30",
-          "seconds": 2854,
-          "url": null
-        },
-        {
-          "title": "Trump ha paura delle midterm",
-          "date": "2026-10-15",
-          "seconds": 3176,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:32.747Z"
+    "fetchedAt": "2026-11-28T13:07:32.306Z"
   },
   "podcast:altri orienti": {
     "value": {
@@ -385,36 +338,6 @@
       "latest": []
     },
     "fetchedAt": "2026-11-27T14:00:21.367Z"
-  },
-  "podcast:artificiale": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/artificiale/id6825456463",
-      "genres": [
-        "Tecnologia",
-        "News",
-        "Notizie di tecnologia"
-      ],
-      "episodes": 2,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/30/d4/6930d42f-3f11-98d4-87ce-79626c17a57e/mza_815377017795793243.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.spreaker.com/show/7484694/episodes/feed",
-      "description": "Le intelligenze artificiali inventano le cose, ci rubano il lavoro e le idee, sono scatole nere e un giorno, forse, potrebbero anche sterminarci. Ognuna di queste paure contiene una parte di verità. Alberto Puliafito le affronta una alla volta nelle sei puntate di Artificiale.\nAl suo fianco c’è Daniela, una co-conduttrice speciale e imprescindibile che lo aiuta a mettere in fila fatti, numeri e voci. E anche a prendersi meno sul serio.\nArtificiale è un podcast a livelli, come un videogame. Ogni mese si affronta, come se fosse un mostro finale, una delle tante paure che riguardano le ia. Finché, all’ultimo livello, la prospettiva si ribalta e si apre, finalmente, una strada diversa. Per appropriarsi degli strumenti in maniera critica, senza paura e senza cieco ottimismo.\nArtificiale è un podcast di Internazionale scritto e raccontato da Alberto Puliafito.\nProduzione e sound design: Vincenzo De Simone\nMusiche originali: Roberto Ribuoli",
-      "website": "https://www.spreaker.com/podcast/artificiale--7484694",
-      "latest": [
-        {
-          "title": "1. Allucinazioni",
-          "date": "2026-10-22",
-          "seconds": 2127,
-          "url": "https://www.spreaker.com/episode/1-allucinazioni--75903557"
-        },
-        {
-          "title": "Trailer",
-          "date": "2026-10-21",
-          "seconds": 115,
-          "url": "https://www.spreaker.com/episode/trailer--75903428"
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-21T09:35:00.198Z"
   },
   "podcast:b2b lounge": {
     "value": {
@@ -554,7 +477,7 @@
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:35.811Z"
+    "fetchedAt": "2026-11-28T13:08:02.407Z"
   },
   "podcast:brandy": {
     "value": {
@@ -565,45 +488,45 @@
         "News",
         "News - Affari"
       ],
-      "episodes": 1260,
+      "episodes": 1265,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/f1/11/9bf111f8-7be3-6684-3c48-003048fbdb10/mza_11891032912529896347.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/brandy",
       "description": "Brandy! Ogni settimana dal lunedì al venerdì un distillato di fatti curiosi dal magico mondo del marketing e del business in generale.\nMax Corona, già autore di Storie di Brand, ti porterà ogni mattina in un viaggio alla scoperta di tutte quelle invenzioni dimenticate che ci circondano, magici avventurieri nel mondo del marketing, campagne pubblicitarie e curiosi approfondimenti.\nChi ha inventato il divano letto? Quali sono le campagne pubblicitarie più famose della storia? Perché in Thailandia TUTTI odiano la Pepsi? Questo e molto altro nel tuo bicchiere di Brandy quotidiano.\n.\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/\n—\n📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
       "website": null,
       "latest": [
         {
-          "title": "VOLVO | un criceto al volante",
-          "date": "2026-11-20",
-          "seconds": 595,
+          "title": "Le pubblicità sono ovunque",
+          "date": "2026-11-27",
+          "seconds": 705,
           "url": null
         },
         {
-          "title": "L’assurda vena imprenditoriale di Ben Affleck",
-          "date": "2026-11-19",
-          "seconds": 1137,
+          "title": "Stiamo preparando uno SPETTACOLO",
+          "date": "2026-11-26",
+          "seconds": 853,
           "url": null
         },
         {
-          "title": "L’assurda attesa per GTA",
-          "date": "2026-11-18",
-          "seconds": 1094,
+          "title": "L'inganno del fornello",
+          "date": "2026-11-25",
+          "seconds": 633,
           "url": null
         },
         {
-          "title": "Il Robin Hood dei bitcoin",
-          "date": "2026-11-17",
-          "seconds": 463,
+          "title": "Ma Anthropic? È scoppiata la bolla dell'AI?",
+          "date": "2026-11-24",
+          "seconds": 663,
           "url": null
         },
         {
-          "title": "L’incredibile storia del premio strega",
-          "date": "2026-11-16",
-          "seconds": 638,
+          "title": "L’incredibile parabola dei Calciatori Panini",
+          "date": "2026-11-23",
+          "seconds": 553,
           "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:47.842Z"
+    "fetchedAt": "2026-11-28T13:07:56.412Z"
   },
   "podcast:casa zagato": {
     "value": {
@@ -704,12 +627,18 @@
       "genres": [
         "Cultura e società"
       ],
-      "episodes": 200,
+      "episodes": 201,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/bf/dc/a3bfdc90-8ad2-75d1-a530-57ed41a8a6ab/mza_15808895706461493237.png/600x600bb.jpg",
       "feedUrl": "https://d172q3toj7w1md.cloudfront.net/rss-xml-files/8fb9b8f2-590b-48f9-a566-a95b7950af68.xml",
       "description": "CHIEDILO ALLA STORIA:\nDopo due anni al fianco del professor Barbero, Davide Savelli affronta una nuova sfida: continuare ad appassionare il vasto pubblico degli amanti della Storia, cercando di soddisfare le loro infinite curiosità, grazie al contributo di storiche e storici, su qualsiasi argomento, personaggio e periodo. Ascoltate Chiedilo alla Storia!\nCHIEDILO A BARBERO:\nUn nuovo imperdibile appuntamento settimanale, in compagnia del Professore di storia più celebre del web, per rispondere a tutte le domande che hai sempre voluto fare sulla Storia, i suoi protagonisti e i suoi stravolgimenti. In questo talk podcast di Intesa Sanpaolo On Air e Chora Media, ogni settimana il Prof. Alessandro Barbero risponde a dubbi, perplessità e curiosità sulla materia che conosce meglio, la Storia, in un Q&A serrato che toccherà ogni epoca, senza risparmiare consigli di lettura, film da vedere, luoghi da visitare e musica da ascoltare.",
       "website": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air",
       "latest": [
+        {
+          "title": "Episodio 62: Game, Set, Storia!",
+          "date": "2026-11-25",
+          "seconds": 2815,
+          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
+        },
         {
           "title": "Episodio 61: La fiammata del '48",
           "date": "2026-11-18",
@@ -733,16 +662,10 @@
           "date": "2026-11-02",
           "seconds": 192,
           "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
-        },
-        {
-          "title": "Episodio 58: Un’altra storia delle donne medievali",
-          "date": "2026-10-28",
-          "seconds": 1561,
-          "url": "https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air"
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:44.790Z"
+    "fetchedAt": "2026-11-28T13:07:47.337Z"
   },
   "podcast:cibo per la mente": {
     "value": {
@@ -1085,38 +1008,38 @@
       "website": "https://www.deejay.it/programmi/deejay-chiama-italia/",
       "latest": [
         {
-          "title": "Addio a Corrado Augias",
-          "date": "2026-11-20",
-          "seconds": 282,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/addio-a-corrado-augias/"
+          "title": "Puntata del 27/11/2026",
+          "date": "2026-11-27",
+          "seconds": 5438,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-27-11-2026/"
         },
         {
-          "title": "E' tornato a trovarci Manu il nostro ascoltatore di Valencia",
-          "date": "2026-11-20",
-          "seconds": 148,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/e-tornato-a-trovarci-manu-il-nostro-ascoltatore-di-valencia/"
+          "title": "Aldo Rock del 27 novembre",
+          "date": "2026-11-27",
+          "seconds": 707,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/aldo-rock-del-27-novembre/"
         },
         {
-          "title": "Puntata del 20/11/2026",
-          "date": "2026-11-20",
-          "seconds": 5429,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-20-11-2026/"
+          "title": "i 50 anni di Anarchy in the UK",
+          "date": "2026-11-27",
+          "seconds": 234,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/i-50-anni-di-anarchy-in-the-uk/"
         },
         {
-          "title": "Puntata del 19/11/2026",
-          "date": "2026-11-19",
-          "seconds": 5470,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/puntate/deejay-chiama-italia-del-19-11-2026/"
+          "title": "Elisa presenta il suo nuovo album Kintsugi",
+          "date": "2026-11-26",
+          "seconds": 1061,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/elisa-presenta-il-suo-nuovo-album-kintsugi/"
         },
         {
-          "title": "Il giornalista Pier Luigi Pisa presenta il suo nuovo libro Cosa resterà di questi anni umani. Storie urgenti da conoscere prima che l'AI ci cambi del tutto",
-          "date": "2026-11-19",
-          "seconds": 795,
-          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/il-giornalista-pier-luigi-pisa-presenta-il-suo-nuovo-libro-cosa-restera-di-questi-anni-umani-storie-urgenti-da-conoscere-prima-che-lai-ci-cambi-del-tutto/"
+          "title": "Federica Brignone dice addio alle gare",
+          "date": "2026-11-26",
+          "seconds": 343,
+          "url": "https://www.deejay.it/programmi/deejay-chiama-italia/highlights/federica-brignone-dice-addio-alle-gare/"
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:39.130Z"
+    "fetchedAt": "2026-11-28T13:07:35.926Z"
   },
   "podcast:delitti invisibili": {
     "value": {
@@ -1304,6 +1227,53 @@
     },
     "fetchedAt": "2026-11-27T14:00:07.031Z"
   },
+  "podcast:direful tales": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/direful-tales/id1544996218",
+      "genres": [
+        "True crime",
+        "Istruzione"
+      ],
+      "episodes": 357,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c0/ad/f2/c0adf2fd-3a9c-de17-6743-0e2669581b45/mza_6408399598496336356.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/direfultales",
+      "description": "Misteri irrisolti e omicidi efferati sono i temi principali di Direful Tales. Lasciatevi guidare dalla voce di Valentina e sollevate con noi il velo dell'ignoto.\nVISITA IL NOSTRO SITO: https://www.direfultales.com/\nSEGUI SU INSTAGRAM: @direfultales\nSOSTIENICI SU PATREON: patreon.com/ladireful\nQuesto podcast fa parte dell'universo di VOIS. Per scoprire di più, segui @vois.fm su Instagram o visita il sito https://vois.fm/ — 📩 Per Collaborazioni o Sponsorship: sales@vois.fm",
+      "website": "https://www.direfultales.com/",
+      "latest": [
+        {
+          "title": "(9X13) Sto tornando a casa - Giulia Tramontano SECONDA PARTE",
+          "date": "2026-11-27",
+          "seconds": 3151,
+          "url": null
+        },
+        {
+          "title": "(9X12) Sto tornando a casa - Giulia Tramontano PRIMA PARTE",
+          "date": "2026-11-25",
+          "seconds": 2979,
+          "url": null
+        },
+        {
+          "title": "(9x11) Melania Rea",
+          "date": "2026-11-16",
+          "seconds": 4367,
+          "url": null
+        },
+        {
+          "title": "(9X10) Macelleria Messicana - La Scuola Diaz",
+          "date": "2026-11-09",
+          "seconds": 2759,
+          "url": null
+        },
+        {
+          "title": "(9X09) Carlo Giuliani - Ragazzo",
+          "date": "2026-11-02",
+          "seconds": 2285,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-28T13:07:44.275Z"
+  },
   "podcast:disastri": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/disastri/id1707532682",
@@ -1359,12 +1329,24 @@
         "News",
         "Economia"
       ],
-      "episodes": 517,
+      "episodes": 519,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/9a/ef/d4/9aefd4cc-15ff-a86f-8fe8-b97eaad8a9ad/mza_14603662794180435362.png/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/ISM3660516866",
       "description": "Don Chisciotte racconta l’attualità economica a partire dai dati e dai report delle più importanti istituzioni di statistica e ricerca sia a livello nazionale che internazionale, e da oggi si unisce al catalogo dei nostri podcast e nella nostra programmazione editoriale.\nIn un mondo in continua trasformazione, dove l'economia influenza ogni aspetto delle nostre vite, \"Don Chisciotte\" offre gli strumenti necessari per capire i cambiamenti che ci circondano per ispirare un mondo con un nuovo motore economico. Un podcast per lottare con i dati contro le frasi fatte e i mulini a vento del dibattito economico in Italia, condotto da Oscar Giannino con Carlo Alberto Carnevale Maffé e Renato Cifarelli.\nScopri di più sul sito: https://www.donchisciottepodcast.it",
       "website": "https://www.donchisciottepodcast.it",
       "latest": [
+        {
+          "title": "Industria italiana, il paradosso della solidità: imprese più robuste, crescita più lenta",
+          "date": "2026-11-27",
+          "seconds": 4016,
+          "url": null
+        },
+        {
+          "title": "NVIDIA, Huang torna per ordine di Trump: il capitalismo americano prende ordini dalla Casa Bianca",
+          "date": "2026-11-24",
+          "seconds": 4527,
+          "url": null
+        },
         {
           "title": "Anthropic vola, il Nasdaq affonda: il grande travaso di capitali nell’intelligenza artificiale",
           "date": "2026-11-20",
@@ -1382,22 +1364,10 @@
           "date": "2026-11-13",
           "seconds": 4349,
           "url": null
-        },
-        {
-          "title": "Banche italiane, il paradosso dei depositi: i tassi BCE rendono, i conti correnti quasi niente",
-          "date": "2026-11-10",
-          "seconds": 4074,
-          "url": null
-        },
-        {
-          "title": "Midterm USA: l’onda blu scuote Wall Street, il crollo dei titoli tech mette a nudo la fragilità dei mercati",
-          "date": "2026-11-06",
-          "seconds": 2871,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:50.787Z"
+    "fetchedAt": "2026-11-28T13:07:50.433Z"
   },
   "podcast:dpen crimini": {
     "value": {
@@ -2084,52 +2054,6 @@
     },
     "fetchedAt": "2026-11-27T13:59:39.382Z"
   },
-  "podcast:il volo del mattino": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/il-volo-del-mattino/id716679011",
-      "genres": [
-        "News"
-      ],
-      "episodes": 2000,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/a9/57/bc/a957bc9d-ca95-2a7a-3461-12c6d44a2514/mza_9442465047237481576.jpg/600x600bb.jpg",
-      "feedUrl": "https://www.omnycontent.com/d/playlist/60311b15-274a-4e3f-8ba9-ac3000834f37/01821ba4-b896-495c-bd4f-ae3d00a7c45d/5e153015-3c8c-423b-8593-ae3d00a7c474/podcast.rss",
-      "description": "Fabio Volo ti aspetta in diretta da lunedì a venerdì alle 9. Solo su Radio Deejay.",
-      "website": "https://www.deejay.it/programmi/il-volo-del-mattino/",
-      "latest": [
-        {
-          "title": "Puntata del 20/11/2026",
-          "date": "2026-11-20",
-          "seconds": 2616,
-          "url": "https://www.deejay.it/programmi/il-volo-del-mattino/puntate/il-volo-del-mattino-del-20-11-2026/"
-        },
-        {
-          "title": "Il momento elettronico di Maurizio Rossato del 20 novembre",
-          "date": "2026-11-20",
-          "seconds": 214,
-          "url": "https://www.deejay.it/programmi/il-volo-del-mattino/highlights/il-momento-elettronico-di-maurizio-rossato-del-20-novembre/"
-        },
-        {
-          "title": "Puntata del 19/11/2026",
-          "date": "2026-11-19",
-          "seconds": 2654,
-          "url": "https://www.deejay.it/programmi/il-volo-del-mattino/puntate/il-volo-del-mattino-del-19-11-2026/"
-        },
-        {
-          "title": "Igor Sibaldi: crearsi un proprio linguaggio interiore",
-          "date": "2026-11-19",
-          "seconds": 190,
-          "url": "https://www.deejay.it/programmi/il-volo-del-mattino/highlights/igor-sibaldi-crearsi-un-proprio-linguaggio-interiore/"
-        },
-        {
-          "title": "Puntata del 18/11/2026",
-          "date": "2026-11-18",
-          "seconds": 2712,
-          "url": "https://www.deejay.it/programmi/il-volo-del-mattino/puntate/il-volo-del-mattino-del-18-11-2026/"
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-21T09:34:53.944Z"
-  },
   "podcast:indagini": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/indagini/id1616476688",
@@ -2314,52 +2238,6 @@
       ]
     },
     "fetchedAt": "2026-11-27T14:00:36.400Z"
-  },
-  "podcast:la nave dei folli": {
-    "value": {
-      "appleUrl": "https://podcasts.apple.com/it/podcast/la-nave-dei-folli-oltre-la-ragione/id6789093821",
-      "genres": [
-        "Storia"
-      ],
-      "episodes": 9,
-      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b0/87/2bb08791-c3cf-aefb-173c-65cef78faa7a/mza_3998337075389507545.jpg/600x600bb.jpg",
-      "feedUrl": "https://feeds.megaphone.fm/SIS2435187807",
-      "description": "Per gli antichi coloro che non ubbidivano alle convenzioni sociali venivano condannati a una vita errante: abbandonati a bordo di una nave che li tenesse lontani dalla città, senza possibilità di ritorno alla terra ferma. Ma è possibile che i grandi personaggi che la storia ci ha tramandato come eccentrici, diversi o addirittura pazzi, siano stati troppo moderni per il loro tempo, vittime di giochi di potere o semplicemente affetti da malattie all’epoca sconosciute?\n“La nave dei folli. Oltre la ragione” è la nuova docuserie Sky Exclusive che attraverso le incredibili vite di personaggi del passato, racconta lo stigma della diversità nel corso della storia.\nE grazie al racconto di Carlo Lucarelli e all’intreccio di fatti storici con le testimonianze di esperti sugli studi psichiatrici più recenti, cerca di porre nuove domande scavando a fondo nella dimensione umana di personaggi del passato che forse appartenevano già al futuro. Persone così differenti le cui storie meritano di essere raccontate di nuovo, forse riabilitate, almeno comprese.",
-      "website": null,
-      "latest": [
-        {
-          "title": "Episodio 8 | Cesare Lombroso e Lev Tolstoj",
-          "date": "2026-08-04",
-          "seconds": 2588,
-          "url": null
-        },
-        {
-          "title": "Episodio 7 | Giovanna di Castiglia",
-          "date": "2026-08-04",
-          "seconds": 2005,
-          "url": null
-        },
-        {
-          "title": "Episodio 6 | Lorenzo Lotto",
-          "date": "2026-07-28",
-          "seconds": 2324,
-          "url": null
-        },
-        {
-          "title": "Episodio 5 | Madeleine Pelletier",
-          "date": "2026-07-28",
-          "seconds": 2231,
-          "url": null
-        },
-        {
-          "title": "Episodio 4 | Vaslav Nijinsky",
-          "date": "2026-07-21",
-          "seconds": 2290,
-          "url": null
-        }
-      ]
-    },
-    "fetchedAt": "2026-11-21T09:35:05.763Z"
   },
   "podcast:la zanzara": {
     "value": {
@@ -2552,45 +2430,45 @@
       "genres": [
         "News"
       ],
-      "episodes": 1347,
+      "episodes": 1352,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/b1/37/78b1373a-414d-4275-5af2-d2b0ecbbdbd4/mza_4557844297068798423.jpg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/ISOS1907906070",
       "description": "Le variabili che influenzano l’andamento dei listini, le storie societarie del momento e i protagonisti dell’attualità finanziaria. Questi e altri temi sono oggetto di approfondimento di Market Mover, il podcast del Sole 24 Ore che vi racconta le notizie che muovono i mercati. Dal lunedì al sabato il punto sui mercati finanziari, l’analisi dello scenario e delle prospettive future ma anche l’approfondimento delle notizie societarie più importanti. L’attualità finanziaria più complessa spiegata con parole semplici.",
       "website": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3",
       "latest": [
         {
-          "title": "Truffe online, quando la banca è obbligata al rimborso",
-          "date": "2026-11-21",
-          "seconds": 871,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/truffe-online-quando-banca-e-obbligata-rimborso-AJK4mtNC"
+          "title": "Il caso Deutsche Bank e i fondi Esg",
+          "date": "2026-11-28",
+          "seconds": 1022,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/il-caso-deutsche-bank-e-fondi-esg-AJ1TcHVC"
         },
         {
-          "title": "Anthropic, debutto col botto",
-          "date": "2026-11-20",
-          "seconds": 834,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/anthropic-debutto-col-botto-AJIxHWMC"
+          "title": "Oro e metalli preda dell’orso",
+          "date": "2026-11-27",
+          "seconds": 1098,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/oro-e-metalli-preda-dell-orso-AJ3Q6PUC"
         },
         {
-          "title": "La pericolosa tela di Jensen Huang",
-          "date": "2026-11-19",
-          "seconds": 941,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/la-pericolosa-tela-jensen-huang-AJ9SGDLC"
+          "title": "Quali effetti sull’economia dallo “sboom Ai”?",
+          "date": "2026-11-25",
+          "seconds": 953,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/quali-effetti-sull-economia-sboom-ai-AJ9OEhRC"
         },
         {
-          "title": "Borsa, perché l’Europa regge meglio",
-          "date": "2026-11-18",
-          "seconds": 787,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/borsa-perche-l-europa-regge-meglio-AJ9fhrJC"
+          "title": "Jensen torna, le domande restano",
+          "date": "2026-11-24",
+          "seconds": 1145,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/jensen-torna-domande-restano-AJ4VxZQC"
         },
         {
-          "title": "Il crollo di Nvidia e il test dei conti",
-          "date": "2026-11-17",
-          "seconds": 948,
-          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/il-crollo-nvidia-e-test-conti-AJF3IiIC"
+          "title": "Auto, la frenata del mercato cinese",
+          "date": "2026-11-23",
+          "seconds": 970,
+          "url": "https://podcast.ilsole24ore.com/serie/market-mover-ADIwje3/auto-frenata-mercato-cinese-AJKAXOPC"
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:41.867Z"
+    "fetchedAt": "2026-11-28T13:07:38.368Z"
   },
   "podcast:miti da sfatare": {
     "value": {
@@ -2683,6 +2561,52 @@
       ]
     },
     "fetchedAt": "2026-11-27T13:59:42.540Z"
+  },
+  "podcast:nessun luogo e lontano": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/nessun-luogo-%C3%A8-lontano/id673961966",
+      "genres": [
+        "News"
+      ],
+      "episodes": 35,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/01/65/d4/0165d45b-146a-2ce3-136f-e96d2456f419/mza_7859702383535306488.jpg/600x600bb.jpg",
+      "feedUrl": "https://backr24.ilsole24ore.com/podcast/luogo-lontano.xml",
+      "description": "Storie, notizie, analisi, per raccontare ogni giorno tutto ciò che accade fuori dai confini italiani. Fatti apparentemente lontani che ci riguardano sempre di più, quotidianamente. Dopo un anno di reportage, Giampaolo Musumeci posa lo zaino, accende il microfono e accoglie reporter, fotografi, analisti, i più autorevoli a livello internazionale.",
+      "website": "https://www.radio24.ilsole24ore.com/programmi/luogo-lontano",
+      "latest": [
+        {
+          "title": "Dalla Libia al Golfo: caos e venti di guerra",
+          "date": "2026-11-27",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261127-luogo-lontano.mp3?awCollectionId=luogo-lontano&awEpisodeId=261127-luogo-lontano"
+        },
+        {
+          "title": "Russia in Africa, istruzioni per l’uso",
+          "date": "2026-11-26",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261126-luogo-lontano.mp3?awCollectionId=luogo-lontano&awEpisodeId=261126-luogo-lontano"
+        },
+        {
+          "title": "Libia: caos e guerra nel Mediterraneo",
+          "date": "2026-11-25",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261125-luogo-lontano.mp3?awCollectionId=luogo-lontano&awEpisodeId=261125-luogo-lontano"
+        },
+        {
+          "title": "Russia e Ucraina, guerra globale",
+          "date": "2026-11-24",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261124-luogo-lontano.mp3?awCollectionId=luogo-lontano&awEpisodeId=261124-luogo-lontano"
+        },
+        {
+          "title": "Russia e Ucraina in Libia: venti di guerra nel Mediterraneo",
+          "date": "2026-11-23",
+          "seconds": null,
+          "url": "https://podcast-radio24.ilsole24ore.com/radio24_audio/2026/261123-luogo-lontano.mp3?awCollectionId=luogo-lontano&awEpisodeId=261123-luogo-lontano"
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-28T13:07:54.073Z"
   },
   "podcast:noir italiano": {
     "value": {
@@ -2893,12 +2817,24 @@
       "genres": [
         "News"
       ],
-      "episodes": 209,
+      "episodes": 211,
       "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fe/33/2a/fe332ab6-7188-1aee-8af5-d42d170c1cdd/mza_15339167274041311372.jpeg/600x600bb.jpg",
       "feedUrl": "https://feeds.megaphone.fm/MCR6971806545",
       "description": "Il podcast che ti racconta le notizie che ci riguardano, anche quando non sembra, e soprattutto dove ci domandiamo: e adesso, cosa accade?",
       "website": null,
       "latest": [
+        {
+          "title": "Starlink: chi controlla internet che arriva dal cielo",
+          "date": "2026-11-26",
+          "seconds": 1135,
+          "url": null
+        },
+        {
+          "title": "Cosa accade in Israele?",
+          "date": "2026-11-23",
+          "seconds": 1180,
+          "url": null
+        },
         {
           "title": "Presidente judoka?",
           "date": "2026-11-19",
@@ -2916,22 +2852,10 @@
           "date": "2026-11-12",
           "seconds": 764,
           "url": null
-        },
-        {
-          "title": "Chi ha paura dei data center?",
-          "date": "2026-11-09",
-          "seconds": 1117,
-          "url": null
-        },
-        {
-          "title": "Hackerare un supermarket",
-          "date": "2026-11-05",
-          "seconds": 753,
-          "url": null
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:30.190Z"
+    "fetchedAt": "2026-11-28T13:07:30.050Z"
   },
   "podcast:one more time di luca casadei": {
     "value": {
@@ -3351,6 +3275,54 @@
     },
     "fetchedAt": "2026-11-26T14:03:13.392Z"
   },
+  "podcast:qui si fa l italia": {
+    "value": {
+      "appleUrl": "https://podcasts.apple.com/it/podcast/qui-si-fa-litalia/id1765112255",
+      "genres": [
+        "Storia",
+        "Cultura e società",
+        "Documentari"
+      ],
+      "episodes": 66,
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/45/77/384577f0-7591-926b-b847-ee767dc789f1/mza_16213173384278797334.jpg/600x600bb.jpg",
+      "feedUrl": "https://feeds.megaphone.fm/GLT7311128613",
+      "description": "Lorenzo Pregliasco e Lorenzo Baravalle raccontano i momenti che hanno fatto la storia dell’Italia a chi come loro non li ha vissuti.\nUn nuovo episodio di Qui Si Fa l’Italia esce in due parti tutti i mesi, il 27 del mese, su tutte le piattaforme.",
+      "website": null,
+      "latest": [
+        {
+          "title": "Roberto Calvi, il banchiere dei misteri italiani - 1^ parte",
+          "date": "2026-11-27",
+          "seconds": 2441,
+          "url": null
+        },
+        {
+          "title": "Roberto Calvi, il banchiere dei misteri italiani - 2^ parte",
+          "date": "2026-11-27",
+          "seconds": 2549,
+          "url": null
+        },
+        {
+          "title": "Marco Pannella: l'uomo che ha fatto impazzire la politica italiana",
+          "date": "2026-10-31",
+          "seconds": 1112,
+          "url": null
+        },
+        {
+          "title": "Oriana Fallaci, la storia e la rabbia - 1^ parte",
+          "date": "2026-10-27",
+          "seconds": 1797,
+          "url": null
+        },
+        {
+          "title": "Oriana Fallaci, la storia e la rabbia - 2^ parte",
+          "date": "2026-10-27",
+          "seconds": 2115,
+          "url": null
+        }
+      ]
+    },
+    "fetchedAt": "2026-11-28T13:07:41.333Z"
+  },
   "podcast:scienze x storia": {
     "value": {
       "appleUrl": "https://podcasts.apple.com/it/podcast/scienze-x-storia/id1861335841",
@@ -3517,38 +3489,38 @@
       "website": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD",
       "latest": [
         {
-          "title": "La ricerca del sonno perfetto, l’art on prescription e le tribù aziendali",
-          "date": "2026-11-21",
-          "seconds": 856,
-          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/la-ricerca-sonno-perfetto-l-art-on-prescription-e-tribu-aziendali-AJYFdQNC"
+          "title": "Rapporti, trasformazioni, scelte",
+          "date": "2026-11-28",
+          "seconds": 1199,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/rapporti-trasformazioni-scelte-AJY8dpUC"
         },
         {
-          "title": "Uscire di casa durante la malattia dal lavoro, il licenziamento in gravidanza e i motorini nei cortili condominiali",
-          "date": "2026-11-20",
-          "seconds": 660,
-          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/uscire-casa-la-malattia-lavoro-licenziamento-gravidanza-e-motorini-cortili-condominiali-AJuVTXMC"
+          "title": "I libri scolastici a metà prezzo, i risarcimenti per la muffa in casa e il bonus per chi è disoccupato",
+          "date": "2026-11-27",
+          "seconds": 597,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/i-libri-scolastici-meta-prezzo-risarcimenti-la-muffa-casa-e-bonus-chi-e-disoccupato-AJhK7qTC"
         },
         {
-          "title": "Top ten del welfare scolastico, come aumentare la pioggia a Dubai e il filo interdentale che “misura” la salute",
-          "date": "2026-11-19",
-          "seconds": 577,
-          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/top-ten-welfare-scolastico-come-aumentare-pioggia-dubai-e-filo-interdentale-che-misura-salute-AJ9bjJLC"
+          "title": "I figli delle donne vittime di violenza, la patente digitale e quando un cambio di turno può essere contestato",
+          "date": "2026-11-25",
+          "seconds": 603,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/i-figli-donne-vittime-violenza-patente-digitale-e-quando-cambio-turno-puo-essere-contestato-AJAC2iRC"
         },
         {
-          "title": "Riserve di gas per l’inverno, senza dimora, più satelliti che stelle",
-          "date": "2026-11-18",
-          "seconds": 664,
-          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/riserve-gas-l-inverno-senza-dimora-piu-satelliti-che-stelle-AJdnL6JC"
+          "title": "Le spese scolastiche nel 730, le scadenze della rottamazione e i rischi dei bonifici ai familiari",
+          "date": "2026-11-24",
+          "seconds": 641,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/le-spese-scolastiche-730-scadenze-rottamazione-e-rischi-bonifici-familiari-AJZz0SQC"
         },
         {
-          "title": "Spese veterinarie, Revolut e Pos in chiesa",
-          "date": "2026-11-17",
-          "seconds": 551,
-          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/spese-veterinarie-revolut-e-pos-chiesa-AJaRPsIC"
+          "title": "Il taglia-bonus per i redditi alti, gli investimenti al riparo dall’AI e il divieto di social sotto i 13 anni",
+          "date": "2026-11-23",
+          "seconds": 549,
+          "url": "https://podcast.ilsole24ore.com/serie/start-ADRW1cD/il-taglia-bonus-i-redditi-alti-investimenti-riparo-dall-ai-e-divieto-social-sotto-13-anni-AJnmbzNC"
         }
       ]
     },
-    "fetchedAt": "2026-11-21T09:34:56.949Z"
+    "fetchedAt": "2026-11-28T13:07:59.472Z"
   },
   "podcast:storie di brand": {
     "value": {
